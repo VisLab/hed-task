@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  hed-task-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=development
+    volumes:
+      - ./src:/app/src:ro  # Mount source for development
+    command: uv run uvicorn hed_task.api:app --host 0.0.0.0 --port 8000 --reload
