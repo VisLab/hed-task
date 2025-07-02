@@ -6,10 +6,6 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 10
-    reviewers:
-      - "VisLab/hed-task-maintainers"
-    assignees:
-      - "VisLab/hed-task-maintainers"
     commit-message:
       prefix: "deps"
       include: "scope"
