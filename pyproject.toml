@@ -146,3 +146,7 @@ link-mode = "copy"
 format = "cyclonedx-json"
 require-hashes = false
 index-url = "https://pypi.org/simple"
+
+[tool.bandit]
+exclude_dirs = ["tests", "scripts"]
+skips = ["B101", "B601"]  # Skip assert_used and shell_injection_process_args if needed

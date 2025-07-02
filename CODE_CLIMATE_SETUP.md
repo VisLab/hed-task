@@ -44,7 +44,7 @@ The `.codeclimate.yml` file has been created with sensible defaults for Python p
 ## Benefits for Your Project
 
 ✅ **Automated Quality Checks**: Every PR gets automatic code quality feedback
-✅ **Coverage Tracking**: Test coverage trends and PR-level coverage changes  
+✅ **Coverage Tracking**: Test coverage trends and PR-level coverage changes
 ✅ **Maintainability Metrics**: Clear A-F grades help prioritize improvements
 ✅ **Security Analysis**: Bandit integration for security issue detection
 ✅ **Style Consistency**: PEP8, pycodestyle, and pydocstyle integration
