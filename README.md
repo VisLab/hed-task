@@ -1,5 +1,10 @@
 # HED Task
 
+[![CI](https://github.com/VisLab/hed-task/actions/workflows/ci.yml/badge.svg)](https://github.com/VisLab/hed-task/actions/workflows/ci.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/YOUR_REPO_ID/maintainability)](https://codeclimate.com/github/VisLab/hed-task/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/YOUR_REPO_ID/test_coverage)](https://codeclimate.com/github/VisLab/hed-task/test_coverage)
+[![codecov](https://codecov.io/gh/VisLab/hed-task/branch/main/graph/badge.svg)](https://codecov.io/gh/VisLab/hed-task)
+
 Exploration of task structure and its annotation with HED (Hierarchical Event Descriptors).
 
 ## Features

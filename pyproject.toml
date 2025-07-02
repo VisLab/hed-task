@@ -21,29 +21,30 @@ classifiers = [
 ]
 requires-python = ">=3.9"
 dependencies = [
-    "fastapi",
-    "typer",
-    "pandas",
-    "pydantic-settings",
-    "uvicorn[standard]",
+    "fastapi>=0.104.0",
+    "typer>=0.9.0",
+    "pandas>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "uvicorn[standard]>=0.24.0",
     "cognitiveatlas @ git+https://github.com/CognitiveAtlas/cogat-python.git",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest",
-    "pytest-cov",
-    "pytest-asyncio",
-    "httpx",  # for testing FastAPI
-    "ruff",
-    "mypy",
-    "pre-commit",
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "pytest-asyncio>=0.21.0",
+    "httpx>=0.25.0",  # for testing FastAPI
+    "ruff>=0.1.0",
+    "mypy>=1.6.0",
+    "pre-commit>=3.5.0",
+    "pip-audit>=2.6.0",
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/hed-task"
-Repository = "https://github.com/yourusername/hed-task"
-Issues = "https://github.com/yourusername/hed-task/issues"
+Homepage = "https://github.com/VisLab/hed-task"
+Repository = "https://github.com/VisLab/hed-task"
+Issues = "https://github.com/VisLab/hed-task/issues"
 
 [project.scripts]
 hed-task = "hed_task.cli:app"
@@ -134,3 +135,14 @@ allow-direct-references = true
 
 [tool.uv]
 link-mode = "copy"
+
+[tool.pip-audit]
+# pip-audit configuration
+# Add vulnerability IDs to ignore if needed (format: VULN-ID)
+# ignore-vulns = [
+#     "PYSEC-2023-123",
+#     "GHSA-xxxx-xxxx-xxxx",
+# ]
+format = "cyclonedx-json"
+require-hashes = false
+index-url = "https://pypi.org/simple"

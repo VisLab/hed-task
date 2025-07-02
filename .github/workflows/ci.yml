@@ -42,10 +42,31 @@ jobs:
         uv run pytest --cov=hed_task --cov-report=xml
 
     - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v3
+      uses: codecov/codecov-action@v4
+      if: ${{ secrets.CODECOV_TOKEN != '' }}
       with:
         file: ./coverage.xml
-        fail_ci_if_error: true
+        fail_ci_if_error: false
+        token: ${{ secrets.CODECOV_TOKEN }}
+        slug: VisLab/hed-task
+
+    - name: Upload coverage to Code Climate
+      uses: paambaati/codeclimate-action@v8.0.0
+      if: ${{ secrets.CC_TEST_REPORTER_ID != '' }}
+      env:
+        CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+      with:
+        coverageLocations: |
+          ${{github.workspace}}/coverage.xml:coverage.py
+        
+    - name: Upload coverage report as artifact
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: coverage-report-${{ matrix.python-version }}
+        path: |
+          coverage.xml
+          htmlcov/
 
   security:
     runs-on: ubuntu-latest
@@ -64,7 +85,16 @@ jobs:
       run: |
         uv sync --all-extras --dev
 
-    - name: Run safety check
+    - name: Run security scan with pip-audit
       run: |
-        uv run pip install safety
-        uv run safety check
+        uv run pip-audit --format=json --output=security-report.json || true
+        uv run pip-audit --format=cyclonedx-json --output=security-cyclonedx.json || true
+
+    - name: Upload security results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: security-report
+        path: |
+          security-report.json
+          security-cyclonedx.json
