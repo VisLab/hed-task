@@ -7,18 +7,18 @@ from hed_task.cli import app
 runner = CliRunner()
 
 
-def test_hello_default():
-    """Test hello command with default name."""
-    result = runner.invoke(app, ["hello"])
+def test_collect_tasks_help():
+    """Test collect-tasks command help."""
+    result = runner.invoke(app, ["collect-tasks", "--help"])
     assert result.exit_code == 0
-    assert "Hello World!" in result.stdout
+    assert "Collect all task data from Cognitive Atlas API" in result.stdout
 
 
-def test_hello_with_name():
-    """Test hello command with custom name."""
-    result = runner.invoke(app, ["hello", "Alice"])
+def test_generate_citations_help():
+    """Test generate-citations command help."""
+    result = runner.invoke(app, ["generate-citations", "--help"])
     assert result.exit_code == 0
-    assert "Hello Alice!" in result.stdout
+    assert "Generate citation summary from collected task data" in result.stdout
 
 
 def test_version():

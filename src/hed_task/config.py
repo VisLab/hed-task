@@ -11,10 +11,8 @@ class Settings(BaseSettings):
     # Application
     app_name: str = "HED Task"
     app_version: str = "0.1.0"
-    debug: bool = False
-
-    # API
-    api_host: str = "0.0.0.0"
+    debug: bool = False  # API
+    api_host: str = "127.0.0.1"  # Default to localhost for security
     api_port: int = 8000
 
     # Database (if needed later)

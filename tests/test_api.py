@@ -16,9 +16,6 @@ def test_health_check(client):
 
 
 def test_version_endpoint(client):
-    """Test the version endpoint."""
+    """Test that version endpoint doesn't exist (returns 404)."""
     response = client.get("/version")
-    assert response.status_code == 200
-    data = response.json()
-    assert "version" in data
-    assert data["version"] == "0.1.0"
+    assert response.status_code == 404

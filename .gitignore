@@ -214,7 +214,7 @@ __marimo__/
 uv.lock
 
 # Task data directories
-src/task_data/
+src/cogat_data/
 
 # IDE
 .vscode/
