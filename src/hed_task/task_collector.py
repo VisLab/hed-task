@@ -1,3 +1,9 @@
+"""Task information collection from Cognitive Atlas API.
+
+This module provides functions to collect and organize task data from the
+Cognitive Atlas API, creating structured directories and files for each task.
+"""
+
 import json
 from pathlib import Path
 from typing import Any, Optional, cast
@@ -9,7 +15,15 @@ from cognitiveatlas.api import get_task
 def retrieve_task_info(
     task_id: str, task_name: Optional[str] = None
 ) -> Optional[dict[str, Any]]:
-    """Retrieve detailed task information for a specific task ID."""
+    """Retrieve detailed task information for a specific task ID.
+
+    Args:
+        task_id: The task identifier
+        task_name: Optional task name for the API call
+
+    Returns:
+        Task details as dictionary, or None if retrieval failed
+    """
     try:
         task = get_task(id=task_id, name=task_name)
         return task.json if task else None
@@ -19,7 +33,11 @@ def retrieve_task_info(
 
 
 def retrieve_tasks() -> pd.DataFrame:
-    """Retrieve the full list of tasks from Cognitive Atlas API."""
+    """Retrieve the full list of tasks from Cognitive Atlas API.
+
+    Returns:
+        DataFrame containing all available tasks, or empty DataFrame on error
+    """
     try:
         task_list = get_task().json
         # Convert the task list to a DataFrame for easier manipulation
@@ -31,12 +49,19 @@ def retrieve_tasks() -> pd.DataFrame:
 
 
 def process_all_tasks(output_dir: str = "task_data") -> Optional[pd.DataFrame]:
-    """
-    Complete workflow to process all tasks from Cognitive Atlas API:
-    1. Retrieve the full list of tasks
-    2. Create directories for each task
-    3. Get detailed task info and save to individual files
-    4. Create and save summary DataFrame
+    """Complete workflow to process all tasks from Cognitive Atlas API.
+
+    This function:
+    1. Retrieves the full list of tasks
+    2. Creates directories for each task
+    3. Gets detailed task info and saves to individual JSON files
+    4. Creates and saves summary DataFrame as TSV
+
+    Args:
+        output_dir: Directory where task data will be saved
+
+    Returns:
+        Summary DataFrame if successful, None otherwise
     """
     # Create main output directory
     output_path = Path(output_dir)
@@ -111,10 +136,10 @@ def process_all_tasks(output_dir: str = "task_data") -> Optional[pd.DataFrame]:
     if summary_data:
         summary_df = pd.DataFrame(summary_data)
 
-        # Save summary DataFrame as CSV
-        summary_csv = output_path / "task_summary.csv"
-        summary_df.to_csv(summary_csv, index=False)
-        print(f"\n✓ Saved summary DataFrame to {summary_csv}")
+        # Save summary DataFrame as TSV (tab-separated values)
+        summary_tsv = output_path / "task_summary.tsv"
+        summary_df.to_csv(summary_tsv, sep="\t", index=False)
+        print(f"\n✓ Saved summary DataFrame to {summary_tsv}")
 
         # Also save as JSON for convenience
         summary_json = output_path / "task_summary.json"
@@ -127,13 +152,14 @@ def process_all_tasks(output_dir: str = "task_data") -> Optional[pd.DataFrame]:
         print(f"  Failed: {failed_tasks}")
         print(f"  Output directory: {output_path.absolute()}")
 
+        return summary_df
     else:
         print("\nNo successful tasks processed.")
-    return None
+        return None
 
 
 if __name__ == "__main__":
-    # Run the complete workflow
+    # Run the complete workflow with default settings
     summary = process_all_tasks()
     if summary is not None:
         print(f"\nSummary DataFrame shape: {summary.shape}")
