@@ -213,6 +213,9 @@ __marimo__/
 .ruff_cache/
 uv.lock
 
+# Task data directories
+src/task_data/
+
 # IDE
 .vscode/
 .idea/
