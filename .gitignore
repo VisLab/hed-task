@@ -137,3 +137,6 @@ hed_cache/
 spec_tests/hed-specification/tests
 spec_tests/hed-examples
 spec_tests/*.json
+
+# Claude Code (machine-specific local settings; shared settings.json is committed)
+.claude/settings.local.json
