@@ -11,7 +11,7 @@ The catalog provides standard definitions, inclusion criteria, named variations,
 | Tasks               | 103   |
 | Cognitive processes | 172   |
 | Process categories  | 19    |
-| Task–process links  | 486   |
+| Task-process links  | 486   |
 
 ## Contents
 
@@ -22,5 +22,7 @@ maxdepth: 2
 tasks/index
 processes/index
 crossref
+atlas/index
+methodology/index
 criteria/index
 ```

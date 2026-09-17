@@ -15,7 +15,9 @@ def load_json(path: Path) -> dict | list:
 def write_page(path: Path, content: str) -> None:
     """Write a UTF-8 text file, creating parent dirs as needed."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
+    # newline="" suppresses the Windows CRLF translation that would otherwise
+    # conflict with the eol=lf policy in .gitattributes.
+    with open(path, "w", encoding="utf-8", newline="") as f:
         f.write(content)
 
 

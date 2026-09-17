@@ -140,3 +140,6 @@ spec_tests/*.json
 
 # Claude Code (machine-specific local settings; shared settings.json is committed)
 .claude/settings.local.json
+
+# Cognitive Atlas raw archive (see src/fetch_cog_data.py)
+.cog_data/

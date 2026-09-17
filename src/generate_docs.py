@@ -15,10 +15,14 @@ if str(_HERE) not in sys.path:
     sys.path.insert(0, str(_HERE))
 
 from generators import (  # noqa: E402
+    atlas_pages,
     criteria_pages,
+    crossref_atlas_pages,
     crossref_page,
     index_page,
+    methodology_pages,
     process_pages,
+    relationship_page,
     task_pages,
 )
 from generators.utils import load_json  # noqa: E402
@@ -39,6 +43,10 @@ def main() -> None:
     proc_data: dict = load_json(working_dir / "process_details.json")
     categories: list[dict] = proc_data["categories"]
     processes: list[dict] = proc_data["processes"]
+
+    # Derived from the external Cognitive Atlas harvest by src/build_atlas_data.py.
+    print("Loading atlas_summary.json …")
+    atlas_data: dict = load_json(working_dir / "atlas_summary.json")
 
     # ------------------------------------------------------------------
     # Build lookup dicts
@@ -72,6 +80,24 @@ def main() -> None:
     print("Generating docs/crossref.md …")
     crossref_page.generate(docs_dir, tasks, processes, categories)
     total_files += 1
+
+    print("Generating docs/atlas/ …")
+    n = atlas_pages.generate(docs_dir, atlas_data)
+    total_files += n
+    print(f"  Wrote {n} atlas files.")
+
+    print("Generating docs/atlas/ crossref pages …")
+    n = crossref_atlas_pages.generate(docs_dir, working_dir)
+    total_files += n
+    print(f"  Wrote {n} atlas crossref files.")
+
+    print("Generating docs/atlas/relationship.md …")
+    total_files += relationship_page.generate(docs_dir, working_dir, atlas_data)
+
+    print("Generating docs/methodology/ …")
+    n = methodology_pages.generate(docs_dir, working_dir)
+    total_files += n
+    print(f"  Wrote {n} methodology files.")
 
     print("Generating docs/criteria/ …")
     n = criteria_pages.generate(docs_dir, working_dir)

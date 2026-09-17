@@ -38,7 +38,7 @@ across laboratories and datasets.
 | Tasks | {total_tasks} |
 | Cognitive processes | {total_processes} |
 | Process categories | {total_categories} |
-| Task–process links | {total_links} |
+| Task-process links | {total_links} |
 
 ## Contents
 
@@ -48,6 +48,8 @@ across laboratories and datasets.
 tasks/index
 processes/index
 crossref
+atlas/index
+methodology/index
 criteria/index
 ```
 """
