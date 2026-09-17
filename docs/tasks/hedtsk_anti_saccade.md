@@ -92,4 +92,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949869)
+- Cognitive Atlas: [antisaccade/prosaccade task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949869)

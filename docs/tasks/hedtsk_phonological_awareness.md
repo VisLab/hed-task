@@ -95,4 +95,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4f243fe622ded)
+- Cognitive Atlas: [rhyme verification task](https://www.cognitiveatlas.org/task/id/trm_4d949c5b0e380) (related match)

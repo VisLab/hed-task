@@ -114,8 +114,13 @@ def _load_listing(path: Path) -> list[dict]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def _load_details(directory: Path) -> dict[str, dict]:
-    """Load every archived detail record in directory, keyed by record id.
+def _load_details(directory: Path, keep: set[str]) -> dict[str, dict]:
+    """Load archived detail records in directory, keyed by record id.
+
+    Only ids present in `keep`, the current bulk listing, are returned. The archive is
+    additive: `fetch_cog_data.py` does not delete a detail file when an entity leaves
+    the Atlas, so globbing the directory would otherwise fold records for entities that
+    no longer exist into the statistics.
 
     A detail response is a one-element list wrapping the record, so unwrap it.
     """
@@ -126,7 +131,7 @@ def _load_details(directory: Path) -> dict[str, dict]:
         record = json.loads(file.read_text(encoding="utf-8"))
         if isinstance(record, list):
             record = record[0] if record else {}
-        if record.get("id"):
+        if record.get("id") and record["id"] in keep:
             out[record["id"]] = record
     return out
 
@@ -445,15 +450,26 @@ def _years(tasks: list[dict], concepts: list[dict]) -> list[dict]:
 def build(archive: Path) -> dict:
     concepts = _load_listing(archive / "listings" / "concept.json")
     task_listing = _load_listing(archive / "listings" / "task.json")
-    task_details = _load_details(archive / "task")
-    concept_details = _load_details(archive / "concept")
+    task_ids = {t["id"] for t in task_listing if t.get("id")}
+    concept_ids = {c["id"] for c in concepts if c.get("id")}
+    task_details = _load_details(archive / "task", task_ids)
+    concept_details = _load_details(archive / "concept", concept_ids)
 
     if not task_details:
         raise SystemExit(f"No task detail records under {archive / 'task'}. Run src/fetch_cog_data.py first.")
 
-    # Use detail records for tasks (they carry concepts, contrasts, citations);
-    # fall back to the bulk listing for any task whose detail fetch failed.
-    tasks = [task_details.get(t["id"], t) for t in task_listing if t.get("id")]
+    # Statistics come from detail records only. A listing record carries no concepts,
+    # contrasts or citations, so substituting one for a missing detail would silently
+    # understate those counts; a missing detail reduces the denominator instead, and
+    # the inventory reports listed against retrieved so the shortfall is visible.
+    missing = sorted(task_ids - set(task_details))
+    if missing:
+        print(
+            f"WARNING: {len(missing)} listed tasks have no detail record and are "
+            f"excluded from the statistics: {missing[:5]}"
+            f"{' ...' if len(missing) > 5 else ''}. Run src/fetch_cog_data.py to complete the archive."
+        )
+    tasks = [task_details[t["id"]] for t in task_listing if t.get("id") in task_details]
 
     task_links: collections.Counter = collections.Counter()
     for task in tasks:

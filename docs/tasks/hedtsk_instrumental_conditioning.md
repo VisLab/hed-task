@@ -96,4 +96,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4f2414059baa8)
+- Cognitive Atlas: [instrumental learning task](https://www.cognitiveatlas.org/task/id/trm_4f2414059baa8)

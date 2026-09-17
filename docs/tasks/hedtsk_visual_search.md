@@ -96,4 +96,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4f2447fe67fb9)
+- Cognitive Atlas: [visual search task](https://www.cognitiveatlas.org/task/id/trm_4f2447fe67fb9)

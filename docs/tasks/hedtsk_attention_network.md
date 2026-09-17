@@ -83,4 +83,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4da6304c9aa23)
+- Cognitive Atlas: [attention networks test](https://www.cognitiveatlas.org/task/id/trm_4da6304c9aa23)

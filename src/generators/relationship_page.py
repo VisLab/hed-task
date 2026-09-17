@@ -84,6 +84,9 @@ def _page(working: Path, atlas: dict) -> str:  # noqa: PLR0914 - many named figu
     atlas_orphans = atlas["concepts"]["orphans"]["total"]
     atlas_relations = atlas["concepts"]["relation_total"]
     contrasts = next(f for f in atlas["tasks"]["fields"] if f["label"] == "Contrasts")
+    atlas_cited = atlas["tasks"]["cited"]
+    atlas_cited_pct = atlas["tasks"]["cited_percent"]
+    atlas_uncited = atlas["tasks"]["uncited"]
 
     by_id = {r["hedtsk_id"]: r for r in forward}
     gap_rows = [by_id[g] for g in GAP_ANALYSIS_ADDITIONS if g in by_id]
@@ -188,8 +191,10 @@ record none at all. Against that, every task in this catalog carries:
 - links to {n_processes} defined processes in {n_categories} categories, at
   {mean_links:.1f} per task
 
-None of that exists in the Atlas, which has no references at all on its task entries and
-no notion of a variation.
+The Atlas carries citations on {atlas_cited} of its {atlas_tasks} task entries
+({atlas_cited_pct}%), so references are not absent, but they are contributed rather than
+curated: the remaining {atlas_uncited} entries have none, and nothing records how any of
+them was checked. Inclusion tests and variations have no Atlas equivalent at all.
 
 ## What the Atlas has that this catalog does not
 

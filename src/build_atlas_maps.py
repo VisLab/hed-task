@@ -77,7 +77,12 @@ def _load_listing(archive: Path, kind: str) -> list[dict]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def _load_details(archive: Path, kind: str) -> dict[str, dict]:
+def _load_details(archive: Path, kind: str, keep: set[str]) -> dict[str, dict]:
+    """Load detail records for `kind`, restricted to ids in the current listing.
+
+    The archive is additive, so a detail file survives an entity leaving the Atlas.
+    Filtering against the listing keeps stale records out of the mapping tables.
+    """
     out: dict[str, dict] = {}
     directory = archive / kind
     if not directory.exists():
@@ -86,7 +91,7 @@ def _load_details(archive: Path, kind: str) -> dict[str, dict]:
         record = json.loads(file.read_text(encoding="utf-8"))
         if isinstance(record, list):
             record = record[0] if record else {}
-        if record.get("id"):
+        if record.get("id") and record["id"] in keep:
             out[record["id"]] = record
     return out
 
@@ -453,8 +458,8 @@ def main() -> None:
 
     atlas_tasks = _load_listing(args.archive, "task")
     atlas_concepts = _load_listing(args.archive, "concept")
-    task_details = _load_details(args.archive, "task")
-    concept_details = _load_details(args.archive, "concept")
+    task_details = _load_details(args.archive, "task", {t["id"] for t in atlas_tasks if t.get("id")})
+    concept_details = _load_details(args.archive, "concept", {c["id"] for c in atlas_concepts if c.get("id")})
 
     # Atlas task counts per concept, from the task side.
     concept_task_counts: collections.Counter = collections.Counter()

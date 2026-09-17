@@ -82,4 +82,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4f24183fe80c6)
+- Cognitive Atlas: [verb generation task](https://www.cognitiveatlas.org/task/id/trm_4f24183fe80c6)

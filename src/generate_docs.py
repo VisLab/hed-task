@@ -6,6 +6,7 @@ Usage (from repo root, with venv active):
 
 from __future__ import annotations
 
+import csv
 import sys
 from pathlib import Path
 
@@ -68,7 +69,16 @@ def main() -> None:
     total_files += 1
 
     print("Generating docs/tasks/ …")
-    n = task_pages.generate(docs_dir, tasks, processes_by_id)
+    # The curated Atlas mapping drives the Atlas link on each task page. It is the
+    # authoritative cross-reference; the legacy atlas_id field on the task records is
+    # superseded and no longer rendered.
+    atlas_map: dict[str, dict] = {}
+    map_path = working_dir / "mappings" / "hed_task_to_atlas.tsv"
+    if map_path.exists():
+        with map_path.open(encoding="utf-8", newline="") as handle:
+            atlas_map = {r["hedtsk_id"]: r for r in csv.DictReader(handle, delimiter="	")}
+
+    n = task_pages.generate(docs_dir, tasks, processes_by_id, atlas_map)
     total_files += n
     print(f"  Wrote {n} task files (1 index + {n - 1} task pages).")
 

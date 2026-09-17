@@ -45,7 +45,7 @@ For the 183 Atlas entries that do correspond to something here, the Atlas record
 - verified references
 - links to 172 defined processes in 19 categories, at 4.7 per task
 
-None of that exists in the Atlas, which has no references at all on its task entries and no notion of a variation.
+The Atlas carries citations on 470 of its 857 task entries (54.8%), so references are not absent, but they are contributed rather than curated: the remaining 387 entries have none, and nothing records how any of them was checked. Inclusion tests and variations have no Atlas equivalent at all.
 
 ## What the Atlas has that this catalog does not
 

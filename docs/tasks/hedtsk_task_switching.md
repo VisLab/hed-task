@@ -93,4 +93,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4da6ad65d8210)
+- Cognitive Atlas: [task-switching ](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e8a)

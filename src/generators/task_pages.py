@@ -12,6 +12,7 @@ def generate(
     docs_dir: Path,
     tasks: list[dict],
     processes_by_id: dict[str, dict],
+    atlas_map: dict[str, dict] | None = None,
 ) -> int:
     """Write the task index page and all individual task pages.
 
@@ -23,7 +24,7 @@ def generate(
     count = 0
     count += _write_task_index(tasks_dir, sorted_tasks)
     for task in sorted_tasks:
-        count += _write_task_page(tasks_dir, task, processes_by_id)
+        count += _write_task_page(tasks_dir, task, processes_by_id, atlas_map or {})
     return count
 
 
@@ -68,6 +69,7 @@ def _write_task_page(
     tasks_dir: Path,
     task: dict,
     processes_by_id: dict[str, dict],
+    atlas_map: dict[str, dict],
 ) -> int:
     """Write an individual task page docs/tasks/{hedtsk_id}.md."""
     hedtsk_id = task["hedtsk_id"]
@@ -80,7 +82,14 @@ def _write_task_page(
     hed_process_ids = task.get("hed_process_ids", [])
     key_refs = task.get("key_references", [])
     recent_refs = task.get("recent_references", [])
-    atlas_id = task.get("atlas_id")
+    # The curated mapping in .working/mappings/ is the authoritative Atlas
+    # cross-reference. The legacy atlas_id on the task record is not used: several
+    # of its values point at a different paradigm or at an id the Atlas no longer
+    # has, which produced dead links on these pages.
+    atlas_row = atlas_map.get(hedtsk_id) or {}
+    atlas_id = atlas_row.get("atlas_id") or ""
+    atlas_name = atlas_row.get("atlas_name") or ""
+    atlas_match = atlas_row.get("match_type") or ""
 
     parts: list[str] = []
 
@@ -171,8 +180,10 @@ def _write_task_page(
 
     # External links
     if atlas_id:
+        label = atlas_name or "Cognitive Atlas entry"
+        qualifier = f" ({atlas_match} match)" if atlas_match and atlas_match != "exact" else ""
         parts.append("## External links\n\n")
-        parts.append(f"- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/{atlas_id})\n")
+        parts.append(f"- Cognitive Atlas: [{label}](https://www.cognitiveatlas.org/task/id/{atlas_id}){qualifier}\n")
         parts.append("\n")
 
     write_page(tasks_dir / f"{hedtsk_id}.md", "".join(parts))

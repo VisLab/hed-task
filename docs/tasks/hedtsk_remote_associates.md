@@ -75,4 +75,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/tsk_ZMTNk4Oce5b2j)
+- Cognitive Atlas: [Remote Associates Test](https://www.cognitiveatlas.org/task/id/tsk_ZMTNk4Oce5b2j)

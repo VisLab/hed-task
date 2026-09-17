@@ -81,4 +81,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_551f0a5c1e154)
+- Cognitive Atlas: [operation span task](https://www.cognitiveatlas.org/task/id/trm_4c40d10cd776e)

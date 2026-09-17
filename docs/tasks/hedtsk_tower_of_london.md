@@ -82,4 +82,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4da87e439c411)
+- Cognitive Atlas: [Tower of London](https://www.cognitiveatlas.org/task/id/trm_4da87e439c411)

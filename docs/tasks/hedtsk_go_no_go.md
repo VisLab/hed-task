@@ -91,4 +91,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949a93)
+- Cognitive Atlas: [go/no-go task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949a93)

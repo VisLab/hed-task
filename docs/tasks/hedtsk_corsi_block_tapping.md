@@ -81,4 +81,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4da881dace79c)
+- Cognitive Atlas: [Corsi Blocks](https://www.cognitiveatlas.org/task/id/trm_4da881dace79c)

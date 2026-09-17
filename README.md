@@ -64,9 +64,17 @@ The files in `docs/` are generated from the JSON data in `.working/` — never e
 python src/generate_docs.py
 ```
 
-This reads `task_details.json`, `process_details.json`, and `atlas_summary.json` from `.working/` and overwrites all 135 files in `docs/`.
+This reads `task_details.json`, `process_details.json`, and `atlas_summary.json` from `.working/` and overwrites all 136 files in `docs/`.
 
-`atlas_summary.json` is derived from a local snapshot of the [Cognitive Atlas](https://www.cognitiveatlas.org/) REST API that is not part of this repository. Only the derived summary is committed, so the docs build never needs the snapshot. To refresh it, take a new snapshot with `harvest_concepts.py --layer both` (the task and concept layers must come from the same run), then rerun `python src/build_atlas_data.py --harvest <path>`.
+`atlas_summary.json` and `mappings/*.tsv` are derived from a byte-exact archive of the [Cognitive Atlas](https://www.cognitiveatlas.org/) REST API kept in `.cog_data/`, which is untracked. Only the derived files are committed, so the docs build never needs the archive. To refresh, run:
+
+```bash
+python src/fetch_cog_data.py      # rebuild .cog_data/ from the Atlas API (resumable)
+python src/build_atlas_data.py    # recompute .working/atlas_summary.json
+python src/build_atlas_maps.py    # refresh the mapping tables, preserving curation
+```
+
+`build_atlas_data.py` and `build_atlas_maps.py` both take `--archive` if the archive is not at `.cog_data/`.
 
 **Step 2 — normalize the Markdown:**
 

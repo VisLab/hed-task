@@ -84,4 +84,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4c40d10cd776e)
+- Cognitive Atlas: [delayed match to sample task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb9499e3)

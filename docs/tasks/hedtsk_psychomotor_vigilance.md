@@ -74,4 +74,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_50b55d8a6da00)
+- Cognitive Atlas: [PEBL Perceptual Vigilance Task](https://www.cognitiveatlas.org/task/id/trm_50b55d8a6da00) (close match)

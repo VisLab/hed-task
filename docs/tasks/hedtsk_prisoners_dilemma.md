@@ -100,4 +100,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/tsk_KRl3zbyaJcKWM)
+- Cognitive Atlas: [prisoner's dilemma (PD)](https://www.cognitiveatlas.org/task/id/tsk_KRl3zbyaJcKWM)

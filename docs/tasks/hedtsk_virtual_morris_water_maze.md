@@ -91,4 +91,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4da890a9bd7a3)
+- Cognitive Atlas: [Morris water maze](https://www.cognitiveatlas.org/task/id/trm_4da890a9bd7a3) (close match)

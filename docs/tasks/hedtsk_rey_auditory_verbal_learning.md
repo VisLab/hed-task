@@ -78,4 +78,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4da88ae0f2952)
+- Cognitive Atlas: [Rey Auditory Verbal Learning Task](https://www.cognitiveatlas.org/task/id/trm_4da88ae0f2952)

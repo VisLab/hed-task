@@ -91,4 +91,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_56bbea82c12bb)
+- Cognitive Atlas: [Emotion Regulation Task](https://www.cognitiveatlas.org/task/id/trm_56bbea82c12bb)

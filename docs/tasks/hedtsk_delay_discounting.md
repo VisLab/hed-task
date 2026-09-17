@@ -92,4 +92,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4da6afc3ea0a3)
+- Cognitive Atlas: [temporal discounting task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e98)

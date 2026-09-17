@@ -81,4 +81,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4da6afc9c1c9e)
+- Cognitive Atlas: [Stroop task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e27) (related match)

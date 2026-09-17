@@ -85,4 +85,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4f2449bdcb0b1)
+- Cognitive Atlas: [Wason card selection task](https://www.cognitiveatlas.org/task/id/trm_4f2449bdcb0b1)

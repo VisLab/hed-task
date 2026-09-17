@@ -91,4 +91,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949bf6)
+- Cognitive Atlas: [oddball task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949bf6)
