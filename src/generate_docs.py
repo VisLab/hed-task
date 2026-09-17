@@ -37,16 +37,16 @@ def main() -> None:
     # ------------------------------------------------------------------
     # Load authoritative data sources
     # ------------------------------------------------------------------
-    print("Loading task_details.json …")
+    print("Loading task_details.json ...")
     tasks: list[dict] = load_json(working_dir / "task_details.json")
 
-    print("Loading process_details.json …")
+    print("Loading process_details.json ...")
     proc_data: dict = load_json(working_dir / "process_details.json")
     categories: list[dict] = proc_data["categories"]
     processes: list[dict] = proc_data["processes"]
 
     # Derived from the external Cognitive Atlas harvest by src/build_atlas_data.py.
-    print("Loading atlas_summary.json …")
+    print("Loading atlas_summary.json ...")
     atlas_data: dict = load_json(working_dir / "atlas_summary.json")
 
     # ------------------------------------------------------------------
@@ -64,11 +64,11 @@ def main() -> None:
     # ------------------------------------------------------------------
     total_files = 0
 
-    print("Generating docs/index.md …")
+    print("Generating docs/index.md ...")
     index_page.generate(docs_dir, tasks, processes, categories)
     total_files += 1
 
-    print("Generating docs/tasks/ …")
+    print("Generating docs/tasks/ ...")
     # The curated Atlas mapping drives the Atlas link on each task page and is the
     # only Atlas cross-reference. Task records used to carry their own atlas_id, but
     # 18 of its 64 populated values were dead or pointed at a different paradigm, so
@@ -83,34 +83,34 @@ def main() -> None:
     total_files += n
     print(f"  Wrote {n} task files (1 index + {n - 1} task pages).")
 
-    print("Generating docs/processes/ …")
+    print("Generating docs/processes/ ...")
     n = process_pages.generate(docs_dir, processes, categories, tasks_by_id)
     total_files += n
     print(f"  Wrote {n} process files (1 index + {n - 1} category pages).")
 
-    print("Generating docs/crossref.md …")
+    print("Generating docs/crossref.md ...")
     crossref_page.generate(docs_dir, tasks, processes, categories)
     total_files += 1
 
-    print("Generating docs/atlas/ …")
+    print("Generating docs/atlas/ ...")
     n = atlas_pages.generate(docs_dir, atlas_data)
     total_files += n
     print(f"  Wrote {n} atlas files.")
 
-    print("Generating docs/atlas/ crossref pages …")
+    print("Generating docs/atlas/ crossref pages ...")
     n = crossref_atlas_pages.generate(docs_dir, working_dir)
     total_files += n
     print(f"  Wrote {n} atlas crossref files.")
 
-    print("Generating docs/atlas/relationship.md …")
+    print("Generating docs/atlas/relationship.md ...")
     total_files += relationship_page.generate(docs_dir, working_dir, atlas_data)
 
-    print("Generating docs/methodology/ …")
+    print("Generating docs/methodology/ ...")
     n = methodology_pages.generate(docs_dir, working_dir)
     total_files += n
     print(f"  Wrote {n} methodology files.")
 
-    print("Generating docs/criteria/ …")
+    print("Generating docs/criteria/ ...")
     n = criteria_pages.generate(docs_dir, working_dir)
     total_files += n
     print(f"  Wrote {n} criteria files.")

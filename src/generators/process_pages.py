@@ -1,4 +1,4 @@
-"""Generate docs/processes/index.md and docs/processes/{category_id}.md (×19)."""
+"""Generate docs/processes/index.md and docs/processes/{category_id}.md (x19)."""
 
 from __future__ import annotations
 
@@ -143,7 +143,7 @@ def _write_category_page(
 
         # Explicit anchor target for deep linking
         # Use hyphens so the Sphinx label registry entry matches the HTML id
-        # (Sphinx normalises label underscores→hyphens in rendered HTML IDs).
+        # (Sphinx normalises label underscores->hyphens in rendered HTML IDs).
         parts.append(f"({proc_id.replace('_', '-')})=\n")
         parts.append(f"## {proc_name}\n\n")
         parts.append(f"**Process ID:** `{proc_id}`\n\n")

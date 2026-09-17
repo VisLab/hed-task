@@ -1,4 +1,4 @@
-"""Generate docs/crossref.md — bidirectional cross-reference."""
+"""Generate docs/crossref.md - bidirectional cross-reference."""
 
 from __future__ import annotations
 
@@ -32,7 +32,7 @@ def generate(
         "This page provides bidirectional cross-references between the 103 tasks\nand 172 processes in the HED catalog.\n\n"
     )
 
-    # --- Section 1: Processes by Category → Tasks ---
+    # --- Section 1: Processes by Category -> Tasks ---
     parts.append("## Processes by category \u2192 tasks\n\n")
 
     for cat in sorted_categories:
@@ -58,7 +58,7 @@ def generate(
             else:
                 parts.append(": *No tasks linked.*\n\n")
 
-    # --- Section 2: Tasks → Processes ---
+    # --- Section 2: Tasks -> Processes ---
     parts.append("## Tasks \u2192 processes\n\n")
 
     for task in sorted_tasks:

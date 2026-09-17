@@ -127,7 +127,7 @@ def _write_task_page(
 
     # Variations
     if variations:
-        parts.append("## Variations\n\n")  # single word — already sentence case
+        parts.append("## Variations\n\n")  # single word - already sentence case
         parts.append("```{list-table}\n")
         parts.append(":widths: 25 40 35\n")
         parts.append(":header-rows: 1\n")
@@ -167,14 +167,18 @@ def _write_task_page(
     if key_refs:
         parts.append("## Key references\n\n")
         for ref in key_refs:
-            parts.append(f"- {ref}\n")
+            citation = ref.get("citation_string", "")
+            if citation:
+                parts.append(f"- {citation}\n")
         parts.append("\n")
 
     # Recent references
     if recent_refs:
         parts.append("## Recent references\n\n")
         for ref in recent_refs:
-            parts.append(f"- {ref}\n")
+            citation = ref.get("citation_string", "")
+            if citation:
+                parts.append(f"- {citation}\n")
         parts.append("\n")
 
     # External links
