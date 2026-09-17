@@ -82,10 +82,9 @@ def _write_task_page(
     hed_process_ids = task.get("hed_process_ids", [])
     key_refs = task.get("key_references", [])
     recent_refs = task.get("recent_references", [])
-    # The curated mapping in .working/mappings/ is the authoritative Atlas
-    # cross-reference. The legacy atlas_id on the task record is not used: several
-    # of its values point at a different paradigm or at an id the Atlas no longer
-    # has, which produced dead links on these pages.
+    # The curated mapping in .working/mappings/ is the only Atlas cross-reference.
+    # Task records no longer carry an atlas_id of their own; that field produced dead
+    # links and links to the wrong paradigm, and was removed.
     atlas_row = atlas_map.get(hedtsk_id) or {}
     atlas_id = atlas_row.get("atlas_id") or ""
     atlas_name = atlas_row.get("atlas_name") or ""

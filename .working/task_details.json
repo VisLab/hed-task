@@ -101,7 +101,6 @@
         "justification": "Restricts stimuli to specific emotional categories (e.g., fear, disgust), creating category-structured event blocks distinct from mixed viewing"
       }
     ],
-    "atlas_id": "tsk_4a57abb949aca",
     "source_task_numbers": [
       43
     ],
@@ -290,7 +289,6 @@
         "justification": "Systematic masking manipulation changes prime visibility and conscious access to prime"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       41
     ],
@@ -510,7 +508,6 @@
         "justification": "Two-step target displacement requires online motor reprogramming"
       }
     ],
-    "atlas_id": "tsk_4a57abb949869",
     "source_task_numbers": [
       12
     ],
@@ -700,7 +697,6 @@
         "justification": "Stimulus modality change (visual→auditory or vice versa) at test; cross-modal transfer paradigm"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       89
     ],
@@ -902,7 +898,6 @@
         "justification": "Emotional flanker content; retained per §5.1 (EMOT retired)"
       }
     ],
-    "atlas_id": "trm_4da6304c9aa23",
     "source_task_numbers": [
       50
     ],
@@ -1035,7 +1030,6 @@
         "justification": "Spatial separation of target and masker; binaural processing distinguishes it from monaural variants"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -1240,7 +1234,6 @@
         "justification": "Losses instead of gains; loss framing changes motivational structure of decisions"
       }
     ],
-    "atlas_id": "trm_4d559bcd67c18",
     "source_task_numbers": [
       32
     ],
@@ -1530,7 +1523,6 @@
         "justification": "Ambiguous facing direction judgment; different perceptual task"
       }
     ],
-    "atlas_id": "trm_4f245326e2eaf",
     "source_task_numbers": [
       48
     ],
@@ -1733,7 +1725,6 @@
         "justification": "Abbreviated item set for screening; recognized published short-form instrument"
       }
     ],
-    "atlas_id": "tsk_4a57abb949912",
     "source_task_numbers": [
       66
     ],
@@ -1941,7 +1932,6 @@
         "justification": "Items presented serially before test; different encoding structure"
       }
     ],
-    "atlas_id": "trm_5154906cbead5",
     "source_task_numbers": [
       67
     ],
@@ -2141,7 +2131,6 @@
         "justification": "Tests whether learned context transfers to new target locations; different probe phase"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       90
     ],
@@ -2355,7 +2344,6 @@
         "justification": "Emotional stimuli as distractors; retained per §5.1 (EMOT retired)"
       }
     ],
-    "atlas_id": "trm_4b4a537644d76",
     "source_task_numbers": [
       6
     ],
@@ -2507,7 +2495,6 @@
         "justification": "Spatial crossing of sequence paths tests motor programming constraints"
       }
     ],
-    "atlas_id": "trm_4da881dace79c",
     "source_task_numbers": [
       54
     ],
@@ -2694,7 +2681,6 @@
         "justification": "Non-monetary rewards (food, drugs); different commodity changes motivational basis"
       }
     ],
-    "atlas_id": "trm_4da6afc3ea0a3",
     "source_task_numbers": [
       33
     ],
@@ -2902,7 +2888,6 @@
         "justification": "Respond to non-matching item; opposite stimulus-response mapping"
       }
     ],
-    "atlas_id": "trm_4c40d10cd776e",
     "source_task_numbers": [
       15
     ],
@@ -3083,7 +3068,6 @@
         "justification": "Option to leave game rather than allocate; adds outside option to choice set"
       }
     ],
-    "atlas_id": "trm_4da6b0d3d5c90",
     "source_task_numbers": [
       36
     ],
@@ -3238,7 +3222,6 @@
         "justification": "Lists exceed span; tests learning over trials"
       }
     ],
-    "atlas_id": "tsk_4a57abb949a0d",
     "source_task_numbers": [
       51
     ],
@@ -3379,7 +3362,6 @@
         "justification": "Symbol-digit pairs studied as paired associates; different explicit learning structure"
       }
     ],
-    "atlas_id": "trm_5580c5b49f949",
     "source_task_numbers": [
       70
     ],
@@ -3550,7 +3532,6 @@
         "justification": "Multiple forget cues accumulate across list; different suppression structure"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       83
     ],
@@ -3752,7 +3733,6 @@
         "justification": "Positive stimuli as cues; different emotional valence of attention capture stimuli"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       60
     ],
@@ -3972,7 +3952,6 @@
         "justification": "No explicit instruction to regulate; tests implicit regulatory processes"
       }
     ],
-    "atlas_id": "trm_56bbea82c12bb",
     "source_task_numbers": [
       42
     ],
@@ -4154,7 +4133,6 @@
         "justification": "Emotional faces paired with color words; cross-domain emotional conflict"
       }
     ],
-    "atlas_id": "trm_4da6afc9c1c9e",
     "source_task_numbers": [
       39
     ],
@@ -4362,7 +4340,6 @@
         "justification": "Integrated flanker-GNG design; targets response inhibition under conflict"
       }
     ],
-    "atlas_id": "trm_4c898a20eb254",
     "source_task_numbers": [
       2
     ],
@@ -4557,7 +4534,6 @@
         "justification": "Familiarity manipulation changes recognition demand"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       49
     ],
@@ -4750,7 +4726,6 @@
         "justification": "Continuous valence/arousal ratings instead of categorical labels; different response type and scale"
       }
     ],
-    "atlas_id": "trm_50f734f86b11a",
     "source_task_numbers": [
       40
     ],
@@ -5020,7 +4995,6 @@
         "justification": "Strategic deception context; tests belief reasoning under competitive motivation"
       }
     ],
-    "atlas_id": "trm_4f2456027809f",
     "source_task_numbers": [
       37
     ],
@@ -5208,7 +5182,6 @@
         "justification": "External pacing withdrawn mid-task; isolates internal vs. externally guided timing"
       }
     ],
-    "atlas_id": "trm_4c898f079d05e",
     "source_task_numbers": [
       44
     ],
@@ -5401,7 +5374,6 @@
         "justification": "Participants report all retrievals including partial/uncertain; different response protocol"
       }
     ],
-    "atlas_id": "trm_4f24448c35e04",
     "source_task_numbers": [
       18
     ],
@@ -5622,7 +5594,6 @@
         "justification": "Multiple stimulus categories with different go/no-go rules; more complex rule set"
       }
     ],
-    "atlas_id": "tsk_4a57abb949a93",
     "source_task_numbers": [
       7
     ],
@@ -5843,7 +5814,6 @@
         "justification": "Picture-based categories for children; procedure adapted per §5.3"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       87
     ],
@@ -6058,7 +6028,6 @@
         "justification": "Response prevents aversive outcome; different valence and contingency structure"
       }
     ],
-    "atlas_id": "trm_4f2414059baa8",
     "source_task_numbers": [
       21
     ],
@@ -6279,7 +6248,6 @@
         "justification": "Different win/loss schedules; tests sensitivity to schedule structure"
       }
     ],
-    "atlas_id": "tsk_4a57abb949ae5",
     "source_task_numbers": [
       31
     ],
@@ -6513,7 +6481,6 @@
         "justification": "Respond to one word class, withhold to another; different response structure"
       }
     ],
-    "atlas_id": "trm_4c40d325977f0",
     "source_task_numbers": [
       26
     ],
@@ -6664,7 +6631,6 @@
         "justification": "Participant perspective vs. object-centered rotation; different reference frame"
       }
     ],
-    "atlas_id": "trm_4c8990810541d",
     "source_task_numbers": [
       45
     ],
@@ -6858,7 +6824,6 @@
         "justification": "Delay between practice and test; tests retention of visuomotor adaptation"
       }
     ],
-    "atlas_id": "trm_4f244a67d5b17",
     "source_task_numbers": [
       65
     ],
@@ -7078,7 +7043,6 @@
         "justification": "Standard changes after each sequence; different stimulus history structure"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       47
     ],
@@ -7286,7 +7250,6 @@
         "justification": "Retention interval manipulation tests forgetting of pattern separation"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       71
     ],
@@ -7470,7 +7433,6 @@
         "justification": "Effort required to obtain reward; adds effort-discounting to incentive structure"
       }
     ],
-    "atlas_id": "trm_4f23fc8c42d28",
     "source_task_numbers": [
       63
     ],
@@ -7683,7 +7645,6 @@
         "justification": "Sequence embedded in continuous tracking; tests incidental learning during ongoing task"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       24
     ],
@@ -7866,7 +7827,6 @@
         "justification": "Outcomes sometimes hidden; different information structure"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       85
     ],
@@ -8055,7 +8015,6 @@
         "justification": "Tracking moving sounds; different sensory modality"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       58
     ],
@@ -8269,7 +8228,6 @@
         "justification": "Auditory tones or words; different sensory modality"
       }
     ],
-    "atlas_id": "trm_56674133b666c",
     "source_task_numbers": [
       13
     ],
@@ -8539,7 +8497,6 @@
         "justification": "Brief exposure tests which level is processed first"
       }
     ],
-    "atlas_id": "trm_4f2415cb2e6e3",
     "source_task_numbers": [
       56
     ],
@@ -8759,7 +8716,6 @@
         "justification": "Standard changes after each presentation; different stimulus history structure"
       }
     ],
-    "atlas_id": "tsk_4a57abb949bf6",
     "source_task_numbers": [
       46
     ],
@@ -8948,7 +8904,6 @@
         "justification": "Semantically related lures elicit false recognition; distinct false memory paradigm"
       }
     ],
-    "atlas_id": "tsk_4a57abb949d40",
     "source_task_numbers": [
       17
     ],
@@ -9132,7 +9087,6 @@
         "justification": "Adaptive set sizes based on performance; different difficulty trajectory"
       }
     ],
-    "atlas_id": "trm_551f0a5c1e154",
     "source_task_numbers": [
       57
     ],
@@ -9314,7 +9268,6 @@
         "justification": "Encoding goal manipulation; tests depth and intentionality of encoding"
       }
     ],
-    "atlas_id": "trm_4da88a2a63d97",
     "source_task_numbers": [
       19
     ],
@@ -9572,7 +9525,6 @@
         "justification": "CS compound with multiple elements; different stimulus structure"
       }
     ],
-    "atlas_id": "trm_4c898acd1f28e",
     "source_task_numbers": [
       20
     ],
@@ -9785,7 +9737,6 @@
         "justification": "Syllable-level operations instead of phoneme-level; different linguistic unit"
       }
     ],
-    "atlas_id": "trm_4f243fe622ded",
     "source_task_numbers": [
       30
     ],
@@ -9985,7 +9936,6 @@
         "justification": "Partial cues provided after TOT; different cueing structure"
       }
     ],
-    "atlas_id": "tsk_4a57abb949cfb",
     "source_task_numbers": [
       28
     ],
@@ -10218,7 +10168,6 @@
         "justification": "Simple detection vs. identity discrimination; different response task"
       }
     ],
-    "atlas_id": "tsk_4a57abb949d17",
     "source_task_numbers": [
       3
     ],
@@ -10439,7 +10388,6 @@
         "justification": "Third option to not participate; changes strategic choice set"
       }
     ],
-    "atlas_id": "tsk_KRl3zbyaJcKWM",
     "source_task_numbers": [
       62
     ],
@@ -10650,7 +10598,6 @@
         "justification": "Probe generalization with novel cue combinations; different test phase"
       }
     ],
-    "atlas_id": "trm_4cacf22a22d80",
     "source_task_numbers": [
       23
     ],
@@ -10849,7 +10796,6 @@
         "justification": "Contingencies shift over time; tests learning in non-stationary environment"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       61
     ],
@@ -11032,7 +10978,6 @@
         "justification": "Three concurrent tasks; extends bottleneck theory to three tasks"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       93
     ],
@@ -11202,7 +11147,6 @@
         "justification": "Auditory tone instead of visual stimulus; different sensory modality"
       }
     ],
-    "atlas_id": "trm_50b55d8a6da00",
     "source_task_numbers": [
       59
     ],
@@ -11423,7 +11367,6 @@
         "justification": "Arms probabilistically rather than deterministically rewarded"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       64
     ],
@@ -11614,7 +11557,6 @@
         "justification": "More than two motion directions; higher-order discrimination"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       79
     ],
@@ -11812,7 +11754,6 @@
         "justification": "Abbreviated protocols validated for efficiency; recognized published short form"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       88
     ],
@@ -12009,7 +11950,6 @@
         "justification": "Full face context vs. isolated eyes region; different stimulus scope"
       }
     ],
-    "atlas_id": "trm_4da6b10e83517",
     "source_task_numbers": [
       38
     ],
@@ -12179,7 +12119,6 @@
         "justification": "R/K for associative pairs; tests recollection of binding"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       82
     ],
@@ -12370,7 +12309,6 @@
         "justification": "Semantic prime precedes problem; changes solution accessibility"
       }
     ],
-    "atlas_id": "tsk_ZMTNk4Oce5b2j",
     "source_task_numbers": [
       74
     ],
@@ -12552,7 +12490,6 @@
         "justification": "Valence manipulation changes learning signal"
       }
     ],
-    "atlas_id": "tsk_4a57abb949d4e",
     "source_task_numbers": [
       22
     ],
@@ -12691,7 +12628,6 @@
         "justification": "Category cues added to recall phase; tests cueing benefit on verbal learning"
       }
     ],
-    "atlas_id": "trm_4da88ae0f2952",
     "source_task_numbers": [
       53
     ],
@@ -12953,7 +12889,6 @@
         "justification": "Orthographically similar prime; tests spelling overlap effects"
       }
     ],
-    "atlas_id": "trm_553e73e29cf7d",
     "source_task_numbers": [
       27
     ],
@@ -13141,7 +13076,6 @@
         "justification": "Response deadline method; different temporal measurement approach"
       }
     ],
-    "atlas_id": "tsk_4a57abb949d9f",
     "source_task_numbers": [
       29
     ],
@@ -13331,7 +13265,6 @@
         "justification": "Auditory sequence instead of visual; different sensory modality"
       }
     ],
-    "atlas_id": "trm_4f241c735e7f6",
     "source_task_numbers": [
       16
     ],
@@ -13557,7 +13490,6 @@
         "justification": "Varies conflict frequency; adaptation context manipulation per §5.2"
       }
     ],
-    "atlas_id": "tsk_4a57abb949dbb",
     "source_task_numbers": [
       55
     ],
@@ -13734,7 +13666,6 @@
         "justification": "Actual social partner rather than photograph; different social context"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       75
     ],
@@ -13891,7 +13822,6 @@
         "justification": "Probes match previous trials; tests proactive interference"
       }
     ],
-    "atlas_id": "trm_4c40d168898db",
     "source_task_numbers": [
       14
     ],
@@ -14105,7 +14035,6 @@
         "justification": "Inhibit only under specific conditions; conditional stopping logic"
       }
     ],
-    "atlas_id": "tsk_4a57abb949e1a",
     "source_task_numbers": [
       8
     ],
@@ -14344,7 +14273,6 @@
         "justification": "Previously ignored item becomes target; tests ignored repetition effect"
       }
     ],
-    "atlas_id": "trm_4b1968619b00b",
     "source_task_numbers": [
       1
     ],
@@ -14615,7 +14543,6 @@
         "justification": "Modified timing and stimuli for children; adapted per §5.3"
       }
     ],
-    "atlas_id": "trm_4da86cfe8cf1b",
     "source_task_numbers": [
       69
     ],
@@ -14841,7 +14768,6 @@
         "justification": "Bivalent stimuli with competing responses; combined switching and conflict"
       }
     ],
-    "atlas_id": "trm_4da6ad65d8210",
     "source_task_numbers": [
       11
     ],
@@ -15042,7 +14968,6 @@
         "justification": "Varies number of suppression repetitions; tests suppression as function of dose"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       84
     ],
@@ -15244,7 +15169,6 @@
         "justification": "Response deadline imposed; changes planning strategy"
       }
     ],
-    "atlas_id": "trm_4da87e439c411",
     "source_task_numbers": [
       10
     ],
@@ -15410,7 +15334,6 @@
         "justification": "Delis-Kaplan version with additional conditions; named published instrument"
       }
     ],
-    "atlas_id": "tsk_4a57abb949ec0",
     "source_task_numbers": [
       52
     ],
@@ -15619,7 +15542,6 @@
         "justification": "In-group vs. out-group trustee; tests trust as function of group membership"
       }
     ],
-    "atlas_id": "tsk_uzol7erTzr9Ix",
     "source_task_numbers": [
       35
     ],
@@ -15816,7 +15738,6 @@
         "justification": "Transition structure explicitly taught; tests instructed vs. learned model"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       86
     ],
@@ -16017,7 +15938,6 @@
         "justification": "Endowment from effort vs. luck; changes perceived legitimacy"
       }
     ],
-    "atlas_id": "trm_553e8882e3cb6",
     "source_task_numbers": [
       34
     ],
@@ -16168,7 +16088,6 @@
         "justification": "Peripheral target at different distances; tests eccentricity function"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       68
     ],
@@ -16370,7 +16289,6 @@
         "justification": "Written response instead of vocal; different response modality"
       }
     ],
-    "atlas_id": "trm_4f24183fe80c6",
     "source_task_numbers": [
       72
     ],
@@ -16591,7 +16509,6 @@
         "justification": "Systematically varies cue type; tests geometric vs. landmark navigation"
       }
     ],
-    "atlas_id": "trm_4da890a9bd7a3",
     "source_task_numbers": [
       25
     ],
@@ -16951,7 +16868,6 @@
         "justification": "Auditory masking paradigm; different sensory modality"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -17161,7 +17077,6 @@
         "justification": "Memory set held while visual search proceeds; combined memory-search paradigm"
       }
     ],
-    "atlas_id": "trm_4f2447fe67fb9",
     "source_task_numbers": [
       4
     ],
@@ -17356,7 +17271,6 @@
         "justification": "Hypothesis-testing number sequence task; related reasoning paradigm"
       }
     ],
-    "atlas_id": "trm_4f2449bdcb0b1",
     "source_task_numbers": [
       73
     ],
@@ -17533,7 +17447,6 @@
         "justification": "Immersive VR environment; full-body spatial and motor engagement"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [
       78
     ],
@@ -17705,7 +17618,6 @@
         "justification": "Sorting feedback probabilistic rather than deterministic; different uncertainty structure"
       }
     ],
-    "atlas_id": "tsk_4a57abb949f21",
     "source_task_numbers": [
       9
     ],
@@ -17893,7 +17805,6 @@
         "justification": "Generate words avoiding a letter; adds constraint that changes retrieval strategy"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -18076,7 +17987,6 @@
         "justification": "Real-world task context instead of lab; different ecological setting"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -18289,7 +18199,6 @@
         "justification": "Three or more source attributes; higher discrimination demand"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -18498,7 +18407,6 @@
         "justification": "Virtual navigation effort for rewards; different effort modality (locomotion)"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -18693,7 +18601,6 @@
         "justification": "Accuracy feedback after recognition test; tests calibration learning"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -18893,7 +18800,6 @@
         "justification": "Judgment made before study; different pre-learning prediction task"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -19071,7 +18977,6 @@
         "justification": "Respiratory signals instead of cardiac; different physiological channel"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -19271,7 +19176,6 @@
         "justification": "Retrieval includes source judgment for self vs. other items; adds source component"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -19473,7 +19377,6 @@
         "justification": "Participant imagines future events instead of recalling past; different cognitive operation (projection vs. retrieval)"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -19688,7 +19591,6 @@
         "justification": "Post-training devaluation of compound changes prior learning; distinct temporal structure"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -19885,7 +19787,6 @@
         "justification": "Non-hand object used instead of rubber hand; tests specificity of body-form requirement"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -20079,7 +19980,6 @@
         "justification": "Training to suppress imitation; tests plasticity of imitative tendencies"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -20266,7 +20166,6 @@
         "justification": "Aversive vs. pleasant outcomes; tests valence effect on temporal binding"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -20448,7 +20347,6 @@
         "justification": "Full passages instead of sentences; different text-level processing"
       }
     ],
-    "atlas_id": null,
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [
@@ -20713,7 +20611,6 @@
         "justification": "Two streams at different spatial locations; tests spatial attention in RSVP"
       }
     ],
-    "atlas_id": "trm_551f06a08dcc4",
     "source_task_numbers": [
       5
     ],

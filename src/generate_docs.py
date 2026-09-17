@@ -69,9 +69,10 @@ def main() -> None:
     total_files += 1
 
     print("Generating docs/tasks/ …")
-    # The curated Atlas mapping drives the Atlas link on each task page. It is the
-    # authoritative cross-reference; the legacy atlas_id field on the task records is
-    # superseded and no longer rendered.
+    # The curated Atlas mapping drives the Atlas link on each task page and is the
+    # only Atlas cross-reference. Task records used to carry their own atlas_id, but
+    # 18 of its 64 populated values were dead or pointed at a different paradigm, so
+    # the field was removed rather than left to drift from the mapping again.
     atlas_map: dict[str, dict] = {}
     map_path = working_dir / "mappings" / "hed_task_to_atlas.tsv"
     if map_path.exists():
