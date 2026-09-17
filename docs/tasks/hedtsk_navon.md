@@ -98,4 +98,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4f2415cb2e6e3)
+- Cognitive Atlas: [global-local task](https://www.cognitiveatlas.org/task/id/trm_4f241d7adf14e)

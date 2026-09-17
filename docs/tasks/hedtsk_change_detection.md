@@ -84,4 +84,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_5154906cbead5)
+- Cognitive Atlas: [Change Detection Task](https://www.cognitiveatlas.org/task/id/trm_5154906cbead5)

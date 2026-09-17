@@ -89,4 +89,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_553e8882e3cb6)
+- Cognitive Atlas: [Ultimatum Game (UG)](https://www.cognitiveatlas.org/task/id/trm_553e8882e3cb6)

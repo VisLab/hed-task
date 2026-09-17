@@ -85,4 +85,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4cacf22a22d80)
+- Cognitive Atlas: [Probabilistic classification task](https://www.cognitiveatlas.org/task/id/trm_4cacf22a22d80)

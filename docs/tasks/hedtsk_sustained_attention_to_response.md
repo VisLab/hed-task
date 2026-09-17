@@ -91,4 +91,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4da86cfe8cf1b)
+- Cognitive Atlas: [sustained attention to response task](https://www.cognitiveatlas.org/task/id/trm_4da86cfe8cf1b)

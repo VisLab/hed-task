@@ -84,4 +84,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4f241c735e7f6)
+- Cognitive Atlas: [serial reaction time task](https://www.cognitiveatlas.org/task/id/trm_4f241c735e7f6)

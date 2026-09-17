@@ -85,4 +85,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4c898a20eb254)
+- Cognitive Atlas: [Eriksen flanker task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949a4f)

@@ -87,4 +87,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4f244a67d5b17)
+- Cognitive Atlas: [mirror tracing task](https://www.cognitiveatlas.org/task/id/trm_4f244a67d5b17)

@@ -77,4 +77,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4c40d168898db)
+- Cognitive Atlas: [Sternberg Item Recognition Task](https://www.cognitiveatlas.org/task/id/trm_551f0a8b5ba2c)

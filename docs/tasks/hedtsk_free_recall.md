@@ -88,4 +88,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4f24448c35e04)
+- Cognitive Atlas: [recall test](https://www.cognitiveatlas.org/task/id/trm_4f2411c91ae5e) (close match)

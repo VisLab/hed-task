@@ -100,4 +100,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_553e73e29cf7d)
+- Cognitive Atlas: [contextual semantic priming task](https://www.cognitiveatlas.org/task/id/trm_553e73e29cf7d) (close match)

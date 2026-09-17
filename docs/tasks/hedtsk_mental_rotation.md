@@ -81,4 +81,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4c8990810541d)
+- Cognitive Atlas: [mental rotation task](https://www.cognitiveatlas.org/task/id/trm_4c8990810541d)

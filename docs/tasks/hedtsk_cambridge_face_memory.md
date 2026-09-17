@@ -82,4 +82,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949912)
+- Cognitive Atlas: [Cambridge Face Memory Test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949912)

@@ -65,4 +65,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949aca)
+- Cognitive Atlas: [International Affective Picture System](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949aca) (close match)

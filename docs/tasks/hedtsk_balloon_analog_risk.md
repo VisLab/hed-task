@@ -85,4 +85,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4d559bcd67c18)
+- Cognitive Atlas: [balloon analogue risk task](https://www.cognitiveatlas.org/task/id/trm_4d559bcd67c18)

@@ -101,4 +101,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4b1968619b00b)
+- Cognitive Atlas: [color-word stroop task](https://www.cognitiveatlas.org/task/id/trm_4b1968619b00b)

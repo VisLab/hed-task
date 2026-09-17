@@ -101,4 +101,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4c898acd1f28e)
+- Cognitive Atlas: [pavlovian conditioning task](https://www.cognitiveatlas.org/task/id/trm_4c898acd1f28e) (close match)

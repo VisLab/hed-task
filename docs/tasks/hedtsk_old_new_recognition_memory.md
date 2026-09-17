@@ -85,4 +85,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949d40)
+- Cognitive Atlas: [recognition memory test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949d40)

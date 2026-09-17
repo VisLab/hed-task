@@ -73,4 +73,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_5580c5b49f949)
+- Cognitive Atlas: [symbol-digit substitution](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e44)

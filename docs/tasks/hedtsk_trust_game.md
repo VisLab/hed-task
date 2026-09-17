@@ -85,4 +85,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/tsk_uzol7erTzr9Ix)
+- Cognitive Atlas: [Trust game (TG)](https://www.cognitiveatlas.org/task/id/tsk_uzol7erTzr9Ix)

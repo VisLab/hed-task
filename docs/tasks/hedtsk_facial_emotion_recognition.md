@@ -86,4 +86,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_50f734f86b11a)
+- Cognitive Atlas: [Emotion Recognition Task](https://www.cognitiveatlas.org/task/id/trm_50f734f86b11a) (close match)

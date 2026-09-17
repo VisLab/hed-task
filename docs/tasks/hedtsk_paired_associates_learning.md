@@ -89,4 +89,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4da88a2a63d97)
+- Cognitive Atlas: [paired associate learning](https://www.cognitiveatlas.org/task/id/trm_4da88a2a63d97)

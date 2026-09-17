@@ -106,4 +106,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_551f06a08dcc4)
+- Cognitive Atlas: [rapid serial visual presentation task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949879)

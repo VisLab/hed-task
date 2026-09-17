@@ -88,4 +88,4 @@ This task engages the following cognitive processes:
 
 ## External links
 
-- [Cognitive Atlas entry](https://www.cognitiveatlas.org/task/id/trm_4b4a537644d76)
+- Cognitive Atlas: [Continuous Performance Task](https://www.cognitiveatlas.org/task/id/trm_57c0c34e61fdf)
