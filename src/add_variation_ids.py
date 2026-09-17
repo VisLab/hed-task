@@ -41,7 +41,10 @@ def slugify(text: str) -> str:
     value = (text or "").strip()
     value = re.sub(r"\s+(Task|Test)$", "", value, flags=re.IGNORECASE)
     value = value.lower()
-    value = value.replace("'", "").replace("'", "")
+    # Both apostrophe forms are deleted rather than turned into a separator, so
+    # "Raven's" slugs to "ravens" and not "raven_s". The curly form is written as an
+    # escape to keep the source ASCII-only.
+    value = value.replace("'", "").replace("\u2019", "")
     value = re.sub(r"[^a-z0-9]+", "_", value)
     value = re.sub(r"_+", "_", value)
     return value.strip("_")
