@@ -11,7 +11,7 @@ from generators.utils import write_page
 # Regex patterns for stripping internal file references
 # ---------------------------------------------------------------------------
 
-# Pattern 1: parenthetical like (see `.status_2/criteria_review_2026-04-17.md` §2.5)
+# Pattern 1: parenthetical like (see `.status_2/criteria_review_2026-04-17.md` section 2.5)
 _RE_SEE_PARENTHETICAL = re.compile(
     r"\(see\s+`[^`]+\.status_2/[^`]+`[^)]*\)",
     re.IGNORECASE,
@@ -27,7 +27,7 @@ _RE_DOCUMENTED_IN = re.compile(
     re.IGNORECASE,
 )
 
-# Pattern 4: "The variation audit (`.status_2/variation_audit.md`, applied YYYY-MM-DD)" → keep date
+# Pattern 4: "The variation audit (`.status_2/variation_audit.md`, applied YYYY-MM-DD)" -> keep date
 _RE_VARIATION_AUDIT = re.compile(
     r"\(`\.status_2/variation_audit\.md`,\s*",
     re.IGNORECASE,
@@ -67,7 +67,7 @@ def _clean_criteria(text: str) -> str:
 
     # Order matters: do more specific replacements first.
 
-    # "documented in detail in ..." → "documented in the project's decision records"
+    # "documented in detail in ..." -> "documented in the project's decision records"
     text = _RE_DOCUMENTED_IN.sub("documented in the project's decision records", text)
 
     # "The prior reference and categories documents have been archived"
@@ -76,13 +76,13 @@ def _clean_criteria(text: str) -> str:
     # Verified against `process_reference.md` before archival.
     text = _RE_VERIFIED_AGAINST.sub("Verified against the prior reference document before archival.", text)
 
-    # (see `.status_2/criteria_review_2026-04-17.md` §2.5) → ""
+    # (see `.status_2/criteria_review_2026-04-17.md` section 2.5) -> ""
     text = _RE_SEE_PARENTHETICAL.sub("", text)
 
-    # See `.status_2/...`. → ""  (sentence-ending)
+    # See `.status_2/...`. -> ""  (sentence-ending)
     text = _RE_SEE_FILE_SENTENCE.sub("", text)
 
-    # The variation audit (`.status_2/variation_audit.md`, applied → (applied
+    # The variation audit (`.status_2/variation_audit.md`, applied -> (applied
     text = _RE_VARIATION_AUDIT.sub("(", text)
 
     # Any remaining .status_2/ backtick refs
@@ -94,10 +94,10 @@ def _clean_criteria(text: str) -> str:
     # Script references
     text = _RE_SCRIPT.sub("", text)
 
-    # `process_reference.md` → "the prior reference document"
+    # `process_reference.md` -> "the prior reference document"
     text = _RE_PROCESS_REF_MD.sub("the prior reference document", text)
 
-    # `process_categories.md` → "the prior categories document"
+    # `process_categories.md` -> "the prior categories document"
     text = _RE_PROCESS_CAT_MD.sub("the prior categories document", text)
 
     # Clean up doubled spaces / leading spaces within lines left by removals

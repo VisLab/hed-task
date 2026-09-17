@@ -84,12 +84,12 @@ This task engages the following cognitive processes:
 
 ## Key references
 
-- {'authors': 'Baddeley, A.', 'year': 1986, 'title': 'Working Memory, Reading and Dyslexia', 'venue': 'Advances in Psychology', 'venue_type': 'book_chapter', 'journal': None, 'volume': None, 'issue': None, 'pages': '141-152', 'doi': '10.1016/s0166-4115(08)61202-9', 'openalex_id': None, 'pmid': None, 'citation_string': 'Baddeley, A. D. (1986). *Working Memory*. Oxford University Press.', 'url': 'https://doi.org/10.1016/s0166-4115(08)61202-9', 'source': 'crossref', 'confidence': 'high', 'verified_on': '2026-04-20'}
-- {'authors': 'Miller, G. A.', 'year': 1956, 'title': 'The magical number seven, plus or minus two: Some limits on our capacity for processing information.', 'venue': 'Psychological Review', 'venue_type': 'journal', 'journal': 'Psychological Review', 'volume': '63', 'issue': '2', 'pages': '81-97', 'doi': '10.1037/h0043158', 'openalex_id': None, 'pmid': None, 'citation_string': 'Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*, 63(2), 81–97.', 'url': 'https://doi.org/10.1037/h0043158', 'source': 'crossref', 'confidence': 'high', 'verified_on': '2026-04-20'}
+- Baddeley, A. D. (1986). *Working Memory*. Oxford University Press.
+- Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*, 63(2), 81–97.
 
 ## Recent references
 
-- {'authors': 'Woods, D. L., Herron, T. J., Yund, E. W., Hink, R. F., Kishiyama, M. M., & Reed, B.', 'year': 2011, 'title': 'Computerized analysis of error patterns in digit span recall', 'venue': 'Journal of Clinical and Experimental Neuropsychology', 'venue_type': 'journal', 'journal': 'Journal of Clinical and Experimental Neuropsychology', 'volume': '33', 'issue': '7', 'pages': '721-734', 'doi': '10.1080/13803395.2010.550602', 'openalex_id': None, 'pmid': None, 'citation_string': 'Woods, D. L., Kishiyama, M. M., Yund, E. W., Herron, T. J., Edwards, B., Poliva, O., ... & Reed, B. (2011). Improving digit span assessment of short-term verbal memory. *Journal of Clinical and Experimental Neuropsychology*, 33(1), 101–111.', 'url': 'https://doi.org/10.1080/13803395.2010.550602', 'source': 'crossref', 'confidence': 'high', 'verified_on': '2026-04-20'}
+- Woods, D. L., Kishiyama, M. M., Yund, E. W., Herron, T. J., Edwards, B., Poliva, O., ... & Reed, B. (2011). Improving digit span assessment of short-term verbal memory. *Journal of Clinical and Experimental Neuropsychology*, 33(1), 101–111.
 
 ## External links
 

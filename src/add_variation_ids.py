@@ -41,7 +41,7 @@ def slugify(text: str) -> str:
     value = (text or "").strip()
     value = re.sub(r"\s+(Task|Test)$", "", value, flags=re.IGNORECASE)
     value = value.lower()
-    value = value.replace("'", "").replace("’", "")
+    value = value.replace("'", "").replace("'", "")
     value = re.sub(r"[^a-z0-9]+", "_", value)
     value = re.sub(r"_+", "_", value)
     return value.strip("_")

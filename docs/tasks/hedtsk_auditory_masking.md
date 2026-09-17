@@ -80,11 +80,11 @@ This task engages the following cognitive processes:
 
 ## Key references
 
-- {'authors': 'Holt, N. J., Simmonds-Moore, C., Luke, D., & French, C. C.', 'year': 2012, 'title': 'Introduction and overview', 'venue': 'Anomalistic Psychology', 'venue_type': 'book_chapter', 'journal': None, 'volume': None, 'issue': None, 'pages': '1-14', 'doi': '10.1007/978-0-230-36409-7_1', 'openalex_id': None, 'pmid': None, 'citation_string': 'Moore, B. C. J. (2012). An Introduction to the Psychology of Hearing (6th ed.). Brill.', 'url': 'https://doi.org/10.1007/978-0-230-36409-7_1', 'source': 'crossref', 'confidence': 'high', 'verified_on': '2026-04-20'}
+- Moore, B. C. J. (2012). An Introduction to the Psychology of Hearing (6th ed.). Brill.
 
 ## Recent references
 
-- {'authors': 'Shinn-Cunningham, B. G.', 'year': 2008, 'title': 'Object-based auditory and visual attention', 'venue': 'Trends in Cognitive Sciences', 'venue_type': 'journal', 'journal': 'Trends in Cognitive Sciences', 'volume': '12', 'issue': '5', 'pages': '182-186', 'doi': '10.1016/j.tics.2008.02.003', 'openalex_id': None, 'pmid': None, 'citation_string': 'Shinn-Cunningham, B. G. (2008). Object-based auditory and visual attention. Trends in Cognitive Sciences, 12(5), 182–186.', 'url': 'https://doi.org/10.1016/j.tics.2008.02.003', 'source': 'crossref', 'confidence': 'high', 'verified_on': '2026-04-20'}
+- Shinn-Cunningham, B. G. (2008). Object-based auditory and visual attention. Trends in Cognitive Sciences, 12(5), 182–186.
 
 ## External links
 

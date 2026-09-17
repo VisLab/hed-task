@@ -1,4 +1,4 @@
-"""Generate docs/index.md — the site homepage."""
+"""Generate docs/index.md - the site homepage."""
 
 from __future__ import annotations
 

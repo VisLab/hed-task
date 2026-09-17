@@ -71,13 +71,13 @@ This task engages the following cognitive processes:
 
 ## Key references
 
-- {'authors': 'Shepard, R. N., & Metzler, J.', 'year': 1971, 'title': 'Mental Rotation of Three-Dimensional Objects', 'venue': 'Science', 'venue_type': 'journal', 'journal': 'Science', 'volume': '171', 'issue': '3972', 'pages': '701-703', 'doi': '10.1126/science.171.3972.701', 'openalex_id': None, 'pmid': None, 'citation_string': 'Shepard, R. N., & Metzler, J. (1971). Mental rotation of three-dimensional objects. *Science*, 171(3972), 701-703.', 'url': 'https://doi.org/10.1126/science.171.3972.701', 'source': 'crossref', 'confidence': 'high', 'verified_on': '2026-04-20'}
-- {'authors': 'Zacks, J. M.', 'year': 2008, 'title': 'Neuroimaging Studies of Mental Rotation: A Meta-analysis and Review', 'venue': 'Journal of Cognitive Neuroscience', 'venue_type': 'journal', 'journal': 'Journal of Cognitive Neuroscience', 'volume': '20', 'issue': '1', 'pages': '1-19', 'doi': '10.1162/jocn.2008.20.1.1', 'openalex_id': None, 'pmid': None, 'citation_string': 'Zacks, J. M. (2008). Neuroimaging studies of mental rotation: A meta-analysis and review. *Journal of Cognitive Neuroscience*, 20(1), 1-19.', 'url': 'https://doi.org/10.1162/jocn.2008.20.1.1', 'source': 'crossref', 'confidence': 'high', 'verified_on': '2026-04-20'}
+- Shepard, R. N., & Metzler, J. (1971). Mental rotation of three-dimensional objects. *Science*, 171(3972), 701-703.
+- Zacks, J. M. (2008). Neuroimaging studies of mental rotation: A meta-analysis and review. *Journal of Cognitive Neuroscience*, 20(1), 1-19.
 
 ## Recent references
 
-- {'authors': 'Zacks, J. M.', 'year': 2008, 'title': 'Neuroimaging Studies of Mental Rotation: A Meta-analysis and Review', 'venue': 'Journal of Cognitive Neuroscience', 'venue_type': 'journal', 'journal': 'Journal of Cognitive Neuroscience', 'volume': '20', 'issue': '1', 'pages': '1-19', 'doi': '10.1162/jocn.2008.20.1.1', 'openalex_id': None, 'pmid': None, 'citation_string': 'Zacks, J. M. (2008). Neuroimaging studies of mental rotation: A meta-analysis and review. *Journal of Cognitive Neuroscience*, 20(1), 1–19.', 'url': 'https://doi.org/10.1162/jocn.2008.20.1.1', 'source': 'crossref', 'confidence': 'high', 'verified_on': '2026-04-20'}
-- {'authors': 'Milivojevic, B., et al.', 'year': 2023, 'title': 'Editorial Board', 'venue': 'Neuroscience & Biobehavioral Reviews', 'venue_type': 'journal', 'journal': 'Neuroscience & Biobehavioral Reviews', 'volume': '147', 'issue': None, 'pages': '105134', 'doi': '10.1016/s0149-7634(23)00103-3', 'openalex_id': None, 'pmid': None, 'citation_string': 'Milivojevic, B., et al. (2023). Imaging the spin: Disentangling the core processes underlying mental rotation by meta-analysis. *Neuroscience & Biobehavioral Reviews*, 147, 105131.', 'url': 'https://doi.org/10.1016/s0149-7634(23)00103-3', 'source': 'crossref', 'confidence': 'high', 'verified_on': '2026-04-20'}
+- Zacks, J. M. (2008). Neuroimaging studies of mental rotation: A meta-analysis and review. *Journal of Cognitive Neuroscience*, 20(1), 1–19.
+- Milivojevic, B., et al. (2023). Imaging the spin: Disentangling the core processes underlying mental rotation by meta-analysis. *Neuroscience & Biobehavioral Reviews*, 147, 105131.
 
 ## External links
 
