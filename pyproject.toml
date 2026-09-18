@@ -33,7 +33,7 @@ dependencies = []
 
 [project.urls]
 "Homepage" = "https://www.hedtags.org/"
-"Documentation" = "https://hed-task.readthedocs.io/"
+"Documentation" = "https://www.hedtags.org/hed-task/"
 "Repository" = "https://github.com/hed-standard/hed-task/"
 "Bug Tracker" = "https://github.com/hed-standard/hed-task/issues"
 "HED Specification" = "https://github.com/hed-standard/hed-specification"
@@ -53,7 +53,7 @@ docs = [
     "furo>=2024.1.29",
     "sphinx-copybutton>=0.5.2",
     "myst-parser>=3.0.0",
-    "sphinx-autodoc-typehints>=1.24.0",
+    "sphinx-design>=0.6.1",
     "linkify-it-py>=2.0.3",
 ]
 

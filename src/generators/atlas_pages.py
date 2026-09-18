@@ -12,6 +12,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from generators.utils import table as _table
 from generators.utils import write_page
 
 ATLAS_URL = "https://www.cognitiveatlas.org/"
@@ -22,15 +23,6 @@ ATLAS_PAPER = (
     "Toward a knowledge foundation for cognitive neuroscience. "
     "*Frontiers in Neuroinformatics*, 5, 17."
 )
-
-
-def _table(headers: list[str], rows: list[list]) -> str:
-    """Render a GitHub-style Markdown table."""
-    out = ["| " + " | ".join(headers) + " |"]
-    out.append("|" + "|".join("---" for _ in headers) + "|")
-    for row in rows:
-        out.append("| " + " | ".join(str(cell) for cell in row) + " |")
-    return "\n".join(out)
 
 
 def _pct(value: float) -> str:
@@ -47,27 +39,6 @@ def _code_list(names: list[str]) -> str:
 
 def _row(rows: list[dict], label: str) -> dict:
     return next(r for r in rows if r["label"] == label)
-
-
-def _index_page() -> str:
-    return f"""\
-# The Cognitive Atlas
-
-The [Cognitive Atlas]({ATLAS_URL}) is a community-built ontology of cognitive processes
-and the experimental paradigms used to measure them. It is the largest openly licensed
-resource of its kind and was the starting corpus for this catalog.
-
-These pages describe the Atlas as it stands and how this catalog relates to it.
-
-```{{toctree}}
-:maxdepth: 2
-
-cognitive_atlas
-relationship
-task_crossref
-process_crossref
-```
-"""
 
 
 def _atlas_page(data: dict) -> str:  # noqa: PLR0914 - a report with many named figures
@@ -511,11 +482,6 @@ client at <https://github.com/CognitiveAtlas/cogat-python>.
 
 
 def generate(docs_dir: Path, atlas_data: dict) -> int:
-    """Write docs/atlas/index.md and docs/atlas/cognitive_atlas.md.
-
-    Returns the number of files written.
-    """
-    atlas_dir = docs_dir / "atlas"
-    write_page(atlas_dir / "index.md", _index_page())
-    write_page(atlas_dir / "cognitive_atlas.md", _atlas_page(atlas_data))
-    return 2
+    """Write docs/atlas/cognitive_atlas.md. Returns the number of files written."""
+    write_page(docs_dir / "atlas" / "cognitive_atlas.md", _atlas_page(atlas_data))
+    return 1

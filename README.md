@@ -2,38 +2,46 @@
 
 [![Deploy documentation](https://github.com/hed-standard/hed-task/actions/workflows/docs.yaml/badge.svg)](https://github.com/hed-standard/hed-task/actions/workflows/docs.yaml) [![Ruff](https://github.com/hed-standard/hed-task/actions/workflows/ruff.yaml/badge.svg)](https://github.com/hed-standard/hed-task/actions/workflows/ruff.yaml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A catalog of standard cognitive and behavioral neuroscience tasks and the cognitive processes they engage, developed as part of the [HED (Hierarchical Event Descriptors)](https://www.hedtags.org/) standardization effort.
+A curated catalog of standard cognitive and behavioral neuroscience tasks and the cognitive processes they engage, developed as part of the [HED (Hierarchical Event Descriptors)](https://www.hedtags.org/) standardization effort. Its purpose is to provide a controlled vocabulary for tagging datasets with what their participants were asked to do, so that repositories can be searched by task or by process and datasets can be compared across laboratories.
 
-The catalog currently covers **103 tasks**, **172 cognitive processes** in **19 categories**, and **486 task–process links**. It provides standard definitions, inclusion criteria, named variations, and bidirectional cross-references to support consistent HED annotation of experimental events across laboratories and BIDS datasets.
+The catalog currently covers **103 tasks** in **18 paradigm families**, **172 cognitive processes** in **19 categories**, and **486 task-process links**. Each task has a canonical definition, an inclusion test, named variations, verified references and a mapping to the Cognitive Atlas. The catalog is a work in progress; suggestions, corrections and proposals are welcome as [GitHub issues](https://github.com/hed-standard/hed-task/issues).
 
-The catalog is published as a searchable website at **<https://hed-task.readthedocs.io/>**.
+The catalog is published as a searchable website at **<https://www.hedtags.org/hed-task/>**.
 
 ## Contents
 
-| Section                                                                         | Description                                                                             |
-| ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| [Task catalog](https://hed-task.readthedocs.io/tasks/index.html)                | 103 tasks with canonical definitions, inclusion criteria, variations, and process links |
-| [Process catalog](https://hed-task.readthedocs.io/processes/index.html)         | 172 cognitive processes in 19 categories, each with definition and references           |
-| [Cross-reference](https://hed-task.readthedocs.io/crossref.html)                | Bidirectional table mapping processes to tasks and tasks to processes                   |
-| [Cognitive Atlas](https://hed-task.readthedocs.io/atlas/index.html)             | What the Cognitive Atlas contains and the state of its curation                         |
-| [Methodology](https://hed-task.readthedocs.io/methodology/index.html)           | How the Atlas mappings were produced and what was verified by hand                      |
-| [Criteria and methodology](https://hed-task.readthedocs.io/criteria/index.html) | Inclusion criteria and editorial decisions for tasks and processes                      |
+| Section                                                                        | Description                                                                                |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| [Introduction](https://www.hedtags.org/hed-task/introduction.html)             | What the catalog is made of, its identifiers, and where it came from                       |
+| [How to use the catalog](https://www.hedtags.org/hed-task/how_to_use.html)     | Reading a task page, tagging a dataset, proposing a change                                 |
+| [Tasks](https://www.hedtags.org/hed-task/tasks/index.html)                     | 103 tasks in 18 paradigm families, each with inclusion test, variations and process links  |
+| [Cognitive processes](https://www.hedtags.org/hed-task/processes/index.html)   | 172 processes in 19 categories, each with definition, references and linked tasks          |
+| [Task-process links](https://www.hedtags.org/hed-task/crossref.html)           | The whole task-to-process matrix in both directions                                        |
+| [Methods](https://www.hedtags.org/hed-task/methods/task_criteria.html)         | Task and process selection criteria; how the Cognitive Atlas mapping was built             |
+| [Cognitive Atlas](https://www.hedtags.org/hed-task/atlas/cognitive_atlas.html) | What the Atlas contains, how this catalog relates to it, and the row-by-row mapping tables |
 
 ## Repository structure
 
 ```
 hed-task/
-├── src/                    # Documentation generators (Python)
-│   ├── generate_docs.py    # Entry point — regenerates all docs/ from .working/
-│   ├── build_atlas_data.py # Recomputes .working/atlas_summary.json from the Atlas harvest
-│   └── generators/         # Per-section generator modules
-├── docs/                   # Sphinx source (generated — do not edit by hand)
-├── .working/               # Authoritative data: task/process details, atlas_summary.json, mappings/
-├── tests/                  # Unit tests
-└── pyproject.toml
+|-- src/                    # Documentation generators (Python)
+|   |-- generate_docs.py    # Entry point: regenerates docs/source/ from .working/ and data/
+|   |-- build_atlas_data.py # Recomputes .working/atlas_summary.json from the Atlas harvest
+|   |-- build_atlas_maps.py # Refreshes .working/mappings/*.tsv, preserving curation
+|   |-- fetch_cog_data.py   # Rebuilds the Atlas API archive in .cog_data/
+|   |-- generators/         # One module per page family
+|-- data/                   # Curated presentation tables owned by this repo (task families)
+|-- docs/
+|   |-- source/             # Sphinx source (generated - do not edit by hand) plus conf.py
+|   |-- _build/             # Build output (gitignored)
+|-- .working/               # Imported catalog: task/process details, atlas_summary.json, mappings/
+|-- tests/                  # Unit tests
+|-- pyproject.toml
 ```
 
-The files in `docs/` are generated from the JSON data in `.working/` by the scripts in `src/`. See [Regenerating the site](#regenerating-the-site) below.
+The Markdown pages in `docs/source/` are generated from the JSON data in `.working/` and the TSV tables in `data/` by the scripts in `src/`. See [Regenerating the site](#regenerating-the-site) below.
+
+`.working/` is the imported catalog and is not edited in this repository. `data/` holds curation that lives here: currently the paradigm families that group the tasks on the site (`data/task_families.tsv`, `data/task_family_defs.tsv`; see `data/README.md`). The family assignment is expected to be revised iteratively.
 
 ## Local development
 
@@ -56,15 +64,15 @@ pip install -e ".[dev,docs]"
 
 ### Regenerating the site
 
-The files in `docs/` are generated from the JSON data in `.working/` — never edit them by hand. Whenever the data in `.working/` changes, run all three steps below:
+Whenever the data in `.working/` or `data/` changes, run both steps below.
 
-**Step 1 — regenerate the Markdown source:**
+**Step 1 - regenerate the Markdown source:**
 
 ```bash
 python src/generate_docs.py
 ```
 
-This reads `task_details.json`, `process_details.json`, and `atlas_summary.json` from `.working/` and overwrites all 136 files in `docs/`.
+This reads `task_details.json`, `process_details.json`, `atlas_summary.json` and `mappings/*.tsv` from `.working/` and the family tables from `data/`, deletes every previously generated page under `docs/source/`, and writes the current set (154 pages). It refuses to run if a task has no family, a family has no tasks, or a family id is unknown.
 
 `atlas_summary.json` and `mappings/*.tsv` are derived from a byte-exact archive of the [Cognitive Atlas](https://www.cognitiveatlas.org/) REST API kept in `.cog_data/`, which is untracked. Only the derived files are committed, so the docs build never needs the archive. To refresh, run:
 
@@ -76,21 +84,19 @@ python src/build_atlas_maps.py    # refresh the mapping tables, preserving curat
 
 `build_atlas_data.py` and `build_atlas_maps.py` both take `--archive` if the archive is not at `.cog_data/`.
 
-**Step 2 — normalize the Markdown:**
+**Step 2 - build the HTML:**
 
 ```bash
-python -m mdformat --wrap no --number docs/ *.md
+sphinx-build -b html docs/source docs/_build/html
 ```
 
-`generate_docs.py` emits hard-wrapped Markdown, but `.github/workflows/mdformat.yaml` checks the docs with `--wrap no`. Skipping this step makes that workflow fail.
+Then open `docs/_build/html/index.html` in a browser to preview. A clean build emits no warnings.
 
-**Step 3 — build the HTML:**
+Do not run `mdformat` over `docs/source/`. It rewrites the generated MyST directives into a form Sphinx cannot parse. The `mdformat` CI check is scoped to the hand-written Markdown at the repository root for that reason:
 
 ```bash
-sphinx-build -b html docs docs/_build/html
+python -m mdformat --check --wrap no --number *.md
 ```
-
-Then open `docs/_build/html/index.html` in a browser to preview. The build currently emits 172 `Transition must be child of <document> or <section>` warnings, one per `______` separator that mdformat writes into the process and criteria pages, plus one per unreachable intersphinx inventory when the build host is offline.
 
 ### Run tests
 
@@ -107,19 +113,21 @@ ruff format --check .
 
 ## CI/CD
 
-| Workflow     | Trigger             | Purpose                                   |
-| ------------ | ------------------- | ----------------------------------------- |
-| `docs.yaml`  | Push / PR to `main` | Build and deploy the site to GitHub Pages |
-| `ruff.yaml`  | Push / PR to `main` | Lint and format checks                    |
-| `typos.yaml` | Push / PR to `main` | Spell checking                            |
-| `links.yaml` | Push / PR to `main` | Broken link detection                     |
+| Workflow        | Trigger             | Purpose                                   |
+| --------------- | ------------------- | ----------------------------------------- |
+| `docs.yaml`     | Push / PR to `main` | Build and deploy the site to GitHub Pages |
+| `ruff.yaml`     | Push / PR to `main` | Lint and format checks                    |
+| `mdformat.yaml` | Push / PR to `main` | Markdown formatting of the root files     |
+| `links.yaml`    | Push / PR to `main` | Broken link detection                     |
 
 ## Related resources
 
 - [HED homepage](https://www.hedtags.org/)
+- [HED resources](https://www.hedtags.org/hed-resources/)
 - [HED specification](https://github.com/hed-standard/hed-specification)
 - [HED Python tools](https://github.com/hed-standard/hed-python)
 - [HED schemas](https://github.com/hed-standard/hed-schemas)
+- [Cognitive Atlas](https://www.cognitiveatlas.org/)
 
 ## License
 

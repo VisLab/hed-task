@@ -1,10 +1,20 @@
-"""Generate docs/index.md - the site homepage."""
+"""Generate docs/index.md - the site landing page.
+
+The landing page says what the catalog is, what it is for, what it contains, where to
+start, and how to contribute. Every figure is computed from the data so the prose cannot
+drift from it. The toctrees are hidden and captioned so that the left sidebar reads as
+labelled sections, the same arrangement hed-resources uses.
+"""
 
 from __future__ import annotations
 
 from pathlib import Path
 
-from generators.utils import write_page
+from generators.utils import table, write_page
+
+ISSUES_URL = "https://github.com/hed-standard/hed-task/issues"
+CONTRIBUTING_URL = "https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md"
+ATLAS_URL = "https://www.cognitiveatlas.org/"
 
 
 def generate(
@@ -12,45 +22,178 @@ def generate(
     tasks: list[dict],
     processes: list[dict],
     categories: list[dict],
-) -> None:
-    """Write docs/index.md."""
-    total_tasks = len(tasks)
-    total_processes = len(processes)
-    total_categories = len(categories)
-    total_links = sum(len(t.get("hed_process_ids", [])) for t in tasks)
+    families: list[dict],
+) -> int:
+    """Write docs/index.md. Returns the number of files written."""
+    n_tasks = len(tasks)
+    n_processes = len(processes)
+    n_categories = len(categories)
+    n_families = len(families)
+    n_links = sum(len(t.get("hed_process_ids", [])) for t in tasks)
+    n_variations = sum(len(t.get("variations", [])) for t in tasks)
+    linked = {pid for t in tasks for pid in t.get("hed_process_ids", [])}
+    n_linked = sum(1 for p in processes if p["process_id"] in linked)
+
+    counts = table(
+        ["What", "Count", "Where"],
+        [
+            ["Tasks", n_tasks, "[Tasks](tasks/index.md)"],
+            ["Paradigm families the tasks are filed under", n_families, "[Tasks](tasks/index.md)"],
+            ["Named task variations", n_variations, "on each task page"],
+            ["Cognitive processes", n_processes, "[Cognitive processes](processes/index.md)"],
+            ["Process categories", n_categories, "[Cognitive processes](processes/index.md)"],
+            ["Task-to-process links", n_links, "[Task-process links](crossref.md)"],
+            ["Processes engaged by at least one task", n_linked, "[Task-process links](crossref.md)"],
+        ],
+    )
 
     content = f"""\
 # HED task catalog
 
-This catalog defines {total_tasks} standard cognitive and behavioral neuroscience tasks
-and {total_processes} cognitive processes organized into {total_categories} categories.
-It is part of the HED (Hierarchical Event Descriptors) standardization effort, which aims
-to provide uniform, machine-readable annotation of experimental events in neuroscience data.
+A curated vocabulary of the standard tasks used in cognitive and behavioral neuroscience
+experiments, and of the cognitive processes those tasks engage. It exists so that
+datasets can be tagged with what their participants were asked to do, in terms that are
+the same across laboratories.
 
-The catalog provides standard definitions, inclusion criteria, named variations, and
-process linkages for widely used experimental paradigms, enabling consistent annotation
-across laboratories and datasets.
+## What is the HED task catalog?
 
-## Catalog at a glance
+The catalog is two linked lists.
 
-| Item | Count |
-|------|-------|
-| Tasks | {total_tasks} |
-| Cognitive processes | {total_processes} |
-| Process categories | {total_categories} |
-| Task-process links | {total_links} |
+**Tasks** are experimental paradigms with a specific, reproducible procedure: the Stroop
+Color-Word Task, the N-Back Task, the Iowa Gambling Task. Each task has a canonical name
+and its aliases, a description, an *inclusion test* stating the procedure, the
+manipulation and the measurement that make an experiment an instance of that task, a list
+of named variations with the reason each one counts as a variation, and verified
+references. Tasks are filed under {n_families} paradigm families according to what the
+participant does.
 
-## Contents
+**Cognitive processes** are the mental operations a task is designed to engage: response
+inhibition, working memory updating, reward anticipation. Each process has a definition,
+references, and a place in one of {n_categories} categories.
+
+Every task states which processes it engages, and every process lists the tasks that
+engage it. The catalog is part of the HED (Hierarchical Event Descriptors) effort to
+make the events in neuroimaging and behavioral data machine-readable; see the
+[HED resources](https://www.hedtags.org/hed-resources) site for HED itself.
+
+## Why a task and process taxonomy?
+
+A data repository knows what files a dataset contains but usually not what its
+participants did beyond a free-text label such as `task-flanker` or `task-rest`. The
+same paradigm goes by different names across laboratories, and related paradigms that
+engage the same process are not connected at all. This catalog is meant to supply the
+missing layer:
+
+- **Tags for datasets.** A dataset tagged with a task identifier from this catalog, and
+  with the process identifiers that task engages, can be found by a repository search for
+  the task, for any of its aliases, or for a process, whatever the dataset called it
+  locally.
+- **Commonalities across datasets.** Two datasets tagged with the same task can be
+  compared directly. Two datasets tagged with different tasks that share a process can be
+  grouped for a question about that process.
+- **Context for event annotation.** A task tag tells a reader of a HED-annotated events
+  file what the trial structure was designed to do, which the event-level annotations
+  alone do not.
+
+How these tags will be expressed in HED annotations and in dataset metadata is still being
+worked out; the identifiers here are the catalog's own and are not yet HED schema terms.
+
+## What the catalog contains
+
+{counts}
+
+## Where to begin
+
+::::{{grid}} 2
+:gutter: 3
+
+:::{{grid-item-card}} Browse the tasks
+:link: tasks/index
+:link-type: doc
+
+{n_tasks} tasks in {n_families} paradigm families, each with its inclusion test,
+variations, processes and references.
+:::
+
+:::{{grid-item-card}} Browse the cognitive processes
+:link: processes/index
+:link-type: doc
+
+{n_processes} processes in {n_categories} categories, each with a definition, references
+and the tasks that engage it.
+:::
+
+:::{{grid-item-card}} Read how tasks and processes were chosen
+:link: methods/task_criteria
+:link-type: doc
+
+The selection criteria, naming rules, inclusion test and the rules that decide what
+counts as a variation.
+:::
+
+:::{{grid-item-card}} Compare with the Cognitive Atlas
+:link: atlas/relationship
+:link-type: doc
+
+What the Atlas contains, how this catalog maps onto it entry by entry, and what each
+adds to the other.
+:::
+
+::::
+
+New to the catalog? Start with the [introduction](introduction.md). Planning to tag a
+dataset or to read a task page closely? See [how to use the catalog](how_to_use.md).
+
+## Status and how to contribute
+
+This catalog is a work in progress and its curation is a continuing process, not a
+finished product. The task and process lists began from the
+[Cognitive Atlas]({ATLAS_URL}), were narrowed to paradigms that produce event-structured
+data, and have been added to, merged and redefined since. Tasks, processes, categories
+and paradigm families will keep changing as the catalog is used.
+
+Suggestions, corrections and ideas are welcome: please open an issue at
+<{ISSUES_URL}>. The repository's [contributing guide]({CONTRIBUTING_URL}) describes the
+process. A proposal for a new task is most useful when it comes with a procedure,
+a manipulation and a measurement in the form the inclusion tests use; a proposal for a
+new process is most useful when it says when in a trial the process happens, what
+elicits it and how it is measured.
 
 ```{{toctree}}
-:maxdepth: 2
+:hidden:
+:caption: Overview
+
+introduction
+how_to_use
+```
+
+```{{toctree}}
+:hidden:
+:caption: Catalog
 
 tasks/index
 processes/index
-crossref
-atlas/index
-methodology/index
-criteria/index
+Task-process links <crossref>
+```
+
+```{{toctree}}
+:hidden:
+:caption: Methods
+
+methods/task_criteria
+methods/process_criteria
+methods/atlas_mapping
+```
+
+```{{toctree}}
+:hidden:
+:caption: Cognitive Atlas
+
+atlas/cognitive_atlas
+atlas/relationship
+atlas/task_mapping
+atlas/process_mapping
 ```
 """
     write_page(docs_dir / "index.md", content)
+    return 1
