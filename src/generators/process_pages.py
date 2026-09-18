@@ -61,7 +61,15 @@ def _write_process_index(
     for cat in sorted_categories:
         cat_id = cat["category_id"]
         name = cat["name"]
-        scope = truncate(cat.get("scope", ""), 100)
+        # Publish-clean the scope before truncating: truncation would otherwise hide
+        # change-log text just past the cut, or expose it just before.
+        scope = _publish(
+            cat.get("scope", ""),
+            (cat_id, "scope"),
+            _PUBLISHED_CATEGORY_FIELDS,
+            f"scope for category {cat_id!r}",
+        )
+        scope = truncate(scope, 100)
         scope = scope.replace("|", "\\|")
         n_procs = len(processes_by_category.get(cat_id, []))
         lines.append(f"| [{name}]({cat_id}.md) | {n_procs} | {scope} |\n")
@@ -79,54 +87,103 @@ def _write_process_index(
     return 1
 
 
-# Clauses in an alias note that record when something changed rather than what is true.
-# A published page states the current state, so these are dropped; the source data in
-# .working/ keeps them.
-_RE_HISTORY_CLAUSE = re.compile(
+# Text in the source data that records when something changed rather than what is true.
+# A published page states the current state, so these fields are republished from the
+# table below instead of verbatim. The source in .working/ is never edited - it is
+# produced elsewhere and an edit here would be lost on the next import.
+#
+# Rewriting each one by hand, rather than stripping clauses with a regex, is deliberate.
+# The history is frequently *inside* a live sentence ("Trust as a process (vs. trust as
+# a trait) was discussed during the reframe but no dedicated row was added"), so any
+# mechanical clause removal either keeps the history or leaves an ungrammatical fragment.
+#
+# An empty string means the field was nothing but history and is not published at all.
+_HISTORY_MARKER = re.compile(
     r"20\d{2}-\d{2}-\d{2}"
     r"|\bpre-reframe\b|\bpre-20\d{2}\b|\breframe\b"
-    r"|\brenamed\b|\bmerged\b|\bdropped as separate\b|\bduplicate entry\b",
+    r"|\brenamed\b|\bwas merged\b|\bwere merged\b|\bmerged from\b"
+    r"|\bdropped as separate\b|\bduplicate entry\b|\bwas discussed\b"
+    r"|\bwas moved out\b|\bresolved 20\d{2}\b|\babsorbed as\b",
     re.IGNORECASE,
 )
 
+# Keyed by (category_id, field).
+_PUBLISHED_CATEGORY_FIELDS = {
+    ("associative_learning_and_reinforcement", "issues"): "",
+    ("cognitive_flexibility_and_higher_order_executive_function", "out_of_scope"): (
+        "Fluid intelligence (an individual-difference construct, not a process); "
+        "working-memory updating (in Short-Term and Working Memory); "
+        '"cognitive flexibility" as a capacity-level umbrella (alias on '
+        "`hed_set_shifting`)."
+    ),
+    ("emotion_perception_and_regulation", "issues"): (
+        "Coverage of appraisal-stage processes is thin - expected to grow if paradigms "
+        "that specifically target appraisal are added."
+    ),
+    ("inhibitory_control_and_conflict_monitoring", "issues"): (
+        "The proactive/reactive control split is paradigm-bound (AX-CPT-style designs); "
+        "retained but worth revisiting if the catalog adds paradigms that dissociate "
+        "other control modes."
+    ),
+    ("language_comprehension_and_production", "issues"): (
+        "Reading as a process versus reading as a behavior is still somewhat conflated in `hed_reading` - an open question."
+    ),
+    ("social_cognition_and_strategic_social_choice", "scope"): (
+        "Theory of mind (canonical: `hed_perspective_taking`), self-other distinction, "
+        "joint attention, imitation, in-group/out-group processing, stereotyping, "
+        "social decision-making, social perception, cooperation, competition, "
+        "reciprocity."
+    ),
+    ("social_cognition_and_strategic_social_choice", "issues"): (
+        "Trust as a process (versus trust as a trait) has no dedicated row; if a Trust "
+        "Game process row becomes warranted, it fits here."
+    ),
+    ("short_term_and_working_memory", "out_of_scope"): (
+        "Working memory **load** (task parameter, not process); working memory "
+        "**capacity** (individual difference); long-term memory; bare "
+        '"maintenance" (the canonical row is `hed_active_maintenance`).'
+    ),
+}
 
-def _strip_history(note: str) -> str:
-    """Remove dated or change-log clauses from an alias note, keeping the rest verbatim.
+# Keyed by alias name.
+_PUBLISHED_ALIAS_NOTES = {
+    "Operant conditioning": ("Skinnerian terminology; emphasizes the operant response and reinforcement schedules."),
+    "Cognitive flexibility": (
+        "Broader construct encompassing set shifting, perspective-taking, and adaptive "
+        "strategy use; it fails the single-answer inclusion test, and set shifting is "
+        "its primary experimental operationalization."
+    ),
+    "Gustation": "",
+    "Somatosensation": "",
+    "Logical reasoning": (
+        "Broader term encompassing deductive and inductive forms; its definition is a "
+        "union of the two, and the Wason Selection Task links here."
+    ),
+    "Maintenance": (
+        "Generic term for holding information over a delay; active maintenance "
+        "emphasizes the volitional, attention-demanding character."
+    ),
+    "Updating": 'Plain "Updating" is memory-context-underspecified.',
+    "Updating (WM)": "",
+    "Mentalizing": "Process verb; more common in the neuroimaging literature.",
+}
 
-    Returns an empty string when the note was nothing but history.
+
+def _publish(value: str, key, table, what: str) -> str:
+    """Return the text to publish for one source field.
+
+    Falls back to the source verbatim when it carries no change-log language. Raises if
+    new history appears with no entry in the table, so it cannot ship unnoticed.
     """
-    if not note:
-        return ""
-    pieces = re.split(r"(?<=[.;])\s+", note.strip())
-    kept = [p for p in pieces if not _RE_HISTORY_CLAUSE.search(p)]
-    if len(kept) == len(pieces):
-        return note
-    if not kept:
-        return ""
-    repaired = []
-    for i, piece in enumerate(kept):
-        nxt = kept[i + 1] if i + 1 < len(kept) else None
-        # A clause that ended mid-sentence now ends one, or leads a new one.
-        if piece.endswith(";") and (nxt is None or nxt[:1].isupper()):
-            piece = piece[:-1] + "."
-        repaired.append(piece)
-    text = " ".join(repaired).strip()
-    text = text[0].upper() + text[1:]
-    if not text.endswith("."):
-        text += "."
-    return text
-
-
-_RE_BARE_DATE = re.compile(r"\s+(?:on\s+)?\d{4}-\d{2}-\d{2}\b")
-
-
-def _strip_dates(text: str) -> str:
-    """Remove date stamps but keep the surrounding clause.
-
-    Used where the text is not sentence-shaped - a parenthetical inside `Out of scope`,
-    for instance - and splitting it into clauses would break the punctuation.
-    """
-    return _RE_BARE_DATE.sub("", text) if text else text
+    if key in table:
+        return table[key]
+    if value and _HISTORY_MARKER.search(value):
+        raise ValueError(
+            f"{what} contains change-log language but has no entry in the published-text "
+            f"table in src/generators/process_pages.py: {value!r}. Add a rewritten "
+            f"version (or an empty string to drop it), or update _HISTORY_MARKER."
+        )
+    return value
 
 
 def _format_aliases(aliases: list) -> str:
@@ -135,7 +192,12 @@ def _format_aliases(aliases: list) -> str:
     for alias in aliases:
         if isinstance(alias, dict):
             name = alias.get("name", "")
-            note = _strip_history(alias.get("note", ""))
+            note = _publish(
+                alias.get("note", ""),
+                name,
+                _PUBLISHED_ALIAS_NOTES,
+                f"alias note for {name!r}",
+            )
             if note:
                 parts.append(f"**{name}** \u2014 {note}")
             else:
@@ -153,10 +215,24 @@ def _write_category_page(
     """Write docs/processes/{category_id}.md."""
     cat_id = category["category_id"]
     name = category["name"]
-    scope = category.get("scope", "")
-    out_of_scope = _strip_dates(category.get("out_of_scope", ""))
-    # The issues field mixes live caveats with resolved-issue records; keep the caveats.
-    issues = _strip_history(category.get("issues", ""))
+    scope = _publish(
+        category.get("scope", ""),
+        (cat_id, "scope"),
+        _PUBLISHED_CATEGORY_FIELDS,
+        f"scope for category {cat_id!r}",
+    )
+    out_of_scope = _publish(
+        category.get("out_of_scope", ""),
+        (cat_id, "out_of_scope"),
+        _PUBLISHED_CATEGORY_FIELDS,
+        f"out_of_scope for category {cat_id!r}",
+    )
+    issues = _publish(
+        category.get("issues", ""),
+        (cat_id, "issues"),
+        _PUBLISHED_CATEGORY_FIELDS,
+        f"issues for category {cat_id!r}",
+    )
     process_count = len(cat_procs)
 
     parts: list[str] = []

@@ -85,7 +85,7 @@ The following tasks engage this process:
 
 **Process ID:** `hed_deductive_reasoning`
 
-**Also known as:** **Logical reasoning** — Broader term encompassing deductive and inductive forms. Wason Selection Task link reassigned here.
+**Also known as:** **Logical reasoning** — Broader term encompassing deductive and inductive forms; its definition is a union of the two, and the Wason Selection Task links here.
 
 Inference in which the conclusion follows necessarily from the premises.
 

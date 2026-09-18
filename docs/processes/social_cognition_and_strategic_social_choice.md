@@ -1,11 +1,11 @@
 # Social Cognition and Strategic Social Choice
 
-**Scope:** Theory of mind (canonical: `hed_perspective_taking`; `hed_mentalizing` was merged during the reframe), self-other distinction, joint attention, imitation, in-group/out-group processing, stereotyping, social decision-making, social perception, cooperation, competition, reciprocity.
+**Scope:** Theory of mind (canonical: `hed_perspective_taking`), self-other distinction, joint attention, imitation, in-group/out-group processing, stereotyping, social decision-making, social perception, cooperation, competition, reciprocity.
 
 **Out of scope:** Empathy as a trait; social anxiety; "social cognition" as umbrella.
 
 :::{note}
-**Open issues:** Trust as a process (vs. if a Trust Game process row becomes warranted, it fits here.
+**Open issues:** Trust as a process (versus trust as a trait) has no dedicated row; if a Trust Game process row becomes warranted, it fits here.
 :::
 
 This category contains 11 processes.
@@ -118,7 +118,7 @@ Coordinated focus by two or more agents on the same object or event, involving s
 
 **Process ID:** `hed_perspective_taking`
 
-**Also known as:** **Mentalizing** — Process verb. More common in neuroimaging literature.; **Theory of mind** — Capacity/competence noun; the term used in developmental and clinical literatures.
+**Also known as:** **Mentalizing** — Process verb; more common in the neuroimaging literature.; **Theory of mind** — Capacity/competence noun; the term used in developmental and clinical literatures.
 
 Representation of another's viewpoint, visual or cognitive.
 

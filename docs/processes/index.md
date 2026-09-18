@@ -24,7 +24,7 @@ Of the 172 processes, 152 are linked to at least one task in the task catalog.
 | [Reward Anticipation and Motivation](reward_anticipation_and_motivation.md) | 6 | Anticipation of reward, consumption of reward, incentive salience, effort allocation, approach motiv… |
 | [Selective and Sustained Attention](selective_and_sustained_attention.md) | 11 | Attention networks (alerting, orienting, executive attention); selective attention; sustained attent… |
 | [Short-Term and Working Memory](short_term_and_working_memory.md) | 9 | Active maintenance, manipulation, working-memory updating, rehearsal, chunking; visual working memor… |
-| [Social Cognition and Strategic Social Choice](social_cognition_and_strategic_social_choice.md) | 11 | Theory of mind (canonical: `hed_perspective_taking`; `hed_mentalizing` was merged during the reframe… |
+| [Social Cognition and Strategic Social Choice](social_cognition_and_strategic_social_choice.md) | 11 | Theory of mind (canonical: `hed_perspective_taking`), self-other distinction, joint attention, imita… |
 | [Spatial Cognition and Navigation](spatial_cognition_and_navigation.md) | 2 | Mental rotation; spatial memory. |
 | [Value-Based Decision-Making Under Risk and Uncertainty](value_based_decision_making_under_risk_and_uncertainty.md) | 7 | Choice among options that differ in subjective value: valuation, value-based decision making, choice… |
 

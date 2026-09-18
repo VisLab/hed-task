@@ -5,7 +5,7 @@
 **Out of scope:** Specific emotions as states (fear, happiness, disgust, anger, sadness — HED handles these as stimulus/state labels); affect as a trait; mood.
 
 :::{note}
-**Open issues:** Current 5-row count reflects the cleaned process-only version. Coverage of appraisal-stage processes is thin — expected to grow if we add paradigms that specifically target appraisal.
+**Open issues:** Coverage of appraisal-stage processes is thin - expected to grow if paradigms that specifically target appraisal are added.
 :::
 
 This category contains 5 processes.

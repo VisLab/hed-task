@@ -5,7 +5,7 @@
 **Out of scope:** "Language" as a faculty; linguistic representations themselves; motor aspects of articulation (those live in Motor Preparation, Timing, and Execution as vocal-motor control, with a pointer from here).
 
 :::{note}
-**Open issues:** Reading as a process vs. reading as a behavior is still somewhat conflated in `hed_reading` — an open question.
+**Open issues:** Reading as a process versus reading as a behavior is still somewhat conflated in `hed_reading` - an open question.
 :::
 
 This category contains 16 processes.

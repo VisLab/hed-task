@@ -4,10 +4,6 @@
 
 **Out of scope:** Structure learning without scalar reinforcement (that is Implicit and Statistical Learning).
 
-:::{note}
-**Open issues:** Operant conditioning absorbed as synonym.
-:::
-
 This category contains 13 processes.
 
 ---

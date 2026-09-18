@@ -2,7 +2,7 @@
 
 **Scope:** Active maintenance, manipulation, working-memory updating, rehearsal, chunking; visual working memory; verbal working memory; spatial working memory; umbrella `hed_working_memory`.
 
-**Out of scope:** Working memory **load** (task parameter, not process); working memory **capacity** (individual difference); long-term memory; bare "maintenance" (merged into `hed_active_maintenance`).
+**Out of scope:** Working memory **load** (task parameter, not process); working memory **capacity** (individual difference); long-term memory; bare "maintenance" (the canonical row is `hed_active_maintenance`).
 
 :::{note}
 **Open issues:** Working-memory SPLIT (umbrella item 3 from the earlier decisions log) still pending — whether `hed_working_memory` should be retained as an umbrella alongside the component rows, or whether pages should link only to the components.
@@ -17,7 +17,7 @@ This category contains 9 processes.
 
 **Process ID:** `hed_active_maintenance`
 
-**Also known as:** **Maintenance** — Generic term for holding information over a delay. Active maintenance emphasizes the volitional, attention-demanding character.
+**Also known as:** **Maintenance** — Generic term for holding information over a delay; active maintenance emphasizes the volitional, attention-demanding character.
 
 Holding information active over a delay without manipulation, through volitional, attention-demanding processes; a core subprocess of working memory.
 
@@ -226,7 +226,7 @@ The following tasks engage this process:
 
 **Process ID:** `hed_working_memory_updating`
 
-**Also known as:** Updating; Updating (WM)
+**Also known as:** **Updating** — Plain "Updating" is memory-context-underspecified.; Updating (WM)
 
 Replacement or revision of information currently held active in working memory with newly task-relevant content. One of three core executive functions in the Miyake et al. unity/diversity framework; decomposable into retrieval, transformation, and substitution subcomponents (Ecker et al.); implemented by a cortico-striatal gating mechanism that opens to admit new content and closes to protect maintenance. Distinct from long-term-memory reconsolidation (which occurs when retrieval triggers a prediction error and targets stored representations rather than the focus of attention). Indexed behaviorally by N-Back, running-span, and keep-track performance.
 

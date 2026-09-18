@@ -2,7 +2,7 @@
 
 **Scope:** Task-set reconfiguration (set shifting), rule updating, strategy selection, goal maintenance. Current inhabitants: goal maintenance, set shifting, strategy use.
 
-**Out of scope:** Fluid intelligence (an individual-difference construct, not a process); working-memory updating (in Short-Term and Working Memory); "cognitive flexibility" as a capacity-level umbrella (dropped; alias on `hed_set_shifting`).
+**Out of scope:** Fluid intelligence (an individual-difference construct, not a process); working-memory updating (in Short-Term and Working Memory); "cognitive flexibility" as a capacity-level umbrella (alias on `hed_set_shifting`).
 
 :::{note}
 **Open issues:** The user has earlier flagged that **attentional flexibility** and **mental flexibility** should perhaps be separate sub-processes — deferred.
@@ -40,7 +40,7 @@ The following tasks engage this process:
 
 **Process ID:** `hed_set_shifting`
 
-**Also known as:** **Cognitive flexibility** — Broader construct encompassing set shifting, perspective-taking, and adaptive strategy use. Set shifting is the primary experimental operationalization.
+**Also known as:** **Cognitive flexibility** — Broader construct encompassing set shifting, perspective-taking, and adaptive strategy use; it fails the single-answer inclusion test, and set shifting is its primary experimental operationalization.
 
 Flexible reconfiguration of the task set in response to a change in task demands; the primary experimental operationalization of cognitive flexibility, measured by task-switching paradigms and the WCST.
 
