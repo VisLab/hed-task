@@ -126,7 +126,7 @@ def _task_page(maps: Path) -> str:
 
 Every correspondence between the {len(forward)} tasks in this catalog and the
 {len(reverse)} task entries in the Cognitive Atlas, in both directions. The
-[methodology](../methods/atlas_mapping.md) page explains what the match types mean
+[methodology](../methods/atlas_mapping/index.md) page explains what the match types mean
 and how each row was decided.
 
 The source of record is `.working/mappings/`, not this page.
@@ -226,7 +226,7 @@ def _process_page(maps: Path) -> str:
 
 Every correspondence between the {len(forward)} cognitive processes in this catalog and
 the {len(reverse)} concepts in the Cognitive Atlas, in both directions. The
-[methodology](../methods/atlas_mapping.md) page explains what the match types mean
+[methodology](../methods/atlas_mapping/index.md) page explains what the match types mean
 and how each row was decided.
 
 The source of record is `.working/mappings/`, not this page.

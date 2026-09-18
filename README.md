@@ -32,14 +32,14 @@ hed-task/
 |   |-- generators/         # One module per page family
 |-- data/                   # Curated presentation tables owned by this repo (task families)
 |-- docs/
-|   |-- source/             # Sphinx source (generated - do not edit by hand) plus conf.py
+|   |-- source/             # Sphinx source: hand-written narrative pages plus generated catalog pages
 |   |-- _build/             # Build output (gitignored)
 |-- .working/               # Imported catalog: task/process details, atlas_summary.json, mappings/
 |-- tests/                  # Unit tests
 |-- pyproject.toml
 ```
 
-The Markdown pages in `docs/source/` are generated from the JSON data in `.working/` and the TSV tables in `data/` by the scripts in `src/`. See [Regenerating the site](#regenerating-the-site) below.
+Two kinds of page live in `docs/source/`. The narrative pages (landing page, introduction, how to use, the two Cognitive Atlas essays, and the three Methods documents) are hand-written Markdown: edit them directly. The catalog pages (`tasks/`, `processes/`, `crossref.md`, the two Atlas mapping tables, and the table fragments in `_generated/`) are generated from the JSON data in `.working/` and the TSV tables in `data/` by the scripts in `src/`, and are never edited by hand. Each hand-written page says so in a comment at its top. See [Regenerating the site](#regenerating-the-site) below.
 
 `.working/` is the imported catalog and is not edited in this repository. `data/` holds curation that lives here: currently the paradigm families that group the tasks on the site (`data/task_families.tsv`, `data/task_family_defs.tsv`; see `data/README.md`). The family assignment is expected to be revised iteratively.
 
@@ -64,7 +64,7 @@ pip install -e ".[dev,docs]"
 
 ### Regenerating the site
 
-Whenever the data in `.working/` or `data/` changes, run both steps below.
+Whenever the data in `.working/` or `data/` changes, run both steps below. Editing a narrative page needs only step 2.
 
 **Step 1 - regenerate the Markdown source:**
 
@@ -72,7 +72,7 @@ Whenever the data in `.working/` or `data/` changes, run both steps below.
 python src/generate_docs.py
 ```
 
-This reads `task_details.json`, `process_details.json`, `atlas_summary.json` and `mappings/*.tsv` from `.working/` and the family tables from `data/`, deletes every previously generated page under `docs/source/`, and writes the current set (154 pages). It refuses to run if a task has no family, a family has no tasks, or a family id is unknown.
+This reads `task_details.json`, `process_details.json` and `mappings/*.tsv` from `.working/` and the family tables from `data/`, deletes the generated paths under `docs/source/` (`tasks/`, `processes/`, `crossref.md`, the two Atlas mapping tables, `_generated/`), and rewrites them. It never touches a narrative page. It refuses to run if a task has no family, a family has no tasks, or a family id is unknown.
 
 `atlas_summary.json` and `mappings/*.tsv` are derived from a byte-exact archive of the [Cognitive Atlas](https://www.cognitiveatlas.org/) REST API kept in `.cog_data/`, which is untracked. Only the derived files are committed, so the docs build never needs the archive. To refresh, run:
 
@@ -91,6 +91,8 @@ sphinx-build -b html docs/source docs/_build/html
 ```
 
 Then open `docs/_build/html/index.html` in a browser to preview. A clean build emits no warnings.
+
+Narrative pages can use a few live counts from the data, written as `{{ n_tasks }}`, `{{ n_processes }}`, `{{ n_categories }}`, `{{ n_families }}`, `{{ n_variations }}`, `{{ n_links }}` or `{{ n_linked }}`; `docs/source/conf.py` defines them at build time. A table that follows the data is pulled in from `docs/source/_generated/` with an include directive.
 
 Do not run `mdformat` over `docs/source/`. It rewrites the generated MyST directives into a form Sphinx cannot parse. The `mdformat` CI check is scoped to the hand-written Markdown at the repository root for that reason:
 

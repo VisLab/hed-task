@@ -70,7 +70,7 @@ def _write_process_index(
         f"The catalog defines {total_procs} cognitive processes organized into {n_cats} categories.\n"
         "A process is a mental operation hypothesized to occur during a trial, with an\n"
         "identifiable onset, an eliciting condition and a measurable signature; the\n"
-        "[process selection criteria](../methods/process_criteria.md) say what qualifies and\n"
+        "[process selection criteria](../methods/process_criteria/index.md) say what qualifies and\n"
         "what does not. Each process has a definition, references, and links to the tasks that\n"
         f"engage it. {n_linked} of the {total_procs} processes are engaged by at least one task in the\n"
         "catalog; the rest are kept because the catalog may grow a task for them.\n\n"

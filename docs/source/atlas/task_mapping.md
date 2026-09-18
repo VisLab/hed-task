@@ -2,7 +2,7 @@
 
 Every correspondence between the 103 tasks in this catalog and the
 857 task entries in the Cognitive Atlas, in both directions. The
-[methodology](../methods/atlas_mapping.md) page explains what the match types mean
+[methodology](../methods/atlas_mapping/index.md) page explains what the match types mean
 and how each row was decided.
 
 The source of record is `.working/mappings/`, not this page.

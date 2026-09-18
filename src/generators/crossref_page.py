@@ -33,7 +33,7 @@ def generate(
     parts.append(
         f"Every link between the {len(tasks)} tasks and {len(processes)} processes in the catalog, in both\n"
         f"directions: {n_links} links in all. A task is linked to a process when its inclusion test\n"
-        "engages that process; the [process criteria](methods/process_criteria.md) say when a\n"
+        "engages that process; the [process criteria](methods/process_criteria/index.md) say when a\n"
         "link is justified. The same links appear on the individual task and process pages;\n"
         "this page is the single place to see the whole matrix.\n\n"
     )
