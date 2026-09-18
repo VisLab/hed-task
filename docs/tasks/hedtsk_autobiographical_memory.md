@@ -1,5 +1,4 @@
 (hedtsk_autobiographical_memory)=
-
 # Autobiographical Memory Task
 
 **HED Task ID:** `hedtsk_autobiographical_memory`
@@ -15,10 +14,9 @@ Autobiographical memory tasks assess the ability to retrieve specific personal e
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants retrieve specific personal memories in response to cue words, category prompts, or structured interview questions; retrieved memories are scored for specificity, detail, emotional content, and temporal distribution.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -82,3 +79,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [autobiographical memory task](https://www.cognitiveatlas.org/task/id/trm_4f244d2a54e27)
+

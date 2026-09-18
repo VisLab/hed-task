@@ -1,5 +1,4 @@
 (hedtsk_psychological_refractory_period)=
-
 # Psychological Refractory Period Task
 
 **HED Task ID:** `hedtsk_psychological_refractory_period`
@@ -15,10 +14,9 @@ Two stimuli are presented in rapid succession (S1 then S2, separated by a variab
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Two stimuli requiring separate speeded responses are presented in rapid succession with a variable stimulus-onset asynchrony (SOA). Both responses are required.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -81,3 +78,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [psychological refractory period (PRP) paradigm](https://www.cognitiveatlas.org/task/id/trm_51c453f64d2a6)
+

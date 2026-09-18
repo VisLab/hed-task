@@ -1,73 +1,123 @@
 # This catalog and the Cognitive Atlas
 
-The [Cognitive Atlas](https://www.cognitiveatlas.org/) was the starting corpus for this catalog, and the two overlap heavily. They are not, however, the same kind of thing, and reading one as a subset of the other gets the relationship wrong.
+The [Cognitive Atlas](https://www.cognitiveatlas.org/) was the starting corpus for this
+catalog, and the two overlap heavily. They are not, however, the same kind of thing, and
+reading one as a subset of the other gets the relationship wrong.
 
-[What is in the Cognitive Atlas](cognitive_atlas.md) describes the Atlas on its own terms. The [task](task_crossref.md) and [process](process_crossref.md) crossref pages give the correspondence row by row, and the [methodology](../methodology/atlas_mapping.md) page explains how each row was decided. This page says what it all adds up to.
+[What is in the Cognitive Atlas](cognitive_atlas.md) describes the Atlas on its own
+terms. The [task](task_crossref.md) and [process](process_crossref.md) crossref pages
+give the correspondence row by row, and the
+[methodology](../methodology/atlas_mapping.md) page explains how each row was decided.
+This page says what it all adds up to.
 
 ## Two resources doing different jobs
 
-The Atlas is an open ontology covering the breadth of cognitive neuroscience, and it admits anything a contributor thought worth recording: experimental paradigms alongside rating scales, neuropsychological batteries, imaging protocol labels and physiological procedures, all filed under the single heading "task".
+The Atlas is an open ontology covering the breadth of cognitive neuroscience, and it
+admits anything a contributor thought worth recording: experimental paradigms alongside
+rating scales, neuropsychological batteries, imaging protocol labels and physiological
+procedures, all filed under the single heading "task".
 
-This catalog admits only paradigms that produce event-structured data, because its purpose is HED annotation of experimental events. That is a narrower and more specific test, set out in the [task criteria](../criteria/task_criteria.md).
+This catalog admits only paradigms that produce event-structured data, because its
+purpose is HED annotation of experimental events. That is a narrower and more specific
+test, set out in the [task criteria](../criteria/task_criteria.md).
 
 The difference in scale follows from the difference in purpose.
 
-|                                         | This catalog | Cognitive Atlas |
-| --------------------------------------- | ------------ | --------------- |
-| Experimental paradigms                  | 103          | 857             |
-| Cognitive processes or concepts         | 172          | 918             |
-| Links between the two                   | 486          | 1422            |
-| Mean processes or concepts per paradigm | 4.72         | 1.66            |
-| Named variations                        | 772          | not modelled    |
-| Mean named variations per paradigm      | 7.5          | not modelled    |
+|  | This catalog | Cognitive Atlas |
+|---|---|---|
+| Experimental paradigms | 103 | 857 |
+| Cognitive processes or concepts | 172 | 918 |
+| Links between the two | 486 | 1422 |
+| Mean processes or concepts per paradigm | 4.72 | 1.66 |
+| Named variations | 772 | not modelled |
+| Mean named variations per paradigm | 7.5 | not modelled |
 
-Size is the least interesting difference. What matters is the density and the shape. This catalog links each paradigm to 4.7 processes on average against the Atlas's 1.66, and it models named variations at 7.5 per paradigm, which the Atlas does not model at all: it registers each implementation as a separate top-level entry instead.
+Size is the least interesting difference. What matters is the density and the shape.
+This catalog links each paradigm to 4.7 processes on average against the
+Atlas's 1.66, and it models named variations at 7.5
+per paradigm, which the Atlas does not model at all: it registers each implementation as
+a separate top-level entry instead.
 
 ## How much overlaps
 
-| Direction                                              | Has a counterpart | Does not |
-| ------------------------------------------------------ | ----------------- | -------- |
-| [Tasks to Atlas](task_crossref.md) (103)               | 85                | 18       |
-| [Processes to Atlas](process_crossref.md) (172)        | 139               | 33       |
-| [Atlas tasks to catalog](task_crossref.md) (857)       | 183               | 674      |
-| [Atlas concepts to catalog](process_crossref.md) (918) | 132               | 786      |
+| Direction | Has a counterpart | Does not |
+|---|---|---|
+| [Tasks to Atlas](task_crossref.md) (103) | 85 | 18 |
+| [Processes to Atlas](process_crossref.md) (172) | 139 | 33 |
+| [Atlas tasks to catalog](task_crossref.md) (857) | 183 | 674 |
+| [Atlas concepts to catalog](process_crossref.md) (918) | 132 | 786 |
 
-Read down the first two rows for what the Atlas can tell you about this catalog, and the last two for what this catalog covers of the Atlas.
+Read down the first two rows for what the Atlas can tell you about this catalog, and the
+last two for what this catalog covers of the Atlas.
 
-The two large "does not" figures are not a gap. 674 Atlas entries have no counterpart here, but only 481 of those are experimental paradigms at all; the rest are instruments this catalog deliberately excludes. Likewise 786 Atlas concepts have no process here, and about half the Atlas concept layer (455 of 918) is asserted by no Atlas task either.
+The two large "does not" figures are not a gap. 674 Atlas entries have no
+counterpart here, but only 481 of those are experimental paradigms at
+all; the rest are instruments this catalog deliberately excludes. Likewise
+786 Atlas concepts have no process here, and about half the Atlas concept
+layer (455 of 918) is asserted by no Atlas task either.
 
 ## What this catalog adds
 
-For the 183 Atlas entries that do correspond to something here, the Atlas records on average 2.13 concepts each, and 51 of them record none at all. Against that, every task in this catalog carries:
+For the 183 Atlas entries that do correspond to something here, the
+Atlas records on average 2.13 concepts each, and 51 of them
+record none at all. Against that, every task in this catalog carries:
 
-- an inclusion test stating procedure, manipulation and measurement, so that membership is decidable rather than a matter of name
-- a curated list of named variations, each with a justification for why it is a variation and not a separate task
+- an inclusion test stating procedure, manipulation and measurement, so that membership
+  is decidable rather than a matter of name
+- a curated list of named variations, each with a justification for why it is a
+  variation and not a separate task
 - verified references
-- links to 172 defined processes in 19 categories, at 4.7 per task
+- links to 172 defined processes in 19 categories, at
+  4.7 per task
 
-The Atlas carries citations on 470 of its 857 task entries (54.8%), so references are not absent, but they are contributed rather than curated: the remaining 387 entries have none, and nothing records how any of them was checked. Inclusion tests and variations have no Atlas equivalent at all.
+The Atlas carries citations on 470 of its 857 task entries
+(54.8%), so references are not absent, but they are contributed rather than
+curated: the remaining 387 entries have none, and nothing records how any of
+them was checked. Inclusion tests and variations have no Atlas equivalent at all.
 
 ## What the Atlas has that this catalog does not
 
 The traffic runs both ways, and the Atlas holds several things worth keeping in view.
 
-- **Breadth.** 857 task entries and 918 concepts against 103 and 172 here. For a construct this catalog does not cover, the Atlas usually has something.
-- **A concept relation graph.** 1398 `KINDOF` and `PARTOF` edges between concepts. This catalog groups processes into categories but asserts no relations between them.
-- **Stable, citable identifiers** for every entry, which this catalog now references directly in its mapping tables.
-- **Contrasts.** 1585 contrast definitions across 529 tasks, the most reusable structured content the Atlas holds after the concept links.
+- **Breadth.** 857 task entries and 918 concepts against
+  103 and 172 here. For a construct this catalog does not cover, the
+  Atlas usually has something.
+- **A concept relation graph.** 1398 `KINDOF` and `PARTOF` edges between
+  concepts. This catalog groups processes into categories but asserts no relations
+  between them.
+- **Stable, citable identifiers** for every entry, which this catalog now references
+  directly in its mapping tables.
+- **Contrasts.** 1585 contrast definitions across
+  529 tasks, the most reusable structured content the Atlas holds after
+  the concept links.
 
 ## How the Atlas shaped this catalog
 
-The influence is concrete. A gap analysis against the Atlas in April 2026 added 15 paradigms that the catalog had been missing, among them the multi-armed bandit, the two-stage decision task, the random dot kinematogram, remember/know, and Raven's Progressive Matrices. All 15 now map to an Atlas entry.
+The influence is concrete. A gap analysis against the Atlas in April 2026 added
+15 paradigms that the catalog had been missing, among them the multi-armed
+bandit, the two-stage decision task, the random dot kinematogram, remember/know, and
+Raven's Progressive Matrices. All 15 now map to an Atlas entry.
 
-The reverse also holds. 18 tasks here have no Atlas counterpart at all, and several are heavily used paradigms the Atlas simply never registered: the Mismatch Negativity paradigm, the Dictator Game, Reading the Mind in the Eyes, Multiple Object Tracking, and the Weapons Identification Task among them. The [task crossref](task_crossref.md) lists all 18.
+The reverse also holds. 18 tasks here have no Atlas counterpart at all, and
+several are heavily used paradigms the Atlas simply never registered: the Mismatch
+Negativity paradigm, the Dictator Game, Reading the Mind in the Eyes, Multiple Object
+Tracking, and the Weapons Identification Task among them. The
+[task crossref](task_crossref.md) lists all 18.
 
-Mismatch Negativity is the starkest: thousands of published studies, a candidate clinical biomarker, and no Atlas entry at all.
+Mismatch Negativity is the starkest: thousands of published studies, a candidate
+clinical biomarker, and no Atlas entry at all.
 
 ## What the Atlas cannot be used for unchecked
 
-The mapping could not be built by matching names, and the reason matters for anyone planning to consume the Atlas programmatically. Names agree while meanings do not. `Judgment-of-Learning` and `Judgment of Line Orientation` share an abbreviation. The Atlas concept `acoustic processing` is defined as the propagation of signals "undersea, in the atmosphere". `Perspective taking` matches `worldview` on word overlap alone.
+The mapping could not be built by matching names, and the reason matters for anyone
+planning to consume the Atlas programmatically. Names agree while meanings do not.
+`Judgment-of-Learning` and `Judgment of Line Orientation` share an abbreviation. The
+Atlas concept `acoustic processing` is defined as the propagation of signals "undersea,
+in the atmosphere". `Perspective taking` matches `worldview` on word overlap alone.
 
-Names also disagree while meanings agree: `Trail Making` finds nothing until you look for `Trail Making Test A and B`, and `Navon` is filed as `global-local task`.
+Names also disagree while meanings agree: `Trail Making` finds nothing until you look
+for `Trail Making Test A and B`, and `Navon` is filed as `global-local task`.
 
-Every row in these mappings was therefore checked against the archived Atlas record. That is the practical conclusion of the whole exercise: the Atlas is an excellent source of candidate terms and stable identifiers, and a poor source of automatic answers.
+Every row in these mappings was therefore checked against the archived Atlas record.
+That is the practical conclusion of the whole exercise: the Atlas is an excellent source
+of candidate terms and stable identifiers, and a poor source of automatic answers.

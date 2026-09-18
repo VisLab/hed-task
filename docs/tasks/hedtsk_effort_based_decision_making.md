@@ -1,5 +1,4 @@
 (hedtsk_effort_based_decision_making)=
-
 # Effort-Based Decision-Making Task
 
 **HED Task ID:** `hedtsk_effort_based_decision_making`
@@ -15,10 +14,9 @@ Effort-based decision-making tasks measure the willingness to exert physical or 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - On each trial, participants choose between a low-effort/low-reward option and a high-effort/high-reward option, then execute the chosen action; trials vary reward magnitude and probability.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -82,3 +79,4 @@ This task engages the following cognitive processes:
 - Reddy, L. F., Horan, W. P., Barch, D. M., Buchanan, R. W., et al. (2015). Effort-Based Decision-Making Paradigms for Clinical Trials in Schizophrenia: Part 1 — Psychometric Characteristics of 5 Paradigms. *Schizophrenia Bulletin*, 41(5), 1045-1054.
 - Husain, M., & Roiser, J. P. (2018). Neuroscience of apathy and anhedonia: a transdiagnostic approach. *Nature Reviews Neuroscience*, 19(3), 164-178.
 - Lopez-Gamundi, P., Yao, Y.-W., Chong, T. T.-J., Heekeren, H. R., Mas-Herrero, E., & Marco-Pallares, J. (2021). The neural basis of effort valuation: A meta-analysis of functional magnetic resonance imaging studies. *Neuroscience & Biobehavioral Reviews*, 131, 1275-1287.
+

@@ -1,5 +1,4 @@
 (hedtsk_stop_signal)=
-
 # Stop-Signal Task
 
 **HED Task ID:** `hedtsk_stop_signal`
@@ -15,10 +14,9 @@ The Stop-Signal Task measures the ability to inhibit a prepotent motor response 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - On most trials, participants make a speeded response to a go stimulus. On a minority of trials, a stop signal (tone or visual cue) appears after the go stimulus, instructing them to withhold their response.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -89,3 +86,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [stop signal task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e1a)
+

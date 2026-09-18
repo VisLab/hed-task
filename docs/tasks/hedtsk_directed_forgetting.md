@@ -1,5 +1,4 @@
 (hedtsk_directed_forgetting)=
-
 # Directed Forgetting Task
 
 **HED Task ID:** `hedtsk_directed_forgetting`
@@ -15,10 +14,9 @@ Participants study items (typically words) under instructions that each item sho
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Items are presented one at a time or in lists; after each item (item method) or after a full list (list method), a cue instructs the participant to remember or forget it. A final test probes all items.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -84,3 +81,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [directed forgetting task](https://www.cognitiveatlas.org/task/id/trm_4da87f383435b)
+

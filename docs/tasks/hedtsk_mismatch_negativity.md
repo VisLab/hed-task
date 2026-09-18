@@ -1,5 +1,4 @@
 (hedtsk_mismatch_negativity)=
-
 # Mismatch Negativity Task
 
 **HED Task ID:** `hedtsk_mismatch_negativity`
@@ -15,10 +14,9 @@ Participants are passively exposed to repetitive acoustic stimuli (standard tone
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A repetitive standard tone is occasionally replaced by a deviant tone differing in frequency, duration, or intensity. Participants typically ignore the sounds while reading or watching a silent video.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -87,3 +84,4 @@ This task engages the following cognitive processes:
 - Garrido, M. I., Kilner, J. M., Stephan, K. E., & Friston, K. J. (2009). The mismatch negativity: A review of underlying mechanisms. *Clinical Neurophysiology*, 120(3), 453–463.
 - Erickson, M. A., Ruffle, A., & Gold, J. M. (2016). A meta-analysis of mismatch negativity in schizophrenia: From clinical risk to disease specificity and progression. *Biological Psychiatry*, 79(12), 980–987.
 - Wacongne, C., Labyt, E., van Wassenhove, V., Bekinschtein, T., Naccache, L., & Dehaene, S. (2011). Evidence for a hierarchy of predictions and prediction errors in the human cortex. *Proceedings of the National Academy of Sciences*, 108(51), 20754–20759.
+

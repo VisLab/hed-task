@@ -1,5 +1,4 @@
 (hedtsk_phonological_awareness)=
-
 # Phonological Awareness Task
 
 **HED Task ID:** `hedtsk_phonological_awareness`
@@ -15,10 +14,9 @@ Participants view or hear pairs of words and judge whether they rhyme. The task 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants make explicit judgments about the sound structure of spoken words: rhyme detection, phoneme deletion, phoneme segmentation, or blending.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -96,3 +93,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [rhyme verification task](https://www.cognitiveatlas.org/task/id/trm_4d949c5b0e380) (related match)
+

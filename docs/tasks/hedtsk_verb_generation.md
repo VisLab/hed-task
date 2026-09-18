@@ -1,5 +1,4 @@
 (hedtsk_verb_generation)=
-
 # Verb Generation Task
 
 **HED Task ID:** `hedtsk_verb_generation`
@@ -15,10 +14,9 @@ The Verb Generation Task is a semantic retrieval and language production paradig
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A concrete noun is presented (e.g., HAMMER); participants generate an associated verb (e.g., 'hit' or 'pound') as quickly as possible.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -83,3 +80,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [verb generation task](https://www.cognitiveatlas.org/task/id/trm_4f24183fe80c6)
+

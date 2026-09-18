@@ -1,5 +1,4 @@
 (hedtsk_picture_naming)=
-
 # Picture Naming Task
 
 **HED Task ID:** `hedtsk_picture_naming`
@@ -15,10 +14,9 @@ Participants view photographs or line drawings of common objects, animals, or sc
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Line drawings or photographs of objects are presented one at a time; participants name each object as quickly as possible.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -92,3 +89,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [picture naming task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949cfb)
+

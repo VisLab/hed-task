@@ -1,5 +1,4 @@
 (hedtsk_task_switching)=
-
 # Task Switching Task
 
 **HED Task ID:** `hedtsk_task_switching`
@@ -15,10 +14,9 @@ Task Switching paradigms measure cognitive flexibility by requiring participants
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants alternate between two (or more) simple tasks on the same stimuli, cued by an explicit cue or a predictable alternation schedule.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -94,3 +91,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [task-switching ](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e8a)
+

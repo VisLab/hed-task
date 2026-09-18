@@ -1,5 +1,4 @@
 (hedtsk_intentional_binding)=
-
 # Intentional Binding Task
 
 **HED Task ID:** `hedtsk_intentional_binding`
@@ -15,10 +14,9 @@ The Intentional Binding Task (Haggard, Clark, & Kalogeras, 2002) measures the im
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants make voluntary actions (key presses) that produce delayed sensory effects (tones) while monitoring a Libet clock; they report the perceived time of either the action or the effect in separate blocks.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -83,3 +80,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Interval Estimation Task](https://www.cognitiveatlas.org/task/id/tsk_YShVp2KOuWrSS) (related match)
+

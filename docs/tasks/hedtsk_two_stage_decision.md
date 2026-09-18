@@ -1,5 +1,4 @@
 (hedtsk_two_stage_decision)=
-
 # Two-Stage Decision Task
 
 **HED Task ID:** `hedtsk_two_stage_decision`
@@ -15,10 +14,9 @@ Participants make two sequential choices per trial. The first-stage choice leads
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - First stage: choose between two options that lead probabilistically (70/30) to one of two second-stage choice sets. Second stage: choose between two options with drifting reward probabilities. This separates model-based from model-free learning.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -80,3 +77,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [2-stage decision task](https://www.cognitiveatlas.org/task/id/trm_5667451917a34)
+

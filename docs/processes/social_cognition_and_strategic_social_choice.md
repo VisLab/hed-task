@@ -1,17 +1,18 @@
 # Social Cognition and Strategic Social Choice
 
-**Scope:** Theory of mind (canonical: `hed_perspective_taking`; `hed_mentalizing` was merged during the reframe), self-other distinction, joint attention, imitation, in-group/out-group processing, stereotyping, social decision-making, social perception, cooperation, competition, reciprocity.
+**Scope:** Theory of mind (canonical: `hed_perspective_taking`), self-other distinction, joint attention, imitation, in-group/out-group processing, stereotyping, social decision-making, social perception, cooperation, competition, reciprocity.
 
 **Out of scope:** Empathy as a trait; social anxiety; "social cognition" as umbrella.
 
-:::\{note} **Open issues:** Trust as a process (vs. trust as a trait) was discussed during the reframe but no dedicated row was added; if a Trust Game process row becomes warranted, it fits here. :::
+:::{note}
+**Open issues:** Trust as a process (versus trust as a trait) has no dedicated row; if a Trust Game process row becomes warranted, it fits here.
+:::
 
 This category contains 11 processes.
 
-______________________________________________________________________
+---
 
 (hed-competition)=
-
 ## Competition
 
 **Process ID:** `hed_competition`
@@ -28,10 +29,9 @@ The following tasks engage this process:
 
 - Declerck, Boone & Emonds (2013) *Brain and Cognition* 81:95–117
 
-______________________________________________________________________
+---
 
 (hed-cooperation)=
-
 ## Cooperation
 
 **Process ID:** `hed_cooperation`
@@ -49,10 +49,9 @@ The following tasks engage this process:
 
 - Rand & Nowak (2013) *Trends in Cognitive Sciences* 17:413–425
 
-______________________________________________________________________
+---
 
 (hed-imitation)=
-
 ## Imitation
 
 **Process ID:** `hed_imitation`
@@ -73,10 +72,9 @@ The following tasks engage this process:
 
 - Heyes (2011) *Psychological Bulletin* 137:463–483
 
-______________________________________________________________________
+---
 
 (hed-in-group-out-group-processing)=
-
 ## In-group/out-group processing
 
 **Process ID:** `hed_in_group_out_group_processing`
@@ -94,10 +92,9 @@ The following tasks engage this process:
 
 - Molenberghs (2013) *Neuroscience & Biobehavioral Reviews* 37:1530–1536
 
-______________________________________________________________________
+---
 
 (hed-joint-attention)=
-
 ## Joint attention
 
 **Process ID:** `hed_joint_attention`
@@ -114,15 +111,14 @@ Coordinated focus by two or more agents on the same object or event, involving s
 
 - Mundy (2018) *European Journal of Neuroscience* 47:497–514
 
-______________________________________________________________________
+---
 
 (hed-perspective-taking)=
-
 ## Perspective taking
 
 **Process ID:** `hed_perspective_taking`
 
-**Also known as:** **Mentalizing** — Process verb; merged during reframe. More common in neuroimaging literature.; **Theory of mind** — Capacity/competence noun; the term used in developmental and clinical literatures.
+**Also known as:** **Mentalizing** — Process verb; more common in the neuroimaging literature.; **Theory of mind** — Capacity/competence noun; the term used in developmental and clinical literatures.
 
 Representation of another's viewpoint, visual or cognitive.
 
@@ -140,10 +136,9 @@ The following tasks engage this process:
 
 - Tamir & Mitchell (2013) *Cerebral Cortex* 23:2375–2382
 
-______________________________________________________________________
+---
 
 (hed-reciprocity)=
-
 ## Reciprocity
 
 **Process ID:** `hed_reciprocity`
@@ -163,10 +158,9 @@ The following tasks engage this process:
 
 - Fehr & Camerer (2007) *Trends in Cognitive Sciences* 11:419–427
 
-______________________________________________________________________
+---
 
 (hed-self-other-distinction)=
-
 ## Self-other distinction
 
 **Process ID:** `hed_self_other_distinction`
@@ -187,10 +181,9 @@ The following tasks engage this process:
 
 - Decety & Sommerville (2003) *Trends in Cognitive Sciences* 7:527–533
 
-______________________________________________________________________
+---
 
 (hed-social-decision-making)=
-
 ## Social decision making
 
 **Process ID:** `hed_social_decision_making`
@@ -214,10 +207,9 @@ The following tasks engage this process:
 
 - Ruff & Fehr (2014) *Nature Reviews Neuroscience* 15:549–562
 
-______________________________________________________________________
+---
 
 (hed-social-perception)=
-
 ## Social perception
 
 **Process ID:** `hed_social_perception`
@@ -243,10 +235,9 @@ The following tasks engage this process:
 
 - Pitcher & Ungerleider (2021) *Trends in Cognitive Sciences* 25:100–110
 
-______________________________________________________________________
+---
 
 (hed-stereotyping)=
-
 ## Stereotyping
 
 **Process ID:** `hed_stereotyping`
@@ -263,3 +254,4 @@ The following tasks engage this process:
 ### Recent references
 
 - Amodio (2014) *Nature Reviews Neuroscience* 15:670–682
+

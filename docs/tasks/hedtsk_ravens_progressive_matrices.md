@@ -1,5 +1,4 @@
 (hedtsk_ravens_progressive_matrices)=
-
 # Raven's Progressive Matrices Task
 
 **HED Task ID:** `hedtsk_ravens_progressive_matrices`
@@ -15,10 +14,9 @@ Participants view a matrix pattern with a missing element and select the correct
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants view a 3×3 matrix of geometric patterns with one cell missing and select the pattern that completes the matrix from a set of alternatives.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -88,3 +85,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Raven’s Progressive Matrices Test](https://www.cognitiveatlas.org/task/id/tsk_SJ4Q7gOYfy25Y)
+

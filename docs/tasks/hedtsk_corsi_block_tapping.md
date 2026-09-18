@@ -1,5 +1,4 @@
 (hedtsk_corsi_block_tapping)=
-
 # Corsi Block-Tapping Task
 
 **HED Task ID:** `hedtsk_corsi_block_tapping`
@@ -15,10 +14,9 @@ The Corsi Block-Tapping Task measures visuospatial short-term and working memory
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - The experimenter (or computer) taps a sequence of blocks on a board; the participant reproduces the sequence in the same (or reverse) order. Sequence length increases until recall fails.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -82,3 +79,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Corsi Blocks](https://www.cognitiveatlas.org/task/id/trm_4da881dace79c)
+

@@ -1,5 +1,4 @@
 (hedtsk_think_no_think)=
-
 # Think/No-Think Task
 
 **HED Task ID:** `hedtsk_think_no_think`
@@ -15,10 +14,9 @@ Participants first learn cue-target word pairs (e.g., "ordeal–roach"). In the 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants learn cue-target word pairs to criterion. In the critical phase, cues are presented and participants either actively recall the target (think) or suppress retrieval (no-think). A final test probes all pairs.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -83,3 +80,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [think/no-think task](https://www.cognitiveatlas.org/task/id/trm_54f93101b2fd8)
+

@@ -1,5 +1,4 @@
 (hedtsk_biological_motion_perception)=
-
 # Biological Motion Perception Task
 
 **HED Task ID:** `hedtsk_biological_motion_perception`
@@ -15,10 +14,9 @@ Participants view point-light display stimuli, animations created by placing mar
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants view point-light displays (dots at major joints) and identify actions, discriminate facing direction, or detect biological motion embedded in noise dots.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -101,3 +98,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [biological motion task](https://www.cognitiveatlas.org/task/id/trm_4f245326e2eaf)
+

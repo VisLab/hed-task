@@ -1,8 +1,8 @@
 # Task Selection and Variation Criteria
 
-**Date:** 2026-04-18 (updated) **Purpose:** Reference document specifying how the 103-task HED catalog was scoped, how tasks were selected, and the rules for classifying variations vs. aliases vs. non-variations.
+**Purpose:** Reference document specifying how the 103-task HED catalog was scoped, how tasks were selected, and the rules for classifying variations vs. aliases vs. non-variations.
 
-______________________________________________________________________
+---
 
 ## 1. Task Selection Criteria
 
@@ -30,7 +30,7 @@ A **task** is a structured experimental paradigm that:
 
 The catalog targets approximately 100 canonical tasks spanning the major domains of cognitive and behavioral neuroscience: attention, memory, executive function, language, perception, motor control, emotion, social cognition, decision-making, and learning. The number 103 is not a hard constraint — it reflects the current state of consolidation from the Cognitive Atlas plus gap-filling. Tasks may be added or removed as the catalog matures.
 
-______________________________________________________________________
+---
 
 ## 2. Naming Conventions
 
@@ -65,7 +65,7 @@ Every term in the catalog is typed by its identifier prefix, so any ID encounter
 
 A reader who sees `hedtsk_balloon_analog_risk` knows it is a task; `hed_response_inhibition` is a process; `BART` is a human-readable abbreviation not an ID. Any cross-reference between the two axes (task-to-process, or process-to-task) must preserve these prefixes verbatim.
 
-______________________________________________________________________
+---
 
 ## 3. The Inclusion Test
 
@@ -91,7 +91,7 @@ A specific experiment is an instance of a given task if and only if:
 
 The procedure field is the most important. Two experiments with different manipulations or measurements but the same procedure are instances of the same task. Two experiments with different procedures are different tasks, even if they target the same cognitive construct.
 
-______________________________________________________________________
+---
 
 ## 4. Variation Criteria
 
@@ -113,39 +113,39 @@ A **variation** is a named version of a task that changes **what the participant
 
 ### What is NOT a variation? (12 active DROP categories + 1 retired)
 
-The following do **not** count as task variations because they do not change what the participant experiences or does (EMOT was retired 2026-04-17; see §5.1):
+The following do **not** count as task variations because they do not change what the participant experiences or does (EMOT was retired; see §5.1):
 
-| Code     | Category                                         | Description                                                 | Examples                                                                                                                                                                                                                            |
-| -------- | ------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **MEAS** | Measurement modality                             | Adding or changing recording equipment                      | "with fMRI," "with EEG," "with eye-tracking," "with SCR/startle probe," "with MEG," "with TMS recording"                                                                                                                            |
-| **ANAL** | Analysis method                                  | Post-hoc data analysis technique                            | Computational modeling, DDM, ROC analysis, Gratton effect analysis, process dissociation, clustering analysis, strategy analysis, locus-of-slack logic, reverse correlation                                                         |
-| **DESG** | Design/parameter choice                          | Experimenter decisions about trial structure                | Blocked vs. event-related design, varying ISI/SOA (as generic sweep), parametric difficulty, variable set size (as parameter sweep), speed-accuracy tradeoff instructions                                                           |
-| **STIM** | Stimulus substitution                            | Swapping one stimulus set for an equivalent one             | IAPS→OASIS/NAPS, race-specific face sets with identical procedures, alternative word lists, translated stimuli                                                                                                                      |
-| **POPL** | Population/clinical use                          | Testing a different population                              | "in amnesia," "for children" (unless procedure changes), "clinical screening," "developmental version," "in schizophrenia," cross-cultural comparison                                                                               |
-| **IDIF** | Individual differences                           | Using a task as a correlational measure                     | "as individual differences measure," correlational studies                                                                                                                                                                          |
-| **TRAN** | Training/intervention                            | Using repeated task exposure as an intervention             | Bias modification training, working memory training, practice/training interventions, memory specificity training                                                                                                                   |
-| **PHAR** | Pharmacological challenge                        | Administering drugs during the task                         | "under pharmacological challenge," medication on/off designs                                                                                                                                                                        |
-| **SCOR** | Scoring method                                   | How performance is quantified                               | Partial-credit scoring, B-minus-A derived scores, B/A ratio, trial-level bias scores                                                                                                                                                |
-| **ALIA** | Alias/redundant                                  | Restates the canonical task or duplicates another variation | "Standard X" that merely restates the canonical definition, near-duplicate entries from dual-source generation                                                                                                                      |
-| **MOTI** | Motivation/reward add-on                         | Adding incentives without changing task structure           | "Rewarded X," reward modulation, mood induction before task                                                                                                                                                                         |
-| **DUAL** | Dual-task add-on                                 | Adding a concurrent secondary task                          | Articulatory suppression, working memory load, concurrent secondary task (unless it creates a recognized named paradigm)                                                                                                            |
-| **EMOT** | Emotional stimulus swap — **RETIRED 2026-04-17** | ~~Replacing neutral stimuli with emotional ones~~           | This category was retired by user decision on 2026-04-17. All attested Emotional-X paradigms are now kept as variations under their parent tasks. No emotional variations are dropped on EMOT grounds. See §5.1 for the resolution. |
+| Code | Category | Description | Examples |
+|------|----------|-------------|----------|
+| **MEAS** | Measurement modality | Adding or changing recording equipment | "with fMRI," "with EEG," "with eye-tracking," "with SCR/startle probe," "with MEG," "with TMS recording" |
+| **ANAL** | Analysis method | Post-hoc data analysis technique | Computational modeling, DDM, ROC analysis, Gratton effect analysis, process dissociation, clustering analysis, strategy analysis, locus-of-slack logic, reverse correlation |
+| **DESG** | Design/parameter choice | Experimenter decisions about trial structure | Blocked vs. event-related design, varying ISI/SOA (as generic sweep), parametric difficulty, variable set size (as parameter sweep), speed-accuracy tradeoff instructions |
+| **STIM** | Stimulus substitution | Swapping one stimulus set for an equivalent one | IAPS→OASIS/NAPS, race-specific face sets with identical procedures, alternative word lists, translated stimuli |
+| **POPL** | Population/clinical use | Testing a different population | "in amnesia," "for children" (unless procedure changes), "clinical screening," "developmental version," "in schizophrenia," cross-cultural comparison |
+| **IDIF** | Individual differences | Using a task as a correlational measure | "as individual differences measure," correlational studies |
+| **TRAN** | Training/intervention | Using repeated task exposure as an intervention | Bias modification training, working memory training, practice/training interventions, memory specificity training |
+| **PHAR** | Pharmacological challenge | Administering drugs during the task | "under pharmacological challenge," medication on/off designs |
+| **SCOR** | Scoring method | How performance is quantified | Partial-credit scoring, B-minus-A derived scores, B/A ratio, trial-level bias scores |
+| **ALIA** | Alias/redundant | Restates the canonical task or duplicates another variation | "Standard X" that merely restates the canonical definition, near-duplicate entries from dual-source generation |
+| **MOTI** | Motivation/reward add-on | Adding incentives without changing task structure | "Rewarded X," reward modulation, mood induction before task |
+| **DUAL** | Dual-task add-on | Adding a concurrent secondary task | Articulatory suppression, working memory load, concurrent secondary task (unless it creates a recognized named paradigm) |
+| **EMOT** | Emotional stimulus swap — **RETIRED** | ~~Replacing neutral stimuli with emotional ones~~ | This category was retired by user decision. All attested Emotional-X paradigms are now kept as variations under their parent tasks. No emotional variations are dropped on EMOT grounds. See §5.1 for the resolution. |
 
 ### Applying the criteria consistently
 
 The DROP categories are applied uniformly across all 103 tasks. If "with fMRI" is dropped for one task, it must be dropped for all tasks. If "in children" is dropped when only stimuli change for age-appropriateness, it must be dropped everywhere that applies.
 
-The one exception is when a modification creates a **recognized named paradigm** with its own literature. For example, the Emotional Stroop Task is kept as a separate top-level task entry because it has a distinct, established identity in the literature. Note that the EMOT category was retired entirely on 2026-04-17 (see §5.1) — all attested Emotional-X paradigms are now kept as variations, whether or not they have independent literatures.
+The one exception is when a modification creates a **recognized named paradigm** with its own literature. For example, the Emotional Stroop Task is kept as a separate top-level task entry because it has a distinct, established identity in the literature. Note that the EMOT category was retired entirely (see §5.1) — all attested Emotional-X paradigms are now kept as variations, whether or not they have independent literatures.
 
-______________________________________________________________________
+---
 
 ## 5. Borderline Cases and Policy Questions
 
-These areas required explicit policy decisions. §5.1 was resolved on 2026-04-17; the remaining five are open. The variation audit (applied 2026-04-18) applied the default rules listed below:
+These areas required explicit policy decisions. §5.1 was resolved; the remaining five are open. The variation audit applied the default rules listed below:
 
-### 5.1 Emotional variants — RESOLVED 2026-04-17
+### 5.1 Emotional variants
 
-**Decision:** The EMOT DROP category was retired on 2026-04-17. All attested Emotional-X paradigms are kept as variations under their parent tasks. No emotional variations are promoted to top-level tasks (decided 2026-04-18).
+**Decision:** The EMOT DROP category was retired. All attested Emotional-X paradigms are kept as variations under their parent tasks. No emotional variations are promoted to top-level tasks (decided).
 
 **What this means in practice:** The following emotional variations are kept as variations (not top-level tasks): Emotional Anti-Saccade, ANT with Emotional Stimuli, CPT with Emotional Distractors, Emotional Directed Forgetting, Emotional Flanker, Emotional Navon, Emotional Oddball, Emotional Simon Task, Emotional Go/No-Go, Emotional N-Back, Emotional TNT, Emotion-Induced Blindness, Emotional Attentional Blink. The Emotional Stroop Task, Emotion Regulation Task, and Facial Emotion Recognition Task remain top-level tasks (they were always independent entries, not promoted from variations).
 
@@ -165,24 +165,24 @@ These areas required explicit policy decisions. §5.1 was resolved on 2026-04-17
 
 **Open question:** Should there be a uniform rule for all child versions?
 
-### 5.4 Dual-task add-ons — RESOLVED 2026-04-18
+### 5.4 Dual-task add-ons
 
 **Rule:** Uniformly DROPPED. Adding a concurrent secondary task (working memory load, articulatory suppression, etc.) is a design choice (DUAL), not a task variation, regardless of how widely used the combination is. No exceptions for "well-established" dual-task pairings — popularity does not change the structural argument.
 
-**Applied:** All DUAL-coded entries were removed in the original audit. The one borderline survivor from that pass — Concurrent Cognitive Load (Affective Picture Viewing Task) — was dropped 2026-04-18 for consistency.
+**Applied:** All DUAL-coded entries were removed in the original audit. The one borderline survivor from that pass — Concurrent Cognitive Load (Affective Picture Viewing Task) — was dropped for consistency.
 
-### 5.5 Confidence ratings / subjective reports — RESOLVED 2026-04-18
+### 5.5 Confidence ratings / subjective reports
 
 **Rule:** Adding a confidence rating or subjective report to an otherwise unchanged task is a measurement add-on (MEAS), not a variation. The fact that it adds a participant response to the event stream is not sufficient — by that logic any bolted-on scale would create a variation. Confidence-rating add-ons are uniformly DROPPED.
 
 **Exception:** A confidence-related variation is kept only when the confidence judgment defines a recognized named paradigm whose construct of interest *is* the metacognitive correspondence, not the base task's performance. The sole current example is the Confidence-Accuracy Paradigm (Heartbeat Detection Task), where Garfinkel et al. (2015) defined a three-dimensional model of interoception in which confidence-accuracy correspondence is one of the core measured dimensions.
 
-**Dropped in the original audit (6):** AGL with Confidence Ratings, ROC Analysis (Old/New Recognition), Confidence Judgment Version (Random Dot Kinematogram), ROC Analysis (Remember/Know), Backward Masking with Confidence Ratings (Visual Masking), Source Confidence Ratings (Source Memory). **Dropped 2026-04-18 (2):** Confidence-Rated Recognition (Old/New Recognition), Remember/Know with Confidence Ratings (Remember/Know). These two had initially survived the audit but were dropped for consistency — adding a graded scale to old/new or R/K judgments is the same kind of add-on as the six already dropped.
+**Dropped in the original audit (6):** AGL with Confidence Ratings, ROC Analysis (Old/New Recognition), Confidence Judgment Version (Random Dot Kinematogram), ROC Analysis (Remember/Know), Backward Masking with Confidence Ratings (Visual Masking), Source Confidence Ratings (Source Memory). **Dropped (2):** Confidence-Rated Recognition (Old/New Recognition), Remember/Know with Confidence Ratings (Remember/Know). These two had initially survived the audit but were dropped for consistency — adding a graded scale to old/new or R/K judgments is the same kind of add-on as the six already dropped.
 
-### 5.6 Computerized vs. manual versions — RESOLVED 2026-04-18
+### 5.6 Computerized vs. manual versions
 
-**Rule (refined 2026-04-18):** A computerized version is a genuine variation only if it changes the sensory modality or motor activity the participant uses. Manipulating physical objects vs. clicking on a screen qualifies. Handwriting vs. key-pressing qualifies. Stylus-on-tablet vs. pencil-on-paper does not (same motor modality). Automated scoring or administration software alone is never a variation (that is MEAS or DESG).
+**Rule:** A computerized version is a genuine variation only if it changes the sensory modality or motor activity the participant uses. Manipulating physical objects vs. clicking on a screen qualifies. Handwriting vs. key-pressing qualifies. Stylus-on-tablet vs. pencil-on-paper does not (same motor modality). Automated scoring or administration software alone is never a variation (that is MEAS or DESG).
 
 **Kept computerized/digital variations (6):** Computerized (eCorsi) — physical block tapping → screen tapping changes spatial/motor demands; Computerized DSST/SDMT — handwriting → button pressing is a different fine motor skill; Computerized Mirror Tracing — loss of haptic edge feedback from physical template; Computerized Adaptive Version (Raven's) — adaptive algorithm changes which items are presented, a procedural change beyond interface; Computerized vs. Physical Versions (Tower of London) — grasping/placing 3D beads → drag-and-drop; PD against Computer Opponents (Prisoner's Dilemma) — not an interface change but a structural one: deterministic program opponent vs. human.
 
-**Dropped 2026-04-18 (4):** Computerized RAVLT (digital administration with automatic scoring — MEAS/DESG), Digital TMT/dTMT (stylus on tablet vs. pencil on paper — same motor modality; kinematic recording is MEAS), Computerized UFOV (UFOV is inherently screen-based; this is commercial software with automated staircase — DESG), Computerized WCST/WCST-CV (digital version with automated scoring — DESG).
+**Dropped (4):** Computerized RAVLT (digital administration with automatic scoring — MEAS/DESG), Digital TMT/dTMT (stylus on tablet vs. pencil on paper — same motor modality; kinematic recording is MEAS), Computerized UFOV (UFOV is inherently screen-based; this is commercial software with automated staircase — DESG), Computerized WCST/WCST-CV (digital version with automated scoring — DESG).

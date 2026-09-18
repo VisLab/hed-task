@@ -4,14 +4,15 @@
 
 **Out of scope:** Reinforcement-driven associative learning (Associative Learning and Reinforcement).
 
-:::\{note} **Open issues:** The category is intentionally lean at the process level because most of the work happens at the task level. If sequence-structure learning becomes distinct enough to need its own process row, it should live here. :::
+:::{note}
+**Open issues:** The category is intentionally lean at the process level because most of the work happens at the task level. If sequence-structure learning becomes distinct enough to need its own process row, it should live here.
+:::
 
 This category contains 2 processes.
 
-______________________________________________________________________
+---
 
 (hed-implicit-memory)=
-
 ## Implicit memory
 
 **Process ID:** `hed_implicit_memory`
@@ -34,10 +35,9 @@ The following tasks engage this process:
 
 - Schacter, Wig & Stevens (2007) *Current Opinion in Neurobiology* 17:171–176
 
-______________________________________________________________________
+---
 
 (hed-procedural-memory)=
-
 ## Procedural memory
 
 **Process ID:** `hed_procedural_memory`
@@ -61,3 +61,4 @@ The following tasks engage this process:
 ### Recent references
 
 - Doyon, Gabitov, Vahdat, Lungu & Boutin (2018) *Neurobiology of Learning and Memory* 153:1–12
+

@@ -1,5 +1,4 @@
 (hedtsk_remote_associates)=
-
 # Remote Associates Task
 
 **HED Task ID:** `hedtsk_remote_associates`
@@ -15,10 +14,9 @@ The Remote Associates Test measures creative thinking through convergent semanti
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Three seemingly unrelated words are presented (e.g., PINE, CRAB, SAUCE); participants find a single word that forms a compound or common phrase with each (APPLE).
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -76,3 +73,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Remote Associates Test](https://www.cognitiveatlas.org/task/id/tsk_ZMTNk4Oce5b2j)
+

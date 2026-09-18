@@ -1,5 +1,4 @@
 (hedtsk_remember_know)=
-
 # Remember/Know Task
 
 **HED Task ID:** `hedtsk_remember_know`
@@ -15,10 +14,9 @@ During a recognition memory test, participants classify each item they judge as 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - During a recognition memory test, participants first judge each item as old or new, then classify old responses as 'remember' (vivid recollection of encoding context) or 'know' (familiarity without recollection).
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -76,3 +73,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [remember/know task](https://www.cognitiveatlas.org/task/id/trm_4da63146f12d7)
+

@@ -118,8 +118,9 @@ site/
 /.venv/
 config.py
 
-# VS Code
-.vscode/
+# VS Code: everything is local except the shared, portable settings file
+.vscode/*
+!.vscode/settings.json
 
 ############
 ## Windows
@@ -140,6 +141,12 @@ spec_tests/*.json
 
 # Claude Code (machine-specific local settings; shared settings.json is committed)
 .claude/settings.local.json
+
+# Personal per-repo Claude Code notes (imports .status/local-environment.md)
+CLAUDE.local.md
+
+# Real tokens and machine values; .env.example is the committed documentation
+.env
 
 # Cognitive Atlas raw archive (see src/fetch_cog_data.py)
 .cog_data/

@@ -1,5 +1,4 @@
 (hedtsk_weapons_identification)=
-
 # Weapons Identification Task
 
 **HED Task ID:** `hedtsk_weapons_identification`
@@ -15,10 +14,9 @@ Participants view face primes (typically Black and White faces, presented briefl
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A face (Black or White) is flashed briefly, followed by an object (weapon or tool); participants classify the object. Racial bias is indexed by differential accuracy or speed.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -68,3 +65,4 @@ This task engages the following cognitive processes:
 - Correll, J., Park, B., Judd, C. M., & Wittenbrink, B. (2002). The police officer's dilemma: Using ethnicity to disambiguate potentially threatening individuals. *Journal of Personality and Social Psychology*, 83(6), 1314–1329.
 - Amodio, D. M., & Cikara, M. (2021). The social neuroscience of prejudice. *Annual Review of Psychology*, 72, 439–469.
 - Correll, J., Hudson, S. M., Guillermo, S., & Ma, D. S. (2014). The police officer's dilemma: A decade of research on racial bias in the decision to shoot. *Social and Personality Psychology Compass*, 8(5), 201–213.
+

@@ -4,14 +4,11 @@
 
 **Out of scope:** Structure learning without scalar reinforcement (that is Implicit and Statistical Learning).
 
-:::\{note} **Open issues:** Instrumental ≡ Operant conditioning resolved 2026-04-18: collapsed to single `hed_instrumental_conditioning` entry. Operant conditioning absorbed as synonym. :::
-
 This category contains 13 processes.
 
-______________________________________________________________________
+---
 
 (hed-associative-learning)=
-
 ## Associative learning
 
 **Process ID:** `hed_associative_learning`
@@ -34,10 +31,9 @@ The following tasks engage this process:
 
 - Shanks (2010) *Annual Review of Psychology* 61:273–301
 
-______________________________________________________________________
+---
 
 (hed-extinction)=
-
 ## Extinction
 
 **Process ID:** `hed_extinction`
@@ -59,10 +55,9 @@ The following tasks engage this process:
 
 - Dunsmoor, Niv, Daw & Phelps (2015) *Neuron* 88:47–63
 
-______________________________________________________________________
+---
 
 (hed-goal-directed-behavior)=
-
 ## Goal-directed behavior
 
 **Process ID:** `hed_goal_directed_behavior`
@@ -83,10 +78,9 @@ The following tasks engage this process:
 
 - Balleine & O'Doherty (2010) *Neuropsychopharmacology* 35:48–69
 
-______________________________________________________________________
+---
 
 (hed-habit)=
-
 ## Habit
 
 **Process ID:** `hed_habit`
@@ -103,15 +97,14 @@ The following tasks engage this process:
 
 - Balleine & O'Doherty (2010) *Neuropsychopharmacology* 35:48–69
 
-______________________________________________________________________
+---
 
 (hed-instrumental-conditioning)=
-
 ## Instrumental conditioning
 
 **Process ID:** `hed_instrumental_conditioning`
 
-**Also known as:** **Operant conditioning** — Skinnerian terminology; emphasizes the operant response and reinforcement schedules. Merged from separate entry 2026-04-18.
+**Also known as:** **Operant conditioning** — Skinnerian terminology; emphasizes the operant response and reinforcement schedules.
 
 Learning that an action produces an outcome; also called operant conditioning. Encompasses both goal-directed (action–outcome) and habitual (stimulus–response) control, studied via reinforcement schedules and outcome-devaluation procedures.
 
@@ -125,10 +118,9 @@ The following tasks engage this process:
 
 - Staddon & Cerutti (2003) *Annual Review of Psychology* 54:115–144
 
-______________________________________________________________________
+---
 
 (hed-model-based-learning)=
-
 ## Model-based learning
 
 **Process ID:** `hed_model_based_learning`
@@ -149,10 +141,9 @@ The following tasks engage this process:
 
 - Daw, Gershman, Seymour, Dayan & Dolan (2011) *Neuron* 69:1204–1215
 
-______________________________________________________________________
+---
 
 (hed-model-free-learning)=
-
 ## Model-free learning
 
 **Process ID:** `hed_model_free_learning`
@@ -169,10 +160,9 @@ The following tasks engage this process:
 
 - Daw, Niv & Dayan (2005) *Nature Neuroscience* 8:1704–1711
 
-______________________________________________________________________
+---
 
 (hed-pavlovian-conditioning)=
-
 ## Pavlovian conditioning
 
 **Process ID:** `hed_pavlovian_conditioning`
@@ -193,10 +183,9 @@ The following tasks engage this process:
 
 - LeDoux (2014) *PNAS* 111:2871–2878
 
-______________________________________________________________________
+---
 
 (hed-policy-learning)=
-
 ## Policy learning
 
 **Process ID:** `hed_policy_learning`
@@ -205,10 +194,9 @@ Direct learning of a mapping from states to actions without necessarily estimati
 
 *No tasks in the current catalog are linked to this process.*
 
-______________________________________________________________________
+---
 
 (hed-reinforcement-learning)=
-
 ## Reinforcement learning
 
 **Process ID:** `hed_reinforcement_learning`
@@ -235,10 +223,9 @@ The following tasks engage this process:
 
 - Niv (2009) *Journal of Mathematical Psychology* 53:139–154
 
-______________________________________________________________________
+---
 
 (hed-reversal-learning)=
-
 ## Reversal learning
 
 **Process ID:** `hed_reversal_learning`
@@ -259,10 +246,9 @@ The following tasks engage this process:
 
 - Izquierdo, Brigman, Radke, Rudebeck & Holmes (2017) *Neuroscience* 345:12–26
 
-______________________________________________________________________
+---
 
 (hed-reward-prediction-error)=
-
 ## Reward prediction error
 
 **Process ID:** `hed_reward_prediction_error`
@@ -289,10 +275,9 @@ The following tasks engage this process:
 
 - Glimcher (2011) *PNAS* 108(Suppl 3):15647–15654
 
-______________________________________________________________________
+---
 
 (hed-value-learning)=
-
 ## Value learning
 
 **Process ID:** `hed_value_learning`
@@ -309,3 +294,4 @@ The following tasks engage this process:
 ### Recent references
 
 - Rangel, Camerer & Montague (2008) *Nature Reviews Neuroscience* 9:545–556
+

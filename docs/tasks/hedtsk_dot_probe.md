@@ -1,5 +1,4 @@
 (hedtsk_dot_probe)=
-
 # Dot-Probe Task
 
 **HED Task ID:** `hedtsk_dot_probe`
@@ -15,10 +14,9 @@ The Dot-Probe Task measures attentional bias toward or away from emotionally sal
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Two stimuli (e.g., a threatening face and a neutral face) appear briefly on screen; one is replaced by a probe (dot or letter) that participants locate or classify.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -83,3 +80,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [attention bias](https://www.cognitiveatlas.org/task/id/trm_50df0d8dc717b) (close match)
+

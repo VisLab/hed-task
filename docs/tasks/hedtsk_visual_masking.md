@@ -1,5 +1,4 @@
 (hedtsk_visual_masking)=
-
 # Visual Masking Task
 
 **HED Task ID:** `hedtsk_visual_masking`
@@ -15,10 +14,9 @@ Participants attempt to detect or discriminate brief, near-threshold visual stim
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A brief target stimulus is rendered invisible or reduced in visibility by a temporally adjacent mask. Participants detect, identify, or discriminate the target.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -101,3 +98,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [backward masking](https://www.cognitiveatlas.org/task/id/trm_4a3fd79d09b6d)
+

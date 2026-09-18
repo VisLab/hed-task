@@ -1,5 +1,4 @@
 (hedtsk_lexical_decision)=
-
 # Lexical Decision Task
 
 **HED Task ID:** `hedtsk_lexical_decision`
@@ -15,10 +14,9 @@ Participants view letter strings and must rapidly determine whether each string 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Letter strings are presented one at a time; participants classify each as a real word or a nonword as quickly and accurately as possible.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -81,7 +78,7 @@ This task engages the following cognitive processes:
 
 ## Recent references
 
-- Keuleers, E., & Brysbaert, M. (2010). Wuggy: A multilingual pseudoword generator. *Behavior Research Methods*, 42(3), 627–633. \[Updated: Keuleers, E., Lacey, P., Rastle, K., & Brysbaert, M. (2012). The British Lexicon Project. *Quarterly Journal of Experimental Psychology*, 65(8), 1441–1469.\]
+- Keuleers, E., & Brysbaert, M. (2010). Wuggy: A multilingual pseudoword generator. *Behavior Research Methods*, 42(3), 627–633. [Updated: Keuleers, E., Lacey, P., Rastle, K., & Brysbaert, M. (2012). The British Lexicon Project. *Quarterly Journal of Experimental Psychology*, 65(8), 1441–1469.]
 - Taylor, J. S. H., Rastle, K., & Davis, M. H. (2013). Can cognitive models explain brain activation during word and pseudoword reading? A meta-analysis of 36 neuroimaging studies. *Psychological Bulletin*, 139(4), 766–791.
 - Balota, D. A., Yap, M. J., Hutchison, K. A., et al. (2007). The English Lexicon Project. *Behavior Research Methods*, 39(3), 445–459. [Megastudy approach]
 - Ratcliff, R., Gomez, P., & McKoon, G. (2004). A diffusion model account of the lexical decision task. *Psychological Review*, 111(1), 159–182.
@@ -90,3 +87,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [lexical decision task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949b38)
+

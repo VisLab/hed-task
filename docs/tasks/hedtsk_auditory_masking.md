@@ -1,5 +1,4 @@
 (hedtsk_auditory_masking)=
-
 # Auditory Masking Task
 
 **HED Task ID:** `hedtsk_auditory_masking`
@@ -15,10 +14,9 @@ A target sound (tone, speech token, or noise burst) is presented alongside, befo
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A target sound is presented alongside, before, or after a masker; participants detect, discriminate, or identify the target.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -89,3 +86,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [auditory masking task](https://www.cognitiveatlas.org/task/id/trm_551b1b6f6a262)
+

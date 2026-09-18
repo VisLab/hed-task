@@ -1,5 +1,4 @@
 (hedtsk_cambridge_face_memory)=
-
 # Cambridge Face Memory Task
 
 **HED Task ID:** `hedtsk_cambridge_face_memory`
@@ -15,10 +14,9 @@ The Cambridge Face Memory Test is the standard measure of face recognition abili
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants learn a set of target faces during study, then identify them among distractor faces in increasingly difficult test phases (same image, novel viewpoint, plus noise).
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -83,3 +80,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Cambridge Face Memory Test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949912)
+

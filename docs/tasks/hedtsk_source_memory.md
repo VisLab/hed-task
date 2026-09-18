@@ -1,5 +1,4 @@
 (hedtsk_source_memory)=
-
 # Source Memory Task
 
 **HED Task ID:** `hedtsk_source_memory`
@@ -15,10 +14,9 @@ Source memory tests assess the ability to remember the contextual details of an 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Items are studied under two or more contextually distinct source conditions; at test, participants recognize studied items and judge the source (context) in which each item was encoded.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -89,3 +86,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [source memory test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949dd6)
+

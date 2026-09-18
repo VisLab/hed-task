@@ -1,5 +1,4 @@
 (hedtsk_imitation_inhibition)=
-
 # Imitation-Inhibition Task
 
 **HED Task ID:** `hedtsk_imitation_inhibition`
@@ -15,10 +14,9 @@ The Imitation-Inhibition Task (Brass, Bekkering, Wohlschlager, & Prinz, 2000) me
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants perform an instructed action (e.g., finger lift) in response to a symbolic cue while simultaneously observing a task-irrelevant video or animation of another agent performing a congruent, incongruent, or neutral action.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -86,3 +83,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [action observation task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949846) (related match)
+
