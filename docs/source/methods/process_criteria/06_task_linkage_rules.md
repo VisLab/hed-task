@@ -8,25 +8,25 @@
 (process-criteria-6-1)=
 ## 6.1 How processes link to tasks
 
-A process links to a task if the task's inclusion test (Procedure / Manipulation / Measurement) engages that process. The link is stored in the `tasks[]` array of each process entry in `process_details.json`, using `hedtsk_<slug>` IDs. The reverse direction (task → process) is stored in the `hed_process_ids` array of each task entry in `task_details.json`.
+A process links to a task if the task's inclusion test (Procedure / Manipulation / Measurement) engages that process. The link is stored in the `tasks[]` array of each process entry in `process_details.json`, using `hedtsk_<slug>` IDs. The reverse direction (task -> process) is stored in the `hed_process_ids` array of each task entry in `task_details.json`.
 
 (process-criteria-6-2)=
 ## 6.2 When is a link justified?
 
 A link from task T to process P should satisfy at least one of:
 
-- **Canonical link:** The paradigm-defining paper(s) for T theorize that T engages P. Example: Stroop → interference control.
-- **Contrast-based link:** Some condition contrast in T is standardly interpreted as isolating P. Example: congruent vs. incongruent in Stroop → conflict monitoring.
-- **Measurement-based link:** T has a measure standardly interpreted as an index of P. Example: stop-signal reaction time in the Stop-Signal Task → response inhibition.
+- **Canonical link:** The paradigm-defining paper(s) for T theorize that T engages P. Example: Stroop -> interference control.
+- **Contrast-based link:** Some condition contrast in T is standardly interpreted as isolating P. Example: congruent vs. incongruent in Stroop -> conflict monitoring.
+- **Measurement-based link:** T has a measure standardly interpreted as an index of P. Example: stop-signal reaction time in the Stop-Signal Task -> response inhibition.
 
 (process-criteria-6-3)=
 ## 6.3 What a link is not
 
 - A link is not an ontology assertion (no `is-a`, no class hierarchy).
-- A link is not an exclusion — other processes may be engaged; we list only those the task is designed to probe.
+- A link is not an exclusion - other processes may be engaged; we list only those the task is designed to probe.
 - A link is not symmetric in the sense that every process that lists T also makes T its primary paradigm. Some processes are engaged by a task but primarily studied with a different task.
 
 (process-criteria-6-4)=
 ## 6.4 Unlinked processes
 
-19 of 172 processes have `task_count = 0` (no linked tasks). Some of these are legitimate: the process is real but none of the 103 tasks in the current catalog are designed to study it (e.g., gustatory perception — no taste-perception task in the catalog). Others may signal problems: the process is too abstract, or a link was missed.
+19 of 172 processes have `task_count = 0` (no linked tasks). Some of these are legitimate: the process is real but none of the 103 tasks in the current catalog are designed to study it (e.g., gustatory perception - no taste-perception task in the catalog). Others may signal problems: the process is too abstract, or a link was missed.

@@ -5,7 +5,7 @@
 (process-criteria)=
 # Process criteria
 
-**Purpose:** Reference document specifying how the 172-process HED cognitive process catalog was scoped, how processes were selected, and the rules for definitions, naming, categorization, references, and task linkage. Companion to the [process criteria](./process_criteria/index.md). Per-category scope, out-of-scope and open-issue notes appear on each category page. The prior reference and categories documents have been archived.
+**Purpose:** Reference document specifying how the 172-process HED cognitive process catalog was scoped, how processes were selected, and the rules for definitions, naming, categorization, references, and task linkage. Companion to the [task criteria](../task_criteria/index.md). Per-category scope, out-of-scope and open-issue notes appear on each category page. The prior reference and categories documents have been archived.
 
 Sections are numbered so that they can be cited; a citation such as "process criteria 2.1" means subsection 1 of section 2 of this document.
 

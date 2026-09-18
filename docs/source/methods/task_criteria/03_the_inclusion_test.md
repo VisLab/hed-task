@@ -12,9 +12,9 @@ Each task has a three-part **inclusion_test** that defines the boundary of the t
 
 ```json
 {
-  "procedure": "What the participant does — the observable sequence of events",
-  "manipulation": "What the experimenter varies — the independent variables",
-  "measurement": "What is recorded — the dependent variables and signals"
+ "procedure": "What the participant does - the observable sequence of events",
+ "manipulation": "What the experimenter varies - the independent variables",
+ "measurement": "What is recorded - the dependent variables and signals"
 }
 ```
 

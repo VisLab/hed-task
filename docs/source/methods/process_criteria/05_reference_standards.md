@@ -16,17 +16,17 @@ Each process carries two reference arrays:
 (process-criteria-5-2)=
 ## 5.2 Current state
 
-all 407 reference entries in `process_details.json` have **empty `title` fields**. This is a known future-phase item. The `citation_string` field carries the human-readable citation (e.g., "Rescorla & Wagner (1972) in *Classical Conditioning II*"), and `journal` and `year` fields are populated. Title fill is deferred to a separate literature-lookup pass.
+All 407 reference entries in `process_details.json` have **empty `title` fields**. This is a known future-phase item. The `citation_string` field carries the human-readable citation (e.g., "Rescorla & Wagner (1972) in *Classical Conditioning II*"), and `journal` and `year` fields are populated. Title fill is deferred to a separate literature-lookup pass.
 
 (process-criteria-5-3)=
 ## 5.3 Quality expectations
 
 - Every process should have at least one fundamental reference and at least one recent reference.
-- Citation strings should be clean — no embedded markdown headers, no stitched-together text fragments.
+- Citation strings should be clean - no embedded markdown headers, no stitched-together text fragments.
 - References for the 6 Awareness/Agency/Metacognition rows added and the 5 problem-solving/valuation additions were written fresh; all inherited references come from the original Cognitive Atlas source documents.
-- The Levy & Glimcher (2012) citation was corrected: journal is *Current Opinion in Neurobiology* 22:1027–1038, not *Journal of Neuroscience*.
+- The Levy & Glimcher (2012) citation was corrected: journal is *Current Opinion in Neurobiology* 22:1027-1038, not *Journal of Neuroscience*.
 
 (process-criteria-5-4)=
 ## 5.4 Reference provenance (proposed, not yet implemented)
 
-A future enhancement would mark each reference with its source (`atlas`, `supplement`, `gap_analysis`, `claude_generated`, `user_provided`). Currently all references are indistinguishable in origin. Provenance is not a quality signal — `atlas` means "inherited from the Cognitive Atlas starting corpus" (uncurated), not "validated."
+A future enhancement would mark each reference with its source (`atlas`, `supplement`, `gap_analysis`, `claude_generated`, `user_provided`). Currently all references are indistinguishable in origin. Provenance is not a quality signal - `atlas` means "inherited from the Cognitive Atlas starting corpus" (uncurated), not "validated."

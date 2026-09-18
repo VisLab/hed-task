@@ -40,7 +40,7 @@ Categories serve as **organizational labels** for human browsing. They are not o
 
 Each category entry in `process_details.json` has:
 
-- **`scope`:** What belongs here — a brief description of the process family.
+- **`scope`:** What belongs here - a brief description of the process family.
 - **`out_of_scope`** (optional): What tends to get put here but shouldn't.
 - **`issues`** (optional): Open questions about boundaries, near-synonyms, or structural problems.
 

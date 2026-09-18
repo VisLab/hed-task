@@ -12,7 +12,7 @@ A **task** is a structured experimental paradigm that:
 
 1. **Produces event-based data.** The paradigm generates a sequence of discrete, time-stamped events (stimulus presentations, participant responses, feedback) that can be annotated with HED tags.
 
-2. **Has a specific, reproducible procedure.** A researcher reading the task description could implement it. Generic categories like "memory task" or "attention task" are not tasks — they are domains.
+2. **Has a specific, reproducible procedure.** A researcher reading the task description could implement it. Generic categories like "memory task" or "attention task" are not tasks - they are domains.
 
 3. **Is widely used in cognitive/behavioral neuroscience.** The paradigm appears across multiple labs, has a recognized name, and is cited in the literature as a standard method.
 
@@ -30,4 +30,4 @@ A **task** is a structured experimental paradigm that:
 (task-criteria-1-3)=
 ## 1.3 The 103-task scope
 
-The catalog targets approximately 100 canonical tasks spanning the major domains of cognitive and behavioral neuroscience: attention, memory, executive function, language, perception, motor control, emotion, social cognition, decision-making, and learning. The number 103 is not a hard constraint — it reflects the current state of consolidation from the Cognitive Atlas plus gap-filling. Tasks may be added or removed as the catalog matures.
+The catalog targets approximately 100 canonical tasks spanning the major domains of cognitive and behavioral neuroscience: attention, memory, executive function, language, perception, motor control, emotion, social cognition, decision-making, and learning. The number 103 is not a hard constraint - it reflects the current state of consolidation from the Cognitive Atlas plus gap-filling. Tasks may be added or removed as the catalog matures.

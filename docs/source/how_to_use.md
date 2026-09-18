@@ -12,14 +12,14 @@ in an experiment, tag a dataset, look up a process, or propose a change.
 Three routes lead to a task page.
 
 - **By name or alias.** The search box in the sidebar indexes canonical names, aliases,
-  definitions and variation names, so "CWIT", "Stroop" and "color-word interference"
-  all reach the Stroop Color-Word Task.
+ definitions and variation names, so "CWIT", "Stroop" and "color-word interference"
+ all reach the Stroop Color-Word Task.
 - **By what the participant does.** The [task index](tasks/index.md) groups the
-  {{ n_tasks }} tasks into paradigm families such as conflict and interference tasks, span
-  tasks and economic games. Each family has a scope sentence and a table of its tasks.
+ {{ n_tasks }} tasks into paradigm families such as conflict and interference tasks, span
+ tasks and economic games. Each family has a scope sentence and a table of its tasks.
 - **By process.** Each entry on a [process category page](processes/index.md) lists the
-  tasks that engage the process, and the [task-process links](crossref.md) page gives
-  the whole matrix.
+ tasks that engage the process, and the [task-process links](crossref.md) page gives
+ the whole matrix.
 
 The [alphabetical list](tasks/all_tasks.md) is the fallback when you know the name but
 not the family.
@@ -37,7 +37,7 @@ instance of this task:
 
 - *Procedure*: Color words (RED, BLUE) are printed in incongruent ink colors; participants name the ink color while ignoring the word.
 - *Manipulation*: Congruency (congruent, incongruent, neutral); proportion congruent; response modality (vocal, manual); stimulus type (classic, spatial, numerical).
-- *Measurement*: Stroop interference effect (incongruent − congruent RT); facilitation (neutral − congruent); error rate; conflict adaptation (Gratton effect).
+- *Measurement*: Stroop interference effect (incongruent - congruent RT); facilitation (neutral - congruent); error rate; conflict adaptation (Gratton effect).
 
 An experiment is an instance when its procedure matches, it manipulates at least one of
 the listed variables, and it records at least one of the listed measures. If the
@@ -78,12 +78,12 @@ expressed in HED annotations and dataset metadata is still being decided. For a 
 
 1. Identify the task with the inclusion test, and the variation if one applies.
 2. Record the task identifier (`hedtsk_...`) and, if applicable, the variation
-   identifier (`hedvar_...`).
+ identifier (`hedvar_...`).
 3. Record the process identifiers (`hed_...`) listed on the task page. Add processes
-   the task page does not list only if the experiment's own design targets them; the
-   task page lists what the paradigm is designed to probe, not everything it touches.
+ the task page does not list only if the experiment's own design targets them; the
+ task page lists what the paradigm is designed to probe, not everything it touches.
 4. If the experiment is a task the catalog does not have, or a variation a task page
-   does not list, propose it (next section) rather than forcing a fit.
+ does not list, propose it (next section) rather than forcing a fit.
 
 ## Proposing a change
 
@@ -92,18 +92,18 @@ The catalog is curated continuously and depends on its users to grow. The reposi
 <https://github.com/hed-standard/hed-task/issues> for any of the following.
 
 - **A new task.** Give the canonical name and aliases, a procedure, a manipulation and
-  a measurement in the form the inclusion tests use, the processes it engages, and one
-  or two references. Say why it is not a variation of an existing task.
+ a measurement in the form the inclusion tests use, the processes it engages, and one
+ or two references. Say why it is not a variation of an existing task.
 - **A new variation.** Name the parent task, describe what changes in what the
-  participant experiences or does, and say why that is not one of the excluded kinds of
-  change (measurement modality, analysis, population, stimulus swap, and so on).
+ participant experiences or does, and say why that is not one of the excluded kinds of
+ change (measurement modality, analysis, population, stimulus swap, and so on).
 - **A new process.** Say when in a trial it happens, what elicits it, how it is
-  measured, and which category it belongs in. Say why it is not an alias of an existing
-  process.
+ measured, and which category it belongs in. Say why it is not an alias of an existing
+ process.
 - **A correction.** Anything wrong on a page: a definition, a reference, a link, a
-  family assignment, an Atlas mapping. Quote the page and the text.
+ family assignment, an Atlas mapping. Quote the page and the text.
 - **A disagreement with a rule.** The criteria pages state the rules as they stand;
-  arguments for changing one are welcome.
+ arguments for changing one are welcome.
 
 The source for the site is at <https://github.com/hed-standard/hed-task>. The pages are generated from the catalog
 data, so corrections are applied to the data, not to the pages.

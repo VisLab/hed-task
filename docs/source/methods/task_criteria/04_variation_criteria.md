@@ -26,14 +26,14 @@ A **variation** is a named version of a task that changes **what the participant
 (task-criteria-4-3)=
 ## 4.3 What is NOT a variation? (12 active DROP categories + 1 retired)
 
-The following do **not** count as task variations because they do not change what the participant experiences or does (EMOT was retired; see §5.1):
+The following do **not** count as task variations because they do not change what the participant experiences or does (EMOT was retired; see section 5.1):
 
 | Code | Category | Description | Examples |
 |------|----------|-------------|----------|
 | **MEAS** | Measurement modality | Adding or changing recording equipment | "with fMRI," "with EEG," "with eye-tracking," "with SCR/startle probe," "with MEG," "with TMS recording" |
 | **ANAL** | Analysis method | Post-hoc data analysis technique | Computational modeling, DDM, ROC analysis, Gratton effect analysis, process dissociation, clustering analysis, strategy analysis, locus-of-slack logic, reverse correlation |
 | **DESG** | Design/parameter choice | Experimenter decisions about trial structure | Blocked vs. event-related design, varying ISI/SOA (as generic sweep), parametric difficulty, variable set size (as parameter sweep), speed-accuracy tradeoff instructions |
-| **STIM** | Stimulus substitution | Swapping one stimulus set for an equivalent one | IAPS→OASIS/NAPS, race-specific face sets with identical procedures, alternative word lists, translated stimuli |
+| **STIM** | Stimulus substitution | Swapping one stimulus set for an equivalent one | IAPS->OASIS/NAPS, race-specific face sets with identical procedures, alternative word lists, translated stimuli |
 | **POPL** | Population/clinical use | Testing a different population | "in amnesia," "for children" (unless procedure changes), "clinical screening," "developmental version," "in schizophrenia," cross-cultural comparison |
 | **IDIF** | Individual differences | Using a task as a correlational measure | "as individual differences measure," correlational studies |
 | **TRAN** | Training/intervention | Using repeated task exposure as an intervention | Bias modification training, working memory training, practice/training interventions, memory specificity training |
@@ -42,11 +42,11 @@ The following do **not** count as task variations because they do not change wha
 | **ALIA** | Alias/redundant | Restates the canonical task or duplicates another variation | "Standard X" that merely restates the canonical definition, near-duplicate entries from dual-source generation |
 | **MOTI** | Motivation/reward add-on | Adding incentives without changing task structure | "Rewarded X," reward modulation, mood induction before task |
 | **DUAL** | Dual-task add-on | Adding a concurrent secondary task | Articulatory suppression, working memory load, concurrent secondary task (unless it creates a recognized named paradigm) |
-| **EMOT** | Emotional stimulus swap — **RETIRED** | ~~Replacing neutral stimuli with emotional ones~~ | This category was retired by user decision. All attested Emotional-X paradigms are now kept as variations under their parent tasks. No emotional variations are dropped on EMOT grounds. See §5.1 for the resolution. |
+| **EMOT** | Emotional stimulus swap - **RETIRED** | ~~Replacing neutral stimuli with emotional ones~~ | This category was retired by user decision. All attested Emotional-X paradigms are now kept as variations under their parent tasks. No emotional variations are dropped on EMOT grounds. See section 5.1 for the resolution. |
 
 (task-criteria-4-4)=
 ## 4.4 Applying the criteria consistently
 
 The DROP categories are applied uniformly across all 103 tasks. If "with fMRI" is dropped for one task, it must be dropped for all tasks. If "in children" is dropped when only stimuli change for age-appropriateness, it must be dropped everywhere that applies.
 
-The one exception is when a modification creates a **recognized named paradigm** with its own literature. For example, the Emotional Stroop Task is kept as a separate top-level task entry because it has a distinct, established identity in the literature. Note that the EMOT category was retired entirely (see §5.1) — all attested Emotional-X paradigms are now kept as variations, whether or not they have independent literatures.
+The one exception is when a modification creates a **recognized named paradigm** with its own literature. For example, the Emotional Stroop Task is kept as a separate top-level task entry because it has a distinct, established identity in the literature. Note that the EMOT category was retired entirely (see section 5.1) - all attested Emotional-X paradigms are now kept as variations, whether or not they have independent literatures.

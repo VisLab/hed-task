@@ -8,13 +8,13 @@
 (process-criteria-1-1)=
 ## 1.1 What counts as a process in this catalog?
 
-A **cognitive process** is a mental operation hypothesized to occur in a participant during a trial — something with an identifiable onset, an eliciting condition, and an in-principle measurable signature. Concretely, a candidate is a cognitive process if we can plausibly answer three questions:
+A **cognitive process** is a mental operation hypothesized to occur in a participant during a trial - something with an identifiable onset, an eliciting condition, and an in-principle measurable signature. Concretely, a candidate is a cognitive process if we can plausibly answer three questions:
 
-1. **When does it happen?** — at what point in a trial, relative to stimulus and response, would we expect this process to be engaged?
-2. **How is it elicited?** — what stimulus structure, instruction, or contingency would drive it?
-3. **How is it measured?** — what behavioral, physiological, or neural signature would index it (even if imperfectly)?
+1. **When does it happen?** - at what point in a trial, relative to stimulus and response, would we expect this process to be engaged?
+2. **How is it elicited?** - what stimulus structure, instruction, or contingency would drive it?
+3. **How is it measured?** - what behavioral, physiological, or neural signature would index it (even if imperfectly)?
 
-This is a **forward-looking plausibility test**, not a gating filter. We keep candidates where we expect the answers exist in the literature, even if we have not yet found them. The test exists to rule out things that are categorically the wrong kind of object — not to demand finished evidence.
+This is a **forward-looking plausibility test**, not a gating filter. We keep candidates where we expect the answers exist in the literature, even if we have not yet found them. The test exists to rule out things that are categorically the wrong kind of object - not to demand finished evidence.
 
 A process row should sit at the level where the inclusion-test triple has a single answer. If the question "when does it happen" has multiple, non-reducible answers (e.g., "working memory" can mean encoding, maintenance, manipulation, or updating, each at different trial phases), the candidate is too coarse and should be either split into sub-processes or treated as a category label only.
 

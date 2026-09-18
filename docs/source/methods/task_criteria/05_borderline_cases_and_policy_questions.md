@@ -5,7 +5,7 @@
 (task-criteria-5)=
 # 5. Borderline cases and policy questions
 
-These areas required explicit policy decisions. §5.1 was resolved; the remaining five are open. The variation audit applied the default rules listed below:
+These areas required explicit policy decisions. Section 5.1 was resolved; the remaining five are open. The variation audit applied the default rules listed below:
 
 (task-criteria-5-1)=
 ## 5.1 Emotional variants
@@ -35,24 +35,24 @@ These areas required explicit policy decisions. §5.1 was resolved; the remainin
 (task-criteria-5-4)=
 ## 5.4 Dual-task add-ons
 
-**Rule:** Uniformly DROPPED. Adding a concurrent secondary task (working memory load, articulatory suppression, etc.) is a design choice (DUAL), not a task variation, regardless of how widely used the combination is. No exceptions for "well-established" dual-task pairings — popularity does not change the structural argument.
+**Rule:** Uniformly DROPPED. Adding a concurrent secondary task (working memory load, articulatory suppression, etc.) is a design choice (DUAL), not a task variation, regardless of how widely used the combination is. No exceptions for "well-established" dual-task pairings - popularity does not change the structural argument.
 
-**Applied:** All DUAL-coded entries were removed in the original audit. The one borderline survivor from that pass — Concurrent Cognitive Load (Affective Picture Viewing Task) — was dropped for consistency.
+**Applied:** All DUAL-coded entries were removed in the original audit. The one borderline survivor from that pass - Concurrent Cognitive Load (Affective Picture Viewing Task) - was dropped for consistency.
 
 (task-criteria-5-5)=
 ## 5.5 Confidence ratings / subjective reports
 
-**Rule:** Adding a confidence rating or subjective report to an otherwise unchanged task is a measurement add-on (MEAS), not a variation. The fact that it adds a participant response to the event stream is not sufficient — by that logic any bolted-on scale would create a variation. Confidence-rating add-ons are uniformly DROPPED.
+**Rule:** Adding a confidence rating or subjective report to an otherwise unchanged task is a measurement add-on (MEAS), not a variation. The fact that it adds a participant response to the event stream is not sufficient - by that logic any bolted-on scale would create a variation. Confidence-rating add-ons are uniformly DROPPED.
 
 **Exception:** A confidence-related variation is kept only when the confidence judgment defines a recognized named paradigm whose construct of interest *is* the metacognitive correspondence, not the base task's performance. The sole current example is the Confidence-Accuracy Paradigm (Heartbeat Detection Task), where Garfinkel et al. (2015) defined a three-dimensional model of interoception in which confidence-accuracy correspondence is one of the core measured dimensions.
 
-**Dropped in the original audit (6):** AGL with Confidence Ratings, ROC Analysis (Old/New Recognition), Confidence Judgment Version (Random Dot Kinematogram), ROC Analysis (Remember/Know), Backward Masking with Confidence Ratings (Visual Masking), Source Confidence Ratings (Source Memory). **Dropped (2):** Confidence-Rated Recognition (Old/New Recognition), Remember/Know with Confidence Ratings (Remember/Know). These two had initially survived the audit but were dropped for consistency — adding a graded scale to old/new or R/K judgments is the same kind of add-on as the six already dropped.
+**Dropped in the original audit (6):** AGL with Confidence Ratings, ROC Analysis (Old/New Recognition), Confidence Judgment Version (Random Dot Kinematogram), ROC Analysis (Remember/Know), Backward Masking with Confidence Ratings (Visual Masking), Source Confidence Ratings (Source Memory). **Dropped (2):** Confidence-Rated Recognition (Old/New Recognition), Remember/Know with Confidence Ratings (Remember/Know). These two had initially survived the audit but were dropped for consistency - adding a graded scale to old/new or R/K judgments is the same kind of add-on as the six already dropped.
 
 (task-criteria-5-6)=
 ## 5.6 Computerized vs. manual versions
 
 **Rule:** A computerized version is a genuine variation only if it changes the sensory modality or motor activity the participant uses. Manipulating physical objects vs. clicking on a screen qualifies. Handwriting vs. key-pressing qualifies. Stylus-on-tablet vs. pencil-on-paper does not (same motor modality). Automated scoring or administration software alone is never a variation (that is MEAS or DESG).
 
-**Kept computerized/digital variations (6):** Computerized (eCorsi) — physical block tapping → screen tapping changes spatial/motor demands; Computerized DSST/SDMT — handwriting → button pressing is a different fine motor skill; Computerized Mirror Tracing — loss of haptic edge feedback from physical template; Computerized Adaptive Version (Raven's) — adaptive algorithm changes which items are presented, a procedural change beyond interface; Computerized vs. Physical Versions (Tower of London) — grasping/placing 3D beads → drag-and-drop; PD against Computer Opponents (Prisoner's Dilemma) — not an interface change but a structural one: deterministic program opponent vs. human.
+**Kept computerized/digital variations (6):** Computerized (eCorsi) - physical block tapping -> screen tapping changes spatial/motor demands; Computerized DSST/SDMT - handwriting -> button pressing is a different fine motor skill; Computerized Mirror Tracing - loss of haptic edge feedback from physical template; Computerized Adaptive Version (Raven's) - adaptive algorithm changes which items are presented, a procedural change beyond interface; Computerized vs. Physical Versions (Tower of London) - grasping/placing 3D beads -> drag-and-drop; PD against Computer Opponents (Prisoner's Dilemma) - not an interface change but a structural one: deterministic program opponent vs. human.
 
-**Dropped (4):** Computerized RAVLT (digital administration with automatic scoring — MEAS/DESG), Digital TMT/dTMT (stylus on tablet vs. pencil on paper — same motor modality; kinematic recording is MEAS), Computerized UFOV (UFOV is inherently screen-based; this is commercial software with automated staircase — DESG), Computerized WCST/WCST-CV (digital version with automated scoring — DESG).
+**Dropped (4):** Computerized RAVLT (digital administration with automatic scoring - MEAS/DESG), Digital TMT/dTMT (stylus on tablet vs. pencil on paper - same motor modality; kinematic recording is MEAS), Computerized UFOV (UFOV is inherently screen-based; this is commercial software with automated staircase - DESG), Computerized WCST/WCST-CV (digital version with automated scoring - DESG).
