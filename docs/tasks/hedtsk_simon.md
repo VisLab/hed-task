@@ -1,5 +1,4 @@
 (hedtsk_simon)=
-
 # Simon Task
 
 **HED Task ID:** `hedtsk_simon`
@@ -15,10 +14,9 @@ The Simon Task measures the effect of spatial stimulus-response correspondence o
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Stimuli varying on a non-spatial attribute (color, shape) appear on the left or right; participants respond with spatially mapped keys. On incongruent trials, stimulus location conflicts with response location.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -95,3 +92,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Simon task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949dbb)
+

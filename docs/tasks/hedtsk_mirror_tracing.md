@@ -1,5 +1,4 @@
 (hedtsk_mirror_tracing)=
-
 # Mirror Tracing Task
 
 **HED Task ID:** `hedtsk_mirror_tracing`
@@ -15,10 +14,9 @@ The Mirror Tracing Task measures procedural motor learning and sensorimotor adap
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants trace a path (star, maze) while viewing their hand only through a mirror, which reverses visual-motor mapping. They must stay within path boundaries.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -88,3 +85,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [mirror tracing task](https://www.cognitiveatlas.org/task/id/trm_4f244a67d5b17)
+

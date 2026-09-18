@@ -1,5 +1,4 @@
 (hedtsk_rapid_serial_visual_presentation)=
-
 # Rapid Serial Visual Presentation Task
 
 **HED Task ID:** `hedtsk_rapid_serial_visual_presentation`
@@ -15,10 +14,9 @@ Rapid Serial Visual Presentation (RSVP) is a paradigm for studying the temporal 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A rapid serial stream of visual items is presented at a single location; participants detect, identify, or categorize one or more targets embedded among distractors. Presentation rate is typically 6-20 items per second.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -107,3 +104,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [rapid serial visual presentation task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949879)
+

@@ -2,14 +2,15 @@
 
 **Scope:** Integration of noisy sensory evidence to a decision criterion.
 
-:::\{note} **Open issues:** Singleton row. Overlaps with Perceptual Awareness on confidence and with Value-Based Decision-Making on accumulation-model machinery — but the evidence source (perceptual vs. value) is the category boundary. If the catalog ever adds distinct rows for decision boundary, drift rate, confidence formation, and speed-accuracy tradeoff as processes (rather than task-level parameters), they belong here. :::
+:::{note}
+**Open issues:** Singleton row. Overlaps with Perceptual Awareness on confidence and with Value-Based Decision-Making on accumulation-model machinery — but the evidence source (perceptual vs. value) is the category boundary. If the catalog ever adds distinct rows for decision boundary, drift rate, confidence formation, and speed-accuracy tradeoff as processes (rather than task-level parameters), they belong here.
+:::
 
 This category contains 1 processes.
 
-______________________________________________________________________
+---
 
 (hed-perceptual-decision-making)=
-
 ## Perceptual decision making
 
 **Process ID:** `hed_perceptual_decision_making`
@@ -31,3 +32,4 @@ The following tasks engage this process:
 ### Recent references
 
 - Gold & Shadlen (2007) *Annual Review of Neuroscience* 30:535–574
+

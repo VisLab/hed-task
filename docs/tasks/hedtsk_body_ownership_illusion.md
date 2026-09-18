@@ -1,5 +1,4 @@
 (hedtsk_body_ownership_illusion)=
-
 # Body Ownership Illusion Task
 
 **HED Task ID:** `hedtsk_body_ownership_illusion`
@@ -15,10 +14,9 @@ Body ownership illusion tasks exploit multisensory integration to induce the exp
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A participant's real body part is hidden while a visible artificial (rubber, virtual, or video-displayed) counterpart is placed in a plausible position; synchronous multisensory stimulation (typically visuotactile stroking) is applied to both the real and artificial body parts, with asynchronous stimulation as a control.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -86,3 +83,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [rubber hand illusion](https://www.cognitiveatlas.org/task/id/trm_4e5bb14d814a8) (close match)
+

@@ -1,5 +1,4 @@
 (hedtsk_multi_armed_bandit)=
-
 # Multi-Armed Bandit Task
 
 **HED Task ID:** `hedtsk_multi_armed_bandit`
@@ -15,10 +14,9 @@ Participants choose among multiple options (the "arms" of a slot machine), each 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants choose repeatedly among multiple options (arms) that deliver stochastic rewards drawn from different distributions. They must balance exploring unknown options with exploiting known good ones.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -90,3 +87,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Volatile Bandit](https://www.cognitiveatlas.org/task/id/trm_5696b180169bd) (close match)
+

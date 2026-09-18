@@ -1,5 +1,4 @@
 (hedtsk_free_recall)=
-
 # Free Recall Task
 
 **HED Task ID:** `hedtsk_free_recall`
@@ -15,10 +14,9 @@ Participants study a list of items (typically words) presented sequentially, the
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants study a list of items (words, pictures) presented one at a time, then recall as many as possible in any order after the last item.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -81,7 +78,7 @@ This task engages the following cognitive processes:
 
 ## Recent references
 
-- Kahana, M. J. (2012). *Foundations of Human Memory*. Oxford University Press. \[Updated: Kahana, M. J. (2020). Computational models of memory search. *Annual Review of Psychology*, 71, 107–138.\]
+- Kahana, M. J. (2012). *Foundations of Human Memory*. Oxford University Press. [Updated: Kahana, M. J. (2020). Computational models of memory search. *Annual Review of Psychology*, 71, 107–138.]
 - Polyn, S. M., Norman, K. A., & Kahana, M. J. (2009). A context maintenance and retrieval model of organizational processes in free recall. *Psychological Review*, 116(1), 129–156.
 - Lohnas, L. J., Polyn, S. M., & Kahana, M. J. (2015). Expanding the scope of memory search: Modeling intralist and interlist effects in free recall. *Psychological Review*, 122(2), 337–363.
 - Morton, N. W., Sherrill, K. R., & Preston, A. R. (2017). Memory integration constructs maps of space, time, and concepts. *Current Opinion in Behavioral Sciences*, 17, 161–168.
@@ -89,3 +86,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [recall test](https://www.cognitiveatlas.org/task/id/trm_4f2411c91ae5e) (close match)
+

@@ -1,5 +1,4 @@
 (hedtsk_probabilistic_selection)=
-
 # Probabilistic Selection Task
 
 **HED Task ID:** `hedtsk_probabilistic_selection`
@@ -15,10 +14,9 @@ The Probabilistic Selection Task, developed by Frank and colleagues, assesses th
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants learn to choose between stimulus pairs through probabilistic feedback (80/20 or 70/30 contingencies), then are tested on novel recombinations without feedback to dissociate Go learning (choose A) from NoGo learning (avoid B).
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -80,3 +77,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Probabilistic Selection Task](https://www.cognitiveatlas.org/task/id/trm_5667483dcc371)
+

@@ -1,5 +1,4 @@
 (hedtsk_prisoners_dilemma)=
-
 # Prisoner's Dilemma Task
 
 **HED Task ID:** `hedtsk_prisoners_dilemma`
@@ -15,10 +14,9 @@ The Prisoner's Dilemma is a canonical game theory paradigm for studying cooperat
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Two players simultaneously choose to cooperate or defect; payoffs depend on both choices according to a matrix where mutual cooperation beats mutual defection but defection is individually tempting.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -101,3 +98,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [prisoner's dilemma (PD)](https://www.cognitiveatlas.org/task/id/tsk_KRl3zbyaJcKWM)
+

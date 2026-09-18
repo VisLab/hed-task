@@ -1,5 +1,4 @@
 (hedtsk_sternberg_item_recognition)=
-
 # Sternberg Item Recognition Task
 
 **HED Task ID:** `hedtsk_sternberg_item_recognition`
@@ -15,10 +14,9 @@ The Sternberg task measures the speed of short-term memory scanning. On each tri
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants memorize a small set of items (1–6 digits or letters), then a probe appears and they indicate whether it was in the memory set.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -78,3 +75,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Sternberg Item Recognition Task](https://www.cognitiveatlas.org/task/id/trm_551f0a8b5ba2c)
+

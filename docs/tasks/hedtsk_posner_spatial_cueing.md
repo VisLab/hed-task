@@ -1,5 +1,4 @@
 (hedtsk_posner_spatial_cueing)=
-
 # Posner Spatial Cueing Task
 
 **HED Task ID:** `hedtsk_posner_spatial_cueing`
@@ -15,10 +14,9 @@ The Posner Spatial Cueing Task measures covert orienting of visual attention. Pa
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A cue (peripheral flash or central arrow) indicates a likely target location; the target then appears at the cued or uncued location and participants detect or discriminate it.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -98,3 +95,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Posner cueing task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949d17)
+

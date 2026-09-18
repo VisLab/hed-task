@@ -1,5 +1,4 @@
 (hedtsk_verbal_fluency)=
-
 # Verbal Fluency Task
 
 **HED Task ID:** `hedtsk_verbal_fluency`
@@ -15,10 +14,9 @@ Participants produce as many unique words as possible in a fixed interval (typic
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participant generates words aloud matching a letter or category constraint within a timed interval; an examiner records all responses.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -81,3 +78,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [verbal fluency task](https://www.cognitiveatlas.org/task/id/trm_4f240f1c740da)
+

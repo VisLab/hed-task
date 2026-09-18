@@ -1,5 +1,4 @@
 (hedtsk_balloon_analog_risk)=
-
 # Balloon Analog Risk Task
 
 **HED Task ID:** `hedtsk_balloon_analog_risk`
@@ -15,10 +14,9 @@ Participants inflate a virtual balloon by clicking a pump button, earning money 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants sequentially pump a virtual balloon for incremental monetary reward; each pump risks the balloon popping and losing that trial's earnings. They can stop and bank at any time.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -80,9 +77,10 @@ This task engages the following cognitive processes:
 
 - Pleskac, T. J. (2008). Decision making and learning while taking sequential risks. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 34(1), 167–185.
 - Wallsten, T. S., Pleskac, T. J., & Lejuez, C. W. (2005). Modeling behavior in a clinically diagnostic sequential risk-taking task. *Psychological Review*, 112(4), 862–880.
-- Schonberg, T., Fox, C. R., & Poldrack, R. A. (2011). Mind the gap: Bridging economic and naturalistic risk-taking with cognitive neuroscience. *Trends in Cognitive Sciences*, 15(1), 11–19. \[Updated: Helfinstein, S. M., et al. (2014). Predicting risky choices from brain activity patterns. *Proceedings of the National Academy of Sciences*, 111(7), 2470–2475.\]
+- Schonberg, T., Fox, C. R., & Poldrack, R. A. (2011). Mind the gap: Bridging economic and naturalistic risk-taking with cognitive neuroscience. *Trends in Cognitive Sciences*, 15(1), 11–19. [Updated: Helfinstein, S. M., et al. (2014). Predicting risky choices from brain activity patterns. *Proceedings of the National Academy of Sciences*, 111(7), 2470–2475.]
 - Hunt, M. K., Hopko, D. R., Bare, R., Lejuez, C. W., & Robinson, E. V. (2005). Construct validity of the Balloon Analog Risk Task (BART). *Assessment*, 12(4), 416–428.
 
 ## External links
 
 - Cognitive Atlas: [balloon analogue risk task](https://www.cognitiveatlas.org/task/id/trm_4d559bcd67c18)
+

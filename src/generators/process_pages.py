@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 from generators.utils import truncate, write_page
@@ -78,13 +79,63 @@ def _write_process_index(
     return 1
 
 
+# Clauses in an alias note that record when something changed rather than what is true.
+# A published page states the current state, so these are dropped; the source data in
+# .working/ keeps them.
+_RE_HISTORY_CLAUSE = re.compile(
+    r"20\d{2}-\d{2}-\d{2}"
+    r"|\bpre-reframe\b|\bpre-20\d{2}\b|\breframe\b"
+    r"|\brenamed\b|\bmerged\b|\bdropped as separate\b|\bduplicate entry\b",
+    re.IGNORECASE,
+)
+
+
+def _strip_history(note: str) -> str:
+    """Remove dated or change-log clauses from an alias note, keeping the rest verbatim.
+
+    Returns an empty string when the note was nothing but history.
+    """
+    if not note:
+        return ""
+    pieces = re.split(r"(?<=[.;])\s+", note.strip())
+    kept = [p for p in pieces if not _RE_HISTORY_CLAUSE.search(p)]
+    if len(kept) == len(pieces):
+        return note
+    if not kept:
+        return ""
+    repaired = []
+    for i, piece in enumerate(kept):
+        nxt = kept[i + 1] if i + 1 < len(kept) else None
+        # A clause that ended mid-sentence now ends one, or leads a new one.
+        if piece.endswith(";") and (nxt is None or nxt[:1].isupper()):
+            piece = piece[:-1] + "."
+        repaired.append(piece)
+    text = " ".join(repaired).strip()
+    text = text[0].upper() + text[1:]
+    if not text.endswith("."):
+        text += "."
+    return text
+
+
+_RE_BARE_DATE = re.compile(r"\s+(?:on\s+)?\d{4}-\d{2}-\d{2}\b")
+
+
+def _strip_dates(text: str) -> str:
+    """Remove date stamps but keep the surrounding clause.
+
+    Used where the text is not sentence-shaped - a parenthetical inside `Out of scope`,
+    for instance - and splitting it into clauses would break the punctuation.
+    """
+    return _RE_BARE_DATE.sub("", text) if text else text
+
+
 def _format_aliases(aliases: list) -> str:
     """Format a list of aliases (strings or dicts with name/note)."""
     parts = []
     for alias in aliases:
         if isinstance(alias, dict):
             name = alias.get("name", "")
-            note = alias.get("note", "")
+            note = _strip_history(alias.get("note", ""))
             if note:
                 parts.append(f"**{name}** \u2014 {note}")
             else:
@@ -103,9 +154,9 @@ def _write_category_page(
     cat_id = category["category_id"]
     name = category["name"]
     scope = category.get("scope", "")
-    out_of_scope = category.get("out_of_scope", "")
-    issues = category.get("issues", "")
-    history = category.get("history", "")
+    out_of_scope = _strip_dates(category.get("out_of_scope", ""))
+    # The issues field mixes live caveats with resolved-issue records; keep the caveats.
+    issues = _strip_history(category.get("issues", ""))
     process_count = len(cat_procs)
 
     parts: list[str] = []
@@ -121,11 +172,9 @@ def _write_category_page(
         parts.append(f"**Open issues:** {issues}\n")
         parts.append(":::\n\n")
 
-    if history:
-        parts.append(":::{admonition} Category history\n")
-        parts.append(":class: dropdown\n\n")
-        parts.append(f"{history}\n")
-        parts.append(":::\n\n")
+    # The `history` field in the source data is a change log for the category - what was
+    # merged, dropped or renamed, with dates. A published page states what is true now,
+    # so it is deliberately not rendered. The field is left in the source untouched.
 
     parts.append(f"This category contains {process_count} processes.\n\n")
     parts.append("---\n\n")

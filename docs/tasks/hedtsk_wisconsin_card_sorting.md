@@ -1,5 +1,4 @@
 (hedtsk_wisconsin_card_sorting)=
-
 # Wisconsin Card Sorting Task
 
 **HED Task ID:** `hedtsk_wisconsin_card_sorting`
@@ -15,10 +14,9 @@ The WCST tests cognitive flexibility, set-shifting, and learning from feedback. 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Cards vary on three dimensions (color, form, number). Participants sort cards to match a target according to an undisclosed rule (e.g., color), receiving feedback. After a run of correct sorts, the rule changes without warning.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -84,3 +81,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Wisconsin card sorting test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949f21)
+

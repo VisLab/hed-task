@@ -1,5 +1,4 @@
 (hedtsk_mental_rotation)=
-
 # Mental Rotation Task
 
 **HED Task ID:** `hedtsk_mental_rotation`
@@ -15,10 +14,9 @@ Participants view pairs of 3D objects (block figures, letters, or geometric form
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Two figures (3-D block shapes, letters, or hands) are presented at different orientations; participants judge whether they are the same or mirror-reversed.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -82,3 +79,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [mental rotation task](https://www.cognitiveatlas.org/task/id/trm_4c8990810541d)
+

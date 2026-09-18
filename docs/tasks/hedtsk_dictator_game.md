@@ -1,5 +1,4 @@
 (hedtsk_dictator_game)=
-
 # Dictator Game Task
 
 **HED Task ID:** `hedtsk_dictator_game`
@@ -15,10 +14,9 @@ One player (dictator) unilaterally decides how much of an endowment to give to a
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants in the dictator role are endowed with a sum and decide how much (if any) to give to an anonymous recipient; the recipient has no choice but to accept.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -85,3 +82,4 @@ This task engages the following cognitive processes:
 - Engel, C. (2011). Dictator games: A meta study. *Experimental Economics*, 14(4), 583–610.
 - Rand, D. G., & Epstein, Z. G. (2014). Risking your life without a second thought: Intuitive decision-making and extreme altruism. *PLoS ONE*, 9(10), e109687.
 - Forsythe, R., Horowitz, J. L., Savin, N. E., & Sefton, M. (1994). Fairness in simple bargaining experiments. *Games and Economic Behavior*, 6(3), 347–369.
+

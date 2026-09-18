@@ -4,14 +4,15 @@
 
 **Out of scope:** Attention as an umbrella; alertness as a trait; arousal as a physiological state.
 
-:::\{note} **Open issues:** Sustained attention ≡ vigilance when operationalized as a continuous-performance measure; treated as synonymous in the current row definition. If vigilance-as-trait ever needs representation, it would live outside this category. :::
+:::{note}
+**Open issues:** Sustained attention ≡ vigilance when operationalized as a continuous-performance measure; treated as synonymous in the current row definition. If vigilance-as-trait ever needs representation, it would live outside this category.
+:::
 
 This category contains 11 processes.
 
-______________________________________________________________________
+---
 
 (hed-alerting)=
-
 ## Alerting
 
 **Process ID:** `hed_alerting`
@@ -35,10 +36,9 @@ The following tasks engage this process:
 
 - Petersen & Posner (2012) *Annual Review of Neuroscience* 35:73–89
 
-______________________________________________________________________
+---
 
 (hed-attention-shifting)=
-
 ## Attention shifting
 
 **Process ID:** `hed_attention_shifting`
@@ -59,10 +59,9 @@ The following tasks engage this process:
 
 - Corbetta, Patel & Shulman (2008) *Neuron* 58:306–324
 
-______________________________________________________________________
+---
 
 (hed-attentional-capture)=
-
 ## Attentional capture
 
 **Process ID:** `hed_attentional_capture`
@@ -87,10 +86,9 @@ The following tasks engage this process:
 
 - Theeuwes (2010) *Acta Psychologica* 135:77–99
 
-______________________________________________________________________
+---
 
 (hed-divided-attention)=
-
 ## Divided attention
 
 **Process ID:** `hed_divided_attention`
@@ -114,10 +112,9 @@ The following tasks engage this process:
 
 - Strobach, Salminen, Karbach & Schubert (2014) *Psychological Research* 78:836–851
 
-______________________________________________________________________
+---
 
 (hed-feature-based-attention)=
-
 ## Feature-based attention
 
 **Process ID:** `hed_feature_based_attention`
@@ -138,10 +135,9 @@ The following tasks engage this process:
 
 - Maunsell & Treue (2006) *Trends in Neurosciences* 29:317–322
 
-______________________________________________________________________
+---
 
 (hed-object-based-attention)=
-
 ## Object-based attention
 
 **Process ID:** `hed_object_based_attention`
@@ -163,10 +159,9 @@ The following tasks engage this process:
 
 - Chen (2012) *Attention, Perception & Psychophysics* 74:784–802
 
-______________________________________________________________________
+---
 
 (hed-orienting)=
-
 ## Orienting
 
 **Process ID:** `hed_orienting`
@@ -189,10 +184,9 @@ The following tasks engage this process:
 
 - Corbetta & Shulman (2002) *Nature Reviews Neuroscience* 3:201–215
 
-______________________________________________________________________
+---
 
 (hed-selective-attention)=
-
 ## Selective attention
 
 **Process ID:** `hed_selective_attention`
@@ -234,10 +228,9 @@ The following tasks engage this process:
 
 - Chun, Golomb & Turk-Browne (2011) *Annual Review of Psychology* 62:73–101
 
-______________________________________________________________________
+---
 
 (hed-spatial-attention)=
-
 ## Spatial attention
 
 **Process ID:** `hed_spatial_attention`
@@ -263,10 +256,9 @@ The following tasks engage this process:
 
 - Carrasco (2011) *Vision Research* 51:1484–1525
 
-______________________________________________________________________
+---
 
 (hed-sustained-attention)=
-
 ## Sustained attention
 
 **Process ID:** `hed_sustained_attention`
@@ -297,10 +289,9 @@ The following tasks engage this process:
 
 - Esterman & Rothlein (2019) *Current Opinion in Psychology* 29:174–180
 
-______________________________________________________________________
+---
 
 (hed-temporal-attention)=
-
 ## Temporal attention
 
 **Process ID:** `hed_temporal_attention`
@@ -322,3 +313,4 @@ The following tasks engage this process:
 ### Recent references
 
 - Nobre & van Ede (2018) *Nature Reviews Neuroscience* 19:34–48
+

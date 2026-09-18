@@ -1,5 +1,4 @@
 (hedtsk_iowa_gambling)=
-
 # Iowa Gambling Task
 
 **HED Task ID:** `hedtsk_iowa_gambling`
@@ -15,10 +14,9 @@ Participants choose cards from four decks to maximize winnings. Two decks (A, B)
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Four decks of cards are presented; participants draw one card at a time from any deck. Each draw yields a reward and sometimes a penalty. Two decks are advantageous (smaller rewards, smaller penalties, net positive) and two are disadvantageous (larger rewards, larger penalties, net negative).
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -85,3 +82,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Iowa Gambling Task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949ae5)
+

@@ -1,5 +1,4 @@
 (hedtsk_rey_auditory_verbal_learning)=
-
 # Rey Auditory Verbal Learning Task
 
 **HED Task ID:** `hedtsk_rey_auditory_verbal_learning`
@@ -15,10 +14,9 @@ The RAVLT is a comprehensive measure of verbal episodic memory. A list of 15 unr
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A 15-word list (List A) is read aloud five times with free recall after each. A single interference list (List B) is then read once and recalled. Immediate and delayed recall of List A follow, plus a recognition test.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -79,3 +76,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Rey Auditory Verbal Learning Task](https://www.cognitiveatlas.org/task/id/trm_4da88ae0f2952)
+

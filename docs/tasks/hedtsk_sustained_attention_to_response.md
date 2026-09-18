@@ -1,5 +1,4 @@
 (hedtsk_sustained_attention_to_response)=
-
 # Sustained Attention to Response Task
 
 **HED Task ID:** `hedtsk_sustained_attention_to_response`
@@ -15,10 +14,9 @@ The Sustained Attention to Response Task is a Go/No-Go variant specifically desi
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Single digits (1–9) are presented one at a time; participants respond to every digit except a designated target (typically 3). The high go-probability induces a prepotent response tendency.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -92,3 +89,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [sustained attention to response task](https://www.cognitiveatlas.org/task/id/trm_4da86cfe8cf1b)
+

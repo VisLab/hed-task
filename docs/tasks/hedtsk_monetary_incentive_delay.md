@@ -1,5 +1,4 @@
 (hedtsk_monetary_incentive_delay)=
-
 # Monetary Incentive Delay Task
 
 **HED Task ID:** `hedtsk_monetary_incentive_delay`
@@ -15,10 +14,9 @@ The Monetary Incentive Delay Task is the dominant paradigm for neuroimaging stud
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A cue signals potential reward, loss, or neutral outcome; after a delay, a target appears and participants make a speeded response. Outcome depends on response speed.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -81,3 +78,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [monetary incentive delay task](https://www.cognitiveatlas.org/task/id/trm_4f23fc8c42d28)
+

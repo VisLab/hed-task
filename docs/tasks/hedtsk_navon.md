@@ -1,5 +1,4 @@
 (hedtsk_navon)=
-
 # Navon Task
 
 **HED Task ID:** `hedtsk_navon`
@@ -15,10 +14,9 @@ The Navon Task investigates hierarchical processing in vision using compound sti
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A large letter (global) composed of small letters (local) is presented; participants identify the letter at the designated level (global or local).
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -99,3 +96,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [global-local task](https://www.cognitiveatlas.org/task/id/trm_4f241d7adf14e)
+

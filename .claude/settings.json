@@ -44,6 +44,9 @@
       "Bash(. .venv/Scripts/activate)"
     ],
     "deny": [
+      "Read(.env)",
+      "Read(.envrc)",
+      "Read(.status/archive/**)",
       "Bash(rm -rf *)",
       "Bash(rm -fr *)",
       "Bash(rm -r *)",

@@ -1,5 +1,4 @@
 (hedtsk_semantic_priming)=
-
 # Semantic Priming Task
 
 **HED Task ID:** `hedtsk_semantic_priming`
@@ -15,10 +14,9 @@ Word pairs are presented in sequence: a prime word followed by a target. Prime-t
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A prime word is followed by a target word; participants make a lexical decision or naming response to the target. Prime-target pairs are semantically related or unrelated.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -101,3 +98,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [contextual semantic priming task](https://www.cognitiveatlas.org/task/id/trm_553e73e29cf7d) (close match)
+

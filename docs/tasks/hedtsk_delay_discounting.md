@@ -1,5 +1,4 @@
 (hedtsk_delay_discounting)=
-
 # Delay Discounting Task
 
 **HED Task ID:** `hedtsk_delay_discounting`
@@ -15,10 +14,9 @@ Participants make repeated choices between a smaller immediate reward and a larg
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants choose between a smaller immediate reward and a larger delayed reward across many trials with varying amounts and delays.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -93,3 +90,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [temporal discounting task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e98)
+

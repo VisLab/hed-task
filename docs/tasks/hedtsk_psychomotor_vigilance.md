@@ -1,5 +1,4 @@
 (hedtsk_psychomotor_vigilance)=
-
 # Psychomotor Vigilance Task
 
 **HED Task ID:** `hedtsk_psychomotor_vigilance`
@@ -15,10 +14,9 @@ The Psychomotor Vigilance Task is a sustained-attention reaction time task widel
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A visual stimulus (counter or light) appears at random intervals (2–10 s); participants press a button as quickly as possible upon detection. The task runs for 10 minutes.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -75,3 +72,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [PEBL Perceptual Vigilance Task](https://www.cognitiveatlas.org/task/id/trm_50b55d8a6da00) (close match)
+

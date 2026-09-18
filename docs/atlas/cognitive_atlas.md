@@ -1,292 +1,396 @@
 # What is in the Cognitive Atlas
 
-The [Cognitive Atlas](https://www.cognitiveatlas.org/) is a collaboratively built ontology of cognitive processes and the experimental paradigms that measure them. It separates *concepts* (mental processes) from *tasks* (experimental paradigms), gives each a stable identifier, and records which concepts a task is claimed to assess. It is the only openly licensed lexicon spanning the breadth of cognitive neuroscience, and it was the starting corpus for this catalog.
+The [Cognitive Atlas](https://www.cognitiveatlas.org/) is a collaboratively built ontology of cognitive
+processes and the experimental paradigms that measure them. It separates *concepts*
+(mental processes) from *tasks* (experimental paradigms), gives each a stable
+identifier, and records which concepts a task is claimed to assess. It is the only
+openly licensed lexicon spanning the breadth of cognitive neuroscience, and it was the
+starting corpus for this catalog.
 
-This page describes the Atlas on its own terms: what it contains, how completely its entries are filled in, and what condition the data is in. It draws no comparison with the task and process catalog published here.
+This page describes the Atlas on its own terms: what it contains, how completely its
+entries are filled in, and what condition the data is in. It draws no comparison with
+the task and process catalog published here.
 
 ## In short
 
-The Atlas is best understood as a broad but thinly and unevenly curated corpus rather than a finished reference. Its breadth is real, and so is its architecture: separating processes from paradigms is right, the identifiers are stable, and a genuine 1398-edge relation graph connects concepts to one another.
+The Atlas is best understood as a broad but thinly and unevenly curated corpus rather
+than a finished reference. Its breadth is real, and so is its architecture: separating
+processes from paradigms is right, the identifiers are stable, and a genuine
+1398-edge relation graph connects concepts to one another.
 
-The curation is partial, in both layers at once. On the task side, 298 of 857 tasks (34.8%) assert no concept at all, which disconnects them from the ontology that gives the Atlas its value, and only 363 (42.4%) have a definition, a concept, and a citation together. On the concept side, 455 of 918 concepts (49.6%) are asserted by no task, 413 (45.0%) carry no class, and 774 (84.3%) have no citation. Curation also stopped: almost nothing in either layer was entered after 2017.
+The curation is partial, in both layers at once. On the task side,
+298 of 857 tasks (34.8%)
+assert no concept at all, which disconnects them from the ontology that gives the
+Atlas its value, and only 363 (42.4%) have a definition, a
+concept, and a citation together. On the concept side, 455 of
+918 concepts (49.6%) are asserted by no task,
+413 (45.0%) carry no class,
+and 774 (84.3%) have no
+citation. Curation also stopped: almost nothing in either layer was entered after 2017.
 
-Anything built on the Atlas should treat it as a source of candidate terms and stable identifiers to be verified, not as a curated authority.
+Anything built on the Atlas should treat it as a source of candidate terms and stable
+identifiers to be verified, not as a curated authority.
 
 ## What was captured
 
-The figures come from a snapshot of the Atlas REST API (`http://cognitiveatlas.org/api/v-alpha`) taken on 2026-09-16. Both layers were pulled in full: the bulk listing for each, then the detail record for every entry, which is where concept relations and citations live.
+The figures come from a snapshot of the Atlas REST API (`http://cognitiveatlas.org/api/v-alpha`) taken on
+2026-09-16. Both layers were pulled in full: the bulk listing for each, then the
+detail record for every entry, which is where concept relations and citations live.
 
-| Layer                          | Entries | Detail records retrieved |
-| ------------------------------ | ------- | ------------------------ |
-| Tasks (experimental paradigms) | 857     | 857                      |
-| Concepts (mental processes)    | 918     | 918                      |
+| Layer | Entries | Detail records retrieved |
+|---|---|---|
+| Tasks (experimental paradigms) | 857 | 857 |
+| Concepts (mental processes) | 918 | 918 |
 
-Pulling the concept endpoint directly matters. A harvest taken from the task endpoint alone reaches a concept only when some task asserts it, which hides 455 of the 918 concepts and every one of the concept-to-concept relations.
+Pulling the concept endpoint directly matters. A harvest taken from the task endpoint
+alone reaches a concept only when some task asserts it, which hides
+455 of the 918 concepts and every one of the
+concept-to-concept relations.
 
 ## Tasks
 
 ### Definitions
 
-| Definition length      | Tasks | Share |
-| ---------------------- | ----- | ----- |
-| Missing or placeholder | 38    | 4.4%  |
-| Under 50 characters    | 21    | 2.5%  |
-| 50 to 199              | 316   | 36.9% |
-| 200 to 499             | 294   | 34.3% |
-| 500 to 999             | 144   | 16.8% |
-| 1000 or more           | 44    | 5.1%  |
+| Definition length | Tasks | Share |
+|---|---|---|
+| Missing or placeholder | 38 | 4.4% |
+| Under 50 characters | 21 | 2.5% |
+| 50 to 199 | 316 | 36.9% |
+| 200 to 499 | 294 | 34.3% |
+| 500 to 999 | 144 | 16.8% |
+| 1000 or more | 44 | 5.1% |
 
-Among the 819 tasks that have a real definition, the mean length is 362 characters, the median 248, and the longest 4074. The spread is the point: entries range from a single clause to a small essay, with no house style.
+Among the 819 tasks that have a real definition, the mean
+length is 362 characters, the median 248,
+and the longest 4074. The spread is the point: entries range from a
+single clause to a small essay, with no house style.
 
-36 of the entries counted as missing hold the literal four-character string `None` rather than any text. They cover well-known paradigms, among them `visual search task`, `serial reaction time task`, and `color naming task`.
+36 of the entries counted as missing hold the literal
+four-character string `None` rather than any text. They cover well-known paradigms,
+among them `visual search task`, `serial reaction time task`, and `color naming task`.
 
 ### Concept linkage
 
 | Concepts asserted | Tasks | Share |
-| ----------------- | ----- | ----- |
-| 0 concepts        | 298   | 34.8% |
-| 1 concept         | 249   | 29.1% |
-| 2 to 3            | 189   | 22.1% |
-| 4 to 7            | 93    | 10.9% |
-| 8 or more         | 28    | 3.3%  |
+|---|---|---|
+| 0 concepts | 298 | 34.8% |
+| 1 concept | 249 | 29.1% |
+| 2 to 3 | 189 | 22.1% |
+| 4 to 7 | 93 | 10.9% |
+| 8 or more | 28 | 3.3% |
 
-There are 1422 task-to-concept links in total, a mean of 1.66 per task against a maximum of 16. About a third of tasks (34.8%) assert no concept whatsoever and another 29.1% assert exactly one, so for roughly 64% of entries the knowledge graph is either absent or a single edge. A long definition is no guarantee of a linked one: several entries carry a substantial write-up and no concepts at all.
+There are 1422 task-to-concept links in total, a mean of
+1.66 per task against a maximum of 16.
+About a third of tasks (34.8%) assert no concept whatsoever
+and another 29.1% assert exactly one, so for roughly
+64% of entries the knowledge graph is either absent or a single edge. A long
+definition is no guarantee of a linked one: several entries carry a substantial
+write-up and no concepts at all.
 
 ### Citations
 
-| Measure                          | Count | Share of tasks |
-| -------------------------------- | ----- | -------------- |
-| Tasks with at least one citation | 470   | 54.8%          |
-| Tasks with no citation           | 387   | 45.2%          |
+| Measure | Count | Share of tasks |
+|---|---|---|
+| Tasks with at least one citation | 470 | 54.8% |
+| Tasks with no citation | 387 | 45.2% |
 
-The 470 cited tasks carry 1091 citations between them, of which 946 record a PubMed id. The rest are reachable only through a free-text reference or a bare URL.
+The 470 cited tasks carry 1091 citations between
+them, of which 946 record a PubMed id. The rest are
+reachable only through a free-text reference or a bare URL.
 
 ### Everything filled in at once
 
-| Combination                          | Tasks | Share |
-| ------------------------------------ | ----- | ----- |
-| Definition and concepts and citation | 363   | 42.4% |
-| No citation and no concepts          | 203   | 23.7% |
-| No definition and no concepts        | 12    | 1.4%  |
+| Combination | Tasks | Share |
+|---|---|---|
+| Definition and concepts and citation | 363 | 42.4% |
+| No citation and no concepts | 203 | 23.7% |
+| No definition and no concepts | 12 | 1.4% |
 
 Fewer than half of all task entries are complete in this minimal sense.
 
 ### Other structured fields
 
-The schema offers more than definitions, concepts, and citations. Most of it is sparsely used.
+The schema offers more than definitions, concepts, and citations. Most of it is
+sparsely used.
 
-| Field             | Tasks with at least one | Share | Total entries |
-| ----------------- | ----------------------- | ----- | ------------- |
-| Contrasts         | 529                     | 61.7% | 1585          |
-| Indicators        | 317                     | 37.0% | 584           |
-| Conditions        | 272                     | 31.7% | 807           |
-| Batteries         | 113                     | 13.2% | 134           |
-| External datasets | 66                      | 7.7%  | 81            |
-| Implementations   | 55                      | 6.4%  | 66            |
-| Disorders         | 16                      | 1.9%  | 20            |
+| Field | Tasks with at least one | Share | Total entries |
+|---|---|---|---|
+| Contrasts | 529 | 61.7% | 1585 |
+| Indicators | 317 | 37.0% | 584 |
+| Conditions | 272 | 31.7% | 807 |
+| Batteries | 113 | 13.2% | 134 |
+| External datasets | 66 | 7.7% | 81 |
+| Implementations | 55 | 6.4% | 66 |
+| Disorders | 16 | 1.9% | 20 |
 
-Contrasts are the exception and are populated for most tasks, which makes them the most reusable structured content in the Atlas after the concept links themselves.
+Contrasts are the exception and are populated for most tasks, which makes them the most
+reusable structured content in the Atlas after the concept links themselves.
 
 ## Concepts
 
 ### Definitions
 
-| Definition length      | Concepts | Share |
-| ---------------------- | -------- | ----- |
-| Missing or placeholder | 23       | 2.5%  |
-| Under 30 characters    | 19       | 2.1%  |
-| 30 to 149              | 602      | 65.6% |
-| 150 or more            | 274      | 29.8% |
+| Definition length | Concepts | Share |
+|---|---|---|
+| Missing or placeholder | 23 | 2.5% |
+| Under 30 characters | 19 | 2.1% |
+| 30 to 149 | 602 | 65.6% |
+| 150 or more | 274 | 29.8% |
 
-Concept definitions are shorter and more consistently present than task definitions. 23 are unfinished in a way that is visible in the published data, carrying an editing placeholder such as `ADD DEFINITION HERE`, or a serialized null, in place of a definition:
+Concept definitions are shorter and more consistently present than task definitions.
+23 are unfinished in a way that is visible in the published data,
+carrying an editing placeholder such as `ADD DEFINITION HERE`, or a serialized null,
+in place of a definition:
 
 `Active Cognitive Inhibition`, `Limited Capacity`, `arousal`, `behavioral inhibition`, `decision uncertainty`, `emotional reappraisal`, `emotional self-evaluation`, `exogenous attention`, `face maintenance`, `goal selection`, `implicit learning`, `insomnia`, `localization`, `negative emotion`, `numerical scale judgment`, `overt naming`, `phonological assembly`, `phonological comparison`, `resistance to distractor inference`, `risk aversion`, `social inference`, `test term`, `working memory updating`.
 
-These are not obscure corners of the vocabulary. `working memory updating`, `implicit learning`, `arousal`, `risk aversion`, and `exogenous attention` are all constructs in active use, published with no definition at all.
+These are not obscure corners of the vocabulary. `working memory updating`,
+`implicit learning`, `arousal`, `risk aversion`, and `exogenous attention` are all
+constructs in active use, published with no definition at all.
 
 ### The half no task points at
 
-| Group                         | Concepts | Share | No definition | No class | Median definition |
-| ----------------------------- | -------- | ----- | ------------- | -------- | ----------------- |
-| Asserted by at least one task | 463      | 50.4% | 2.4%          | 38.9%    | 102 chars         |
-| Asserted by no task           | 455      | 49.6% | 2.6%          | 51.2%    | 102 chars         |
+| Group | Concepts | Share | No definition | No class | Median definition |
+|---|---|---|---|---|---|
+| Asserted by at least one task | 463 | 50.4% | 2.4% | 38.9% | 102 chars |
+| Asserted by no task | 455 | 49.6% | 2.6% | 51.2% | 102 chars |
 
-Nearly half the concept layer is asserted by no task at all. The instinct is to assume those are the leftovers, but they are not: the two groups have the same median definition length and nearly the same rate of missing definitions. The orphans are ordinary, adequately defined concepts that simply never got wired to a paradigm. They are somewhat less likely to carry a class, but the difference is one of degree.
+Nearly half the concept layer is asserted by no task at all. The instinct is to assume
+those are the leftovers, but they are not: the two groups have the same median
+definition length and nearly the same rate of missing definitions. The orphans are
+ordinary, adequately defined concepts that simply never got wired to a paradigm. They
+are somewhat less likely to carry a class, but the difference is one of degree.
 
-The consequence is that the Atlas's task-to-concept graph rests on about half its own vocabulary, and a consumer who reaches the Atlas through tasks never sees the rest.
+The consequence is that the Atlas's task-to-concept graph rests on about half its own
+vocabulary, and a consumer who reaches the Atlas through tasks never sees the rest.
 
 ### Concept classes
 
-The Atlas sorts concepts into ten top-level classes. Class assignment is the single largest gap in the concept layer: 413 of 918 concepts (45.0%) carry no class.
+The Atlas sorts concepts into ten top-level classes. Class assignment is the single
+largest gap in the concept layer: 413 of 918
+concepts (45.0%) carry no class.
 
-| Concept class                 | Concepts | Share |
-| ----------------------------- | -------- | ----- |
-| (no class assigned)           | 413      | 45.0% |
-| Learning and Memory           | 116      | 12.6% |
-| Language                      | 94       | 10.2% |
-| Perception                    | 87       | 9.5%  |
-| Reasoning and Decision Making | 64       | 7.0%  |
-| Executive/Cognitive Control   | 42       | 4.6%  |
-| Attention                     | 37       | 4.0%  |
-| Emotion                       | 33       | 3.6%  |
-| Social Function               | 13       | 1.4%  |
-| Action                        | 10       | 1.1%  |
-| Motivation                    | 9        | 1.0%  |
+| Concept class | Concepts | Share |
+|---|---|---|
+| (no class assigned) | 413 | 45.0% |
+| Learning and Memory | 116 | 12.6% |
+| Language | 94 | 10.2% |
+| Perception | 87 | 9.5% |
+| Reasoning and Decision Making | 64 | 7.0% |
+| Executive/Cognitive Control | 42 | 4.6% |
+| Attention | 37 | 4.0% |
+| Emotion | 33 | 3.6% |
+| Social Function | 13 | 1.4% |
+| Action | 10 | 1.1% |
+| Motivation | 9 | 1.0% |
 
-This is not confined to rarely used terms. The most heavily used concepts carrying no class are:
+This is not confined to rarely used terms. The most heavily used concepts carrying no
+class are:
 
-| Concept               | Tasks asserting it |
-| --------------------- | ------------------ |
-| impulsivity           | 17                 |
-| Limited Capacity      | 11                 |
-| emotion regulation    | 10                 |
-| restricted behavior   | 10                 |
-| social motivation     | 9                  |
-| cognitive development | 6                  |
-| defiance              | 6                  |
-| hyperactivity         | 6                  |
-| processing capacity   | 6                  |
-| future time           | 5                  |
-| interference control  | 5                  |
-| obsession             | 5                  |
+| Concept | Tasks asserting it |
+|---|---|
+| impulsivity | 17 |
+| Limited Capacity | 11 |
+| emotion regulation | 10 |
+| restricted behavior | 10 |
+| social motivation | 9 |
+| cognitive development | 6 |
+| defiance | 6 |
+| hyperactivity | 6 |
+| processing capacity | 6 |
+| future time | 5 |
+| interference control | 5 |
+| obsession | 5 |
 
-Among the classified concepts the balance is skewed. Learning and Memory, Language, and Perception dominate, while Motivation, Action, and Social Function are barely populated. That reflects curator interest rather than the shape of the field.
+Among the classified concepts the balance is skewed. Learning and Memory, Language, and
+Perception dominate, while Motivation, Action, and Social Function are barely
+populated. That reflects curator interest rather than the shape of the field.
 
-The class layer also mixes kinds of thing. Alongside cognitive processes it carries traits, symptoms, and clinical constructs such as `impulsivity`, `hyperactivity`, `defiance`, `obsession`, `anhedonia`, `perfectionism`, and `restricted behavior`. These are legitimate research constructs but they are not mental processes, and nothing in the schema separates them from those that are.
+The class layer also mixes kinds of thing. Alongside cognitive processes it carries
+traits, symptoms, and clinical constructs such as `impulsivity`, `hyperactivity`,
+`defiance`, `obsession`, `anhedonia`, `perfectionism`, and `restricted behavior`. These
+are legitimate research constructs but they are not mental processes, and nothing in
+the schema separates them from those that are.
 
 ### Relations between concepts
 
-Unlike the flat class assignment, the concept layer carries a real relation graph: 1398 edges over 562 concepts.
+Unlike the flat class assignment, the concept layer carries a real relation graph:
+1398 edges over 562 concepts.
 
 | Relation | Edges |
-| -------- | ----- |
-| KINDOF   | 866   |
-| PARTOF   | 532   |
+|---|---|
+| KINDOF | 866 |
+| PARTOF | 532 |
 
-This is the Atlas at its most valuable and is invisible to anyone who reads only the task endpoint. It is also incomplete: 356 concepts (38.8%) sit in the graph with no relation to any other concept, so the hierarchy covers a majority of the vocabulary but far from all of it.
+This is the Atlas at its most valuable and is invisible to anyone who reads only the
+task endpoint. It is also incomplete: 356 concepts
+(38.8%) sit in the graph with no relation
+to any other concept, so the hierarchy covers a majority of the vocabulary but far
+from all of it.
 
 ### Citations
 
-Only 144 concepts (15.7%) carry any citation, together holding 202 references. The other 774 concepts (84.3%) have a definition with no source of record, which is the concept layer's most consequential omission for anyone who needs to justify a term.
+Only 144 concepts
+(15.7%) carry any citation, together holding
+202 references. The other 774 concepts
+(84.3%) have a definition with no source
+of record, which is the concept layer's most consequential omission for anyone who
+needs to justify a term.
 
 ### How widely concepts are used
 
 | Tasks per concept | Concepts | Share |
-| ----------------- | -------- | ----- |
-| 0 tasks           | 455      | 49.6% |
-| 1 task            | 234      | 25.5% |
-| 2 tasks           | 87       | 9.5%  |
-| 3 to 9 tasks      | 118      | 12.9% |
-| 10 or more tasks  | 24       | 2.6%  |
+|---|---|---|
+| 0 tasks | 455 | 49.6% |
+| 1 task | 234 | 25.5% |
+| 2 tasks | 87 | 9.5% |
+| 3 to 9 tasks | 118 | 12.9% |
+| 10 or more tasks | 24 | 2.6% |
 
 A small head does most of the work:
 
-| Concept                | Tasks |
-| ---------------------- | ----- |
-| visual perception      | 40    |
-| attention              | 29    |
-| response selection     | 28    |
-| working memory         | 27    |
-| cognitive control      | 27    |
-| motor control          | 26    |
-| response execution     | 24    |
-| auditory perception    | 21    |
-| language               | 20    |
-| response inhibition    | 19    |
-| impulsivity            | 17    |
-| active maintenance     | 15    |
-| spatial ability        | 13    |
-| language comprehension | 13    |
-| attentional focusing   | 12    |
+| Concept | Tasks |
+|---|---|
+| visual perception | 40 |
+| attention | 29 |
+| response selection | 28 |
+| working memory | 27 |
+| cognitive control | 27 |
+| motor control | 26 |
+| response execution | 24 |
+| auditory perception | 21 |
+| language | 20 |
+| response inhibition | 19 |
+| impulsivity | 17 |
+| active maintenance | 15 |
+| spatial ability | 13 |
+| language comprehension | 13 |
+| attentional focusing | 12 |
 
-These are the coarsest available labels. `visual perception`, `attention`, and `cognitive control` are the terms an annotator reaches for when nothing more specific is at hand. Their dominance suggests annotation stopped at the top of the hierarchy rather than showing that these processes matter most.
+These are the coarsest available labels. `visual perception`, `attention`, and
+`cognitive control` are the terms an annotator reaches for when nothing more specific
+is at hand. Their dominance suggests annotation stopped at the top of the hierarchy
+rather than showing that these processes matter most.
 
 ## Overall task annotation quality
 
-Combining definition length with concept count sorts every task entry into a tier. An entry is *well annotated* with a definition of 300 characters or more and at least four concepts, and *skeletal* with a definition under 50 characters or no concepts at all.
+Combining definition length with concept count sorts every task entry into a tier. An
+entry is *well annotated* with a definition of 300 characters or more and at least four
+concepts, and *skeletal* with a definition under 50 characters or no concepts at all.
 
-| Tier           | Tasks | Share |
-| -------------- | ----- | ----- |
-| Well annotated | 54    | 6.3%  |
-| Adequate       | 410   | 47.8% |
-| Minimal        | 63    | 7.4%  |
-| Skeletal       | 330   | 38.5% |
+| Tier | Tasks | Share |
+|---|---|---|
+| Well annotated | 54 | 6.3% |
+| Adequate | 410 | 47.8% |
+| Minimal | 63 | 7.4% |
+| Skeletal | 330 | 38.5% |
 
-Only 54 entries (6.3%) are well annotated, while 330 (38.5%) are skeletal.
+Only 54 entries (6.3%) are well annotated, while
+330 (38.5%) are skeletal.
 
 ## What kind of thing is an entry?
 
-The Atlas files everything under "task". In practice the corpus mixes experimental paradigms with instruments that are not paradigms at all. Classifying by name gives a lower bound, since it only catches entries whose name declares what they are.
+The Atlas files everything under "task". In practice the corpus mixes experimental
+paradigms with instruments that are not paradigms at all. Classifying by name gives a
+lower bound, since it only catches entries whose name declares what they are.
 
-| Entry kind (name-based)                      | Entries |
-| -------------------------------------------- | ------- |
-| Rating scale, questionnaire, or inventory    | 107     |
-| Standardized test or battery                 | 45      |
-| Imaging protocol or localizer label          | 29      |
-| Stimulation or physiological procedure       | 19      |
-| Not matched (largely experimental paradigms) | 657     |
+| Entry kind (name-based) | Entries |
+|---|---|
+| Rating scale, questionnaire, or inventory | 107 |
+| Standardized test or battery | 45 |
+| Imaging protocol or localizer label | 29 |
+| Stimulation or physiological procedure | 19 |
+| Not matched (largely experimental paradigms) | 657 |
 
-At least 200 entries are rating scales, questionnaires, standardized batteries, imaging protocol labels, or physiological procedures. Nothing in the record distinguishes them from experimental paradigms, so any consumer has to impose that distinction itself.
+At least 200 entries are rating scales, questionnaires, standardized
+batteries, imaging protocol labels, or physiological procedures. Nothing in the record
+distinguishes them from experimental paradigms, so any consumer has to impose that
+distinction itself.
 
 ## Duplicate and fragmented entries
 
-A paradigm family is often spread across several entries, one per implementation, with no entry marked canonical and the best-annotated one frequently not the standard version.
+A paradigm family is often spread across several entries, one per implementation, with
+no entry marked canonical and the best-annotated one frequently not the standard
+version.
 
-| Family                 | Entries | With zero concepts | Best-annotated entry                | Concepts |
-| ---------------------- | ------- | ------------------ | ----------------------------------- | -------- |
-| naming                 | 16      | 4                  | stop signal task with letter naming | 5        |
-| span                   | 13      | 1                  | backward digit span task            | 4        |
-| stroop                 | 8       | 2                  | Stroop task                         | 4        |
-| n-back                 | 8       | 2                  | n-back task                         | 8        |
-| stop signal            | 8       | 1                  | conditional stop signal task        | 9        |
-| fluency                | 6       | 4                  | category fluency test               | 4        |
-| sternberg              | 4       | 1                  | Sternberg Recent Probes             | 4        |
-| continuous performance | 4       | 2                  | Penn continuous performance task    | 3        |
-| oddball                | 3       | 2                  | oddball task                        | 6        |
-| weather prediction     | 3       | 1                  | dual-task weather prediction        | 13       |
-| bandit                 | 3       | 3                  | Volatile Bandit                     | 0        |
+| Family | Entries | With zero concepts | Best-annotated entry | Concepts |
+|---|---|---|---|---|
+| naming | 16 | 4 | stop signal task with letter naming | 5 |
+| span | 13 | 1 | backward digit span task | 4 |
+| stroop | 8 | 2 | Stroop task | 4 |
+| n-back | 8 | 2 | n-back task | 8 |
+| stop signal | 8 | 1 | conditional stop signal task | 9 |
+| fluency | 6 | 4 | category fluency test | 4 |
+| sternberg | 4 | 1 | Sternberg Recent Probes | 4 |
+| continuous performance | 4 | 2 | Penn continuous performance task | 3 |
+| oddball | 3 | 2 | oddball task | 6 |
+| weather prediction | 3 | 1 | dual-task weather prediction | 13 |
+| bandit | 3 | 3 | Volatile Bandit | 0 |
 
-A reader searching for a paradigm lands on whichever variant matches their wording, and the quality of what they find is largely accidental.
+A reader searching for a paradigm lands on whichever variant matches their wording, and
+the quality of what they find is largely accidental.
 
-Names are duplicated outright in both layers: `boston naming test`, `false belief task` among tasks, and `autobiographical memory`, `cognitive warfare`, `implicit learning`, `risk aversion` among concepts. One concept is named `test term`, with no definition, and is published alongside the rest.
+Names are duplicated outright in both layers: `boston naming test`, `false belief task` among tasks, and
+`autobiographical memory`, `cognitive warfare`, `implicit learning`, `risk aversion` among concepts. One concept is named `test term`, with no
+definition, and is published alongside the rest.
 
 ## Data hygiene
 
-| Issue                                   | Tasks | Concepts |
-| --------------------------------------- | ----- | -------- |
-| Raw HTML entities in the definition     | 93    | 59       |
-| Mis-decoded UTF-8 in the definition     | 87    | 22       |
-| Definition is the literal string `None` | 36    | 6        |
+| Issue | Tasks | Concepts |
+|---|---|---|
+| Raw HTML entities in the definition | 93 | 59 |
+| Mis-decoded UTF-8 in the definition | 87 | 22 |
+| Definition is the literal string `None` | 36 | 6 |
 
-Definitions were pasted in from mixed sources without normalization, so escaped markup such as `&#39;` and `&#34;` survives in the published text, along with byte sequences from a double-encoding error. Any text taken from the Atlas needs cleaning before it is displayed.
+Definitions were pasted in from mixed sources without normalization, so escaped markup
+such as `&#39;` and `&#34;` survives in the published text, along with byte sequences
+from a double-encoding error. Any text taken from the Atlas needs cleaning before it is
+displayed.
 
-Non-ASCII characters in entry names are worth special care. Several tasks use a curly apostrophe or an en dash in their name (`Raven's Progressive Matrices Test`, `Penn's Logical Reasoning Test`, `Angling Risk Task - Always Sunny`), which is a common source of retrieval failures in client code that assumes ASCII.
+Non-ASCII characters in entry names are worth special care. Several tasks use a curly
+apostrophe or an en dash in their name (`Raven's Progressive Matrices Test`,
+`Penn's Logical Reasoning Test`, `Angling Risk Task - Always Sunny`), which is a
+common source of retrieval failures in client code that assumes ASCII.
 
 ## When the curation happened
 
-| Year   | Task entries | Concept entries |
-| ------ | ------------ | --------------- |
-| (none) | 115          | 103             |
-| 2009   | 101          | 538             |
-| 2010   | 85           | 9               |
-| 2011   | 97           | 22              |
-| 2012   | 117          | 51              |
-| 2013   | 105          | 58              |
-| 2014   | 5            | 1               |
-| 2015   | 143          | 122             |
-| 2016   | 70           | 2               |
-| 2017   | 19           | 12              |
+| Year | Task entries | Concept entries |
+|---|---|---|
+| (none) | 115 | 103 |
+| 2009 | 101 | 538 |
+| 2010 | 85 | 9 |
+| 2011 | 97 | 22 |
+| 2012 | 117 | 51 |
+| 2013 | 105 | 58 |
+| 2014 | 5 | 1 |
+| 2015 | 143 | 122 |
+| 2016 | 70 | 2 |
+| 2017 | 19 | 12 |
 
-Entry timestamps cluster in an initial build-out around 2009 and a second push in 2012 and 2015, then stop. The absence of paradigms that became standard afterwards is a direct consequence, and so is the absence of the computational vocabulary (model-based and model-free learning, reward prediction error, evidence accumulation) that the field adopted over the same period.
+Entry timestamps cluster in an initial build-out around 2009 and a second push in 2012
+and 2015, then stop. The absence of paradigms that became standard afterwards is a
+direct consequence, and so is the absence of the computational vocabulary (model-based
+and model-free learning, reward prediction error, evidence accumulation) that the field
+adopted over the same period.
 
 ## Reading the Atlas fairly
 
-The weaknesses above are those of an unfunded community resource that stopped being actively curated, not of its design. What the Atlas got right still matters: separating processes from paradigms is the correct architecture, the identifiers are stable and citable, the relation graph is real, and the breadth of coverage is unmatched by any open alternative. For the subset of entries that were curated properly, the task-to-concept graph is exactly the structure a paradigm ontology needs.
+The weaknesses above are those of an unfunded community resource that stopped being
+actively curated, not of its design. What the Atlas got right still matters: separating
+processes from paradigms is the correct architecture, the identifiers are stable and
+citable, the relation graph is real, and the breadth of coverage is unmatched by any
+open alternative. For the subset of entries that were curated properly, the
+task-to-concept graph is exactly the structure a paradigm ontology needs.
 
-The practical conclusion is about how to use it. The Atlas is a well-designed, broadly scoped, partially populated corpus. It is an excellent source of candidate paradigm names, concept labels, and stable identifiers. It is not a source that can be consumed without verification, because a given entry may be complete, a stub, a duplicate variant, or a questionnaire, and nothing in the record says which.
+The practical conclusion is about how to use it. The Atlas is a well-designed, broadly
+scoped, partially populated corpus. It is an excellent source of candidate paradigm
+names, concept labels, and stable identifiers. It is not a source that can be consumed
+without verification, because a given entry may be complete, a stub, a duplicate
+variant, or a questionnaire, and nothing in the record says which.
 
 ## Reference
 
 Poldrack, R. A., Kittur, A., Kalar, D., Miller, E., Seppa, C., Gil, Y., Parker, D. S., Sabb, F. W., & Bilder, R. M. (2011). The Cognitive Atlas: Toward a knowledge foundation for cognitive neuroscience. *Frontiers in Neuroinformatics*, 5, 17.
 
-The Atlas is published at <https://www.cognitiveatlas.org/>, with a REST API at `http://cognitiveatlas.org/api/v-alpha` and a Python client at <https://github.com/CognitiveAtlas/cogat-python>.
+The Atlas is published at <https://www.cognitiveatlas.org/>, with a REST API at `http://cognitiveatlas.org/api/v-alpha` and a Python
+client at <https://github.com/CognitiveAtlas/cogat-python>.

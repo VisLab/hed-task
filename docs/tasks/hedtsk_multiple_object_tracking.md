@@ -1,5 +1,4 @@
 (hedtsk_multiple_object_tracking)=
-
 # Multiple Object Tracking Task
 
 **HED Task ID:** `hedtsk_multiple_object_tracking`
@@ -15,10 +14,9 @@ In the Multiple Object Tracking task, participants view a set of identical objec
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A set of identical objects (dots) move randomly; a subset is designated as targets. After the targets are highlighted, all dots move for several seconds, then participants identify which dots were targets.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -81,3 +78,4 @@ This task engages the following cognitive processes:
 - Oksama, L., & Hyönä, J. (2016). Position tracking and identity tracking are separate systems: Evidence from eye movements. *Cognition*, 146, 393–409.
 - Alvarez, G. A., & Franconeri, S. L. (2007). How many objects can you track? Evidence for a resource-limited attentive tracking mechanism. *Journal of Vision*, 7(13), 14.
 - Drew, T., & Vogel, E. K. (2008). Neural measures of individual differences in selecting and tracking multiple moving objects. *Journal of Neuroscience*, 28(16), 4183–4191.
+

@@ -1,5 +1,4 @@
 (hedtsk_random_dot_kinematogram)=
-
 # Random Dot Kinematogram Task
 
 **HED Task ID:** `hedtsk_random_dot_kinematogram`
@@ -15,10 +14,9 @@ The random dot kinematogram presents a field of moving dots in which a variable 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A field of moving dots is displayed; a proportion move coherently in one direction while the rest move randomly. Participants judge the direction of coherent motion.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -77,3 +74,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [dot motion task](https://www.cognitiveatlas.org/task/id/trm_4f244ad7dcde7)
+

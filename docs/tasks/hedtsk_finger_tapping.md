@@ -1,5 +1,4 @@
 (hedtsk_finger_tapping)=
-
 # Finger Tapping Task
 
 **HED Task ID:** `hedtsk_finger_tapping`
@@ -15,10 +14,9 @@ Participants tap their fingers (typically index finger) in a repetitive manner a
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants tap a key or button with a single finger as rapidly as possible (maximum rate) or in synchrony with a metronome (paced tapping).
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -84,3 +81,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [finger tapping task](https://www.cognitiveatlas.org/task/id/trm_4c898f079d05e)
+

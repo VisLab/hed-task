@@ -1,5 +1,4 @@
 (hedtsk_mnemonic_similarity)=
-
 # Mnemonic Similarity Task
 
 **HED Task ID:** `hedtsk_mnemonic_similarity`
@@ -15,10 +14,9 @@ The Mnemonic Similarity Task measures hippocampal pattern separation—the abili
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants study a set of images, then view old items, new items, and similar lures (items resembling studied items). They classify each as old, new, or similar.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -87,3 +84,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Mnemonic similarity task](https://www.cognitiveatlas.org/task/id/tsk_RXmB56vrYW66T)
+

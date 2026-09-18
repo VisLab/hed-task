@@ -4,18 +4,15 @@
 
 **Out of scope:** Motivation as a trait; reward sensitivity as an individual difference.
 
-:::\{note} **Open issues:** None open. :::
-
-:::\{admonition} Category history :class: dropdown
-
-The appetitive/aversive axis pair was collapsed during 2026-04-15 (dropped as stimulus properties rather than processes); Approach and Avoidance motivation are retained. :::
+:::{note}
+**Open issues:** None open.
+:::
 
 This category contains 6 processes.
 
-______________________________________________________________________
+---
 
 (hed-approach-motivation)=
-
 ## Approach motivation
 
 **Process ID:** `hed_approach_motivation`
@@ -42,10 +39,9 @@ The following tasks engage this process:
 
 - Elliot (2006) *Motivation and Emotion* 30:111–116
 
-______________________________________________________________________
+---
 
 (hed-avoidance-motivation)=
-
 ## Avoidance motivation
 
 **Process ID:** `hed_avoidance_motivation`
@@ -68,10 +64,9 @@ The following tasks engage this process:
 
 - Elliot (2006) *Motivation and Emotion* 30:111–116
 
-______________________________________________________________________
+---
 
 (hed-effort-allocation)=
-
 ## Effort allocation
 
 **Process ID:** `hed_effort_allocation`
@@ -92,10 +87,9 @@ The following tasks engage this process:
 
 - Westbrook & Braver (2015) *Cognitive, Affective, & Behavioral Neuroscience* 15:395–415
 
-______________________________________________________________________
+---
 
 (hed-incentive-salience)=
-
 ## Incentive salience
 
 **Process ID:** `hed_incentive_salience`
@@ -113,10 +107,9 @@ The following tasks engage this process:
 
 - Berridge & Robinson (1998) *Brain Research Reviews* 28:309–369
 
-______________________________________________________________________
+---
 
 (hed-reward-anticipation)=
-
 ## Reward anticipation
 
 **Process ID:** `hed_reward_anticipation`
@@ -140,10 +133,9 @@ The following tasks engage this process:
 
 - Oldham, Murawski, Fornito, Youssef, Yücel & Lorenzetti (2018) *Human Brain Mapping* 39:3398–3418
 
-______________________________________________________________________
+---
 
 (hed-reward-consumption)=
-
 ## Reward consumption
 
 **Process ID:** `hed_reward_consumption`
@@ -159,3 +151,4 @@ Affective and neural response to receipt of reward.
 ### Recent references
 
 - Berridge & Kringelbach (2015) *Neuron* 86:646–664
+

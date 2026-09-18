@@ -1,5 +1,4 @@
 (hedtsk_contextual_cueing)=
-
 # Contextual Cueing Task
 
 **HED Task ID:** `hedtsk_contextual_cueing`
@@ -15,10 +14,9 @@ Participants perform visual search for a T-shaped target among L-shaped distract
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Visual search through letter arrays; some spatial configurations repeat across blocks while others are novel. Participants find and respond to a target embedded in the display.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -82,3 +79,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [contextual cueing task](https://www.cognitiveatlas.org/task/id/trm_4f24492504ca0)
+

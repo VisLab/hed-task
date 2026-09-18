@@ -1,5 +1,4 @@
 (hedtsk_virtual_radial_arm_maze)=
-
 # Virtual Radial Arm Maze Task
 
 **HED Task ID:** `hedtsk_virtual_radial_arm_maze`
@@ -15,10 +14,9 @@ The Virtual Radial Arm Maze is a spatial memory task adapted from the rodent par
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - In a virtual radial arm maze (typically 8 arms radiating from a center), some arms are baited with reward. Participants visit arms to collect rewards, using spatial cues to remember which arms have been visited.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -87,3 +84,4 @@ This task engages the following cognitive processes:
 - Korthauer, L. E., Nowak, N. T., Frahmand, M., & Driscoll, I. (2017). Cognitive correlates of spatial navigation: Associations between executive function and the virtual radial arm maze. *Behavioural Brain Research*, 317, 82–92.
 - Cánovas, R., Espínola, M., Iribarne, L., & Cimadevilla, J. M. (2008). A new virtual task to evaluate human place learning. *Behavioural Brain Research*, 190(1), 112–118.
 - Wiener, J. M., de Condappa, O., Harris, M. A., & Wolbers, T. (2013). Maladaptive bias for extrahippocampal navigation strategies in aging humans. *Journal of Neuroscience*, 33(14), 6012–6017.
+

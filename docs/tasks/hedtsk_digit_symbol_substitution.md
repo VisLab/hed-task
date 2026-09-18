@@ -1,5 +1,4 @@
 (hedtsk_digit_symbol_substitution)=
-
 # Digit Symbol Substitution Task
 
 **HED Task ID:** `hedtsk_digit_symbol_substitution`
@@ -15,10 +14,9 @@ The Digit Symbol Substitution Test (also known as Symbol Digit Modalities Test, 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A key pairs digits 1-9 with unique symbols. Participants fill in the correct symbol below each digit in a long sequence, working as quickly as possible for 90-120 seconds.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -74,3 +71,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [symbol-digit substitution](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e44)
+

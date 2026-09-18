@@ -1,5 +1,4 @@
 (hedtsk_motor_sequence_learning)=
-
 # Motor Sequence Learning Task
 
 **HED Task ID:** `hedtsk_motor_sequence_learning`
@@ -15,10 +14,9 @@ Participants are trained to execute finger sequences (e.g., pressing buttons in 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants repeatedly perform a fixed sequence of finger movements (e.g., 4-1-3-2-4) in response to spatial cues. Over practice, performance speeds up and becomes more automatic.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -81,11 +78,12 @@ This task engages the following cognitive processes:
 
 ## Recent references
 
-- Doyon, J., Bellec, P., Amsel, R., et al. (2009). Contributions of the basal ganglia and functionally related brain structures to motor learning. *Behavioural Brain Research*, 199(1), 61–72. \[Updated: Doyon, J., Gabitov, E., Bhatt, K., et al. (2018). Current issues related to motor sequence learning in humans. *Current Opinion in Behavioral Sciences*, 20, 89–97.\]
+- Doyon, J., Bellec, P., Amsel, R., et al. (2009). Contributions of the basal ganglia and functionally related brain structures to motor learning. *Behavioural Brain Research*, 199(1), 61–72. [Updated: Doyon, J., Gabitov, E., Bhatt, K., et al. (2018). Current issues related to motor sequence learning in humans. *Current Opinion in Behavioral Sciences*, 20, 89–97.]
 - King, B. R., Hoedlmoser, K., Hirschauer, F., Dolfen, N., & Albouy, G. (2017). Sleeping on the motor engram: The multifaceted nature of sleep-related motor memory consolidation. *Neuroscience & Biobehavioral Reviews*, 80, 1–22.
-- Hikosaka, O., Nakamura, K., Sakai, K., & Nakahara, H. (2002). Central mechanisms of motor skill learning. *Current Opinion in Neurobiology*, 12(2), 217–222. \[Updated: Diedrichsen, J., & Kornysheva, K. (2015). Motor skill learning between selection and execution. *Trends in Cognitive Sciences*, 19(4), 227–233.\]
+- Hikosaka, O., Nakamura, K., Sakai, K., & Nakahara, H. (2002). Central mechanisms of motor skill learning. *Current Opinion in Neurobiology*, 12(2), 217–222. [Updated: Diedrichsen, J., & Kornysheva, K. (2015). Motor skill learning between selection and execution. *Trends in Cognitive Sciences*, 19(4), 227–233.]
 - Verwey, W. B., Shea, C. H., & Wright, D. L. (2015). A cognitive framework for explaining serial processing and sequence execution strategies. *Psychonomic Bulletin & Review*, 22(1), 54–77.
 
 ## External links
 
 - Cognitive Atlas: [sequence recall/learning](https://www.cognitiveatlas.org/task/id/trm_4c8a83cac75f5) (close match)
+

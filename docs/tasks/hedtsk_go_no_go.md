@@ -1,5 +1,4 @@
 (hedtsk_go_no_go)=
-
 # Go/No-Go Task
 
 **HED Task ID:** `hedtsk_go_no_go`
@@ -15,10 +14,9 @@ The Go/No-Go Task measures response inhibition by requiring participants to resp
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Stimuli appear one at a time; participants respond (Go) to frequent targets and withhold (No-Go) responses to infrequent non-targets.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -92,3 +89,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [go/no-go task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949a93)
+

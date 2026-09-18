@@ -4,18 +4,15 @@
 
 **Out of scope:** "Consciousness" as a trait or umbrella construct.
 
-:::\{note} **Open issues:** The scope boundary with Selective and Sustained Attention is thin (attentional awareness vs. attention itself). Keep the test: a process goes here if the reportable content is *what the participant consciously experiences*, not the selection mechanism producing it. :::
-
-:::\{admonition} Category history :class: dropdown
-
-This category absorbed the dissolved "Memory Control and Metamemory" entries (feeling of knowing, judgment of learning) and the Self-monitoring row from Inhibitory Control; perceptual-awareness rows from the pre-reframe "Perceptual Awareness and Consciousness" category; and six 2026-04-15 additions (metacognitive monitoring, metacognitive control, sense of agency, body ownership, interoceptive awareness, self-referential processing). :::
+:::{note}
+**Open issues:** The scope boundary with Selective and Sustained Attention is thin (attentional awareness vs. attention itself). Keep the test: a process goes here if the reportable content is *what the participant consciously experiences*, not the selection mechanism producing it.
+:::
 
 This category contains 13 processes.
 
-______________________________________________________________________
+---
 
 (hed-attentional-awareness)=
-
 ## Attentional awareness
 
 **Process ID:** `hed_attentional_awareness`
@@ -37,10 +34,9 @@ The following tasks engage this process:
 
 - Lamme (2018) *Current Opinion in Psychology* 29:28–32
 
-______________________________________________________________________
+---
 
 (hed-body-ownership)=
-
 ## Body ownership
 
 **Process ID:** `hed_body_ownership`
@@ -63,10 +59,9 @@ The following tasks engage this process:
 - Tsakiris M (2017) *Quarterly Journal of Experimental Psychology* 70:597-609
 - Blanke O, Slater M & Serino A (2015) *Neuron* 88:145-166
 
-______________________________________________________________________
+---
 
 (hed-feeling-of-knowing)=
-
 ## Feeling of knowing
 
 **Process ID:** `hed_feeling_of_knowing`
@@ -79,10 +74,9 @@ The following tasks engage this process:
 
 - [Feeling-of-Knowing Task](../tasks/hedtsk_feeling_of_knowing.md)
 
-______________________________________________________________________
+---
 
 (hed-interoceptive-awareness)=
-
 ## Interoceptive awareness
 
 **Process ID:** `hed_interoceptive_awareness`
@@ -106,10 +100,9 @@ The following tasks engage this process:
 - Khalsa SS et al. (2018) *Biological Psychiatry: CNNI* 3:501-513
 - Critchley HD & Garfinkel SN (2017) *Current Opinion in Psychology* 17:7-14
 
-______________________________________________________________________
+---
 
 (hed-judgment-of-learning)=
-
 ## Judgment of learning
 
 **Process ID:** `hed_judgment_of_learning`
@@ -126,10 +119,9 @@ The following tasks engage this process:
 
 - Arbuckle & Cuddy (1969) *Journal of Verbal Learning and Verbal Behavior* 8:126–131
 
-______________________________________________________________________
+---
 
 (hed-masking)=
-
 ## Masking
 
 **Process ID:** `hed_masking`
@@ -151,10 +143,9 @@ The following tasks engage this process:
 
 - Enns & Di Lollo (2000) *Trends in Cognitive Sciences* 4:345–352
 
-______________________________________________________________________
+---
 
 (hed-metacognitive-control)=
-
 ## Metacognitive control
 
 **Process ID:** `hed_metacognitive_control`
@@ -179,10 +170,9 @@ The following tasks engage this process:
 - Ackerman R & Thompson VA (2017) *Trends in Cognitive Sciences* 21:607-617
 - Desender K, Boldt A & Yeung N (2018) *Psychological Science* 29:761-778
 
-______________________________________________________________________
+---
 
 (hed-metacognitive-monitoring)=
-
 ## Metacognitive monitoring
 
 **Process ID:** `hed_metacognitive_monitoring`
@@ -210,10 +200,9 @@ The following tasks engage this process:
 - Fleming SM & Lau HC (2014) *Frontiers in Human Neuroscience* 8:443
 - Maniscalco B & Lau H (2012) *Consciousness and Cognition* 21:422-430
 
-______________________________________________________________________
+---
 
 (hed-mind-wandering)=
-
 ## Mind wandering
 
 **Process ID:** `hed_mind_wandering`
@@ -236,10 +225,9 @@ The following tasks engage this process:
 
 - Christoff, Irving, Fox, Spreng & Andrews-Hanna (2016) *Nature Reviews Neuroscience* 17:718–731
 
-______________________________________________________________________
+---
 
 (hed-perceptual-awareness)=
-
 ## Perceptual awareness
 
 **Process ID:** `hed_perceptual_awareness`
@@ -262,10 +250,9 @@ The following tasks engage this process:
 
 - Dehaene (2014) *Consciousness and the Brain*
 
-______________________________________________________________________
+---
 
 (hed-self-monitoring)=
-
 ## Self-monitoring
 
 **Process ID:** `hed_self_monitoring`
@@ -287,10 +274,9 @@ The following tasks engage this process:
 
 - Nelson & Narens (1990) in *The Psychology of Learning and Motivation*
 
-______________________________________________________________________
+---
 
 (hed-self-referential-processing)=
-
 ## Self-referential processing
 
 **Process ID:** `hed_self_referential_processing`
@@ -315,10 +301,9 @@ The following tasks engage this process:
 - Northoff G et al. (2006) *NeuroImage* 31:440-457
 - Murray RJ, Schaer M & Debbané M (2012) *Neuroscience & Biobehavioral Reviews* 36:1043-1059
 
-______________________________________________________________________
+---
 
 (hed-sense-of-agency)=
-
 ## Sense of agency
 
 **Process ID:** `hed_sense_of_agency`
@@ -340,3 +325,4 @@ The following tasks engage this process:
 
 - Haggard P (2017) *Nature Reviews Neuroscience* 18:196-207
 - Moore JW & Obhi SS (2012) *Consciousness and Cognition* 21:546-561
+

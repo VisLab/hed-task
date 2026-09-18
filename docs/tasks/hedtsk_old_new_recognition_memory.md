@@ -1,5 +1,4 @@
 (hedtsk_old_new_recognition_memory)=
-
 # Old/New Recognition Memory Task
 
 **HED Task ID:** `hedtsk_old_new_recognition_memory`
@@ -15,10 +14,9 @@ Participants study a list of stimuli (words, pictures, or faces) during an encod
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants study a list of items, then view a test list containing studied (old) items and unstudied (new) items and classify each as old or new.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -86,3 +83,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [recognition memory test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949d40)
+

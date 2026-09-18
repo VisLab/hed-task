@@ -4,14 +4,15 @@
 
 **Out of scope:** Impulsivity as a trait; behavioral inhibition as a temperament construct.
 
-:::\{note} **Open issues:** Self-monitoring was moved out to Awareness, Agency, and Metacognition during the reframe. The proactive/reactive control split is paradigm-bound (AX-CPT-style designs); retained but worth revisiting if the catalog adds paradigms that dissociate other control modes. :::
+:::{note}
+**Open issues:** The proactive/reactive control split is paradigm-bound (AX-CPT-style designs); retained but worth revisiting if the catalog adds paradigms that dissociate other control modes.
+:::
 
 This category contains 9 processes.
 
-______________________________________________________________________
+---
 
 (hed-conflict-monitoring)=
-
 ## Conflict monitoring
 
 **Process ID:** `hed_conflict_monitoring`
@@ -40,10 +41,9 @@ The following tasks engage this process:
 
 - Shenhav, Botvinick & Cohen (2013) *Neuron* 79:217–240
 
-______________________________________________________________________
+---
 
 (hed-error-correction)=
-
 ## Error correction
 
 **Process ID:** `hed_error_correction`
@@ -61,10 +61,9 @@ Adjustment of behavior following an error, including post-error slowing and impr
 
 - Danielmeier & Ullsperger (2011) *Frontiers in Psychology* 2:233
 
-______________________________________________________________________
+---
 
 (hed-error-detection)=
-
 ## Error detection
 
 **Process ID:** `hed_error_detection`
@@ -84,10 +83,9 @@ The following tasks engage this process:
 - Falkenstein, Hohnsbein, Hoormann & Blanke (1991) *EEG & Clinical Neurophysiology* 78:447–455
 - Gehring, Goss, Coles, Meyer & Donchin (1993) *Psychological Science* 4:385–390
 
-______________________________________________________________________
+---
 
 (hed-executive-attention)=
-
 ## Executive attention
 
 **Process ID:** `hed_executive_attention`
@@ -110,10 +108,9 @@ The following tasks engage this process:
 
 - Petersen & Posner (2012) *Annual Review of Neuroscience* 35:73–89
 
-______________________________________________________________________
+---
 
 (hed-interference-control)=
-
 ## Interference control
 
 **Process ID:** `hed_interference_control`
@@ -142,10 +139,9 @@ The following tasks engage this process:
 
 - Nigg (2017) *Journal of Child Psychology and Psychiatry* 58:361–383
 
-______________________________________________________________________
+---
 
 (hed-proactive-control)=
-
 ## Proactive control
 
 **Process ID:** `hed_proactive_control`
@@ -166,10 +162,9 @@ The following tasks engage this process:
 
 - Braver (2012) *Trends in Cognitive Sciences* 16:106–113
 
-______________________________________________________________________
+---
 
 (hed-reactive-control)=
-
 ## Reactive control
 
 **Process ID:** `hed_reactive_control`
@@ -190,10 +185,9 @@ The following tasks engage this process:
 
 - Braver (2012) *Trends in Cognitive Sciences* 16:106–113
 
-______________________________________________________________________
+---
 
 (hed-response-conflict)=
-
 ## Response conflict
 
 **Process ID:** `hed_response_conflict`
@@ -220,10 +214,9 @@ The following tasks engage this process:
 
 - Botvinick (2007) *Cognitive, Affective, & Behavioral Neuroscience* 7:356–366
 
-______________________________________________________________________
+---
 
 (hed-response-inhibition)=
-
 ## Response inhibition
 
 **Process ID:** `hed_response_inhibition`
@@ -253,3 +246,4 @@ The following tasks engage this process:
 ### Recent references
 
 - Aron, Robbins & Poldrack (2014) *Trends in Cognitive Sciences* 18:177–185
+

@@ -2,14 +2,15 @@
 
 **Scope:** Mental rotation; spatial memory.
 
-:::\{note} **Open issues:** Very small at the process level because most spatial cognition is paradigm-specific (handled at the task level in `task_details.json`). If allocentric/egocentric representation, path integration, or boundary cell processing ever need process-level rows, they go here. :::
+:::{note}
+**Open issues:** Very small at the process level because most spatial cognition is paradigm-specific (handled at the task level in `task_details.json`). If allocentric/egocentric representation, path integration, or boundary cell processing ever need process-level rows, they go here.
+:::
 
 This category contains 2 processes.
 
-______________________________________________________________________
+---
 
 (hed-mental-rotation)=
-
 ## Mental rotation
 
 **Process ID:** `hed_mental_rotation`
@@ -30,10 +31,9 @@ The following tasks engage this process:
 
 - Zacks (2008) *Journal of Cognitive Neuroscience* 20:1–19
 
-______________________________________________________________________
+---
 
 (hed-spatial-memory)=
-
 ## Spatial memory
 
 **Process ID:** `hed_spatial_memory`
@@ -48,3 +48,4 @@ The following tasks engage this process:
 - [Mental Rotation Task](../tasks/hedtsk_mental_rotation.md)
 - [Virtual Morris Water Maze Task](../tasks/hedtsk_virtual_morris_water_maze.md)
 - [Virtual Radial Arm Maze Task](../tasks/hedtsk_virtual_radial_arm_maze.md)
+

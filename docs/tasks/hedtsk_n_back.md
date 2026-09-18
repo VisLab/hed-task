@@ -1,5 +1,4 @@
 (hedtsk_n_back)=
-
 # N-Back Task
 
 **HED Task ID:** `hedtsk_n_back`
@@ -15,10 +14,9 @@ The N-Back task is a continuous performance paradigm in which participants view 
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - A continuous stream of stimuli is presented; participants indicate when the current item matches the one presented N items back.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -89,3 +86,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [n-back task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949bcd)
+

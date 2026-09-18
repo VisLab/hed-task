@@ -1,5 +1,4 @@
 (hedtsk_reversal_learning)=
-
 # Reversal Learning Task
 
 **HED Task ID:** `hedtsk_reversal_learning`
@@ -15,10 +14,9 @@ Participants learn a stimulus-outcome association (e.g., stimulus A is rewarded,
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants learn to choose the rewarded stimulus over an unrewarded one. After reaching criterion, contingencies reverse — the previously correct stimulus becomes incorrect and vice versa.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -81,3 +78,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [reversal learning task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949d4e)
+

@@ -1,5 +1,4 @@
 (hedtsk_prospective_memory)=
-
 # Prospective Memory Task
 
 **HED Task ID:** `hedtsk_prospective_memory`
@@ -15,10 +14,9 @@ Prospective memory (PM) is the ability to remember to carry out an intended acti
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participant performs a continuous ongoing task while holding a delayed intention; on designated trials (event cue) or at designated times (time cue), the participant must interrupt the ongoing task to execute the prospective action.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -81,3 +78,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [prospective memory task](https://www.cognitiveatlas.org/task/id/trm_4f244860c702c)
+

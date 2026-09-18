@@ -4,18 +4,15 @@
 
 **Out of scope:** "Reasoning" as umbrella; "logical reasoning" as umbrella over deductive + inductive; fluid intelligence as an individual-difference construct.
 
-:::\{note} **Open issues:** None open. :::
-
-:::\{admonition} Category history :class: dropdown
-
-Four problem-solving rows added during 2026-04-15: Insight, Means-ends analysis, Planning, Subgoaling. (`hed_planning` had been accidentally duplicated in `process_list.md` and was de-duplicated on 2026-04-17.) `hed_logical_reasoning` dropped 2026-04-19 — umbrella over deductive + inductive; alias added to `hed_deductive_reasoning`. :::
+:::{note}
+**Open issues:** None open.
+:::
 
 This category contains 11 processes.
 
-______________________________________________________________________
+---
 
 (hed-analogical-reasoning)=
-
 ## Analogical reasoning
 
 **Process ID:** `hed_analogical_reasoning`
@@ -32,10 +29,9 @@ The following tasks engage this process:
 
 - Gentner (1983) *Cognitive Science* 7:155–170
 
-______________________________________________________________________
+---
 
 (hed-categorization)=
-
 ## Categorization
 
 **Process ID:** `hed_categorization`
@@ -63,10 +59,9 @@ The following tasks engage this process:
 
 - Seger & Miller (2010) *Annual Review of Neuroscience* 33:203–219
 
-______________________________________________________________________
+---
 
 (hed-causal-reasoning)=
-
 ## Causal reasoning
 
 **Process ID:** `hed_causal_reasoning`
@@ -83,15 +78,14 @@ The following tasks engage this process:
 
 - Cheng (1997) *Psychological Review* 104:367–405
 
-______________________________________________________________________
+---
 
 (hed-deductive-reasoning)=
-
 ## Deductive reasoning
 
 **Process ID:** `hed_deductive_reasoning`
 
-**Also known as:** **Logical reasoning** — Broader term encompassing deductive and inductive forms; dropped as separate entry 2026-04-18 because its definition was explicitly a union of the two. Wason Selection Task link reassigned here.
+**Also known as:** **Logical reasoning** — Broader term encompassing deductive and inductive forms. Wason Selection Task link reassigned here.
 
 Inference in which the conclusion follows necessarily from the premises.
 
@@ -109,10 +103,9 @@ The following tasks engage this process:
 
 - Goel (2007) *Trends in Cognitive Sciences* 11:435–441
 
-______________________________________________________________________
+---
 
 (hed-hypothesis-testing)=
-
 ## Hypothesis testing
 
 **Process ID:** `hed_hypothesis_testing`
@@ -130,10 +123,9 @@ The following tasks engage this process:
 
 - Klayman (1995) *Psychology of Learning and Motivation* 32:385–418
 
-______________________________________________________________________
+---
 
 (hed-inductive-reasoning)=
-
 ## Inductive reasoning
 
 **Process ID:** `hed_inductive_reasoning`
@@ -154,10 +146,9 @@ The following tasks engage this process:
 
 - Kemp & Tenenbaum (2009) *Psychological Review* 116:20–58
 
-______________________________________________________________________
+---
 
 (hed-insight)=
-
 ## Insight
 
 **Process ID:** `hed_insight`
@@ -179,10 +170,9 @@ The following tasks engage this process:
 - Bowden EM & Jung-Beeman M (2003) *Psychonomic Bulletin & Review* 10:730-737
 - Kounios J & Beeman M (2014) *Annual Review of Psychology* 65:71-93
 
-______________________________________________________________________
+---
 
 (hed-mathematical-reasoning)=
-
 ## Mathematical reasoning
 
 **Process ID:** `hed_mathematical_reasoning`
@@ -199,10 +189,9 @@ Manipulation of numerical and algebraic quantities and relations.
 
 - Amalric & Dehaene (2016) *PNAS* 113:4909–4917
 
-______________________________________________________________________
+---
 
 (hed-means-ends-analysis)=
-
 ## Means-ends analysis
 
 **Process ID:** `hed_means_ends_analysis`
@@ -224,10 +213,9 @@ The following tasks engage this process:
 
 - Huys QJM et al. (2015) *PLoS Computational Biology* 11:e1004112
 
-______________________________________________________________________
+---
 
 (hed-planning)=
-
 ## Planning
 
 **Process ID:** `hed_planning`
@@ -244,10 +232,9 @@ The following tasks engage this process:
 
 - Shallice (1982) *Philosophical Transactions B* 298:199–209 (Tower of London)
 
-______________________________________________________________________
+---
 
 (hed-subgoaling)=
-
 ## Subgoaling
 
 **Process ID:** `hed_subgoaling`
@@ -269,3 +256,4 @@ The following tasks engage this process:
 
 - Ribas-Fernandes JJF et al. (2011) *Neuron* 71:370-379
 - Balaguer J et al. (2016) *Neuron* 90:893-903
+

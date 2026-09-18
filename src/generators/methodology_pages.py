@@ -153,11 +153,10 @@ Each mapping row therefore records whether it resolves to a task or to a variati
 Variations are addressed by a stable identifier of the form
 `hedvar_<parent slug>__<variation slug>`, for example
 `hedvar_stroop_color_word__counting_stroop`. The prefix types the identifier the same
-way `hedtsk_` marks a task and `hed_` marks a process. These ids were introduced for
-this mapping: variations previously had a name and nothing else, so any reference to
-one would have broken silently if the name were edited. The generator now fails if a
-mapping row names a variation that no longer exists, or one whose parent task
-disagrees with the row.
+way `hedtsk_` marks a task and `hed_` marks a process. The identifier is what makes a
+variation referenceable: without one, a reference would have to name the variation, and
+would break silently if that name were edited. The generator fails if a mapping row
+names a variation that does not exist, or one whose parent task disagrees with the row.
 
 ## How the tables were built
 

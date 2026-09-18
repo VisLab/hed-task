@@ -1,5 +1,4 @@
 (hedtsk_implicit_association)=
-
 # Implicit Association Task
 
 **HED Task ID:** `hedtsk_implicit_association`
@@ -15,10 +14,9 @@ Participants rapidly classify stimuli from four categories using two response ke
 ## Inclusion test
 
 ```{list-table}
----
-widths: 15 85
-header-rows: 0
----
+:widths: 15 85
+:header-rows: 0
+
 * - **Procedure**
   - Participants sort stimuli from two target categories (e.g., Black/White faces) and two attribute categories (e.g., pleasant/unpleasant words) using two response keys. Critical comparison is between compatible and incompatible pairings.
 * - **Manipulation**
@@ -30,10 +28,9 @@ header-rows: 0
 ## Variations
 
 ```{list-table}
----
-widths: 25 40 35
-header-rows: 1
----
+:widths: 25 40 35
+:header-rows: 1
+
 * - Variation
   - Description
   - Justification
@@ -93,3 +90,4 @@ This task engages the following cognitive processes:
 ## External links
 
 - Cognitive Atlas: [Implicit Association Task](https://www.cognitiveatlas.org/task/id/trm_50b6660b1b847)
+
