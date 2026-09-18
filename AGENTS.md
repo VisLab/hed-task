@@ -12,14 +12,15 @@ Always run in the virtual environment - the system interpreter does not have the
 - Lint: `python -m ruff check .`
 - Format check: `python -m ruff format --check .`
 - Generate the docs pages: `python src/generate_docs.py`
-- Build the site: `python -m sphinx -b html docs docs/_build/html`
+- Build the site: `python -m sphinx -b html docs/source docs/_build/html`
 
 Local development uses `pip`; GitHub Actions uses `uv`. Do not use `uv` locally unless asked.
 
 ## Layout
 
 - `src/` - the generators. `generate_docs.py` is the entry point; `src/generators/` holds one module per page family.
-- `docs/` - Sphinx sources. **Generated output** - edit the generator, not these files.
+- `docs/source/` - Sphinx sources, built into `docs/_build/`. **Generated output** - edit the generator, not these files. `conf.py`, `_static/` and `_templates/` are the only hand-maintained files there.
+- `data/` - curated presentation tables owned by this repository, currently the paradigm families that group tasks (`task_families.tsv`, `task_family_defs.tsv`). Hand-edited, ASCII, validated by `generate_docs.py`. See `data/README.md`.
 - `.working/` - the imported task and process catalog. **Read-only here**; the work that produces it happens elsewhere, and edits would be lost on the next import.
 - `tests/` - unit tests.
 - `.status/` - working notes. Gitignored; local to each machine.
@@ -34,8 +35,8 @@ Local development uses `pip`; GitHub Actions uses `uv`. Do not use `uv` locally 
 
 ## Rules that are easy to get wrong
 
-- `docs/` is generated. `src/generate_docs.py` rewrites all of it in one pass, so running it as a "does this work" check will show up as a large diff. Run it only when regeneration is the intended change.
-- `mdformat` must not be run over `docs/`. It rewrites the generated MyST directives into a form Sphinx cannot parse. The CI check is scoped to the repository root for this reason.
+- `docs/source/` is generated. `src/generate_docs.py` deletes every page under it and rewrites all of them in one pass, so running it as a "does this work" check will show up as a large diff. Run it only when regeneration is the intended change.
+- `mdformat` must not be run over `docs/source/`. It rewrites the generated MyST directives into a form Sphinx cannot parse. The CI check is scoped to the repository root for this reason.
 - Lint config lives in `pyproject.toml`. Do not restate the rule list anywhere else, and never let an autofix reorder an `__init__.py` - their import order is curated to avoid circular imports.
 
 ## Where the thinking lives

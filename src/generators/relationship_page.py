@@ -1,16 +1,17 @@
 """Generate docs/atlas/relationship.md -- how this catalog stands to the Atlas.
 
-The short interpretive page. The per-row detail lives on the crossref pages and in
+The short interpretive page. The per-row detail lives on the mapping-table pages and in
 `.working/mappings/`; this one says what the correspondence adds up to. Every figure is
 computed at generation time so the prose cannot drift from the data.
 """
 
 from __future__ import annotations
 
-import csv
 import json
 from pathlib import Path
 
+from generators.utils import read_tsv as _read
+from generators.utils import table as _table
 from generators.utils import write_page
 
 # Tasks added to the catalog by the 2026-04 gap analysis against the Atlas.
@@ -31,20 +32,6 @@ GAP_ANALYSIS_ADDITIONS = [
     "hedtsk_navon",
     "hedtsk_biological_motion_perception",
 ]
-
-
-def _read(path: Path) -> list[dict]:
-    if not path.exists():
-        return []
-    with path.open(encoding="utf-8", newline="") as handle:
-        return list(csv.DictReader(handle, delimiter="\t"))
-
-
-def _table(headers: list[str], rows: list[list]) -> str:
-    out = ["| " + " | ".join(headers) + " |", "|" + "|".join("---" for _ in headers) + "|"]
-    for row in rows:
-        out.append("| " + " | ".join(str(cell) for cell in row) + " |")
-    return "\n".join(out)
 
 
 def _page(working: Path, atlas: dict) -> str:  # noqa: PLR0914 - many named figures
@@ -108,22 +95,22 @@ def _page(working: Path, atlas: dict) -> str:  # noqa: PLR0914 - many named figu
         ["Direction", "Has a counterpart", "Does not"],
         [
             [
-                f"[Tasks to Atlas](task_crossref.md) ({n_tasks})",
+                f"[Tasks to Atlas](task_mapping.md) ({n_tasks})",
                 fwd_matched,
                 fwd_none,
             ],
             [
-                f"[Processes to Atlas](process_crossref.md) ({n_processes})",
+                f"[Processes to Atlas](process_mapping.md) ({n_processes})",
                 proc_matched,
                 proc_none,
             ],
             [
-                f"[Atlas tasks to catalog](task_crossref.md) ({atlas_tasks})",
+                f"[Atlas tasks to catalog](task_mapping.md) ({atlas_tasks})",
                 len(matched_entries),
                 rev_none,
             ],
             [
-                f"[Atlas concepts to catalog](process_crossref.md) ({atlas_concepts})",
+                f"[Atlas concepts to catalog](process_mapping.md) ({atlas_concepts})",
                 len(concept_reverse) - concept_none,
                 concept_none,
             ],
@@ -138,9 +125,9 @@ catalog, and the two overlap heavily. They are not, however, the same kind of th
 reading one as a subset of the other gets the relationship wrong.
 
 [What is in the Cognitive Atlas](cognitive_atlas.md) describes the Atlas on its own
-terms. The [task](task_crossref.md) and [process](process_crossref.md) crossref pages
+terms. The [task](task_mapping.md) and [process](process_mapping.md) mapping tables
 give the correspondence row by row, and the
-[methodology](../methodology/atlas_mapping.md) page explains how each row was decided.
+[methodology](../methods/atlas_mapping.md) page explains how each row was decided.
 This page says what it all adds up to.
 
 ## Two resources doing different jobs
@@ -152,7 +139,7 @@ procedures, all filed under the single heading "task".
 
 This catalog admits only paradigms that produce event-structured data, because its
 purpose is HED annotation of experimental events. That is a narrower and more specific
-test, set out in the [task criteria](../criteria/task_criteria.md).
+test, set out in the [task criteria](../methods/task_criteria.md).
 
 The difference in scale follows from the difference in purpose.
 
@@ -223,7 +210,7 @@ The reverse also holds. {fwd_none} tasks here have no Atlas counterpart at all, 
 several are heavily used paradigms the Atlas simply never registered: the Mismatch
 Negativity paradigm, the Dictator Game, Reading the Mind in the Eyes, Multiple Object
 Tracking, and the Weapons Identification Task among them. The
-[task crossref](task_crossref.md) lists all {fwd_none}.
+[task mapping tables](task_mapping.md) lists all {fwd_none}.
 
 Mismatch Negativity is the starkest: thousands of published studies, a candidate
 clinical biomarker, and no Atlas entry at all.

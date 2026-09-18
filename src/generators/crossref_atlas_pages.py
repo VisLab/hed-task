@@ -1,4 +1,4 @@
-"""Generate the Atlas crossref pages from .working/mappings/.
+"""Generate the Atlas mapping-table pages from .working/mappings/.
 
 Two reference pages, one per axis, each rendering both directions in full. The TSVs are
 the source of record; these pages are one view of them and hold no judgements of their
@@ -13,9 +13,11 @@ keeps several hundred rows navigable.
 from __future__ import annotations
 
 import collections
-import csv
 from pathlib import Path
 
+from generators.utils import cell as _cell
+from generators.utils import read_tsv as _read
+from generators.utils import table as _table
 from generators.utils import write_page
 
 MATCH_ORDER = {"exact": 0, "close": 1, "related": 2, "none": 3}
@@ -42,25 +44,6 @@ SCOPE_HEADINGS = {
     "imaging_protocol": "Imaging protocol labels",
     "physiological": "Physiological procedures",
 }
-
-
-def _read(path: Path) -> list[dict]:
-    if not path.exists():
-        return []
-    with path.open(encoding="utf-8", newline="") as handle:
-        return list(csv.DictReader(handle, delimiter="\t"))
-
-
-def _cell(value: str) -> str:
-    """Escape a value for a Markdown table cell."""
-    return (value or "").replace("|", "\\|").strip() or "-"
-
-
-def _table(headers: list[str], rows: list[list[str]]) -> str:
-    out = ["| " + " | ".join(headers) + " |", "|" + "|".join("---" for _ in headers) + "|"]
-    for row in rows:
-        out.append("| " + " | ".join(row) + " |")
-    return "\n".join(out)
 
 
 def _task_link(hedtsk_id: str, name: str) -> str:
@@ -139,11 +122,11 @@ def _task_page(maps: Path) -> str:
     covered = len({r["hedtsk_id"] for r in reverse if r["hedtsk_id"]})
 
     return f"""\
-# Task crossref
+# Task mapping tables
 
 Every correspondence between the {len(forward)} tasks in this catalog and the
 {len(reverse)} task entries in the Cognitive Atlas, in both directions. The
-[methodology](../methodology/atlas_mapping.md) page explains what the match types mean
+[methodology](../methods/atlas_mapping.md) page explains what the match types mean
 and how each row was decided.
 
 The source of record is `.working/mappings/`, not this page.
@@ -239,11 +222,11 @@ def _process_page(maps: Path) -> str:
     used = len({r["atlas_concept_id"] for r in forward if r["atlas_concept_id"]})
 
     return f"""\
-# Process crossref
+# Process mapping tables
 
 Every correspondence between the {len(forward)} cognitive processes in this catalog and
 the {len(reverse)} concepts in the Cognitive Atlas, in both directions. The
-[methodology](../methodology/atlas_mapping.md) page explains what the match types mean
+[methodology](../methods/atlas_mapping.md) page explains what the match types mean
 and how each row was decided.
 
 The source of record is `.working/mappings/`, not this page.
@@ -290,9 +273,9 @@ evidence that it matters to anyone.
 
 
 def generate(docs_dir: Path, working_dir: Path) -> int:
-    """Write docs/atlas/task_crossref.md and docs/atlas/process_crossref.md."""
+    """Write docs/atlas/task_mapping.md and docs/atlas/process_mapping.md."""
     maps = working_dir / "mappings"
     atlas_dir = docs_dir / "atlas"
-    write_page(atlas_dir / "task_crossref.md", _task_page(maps))
-    write_page(atlas_dir / "process_crossref.md", _process_page(maps))
+    write_page(atlas_dir / "task_mapping.md", _task_page(maps))
+    write_page(atlas_dir / "process_mapping.md", _process_page(maps))
     return 2

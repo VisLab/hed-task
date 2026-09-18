@@ -1,11 +1,17 @@
-"""Generate docs/processes/index.md and docs/processes/{category_id}.md (x19)."""
+"""Generate docs/processes/index.md and docs/processes/{category_id}.md (one per category).
+
+A category page opens with the category's scope, what is out of scope, any open issue,
+and a summary table of its processes, then gives one section per process. The per-process
+sub-lists (tasks, references) are run-in bold labels rather than headings, so that the
+page's table of contents lists the processes and nothing else.
+"""
 
 from __future__ import annotations
 
 import re
 from pathlib import Path
 
-from generators.utils import truncate, write_page
+from generators.utils import cell, process_anchor, table, task_link, truncate, write_page
 
 
 def generate(
@@ -20,11 +26,9 @@ def generate(
     """
     procs_dir = docs_dir / "processes"
 
-    # Build per-category process lists
     processes_by_category: dict[str, list[dict]] = {}
     for proc in processes:
-        cat_id = proc["category_id"]
-        processes_by_category.setdefault(cat_id, []).append(proc)
+        processes_by_category.setdefault(proc["category_id"], []).append(proc)
 
     sorted_categories = sorted(categories, key=lambda c: c["name"])
 
@@ -42,48 +46,41 @@ def _write_process_index(
     processes_by_category: dict[str, list[dict]],
 ) -> int:
     """Write docs/processes/index.md."""
-    total_procs = sum(len(v) for v in processes_by_category.values())
+    all_procs = [p for procs in processes_by_category.values() for p in procs]
+    total_procs = len(all_procs)
+    n_linked = sum(1 for p in all_procs if p.get("tasks"))
     n_cats = len(sorted_categories)
 
-    lines: list[str] = [
-        "# Process catalog\n",
-        "\n",
-        f"This catalog defines {total_procs} cognitive processes organized into {n_cats} categories.\n",
-        "Each process has a definition, references, and links to the tasks that engage it.\n",
-        "Of the 172 processes, 152 are linked to at least one task in the task catalog.\n",
-        "\n",
-        "## Categories\n",
-        "\n",
-        "| Category | Processes | Description |\n",
-        "|----------|-----------|-------------|\n",
-    ]
-
+    rows = []
     for cat in sorted_categories:
         cat_id = cat["category_id"]
-        name = cat["name"]
         # Publish-clean the scope before truncating: truncation would otherwise hide
         # change-log text just past the cut, or expose it just before.
-        scope = _publish(
-            cat.get("scope", ""),
-            (cat_id, "scope"),
-            _PUBLISHED_CATEGORY_FIELDS,
-            f"scope for category {cat_id!r}",
+        scope = _publish(cat.get("scope", ""), (cat_id, "scope"), _PUBLISHED_CATEGORY_FIELDS, f"scope for category {cat_id!r}")
+        rows.append(
+            [
+                f"[{cat['name']}]({cat_id}.md)",
+                str(len(processes_by_category.get(cat_id, []))),
+                cell(truncate(scope, 110)),
+            ]
         )
-        scope = truncate(scope, 100)
-        scope = scope.replace("|", "\\|")
-        n_procs = len(processes_by_category.get(cat_id, []))
-        lines.append(f"| [{name}]({cat_id}.md) | {n_procs} | {scope} |\n")
 
-    lines.append("\n")
-    lines.append("```{toctree}\n")
-    lines.append(":hidden:\n")
-    lines.append(":maxdepth: 1\n")
-    lines.append("\n")
-    for cat in sorted_categories:
-        lines.append(f"{cat['category_id']}\n")
-    lines.append("```\n")
-
-    write_page(procs_dir / "index.md", "".join(lines))
+    content = (
+        "# Cognitive processes\n\n"
+        f"The catalog defines {total_procs} cognitive processes organized into {n_cats} categories.\n"
+        "A process is a mental operation hypothesized to occur during a trial, with an\n"
+        "identifiable onset, an eliciting condition and a measurable signature; the\n"
+        "[process selection criteria](../methods/process_criteria.md) say what qualifies and\n"
+        "what does not. Each process has a definition, references, and links to the tasks that\n"
+        f"engage it. {n_linked} of the {total_procs} processes are engaged by at least one task in the\n"
+        "catalog; the rest are kept because the catalog may grow a task for them.\n\n"
+        "Categories group processes by research tradition for browsing. They are organizational\n"
+        "labels, not ontological commitments: a process belongs to the category whose scope best\n"
+        "describes where it is studied, and categories imply no inheritance.\n\n"
+        "## Categories\n\n" + table(["Category", "Processes", "Scope"], rows) + "\n\n"
+        "```{toctree}\n:hidden:\n:maxdepth: 1\n\n" + "".join(f"{cat['category_id']}\n" for cat in sorted_categories) + "```\n"
+    )
+    write_page(procs_dir / "index.md", content)
     return 1
 
 
@@ -169,14 +166,14 @@ _PUBLISHED_ALIAS_NOTES = {
 }
 
 
-def _publish(value: str, key, table, what: str) -> str:
+def _publish(value: str, key, table_, what: str) -> str:
     """Return the text to publish for one source field.
 
     Falls back to the source verbatim when it carries no change-log language. Raises if
     new history appears with no entry in the table, so it cannot ship unnoticed.
     """
-    if key in table:
-        return table[key]
+    if key in table_:
+        return table_[key]
     if value and _HISTORY_MARKER.search(value):
         raise ValueError(
             f"{what} contains change-log language but has no entry in the published-text "
@@ -192,34 +189,23 @@ def _format_aliases(aliases: list) -> str:
     for alias in aliases:
         if isinstance(alias, dict):
             name = alias.get("name", "")
-            note = _publish(
-                alias.get("note", ""),
-                name,
-                _PUBLISHED_ALIAS_NOTES,
-                f"alias note for {name!r}",
-            )
-            if note:
-                parts.append(f"**{name}** \u2014 {note}")
-            else:
-                parts.append(name)
+            note = _publish(alias.get("note", ""), name, _PUBLISHED_ALIAS_NOTES, f"alias note for {name!r}")
+            parts.append(f"**{name}** - {note}" if note else name)
         else:
             parts.append(str(alias))
     return "; ".join(parts)
 
 
-def _write_category_page(
-    procs_dir: Path,
-    category: dict,
-    cat_procs: list[dict],
-) -> int:
+def _citations(refs: list[dict]) -> list[str]:
+    return [r.get("citation_string", "") for r in refs if r.get("citation_string")]
+
+
+def _write_category_page(procs_dir: Path, category: dict, cat_procs: list[dict]) -> int:
     """Write docs/processes/{category_id}.md."""
     cat_id = category["category_id"]
     name = category["name"]
     scope = _publish(
-        category.get("scope", ""),
-        (cat_id, "scope"),
-        _PUBLISHED_CATEGORY_FIELDS,
-        f"scope for category {cat_id!r}",
+        category.get("scope", ""), (cat_id, "scope"), _PUBLISHED_CATEGORY_FIELDS, f"scope for category {cat_id!r}"
     )
     out_of_scope = _publish(
         category.get("out_of_scope", ""),
@@ -228,86 +214,63 @@ def _write_category_page(
         f"out_of_scope for category {cat_id!r}",
     )
     issues = _publish(
-        category.get("issues", ""),
-        (cat_id, "issues"),
-        _PUBLISHED_CATEGORY_FIELDS,
-        f"issues for category {cat_id!r}",
+        category.get("issues", ""), (cat_id, "issues"), _PUBLISHED_CATEGORY_FIELDS, f"issues for category {cat_id!r}"
     )
-    process_count = len(cat_procs)
+    sorted_procs = sorted(cat_procs, key=lambda p: p["process_name"])
 
     parts: list[str] = []
-
+    parts.append(f"({cat_id})=\n")
     parts.append(f"# {name}\n\n")
     parts.append(f"**Scope:** {scope}\n\n")
-
     if out_of_scope:
         parts.append(f"**Out of scope:** {out_of_scope}\n\n")
-
     if issues:
-        parts.append(":::{note}\n")
-        parts.append(f"**Open issues:** {issues}\n")
-        parts.append(":::\n\n")
+        parts.append(f":::{{note}}\n**Open issues:** {issues}\n:::\n\n")
 
     # The `history` field in the source data is a change log for the category - what was
     # merged, dropped or renamed, with dates. A published page states what is true now,
     # so it is deliberately not rendered. The field is left in the source untouched.
 
-    parts.append(f"This category contains {process_count} processes.\n\n")
-    parts.append("---\n\n")
-
-    sorted_procs = sorted(cat_procs, key=lambda p: p["process_name"])
+    parts.append(f"This category contains {len(sorted_procs)} processes.\n\n")
+    rows = [
+        [
+            f"[{p['process_name']}](#{process_anchor(p['process_id'])})",
+            cell(truncate(p.get("definition", ""), 120)),
+            str(len(p.get("tasks", []))),
+        ]
+        for p in sorted_procs
+    ]
+    parts.append(table(["Process", "Definition", "Tasks"], rows))
+    parts.append("\n\n")
 
     for proc in sorted_procs:
         proc_id = proc["process_id"]
-        proc_name = proc["process_name"]
-        definition = proc.get("definition", "")
-        aliases = proc.get("aliases", [])
-        tasks = proc.get("tasks", [])
-        fund_refs = proc.get("fundamental_references", [])
-        recent_refs = proc.get("recent_references", [])
-
-        # Explicit anchor target for deep linking
-        # Use hyphens so the Sphinx label registry entry matches the HTML id
-        # (Sphinx normalises label underscores->hyphens in rendered HTML IDs).
-        parts.append(f"({proc_id.replace('_', '-')})=\n")
-        parts.append(f"## {proc_name}\n\n")
+        # Explicit anchor target for deep linking. Hyphens, so the Sphinx label registry
+        # entry matches the HTML id (Sphinx normalises label underscores to hyphens).
+        parts.append(f"({process_anchor(proc_id)})=\n")
+        parts.append(f"## {proc['process_name']}\n\n")
         parts.append(f"**Process ID:** `{proc_id}`\n\n")
+        if proc.get("aliases"):
+            parts.append(f"**Also known as:** {_format_aliases(proc['aliases'])}\n\n")
+        parts.append(f"{proc.get('definition', '')}\n\n")
 
-        if aliases:
-            parts.append(f"**Also known as:** {_format_aliases(aliases)}\n\n")
-
-        parts.append(f"{definition}\n\n")
-
+        tasks = sorted(proc.get("tasks", []), key=lambda t: t["canonical_name"])
         if tasks:
-            sorted_tasks = sorted(tasks, key=lambda t: t["canonical_name"])
-            parts.append("### Tasks\n\n")
-            parts.append("The following tasks engage this process:\n\n")
-            for task in sorted_tasks:
-                tid = task["hedtsk_id"]
-                tname = task["canonical_name"]
-                parts.append(f"- [{tname}](../tasks/{tid}.md)\n")
-            parts.append("\n")
+            links = ", ".join(task_link(t["hedtsk_id"], t["canonical_name"], "processes") for t in tasks)
+            parts.append(f"**Tasks that engage this process:** {links}\n\n")
         else:
-            parts.append("*No tasks in the current catalog are linked to this process.*\n\n")
+            parts.append("**Tasks that engage this process:** none in the current catalog.\n\n")
 
-        if fund_refs:
-            parts.append("### Fundamental references\n\n")
-            for ref in fund_refs:
-                citation = ref.get("citation_string", "")
-                if citation:
-                    parts.append(f"- {citation}\n")
+        fund = _citations(proc.get("fundamental_references", []))
+        if fund:
+            parts.append("**Fundamental references**\n\n")
+            parts.extend(f"- {c}\n" for c in fund)
             parts.append("\n")
-
-        if recent_refs:
-            parts.append("### Recent references\n\n")
-            for ref in recent_refs:
-                citation = ref.get("citation_string", "")
-                if citation:
-                    parts.append(f"- {citation}\n")
+        recent = _citations(proc.get("recent_references", []))
+        if recent:
+            parts.append("**Recent references**\n\n")
+            parts.extend(f"- {c}\n" for c in recent)
             parts.append("\n")
-
-        if proc is not sorted_procs[-1]:
-            parts.append("---\n\n")
 
     write_page(procs_dir / f"{cat_id}.md", "".join(parts))
     return 1

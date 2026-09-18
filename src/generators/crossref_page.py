@@ -1,10 +1,14 @@
-"""Generate docs/crossref.md - bidirectional cross-reference."""
+"""Generate docs/crossref.md - the task-process links in both directions.
+
+Two tables: processes to tasks, one section per category, and tasks to processes. Every
+figure is computed so the prose cannot drift from the data.
+"""
 
 from __future__ import annotations
 
 from pathlib import Path
 
-from generators.utils import write_page
+from generators.utils import process_link, table, task_link, write_page
 
 
 def generate(
@@ -13,74 +17,52 @@ def generate(
     processes: list[dict],
     categories: list[dict],
 ) -> int:
-    """Write docs/crossref.md.
-
-    Returns the number of files written.
-    """
-    # Build lookup structures
-    processes_by_id: dict[str, dict] = {p["process_id"]: p for p in processes}
+    """Write docs/crossref.md. Returns the number of files written."""
+    processes_by_id = {p["process_id"]: p for p in processes}
     processes_by_category: dict[str, list[dict]] = {}
     for proc in processes:
         processes_by_category.setdefault(proc["category_id"], []).append(proc)
 
     sorted_categories = sorted(categories, key=lambda c: c["name"])
     sorted_tasks = sorted(tasks, key=lambda t: t["canonical_name"])
+    n_links = sum(len(t.get("hed_process_ids", [])) for t in tasks)
+    n_unlinked = sum(1 for p in processes if not p.get("tasks"))
 
     parts: list[str] = []
-    parts.append("# Cross-reference: tasks and processes\n\n")
+    parts.append("# Task-process links\n\n")
     parts.append(
-        "This page provides bidirectional cross-references between the 103 tasks\nand 172 processes in the HED catalog.\n\n"
+        f"Every link between the {len(tasks)} tasks and {len(processes)} processes in the catalog, in both\n"
+        f"directions: {n_links} links in all. A task is linked to a process when its inclusion test\n"
+        "engages that process; the [process criteria](methods/process_criteria.md) say when a\n"
+        "link is justified. The same links appear on the individual task and process pages;\n"
+        "this page is the single place to see the whole matrix.\n\n"
     )
 
-    # --- Section 1: Processes by Category -> Tasks ---
-    parts.append("## Processes by category \u2192 tasks\n\n")
-
+    parts.append("## Processes to tasks\n\n")
+    parts.append(
+        f"One section per category. {n_unlinked} processes are engaged by no task in the current\ncatalog and are marked as such.\n\n"
+    )
     for cat in sorted_categories:
-        cat_id = cat["category_id"]
-        cat_name = cat["name"]
-        cat_procs = sorted(
-            processes_by_category.get(cat_id, []),
-            key=lambda p: p["process_name"],
-        )
-
-        parts.append(f"### {cat_name}\n\n")
-
+        cat_procs = sorted(processes_by_category.get(cat["category_id"], []), key=lambda p: p["process_name"])
+        parts.append(f"### {cat['name']}\n\n")
+        rows = []
         for proc in cat_procs:
-            proc_id = proc["process_id"]
-            proc_name = proc["process_name"]
-            linked_tasks = proc.get("tasks", [])
-            sorted_linked = sorted(linked_tasks, key=lambda t: t["canonical_name"])
+            linked = sorted(proc.get("tasks", []), key=lambda t: t["canonical_name"])
+            links = ", ".join(task_link(t["hedtsk_id"], t["canonical_name"]) for t in linked) or "*none*"
+            rows.append([process_link(proc["process_id"], proc["process_name"], cat["category_id"]), links])
+        parts.append(table(["Process", "Tasks"], rows))
+        parts.append("\n\n")
 
-            parts.append(f"**{proc_name}** (`{proc_id}`)\n")
-            if sorted_linked:
-                task_links = ", ".join(f"[{t['canonical_name']}](tasks/{t['hedtsk_id']}.md)" for t in sorted_linked)
-                parts.append(f": {task_links}\n\n")
-            else:
-                parts.append(": *No tasks linked.*\n\n")
-
-    # --- Section 2: Tasks -> Processes ---
-    parts.append("## Tasks \u2192 processes\n\n")
-
+    parts.append("## Tasks to processes\n\n")
+    rows = []
     for task in sorted_tasks:
-        hedtsk_id = task["hedtsk_id"]
-        canonical_name = task["canonical_name"]
-        hed_process_ids = task.get("hed_process_ids", [])
-
-        parts.append(f"**{canonical_name}** (`{hedtsk_id}`)\n")
-        if hed_process_ids:
-            proc_links = []
-            for pid in hed_process_ids:
-                proc = processes_by_id.get(pid)
-                if proc:
-                    pname = proc["process_name"]
-                    cat_id = proc["category_id"]
-                    anchor = pid.replace("_", "-")
-                    proc_links.append(f"[{pname}](processes/{cat_id}.md#{anchor})")
-                else:
-                    proc_links.append(pid)
-            parts.append(f": {', '.join(proc_links)}\n\n")
-        else:
-            parts.append(": *No processes linked.*\n\n")
+        links = []
+        for pid in task.get("hed_process_ids", []):
+            proc = processes_by_id.get(pid)
+            links.append(process_link(pid, proc["process_name"], proc["category_id"]) if proc else f"`{pid}`")
+        rows.append([task_link(task["hedtsk_id"], task["canonical_name"]), ", ".join(links) or "*none*"])
+    parts.append(table(["Task", "Processes"], rows))
+    parts.append("\n")
 
     write_page(docs_dir / "crossref.md", "".join(parts))
     return 1
