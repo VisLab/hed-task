@@ -210,7 +210,7 @@ The reverse also holds. {fwd_none} tasks here have no Atlas counterpart at all, 
 several are heavily used paradigms the Atlas simply never registered: the Mismatch
 Negativity paradigm, the Dictator Game, Reading the Mind in the Eyes, Multiple Object
 Tracking, and the Weapons Identification Task among them. The
-[task mapping tables](task_mapping.md) lists all {fwd_none}.
+[task mapping tables](task_mapping.md) list all {fwd_none}.
 
 Mismatch Negativity is the starkest: thousands of published studies, a candidate
 clinical biomarker, and no Atlas entry at all.
