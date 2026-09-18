@@ -1,4 +1,4 @@
-"""CLI entry point: generate all Sphinx documentation pages under docs/.
+"""CLI entry point: generate the catalog pages under docs/source/.
 
 Inputs:
     .working/   the imported task and process catalog and the Atlas mapping tables
@@ -6,9 +6,20 @@ Inputs:
     data/       the curated presentation tables owned by this repository, currently the
                 paradigm families (see data/README.md)
 
-Every Markdown file under docs/source/ is generated. The script removes the existing pages
-before writing so that a page dropped from the generators does not linger as a stale
-orphan; conf.py, _static/ and _templates/ are left alone.
+Two kinds of page live under docs/source/. This script writes only the catalog pages,
+which are tabular views of the data:
+
+    tasks/**                     task index, family pages, alphabetical list, task pages
+    processes/**                 process index, category pages
+    crossref.md                  task-process links
+    atlas/task_mapping.md        Atlas mapping tables
+    atlas/process_mapping.md
+    _generated/*.md              table fragments that narrative pages include
+
+Those paths are deleted and rewritten on every run, so a page dropped from the
+generators cannot linger. Every other file under docs/source/ - the landing page, the
+overview pages, the Atlas essays, the Methods documents, conf.py, _static/, _templates/ -
+is hand-maintained and is never touched here.
 
 Usage (from repo root, with venv active):
     python src/generate_docs.py
@@ -16,6 +27,7 @@ Usage (from repo root, with venv active):
 
 from __future__ import annotations
 
+import shutil
 import sys
 from pathlib import Path
 
@@ -25,19 +37,25 @@ if str(_HERE) not in sys.path:
     sys.path.insert(0, str(_HERE))
 
 from generators import (  # noqa: E402
-    atlas_pages,
     crossref_atlas_pages,
     crossref_page,
-    index_page,
-    methods_pages,
-    overview_pages,
+    fragments,
     process_pages,
-    relationship_page,
     task_pages,
 )
 from generators.utils import load_json, read_tsv  # noqa: E402
 
-_KEEP_DIRS = {"_build", "_static", "_templates"}
+# Everything the generator owns, relative to docs/source/. Nothing outside this list is
+# ever deleted or written.
+GENERATED_PATHS = [
+    "tasks",
+    "processes",
+    "crossref.md",
+    "atlas/task_mapping.md",
+    "atlas/process_mapping.md",
+    "_generated",
+]
+
 _VALID_CONFIDENCE = {"high", "review"}
 
 
@@ -89,18 +107,16 @@ def load_families(data_dir: Path, tasks: list[dict]) -> tuple[list[dict], list[d
 
 
 def clear_generated(docs_dir: Path) -> int:
-    """Delete every generated Markdown page under docs/source/ and any directory left empty."""
+    """Delete the generated paths under docs/source/. Returns the number of files removed."""
     removed = 0
-    for path in sorted(docs_dir.rglob("*.md"), reverse=True):
-        if path.relative_to(docs_dir).parts[0] in _KEEP_DIRS:
-            continue
-        path.unlink()
-        removed += 1
-    for path in sorted((p for p in docs_dir.rglob("*") if p.is_dir()), reverse=True):
-        if path.relative_to(docs_dir).parts[0] in _KEEP_DIRS:
-            continue
-        if not any(path.iterdir()):
-            path.rmdir()
+    for rel in GENERATED_PATHS:
+        path = docs_dir / rel
+        if path.is_dir():
+            removed += sum(1 for p in path.rglob("*") if p.is_file())
+            shutil.rmtree(path)
+        elif path.exists():
+            path.unlink()
+            removed += 1
     return removed
 
 
@@ -121,14 +137,8 @@ def main() -> None:
     categories: list[dict] = proc_data["categories"]
     processes: list[dict] = proc_data["processes"]
 
-    # Derived from the external Cognitive Atlas harvest by src/build_atlas_data.py.
-    print("Loading atlas_summary.json ...")
-    atlas_data: dict = load_json(working_dir / "atlas_summary.json")
-
     print("Loading data/task_families.tsv ...")
     families, family_rows = load_families(data_dir, tasks)
-    family_name = {f["family_id"]: f["name"] for f in families}
-    family_of = {r["hedtsk_id"]: family_name[r["family_id"]] for r in family_rows}
 
     # The curated Atlas mapping drives the Atlas link on each task page and is the only
     # Atlas cross-reference. Task records used to carry their own atlas_id, but 18 of its
@@ -143,37 +153,29 @@ def main() -> None:
     # Generate
     # ------------------------------------------------------------------
     removed = clear_generated(docs_dir)
-    print(f"Removed {removed} previously generated pages.")
+    print(f"Removed {removed} previously generated files.")
     total = 0
 
-    print("Generating docs/index.md ...")
-    total += index_page.generate(docs_dir, tasks, processes, categories, families)
-
-    print("Generating docs/introduction.md and docs/how_to_use.md ...")
-    total += overview_pages.generate(docs_dir, tasks, processes, categories, families, family_of)
-
-    print("Generating docs/tasks/ ...")
+    print("Generating docs/source/tasks/ ...")
     n = task_pages.generate(docs_dir, tasks, processes_by_id, families, family_rows, atlas_map)
     total += n
     print(f"  Wrote {n} task files (index, {len(families)} family pages, all_tasks, {len(tasks)} task pages).")
 
-    print("Generating docs/processes/ ...")
+    print("Generating docs/source/processes/ ...")
     n = process_pages.generate(docs_dir, processes, categories, tasks_by_id)
     total += n
     print(f"  Wrote {n} process files (1 index + {n - 1} category pages).")
 
-    print("Generating docs/crossref.md ...")
+    print("Generating docs/source/crossref.md ...")
     total += crossref_page.generate(docs_dir, tasks, processes, categories)
 
-    print("Generating docs/methods/ ...")
-    total += methods_pages.generate(docs_dir, working_dir)
-
-    print("Generating docs/atlas/ ...")
-    total += atlas_pages.generate(docs_dir, atlas_data)
+    print("Generating docs/source/atlas/ mapping tables ...")
     total += crossref_atlas_pages.generate(docs_dir, working_dir)
-    total += relationship_page.generate(docs_dir, working_dir, atlas_data)
 
-    print(f"\nDone. {total} files written to {docs_dir}.")
+    print("Generating docs/source/_generated/ fragments ...")
+    total += fragments.generate(docs_dir, working_dir, tasks, processes, categories, families)
+
+    print(f"\nDone. {total} files written to {docs_dir}. Narrative pages were not touched.")
 
 
 if __name__ == "__main__":

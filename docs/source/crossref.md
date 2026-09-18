@@ -2,7 +2,7 @@
 
 Every link between the 103 tasks and 172 processes in the catalog, in both
 directions: 486 links in all. A task is linked to a process when its inclusion test
-engages that process; the [process criteria](methods/process_criteria.md) say when a
+engages that process; the [process criteria](methods/process_criteria/index.md) say when a
 link is justified. The same links appear on the individual task and process pages;
 this page is the single place to see the whole matrix.
 
