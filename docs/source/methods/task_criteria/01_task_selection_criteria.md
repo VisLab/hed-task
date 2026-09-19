@@ -10,21 +10,23 @@
 
 A **task** is a structured experimental paradigm that:
 
-1. **Produces event-based data.** The paradigm generates a sequence of discrete, time-stamped events (stimulus presentations, participant responses, feedback) that can be annotated with HED tags.
+1. **Produces psychobiological time series data and event markers.** The paradigm generates a sequence of discrete, time-stamped events (sensory presentations, participant or sensory agent actions, brain dynamic events, experiment control events, experiment structure events, measurement events) that can be annotated with HED tags.
 
-2. **Has a specific, reproducible procedure.** A researcher reading the task description could implement it. Generic categories like "memory task" or "attention task" are not tasks - they are domains.
+2. **Has a specified, reproducible procedure.** A task description in this archive should allow a researcher reading it to re-implement it. Note: Generic task categories such as "memory task" or "attention task" are not specified tasks - rather, they are more general task domains.
 
-3. **Is widely used in cognitive/behavioral neuroscience.** The paradigm appears across multiple labs, has a recognized name, and is cited in the literature as a standard method.
+3. **Is widely used in cognitive/behavioral neuroscience.** A task paradigm listed here has been reported by multiple labs, has recognized names, and is cited in the literature as a standard task.
 
-4. **Engages identifiable cognitive processes.** The task is designed to isolate or measure specific cognitive, perceptual, motor, or affective processes.
+4. **Engages identifiable cognitive processes.** A task listed here is designed to elicit specific cognitive, perceptual, motor, or affective experiences and brain processes.
 
 (task-criteria-1-2)=
 ## 1.2 Tasks that are excluded
 
+This task catalog does not include activities that produce no time-stamped record of their events. The timing itself may vary from trial to trial or be reported as a range; what matters is that each event is recorded when it happens. Activities without such a record typically include:
+
 - **Self-report instruments**: Personality inventories, mood questionnaires, symptom checklists (e.g., BDI, STAI). These do not produce event-structured data. Administering one is a pseudo task, the Take Questionnaire Task; see [Pseudo tasks](#task-criteria-1-3) below.
 - **Clinical screening tools**: Instruments designed for diagnostic classification rather than experimental measurement (e.g., MMSE as a screening tool, though components like digit span are included as standalone tasks).
-- **Broad task categories**: "Working memory task" as a generic label. The catalog includes specific instantiations (N-Back, Operation Span, Change Detection, etc.).
-- **One-off experimental designs**: Paradigms used in a single study without broader adoption.
+- **Broad task categories**: "Working memory task" as a generic label. The catalog includes more specific instantiations (N-Back, Operation Span, Change Detection, etc.).
+- **One-off experimental designs**: Paradigms used in a single study with to date no reported broader adoption.
 - **Neurological examinations**: Reflex testing, cranial nerve exams, etc.
 
 (task-criteria-1-3)=
@@ -37,6 +39,6 @@ The catalog currently has {{ n_pseudo_tasks }} pseudo tasks: the Rest Task (with
 The exclusion of self-report instruments stands. What the catalog admits is the act of administering one; the instrument used is recorded as a parameter of that block, as a stimulus set is a parameter of a task, and is not a variation.
 
 (task-criteria-1-4)=
-## 1.4 The 103-task scope
+## 1.4 Why only {{ n_tasks }} tasks?
 
-The catalog targets approximately 100 canonical tasks spanning the major domains of cognitive and behavioral neuroscience: attention, memory, executive function, language, perception, motor control, emotion, social cognition, decision-making, and learning. The number 103 is not a hard constraint - it reflects the current state of consolidation from the Cognitive Atlas plus gap-filling. Tasks may be added or removed as the catalog matures.
+The catalog currently lists {{ n_tasks }} canonical tasks spanning the major domains of cognitive and behavioral neuroscience: attention, memory, executive function, language, perception, motor control, emotion, social cognition, decision-making, and learning. The number {{ n_tasks }} reflects the current state of consolidation from the Cognitive Atlas plus gap-filling. Tasks may be added or removed as the catalog matures.
