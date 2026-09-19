@@ -66,3 +66,7 @@ of a variation is `hedvar_<task>__<variation>`.
 None by design. A pseudo task sets up or holds a state rather than probing a process;
 the processes engaged during the block are whatever the participant brings to it.
 
+## Further references
+
+- Bowling, A. (2005). Mode of questionnaire administration can have serious effects on data quality. *Journal of Public Health*, 27(3), 281-291. ([DOI](https://doi.org/10.1093/pubmed/fdi031))
+

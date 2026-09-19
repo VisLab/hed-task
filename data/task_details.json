@@ -26374,6 +26374,35 @@
     "source_task_numbers": [],
     "status": "complete",
     "hed_process_ids": [],
-    "references": []
+    "references": [
+      {
+        "title": "Mode of questionnaire administration can have serious effects on data quality",
+        "authors": "Bowling, A.",
+        "year": 2005,
+        "journal": "Journal of Public Health",
+        "venue": "Journal of Public Health",
+        "venue_type": "journal",
+        "volume": "27",
+        "issue": "3",
+        "pages": "281-291",
+        "ids": {
+          "doi": "10.1093/pubmed/fdi031",
+          "openalex_id": null,
+          "pmid": null,
+          "pmcid": null,
+          "s2_id": null,
+          "arxiv_id": null
+        },
+        "url": "https://doi.org/10.1093/pubmed/fdi031",
+        "oa_status": "unknown",
+        "citation_string": "Bowling, A. (2005). Mode of questionnaire administration can have serious effects on data quality. *Journal of Public Health*, 27(3), 281-291.",
+        "source": "crossref",
+        "confidence": "high",
+        "verified_on": "2026-09-19",
+        "roles": [
+          "review"
+        ]
+      }
+    ]
   }
 ]

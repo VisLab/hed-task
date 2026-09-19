@@ -133,9 +133,15 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
         for pid in t.get("hed_process_ids", []):
             if pid not in process_ids:
                 problems.append(f"{t['hedtsk_id']}: hed_process_ids names unknown process {pid!r}")
-        # A task engages at least one process; a pseudo task (task criteria 1.3) may engage none.
-        if not t.get("hed_process_ids") and t.get("task_kind", "task") != "pseudo_task":
+        # A task engages at least one process; a pseudo task (task criteria 1.3) engages none
+        # by definition, so the two kinds are checked in opposite directions.
+        is_pseudo = t.get("task_kind", "task") == "pseudo_task"
+        if not t.get("hed_process_ids") and not is_pseudo:
             problems.append(f"{t['hedtsk_id']}: hed_process_ids is empty but task_kind is not pseudo_task")
+        if t.get("hed_process_ids") and is_pseudo:
+            problems.append(
+                f"{t['hedtsk_id']}: a pseudo task carries no process links, but hed_process_ids is {t['hed_process_ids']}"
+            )
     for p in processes:
         if p["category_id"] not in category_ids:
             problems.append(f"{p['process_id']}: unknown category {p['category_id']!r}")
