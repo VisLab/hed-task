@@ -12,7 +12,7 @@ A **task** is a structured experimental paradigm that:
 
 1. **Produces psychobiological time series data and event markers.** The paradigm generates a sequence of discrete, time-stamped events (sensory presentations, participant or sensory agent actions, brain dynamic events, experiment control events, experiment structure events, measurement events) that can be annotated with HED tags.
 
-2. **Has a specified, reproducible procedure.** A task description in this archive should allow a researcher reading it to re-implement it. Note: Generic task categories such as "memory task" or "attention task" are not specified tasks — rather, they are more general task domains..
+2. **Has a specified, reproducible procedure.** A task description in this archive should allow a researcher reading it to re-implement it. Note: Generic task categories such as "memory task" or "attention task" are not specified tasks -  rather, they are more general task domains..
 
 3. **Is widely used in cognitive/behavioral neuroscience.** A task paradigm listed here has been reported by multiple labs, has recognized names, and is cited in the literature as a standard task.
 
