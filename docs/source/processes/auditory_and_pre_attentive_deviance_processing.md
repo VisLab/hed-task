@@ -27,7 +27,7 @@ Low-level analysis of sound, including frequency, intensity, and temporal struct
 
 **Fundamental references**
 
-- Fletcher (1940) *Reviews of Modern Physics* 12:47–65
+- Fletcher (1940) *Reviews of Modern Physics* 12:47–65 ([DOI](https://doi.org/10.1103/revmodphys.12.47))
 
 (hed-auditory-perception)=
 ## Auditory perception
@@ -40,31 +40,35 @@ Perception of sound, including pitch, timbre, loudness, and spatial location.
 
 **Fundamental references**
 
-- von Békésy (1960) *Experiments in Hearing*
+- von Békésy (1960) *Experiments in Hearing* McGraw-Hill
 
 (hed-auditory-tone-discrimination)=
 ## Auditory tone discrimination
 
 **Process ID:** `hed_auditory_tone_discrimination`
 
+**Also known as:** tone discrimination
+
 Judgment of whether two tones differ in pitch, intensity, or duration.
 
 **Tasks that engage this process:** [Mismatch Negativity Task](../tasks/hedtsk_mismatch_negativity.md)
 
-**Recent references**
+**Further references**
 
-- Moore (2012) *An Introduction to the Psychology of Hearing*, 6th ed
+- Moore (2012) *An Introduction to the Psychology of Hearing*, 6th ed ([DOI](https://doi.org/10.1007/978-0-230-36409-7_1))
 
 (hed-pitch-perception)=
 ## Pitch perception
 
 **Process ID:** `hed_pitch_perception`
 
+**Also known as:** pitch processing
+
 Perception of the highness or lowness of a sound, related to fundamental frequency.
 
 **Tasks that engage this process:** [Mismatch Negativity Task](../tasks/hedtsk_mismatch_negativity.md)
 
-**Recent references**
+**Further references**
 
-- Oxenham (2012) *Trends in Amplification* 16:174–185
+- Oxenham (2012) *Journal of Neuroscience* 32:13335–13338 ([DOI](https://doi.org/10.1523/JNEUROSCI.3815-12.2012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23015422/))
 

@@ -94,15 +94,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Botvinick, M., & Cohen, J. (1998). Rubber hands 'feel' touch that eyes see. *Nature*, 391(6669), 756.
-- Tsakiris, M. (2010). My body in the brain: A neurocognitive model of body-ownership. *Neuropsychologia*, 48(3), 703-712.
+- Botvinick, M., & Cohen, J. (1998). Rubber hands 'feel' touch that eyes see. *Nature*, 391(6669), 756. ([DOI](https://doi.org/10.1038/35784), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9486643/))
+- Tsakiris, M. (2010). My body in the brain: A neurocognitive model of body-ownership. *Neuropsychologia*, 48(3), 703-712. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2009.09.034), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19819247/))
 
-## Recent references
+## Further references
 
-- Kilteni, K., Maselli, A., Kording, K. P., & Slater, M. (2015). Over my fake body: Body ownership illusions for studying the multisensory basis of own-body perception. *Frontiers in Human Neuroscience*, 9, 141.
-- Samad, M., Chung, A. J., & Shams, L. (2015). Perception of body ownership is driven by Bayesian sensory inference. *PLoS ONE*, 10(2), e0117178.
-- Petkova, V. I., & Ehrsson, H. H. (2008). If I were you: Perceptual illusion of body swapping. *PLoS ONE*, 3(12), e3832.
-- Moseley, G. L., Olthof, N., Venema, A., Don, S., Wijers, M., Gallace, A., & Spence, C. (2008). Psychologically induced cooling of a specific body part caused by the illusory ownership of an artificial counterpart. *Proceedings of the National Academy of Sciences*, 105(35), 13169-13173.
+- Kilteni, K., Maselli, A., Kording, K. P., & Slater, M. (2015). Over my fake body: Body ownership illusions for studying the multisensory basis of own-body perception. *Frontiers in Human Neuroscience*, 9, 141. ([DOI](https://doi.org/10.3389/fnhum.2015.00141), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25852524/))
+- Samad, M., Chung, A. J., & Shams, L. (2015). Perception of body ownership is driven by Bayesian sensory inference. *PLoS ONE*, 10(2), e0117178. ([DOI](https://doi.org/10.1371/journal.pone.0117178), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25658822/))
+- Petkova, V. I., & Ehrsson, H. H. (2008). If I were you: Perceptual illusion of body swapping. *PLoS ONE*, 3(12), e3832. ([DOI](https://doi.org/10.1371/journal.pone.0003832), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19050755/))
+- Moseley, G. L., Olthof, N., Venema, A., Don, S., Wijers, M., Gallace, A., & Spence, C. (2008). Psychologically induced cooling of a specific body part caused by the illusory ownership of an artificial counterpart. *Proceedings of the National Academy of Sciences*, 105(35), 13169-13173. ([DOI](https://doi.org/10.1073/pnas.0803768105), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18725630/))
 
 ## External links
 

@@ -101,16 +101,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Morris, R. G. M. (1984). Developments of a water-maze procedure for studying spatial learning in the rat. *Journal of Neuroscience Methods*, 11(1), 47-60.
-- Maguire, E. A., Burgess, N., Donnett, J. G., Frackowiak, R. S. J., Frith, C. D., & O'Keefe, J. (1998). Knowing where and getting there: A human navigation network. *Science*, 280(5365), 921-924.
-- Hartley, T., Maguire, E. A., Spiers, H. J., & Burgess, N. (2003). The well-worn route and the path less traveled: Distinct neural bases of route following and wayfinding in humans. *Neuron*, 37(5), 877-888.
+- Morris, R. G. M. (1984). Developments of a water-maze procedure for studying spatial learning in the rat. *Journal of Neuroscience Methods*, 11(1), 47-60. ([DOI](https://doi.org/10.1016/0165-0270(84)90007-4), [PubMed](https://pubmed.ncbi.nlm.nih.gov/6471907/))
+- Maguire, E. A., Burgess, N., Donnett, J. G., Frackowiak, R. S. J., Frith, C. D., & O'Keefe, J. (1998). Knowing where and getting there: A human navigation network. *Science*, 280(5365), 921-924. ([DOI](https://doi.org/10.1126/science.280.5365.921), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9572740/))
+- Hartley, T., Maguire, E. A., Spiers, H. J., & Burgess, N. (2003). The well-worn route and the path less traveled: Distinct neural bases of route following and wayfinding in humans. *Neuron*, 37(5), 877-888. ([DOI](https://doi.org/10.1016/s0896-6273(03)00095-3), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12628177/))
 
-## Recent references
+## Further references
 
-- Epstein, R. A., Patai, E. Z., Julian, J. B., & Spiers, H. J. (2017). The cognitive map in humans: Spatial navigation and beyond. *Nature Neuroscience*, 20(11), 1504–1513.
-- Ekstrom, A. D., & Isham, E. A. (2017). Human spatial navigation: Representations across dimensions and scales. *Current Opinion in Behavioral Sciences*, 17, 84–89.
-- Coughlan, G., Laczó, J., Hort, J., Minihane, A. M., & Hornberger, M. (2018). Spatial navigation deficits—overlooked cognitive marker for preclinical Alzheimer disease? *Nature Reviews Neurology*, 14(8), 496–506.
-- Spiers, H. J., & Barry, C. (2015). Neural systems supporting navigation. *Current Opinion in Behavioral Sciences*, 1, 47–55.
+- Epstein, R. A., Patai, E. Z., Julian, J. B., & Spiers, H. J. (2017). The cognitive map in humans: Spatial navigation and beyond. *Nature Neuroscience*, 20(11), 1504–1513. ([DOI](https://doi.org/10.1038/nn.4656), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29073650/))
+- Ekstrom, A. D., & Isham, E. A. (2017). Human spatial navigation: Representations across dimensions and scales. *Current Opinion in Behavioral Sciences*, 17, 84–89. ([DOI](https://doi.org/10.1016/j.cobeha.2017.06.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29130062/))
+- Coughlan, G., Laczó, J., Hort, J., Minihane, A. M., & Hornberger, M. (2018). Spatial navigation deficits—overlooked cognitive marker for preclinical Alzheimer disease? *Nature Reviews Neurology*, 14(8), 496–506. ([DOI](https://doi.org/10.1038/s41582-018-0031-x), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29980763/))
+- Spiers, H. J., & Barry, C. (2015). Neural systems supporting navigation. *Current Opinion in Behavioral Sciences*, 1, 47–55. ([DOI](https://doi.org/10.1016/j.cobeha.2014.08.005))
 
 ## External links
 

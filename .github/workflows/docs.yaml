@@ -43,6 +43,14 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
 
+      - name: Check that the generated pages match the catalog data
+        run: |
+          python src/generate_docs.py
+          git diff --exit-code --stat -- docs/source || {
+            echo "docs/source is out of date: run 'python src/generate_docs.py' and commit the result" >&2
+            exit 1
+          }
+
       - name: Build documentation
         run: |
           sphinx-build -b html docs/source docs/_build/html

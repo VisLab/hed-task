@@ -80,13 +80,13 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Spreckelmeyer, K. N., Krach, S., Kohls, G., Rademacher, L., Irmak, A., Konrad, K., ... & Gründer, G. (2009). Anticipation of monetary and social reward differently activates mesolimbic brain structures in men and women. *Social Cognitive and Affective Neuroscience*, 4(2), 158–165.
-- Rademacher, L., Krach, S., Kohls, G., Irmak, A., Gründer, G., & Spreckelmeyer, K. N. (2010). Dissociation of neural networks for anticipation and consumption of monetary and social rewards. *NeuroImage*, 49(4), 3276–3285.
-- Kohls, G., Perino, M. T., Taylor, J. M., Madva, E. N., Cayber, S. J., Troiani, V., ... & Schultz, R. T. (2013). The nucleus accumbens is involved in both the pursuit of social reward and the avoidance of social punishment. *Neuropsychologia*, 51(11), 2062–2069.
+- Spreckelmeyer, K. N., Krach, S., Kohls, G., Rademacher, L., Irmak, A., Konrad, K., ... & Gründer, G. (2009). Anticipation of monetary and social reward differently activates mesolimbic brain structures in men and women. *Social Cognitive and Affective Neuroscience*, 4(2), 158–165. ([DOI](https://doi.org/10.1093/scan/nsn051), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19174537/))
+- Rademacher, L., Krach, S., Kohls, G., Irmak, A., Gründer, G., & Spreckelmeyer, K. N. (2010). Dissociation of neural networks for anticipation and consumption of monetary and social rewards. *NeuroImage*, 49(4), 3276–3285. ([DOI](https://doi.org/10.1016/j.neuroimage.2009.10.089), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19913621/))
+- Kohls, G., Perino, M. T., Taylor, J. M., Madva, E. N., Cayber, S. J., Troiani, V., ... & Schultz, R. T. (2013). The nucleus accumbens is involved in both the pursuit of social reward and the avoidance of social punishment. *Neuropsychologia*, 51(11), 2062–2069. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2013.07.020), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23911778/))
 
-## Recent references
+## Further references
 
-- Flores, L. E., Jr., Eckstrand, K. L., Silk, J. S., Allen, N. B., Ambrosia, M., Healey, K. L., & Forbes, E. E. (2018). Adolescents' neural response to social reward and real-world emotional closeness and positive affect. *Cognitive, Affective, & Behavioral Neuroscience*, 18(5), 705–717.
-- Richey, J. A., Rittenberg, A., Hughes, L., Damiano, C. R., Sabatino, A., Miller, S., ... & Dichter, G. S. (2014). Common and distinct neural features of social and non-social reward processing in autism and social anxiety disorder. *Social Cognitive and Affective Neuroscience*, 9(3), 367–377.
-- Cremers, H. R., Veer, I. M., Spinhoven, P., Rombouts, S. A. R. B., & Roelofs, K. (2015). Neural sensitivity to social reward and punishment anticipation in social anxiety disorder. *Frontiers in Behavioral Neuroscience*, 8, 439.
+- Flores, L. E., Jr., Eckstrand, K. L., Silk, J. S., Allen, N. B., Ambrosia, M., Healey, K. L., & Forbes, E. E. (2018). Adolescents' neural response to social reward and real-world emotional closeness and positive affect. *Cognitive, Affective, & Behavioral Neuroscience*, 18(5), 705–717. ([DOI](https://doi.org/10.3758/s13415-018-0598-0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29943174/))
+- Richey, J. A., Rittenberg, A., Hughes, L., Damiano, C. R., Sabatino, A., Miller, S., ... & Dichter, G. S. (2014). Common and distinct neural features of social and non-social reward processing in autism and social anxiety disorder. *Social Cognitive and Affective Neuroscience*, 9(3), 367–377. ([DOI](https://doi.org/10.1016/j.ijdevneu.2014.05.012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24951837/))
+- Cremers, H. R., Veer, I. M., Spinhoven, P., Rombouts, S. A. R. B., & Roelofs, K. (2015). Neural sensitivity to social reward and punishment anticipation in social anxiety disorder. *Frontiers in Behavioral Neuroscience*, 8, 439. ([DOI](https://doi.org/10.3389/fnbeh.2014.00439), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25601830/))
 

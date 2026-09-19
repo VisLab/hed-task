@@ -110,15 +110,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Shaywitz, S. E., Shaywitz, B. A., Pugh, K. R., et al. (1998). Functional disruption in the organization of the brain for reading in dyslexia. *Proceedings of the National Academy of Sciences*, 95(5), 2636-2641.
-- Booth, J. R., Burman, D. D., Meyer, J. R., et al. (2004). Development of brain mechanisms for processing orthographic and phonological representations. *Journal of Cognitive Neuroscience*, 16(7), 1234-1249.
-- Pugh, K. R., Mencl, W. E., Jenner, A. R., et al. (2001). Neurobiological studies of reading and reading disability. *Journal of Communication Disorders*, 34(6), 479-492.
+- Shaywitz, S. E., Shaywitz, B. A., Pugh, K. R., et al. (1998). Functional disruption in the organization of the brain for reading in dyslexia. *Proceedings of the National Academy of Sciences*, 95(5), 2636-2641. ([DOI](https://doi.org/10.1073/pnas.95.5.2636), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9482939/))
+- Booth, J. R., Burman, D. D., Meyer, J. R., et al. (2004). Development of brain mechanisms for processing orthographic and phonological representations. *Journal of Cognitive Neuroscience*, 16(7), 1234-1249. ([DOI](https://doi.org/10.1162/0898929041920496), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15453976/))
+- Pugh, K. R., Mencl, W. E., Jenner, A. R., et al. (2001). Neurobiological studies of reading and reading disability. *Journal of Communication Disorders*, 34(6), 479-492. ([DOI](https://doi.org/10.1016/s0021-9924(01)00060-0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11725860/))
 
-## Recent references
+## Further references
 
-- Melby-Lervåg, M., Lyster, S. A. H., & Hulme, C. (2012). Phonological skills and their role in learning to read: A meta-analytic review. *Psychological Bulletin*, 138(2), 322–352.
-- Anthony, J. L., & Francis, D. J. (2005). Development of phonological awareness. *Current Directions in Psychological Science*, 14(5), 255–259.
-- Boets, B., Op de Beeck, H. P., Vandermosten, M., et al. (2013). Intact but less accessible phonetic representations in adults with dyslexia. *Science*, 342(6163), 1251–1254.
+- Melby-Lervåg, M., Lyster, S. A. H., & Hulme, C. (2012). Phonological skills and their role in learning to read: A meta-analytic review. *Psychological Bulletin*, 138(2), 322–352. ([DOI](https://doi.org/10.1037/a0026744), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22250824/))
+- Anthony, J. L., & Francis, D. J. (2005). Development of phonological awareness. *Current Directions in Psychological Science*, 14(5), 255–259. ([DOI](https://doi.org/10.1111/j.0963-7214.2005.00376.x))
+- Boets, B., Op de Beeck, H. P., Vandermosten, M., et al. (2013). Intact but less accessible phonetic representations in adults with dyslexia. *Science*, 342(6163), 1251–1254. ([DOI](https://doi.org/10.1126/science.1244333), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24311693/))
 
 ## External links
 

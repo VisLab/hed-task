@@ -90,16 +90,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Luck, S. J., & Vogel, E. K. (1997). The capacity of visual working memory for features and conjunctions. *Nature*, 390(6657), 279–281.
-- Cowan, N. (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity. *Behavioral and Brain Sciences*, 24(1), 87–114.
-- Vogel, E. K., & Machizawa, M. G. (2004). Neural activity predicts individual differences in visual working memory capacity. *Nature*, 428(6984), 748–751.
+- Luck, S. J., & Vogel, E. K. (1997). The capacity of visual working memory for features and conjunctions. *Nature*, 390(6657), 279–281. ([DOI](https://doi.org/10.1038/36846), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9384378/))
+- Cowan, N. (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity. *Behavioral and Brain Sciences*, 24(1), 87–114. ([DOI](https://doi.org/10.1017/s0140525x01003922), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11515286/))
+- Vogel, E. K., & Machizawa, M. G. (2004). Neural activity predicts individual differences in visual working memory capacity. *Nature*, 428(6984), 748–751. ([DOI](https://doi.org/10.1038/nature02447), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15085132/))
 
-## Recent references
+## Further references
 
-- Luck, S. J., & Vogel, E. K. (2013). Visual working memory capacity: From psychophysics and neurobiology to individual differences. *Trends in Cognitive Sciences*, 17(8), 391–400.
-- Adam, K. C. S., Mance, I., Fukuda, K., & Vogel, E. K. (2015). The contribution of attentional lapses to individual differences in visual working memory capacity. *Journal of Cognitive Neuroscience*, 27(8), 1601–1616.
-- Luria, R., Balaban, H., Awh, E., & Vogel, E. K. (2016). The contralateral delay activity as a neural measure of visual working memory. *Neuroscience & Biobehavioral Reviews*, 62, 100–108.
-- Ma, W. J., Husain, M., & Bays, P. M. (2014). Changing concepts of working memory. *Nature Neuroscience*, 17(3), 347–356.
+- Luck, S. J., & Vogel, E. K. (2013). Visual working memory capacity: From psychophysics and neurobiology to individual differences. *Trends in Cognitive Sciences*, 17(8), 391–400. ([DOI](https://doi.org/10.1016/j.tics.2013.06.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23850263/))
+- Adam, K. C. S., Mance, I., Fukuda, K., & Vogel, E. K. (2015). The contribution of attentional lapses to individual differences in visual working memory capacity. *Journal of Cognitive Neuroscience*, 27(8), 1601–1616. ([DOI](https://doi.org/10.1162/jocn_a_00811), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25811710/))
+- Luria, R., Balaban, H., Awh, E., & Vogel, E. K. (2016). The contralateral delay activity as a neural measure of visual working memory. *Neuroscience & Biobehavioral Reviews*, 62, 100–108. ([DOI](https://doi.org/10.1016/j.neubiorev.2016.01.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26802451/))
+- Ma, W. J., Husain, M., & Bays, P. M. (2014). Changing concepts of working memory. *Nature Neuroscience*, 17(3), 347–356. ([DOI](https://doi.org/10.1038/nn.3655), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24569831/))
 
 ## External links
 

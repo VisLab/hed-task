@@ -100,12 +100,12 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Harbaugh, W. T., Mayr, U., & Burghart, D. R. (2007). Neural responses to taxation and voluntary giving reveal motives for charitable donations. *Science*, 316(5831), 1622-1625.
-- Moll, J., Krueger, F., Zahn, R., Pardini, M., de Oliveira-Souza, R., & Grafman, J. (2006). Human fronto-mesolimbic networks guide decisions about charitable donation. *Proceedings of the National Academy of Sciences*, 103(42), 15623-15628.
+- Harbaugh, W. T., Mayr, U., & Burghart, D. R. (2007). Neural responses to taxation and voluntary giving reveal motives for charitable donations. *Science*, 316(5831), 1622-1625. ([DOI](https://doi.org/10.1126/science.1140738), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17569866/))
+- Moll, J., Krueger, F., Zahn, R., Pardini, M., de Oliveira-Souza, R., & Grafman, J. (2006). Human fronto-mesolimbic networks guide decisions about charitable donation. *Proceedings of the National Academy of Sciences*, 103(42), 15623-15628. ([DOI](https://doi.org/10.1073/pnas.0604475103), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17030808/))
+- Forsythe, R., Horowitz, J. L., Savin, N. E., & Sefton, M. (1994). Fairness in simple bargaining experiments. *Games and Economic Behavior*, 6(3), 347–369. ([DOI](https://doi.org/10.1006/game.1994.1021))
 
-## Recent references
+## Further references
 
-- Engel, C. (2011). Dictator games: A meta study. *Experimental Economics*, 14(4), 583–610.
-- Rand, D. G., & Epstein, Z. G. (2014). Risking your life without a second thought: Intuitive decision-making and extreme altruism. *PLoS ONE*, 9(10), e109687.
-- Forsythe, R., Horowitz, J. L., Savin, N. E., & Sefton, M. (1994). Fairness in simple bargaining experiments. *Games and Economic Behavior*, 6(3), 347–369.
+- Engel, C. (2011). Dictator games: A meta study. *Experimental Economics*, 14(4), 583–610. ([DOI](https://doi.org/10.1007/s10683-011-9283-7))
+- Rand, D. G., & Epstein, Z. G. (2014). Risking your life without a second thought: Intuitive decision-making and extreme altruism. *PLoS ONE*, 9(10), e109687. ([DOI](https://doi.org/10.1371/journal.pone.0109687), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25333876/))
 

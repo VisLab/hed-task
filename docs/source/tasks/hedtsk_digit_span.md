@@ -5,7 +5,7 @@
 
 **Family:** [Short-term and working memory tasks](families/working_memory_span.md)
 
-**Also known as:** DS, Forward/Backward Span
+**Also known as:** DS, Forward/Backward Span, Digit Span
 
 Auditory or visual digit sequences reproduced in forward or backward order; longest correctly reproduced length indexes verbal short-term and working memory span.
 
@@ -111,12 +111,12 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Baddeley, A. D. (1986). *Working Memory*. Oxford University Press.
-- Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*, 63(2), 81–97.
+- Baddeley, A. D. (1986). *Working Memory*. Oxford University Press. ([DOI](https://doi.org/10.1016/s0166-4115(08)61202-9))
+- Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*, 63(2), 81–97. ([DOI](https://doi.org/10.1037/h0043158), [PubMed](https://pubmed.ncbi.nlm.nih.gov/13310704/))
 
-## Recent references
+## Further references
 
-- Woods, D. L., Kishiyama, M. M., Yund, E. W., Herron, T. J., Edwards, B., Poliva, O., ... & Reed, B. (2011). Improving digit span assessment of short-term verbal memory. *Journal of Clinical and Experimental Neuropsychology*, 33(1), 101–111.
+- Woods, D. L., Kishiyama, M. M., Yund, E. W., Herron, T. J., Edwards, B., Poliva, O., ... & Reed, B. (2011). Improving digit span assessment of short-term verbal memory. *Journal of Clinical and Experimental Neuropsychology*, 33(1), 101–111. ([DOI](https://doi.org/10.1080/13803395.2010.550602), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21957866/))
 
 ## External links
 

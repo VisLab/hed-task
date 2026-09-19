@@ -91,16 +91,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Knowlton, B. J., Squire, L. R., & Gluck, M. A. (1994). Probabilistic classification learning in amnesia. *Learning & Memory*, 1(2), 106-120.
-- Poldrack, R. A., Prabhakaran, V., Seger, C. A., & Gabrieli, J. D. (1999). Striatal activation during acquisition of a cognitive skill. *Neuropsychology*, 13(4), 564-574.
-- Seger, C. A. (2008). How do the basal ganglia contribute to categorization? Their roles in generalization, response selection, and learning via feedback. *Neuroscience & Biobehavioral Reviews*, 32(2), 265-278.
+- Knowlton, B. J., Squire, L. R., & Gluck, M. A. (1994). Probabilistic classification learning in amnesia. *Learning & Memory*, 1(2), 106-120. ([DOI](https://doi.org/10.1101/lm.1.2.106), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10467589/))
+- Poldrack, R. A., Prabhakaran, V., Seger, C. A., & Gabrieli, J. D. (1999). Striatal activation during acquisition of a cognitive skill. *Neuropsychology*, 13(4), 564-574. ([DOI](https://doi.org/10.1037//0894-4105.13.4.564), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10527065/))
+- Seger, C. A. (2008). How do the basal ganglia contribute to categorization? Their roles in generalization, response selection, and learning via feedback. *Neuroscience & Biobehavioral Reviews*, 32(2), 265-278. ([DOI](https://doi.org/10.1016/j.neubiorev.2007.07.010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17919725/))
 
-## Recent references
+## Further references
 
-- Knowlton, B. J., & Patterson, T. K. (2018). Habit formation and the striatum. *Current Topics in Behavioral Neurosciences*, 37, 275–295.
-- Meeter, M., Myers, C. E., Shohamy, D., Hopkins, R. O., & Gluck, M. A. (2006). Strategies in probabilistic categorization: Results from a new way of analyzing performance. *Learning & Memory*, 13(2), 230–239.
-- Price, A. L. (2009). Distinguishing the contributions of implicit and explicit processes to performance of the weather prediction task. *Memory & Cognition*, 37(2), 210–222.
-- Foerde, K., Knowlton, B. J., & Poldrack, R. A. (2006). Modulation of competing memory systems by distraction. *Proceedings of the National Academy of Sciences*, 103(31), 11778–11783.
+- Knowlton, B. J., & Patterson, T. K. (2018). Habit formation and the striatum. *Current Topics in Behavioral Neurosciences*, 37, 275–295. ([DOI](https://doi.org/10.1016/j.cobeha.2017.10.005))
+- Meeter, M., Myers, C. E., Shohamy, D., Hopkins, R. O., & Gluck, M. A. (2006). Strategies in probabilistic categorization: Results from a new way of analyzing performance. *Learning & Memory*, 13(2), 230–239. ([DOI](https://doi.org/10.1101/lm.43006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16547162/))
+- Price, A. L. (2009). Distinguishing the contributions of implicit and explicit processes to performance of the weather prediction task. *Memory & Cognition*, 37(2), 210–222. ([DOI](https://doi.org/10.3758/mc.37.2.210), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19223570/))
+- Foerde, K., Knowlton, B. J., & Poldrack, R. A. (2006). Modulation of competing memory systems by distraction. *Proceedings of the National Academy of Sciences*, 103(31), 11778–11783. ([DOI](https://doi.org/10.1073/pnas.0602659103), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16868087/))
 
 ## External links
 

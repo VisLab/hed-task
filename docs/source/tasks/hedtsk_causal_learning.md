@@ -95,14 +95,14 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Shanks, D. R., & Dickinson, A. (1987). Associative accounts of causality judgment. *Psychology of Learning and Motivation*, 21, 229-261.
-- Cheng, P. W. (1997). From covariation to causation: A causal power theory. *Psychological Review*, 104(2), 367-405.
-- Dickinson, A., Shanks, D., & Evenden, J. (1984). Judgement of act-outcome contingency: The role of selective attribution. *Quarterly Journal of Experimental Psychology Section A*, 36(1), 29-50.
+- Shanks, D. R., & Dickinson, A. (1987). Associative accounts of causality judgment. *Psychology of Learning and Motivation*, 21, 229-261. ([DOI](https://doi.org/10.1016/0023-9690(87)90008-7))
+- Cheng, P. W. (1997). From covariation to causation: A causal power theory. *Psychological Review*, 104(2), 367-405. ([DOI](https://doi.org/10.1037//0033-295x.104.2.367))
+- Dickinson, A., Shanks, D., & Evenden, J. (1984). Judgement of act-outcome contingency: The role of selective attribution. *Quarterly Journal of Experimental Psychology Section A*, 36(1), 29-50. ([DOI](https://doi.org/10.1080/14640748408401502))
 
-## Recent references
+## Further references
 
-- De Houwer, J., & Beckers, T. (2002). A review of recent developments in research and theories on human contingency learning. *Quarterly Journal of Experimental Psychology Section B*, 55(4), 289-310.
-- Griffiths, T. L., & Tenenbaum, J. B. (2005). Structure and strength in causal induction. *Cognitive Psychology*, 51(4), 334-384.
-- Perales, J. C., Catena, A., Shanks, D. R., & Gonzalez, J. A. (2005). Dissociation between judgments and outcome-expectancy measures in covariation learning: A signal detection theory approach. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 31(5), 1105-1120.
-- Lu, H., Yuille, A. L., Liljeholm, M., Cheng, P. W., & Holyoak, K. J. (2008). Bayesian generic priors for causal learning. *Psychological Review*, 115(4), 955-984.
+- De Houwer, J., & Beckers, T. (2002). A review of recent developments in research and theories on human contingency learning. *Quarterly Journal of Experimental Psychology Section B*, 55(4), 289-310. ([DOI](https://doi.org/10.1080/02724990244000034), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12350283/))
+- Griffiths, T. L., & Tenenbaum, J. B. (2005). Structure and strength in causal induction. *Cognitive Psychology*, 51(4), 334-384. ([DOI](https://doi.org/10.1016/j.cogpsych.2005.05.004), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16168981/))
+- Perales, J. C., Catena, A., Shanks, D. R., & Gonzalez, J. A. (2005). Dissociation between judgments and outcome-expectancy measures in covariation learning: A signal detection theory approach. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 31(5), 1105-1120. ([DOI](https://doi.org/10.1037/0278-7393.31.5.1105), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16248753/))
+- Lu, H., Yuille, A. L., Liljeholm, M., Cheng, P. W., & Holyoak, K. J. (2008). Bayesian generic priors for causal learning. *Psychological Review*, 115(4), 955-984. ([DOI](https://doi.org/10.1037/a0013256), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18954210/))
 

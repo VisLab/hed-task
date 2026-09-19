@@ -5,7 +5,7 @@
 
 **Family:** [Emotion elicitation and regulation tasks](families/emotion.md)
 
-**Also known as:** Ekman Faces Task, FER
+**Also known as:** Ekman Faces Task, Facial Emotion Recognition
 
 Identification of an emotion category from a face image; accuracy and RT per emotion index emotion decoding ability.
 
@@ -95,15 +95,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Ekman, P., & Friesen, W. V. (1976). *Pictures of Facial Affect*. Palo Alto, CA: Consulting Psychologists Press.
-- Adolphs, R., Tranel, D., Damasio, H., & Damasio, A. (1994). Impaired recognition of emotion in facial expressions following bilateral damage to the human amygdala. *Nature*, 372(6507), 669-672.
+- Ekman, P., & Friesen, W. V. (1976). *Pictures of Facial Affect*. Palo Alto, CA: Consulting Psychologists Press. ([DOI](https://doi.org/10.1007/bf01115465))
+- Adolphs, R., Tranel, D., Damasio, H., & Damasio, A. (1994). Impaired recognition of emotion in facial expressions following bilateral damage to the human amygdala. *Nature*, 372(6507), 669-672. ([DOI](https://doi.org/10.1038/372669a0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/7990957/))
 
-## Recent references
+## Further references
 
-- Calvo, M. G., & Nummenmaa, L. (2016). Perceptual and affective mechanisms in facial expression recognition: An integrative review. *Cognition and Emotion*, 30(6), 1081–1106.
-- Kret, M. E., & De Gelder, B. (2012). A review on sex differences in processing emotional signals. *Neuropsychologia*, 50(7), 1211–1221.
-- Dobs, K., Isik, L., Pantazis, D., & Kanwisher, N. (2019). How face perception unfolds over time. *Nature Communications*, 10(1), 1258.
-- Palermo, R., & Rhodes, G. (2007). Are you always on my mind? A review of how face perception and attention interact. *Neuropsychologia*, 45(1), 75–92. [Updated: Barrett, L. F., Adolphs, R., Marsella, S., Martinez, A. M., & Pollak, S. D. (2019). Emotional expressions reconsidered: Challenges to inferring emotion from human facial movements. *Psychological Science in the Public Interest*, 20(1), 1–68.]
+- Calvo, M. G., & Nummenmaa, L. (2016). Perceptual and affective mechanisms in facial expression recognition: An integrative review. *Cognition and Emotion*, 30(6), 1081–1106. ([DOI](https://doi.org/10.1016/b978-0-12-800951-2.00016-9))
+- Kret, M. E., & De Gelder, B. (2012). A review on sex differences in processing emotional signals. *Neuropsychologia*, 50(7), 1211–1221. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2011.12.022), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22245006/))
+- Dobs, K., Isik, L., Pantazis, D., & Kanwisher, N. (2019). How face perception unfolds over time. *Nature Communications*, 10(1), 1258. ([DOI](https://doi.org/10.1038/s41467-019-09239-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30890707/))
+- Palermo, R., & Rhodes, G. (2007). Are you always on my mind? A review of how face perception and attention interact. *Neuropsychologia*, 45(1), 75–92. [Updated: Barrett, L. F., Adolphs, R., Marsella, S., Martinez, A. M., & Pollak, S. D. (2019). Emotional expressions reconsidered: Challenges to inferring emotion from human facial movements. *Psychological Science in the Public Interest*, 20(1), 1–68.] ([DOI](https://doi.org/10.1016/j.neuropsychologia.2006.04.025), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16797607/))
 
 ## External links
 

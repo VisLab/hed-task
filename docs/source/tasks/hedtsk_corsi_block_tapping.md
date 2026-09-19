@@ -90,13 +90,13 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Corsi, P. M. (1972). *Human memory and the medial temporal region of the brain*. Unpublished doctoral dissertation, McGill University.
-- Milner, B. (1971). Interhemispheric differences in the localization of psychological processes in man. *British Medical Bulletin*, 27(3), 272–277.
+- Corsi, P. M. (1972). *Human memory and the medial temporal region of the brain*. Unpublished doctoral dissertation, McGill University. ([DOI](https://doi.org/10.1177/056943457201600124))
+- Milner, B. (1971). Interhemispheric differences in the localization of psychological processes in man. *British Medical Bulletin*, 27(3), 272–277. ([DOI](https://doi.org/10.1093/oxfordjournals.bmb.a070866), [PubMed](https://pubmed.ncbi.nlm.nih.gov/4937273/))
 
-## Recent references
+## Further references
 
-- Pagulayan, K. F., Busch, R. M., Medina, K. L., Bartok, J. A., & Krikorian, R. (2006). Developmental normative data for the Corsi Block-Tapping Task. *Journal of Clinical and Experimental Neuropsychology*, 28(6), 1043–1052.
-- Brunetti, R., Del Gatto, C., & Delogu, F. (2014). eCorsi: Implementation and testing of the Corsi Block-Tapping Task for digital tablets. *Frontiers in Psychology*, 5, 939.
+- Pagulayan, K. F., Busch, R. M., Medina, K. L., Bartok, J. A., & Krikorian, R. (2006). Developmental normative data for the Corsi Block-Tapping Task. *Journal of Clinical and Experimental Neuropsychology*, 28(6), 1043–1052. ([DOI](https://doi.org/10.1080/13803390500350977), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16822742/))
+- Brunetti, R., Del Gatto, C., & Delogu, F. (2014). eCorsi: Implementation and testing of the Corsi Block-Tapping Task for digital tablets. *Frontiers in Psychology*, 5, 939. ([DOI](https://doi.org/10.3389/fpsyg.2014.00939), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25228888/))
 
 ## External links
 

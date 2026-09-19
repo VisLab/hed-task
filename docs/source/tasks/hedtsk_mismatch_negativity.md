@@ -5,7 +5,7 @@
 
 **Family:** [Oddball, vigilance and continuous performance tasks](families/oddball_and_vigilance.md)
 
-**Also known as:** MMN, Mismatch Negativity Paradigm
+**Also known as:** MMN, Mismatch Negativity Paradigm, Mismatch Negativity
 
 Passive auditory oddball in which rare deviant sounds elicit a negative ERP around 150–250 ms, indexing pre-attentive auditory change detection.
 
@@ -100,14 +100,13 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Naatanen, R., Gaillard, A. W. K., & Mantysalo, S. (1978). Early selective-attention effect on evoked potential reinterpreted. *Acta Psychologica*, 42(4), 313-329.
-- Naatanen, R., Paavilainen, P., Rinne, T., & Alho, K. (2007). The mismatch negativity (MMN) in basic research of central auditory processing: A review. *Clinical Neurophysiology*, 118(12), 2544-2590.
-- Garrido, M. I., Kilner, J. M., Stephan, K. E., & Friston, K. J. (2009). The mismatch negativity: A review of underlying mechanisms. *Clinical Neurophysiology*, 120(3), 453-463.
+- Naatanen, R., Gaillard, A. W. K., & Mantysalo, S. (1978). Early selective-attention effect on evoked potential reinterpreted. *Acta Psychologica*, 42(4), 313-329. ([DOI](https://doi.org/10.1016/0001-6918(78)90006-9), [PubMed](https://pubmed.ncbi.nlm.nih.gov/685709/))
+- Naatanen, R., Paavilainen, P., Rinne, T., & Alho, K. (2007). The mismatch negativity (MMN) in basic research of central auditory processing: A review. *Clinical Neurophysiology*, 118(12), 2544-2590. ([DOI](https://doi.org/10.1016/j.clinph.2007.04.026), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17931964/))
+- Garrido, M. I., Kilner, J. M., Stephan, K. E., & Friston, K. J. (2009). The mismatch negativity: A review of underlying mechanisms. *Clinical Neurophysiology*, 120(3), 453-463. ([DOI](https://doi.org/10.1016/j.clinph.2008.11.029), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19181570/))
 
-## Recent references
+## Further references
 
-- Näätänen, R., Kujala, T., & Winkler, I. (2011). Auditory processing that leads to conscious perception: A unique window to central auditory processing opened by the mismatch negativity and related responses. *Psychophysiology*, 48(1), 4–22.
-- Garrido, M. I., Kilner, J. M., Stephan, K. E., & Friston, K. J. (2009). The mismatch negativity: A review of underlying mechanisms. *Clinical Neurophysiology*, 120(3), 453–463.
-- Erickson, M. A., Ruffle, A., & Gold, J. M. (2016). A meta-analysis of mismatch negativity in schizophrenia: From clinical risk to disease specificity and progression. *Biological Psychiatry*, 79(12), 980–987.
-- Wacongne, C., Labyt, E., van Wassenhove, V., Bekinschtein, T., Naccache, L., & Dehaene, S. (2011). Evidence for a hierarchy of predictions and prediction errors in the human cortex. *Proceedings of the National Academy of Sciences*, 108(51), 20754–20759.
+- Näätänen, R., Kujala, T., & Winkler, I. (2011). Auditory processing that leads to conscious perception: A unique window to central auditory processing opened by the mismatch negativity and related responses. *Psychophysiology*, 48(1), 4–22. ([DOI](https://doi.org/10.1111/j.1469-8986.2011.01239.x))
+- Erickson, M. A., Ruffle, A., & Gold, J. M. (2016). A meta-analysis of mismatch negativity in schizophrenia: From clinical risk to disease specificity and progression. *Biological Psychiatry*, 79(12), 980–987. ([DOI](https://doi.org/10.1016/j.biopsych.2015.08.025), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26444073/))
+- Wacongne, C., Labyt, E., van Wassenhove, V., Bekinschtein, T., Naccache, L., & Dehaene, S. (2011). Evidence for a hierarchy of predictions and prediction errors in the human cortex. *Proceedings of the National Academy of Sciences*, 108(51), 20754–20759. ([DOI](https://doi.org/10.1073/pnas.1117807108), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22147913/))
 

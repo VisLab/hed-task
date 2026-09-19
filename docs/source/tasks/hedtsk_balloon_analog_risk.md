@@ -5,7 +5,7 @@
 
 **Family:** [Reward, risk and value-based choice tasks](families/reward_and_value_choice.md)
 
-**Also known as:** BART, Balloon Task
+**Also known as:** BART, Balloon Task, Balloon Analog Risk
 
 Sequential pumping of a virtual balloon for monetary reward with stochastic popping; average pumps per un-popped balloon indexes risk-taking.
 
@@ -91,16 +91,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Lejuez, C. W., Read, J. P., Kahler, C. W., et al. (2002). Evaluation of a behavioral measure of risk taking: The Balloon Analogue Risk Task (BART). *Journal of Experimental Psychology: Applied*, 8(2), 75-84.
-- Rao, H., Korczykowski, M., Pluta, J., Hoang, A., & Detre, J. A. (2008). Neural correlates of voluntary and involuntary risk taking in the human brain. *NeuroImage*, 42(2), 902-910.
-- Schonberg, T., Fox, C. R., & Poldrack, R. A. (2011). Mind the gap: Bridging economic and naturalistic risk-taking with cognitive neuroscience. *Trends in Cognitive Sciences*, 15(1), 11-19.
+- Lejuez, C. W., Read, J. P., Kahler, C. W., et al. (2002). Evaluation of a behavioral measure of risk taking: The Balloon Analogue Risk Task (BART). *Journal of Experimental Psychology: Applied*, 8(2), 75-84. ([DOI](https://doi.org/10.1037/1076-898x.8.2.75), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12075692/))
+- Rao, H., Korczykowski, M., Pluta, J., Hoang, A., & Detre, J. A. (2008). Neural correlates of voluntary and involuntary risk taking in the human brain. *NeuroImage*, 42(2), 902-910. ([DOI](https://doi.org/10.1016/j.neuroimage.2008.05.046), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18582578/))
+- Schonberg, T., Fox, C. R., & Poldrack, R. A. (2011). Mind the gap: Bridging economic and naturalistic risk-taking with cognitive neuroscience. *Trends in Cognitive Sciences*, 15(1), 11-19. ([DOI](https://doi.org/10.1016/j.tics.2010.10.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21130018/))
 
-## Recent references
+## Further references
 
-- Pleskac, T. J. (2008). Decision making and learning while taking sequential risks. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 34(1), 167–185.
-- Wallsten, T. S., Pleskac, T. J., & Lejuez, C. W. (2005). Modeling behavior in a clinically diagnostic sequential risk-taking task. *Psychological Review*, 112(4), 862–880.
-- Schonberg, T., Fox, C. R., & Poldrack, R. A. (2011). Mind the gap: Bridging economic and naturalistic risk-taking with cognitive neuroscience. *Trends in Cognitive Sciences*, 15(1), 11–19. [Updated: Helfinstein, S. M., et al. (2014). Predicting risky choices from brain activity patterns. *Proceedings of the National Academy of Sciences*, 111(7), 2470–2475.]
-- Hunt, M. K., Hopko, D. R., Bare, R., Lejuez, C. W., & Robinson, E. V. (2005). Construct validity of the Balloon Analog Risk Task (BART). *Assessment*, 12(4), 416–428.
+- Pleskac, T. J. (2008). Decision making and learning while taking sequential risks. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 34(1), 167–185. ([DOI](https://doi.org/10.1037/0278-7393.34.1.167), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18194061/))
+- Wallsten, T. S., Pleskac, T. J., & Lejuez, C. W. (2005). Modeling behavior in a clinically diagnostic sequential risk-taking task. *Psychological Review*, 112(4), 862–880. ([DOI](https://doi.org/10.1037/0033-295x.112.4.862), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16262471/))
+- Hunt, M. K., Hopko, D. R., Bare, R., Lejuez, C. W., & Robinson, E. V. (2005). Construct validity of the Balloon Analog Risk Task (BART). *Assessment*, 12(4), 416–428. ([DOI](https://doi.org/10.1177/1073191105278740), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16244122/))
 
 ## External links
 

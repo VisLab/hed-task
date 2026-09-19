@@ -76,16 +76,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Britten, K. H., Shadlen, M. N., Newsome, W. T., & Movshon, J. A. (1992). The analysis of visual motion: A comparison of neuronal and psychophysical performance. *Journal of Neuroscience*, 12(12), 4745–4765.
-- Shadlen, M. N., & Newsome, W. T. (2001). Neural basis of a perceptual decision in the parietal cortex (area LIP) of the rhesus monkey. *Journal of Neurophysiology*, 86(4), 1916–1936.
-- Gold, J. I., & Shadlen, M. N. (2007). The neural basis of decision making. *Annual Review of Neuroscience*, 30, 535–574.
+- Britten, K. H., Shadlen, M. N., Newsome, W. T., & Movshon, J. A. (1992). The analysis of visual motion: A comparison of neuronal and psychophysical performance. *Journal of Neuroscience*, 12(12), 4745–4765. ([DOI](https://doi.org/10.1523/jneurosci.12-12-04745.1992), [PubMed](https://pubmed.ncbi.nlm.nih.gov/1464765/))
+- Shadlen, M. N., & Newsome, W. T. (2001). Neural basis of a perceptual decision in the parietal cortex (area LIP) of the rhesus monkey. *Journal of Neurophysiology*, 86(4), 1916–1936. ([DOI](https://doi.org/10.1152/jn.2001.86.4.1916), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11600651/))
+- Gold, J. I., & Shadlen, M. N. (2007). The neural basis of decision making. *Annual Review of Neuroscience*, 30, 535–574. ([DOI](https://doi.org/10.1146/annurev.neuro.29.051605.113038), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17600525/))
 
-## Recent references
+## Further references
 
-- Ratcliff, R., Smith, P. L., Brown, S. D., & McKoon, G. (2016). Diffusion decision model: Current issues and history. *Trends in Cognitive Sciences*, 20(4), 260–281.
-- Shooshtari, S. V., Sadrabadi, J. E., Azizi, Z., & Ebrahimpour, R. (2019). Confidence representation of perceptual decision by EEG and eye data in a random dot motion task. *Neuroscience*, 406, 510–527.
-- Steinemann, N. A., O'Connell, R. G., & Kelly, S. P. (2018). Decisions are expedited through multiple neural adjustments spanning the sensorimotor hierarchy. *Nature Communications*, 9, 3627.
-- Turner, B. M., van Maanen, L., Forstmann, B. U., & Brown, S. D. (2018). Approaches to analysis in model-based cognitive neuroscience. *Journal of Mathematical Psychology*, 76, 65–79.
+- Ratcliff, R., Smith, P. L., Brown, S. D., & McKoon, G. (2016). Diffusion decision model: Current issues and history. *Trends in Cognitive Sciences*, 20(4), 260–281. ([DOI](https://doi.org/10.1016/j.tics.2016.01.007), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26952739/))
+- Shooshtari, S. V., Sadrabadi, J. E., Azizi, Z., & Ebrahimpour, R. (2019). Confidence representation of perceptual decision by EEG and eye data in a random dot motion task. *Neuroscience*, 406, 510–527. ([DOI](https://doi.org/10.1016/j.neuroscience.2019.03.031), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30904664/))
+- Steinemann, N. A., O'Connell, R. G., & Kelly, S. P. (2018). Decisions are expedited through multiple neural adjustments spanning the sensorimotor hierarchy. *Nature Communications*, 9, 3627. ([DOI](https://doi.org/10.1038/s41467-018-06117-0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30194305/))
+- Turner, B. M., van Maanen, L., Forstmann, B. U., & Brown, S. D. (2018). Approaches to analysis in model-based cognitive neuroscience. *Journal of Mathematical Psychology*, 76, 65–79. ([DOI](https://doi.org/10.1016/j.neubiorev.2018.04.011), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29660415/))
 
 ## External links
 

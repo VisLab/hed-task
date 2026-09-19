@@ -123,17 +123,17 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Raymond, J. E., Shapiro, K. L., & Arnell, K. M. (1992). Temporary suppression of visual processing in an RSVP task: An attentional blink? Journal of Experimental Psychology: Human Perception and Performance, 18(3), 849-860.
-- Chun, M. M., & Potter, M. C. (1995). A two-stage model for multiple target detection in rapid serial visual presentation. Journal of Experimental Psychology: Human Perception and Performance, 21(1), 109-127.
-- Potter, M. C. (1976). Short-term conceptual memory for pictures. Journal of Experimental Psychology: Human Learning and Memory, 2(5), 509-522.
+- Raymond, J. E., Shapiro, K. L., & Arnell, K. M. (1992). Temporary suppression of visual processing in an RSVP task: An attentional blink? Journal of Experimental Psychology: Human Perception and Performance, 18(3), 849-860. ([DOI](https://doi.org/10.1037/0096-1523.18.3.849), [PubMed](https://pubmed.ncbi.nlm.nih.gov/1500880/))
+- Chun, M. M., & Potter, M. C. (1995). A two-stage model for multiple target detection in rapid serial visual presentation. Journal of Experimental Psychology: Human Perception and Performance, 21(1), 109-127. ([DOI](https://doi.org/10.1037/0096-1523.21.1.109), [PubMed](https://pubmed.ncbi.nlm.nih.gov/7707027/))
+- Potter, M. C. (1976). Short-term conceptual memory for pictures. Journal of Experimental Psychology: Human Learning and Memory, 2(5), 509-522. ([DOI](https://doi.org/10.1037/0278-7393.2.5.509), [PubMed](https://pubmed.ncbi.nlm.nih.gov/1003124/))
 
-## Recent references
+## Further references
 
-- Dux, P. E., & Marois, R. (2009). The attentional blink: A review of data and theory. Attention, Perception, & Psychophysics, 71(8), 1683-1700.
-- Olivers, C. N. L., & Meeter, M. (2008). A boost and bounce theory of temporal attention. Psychological Review, 115(4), 836-863.
-- Most, S. B., Chun, M. M., Widders, D. M., & Zald, D. H. (2005). Attentional rubbernecking: Cognitive control and personality in emotion-induced blindness. Psychonomic Bulletin & Review, 12(4), 654-661.
-- Marois, R., & Ivanoff, J. (2005). Capacity limits of information processing in the brain. Trends in Cognitive Sciences, 9(6), 296-305.
-- Asplund, C. L., Fougnie, D., Zughni, S., Martin, J. W., & Marois, R. (2014). The attentional blink reveals the probabilistic nature of discrete conscious perception. Psychological Science, 25(3), 824-831.
+- Dux, P. E., & Marois, R. (2009). The attentional blink: A review of data and theory. Attention, Perception, & Psychophysics, 71(8), 1683-1700. ([DOI](https://doi.org/10.3758/app.71.8.1683), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19933555/))
+- Olivers, C. N. L., & Meeter, M. (2008). A boost and bounce theory of temporal attention. Psychological Review, 115(4), 836-863. ([DOI](https://doi.org/10.1037/a0013395), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18954206/))
+- Most, S. B., Chun, M. M., Widders, D. M., & Zald, D. H. (2005). Attentional rubbernecking: Cognitive control and personality in emotion-induced blindness. Psychonomic Bulletin & Review, 12(4), 654-661. ([DOI](https://doi.org/10.3758/bf03196754), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16447378/))
+- Marois, R., & Ivanoff, J. (2005). Capacity limits of information processing in the brain. Trends in Cognitive Sciences, 9(6), 296-305. ([DOI](https://doi.org/10.1016/j.tics.2005.04.010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15925809/))
+- Asplund, C. L., Fougnie, D., Zughni, S., Martin, J. W., & Marois, R. (2014). The attentional blink reveals the probabilistic nature of discrete conscious perception. Psychological Science, 25(3), 824-831. ([DOI](https://doi.org/10.1177/0956797613513810), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24434237/))
 
 ## External links
 

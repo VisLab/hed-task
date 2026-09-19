@@ -5,7 +5,7 @@ Every correspondence between the 103 tasks in this catalog and the
 [methodology](../methods/atlas_mapping/index.md) page explains what the match types mean
 and how each row was decided.
 
-The source of record is `.working/mappings/`, not this page.
+The source of record is `data/mappings/`, not this page.
 
 Atlas entry names are reproduced exactly as the API returns them. A few carry a curly
 apostrophe or an en dash, and one (`Penn` + a mis-encoded apostrophe + `s Logical

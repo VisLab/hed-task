@@ -81,14 +81,14 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Sternberg, S. (1966). High-speed scanning in human memory. *Science*, 153(3736), 652-654.
-- Sternberg, S. (1969). Memory-scanning: Mental processes revealed by reaction-time experiments. *American Scientist*, 57(4), 421-457.
+- Sternberg, S. (1966). High-speed scanning in human memory. *Science*, 153(3736), 652-654. ([DOI](https://doi.org/10.1126/science.153.3736.652), [PubMed](https://pubmed.ncbi.nlm.nih.gov/5939936/))
+- Sternberg, S. (1969). Memory-scanning: Mental processes revealed by reaction-time experiments. *American Scientist*, 57(4), 421-457. ([DOI](https://doi.org/10.1177/000276426901200412))
 
-## Recent references
+## Further references
 
-- Donkin, C., & Nosofsky, R. M. (2012). A power-law model of psychological memory strength in short-term and long-term recognition. *Psychological Science*, 23(6), 625–634.
-- Van Vugt, M. K., Schulze-Bonhage, A., Litt, B., Brandt, A., & Kahana, M. J. (2010). Hippocampal gamma oscillations increase with memory load. *Journal of Neuroscience*, 30(7), 2694–2699.
-- Oberauer, K., Lewandowsky, S., Awh, E., Brown, G. D., Conway, A., et al. (2018). Benchmarks for models of short-term and working memory. *Psychological Bulletin*, 144(9), 885–958.
+- Donkin, C., & Nosofsky, R. M. (2012). A power-law model of psychological memory strength in short-term and long-term recognition. *Psychological Science*, 23(6), 625–634. ([DOI](https://doi.org/10.1177/0956797611430961), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22527527/))
+- Van Vugt, M. K., Schulze-Bonhage, A., Litt, B., Brandt, A., & Kahana, M. J. (2010). Hippocampal gamma oscillations increase with memory load. *Journal of Neuroscience*, 30(7), 2694–2699. ([DOI](https://doi.org/10.1523/jneurosci.0567-09.2010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20164353/))
+- Oberauer, K., Lewandowsky, S., Awh, E., Brown, G. D., Conway, A., et al. (2018). Benchmarks for models of short-term and working memory. *Psychological Bulletin*, 144(9), 885–958. ([DOI](https://doi.org/10.1037/bul0000153), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30148379/))
 
 ## External links
 

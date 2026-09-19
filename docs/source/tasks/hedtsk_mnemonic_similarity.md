@@ -5,7 +5,7 @@
 
 **Family:** [Recall and recognition memory tests](families/recall_and_recognition.md)
 
-**Also known as:** MST, Mnemonic Discrimination Task, Pattern Separation Task
+**Also known as:** MST, Mnemonic Discrimination Task, Pattern Separation Task, Mnemonic Similarity
 
 Incidental encoding of images followed by a test with old, new, and lure items; discrimination of lures from repetitions indexes pattern separation.
 
@@ -92,16 +92,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Kirwan, C. B., & Stark, C. E. L. (2007). Overcoming interference: An fMRI investigation of pattern separation in the medial temporal lobe. *Learning & Memory*, 14(9), 625–633.
-- Stark, S. M., Yassa, M. A., Lacy, J. W., & Stark, C. E. L. (2013). A task to assess behavioral pattern separation (BPS) in humans: Data from healthy aging and mild cognitive impairment. *Neuropsychologia*, 51(12), 2442–2449.
-- Yassa, M. A., & Stark, C. E. L. (2011). Pattern separation in the hippocampus. *Trends in Neurosciences*, 34(10), 515–525.
+- Kirwan, C. B., & Stark, C. E. L. (2007). Overcoming interference: An fMRI investigation of pattern separation in the medial temporal lobe. *Learning & Memory*, 14(9), 625–633. ([DOI](https://doi.org/10.1101/lm.663507), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17848502/))
+- Stark, S. M., Yassa, M. A., Lacy, J. W., & Stark, C. E. L. (2013). A task to assess behavioral pattern separation (BPS) in humans: Data from healthy aging and mild cognitive impairment. *Neuropsychologia*, 51(12), 2442–2449. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2012.12.014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23313292/))
+- Yassa, M. A., & Stark, C. E. L. (2011). Pattern separation in the hippocampus. *Trends in Neurosciences*, 34(10), 515–525. ([DOI](https://doi.org/10.1016/j.tins.2011.06.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21788086/))
 
-## Recent references
+## Further references
 
-- Lacy, J. W., Yassa, M. A., Stark, S. M., Muftuler, L. T., & Stark, C. E. L. (2011). Distinct pattern separation related transfer functions in human CA3/dentate and CA1 revealed using high-resolution fMRI and variable mnemonic similarity. *Learning & Memory*, 18(1), 15–18.
-- Bakker, A., Kirwan, C. B., Miller, M., & Stark, C. E. L. (2008). Pattern separation in the human hippocampal CA3 and dentate gyrus. *Science*, 319(5870), 1640–1642.
-- Stark, S. M., & Stark, C. E. L. (2017). Age-related deficits in the mnemonic similarity task for objects and scenes. *Behavioural Brain Research*, 333, 109–117.
-- Reagh, Z. M., & Yassa, M. A. (2014). Object and spatial mnemonic interference differentially engage lateral and medial entorhinal cortex in humans. *Proceedings of the National Academy of Sciences*, 111(40), E4264–E4273.
+- Lacy, J. W., Yassa, M. A., Stark, S. M., Muftuler, L. T., & Stark, C. E. L. (2011). Distinct pattern separation related transfer functions in human CA3/dentate and CA1 revealed using high-resolution fMRI and variable mnemonic similarity. *Learning & Memory*, 18(1), 15–18. ([DOI](https://doi.org/10.1002/hipo.20808), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20865732/))
+- Bakker, A., Kirwan, C. B., Miller, M., & Stark, C. E. L. (2008). Pattern separation in the human hippocampal CA3 and dentate gyrus. *Science*, 319(5870), 1640–1642. ([DOI](https://doi.org/10.1126/science.1152882), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18356518/))
+- Stark, S. M., & Stark, C. E. L. (2017). Age-related deficits in the mnemonic similarity task for objects and scenes. *Behavioural Brain Research*, 333, 109–117. ([DOI](https://doi.org/10.1016/j.bbr.2017.06.049), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28673769/))
+- Reagh, Z. M., & Yassa, M. A. (2014). Object and spatial mnemonic interference differentially engage lateral and medial entorhinal cortex in humans. *Proceedings of the National Academy of Sciences*, 111(40), E4264–E4273. ([DOI](https://doi.org/10.1073/pnas.1411250111), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25246569/))
 
 ## External links
 

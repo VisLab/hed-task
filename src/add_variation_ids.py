@@ -1,4 +1,4 @@
-"""Give every task variation in .working/task_details.json a stable slug id.
+"""Give every task variation in data/task_details.json a stable slug id.
 
 Variations previously had no identifier at all, only a name, so anything referring to
 one had to key on the name and would break silently if the name were edited. This adds
@@ -10,7 +10,7 @@ Format::
     hedvar_<parent slug without the hedtsk_ prefix>__<variation slug>
     hedvar_stroop_color_word__counting_stroop
 
-The `hedvar_` prefix follows the convention in `.working/tasks_criteria.md` that an
+The `hedvar_` prefix follows the convention in `data/tasks_criteria.md` that an
 identifier's prefix types it: `hedtsk_` is a task, `hed_` is a process, `hedvar_` is a
 task variation. A double underscore separates the parent slug from the variation slug,
 so the parent is always recoverable and the two parts never run together.
@@ -33,7 +33,7 @@ import json
 import re
 from pathlib import Path
 
-DEFAULT_TASKS = Path(__file__).parent.parent / ".working" / "task_details.json"
+DEFAULT_TASKS = Path(__file__).parent.parent / "data" / "task_details.json"
 
 
 def slugify(text: str) -> str:

@@ -5,7 +5,7 @@
 
 **Family:** [Rule use, planning and reasoning tasks](families/executive_and_reasoning.md)
 
-**Also known as:** TOL, Shallice Tower Task
+**Also known as:** TOL, Shallice Tower Task, Tower of London
 
 Rearrange colored beads on pegs to match a goal state in the minimum number of moves; pre-execution latency and move efficiency index planning.
 
@@ -86,16 +86,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Shallice, T. (1982). Specific impairments of planning. *Philosophical Transactions of the Royal Society of London, Series B*, 298(1089), 199-209.
-- Owen, A. M., Doyon, J., Petrides, M., & Evans, A. C. (1996). Planning and spatial working memory: A positron emission tomography study in humans. *European Journal of Neuroscience*, 8(2), 353-364.
-- Unterrainer, J. M., & Owen, A. M. (2006). Planning and problem solving: From neuropsychology to functional neuroimaging. *Journal of Physiology-Paris*, 99(4-6), 308-317.
+- Shallice, T. (1982). Specific impairments of planning. *Philosophical Transactions of the Royal Society of London, Series B*, 298(1089), 199-209. ([DOI](https://doi.org/10.1098/rstb.1982.0082), [PubMed](https://pubmed.ncbi.nlm.nih.gov/6125971/))
+- Owen, A. M., Doyon, J., Petrides, M., & Evans, A. C. (1996). Planning and spatial working memory: A positron emission tomography study in humans. *European Journal of Neuroscience*, 8(2), 353-364. ([DOI](https://doi.org/10.1111/j.1460-9568.1996.tb01219.x), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8714706/))
+- Unterrainer, J. M., & Owen, A. M. (2006). Planning and problem solving: From neuropsychology to functional neuroimaging. *Journal of Physiology-Paris*, 99(4-6), 308-317. ([DOI](https://doi.org/10.1016/j.jphysparis.2006.03.014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16750617/))
 
-## Recent references
+## Further references
 
-- Kaller, C. P., Rahm, B., Spreer, J., Weiller, C., & Unterrainer, J. M. (2011). Dissociable contributions of left and right dorsolateral prefrontal cortex in planning. *Cerebral Cortex*, 21(2), 307–317.
-- Andrés, P. (2003). Frontal cortex as the central executive of working memory: Time to revise our view. *Cortex*, 39(4-5), 871–895. [Updated context: Newman, L. M., et al. (2021). Planning and tower tasks: A systematic review and meta-analysis of structural neuroimaging. *NeuroImage: Clinical*, 30, 102662.]
-- Köstering, L., Nitschke, K., Schumacher, F. K., et al. (2015). Assessment of planning performance in clinical samples: Reliability and validity of the Tower of London task (TOL-F). *Neuropsychologia*, 75, 646–655.
-- Unterrainer, J. M., Rahm, B., Kaller, C. P., et al. (2004). Planning abilities and the Tower of London: Is this task measuring a discrete cognitive function? *Journal of Clinical and Experimental Neuropsychology*, 26(6), 846–856. [Updated: Ward, G., & Morris, R. (2005). Introduction to the psychology of planning. In *The Cognitive Psychology of Planning* (pp. 1–34). Psychology Press.]
+- Kaller, C. P., Rahm, B., Spreer, J., Weiller, C., & Unterrainer, J. M. (2011). Dissociable contributions of left and right dorsolateral prefrontal cortex in planning. *Cerebral Cortex*, 21(2), 307–317. ([DOI](https://doi.org/10.1002/hbm.21423), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22002416/))
+- Andrés, P. (2003). Frontal cortex as the central executive of working memory: Time to revise our view. *Cortex*, 39(4-5), 871–895. [Updated context: Newman, L. M., et al. (2021). Planning and tower tasks: A systematic review and meta-analysis of structural neuroimaging. *NeuroImage: Clinical*, 30, 102662.] ([DOI](https://doi.org/10.1016/s0010-9452(08)70868-2))
+- Köstering, L., Nitschke, K., Schumacher, F. K., et al. (2015). Assessment of planning performance in clinical samples: Reliability and validity of the Tower of London task (TOL-F). *Neuropsychologia*, 75, 646–655. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2015.07.017), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26197091/))
+- Unterrainer, J. M., Rahm, B., Kaller, C. P., et al. (2004). Planning abilities and the Tower of London: Is this task measuring a discrete cognitive function? *Journal of Clinical and Experimental Neuropsychology*, 26(6), 846–856. [Updated: Ward, G., & Morris, R. (2005). Introduction to the psychology of planning. In *The Cognitive Psychology of Planning* (pp. 1–34). Psychology Press.] ([DOI](https://doi.org/10.1080/13803390490509574), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15370380/))
 
 ## External links
 

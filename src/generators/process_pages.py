@@ -11,7 +11,7 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-from generators.utils import cell, process_anchor, table, task_link, truncate, write_page
+from generators.utils import cell, citation_line, process_anchor, split_references, table, task_link, truncate, write_page
 
 
 def generate(
@@ -86,7 +86,7 @@ def _write_process_index(
 
 # Text in the source data that records when something changed rather than what is true.
 # A published page states the current state, so these fields are republished from the
-# table below instead of verbatim. The source in .working/ is never edited - it is
+# table below instead of verbatim. The source in data/ is never edited - it is
 # produced elsewhere and an edit here would be lost on the next import.
 #
 # Rewriting each one by hand, rather than stripping clauses with a regex, is deliberate.
@@ -197,7 +197,7 @@ def _format_aliases(aliases: list) -> str:
 
 
 def _citations(refs: list[dict]) -> list[str]:
-    return [r.get("citation_string", "") for r in refs if r.get("citation_string")]
+    return [citation_line(r) for r in refs if r.get("citation_string")]
 
 
 def _write_category_page(procs_dir: Path, category: dict, cat_procs: list[dict]) -> int:
@@ -261,15 +261,16 @@ def _write_category_page(procs_dir: Path, category: dict, cat_procs: list[dict])
         else:
             parts.append("**Tasks that engage this process:** none in the current catalog.\n\n")
 
-        fund = _citations(proc.get("fundamental_references", []))
+        fund_refs, further_refs = split_references(proc)
+        fund = _citations(fund_refs)
         if fund:
             parts.append("**Fundamental references**\n\n")
             parts.extend(f"- {c}\n" for c in fund)
             parts.append("\n")
-        recent = _citations(proc.get("recent_references", []))
-        if recent:
-            parts.append("**Recent references**\n\n")
-            parts.extend(f"- {c}\n" for c in recent)
+        further = _citations(further_refs)
+        if further:
+            parts.append("**Further references**\n\n")
+            parts.extend(f"- {c}\n" for c in further)
             parts.append("\n")
 
     write_page(procs_dir / f"{cat_id}.md", "".join(parts))

@@ -87,16 +87,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Fan, J., McCandliss, B. D., Sommer, T., Raz, A., & Posner, M. I. (2002). Testing the efficiency and independence of attentional networks. *Journal of Cognitive Neuroscience*, 14(3), 340-347.
-- Fan, J., McCandliss, B. D., Fossella, J., Flombaum, J. I., & Posner, M. I. (2005). The activation of attentional networks. *NeuroImage*, 26(2), 471-479.
-- Petersen, S. E., & Posner, M. I. (2012). The attention system of the human brain: 20 years after. *Annual Review of Neuroscience*, 35, 73-89.
+- Fan, J., McCandliss, B. D., Sommer, T., Raz, A., & Posner, M. I. (2002). Testing the efficiency and independence of attentional networks. *Journal of Cognitive Neuroscience*, 14(3), 340-347. ([DOI](https://doi.org/10.1162/089892902317361886), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11970796/))
+- Fan, J., McCandliss, B. D., Fossella, J., Flombaum, J. I., & Posner, M. I. (2005). The activation of attentional networks. *NeuroImage*, 26(2), 471-479. ([DOI](https://doi.org/10.1016/j.neuroimage.2005.02.004), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15907304/))
+- Petersen, S. E., & Posner, M. I. (2012). The attention system of the human brain: 20 years after. *Annual Review of Neuroscience*, 35, 73-89. ([DOI](https://doi.org/10.1146/annurev-neuro-062111-150525), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22524787/))
 
-## Recent references
+## Further references
 
-- MacLeod, J. W., Lawrence, M. A., McConnell, M. M., Eskes, G. A., Klein, R. M., & Shore, D. I. (2010). Appraising the ANT: Psychometric and theoretical considerations of the Attention Network Test. *Neuropsychology*, 24(5), 637–651.
-- Arora, S., Lawrence, M. A., & Klein, R. M. (2020). The Attention Network Test database: ADHD and cross-cultural applications. *Frontiers in Psychology*, 11, 388.
-- Ishigami, Y., & Klein, R. M. (2010). Repeated measurement of the components of attention using two versions of the Attention Network Test (ANT): Stability, isolability, robustness, and reliability. *Journal of Neuroscience Methods*, 190(1), 117–128.
-- Petersen, S. E., & Posner, M. I. (2012). The attention system of the human brain: 20 years after. *Annual Review of Neuroscience*, 35, 73–89.
+- MacLeod, J. W., Lawrence, M. A., McConnell, M. M., Eskes, G. A., Klein, R. M., & Shore, D. I. (2010). Appraising the ANT: Psychometric and theoretical considerations of the Attention Network Test. *Neuropsychology*, 24(5), 637–651. ([DOI](https://doi.org/10.1037/a0019803), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20804252/))
+- Arora, S., Lawrence, M. A., & Klein, R. M. (2020). The Attention Network Test database: ADHD and cross-cultural applications. *Frontiers in Psychology*, 11, 388. ([DOI](https://doi.org/10.3389/fpsyg.2020.00388), [PubMed](https://pubmed.ncbi.nlm.nih.gov/32292363/))
+- Ishigami, Y., & Klein, R. M. (2010). Repeated measurement of the components of attention using two versions of the Attention Network Test (ANT): Stability, isolability, robustness, and reliability. *Journal of Neuroscience Methods*, 190(1), 117–128. ([DOI](https://doi.org/10.1016/j.jneumeth.2010.04.019), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20435062/))
 
 ## External links
 

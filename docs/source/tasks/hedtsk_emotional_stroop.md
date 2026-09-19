@@ -86,15 +86,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Williams, J. M. G., Mathews, A., & MacLeod, C. (1996). The emotional Stroop task and psychopathology. *Psychological Bulletin*, 120(1), 3-24.
-- Compton, R. J., Banich, M. T., Mohanty, A., et al. (2003). Paying attention to emotion: An fMRI investigation of cognitive and emotional Stroop tasks. *Cognitive, Affective, & Behavioral Neuroscience*, 3(2), 81-96.
-- Etkin, A., Egner, T., Peraza, D. M., Kandel, E. R., & Hirsch, J. (2006). Resolving emotional conflict: A role for the rostral anterior cingulate cortex in modulating activity in the amygdala. *Neuron*, 51(6), 871-882.
+- Williams, J. M. G., Mathews, A., & MacLeod, C. (1996). The emotional Stroop task and psychopathology. *Psychological Bulletin*, 120(1), 3-24. ([DOI](https://doi.org/10.1037/0033-2909.120.1.3), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8711015/))
+- Compton, R. J., Banich, M. T., Mohanty, A., et al. (2003). Paying attention to emotion: An fMRI investigation of cognitive and emotional Stroop tasks. *Cognitive, Affective, & Behavioral Neuroscience*, 3(2), 81-96. ([DOI](https://doi.org/10.3758/cabn.3.2.81), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12943324/))
+- Etkin, A., Egner, T., Peraza, D. M., Kandel, E. R., & Hirsch, J. (2006). Resolving emotional conflict: A role for the rostral anterior cingulate cortex in modulating activity in the amygdala. *Neuron*, 51(6), 871-882. ([DOI](https://doi.org/10.1016/j.neuron.2006.07.029), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16982430/))
 
-## Recent references
+## Further references
 
-- Phaf, R. H., & Kan, K. J. (2007). The automaticity of emotional Stroop: A meta-analysis. *Journal of Behavior Therapy and Experimental Psychiatry*, 38(2), 184–199.
-- Cisler, J. M., & Koster, E. H. (2010). Mechanisms of attentional biases toward threat in anxiety disorders. *Clinical Psychology Review*, 30(2), 203–216.
-- Algom, D., Chajut, E., & Lev, S. (2004). A rational look at the emotional Stroop phenomenon: A generic slowdown, not a Stroop effect. *Journal of Experimental Psychology: General*, 133(3), 323–338. [Updated: Dalgleish, T. (2005). Putting some feeling into it—the conceptual and empirical relationships between the classic and emotional Stroop tasks: Comment on Algom et al. *Journal of Experimental Psychology: General*, 134(4), 585–591.]
+- Phaf, R. H., & Kan, K. J. (2007). The automaticity of emotional Stroop: A meta-analysis. *Journal of Behavior Therapy and Experimental Psychiatry*, 38(2), 184–199. ([DOI](https://doi.org/10.1016/j.jbtep.2006.10.008), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17112461/))
+- Cisler, J. M., & Koster, E. H. (2010). Mechanisms of attentional biases toward threat in anxiety disorders. *Clinical Psychology Review*, 30(2), 203–216. ([DOI](https://doi.org/10.1016/j.cpr.2009.11.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20005616/))
+- Algom, D., Chajut, E., & Lev, S. (2004). A rational look at the emotional Stroop phenomenon: A generic slowdown, not a Stroop effect. *Journal of Experimental Psychology: General*, 133(3), 323–338. [Updated: Dalgleish, T. (2005). Putting some feeling into it—the conceptual and empirical relationships between the classic and emotional Stroop tasks: Comment on Algom et al. *Journal of Experimental Psychology: General*, 134(4), 585–591.] ([DOI](https://doi.org/10.1037/0096-3445.133.3.323), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15355142/))
 
 ## External links
 

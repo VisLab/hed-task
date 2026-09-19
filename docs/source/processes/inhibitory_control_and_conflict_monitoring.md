@@ -34,11 +34,11 @@ Detection of co-activation of incompatible response tendencies, proposed to recr
 
 **Fundamental references**
 
-- Botvinick, Braver, Barch, Carter & Cohen (2001) *Psychological Review* 108:624–652
+- Botvinick, Braver, Barch, Carter & Cohen (2001) *Psychological Review* 108:624–652 ([DOI](https://doi.org/10.1037/0033-295x.108.3.624))
 
-**Recent references**
+**Further references**
 
-- Shenhav, Botvinick & Cohen (2013) *Neuron* 79:217–240
+- Shenhav, Botvinick & Cohen (2013) *Neuron* 79:217–240 ([DOI](https://doi.org/10.1016/j.neuron.2013.07.007), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23889930/))
 
 (hed-error-correction)=
 ## Error correction
@@ -51,12 +51,12 @@ Adjustment of behavior following an error, including post-error slowing and impr
 
 **Fundamental references**
 
-- Rabbitt (1966) *Nature* 212:438
-- Laming (1979) *Acta Psychologica* 43:199–224
+- Rabbitt (1966) *Nature* 212:438 ([DOI](https://doi.org/10.1038/212438a0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/5970176/))
+- Laming (1979) *Acta Psychologica* 43:199–224 ([DOI](https://doi.org/10.1016/0001-6918(79)90026-x))
 
-**Recent references**
+**Further references**
 
-- Danielmeier & Ullsperger (2011) *Frontiers in Psychology* 2:233
+- Danielmeier & Ullsperger (2011) *Frontiers in Psychology* 2:233 ([DOI](https://doi.org/10.3389/fpsyg.2011.00233), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21954390/))
 
 (hed-error-detection)=
 ## Error detection
@@ -69,8 +69,8 @@ Recognition that a response was incorrect, indexed by the error-related negativi
 
 **Fundamental references**
 
-- Falkenstein, Hohnsbein, Hoormann & Blanke (1991) *EEG & Clinical Neurophysiology* 78:447–455
-- Gehring, Goss, Coles, Meyer & Donchin (1993) *Psychological Science* 4:385–390
+- Falkenstein, Hohnsbein, Hoormann & Blanke (1991) *EEG & Clinical Neurophysiology* 78:447–455 ([DOI](https://doi.org/10.1016/0013-4694(91)90062-9), [PubMed](https://pubmed.ncbi.nlm.nih.gov/1712280/))
+- Gehring, Goss, Coles, Meyer & Donchin (1993) *Psychological Science* 4:385–390 ([DOI](https://doi.org/10.1111/j.1467-9280.1993.tb00586.x))
 
 (hed-executive-attention)=
 ## Executive attention
@@ -83,16 +83,18 @@ Resolution of conflict among thoughts, feelings, and responses; one of Posner's 
 
 **Fundamental references**
 
-- Fan, McCandliss, Sommer, Raz & Posner (2002) *Journal of Cognitive Neuroscience* 14:340–347
+- Fan, McCandliss, Sommer, Raz & Posner (2002) *Journal of Cognitive Neuroscience* 14:340–347 ([DOI](https://doi.org/10.1162/089892902317361886))
 
-**Recent references**
+**Further references**
 
-- Petersen & Posner (2012) *Annual Review of Neuroscience* 35:73–89
+- Petersen & Posner (2012) *Annual Review of Neuroscience* 35:73–89 ([DOI](https://doi.org/10.1146/annurev-neuro-062111-150525))
 
 (hed-interference-control)=
 ## Interference control
 
 **Process ID:** `hed_interference_control`
+
+**Also known as:** interference resolution
 
 Resistance to interference from task-irrelevant stimuli or competing response representations, measured by Stroop, Flanker, and Simon effects.
 
@@ -100,11 +102,11 @@ Resistance to interference from task-irrelevant stimuli or competing response re
 
 **Fundamental references**
 
-- Eriksen & Eriksen (1974) *Perception & Psychophysics* 16:143–149
+- Eriksen & Eriksen (1974) *Perception & Psychophysics* 16:143–149 ([DOI](https://doi.org/10.3758/bf03203267))
 
-**Recent references**
+**Further references**
 
-- Nigg (2017) *Journal of Child Psychology and Psychiatry* 58:361–383
+- Nigg (2017) *Journal of Child Psychology and Psychiatry* 58:361–383 ([DOI](https://doi.org/10.1111/jcpp.12675), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28035675/))
 
 (hed-proactive-control)=
 ## Proactive control
@@ -117,11 +119,8 @@ Sustained, anticipatory maintenance of task goals that biases processing in prep
 
 **Fundamental references**
 
-- Braver et al. (2021) *Journal of Cognitive Neuroscience* doi:10.1162/jocn_a_01768
-
-**Recent references**
-
-- Braver (2012) *Trends in Cognitive Sciences* 16:106–113
+- Braver et al. (2021) *Journal of Cognitive Neuroscience* doi:10.1162/jocn_a_01768 ([DOI](https://doi.org/10.1162/jocn_a_01768), [PubMed](https://pubmed.ncbi.nlm.nih.gov/34407191/))
+- Braver (2012) *Trends in Cognitive Sciences* 16:106–113 ([DOI](https://doi.org/10.1016/j.tics.2011.12.010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22245618/))
 
 (hed-reactive-control)=
 ## Reactive control
@@ -134,11 +133,8 @@ Transient, stimulus-triggered engagement of control after interference or confli
 
 **Fundamental references**
 
-- Braver et al. (2021) *Journal of Cognitive Neuroscience* doi:10.1162/jocn_a_01768
-
-**Recent references**
-
-- Braver (2012) *Trends in Cognitive Sciences* 16:106–113
+- Braver et al. (2021) *Journal of Cognitive Neuroscience* doi:10.1162/jocn_a_01768 ([DOI](https://doi.org/10.1162/jocn_a_01768), [PubMed](https://pubmed.ncbi.nlm.nih.gov/34407191/))
+- Braver (2012) *Trends in Cognitive Sciences* 16:106–113 ([DOI](https://doi.org/10.1016/j.tics.2011.12.010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22245618/))
 
 (hed-response-conflict)=
 ## Response conflict
@@ -151,16 +147,18 @@ Competing activation of two or more response representations on a single trial, 
 
 **Fundamental references**
 
-- Cohen, Dunbar & McClelland (1990) *Psychological Review* 97:332–361
+- Cohen, Dunbar & McClelland (1990) *Psychological Review* 97:332–361 ([DOI](https://doi.org/10.1037/0033-295x.97.3.332))
 
-**Recent references**
+**Further references**
 
-- Botvinick (2007) *Cognitive, Affective, & Behavioral Neuroscience* 7:356–366
+- Botvinick (2007) *Cognitive, Affective, & Behavioral Neuroscience* 7:356–366 ([DOI](https://doi.org/10.3758/cabn.7.4.356), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18189009/))
 
 (hed-response-inhibition)=
 ## Response inhibition
 
 **Process ID:** `hed_response_inhibition`
+
+**Also known as:** inhibitory control; **response suppression** - more common in motor-control and oculomotor literatures
 
 Suppression of a prepotent or already-initiated response when it becomes inappropriate, indexed behaviorally by stop-signal reaction time or commission errors.
 
@@ -168,9 +166,6 @@ Suppression of a prepotent or already-initiated response when it becomes inappro
 
 **Fundamental references**
 
-- Logan & Cowan (1984) *Psychological Review* 91:295–327
-
-**Recent references**
-
-- Aron, Robbins & Poldrack (2014) *Trends in Cognitive Sciences* 18:177–185
+- Logan & Cowan (1984) *Psychological Review* 91:295–327 ([DOI](https://doi.org/10.1037/0033-295x.91.3.295))
+- Aron, Robbins & Poldrack (2014) *Trends in Cognitive Sciences* 18:177–185 ([DOI](https://doi.org/10.1016/j.tics.2013.12.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24440116/))
 

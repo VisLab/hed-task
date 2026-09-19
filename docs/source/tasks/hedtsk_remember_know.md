@@ -76,15 +76,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Tulving, E. (1985). Memory and consciousness. *Canadian Psychology*, 26(1), 1–12.
-- Gardiner, J. M. (1988). Functional aspects of recollective experience. *Memory & Cognition*, 16(4), 309–313.
+- Tulving, E. (1985). Memory and consciousness. *Canadian Psychology*, 26(1), 1–12. ([DOI](https://doi.org/10.1037/h0080017))
+- Gardiner, J. M. (1988). Functional aspects of recollective experience. *Memory & Cognition*, 16(4), 309–313. ([DOI](https://doi.org/10.3758/bf03197041), [PubMed](https://pubmed.ncbi.nlm.nih.gov/3210971/))
 
-## Recent references
+## Further references
 
-- Yonelinas, A. P., Aly, M., Wang, W.-C., & Koen, J. D. (2010). Recollection and familiarity: Examining controversial assumptions and new directions. *Hippocampus*, 20(11), 1178–1194.
-- Wixted, J. T., & Mickes, L. (2010). A continuous dual-process model of remember/know judgments. *Psychological Review*, 117(4), 1025–1054.
-- Migo, E. M., Mayes, A. R., & Montaldi, D. (2012). Measuring recollection and familiarity: Improving the remember/know procedure. *Consciousness and Cognition*, 21(3), 1435–1455.
-- Bastin, C., Besson, G., Simon, J., Delhaye, E., Geurten, M., Willems, S., & Salmon, E. (2019). An integrative memory model of recollection and familiarity to understand memory deficits. *Behavioral and Brain Sciences*, 42, e281.
+- Yonelinas, A. P., Aly, M., Wang, W.-C., & Koen, J. D. (2010). Recollection and familiarity: Examining controversial assumptions and new directions. *Hippocampus*, 20(11), 1178–1194. ([DOI](https://doi.org/10.1002/hipo.20864), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20848606/))
+- Wixted, J. T., & Mickes, L. (2010). A continuous dual-process model of remember/know judgments. *Psychological Review*, 117(4), 1025–1054. ([DOI](https://doi.org/10.1037/a0020874), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20836613/))
+- Migo, E. M., Mayes, A. R., & Montaldi, D. (2012). Measuring recollection and familiarity: Improving the remember/know procedure. *Consciousness and Cognition*, 21(3), 1435–1455. ([DOI](https://doi.org/10.1016/j.concog.2012.04.014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22846231/))
+- Bastin, C., Besson, G., Simon, J., Delhaye, E., Geurten, M., Willems, S., & Salmon, E. (2019). An integrative memory model of recollection and familiarity to understand memory deficits. *Behavioral and Brain Sciences*, 42, e281. ([DOI](https://doi.org/10.1017/s0140525x19000621), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30719958/))
 
 ## External links
 

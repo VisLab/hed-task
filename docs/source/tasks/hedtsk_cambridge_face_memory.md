@@ -5,7 +5,7 @@
 
 **Family:** [Recall and recognition memory tests](families/recall_and_recognition.md)
 
-**Also known as:** Cambridge Face Memory Test, CFMT, Cambridge Face Test
+**Also known as:** Cambridge Face Memory Test, CFMT, Cambridge Face Test, Cambridge Face Memory
 
 Learn target faces across viewpoints, then identify them among distractors under increasingly difficult conditions (novel viewpoints, visual noise); accuracy indexes face recognition ability and configural face processing.
 
@@ -86,16 +86,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Duchaine, B., & Nakayama, K. (2006). The Cambridge Face Memory Test: Results for neurologically intact individuals and an investigation of its validity using inverted face stimuli and prosopagnosic participants. *Neuropsychologia*, 44(4), 576–585.
-- Kanwisher, N., McDermott, J., & Chun, M. M. (1997). The fusiform face area: A module in human extrastriate cortex specialized for face perception. *Journal of Neuroscience*, 17(11), 4302–4311.
-- McKone, E., Kanwisher, N., & Duchaine, B. C. (2007). Can generic expertise explain special processing for faces? *Trends in Cognitive Sciences*, 11(1), 8–15.
+- Duchaine, B., & Nakayama, K. (2006). The Cambridge Face Memory Test: Results for neurologically intact individuals and an investigation of its validity using inverted face stimuli and prosopagnosic participants. *Neuropsychologia*, 44(4), 576–585. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2005.07.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16169565/))
+- Kanwisher, N., McDermott, J., & Chun, M. M. (1997). The fusiform face area: A module in human extrastriate cortex specialized for face perception. *Journal of Neuroscience*, 17(11), 4302–4311. ([DOI](https://doi.org/10.1523/jneurosci.17-11-04302.1997), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9151747/))
+- McKone, E., Kanwisher, N., & Duchaine, B. C. (2007). Can generic expertise explain special processing for faces? *Trends in Cognitive Sciences*, 11(1), 8–15. ([DOI](https://doi.org/10.1016/j.tics.2006.11.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17129746/))
 
-## Recent references
+## Further references
 
-- Bobak, A. K., Pampoulov, P., & Bate, S. (2016). Detecting superior face recognition skills in a large sample of young British adults. *Quarterly Journal of Experimental Psychology*, 69(2), 253–263.
-- Bowles, D. C., McKone, E., Dawel, A., Duchaine, B., Palermo, R., Schmalzl, L., ... & Yovel, G. (2009). Diagnosing prosopagnosia: Effects of ageing, sex, and participant-stimulus ethnic match on the Cambridge Face Memory Test and Cambridge Face Perception Test. *Cognitive Neuropsychology*, 26(5), 423–455.
-- Russell, R., Duchaine, B., & Nakayama, K. (2009). Super-recognizers: People with extraordinary face recognition ability. *Psychonomic Bulletin & Review*, 16(2), 252–257.
-- Wilmer, J. B., Germine, L., Chabris, C. F., Chatterjee, G., Williams, M., Loken, E., ... & Duchaine, B. (2010). Human face recognition ability is specific and highly heritable. *Proceedings of the National Academy of Sciences*, 107(11), 5238–5241.
+- Bobak, A. K., Pampoulov, P., & Bate, S. (2016). Detecting superior face recognition skills in a large sample of young British adults. *Quarterly Journal of Experimental Psychology*, 69(2), 253–263. ([DOI](https://doi.org/10.3389/fpsyg.2016.01378), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27713706/))
+- Bowles, D. C., McKone, E., Dawel, A., Duchaine, B., Palermo, R., Schmalzl, L., ... & Yovel, G. (2009). Diagnosing prosopagnosia: Effects of ageing, sex, and participant-stimulus ethnic match on the Cambridge Face Memory Test and Cambridge Face Perception Test. *Cognitive Neuropsychology*, 26(5), 423–455. ([DOI](https://doi.org/10.1080/02643290903343149), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19921582/))
+- Russell, R., Duchaine, B., & Nakayama, K. (2009). Super-recognizers: People with extraordinary face recognition ability. *Psychonomic Bulletin & Review*, 16(2), 252–257. ([DOI](https://doi.org/10.3758/pbr.16.2.252), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19293090/))
+- Wilmer, J. B., Germine, L., Chabris, C. F., Chatterjee, G., Williams, M., Loken, E., ... & Duchaine, B. (2010). Human face recognition ability is specific and highly heritable. *Proceedings of the National Academy of Sciences*, 107(11), 5238–5241. ([DOI](https://doi.org/10.1073/pnas.0913053107), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20176944/))
 
 ## External links
 

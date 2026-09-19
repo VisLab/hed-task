@@ -94,15 +94,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Brass, M., Bekkering, H., Wohlschlager, A., & Prinz, W. (2000). Compatibility between observed and executed finger movements: Comparing symbolic, spatial, and imitative cues. Brain and Cognition, 44(2), 124-143.
-- Heyes, C. (2011). Automatic imitation. Psychological Bulletin, 137(3), 463-483.
+- Brass, M., Bekkering, H., Wohlschlager, A., & Prinz, W. (2000). Compatibility between observed and executed finger movements: Comparing symbolic, spatial, and imitative cues. Brain and Cognition, 44(2), 124-143. ([DOI](https://doi.org/10.1006/brcg.2000.1225), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11041986/))
+- Heyes, C. (2011). Automatic imitation. Psychological Bulletin, 137(3), 463-483. ([DOI](https://doi.org/10.1037/a0022288), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21280938/))
 
-## Recent references
+## Further references
 
-- Cracco, E., Bardi, L., Desmet, C., Genschow, O., Rigoni, D., De Coster, L., Radkova, I., Deschrijver, E., & Brass, M. (2018). Automatic imitation: A meta-analysis. Psychological Bulletin, 144(5), 453-500.
-- Genschow, O., van Den Bossche, S., Cracco, E., & Brass, M. (2017). Mimicry and automatic imitation are not correlated. PLoS ONE, 12(9), e0183784.
-- Deschrijver, E., Wiersema, J. R., & Brass, M. (2017). Action-based touch observation in adults with high functioning autism. Social Cognitive and Affective Neuroscience, 12(2), 273-282.
-- Kilner, J. M., Paulignan, Y., & Blakemore, S. J. (2003). An interference effect of observed biological movement on action. Current Biology, 13(6), 522-525.
+- Cracco, E., Bardi, L., Desmet, C., Genschow, O., Rigoni, D., De Coster, L., Radkova, I., Deschrijver, E., & Brass, M. (2018). Automatic imitation: A meta-analysis. Psychological Bulletin, 144(5), 453-500. ([DOI](https://doi.org/10.1037/bul0000143), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29517262/))
+- Genschow, O., van Den Bossche, S., Cracco, E., & Brass, M. (2017). Mimicry and automatic imitation are not correlated. PLoS ONE, 12(9), e0183784. ([DOI](https://doi.org/10.1371/journal.pone.0183784), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28877197/))
+- Deschrijver, E., Wiersema, J. R., & Brass, M. (2017). Action-based touch observation in adults with high functioning autism. Social Cognitive and Affective Neuroscience, 12(2), 273-282. ([DOI](https://doi.org/10.1177/1362361317701268), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28683568/))
+- Kilner, J. M., Paulignan, Y., & Blakemore, S. J. (2003). An interference effect of observed biological movement on action. Current Biology, 13(6), 522-525. ([DOI](https://doi.org/10.1016/s0960-9822(03)00165-9), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12646137/))
 
 ## External links
 

@@ -116,17 +116,17 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- LeDoux, J. E. (2000). Emotion circuits in the brain. *Annual Review of Neuroscience*, 23, 155-184.
-- Phelps, E. A., Delgado, M. R., Nearing, K. I., & LeDoux, J. E. (2004). Extinction learning in humans: Role of the amygdala and vmPFC. *Neuron*, 43(6), 897-905.
-- Quirk, G. J., & Mueller, D. (2008). Neural mechanisms of extinction learning and retrieval. *Neuropsychopharmacology*, 33(1), 56-72.
+- LeDoux, J. E. (2000). Emotion circuits in the brain. *Annual Review of Neuroscience*, 23, 155-184. ([DOI](https://doi.org/10.1146/annurev.neuro.23.1.155), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10845062/))
+- Phelps, E. A., Delgado, M. R., Nearing, K. I., & LeDoux, J. E. (2004). Extinction learning in humans: Role of the amygdala and vmPFC. *Neuron*, 43(6), 897-905. ([DOI](https://doi.org/10.1016/j.neuron.2004.08.042), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15363399/))
+- Quirk, G. J., & Mueller, D. (2008). Neural mechanisms of extinction learning and retrieval. *Neuropsychopharmacology*, 33(1), 56-72. ([DOI](https://doi.org/10.1523/jneurosci.3248-07.2008), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18184779/))
 
-## Recent references
+## Further references
 
-- Fullana, M. A., Harrison, B. J., Soriano-Mas, C., et al. (2016). Neural signatures of human fear conditioning: An updated and extended meta-analysis of fMRI studies. *Molecular Psychiatry*, 21(4), 500–508.
-- Lonsdorf, T. B., Menz, M. M., Andreatta, M., et al. (2017). Don't fear 'fear conditioning': Methodological considerations for the design and analysis of studies on human fear acquisition, extinction, and return of fear. *Neuroscience & Biobehavioral Reviews*, 77, 247–285.
-- Duits, P., Cath, D. C., Lissek, S., et al. (2015). Updated meta-analysis of classical fear conditioning in the anxiety disorders. *Depression and Anxiety*, 32(4), 239–253.
-- Radua, J., Savage, H. S., Vilajosana, E., et al. (2025). Neural correlates of human fear conditioning and sources of variability in 2199 individuals. *Nature Communications*, 16(1), 7869.
-- López-Blanco, A., et al. (2025). Pharmacological enhancement of fear extinction. *Trends in Cognitive Sciences*, 29(2). doi:10.1016/j.tics.2025.xxx
+- Fullana, M. A., Harrison, B. J., Soriano-Mas, C., et al. (2016). Neural signatures of human fear conditioning: An updated and extended meta-analysis of fMRI studies. *Molecular Psychiatry*, 21(4), 500–508. ([DOI](https://doi.org/10.1038/mp.2015.88))
+- Lonsdorf, T. B., Menz, M. M., Andreatta, M., et al. (2017). Don't fear 'fear conditioning': Methodological considerations for the design and analysis of studies on human fear acquisition, extinction, and return of fear. *Neuroscience & Biobehavioral Reviews*, 77, 247–285. ([DOI](https://doi.org/10.1016/j.neubiorev.2017.02.026), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28263758/))
+- Duits, P., Cath, D. C., Lissek, S., et al. (2015). Updated meta-analysis of classical fear conditioning in the anxiety disorders. *Depression and Anxiety*, 32(4), 239–253. ([DOI](https://doi.org/10.1002/da.22353), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25703487/))
+- Radua, J., Savage, H. S., Vilajosana, E., et al. (2025). Neural correlates of human fear conditioning and sources of variability in 2199 individuals. *Nature Communications*, 16(1), 7869. ([DOI](https://doi.org/10.7554/elife.92892.4.sa2))
+- López-Blanco, A., et al. (2025). Pharmacological enhancement of fear extinction. *Trends in Cognitive Sciences*, 29(2). doi:10.1016/j.tics.2025.xxx ([DOI](https://doi.org/10.1016/j.tics.2025.xxx))
 
 ## External links
 

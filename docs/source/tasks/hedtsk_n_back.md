@@ -96,16 +96,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Jonides, J., Schumacher, E. H., Smith, E. E., Koeppe, R. A., Awh, E., Minoshima, S., & Mintun, M. A. (1997). The role of parietal cortex in verbal working memory. *Journal of Neuroscience*, 17(13), 5282-5288.
-- Owen, A. M., McMillan, K. M., Laird, A. R., & Bullmore, E. (2005). N-back working memory paradigm: A meta-analysis of normative functional neuroimaging studies. *Human Brain Mapping*, 25(1), 46-59.
+- Jonides, J., Schumacher, E. H., Smith, E. E., Koeppe, R. A., Awh, E., Minoshima, S., & Mintun, M. A. (1997). The role of parietal cortex in verbal working memory. *Journal of Neuroscience*, 17(13), 5282-5288. ([DOI](https://doi.org/10.1162/jocn.1997.9.4.462), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23968211/))
+- Owen, A. M., McMillan, K. M., Laird, A. R., & Bullmore, E. (2005). N-back working memory paradigm: A meta-analysis of normative functional neuroimaging studies. *Human Brain Mapping*, 25(1), 46-59. ([DOI](https://doi.org/10.1002/hbm.20131), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15846822/))
 
-## Recent references
+## Further references
 
-- Redick, T. S., & Lindsey, D. R. B. (2013). Complex span and n-back measures of working memory: A meta-analysis. *Psychonomic Bulletin & Review*, 20(6), 1102–1113.
-- Jaeggi, S. M., Buschkuehl, M., Perrig, W. J., & Meier, B. (2010). The concurrent validity of the N-back task as a working memory measure. *Memory*, 18(4), 394–412.
-- Chatham, C. H., Herd, S. A., Brant, A. M., Hazy, T. E., Miyake, A., O'Reilly, R., & Friedman, N. P. (2011). From an executive network to executive control: A computational model of the n-back task. *Journal of Cognitive Neuroscience*, 23(11), 3598–3619.
-- Soveri, A., Antfolk, J., Karlsson, L., Salo, B., & Laine, M. (2017). Working memory training revisited: A multi-level meta-analysis of n-back training studies. *Psychonomic Bulletin & Review*, 24(4), 1077–1096.
-- Exploring the n-back task: insights, applications, and future directions. (2025). *Frontiers in Human Neuroscience*, 19, 1721330. doi:10.3389/fnhum.2025.1721330
+- Redick, T. S., & Lindsey, D. R. B. (2013). Complex span and n-back measures of working memory: A meta-analysis. *Psychonomic Bulletin & Review*, 20(6), 1102–1113. ([DOI](https://doi.org/10.3758/s13423-013-0453-9), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23733330/))
+- Jaeggi, S. M., Buschkuehl, M., Perrig, W. J., & Meier, B. (2010). The concurrent validity of the N-back task as a working memory measure. *Memory*, 18(4), 394–412. ([DOI](https://doi.org/10.1080/09658211003702171), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20408039/))
+- Chatham, C. H., Herd, S. A., Brant, A. M., Hazy, T. E., Miyake, A., O'Reilly, R., & Friedman, N. P. (2011). From an executive network to executive control: A computational model of the n-back task. *Journal of Cognitive Neuroscience*, 23(11), 3598–3619. ([DOI](https://doi.org/10.1162/jocn_a_00047), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21563882/))
+- Soveri, A., Antfolk, J., Karlsson, L., Salo, B., & Laine, M. (2017). Working memory training revisited: A multi-level meta-analysis of n-back training studies. *Psychonomic Bulletin & Review*, 24(4), 1077–1096. ([DOI](https://doi.org/10.3758/s13423-016-1217-0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28116702/))
+- Exploring the n-back task: insights, applications, and future directions. (2025). *Frontiers in Human Neuroscience*, 19, 1721330. doi:10.3389/fnhum.2025.1721330 ([DOI](https://doi.org/10.3389/fnhum.2025.1721330), [PubMed](https://pubmed.ncbi.nlm.nih.gov/41426299/))
 
 ## External links
 

@@ -80,14 +80,14 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Hart, J. T. (1965). Memory and the feeling-of-knowing experience. *Journal of Educational Psychology*, 56(4), 208-216.
-- Nelson, T. O. (1984). A comparison of current measures of the accuracy of feeling-of-knowing predictions. *Psychological Bulletin*, 95(1), 109-133.
-- Koriat, A. (1993). How do we know that we know? The accessibility model of the feeling of knowing. *Psychological Review*, 100(4), 609-639.
+- Hart, J. T. (1965). Memory and the feeling-of-knowing experience. *Journal of Educational Psychology*, 56(4), 208-216. ([DOI](https://doi.org/10.1037/h0022263), [PubMed](https://pubmed.ncbi.nlm.nih.gov/5825050/))
+- Nelson, T. O. (1984). A comparison of current measures of the accuracy of feeling-of-knowing predictions. *Psychological Bulletin*, 95(1), 109-133. ([DOI](https://doi.org/10.1037/0033-2909.95.1.109), [PubMed](https://pubmed.ncbi.nlm.nih.gov/6544431/))
+- Koriat, A. (1993). How do we know that we know? The accessibility model of the feeling of knowing. *Psychological Review*, 100(4), 609-639. ([DOI](https://doi.org/10.1037//0033-295x.100.4.609))
 
-## Recent references
+## Further references
 
-- Hertzog, C., Dunlosky, J., & Sinclair, S. M. (2010). Episodic feeling-of-knowing resolution derives from the quality of original encoding. *Memory & Cognition*, 38(6), 771-784.
-- Schwartz, B. L., & Metcalfe, J. (2011). Tip-of-the-tongue (TOT) states: Retrieval, behavior, and experience. *Memory & Cognition*, 39(5), 737-749.
-- Izaute, M., & Bacon, E. (2005). Specific effects of an amnesic drug: Effect of midazolam on study time allocation and on judgment of learning. *Neuropsychopharmacology*, 30(6), 1132-1139.
-- Reggev, N., Zuckerman, M., & Maril, A. (2011). Are all judgments created equal? An fMRI study of semantic and episodic metamemory predictions. *Neuropsychologia*, 49(5), 1332-1342.
+- Hertzog, C., Dunlosky, J., & Sinclair, S. M. (2010). Episodic feeling-of-knowing resolution derives from the quality of original encoding. *Memory & Cognition*, 38(6), 771-784. ([DOI](https://doi.org/10.3758/mc.38.6.771), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20852240/))
+- Schwartz, B. L., & Metcalfe, J. (2011). Tip-of-the-tongue (TOT) states: Retrieval, behavior, and experience. *Memory & Cognition*, 39(5), 737-749. ([DOI](https://doi.org/10.3758/s13421-010-0066-8), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21264637/))
+- Izaute, M., & Bacon, E. (2005). Specific effects of an amnesic drug: Effect of midazolam on study time allocation and on judgment of learning. *Neuropsychopharmacology*, 30(6), 1132-1139. ([DOI](https://doi.org/10.1016/s0924-977x(05)81212-x))
+- Reggev, N., Zuckerman, M., & Maril, A. (2011). Are all judgments created equal? An fMRI study of semantic and episodic metamemory predictions. *Neuropsychologia*, 49(5), 1332-1342. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2011.01.013), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21238468/))
 

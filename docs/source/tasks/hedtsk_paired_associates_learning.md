@@ -5,7 +5,7 @@
 
 **Family:** [Recall and recognition memory tests](families/recall_and_recognition.md)
 
-**Also known as:** PAL, Paired Associate Learning
+**Also known as:** PAL, Paired Associate Learning, Paired Associates Learning
 
 Study of cue-target pairs followed by cued recall; proportion recalled indexes associative encoding and retrieval.
 
@@ -101,14 +101,14 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- de Rover, M., Pironti, V. A., McCabe, J. A., et al. (2011). Hippocampal dysfunction in patients with mild cognitive impairment: A functional neuroimaging study of a visuospatial paired associates learning task. *Neuropsychologia*, 49(7), 2060-2070.
+- de Rover, M., Pironti, V. A., McCabe, J. A., et al. (2011). Hippocampal dysfunction in patients with mild cognitive impairment: A functional neuroimaging study of a visuospatial paired associates learning task. *Neuropsychologia*, 49(7), 2060-2070. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2011.03.037), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21477602/))
 
-## Recent references
+## Further references
 
-- Atkinson, A. L., Berry, E. D. J., Waterman, A. H., Baddeley, A. D., Hitch, G. J., & Allen, R. J. (2018). Are there multiple ways to direct attention in working memory? *Annals of the New York Academy of Sciences*, 1424(1), 115–126.
-- Lim, S. J., Fiez, J. A., & Holt, L. L. (2014). How may the basal ganglia contribute to auditory categorization and speech perception? *Frontiers in Neuroscience*, 8, 230.
-- Parra, M. A., Abrahams, S., Logie, R. H., Méndez, L. G., Lopera, F., & Della Sala, S. (2010). Visual short-term memory binding deficits in familial Alzheimer's disease. *Brain*, 133(9), 2702–2713.
-- Naveh-Benjamin, M. (2000). Adult age differences in memory performance: Tests of an associative deficit hypothesis. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 26(5), 1170–1187. [Updated: Old, S. R., & Naveh-Benjamin, M. (2008). Differential effects of age on item and associative measures of memory. *Psychology and Aging*, 23(1), 104–118.]
+- Atkinson, A. L., Berry, E. D. J., Waterman, A. H., Baddeley, A. D., Hitch, G. J., & Allen, R. J. (2018). Are there multiple ways to direct attention in working memory? *Annals of the New York Academy of Sciences*, 1424(1), 115–126. ([DOI](https://doi.org/10.1111/nyas.13634), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29635690/))
+- Lim, S. J., Fiez, J. A., & Holt, L. L. (2014). How may the basal ganglia contribute to auditory categorization and speech perception? *Frontiers in Neuroscience*, 8, 230. ([DOI](https://doi.org/10.3389/fnins.2014.00230), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25136291/))
+- Parra, M. A., Abrahams, S., Logie, R. H., Méndez, L. G., Lopera, F., & Della Sala, S. (2010). Visual short-term memory binding deficits in familial Alzheimer's disease. *Brain*, 133(9), 2702–2713. ([DOI](https://doi.org/10.1093/brain/awq148), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20624814/))
+- Naveh-Benjamin, M. (2000). Adult age differences in memory performance: Tests of an associative deficit hypothesis. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 26(5), 1170–1187. [Updated: Old, S. R., & Naveh-Benjamin, M. (2008). Differential effects of age on item and associative measures of memory. *Psychology and Aging*, 23(1), 104–118.] ([DOI](https://doi.org/10.1037/0278-7393.26.5.1170), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11009251/))
 
 ## External links
 

@@ -5,7 +5,7 @@
 
 **Family:** [Conditioning, reinforcement and implicit learning tasks](families/conditioning_and_reinforcement.md)
 
-**Also known as:** Operant Conditioning, Instrumental Learning, PIT
+**Also known as:** Operant Conditioning, Instrumental Learning, PIT, Pavlovian-Instrumental Transfer
 
 Actions are reinforced by contingent outcomes under defined schedules; response rate and choice probability across schedules index instrumental learning. Specific human instantiations include lever/button-press reward paradigms and free-operant tasks.
 
@@ -111,15 +111,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Schultz, W., Dayan, P., & Montague, P. R. (1997). A neural substrate of prediction and reward. *Science*, 275(5306), 1593-1599.
-- Haber, S. N., & Knutson, B. (2010). The reward circuit: Linking primate anatomy and human imaging. *Neuropsychopharmacology*, 35(1), 4-26.
+- Schultz, W., Dayan, P., & Montague, P. R. (1997). A neural substrate of prediction and reward. *Science*, 275(5306), 1593-1599. ([DOI](https://doi.org/10.1126/science.275.5306.1593), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9054347/))
+- Haber, S. N., & Knutson, B. (2010). The reward circuit: Linking primate anatomy and human imaging. *Neuropsychopharmacology*, 35(1), 4-26. ([DOI](https://doi.org/10.1038/npp.2010.129), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20736993/))
 
-## Recent references
+## Further references
 
-- Balleine, B. W., & O'Doherty, J. P. (2010). Human and rodent homologies in action control: Corticostriatal determinants of goal-directed and habitual action. *Neuropsychopharmacology*, 35(1), 48–69.
-- Dolan, R. J., & Dayan, P. (2013). Goals and habits in the brain. *Neuron*, 80(2), 312–325.
-- Lee, S. W., Shimojo, S., & O'Doherty, J. P. (2014). Neural computations underlying arbitration between model-based and model-free learning. *Neuron*, 81(3), 687–699.
-- Gillan, C. M., Kosinski, M., Whelan, R., Phelps, E. A., & Daw, N. D. (2016). Characterizing a psychiatric symptom dimension related to deficits in goal-directed control. *eLife*, 5, e11305.
+- Balleine, B. W., & O'Doherty, J. P. (2010). Human and rodent homologies in action control: Corticostriatal determinants of goal-directed and habitual action. *Neuropsychopharmacology*, 35(1), 48–69. ([DOI](https://doi.org/10.1038/npp.2009.131), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19776734/))
+- Dolan, R. J., & Dayan, P. (2013). Goals and habits in the brain. *Neuron*, 80(2), 312–325. ([DOI](https://doi.org/10.1016/j.neuron.2013.09.007), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24139036/))
+- Lee, S. W., Shimojo, S., & O'Doherty, J. P. (2014). Neural computations underlying arbitration between model-based and model-free learning. *Neuron*, 81(3), 687–699. ([DOI](https://doi.org/10.1016/j.neuron.2013.11.028), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24507199/))
+- Gillan, C. M., Kosinski, M., Whelan, R., Phelps, E. A., & Daw, N. D. (2016). Characterizing a psychiatric symptom dimension related to deficits in goal-directed control. *eLife*, 5, e11305. ([DOI](https://doi.org/10.7554/elife.11305), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26928075/))
 
 ## External links
 

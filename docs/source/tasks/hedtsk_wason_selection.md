@@ -94,15 +94,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Wason, P. C. (1966). Reasoning. In B. M. Foss (Ed.), *New Horizons in Psychology* (pp. 135–151). Penguin.
-- Cosmides, L. (1989). The logic of social exchange: Has natural selection shaped how humans reason? Studies with the Wason selection task. *Cognition*, 31(3), 187–276.
-- Griggs, R. A., & Cox, J. R. (1982). The elusive thematic-materials effect in Wason's selection task. *British Journal of Psychology*, 73(3), 407–420.
+- Wason, P. C. (1966). Reasoning. In B. M. Foss (Ed.), *New Horizons in Psychology* (pp. 135–151). Penguin. ([DOI](https://doi.org/10.1111/j.2044-8295.1966.tb01044.x))
+- Cosmides, L. (1989). The logic of social exchange: Has natural selection shaped how humans reason? Studies with the Wason selection task. *Cognition*, 31(3), 187–276. ([DOI](https://doi.org/10.1016/0010-0277(89)90023-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/2743748/))
+- Griggs, R. A., & Cox, J. R. (1982). The elusive thematic-materials effect in Wason's selection task. *British Journal of Psychology*, 73(3), 407–420. ([DOI](https://doi.org/10.1111/j.2044-8295.1982.tb01823.x))
 
-## Recent references
+## Further references
 
-- Sperber, D., Cara, F., & Girotto, V. (1995). Relevance theory explains the selection task. *Cognition*, 57(1), 31–95.
-- Ragni, M., & Johnson-Laird, P. N. (2020). Reasoning about epistemic possibilities. *Acta Psychologica*, 208, 103081.
-- Oaksford, M., & Chater, N. (1994). A rational analysis of the selection task as optimal data selection. *Psychological Review*, 101(4), 608–631.
+- Sperber, D., Cara, F., & Girotto, V. (1995). Relevance theory explains the selection task. *Cognition*, 57(1), 31–95. ([DOI](https://doi.org/10.1016/0010-0277(95)00666-m), [PubMed](https://pubmed.ncbi.nlm.nih.gov/7587018/))
+- Ragni, M., & Johnson-Laird, P. N. (2020). Reasoning about epistemic possibilities. *Acta Psychologica*, 208, 103081. ([DOI](https://doi.org/10.1016/j.actpsy.2020.103081), [PubMed](https://pubmed.ncbi.nlm.nih.gov/32497740/))
+- Oaksford, M., & Chater, N. (1994). A rational analysis of the selection task as optimal data selection. *Psychological Review*, 101(4), 608–631. ([DOI](https://doi.org/10.1037/0033-295x.101.4.608))
 
 ## External links
 

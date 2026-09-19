@@ -97,15 +97,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Polyn, S. M., Natu, V. S., Cohen, J. D., & Norman, K. A. (2005). Category-specific cortical activity precedes retrieval during memory search. *Science*, 310(5749), 1963-1966.
-- Sederberg, P. B., Gauthier, L. V., Terushkin, V., Miller, J. F., Barnathan, J. A., & Kahana, M. J. (2006). Oscillatory correlates of the primacy effect in episodic memory. *NeuroImage*, 32(3), 1422-1431.
+- Polyn, S. M., Natu, V. S., Cohen, J. D., & Norman, K. A. (2005). Category-specific cortical activity precedes retrieval during memory search. *Science*, 310(5749), 1963-1966. ([DOI](https://doi.org/10.1126/science.1117645), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16373577/))
+- Sederberg, P. B., Gauthier, L. V., Terushkin, V., Miller, J. F., Barnathan, J. A., & Kahana, M. J. (2006). Oscillatory correlates of the primacy effect in episodic memory. *NeuroImage*, 32(3), 1422-1431. ([DOI](https://doi.org/10.1016/j.neuroimage.2006.04.223), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16814568/))
 
-## Recent references
+## Further references
 
-- Kahana, M. J. (2012). *Foundations of Human Memory*. Oxford University Press. [Updated: Kahana, M. J. (2020). Computational models of memory search. *Annual Review of Psychology*, 71, 107–138.]
-- Polyn, S. M., Norman, K. A., & Kahana, M. J. (2009). A context maintenance and retrieval model of organizational processes in free recall. *Psychological Review*, 116(1), 129–156.
-- Lohnas, L. J., Polyn, S. M., & Kahana, M. J. (2015). Expanding the scope of memory search: Modeling intralist and interlist effects in free recall. *Psychological Review*, 122(2), 337–363.
-- Morton, N. W., Sherrill, K. R., & Preston, A. R. (2017). Memory integration constructs maps of space, time, and concepts. *Current Opinion in Behavioral Sciences*, 17, 161–168.
+- Kahana, M. J. (2012). *Foundations of Human Memory*. Oxford University Press. [Updated: Kahana, M. J. (2020). Computational models of memory search. *Annual Review of Psychology*, 71, 107–138.] ([DOI](https://doi.org/10.1080/09658211.2012.683010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22646657/))
+- Polyn, S. M., Norman, K. A., & Kahana, M. J. (2009). A context maintenance and retrieval model of organizational processes in free recall. *Psychological Review*, 116(1), 129–156. ([DOI](https://doi.org/10.1037/a0014420), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19159151/))
+- Lohnas, L. J., Polyn, S. M., & Kahana, M. J. (2015). Expanding the scope of memory search: Modeling intralist and interlist effects in free recall. *Psychological Review*, 122(2), 337–363. ([DOI](https://doi.org/10.1037/a0039036), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25844876/))
+- Morton, N. W., Sherrill, K. R., & Preston, A. R. (2017). Memory integration constructs maps of space, time, and concepts. *Current Opinion in Behavioral Sciences*, 17, 161–168. ([DOI](https://doi.org/10.1016/j.cobeha.2017.08.007), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28924579/))
 
 ## External links
 

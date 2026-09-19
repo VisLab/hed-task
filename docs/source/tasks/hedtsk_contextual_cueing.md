@@ -85,16 +85,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Chun, M. M., & Jiang, Y. (1998). Contextual cueing: Implicit learning and memory of visual context guides spatial attention. *Cognitive Psychology*, 36(1), 28–71.
-- Chun, M. M., & Jiang, Y. (2003). Implicit, long-term spatial contextual memory. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 29(2), 224–234.
-- Goujon, A., Didierjean, A., & Thorpe, S. (2015). Investigating implicit statistical learning mechanisms through contextual cueing. *Trends in Cognitive Sciences*, 19(9), 524–533.
+- Chun, M. M., & Jiang, Y. (1998). Contextual cueing: Implicit learning and memory of visual context guides spatial attention. *Cognitive Psychology*, 36(1), 28–71. ([DOI](https://doi.org/10.1006/cogp.1998.0681), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9679076/))
+- Chun, M. M., & Jiang, Y. (2003). Implicit, long-term spatial contextual memory. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 29(2), 224–234. ([DOI](https://doi.org/10.1037/0278-7393.29.2.224), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12696811/))
+- Goujon, A., Didierjean, A., & Thorpe, S. (2015). Investigating implicit statistical learning mechanisms through contextual cueing. *Trends in Cognitive Sciences*, 19(9), 524–533. ([DOI](https://doi.org/10.1016/j.tics.2015.07.009), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26255970/))
 
-## Recent references
+## Further references
 
 - Vadillo, M. A., Konstantinidis, E., & Shanks, D. R. (2022). Underpowered samples, false negatives, and unconscious learning. *Psychonomic Bulletin & Review*, 29, 307–337.
-- Zinchenko, A., Conci, M., Müller, H. J., & Geyer, T. (2018). Predictive visual search: Role of environmental regularities in the learning of context cues. *Attention, Perception, & Psychophysics*, 80, 1096–1109.
-- Sisk, C. A., Remington, R. W., & Jiang, Y. V. (2019). Mechanisms of contextual cueing: A tutorial review. *Attention, Perception, & Psychophysics*, 81, 2571–2589.
-- Annac, E., Conci, M., Müller, H. J., & Geyer, T. (2017). Local item density modulates adaptation of learned contextual cues. *Visual Cognition*, 25(1–3), 262–277.
+- Zinchenko, A., Conci, M., Müller, H. J., & Geyer, T. (2018). Predictive visual search: Role of environmental regularities in the learning of context cues. *Attention, Perception, & Psychophysics*, 80, 1096–1109. ([DOI](https://doi.org/10.3758/s13414-018-1500-4), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29600489/))
+- Sisk, C. A., Remington, R. W., & Jiang, Y. V. (2019). Mechanisms of contextual cueing: A tutorial review. *Attention, Perception, & Psychophysics*, 81, 2571–2589. ([DOI](https://doi.org/10.3758/s13414-019-01832-2), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31410759/))
+- Annac, E., Conci, M., Müller, H. J., & Geyer, T. (2017). Local item density modulates adaptation of learned contextual cues. *Visual Cognition*, 25(1–3), 262–277. ([DOI](https://doi.org/10.1080/13506285.2017.1339158))
 
 ## External links
 

@@ -85,15 +85,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Einstein, G. O., & McDaniel, M. A. (1990). Normal aging and prospective memory. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 16(4), 717-726.
-- McDaniel, M. A., & Einstein, G. O. (2000). Strategic and automatic processes in prospective memory retrieval: A multiprocess framework. *Applied Cognitive Psychology*, 14(7), S127-S144.
-- Smith, R. E. (2003). The cost of remembering to remember in event-based prospective memory: Investigating the capacity demands of delayed intention performance. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 29(3), 347-361.
+- Einstein, G. O., & McDaniel, M. A. (1990). Normal aging and prospective memory. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 16(4), 717-726. ([DOI](https://doi.org/10.1037/0278-7393.16.4.717))
+- McDaniel, M. A., & Einstein, G. O. (2000). Strategic and automatic processes in prospective memory retrieval: A multiprocess framework. *Applied Cognitive Psychology*, 14(7), S127-S144. ([DOI](https://doi.org/10.1002/acp.775))
+- Smith, R. E. (2003). The cost of remembering to remember in event-based prospective memory: Investigating the capacity demands of delayed intention performance. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 29(3), 347-361. ([DOI](https://doi.org/10.1037/0278-7393.29.3.347), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12776746/))
 
-## Recent references
+## Further references
 
-- Scullin, M. K., McDaniel, M. A., & Shelton, J. T. (2013). The Dynamic Multiprocess Framework: Evidence from prospective memory with contextual variability. *Cognitive Psychology*, 67(1-2), 55-71.
-- Cona, G., Scarpazza, C., Sartori, G., Moscovitch, M., & Bhisset, P. (2015). Neural bases of prospective memory: A meta-analysis and the 'Attention to Delayed Intention' (AtoDI) model. *Neuroscience & Biobehavioral Reviews*, 52, 21-37.
-- Anderson, F. T., & McDaniel, M. A. (2019). Hey buddy, why don't we take it outside: An experience sampling study of prospective memory. *Memory & Cognition*, 47(1), 47-62.
+- Scullin, M. K., McDaniel, M. A., & Shelton, J. T. (2013). The Dynamic Multiprocess Framework: Evidence from prospective memory with contextual variability. *Cognitive Psychology*, 67(1-2), 55-71. ([DOI](https://doi.org/10.1016/j.cogpsych.2013.07.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23916951/))
+- Cona, G., Scarpazza, C., Sartori, G., Moscovitch, M., & Bhisset, P. (2015). Neural bases of prospective memory: A meta-analysis and the 'Attention to Delayed Intention' (AtoDI) model. *Neuroscience & Biobehavioral Reviews*, 52, 21-37. ([DOI](https://doi.org/10.1016/j.neubiorev.2015.02.007), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25704073/))
+- Anderson, F. T., & McDaniel, M. A. (2019). Hey buddy, why don't we take it outside: An experience sampling study of prospective memory. *Memory & Cognition*, 47(1), 47-62. ([DOI](https://doi.org/10.4324/9781351000154))
 
 ## External links
 

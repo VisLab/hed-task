@@ -1,4 +1,4 @@
-"""Recompute .working/atlas_summary.json from the .cog_data archive.
+"""Recompute data/atlas_summary.json from the .cog_data archive.
 
 `.cog_data/` is a byte-exact archive of the Cognitive Atlas REST API, written by
 `src/fetch_cog_data.py` and untracked. This script reads it and writes a small JSON
@@ -8,7 +8,7 @@ and the CI docs build need only the committed summary, never the archive.
 Run it by hand whenever the archive is refreshed:
 
     python src/fetch_cog_data.py        # refresh .cog_data/
-    python src/build_atlas_data.py      # recompute .working/atlas_summary.json
+    python src/build_atlas_data.py      # recompute data/atlas_summary.json
 
 Expected archive layout::
 
@@ -504,7 +504,7 @@ def main() -> None:
     parser.add_argument(
         "--out",
         type=Path,
-        default=Path(__file__).parent.parent / ".working" / "atlas_summary.json",
+        default=Path(__file__).parent.parent / "data" / "atlas_summary.json",
     )
     args = parser.parse_args()
 

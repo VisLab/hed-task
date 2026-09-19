@@ -117,16 +117,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Stroop, J. R. (1935). Studies of interference in serial verbal reactions. *Journal of Experimental Psychology*, 18(6), 643-662.
-- MacLeod, C. M. (1991). Half a century of research on the Stroop effect: An integrative review. *Psychological Bulletin*, 109(2), 163-203.
-- Wager, T. D., Sylvester, C. Y. C., Lacey, S. C., Nee, D. E., Franklin, M., & Jonides, J. (2005). Common and unique components of response inhibition revealed by fMRI. *NeuroImage*, 27(3), 323-337.
+- Stroop, J. R. (1935). Studies of interference in serial verbal reactions. *Journal of Experimental Psychology*, 18(6), 643-662. ([DOI](https://doi.org/10.1037/h0054651))
+- MacLeod, C. M. (1991). Half a century of research on the Stroop effect: An integrative review. *Psychological Bulletin*, 109(2), 163-203. ([DOI](https://doi.org/10.1037/0033-2909.109.2.163), [PubMed](https://pubmed.ncbi.nlm.nih.gov/2034749/))
+- Wager, T. D., Sylvester, C. Y. C., Lacey, S. C., Nee, D. E., Franklin, M., & Jonides, J. (2005). Common and unique components of response inhibition revealed by fMRI. *NeuroImage*, 27(3), 323-337. ([DOI](https://doi.org/10.1016/j.neuroimage.2005.01.054), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16019232/))
 
-## Recent references
+## Further references
 
-- Egetemeyer, J., Rehme, A. K., Liebhaber, N., Eickhoff, S. B., & Grefkes, C. (2024). Not all Stroop-type tasks are alike: Assessing the impact of stimulus material, task design, and cognitive demand via meta-analyses across neuroimaging studies. *Neuropsychology Review*, 34, 687–714.
-- Servant, M., Montagnini, A., & Burle, B. (2014). Conflict tasks and the diffusion framework: Insight in model constraints based on psychological laws. *Cognitive Psychology*, 72, 162–195.
-- Algom, D., & Chajut, E. (2019). Reclaiming the Stroop effect back from control to input-driven attention and perception. *Frontiers in Psychology*, 10, 1683.
-- Neumann, J., Lohmann, G., Derrfuss, J., & von Cramon, D. Y. (2005). Meta-analysis of functional imaging data using replicator dynamics. *Human Brain Mapping*, 25(1), 165–173. [Stroop neuroimaging meta-analysis]
+- Egetemeyer, J., Rehme, A. K., Liebhaber, N., Eickhoff, S. B., & Grefkes, C. (2024). Not all Stroop-type tasks are alike: Assessing the impact of stimulus material, task design, and cognitive demand via meta-analyses across neuroimaging studies. *Neuropsychology Review*, 34, 687–714. ([DOI](https://doi.org/10.1007/s11065-024-09647-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/39264479/))
+- Servant, M., Montagnini, A., & Burle, B. (2014). Conflict tasks and the diffusion framework: Insight in model constraints based on psychological laws. *Cognitive Psychology*, 72, 162–195. ([DOI](https://doi.org/10.1016/j.cogpsych.2014.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24762975/))
+- Algom, D., & Chajut, E. (2019). Reclaiming the Stroop effect back from control to input-driven attention and perception. *Frontiers in Psychology*, 10, 1683. ([DOI](https://doi.org/10.3389/fpsyg.2019.01683), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31428008/))
+- Neumann, J., Lohmann, G., Derrfuss, J., & von Cramon, D. Y. (2005). Meta-analysis of functional imaging data using replicator dynamics. *Human Brain Mapping*, 25(1), 165–173. [Stroop neuroimaging meta-analysis] ([DOI](https://doi.org/10.1002/hbm.20133), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15846812/))
 
 ## External links
 

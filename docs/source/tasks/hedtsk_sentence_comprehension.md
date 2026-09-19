@@ -92,13 +92,13 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Frazier, L., & Rayner, K. (1982). Making and correcting errors during sentence comprehension: Eye movements in the analysis of structurally ambiguous sentences. *Cognitive Psychology*, 14(2), 178-210.
-- Friederici, A. D. (2002). Towards a neural basis of auditory sentence processing. *Trends in Cognitive Sciences*, 6(2), 78-84.
-- Novick, J. M., Trueswell, J. C., & Thompson-Schill, S. L. (2005). Cognitive control and parsing: Reexamining the role of Broca's area in sentence comprehension. *Cognitive, Affective, & Behavioral Neuroscience*, 5(3), 263-281.
+- Frazier, L., & Rayner, K. (1982). Making and correcting errors during sentence comprehension: Eye movements in the analysis of structurally ambiguous sentences. *Cognitive Psychology*, 14(2), 178-210. ([DOI](https://doi.org/10.1016/0010-0285(82)90008-1))
+- Friederici, A. D. (2002). Towards a neural basis of auditory sentence processing. *Trends in Cognitive Sciences*, 6(2), 78-84. ([DOI](https://doi.org/10.1016/s1364-6613(00)01839-8), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15866191/))
+- Novick, J. M., Trueswell, J. C., & Thompson-Schill, S. L. (2005). Cognitive control and parsing: Reexamining the role of Broca's area in sentence comprehension. *Cognitive, Affective, & Behavioral Neuroscience*, 5(3), 263-281. ([DOI](https://doi.org/10.3758/cabn.5.3.263), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16396089/))
 
-## Recent references
+## Further references
 
-- Levy, R. (2008). Expectation-based syntactic comprehension. *Cognition*, 106(3), 1126–1177.
-- Fedorenko, E., & Thompson-Schill, S. L. (2014). Reworking the language network. *Trends in Cognitive Sciences*, 18(3), 120–126.
-- Staub, A. (2015). The effect of lexical predictability on eye movements in reading: Critical review and theoretical interpretation. *Language and Linguistics Compass*, 9(8), 311–327.
+- Levy, R. (2008). Expectation-based syntactic comprehension. *Cognition*, 106(3), 1126–1177. ([DOI](https://doi.org/10.1016/j.cognition.2007.05.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17662975/))
+- Fedorenko, E., & Thompson-Schill, S. L. (2014). Reworking the language network. *Trends in Cognitive Sciences*, 18(3), 120–126. ([DOI](https://doi.org/10.1016/j.tics.2013.12.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24440115/))
+- Staub, A. (2015). The effect of lexical predictability on eye movements in reading: Critical review and theoretical interpretation. *Language and Linguistics Compass*, 9(8), 311–327. ([DOI](https://doi.org/10.1111/lnc3.12151))
 

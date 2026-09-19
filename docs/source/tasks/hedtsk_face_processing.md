@@ -94,13 +94,13 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Kanwisher, N., McDermott, J., & Chun, M. M. (1997). The fusiform face area: A module in human extrastriate cortex specialized for face perception. *Journal of Neuroscience*, 17(11), 4302-4311.
-- Grill-Spector, K., Knouf, N., & Kanwisher, N. (2004). The fusiform face area subserves face perception, not generic within-category identification. *Nature Neuroscience*, 7(5), 555-562.
-- Haxby, J. V., Hoffman, E. A., & Gobbini, M. I. (2000). The distributed human neural system for face perception. *Trends in Cognitive Sciences*, 4(6), 223-233.
+- Kanwisher, N., McDermott, J., & Chun, M. M. (1997). The fusiform face area: A module in human extrastriate cortex specialized for face perception. *Journal of Neuroscience*, 17(11), 4302-4311. ([DOI](https://doi.org/10.1523/jneurosci.17-11-04302.1997), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9151747/))
+- Grill-Spector, K., Knouf, N., & Kanwisher, N. (2004). The fusiform face area subserves face perception, not generic within-category identification. *Nature Neuroscience*, 7(5), 555-562. ([DOI](https://doi.org/10.1038/nn1224), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15077112/))
+- Haxby, J. V., Hoffman, E. A., & Gobbini, M. I. (2000). The distributed human neural system for face perception. *Trends in Cognitive Sciences*, 4(6), 223-233. ([DOI](https://doi.org/10.1016/s1364-6613(00)01482-0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10827445/))
 
-## Recent references
+## Further references
 
-- Weiner, K. S., & Grill-Spector, K. (2012). The improbable simplicity of the fusiform face area. *Trends in Cognitive Sciences*, 16(5), 251–254.
-- Pitcher, D., Walsh, V., & Duchaine, B. (2011). The role of the occipital face area in the cortical face perception network. *Experimental Brain Research*, 209(4), 481–493.
-- Grill-Spector, K., Weiner, K. S., Kay, K., & Gomez, J. (2017). The functional neuroanatomy of human face perception. *Annual Review of Vision Science*, 3, 167–196.
+- Weiner, K. S., & Grill-Spector, K. (2012). The improbable simplicity of the fusiform face area. *Trends in Cognitive Sciences*, 16(5), 251–254. ([DOI](https://doi.org/10.1016/j.tics.2012.03.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22481071/))
+- Pitcher, D., Walsh, V., & Duchaine, B. (2011). The role of the occipital face area in the cortical face perception network. *Experimental Brain Research*, 209(4), 481–493. ([DOI](https://doi.org/10.1007/s00221-011-2579-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21318346/))
+- Grill-Spector, K., Weiner, K. S., Kay, K., & Gomez, J. (2017). The functional neuroanatomy of human face perception. *Annual Review of Vision Science*, 3, 167–196. ([DOI](https://doi.org/10.1146/annurev-vision-102016-061214), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28715955/))
 

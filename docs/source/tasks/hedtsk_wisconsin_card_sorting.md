@@ -91,14 +91,14 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Nyhus, E., & Barcelo, F. (2009). The Wisconsin Card Sorting Test and the cognitive assessment of prefrontal executive functions: A critical update. *Brain and Cognition*, 71(3), 437-451.
+- Nyhus, E., & Barcelo, F. (2009). The Wisconsin Card Sorting Test and the cognitive assessment of prefrontal executive functions: A critical update. *Brain and Cognition*, 71(3), 437-451. ([DOI](https://doi.org/10.1016/j.bandc.2009.03.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19375839/))
 
-## Recent references
+## Further references
 
-- Lange, F., Seer, C., & Kopp, B. (2017). Cognitive flexibility in neurological disorders: Cognitive components and event-related potentials. *Neuroscience & Biobehavioral Reviews*, 83, 496–507.
-- Bishara, A. J., Kruschke, J. K., Stout, J. C., Bechara, A., McCabe, D. P., & Busemeyer, J. R. (2010). Sequential learning models for the Wisconsin Card Sorting Task: Assessing processes in substance dependent individuals. *Journal of Mathematical Psychology*, 54(1), 5–13.
-- Figueroa-Vargas, A., Cárcamo, C., Henríquez-Ch, R., et al. (2020). Frontoparietal connectivity correlates with cognitive flexibility during the Wisconsin Card Sorting Test. *NeuroImage*, 218, 116938.
-- Kopp, B., Steinke, A., & Visalli, A. (2020). Cognitive flexibility and N2/P3 event-related brain potentials. *Scientific Reports*, 10, 9859.
+- Lange, F., Seer, C., & Kopp, B. (2017). Cognitive flexibility in neurological disorders: Cognitive components and event-related potentials. *Neuroscience & Biobehavioral Reviews*, 83, 496–507. ([DOI](https://doi.org/10.1016/j.neubiorev.2017.09.011), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28903059/))
+- Bishara, A. J., Kruschke, J. K., Stout, J. C., Bechara, A., McCabe, D. P., & Busemeyer, J. R. (2010). Sequential learning models for the Wisconsin Card Sorting Task: Assessing processes in substance dependent individuals. *Journal of Mathematical Psychology*, 54(1), 5–13. ([DOI](https://doi.org/10.1016/j.jmp.2008.10.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20495607/))
+- Figueroa-Vargas, A., Cárcamo, C., Henríquez-Ch, R., et al. (2020). Frontoparietal connectivity correlates with cognitive flexibility during the Wisconsin Card Sorting Test. *NeuroImage*, 218, 116938. ([DOI](https://doi.org/10.1038/s41598-020-66279-0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/32518271/))
+- Kopp, B., Steinke, A., & Visalli, A. (2020). Cognitive flexibility and N2/P3 event-related brain potentials. *Scientific Reports*, 10, 9859. ([DOI](https://doi.org/10.1038/s41598-020-66781-5), [PubMed](https://pubmed.ncbi.nlm.nih.gov/32555267/))
 
 ## External links
 

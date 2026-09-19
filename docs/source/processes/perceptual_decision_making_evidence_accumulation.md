@@ -24,9 +24,9 @@ Integration of noisy sensory evidence toward a decision criterion, modeled by se
 
 **Fundamental references**
 
-- Ratcliff (1978) *Psychological Review* 85:59–108
+- Ratcliff (1978) *Psychological Review* 85:59–108 ([DOI](https://doi.org/10.1037/0033-295x.85.2.59))
 
-**Recent references**
+**Further references**
 
-- Gold & Shadlen (2007) *Annual Review of Neuroscience* 30:535–574
+- Gold & Shadlen (2007) *Annual Review of Neuroscience* 30:535–574 ([DOI](https://doi.org/10.1146/annurev.neuro.29.051605.113038))
 

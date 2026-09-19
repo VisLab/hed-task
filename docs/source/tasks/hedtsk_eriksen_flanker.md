@@ -91,16 +91,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Eriksen, B. A., & Eriksen, C. W. (1974). Effects of noise letters upon the identification of a target letter in a nonsearch task. *Perception & Psychophysics*, 16(2), 143-149.
-- Botvinick, M. M., Braver, T. S., Barch, D. M., Carter, C. S., & Cohen, J. D. (2001). Conflict monitoring and cognitive control. *Psychological Review*, 108(3), 624-652.
-- Egner, T., & Hirsch, J. (2005). Cognitive control mechanisms resolve conflict through cortical amplification of task-relevant information. *Nature Neuroscience*, 8(12), 1784-1790.
+- Eriksen, B. A., & Eriksen, C. W. (1974). Effects of noise letters upon the identification of a target letter in a nonsearch task. *Perception & Psychophysics*, 16(2), 143-149. ([DOI](https://doi.org/10.3758/bf03203267))
+- Botvinick, M. M., Braver, T. S., Barch, D. M., Carter, C. S., & Cohen, J. D. (2001). Conflict monitoring and cognitive control. *Psychological Review*, 108(3), 624-652. ([DOI](https://doi.org/10.1037/0033-295x.108.3.624), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11488380/))
+- Egner, T., & Hirsch, J. (2005). Cognitive control mechanisms resolve conflict through cortical amplification of task-relevant information. *Nature Neuroscience*, 8(12), 1784-1790. ([DOI](https://doi.org/10.1038/nn1594), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16286928/))
 
-## Recent references
+## Further references
 
-- White, C. N., Servant, M., & Logan, G. D. (2018). Testing the validity of conflict drift-diffusion models for use in estimating cognitive processes: A parameter-recovery study. *Psychonomic Bulletin & Review*, 25(1), 323–330.
-- Ulrich, R., Schröter, H., Leuthold, H., & Birngruber, D. (2015). Automatic and controlled stimulus processing in conflict tasks: Superimposed diffusion processes and delta functions. *Cognitive Psychology*, 78, 148–174.
-- Servant, M., & Logan, G. D. (2019). Dynamics of attentional focusing in the Eriksen flanker task. *Attention, Perception, & Psychophysics*, 81, 2710–2721.
-- Donner, T. H., Siegel, M., Fries, P., & Engel, A. K. (2009). Buildup of choice-predictive activity in human motor cortex during perceptual decision making. *Current Biology*, 19(18), 1581–1585.
+- White, C. N., Servant, M., & Logan, G. D. (2018). Testing the validity of conflict drift-diffusion models for use in estimating cognitive processes: A parameter-recovery study. *Psychonomic Bulletin & Review*, 25(1), 323–330. ([DOI](https://doi.org/10.31234/osf.io/x53n6), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31599635/))
+- Ulrich, R., Schröter, H., Leuthold, H., & Birngruber, D. (2015). Automatic and controlled stimulus processing in conflict tasks: Superimposed diffusion processes and delta functions. *Cognitive Psychology*, 78, 148–174. ([DOI](https://doi.org/10.1016/j.cogpsych.2015.02.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25909766/))
+- Servant, M., & Logan, G. D. (2019). Dynamics of attentional focusing in the Eriksen flanker task. *Attention, Perception, & Psychophysics*, 81, 2710–2721. ([DOI](https://doi.org/10.3758/s13414-019-01796-3), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31250363/))
+- Donner, T. H., Siegel, M., Fries, P., & Engel, A. K. (2009). Buildup of choice-predictive activity in human motor cortex during perceptual decision making. *Current Biology*, 19(18), 1581–1585. ([DOI](https://doi.org/10.1016/j.cub.2009.07.066), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19747828/))
 
 ## External links
 

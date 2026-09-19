@@ -85,15 +85,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Pashler, H. (1994). Dual-task interference in simple tasks: Data and theory. *Psychological Bulletin*, 116(2), 220–244.
-- Pashler, H., & Johnston, J. C. (1998). Attentional limitations in dual-task performance. In H. Pashler (Ed.), *Attention* (pp. 155–189). Psychology Press.
+- Pashler, H. (1994). Dual-task interference in simple tasks: Data and theory. *Psychological Bulletin*, 116(2), 220–244. ([DOI](https://doi.org/10.1037/0033-2909.116.2.220), [PubMed](https://pubmed.ncbi.nlm.nih.gov/7972591/))
+- Pashler, H., & Johnston, J. C. (1998). Attentional limitations in dual-task performance. In H. Pashler (Ed.), *Attention* (pp. 155–189). Psychology Press. ([DOI](https://doi.org/10.3758/bf03211393), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9701965/))
 
-## Recent references
+## Further references
 
-- Tombu, M., & Jolicoeur, P. (2003). A central capacity sharing model of dual-task performance. *Journal of Experimental Psychology: Human Perception and Performance*, 29(1), 3–18.
-- Sigman, M., & Dehaene, S. (2008). Brain mechanisms of serial and parallel processing during dual-task performance. *Journal of Neuroscience*, 28(30), 7585–7598.
+- Tombu, M., & Jolicoeur, P. (2003). A central capacity sharing model of dual-task performance. *Journal of Experimental Psychology: Human Perception and Performance*, 29(1), 3–18. ([DOI](https://doi.org/10.1037/0096-1523.29.1.3), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12669744/))
+- Sigman, M., & Dehaene, S. (2008). Brain mechanisms of serial and parallel processing during dual-task performance. *Journal of Neuroscience*, 28(30), 7585–7598. ([DOI](https://doi.org/10.1523/jneurosci.0948-08.2008), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18650336/))
 - Strobach, T., Schubert, T., Pashler, H., & Rickard, T. (2014). The specificity of stimulus-response and response-response compatibility effects in dual tasks. *Journal of Experimental Psychology: Human Perception and Performance*, 40(5), 1966–1984.
-- Zickerick, B., Thönes, S., Kobald, S. O., Wascher, E., Schneider, D., & Küper, K. (2021). Differential effects of the psychological refractory period on early perceptual processing. *Psychophysiology*, 58(5), e13791.
+- Zickerick, B., Thönes, S., Kobald, S. O., Wascher, E., Schneider, D., & Küper, K. (2021). Differential effects of the psychological refractory period on early perceptual processing. *Psychophysiology*, 58(5), e13791. ([DOI](https://doi.org/10.1016/j.neuroimage.2020.117601), [PubMed](https://pubmed.ncbi.nlm.nih.gov/33249214/))
 
 ## External links
 

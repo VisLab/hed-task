@@ -25,23 +25,22 @@ The catalog is published as a searchable website at **<https://www.hedtags.org/h
 ```
 hed-task/
 |-- src/                    # Documentation generators (Python)
-|   |-- generate_docs.py    # Entry point: regenerates docs/source/ from .working/ and data/
-|   |-- build_atlas_data.py # Recomputes .working/atlas_summary.json from the Atlas harvest
-|   |-- build_atlas_maps.py # Refreshes .working/mappings/*.tsv, preserving curation
+|   |-- generate_docs.py    # Entry point: validates data/ and regenerates docs/source/
+|   |-- build_atlas_data.py # Recomputes data/atlas_summary.json from the Atlas harvest
+|   |-- build_atlas_maps.py # Refreshes data/mappings/*.tsv, preserving curation
 |   |-- fetch_cog_data.py   # Rebuilds the Atlas API archive in .cog_data/
 |   |-- generators/         # One module per page family
-|-- data/                   # Curated presentation tables owned by this repo (task families)
+|-- data/                   # The catalog: task/process JSON, schemas, Atlas mappings, task families
 |-- docs/
 |   |-- source/             # Sphinx source: hand-written narrative pages plus generated catalog pages
 |   |-- _build/             # Build output (gitignored)
-|-- .working/               # Imported catalog: task/process details, atlas_summary.json, mappings/
 |-- tests/                  # Unit tests
 |-- pyproject.toml
 ```
 
-Two kinds of page live in `docs/source/`. The narrative pages (landing page, introduction, how to use, the two Cognitive Atlas essays, and the three Methods documents) are hand-written Markdown: edit them directly. The catalog pages (`tasks/`, `processes/`, `crossref.md`, the two Atlas mapping tables, and the table fragments in `_generated/`) are generated from the JSON data in `.working/` and the TSV tables in `data/` by the scripts in `src/`, and are never edited by hand. Each hand-written page says so in a comment at its top. See [Regenerating the site](#regenerating-the-site) below.
+Two kinds of page live in `docs/source/`. The narrative pages (landing page, introduction, how to use, the two Cognitive Atlas essays, and the three Methods documents) are hand-written Markdown: edit them directly. The catalog pages (`tasks/`, `processes/`, `crossref.md`, the two Atlas mapping tables, and the table fragments in `_generated/`) are generated from the JSON and TSV data in `data/` by the scripts in `src/`, and are never edited by hand. Each hand-written page says so in a comment at its top. See [Regenerating the site](#regenerating-the-site) below.
 
-`.working/` is the imported catalog and is not edited in this repository. `data/` holds curation that lives here: currently the paradigm families that group the tasks on the site (`data/task_families.tsv`, `data/task_family_defs.tsv`; see `data/README.md`). The family assignment is expected to be revised iteratively.
+The catalog itself lives in `data/`: `task_details.json`, `process_details.json`, their JSON Schemas, the Cognitive Atlas mapping tables and the paradigm-family tables. It is edited here by pull request; `data/README.md` says how, and `python src/generate_docs.py` validates every edit before writing a page. The two JSON files began as a one-time import from the research workspace that found the citations (`src/import_catalog.py` records that migration).
 
 ## Local development
 
@@ -64,7 +63,7 @@ pip install -e ".[dev,docs]"
 
 ### Regenerating the site
 
-Whenever the data in `.working/` or `data/` changes, run both steps below. Editing a narrative page needs only step 2.
+Whenever `data/` changes, run both steps. Editing a narrative page needs only step 2.
 
 **Step 1 - regenerate the Markdown source:**
 
@@ -72,13 +71,13 @@ Whenever the data in `.working/` or `data/` changes, run both steps below. Editi
 python src/generate_docs.py
 ```
 
-This reads `task_details.json`, `process_details.json` and `mappings/*.tsv` from `.working/` and the family tables from `data/`, deletes the generated paths under `docs/source/` (`tasks/`, `processes/`, `crossref.md`, the two Atlas mapping tables, `_generated/`), and rewrites them. It never touches a narrative page. It refuses to run if a task has no family, a family has no tasks, or a family id is unknown.
+This validates `data/task_details.json` and `data/process_details.json` against their schemas and against each other, then deletes the generated paths under `docs/source/` (`tasks/`, `processes/`, `crossref.md`, the two Atlas mapping tables, `_generated/`), and rewrites them. It never touches a narrative page. It refuses to run, naming the record, if any check fails: unknown process or category ids, a process whose `tasks` list disagrees with the tasks that name it, a reference role outside the vocabulary, a variation without its derived id, or a task without a family. CI runs the same generation and fails a pull request whose pages are out of date.
 
 `atlas_summary.json` and `mappings/*.tsv` are derived from a byte-exact archive of the [Cognitive Atlas](https://www.cognitiveatlas.org/) REST API kept in `.cog_data/`, which is untracked. Only the derived files are committed, so the docs build never needs the archive. To refresh, run:
 
 ```bash
 python src/fetch_cog_data.py      # rebuild .cog_data/ from the Atlas API (resumable)
-python src/build_atlas_data.py    # recompute .working/atlas_summary.json
+python src/build_atlas_data.py    # recompute data/atlas_summary.json
 python src/build_atlas_maps.py    # refresh the mapping tables, preserving curation
 ```
 

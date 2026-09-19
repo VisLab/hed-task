@@ -81,16 +81,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Frank, M. J., Seeberger, L. C., & O'Reilly, R. C. (2004). By carrot or by stick: Cognitive reinforcement learning in parkinsonism. *Science*, 306(5703), 1940–1943.
-- Frank, M. J., Moustafa, A. A., Haughey, H. M., Curran, T., & Hutchison, K. E. (2007). Genetic triple dissociation reveals multiple roles for dopamine in reinforcement learning. *Proceedings of the National Academy of Sciences*, 104(41), 16311–16316.
-- Frank, M. J. (2005). Dynamic dopamine modulation in the basal ganglia: A neurocomputational account of cognitive deficits in medicated and nonmedicated parkinsonism. *Journal of Cognitive Neuroscience*, 17(1), 51–72.
+- Frank, M. J., Seeberger, L. C., & O'Reilly, R. C. (2004). By carrot or by stick: Cognitive reinforcement learning in parkinsonism. *Science*, 306(5703), 1940–1943. ([DOI](https://doi.org/10.1126/science.1102941), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15528409/))
+- Frank, M. J., Moustafa, A. A., Haughey, H. M., Curran, T., & Hutchison, K. E. (2007). Genetic triple dissociation reveals multiple roles for dopamine in reinforcement learning. *Proceedings of the National Academy of Sciences*, 104(41), 16311–16316. ([DOI](https://doi.org/10.1073/pnas.0706111104), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17913879/))
+- Frank, M. J. (2005). Dynamic dopamine modulation in the basal ganglia: A neurocomputational account of cognitive deficits in medicated and nonmedicated parkinsonism. *Journal of Cognitive Neuroscience*, 17(1), 51–72. ([DOI](https://doi.org/10.1162/0898929052880093), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15701239/))
 
-## Recent references
+## Further references
 
-- Waltz, J. A., Frank, M. J., Robinson, B. M., & Gold, J. M. (2007). Selective reinforcement learning deficits in schizophrenia support predictions from computational models of striatal-cortical dysfunction. *Biological Psychiatry*, 62(7), 756–764.
-- Cavanagh, J. F., Frank, M. J., Klein, T. J., & Allen, J. J. B. (2010). Frontal theta links prediction errors to behavioral adaptation in reinforcement learning. *NeuroImage*, 49(4), 3198–3209.
-- Doll, B. B., Jacobs, W. J., Sanfey, A. G., & Frank, M. J. (2009). Instructional control of reinforcement learning: A behavioral and neurocomputational investigation. *Brain Research*, 1299, 74–94.
-- Bodi, N., Keri, S., Nagy, H., Moustafa, A., Myers, C. E., Daw, N., ... & Gluck, M. A. (2009). Reward-learning and the novelty-seeking personality: A between- and within-subjects study of the effects of dopamine agonists on young Parkinson's patients. *Brain*, 132(9), 2385–2395.
+- Waltz, J. A., Frank, M. J., Robinson, B. M., & Gold, J. M. (2007). Selective reinforcement learning deficits in schizophrenia support predictions from computational models of striatal-cortical dysfunction. *Biological Psychiatry*, 62(7), 756–764. ([DOI](https://doi.org/10.1016/j.biopsych.2006.09.042), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17300757/))
+- Cavanagh, J. F., Frank, M. J., Klein, T. J., & Allen, J. J. B. (2010). Frontal theta links prediction errors to behavioral adaptation in reinforcement learning. *NeuroImage*, 49(4), 3198–3209. ([DOI](https://doi.org/10.1016/j.neuroimage.2009.11.080), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19969093/))
+- Doll, B. B., Jacobs, W. J., Sanfey, A. G., & Frank, M. J. (2009). Instructional control of reinforcement learning: A behavioral and neurocomputational investigation. *Brain Research*, 1299, 74–94. ([DOI](https://doi.org/10.1016/j.brainres.2009.07.007), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19595993/))
+- Bodi, N., Keri, S., Nagy, H., Moustafa, A., Myers, C. E., Daw, N., ... & Gluck, M. A. (2009). Reward-learning and the novelty-seeking personality: A between- and within-subjects study of the effects of dopamine agonists on young Parkinson's patients. *Brain*, 132(9), 2385–2395. ([DOI](https://doi.org/10.1093/brain/awp094), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19416950/))
 
 ## External links
 

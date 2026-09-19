@@ -62,13 +62,13 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Sabatinelli, D., Bradley, M. M., Fitzsimmons, J. R., & Lang, P. J. (2005). Parallel amygdala and inferotemporal activation reflect emotional intensity and fear relevance. *NeuroImage*, 24(4), 1265-1270.
-- Phan, K. L., Wager, T., Taylor, S. F., & Liberzon, I. (2002). Functional neuroanatomy of emotion: A meta-analysis of emotion activation studies in PET and fMRI. *NeuroImage*, 16(2), 331-348.
+- Sabatinelli, D., Bradley, M. M., Fitzsimmons, J. R., & Lang, P. J. (2005). Parallel amygdala and inferotemporal activation reflect emotional intensity and fear relevance. *NeuroImage*, 24(4), 1265-1270. ([DOI](https://doi.org/10.1016/j.neuroimage.2004.12.015), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15670706/))
+- Phan, K. L., Wager, T., Taylor, S. F., & Liberzon, I. (2002). Functional neuroanatomy of emotion: A meta-analysis of emotion activation studies in PET and fMRI. *NeuroImage*, 16(2), 331-348. ([DOI](https://doi.org/10.1006/nimg.2002.1087), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12030820/))
 
-## Recent references
+## Further references
 
-- Lindquist, K. A., Wager, T. D., Kober, H., Bliss-Moreau, E., & Barrett, L. F. (2012). The brain basis of emotion: A meta-analytic review. *Behavioral and Brain Sciences*, 35(3), 121–143.
-- Wager, T. D., Kang, J., Johnson, T. D., Nichols, T. E., Satpute, A. B., & Barrett, L. F. (2015). A Bayesian model of category-specific emotional brain responses. *PLoS Computational Biology*, 11(4), e1004066.
+- Lindquist, K. A., Wager, T. D., Kober, H., Bliss-Moreau, E., & Barrett, L. F. (2012). The brain basis of emotion: A meta-analytic review. *Behavioral and Brain Sciences*, 35(3), 121–143. ([DOI](https://doi.org/10.1017/s0140525x11000446), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22617651/))
+- Wager, T. D., Kang, J., Johnson, T. D., Nichols, T. E., Satpute, A. B., & Barrett, L. F. (2015). A Bayesian model of category-specific emotional brain responses. *PLoS Computational Biology*, 11(4), e1004066. ([DOI](https://doi.org/10.1371/journal.pcbi.1004066), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25853490/))
 
 ## External links
 

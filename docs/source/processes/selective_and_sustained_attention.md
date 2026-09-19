@@ -36,12 +36,12 @@ Achieving and maintaining a state of readiness to respond, whether tonic or phas
 
 **Fundamental references**
 
-- Posner & Boies (1971) *Psychological Review* 78:391–408
-- Fan, McCandliss, Sommer, Raz & Posner (2002) *Journal of Cognitive Neuroscience* 14:340–347
+- Posner & Boies (1971) *Psychological Review* 78:391–408 ([DOI](https://doi.org/10.1037/h0031333))
+- Fan, McCandliss, Sommer, Raz & Posner (2002) *Journal of Cognitive Neuroscience* 14:340–347 ([DOI](https://doi.org/10.1162/089892902317361886))
 
-**Recent references**
+**Further references**
 
-- Petersen & Posner (2012) *Annual Review of Neuroscience* 35:73–89
+- Petersen & Posner (2012) *Annual Review of Neuroscience* 35:73–89 ([DOI](https://doi.org/10.1146/annurev-neuro-062111-150525))
 
 (hed-attention-shifting)=
 ## Attention shifting
@@ -54,11 +54,11 @@ Reorienting of attention from one location, feature, or object to another, index
 
 **Fundamental references**
 
-- Posner, Walker, Friedrich & Rafal (1984) *Journal of Neuroscience* 4:1863–1874
+- Posner, Walker, Friedrich & Rafal (1984) *Journal of Neuroscience* 4:1863–1874 ([DOI](https://doi.org/10.1523/jneurosci.04-07-01863.1984))
 
-**Recent references**
+**Further references**
 
-- Corbetta, Patel & Shulman (2008) *Neuron* 58:306–324
+- Corbetta, Patel & Shulman (2008) *Neuron* 58:306–324 ([DOI](https://doi.org/10.1016/j.neuron.2008.04.017), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18466742/))
 
 (hed-attentional-capture)=
 ## Attentional capture
@@ -71,12 +71,12 @@ Involuntary shift of attention to a salient stimulus that is not the current tar
 
 **Fundamental references**
 
-- Yantis & Jonides (1984) *JEP: Human Perception and Performance* 10:601–621
-- Theeuwes (1992) *Perception & Psychophysics* 51:599–606
+- Yantis & Jonides (1984) *JEP: Human Perception and Performance* 10:601–621 ([DOI](https://doi.org/10.1037//0096-1523.10.5.601))
+- Theeuwes (1992) *Perception & Psychophysics* 51:599–606 ([DOI](https://doi.org/10.3758/bf03211656), [PubMed](https://pubmed.ncbi.nlm.nih.gov/1620571/))
 
-**Recent references**
+**Further references**
 
-- Theeuwes (2010) *Acta Psychologica* 135:77–99
+- Theeuwes (2010) *Acta Psychologica* 135:77–99 ([DOI](https://doi.org/10.1016/j.actpsy.2010.02.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20507828/))
 
 (hed-divided-attention)=
 ## Divided attention
@@ -89,11 +89,11 @@ Concurrent processing of two or more streams of information or two tasks, typica
 
 **Fundamental references**
 
-- Pashler (1994) *Psychological Bulletin* 116:220–244
+- Pashler (1994) *Psychological Bulletin* 116:220–244 ([DOI](https://doi.org/10.1037/0033-2909.116.2.220))
 
-**Recent references**
+**Further references**
 
-- Strobach, Salminen, Karbach & Schubert (2014) *Psychological Research* 78:836–851
+- Strobach, Salminen, Karbach & Schubert (2014) *Psychological Research* 78:836–851 ([DOI](https://doi.org/10.1007/s00426-014-0563-7), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24668506/))
 
 (hed-feature-based-attention)=
 ## Feature-based attention
@@ -106,11 +106,8 @@ Selection of a specific visual feature (e.g., a color, orientation, or motion di
 
 **Fundamental references**
 
-- Treisman & Gelade (1980) *Cognitive Psychology* 12:97–136
-
-**Recent references**
-
-- Maunsell & Treue (2006) *Trends in Neurosciences* 29:317–322
+- Treisman & Gelade (1980) *Cognitive Psychology* 12:97–136 ([DOI](https://doi.org/10.1016/0010-0285(80)90005-5), [PubMed](https://pubmed.ncbi.nlm.nih.gov/7351125/))
+- Maunsell & Treue (2006) *Trends in Neurosciences* 29:317–322 ([DOI](https://doi.org/10.1016/j.tins.2006.04.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16697058/))
 
 (hed-object-based-attention)=
 ## Object-based attention
@@ -123,11 +120,11 @@ Selection of an object as a unit of attention such that the attended features be
 
 **Fundamental references**
 
-- Duncan (1984) *Journal of Experimental Psychology: General* 113:501–517
+- Duncan (1984) *Journal of Experimental Psychology: General* 113:501–517 ([DOI](https://doi.org/10.1037//0096-3445.113.4.501))
 
-**Recent references**
+**Further references**
 
-- Chen (2012) *Attention, Perception & Psychophysics* 74:784–802
+- Chen (2012) *Attention, Perception & Psychophysics* 74:784–802 ([DOI](https://doi.org/10.3758/s13414-012-0322-z), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22673856/))
 
 (hed-orienting)=
 ## Orienting
@@ -140,11 +137,11 @@ Selection of information from sensory input, typically in space, by covert or ov
 
 **Fundamental references**
 
-- Posner (1980) *Quarterly Journal of Experimental Psychology* 32:3–25
+- Posner (1980) *Quarterly Journal of Experimental Psychology* 32:3–25 ([DOI](https://doi.org/10.1080/00335558008248231))
 
-**Recent references**
+**Further references**
 
-- Corbetta & Shulman (2002) *Nature Reviews Neuroscience* 3:201–215
+- Corbetta & Shulman (2002) *Nature Reviews Neuroscience* 3:201–215 ([DOI](https://doi.org/10.1038/nrn755), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11994752/))
 
 (hed-selective-attention)=
 ## Selective attention
@@ -157,11 +154,11 @@ Prioritized processing of a task-relevant subset of stimuli (a location, feature
 
 **Fundamental references**
 
-- Treisman (1969) *Psychological Review* 76:282–299
+- Treisman (1969) *Psychological Review* 76:282–299 ([DOI](https://doi.org/10.1037/h0027242))
 
-**Recent references**
+**Further references**
 
-- Chun, Golomb & Turk-Browne (2011) *Annual Review of Psychology* 62:73–101
+- Chun, Golomb & Turk-Browne (2011) *Annual Review of Psychology* 62:73–101 ([DOI](https://doi.org/10.1146/annurev.psych.093008.100427))
 
 (hed-spatial-attention)=
 ## Spatial attention
@@ -174,19 +171,19 @@ Selection of a location in space for preferential sensory processing, measurable
 
 **Fundamental references**
 
-- Posner (1980) *Quarterly Journal of Experimental Psychology* 32:3–25
-- Eriksen & St. James (1986) *Perception & Psychophysics* 40:225–240
+- Posner (1980) *Quarterly Journal of Experimental Psychology* 32:3–25 ([DOI](https://doi.org/10.1080/00335558008248231))
+- Eriksen & St. James (1986) *Perception & Psychophysics* 40:225–240 ([DOI](https://doi.org/10.3758/bf03211502), [PubMed](https://pubmed.ncbi.nlm.nih.gov/3786090/))
 
-**Recent references**
+**Further references**
 
-- Carrasco (2011) *Vision Research* 51:1484–1525
+- Carrasco (2011) *Vision Research* 51:1484–1525 ([DOI](https://doi.org/10.1016/j.visres.2011.04.012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21549742/))
 
 (hed-sustained-attention)=
 ## Sustained attention
 
 **Process ID:** `hed_sustained_attention`
 
-**Also known as:** **Vigilance** - Synonymous when operationalized as a continuous-performance measure.
+**Also known as:** **Vigilance** - Synonymous when operationalized as a continuous-performance measure.; **Vigilant attention** - Robertson et al. tradition; emphasizes attention maintenance during monotonous, low-stimulation tasks.
 
 Maintenance of attentional engagement over extended intervals during which targets are rare or responses are repetitive; synonymous with vigilance.
 
@@ -194,12 +191,12 @@ Maintenance of attentional engagement over extended intervals during which targe
 
 **Fundamental references**
 
-- Mackworth (1948) *Quarterly Journal of Experimental Psychology* 1:6–21
-- Parasuraman (1979) *Science* 205:924–927
+- Mackworth (1948) *Quarterly Journal of Experimental Psychology* 1:6–21 ([DOI](https://doi.org/10.1080/17470214808416738))
+- Parasuraman (1979) *Science* 205:924–927 ([DOI](https://doi.org/10.1126/science.472714))
 
-**Recent references**
+**Further references**
 
-- Esterman & Rothlein (2019) *Current Opinion in Psychology* 29:174–180
+- Esterman & Rothlein (2019) *Current Opinion in Psychology* 29:174–180 ([DOI](https://doi.org/10.1016/j.copsyc.2019.03.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30986621/))
 
 (hed-temporal-attention)=
 ## Temporal attention
@@ -212,10 +209,10 @@ Selection of a point in time for preferential processing, measurable via cueing 
 
 **Fundamental references**
 
-- Nobre (2001) *Neuropsychologia* 39:1317–1328
-- Raymond, Shapiro & Arnell (1992) *JEP: Human Perception and Performance* 18:849–860
+- Nobre (2001) *Neuropsychologia* 39:1317–1328 ([DOI](https://doi.org/10.1016/s0028-3932(01)00120-8), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11566314/))
+- Raymond, Shapiro & Arnell (1992) *JEP: Human Perception and Performance* 18:849–860 ([DOI](https://doi.org/10.1037//0096-1523.18.3.849))
 
-**Recent references**
+**Further references**
 
-- Nobre & van Ede (2018) *Nature Reviews Neuroscience* 19:34–48
+- Nobre & van Ede (2018) *Nature Reviews Neuroscience* 19:34–48 ([DOI](https://doi.org/10.1016/j.neuroscience.2018.05.014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29802816/))
 

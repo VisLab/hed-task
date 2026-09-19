@@ -105,16 +105,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Rogers, R. D., & Monsell, S. (1995). Costs of a predictable switch between simple cognitive tasks. *Journal of Experimental Psychology: General*, 124(2), 207-231.
-- Monsell, S. (2003). Task switching. *Trends in Cognitive Sciences*, 7(3), 134-140.
-- Braver, T. S., Reynolds, J. R., & Donaldson, D. I. (2003). Neural mechanisms of transient and sustained cognitive control during task switching. *Neuron*, 39(4), 713-726.
+- Rogers, R. D., & Monsell, S. (1995). Costs of a predictable switch between simple cognitive tasks. *Journal of Experimental Psychology: General*, 124(2), 207-231. ([DOI](https://doi.org/10.1037/0096-3445.124.2.207))
+- Monsell, S. (2003). Task switching. *Trends in Cognitive Sciences*, 7(3), 134-140. ([DOI](https://doi.org/10.1016/s1364-6613(03)00028-7), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12639695/))
+- Braver, T. S., Reynolds, J. R., & Donaldson, D. I. (2003). Neural mechanisms of transient and sustained cognitive control during task switching. *Neuron*, 39(4), 713-726. ([DOI](https://doi.org/10.1016/s0896-6273(03)00466-5), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12925284/))
 
-## Recent references
+## Further references
 
-- Kiesel, A., Steinhauser, M., Wendt, M., Falkenstein, M., Jost, K., Philipp, A. M., & Koch, I. (2010). Control and interference in task switching—A review. *Psychological Bulletin*, 136(5), 849–874.
-- Vandierendonck, A., Liefooghe, B., & Verbruggen, F. (2010). Task switching: Interplay of reconfiguration and interference control. *Psychological Bulletin*, 136(4), 601–626.
-- Grange, J. A., & Houghton, G. (2014). Models of cognitive control in task switching. In *Task Switching and Cognitive Control* (pp. 160–199). Oxford University Press.
-- Braem, S., & Egner, T. (2018). Getting a grip on cognitive flexibility. *Current Directions in Psychological Science*, 27(6), 470–476.
+- Kiesel, A., Steinhauser, M., Wendt, M., Falkenstein, M., Jost, K., Philipp, A. M., & Koch, I. (2010). Control and interference in task switching—A review. *Psychological Bulletin*, 136(5), 849–874. ([DOI](https://doi.org/10.1037/a0019842), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20804238/))
+- Vandierendonck, A., Liefooghe, B., & Verbruggen, F. (2010). Task switching: Interplay of reconfiguration and interference control. *Psychological Bulletin*, 136(4), 601–626. ([DOI](https://doi.org/10.1037/a0019791), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20565170/))
+- Grange, J. A., & Houghton, G. (2014). Models of cognitive control in task switching. In *Task Switching and Cognitive Control* (pp. 160–199). Oxford University Press. ([DOI](https://doi.org/10.1093/acprof:osobl/9780199921959.003.0008))
+- Braem, S., & Egner, T. (2018). Getting a grip on cognitive flexibility. *Current Directions in Psychological Science*, 27(6), 470–476. ([DOI](https://doi.org/10.1177/0963721418787475), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30555214/))
 
 ## External links
 
