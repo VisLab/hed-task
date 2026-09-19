@@ -39,6 +39,6 @@ The catalog currently has {{ n_pseudo_tasks }} pseudo tasks: the Rest Task (with
 The exclusion of self-report instruments stands. What the catalog admits is the act of administering one; the instrument used is recorded as a parameter of that block, as a stimulus set is a parameter of a task, and is not a variation.
 
 (task-criteria-1-4)=
-## 1.4 {{ n_tasks }} only?
+## 1.4 Why only {{ n_tasks }} tasks?
 
 The catalog currently lists {{ n_tasks }} canonical tasks spanning the major domains of cognitive and behavioral neuroscience: attention, memory, executive function, language, perception, motor control, emotion, social cognition, decision-making, and learning. The number {{ n_tasks }} reflects the current state of consolidation from the Cognitive Atlas plus gap-filling. Tasks may be added or removed as the catalog matures.
