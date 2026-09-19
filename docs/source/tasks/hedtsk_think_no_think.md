@@ -86,16 +86,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Anderson, M. C., & Green, C. (2001). Suppressing unwanted memories by executive control. *Nature*, 410, 366–369.
-- Anderson, M. C., & Hanslmayr, S. (2014). Neural mechanisms of motivated forgetting. *Trends in Cognitive Sciences*, 18(6), 279–292.
-- Levy, B. J., & Anderson, M. C. (2012). Purging of memories from conscious awareness tracked in the human brain. *Journal of Neuroscience*, 32(47), 16785–16794.
+- Anderson, M. C., & Green, C. (2001). Suppressing unwanted memories by executive control. *Nature*, 410, 366–369. ([DOI](https://doi.org/10.1038/35066572), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11268212/))
+- Anderson, M. C., & Hanslmayr, S. (2014). Neural mechanisms of motivated forgetting. *Trends in Cognitive Sciences*, 18(6), 279–292. ([DOI](https://doi.org/10.1016/j.tics.2014.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24747000/))
+- Levy, B. J., & Anderson, M. C. (2012). Purging of memories from conscious awareness tracked in the human brain. *Journal of Neuroscience*, 32(47), 16785–16794. ([DOI](https://doi.org/10.1523/jneurosci.2640-12.2012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23175832/))
 
-## Recent references
+## Further references
 
-- Gagnepain, P., Hulbert, J., & Anderson, M. C. (2017). Parallel regulation of memory and emotion supports the suppression of intrusive memories. *Journal of Neuroscience*, 37(27), 6423–6441.
-- Benoit, R. G., & Anderson, M. C. (2012). Opposing mechanisms support the voluntary forgetting of unwanted memories. *Neuron*, 76(2), 450–460.
-- Stramaccia, D. F., Meyer, A.-K., Rischer, K. M., Fawcett, J. M., & Benoit, R. G. (2021). Memory suppression and its deficiency in psychological disorders: A focused review. *Journal of Experimental Psychology: General*, 150(5), 828–850.
-- Hu, X., Bergström, Z. M., Gagnepain, P., & Anderson, M. C. (2017). Suppressing unwanted memories reduces their unintended influences. *Current Directions in Psychological Science*, 26(2), 197–206.
+- Gagnepain, P., Hulbert, J., & Anderson, M. C. (2017). Parallel regulation of memory and emotion supports the suppression of intrusive memories. *Journal of Neuroscience*, 37(27), 6423–6441. ([DOI](https://doi.org/10.1523/jneurosci.2732-16.2017), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28559378/))
+- Benoit, R. G., & Anderson, M. C. (2012). Opposing mechanisms support the voluntary forgetting of unwanted memories. *Neuron*, 76(2), 450–460. ([DOI](https://doi.org/10.1016/j.neuron.2012.07.025), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23083745/))
+- Stramaccia, D. F., Meyer, A.-K., Rischer, K. M., Fawcett, J. M., & Benoit, R. G. (2021). Memory suppression and its deficiency in psychological disorders: A focused review. *Journal of Experimental Psychology: General*, 150(5), 828–850. ([DOI](https://doi.org/10.1037/xge0000971), [PubMed](https://pubmed.ncbi.nlm.nih.gov/33090824/))
+- Hu, X., Bergström, Z. M., Gagnepain, P., & Anderson, M. C. (2017). Suppressing unwanted memories reduces their unintended influences. *Current Directions in Psychological Science*, 26(2), 197–206. ([DOI](https://doi.org/10.1177/0963721417689881), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28458471/))
 
 ## External links
 

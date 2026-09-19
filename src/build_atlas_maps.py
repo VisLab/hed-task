@@ -1,4 +1,4 @@
-"""Build and refresh the HED-to-Cognitive-Atlas mapping tables in .working/mappings/.
+"""Build and refresh the HED-to-Cognitive-Atlas mapping tables in data/mappings/.
 
 Four TSV files, each keyed by a unique entity id, two per axis:
 
@@ -38,7 +38,7 @@ from pathlib import Path
 
 REPO = Path(__file__).parent.parent
 DEFAULT_ARCHIVE = REPO / ".cog_data"
-DEFAULT_WORKING = REPO / ".working"
+DEFAULT_DATA = REPO / "data"
 MAP_DIR_NAME = "mappings"
 
 # Columns the curator owns. A refresh never overwrites these.
@@ -446,14 +446,16 @@ def build_process_tables(
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--archive", type=Path, default=DEFAULT_ARCHIVE)
-    parser.add_argument("--working", type=Path, default=DEFAULT_WORKING)
+    parser.add_argument(
+        "--data", type=Path, default=DEFAULT_DATA, help="the data/ directory holding the catalog and mappings/"
+    )
     parser.add_argument("--report", action="store_true", help="report only, write nothing")
     args = parser.parse_args()
 
-    map_dir = args.working / MAP_DIR_NAME
+    map_dir = args.data / MAP_DIR_NAME
 
-    hed_tasks = json.loads((args.working / "task_details.json").read_text(encoding="utf-8"))
-    process_data = json.loads((args.working / "process_details.json").read_text(encoding="utf-8"))
+    hed_tasks = json.loads((args.data / "task_details.json").read_text(encoding="utf-8"))
+    process_data = json.loads((args.data / "process_details.json").read_text(encoding="utf-8"))
     processes = process_data["processes"]
 
     atlas_tasks = _load_listing(args.archive, "task")

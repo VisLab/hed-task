@@ -27,11 +27,11 @@ Memory expressed without conscious recollection, measurable by priming, skill le
 
 **Fundamental references**
 
-- Graf & Schacter (1985) *JEP: Learning, Memory, and Cognition* 11:501–518
+- Graf & Schacter (1985) *JEP: Learning, Memory, and Cognition* 11:501–518 ([DOI](https://doi.org/10.1037/0278-7393.11.3.501))
 
-**Recent references**
+**Further references**
 
-- Schacter, Wig & Stevens (2007) *Current Opinion in Neurobiology* 17:171–176
+- Schacter, Wig & Stevens (2007) *Current Opinion in Neurobiology* 17:171–176 ([DOI](https://doi.org/10.1016/j.conb.2007.02.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17303410/))
 
 (hed-procedural-memory)=
 ## Procedural memory
@@ -44,9 +44,9 @@ Non-declarative memory for skills and procedures, expressed through improved per
 
 **Fundamental references**
 
-- Cohen & Squire (1980) *Science* 210:207–210
+- Cohen & Squire (1980) *Science* 210:207–210 ([DOI](https://doi.org/10.1126/science.7414331))
 
-**Recent references**
+**Further references**
 
-- Doyon, Gabitov, Vahdat, Lungu & Boutin (2018) *Neurobiology of Learning and Memory* 153:1–12
+- Doyon, Gabitov, Vahdat, Lungu & Boutin (2018) *Current Opinion in Behavioral Sciences* 153:1–12 ([DOI](https://doi.org/10.1016/j.cobeha.2017.11.012))
 

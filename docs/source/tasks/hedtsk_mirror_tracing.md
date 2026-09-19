@@ -5,7 +5,7 @@
 
 **Family:** [Motor performance and speeded response tasks](families/motor_performance.md)
 
-**Also known as:** MTT, Mirror Drawing
+**Also known as:** MTT, Mirror Drawing, Mirror Tracing
 
 Tracing of a figure viewed only in a mirror; error and completion time across trials index visuomotor adaptation and procedural learning.
 
@@ -96,15 +96,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Gabrieli, J. D. E., Corkin, S., Mickel, S. F., & Growdon, J. H. (1993). Intact acquisition and long-term retention of mirror-tracing skill in Alzheimer's disease and in global amnesia. *Behavioral Neuroscience*, 107(6), 899–910.
-- Sanes, J. N. (2003). Neocortical mechanisms in motor learning. *Current Opinion in Neurobiology*, 13(2), 225–231.
+- Gabrieli, J. D. E., Corkin, S., Mickel, S. F., & Growdon, J. H. (1993). Intact acquisition and long-term retention of mirror-tracing skill in Alzheimer's disease and in global amnesia. *Behavioral Neuroscience*, 107(6), 899–910. ([DOI](https://doi.org/10.1037/0735-7044.107.6.899), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8136066/))
+- Sanes, J. N. (2003). Neocortical mechanisms in motor learning. *Current Opinion in Neurobiology*, 13(2), 225–231. ([DOI](https://doi.org/10.1016/s0959-4388(03)00046-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12744978/))
 
-## Recent references
+## Further references
 
-- Halsband, U., & Lange, R. K. (2006). Motor learning in man: A review of functional and clinical studies. *Journal of Physiology-Paris*, 99(4-6), 414–424.
-- Treutwein, B., & Strasburger, H. (1999). Fitting the psychometric function. *Perception & Psychophysics*, 61(1), 87–106. [Methodological context for motor learning curves]
-- Hardwick, R. M., Rottschy, C., Miall, R. C., & Eickhoff, S. B. (2013). A quantitative meta-analysis and review of motor learning in the human brain. *NeuroImage*, 67, 283–297.
-- Boyd, L. A., & Winstein, C. J. (2004). Cerebellar stroke impairs temporal but not spatial accuracy during implicit motor learning. *Neurorehabilitation and Neural Repair*, 18(3), 134–143.
+- Halsband, U., & Lange, R. K. (2006). Motor learning in man: A review of functional and clinical studies. *Journal of Physiology-Paris*, 99(4-6), 414–424. ([DOI](https://doi.org/10.1016/j.jphysparis.2006.03.007), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16730432/))
+- Treutwein, B., & Strasburger, H. (1999). Fitting the psychometric function. *Perception & Psychophysics*, 61(1), 87–106. [Methodological context for motor learning curves] ([DOI](https://doi.org/10.3758/bf03211951), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10070202/))
+- Hardwick, R. M., Rottschy, C., Miall, R. C., & Eickhoff, S. B. (2013). A quantitative meta-analysis and review of motor learning in the human brain. *NeuroImage*, 67, 283–297. ([DOI](https://doi.org/10.1016/j.neuroimage.2012.11.020), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23194819/))
+- Boyd, L. A., & Winstein, C. J. (2004). Cerebellar stroke impairs temporal but not spatial accuracy during implicit motor learning. *Neurorehabilitation and Neural Repair*, 18(3), 134–143. ([DOI](https://doi.org/10.1177/0888439004269072), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15375273/))
 
 ## External links
 

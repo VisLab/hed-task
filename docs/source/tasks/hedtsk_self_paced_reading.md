@@ -85,13 +85,13 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Just, M. A., Carpenter, P. A., & Woolley, J. D. (1982). Paradigms and processes in reading comprehension. Journal of Experimental Psychology: General, 111(2), 228-238.
-- Ferreira, F., & Clifton, C. (1986). The independence of syntactic processing. Journal of Memory and Language, 25(3), 348-368.
+- Just, M. A., Carpenter, P. A., & Woolley, J. D. (1982). Paradigms and processes in reading comprehension. Journal of Experimental Psychology: General, 111(2), 228-238. ([DOI](https://doi.org/10.1037/0096-3445.111.2.228), [PubMed](https://pubmed.ncbi.nlm.nih.gov/6213735/))
+- Ferreira, F., & Clifton, C. (1986). The independence of syntactic processing. Journal of Memory and Language, 25(3), 348-368. ([DOI](https://doi.org/10.1016/0749-596x(86)90006-9))
 
-## Recent references
+## Further references
 
-- Jegerski, J. (2014). Self-paced reading. In J. Jegerski & B. VanPatten (Eds.), Research Methods in Second Language Psycholinguistics (pp. 20-49). Routledge.
-- Vasishth, S., & Nicenboim, B. (2016). Statistical methods for linguistic research: Foundational ideas -- Part I. Language and Linguistics Compass, 10(8), 349-369.
-- Smith, N. J., & Levy, R. (2013). The effect of word predictability on reading time is logarithmic. Cognition, 128(3), 302-319.
-- Boyce, V., Futrell, R., & Levy, R. P. (2020). Maze made easy: Better and easier measurement of incremental processing difficulty. Journal of Memory and Language, 111, 104082.
+- Jegerski, J. (2014). Self-paced reading. In J. Jegerski & B. VanPatten (Eds.), Research Methods in Second Language Psycholinguistics (pp. 20-49). Routledge. ([DOI](https://doi.org/10.4324/9780203123430))
+- Vasishth, S., & Nicenboim, B. (2016). Statistical methods for linguistic research: Foundational ideas -- Part I. Language and Linguistics Compass, 10(8), 349-369. ([DOI](https://doi.org/10.1111/lnc3.12201))
+- Smith, N. J., & Levy, R. (2013). The effect of word predictability on reading time is logarithmic. Cognition, 128(3), 302-319. ([DOI](https://doi.org/10.1016/j.cognition.2013.02.013), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23747651/))
+- Boyce, V., Futrell, R., & Levy, R. P. (2020). Maze made easy: Better and easier measurement of incremental processing difficulty. Journal of Memory and Language, 111, 104082. ([DOI](https://doi.org/10.1016/j.jml.2019.104082))
 

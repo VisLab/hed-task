@@ -15,18 +15,19 @@ Open an issue at <https://github.com/hed-standard/hed-task/issues>. The [how to 
 
 ## What lives where
 
-The site is generated. Corrections are applied to the data, never to the pages.
+The catalog pages are generated. Corrections to a task or process are applied to the data, never to the pages.
 
-| Content                                                                                     | Where it lives                                                                                                            | Who edits it                                                      |
-| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| Task and process records, Atlas mapping tables                                              | `.working/`                                                                                                               | Imported from the curation project; not edited in this repository |
-| Paradigm families that group tasks on the site                                              | `data/task_families.tsv`, `data/task_family_defs.tsv`                                                                     | Edited here by pull request; see `data/README.md`                 |
-| Narrative pages: landing, introduction, how to use, the Atlas essays, the Methods documents | `docs/source/*.md`, `docs/source/atlas/cognitive_atlas.md`, `docs/source/atlas/relationship.md`, `docs/source/methods/**` | Edited here by pull request, directly in Markdown                 |
-| Layout and wording of the catalog pages                                                     | `src/generators/`                                                                                                         | Edited here by pull request                                       |
-| Sphinx configuration, styling, templates                                                    | `docs/source/conf.py`, `docs/source/_static/`, `docs/source/_templates/`                                                  | Edited here by pull request                                       |
-| Generated catalog pages                                                                     | `docs/source/tasks/`, `processes/`, `crossref.md`, `atlas/*_mapping.md`, `_generated/`                                    | Never by hand; regenerated and committed                          |
+| Content                                                                                     | Where it lives                                                                                                            | Who edits it                                                                             |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Task and process records                                                                    | `data/task_details.json`, `data/process_details.json`                                                                     | Edited here by pull request; see `data/README.md` for the record shape and the checks    |
+| Atlas mapping tables                                                                        | `data/mappings/*.tsv`                                                                                                     | Edited here by pull request; `src/build_atlas_maps.py` refreshes the descriptive columns |
+| Paradigm families that group tasks on the site                                              | `data/task_families.tsv`, `data/task_family_defs.tsv`                                                                     | Edited here by pull request                                                              |
+| Narrative pages: landing, introduction, how to use, the Atlas essays, the Methods documents | `docs/source/*.md`, `docs/source/atlas/cognitive_atlas.md`, `docs/source/atlas/relationship.md`, `docs/source/methods/**` | Edited here by pull request, directly in Markdown                                        |
+| Layout and wording of the catalog pages                                                     | `src/generators/`                                                                                                         | Edited here by pull request                                                              |
+| Sphinx configuration, styling, templates                                                    | `docs/source/conf.py`, `docs/source/_static/`, `docs/source/_templates/`                                                  | Edited here by pull request                                                              |
+| Generated catalog pages                                                                     | `docs/source/tasks/`, `processes/`, `crossref.md`, `atlas/*_mapping.md`, `_generated/`                                    | Never by hand; regenerated and committed                                                 |
 
-A change to a task's definition, references or process links therefore starts as an issue, because the record it would change is imported. A change to a family assignment, to the wording of a narrative page, or to the site configuration can be a pull request directly. Every hand-written page carries a comment at the top saying so; a page without that comment is generated.
+Any of these can be a pull request directly. An issue first is welcome when the change is a judgement call (a new task, a new process, a re-filed family) so that the reasoning is discussed before the edit. Every hand-written page carries a comment at the top saying so; a page without that comment is generated.
 
 ## Making a pull request
 
@@ -37,8 +38,8 @@ A change to a task's definition, references or process links therefore starts as
    # Windows: .venv\Scripts\activate    Linux / macOS: source .venv/bin/activate
    pip install -e ".[dev,docs]"
    ```
-3. Make the change: a narrative page under `docs/source/`, a table in `data/`, a generator in `src/`, or `docs/source/conf.py` and the static files.
-4. Regenerate the catalog pages if anything under `data/` or `src/` changed (a narrative-page edit needs no regeneration). The script deletes every generated page and rewrites the current set, so the diff will be large; commit it with the change that caused it.
+3. Make the change: a record in `data/task_details.json` or `data/process_details.json` (see `data/README.md`, including which `roles` a new reference gets), a table in `data/`, a narrative page under `docs/source/`, a generator in `src/`, or `docs/source/conf.py` and the static files.
+4. Regenerate the catalog pages if anything under `data/` or `src/` changed (a narrative-page edit needs no regeneration). The generator validates the data first and names any record that fails; CI runs the same step and fails the PR if the committed pages are out of date. The script deletes every generated page and rewrites the current set, so the diff will be large; commit it with the change that caused it.
    ```bash
    python src/generate_docs.py
    ```
@@ -51,6 +52,7 @@ A change to a task's definition, references or process links therefore starts as
    ruff check .
    ruff format --check .
    python -m mdformat --check --wrap no --number *.md
+   python src/check_references.py   # if you touched a reference
    ```
    Do not run `mdformat` over `docs/source/`; it rewrites the generated MyST directives into a form Sphinx cannot parse.
 7. Open the pull request against `main`. Say what changed and why; for a family change, quote the rationale you put in the table.

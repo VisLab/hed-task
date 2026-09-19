@@ -110,18 +110,18 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Baron-Cohen, S., Leslie, A. M., & Frith, U. (1985). Does the autistic child have a "theory of mind"? *Cognition*, 21(1), 37-46.
-- Saxe, R., & Kanwisher, N. (2003). People thinking about thinking people: The role of the temporo-parietal junction in "theory of mind." *NeuroImage*, 19(4), 1835-1842.
-- Wimmer, H., & Perner, J. (1983). Beliefs about beliefs: Representation and constraining function of wrong beliefs in young children's understanding of deception. *Cognition*, 13(1), 103–128.
+- Baron-Cohen, S., Leslie, A. M., & Frith, U. (1985). Does the autistic child have a "theory of mind"? *Cognition*, 21(1), 37-46. ([DOI](https://doi.org/10.1016/0010-0277(85)90022-8), [PubMed](https://pubmed.ncbi.nlm.nih.gov/2934210/))
+- Saxe, R., & Kanwisher, N. (2003). People thinking about thinking people: The role of the temporo-parietal junction in "theory of mind." *NeuroImage*, 19(4), 1835-1842. ([DOI](https://doi.org/10.1016/s1053-8119(03)00230-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12948738/))
+- Wimmer, H., & Perner, J. (1983). Beliefs about beliefs: Representation and constraining function of wrong beliefs in young children's understanding of deception. *Cognition*, 13(1), 103–128. ([DOI](https://doi.org/10.1016/0010-0277(83)90004-5), [PubMed](https://pubmed.ncbi.nlm.nih.gov/6681741/))
 
-## Recent references
+## Further references
 
-- Schurz, M., Radua, J., Aichhorn, M., Richlan, F., & Perner, J. (2014). Fractionating theory of mind: A meta-analysis of functional brain imaging studies. *Neuroscience & Biobehavioral Reviews*, 42, 9–34.
-- Apperly, I. A. (2012). What is "theory of mind"? Concepts, cognitive processes and individual differences. *Quarterly Journal of Experimental Psychology*, 65(5), 825–839.
-- Wellman, H. M., Cross, D., & Watson, J. (2001). Meta-analysis of theory-of-mind development: The truth about false belief. *Child Development*, 72(3), 655–684.
-- Onishi, K. H., & Baillargeon, R. (2005). Do 15-month-old infants understand false beliefs? *Science*, 308(5719), 255–258. [Updated: Baillargeon, R., Scott, R. M., & Bian, L. (2016). Psychological reasoning in infancy. *Annual Review of Psychology*, 67, 159–186.]
-- Apperly, I. A., & Butterfill, S. A. (2009). Do humans have two systems to track beliefs and belief-like states? *Psychological Review*, 116(4), 953–970.
-- Kulke, L., & Rakoczy, H. (2018). Implicit Theory of Mind: An overview of current replications and non-replications. *Data in Brief*, 16, 101–104.
+- Schurz, M., Radua, J., Aichhorn, M., Richlan, F., & Perner, J. (2014). Fractionating theory of mind: A meta-analysis of functional brain imaging studies. *Neuroscience & Biobehavioral Reviews*, 42, 9–34. ([DOI](https://doi.org/10.1016/j.neubiorev.2014.01.009), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24486722/))
+- Apperly, I. A. (2012). What is "theory of mind"? Concepts, cognitive processes and individual differences. *Quarterly Journal of Experimental Psychology*, 65(5), 825–839. ([DOI](https://doi.org/10.1080/17470218.2012.676055), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22533318/))
+- Wellman, H. M., Cross, D., & Watson, J. (2001). Meta-analysis of theory-of-mind development: The truth about false belief. *Child Development*, 72(3), 655–684. ([DOI](https://doi.org/10.1111/1467-8624.00304), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11405571/))
+- Onishi, K. H., & Baillargeon, R. (2005). Do 15-month-old infants understand false beliefs? *Science*, 308(5719), 255–258. [Updated: Baillargeon, R., Scott, R. M., & Bian, L. (2016). Psychological reasoning in infancy. *Annual Review of Psychology*, 67, 159–186.] ([DOI](https://doi.org/10.1126/science.1107621), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15821091/))
+- Apperly, I. A., & Butterfill, S. A. (2009). Do humans have two systems to track beliefs and belief-like states? *Psychological Review*, 116(4), 953–970. ([DOI](https://doi.org/10.1037/a0016923), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19839692/))
+- Kulke, L., & Rakoczy, H. (2018). Implicit Theory of Mind: An overview of current replications and non-replications. *Data in Brief*, 16, 101–104. ([DOI](https://doi.org/10.1016/j.dib.2017.11.016), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29188228/))
 
 ## External links
 

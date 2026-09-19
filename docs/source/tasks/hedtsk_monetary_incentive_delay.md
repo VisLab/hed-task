@@ -85,14 +85,14 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Knutson, B., Westdorp, A., Kaiser, E., & Hommer, D. (2000). FMRI visualization of brain activity during a monetary incentive delay task. *NeuroImage*, 12(1), 20–27.
-- Knutson, B., Adams, C. M., Fong, G. W., & Hommer, D. (2001). Anticipation of increasing monetary reward selectively recruits nucleus accumbens. *Journal of Neuroscience*, 21(16), RC159.
-- Oldham, S., Murawski, C., Fornito, A., Youssef, G., Yücel, M., & Lorenzetti, V. (2018). The anticipation and outcome phases of reward and loss processing: A neuroimaging meta-analysis of the monetary incentive delay task. *Human Brain Mapping*, 39(8), 3398–3418.
+- Knutson, B., Westdorp, A., Kaiser, E., & Hommer, D. (2000). FMRI visualization of brain activity during a monetary incentive delay task. *NeuroImage*, 12(1), 20–27. ([DOI](https://doi.org/10.1006/nimg.2000.0593), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10875899/))
+- Knutson, B., Adams, C. M., Fong, G. W., & Hommer, D. (2001). Anticipation of increasing monetary reward selectively recruits nucleus accumbens. *Journal of Neuroscience*, 21(16), RC159. ([DOI](https://doi.org/10.1523/jneurosci.21-16-j0002.2001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11459880/))
+- Oldham, S., Murawski, C., Fornito, A., Youssef, G., Yücel, M., & Lorenzetti, V. (2018). The anticipation and outcome phases of reward and loss processing: A neuroimaging meta-analysis of the monetary incentive delay task. *Human Brain Mapping*, 39(8), 3398–3418. ([DOI](https://doi.org/10.1002/hbm.24184), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29696725/))
 
-## Recent references
+## Further references
 
-- Wilson, R. P., Colizzi, M., Bossong, M. G., Allen, P., Kempton, M., & Bhattacharyya, S. (2018). The neural substrate of reward anticipation in health: A meta-analysis of fMRI findings in the monetary incentive delay task. *Neuropsychology Review*, 28(4), 496–506.
-- Balodis, I. M., & Potenza, M. N. (2015). Anticipatory reward processing in addicted populations: A focus on the monetary incentive delay task. *Biological Psychiatry*, 77(5), 434–444.
+- Wilson, R. P., Colizzi, M., Bossong, M. G., Allen, P., Kempton, M., & Bhattacharyya, S. (2018). The neural substrate of reward anticipation in health: A meta-analysis of fMRI findings in the monetary incentive delay task. *Neuropsychology Review*, 28(4), 496–506. ([DOI](https://doi.org/10.1007/s11065-018-9385-5), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30255220/))
+- Balodis, I. M., & Potenza, M. N. (2015). Anticipatory reward processing in addicted populations: A focus on the monetary incentive delay task. *Biological Psychiatry*, 77(5), 434–444. ([DOI](https://doi.org/10.1016/j.biopsych.2014.08.020), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25481621/))
 - Nees, F., Vollstädt-Klein, S., Fauth-Bühler, M., Steiner, S., Mann, K., & Poustka, L. (2012). A target sample size for studies of the monetary incentive delay task – power calculation and evaluation of existing studies. *Neuropsychobiology*, 66(3), 193–198.
 
 ## External links

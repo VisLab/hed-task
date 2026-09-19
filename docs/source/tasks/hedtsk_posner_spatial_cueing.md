@@ -111,16 +111,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Posner, M. I. (1980). Orienting of attention. *Quarterly Journal of Experimental Psychology*, 32(1), 3-25.
-- Corbetta, M., & Shulman, G. L. (2002). Control of goal-directed and stimulus-driven attention in the brain. *Nature Reviews Neuroscience*, 3(3), 201-215.
-- Corbetta, M., Kincade, J. M., Lewis, C., Snyder, A. Z., & Sapir, A. (2005). Neural basis and recovery of spatial attention deficits in spatial neglect. *Nature Neuroscience*, 8(11), 1603-1610.
+- Posner, M. I. (1980). Orienting of attention. *Quarterly Journal of Experimental Psychology*, 32(1), 3-25. ([DOI](https://doi.org/10.1080/00335558008248231), [PubMed](https://pubmed.ncbi.nlm.nih.gov/7367577/))
+- Corbetta, M., & Shulman, G. L. (2002). Control of goal-directed and stimulus-driven attention in the brain. *Nature Reviews Neuroscience*, 3(3), 201-215. ([DOI](https://doi.org/10.1038/nrn755), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11994752/))
+- Corbetta, M., Kincade, J. M., Lewis, C., Snyder, A. Z., & Sapir, A. (2005). Neural basis and recovery of spatial attention deficits in spatial neglect. *Nature Neuroscience*, 8(11), 1603-1610. ([DOI](https://doi.org/10.1038/nn1574), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16234807/))
 
-## Recent references
+## Further references
 
-- Chica, A. B., Martín-Arévalo, E., Botta, F., & Lupiáñez, J. (2014). The Spatial Orienting paradigm: How to design and interpret spatial attention experiments. *Neuroscience & Biobehavioral Reviews*, 40, 35–51.
-- Theeuwes, J. (2019). Goal-driven, stimulus-driven, and history-driven selection. *Current Opinion in Psychology*, 29, 97–101.
-- Petersen, S. E., & Posner, M. I. (2012). The attention system of the human brain: 20 years after. *Annual Review of Neuroscience*, 35, 73–89.
-- Dugué, L., Merriam, E. P., Heeger, D. J., & Carrasco, M. (2020). Differential impact of endogenous and exogenous attention on activity in human visual cortex. *Scientific Reports*, 10, 21274.
+- Chica, A. B., Martín-Arévalo, E., Botta, F., & Lupiáñez, J. (2014). The Spatial Orienting paradigm: How to design and interpret spatial attention experiments. *Neuroscience & Biobehavioral Reviews*, 40, 35–51. ([DOI](https://doi.org/10.1016/j.neubiorev.2014.01.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24462751/))
+- Theeuwes, J. (2019). Goal-driven, stimulus-driven, and history-driven selection. *Current Opinion in Psychology*, 29, 97–101. ([DOI](https://doi.org/10.1016/j.copsyc.2018.12.024), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30711911/))
+- Petersen, S. E., & Posner, M. I. (2012). The attention system of the human brain: 20 years after. *Annual Review of Neuroscience*, 35, 73–89. ([DOI](https://doi.org/10.1146/annurev-neuro-062111-150525), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22524787/))
+- Dugué, L., Merriam, E. P., Heeger, D. J., & Carrasco, M. (2020). Differential impact of endogenous and exogenous attention on activity in human visual cortex. *Scientific Reports*, 10, 21274. ([DOI](https://doi.org/10.1038/s41598-020-78172-x), [PubMed](https://pubmed.ncbi.nlm.nih.gov/33277552/))
 
 ## External links
 

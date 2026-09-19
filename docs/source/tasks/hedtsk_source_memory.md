@@ -96,16 +96,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Johnson, M. K., Hashtroudi, S., & Lindsay, D. S. (1993). Source monitoring. *Psychological Bulletin*, 114(1), 3-28.
-- Mitchell, K. J., & Johnson, M. K. (2009). Source monitoring 15 years later: What have we learned from fMRI about the neural mechanisms of source memory? *Psychological Bulletin*, 135(4), 638-677.
-- Glisky, E. L., Polster, M. R., & Routhieaux, B. C. (1995). Double dissociation between item and source memory. *Neuropsychology*, 9(2), 229-235.
+- Johnson, M. K., Hashtroudi, S., & Lindsay, D. S. (1993). Source monitoring. *Psychological Bulletin*, 114(1), 3-28. ([DOI](https://doi.org/10.1037/0033-2909.114.1.3), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8346328/))
+- Mitchell, K. J., & Johnson, M. K. (2009). Source monitoring 15 years later: What have we learned from fMRI about the neural mechanisms of source memory? *Psychological Bulletin*, 135(4), 638-677. ([DOI](https://doi.org/10.1037/a0015849), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19586165/))
+- Glisky, E. L., Polster, M. R., & Routhieaux, B. C. (1995). Double dissociation between item and source memory. *Neuropsychology*, 9(2), 229-235. ([DOI](https://doi.org/10.1037/0894-4105.9.2.229))
 
-## Recent references
+## Further references
 
-- Cansino, S., Trejo-Morales, P., & Hernandez-Ramos, E. (2010). Age-related changes in neural activity during source memory encoding in young, middle-aged and elderly adults. *Neuropsychologia*, 48(9), 2537-2549.
-- Kurkela, K. A., & Dennis, N. A. (2016). Event-related fMRI studies of false memory: An Activation Likelihood Estimation meta-analysis. *Neuropsychologia*, 81, 149-167.
-- Bookbinder, S. H., & Brainerd, C. J. (2016). Emotion and false memory: A critical review and meta-analysis. *Psychological Bulletin*, 142(12), 1-24.
-- Ciaramelli, E., Faggi, G., Scarpazza, C., Mattioli, F., & Spaniol, J. (2017). Subjective recollection independent from multifeatural context retrieval following damage to the posterior parietal cortex. *Cortex*, 91, 168-179.
+- Cansino, S., Trejo-Morales, P., & Hernandez-Ramos, E. (2010). Age-related changes in neural activity during source memory encoding in young, middle-aged and elderly adults. *Neuropsychologia*, 48(9), 2537-2549. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2010.04.032), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20441775/))
+- Kurkela, K. A., & Dennis, N. A. (2016). Event-related fMRI studies of false memory: An Activation Likelihood Estimation meta-analysis. *Neuropsychologia*, 81, 149-167. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2015.12.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26683385/))
+- Bookbinder, S. H., & Brainerd, C. J. (2016). Emotion and false memory: A critical review and meta-analysis. *Psychological Bulletin*, 142(12), 1-24. ([DOI](https://doi.org/10.1037/bul0000077), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27748610/))
+- Ciaramelli, E., Faggi, G., Scarpazza, C., Mattioli, F., & Spaniol, J. (2017). Subjective recollection independent from multifeatural context retrieval following damage to the posterior parietal cortex. *Cortex*, 91, 168-179. ([DOI](https://doi.org/10.1016/j.cortex.2017.03.015), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28449939/))
 
 ## External links
 

@@ -87,17 +87,17 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Bechara, A., Damasio, A. R., Damasio, H., & Anderson, S. W. (1994). Insensitivity to future consequences following damage to human prefrontal cortex. *Cognition*, 50(1-3), 7-15.
-- Bechara, A., Damasio, H., Tranel, D., & Damasio, A. R. (1997). Deciding advantageously before knowing the advantageous strategy. *Science*, 275(5304), 1293-1295.
-- Li, X., Lu, Z. L., D'Argembeau, A., Ng, M., & Bechara, A. (2010). The Iowa Gambling Task in fMRI images. *Human Brain Mapping*, 31(3), 410-423.
+- Bechara, A., Damasio, A. R., Damasio, H., & Anderson, S. W. (1994). Insensitivity to future consequences following damage to human prefrontal cortex. *Cognition*, 50(1-3), 7-15. ([DOI](https://doi.org/10.1016/0010-0277(94)90018-3), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8039375/))
+- Bechara, A., Damasio, H., Tranel, D., & Damasio, A. R. (1997). Deciding advantageously before knowing the advantageous strategy. *Science*, 275(5304), 1293-1295. ([DOI](https://doi.org/10.1126/science.275.5304.1293), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9036851/))
+- Li, X., Lu, Z. L., D'Argembeau, A., Ng, M., & Bechara, A. (2010). The Iowa Gambling Task in fMRI images. *Human Brain Mapping*, 31(3), 410-423. ([DOI](https://doi.org/10.1002/hbm.20875))
 
-## Recent references
+## Further references
 
-- Steingroever, H., Wetzels, R., Horstmann, A., Neumann, J., & Wagenmakers, E. J. (2013). Performance of healthy participants on the Iowa Gambling Task. *Psychological Assessment*, 25(1), 180–193.
-- Haines, N., Vassileva, J., & Ahn, W. Y. (2018). The Outcome-Representation Learning Model: A novel reinforcement learning model of the Iowa Gambling Task. *Cognitive Science*, 42(Suppl 3), 1098–1122.
-- Buelow, M. T., & Suhr, J. A. (2009). Construct validity of the Iowa Gambling Task. *Neuropsychology Review*, 19(1), 102–114.
-- Ahn, W. Y., Busemeyer, J. R., Wagenmakers, E. J., & Stout, J. C. (2008). Comparison of decision learning models using the generalization criterion method. *Cognitive Science*, 32(8), 1376–1402.
-- Decision-making and performance in the Iowa Gambling Task: recent ERP findings and clinical implications. (2025). *Frontiers in Psychology*, 16, 1492471. doi:10.3389/fpsyg.2025.1492471
+- Steingroever, H., Wetzels, R., Horstmann, A., Neumann, J., & Wagenmakers, E. J. (2013). Performance of healthy participants on the Iowa Gambling Task. *Psychological Assessment*, 25(1), 180–193. ([DOI](https://doi.org/10.1037/a0029929), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22984804/))
+- Haines, N., Vassileva, J., & Ahn, W. Y. (2018). The Outcome-Representation Learning Model: A novel reinforcement learning model of the Iowa Gambling Task. *Cognitive Science*, 42(Suppl 3), 1098–1122. ([DOI](https://doi.org/10.1111/cogs.12688), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30289167/))
+- Buelow, M. T., & Suhr, J. A. (2009). Construct validity of the Iowa Gambling Task. *Neuropsychology Review*, 19(1), 102–114. ([DOI](https://doi.org/10.1007/s11065-009-9083-4), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19194801/))
+- Ahn, W. Y., Busemeyer, J. R., Wagenmakers, E. J., & Stout, J. C. (2008). Comparison of decision learning models using the generalization criterion method. *Cognitive Science*, 32(8), 1376–1402. ([DOI](https://doi.org/10.1080/03640210802352992), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21585458/))
+- Decision-making and performance in the Iowa Gambling Task: recent ERP findings and clinical implications. (2025). *Frontiers in Psychology*, 16, 1492471. doi:10.3389/fpsyg.2025.1492471 ([DOI](https://doi.org/10.3389/fpsyg.2025.1492471), [PubMed](https://pubmed.ncbi.nlm.nih.gov/40177039/))
 
 ## External links
 

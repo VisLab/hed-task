@@ -5,7 +5,7 @@
 
 **Family:** [Response inhibition and stopping tasks](families/response_inhibition.md)
 
-**Also known as:** AST, Antisaccade
+**Also known as:** AST, Antisaccade, Anti-Saccade
 
 Participants must suppress a prepotent saccade toward a peripheral cue and generate a voluntary saccade to the opposite location; errors and saccade latency index oculomotor inhibition.
 
@@ -102,16 +102,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Hallett, P. E. (1978). Primary and secondary saccades to goals defined by instructions. *Vision Research*, 18(11), 1279-1296.
-- Munoz, D. P., & Everling, S. (2004). Look away: The anti-saccade task and the voluntary control of eye movement. *Nature Reviews Neuroscience*, 5(3), 218-228.
-- Everling, S., & Fischer, B. (1998). The antisaccade: A review of basic research and clinical findings. *Neuropsychologia*, 36(9), 885-899.
+- Hallett, P. E. (1978). Primary and secondary saccades to goals defined by instructions. *Vision Research*, 18(11), 1279-1296. ([DOI](https://doi.org/10.1016/0042-6989(78)90218-3), [PubMed](https://pubmed.ncbi.nlm.nih.gov/726270/))
+- Munoz, D. P., & Everling, S. (2004). Look away: The anti-saccade task and the voluntary control of eye movement. *Nature Reviews Neuroscience*, 5(3), 218-228. ([DOI](https://doi.org/10.1038/nrn1345), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14976521/))
+- Everling, S., & Fischer, B. (1998). The antisaccade: A review of basic research and clinical findings. *Neuropsychologia*, 36(9), 885-899. ([DOI](https://doi.org/10.1016/s0028-3932(98)00020-7), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9740362/))
 
-## Recent references
+## Further references
 
-- Hutton, S. B., & Ettinger, U. (2006). The antisaccade task as a research tool in psychopathology: A critical review. *Psychophysiology*, 43(3), 302–313. [Updated: Amador, S. C., Hood, A. J., Schiess, M. C., Izor, R., & Sereno, A. B. (2006). Dissociating cognitive deficits involved in voluntary eye movement dysfunctions in Parkinson's disease patients. *Neuropsychologia*, 44(8), 1475–1482.]
-- Antoniades, C. A., Ettinger, U., Gaymard, B., et al. (2013). An internationally standardised antisaccade protocol. *Vision Research*, 84, 1–5.
-- Crawford, T. J., Higham, S., Renvoize, T., Patel, J., Dale, M., Surber, A., & Smeeton, R. (2005). Inhibitory control of saccadic eye movements and cognitive impairment in Alzheimer's disease. *Biological Psychiatry*, 57(9), 1052–1060. [Updated context: Kaufman, L. D., Pratt, J., Levine, B., & Black, S. E. (2012). Executive deficits detected in mild Alzheimer's disease patients using the antisaccade task. *Brain and Behavior*, 2(1), 15–21.]
-- Munoz, D. P., Armstrong, I. T., Hampton, K. A., & Moore, K. D. (2003). Altered control of visual fixation and saccadic eye movements in attention-deficit hyperactivity disorder. *Journal of Neurophysiology*, 90(1), 503–514. [Updated: Wiecki, T. V., Antoniades, C. A., Golla, A., et al. (2016). A computational cognitive biomarker for early-stage Huntington's disease. *PLoS ONE*, 11(2), e0148409.]
+- Hutton, S. B., & Ettinger, U. (2006). The antisaccade task as a research tool in psychopathology: A critical review. *Psychophysiology*, 43(3), 302–313. [Updated: Amador, S. C., Hood, A. J., Schiess, M. C., Izor, R., & Sereno, A. B. (2006). Dissociating cognitive deficits involved in voluntary eye movement dysfunctions in Parkinson's disease patients. *Neuropsychologia*, 44(8), 1475–1482.] ([DOI](https://doi.org/10.1111/j.1469-8986.2006.00403.x), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16805870/))
+- Antoniades, C. A., Ettinger, U., Gaymard, B., et al. (2013). An internationally standardised antisaccade protocol. *Vision Research*, 84, 1–5. ([DOI](https://doi.org/10.1016/j.visres.2013.02.007), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23474300/))
+- Crawford, T. J., Higham, S., Renvoize, T., Patel, J., Dale, M., Surber, A., & Smeeton, R. (2005). Inhibitory control of saccadic eye movements and cognitive impairment in Alzheimer's disease. *Biological Psychiatry*, 57(9), 1052–1060. [Updated context: Kaufman, L. D., Pratt, J., Levine, B., & Black, S. E. (2012). Executive deficits detected in mild Alzheimer's disease patients using the antisaccade task. *Brain and Behavior*, 2(1), 15–21.] ([DOI](https://doi.org/10.1016/j.biopsych.2005.01.017), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15860346/))
+- Munoz, D. P., Armstrong, I. T., Hampton, K. A., & Moore, K. D. (2003). Altered control of visual fixation and saccadic eye movements in attention-deficit hyperactivity disorder. *Journal of Neurophysiology*, 90(1), 503–514. [Updated: Wiecki, T. V., Antoniades, C. A., Golla, A., et al. (2016). A computational cognitive biomarker for early-stage Huntington's disease. *PLoS ONE*, 11(2), e0148409.] ([DOI](https://doi.org/10.1152/jn.00192.2003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12672781/))
 
 ## External links
 

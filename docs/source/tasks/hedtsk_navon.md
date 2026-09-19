@@ -110,18 +110,18 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Navon, D. (1977). Forest before trees: The precedence of global features in visual perception. *Cognitive Psychology*, 9(3), 353–383.
-- Kimchi, R. (1992). Primacy of wholistic processing and global/local paradigm: A critical review. *Psychological Bulletin*, 112(1), 24–38.
-- Fink, G. R., Halligan, P. W., Marshall, J. C., Frith, C. D., Frackowiak, R. S. J., & Dolan, R. J. (1996). Where in the brain does visual attention select the forest and the trees? *Nature*, 382, 626–628.
+- Navon, D. (1977). Forest before trees: The precedence of global features in visual perception. *Cognitive Psychology*, 9(3), 353–383. ([DOI](https://doi.org/10.1016/0010-0285(77)90012-3))
+- Kimchi, R. (1992). Primacy of wholistic processing and global/local paradigm: A critical review. *Psychological Bulletin*, 112(1), 24–38. ([DOI](https://doi.org/10.1037/0033-2909.112.1.24))
+- Fink, G. R., Halligan, P. W., Marshall, J. C., Frith, C. D., Frackowiak, R. S. J., & Dolan, R. J. (1996). Where in the brain does visual attention select the forest and the trees? *Nature*, 382, 626–628. ([DOI](https://doi.org/10.1038/382626a0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8757132/))
 
-## Recent references
+## Further references
 
-- Poirel, N., Pineau, A., & Mellet, E. (2008). What does the nature of the stimuli tell us about the global precedence effect? *Acta Psychologica*, 127(1), 1–11.
-- Beaucousin, V., Cassotti, M., Simon, G., Pineau, A., Kostova, M., Houdé, O., & Poirel, N. (2011). ERP evidence of a meaningfulness impact on visual global/local processing: When meaning captures attention. *Neuropsychologia*, 49(5), 1258–1266.
-- Gerlach, C., & Poirel, N. (2018). Navon's classical paradigm concerning local and global processing relates systematically to visual object classification performance. *Scientific Reports*, 8, 324.
-- Förster, J., & Dannenberg, L. (2010). GLOMOsys: A systems account of global versus local processing. *Psychological Inquiry*, 21(3), 175–197.
+- Poirel, N., Pineau, A., & Mellet, E. (2008). What does the nature of the stimuli tell us about the global precedence effect? *Acta Psychologica*, 127(1), 1–11. ([DOI](https://doi.org/10.1016/j.actpsy.2006.12.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17240344/))
+- Beaucousin, V., Cassotti, M., Simon, G., Pineau, A., Kostova, M., Houdé, O., & Poirel, N. (2011). ERP evidence of a meaningfulness impact on visual global/local processing: When meaning captures attention. *Neuropsychologia*, 49(5), 1258–1266. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2011.01.039), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21281654/))
+- Gerlach, C., & Poirel, N. (2018). Navon's classical paradigm concerning local and global processing relates systematically to visual object classification performance. *Scientific Reports*, 8, 324. ([DOI](https://doi.org/10.1038/s41598-017-18664-5), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29321634/))
+- Förster, J., & Dannenberg, L. (2010). GLOMOsys: A systems account of global versus local processing. *Psychological Inquiry*, 21(3), 175–197. ([DOI](https://doi.org/10.1080/1047840x.2010.487849))
 - Kaur, J., & Paul, S. (2022). Global precedence changes by environment: A systematic review and meta-analysis on effect of perceptual field variables on global-local visual processing. *Attention, Perception, & Psychophysics*, 84, 1833–1877.
-- Song, Y., Hakoda, Y., & Sang, B. (2015). Lack of global precedence and global-to-local interference without local processing deficit in children with ADHD. *Journal of Attention Disorders*, 20(8), 671–682.
+- Song, Y., Hakoda, Y., & Sang, B. (2015). Lack of global precedence and global-to-local interference without local processing deficit in children with ADHD. *Journal of Attention Disorders*, 20(8), 671–682. ([DOI](https://doi.org/10.1037/neu0000213), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26146856/))
 
 ## External links
 

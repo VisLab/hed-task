@@ -89,15 +89,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Haggard, P., Clark, S., & Kalogeras, J. (2002). Voluntary action and conscious awareness. Nature Neuroscience, 5(4), 382-385.
-- Moore, J. W., & Obhi, S. S. (2012). Intentional binding and the sense of agency: A review. Consciousness and Cognition, 21(1), 546-561.
-- Wolpe, N., Haggard, P., Siebner, H. R., & Rowe, J. B. (2013). Cue integration and the perception of action in intentional binding. Experimental Brain Research, 229(3), 467-474.
+- Haggard, P., Clark, S., & Kalogeras, J. (2002). Voluntary action and conscious awareness. Nature Neuroscience, 5(4), 382-385. ([DOI](https://doi.org/10.1038/nn827), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11896397/))
+- Moore, J. W., & Obhi, S. S. (2012). Intentional binding and the sense of agency: A review. Consciousness and Cognition, 21(1), 546-561. ([DOI](https://doi.org/10.1016/j.concog.2011.12.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22240158/))
+- Wolpe, N., Haggard, P., Siebner, H. R., & Rowe, J. B. (2013). Cue integration and the perception of action in intentional binding. Experimental Brain Research, 229(3), 467-474. ([DOI](https://doi.org/10.1007/s00221-013-3419-2), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23371752/))
 
-## Recent references
+## Further references
 
-- Voss, M., Moore, J., Hauser, M., Gallinat, J., Heinz, A., & Haggard, P. (2010). Altered awareness of action in schizophrenia: A specific deficit in predicting action consequences. Brain, 133(10), 3104-3112.
-- Borhani, K., Beck, B., & Haggard, P. (2017). Choosing, doing, and controlling: Implicit sense of agency over somatosensory events. Psychological Science, 28(7), 882-893.
-- Suzuki, K., Lush, P., Seth, A. K., & Roseboom, W. (2019). Intentional binding without intentional action. Psychological Science, 30(6), 842-853.
+- Voss, M., Moore, J., Hauser, M., Gallinat, J., Heinz, A., & Haggard, P. (2010). Altered awareness of action in schizophrenia: A specific deficit in predicting action consequences. Brain, 133(10), 3104-3112. ([DOI](https://doi.org/10.1093/brain/awq152), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20685805/))
+- Borhani, K., Beck, B., & Haggard, P. (2017). Choosing, doing, and controlling: Implicit sense of agency over somatosensory events. Psychological Science, 28(7), 882-893. ([DOI](https://doi.org/10.1177/0956797617697693), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28488908/))
+- Suzuki, K., Lush, P., Seth, A. K., & Roseboom, W. (2019). Intentional binding without intentional action. Psychological Science, 30(6), 842-853. ([DOI](https://doi.org/10.1177/0956797619842191), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31023161/))
 
 ## External links
 

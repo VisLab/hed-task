@@ -61,6 +61,44 @@ def truncate(text: str, max_len: int = 100) -> str:
     return text[:max_len].rstrip() + "..."
 
 
+def split_references(record: dict) -> tuple[list[dict], list[dict]]:
+    """Return (key, further) reference lists for a task or process record.
+
+    The catalog stores one `references` list per record; a reference whose `roles`
+    include `historical` is a paradigm-defining or foundational one and is published
+    under "Key references" (tasks) or "Fundamental references" (processes). The rest are
+    "Further references". Records in the older two-list shape (`key_references` or
+    `fundamental_references` plus `recent_references`) are split the same way so that a
+    catalog exported before the roles field existed still renders.
+    """
+    if "references" in record:
+        refs = record.get("references") or []
+        key = [r for r in refs if "historical" in (r.get("roles") or [])]
+        further = [r for r in refs if "historical" not in (r.get("roles") or [])]
+        return key, further
+    key = list(record.get("key_references") or record.get("fundamental_references") or [])
+    return key, list(record.get("recent_references") or [])
+
+
+def citation_line(ref: dict) -> str:
+    """Render one reference as its citation string followed by DOI and PubMed links.
+
+    Identifiers are read from the `ids` block when present and from flat `doi` and
+    `pmid` fields otherwise. The citation string is reproduced exactly as the source
+    supplies it, since it is recorded bibliographic data.
+    """
+    citation = (ref.get("citation_string") or "").strip()
+    ids = ref.get("ids") or {}
+    doi = ids.get("doi") or ref.get("doi")
+    pmid = ids.get("pmid") or ref.get("pmid")
+    links = []
+    if doi:
+        links.append(f"[DOI](https://doi.org/{doi})")
+    if pmid:
+        links.append(f"[PubMed](https://pubmed.ncbi.nlm.nih.gov/{pmid}/)")
+    return citation + (f" ({', '.join(links)})" if links else "")
+
+
 def process_anchor(process_id: str) -> str:
     """Return the HTML anchor for a process on its category page.
 

@@ -5,7 +5,7 @@
 
 **Family:** [Conditioning, reinforcement and implicit learning tasks](families/conditioning_and_reinforcement.md)
 
-**Also known as:** SRTT, Serial RT
+**Also known as:** SRTT, Serial RT, Serial Reaction Time
 
 Sequential key-press responses to cued locations; RT speedup on repeating vs random sequences indexes implicit sequence learning.
 
@@ -91,15 +91,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Nissen, M. J., & Bullemer, P. (1987). Attentional requirements of learning: Evidence from performance measures. *Cognitive Psychology*, 19(1), 1-32.
-- Robertson, E. M. (2007). The serial reaction time task: Implicit motor skill learning? *Journal of Neuroscience*, 27(38), 10073-10075.
-- Grafton, S. T., Hazeltine, E., & Ivry, R. B. (1995). Functional mapping of sequence learning in normal humans. *Journal of Cognitive Neuroscience*, 7(4), 497-510.
+- Nissen, M. J., & Bullemer, P. (1987). Attentional requirements of learning: Evidence from performance measures. *Cognitive Psychology*, 19(1), 1-32. ([DOI](https://doi.org/10.1016/0010-0285(87)90002-8))
+- Robertson, E. M. (2007). The serial reaction time task: Implicit motor skill learning? *Journal of Neuroscience*, 27(38), 10073-10075. ([DOI](https://doi.org/10.1523/jneurosci.2747-07.2007), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17881512/))
+- Grafton, S. T., Hazeltine, E., & Ivry, R. B. (1995). Functional mapping of sequence learning in normal humans. *Journal of Cognitive Neuroscience*, 7(4), 497-510. ([DOI](https://doi.org/10.1162/jocn.1995.7.4.497), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23961907/))
 
-## Recent references
+## Further references
 
-- Janacsek, K., & Nemeth, D. (2012). Predicting the future: From implicit learning to consolidation. *International Journal of Psychophysiology*, 83(2), 213–221.
-- Abrahamse, E. L., Jiménez, L., Verwey, W. B., & Clegg, B. A. (2010). Representing serial action and perception. *Psychonomic Bulletin & Review*, 17(5), 603–623.
-- Siegert, R. J., Taylor, K. D., Weatherall, M., & Abernethy, D. A. (2006). Is implicit sequence learning impaired in Parkinson's disease? A meta-analysis. *Neuropsychology*, 20(4), 490–495. [Updated: Clark, G. M., Lum, J. A., & Ullman, M. T. (2014). A meta-analysis and meta-regression of serial reaction time task performance in Parkinson's disease. *Neuropsychology*, 28(6), 945–958.]
+- Janacsek, K., & Nemeth, D. (2012). Predicting the future: From implicit learning to consolidation. *International Journal of Psychophysiology*, 83(2), 213–221. ([DOI](https://doi.org/10.1016/j.ijpsycho.2011.11.012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22154521/))
+- Abrahamse, E. L., Jiménez, L., Verwey, W. B., & Clegg, B. A. (2010). Representing serial action and perception. *Psychonomic Bulletin & Review*, 17(5), 603–623. ([DOI](https://doi.org/10.3758/pbr.17.5.603), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21037157/))
+- Siegert, R. J., Taylor, K. D., Weatherall, M., & Abernethy, D. A. (2006). Is implicit sequence learning impaired in Parkinson's disease? A meta-analysis. *Neuropsychology*, 20(4), 490–495. [Updated: Clark, G. M., Lum, J. A., & Ullman, M. T. (2014). A meta-analysis and meta-regression of serial reaction time task performance in Parkinson's disease. *Neuropsychology*, 28(6), 945–958.] ([DOI](https://doi.org/10.1037/0894-4105.20.4.490), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16846267/))
 
 ## External links
 

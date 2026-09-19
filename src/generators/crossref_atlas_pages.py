@@ -1,4 +1,4 @@
-"""Generate the Atlas mapping-table pages from .working/mappings/.
+"""Generate the Atlas mapping-table pages from data/mappings/.
 
 Two reference pages, one per axis, each rendering both directions in full. The TSVs are
 the source of record; these pages are one view of them and hold no judgements of their
@@ -129,7 +129,7 @@ Every correspondence between the {len(forward)} tasks in this catalog and the
 [methodology](../methods/atlas_mapping/index.md) page explains what the match types mean
 and how each row was decided.
 
-The source of record is `.working/mappings/`, not this page.
+The source of record is `data/mappings/`, not this page.
 
 Atlas entry names are reproduced exactly as the API returns them. A few carry a curly
 apostrophe or an en dash, and one (`Penn` + a mis-encoded apostrophe + `s Logical
@@ -229,7 +229,7 @@ the {len(reverse)} concepts in the Cognitive Atlas, in both directions. The
 [methodology](../methods/atlas_mapping/index.md) page explains what the match types mean
 and how each row was decided.
 
-The source of record is `.working/mappings/`, not this page.
+The source of record is `data/mappings/`, not this page.
 
 ## Catalog to Atlas
 

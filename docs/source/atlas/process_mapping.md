@@ -5,7 +5,7 @@ the 918 concepts in the Cognitive Atlas, in both directions. The
 [methodology](../methods/atlas_mapping/index.md) page explains what the match types mean
 and how each row was decided.
 
-The source of record is `.working/mappings/`, not this page.
+The source of record is `data/mappings/`, not this page.
 
 ## Catalog to Atlas
 

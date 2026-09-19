@@ -75,16 +75,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Mednick, S. A. (1962). The associative basis of the creative process. *Psychological Review*, 69(3), 220–232.
-- Bowden, E. M., & Jung-Beeman, M. (2003). Aha! Insight experience correlates with solution activation in the right hemisphere. *Psychonomic Bulletin & Review*, 10(3), 730–737.
-- Jung-Beeman, M., Bowden, E. M., Haberman, J., Frymiare, J. L., Arambel-Liu, S., Greenblatt, R., ... & Kounios, J. (2004). Neural activity when people solve verbal problems with insight. *PLoS Biology*, 2(4), e97.
+- Mednick, S. A. (1962). The associative basis of the creative process. *Psychological Review*, 69(3), 220–232. ([DOI](https://doi.org/10.1037/h0048850), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14472013/))
+- Bowden, E. M., & Jung-Beeman, M. (2003). Aha! Insight experience correlates with solution activation in the right hemisphere. *Psychonomic Bulletin & Review*, 10(3), 730–737. ([DOI](https://doi.org/10.3758/bf03196539), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14620371/))
+- Jung-Beeman, M., Bowden, E. M., Haberman, J., Frymiare, J. L., Arambel-Liu, S., Greenblatt, R., ... & Kounios, J. (2004). Neural activity when people solve verbal problems with insight. *PLoS Biology*, 2(4), e97. ([DOI](https://doi.org/10.1371/journal.pbio.0020097), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15094802/))
 
-## Recent references
+## Further references
 
-- Beaty, R. E., Silvia, P. J., Nusbaum, E. C., Jauk, E., & Benedek, M. (2014). The roles of associative and executive processes in creative cognition. *Memory & Cognition*, 42(7), 1186–1197.
-- Salvi, C., Bricolo, E., Kounios, J., Bowden, E., & Beeman, M. (2016). Insight solutions are correct more often than analytic solutions. *Thinking & Reasoning*, 22(4), 443–460.
-- Kounios, J., & Beeman, M. (2014). The cognitive neuroscience of insight. *Annual Review of Psychology*, 65, 71–93.
-- Olteteanu, A. M., & Falomir, Z. (2015). comRAT-C: A computational compound Remote Associates Test solver based on language data and its comparison to human performance. *Pattern Recognition Letters*, 67, 81–90.
+- Beaty, R. E., Silvia, P. J., Nusbaum, E. C., Jauk, E., & Benedek, M. (2014). The roles of associative and executive processes in creative cognition. *Memory & Cognition*, 42(7), 1186–1197. ([DOI](https://doi.org/10.3758/s13421-014-0428-8), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24898118/))
+- Salvi, C., Bricolo, E., Kounios, J., Bowden, E., & Beeman, M. (2016). Insight solutions are correct more often than analytic solutions. *Thinking & Reasoning*, 22(4), 443–460. ([DOI](https://doi.org/10.1080/13546783.2016.1141798), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27667960/))
+- Kounios, J., & Beeman, M. (2014). The cognitive neuroscience of insight. *Annual Review of Psychology*, 65, 71–93. ([DOI](https://doi.org/10.1146/annurev-psych-010213-115154), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24405359/))
+- Olteteanu, A. M., & Falomir, Z. (2015). comRAT-C: A computational compound Remote Associates Test solver based on language data and its comparison to human performance. *Pattern Recognition Letters*, 67, 81–90. ([DOI](https://doi.org/10.1016/j.patrec.2015.05.015))
 
 ## External links
 

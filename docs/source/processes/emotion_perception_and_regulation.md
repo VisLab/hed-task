@@ -24,22 +24,26 @@ This category contains 5 processes.
 
 **Process ID:** `hed_affective_priming`
 
+**Also known as:** evaluative priming
+
 Facilitation or interference in evaluating a target by a valence-related prime.
 
 **Tasks that engage this process:** [Affective Priming Task](../tasks/hedtsk_affective_priming.md)
 
 **Fundamental references**
 
-- Fazio, Sanbonmatsu, Powell & Kardes (1986) *Journal of Personality and Social Psychology* 50:229–238
+- Fazio, Sanbonmatsu, Powell & Kardes (1986) *Journal of Personality and Social Psychology* 50:229–238 ([DOI](https://doi.org/10.1037/0022-3514.50.2.229))
 
-**Recent references**
+**Further references**
 
-- Herring, White, Jabeen, Hinojos, Terrell, Reyes, Schubert & Crites (2013) *Psychological Bulletin* 139:1062–1089
+- Herring, White, Jabeen, Hinojos, Terrell, Reyes, Schubert & Crites (2013) *Psychological Bulletin* 139:1062–1089 ([DOI](https://doi.org/10.1037/a0031309))
 
 (hed-cognitive-reappraisal)=
 ## Cognitive reappraisal
 
 **Process ID:** `hed_cognitive_reappraisal`
+
+**Also known as:** reappraisal
 
 Reinterpretation of an emotional stimulus to change its affective impact.
 
@@ -47,11 +51,11 @@ Reinterpretation of an emotional stimulus to change its affective impact.
 
 **Fundamental references**
 
-- Gross (1998) *Journal of Personality and Social Psychology* 74:224–237
+- Gross (1998) *Journal of Personality and Social Psychology* 74:224–237 ([DOI](https://doi.org/10.1037/0022-3514.74.1.224))
 
-**Recent references**
+**Further references**
 
-- Buhle, Silvers, Wager, Lopez, Onyemekwu, Kober, Weber & Ochsner (2014) *Cerebral Cortex* 24:2981–2990
+- Buhle, Silvers, Wager, Lopez, Onyemekwu, Kober, Weber & Ochsner (2014) *Cerebral Cortex* 24:2981–2990 ([DOI](https://doi.org/10.1093/cercor/bht154))
 
 (hed-emotion-recognition)=
 ## Emotion recognition
@@ -79,7 +83,7 @@ Processes by which individuals influence which emotions they have, when, and how
 
 **Fundamental references**
 
-- Gross (1998) *Review of General Psychology* 2:271–299
+- Gross (1998) *Review of General Psychology* 2:271–299 ([DOI](https://doi.org/10.1037/1089-2680.2.3.271))
 
 (hed-expressive-suppression)=
 ## Expressive suppression
@@ -92,5 +96,5 @@ Inhibition of outward behavioral expression of emotion.
 
 **Fundamental references**
 
-- Gross & Levenson (1993) *Journal of Personality and Social Psychology* 64:970–986
+- Gross & Levenson (1993) *Journal of Personality and Social Psychology* 64:970–986 ([DOI](https://doi.org/10.1037/0022-3514.64.6.970))
 

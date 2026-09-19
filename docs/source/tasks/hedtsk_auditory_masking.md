@@ -105,11 +105,11 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Moore, B. C. J. (2012). An Introduction to the Psychology of Hearing (6th ed.). Brill.
+- Moore, B. C. J. (2012). An Introduction to the Psychology of Hearing (6th ed.). Brill. ([DOI](https://doi.org/10.1007/978-0-230-36409-7_1))
 
-## Recent references
+## Further references
 
-- Shinn-Cunningham, B. G. (2008). Object-based auditory and visual attention. Trends in Cognitive Sciences, 12(5), 182–186.
+- Shinn-Cunningham, B. G. (2008). Object-based auditory and visual attention. Trends in Cognitive Sciences, 12(5), 182–186. ([DOI](https://doi.org/10.1016/j.tics.2008.02.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18396091/))
 
 ## External links
 

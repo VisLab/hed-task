@@ -79,13 +79,13 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Schandry, R. (1981). Heart beat perception and emotional experience. *Psychophysiology*, 18(4), 483-488.
-- Whitehead, W. E., Drescher, V. M., Heiman, P., & Blackwell, B. (1977). Relation of heart rate control to heartbeat perception. *Biofeedback and Self-Regulation*, 2(4), 371-392.
-- Garfinkel, S. N., Seth, A. K., Barrett, A. B., Suzuki, K., & Critchley, H. D. (2015). Knowing your own heart: Distinguishing interoceptive accuracy from interoceptive sensibility. *Biological Psychology*, 104, 65-74.
+- Schandry, R. (1981). Heart beat perception and emotional experience. *Psychophysiology*, 18(4), 483-488. ([DOI](https://doi.org/10.1111/j.1469-8986.1981.tb02486.x), [PubMed](https://pubmed.ncbi.nlm.nih.gov/7267933/))
+- Whitehead, W. E., Drescher, V. M., Heiman, P., & Blackwell, B. (1977). Relation of heart rate control to heartbeat perception. *Biofeedback and Self-Regulation*, 2(4), 371-392. ([DOI](https://doi.org/10.1007/bf00998623), [PubMed](https://pubmed.ncbi.nlm.nih.gov/612350/))
+- Garfinkel, S. N., Seth, A. K., Barrett, A. B., Suzuki, K., & Critchley, H. D. (2015). Knowing your own heart: Distinguishing interoceptive accuracy from interoceptive sensibility. *Biological Psychology*, 104, 65-74. ([DOI](https://doi.org/10.1016/j.biopsycho.2014.11.004), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25451381/))
 
-## Recent references
+## Further references
 
-- Murphy, J., Brewer, R., Catmur, C., & Bird, G. (2017). Interoception and psychopathology: A developmental neuroscience perspective. *Developmental Cognitive Neuroscience*, 23, 45-56.
-- Zamariola, G., Maurage, P., Luminet, O., & Corneille, O. (2018). Interoceptive accuracy scores from the heartbeat counting task are problematic: Evidence from simple bivariate correlations. *Biological Psychology*, 137, 12-17.
-- Desmedt, O., Luminet, O., & Corneille, O. (2018). The heartbeat counting task largely measures non-interoceptive processes: Better alternatives exist. *Biological Psychology*, 137, 80-84.
+- Murphy, J., Brewer, R., Catmur, C., & Bird, G. (2017). Interoception and psychopathology: A developmental neuroscience perspective. *Developmental Cognitive Neuroscience*, 23, 45-56. ([DOI](https://doi.org/10.1016/j.dcn.2016.12.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28081519/))
+- Zamariola, G., Maurage, P., Luminet, O., & Corneille, O. (2018). Interoceptive accuracy scores from the heartbeat counting task are problematic: Evidence from simple bivariate correlations. *Biological Psychology*, 137, 12-17. ([DOI](https://doi.org/10.1016/j.biopsycho.2018.06.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29944964/))
+- Desmedt, O., Luminet, O., & Corneille, O. (2018). The heartbeat counting task largely measures non-interoceptive processes: Better alternatives exist. *Biological Psychology*, 137, 80-84. ([DOI](https://doi.org/10.1016/j.biopsycho.2018.09.004), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30218689/))
 

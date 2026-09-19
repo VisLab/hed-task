@@ -11,6 +11,7 @@ Always run in the virtual environment - the system interpreter does not have the
 - Install dev env: `pip install -e ".[dev,docs]"`
 - Lint: `python -m ruff check .`
 - Format check: `python -m ruff format --check .`
+- Audit reference identifiers against their citations: `python src/check_references.py` (prints; does not fail)
 - Generate the docs pages: `python src/generate_docs.py`
 - Build the site: `python -m sphinx -b html docs/source docs/_build/html`
 
@@ -20,8 +21,7 @@ Local development uses `pip`; GitHub Actions uses `uv`. Do not use `uv` locally 
 
 - `src/` - the generators. `generate_docs.py` is the entry point; `src/generators/` holds one module per page family.
 - `docs/source/` - Sphinx sources, built into `docs/_build/`. Two kinds of page: **narrative pages** (`index.md`, `introduction.md`, `how_to_use.md`, `atlas/cognitive_atlas.md`, `atlas/relationship.md`, everything under `methods/`) are hand-written Markdown, edited directly, each marked by a comment at the top; **catalog pages** (`tasks/`, `processes/`, `crossref.md`, `atlas/*_mapping.md`, `_generated/`) are generated - edit the generator or the data, not these files. `generate_docs.py` lists the generated paths in `GENERATED_PATHS` and touches nothing else.
-- `data/` - curated presentation tables owned by this repository, currently the paradigm families that group tasks (`task_families.tsv`, `task_family_defs.tsv`). Hand-edited, ASCII, validated by `generate_docs.py`. See `data/README.md`.
-- `.working/` - the imported task and process catalog. **Read-only here**; the work that produces it happens elsewhere, and edits would be lost on the next import.
+- `data/` - the catalog: `task_details.json`, `process_details.json`, `schemas/`, `mappings/`, `atlas_summary.json`, and the paradigm-family tables. Edited here by pull request; `generate_docs.py` validates all of it before writing. See `data/README.md`.
 - `tests/` - unit tests.
 - `.status/` - working notes. Gitignored; local to each machine.
 
@@ -36,7 +36,7 @@ Local development uses `pip`; GitHub Actions uses `uv`. Do not use `uv` locally 
 ## Rules that are easy to get wrong
 
 - The catalog pages under `docs/source/` are generated. `src/generate_docs.py` deletes and rewrites them in one pass, so running it as a "does this work" check will show up as a large diff. Run it only when regeneration is the intended change. Narrative pages are never generated; do not add prose to `src/generators/`.
-- `.working/tasks_criteria.md` and `.working/process_criteria.md` are superseded by the hand-maintained pages under `docs/source/methods/` and are read by nothing. Edit the pages, not those files.
+- The criteria documents are the hand-maintained pages under `docs/source/methods/`. `src/import_catalog.py` is the record of the one-time 2026-09-18 import from the task-research workspace, not part of the workflow; do not point it at anything without asking.
 - `mdformat` must not be run over `docs/source/`. It rewrites the generated MyST directives into a form Sphinx cannot parse. The CI check is scoped to the repository root for this reason.
 - Lint config lives in `pyproject.toml`. Do not restate the rule list anywhere else, and never let an autofix reorder an `__init__.py` - their import order is curated to avoid circular imports.
 

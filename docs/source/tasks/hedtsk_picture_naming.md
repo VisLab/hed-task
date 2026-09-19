@@ -102,15 +102,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Levelt, W. J. M., Roelofs, A., & Meyer, A. S. (1999). A theory of lexical access in speech production. *Behavioral and Brain Sciences*, 22(1), 1-38.
-- Indefrey, P., & Levelt, W. J. M. (2004). The spatial and temporal signatures of word production components. *Cognition*, 92(1-2), 101-144.
-- DeLeon, J., Gottesman, R. F., Kleinman, J. T., et al. (2007). Neural regions essential for distinct cognitive processes underlying picture naming. *Brain*, 130(5), 1408-1422.
+- Levelt, W. J. M., Roelofs, A., & Meyer, A. S. (1999). A theory of lexical access in speech production. *Behavioral and Brain Sciences*, 22(1), 1-38. ([DOI](https://doi.org/10.1017/s0140525x99001776), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11301520/))
+- Indefrey, P., & Levelt, W. J. M. (2004). The spatial and temporal signatures of word production components. *Cognition*, 92(1-2), 101-144. ([DOI](https://doi.org/10.1016/j.cognition.2002.06.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15037128/))
+- DeLeon, J., Gottesman, R. F., Kleinman, J. T., et al. (2007). Neural regions essential for distinct cognitive processes underlying picture naming. *Brain*, 130(5), 1408-1422. ([DOI](https://doi.org/10.1093/brain/awm011), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17337482/))
 
-## Recent references
+## Further references
 
-- Indefrey, P. (2011). The spatial and temporal signatures of word production components: A critical update. *Frontiers in Psychology*, 2, 255.
-- Nozari, N., & Hepner, C. R. (2019). To select or to wait? The importance of criterion setting in debates of competitive lexical selection. *Cognitive Neuropsychology*, 36(5-6), 193–207.
-- Piai, V., & Eikelboom, J. (2023). Brain areas critical for picture naming: A systematic review and meta-analysis of lesion-symptom mapping studies. *Neurobiology of Language*, 4(2), 280–296.
+- Indefrey, P. (2011). The spatial and temporal signatures of word production components: A critical update. *Frontiers in Psychology*, 2, 255. ([DOI](https://doi.org/10.3389/fpsyg.2011.00255), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22016740/))
+- Nozari, N., & Hepner, C. R. (2019). To select or to wait? The importance of criterion setting in debates of competitive lexical selection. *Cognitive Neuropsychology*, 36(5-6), 193–207. ([DOI](https://doi.org/10.1080/02643294.2019.1632280), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31238793/))
+- Piai, V., & Eikelboom, J. (2023). Brain areas critical for picture naming: A systematic review and meta-analysis of lesion-symptom mapping studies. *Neurobiology of Language*, 4(2), 280–296. ([DOI](https://doi.org/10.1162/nol_a_00097), [PubMed](https://pubmed.ncbi.nlm.nih.gov/37229507/))
 
 ## External links
 

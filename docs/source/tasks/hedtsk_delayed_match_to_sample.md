@@ -5,7 +5,7 @@
 
 **Family:** [Short-term and working memory tasks](families/working_memory_span.md)
 
-**Also known as:** DMTS, DMS
+**Also known as:** DMTS, DMS, Delayed Match-to-Sample
 
 Sample stimulus followed by a delay and then a probe or choice array; response indicates whether the probe matches the sample. Indexes short-term memory maintenance.
 
@@ -90,16 +90,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Fuster, J. M., & Alexander, G. E. (1971). Neuron activity related to short-term memory. *Science*, 173(3997), 652-654.
-- Miller, E. K., Erickson, C. A., & Desimone, R. (1996). Neural mechanisms of visual working memory in prefrontal cortex of the macaque. *Journal of Neuroscience*, 16(16), 5154-5167.
-- Pessoa, L., Gutierrez, E., Bandettini, P. A., & Ungerleider, L. G. (2002). Neural correlates of visual working memory: fMRI amplitude predicts task performance. *Neuron*, 35(5), 975-987.
+- Fuster, J. M., & Alexander, G. E. (1971). Neuron activity related to short-term memory. *Science*, 173(3997), 652-654. ([DOI](https://doi.org/10.1126/science.173.3997.652), [PubMed](https://pubmed.ncbi.nlm.nih.gov/4998337/))
+- Miller, E. K., Erickson, C. A., & Desimone, R. (1996). Neural mechanisms of visual working memory in prefrontal cortex of the macaque. *Journal of Neuroscience*, 16(16), 5154-5167. ([DOI](https://doi.org/10.1523/jneurosci.16-16-05154.1996), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8756444/))
+- Pessoa, L., Gutierrez, E., Bandettini, P. A., & Ungerleider, L. G. (2002). Neural correlates of visual working memory: fMRI amplitude predicts task performance. *Neuron*, 35(5), 975-987. ([DOI](https://doi.org/10.1016/s0896-6273(02)00817-6), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12372290/))
 
-## Recent references
+## Further references
 
-- Lara, A. H., & Wallis, J. D. (2015). The role of prefrontal cortex in working memory: A mini review. *Frontiers in Systems Neuroscience*, 9, 173.
-- Constantinidis, C., Funahashi, S., Lee, D., Murray, J. D., Qi, X. L., Wang, M., & Arnsten, A. F. T. (2018). Persistent spiking activity underlies working memory. *Journal of Neuroscience*, 38(32), 7020–7028.
-- Lundqvist, M., Herman, P., & Miller, E. K. (2018). Working memory: Delay activity, yes! Persistent activity? Maybe not. *Journal of Neuroscience*, 38(32), 7013–7019.
-- Stokes, M. G. (2015). 'Activity-silent' working memory in prefrontal cortex: A dynamic coding framework. *Trends in Cognitive Sciences*, 19(7), 394–405.
+- Lara, A. H., & Wallis, J. D. (2015). The role of prefrontal cortex in working memory: A mini review. *Frontiers in Systems Neuroscience*, 9, 173. ([DOI](https://doi.org/10.3389/fnsys.2015.00173), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26733825/))
+- Constantinidis, C., Funahashi, S., Lee, D., Murray, J. D., Qi, X. L., Wang, M., & Arnsten, A. F. T. (2018). Persistent spiking activity underlies working memory. *Journal of Neuroscience*, 38(32), 7020–7028. ([DOI](https://doi.org/10.1523/jneurosci.2486-17.2018), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30089641/))
+- Lundqvist, M., Herman, P., & Miller, E. K. (2018). Working memory: Delay activity, yes! Persistent activity? Maybe not. *Journal of Neuroscience*, 38(32), 7013–7019. ([DOI](https://doi.org/10.1523/jneurosci.2485-17.2018), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30089640/))
+- Stokes, M. G. (2015). 'Activity-silent' working memory in prefrontal cortex: A dynamic coding framework. *Trends in Cognitive Sciences*, 19(7), 394–405. ([DOI](https://doi.org/10.1016/j.tics.2015.05.004), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26051384/))
 
 ## External links
 

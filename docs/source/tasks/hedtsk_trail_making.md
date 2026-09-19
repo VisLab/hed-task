@@ -86,14 +86,14 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Reitan, R. M. (1958). Validity of the Trail Making Test as an indicator of organic brain damage. *Perceptual and Motor Skills*, 8(3), 271–276.
-- Bowie, C. R., & Harvey, P. D. (2006). Administration and interpretation of the Trail Making Test. *Nature Protocols*, 1(5), 2277–2281.
+- Reitan, R. M. (1958). Validity of the Trail Making Test as an indicator of organic brain damage. *Perceptual and Motor Skills*, 8(3), 271–276. ([DOI](https://doi.org/10.2466/pms.1958.8.3.271))
+- Bowie, C. R., & Harvey, P. D. (2006). Administration and interpretation of the Trail Making Test. *Nature Protocols*, 1(5), 2277–2281. ([DOI](https://doi.org/10.1038/nprot.2006.390), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17406468/))
 
-## Recent references
+## Further references
 
-- Salthouse, T. A. (2011). What cognitive abilities are involved in trail-making performance? *Intelligence*, 39(4), 222–232.
-- Sánchez-Cubillo, I., Periáñez, J. A., Adrover-Roig, D., Rodríguez-Sánchez, J. M., Ríos-Lago, M., Tirapu, J., & Barceló, F. (2009). Construct validity of the Trail Making Test: Role of task-switching, working memory, inhibition/interference control, and visuomotor abilities. *Journal of the International Neuropsychological Society*, 15(3), 438–450.
-- Cangoz, B., Karakoc, E., & Selekler, K. (2009). Trail Making Test: Normative data for Turkish elderly population by age, sex, and education. *Journal of the Neurological Sciences*, 283(1-2), 73–78.
+- Salthouse, T. A. (2011). What cognitive abilities are involved in trail-making performance? *Intelligence*, 39(4), 222–232. ([DOI](https://doi.org/10.1016/j.intell.2011.03.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21789028/))
+- Sánchez-Cubillo, I., Periáñez, J. A., Adrover-Roig, D., Rodríguez-Sánchez, J. M., Ríos-Lago, M., Tirapu, J., & Barceló, F. (2009). Construct validity of the Trail Making Test: Role of task-switching, working memory, inhibition/interference control, and visuomotor abilities. *Journal of the International Neuropsychological Society*, 15(3), 438–450. ([DOI](https://doi.org/10.1017/s1355617709090626), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19402930/))
+- Cangoz, B., Karakoc, E., & Selekler, K. (2009). Trail Making Test: Normative data for Turkish elderly population by age, sex, and education. *Journal of the Neurological Sciences*, 283(1-2), 73–78. ([DOI](https://doi.org/10.1016/j.jns.2009.02.313), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19264326/))
 
 ## External links
 

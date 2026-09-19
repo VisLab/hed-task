@@ -101,16 +101,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Sutton, S., Braren, M., Zubin, J., & John, E. R. (1965). Evoked-potential correlates of stimulus uncertainty. *Science*, 150(3700), 1187-1188.
-- Donchin, E., & Coles, M. G. H. (1988). Is the P300 component a manifestation of context updating? *Behavioral and Brain Sciences*, 11(3), 357-374.
-- Polich, J. (2007). Updating P300: An integrative theory of P3a and P3b. *Clinical Neurophysiology*, 118(10), 2128-2148.
+- Sutton, S., Braren, M., Zubin, J., & John, E. R. (1965). Evoked-potential correlates of stimulus uncertainty. *Science*, 150(3700), 1187-1188. ([DOI](https://doi.org/10.1126/science.150.3700.1187), [PubMed](https://pubmed.ncbi.nlm.nih.gov/5852977/))
+- Donchin, E., & Coles, M. G. H. (1988). Is the P300 component a manifestation of context updating? *Behavioral and Brain Sciences*, 11(3), 357-374. ([DOI](https://doi.org/10.1017/s0140525x00058027))
+- Polich, J. (2007). Updating P300: An integrative theory of P3a and P3b. *Clinical Neurophysiology*, 118(10), 2128-2148. ([DOI](https://doi.org/10.1016/j.clinph.2007.04.019), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17573239/))
 
-## Recent references
+## Further references
 
-- Polich, J. (2007). Updating P300: An integrative theory of P3a and P3b. *Clinical Neurophysiology*, 118(10), 2128–2148.
-- Linden, D. E. J. (2005). The P300: Where in the brain is it produced and what does it tell us? *Neuroscientist*, 11(6), 563–576. [Updated: Bledowski, C., et al. (2004). Localizing P300 generators in visual target and distractor processing: A combined event-related potential and functional magnetic resonance imaging study. *Journal of Neuroscience*, 24(42), 9353–9360.]
-- Twomey, D. M., Murphy, P. R., Kelly, S. P., & O'Connell, R. G. (2015). The classic P300 encodes a build-to-threshold decision variable. *European Journal of Neuroscience*, 42(1), 1636–1643.
-- Kelly, S. P., & O'Connell, R. G. (2013). Internal and external influences on the rate of sensory evidence accumulation in the human brain. *Journal of Neuroscience*, 33(50), 19434–19441.
+- Linden, D. E. J. (2005). The P300: Where in the brain is it produced and what does it tell us? *Neuroscientist*, 11(6), 563–576. [Updated: Bledowski, C., et al. (2004). Localizing P300 generators in visual target and distractor processing: A combined event-related potential and functional magnetic resonance imaging study. *Journal of Neuroscience*, 24(42), 9353–9360.] ([DOI](https://doi.org/10.1177/1073858405280524), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16282597/))
+- Twomey, D. M., Murphy, P. R., Kelly, S. P., & O'Connell, R. G. (2015). The classic P300 encodes a build-to-threshold decision variable. *European Journal of Neuroscience*, 42(1), 1636–1643. ([DOI](https://doi.org/10.1111/ejn.12936), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25925534/))
+- Kelly, S. P., & O'Connell, R. G. (2013). Internal and external influences on the rate of sensory evidence accumulation in the human brain. *Journal of Neuroscience*, 33(50), 19434–19441. ([DOI](https://doi.org/10.1523/jneurosci.3355-13.2013), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24336710/))
 
 ## External links
 

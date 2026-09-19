@@ -5,7 +5,7 @@
 
 **Family:** [Oddball, vigilance and continuous performance tasks](families/oddball_and_vigilance.md)
 
-**Also known as:** CPT, CPT-II, AX-CPT variant also separate entry
+**Also known as:** CPT, CPT-II, AX-CPT variant also separate entry, Continuous Performance
 
 Extended stream of stimuli in which a rare target requires a response; omission and commission errors index sustained attention and response control.
 
@@ -96,15 +96,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Rosvold, H. E., Mirsky, A. F., Sarason, I., Bransome, E. D., & Beck, L. H. (1956). A continuous performance test of brain damage. *Journal of Consulting Psychology*, 20(5), 343-350.
-- Nuechterlein, K. H., Parasuraman, R., & Jiang, Q. (1983). Visual sustained attention: Image degradation produces rapid sensitivity decrement over time. *Science*, 220(4594), 327-329.
-- Carter, C. S., Braver, T. S., Barch, D. M., Botvinick, M. M., Noll, D., & Cohen, J. D. (1998). Anterior cingulate cortex, error detection, and the online monitoring of performance. *Science*, 280(5364), 747-749.
+- Rosvold, H. E., Mirsky, A. F., Sarason, I., Bransome, E. D., & Beck, L. H. (1956). A continuous performance test of brain damage. *Journal of Consulting Psychology*, 20(5), 343-350. ([DOI](https://doi.org/10.1037/h0043220), [PubMed](https://pubmed.ncbi.nlm.nih.gov/13367264/))
+- Nuechterlein, K. H., Parasuraman, R., & Jiang, Q. (1983). Visual sustained attention: Image degradation produces rapid sensitivity decrement over time. *Science*, 220(4594), 327-329. ([DOI](https://doi.org/10.1126/science.6836276), [PubMed](https://pubmed.ncbi.nlm.nih.gov/6836276/))
+- Carter, C. S., Braver, T. S., Barch, D. M., Botvinick, M. M., Noll, D., & Cohen, J. D. (1998). Anterior cingulate cortex, error detection, and the online monitoring of performance. *Science*, 280(5364), 747-749. ([DOI](https://doi.org/10.1126/science.280.5364.747), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9563953/))
 
-## Recent references
+## Further references
 
-- Huang-Pollock, C. L., Karalunas, S. L., Tam, H., & Moore, A. N. (2012). Evaluating vigilance deficits in ADHD: A meta-analysis of CPT performance. *Journal of Abnormal Psychology*, 121(2), 360–371.
-- Esterman, M., Noonan, S. K., Rosenberg, M., & DeGutis, J. (2013). In the zone or zoning out? Tracking behavioral and neural fluctuations during sustained attention. *Cerebral Cortex*, 23(11), 2712–2723.
-- Fortenbaugh, F. C., DeGutis, J., & Esterman, M. (2017). Recent theoretical, neural, and clinical advances in sustained attention research. *Annals of the New York Academy of Sciences*, 1396(1), 70–91.
+- Huang-Pollock, C. L., Karalunas, S. L., Tam, H., & Moore, A. N. (2012). Evaluating vigilance deficits in ADHD: A meta-analysis of CPT performance. *Journal of Abnormal Psychology*, 121(2), 360–371. ([DOI](https://doi.org/10.1037/a0027205), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22428793/))
+- Esterman, M., Noonan, S. K., Rosenberg, M., & DeGutis, J. (2013). In the zone or zoning out? Tracking behavioral and neural fluctuations during sustained attention. *Cerebral Cortex*, 23(11), 2712–2723. ([DOI](https://doi.org/10.1093/cercor/bhs261))
+- Fortenbaugh, F. C., DeGutis, J., & Esterman, M. (2017). Recent theoretical, neural, and clinical advances in sustained attention research. *Annals of the New York Academy of Sciences*, 1396(1), 70–91. ([DOI](https://doi.org/10.1111/nyas.13318), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28260249/))
 - Weigard, A., & Huang-Pollock, C. (2017). The role of speed in ADHD-related working memory deficits: A time-based resource-sharing and diffusion model account. *Clinical Psychological Science*, 5(2), 195–211.
 
 ## External links

@@ -5,7 +5,7 @@
 
 **Family:** [Motor performance and speeded response tasks](families/motor_performance.md)
 
-**Also known as:** FTT, Tapping Task
+**Also known as:** FTT, Tapping Task, Finger Tapping
 
 Repetitive single-finger or sequence tapping at fastest or paced rates; taps-per-interval and tap-timing variability index motor speed and rhythm control.
 
@@ -90,15 +90,13 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Witt, S. T., Laird, A. R., & Meyerand, M. E. (2008). Functional neuroimaging correlates of finger-tapping task variations: An ALE meta-analysis. *NeuroImage*, 42(1), 343-356.
-- Rao, S. M., Harrington, D. L., Haaland, K. Y., et al. (1997). Distributed neural systems underlying the timing of movements. *Journal of Neuroscience*, 17(14), 5528-5535.
-- Jancke, L., Loose, R., Lutz, K., Specht, K., & Shah, N. J. (2000). Cortical activations during paced finger-tapping applying visual and auditory pacing stimuli. *Cognitive Brain Research*, 10(1-2), 51-66.
+- Witt, S. T., Laird, A. R., & Meyerand, M. E. (2008). Functional neuroimaging correlates of finger-tapping task variations: An ALE meta-analysis. *NeuroImage*, 42(1), 343-356. ([DOI](https://doi.org/10.1016/j.neuroimage.2008.04.025), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18511305/))
+- Rao, S. M., Harrington, D. L., Haaland, K. Y., et al. (1997). Distributed neural systems underlying the timing of movements. *Journal of Neuroscience*, 17(14), 5528-5535. ([DOI](https://doi.org/10.1523/jneurosci.17-14-05528.1997), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9204934/))
+- Jancke, L., Loose, R., Lutz, K., Specht, K., & Shah, N. J. (2000). Cortical activations during paced finger-tapping applying visual and auditory pacing stimuli. *Cognitive Brain Research*, 10(1-2), 51-66. ([DOI](https://doi.org/10.1016/s0926-6410(00)00022-7), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10978692/))
 
-## Recent references
+## Further references
 
-- Witt, S. T., Laird, A. R., & Meyerand, M. E. (2008). Functional neuroimaging correlates of finger-tapping task variations: An ALE meta-analysis. *NeuroImage*, 42(1), 343–356.
-- Rao, S. M., Harrington, D. L., Haaland, K. Y., et al. (1997). Distributed neural systems underlying the timing of movements. *Journal of Neuroscience*, 17(14), 5528–5535.
-- Haaland, K. Y., Elsinger, C. L., Mayer, A. R., Durgerian, S., & Rao, S. M. (2004). Motor sequence complexity and performing hand produce differential patterns of hemispheric lateralization. *Journal of Cognitive Neuroscience*, 16(4), 621–636.
+- Haaland, K. Y., Elsinger, C. L., Mayer, A. R., Durgerian, S., & Rao, S. M. (2004). Motor sequence complexity and performing hand produce differential patterns of hemispheric lateralization. *Journal of Cognitive Neuroscience*, 16(4), 621–636. ([DOI](https://doi.org/10.1162/089892904323057344), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15165352/))
 
 ## External links
 

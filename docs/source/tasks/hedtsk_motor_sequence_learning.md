@@ -96,16 +96,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Karni, A., Meyer, G., Rey-Hipolito, C., et al. (1998). The acquisition of skilled motor performance: Fast and slow experience-driven changes in primary motor cortex. *Proceedings of the National Academy of Sciences*, 95(3), 861-868.
-- Doyon, J., Bellec, P., Amsel, R., et al. (2009). Contributions of the basal ganglia and functionally related brain structures to motor learning. *Behavioural Brain Research*, 199(1), 61-72.
-- Walker, M. P., Brakefield, T., Morgan, A., Hobson, J. A., & Stickgold, R. (2002). Practice with sleep makes perfect: Sleep-dependent motor skill learning. *Neuron*, 35(1), 205-211.
+- Karni, A., Meyer, G., Rey-Hipolito, C., et al. (1998). The acquisition of skilled motor performance: Fast and slow experience-driven changes in primary motor cortex. *Proceedings of the National Academy of Sciences*, 95(3), 861-868. ([DOI](https://doi.org/10.1073/pnas.95.3.861), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9448252/))
+- Doyon, J., Bellec, P., Amsel, R., et al. (2009). Contributions of the basal ganglia and functionally related brain structures to motor learning. *Behavioural Brain Research*, 199(1), 61-72. ([DOI](https://doi.org/10.1016/j.bbr.2008.11.012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19061920/))
+- Walker, M. P., Brakefield, T., Morgan, A., Hobson, J. A., & Stickgold, R. (2002). Practice with sleep makes perfect: Sleep-dependent motor skill learning. *Neuron*, 35(1), 205-211. ([DOI](https://doi.org/10.1016/s0896-6273(02)00746-8), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12123620/))
 
-## Recent references
+## Further references
 
-- Doyon, J., Bellec, P., Amsel, R., et al. (2009). Contributions of the basal ganglia and functionally related brain structures to motor learning. *Behavioural Brain Research*, 199(1), 61–72. [Updated: Doyon, J., Gabitov, E., Bhatt, K., et al. (2018). Current issues related to motor sequence learning in humans. *Current Opinion in Behavioral Sciences*, 20, 89–97.]
-- King, B. R., Hoedlmoser, K., Hirschauer, F., Dolfen, N., & Albouy, G. (2017). Sleeping on the motor engram: The multifaceted nature of sleep-related motor memory consolidation. *Neuroscience & Biobehavioral Reviews*, 80, 1–22.
-- Hikosaka, O., Nakamura, K., Sakai, K., & Nakahara, H. (2002). Central mechanisms of motor skill learning. *Current Opinion in Neurobiology*, 12(2), 217–222. [Updated: Diedrichsen, J., & Kornysheva, K. (2015). Motor skill learning between selection and execution. *Trends in Cognitive Sciences*, 19(4), 227–233.]
-- Verwey, W. B., Shea, C. H., & Wright, D. L. (2015). A cognitive framework for explaining serial processing and sequence execution strategies. *Psychonomic Bulletin & Review*, 22(1), 54–77.
+- King, B. R., Hoedlmoser, K., Hirschauer, F., Dolfen, N., & Albouy, G. (2017). Sleeping on the motor engram: The multifaceted nature of sleep-related motor memory consolidation. *Neuroscience & Biobehavioral Reviews*, 80, 1–22. ([DOI](https://doi.org/10.1016/j.neubiorev.2017.04.026), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28465166/))
+- Hikosaka, O., Nakamura, K., Sakai, K., & Nakahara, H. (2002). Central mechanisms of motor skill learning. *Current Opinion in Neurobiology*, 12(2), 217–222. [Updated: Diedrichsen, J., & Kornysheva, K. (2015). Motor skill learning between selection and execution. *Trends in Cognitive Sciences*, 19(4), 227–233.] ([DOI](https://doi.org/10.1016/s0959-4388(02)00307-0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12015240/))
+- Verwey, W. B., Shea, C. H., & Wright, D. L. (2015). A cognitive framework for explaining serial processing and sequence execution strategies. *Psychonomic Bulletin & Review*, 22(1), 54–77. ([DOI](https://doi.org/10.3758/s13423-014-0773-4))
 
 ## External links
 

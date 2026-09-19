@@ -85,15 +85,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Dias, R., Robbins, T. W., & Roberts, A. C. (1996). Dissociation in prefrontal cortex of affective and attentional shifts. *Nature*, 380(6569), 69-72.
-- Cools, R., Clark, L., Owen, A. M., & Robbins, T. W. (2002). Defining the neural mechanisms of probabilistic reversal learning using event-related functional magnetic resonance imaging. *Journal of Neuroscience*, 22(11), 4563-4567.
+- Dias, R., Robbins, T. W., & Roberts, A. C. (1996). Dissociation in prefrontal cortex of affective and attentional shifts. *Nature*, 380(6569), 69-72. ([DOI](https://doi.org/10.1038/380069a0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8598908/))
+- Cools, R., Clark, L., Owen, A. M., & Robbins, T. W. (2002). Defining the neural mechanisms of probabilistic reversal learning using event-related functional magnetic resonance imaging. *Journal of Neuroscience*, 22(11), 4563-4567. ([DOI](https://doi.org/10.1523/jneurosci.22-11-04563.2002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12040063/))
 
-## Recent references
+## Further references
 
-- Izquierdo, A., Brigman, J. L., Bhatt, D. K., et al. (2017). The neural basis of reversal learning: An updated perspective. *Neuroscience*, 345, 12–26.
-- den Ouden, H. E. M., Daw, N. D., Fernandez, G., et al. (2013). Dissociable effects of dopamine and serotonin on reversal learning. *Neuron*, 80(4), 1090–1100.
-- Schlagenhauf, F., Huys, Q. J. M., Deserno, L., Rapp, M. A., Beck, A., Heinze, H. J., Dolan, R., & Heinz, A. (2014). Striatal dysfunction during reversal learning in unmedicated schizophrenia patients. *NeuroImage*, 89, 171–180.
-- Costa, V. D., Tran, V. L., Turchi, J., & Averbeck, B. B. (2015). Reversal learning and dopamine: A Bayesian perspective. *Journal of Neuroscience*, 35(6), 2407–2416.
+- Izquierdo, A., Brigman, J. L., Bhatt, D. K., et al. (2017). The neural basis of reversal learning: An updated perspective. *Neuroscience*, 345, 12–26. ([DOI](https://doi.org/10.1016/j.neuroscience.2016.03.021), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26979052/))
+- den Ouden, H. E. M., Daw, N. D., Fernandez, G., et al. (2013). Dissociable effects of dopamine and serotonin on reversal learning. *Neuron*, 80(4), 1090–1100. ([DOI](https://doi.org/10.1016/j.neuron.2013.08.030), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24267657/))
+- Schlagenhauf, F., Huys, Q. J. M., Deserno, L., Rapp, M. A., Beck, A., Heinze, H. J., Dolan, R., & Heinz, A. (2014). Striatal dysfunction during reversal learning in unmedicated schizophrenia patients. *NeuroImage*, 89, 171–180. ([DOI](https://doi.org/10.1016/j.neuroimage.2013.11.034), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24291614/))
+- Costa, V. D., Tran, V. L., Turchi, J., & Averbeck, B. B. (2015). Reversal learning and dopamine: A Bayesian perspective. *Journal of Neuroscience*, 35(6), 2407–2416. ([DOI](https://doi.org/10.1523/jneurosci.1989-14.2015), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25673835/))
 
 ## External links
 

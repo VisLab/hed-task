@@ -5,7 +5,7 @@
 
 **Family:** [Social cognition and social choice tasks](families/social_cognition_and_games.md)
 
-**Also known as:** RMET, Eyes Test, Baron-Cohen Eyes Task
+**Also known as:** RMET, Eyes Test, Baron-Cohen Eyes Task, Reading the Mind in the Eyes Test
 
 Choice of the best-matching mental-state word for a photograph of the eye region; accuracy indexes complex emotion and mental-state inference.
 
@@ -80,14 +80,13 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Baron-Cohen, S., Wheelwright, S., Hill, J., Raste, Y., & Plumb, I. (2001). The "Reading the Mind in the Eyes" test revised version: A study with normal adults, and adults with Asperger syndrome or high-functioning autism. *Journal of Child Psychology and Psychiatry*, 42(2), 241-251.
-- Adams, R. B., Rule, N. O., Franklin, R. G., et al. (2010). Cross-cultural reading the mind in the eyes: An fMRI investigation. *Journal of Cognitive Neuroscience*, 22(1), 97-108.
-- Oakley, B. F. M., Brewer, R., Bird, G., & Catmur, C. (2016). Theory of mind is not theory of emotion: A cautionary note on the Reading the Mind in the Eyes Test. *Journal of Abnormal Psychology*, 125(6), 818-823.
+- Baron-Cohen, S., Wheelwright, S., Hill, J., Raste, Y., & Plumb, I. (2001). The "Reading the Mind in the Eyes" test revised version: A study with normal adults, and adults with Asperger syndrome or high-functioning autism. *Journal of Child Psychology and Psychiatry*, 42(2), 241-251. ([DOI](https://doi.org/10.1111/1469-7610.00715), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11280420/))
+- Adams, R. B., Rule, N. O., Franklin, R. G., et al. (2010). Cross-cultural reading the mind in the eyes: An fMRI investigation. *Journal of Cognitive Neuroscience*, 22(1), 97-108. ([DOI](https://doi.org/10.1162/jocn.2009.21187), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19199419/))
+- Oakley, B. F. M., Brewer, R., Bird, G., & Catmur, C. (2016). Theory of mind is not theory of emotion: A cautionary note on the Reading the Mind in the Eyes Test. *Journal of Abnormal Psychology*, 125(6), 818-823. ([DOI](https://doi.org/10.1037/abn0000182), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27505409/))
 
-## Recent references
+## Further references
 
-- Olderbak, S., Wilhelm, O., Olaru, G., et al. (2015). A psychometric analysis of the Reading the Mind in the Eyes test: Toward a brief form. *Frontiers in Psychology*, 6, 1503.
-- Oakley, B. F. M., Brewer, R., Bird, G., & Catmur, C. (2016). Theory of mind is not theory of emotion: A cautionary note on the Reading the Mind in the Eyes Test. *Journal of Abnormal Psychology*, 125(6), 818–823.
-- Warrier, V., Grasby, K. L., Uzefovsky, F., et al. (2018). Genome-wide meta-analysis of cognitive empathy: Heritability and correlates with sex, neuropsychiatric conditions and cognition. *Molecular Psychiatry*, 23(6), 1402–1409.
-- Vellante, M., Baron-Cohen, S., Melis, M., et al. (2013). The "Reading the Mind in the Eyes" test: Systematic review of psychometric properties and a validation study in Italy. *Cognitive Neuropsychiatry*, 18(4), 326–354.
+- Olderbak, S., Wilhelm, O., Olaru, G., et al. (2015). A psychometric analysis of the Reading the Mind in the Eyes test: Toward a brief form. *Frontiers in Psychology*, 6, 1503. ([DOI](https://doi.org/10.3389/fpsyg.2015.01503), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26500578/))
+- Warrier, V., Grasby, K. L., Uzefovsky, F., et al. (2018). Genome-wide meta-analysis of cognitive empathy: Heritability and correlates with sex, neuropsychiatric conditions and cognition. *Molecular Psychiatry*, 23(6), 1402–1409. ([DOI](https://doi.org/10.1038/mp.2017.122))
+- Vellante, M., Baron-Cohen, S., Melis, M., et al. (2013). The "Reading the Mind in the Eyes" test: Systematic review of psychometric properties and a validation study in Italy. *Cognitive Neuropsychiatry*, 18(4), 326–354. ([DOI](https://doi.org/10.1080/13546805.2012.721728), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23106125/))
 

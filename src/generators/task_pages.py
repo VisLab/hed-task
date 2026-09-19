@@ -18,7 +18,7 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-from generators.utils import cell, process_link, table, truncate, write_page
+from generators.utils import cell, citation_line, process_link, split_references, table, truncate, write_page
 
 ATLAS_TASK_URL = "https://www.cognitiveatlas.org/task/id/"
 
@@ -35,11 +35,11 @@ def generate(
 
     Parameters:
         docs_dir: The docs/source/ root.
-        tasks: Task records from .working/task_details.json.
+        tasks: Task records from data/task_details.json.
         processes_by_id: Process records keyed by process_id.
         families: Rows of data/task_family_defs.tsv, already sorted by `order`.
         family_rows: Rows of data/task_families.tsv.
-        atlas_map: Rows of .working/mappings/hed_task_to_atlas.tsv keyed by hedtsk_id.
+        atlas_map: Rows of data/mappings/hed_task_to_atlas.tsv keyed by hedtsk_id.
 
     Returns the number of files written.
     """
@@ -195,7 +195,7 @@ def _write_all_tasks(
 
 
 def _references(parts: list[str], heading: str, refs: list[dict]) -> None:
-    citations = [r.get("citation_string", "") for r in refs if r.get("citation_string")]
+    citations = [citation_line(r) for r in refs if r.get("citation_string")]
     if not citations:
         return
     parts.append(f"## {heading}\n\n")
@@ -219,7 +219,7 @@ def _write_task_page(
     variations = task.get("variations", [])
     hed_process_ids = task.get("hed_process_ids", [])
 
-    # The curated mapping in .working/mappings/ is the only Atlas cross-reference. Task
+    # The curated mapping in data/mappings/ is the only Atlas cross-reference. Task
     # records no longer carry an atlas_id of their own; that field produced dead links
     # and links to the wrong paradigm, and was removed.
     atlas_row = atlas_map.get(hedtsk_id) or {}
@@ -283,8 +283,9 @@ def _write_task_page(
                 parts.append(f"- {process_link(pid, proc['process_name'], proc['category_id'], 'tasks')}\n")
         parts.append("\n")
 
-    _references(parts, "Key references", task.get("key_references", []))
-    _references(parts, "Recent references", task.get("recent_references", []))
+    key_refs, further_refs = split_references(task)
+    _references(parts, "Key references", key_refs)
+    _references(parts, "Further references", further_refs)
 
     if atlas_id:
         label = atlas_name or "Cognitive Atlas entry"

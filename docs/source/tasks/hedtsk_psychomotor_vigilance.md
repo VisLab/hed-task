@@ -75,15 +75,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Dinges, D. F., & Powell, J. W. (1985). Microcomputer analyses of performance on a portable, simple visual RT task during sustained operations. *Behavior Research Methods, Instruments, & Computers*, 17(6), 652–655.
-- Basner, M., & Dinges, D. F. (2011). Maximizing sensitivity of the Psychomotor Vigilance Test (PVT) to sleep loss. *Sleep*, 34(5), 581–591.
+- Dinges, D. F., & Powell, J. W. (1985). Microcomputer analyses of performance on a portable, simple visual RT task during sustained operations. *Behavior Research Methods, Instruments, & Computers*, 17(6), 652–655. ([DOI](https://doi.org/10.3758/bf03200977))
+- Basner, M., & Dinges, D. F. (2011). Maximizing sensitivity of the Psychomotor Vigilance Test (PVT) to sleep loss. *Sleep*, 34(5), 581–591. ([DOI](https://doi.org/10.1093/sleep/34.5.581), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21532951/))
 
-## Recent references
+## Further references
 
-- Basner, M., Mollicone, D., & Dinges, D. F. (2011). Validity and sensitivity of a brief Psychomotor Vigilance Test (PVT-B) to total and partial sleep deprivation. *Acta Astronautica*, 69(11-12), 949–959.
-- Lim, J., & Dinges, D. F. (2010). A meta-analysis of the impact of short-term sleep deprivation on cognitive variables. *Psychological Bulletin*, 136(3), 375–389.
-- Jewett, M. E., Dijk, D.-J., Kronauer, R. E., & Dinges, D. F. (1999). Dose-response relationship between sleep duration and human psychomotor vigilance and subjective alertness. *Sleep*, 22(2), 171–179.
-- Drummond, S. P. A., Bischoff-Grethe, A., Dinges, D. F., Ayalon, L., Mednick, S. C., & Meloy, M. J. (2005). The neural basis of the Psychomotor Vigilance Task. *Sleep*, 28(9), 1059–1068.
+- Basner, M., Mollicone, D., & Dinges, D. F. (2011). Validity and sensitivity of a brief Psychomotor Vigilance Test (PVT-B) to total and partial sleep deprivation. *Acta Astronautica*, 69(11-12), 949–959. ([DOI](https://doi.org/10.1016/j.actaastro.2011.07.015), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22025811/))
+- Lim, J., & Dinges, D. F. (2010). A meta-analysis of the impact of short-term sleep deprivation on cognitive variables. *Psychological Bulletin*, 136(3), 375–389. ([DOI](https://doi.org/10.1037/a0018883), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20438143/))
+- Jewett, M. E., Dijk, D.-J., Kronauer, R. E., & Dinges, D. F. (1999). Dose-response relationship between sleep duration and human psychomotor vigilance and subjective alertness. *Sleep*, 22(2), 171–179. ([DOI](https://doi.org/10.1093/sleep/22.2.171), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10201061/))
+- Drummond, S. P. A., Bischoff-Grethe, A., Dinges, D. F., Ayalon, L., Mednick, S. C., & Meloy, M. J. (2005). The neural basis of the Psychomotor Vigilance Task. *Sleep*, 28(9), 1059–1068. ([DOI](https://doi.org/10.1093/sleep/28.9.1059), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16268374/))
 
 ## External links
 

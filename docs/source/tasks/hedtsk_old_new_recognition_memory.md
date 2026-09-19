@@ -92,15 +92,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Mandler, G. (1980). Recognizing: The judgment of previous occurrence. *Psychological Review*, 87(3), 252-271.
-- Henson, R. N., Rugg, M. D., Shallice, T., Josephs, O., & Dolan, R. J. (1999). Recollection and familiarity in recognition memory: An event-related functional magnetic resonance imaging study. *Journal of Neuroscience*, 19(10), 3962-3972.
-- Rugg, M. D., & Curran, T. (2007). Event-related potentials and recognition memory. *Trends in Cognitive Sciences*, 11(6), 251-257.
+- Mandler, G. (1980). Recognizing: The judgment of previous occurrence. *Psychological Review*, 87(3), 252-271. ([DOI](https://doi.org/10.1037/0033-295x.87.3.252))
+- Henson, R. N., Rugg, M. D., Shallice, T., Josephs, O., & Dolan, R. J. (1999). Recollection and familiarity in recognition memory: An event-related functional magnetic resonance imaging study. *Journal of Neuroscience*, 19(10), 3962-3972. ([DOI](https://doi.org/10.1523/jneurosci.19-10-03962.1999), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10234026/))
+- Rugg, M. D., & Curran, T. (2007). Event-related potentials and recognition memory. *Trends in Cognitive Sciences*, 11(6), 251-257. ([DOI](https://doi.org/10.1016/j.tics.2007.04.004), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17481940/))
 
-## Recent references
+## Further references
 
-- Wixted, J. T. (2007). Dual-process theory and signal-detection theory of recognition memory. *Psychological Review*, 114(1), 152–176.
-- Rugg, M. D., & Vilberg, K. L. (2013). Brain networks underlying episodic memory retrieval. *Current Opinion in Neurobiology*, 23(2), 255–260.
-- Wixted, J. T., & Mickes, L. (2014). A signal-detection-based diagnostic-feature-detection model of eyewitness identification. *Psychological Review*, 121(4), 588–607.
+- Wixted, J. T. (2007). Dual-process theory and signal-detection theory of recognition memory. *Psychological Review*, 114(1), 152–176. ([DOI](https://doi.org/10.1037/0033-295x.114.1.152), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17227185/))
+- Rugg, M. D., & Vilberg, K. L. (2013). Brain networks underlying episodic memory retrieval. *Current Opinion in Neurobiology*, 23(2), 255–260. ([DOI](https://doi.org/10.1016/j.conb.2012.11.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23206590/))
+- Wixted, J. T., & Mickes, L. (2014). A signal-detection-based diagnostic-feature-detection model of eyewitness identification. *Psychological Review*, 121(4), 588–607. ([DOI](https://doi.org/10.1037/a0035940), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24730600/))
 
 ## External links
 

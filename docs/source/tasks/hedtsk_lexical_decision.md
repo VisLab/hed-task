@@ -96,16 +96,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Meyer, D. E., & Schvaneveldt, R. W. (1971). Facilitation in recognizing pairs of words: Evidence of a dependence between retrieval operations. *Journal of Experimental Psychology*, 90(2), 227-234.
-- Neely, J. H. (1977). Semantic priming and retrieval from lexical memory: Roles of inhibitionless spreading activation and limited-capacity attention. *Journal of Experimental Psychology: General*, 106(3), 226-254.
-- Fiebach, C. J., Friederici, A. D., Muller, K., & von Cramon, D. Y. (2002). fMRI evidence for dual routes to the mental lexicon in visual word recognition. *Journal of Cognitive Neuroscience*, 14(1), 11-23.
+- Meyer, D. E., & Schvaneveldt, R. W. (1971). Facilitation in recognizing pairs of words: Evidence of a dependence between retrieval operations. *Journal of Experimental Psychology*, 90(2), 227-234. ([DOI](https://doi.org/10.1037/h0031564), [PubMed](https://pubmed.ncbi.nlm.nih.gov/5134329/))
+- Neely, J. H. (1977). Semantic priming and retrieval from lexical memory: Roles of inhibitionless spreading activation and limited-capacity attention. *Journal of Experimental Psychology: General*, 106(3), 226-254. ([DOI](https://doi.org/10.1037/0096-3445.106.3.226))
+- Fiebach, C. J., Friederici, A. D., Muller, K., & von Cramon, D. Y. (2002). fMRI evidence for dual routes to the mental lexicon in visual word recognition. *Journal of Cognitive Neuroscience*, 14(1), 11-23. ([DOI](https://doi.org/10.1162/089892902317205285), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11798383/))
 
-## Recent references
+## Further references
 
-- Keuleers, E., & Brysbaert, M. (2010). Wuggy: A multilingual pseudoword generator. *Behavior Research Methods*, 42(3), 627–633. [Updated: Keuleers, E., Lacey, P., Rastle, K., & Brysbaert, M. (2012). The British Lexicon Project. *Quarterly Journal of Experimental Psychology*, 65(8), 1441–1469.]
-- Taylor, J. S. H., Rastle, K., & Davis, M. H. (2013). Can cognitive models explain brain activation during word and pseudoword reading? A meta-analysis of 36 neuroimaging studies. *Psychological Bulletin*, 139(4), 766–791.
-- Balota, D. A., Yap, M. J., Hutchison, K. A., et al. (2007). The English Lexicon Project. *Behavior Research Methods*, 39(3), 445–459. [Megastudy approach]
-- Ratcliff, R., Gomez, P., & McKoon, G. (2004). A diffusion model account of the lexical decision task. *Psychological Review*, 111(1), 159–182.
+- Keuleers, E., & Brysbaert, M. (2010). Wuggy: A multilingual pseudoword generator. *Behavior Research Methods*, 42(3), 627–633. [Updated: Keuleers, E., Lacey, P., Rastle, K., & Brysbaert, M. (2012). The British Lexicon Project. *Quarterly Journal of Experimental Psychology*, 65(8), 1441–1469.] ([DOI](https://doi.org/10.3758/brm.42.3.627), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20805584/))
+- Taylor, J. S. H., Rastle, K., & Davis, M. H. (2013). Can cognitive models explain brain activation during word and pseudoword reading? A meta-analysis of 36 neuroimaging studies. *Psychological Bulletin*, 139(4), 766–791. ([DOI](https://doi.org/10.1037/a0030266), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23046391/))
+- Balota, D. A., Yap, M. J., Hutchison, K. A., et al. (2007). The English Lexicon Project. *Behavior Research Methods*, 39(3), 445–459. [Megastudy approach] ([DOI](https://doi.org/10.3758/bf03193014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17958156/))
+- Ratcliff, R., Gomez, P., & McKoon, G. (2004). A diffusion model account of the lexical decision task. *Psychological Review*, 111(1), 159–182. ([DOI](https://doi.org/10.1037/0033-295x.111.1.159), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14756592/))
 - Ball, L. V., Brusini, P., & Bannard, C. (2025). Revisiting novel word semantic priming: The role of strategic priming mechanisms. *Quarterly Journal of Experimental Psychology*, 78. doi:10.1177/17470218241306747
 
 ## External links

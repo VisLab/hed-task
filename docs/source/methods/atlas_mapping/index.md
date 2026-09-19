@@ -10,7 +10,7 @@ This document describes how the correspondence between this catalog and the
 can judge how much weight each mapping carries. The row-by-row results are on the
 [task mapping tables](../../atlas/task_mapping.md) and
 [process mapping tables](../../atlas/process_mapping.md) pages. The mappings live in
-four tab-separated tables under `.working/mappings/`, one row per entity with a unique
+four tab-separated tables under `data/mappings/`, one row per entity with a unique
 key, so that any view can be generated from them.
 
 Sections are numbered so that they can be cited; a citation such as "mapping to cognitive atlas 2.1" means subsection 1 of section 2 of this document.

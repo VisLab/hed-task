@@ -36,7 +36,7 @@ Mapping of relational structure from a source domain to a target domain.
 
 **Fundamental references**
 
-- Gentner (1983) *Cognitive Science* 7:155–170
+- Gentner (1983) *Cognitive Science* 7:155–170 ([DOI](https://doi.org/10.1207/s15516709cog0702_3))
 
 (hed-categorization)=
 ## Categorization
@@ -49,16 +49,18 @@ Assignment of instances to categories according to their features.
 
 **Fundamental references**
 
-- Rosch (1973) *Cognitive Psychology* 4:328–350
+- Rosch (1973) *Cognitive Psychology* 4:328–350 ([DOI](https://doi.org/10.1016/0010-0285(73)90017-0))
 
-**Recent references**
+**Further references**
 
-- Seger & Miller (2010) *Annual Review of Neuroscience* 33:203–219
+- Seger & Miller (2010) *Annual Review of Neuroscience* 33:203–219 ([DOI](https://doi.org/10.1146/annurev.neuro.051508.135546))
 
 (hed-causal-reasoning)=
 ## Causal reasoning
 
 **Process ID:** `hed_causal_reasoning`
+
+**Also known as:** causal inference
 
 Inference about cause–effect relations from observation and intervention.
 
@@ -66,7 +68,7 @@ Inference about cause–effect relations from observation and intervention.
 
 **Fundamental references**
 
-- Cheng (1997) *Psychological Review* 104:367–405
+- Cheng (1997) *Psychological Review* 104:367–405 ([DOI](https://doi.org/10.1037/0033-295x.104.2.367))
 
 (hed-deductive-reasoning)=
 ## Deductive reasoning
@@ -81,11 +83,11 @@ Inference in which the conclusion follows necessarily from the premises.
 
 **Fundamental references**
 
-- Wason (1968) *Quarterly Journal of Experimental Psychology* 20:273–281
+- Wason (1968) *Quarterly Journal of Experimental Psychology* 20:273–281 ([DOI](https://doi.org/10.1080/14640746808400161))
 
-**Recent references**
+**Further references**
 
-- Goel (2007) *Trends in Cognitive Sciences* 11:435–441
+- Goel (2007) *Trends in Cognitive Sciences* 11:435–441 ([DOI](https://doi.org/10.1016/j.tics.2007.09.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17913567/))
 
 (hed-hypothesis-testing)=
 ## Hypothesis testing
@@ -96,9 +98,9 @@ Generation and evaluation of alternative explanations against evidence.
 
 **Tasks that engage this process:** [Wason Selection Task](../tasks/hedtsk_wason_selection.md), [Wisconsin Card Sorting Task](../tasks/hedtsk_wisconsin_card_sorting.md)
 
-**Recent references**
+**Further references**
 
-- Klayman (1995) *Psychology of Learning and Motivation* 32:385–418
+- Klayman (1995) *Psychology of Learning and Motivation* 32:385–418 ([DOI](https://doi.org/10.1016/s0079-7421(08)60315-1))
 
 (hed-inductive-reasoning)=
 ## Inductive reasoning
@@ -111,11 +113,11 @@ Inference from specific instances to general principles; probabilistic rather th
 
 **Fundamental references**
 
-- Rips (1975) *Cognitive Psychology* 7:665–681
+- Rips (1975) *Journal of Verbal Learning and Verbal Behavior* 14:665–681 ([DOI](https://doi.org/10.1016/s0022-5371(75)80055-7))
 
-**Recent references**
+**Further references**
 
-- Kemp & Tenenbaum (2009) *Psychological Review* 116:20–58
+- Kemp & Tenenbaum (2009) *Psychological Review* 116:20–58 ([DOI](https://doi.org/10.1037/a0014282))
 
 (hed-insight)=
 ## Insight
@@ -128,12 +130,12 @@ Sudden restructuring of a problem representation yielding a solution that was pr
 
 **Fundamental references**
 
-- Metcalfe J & Wiebe D (1987) *Memory & Cognition* 15:238-246
+- Metcalfe J & Wiebe D (1987) *Memory & Cognition* 15:238-246 ([DOI](https://doi.org/10.3758/bf03197722), [PubMed](https://pubmed.ncbi.nlm.nih.gov/3600264/))
 
-**Recent references**
+**Further references**
 
-- Bowden EM & Jung-Beeman M (2003) *Psychonomic Bulletin & Review* 10:730-737
-- Kounios J & Beeman M (2014) *Annual Review of Psychology* 65:71-93
+- Bowden EM & Jung-Beeman M (2003) *Psychonomic Bulletin & Review* 10:730-737 ([DOI](https://doi.org/10.3758/bf03196539), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14620371/))
+- Kounios J & Beeman M (2014) *Annual Review of Psychology* 65:71-93 ([DOI](https://doi.org/10.1146/annurev-psych-010213-115154))
 
 (hed-mathematical-reasoning)=
 ## Mathematical reasoning
@@ -146,11 +148,11 @@ Manipulation of numerical and algebraic quantities and relations.
 
 **Fundamental references**
 
-- Dehaene (1997) *The Number Sense*
+- Dehaene (1997) *The Number Sense* ([DOI](https://doi.org/10.1016/s0294-3506(97)88257-9))
 
-**Recent references**
+**Further references**
 
-- Amalric & Dehaene (2016) *PNAS* 113:4909–4917
+- Amalric & Dehaene (2016) *PNAS* 113:4909–4917 ([DOI](https://doi.org/10.1073/pnas.1603205113))
 
 (hed-means-ends-analysis)=
 ## Means-ends analysis
@@ -164,9 +166,9 @@ Iterative problem-solving strategy in which the distance between the current sta
 **Fundamental references**
 
 - Newell A & Simon HA (1972) *Human Problem Solving* Prentice-Hall
-- Atwood ME & Polson PG (1976) *Cognitive Psychology* 8:191-216
+- Atwood ME & Polson PG (1976) *Cognitive Psychology* 8:191-216 ([DOI](https://doi.org/10.1016/0010-0285(76)90023-2))
 
-**Recent references**
+**Further references**
 
 - Huys QJM et al. (2015) *PLoS Computational Biology* 11:e1004112
 
@@ -181,7 +183,7 @@ Mental formulation of a sequence of actions toward a goal before execution.
 
 **Fundamental references**
 
-- Shallice (1982) *Philosophical Transactions B* 298:199–209 (Tower of London)
+- Shallice (1982) *Philosophical Transactions B* 298:199–209 (Tower of London) ([DOI](https://doi.org/10.1098/rstb.1982.0082))
 
 (hed-subgoaling)=
 ## Subgoaling
@@ -197,8 +199,8 @@ Decomposition of a goal into an ordered sequence of subgoals whose satisfaction 
 - Egan DE & Greeno JG (1974) in *Knowledge and Cognition* Erlbaum
 - Anderson JR (1983) *The Architecture of Cognition* Harvard University Press
 
-**Recent references**
+**Further references**
 
-- Ribas-Fernandes JJF et al. (2011) *Neuron* 71:370-379
-- Balaguer J et al. (2016) *Neuron* 90:893-903
+- Ribas-Fernandes JJF et al. (2011) *Neuron* 71:370-379 ([DOI](https://doi.org/10.1016/j.neuron.2011.05.042), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21791294/))
+- Balaguer J et al. (2016) *Neuron* 90:893-903 ([DOI](https://doi.org/10.1016/j.neuron.2016.03.037), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27196978/))
 

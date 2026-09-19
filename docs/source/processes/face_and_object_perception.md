@@ -31,15 +31,17 @@ This category contains 12 processes.
 
 **Process ID:** `hed_biological_motion_perception`
 
+**Also known as:** **biological motion** - common shorthand in titles even when the paper is about perception of biological motion
+
 Recognition of animate motion from sparse kinematic cues, such as point-light displays.
 
 **Tasks that engage this process:** [Biological Motion Perception Task](../tasks/hedtsk_biological_motion_perception.md)
 
 **Fundamental references**
 
-- Johansson (1973) *Perception & Psychophysics* 14:201–211
+- Johansson (1973) *Perception & Psychophysics* 14:201–211 ([DOI](https://doi.org/10.3758/bf03212378))
 
-**Recent references**
+**Further references**
 
 - Pavlova (2012) *Cerebral Cortex* 22:981–995
 
@@ -56,14 +58,16 @@ Perception of distance and three-dimensional structure from monocular and binocu
 
 - Julesz (1971) *Foundations of Cyclopean Perception*
 
-**Recent references**
+**Further references**
 
-- Parker (2007) *Nature Reviews Neuroscience* 8:379–391
+- Parker (2007) *Nature Reviews Neuroscience* 8:379–391 ([DOI](https://doi.org/10.1038/nrn2131), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17453018/))
 
 (hed-face-identity-recognition)=
 ## Face identity recognition
 
 **Process ID:** `hed_face_identity_recognition`
+
+**Also known as:** face recognition
 
 Identification of an individual from face-specific features.
 
@@ -71,16 +75,18 @@ Identification of an individual from face-specific features.
 
 **Fundamental references**
 
-- Bruce & Young (1986) *British Journal of Psychology* 77:305–327
+- Bruce & Young (1986) *British Journal of Psychology* 77:305–327 ([DOI](https://doi.org/10.1111/j.2044-8295.1986.tb02199.x))
 
-**Recent references**
+**Further references**
 
-- Duchaine & Yovel (2015) *Annual Review of Vision Science* 1:393–416
+- Duchaine & Yovel (2015) *Annual Review of Vision Science* 1:393–416 ([DOI](https://doi.org/10.1146/annurev-vision-082114-035518))
 
 (hed-face-perception)=
 ## Face perception
 
 **Process ID:** `hed_face_perception`
+
+**Also known as:** face processing
 
 Recognition and processing of faces as a specialized perceptual category; N170-sensitive, FFA-dependent.
 
@@ -88,11 +94,11 @@ Recognition and processing of faces as a specialized perceptual category; N170-s
 
 **Fundamental references**
 
-- Kanwisher, McDermott & Chun (1997) *Journal of Neuroscience* 17:4302–4311
+- Kanwisher, McDermott & Chun (1997) *Journal of Neuroscience* 17:4302–4311 ([DOI](https://doi.org/10.1523/jneurosci.17-11-04302.1997))
 
-**Recent references**
+**Further references**
 
-- Tsao & Livingstone (2008) *Annual Review of Neuroscience* 31:411–437
+- Tsao & Livingstone (2008) *Annual Review of Neuroscience* 31:411–437 ([DOI](https://doi.org/10.1146/annurev.neuro.30.051606.094238))
 
 (hed-gustatory-perception)=
 ## Gustatory perception
@@ -105,9 +111,9 @@ Perception of taste qualities (sweet, sour, salty, bitter, umami).
 
 **Tasks that engage this process:** none in the current catalog.
 
-**Recent references**
+**Further references**
 
-- Chandrashekar, Hoon, Ryba & Zuker (2006) *Nature* 444:288–294
+- Chandrashekar, Hoon, Ryba & Zuker (2006) *Nature* 444:288–294 ([DOI](https://doi.org/10.1038/nature05401), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17108952/))
 
 (hed-motion-perception)=
 ## Motion perception
@@ -120,9 +126,9 @@ Detection and interpretation of moving stimuli; includes global motion and optic
 
 **Fundamental references**
 
-- Newsome & Paré (1988) *Journal of Neuroscience* 8:2201–2211
+- Newsome & Paré (1988) *Journal of Neuroscience* 8:2201–2211 ([DOI](https://doi.org/10.1523/jneurosci.08-06-02201.1988))
 
-**Recent references**
+**Further references**
 
 - Nishida (2011) *Vision Research* 51:645–673
 
@@ -131,17 +137,19 @@ Detection and interpretation of moving stimuli; includes global motion and optic
 
 **Process ID:** `hed_olfactory_perception`
 
+**Also known as:** olfaction
+
 Perception of odor via the olfactory system.
 
 **Tasks that engage this process:** none in the current catalog.
 
 **Fundamental references**
 
-- Buck & Axel (1991) *Cell* 65:175–187
+- Buck & Axel (1991) *Cell* 65:175–187 ([DOI](https://doi.org/10.1016/0092-8674(91)90418-x), [PubMed](https://pubmed.ncbi.nlm.nih.gov/1840504/))
 
-**Recent references**
+**Further references**
 
-- Wilson & Sullivan (2011) *Neuron* 72:506–519
+- Wilson & Sullivan (2011) *Neuron* 72:506–519 ([DOI](https://doi.org/10.1016/j.neuron.2011.10.027), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22099455/))
 
 (hed-pattern-recognition)=
 ## Pattern recognition
@@ -152,9 +160,9 @@ Categorization of sensory input according to its structure.
 
 **Tasks that engage this process:** [Artificial Grammar Learning Task](../tasks/hedtsk_artificial_grammar_learning.md), [Biological Motion Perception Task](../tasks/hedtsk_biological_motion_perception.md), [Raven's Progressive Matrices Task](../tasks/hedtsk_ravens_progressive_matrices.md)
 
-**Recent references**
+**Further references**
 
-- DiCarlo, Zoccolan & Rust (2012) *Neuron* 73:415–434
+- DiCarlo, Zoccolan & Rust (2012) *Neuron* 73:415–434 ([DOI](https://doi.org/10.1016/j.neuron.2012.01.010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22325196/))
 
 (hed-somatosensory-perception)=
 ## Somatosensory perception
@@ -167,14 +175,16 @@ Perception of bodily sensations, including touch, proprioception, temperature, a
 
 **Tasks that engage this process:** none in the current catalog.
 
-**Recent references**
+**Further references**
 
-- Abraira & Ginty (2013) *Neuron* 79:618–639
+- Abraira & Ginty (2013) *Neuron* 79:618–639 ([DOI](https://doi.org/10.1016/j.neuron.2013.07.051), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23972592/))
 
 (hed-visual-form-recognition)=
 ## Visual form recognition
 
 **Process ID:** `hed_visual_form_recognition`
+
+**Also known as:** shape recognition
 
 Assignment of visual input to a shape category prior to semantic identification.
 
@@ -182,24 +192,26 @@ Assignment of visual input to a shape category prior to semantic identification.
 
 **Fundamental references**
 
-- Biederman (1987) *Psychological Review* 94:115–147
+- Biederman (1987) *Psychological Review* 94:115–147 ([DOI](https://doi.org/10.1037/0033-295x.94.2.115))
 
-**Recent references**
+**Further references**
 
-- DiCarlo, Zoccolan & Rust (2012) *Neuron* 73:415–434
+- DiCarlo, Zoccolan & Rust (2012) *Neuron* 73:415–434 ([DOI](https://doi.org/10.1016/j.neuron.2012.01.010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22325196/))
 
 (hed-visual-object-recognition)=
 ## Visual object recognition
 
 **Process ID:** `hed_visual_object_recognition`
 
+**Also known as:** object recognition
+
 Identification of objects from visual input, invariant over viewpoint, size, and lighting.
 
 **Tasks that engage this process:** [Face Processing Task](../tasks/hedtsk_face_processing.md), [Picture Naming Task](../tasks/hedtsk_picture_naming.md), [Weapons Identification Task](../tasks/hedtsk_weapons_identification.md)
 
-**Recent references**
+**Further references**
 
-- DiCarlo, Zoccolan & Rust (2012) *Neuron* 73:415–434
+- DiCarlo, Zoccolan & Rust (2012) *Neuron* 73:415–434 ([DOI](https://doi.org/10.1016/j.neuron.2012.01.010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22325196/))
 
 (hed-visual-perception)=
 ## Visual perception
@@ -212,9 +224,9 @@ Perception of visual information; includes form, motion, depth, color, and spati
 
 **Fundamental references**
 
-- Hubel & Wiesel (1962) *Journal of Physiology* 160:106–154
+- Hubel & Wiesel (1962) *Journal of Physiology* 160:106–154 ([DOI](https://doi.org/10.1113/jphysiol.1962.sp006837))
 
-**Recent references**
+**Further references**
 
-- Kravitz, Saleem, Baker, Ungerleider & Mishkin (2013) *Trends in Cognitive Sciences* 17:26–49
+- Kravitz, Saleem, Baker, Ungerleider & Mishkin (2013) *Trends in Cognitive Sciences* 17:26–49 ([DOI](https://doi.org/10.1016/j.tics.2012.10.011), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23265839/))
 

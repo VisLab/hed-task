@@ -5,7 +5,7 @@
 
 **Family:** [Spatial cognition and navigation tasks](families/spatial_navigation.md)
 
-**Also known as:** MRT, Shepard-Metzler Task
+**Also known as:** MRT, Shepard-Metzler Task, Mental Rotation
 
 Judgment of whether two rotated objects are identical or mirror images; RT scales linearly with angular disparity, indexing mental rotation.
 
@@ -90,13 +90,12 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Shepard, R. N., & Metzler, J. (1971). Mental rotation of three-dimensional objects. *Science*, 171(3972), 701-703.
-- Zacks, J. M. (2008). Neuroimaging studies of mental rotation: A meta-analysis and review. *Journal of Cognitive Neuroscience*, 20(1), 1-19.
+- Shepard, R. N., & Metzler, J. (1971). Mental rotation of three-dimensional objects. *Science*, 171(3972), 701-703. ([DOI](https://doi.org/10.1126/science.171.3972.701), [PubMed](https://pubmed.ncbi.nlm.nih.gov/5540314/))
+- Zacks, J. M. (2008). Neuroimaging studies of mental rotation: A meta-analysis and review. *Journal of Cognitive Neuroscience*, 20(1), 1-19. ([DOI](https://doi.org/10.1162/jocn.2008.20.1.1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17919082/))
 
-## Recent references
+## Further references
 
-- Zacks, J. M. (2008). Neuroimaging studies of mental rotation: A meta-analysis and review. *Journal of Cognitive Neuroscience*, 20(1), 1–19.
-- Milivojevic, B., et al. (2023). Imaging the spin: Disentangling the core processes underlying mental rotation by meta-analysis. *Neuroscience & Biobehavioral Reviews*, 147, 105131.
+- Milivojevic, B., et al. (2023). Imaging the spin: Disentangling the core processes underlying mental rotation by meta-analysis. *Neuroscience & Biobehavioral Reviews*, 147, 105131. ([DOI](https://doi.org/10.1016/j.neubiorev.2023.105187))
 
 ## External links
 

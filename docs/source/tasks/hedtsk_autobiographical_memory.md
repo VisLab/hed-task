@@ -85,16 +85,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Williams, J. M. G., & Broadbent, K. (1986). Autobiographical memory in suicide attempters. *Journal of Abnormal Psychology*, 95(2), 144-149.
-- Kopelman, M. D., Wilson, B. A., & Baddeley, A. D. (1989). The autobiographical memory interview: A new assessment of autobiographical and personal semantic memory in amnesic patients. *Journal of Clinical and Experimental Neuropsychology*, 11(5), 724-744.
-- Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical memories in the self-memory system. *Psychological Review*, 107(2), 261-288.
+- Williams, J. M. G., & Broadbent, K. (1986). Autobiographical memory in suicide attempters. *Journal of Abnormal Psychology*, 95(2), 144-149. ([DOI](https://doi.org/10.1037/0021-843x.95.2.144), [PubMed](https://pubmed.ncbi.nlm.nih.gov/3711438/))
+- Kopelman, M. D., Wilson, B. A., & Baddeley, A. D. (1989). The autobiographical memory interview: A new assessment of autobiographical and personal semantic memory in amnesic patients. *Journal of Clinical and Experimental Neuropsychology*, 11(5), 724-744. ([DOI](https://doi.org/10.1080/01688638908400928), [PubMed](https://pubmed.ncbi.nlm.nih.gov/2808661/))
+- Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical memories in the self-memory system. *Psychological Review*, 107(2), 261-288. ([DOI](https://doi.org/10.1037/0033-295x.107.2.261), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10789197/))
 
-## Recent references
+## Further references
 
-- Sumner, J. A., Griffith, J. W., & Mineka, S. (2010). Overgeneral autobiographical memory as a predictor of the course of depression: A meta-analysis. *Behaviour Research and Therapy*, 48(7), 614-625.
-- Addis, D. R., Wong, A. T., & Schacter, D. L. (2007). Remembering the past and imagining the future: Common and distinct neural substrates during event construction and elaboration. *Neuropsychologia*, 45(7), 1363-1377.
-- Hitchcock, C., Werner-Seidler, A., Blackwell, S. E., & Dalgleish, T. (2017). Autobiographical episodic memory-based training for the treatment of mood, anxiety and stress-related disorders: A systematic review and meta-analysis. *Clinical Psychology Review*, 52, 92-107.
-- Rubin, D. C., & Schulkind, M. D. (1997). The distribution of autobiographical memories across the lifespan. *Memory & Cognition*, 25(6), 859-866.
+- Sumner, J. A., Griffith, J. W., & Mineka, S. (2010). Overgeneral autobiographical memory as a predictor of the course of depression: A meta-analysis. *Behaviour Research and Therapy*, 48(7), 614-625. ([DOI](https://doi.org/10.1016/j.brat.2010.03.013), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20399418/))
+- Addis, D. R., Wong, A. T., & Schacter, D. L. (2007). Remembering the past and imagining the future: Common and distinct neural substrates during event construction and elaboration. *Neuropsychologia*, 45(7), 1363-1377. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2006.10.016), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17126370/))
+- Hitchcock, C., Werner-Seidler, A., Blackwell, S. E., & Dalgleish, T. (2017). Autobiographical episodic memory-based training for the treatment of mood, anxiety and stress-related disorders: A systematic review and meta-analysis. *Clinical Psychology Review*, 52, 92-107. ([DOI](https://doi.org/10.1016/j.cpr.2016.12.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28086133/))
+- Rubin, D. C., & Schulkind, M. D. (1997). The distribution of autobiographical memories across the lifespan. *Memory & Cognition*, 25(6), 859-866. ([DOI](https://doi.org/10.3758/bf03211330), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9421572/))
 
 ## External links
 

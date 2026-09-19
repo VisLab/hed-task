@@ -85,11 +85,11 @@ This task is designed to engage the following processes:
 
 - Lezak, M. D., Howieson, D. B., Bigler, E. D., & Tranel, D. (2012). *Neuropsychological Assessment* (5th ed.). Oxford University Press.
 
-## Recent references
+## Further references
 
-- Schoenberg, M. R., Dawson, K. A., Duff, K., Patton, D., Scott, J. G., & Adams, R. L. (2006). Test performance and classification statistics for the Rey Auditory Verbal Learning Test in selected clinical samples. *Archives of Clinical Neuropsychology*, 21(7), 693–703.
-- Moradi, A. R., Doost, H. T. N., Taghavi, M. R., Yule, W., & Dalgleish, T. (1999). Everyday memory deficits in children and adolescents with PTSD: Performance on the Rivermead Behavioural Memory Test. *Journal of Child Psychology and Psychiatry*, 40(3), 357–361.
-- Tierney, M. C., Nores, A., Snow, W. G., Fisher, R. H., Zorzitto, M. L., & Reid, D. W. (1994). Use of the Rey Auditory Verbal Learning Test in differentiating normal aging from Alzheimer's and Parkinson's dementia. *Psychological Assessment*, 6(2), 129–134.
+- Schoenberg, M. R., Dawson, K. A., Duff, K., Patton, D., Scott, J. G., & Adams, R. L. (2006). Test performance and classification statistics for the Rey Auditory Verbal Learning Test in selected clinical samples. *Archives of Clinical Neuropsychology*, 21(7), 693–703. ([DOI](https://doi.org/10.1016/j.acn.2006.06.010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16987634/))
+- Moradi, A. R., Doost, H. T. N., Taghavi, M. R., Yule, W., & Dalgleish, T. (1999). Everyday memory deficits in children and adolescents with PTSD: Performance on the Rivermead Behavioural Memory Test. *Journal of Child Psychology and Psychiatry*, 40(3), 357–361. ([DOI](https://doi.org/10.1111/1469-7610.00453), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10190337/))
+- Tierney, M. C., Nores, A., Snow, W. G., Fisher, R. H., Zorzitto, M. L., & Reid, D. W. (1994). Use of the Rey Auditory Verbal Learning Test in differentiating normal aging from Alzheimer's and Parkinson's dementia. *Psychological Assessment*, 6(2), 129–134. ([DOI](https://doi.org/10.1037/1040-3590.6.2.129))
 
 ## External links
 

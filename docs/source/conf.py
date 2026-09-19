@@ -7,7 +7,7 @@
 # overview pages, the Atlas essays and the Methods documents) are hand-written Markdown,
 # edited directly. Catalog pages (tasks/, processes/, crossref.md, the two Atlas mapping
 # tables) and the table fragments in _generated/ are written by src/generate_docs.py from
-# the data in .working/ and data/, and are never edited by hand.
+# the data in data/, and are never edited by hand.
 
 import csv
 import json
@@ -108,8 +108,8 @@ suppress_warnings = ["myst.xref_missing"]
 
 def _catalog_counts() -> dict[str, int]:
     root = Path(__file__).resolve().parents[2]
-    tasks = json.loads((root / ".working" / "task_details.json").read_text(encoding="utf-8"))
-    proc_data = json.loads((root / ".working" / "process_details.json").read_text(encoding="utf-8"))
+    tasks = json.loads((root / "data" / "task_details.json").read_text(encoding="utf-8"))
+    proc_data = json.loads((root / "data" / "process_details.json").read_text(encoding="utf-8"))
     processes = proc_data["processes"]
     with (root / "data" / "task_family_defs.tsv").open(encoding="utf-8", newline="") as handle:
         families = list(csv.DictReader(handle, delimiter="\t"))

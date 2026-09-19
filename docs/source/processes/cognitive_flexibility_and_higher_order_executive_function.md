@@ -28,18 +28,18 @@ Active holding of task goals, rules, or sub-goals in a form that biases ongoing 
 
 **Fundamental references**
 
-- Miller & Cohen (2001) *Annual Review of Neuroscience* 24:167–202
+- Miller & Cohen (2001) *Annual Review of Neuroscience* 24:167–202 ([DOI](https://doi.org/10.1146/annurev.neuro.24.1.167))
 
-**Recent references**
+**Further references**
 
-- Kane & Engle (2003) *JEP: General* 132:47–70
+- Kane & Engle (2003) *JEP: General* 132:47–70 ([DOI](https://doi.org/10.1037/0096-3445.132.1.47))
 
 (hed-set-shifting)=
 ## Set shifting
 
 **Process ID:** `hed_set_shifting`
 
-**Also known as:** **Cognitive flexibility** - Broader construct encompassing set shifting, perspective-taking, and adaptive strategy use; it fails the single-answer inclusion test, and set shifting is its primary experimental operationalization.
+**Also known as:** **Cognitive flexibility** - Broader construct encompassing set shifting, perspective-taking, and adaptive strategy use; it fails the single-answer inclusion test, and set shifting is its primary experimental operationalization.; task switching; task-switching
 
 Flexible reconfiguration of the task set in response to a change in task demands; the primary experimental operationalization of cognitive flexibility, measured by task-switching paradigms and the WCST.
 
@@ -47,13 +47,13 @@ Flexible reconfiguration of the task set in response to a change in task demands
 
 **Fundamental references**
 
-- Monsell (2003) *Trends in Cognitive Sciences* 7:134–140
-- Diamond (2013) *Annual Review of Psychology* 64:135–168
+- Monsell (2003) *Trends in Cognitive Sciences* 7:134–140 ([DOI](https://doi.org/10.1016/s1364-6613(03)00028-7), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12639695/))
+- Diamond (2013) *Annual Review of Psychology* 64:135–168 ([DOI](https://doi.org/10.1146/annurev-psych-113011-143750))
 
-**Recent references**
+**Further references**
 
-- Kiesel, Steinhauser, Wendt, Falkenstein, Jost, Philipp & Koch (2010) *Psychological Bulletin* 136:849–874
-- Dajani & Uddin (2015) *Trends in Neurosciences* 38:571–578
+- Kiesel, Steinhauser, Wendt, Falkenstein, Jost, Philipp & Koch (2010) *Psychological Bulletin* 136:849–874 ([DOI](https://doi.org/10.1037/a0019842))
+- Dajani & Uddin (2015) *Trends in Neurosciences* 38:571–578 ([DOI](https://doi.org/10.1016/j.tins.2015.07.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26343956/))
 
 (hed-strategy-use)=
 ## Strategy use
@@ -66,5 +66,5 @@ Selection and implementation of a cognitive procedure chosen to improve performa
 
 **Fundamental references**
 
-- Siegler (1987) *JEP: General* 116:250–264
+- Siegler (1987) *JEP: General* 116:250–264 ([DOI](https://doi.org/10.1037/0096-3445.116.3.250))
 

@@ -77,11 +77,11 @@ This task is designed to engage the following processes:
 ## Key references
 
 - Ball, K., Owsley, C., Sloane, M. E., Roenker, D. L., & Bruni, J. R. (1993). Visual attention problems as a predictor of vehicle crashes in older drivers. *Investigative Ophthalmology & Visual Science*, 34(11), 3110–3123.
-- Edwards, J. D., Vance, D. E., Wadley, V. G., Cissell, G. M., Roenker, D. L., & Ball, K. K. (2005). Reliability and validity of useful field of view test scores as administered by personal computer. *Journal of Clinical and Experimental Neuropsychology*, 27(5), 529–543.
+- Edwards, J. D., Vance, D. E., Wadley, V. G., Cissell, G. M., Roenker, D. L., & Ball, K. K. (2005). Reliability and validity of useful field of view test scores as administered by personal computer. *Journal of Clinical and Experimental Neuropsychology*, 27(5), 529–543. ([DOI](https://doi.org/10.1080/13803390490515432), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16019630/))
 
-## Recent references
+## Further references
 
-- Edwards, J. D., Lunsman, M., Perkins, M., Rebok, G. W., & Roth, D. L. (2009). Driving cessation and health trajectories in older adults. *Journals of Gerontology Series A*, 64(12), 1290–1295.
-- Ball, K., Edwards, J. D., & Ross, L. A. (2007). The impact of speed of processing training on cognitive and everyday functions. *Journals of Gerontology Series B*, 62(Special Issue 1), 19–31.
-- Wolfe, B., Dobres, J., Rosenholtz, R., & Reimer, B. (2017). More than the Useful Field: Considering peripheral vision in driving. *Applied Ergonomics*, 65, 316–325.
+- Edwards, J. D., Lunsman, M., Perkins, M., Rebok, G. W., & Roth, D. L. (2009). Driving cessation and health trajectories in older adults. *Journals of Gerontology Series A*, 64(12), 1290–1295. ([DOI](https://doi.org/10.1093/gerona/glp114), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19675177/))
+- Ball, K., Edwards, J. D., & Ross, L. A. (2007). The impact of speed of processing training on cognitive and everyday functions. *Journals of Gerontology Series B*, 62(Special Issue 1), 19–31. ([DOI](https://doi.org/10.1093/geronb/62.special_issue_1.19), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17565162/))
+- Wolfe, B., Dobres, J., Rosenholtz, R., & Reimer, B. (2017). More than the Useful Field: Considering peripheral vision in driving. *Applied Ergonomics*, 65, 316–325. ([DOI](https://doi.org/10.1016/j.apergo.2017.07.009), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28802451/))
 
