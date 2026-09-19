@@ -1,8 +1,9 @@
 | What | Count | Where |
 |---|---|---|
 | Tasks | 103 | [Tasks](tasks/index.md) |
-| Paradigm families the tasks are filed under | 18 | [Tasks](tasks/index.md) |
-| Named task variations | 772 | on each task page |
+| Pseudo tasks (rest, fixation and questionnaire blocks) | 3 | [Tasks](tasks/families/pseudo_tasks.md) |
+| Paradigm families the tasks are filed under | 19 | [Tasks](tasks/index.md) |
+| Named task variations | 776 | on each task page |
 | Cognitive processes | 172 | [Cognitive processes](processes/index.md) |
 | Process categories | 19 | [Cognitive processes](processes/index.md) |
 | Task-to-process links | 486 | [Task-process links](crossref.md) |

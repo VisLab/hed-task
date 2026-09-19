@@ -68,6 +68,9 @@ GENERATED_PATHS = [
 
 _VALID_CONFIDENCE = {"high", "review"}
 
+# The one family a pseudo task (task_kind == "pseudo_task") may belong to.
+PSEUDO_FAMILY = "pseudo_tasks"
+
 
 # ---------------------------------------------------------------------------
 # Validation
@@ -130,6 +133,9 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
         for pid in t.get("hed_process_ids", []):
             if pid not in process_ids:
                 problems.append(f"{t['hedtsk_id']}: hed_process_ids names unknown process {pid!r}")
+        # A task engages at least one process; a pseudo task (task criteria 1.3) may engage none.
+        if not t.get("hed_process_ids") and t.get("task_kind", "task") != "pseudo_task":
+            problems.append(f"{t['hedtsk_id']}: hed_process_ids is empty but task_kind is not pseudo_task")
     for p in processes:
         if p["category_id"] not in category_ids:
             problems.append(f"{p['process_id']}: unknown category {p['category_id']!r}")
@@ -232,6 +238,17 @@ def load_families(data_dir: Path, tasks: list[dict]) -> tuple[list[dict], list[d
         problems.append(f"task_families.tsv: catalog task {tid} has no family")
     for fid in sorted(known - used):
         problems.append(f"task_family_defs.tsv: family {fid} has no tasks")
+
+    # Pseudo tasks and the pseudo-task family belong together, in both directions.
+    kind_of = {t["hedtsk_id"]: t.get("task_kind", "task") for t in tasks}
+    for row in rows:
+        kind = kind_of.get(row["hedtsk_id"], "task")
+        if kind == "pseudo_task" and row["family_id"] != PSEUDO_FAMILY:
+            problems.append(f"task_families.tsv: pseudo task {row['hedtsk_id']} must be in family {PSEUDO_FAMILY!r}")
+        if kind != "pseudo_task" and row["family_id"] == PSEUDO_FAMILY:
+            problems.append(
+                f"task_families.tsv: {row['hedtsk_id']} is in {PSEUDO_FAMILY!r} but its task_kind is not pseudo_task"
+            )
 
     if problems:
         sys.exit("Family data is inconsistent; nothing written.\n  " + "\n  ".join(problems))

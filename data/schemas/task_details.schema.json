@@ -28,6 +28,14 @@
           "type": "string",
           "minLength": 1
         },
+        "task_kind": {
+          "type": "string",
+          "enum": [
+            "task",
+            "pseudo_task"
+          ],
+          "description": "Omitted means 'task'. A pseudo task is a block-level activity that establishes or holds a state, or collects a self-report, rather than eliciting a process (task criteria 1.3); it may have no hed_process_ids and must be filed under the pseudo_tasks family."
+        },
         "aliases": {
           "type": "array",
           "items": {
@@ -69,8 +77,7 @@
             "type": "string",
             "pattern": "^hed_[a-z][a-z0-9_]*$"
           },
-          "minItems": 1,
-          "description": "Process IDs implicated by this task. Each must resolve to a process in process_details.json (cross-check enforced in Python, not here)."
+          "description": "Process IDs implicated by this task; each must resolve to a process in process_details.json. Non-empty except for pseudo tasks (both cross-checks run in src/generate_docs.py)."
         },
         "references": {
           "type": "array",

@@ -26167,5 +26167,213 @@
         ]
       }
     ]
+  },
+  {
+    "hedtsk_id": "hedtsk_rest",
+    "canonical_name": "Rest Task",
+    "task_kind": "pseudo_task",
+    "aliases": [
+      "Resting State",
+      "Resting-State Recording",
+      "Rest Block",
+      "Baseline Rest"
+    ],
+    "short_definition": "Participant stays awake, still and unoccupied for a block of several minutes while spontaneous activity is recorded; the block is a baseline for task blocks or a resting-state recording in its own right.",
+    "description": "The participant is asked to remain awake and relaxed, to keep still, and to do nothing in particular while the recording runs, typically for three to ten minutes. No stimulus is presented for processing and no response is required. Rest blocks appear at the start or end of a session as a baseline, between task blocks as a recovery period, or as the whole recording in resting-state studies of spontaneous brain activity and functional connectivity. Eye state is the standard manipulation: eyes closed removes visual input and raises occipital alpha; eyes open is often paired with a fixation cross to limit eye movement. When a cross is merely provided and the instruction is to rest, the block is a Rest Task; when the instruction is to hold gaze on the target and gaze is monitored or required, it is a Fixate Task. Rest is a pseudo task: it establishes a state rather than eliciting a process, so it carries no process links.",
+    "inclusion_test": {
+      "procedure": "Participant remains awake, still and relaxed with no stimulus to process and no response to make, for a block typically lasting 3 to 10 minutes.",
+      "manipulation": "Eye state (open or closed); block duration; position relative to task blocks (before, between, after); instruction to let the mind wander versus to stay alert.",
+      "measurement": "Spontaneous EEG or MEG spectra and microstates; resting-state fMRI connectivity; heart rate and respiration; self-reported drowsiness or thought content after the block. No behavioral performance measure."
+    },
+    "variations": [
+      {
+        "name": "Eyes-Open Rest",
+        "description": "Rest with eyes open, usually with a fixation cross or a blank screen.",
+        "justification": "Eye state changes visual input and the EEG alpha rhythm; a different postural state for the whole block",
+        "variation_id": "hedvar_rest__eyes_open_rest"
+      },
+      {
+        "name": "Eyes-Closed Rest",
+        "description": "Rest with eyes closed.",
+        "justification": "Eye state changes visual input and the EEG alpha rhythm; removes eye-movement artifact and raises the risk of drowsiness",
+        "variation_id": "hedvar_rest__eyes_closed_rest"
+      }
+    ],
+    "source_task_numbers": [],
+    "status": "complete",
+    "hed_process_ids": [],
+    "references": [
+      {
+        "title": "Functional connectivity in the motor cortex of resting human brain using echo-planar MRI",
+        "authors": "Biswal, B., Yetkin, F. Z., Haughton, V. M., & Hyde, J. S.",
+        "year": 1995,
+        "journal": "Magnetic Resonance in Medicine",
+        "venue": "Magnetic Resonance in Medicine",
+        "venue_type": "journal",
+        "volume": "34",
+        "issue": "4",
+        "pages": "537-541",
+        "ids": {
+          "doi": "10.1002/mrm.1910340409",
+          "openalex_id": null,
+          "pmid": null,
+          "pmcid": null,
+          "s2_id": null,
+          "arxiv_id": null
+        },
+        "url": "https://doi.org/10.1002/mrm.1910340409",
+        "oa_status": "unknown",
+        "citation_string": "Biswal, B., Yetkin, F. Z., Haughton, V. M., & Hyde, J. S. (1995). Functional connectivity in the motor cortex of resting human brain using echo-planar MRI. *Magnetic Resonance in Medicine*, 34(4), 537-541.",
+        "source": "crossref",
+        "confidence": "high",
+        "verified_on": "2026-09-19",
+        "roles": [
+          "historical"
+        ]
+      },
+      {
+        "title": "A default mode of brain function",
+        "authors": "Raichle, M. E., MacLeod, A. M., Snyder, A. Z., Powers, W. J., Gusnard, D. A., & Shulman, G. L.",
+        "year": 2001,
+        "journal": "Proceedings of the National Academy of Sciences",
+        "venue": "Proceedings of the National Academy of Sciences",
+        "venue_type": "journal",
+        "volume": "98",
+        "issue": "2",
+        "pages": "676-682",
+        "ids": {
+          "doi": "10.1073/pnas.98.2.676",
+          "openalex_id": null,
+          "pmid": null,
+          "pmcid": null,
+          "s2_id": null,
+          "arxiv_id": null
+        },
+        "url": "https://doi.org/10.1073/pnas.98.2.676",
+        "oa_status": "unknown",
+        "citation_string": "Raichle, M. E., MacLeod, A. M., Snyder, A. Z., Powers, W. J., Gusnard, D. A., & Shulman, G. L. (2001). A default mode of brain function. *Proceedings of the National Academy of Sciences*, 98(2), 676-682.",
+        "source": "crossref",
+        "confidence": "high",
+        "verified_on": "2026-09-19",
+        "roles": [
+          "historical"
+        ]
+      },
+      {
+        "title": "EEG differences between eyes-closed and eyes-open resting conditions",
+        "authors": "Barry, R. J., Clarke, A. R., Johnstone, S. J., Magee, C. A., & Rushby, J. A.",
+        "year": 2007,
+        "journal": "Clinical Neurophysiology",
+        "venue": "Clinical Neurophysiology",
+        "venue_type": "journal",
+        "volume": "118",
+        "issue": "12",
+        "pages": "2765-2773",
+        "ids": {
+          "doi": "10.1016/j.clinph.2007.07.028",
+          "openalex_id": null,
+          "pmid": null,
+          "pmcid": null,
+          "s2_id": null,
+          "arxiv_id": null
+        },
+        "url": "https://doi.org/10.1016/j.clinph.2007.07.028",
+        "oa_status": "unknown",
+        "citation_string": "Barry, R. J., Clarke, A. R., Johnstone, S. J., Magee, C. A., & Rushby, J. A. (2007). EEG differences between eyes-closed and eyes-open resting conditions. *Clinical Neurophysiology*, 118(12), 2765-2773.",
+        "source": "crossref",
+        "confidence": "high",
+        "verified_on": "2026-09-19",
+        "roles": [
+          "experiment"
+        ]
+      }
+    ]
+  },
+  {
+    "hedtsk_id": "hedtsk_fixate",
+    "canonical_name": "Fixate Task",
+    "task_kind": "pseudo_task",
+    "aliases": [
+      "Fixation Block",
+      "Fixation Baseline",
+      "Central Fixation"
+    ],
+    "short_definition": "Participant holds gaze on a fixation target for a block with nothing else to process or do; used as a baseline or control block and to limit eye movement.",
+    "description": "A fixation target, usually a cross or dot at the centre of the screen, is shown and the participant is instructed to keep looking at it for the duration of the block. Nothing else is presented and no response is made. Fixation blocks serve as the implicit baseline in block-design fMRI, as the inter-block interval in many EEG designs, and as the control condition for localizers. Gaze may be monitored with an eye tracker, but that is a matter of measurement and does not make a different task. The distinction from an eyes-open Rest Task is the instruction: here fixation is the required activity, not a convenience. Fixate is a pseudo task: it holds a state rather than eliciting a process, so it carries no process links.",
+    "inclusion_test": {
+      "procedure": "Participant maintains gaze on a fixation target for the block, with no other stimulus to process and no response to make.",
+      "manipulation": "Block duration; target form and size; background (blank, static scene); whether gaze is monitored and fed back.",
+      "measurement": "Baseline neural activity for contrast with task blocks; fixation stability (gaze dispersion, saccade and blink counts) when eye-tracked."
+    },
+    "variations": [],
+    "source_task_numbers": [],
+    "status": "complete",
+    "hed_process_ids": [],
+    "references": [
+      {
+        "title": "When zero is not zero: The problem of ambiguous baseline conditions in fMRI",
+        "authors": "Stark, C. E. L., & Squire, L. R.",
+        "year": 2001,
+        "journal": "Proceedings of the National Academy of Sciences",
+        "venue": "Proceedings of the National Academy of Sciences",
+        "venue_type": "journal",
+        "volume": "98",
+        "issue": "22",
+        "pages": "12760-12766",
+        "ids": {
+          "doi": "10.1073/pnas.221462998",
+          "openalex_id": null,
+          "pmid": null,
+          "pmcid": null,
+          "s2_id": null,
+          "arxiv_id": null
+        },
+        "url": "https://doi.org/10.1073/pnas.221462998",
+        "oa_status": "unknown",
+        "citation_string": "Stark, C. E. L., & Squire, L. R. (2001). When zero is not zero: The problem of ambiguous baseline conditions in fMRI. *Proceedings of the National Academy of Sciences*, 98(22), 12760-12766.",
+        "source": "crossref",
+        "confidence": "high",
+        "verified_on": "2026-09-19",
+        "roles": [
+          "experiment"
+        ]
+      }
+    ]
+  },
+  {
+    "hedtsk_id": "hedtsk_take_questionnaire",
+    "canonical_name": "Take-Questionnaire Task",
+    "task_kind": "pseudo_task",
+    "aliases": [
+      "Questionnaire Block",
+      "Questionnaire Administration",
+      "Self-Report Block",
+      "Survey"
+    ],
+    "short_definition": "Participant reads or hears a series of questionnaire items and records a response to each; the instrument administered is a parameter of the block, not a variation.",
+    "description": "A self-report instrument is administered as a block of the session, before, between or after task blocks. Items are presented on paper, on screen or read aloud, and the participant answers each in the instrument's response format. There is no time pressure and no stimulus other than the items themselves. The catalog does not list instruments as tasks; it records the administration as a block so that the time spent on it, and any physiology recorded during it, can be labelled, and it records which instrument was used as a parameter of the block. Take-Questionnaire is a pseudo task: it collects a self-report rather than eliciting a process, so it carries no process links.",
+    "inclusion_test": {
+      "procedure": "Participant reads or hears each item of a questionnaire and records a response to it, in the instrument's format, with no time pressure.",
+      "manipulation": "The instrument administered (a parameter, not a variation); administration mode (paper, computerized, interviewer-read); response format (Likert, forced choice, free text); position relative to task blocks.",
+      "measurement": "Item responses and derived scale scores; per-item response times when computerized; physiological recording during completion is incidental."
+    },
+    "variations": [
+      {
+        "name": "Computerized Questionnaire",
+        "description": "Items on screen, responses by key or mouse, item timing recorded.",
+        "justification": "Different response modality and one recorded event per item",
+        "variation_id": "hedvar_take_questionnaire__computerized_questionnaire"
+      },
+      {
+        "name": "Interviewer-Administered Questionnaire",
+        "description": "Items read aloud by an interviewer and answered verbally.",
+        "justification": "Different sensory and response modality",
+        "variation_id": "hedvar_take_questionnaire__interviewer_administered_questionnaire"
+      }
+    ],
+    "source_task_numbers": [],
+    "status": "complete",
+    "hed_process_ids": [],
+    "references": []
   }
 ]
