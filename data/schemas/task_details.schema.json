@@ -34,7 +34,7 @@
             "task",
             "pseudo_task"
           ],
-          "description": "Omitted means 'task'. A pseudo task is a block-level activity that establishes or holds a state, or collects a self-report, rather than eliciting a process (task criteria 1.3); it may have no hed_process_ids and must be filed under the pseudo_tasks family."
+          "description": "Omitted means 'task'. A pseudo task is a block-level activity that establishes or holds a state, or collects a self-report, rather than eliciting a process (task criteria, section 'Pseudo tasks'); it may have no hed_process_ids and must be filed under the pseudo_tasks family."
         },
         "aliases": {
           "type": "array",

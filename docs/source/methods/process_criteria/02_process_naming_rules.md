@@ -3,7 +3,7 @@
 % src/generate_docs.py; edit the data, not the fragment.
 
 (process-criteria-2)=
-# 2. Naming conventions
+# 2. Process naming rules
 
 (process-criteria-2-1)=
 ## 2.1 Process IDs
@@ -22,7 +22,7 @@ Process names use **sentence case**: the first word is capitalized, the remainde
 Process names do not end in "process" or "mechanism" unless those words are part of the established term (none currently do).
 
 (process-criteria-2-3)=
-## 2.3 Aliases
+## 2.3 Process aliases
 
 When multiple names exist for the same process, one is designated **canonical** (`process_name`) and the others are recorded in an `aliases` array. Each alias carries a `name` and an optional `note` explaining the terminological distinction or the reason for the merge. An alias is not a separate process - it fails the test of having a distinct When/Elicited/Measured triple.
 

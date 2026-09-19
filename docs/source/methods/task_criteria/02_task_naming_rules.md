@@ -3,21 +3,21 @@
 % src/generate_docs.py; edit the data, not the fragment.
 
 (task-criteria-2)=
-# 2. Naming conventions
+# 2. Task naming rules
 
 Each task has a **canonical_name** (the standard reference name) and zero or more **aliases** (alternative names used in the literature).
 
 (task-criteria-2-1)=
-## 2.1 Canonical name rules
+## 2.1 Canonical task name rules
 
 - Use the most widely recognized name in the literature
 - Include "Task" as a suffix (e.g., "Stroop Color-Word Task", not just "Stroop")
-- Pseudo tasks (section 1.3) keep the suffix too ("Rest Task", "Fixate Task", "Take Questionnaire Task"), so that every catalog entry is named the same way
+- [Pseudo tasks](01_task_selection_criteria.md#task-criteria-1-3) keep the suffix too ("Rest Task", "Fixate Task", "Take Questionnaire Task"), so that every catalog entry is named the same way
 - For named paradigms, the standard abbreviation goes in the `aliases` array, not in the canonical name (e.g., canonical name "Cambridge Face Memory Task", alias "CFMT")
 - Prefer the specific paradigm name over the generic process name when both exist (e.g., "Eriksen Flanker Task" not "Response Conflict Task")
 
 (task-criteria-2-2)=
-## 2.2 Alias rules
+## 2.2 Task alias rules
 
 An **alias** is an alternative name for the same task. Aliases are:
 

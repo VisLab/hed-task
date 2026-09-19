@@ -3,7 +3,7 @@
 % src/generate_docs.py; edit the data, not the fragment.
 
 (process-criteria-5)=
-# 5. Reference standards
+# 5. Process reference standards
 
 (process-criteria-5-1)=
 ## 5.1 Reference types

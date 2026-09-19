@@ -22,7 +22,7 @@ The two JSON files began as an export from the research workspace that found the
 
 ### Pseudo tasks
 
-A record with `"task_kind": "pseudo_task"` is a block that sets up or holds a state, or collects a self-report (task criteria 1.3). It may have an empty `hed_process_ids` and must be filed under the `pseudo_tasks` family; the validator checks both. Ordinary tasks omit `task_kind`.
+A record with `"task_kind": "pseudo_task"` is a block that sets up or holds a state, or collects a self-report (task criteria, section "Pseudo tasks"). It may have an empty `hed_process_ids` and must be filed under the `pseudo_tasks` family; the validator checks both. Ordinary tasks omit `task_kind`.
 
 ### Linking a task to a process
 

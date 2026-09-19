@@ -19,9 +19,9 @@ A **task** is a structured experimental paradigm that:
 4. **Engages identifiable cognitive processes.** The task is designed to isolate or measure specific cognitive, perceptual, motor, or affective processes.
 
 (task-criteria-1-2)=
-## 1.2 What is excluded?
+## 1.2 Tasks that are excluded
 
-- **Self-report instruments**: Personality inventories, mood questionnaires, symptom checklists (e.g., BDI, STAI). These do not produce event-structured data. Administering one is a pseudo task, the Take Questionnaire Task; see 1.3.
+- **Self-report instruments**: Personality inventories, mood questionnaires, symptom checklists (e.g., BDI, STAI). These do not produce event-structured data. Administering one is a pseudo task, the Take Questionnaire Task; see [Pseudo tasks](#task-criteria-1-3) below.
 - **Clinical screening tools**: Instruments designed for diagnostic classification rather than experimental measurement (e.g., MMSE as a screening tool, though components like digit span are included as standalone tasks).
 - **Broad task categories**: "Working memory task" as a generic label. The catalog includes specific instantiations (N-Back, Operation Span, Change Detection, etc.).
 - **One-off experimental designs**: Paradigms used in a single study without broader adoption.
@@ -36,6 +36,7 @@ The catalog currently has {{ n_pseudo_tasks }} pseudo tasks: the Rest Task (with
 
 The exclusion of self-report instruments stands. What the catalog admits is the act of administering one; the instrument used is recorded as a parameter of that block, as a stimulus set is a parameter of a task, and is not a variation.
 
+(task-criteria-1-4)=
 ## 1.4 The 103-task scope
 
 The catalog targets approximately 100 canonical tasks spanning the major domains of cognitive and behavioral neuroscience: attention, memory, executive function, language, perception, motor control, emotion, social cognition, decision-making, and learning. The number 103 is not a hard constraint - it reflects the current state of consolidation from the Cognitive Atlas plus gap-filling. Tasks may be added or removed as the catalog matures.

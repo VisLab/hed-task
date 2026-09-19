@@ -3,7 +3,7 @@
 % src/generate_docs.py; edit the data, not the fragment.
 
 (task-criteria-3)=
-# 3. The inclusion test
+# 3. The task inclusion test
 
 Each task has a three-part **inclusion_test** that defines the boundary of the task:
 
