@@ -22,6 +22,8 @@ A **variation** is a named version of a task that changes **what the participant
 - **Additional participant actions**: Production version of AGL (participant generates strings, not just judges them)
 - **Different stimulus-response mappings**: Prosaccade vs. antisaccade (same cue, opposite required response)
 - **Named sub-paradigms**: Sally-Anne, Smarties Task, Animated Triangles as distinct False Belief implementations
+- **With vs. without response feedback**: Continuous Performance Task
+
 
 (task-criteria-4-3)=
 ## 4.3 What is NOT a variation? (12 active DROP categories + 1 retired)
