@@ -1,5 +1,5 @@
 (hedtsk_take_questionnaire)=
-# Take-Questionnaire Task
+# Take Questionnaire Task
 
 **HED task ID:** `hedtsk_take_questionnaire`
 
@@ -18,7 +18,7 @@ Participant reads or hears a series of questionnaire items and records a respons
 
 ## Description
 
-A self-report instrument is administered as a block of the session, before, between or after task blocks. Items are presented on paper, on screen or read aloud, and the participant answers each in the instrument's response format. There is no time pressure and no stimulus other than the items themselves. The catalog does not list instruments as tasks; it records the administration as a block so that the time spent on it, and any physiology recorded during it, can be labelled, and it records which instrument was used as a parameter of the block. Take-Questionnaire is a pseudo task: it collects a self-report rather than eliciting a process, so it carries no process links.
+A self-report instrument is administered as a block of the session, before, between or after task blocks. Items are presented on paper, on screen or read aloud, and the participant answers each in the instrument's response format. There is no time pressure and no stimulus other than the items themselves. The catalog does not list instruments as tasks; it records the administration as a block so that the time spent on it, and any physiology recorded during it, can be labelled, and it records which instrument was used as a parameter of the block. Take Questionnaire is a pseudo task: it collects a self-report rather than eliciting a process, so it carries no process links.
 
 ## Inclusion test
 

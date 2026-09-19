@@ -34,7 +34,7 @@ screening instruments, generic labels such as "memory task", and one-off designs
 excluded. The full rules are in the [task selection criteria](methods/task_criteria/index.md).
 
 The catalog also has {{ n_pseudo_tasks }} **pseudo tasks**, which are not tasks in the sense
-above: the Rest Task, the Fixate Task and the Take-Questionnaire Task. A pseudo task is a block that sets up or holds a brain state, or
+above: the Rest Task, the Fixate Task and the Take Questionnaire Task. A pseudo task is a block that sets up or holds a brain state, or
 collects a self-report, rather than eliciting a process through trials. Such blocks appear in
 most experiments and datasets need to label them; the catalog includes them for that reason,
 marks them on their pages, and gives them no process links. Section 1.3 of the task criteria

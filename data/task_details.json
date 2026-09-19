@@ -26342,7 +26342,7 @@
   },
   {
     "hedtsk_id": "hedtsk_take_questionnaire",
-    "canonical_name": "Take-Questionnaire Task",
+    "canonical_name": "Take Questionnaire Task",
     "task_kind": "pseudo_task",
     "aliases": [
       "Questionnaire Block",
@@ -26351,7 +26351,7 @@
       "Survey"
     ],
     "short_definition": "Participant reads or hears a series of questionnaire items and records a response to each; the instrument administered is a parameter of the block, not a variation.",
-    "description": "A self-report instrument is administered as a block of the session, before, between or after task blocks. Items are presented on paper, on screen or read aloud, and the participant answers each in the instrument's response format. There is no time pressure and no stimulus other than the items themselves. The catalog does not list instruments as tasks; it records the administration as a block so that the time spent on it, and any physiology recorded during it, can be labelled, and it records which instrument was used as a parameter of the block. Take-Questionnaire is a pseudo task: it collects a self-report rather than eliciting a process, so it carries no process links.",
+    "description": "A self-report instrument is administered as a block of the session, before, between or after task blocks. Items are presented on paper, on screen or read aloud, and the participant answers each in the instrument's response format. There is no time pressure and no stimulus other than the items themselves. The catalog does not list instruments as tasks; it records the administration as a block so that the time spent on it, and any physiology recorded during it, can be labelled, and it records which instrument was used as a parameter of the block. Take Questionnaire is a pseudo task: it collects a self-report rather than eliciting a process, so it carries no process links.",
     "inclusion_test": {
       "procedure": "Participant reads or hears each item of a questionnaire and records a response to it, in the instrument's format, with no time pressure.",
       "manipulation": "The instrument administered (a parameter, not a variation); administration mode (paper, computerized, interviewer-read); response format (Likert, forced choice, free text); position relative to task blocks.",

@@ -277,7 +277,7 @@ Block-level activities that establish or hold a brain state, or collect a self-r
 |---|---|---|
 | [Fixate Task](hedtsk_fixate.md) | Participant holds gaze on a fixation target for a block with nothing else to process or do; used as a baseline... | 0 |
 | [Rest Task](hedtsk_rest.md) | Participant stays awake, still and unoccupied for a block of several minutes while spontaneous activity is rec... | 0 |
-| [Take-Questionnaire Task](hedtsk_take_questionnaire.md) | Participant reads or hears a series of questionnaire items and records a response to each; the instrument admi... | 0 |
+| [Take Questionnaire Task](hedtsk_take_questionnaire.md) | Participant reads or hears a series of questionnaire items and records a response to each; the instrument admi... | 0 |
 
 ```{toctree}
 :hidden:

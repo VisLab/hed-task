@@ -12,7 +12,7 @@ Each task has a **canonical_name** (the standard reference name) and zero or mor
 
 - Use the most widely recognized name in the literature
 - Include "Task" as a suffix (e.g., "Stroop Color-Word Task", not just "Stroop")
-- Pseudo tasks (section 1.3) keep the suffix too ("Rest Task", "Fixate Task", "Take-Questionnaire Task"), so that every catalog entry is named the same way
+- Pseudo tasks (section 1.3) keep the suffix too ("Rest Task", "Fixate Task", "Take Questionnaire Task"), so that every catalog entry is named the same way
 - For named paradigms, the standard abbreviation goes in the `aliases` array, not in the canonical name (e.g., canonical name "Cambridge Face Memory Task", alias "CFMT")
 - Prefer the specific paradigm name over the generic process name when both exist (e.g., "Eriksen Flanker Task" not "Response Conflict Task")
 

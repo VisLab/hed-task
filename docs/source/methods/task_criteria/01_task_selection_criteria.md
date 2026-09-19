@@ -21,7 +21,7 @@ A **task** is a structured experimental paradigm that:
 (task-criteria-1-2)=
 ## 1.2 What is excluded?
 
-- **Self-report instruments**: Personality inventories, mood questionnaires, symptom checklists (e.g., BDI, STAI). These do not produce event-structured data. Administering one is a pseudo task, the Take-Questionnaire Task; see 1.3.
+- **Self-report instruments**: Personality inventories, mood questionnaires, symptom checklists (e.g., BDI, STAI). These do not produce event-structured data. Administering one is a pseudo task, the Take Questionnaire Task; see 1.3.
 - **Clinical screening tools**: Instruments designed for diagnostic classification rather than experimental measurement (e.g., MMSE as a screening tool, though components like digit span are included as standalone tasks).
 - **Broad task categories**: "Working memory task" as a generic label. The catalog includes specific instantiations (N-Back, Operation Span, Change Detection, etc.).
 - **One-off experimental designs**: Paradigms used in a single study without broader adoption.
@@ -32,7 +32,7 @@ A **task** is a structured experimental paradigm that:
 
 A **pseudo task** is a block-level activity that appears in experiments not to elicit a cognitive process through a trial structure but to establish or hold a brain state, or to collect a self-report. Resting blocks, fixation blocks and questionnaire administration are the common cases. A pseudo task passes two of the four task tests (a reproducible procedure; wide use) and fails the other two by design: it produces little internal event structure beyond its own onset and offset, and it engages no process the catalog would list. It is included because datasets need to label these blocks with the same vocabulary as the tasks they sit between, and because a task block is often interpreted against the state a pseudo task sets up.
 
-The catalog currently has {{ n_pseudo_tasks }} pseudo tasks: the Rest Task (with eyes-open and eyes-closed variations), the Fixate Task, and the Take-Questionnaire Task. They are marked as such on their pages and are filed under one paradigm family. Their inclusion tests take the same three-part form; the manipulation is usually block duration and instruction alone. They carry no process links.
+The catalog currently has {{ n_pseudo_tasks }} pseudo tasks: the Rest Task (with eyes-open and eyes-closed variations), the Fixate Task, and the Take Questionnaire Task. They are marked as such on their pages and are filed under one paradigm family. Their inclusion tests take the same three-part form; the manipulation is usually block duration and instruction alone. They carry no process links.
 
 The exclusion of self-report instruments stands. What the catalog admits is the act of administering one; the instrument used is recorded as a parameter of that block, as a stimulus set is a parameter of a task, and is not a variation.
 
