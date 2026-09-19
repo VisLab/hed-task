@@ -73,7 +73,7 @@ Transformation of information held in working memory (reordering, reversing, com
 
 **Further references**
 
-- Nee, Brown, Askren, Berman, Demiralp, Krawitz & Jonides (2013) *Cerebral Cortex* 23:264–282 ([DOI](https://doi.org/10.1093/cercor/bht091))
+- Nee, Brown, Askren, Berman, Demiralp, Krawitz & Jonides (2013) *Cerebral Cortex* 23:264–282 ([DOI](https://doi.org/10.1093/cercor/bhs007))
 
 (hed-rehearsal)=
 ## Rehearsal
@@ -122,7 +122,7 @@ Short-term storage of phonological/verbal information, historically "phonologica
 
 **Fundamental references**
 
-- Baddeley (1986) *Working Memory* ([DOI](https://doi.org/10.1016/s0166-4115(08)61202-9))
+- Baddeley (1986) *Working Memory*
 - Paulesu, Frith & Frackowiak (1993) *Nature* 362:342–345 ([DOI](https://doi.org/10.1038/362342a0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8455719/))
 
 **Further references**

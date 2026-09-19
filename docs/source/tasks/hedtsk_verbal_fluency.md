@@ -85,14 +85,14 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Benton, A. L., Hamsher, K., & Sivan, A. B. (1983). *Multilingual Aphasia Examination* (3rd ed.). Iowa City: AJA Associates. ([DOI](https://doi.org/10.1037/t10132-000))
+- Benton, A. L., Hamsher, K., & Sivan, A. B. (1983). *Multilingual Aphasia Examination* (3rd ed.). Iowa City: AJA Associates.
 - Troyer, A. K., Moscovitch, M., & Winocur, G. (1997). Clustering and switching as two components of verbal fluency: Evidence from younger and older healthy adults. *Neuropsychology*, 11(1), 138-146. ([DOI](https://doi.org/10.1037/0894-4105.11.1.138), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9055277/))
 - Henry, J. D., & Crawford, J. R. (2004). A meta-analytic review of verbal fluency performance following focal cortical lesions. *Neuropsychology*, 18(2), 284-295. ([DOI](https://doi.org/10.1037/0894-4105.18.2.284), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15099151/))
 
 ## Further references
 
 - Shao, Z., Janse, E., Visser, K., & Meyer, A. S. (2014). What do verbal fluency tasks measure? Predictors of verbal fluency performance in older adults. *Frontiers in Psychology*, 5, 772. ([DOI](https://doi.org/10.3389/fpsyg.2014.00772), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25101034/))
-- Aita, S. L., Beach, J. D., Taylor, S. E., et al. (2019). Executive, language, or both? An examination of the construct validity of verbal fluency measures. *Applied Neuropsychology: Adult*, 26(5), 441-451. ([DOI](https://doi.org/10.1093/arclin/acz034.29))
+- Aita, S. L., Beach, J. D., Taylor, S. E., et al. (2019). Executive, language, or both? An examination of the construct validity of verbal fluency measures. *Applied Neuropsychology: Adult*, 26(5), 441-451. ([DOI](https://doi.org/10.1080/23279095.2018.1439830))
 - Tallberg, I. M., Ivachova, E., Jones Tinghag, K., & Ostberg, P. (2008). Swedish norms for word fluency tests: FAS, animals and verbs. *Scandinavian Journal of Psychology*, 49(5), 479-485. ([DOI](https://doi.org/10.1111/j.1467-9450.2008.00653.x), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18452499/))
 
 ## External links

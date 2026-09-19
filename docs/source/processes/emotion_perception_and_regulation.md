@@ -32,7 +32,7 @@ Facilitation or interference in evaluating a target by a valence-related prime.
 
 **Fundamental references**
 
-- Fazio, Sanbonmatsu, Powell & Kardes (1986) *Journal of Personality and Social Psychology* 50:229–238 ([DOI](https://doi.org/10.1037//0022-3514.50.2.229))
+- Fazio, Sanbonmatsu, Powell & Kardes (1986) *Journal of Personality and Social Psychology* 50:229–238 ([DOI](https://doi.org/10.1037/0022-3514.50.2.229))
 
 **Further references**
 
@@ -55,7 +55,7 @@ Reinterpretation of an emotional stimulus to change its affective impact.
 
 **Further references**
 
-- Buhle, Silvers, Wager, Lopez, Onyemekwu, Kober, Weber & Ochsner (2014) *Cerebral Cortex* 24:2981–2990 ([DOI](https://doi.org/10.1093/scan/nsu016))
+- Buhle, Silvers, Wager, Lopez, Onyemekwu, Kober, Weber & Ochsner (2014) *Cerebral Cortex* 24:2981–2990 ([DOI](https://doi.org/10.1093/cercor/bht154))
 
 (hed-emotion-recognition)=
 ## Emotion recognition
@@ -70,7 +70,7 @@ Identification of emotional states from cues such as facial expression or vocal 
 
 **Fundamental references**
 
-- Ekman & Friesen (1976) *Pictures of Facial Affect* ([DOI](https://doi.org/10.1007/bf01115465))
+- Ekman & Friesen (1976) *Pictures of Facial Affect*
 
 (hed-emotion-regulation)=
 ## Emotion regulation
@@ -96,5 +96,5 @@ Inhibition of outward behavioral expression of emotion.
 
 **Fundamental references**
 
-- Gross & Levenson (1993) *Journal of Personality and Social Psychology* 64:970–986 ([DOI](https://doi.org/10.1037//0022-3514.64.6.970))
+- Gross & Levenson (1993) *Journal of Personality and Social Psychology* 64:970–986 ([DOI](https://doi.org/10.1037/0022-3514.64.6.970))
 

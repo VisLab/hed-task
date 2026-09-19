@@ -94,5 +94,5 @@ This task is designed to engage the following processes:
 - Rhodes, M. G., & Tauber, S. K. (2011). The influence of delaying judgments of learning on metacognitive accuracy: A meta-analytic review. *Psychological Bulletin*, 137(1), 131-148. ([DOI](https://doi.org/10.1037/a0021705), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21219059/))
 - Undorf, M., & Erdfelder, E. (2015). The relatedness effect on judgments of learning: A closer look at the contribution of processing fluency. *Memory & Cognition*, 43(3), 480-493. ([DOI](https://doi.org/10.3758/s13421-014-0479-x))
 - Soderstrom, N. C., & Bjork, R. A. (2015). Learning versus performance: An integrative review. *Perspectives on Psychological Science*, 10(2), 176-199. ([DOI](https://doi.org/10.1177/1745691615569000), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25910388/))
-- Double, K. S., Birney, D. P., & Walker, S. A. (2018). A meta-analysis and systematic review of reactivity to judgments of learning. *Memory*, 26(6), 741-750. ([DOI](https://doi.org/10.1007/s11409-018-9186-5))
+- Double, K. S., Birney, D. P., & Walker, S. A. (2018). A meta-analysis and systematic review of reactivity to judgments of learning. *Memory*, 26(6), 741-750. ([DOI](https://doi.org/10.1080/09658211.2017.1404111))
 

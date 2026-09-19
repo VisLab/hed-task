@@ -86,7 +86,7 @@ Conscious perception of internal bodily signals such as heartbeat, respiration, 
 
 **Further references**
 
-- Khalsa SS et al. (2018) *Biological Psychiatry: CNNI* 3:501-513 ([DOI](https://doi.org/10.1016/j.biopsych.2018.02.647))
+- Khalsa SS et al. (2018) *Biological Psychiatry: CNNI* 3:501-513 ([DOI](https://doi.org/10.1016/j.bpsc.2017.12.004))
 - Critchley HD & Garfinkel SN (2017) *Current Opinion in Psychology* 17:7-14 ([DOI](https://doi.org/10.1016/j.copsyc.2017.04.020), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28950976/))
 
 (hed-judgment-of-learning)=
@@ -128,7 +128,7 @@ Regulation of cognition based on metacognitive monitoring - study-time allocatio
 **Fundamental references**
 
 - Nelson TO & Narens L (1990) *The Psychology of Learning and Motivation* 26:125-173 ([DOI](https://doi.org/10.1016/s0079-7421(08)60053-5))
-- Son LK & Metcalfe J (2000) *Journal of Experimental Psychology: LMC* 26:204-221 ([DOI](https://doi.org/10.1037//0278-7393.26.1.204))
+- Son LK & Metcalfe J (2000) *Journal of Experimental Psychology: LMC* 26:204-221 ([DOI](https://doi.org/10.1037/0278-7393.26.1.204))
 
 **Further references**
 
@@ -191,7 +191,7 @@ Conscious access to perceptual content.
 
 **Further references**
 
-- Dehaene (2014) *Consciousness and the Brain* ([DOI](https://doi.org/10.1093/brain/awu141))
+- Dehaene (2014) *Consciousness and the Brain*
 
 (hed-self-monitoring)=
 ## Self-monitoring
@@ -219,7 +219,7 @@ Processing of information in relation to the self, yielding enhanced encoding fo
 
 **Fundamental references**
 
-- Rogers TB, Kuiper NA & Kirker WS (1977) *Journal of Personality and Social Psychology* 35:677-688 ([DOI](https://doi.org/10.1037//0022-3514.35.9.677))
+- Rogers TB, Kuiper NA & Kirker WS (1977) *Journal of Personality and Social Psychology* 35:677-688 ([DOI](https://doi.org/10.1037/0022-3514.35.9.677))
 - Kelley WM et al. (2002) *Journal of Cognitive Neuroscience* 14:785-794 ([DOI](https://doi.org/10.1162/08989290260138672))
 - Northoff G et al. (2006) *NeuroImage* 31:440-457 ([DOI](https://doi.org/10.1016/j.neuroimage.2005.12.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16466680/))
 

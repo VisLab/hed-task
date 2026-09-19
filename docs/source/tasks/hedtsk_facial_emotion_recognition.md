@@ -95,7 +95,7 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Ekman, P., & Friesen, W. V. (1976). *Pictures of Facial Affect*. Palo Alto, CA: Consulting Psychologists Press. ([DOI](https://doi.org/10.1007/bf01115465))
+- Ekman, P., & Friesen, W. V. (1976). *Pictures of Facial Affect*. Palo Alto, CA: Consulting Psychologists Press.
 - Adolphs, R., Tranel, D., Damasio, H., & Damasio, A. (1994). Impaired recognition of emotion in facial expressions following bilateral damage to the human amygdala. *Nature*, 372(6507), 669-672. ([DOI](https://doi.org/10.1038/372669a0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/7990957/))
 
 ## Further references

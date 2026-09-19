@@ -95,7 +95,7 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Milivojevic, B., et al. (2023). Imaging the spin: Disentangling the core processes underlying mental rotation by meta-analysis. *Neuroscience & Biobehavioral Reviews*, 147, 105131. ([DOI](https://doi.org/10.1016/s0149-7634(23)00103-3))
+- Milivojevic, B., et al. (2023). Imaging the spin: Disentangling the core processes underlying mental rotation by meta-analysis. *Neuroscience & Biobehavioral Reviews*, 147, 105131. ([DOI](https://doi.org/10.1016/j.neubiorev.2023.105187))
 
 ## External links
 

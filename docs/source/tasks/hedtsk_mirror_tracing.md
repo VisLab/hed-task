@@ -96,7 +96,7 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Gabrieli, J. D. E., Corkin, S., Mickel, S. F., & Growdon, J. H. (1993). Intact acquisition and long-term retention of mirror-tracing skill in Alzheimer's disease and in global amnesia. *Behavioral Neuroscience*, 107(6), 899–910. ([DOI](https://doi.org/10.1037//0735-7044.107.6.899), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8136066/))
+- Gabrieli, J. D. E., Corkin, S., Mickel, S. F., & Growdon, J. H. (1993). Intact acquisition and long-term retention of mirror-tracing skill in Alzheimer's disease and in global amnesia. *Behavioral Neuroscience*, 107(6), 899–910. ([DOI](https://doi.org/10.1037/0735-7044.107.6.899), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8136066/))
 - Sanes, J. N. (2003). Neocortical mechanisms in motor learning. *Current Opinion in Neurobiology*, 13(2), 225–231. ([DOI](https://doi.org/10.1016/s0959-4388(03)00046-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12744978/))
 
 ## Further references

@@ -84,10 +84,11 @@ def _write_process_index(
     return 1
 
 
-# Text in the source data that records when something changed rather than what is true.
+# Text in the catalog data that records when something changed rather than what is true.
 # A published page states the current state, so these fields are republished from the
-# table below instead of verbatim. The source in data/ is never edited - it is
-# produced elsewhere and an edit here would be lost on the next import.
+# table below instead of verbatim. The better fix is to reword the field in
+# data/process_details.json itself (it is edited here by pull request) and delete the
+# entry below; the table exists for text that has not been rewritten yet.
 #
 # Rewriting each one by hand, rather than stripping clauses with a regex, is deliberate.
 # The history is frequently *inside* a live sentence ("Trust as a process (vs. trust as

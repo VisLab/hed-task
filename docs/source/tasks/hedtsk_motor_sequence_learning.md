@@ -104,7 +104,7 @@ This task is designed to engage the following processes:
 
 - King, B. R., Hoedlmoser, K., Hirschauer, F., Dolfen, N., & Albouy, G. (2017). Sleeping on the motor engram: The multifaceted nature of sleep-related motor memory consolidation. *Neuroscience & Biobehavioral Reviews*, 80, 1–22. ([DOI](https://doi.org/10.1016/j.neubiorev.2017.04.026), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28465166/))
 - Hikosaka, O., Nakamura, K., Sakai, K., & Nakahara, H. (2002). Central mechanisms of motor skill learning. *Current Opinion in Neurobiology*, 12(2), 217–222. [Updated: Diedrichsen, J., & Kornysheva, K. (2015). Motor skill learning between selection and execution. *Trends in Cognitive Sciences*, 19(4), 227–233.] ([DOI](https://doi.org/10.1016/s0959-4388(02)00307-0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12015240/))
-- Verwey, W. B., Shea, C. H., & Wright, D. L. (2015). A cognitive framework for explaining serial processing and sequence execution strategies. *Psychonomic Bulletin & Review*, 22(1), 54–77. ([DOI](https://doi.org/10.3758/s13423-015-0887-3), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26084879/))
+- Verwey, W. B., Shea, C. H., & Wright, D. L. (2015). A cognitive framework for explaining serial processing and sequence execution strategies. *Psychonomic Bulletin & Review*, 22(1), 54–77. ([DOI](https://doi.org/10.3758/s13423-014-0773-4))
 
 ## External links
 

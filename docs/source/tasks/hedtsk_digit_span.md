@@ -116,7 +116,7 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Woods, D. L., Kishiyama, M. M., Yund, E. W., Herron, T. J., Edwards, B., Poliva, O., ... & Reed, B. (2011). Improving digit span assessment of short-term verbal memory. *Journal of Clinical and Experimental Neuropsychology*, 33(1), 101–111. ([DOI](https://doi.org/10.1080/13803395.2010.550602), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21957866/))
+- Woods, D. L., Kishiyama, M. M., Yund, E. W., Herron, T. J., Edwards, B., Poliva, O., ... & Reed, B. (2011). Improving digit span assessment of short-term verbal memory. *Journal of Clinical and Experimental Neuropsychology*, 33(1), 101–111. ([DOI](https://doi.org/10.1080/13803395.2010.493149))
 
 ## External links
 

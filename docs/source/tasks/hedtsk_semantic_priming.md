@@ -122,8 +122,8 @@ This task is designed to engage the following processes:
 ## Further references
 
 - Hutchison, K. A., Balota, D. A., Neely, J. H., et al. (2013). The semantic priming project. *Behavior Research Methods*, 45(4), 1099–1114. ([DOI](https://doi.org/10.3758/s13428-012-0304-z), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23344737/))
-- Buchanan, E. M., et al. (2025). Measuring the semantic priming effect across many languages. *Nature Human Behaviour*, 9, 133–142. ([DOI](https://doi.org/10.1038/s41562-025-02355-7), [PubMed](https://pubmed.ncbi.nlm.nih.gov/41272249/))
-- Jones, L. L., & Golonka, S. (2012). Different results from different procedures: The impact of SOA and masked/unmasked priming on semantic priming effects. *Attention, Perception, & Psychophysics*, 74(5), 854–864. ([DOI](https://doi.org/10.3389/fnhum.2012.00205), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22798950/))
+- Buchanan, E. M., et al. (2025). Measuring the semantic priming effect across many languages. *Nature Human Behaviour*, 9, 133–142.
+- Jones, L. L., & Golonka, S. (2012). Different results from different procedures: The impact of SOA and masked/unmasked priming on semantic priming effects. *Attention, Perception, & Psychophysics*, 74(5), 854–864.
 - Lau, E. F., Phillips, C., & Poeppel, D. (2008). A cortical network for semantics: (De)constructing the N400. *Nature Reviews Neuroscience*, 9(12), 920–933. ([DOI](https://doi.org/10.1038/nrn2532), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19020511/))
 - Rastle, K., & Davis, M. H. (2008). Morphological decomposition based on the analysis of orthography. *Language and Cognitive Processes*, 23(7-8), 942-971. ([DOI](https://doi.org/10.1080/01690960802069730))
 

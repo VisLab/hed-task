@@ -137,7 +137,7 @@ Assembly of phonological representations during language production.
 
 **Fundamental references**
 
-- Levelt, Roelofs & Meyer (1999) *Behavioral and Brain Sciences* 22:1–75 ([DOI](https://doi.org/10.1017/s0140525x99451775))
+- Levelt, Roelofs & Meyer (1999) *Behavioral and Brain Sciences* 22:1–75 ([DOI](https://doi.org/10.1017/s0140525x99001776))
 
 **Further references**
 
@@ -241,7 +241,7 @@ Planning and articulation of spoken output; the motor component of articulation 
 
 **Fundamental references**
 
-- Levelt, Roelofs & Meyer (1999) *Behavioral and Brain Sciences* 22:1–75 ([DOI](https://doi.org/10.1017/s0140525x99451775))
+- Levelt, Roelofs & Meyer (1999) *Behavioral and Brain Sciences* 22:1–75 ([DOI](https://doi.org/10.1017/s0140525x99001776))
 
 **Further references**
 

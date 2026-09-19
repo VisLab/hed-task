@@ -56,7 +56,7 @@ Perception of distance and three-dimensional structure from monocular and binocu
 
 **Fundamental references**
 
-- Julesz (1971) *Foundations of Cyclopean Perception* ([DOI](https://doi.org/10.1007/978-3-642-65175-5_28))
+- Julesz (1971) *Foundations of Cyclopean Perception*
 
 **Further references**
 
@@ -130,7 +130,7 @@ Detection and interpretation of moving stimuli; includes global motion and optic
 
 **Further references**
 
-- Nishida (2011) *Vision Research* 51:645–673 ([DOI](https://doi.org/10.1016/j.visres.2010.11.012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21130796/))
+- Nishida (2011) *Vision Research* 51:645–673
 
 (hed-olfactory-perception)=
 ## Olfactory perception

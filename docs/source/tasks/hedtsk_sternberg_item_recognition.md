@@ -82,7 +82,7 @@ This task is designed to engage the following processes:
 ## Key references
 
 - Sternberg, S. (1966). High-speed scanning in human memory. *Science*, 153(3736), 652-654. ([DOI](https://doi.org/10.1126/science.153.3736.652), [PubMed](https://pubmed.ncbi.nlm.nih.gov/5939936/))
-- Sternberg, S. (1969). Memory-scanning: Mental processes revealed by reaction-time experiments. *American Scientist*, 57(4), 421-457. ([DOI](https://doi.org/10.1177/000276426901200412))
+- Sternberg, S. (1969). Memory-scanning: Mental processes revealed by reaction-time experiments. *American Scientist*, 57(4), 421-457.
 
 ## Further references
 

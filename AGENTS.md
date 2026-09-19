@@ -11,6 +11,7 @@ Always run in the virtual environment - the system interpreter does not have the
 - Install dev env: `pip install -e ".[dev,docs]"`
 - Lint: `python -m ruff check .`
 - Format check: `python -m ruff format --check .`
+- Audit reference identifiers against their citations: `python src/check_references.py` (prints; does not fail)
 - Generate the docs pages: `python src/generate_docs.py`
 - Build the site: `python -m sphinx -b html docs/source docs/_build/html`
 

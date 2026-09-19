@@ -37,6 +37,8 @@ A reference carries bibliographic fields, an `ids` block (`doi`, `pmid`, `openal
 
 `unknown` is the legacy value on references imported before roles were curated; do not use it for new entries.
 
+After adding or changing a reference, run `python src/check_references.py`. It compares each reference's citation string with the bibliographic record its DOI resolves to and reports the ones that disagree, which is how a DOI attached to the wrong paper is caught. A tool-filled DOI is not trusted until the two agree.
+
 ## Task families
 
 A family groups tasks by what the participant does, not by which cognitive process the task is thought to measure. That is the same principle the task criteria use to decide whether two experiments are the same task: procedure first. The process catalog covers the other axis, so the two views cross-link rather than duplicate one another.

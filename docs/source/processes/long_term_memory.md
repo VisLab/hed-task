@@ -228,11 +228,11 @@ Memory for intentions to act at a future time or on a future event.
 
 **Fundamental references**
 
-- Einstein & McDaniel (1990) *JEP: Learning, Memory, and Cognition* 16:717–726 ([DOI](https://doi.org/10.1037//0278-7393.16.4.717))
+- Einstein & McDaniel (1990) *JEP: Learning, Memory, and Cognition* 16:717–726 ([DOI](https://doi.org/10.1037/0278-7393.16.4.717))
 
 **Further references**
 
-- McDaniel, Umanath, Einstein & Waldum (2015) *Journal of Applied Research in Memory and Cognition* 4:268–279 ([DOI](https://doi.org/10.3389/fnhum.2015.00392), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26236213/))
+- McDaniel, Umanath, Einstein & Waldum (2015) *Frontiers in Human Neuroscience* 9:392–279 ([DOI](https://doi.org/10.3389/fnhum.2015.00392))
 
 (hed-recall)=
 ## Recall

@@ -68,7 +68,7 @@ This task is designed to engage the following processes:
 ## Key references
 
 - Amodio, D. M., Harmon-Jones, E., Devine, P. G., Curtin, J. J., Hartley, S. L., & Covert, A. E. (2004). Neural signals for the detection of unintentional race bias. *Psychological Science*, 15(2), 88–93. ([DOI](https://doi.org/10.1111/j.0963-7214.2004.01502003.x), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14738514/))
-- Payne, B. K. (2001). Prejudice and perception: The role of automatic and controlled processes in misperceiving a weapon. *Journal of Personality and Social Psychology*, 81(2), 181–192. ([DOI](https://doi.org/10.1037//0022-3514.81.2.181), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11519925/))
+- Payne, B. K. (2001). Prejudice and perception: The role of automatic and controlled processes in misperceiving a weapon. *Journal of Personality and Social Psychology*, 81(2), 181–192. ([DOI](https://doi.org/10.1037/0022-3514.81.2.181), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11519925/))
 - Bartholow, B. D., Pearson, M. A., Dickter, C. L., Sher, K. J., Fabiani, M., & Gratton, G. (2005). Strategic control and medial frontal negativity: Beyond errors and response conflict. *Psychophysiology*, 42(1), 33–42. ([DOI](https://doi.org/10.1111/j.1469-8986.2005.00258.x), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15720579/))
 
 ## Further references

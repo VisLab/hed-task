@@ -93,7 +93,7 @@ This task is designed to engage the following processes:
 
 - Wilson, R. P., Colizzi, M., Bossong, M. G., Allen, P., Kempton, M., & Bhattacharyya, S. (2018). The neural substrate of reward anticipation in health: A meta-analysis of fMRI findings in the monetary incentive delay task. *Neuropsychology Review*, 28(4), 496–506. ([DOI](https://doi.org/10.1007/s11065-018-9385-5), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30255220/))
 - Balodis, I. M., & Potenza, M. N. (2015). Anticipatory reward processing in addicted populations: A focus on the monetary incentive delay task. *Biological Psychiatry*, 77(5), 434–444. ([DOI](https://doi.org/10.1016/j.biopsych.2014.08.020), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25481621/))
-- Nees, F., Vollstädt-Klein, S., Fauth-Bühler, M., Steiner, S., Mann, K., & Poustka, L. (2012). A target sample size for studies of the monetary incentive delay task – power calculation and evaluation of existing studies. *Neuropsychobiology*, 66(3), 193–198. ([DOI](https://doi.org/10.1007/s00221-012-3272-8), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23108370/))
+- Nees, F., Vollstädt-Klein, S., Fauth-Bühler, M., Steiner, S., Mann, K., & Poustka, L. (2012). A target sample size for studies of the monetary incentive delay task – power calculation and evaluation of existing studies. *Neuropsychobiology*, 66(3), 193–198.
 
 ## External links
 

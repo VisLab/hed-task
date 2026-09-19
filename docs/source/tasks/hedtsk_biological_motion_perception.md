@@ -119,7 +119,7 @@ This task is designed to engage the following processes:
 
 - Pavlova, M. A. (2012). Biological motion processing as a hallmark of social cognition. *Cerebral Cortex*, 22(5), 981–995. ([DOI](https://doi.org/10.1093/acprof:oso/9780195393705.003.0011))
 - Thompson, J. C., & Baccus, W. (2012). Form and motion make independent contributions to the response to biological motion in occipitotemporal cortex. *NeuroImage*, 59(1), 625–634. ([DOI](https://doi.org/10.1016/j.neuroimage.2011.07.051), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21839175/))
-- Federici, A., et al. (2020). Biological motion perception in autism: A meta-analysis. *Research in Autism Spectrum Disorders*, 77, 101610. ([DOI](https://doi.org/10.1016/s1750-9467(20)30149-5))
+- Federici, A., et al. (2020). Biological motion perception in autism: A meta-analysis. *Research in Autism Spectrum Disorders*, 77, 101610. ([DOI](https://doi.org/10.1186/s13229-019-0299-8))
 - Gilaie-Dotan, S., Kanai, R., Bahrami, B., Rees, G., & Saygin, A. P. (2013). Neuroanatomical correlates of biological motion detection. *Neuropsychologia*, 51(3), 457–463. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2012.11.027), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23211992/))
 - Thurman, S. M., & Lu, H. (2016). Revisiting the importance of common body dynamics in human action perception. *Attention, Perception, & Psychophysics*, 78, 2187–2199.
 - van Boxtel, J. J. A., & Lu, H. (2013). A biological motion toolbox for reading, displaying, and manipulating motion capture data in research settings. *Journal of Vision*, 13(12), 7. ([DOI](https://doi.org/10.1167/13.12.7), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24130256/))

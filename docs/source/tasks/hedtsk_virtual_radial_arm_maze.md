@@ -106,7 +106,7 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Bohbot, V. D., Lerch, J., Bherer, L., Bhatt, P., & Graham, S. (2013). Gray matter differences correlate with spontaneous strategies in a human virtual navigation task. *Journal of Neuroscience*, 33(38), 15239–15245. ([DOI](https://doi.org/10.3389/fnagi.2013.00001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23430962/))
+- Bohbot, V. D., Lerch, J., Bherer, L., Bhatt, P., & Graham, S. (2007). Gray matter differences correlate with spontaneous strategies in a human virtual navigation task. *Journal of Neuroscience*, 27(38), 10078-10083. ([DOI](https://doi.org/10.1523/JNEUROSCI.1763-07.2007))
 - Korthauer, L. E., Nowak, N. T., Frahmand, M., & Driscoll, I. (2017). Cognitive correlates of spatial navigation: Associations between executive function and the virtual radial arm maze. *Behavioural Brain Research*, 317, 82–92. ([DOI](https://doi.org/10.1016/j.bbr.2016.10.007), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27720743/))
 - Cánovas, R., Espínola, M., Iribarne, L., & Cimadevilla, J. M. (2008). A new virtual task to evaluate human place learning. *Behavioural Brain Research*, 190(1), 112–118. ([DOI](https://doi.org/10.1016/j.bbr.2008.02.024), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18374426/))
 - Wiener, J. M., de Condappa, O., Harris, M. A., & Wolbers, T. (2013). Maladaptive bias for extrahippocampal navigation strategies in aging humans. *Journal of Neuroscience*, 33(14), 6012–6017. ([DOI](https://doi.org/10.1523/jneurosci.0717-12.2013), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23554482/))

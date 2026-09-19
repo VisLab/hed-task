@@ -94,7 +94,7 @@ This task is designed to engage the following processes:
 
 - Snyder, H. R., Feigenson, K., & Thompson-Schill, S. L. (2007). Prefrontal cortical response to conflict during semantic and phonological tasks. *Journal of Cognitive Neuroscience*, 19(5), 761–775. ([DOI](https://doi.org/10.1162/jocn.2007.19.5.761), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17488203/))
 - Martin, R. C., & Cheng, Y. (2006). Selection demands versus association strength in the verb generation task. *Psychonomic Bulletin & Review*, 13(3), 396–401. ([DOI](https://doi.org/10.3758/bf03193859), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17048721/))
-- Perret, C., & Laganaro, M. (2012). Comparison of electrophysiological correlates of writing and speaking: A topographic ERP analysis. *Brain Topography*, 25(1), 64–72. ([DOI](https://doi.org/10.1016/j.neuroimage.2011.10.082), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22079505/))
+- Perret, C., & Laganaro, M. (2012). Comparison of electrophysiological correlates of writing and speaking: A topographic ERP analysis. *Brain Topography*, 25(1), 64–72. ([DOI](https://doi.org/10.1007/s10548-011-0200-3))
 - Crescentini, C., Shallice, T., & Macaluso, E. (2010). Item retrieval and competition in noun and verb generation: An FMRI study. *Journal of Cognitive Neuroscience*, 22(6), 1140–1157. ([DOI](https://doi.org/10.1162/jocn.2009.21255), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19413479/))
 
 ## External links

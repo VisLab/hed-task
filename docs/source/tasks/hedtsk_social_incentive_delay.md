@@ -87,6 +87,6 @@ This task is designed to engage the following processes:
 ## Further references
 
 - Flores, L. E., Jr., Eckstrand, K. L., Silk, J. S., Allen, N. B., Ambrosia, M., Healey, K. L., & Forbes, E. E. (2018). Adolescents' neural response to social reward and real-world emotional closeness and positive affect. *Cognitive, Affective, & Behavioral Neuroscience*, 18(5), 705–717. ([DOI](https://doi.org/10.3758/s13415-018-0598-0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29943174/))
-- Richey, J. A., Rittenberg, A., Hughes, L., Damiano, C. R., Sabatino, A., Miller, S., ... & Dichter, G. S. (2014). Common and distinct neural features of social and non-social reward processing in autism and social anxiety disorder. *Social Cognitive and Affective Neuroscience*, 9(3), 367–377. ([DOI](https://doi.org/10.1016/j.ijdevneu.2014.05.012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24951837/))
+- Richey, J. A., Rittenberg, A., Hughes, L., Damiano, C. R., Sabatino, A., Miller, S., ... & Dichter, G. S. (2014). Common and distinct neural features of social and non-social reward processing in autism and social anxiety disorder. *Social Cognitive and Affective Neuroscience*, 9(3), 367–377. ([DOI](https://doi.org/10.1093/scan/nss146))
 - Cremers, H. R., Veer, I. M., Spinhoven, P., Rombouts, S. A. R. B., & Roelofs, K. (2015). Neural sensitivity to social reward and punishment anticipation in social anxiety disorder. *Frontiers in Behavioral Neuroscience*, 8, 439. ([DOI](https://doi.org/10.3389/fnbeh.2014.00439), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25601830/))
 

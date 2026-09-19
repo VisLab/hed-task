@@ -101,7 +101,7 @@ This task is designed to engage the following processes:
 
 - Cracco, E., Bardi, L., Desmet, C., Genschow, O., Rigoni, D., De Coster, L., Radkova, I., Deschrijver, E., & Brass, M. (2018). Automatic imitation: A meta-analysis. Psychological Bulletin, 144(5), 453-500. ([DOI](https://doi.org/10.1037/bul0000143), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29517262/))
 - Genschow, O., van Den Bossche, S., Cracco, E., & Brass, M. (2017). Mimicry and automatic imitation are not correlated. PLoS ONE, 12(9), e0183784. ([DOI](https://doi.org/10.1371/journal.pone.0183784), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28877197/))
-- Deschrijver, E., Wiersema, J. R., & Brass, M. (2017). Action-based touch observation in adults with high functioning autism. Social Cognitive and Affective Neuroscience, 12(2), 273-282. ([DOI](https://doi.org/10.1177/1362361317701268), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28683568/))
+- Deschrijver, E., Wiersema, J. R., & Brass, M. (2017). Action-based touch observation in adults with high functioning autism. Social Cognitive and Affective Neuroscience, 12(2), 273-282. ([DOI](https://doi.org/10.1093/scan/nsw126))
 - Kilner, J. M., Paulignan, Y., & Blakemore, S. J. (2003). An interference effect of observed biological movement on action. Current Biology, 13(6), 522-525. ([DOI](https://doi.org/10.1016/s0960-9822(03)00165-9), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12646137/))
 
 ## External links

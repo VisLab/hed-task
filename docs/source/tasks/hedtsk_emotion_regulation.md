@@ -107,7 +107,7 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Buhle, J. T., Silvers, J. A., Wager, T. D., et al. (2014). Cognitive reappraisal of emotion: A meta-analysis of human neuroimaging studies. *Cerebral Cortex*, 24(11), 2981–2990. ([DOI](https://doi.org/10.1093/scan/nsu016), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24493847/))
+- Buhle, J. T., Silvers, J. A., Wager, T. D., et al. (2014). Cognitive reappraisal of emotion: A meta-analysis of human neuroimaging studies. *Cerebral Cortex*, 24(11), 2981–2990. ([DOI](https://doi.org/10.1093/cercor/bht154))
 - Kohn, N., Eickhoff, S. B., Scheller, M., Laird, A. R., Fox, P. T., & Habel, U. (2014). Neural network of cognitive emotion regulation: An ALE meta-analysis and MACM analysis. *NeuroImage*, 87, 345–355. ([DOI](https://doi.org/10.1016/j.neuroimage.2013.11.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24220041/))
 - Dörfel, D., Lamke, J. P., Hummel, F., Wagner, U., Ott, S., & Sammer, G. (2014). Common and differential neural networks of emotion regulation by detachment, reinterpretation, distraction, and expressive suppression. *NeuroImage*, 101, 298–309. ([DOI](https://doi.org/10.1016/j.neuroimage.2014.06.051), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24993897/))
 - Morawetz, C., Bode, S., Derntl, B., & Heekeren, H. R. (2017). The effect of strategies, goals and stimulus material on the neural mechanisms of emotion regulation: A meta-analysis of fMRI studies. *Neuroscience & Biobehavioral Reviews*, 72, 111–128. ([DOI](https://doi.org/10.1016/j.neubiorev.2016.11.014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27894828/))

@@ -102,7 +102,7 @@ This task is designed to engage the following processes:
 
 - Guth, W., Schmittberger, R., & Schwarze, B. (1982). An experimental analysis of ultimatum bargaining. *Journal of Economic Behavior & Organization*, 3(4), 367-388. ([DOI](https://doi.org/10.1016/0167-2681(82)90011-7))
 - Sanfey, A. G., Rilling, J. K., Aronson, J. A., Nystrom, L. E., & Cohen, J. D. (2003). The neural basis of economic decision-making in the Ultimatum Game. *Science*, 300(5626), 1755-1758. ([DOI](https://doi.org/10.1126/science.1082976), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12805551/))
-- Feng, C., Luo, Y. J., & Krueger, F. (2015). Neural signatures of fairness-related normative decision-making in the ultimatum game: A coordinate-based meta-analysis. *Human Brain Mapping*, 36(2), 591-602. ([DOI](https://doi.org/10.1002/hbm.23010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26417673/))
+- Feng, C., Luo, Y. J., & Krueger, F. (2015). Neural signatures of fairness-related normative decision-making in the ultimatum game: A coordinate-based meta-analysis. *Human Brain Mapping*, 36(2), 591-602. ([DOI](https://doi.org/10.1002/hbm.22649))
 
 ## Further references
 

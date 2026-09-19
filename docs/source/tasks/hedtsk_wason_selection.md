@@ -94,7 +94,7 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Wason, P. C. (1966). Reasoning. In B. M. Foss (Ed.), *New Horizons in Psychology* (pp. 135–151). Penguin. ([DOI](https://doi.org/10.1111/j.2044-8295.1966.tb01044.x))
+- Wason, P. C. (1966). Reasoning. In B. M. Foss (Ed.), *New Horizons in Psychology* (pp. 135–151). Penguin.
 - Cosmides, L. (1989). The logic of social exchange: Has natural selection shaped how humans reason? Studies with the Wason selection task. *Cognition*, 31(3), 187–276. ([DOI](https://doi.org/10.1016/0010-0277(89)90023-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/2743748/))
 - Griggs, R. A., & Cox, J. R. (1982). The elusive thematic-materials effect in Wason's selection task. *British Journal of Psychology*, 73(3), 407–420. ([DOI](https://doi.org/10.1111/j.2044-8295.1982.tb01823.x))
 

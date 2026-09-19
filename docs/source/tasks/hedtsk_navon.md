@@ -111,7 +111,7 @@ This task is designed to engage the following processes:
 ## Key references
 
 - Navon, D. (1977). Forest before trees: The precedence of global features in visual perception. *Cognitive Psychology*, 9(3), 353–383. ([DOI](https://doi.org/10.1016/0010-0285(77)90012-3))
-- Kimchi, R. (1992). Primacy of wholistic processing and global/local paradigm: A critical review. *Psychological Bulletin*, 112(1), 24–38. ([DOI](https://doi.org/10.1037//0033-2909.112.1.24))
+- Kimchi, R. (1992). Primacy of wholistic processing and global/local paradigm: A critical review. *Psychological Bulletin*, 112(1), 24–38. ([DOI](https://doi.org/10.1037/0033-2909.112.1.24))
 - Fink, G. R., Halligan, P. W., Marshall, J. C., Frith, C. D., Frackowiak, R. S. J., & Dolan, R. J. (1996). Where in the brain does visual attention select the forest and the trees? *Nature*, 382, 626–628. ([DOI](https://doi.org/10.1038/382626a0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8757132/))
 
 ## Further references

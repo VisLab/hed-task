@@ -83,7 +83,7 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Lezak, M. D., Howieson, D. B., Bigler, E. D., & Tranel, D. (2012). *Neuropsychological Assessment* (5th ed.). Oxford University Press. ([DOI](https://doi.org/10.1037/t84485-000))
+- Lezak, M. D., Howieson, D. B., Bigler, E. D., & Tranel, D. (2012). *Neuropsychological Assessment* (5th ed.). Oxford University Press.
 
 ## Further references
 

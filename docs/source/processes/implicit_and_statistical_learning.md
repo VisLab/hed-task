@@ -27,7 +27,7 @@ Memory expressed without conscious recollection, measurable by priming, skill le
 
 **Fundamental references**
 
-- Graf & Schacter (1985) *JEP: Learning, Memory, and Cognition* 11:501–518 ([DOI](https://doi.org/10.1037//0278-7393.11.3.501))
+- Graf & Schacter (1985) *JEP: Learning, Memory, and Cognition* 11:501–518 ([DOI](https://doi.org/10.1037/0278-7393.11.3.501))
 
 **Further references**
 
@@ -48,5 +48,5 @@ Non-declarative memory for skills and procedures, expressed through improved per
 
 **Further references**
 
-- Doyon, Gabitov, Vahdat, Lungu & Boutin (2018) *Neurobiology of Learning and Memory* 153:1–12 ([DOI](https://doi.org/10.1016/j.cobeha.2017.11.012))
+- Doyon, Gabitov, Vahdat, Lungu & Boutin (2018) *Current Opinion in Behavioral Sciences* 153:1–12 ([DOI](https://doi.org/10.1016/j.cobeha.2017.11.012))
 

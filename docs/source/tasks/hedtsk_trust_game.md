@@ -98,7 +98,7 @@ This task is designed to engage the following processes:
 ## Further references
 
 - Johnson, N. D., & Mislin, A. A. (2011). Trust games: A meta-analysis. *Journal of Economic Psychology*, 32(5), 865–889. ([DOI](https://doi.org/10.1016/j.joep.2011.05.007))
-- Bellucci, G., Chernyak, S. V., Goodyear, K., Eickhoff, S. B., & Krueger, F. (2017). Neural signatures of trust in reciprocity: A coordinate-based meta-analysis. *Human Brain Mapping*, 38(3), 1233–1248. ([DOI](https://doi.org/10.1002/hbm.23854), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29064617/))
+- Bellucci, G., Chernyak, S. V., Goodyear, K., Eickhoff, S. B., & Krueger, F. (2017). Neural signatures of trust in reciprocity: A coordinate-based meta-analysis. *Human Brain Mapping*, 38(3), 1233–1248. ([DOI](https://doi.org/10.1002/hbm.23451))
 - Krueger, F., & Meyer-Lindenberg, A. (2019). Toward a model of interpersonal trust drawn from neuroscience, psychology, and economics. *Trends in Neurosciences*, 42(2), 92–101. ([DOI](https://doi.org/10.1016/j.tins.2018.10.004), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30482606/))
 - Chang, L. J., Doll, B. B., van't Wout, M., Frank, M. J., & Sanfey, A. G. (2010). Seeing is believing: Trustworthiness as a dynamic belief. *Cognitive Psychology*, 61(2), 87–105. ([DOI](https://doi.org/10.1016/j.cogpsych.2010.03.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20553763/))
 

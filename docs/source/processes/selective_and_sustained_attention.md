@@ -71,7 +71,7 @@ Involuntary shift of attention to a salient stimulus that is not the current tar
 
 **Fundamental references**
 
-- Yantis & Jonides (1984) *JEP: Human Perception and Performance* 10:601–621 ([DOI](https://doi.org/10.1037//0096-1523.10.5.601))
+- Yantis & Jonides (1984) *JEP: Human Perception and Performance* 10:601–621 ([DOI](https://doi.org/10.1037/0096-1523.10.5.601))
 - Theeuwes (1992) *Perception & Psychophysics* 51:599–606 ([DOI](https://doi.org/10.3758/bf03211656), [PubMed](https://pubmed.ncbi.nlm.nih.gov/1620571/))
 
 **Further references**
@@ -120,7 +120,7 @@ Selection of an object as a unit of attention such that the attended features be
 
 **Fundamental references**
 
-- Duncan (1984) *Journal of Experimental Psychology: General* 113:501–517 ([DOI](https://doi.org/10.1037//0096-3445.113.4.501))
+- Duncan (1984) *Journal of Experimental Psychology: General* 113:501–517 ([DOI](https://doi.org/10.1037/0096-3445.113.4.501))
 
 **Further references**
 
@@ -210,9 +210,9 @@ Selection of a point in time for preferential processing, measurable via cueing 
 **Fundamental references**
 
 - Nobre (2001) *Neuropsychologia* 39:1317–1328 ([DOI](https://doi.org/10.1016/s0028-3932(01)00120-8), [PubMed](https://pubmed.ncbi.nlm.nih.gov/11566314/))
-- Raymond, Shapiro & Arnell (1992) *JEP: Human Perception and Performance* 18:849–860 ([DOI](https://doi.org/10.1037//0096-1523.18.3.849))
+- Raymond, Shapiro & Arnell (1992) *JEP: Human Perception and Performance* 18:849–860 ([DOI](https://doi.org/10.1037/0096-1523.18.3.849))
 
 **Further references**
 
-- Nobre & van Ede (2018) *Nature Reviews Neuroscience* 19:34–48 ([DOI](https://doi.org/10.1016/j.neuroscience.2018.05.014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29802816/))
+- Nobre & van Ede (2018) *Nature Reviews Neuroscience* 19:34–48 ([DOI](https://doi.org/10.1038/nrn.2017.141))
 

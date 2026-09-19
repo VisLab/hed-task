@@ -82,7 +82,7 @@ This task is designed to engage the following processes:
 ## Further references
 
 - Hinton-Bayre, A. D., & Geffen, G. M. (2005). Comparability, reliability, and practice effects on alternate forms of the Digit Symbol Substitution and Symbol Digit Modalities Tests. *Psychological Assessment*, 17(2), 237–241. ([DOI](https://doi.org/10.1037/1040-3590.17.2.237), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16029111/))
-- Baudouin, A., Clarys, D., Vanneste, S., & de Saint Hilaire, Z. (2009). Age-related changes in coding speed: Test-retest reliability and factor structure. *Aging, Neuropsychology, and Cognition*, 16(5), 553–567. ([DOI](https://doi.org/10.1016/j.bandc.2009.08.007), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19796862/))
+- Baudouin, A., Clarys, D., Vanneste, S., & de Saint Hilaire, Z. (2009). Age-related changes in coding speed: Test-retest reliability and factor structure. *Aging, Neuropsychology, and Cognition*, 16(5), 553–567.
 - Patel, V. P., Walker, L. A. S., & Feinstein, A. (2017). Revisiting cognitive reserve and cognition in multiple sclerosis: A closer look at the SDMT. *Multiple Sclerosis Journal*, 23(10), 1390–1399. ([DOI](https://doi.org/10.1177/1352458517692887), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28273771/))
 - Hoyer, W. J., Stawski, R. S., Wasylyshyn, C., & Verhaeghen, P. (2004). Adult age and digit symbol substitution performance: A meta-analysis. *Psychology and Aging*, 19(1), 211–214. ([DOI](https://doi.org/10.1037/0882-7974.19.1.211), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15065945/))
 

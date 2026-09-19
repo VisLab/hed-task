@@ -29,7 +29,7 @@ Imagined rotation of a 2D or 3D figure to compare with another figure; RT increa
 
 **Further references**
 
-- Zacks (2008) *Journal of Cognitive Neuroscience* 20:1–19 ([DOI](https://doi.org/10.1162/jocn.2008.20013))
+- Zacks (2008) *Journal of Cognitive Neuroscience* 20:1–19 ([DOI](https://doi.org/10.1162/jocn.2008.20.1.1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17919082/))
 
 (hed-spatial-memory)=
 ## Spatial memory

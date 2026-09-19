@@ -246,7 +246,7 @@ Rapid ballistic eye movement between points of fixation.
 
 **Fundamental references**
 
-- Yarbus (1967) *Eye Movements and Vision* ([DOI](https://doi.org/10.1007/978-1-4899-5379-7_5))
+- Yarbus (1967) *Eye Movements and Vision* ([DOI](https://doi.org/10.1007/978-1-4899-5379-7))
 
 **Further references**
 

@@ -90,7 +90,7 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Corsi, P. M. (1972). *Human memory and the medial temporal region of the brain*. Unpublished doctoral dissertation, McGill University. ([DOI](https://doi.org/10.1177/056943457201600124))
+- Corsi, P. M. (1972). *Human memory and the medial temporal region of the brain*. Unpublished doctoral dissertation, McGill University.
 - Milner, B. (1971). Interhemispheric differences in the localization of psychological processes in man. *British Medical Bulletin*, 27(3), 272–277. ([DOI](https://doi.org/10.1093/oxfordjournals.bmb.a070866), [PubMed](https://pubmed.ncbi.nlm.nih.gov/4937273/))
 
 ## Further references

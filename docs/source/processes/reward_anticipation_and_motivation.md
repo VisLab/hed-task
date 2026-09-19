@@ -31,7 +31,7 @@ Tendency to engage with stimuli associated with positive outcomes.
 
 **Fundamental references**
 
-- Gray (1982) *The Neuropsychology of Anxiety* ([DOI](https://doi.org/10.1017/s0140525x00013066))
+- Gray (1982) *The Neuropsychology of Anxiety*
 
 **Further references**
 
@@ -48,7 +48,7 @@ Tendency to disengage from stimuli associated with negative outcomes.
 
 **Fundamental references**
 
-- Gray (1982) *The Neuropsychology of Anxiety* ([DOI](https://doi.org/10.1017/s0140525x00013066))
+- Gray (1982) *The Neuropsychology of Anxiety*
 
 **Further references**
 

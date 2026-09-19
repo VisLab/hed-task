@@ -4,7 +4,11 @@
 
 # Introduction
 
-A **task** is an "instructed activity" broadly defined as a set of goals to be achieved and actions to be performed, or combination
+A **task** is an "instructed activity": a set of goals to be achieved and actions to be
+performed, or a combination of the two, under conditions the experimenter controls, so
+that what participants do can be attributed to the mental processes the task was
+designed to engage. This page explains the pieces the catalog is made of and how they
+fit together.
 
 ## What the catalog is for
 

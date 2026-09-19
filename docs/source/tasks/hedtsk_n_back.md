@@ -96,7 +96,7 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Jonides, J., Schumacher, E. H., Smith, E. E., Koeppe, R. A., Awh, E., Minoshima, S., & Mintun, M. A. (1997). The role of parietal cortex in verbal working memory. *Journal of Neuroscience*, 17(13), 5282-5288. ([DOI](https://doi.org/10.1162/jocn.1997.9.4.462), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23968211/))
+- Jonides, J., Schumacher, E. H., Smith, E. E., Koeppe, R. A., Awh, E., Minoshima, S., & Mintun, M. A. (1997). The role of parietal cortex in verbal working memory. *Journal of Neuroscience*, 17(13), 5282-5288. ([DOI](https://doi.org/10.1523/jneurosci.18-13-05026.1998))
 - Owen, A. M., McMillan, K. M., Laird, A. R., & Bullmore, E. (2005). N-back working memory paradigm: A meta-analysis of normative functional neuroimaging studies. *Human Brain Mapping*, 25(1), 46-59. ([DOI](https://doi.org/10.1002/hbm.20131), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15846822/))
 
 ## Further references

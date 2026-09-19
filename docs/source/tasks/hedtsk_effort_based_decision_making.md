@@ -97,7 +97,7 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Chong, T. T.-J., Bonnelle, V., Manohar, S., et al. (2017). Dopamine enhances willingness to exert effort for reward in Parkinson's disease. *Cortex*, 69, 40-46. ([DOI](https://doi.org/10.1111/jnp.12122), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28378511/))
+- Chong, T. T.-J., Bonnelle, V., Manohar, S., et al. (2015). Dopamine enhances willingness to exert effort for reward in Parkinson's disease. *Cortex*, 69, 40-46. ([DOI](https://doi.org/10.1016/j.cortex.2015.04.003))
 - Reddy, L. F., Horan, W. P., Barch, D. M., Buchanan, R. W., et al. (2015). Effort-Based Decision-Making Paradigms for Clinical Trials in Schizophrenia: Part 1 — Psychometric Characteristics of 5 Paradigms. *Schizophrenia Bulletin*, 41(5), 1045-1054. ([DOI](https://doi.org/10.1093/schbul/sbv089), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26142081/))
 - Husain, M., & Roiser, J. P. (2018). Neuroscience of apathy and anhedonia: a transdiagnostic approach. *Nature Reviews Neuroscience*, 19(3), 164-178. ([DOI](https://doi.org/10.1038/s41583-018-0029-9), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29946157/))
 - Lopez-Gamundi, P., Yao, Y.-W., Chong, T. T.-J., Heekeren, H. R., Mas-Herrero, E., & Marco-Pallares, J. (2021). The neural basis of effort valuation: A meta-analysis of functional magnetic resonance imaging studies. *Neuroscience & Biobehavioral Reviews*, 131, 1275-1287. ([DOI](https://doi.org/10.1016/j.neubiorev.2021.10.024), [PubMed](https://pubmed.ncbi.nlm.nih.gov/34710515/))

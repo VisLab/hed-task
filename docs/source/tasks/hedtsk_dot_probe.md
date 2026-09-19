@@ -94,7 +94,7 @@ This task is designed to engage the following processes:
 
 - Kruijt, A.-W., Parsons, S., & Fox, E. (2019). A meta-analysis of bias at baseline in RCTs of attention bias modification: No evidence for dot-probe bias towards threat in clinical anxiety and PTSD. *Journal of Abnormal Psychology*, 128(6), 563–573. ([DOI](https://doi.org/10.1037/abn0000406), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31368735/))
 - Price, R. B., Kuckertz, J. M., Siegle, G. J., Ladouceur, C. D., Silk, J. S., Ryan, N. D., ... & Amir, N. (2015). Empirical recommendations for improving the stability of the dot-probe task in clinical research. *Psychological Assessment*, 27(2), 365–376. ([DOI](https://doi.org/10.1037/pas0000036), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25419646/))
-- Zvielli, A., Bernstein, A., & Koster, E. H. W. (2015). Temporal dynamics of attentional bias. *Clinical Psychological Science*, 3(5), 772–788. ([DOI](https://doi.org/10.1177/2167702615588048))
+- Zvielli, A., Bernstein, A., & Koster, E. H. W. (2015). Temporal dynamics of attentional bias. *Clinical Psychological Science*, 3(5), 772–788. ([DOI](https://doi.org/10.1177/2167702614551572))
 - Schmukle, S. C. (2005). Unreliability of the dot probe task. *European Journal of Personality*, 19(7), 595–605. ([DOI](https://doi.org/10.1002/per.554))
 
 ## External links

@@ -87,6 +87,6 @@ This task is designed to engage the following processes:
 ## Further references
 
 - Olderbak, S., Wilhelm, O., Olaru, G., et al. (2015). A psychometric analysis of the Reading the Mind in the Eyes test: Toward a brief form. *Frontiers in Psychology*, 6, 1503. ([DOI](https://doi.org/10.3389/fpsyg.2015.01503), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26500578/))
-- Warrier, V., Grasby, K. L., Uzefovsky, F., et al. (2018). Genome-wide meta-analysis of cognitive empathy: Heritability and correlates with sex, neuropsychiatric conditions and cognition. *Molecular Psychiatry*, 23(6), 1402–1409. ([DOI](https://doi.org/10.1038/s41398-017-0082-6), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29527006/))
+- Warrier, V., Grasby, K. L., Uzefovsky, F., et al. (2018). Genome-wide meta-analysis of cognitive empathy: Heritability and correlates with sex, neuropsychiatric conditions and cognition. *Molecular Psychiatry*, 23(6), 1402–1409. ([DOI](https://doi.org/10.1038/mp.2017.122))
 - Vellante, M., Baron-Cohen, S., Melis, M., et al. (2013). The "Reading the Mind in the Eyes" test: Systematic review of psychometric properties and a validation study in Italy. *Cognitive Neuropsychiatry*, 18(4), 326–354. ([DOI](https://doi.org/10.1080/13546805.2012.721728), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23106125/))
 

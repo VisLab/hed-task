@@ -103,7 +103,7 @@ This task is designed to engage the following processes:
 ## Further references
 
 - Verbruggen, F., Aron, A. R., Band, G. P., Beste, C., et al. (2019). A consensus guide to capturing the ability to inhibit actions and impulsive behaviors in the stop-signal task. *eLife*, 8, e46323. ([DOI](https://doi.org/10.7554/elife.46323), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31033438/))
-- Matzke, D., Curley, S., Gong, Q., & Heathcote, A. (2019). Bayesian modeling of stop-signal reaction time distributions. *Psychological Review*, 126(5), 663–722. ([DOI](https://doi.org/10.1177/2167702619838466), [PubMed](https://pubmed.ncbi.nlm.nih.gov/32047706/))
+- Matzke, D., Curley, S., Gong, Q., & Heathcote, A. (2019). Bayesian modeling of stop-signal reaction time distributions. *Psychological Review*, 126(5), 663–722.
 - Skippen, P., Matzke, D., Heathcote, A., Fulham, W. R., Michie, P., & Karayanidis, F. (2019). Reliability of triggering inhibitory process is a better predictor of impulsivity than SSRT. *Acta Psychologica*, 192, 104–117. ([DOI](https://doi.org/10.1016/j.actpsy.2018.10.016), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30469044/))
 - Bissett, P. G., Hagen, M. P., Jones, H. M., & Poldrack, R. A. (2021). Design issues and solutions for stop-signal data from the Adolescent Brain Cognitive Development (ABCD) study. *eLife*, 10, e60185. ([DOI](https://doi.org/10.7554/elife.60185), [PubMed](https://pubmed.ncbi.nlm.nih.gov/33661097/))
 

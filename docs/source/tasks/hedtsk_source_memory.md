@@ -98,7 +98,7 @@ This task is designed to engage the following processes:
 
 - Johnson, M. K., Hashtroudi, S., & Lindsay, D. S. (1993). Source monitoring. *Psychological Bulletin*, 114(1), 3-28. ([DOI](https://doi.org/10.1037/0033-2909.114.1.3), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8346328/))
 - Mitchell, K. J., & Johnson, M. K. (2009). Source monitoring 15 years later: What have we learned from fMRI about the neural mechanisms of source memory? *Psychological Bulletin*, 135(4), 638-677. ([DOI](https://doi.org/10.1037/a0015849), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19586165/))
-- Glisky, E. L., Polster, M. R., & Routhieaux, B. C. (1995). Double dissociation between item and source memory. *Neuropsychology*, 9(2), 229-235. ([DOI](https://doi.org/10.1037//0894-4105.9.2.229))
+- Glisky, E. L., Polster, M. R., & Routhieaux, B. C. (1995). Double dissociation between item and source memory. *Neuropsychology*, 9(2), 229-235. ([DOI](https://doi.org/10.1037/0894-4105.9.2.229))
 
 ## Further references
 

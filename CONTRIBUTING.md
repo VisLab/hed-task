@@ -52,6 +52,7 @@ Any of these can be a pull request directly. An issue first is welcome when the 
    ruff check .
    ruff format --check .
    python -m mdformat --check --wrap no --number *.md
+   python src/check_references.py   # if you touched a reference
    ```
    Do not run `mdformat` over `docs/source/`; it rewrites the generated MyST directives into a form Sphinx cannot parse.
 7. Open the pull request against `main`. Say what changed and why; for a family change, quote the rationale you put in the table.

@@ -110,7 +110,7 @@ This task is designed to engage the following processes:
 - Wessel, J. R. (2018). Prepotent motor activity and inhibitory control demands in different variants of the go/no-go paradigm. *Psychophysiology*, 55(3), e12871. ([DOI](https://doi.org/10.1111/psyp.12871))
 - Swick, D., Ashley, V., & Turken, U. (2011). Are the neural correlates of stopping and not going identical? Quantitative meta-analysis of two response inhibition tasks. *NeuroImage*, 56(3), 1655–1665. ([DOI](https://doi.org/10.1016/j.neuroimage.2011.02.070), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21376819/))
 - Criaud, M., & Boulinguez, P. (2013). Have we been asking the right questions when assessing response inhibition in go/no-go tasks with fMRI? *Neuroscience & Biobehavioral Reviews*, 37(1), 11–23. ([DOI](https://doi.org/10.1016/j.neubiorev.2012.11.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23164813/))
-- Littman, R., & Takács, Á. (2017). Do all inhibitions act alike? A study of Go/No-Go and stop-signal paradigms using drift-diffusion modeling. *Frontiers in Psychology*, 8, 321. ([DOI](https://doi.org/10.1371/journal.pone.0186774), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29065184/))
+- Littman, R., & Takács, Á. (2017). Do all inhibitions act alike? A study of Go/No-Go and stop-signal paradigms using drift-diffusion modeling. *PLOS ONE*, 12(10), e0186774. ([DOI](https://doi.org/10.1371/journal.pone.0186774), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29065184/))
 
 ## External links
 

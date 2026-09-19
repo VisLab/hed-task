@@ -76,7 +76,7 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Ball, K., Owsley, C., Sloane, M. E., Roenker, D. L., & Bruni, J. R. (1993). Visual attention problems as a predictor of vehicle crashes in older drivers. *Investigative Ophthalmology & Visual Science*, 34(11), 3110–3123. ([DOI](https://doi.org/10.1177/154193129303700212))
+- Ball, K., Owsley, C., Sloane, M. E., Roenker, D. L., & Bruni, J. R. (1993). Visual attention problems as a predictor of vehicle crashes in older drivers. *Investigative Ophthalmology & Visual Science*, 34(11), 3110–3123.
 - Edwards, J. D., Vance, D. E., Wadley, V. G., Cissell, G. M., Roenker, D. L., & Ball, K. K. (2005). Reliability and validity of useful field of view test scores as administered by personal computer. *Journal of Clinical and Experimental Neuropsychology*, 27(5), 529–543. ([DOI](https://doi.org/10.1080/13803390490515432), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16019630/))
 
 ## Further references

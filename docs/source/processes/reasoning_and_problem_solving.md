@@ -113,7 +113,7 @@ Inference from specific instances to general principles; probabilistic rather th
 
 **Fundamental references**
 
-- Rips (1975) *Cognitive Psychology* 7:665–681 ([DOI](https://doi.org/10.1016/0010-0285(75)90014-6))
+- Rips (1975) *Journal of Verbal Learning and Verbal Behavior* 14:665–681 ([DOI](https://doi.org/10.1016/s0022-5371(75)80055-7))
 
 **Further references**
 
@@ -196,7 +196,7 @@ Decomposition of a goal into an ordered sequence of subgoals whose satisfaction 
 
 **Fundamental references**
 
-- Egan DE & Greeno JG (1974) in *Knowledge and Cognition* Erlbaum ([DOI](https://doi.org/10.3758/bf03197501), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24214708/))
+- Egan DE & Greeno JG (1974) in *Knowledge and Cognition* Erlbaum
 - Anderson JR (1983) *The Architecture of Cognition* Harvard University Press
 
 **Further references**

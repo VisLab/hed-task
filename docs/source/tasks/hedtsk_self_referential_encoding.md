@@ -91,8 +91,8 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Derry, P. A., & Kuiper, N. A. (1981). Schematic processing and self-reference in clinical depression. *Journal of Abnormal Psychology*, 90(4), 286-297. ([DOI](https://doi.org/10.1037//0021-843x.90.4.286))
+- Derry, P. A., & Kuiper, N. A. (1981). Schematic processing and self-reference in clinical depression. *Journal of Abnormal Psychology*, 90(4), 286-297. ([DOI](https://doi.org/10.1037/0021-843x.90.4.286))
 - Northoff, G., Heinzel, A., de Greck, M., Bermpohl, F., Dobrowolny, H., & Panksepp, J. (2006). Self-referential processing in our brain — A meta-analysis of imaging studies on the self. *NeuroImage*, 31(1), 440-457. ([DOI](https://doi.org/10.1016/j.neuroimage.2005.12.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16466680/))
-- Herbert, C., Pauli, P., & Herbert, B. M. (2011). Self-reference modulates the processing of emotional stimuli in the absence of explicit self-referential appraisal instructions. *Social Cognitive and Affective Neuroscience*, 6(5), 653-661. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2011.06.026), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21756925/))
-- Fossati, P. (2012). Neural correlates of self-referential processing in depression. *World Journal of Biological Psychiatry*, 13(5), 329-339. ([DOI](https://doi.org/10.1016/j.euroneuro.2012.07.008), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22959113/))
+- Herbert, C., Pauli, P., & Herbert, B. M. (2011). Self-reference modulates the processing of emotional stimuli in the absence of explicit self-referential appraisal instructions. *Social Cognitive and Affective Neuroscience*, 6(5), 653-661. ([DOI](https://doi.org/10.1093/scan/nsq082))
+- Fossati, P. (2012). Neural correlates of self-referential processing in depression. *World Journal of Biological Psychiatry*, 13(5), 329-339. ([DOI](https://doi.org/10.1016/j.biopsycho.2013.08.003))
 

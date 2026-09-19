@@ -95,8 +95,8 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Shanks, D. R., & Dickinson, A. (1987). Associative accounts of causality judgment. *Psychology of Learning and Motivation*, 21, 229-261. ([DOI](https://doi.org/10.1016/0023-9690(87)90008-7))
-- Cheng, P. W. (1997). From covariation to causation: A causal power theory. *Psychological Review*, 104(2), 367-405. ([DOI](https://doi.org/10.1037//0033-295x.104.2.367))
+- Shanks, D. R., & Dickinson, A. (1987). Associative accounts of causality judgment. *Psychology of Learning and Motivation*, 21, 229-261. ([DOI](https://doi.org/10.1016/s0079-7421(08)60030-4))
+- Cheng, P. W. (1997). From covariation to causation: A causal power theory. *Psychological Review*, 104(2), 367-405. ([DOI](https://doi.org/10.1037/0033-295x.104.2.367))
 - Dickinson, A., Shanks, D., & Evenden, J. (1984). Judgement of act-outcome contingency: The role of selective attribution. *Quarterly Journal of Experimental Psychology Section A*, 36(1), 29-50. ([DOI](https://doi.org/10.1080/14640748408401502))
 
 ## Further references
