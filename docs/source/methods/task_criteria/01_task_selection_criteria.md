@@ -12,7 +12,7 @@ A **task** is a structured experimental paradigm that:
 
 1. **Produces psychobiological time series data and event markers.** The paradigm generates a sequence of discrete, time-stamped events (sensory presentations, participant or sensory agent actions, brain dynamic events, experiment control events, experiment structure events, measurement events) that can be annotated with HED tags.
 
-2. **Has a specified, reproducible procedure.** A task description in this archive should allow a researcher reading it to re-implement it. Note: Generic task categories such as "memory task" or "attention task" are not specified tasks -  rather, they are more general task domains..
+2. **Has a specified, reproducible procedure.** A task description in this archive should allow a researcher reading it to re-implement it. Note: Generic task categories such as "memory task" or "attention task" are not specified tasks - rather, they are more general task domains.
 
 3. **Is widely used in cognitive/behavioral neuroscience.** A task paradigm listed here has been reported by multiple labs, has recognized names, and is cited in the literature as a standard task.
 
@@ -21,7 +21,7 @@ A **task** is a structured experimental paradigm that:
 (task-criteria-1-2)=
 ## 1.2 Tasks that are excluded
 
-This task catalog is not designed to include tasks for which exact event timings are not reported. These typically may include:
+This task catalog does not include activities that produce no time-stamped record of their events. The timing itself may vary from trial to trial or be reported as a range; what matters is that each event is recorded when it happens. Activities without such a record typically include:
 
 - **Self-report instruments**: Personality inventories, mood questionnaires, symptom checklists (e.g., BDI, STAI). These do not produce event-structured data. Administering one is a pseudo task, the Take Questionnaire Task; see [Pseudo tasks](#task-criteria-1-3) below.
 - **Clinical screening tools**: Instruments designed for diagnostic classification rather than experimental measurement (e.g., MMSE as a screening tool, though components like digit span are included as standalone tasks).
