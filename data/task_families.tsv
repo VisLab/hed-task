@@ -102,3 +102,6 @@ hedtsk_phonological_awareness	language	high	Rhyme and phoneme manipulation judgm
 hedtsk_virtual_morris_water_maze	spatial_navigation	high	Find a hidden platform in a virtual pool
 hedtsk_virtual_radial_arm_maze	spatial_navigation	high	Visit rewarded arms without repetition
 hedtsk_mental_rotation	spatial_navigation	review	Rotate objects mentally; could be filed under perceptual judgment
+hedtsk_rest	pseudo_tasks	high	Resting block; establishes a baseline state
+hedtsk_fixate	pseudo_tasks	high	Fixation block; holds gaze as a baseline or control
+hedtsk_take_questionnaire	pseudo_tasks	high	Self-report administration block; the instrument is a parameter

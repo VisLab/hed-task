@@ -85,6 +85,11 @@ expressed in HED annotations and dataset metadata is still being decided. For a 
 4. If the experiment is a task the catalog does not have, or a variation a task page
  does not list, propose it (next section) rather than forcing a fit.
 
+Resting runs, fixation blocks and questionnaire blocks are tagged the same way, with the
+identifier of the matching [pseudo task](tasks/families/pseudo_tasks.md): `hedtsk_rest` with the
+eyes-open or eyes-closed variation, `hedtsk_fixate`, or `hedtsk_take_questionnaire`. A pseudo task
+carries no process identifiers, so there is nothing to record for step 3.
+
 ## Proposing a change
 
 The catalog is curated continuously and depends on its users to grow. The repository's

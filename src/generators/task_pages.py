@@ -82,12 +82,16 @@ def _write_task_index(
     confidence_of: dict[str, str],
 ) -> int:
     """Write docs/tasks/index.md."""
-    n_tasks = sum(len(v) for v in tasks_by_family.values())
+    all_tasks = [t for v in tasks_by_family.values() for t in v]
+    n_pseudo = sum(1 for t in all_tasks if t.get("task_kind") == "pseudo_task")
+    n_tasks = len(all_tasks) - n_pseudo
     n_review = sum(1 for c in confidence_of.values() if c == "review")
 
     parts: list[str] = [
         "# Tasks\n\n",
-        f"The catalog defines {n_tasks} standard cognitive and behavioral neuroscience tasks.\n"
+        f"The catalog defines {n_tasks} standard cognitive and behavioral neuroscience tasks, and\n"
+        f"{n_pseudo} pseudo tasks (rest, fixation and questionnaire blocks) that set up or hold a state\n"
+        "rather than eliciting a process.\n"
         "Each task page gives the canonical name and aliases, a description, the inclusion\n"
         "test that decides whether an experiment is an instance of the task, its named\n"
         "variations, the cognitive processes it engages, and references.\n\n",
@@ -218,6 +222,7 @@ def _write_task_page(
     inclusion = task.get("inclusion_test", {})
     variations = task.get("variations", [])
     hed_process_ids = task.get("hed_process_ids", [])
+    is_pseudo = task.get("task_kind") == "pseudo_task"
 
     # The curated mapping in data/mappings/ is the only Atlas cross-reference. Task
     # records no longer carry an atlas_id of their own; that field produced dead links
@@ -232,6 +237,15 @@ def _write_task_page(
     parts.append(f"# {canonical_name}\n\n")
     parts.append(f"**HED task ID:** `{hedtsk_id}`\n\n")
     parts.append(f"**Family:** [{fam['name']}](families/{fam['family_id']}.md)\n\n")
+    if is_pseudo:
+        parts.append(
+            ":::{note}\n"
+            "**Pseudo task.** A block that establishes or holds a state, or collects a self-report,\n"
+            "rather than eliciting a cognitive process through a trial structure. It is in the catalog\n"
+            "so that such blocks can be labelled with the same vocabulary as the tasks around them.\n"
+            "See the [task criteria](../methods/task_criteria/01_task_selection_criteria.md), section 1.3.\n"
+            ":::\n\n"
+        )
     if aliases:
         parts.append(f"**Also known as:** {', '.join(aliases)}\n\n")
     parts.append(f"{task.get('short_definition', '')}\n\n")
@@ -268,6 +282,12 @@ def _write_task_page(
             parts.append(f"  - {var.get('justification', '')}\n")
         parts.append("```\n\n")
 
+    if is_pseudo and not hed_process_ids:
+        parts.append("## Cognitive processes\n\n")
+        parts.append(
+            "None by design. A pseudo task sets up or holds a state rather than probing a process;\n"
+            "the processes engaged during the block are whatever the participant brings to it.\n\n"
+        )
     if hed_process_ids:
         parts.append("## Cognitive processes\n\n")
         parts.append("This task is designed to engage the following processes:\n\n")

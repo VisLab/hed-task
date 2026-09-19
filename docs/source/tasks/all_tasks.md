@@ -1,6 +1,6 @@
 # All tasks alphabetically
 
-All 103 tasks in one table, with the paradigm family each is filed under.
+All 106 tasks in one table, with the paradigm family each is filed under.
 The [task index](index.md) presents the same tasks grouped by family.
 
 | Task | Family | Short definition | Processes |
@@ -37,6 +37,7 @@ The [task index](index.md) presents the same tasks grouped by family.
 | [False Belief Task](hedtsk_false_belief.md) | [Social cognition and social choice tasks](families/social_cognition_and_games.md) | Wimmer & Perner–style narrative in which a protagonist holds a belief the participant knows to be fa... | 4 |
 | [Feeling-of-Knowing Task](hedtsk_feeling_of_knowing.md) | [Metacognition, agency and interoception tasks](families/metacognition_and_interoception.md) | After failing to recall a studied item, participants rate the likelihood they could recognize the an... | 4 |
 | [Finger Tapping Task](hedtsk_finger_tapping.md) | [Motor performance and speeded response tasks](families/motor_performance.md) | Repetitive single-finger or sequence tapping at fastest or paced rates; taps-per-interval and tap-ti... | 4 |
+| [Fixate Task](hedtsk_fixate.md) | [Pseudo tasks: rest, fixation and self-report blocks](families/pseudo_tasks.md) | Participant holds gaze on a fixation target for a block with nothing else to process or do; used as... | 0 |
 | [Free Recall Task](hedtsk_free_recall.md) | [Recall and recognition memory tests](families/recall_and_recognition.md) | Study of a list of items followed by unaided recall in any order; serial-position curves dissociate... | 6 |
 | [Go/No-Go Task](hedtsk_go_no_go.md) | [Response inhibition and stopping tasks](families/response_inhibition.md) | Responses required to frequent "go" stimuli must be withheld on rare "no-go" stimuli; commission err... | 5 |
 | [Heartbeat Detection Task](hedtsk_heartbeat_detection.md) | [Metacognition, agency and interoception tasks](families/metacognition_and_interoception.md) | Participants count or discriminate their own heartbeats without external feedback; the correspondenc... | 3 |
@@ -77,6 +78,7 @@ The [task index](index.md) presents the same tasks grouped by family.
 | [Reading the Mind in the Eyes Task](hedtsk_reading_the_mind_in_the_eyes.md) | [Social cognition and social choice tasks](families/social_cognition_and_games.md) | Choice of the best-matching mental-state word for a photograph of the eye region; accuracy indexes c... | 4 |
 | [Remember/Know Task](hedtsk_remember_know.md) | [Recall and recognition memory tests](families/recall_and_recognition.md) | Classify recognition hits as 'remember' (vivid recollection) or 'know' (familiarity without context)... | 5 |
 | [Remote Associates Task](hedtsk_remote_associates.md) | [Rule use, planning and reasoning tasks](families/executive_and_reasoning.md) | Three cue words linked to a single fourth word; solution rate and solution time index semantic searc... | 4 |
+| [Rest Task](hedtsk_rest.md) | [Pseudo tasks: rest, fixation and self-report blocks](families/pseudo_tasks.md) | Participant stays awake, still and unoccupied for a block of several minutes while spontaneous activ... | 0 |
 | [Reversal Learning Task](hedtsk_reversal_learning.md) | [Conditioning, reinforcement and implicit learning tasks](families/conditioning_and_reinforcement.md) | After initial stimulus-reward learning, the contingencies switch; perseveration and reversal speed i... | 4 |
 | [Rey Auditory Verbal Learning Task](hedtsk_rey_auditory_verbal_learning.md) | [Recall and recognition memory tests](families/recall_and_recognition.md) | Repeated presentation of a 15-word list with immediate free recall over five trials, an interference... | 7 |
 | [Self-Paced Reading Task](hedtsk_self_paced_reading.md) | [Language comprehension and production tasks](families/language.md) | Participants press a key to reveal each word or phrase of a sentence/passage; reading time per regio... | 4 |
@@ -91,6 +93,7 @@ The [task index](index.md) presents the same tasks grouped by family.
 | [Stop-Signal Task](hedtsk_stop_signal.md) | [Response inhibition and stopping tasks](families/response_inhibition.md) | Choice RT task in which an occasional stop signal requires response cancellation; stop-signal reacti... | 5 |
 | [Stroop Color-Word Task](hedtsk_stroop_color_word.md) | [Conflict and interference tasks](families/conflict_and_interference.md) | Naming the ink color of color words while ignoring word meaning; RT and error costs on incongruent t... | 6 |
 | [Sustained Attention to Response Task](hedtsk_sustained_attention_to_response.md) | [Response inhibition and stopping tasks](families/response_inhibition.md) | Speeded responses to frequent non-targets with withholding on rare targets; commission errors and RT... | 5 |
+| [Take Questionnaire Task](hedtsk_take_questionnaire.md) | [Pseudo tasks: rest, fixation and self-report blocks](families/pseudo_tasks.md) | Participant reads or hears a series of questionnaire items and records a response to each; the instr... | 0 |
 | [Task Switching Task](hedtsk_task_switching.md) | [Rule use, planning and reasoning tasks](families/executive_and_reasoning.md) | Alternation between two or more simple tasks on cue; switch-cost RT and errors index task-set reconf... | 4 |
 | [Think/No-Think Task](hedtsk_think_no_think.md) | [Memory control and prospective memory tasks](families/memory_control.md) | Cue words are presented with instructions to either retrieve or suppress their learned associate; la... | 5 |
 | [Tower of London Task](hedtsk_tower_of_london.md) | [Rule use, planning and reasoning tasks](families/executive_and_reasoning.md) | Rearrange colored beads on pegs to match a goal state in the minimum number of moves; pre-execution... | 5 |

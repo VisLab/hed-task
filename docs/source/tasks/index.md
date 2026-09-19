@@ -1,11 +1,13 @@
 # Tasks
 
-The catalog defines 103 standard cognitive and behavioral neuroscience tasks.
+The catalog defines 103 standard cognitive and behavioral neuroscience tasks, and
+3 pseudo tasks (rest, fixation and questionnaire blocks) that set up or hold a state
+rather than eliciting a process.
 Each task page gives the canonical name and aliases, a description, the inclusion
 test that decides whether an experiment is an instance of the task, its named
 variations, the cognitive processes it engages, and references.
 
-Tasks are filed under 18 **paradigm families** by what the participant does,
+Tasks are filed under 19 **paradigm families** by what the participant does,
 not by which process the task is thought to measure. The process catalog covers that
 other axis, and the two cross-link. A family is a browsing aid; every task is in
 exactly one, the assignment is a curation decision, and it is expected to change as
@@ -36,6 +38,7 @@ the name and not the family.
 | [Emotion elicitation and regulation tasks](families/emotion.md) | 4 |
 | [Language comprehension and production tasks](families/language.md) | 8 |
 | [Spatial cognition and navigation tasks](families/spatial_navigation.md) | 3 |
+| [Pseudo tasks: rest, fixation and self-report blocks](families/pseudo_tasks.md) | 3 |
 
 ## Conflict and interference tasks
 
@@ -266,6 +269,16 @@ A location or orientation in space must be learned, imagined or found; path effi
 | [Virtual Morris Water Maze Task](hedtsk_virtual_morris_water_maze.md) | Navigate a virtual circular arena to find a hidden platform using distal spatial cues; latency and search patt... | 5 |
 | [Virtual Radial Arm Maze Task](hedtsk_virtual_radial_arm_maze.md) | Virtual multi-arm maze in which participants retrieve rewards from each arm once; working-memory and reference... | 4 |
 
+## Pseudo tasks: rest, fixation and self-report blocks
+
+Block-level activities that establish or hold a brain state, or collect a self-report, rather than eliciting a process through trials; the participant rests, fixates or answers a questionnaire, and the block's onset, offset and instruction are what is recorded. Pseudo tasks carry no process links by design.
+
+| Task | Short definition | Processes |
+|---|---|---|
+| [Fixate Task](hedtsk_fixate.md) | Participant holds gaze on a fixation target for a block with nothing else to process or do; used as a baseline... | 0 |
+| [Rest Task](hedtsk_rest.md) | Participant stays awake, still and unoccupied for a block of several minutes while spontaneous activity is rec... | 0 |
+| [Take Questionnaire Task](hedtsk_take_questionnaire.md) | Participant reads or hears a series of questionnaire items and records a response to each; the instrument admi... | 0 |
+
 ```{toctree}
 :hidden:
 :maxdepth: 2
@@ -288,5 +301,6 @@ families/social_cognition_and_games
 families/emotion
 families/language
 families/spatial_navigation
+families/pseudo_tasks
 all_tasks
 ```

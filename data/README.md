@@ -20,6 +20,10 @@ The two JSON files began as an export from the research workspace that found the
 2. Run `python src/generate_docs.py`. It validates before writing: schema shape, unique identifiers, every `hed_process_ids` entry resolving to a process, every process's `tasks` list agreeing with the tasks that name it, `task_count` and the header counts, reference `roles` from the allowed vocabulary, and every variation carrying its derived `variation_id`. A failure names the record and writes nothing.
 3. Commit the data and the regenerated pages together. CI regenerates and fails the PR if they disagree.
 
+### Pseudo tasks
+
+A record with `"task_kind": "pseudo_task"` is a block that sets up or holds a state, or collects a self-report (task criteria 1.3). It may have an empty `hed_process_ids` and must be filed under the `pseudo_tasks` family; the validator checks both. Ordinary tasks omit `task_kind`.
+
 ### Linking a task to a process
 
 Add the process id to the task's `hed_process_ids`, and add the task to the process's `tasks` list (`{"hedtsk_id": ..., "canonical_name": ...}`) and bump its `task_count`. The validator checks that both sides agree.
