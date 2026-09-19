@@ -3,7 +3,7 @@
 % src/generate_docs.py; edit the data, not the fragment.
 
 (process-criteria-4)=
-# 4. Category rules
+# 4. Process category rules
 
 (process-criteria-4-1)=
 ## 4.1 The 19 categories

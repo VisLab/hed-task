@@ -19,7 +19,7 @@ This is a **forward-looking plausibility test**, not a gating filter. We keep ca
 A process row should sit at the level where the inclusion-test triple has a single answer. If the question "when does it happen" has multiple, non-reducible answers (e.g., "working memory" can mean encoding, maintenance, manipulation, or updating, each at different trial phases), the candidate is too coarse and should be either split into sub-processes or treated as a category label only.
 
 (process-criteria-1-2)=
-## 1.2 What is excluded?
+## 1.2 Processes that are excluded
 
 The following do **not** count as cognitive processes in this catalog:
 

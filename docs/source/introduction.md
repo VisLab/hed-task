@@ -19,7 +19,7 @@ links between them. Tagging a dataset with identifiers from the catalog makes it
 findable by task name, by alias, or by process, and makes datasets that share a task or
 a process comparable.
 
-The catalog is developed as part of HED (Hierarchical Event Descriptors), the standard
+The catalog is being developed as part of HED (Hierarchical Event Descriptors), the standard
 for annotating what happened during an experiment. HED describes events; the task
 catalog describes the paradigm the events belong to. How task and process identifiers
 will be carried in HED annotations and in dataset metadata is not yet decided, and the
@@ -31,13 +31,13 @@ A **task** in this catalog is a structured experimental paradigm that produces a
 sequence of discrete, time-stamped events, has a specific reproducible procedure, is
 widely used, and engages identifiable cognitive processes. Particular questionnaires, clinical
 screening instruments, generic labels such as "memory task", and one-off designs are
-excluded. The full rules are in the [task selection criteria](methods/task_criteria/index.md).
+excluded. The full rules are in the [Task selection criteria](methods/task_criteria/index.md).
 
 The catalog also has {{ n_pseudo_tasks }} **pseudo tasks**, which are not tasks in the sense
 above: the Rest Task, the Fixate Task and the Take Questionnaire Task. A pseudo task is a block that sets up or holds a brain state, or
 collects a self-report, rather than eliciting a process through trials. Such blocks appear in
-most experiments and datasets need to label them; the catalog includes them for that reason,
-marks them on their pages, and gives them no process links. Section 1.3 of the task criteria
+most experiments and datasets need to label them. The catalog includes them for that reason,
+marks them on their pages, and gives them no process links. The [Pseudo tasks section](methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3) of the task criteria
 says exactly what qualifies.
 
 The catalog currently has {{ n_tasks }} tasks. Each task page carries:

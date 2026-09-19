@@ -11,7 +11,7 @@ Format::
     hedvar_stroop_color_word__counting_stroop
 
 The `hedvar_` prefix follows the identifier convention in the task criteria
-(docs/source/methods/task_criteria/02_naming_conventions.md) that an
+(docs/source/methods/task_criteria/02_task_naming_rules.md) that an
 identifier's prefix types it: `hedtsk_` is a task, `hed_` is a process, `hedvar_` is a
 task variation. A double underscore separates the parent slug from the variation slug,
 so the parent is always recoverable and the two parts never run together.

@@ -3,7 +3,7 @@
 % src/generate_docs.py; edit the data, not the fragment.
 
 (task-criteria-5)=
-# 5. Borderline cases and policy questions
+# 5. Borderline case policy
 
 These areas required explicit policy decisions. Section 5.1 was resolved; the remaining five are open. The variation audit applied the default rules listed below:
 

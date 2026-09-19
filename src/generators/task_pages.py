@@ -243,7 +243,7 @@ def _write_task_page(
             "**Pseudo task.** A block that establishes or holds a state, or collects a self-report,\n"
             "rather than eliciting a cognitive process through a trial structure. It is in the catalog\n"
             "so that such blocks can be labelled with the same vocabulary as the tasks around them.\n"
-            "See the [task criteria](../methods/task_criteria/01_task_selection_criteria.md), section 1.3.\n"
+            "See [Pseudo tasks](../methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3) in the task criteria.\n"
             ":::\n\n"
         )
     if aliases:

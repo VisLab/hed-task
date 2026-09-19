@@ -3,7 +3,7 @@
 % src/generate_docs.py; edit the data, not the fragment.
 
 (process-criteria-3)=
-# 3. Definition standards
+# 3. Process definition standards
 
 (process-criteria-3-1)=
 ## 3.1 Requirements

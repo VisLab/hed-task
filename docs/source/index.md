@@ -11,24 +11,27 @@ the same across laboratories.
 
 ## What is the HED task catalog?
 
-The catalog is two linked lists.
+The HED task catalog consists of two interlinked lists **Tasks** and **Cognitive processes**.
 
-**Tasks** are experimental paradigms with a specific, reproducible procedure: the Stroop
-Color-Word Task, the N-Back Task, the Iowa Gambling Task. Each task has a canonical name
-and its aliases, a description, an *inclusion test* stating the procedure, the
-manipulation and the measurement that make an experiment an instance of that task, a list
+**Tasks** are experimental paradigms each having a specific, reproducible procedure: the Stroop
+Color-Word Task, the N-Back Task, the Iowa Gambling Task. Each task specification has a canonical name,
+aliases, a description, an *inclusion test* stating the procedure, the
+manipulations and the measurements that make an experiment an instance of that task, a list
 of named variations with the reason each one counts as a variation, and verified
 references. Tasks are filed under {{ n_families }} paradigm families according to what the
-participant does.
+participant does. The catalog also contains {{ n_pseudo_tasks }} **pseudo tasks**, which are block-level activities
+that may not have a distinct event structure but are important for understanding the participant's state.
+See [Task selection criteria](methods/task_criteria/01_task_selection_criteria.md) for more detail about tasks
+and pseudo tasks.
 
-**Cognitive processes** are the mental operations a task is designed to engage: response
+**Cognitive processes** are the mental operations a task is designed to engage, e.g., response
 inhibition, working memory updating, reward anticipation. Each process has a definition,
 references, and a place in one of {{ n_categories }} categories.
 
-Every task states which processes it engages, and every process lists the tasks that
+**Interlinkage**: Every task states which processes it engages, and every process lists the tasks that
 engage it. The catalog is part of the HED (Hierarchical Event Descriptors) effort to
-make the events in neuroimaging and behavioral data machine-readable; see the
-[HED resources](https://www.hedtags.org/hed-resources) site for HED itself.
+make the events in neuroimaging and behavioral data machine-actionable; see
+[HED resources](https://www.hedtags.org/hed-resources) for information on HED.
 
 ## Why a task and process taxonomy?
 
@@ -50,7 +53,7 @@ missing layer:
   alone do not.
 
 How these tags will be expressed in HED annotations and in dataset metadata is still being
-worked out; the identifiers here are the catalog's own and are not yet HED schema terms.
+worked out; the identifiers here are the catalog's own and are not HED schema terms.
 
 ## What the catalog contains
 
@@ -78,7 +81,7 @@ variations, processes and references.
 and the tasks that engage it.
 :::
 
-:::{grid-item-card} Read how tasks and processes were chosen
+:::{grid-item-card} Understand the selection rules
 :link: methods/task_criteria/index
 :link-type: doc
 
@@ -96,8 +99,8 @@ adds to the other.
 
 ::::
 
-New to the catalog? Start with the [introduction](introduction.md). Planning to tag a
-dataset or to read a task page closely? See [how to use the catalog](how_to_use.md).
+New to the catalog? Start with the [Introduction](introduction.md). Planning to tag a
+dataset or to read a task page closely? See [How to use the catalog](how_to_use.md).
 
 ## Status and how to contribute
 

@@ -12,18 +12,18 @@ Companion to the [process criteria](../process_criteria/index.md).
 Sections are numbered so that they can be cited; a citation such as "task criteria 2.1" means subsection 1 of section 2 of this document.
 
 1. [Task selection criteria](01_task_selection_criteria.md)
-2. [Naming conventions](02_naming_conventions.md)
-3. [The inclusion test](03_the_inclusion_test.md)
+2. [Task naming rules](02_task_naming_rules.md)
+3. [The task inclusion test](03_the_task_inclusion_test.md)
 4. [Variation criteria](04_variation_criteria.md)
-5. [Borderline cases and policy questions](05_borderline_cases_and_policy_questions.md)
+5. [Borderline case policy](05_borderline_case_policy.md)
 
 ```{toctree}
 :hidden:
 :maxdepth: 1
 
 01_task_selection_criteria
-02_naming_conventions
-03_the_inclusion_test
+02_task_naming_rules
+03_the_task_inclusion_test
 04_variation_criteria
-05_borderline_cases_and_policy_questions
+05_borderline_case_policy
 ```
