@@ -1,0 +1,536 @@
+# Tasks by paradigm family
+
+The 19 paradigm families, each with its scope statement and the tasks filed
+under it. Every task is in exactly one family. The family pages repeat these entries
+and add the assignments marked for review. The [alphabetical list](alphabetically.md)
+has the same tasks in name order.
+
+<style>
+.toc-tree li li > ul { display: none; }
+.toc-tree li li.scroll-current > ul { display: block; }
+</style>
+
+## [Conflict and interference tasks](families/conflict_and_interference.md)
+
+A task-relevant feature must be reported while a task-irrelevant feature of the same stimulus or of a distractor pulls toward a competing response; the cost on incongruent trials is the measure.
+
+### [Emotional Stroop](hedtsk_emotional_stroop.md)
+
+Color-naming of emotionally valenced words; RT slowing on threat-related words indexes attentional bias to affective content. Engages 5 processes.
+
+### [Eriksen Flanker](hedtsk_eriksen_flanker.md)
+
+A central target flanked by congruent or incongruent distractors; RT and error differences index selective attention and conflict resolution. Engages 5 processes.
+
+### [Imitation-Inhibition](hedtsk_imitation_inhibition.md)
+
+Execute an instructed finger movement while observing a congruent or incongruent action performed by another person; the congruency effect (faster responses on congruent trials) indexes automatic imitation and the cost of inhibiting observed-action representations. Engages 3 processes.
+
+### [Implicit Association](hedtsk_implicit_association.md)
+
+Speeded categorization of stimuli belonging to two target concepts and two evaluative attributes using shared response keys; congruence-condition RT difference indexes implicit association. Engages 6 processes.
+
+### [Navon](hedtsk_navon.md)
+
+Hierarchical letters in which large letters are composed of small ones; RT differences between global and local identification index attentional scope. Engages 4 processes.
+
+### [Simon](hedtsk_simon.md)
+
+Non-spatial feature (e.g. color) dictates a left/right response while task-irrelevant stimulus location varies; RT cost on incongruent trials indexes spatial response conflict. Engages 5 processes.
+
+### [Stroop Color-Word](hedtsk_stroop_color_word.md)
+
+Naming the ink color of color words while ignoring word meaning; RT and error costs on incongruent trials index selective attention and conflict control. Engages 6 processes.
+
+### [Weapons Identification](hedtsk_weapons_identification.md)
+
+Speeded categorization of tools vs weapons primed by faces of varying race; congruence effects index implicit racial bias in perception. Engages 6 processes.
+
+## [Response inhibition and stopping tasks](families/response_inhibition.md)
+
+A prepared or prepotent response must be withheld or cancelled on a minority of trials; commission errors and stopping latency are the measures.
+
+### [Anti-Saccade](hedtsk_anti_saccade.md)
+
+Participants must suppress a prepotent saccade toward a peripheral cue and generate a voluntary saccade to the opposite location; errors and saccade latency index oculomotor inhibition. Engages 6 processes.
+
+### [Go/No-Go](hedtsk_go_no_go.md)
+
+Responses required to frequent "go" stimuli must be withheld on rare "no-go" stimuli; commission errors and N2/P3 ERPs index response inhibition. Engages 5 processes.
+
+### [Stop-Signal](hedtsk_stop_signal.md)
+
+Choice RT task in which an occasional stop signal requires response cancellation; stop-signal reaction time (SSRT) estimates inhibitory latency. Engages 5 processes.
+
+### [Sustained Attention to Response](hedtsk_sustained_attention_to_response.md)
+
+Speeded responses to frequent non-targets with withholding on rare targets; commission errors and RT variability index sustained attention lapses. Engages 5 processes.
+
+## [Attentional cueing and orienting tasks](families/attentional_cueing.md)
+
+A cue precedes a target and predicts its location or identity with some validity; the benefit of valid over invalid cues is the measure.
+
+### [Attention Network](hedtsk_attention_network.md)
+
+Identify the direction of a central arrow flanked by congruent or incongruent arrows, preceded by various cue types; RT differences across cue and flanker conditions index three independent attention networks (alerting, orienting, executive). Engages 6 processes.
+
+### [Dot-Probe](hedtsk_dot_probe.md)
+
+A pair of cues (often threat/neutral) is followed by a probe at one cue location; RT difference by cue type indexes attentional bias. Engages 5 processes.
+
+### [Posner Spatial Cueing](hedtsk_posner_spatial_cueing.md)
+
+A central or peripheral cue indicates the likely target location; RT differences between valid, neutral, and invalid cues index covert spatial orienting. Engages 5 processes.
+
+## [Visual search and tracking tasks](families/visual_search_and_tracking.md)
+
+A target must be found among, or followed through, a field of distractors; search slopes, detection accuracy or tracking capacity are the measures.
+
+### [Contextual Cueing](hedtsk_contextual_cueing.md)
+
+Visual search in which some distractor configurations repeat across blocks; faster search on repeated configurations indexes implicit spatial context learning. Engages 4 processes.
+
+### [Multiple Object Tracking](hedtsk_multiple_object_tracking.md)
+
+Participants track a subset of identical moving objects among distractors for several seconds; tracking accuracy indexes sustained multifocal attention. Engages 5 processes.
+
+### [Useful Field of View](hedtsk_useful_field_of_view.md)
+
+Brief central identification combined with peripheral localization under increasing distractor and divided-attention load; thresholds index processing speed and divided attention. Engages 5 processes.
+
+### [Visual Search](hedtsk_visual_search.md)
+
+Detection of a target in a display of distractors; search slopes across set size dissociate feature (parallel) from conjunction (serial) search. Engages 5 processes.
+
+## [Oddball, vigilance and continuous performance tasks](families/oddball_and_vigilance.md)
+
+A long stream of stimuli contains rare targets or deviants; detection, false alarms, response variability or the evoked response to the rare event are the measures.
+
+### [Continuous Performance](hedtsk_continuous_performance.md)
+
+Extended stream of stimuli in which a rare target requires a response; omission and commission errors index sustained attention and response control. Engages 5 processes.
+
+### [Mismatch Negativity](hedtsk_mismatch_negativity.md)
+
+Passive auditory oddball in which rare deviant sounds elicit a negative ERP around 150–250 ms, indexing pre-attentive auditory change detection. Engages 4 processes.
+
+### [Oddball](hedtsk_oddball.md)
+
+Sequence of standards with rare deviants or targets; deviants elicit a large positive ERP around 300 ms (P3a/P3b), indexing attention and context updating. Engages 5 processes.
+
+### [Psychomotor Vigilance](hedtsk_psychomotor_vigilance.md)
+
+Simple reaction to visual or auditory stimuli appearing at random intervals over 5–10 minutes; mean RT, lapses, and false starts index sustained attention. Engages 4 processes.
+
+### [Rapid Serial Visual Presentation](hedtsk_rapid_serial_visual_presentation.md)
+
+A rapid stream of visual items is presented at a single location (typically 6-20 items/second); participants detect one or more targets among distractors. Target detection accuracy, especially for a second target shortly after a first (attentional blink), indexes temporal attention allocation. Engages 7 processes.
+
+## [Perceptual judgment and psychophysics tasks](families/perceptual_judgment.md)
+
+A judgment about a sensory stimulus near or below threshold, or a passive presentation designed to isolate a perceptual response; thresholds, accuracy and evoked responses are the measures.
+
+### [Auditory Masking](hedtsk_auditory_masking.md)
+
+Detect, discriminate, or identify a target sound in the presence of a masking sound; threshold shifts between masked and unmasked conditions index frequency selectivity, temporal resolution, and auditory scene analysis. Engages 4 processes.
+
+### [Biological Motion Perception](hedtsk_biological_motion_perception.md)
+
+Judgment of human action or identity from sparse point-light displays attached to major joints; indexes recognition of biological motion from kinematic cues alone. Engages 5 processes.
+
+### [Face Processing](hedtsk_face_processing.md)
+
+Blocked or event-related presentation of faces vs. objects (or scrambled faces) to localize face-selective cortical regions (FFA, OFA, pSTS). Engages 3 processes.
+
+### [Random Dot Kinematogram](hedtsk_random_dot_kinematogram.md)
+
+A field of moving dots in which a variable fraction move coherently; direction judgments and RT under varying coherence support drift-diffusion modeling of perceptual decisions. Engages 5 processes.
+
+### [Visual Masking](hedtsk_visual_masking.md)
+
+A brief target is rendered invisible or reduced in visibility by a preceding or following mask; variants include metacontrast, paracontrast, pattern, forward, backward, common-onset, and object-substitution masking. Engages 4 processes.
+
+## [Short-term and working memory tasks](families/working_memory_span.md)
+
+A small set of items must be held, and sometimes manipulated, over a delay of seconds before a probe or reproduction; span, capacity or set-size effects are the measures.
+
+### [Change Detection](hedtsk_change_detection.md)
+
+Brief sample array followed after a blank delay by a probe array; participant reports whether any item changed. Yields visual working memory capacity (K). Engages 4 processes.
+
+### [Corsi Block-Tapping](hedtsk_corsi_block_tapping.md)
+
+Experimenter taps a sequence on spatially arranged blocks; participant reproduces the sequence forward or backward. Indexes visuospatial short-term and working memory span. Engages 4 processes.
+
+### [Delayed Match-to-Sample](hedtsk_delayed_match_to_sample.md)
+
+Sample stimulus followed by a delay and then a probe or choice array; response indicates whether the probe matches the sample. Indexes short-term memory maintenance. Engages 4 processes.
+
+### [Digit Span](hedtsk_digit_span.md)
+
+Auditory or visual digit sequences reproduced in forward or backward order; longest correctly reproduced length indexes verbal short-term and working memory span. Engages 5 processes.
+
+### [N-Back](hedtsk_n_back.md)
+
+Continuous stream in which each item must be compared to the one n items back; accuracy and RT index working memory updating and monitoring. Engages 5 processes.
+
+### [Operation Span](hedtsk_operation_span.md)
+
+Alternating arithmetic verification and word/letter memory items; complex-span score indexes working memory capacity under processing load. Engages 5 processes.
+
+### [Sternberg Item Recognition](hedtsk_sternberg_item_recognition.md)
+
+Short memory set followed by a probe; yes/no judgment of set membership. RT typically scales linearly with set size. Engages 5 processes.
+
+## [Recall and recognition memory tests](families/recall_and_recognition.md)
+
+A study phase is followed, after minutes or longer, by a test that asks the participant to recall, recognize or attribute studied material; hits, false alarms and their decomposition are the measures.
+
+### [Autobiographical Memory](hedtsk_autobiographical_memory.md)
+
+Participants retrieve specific personal memories in response to cue words or structured prompts; specificity, detail, and temporal distribution of retrieved episodes index autobiographical memory function. Engages 4 processes.
+
+### [Cambridge Face Memory](hedtsk_cambridge_face_memory.md)
+
+Learn target faces across viewpoints, then identify them among distractors under increasingly difficult conditions (novel viewpoints, visual noise); accuracy indexes face recognition ability and configural face processing. Engages 5 processes.
+
+### [Free Recall](hedtsk_free_recall.md)
+
+Study of a list of items followed by unaided recall in any order; serial-position curves dissociate primacy and recency. Engages 6 processes.
+
+### [Mnemonic Similarity](hedtsk_mnemonic_similarity.md)
+
+Incidental encoding of images followed by a test with old, new, and lure items; discrimination of lures from repetitions indexes pattern separation. Engages 6 processes.
+
+### [Old/New Recognition Memory](hedtsk_old_new_recognition_memory.md)
+
+Studied items mixed with new lures at test; hit and false-alarm rates yield d' and can be decomposed into recollection and familiarity via ROC or remember/know. Engages 6 processes.
+
+### [Paired Associates Learning](hedtsk_paired_associates_learning.md)
+
+Study of cue-target pairs followed by cued recall; proportion recalled indexes associative encoding and retrieval. Engages 5 processes.
+
+### [Remember/Know](hedtsk_remember_know.md)
+
+Classify recognition hits as 'remember' (vivid recollection) or 'know' (familiarity without context); proportions index the relative contributions of recollection and familiarity to recognition memory. Engages 5 processes.
+
+### [Rey Auditory Verbal Learning](hedtsk_rey_auditory_verbal_learning.md)
+
+Repeated presentation of a 15-word list with immediate free recall over five trials, an interference list, and delayed recall; indexes verbal learning and forgetting. Engages 7 processes.
+
+### [Source Memory](hedtsk_source_memory.md)
+
+After studying items presented in distinct contexts (speaker, location, modality, time), participants judge each item's encoding source; source accuracy dissociates contextual recollection from item familiarity. Engages 5 processes.
+
+## [Memory control and prospective memory tasks](families/memory_control.md)
+
+Encoding or retrieval is deliberately shaped by instruction: an item is to be forgotten, suppressed, related to the self, or an intention is to be executed later; the effect on later memory or on intention completion is the measure.
+
+### [Directed Forgetting](hedtsk_directed_forgetting.md)
+
+Study-phase cues instruct participants to remember or forget specific items or lists; later memory tests index intentional forgetting. Engages 5 processes.
+
+### [Prospective Memory](hedtsk_prospective_memory.md)
+
+Participants perform an ongoing task while remembering to execute a deferred intention when a target event occurs (event-based) or after a time interval (time-based); PM hit rate indexes the ability to remember to remember. Engages 4 processes.
+
+### [Self-Referential Encoding](hedtsk_self_referential_encoding.md)
+
+Participants judge whether trait adjectives describe themselves vs. another person or a semantic property; the self-reference effect (superior recall for self-encoded items) and endorsement patterns index self-concept and self-referential processing. Engages 4 processes.
+
+### [Think/No-Think](hedtsk_think_no_think.md)
+
+Cue words are presented with instructions to either retrieve or suppress their learned associate; later memory for suppressed items indexes retrieval-induced forgetting through inhibition. Engages 5 processes.
+
+## [Metacognition, agency and interoception tasks](families/metacognition_and_interoception.md)
+
+The participant reports on their own cognition, action or body: confidence in future recall, the perceived time of an action, the sense that a limb or heartbeat is theirs; the correspondence between report and fact is the measure.
+
+### [Body Ownership Illusion](hedtsk_body_ownership_illusion.md)
+
+Synchronous multisensory stimulation of a participant's hidden body part and a visible fake or virtual counterpart induces illusory ownership of the artificial body part; proprioceptive drift, subjective ratings, and threat responses index the strength of the illusion. Engages 3 processes.
+
+### [Feeling-of-Knowing](hedtsk_feeling_of_knowing.md)
+
+After failing to recall a studied item, participants rate the likelihood they could recognize the answer; the accuracy of these predictions (gamma correlation with recognition) indexes metacognitive monitoring of unretrieved memory. Engages 4 processes.
+
+### [Heartbeat Detection](hedtsk_heartbeat_detection.md)
+
+Participants count or discriminate their own heartbeats without external feedback; the correspondence between perceived and actual heartbeat counts (or discrimination accuracy) indexes interoceptive sensitivity. Engages 3 processes.
+
+### [Intentional Binding](hedtsk_intentional_binding.md)
+
+Participants judge the perceived time of a voluntary action and/or its sensory effect using a Libet clock; the temporal compression between action and effect (intentional binding) indexes the implicit sense of agency. Engages 3 processes.
+
+### [Judgment-of-Learning](hedtsk_judgment_of_learning.md)
+
+After studying each item, participants predict the likelihood they will recall it on a later test; calibration and resolution of these predictions index metacognitive monitoring of encoding. Engages 4 processes.
+
+## [Conditioning, reinforcement and implicit learning tasks](families/conditioning_and_reinforcement.md)
+
+Contingencies between stimuli, actions and outcomes are learned from experience, with or without explicit instruction; learning curves, choice probabilities and perseveration are the measures.
+
+### [Artificial Grammar Learning](hedtsk_artificial_grammar_learning.md)
+
+Exposure to letter strings generated by a finite-state grammar followed by a grammaticality judgment on novel strings; indexes implicit rule learning. Engages 4 processes.
+
+### [Causal Learning](hedtsk_causal_learning.md)
+
+Participants observe cue-outcome pairings across trials and judge the causal strength of the relationship; judgment profiles across contingency conditions index causal induction and associative learning mechanisms. Engages 4 processes.
+
+### [Instrumental Conditioning](hedtsk_instrumental_conditioning.md)
+
+Actions are reinforced by contingent outcomes under defined schedules; response rate and choice probability across schedules index instrumental learning. Specific human instantiations include lever/button-press reward paradigms and free-operant tasks. Engages 5 processes.
+
+### [Multi-Armed Bandit](hedtsk_multi_armed_bandit.md)
+
+Repeated choice among options with unknown or changing reward distributions; choice sequences dissociate exploration from exploitation. Engages 5 processes.
+
+### [Pavlovian Fear Conditioning](hedtsk_pavlovian_fear_conditioning.md)
+
+A neutral CS is paired with an aversive US (shock, loud sound); conditioned responses (SCR, startle, amygdala BOLD) index fear learning. Engages 5 processes.
+
+### [Probabilistic Classification Learning](hedtsk_probabilistic_classification_learning.md)
+
+Multi-cue probabilistic prediction of a binary outcome with trial-by-trial feedback; learning curves index gradual procedural category learning. Engages 5 processes.
+
+### [Probabilistic Selection](hedtsk_probabilistic_selection.md)
+
+Learn to choose between stimulus pairs through probabilistic feedback, then select among novel recombinations; choose-A vs. avoid-B accuracy dissociates positive and negative reinforcement learning. Engages 5 processes.
+
+### [Reversal Learning](hedtsk_reversal_learning.md)
+
+After initial stimulus-reward learning, the contingencies switch; perseveration and reversal speed index behavioral flexibility. Engages 4 processes.
+
+### [Serial Reaction Time](hedtsk_serial_reaction_time.md)
+
+Sequential key-press responses to cued locations; RT speedup on repeating vs random sequences indexes implicit sequence learning. Engages 5 processes.
+
+### [Two-Stage Decision](hedtsk_two_stage_decision.md)
+
+Sequential two-choice task with probabilistic transitions to second-stage states and drifting rewards; choice patterns dissociate model-based from model-free control. Engages 5 processes.
+
+## [Motor performance and speeded response tasks](families/motor_performance.md)
+
+Movement itself is the object: timing, sequencing, adaptation or speed of a well-specified response; tapping rate, error, completion time and dual-task cost are the measures.
+
+### [Digit Symbol Substitution](hedtsk_digit_symbol_substitution.md)
+
+Timed paper-and-pencil or computerized task: substitute digits for symbols (or vice versa) using a visible key; items completed in a fixed interval index processing speed. Engages 5 processes.
+
+### [Finger Tapping](hedtsk_finger_tapping.md)
+
+Repetitive single-finger or sequence tapping at fastest or paced rates; taps-per-interval and tap-timing variability index motor speed and rhythm control. Engages 4 processes.
+
+### [Mirror Tracing](hedtsk_mirror_tracing.md)
+
+Tracing of a figure viewed only in a mirror; error and completion time across trials index visuomotor adaptation and procedural learning. Engages 5 processes.
+
+### [Motor Sequence Learning](hedtsk_motor_sequence_learning.md)
+
+Repeated execution of a fixed finger sequence; within- and across-session speed and accuracy changes index motor skill learning. Engages 5 processes.
+
+### [Psychological Refractory Period](hedtsk_psychological_refractory_period.md)
+
+Two tasks presented with a short SOA; RT for the second task lengthens as SOA shortens, indexing a central response-selection bottleneck. Engages 4 processes.
+
+## [Rule use, planning and reasoning tasks](families/executive_and_reasoning.md)
+
+A rule must be discovered, applied, switched or used to plan a sequence of moves; switch costs, perseverative errors, solution accuracy and planning time are the measures.
+
+### [Raven's Progressive Matrices](hedtsk_ravens_progressive_matrices.md)
+
+Matrix completion items requiring induction of a rule from a 3x3 array of figures; items correct is a standard measure of non-verbal reasoning. Engages 5 processes.
+
+### [Remote Associates](hedtsk_remote_associates.md)
+
+Three cue words linked to a single fourth word; solution rate and solution time index semantic search and insight. Engages 4 processes.
+
+### [Task Switching](hedtsk_task_switching.md)
+
+Alternation between two or more simple tasks on cue; switch-cost RT and errors index task-set reconfiguration. Engages 4 processes.
+
+### [Tower of London](hedtsk_tower_of_london.md)
+
+Rearrange colored beads on pegs to match a goal state in the minimum number of moves; pre-execution latency and move efficiency index planning. Engages 5 processes.
+
+### [Trail Making](hedtsk_trail_making.md)
+
+Paper-and-pencil sequencing: connect numbered circles (Part A) or alternate numbers and letters (Part B) as fast as possible. B−A difference indexes set switching. Engages 5 processes.
+
+### [Wason Selection](hedtsk_wason_selection.md)
+
+Four cards with letters and numbers under a conditional rule; participants choose cards to turn over to test the rule. Indexes conditional reasoning and content effects. Engages 3 processes.
+
+### [Wisconsin Card Sorting](hedtsk_wisconsin_card_sorting.md)
+
+Sort cards by a hidden rule (color, form, or number) using only correct/incorrect feedback; after runs of correct sorts the rule silently switches. Perseverative errors index set-shifting. Engages 5 processes.
+
+## [Reward, risk and value-based choice tasks](families/reward_and_value_choice.md)
+
+Options differing in reward magnitude, probability, delay or effort are chosen between, or a cue announces a potential reward before a speeded response; choice curves and anticipatory responses are the measures.
+
+### [Balloon Analog Risk](hedtsk_balloon_analog_risk.md)
+
+Sequential pumping of a virtual balloon for monetary reward with stochastic popping; average pumps per un-popped balloon indexes risk-taking. Engages 5 processes.
+
+### [Delay Discounting](hedtsk_delay_discounting.md)
+
+Repeated choices between smaller-sooner and larger-later rewards at varying delays; indifference points estimate a temporal discount function. Engages 5 processes.
+
+### [Effort-Based Decision-Making](hedtsk_effort_based_decision_making.md)
+
+Participants choose between a low-effort/low-reward option and a high-effort/high-reward option on each trial; the indifference point indexes effort discounting and motivational willingness to exert effort for reward. Engages 5 processes.
+
+### [Iowa Gambling](hedtsk_iowa_gambling.md)
+
+Repeated choices among four decks with hidden reward and loss distributions; preference shift toward advantageous decks indexes affective decision making. Engages 6 processes.
+
+### [Monetary Incentive Delay](hedtsk_monetary_incentive_delay.md)
+
+Cue predicts potential monetary gain or loss; speeded target response determines outcome. Striatal activity to cues indexes reward anticipation. Engages 4 processes.
+
+### [Social Incentive Delay](hedtsk_social_incentive_delay.md)
+
+MID variant in which cues predict potential social (smiling/frowning face) rather than monetary outcomes; indexes social reward anticipation. Engages 4 processes.
+
+## [Social cognition and social choice tasks](families/social_cognition_and_games.md)
+
+Another agent's mental state must be inferred, or money must be allocated between the participant and another player; inference accuracy and allocation patterns are the measures.
+
+### [Dictator Game](hedtsk_dictator_game.md)
+
+One-shot allocation task in which a proposer unilaterally divides an endowment between self and a passive receiver; indexes altruism and social preferences. Engages 4 processes.
+
+### [False Belief](hedtsk_false_belief.md)
+
+Wimmer & Perner–style narrative in which a protagonist holds a belief the participant knows to be false; correct prediction of the protagonist's action indexes mentalizing. Engages 4 processes.
+
+### [Prisoner's Dilemma](hedtsk_prisoners_dilemma.md)
+
+Two-player one-shot or iterated game with cooperate/defect choices and asymmetric payoffs; choice patterns index cooperation and strategic reasoning. Engages 6 processes.
+
+### [Reading the Mind in the Eyes](hedtsk_reading_the_mind_in_the_eyes.md)
+
+Choice of the best-matching mental-state word for a photograph of the eye region; accuracy indexes complex emotion and mental-state inference. Engages 4 processes.
+
+### [Trust Game](hedtsk_trust_game.md)
+
+Two-stage exchange in which an investor transfers a fraction of an endowment (multiplied on receipt), and a trustee returns some fraction; amounts transferred index trust and reciprocity. Engages 5 processes.
+
+### [Ultimatum Game](hedtsk_ultimatum_game.md)
+
+Proposer offers a division of an endowment; responder accepts or rejects. Rejection of unfair offers indexes inequity aversion and strategic punishment. Engages 4 processes.
+
+## [Emotion elicitation and regulation tasks](families/emotion.md)
+
+Affective stimuli are presented to elicit, recognize or regulate an emotional response; ratings, physiological responses and recognition accuracy are the measures.
+
+### [Affective Picture Viewing](hedtsk_affective_picture_viewing.md)
+
+Passive or instructed viewing of emotionally valenced images (IAPS, GAPED, NAPS, OASIS) while physiological, neural, or rating responses to valence and arousal are recorded. Engages 6 processes.
+
+### [Affective Priming](hedtsk_affective_priming.md)
+
+Target evaluation (good/bad) preceded by a briefly presented affective prime; response facilitation on congruent trials indexes automatic evaluation. Engages 5 processes.
+
+### [Emotion Regulation](hedtsk_emotion_regulation.md)
+
+View affective images under instructions to reappraise or passively view; self-reported affect, physiological responses, and neural activity index emotion regulation ability. Engages 5 processes.
+
+### [Facial Emotion Recognition](hedtsk_facial_emotion_recognition.md)
+
+Identification of an emotion category from a face image; accuracy and RT per emotion index emotion decoding ability. Engages 4 processes.
+
+## [Language comprehension and production tasks](families/language.md)
+
+Words, sentences or pictures are read, heard, named or generated; reading time, naming latency, lexical decision speed and fluency counts are the measures.
+
+### [Lexical Decision](hedtsk_lexical_decision.md)
+
+Speeded word/nonword judgment; RT and accuracy index lexical access and are sensitive to frequency, priming, and context. Engages 5 processes.
+
+### [Phonological Awareness](hedtsk_phonological_awareness.md)
+
+Rhyme judgment, phoneme deletion, or phoneme blending tasks index sensitivity to the sound structure of language. Engages 4 processes.
+
+### [Picture Naming](hedtsk_picture_naming.md)
+
+Naming of pictured objects; RT and errors index lexical retrieval and are sensitive to name agreement, frequency, and age of acquisition. Engages 6 processes.
+
+### [Self-Paced Reading](hedtsk_self_paced_reading.md)
+
+Participants press a key to reveal each word or phrase of a sentence/passage; reading time per region indexes online processing difficulty and is sensitive to syntactic, semantic, and discourse-level manipulations. Engages 4 processes.
+
+### [Semantic Priming](hedtsk_semantic_priming.md)
+
+Lexical or semantic decision on targets preceded by semantically related or unrelated primes; RT facilitation indexes automatic semantic activation. Engages 4 processes.
+
+### [Sentence Comprehension](hedtsk_sentence_comprehension.md)
+
+Reading or listening to locally ambiguous sentences; reading-time disruptions and offline comprehension indexes syntactic reanalysis. Engages 6 processes.
+
+### [Verb Generation](hedtsk_verb_generation.md)
+
+Produce a verb associated with each presented noun; indexes lexical-semantic retrieval and inhibition of prepotent responses, with well-known left-prefrontal activation. Engages 5 processes.
+
+### [Verbal Fluency](hedtsk_verbal_fluency.md)
+
+Generate as many words as possible within a time limit matching a phonemic (letter) or semantic (category) constraint; production count and clustering/switching patterns index executive-lexical retrieval. Engages 4 processes.
+
+## [Spatial cognition and navigation tasks](families/spatial_navigation.md)
+
+A location or orientation in space must be learned, imagined or found; path efficiency, rotation cost and spatial errors are the measures.
+
+### [Mental Rotation](hedtsk_mental_rotation.md)
+
+Judgment of whether two rotated objects are identical or mirror images; RT scales linearly with angular disparity, indexing mental rotation. Engages 4 processes.
+
+### [Virtual Morris Water Maze](hedtsk_virtual_morris_water_maze.md)
+
+Navigate a virtual circular arena to find a hidden platform using distal spatial cues; latency and search patterns index allocentric spatial learning and navigation ability. Engages 5 processes.
+
+### [Virtual Radial Arm Maze](hedtsk_virtual_radial_arm_maze.md)
+
+Virtual multi-arm maze in which participants retrieve rewards from each arm once; working-memory and reference-memory errors index spatial memory. Engages 4 processes.
+
+## [Pseudo tasks: rest, fixation and self-report blocks](families/pseudo_tasks.md)
+
+Block-level activities that establish or hold a brain state, or collect a self-report, rather than eliciting a process through trials; the participant rests, fixates or answers a questionnaire, and the block's onset, offset and instruction are what is recorded. Pseudo tasks carry no process links by design.
+
+### [Fixate](hedtsk_fixate.md)
+
+Participant holds gaze on a fixation target for a block with nothing else to process or do; used as a baseline or control block and to limit eye movement. Engages no process links (pseudo task).
+
+### [Rest](hedtsk_rest.md)
+
+Participant stays awake, still and unoccupied for a block of several minutes while spontaneous activity is recorded; the block is a baseline for task blocks or a resting-state recording in its own right. Engages no process links (pseudo task).
+
+### [Take Questionnaire](hedtsk_take_questionnaire.md)
+
+Participant reads or hears a series of questionnaire items and records a response to each; the instrument administered is a parameter of the block, not a variation. Engages no process links (pseudo task).
+
+```{toctree}
+:hidden:
+:maxdepth: 2
+
+Conflict and interference <families/conflict_and_interference>
+Response inhibition and stopping <families/response_inhibition>
+Attentional cueing and orienting <families/attentional_cueing>
+Visual search and tracking <families/visual_search_and_tracking>
+Oddball, vigilance and continuous performance <families/oddball_and_vigilance>
+Perceptual judgment and psychophysics <families/perceptual_judgment>
+Short-term and working memory <families/working_memory_span>
+Recall and recognition memory <families/recall_and_recognition>
+Memory control and prospective memory <families/memory_control>
+Metacognition, agency and interoception <families/metacognition_and_interoception>
+Conditioning, reinforcement and implicit learning <families/conditioning_and_reinforcement>
+Motor performance and speeded response <families/motor_performance>
+Rule use, planning and reasoning <families/executive_and_reasoning>
+Reward, risk and value-based choice <families/reward_and_value_choice>
+Social cognition and social choice <families/social_cognition_and_games>
+Emotion elicitation and regulation <families/emotion>
+Language comprehension and production <families/language>
+Spatial cognition and navigation <families/spatial_navigation>
+Pseudo tasks: rest, fixation and self-report blocks <families/pseudo_tasks>
+```
