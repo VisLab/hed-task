@@ -18,10 +18,10 @@ This family contains 6 tasks.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_dictator_game
-../hedtsk_false_belief
-../hedtsk_prisoners_dilemma
-../hedtsk_reading_the_mind_in_the_eyes
-../hedtsk_trust_game
-../hedtsk_ultimatum_game
+Dictator Game <../hedtsk_dictator_game>
+False Belief <../hedtsk_false_belief>
+Prisoner's Dilemma <../hedtsk_prisoners_dilemma>
+Reading the Mind in the Eyes <../hedtsk_reading_the_mind_in_the_eyes>
+Trust Game <../hedtsk_trust_game>
+Ultimatum Game <../hedtsk_ultimatum_game>
 ```

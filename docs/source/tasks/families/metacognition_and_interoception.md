@@ -17,9 +17,9 @@ This family contains 5 tasks.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_body_ownership_illusion
-../hedtsk_feeling_of_knowing
-../hedtsk_heartbeat_detection
-../hedtsk_intentional_binding
-../hedtsk_judgment_of_learning
+Body Ownership Illusion <../hedtsk_body_ownership_illusion>
+Feeling-of-Knowing <../hedtsk_feeling_of_knowing>
+Heartbeat Detection <../hedtsk_heartbeat_detection>
+Intentional Binding <../hedtsk_intentional_binding>
+Judgment-of-Learning <../hedtsk_judgment_of_learning>
 ```

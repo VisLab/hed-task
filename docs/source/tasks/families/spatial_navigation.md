@@ -24,7 +24,7 @@ where else they could go.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_mental_rotation
-../hedtsk_virtual_morris_water_maze
-../hedtsk_virtual_radial_arm_maze
+Mental Rotation <../hedtsk_mental_rotation>
+Virtual Morris Water Maze <../hedtsk_virtual_morris_water_maze>
+Virtual Radial Arm Maze <../hedtsk_virtual_radial_arm_maze>
 ```

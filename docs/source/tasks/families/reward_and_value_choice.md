@@ -18,10 +18,10 @@ This family contains 6 tasks.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_balloon_analog_risk
-../hedtsk_delay_discounting
-../hedtsk_effort_based_decision_making
-../hedtsk_iowa_gambling
-../hedtsk_monetary_incentive_delay
-../hedtsk_social_incentive_delay
+Balloon Analog Risk <../hedtsk_balloon_analog_risk>
+Delay Discounting <../hedtsk_delay_discounting>
+Effort-Based Decision-Making <../hedtsk_effort_based_decision_making>
+Iowa Gambling <../hedtsk_iowa_gambling>
+Monetary Incentive Delay <../hedtsk_monetary_incentive_delay>
+Social Incentive Delay <../hedtsk_social_incentive_delay>
 ```

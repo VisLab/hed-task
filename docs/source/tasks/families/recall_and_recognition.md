@@ -30,13 +30,13 @@ where else they could go.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_autobiographical_memory
-../hedtsk_cambridge_face_memory
-../hedtsk_free_recall
-../hedtsk_mnemonic_similarity
-../hedtsk_old_new_recognition_memory
-../hedtsk_paired_associates_learning
-../hedtsk_remember_know
-../hedtsk_rey_auditory_verbal_learning
-../hedtsk_source_memory
+Autobiographical Memory <../hedtsk_autobiographical_memory>
+Cambridge Face Memory <../hedtsk_cambridge_face_memory>
+Free Recall <../hedtsk_free_recall>
+Mnemonic Similarity <../hedtsk_mnemonic_similarity>
+Old/New Recognition Memory <../hedtsk_old_new_recognition_memory>
+Paired Associates Learning <../hedtsk_paired_associates_learning>
+Remember/Know <../hedtsk_remember_know>
+Rey Auditory Verbal Learning <../hedtsk_rey_auditory_verbal_learning>
+Source Memory <../hedtsk_source_memory>
 ```

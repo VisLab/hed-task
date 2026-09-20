@@ -15,7 +15,7 @@ This family contains 3 tasks.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_fixate
-../hedtsk_rest
-../hedtsk_take_questionnaire
+Fixate <../hedtsk_fixate>
+Rest <../hedtsk_rest>
+Take Questionnaire <../hedtsk_take_questionnaire>
 ```

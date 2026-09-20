@@ -24,7 +24,7 @@ where else they could go.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_attention_network
-../hedtsk_dot_probe
-../hedtsk_posner_spatial_cueing
+Attention Network <../hedtsk_attention_network>
+Dot-Probe <../hedtsk_dot_probe>
+Posner Spatial Cueing <../hedtsk_posner_spatial_cueing>
 ```

@@ -25,8 +25,8 @@ where else they could go.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_affective_picture_viewing
-../hedtsk_affective_priming
-../hedtsk_emotion_regulation
-../hedtsk_facial_emotion_recognition
+Affective Picture Viewing <../hedtsk_affective_picture_viewing>
+Affective Priming <../hedtsk_affective_priming>
+Emotion Regulation <../hedtsk_emotion_regulation>
+Facial Emotion Recognition <../hedtsk_facial_emotion_recognition>
 ```

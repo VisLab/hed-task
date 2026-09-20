@@ -25,8 +25,8 @@ where else they could go.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_directed_forgetting
-../hedtsk_prospective_memory
-../hedtsk_self_referential_encoding
-../hedtsk_think_no_think
+Directed Forgetting <../hedtsk_directed_forgetting>
+Prospective Memory <../hedtsk_prospective_memory>
+Self-Referential Encoding <../hedtsk_self_referential_encoding>
+Think/No-Think <../hedtsk_think_no_think>
 ```

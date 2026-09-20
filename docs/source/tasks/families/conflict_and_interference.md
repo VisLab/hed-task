@@ -30,12 +30,12 @@ where else they could go.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_emotional_stroop
-../hedtsk_eriksen_flanker
-../hedtsk_imitation_inhibition
-../hedtsk_implicit_association
-../hedtsk_navon
-../hedtsk_simon
-../hedtsk_stroop_color_word
-../hedtsk_weapons_identification
+Emotional Stroop <../hedtsk_emotional_stroop>
+Eriksen Flanker <../hedtsk_eriksen_flanker>
+Imitation-Inhibition <../hedtsk_imitation_inhibition>
+Implicit Association <../hedtsk_implicit_association>
+Navon <../hedtsk_navon>
+Simon <../hedtsk_simon>
+Stroop Color-Word <../hedtsk_stroop_color_word>
+Weapons Identification <../hedtsk_weapons_identification>
 ```

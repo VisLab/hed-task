@@ -29,11 +29,11 @@ where else they could go.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_ravens_progressive_matrices
-../hedtsk_remote_associates
-../hedtsk_task_switching
-../hedtsk_tower_of_london
-../hedtsk_trail_making
-../hedtsk_wason_selection
-../hedtsk_wisconsin_card_sorting
+Raven's Progressive Matrices <../hedtsk_ravens_progressive_matrices>
+Remote Associates <../hedtsk_remote_associates>
+Task Switching <../hedtsk_task_switching>
+Tower of London <../hedtsk_tower_of_london>
+Trail Making <../hedtsk_trail_making>
+Wason Selection <../hedtsk_wason_selection>
+Wisconsin Card Sorting <../hedtsk_wisconsin_card_sorting>
 ```
