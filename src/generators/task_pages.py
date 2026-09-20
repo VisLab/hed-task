@@ -11,10 +11,13 @@ Files written:
                                  task
 - docs/tasks/hedtsk_*.md         one page per task
 
-The sidebar therefore reads Tasks > Tasks by paradigm family > family > task, and Tasks >
+The document tree is Tasks > Tasks by paradigm family > family > task, and Tasks >
 Tasks alphabetically > task. Each task page sits in two toctrees, which Sphinx allows
-(it picks the first as the parent for prev/next links). Sidebar labels drop the
-trailing "Task" or "tasks" of a name; page titles keep it. See `_short_name`.
+(it picks the first as the parent for prev/next links). The left sidebar shows only the
+first two levels; a rule in docs/source/_static/custom.css hides the family and task
+entries, and the right-hand contents menu of the two listing pages takes over from
+there. Listing headings and sidebar labels drop a trailing "Task", "tasks" or "tests"
+from a name; page titles keep it. See `_short_name`.
 
 Families come from data/task_families.tsv and data/task_family_defs.tsv; see
 data/README.md. The assignment is validated in generate_docs.py before anything is
