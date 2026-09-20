@@ -25,8 +25,8 @@ where else they could go.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_contextual_cueing
-../hedtsk_multiple_object_tracking
-../hedtsk_useful_field_of_view
-../hedtsk_visual_search
+Contextual Cueing <../hedtsk_contextual_cueing>
+Multiple Object Tracking <../hedtsk_multiple_object_tracking>
+Useful Field of View <../hedtsk_useful_field_of_view>
+Visual Search <../hedtsk_visual_search>
 ```

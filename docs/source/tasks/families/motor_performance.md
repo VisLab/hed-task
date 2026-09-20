@@ -27,9 +27,9 @@ where else they could go.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_digit_symbol_substitution
-../hedtsk_finger_tapping
-../hedtsk_mirror_tracing
-../hedtsk_motor_sequence_learning
-../hedtsk_psychological_refractory_period
+Digit Symbol Substitution <../hedtsk_digit_symbol_substitution>
+Finger Tapping <../hedtsk_finger_tapping>
+Mirror Tracing <../hedtsk_mirror_tracing>
+Motor Sequence Learning <../hedtsk_motor_sequence_learning>
+Psychological Refractory Period <../hedtsk_psychological_refractory_period>
 ```

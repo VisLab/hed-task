@@ -1,7 +1,7 @@
-# All tasks alphabetically
+# Tasks alphabetically
 
 All 106 tasks in one table, with the paradigm family each is filed under.
-The [task index](index.md) presents the same tasks grouped by family.
+[Tasks by category](by_category.md) presents the same tasks grouped by family.
 
 | Task | Family | Short definition | Processes |
 |---|---|---|---|
@@ -111,3 +111,115 @@ The [task index](index.md) presents the same tasks grouped by family.
 | [Wason Selection Task](hedtsk_wason_selection.md) | [Rule use, planning and reasoning tasks](families/executive_and_reasoning.md) | Four cards with letters and numbers under a conditional rule; participants choose cards to turn over... | 3 |
 | [Weapons Identification Task](hedtsk_weapons_identification.md) | [Conflict and interference tasks](families/conflict_and_interference.md) | Speeded categorization of tools vs weapons primed by faces of varying race; congruence effects index... | 6 |
 | [Wisconsin Card Sorting Task](hedtsk_wisconsin_card_sorting.md) | [Rule use, planning and reasoning tasks](families/executive_and_reasoning.md) | Sort cards by a hidden rule (color, form, or number) using only correct/incorrect feedback; after ru... | 5 |
+
+```{toctree}
+:hidden:
+:maxdepth: 1
+
+Affective Picture Viewing <hedtsk_affective_picture_viewing>
+Affective Priming <hedtsk_affective_priming>
+Anti-Saccade <hedtsk_anti_saccade>
+Artificial Grammar Learning <hedtsk_artificial_grammar_learning>
+Attention Network <hedtsk_attention_network>
+Auditory Masking <hedtsk_auditory_masking>
+Autobiographical Memory <hedtsk_autobiographical_memory>
+Balloon Analog Risk <hedtsk_balloon_analog_risk>
+Biological Motion Perception <hedtsk_biological_motion_perception>
+Body Ownership Illusion <hedtsk_body_ownership_illusion>
+Cambridge Face Memory <hedtsk_cambridge_face_memory>
+Causal Learning <hedtsk_causal_learning>
+Change Detection <hedtsk_change_detection>
+Contextual Cueing <hedtsk_contextual_cueing>
+Continuous Performance <hedtsk_continuous_performance>
+Corsi Block-Tapping <hedtsk_corsi_block_tapping>
+Delay Discounting <hedtsk_delay_discounting>
+Delayed Match-to-Sample <hedtsk_delayed_match_to_sample>
+Dictator Game <hedtsk_dictator_game>
+Digit Span <hedtsk_digit_span>
+Digit Symbol Substitution <hedtsk_digit_symbol_substitution>
+Directed Forgetting <hedtsk_directed_forgetting>
+Dot-Probe <hedtsk_dot_probe>
+Effort-Based Decision-Making <hedtsk_effort_based_decision_making>
+Emotion Regulation <hedtsk_emotion_regulation>
+Emotional Stroop <hedtsk_emotional_stroop>
+Eriksen Flanker <hedtsk_eriksen_flanker>
+Face Processing <hedtsk_face_processing>
+Facial Emotion Recognition <hedtsk_facial_emotion_recognition>
+False Belief <hedtsk_false_belief>
+Feeling-of-Knowing <hedtsk_feeling_of_knowing>
+Finger Tapping <hedtsk_finger_tapping>
+Fixate <hedtsk_fixate>
+Free Recall <hedtsk_free_recall>
+Go/No-Go <hedtsk_go_no_go>
+Heartbeat Detection <hedtsk_heartbeat_detection>
+Imitation-Inhibition <hedtsk_imitation_inhibition>
+Implicit Association <hedtsk_implicit_association>
+Instrumental Conditioning <hedtsk_instrumental_conditioning>
+Intentional Binding <hedtsk_intentional_binding>
+Iowa Gambling <hedtsk_iowa_gambling>
+Judgment-of-Learning <hedtsk_judgment_of_learning>
+Lexical Decision <hedtsk_lexical_decision>
+Mental Rotation <hedtsk_mental_rotation>
+Mirror Tracing <hedtsk_mirror_tracing>
+Mismatch Negativity <hedtsk_mismatch_negativity>
+Mnemonic Similarity <hedtsk_mnemonic_similarity>
+Monetary Incentive Delay <hedtsk_monetary_incentive_delay>
+Motor Sequence Learning <hedtsk_motor_sequence_learning>
+Multi-Armed Bandit <hedtsk_multi_armed_bandit>
+Multiple Object Tracking <hedtsk_multiple_object_tracking>
+N-Back <hedtsk_n_back>
+Navon <hedtsk_navon>
+Oddball <hedtsk_oddball>
+Old/New Recognition Memory <hedtsk_old_new_recognition_memory>
+Operation Span <hedtsk_operation_span>
+Paired Associates Learning <hedtsk_paired_associates_learning>
+Pavlovian Fear Conditioning <hedtsk_pavlovian_fear_conditioning>
+Phonological Awareness <hedtsk_phonological_awareness>
+Picture Naming <hedtsk_picture_naming>
+Posner Spatial Cueing <hedtsk_posner_spatial_cueing>
+Prisoner's Dilemma <hedtsk_prisoners_dilemma>
+Probabilistic Classification Learning <hedtsk_probabilistic_classification_learning>
+Probabilistic Selection <hedtsk_probabilistic_selection>
+Prospective Memory <hedtsk_prospective_memory>
+Psychological Refractory Period <hedtsk_psychological_refractory_period>
+Psychomotor Vigilance <hedtsk_psychomotor_vigilance>
+Random Dot Kinematogram <hedtsk_random_dot_kinematogram>
+Rapid Serial Visual Presentation <hedtsk_rapid_serial_visual_presentation>
+Raven's Progressive Matrices <hedtsk_ravens_progressive_matrices>
+Reading the Mind in the Eyes <hedtsk_reading_the_mind_in_the_eyes>
+Remember/Know <hedtsk_remember_know>
+Remote Associates <hedtsk_remote_associates>
+Rest <hedtsk_rest>
+Reversal Learning <hedtsk_reversal_learning>
+Rey Auditory Verbal Learning <hedtsk_rey_auditory_verbal_learning>
+Self-Paced Reading <hedtsk_self_paced_reading>
+Self-Referential Encoding <hedtsk_self_referential_encoding>
+Semantic Priming <hedtsk_semantic_priming>
+Sentence Comprehension <hedtsk_sentence_comprehension>
+Serial Reaction Time <hedtsk_serial_reaction_time>
+Simon <hedtsk_simon>
+Social Incentive Delay <hedtsk_social_incentive_delay>
+Source Memory <hedtsk_source_memory>
+Sternberg Item Recognition <hedtsk_sternberg_item_recognition>
+Stop-Signal <hedtsk_stop_signal>
+Stroop Color-Word <hedtsk_stroop_color_word>
+Sustained Attention to Response <hedtsk_sustained_attention_to_response>
+Take Questionnaire <hedtsk_take_questionnaire>
+Task Switching <hedtsk_task_switching>
+Think/No-Think <hedtsk_think_no_think>
+Tower of London <hedtsk_tower_of_london>
+Trail Making <hedtsk_trail_making>
+Trust Game <hedtsk_trust_game>
+Two-Stage Decision <hedtsk_two_stage_decision>
+Ultimatum Game <hedtsk_ultimatum_game>
+Useful Field of View <hedtsk_useful_field_of_view>
+Verb Generation <hedtsk_verb_generation>
+Verbal Fluency <hedtsk_verbal_fluency>
+Virtual Morris Water Maze <hedtsk_virtual_morris_water_maze>
+Virtual Radial Arm Maze <hedtsk_virtual_radial_arm_maze>
+Visual Masking <hedtsk_visual_masking>
+Visual Search <hedtsk_visual_search>
+Wason Selection <hedtsk_wason_selection>
+Weapons Identification <hedtsk_weapons_identification>
+Wisconsin Card Sorting <hedtsk_wisconsin_card_sorting>
+```

@@ -25,8 +25,8 @@ where else they could go.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_anti_saccade
-../hedtsk_go_no_go
-../hedtsk_stop_signal
-../hedtsk_sustained_attention_to_response
+Anti-Saccade <../hedtsk_anti_saccade>
+Go/No-Go <../hedtsk_go_no_go>
+Stop-Signal <../hedtsk_stop_signal>
+Sustained Attention to Response <../hedtsk_sustained_attention_to_response>
 ```

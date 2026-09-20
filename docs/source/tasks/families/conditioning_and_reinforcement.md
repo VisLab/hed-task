@@ -31,14 +31,14 @@ where else they could go.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_artificial_grammar_learning
-../hedtsk_causal_learning
-../hedtsk_instrumental_conditioning
-../hedtsk_multi_armed_bandit
-../hedtsk_pavlovian_fear_conditioning
-../hedtsk_probabilistic_classification_learning
-../hedtsk_probabilistic_selection
-../hedtsk_reversal_learning
-../hedtsk_serial_reaction_time
-../hedtsk_two_stage_decision
+Artificial Grammar Learning <../hedtsk_artificial_grammar_learning>
+Causal Learning <../hedtsk_causal_learning>
+Instrumental Conditioning <../hedtsk_instrumental_conditioning>
+Multi-Armed Bandit <../hedtsk_multi_armed_bandit>
+Pavlovian Fear Conditioning <../hedtsk_pavlovian_fear_conditioning>
+Probabilistic Classification Learning <../hedtsk_probabilistic_classification_learning>
+Probabilistic Selection <../hedtsk_probabilistic_selection>
+Reversal Learning <../hedtsk_reversal_learning>
+Serial Reaction Time <../hedtsk_serial_reaction_time>
+Two-Stage Decision <../hedtsk_two_stage_decision>
 ```

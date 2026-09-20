@@ -2,11 +2,19 @@
 
 Files written:
 
-- docs/tasks/index.md            the task catalog: one section per paradigm family
-- docs/tasks/families/<id>.md    one page per family, whose toctree nests its tasks in
-                                 the sidebar
-- docs/tasks/all_tasks.md        the flat alphabetical lookup table
+- docs/tasks/index.md            the task landing page: what a task page holds, the
+                                 families at a glance, and the two ways in
+- docs/tasks/by_category.md      the catalog grouped by paradigm family, one section
+                                 per family; its toctree nests the family pages
+- docs/tasks/families/<id>.md    one page per family, whose toctree nests its tasks
+- docs/tasks/alphabetically.md   the flat alphabetical table; its toctree lists every
+                                 task
 - docs/tasks/hedtsk_*.md         one page per task
+
+The sidebar therefore reads Tasks > Tasks by category > family > task, and Tasks >
+Tasks alphabetically > task. Each task page sits in two toctrees, which Sphinx allows
+(it picks the first as the parent for prev/next links). Sidebar labels drop the
+trailing "Task" or "tasks" of a name; page titles keep it. See `_sidebar_title`.
 
 Families come from data/task_families.tsv and data/task_family_defs.tsv; see
 data/README.md. The assignment is validated in generate_docs.py before anything is
@@ -54,9 +62,10 @@ def generate(
 
     count = 0
     count += _write_task_index(tasks_dir, families, tasks_by_family, confidence_of)
+    count += _write_by_category(tasks_dir, families, tasks_by_family)
     for fam in families:
         count += _write_family_page(tasks_dir, fam, tasks_by_family[fam["family_id"]], family_rows)
-    count += _write_all_tasks(tasks_dir, sorted_tasks, family_of, family_by_id)
+    count += _write_alphabetical(tasks_dir, sorted_tasks, family_of, family_by_id)
     for task in sorted_tasks:
         fam = family_by_id[family_of[task["hedtsk_id"]]]
         count += _write_task_page(tasks_dir, task, fam, processes_by_id, atlas_map or {})
@@ -66,6 +75,36 @@ def generate(
 # ---------------------------------------------------------------------------
 # Index and family pages
 # ---------------------------------------------------------------------------
+
+
+def _sidebar_title(name: str) -> str:
+    """Return the sidebar label for a task or family name.
+
+    The label drops a trailing " Task" (canonical task names), " tasks" or " tests"
+    (family names) because the sidebar already sits under a "Tasks" heading. A name
+    that ends some other way ("Pseudo tasks: ...") is left alone. Page titles are
+    never shortened; only the toctree entry is.
+
+    Parameters:
+        name: The canonical task name or the family name.
+    """
+    for suffix in (" Task", " tasks", " tests"):
+        if name.endswith(suffix):
+            return name[: -len(suffix)]
+    return name
+
+
+def _toctree(entries: list[tuple[str, str]], maxdepth: int) -> str:
+    """Return a hidden toctree whose entries carry explicit sidebar titles.
+
+    Parameters:
+        entries: (sidebar title, document path) pairs.
+        maxdepth: The toctree's maxdepth option.
+    """
+    lines = ["```{toctree}", ":hidden:", f":maxdepth: {maxdepth}", ""]
+    lines += [f"{title} <{doc}>" for title, doc in entries]
+    lines.append("```")
+    return "\n".join(lines) + "\n"
 
 
 def _task_row(task: dict, link_prefix: str) -> list[str]:
@@ -101,8 +140,11 @@ def _write_task_index(
         "exactly one, the assignment is a curation decision, and it is expected to change as\n"
         f"the catalog grows. {n_review} of the {n_tasks} assignments are marked for review in the\n"
         "source table because a reasonable reader could file the task elsewhere; the family\n"
-        "pages say which. The [alphabetical list](all_tasks.md) is the fallback when you know\n"
-        "the name and not the family.\n\n",
+        "pages say which.\n\n",
+        "Two ways in:\n\n",
+        "- [Tasks by category](by_category.md) lists every task under its family, with the\n  family's scope statement.\n",
+        "- [Tasks alphabetically](alphabetically.md) is one table of every task, for when you\n"
+        "  know the name and not the family.\n\n",
         "## Families at a glance\n\n",
     ]
 
@@ -111,21 +153,30 @@ def _write_task_index(
     ]
     parts.append(table(["Family", "Tasks"], rows))
     parts.append("\n\n")
+    parts.append(_toctree([("Tasks by category", "by_category"), ("Tasks alphabetically", "alphabetically")], 3))
 
+    write_page(tasks_dir / "index.md", "".join(parts))
+    return 1
+
+
+def _write_by_category(tasks_dir: Path, families: list[dict], tasks_by_family: dict[str, list[dict]]) -> int:
+    """Write docs/tasks/by_category.md: one section per family, nesting the family pages."""
+    parts: list[str] = [
+        "# Tasks by category\n\n",
+        f"The {len(families)} paradigm families, each with its scope statement and the tasks filed\n"
+        "under it. Every task is in exactly one family. The family pages repeat these tables and\n"
+        "add the assignments marked for review. The [alphabetical list](alphabetically.md) has\n"
+        "the same tasks in one table.\n\n",
+    ]
     for fam in families:
         fam_tasks = tasks_by_family[fam["family_id"]]
-        parts.append(f"## {fam['name']}\n\n")
+        parts.append(f"## [{fam['name']}](families/{fam['family_id']}.md)\n\n")
         parts.append(f"{fam['scope']}\n\n")
         parts.append(table(["Task", "Short definition", "Processes"], [_task_row(t, "") for t in fam_tasks]))
         parts.append("\n\n")
 
-    parts.append("```{toctree}\n:hidden:\n:maxdepth: 2\n\n")
-    for fam in families:
-        parts.append(f"families/{fam['family_id']}\n")
-    parts.append("all_tasks\n")
-    parts.append("```\n")
-
-    write_page(tasks_dir / "index.md", "".join(parts))
+    parts.append(_toctree([(_sidebar_title(fam["name"]), f"families/{fam['family_id']}") for fam in families], 2))
+    write_page(tasks_dir / "by_category.md", "".join(parts))
     return 1
 
 
@@ -155,22 +206,19 @@ def _write_family_page(tasks_dir: Path, fam: dict, fam_tasks: list[dict], family
         parts.append(table(["Task", "Note"], rows))
         parts.append("\n\n")
 
-    parts.append("```{toctree}\n:hidden:\n:maxdepth: 1\n\n")
-    for t in fam_tasks:
-        parts.append(f"../{t['hedtsk_id']}\n")
-    parts.append("```\n")
+    parts.append(_toctree([(_sidebar_title(t["canonical_name"]), f"../{t['hedtsk_id']}") for t in fam_tasks], 1))
 
     write_page(tasks_dir / "families" / f"{fid}.md", "".join(parts))
     return 1
 
 
-def _write_all_tasks(
+def _write_alphabetical(
     tasks_dir: Path,
     sorted_tasks: list[dict],
     family_of: dict[str, str],
     family_by_id: dict[str, dict],
 ) -> int:
-    """Write docs/tasks/all_tasks.md."""
+    """Write docs/tasks/alphabetically.md, whose toctree lists every task for the sidebar."""
     rows = []
     for task in sorted_tasks:
         fam = family_by_id[family_of[task["hedtsk_id"]]]
@@ -183,13 +231,14 @@ def _write_all_tasks(
             ]
         )
     content = (
-        "# All tasks alphabetically\n\n"
+        "# Tasks alphabetically\n\n"
         f"All {len(sorted_tasks)} tasks in one table, with the paradigm family each is filed under.\n"
-        "The [task index](index.md) presents the same tasks grouped by family.\n\n"
+        "[Tasks by category](by_category.md) presents the same tasks grouped by family.\n\n"
         + table(["Task", "Family", "Short definition", "Processes"], rows)
-        + "\n"
+        + "\n\n"
+        + _toctree([(_sidebar_title(t["canonical_name"]), t["hedtsk_id"]) for t in sorted_tasks], 1)
     )
-    write_page(tasks_dir / "all_tasks.md", content)
+    write_page(tasks_dir / "alphabetically.md", content)
     return 1
 
 

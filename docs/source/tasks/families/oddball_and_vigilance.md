@@ -26,9 +26,9 @@ where else they could go.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_continuous_performance
-../hedtsk_mismatch_negativity
-../hedtsk_oddball
-../hedtsk_psychomotor_vigilance
-../hedtsk_rapid_serial_visual_presentation
+Continuous Performance <../hedtsk_continuous_performance>
+Mismatch Negativity <../hedtsk_mismatch_negativity>
+Oddball <../hedtsk_oddball>
+Psychomotor Vigilance <../hedtsk_psychomotor_vigilance>
+Rapid Serial Visual Presentation <../hedtsk_rapid_serial_visual_presentation>
 ```

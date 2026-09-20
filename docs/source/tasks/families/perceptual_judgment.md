@@ -17,9 +17,9 @@ This family contains 5 tasks.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_auditory_masking
-../hedtsk_biological_motion_perception
-../hedtsk_face_processing
-../hedtsk_random_dot_kinematogram
-../hedtsk_visual_masking
+Auditory Masking <../hedtsk_auditory_masking>
+Biological Motion Perception <../hedtsk_biological_motion_perception>
+Face Processing <../hedtsk_face_processing>
+Random Dot Kinematogram <../hedtsk_random_dot_kinematogram>
+Visual Masking <../hedtsk_visual_masking>
 ```

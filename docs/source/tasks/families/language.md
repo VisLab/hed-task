@@ -20,12 +20,12 @@ This family contains 8 tasks.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_lexical_decision
-../hedtsk_phonological_awareness
-../hedtsk_picture_naming
-../hedtsk_self_paced_reading
-../hedtsk_semantic_priming
-../hedtsk_sentence_comprehension
-../hedtsk_verb_generation
-../hedtsk_verbal_fluency
+Lexical Decision <../hedtsk_lexical_decision>
+Phonological Awareness <../hedtsk_phonological_awareness>
+Picture Naming <../hedtsk_picture_naming>
+Self-Paced Reading <../hedtsk_self_paced_reading>
+Semantic Priming <../hedtsk_semantic_priming>
+Sentence Comprehension <../hedtsk_sentence_comprehension>
+Verb Generation <../hedtsk_verb_generation>
+Verbal Fluency <../hedtsk_verbal_fluency>
 ```

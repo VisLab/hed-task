@@ -21,7 +21,7 @@ Three routes lead to a task page.
  tasks that engage the process, and the [task-process links](crossref.md) page gives
  the whole matrix.
 
-The [alphabetical list](tasks/all_tasks.md) is the fallback when you know the name but
+The [alphabetical list](tasks/alphabetically.md) is the fallback when you know the name but
 not the family.
 
 ## Reading a task page

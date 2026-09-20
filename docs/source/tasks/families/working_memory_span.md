@@ -19,11 +19,11 @@ This family contains 7 tasks.
 :hidden:
 :maxdepth: 1
 
-../hedtsk_change_detection
-../hedtsk_corsi_block_tapping
-../hedtsk_delayed_match_to_sample
-../hedtsk_digit_span
-../hedtsk_n_back
-../hedtsk_operation_span
-../hedtsk_sternberg_item_recognition
+Change Detection <../hedtsk_change_detection>
+Corsi Block-Tapping <../hedtsk_corsi_block_tapping>
+Delayed Match-to-Sample <../hedtsk_delayed_match_to_sample>
+Digit Span <../hedtsk_digit_span>
+N-Back <../hedtsk_n_back>
+Operation Span <../hedtsk_operation_span>
+Sternberg Item Recognition <../hedtsk_sternberg_item_recognition>
 ```
