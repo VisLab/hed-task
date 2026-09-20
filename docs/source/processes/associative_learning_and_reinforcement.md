@@ -7,22 +7,6 @@
 
 This category contains 13 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Associative learning](#hed-associative-learning) | Learning of co-occurrence relations between stimuli or between stimuli and responses. | 7 |
-| [Extinction](#hed-extinction) | Decrease in a previously reinforced response when reinforcement is withheld; a form of new inhibitory learning rather th... | 1 |
-| [Goal-directed behavior](#hed-goal-directed-behavior) | Behavior that is sensitive to current outcome value, characteristic of action–outcome learning. | 1 |
-| [Habit](#hed-habit) | Behavior that is insensitive to the current value of its outcome, characteristic of stimulus–response learning. | 1 |
-| [Instrumental conditioning](#hed-instrumental-conditioning) | Learning that an action produces an outcome; also called operant conditioning. Encompasses both goal-directed (action–ou... | 1 |
-| [Model-based learning](#hed-model-based-learning) | Reinforcement learning that uses an internal model of the environment's transition and reward structure to plan. | 1 |
-| [Model-free learning](#hed-model-free-learning) | Reinforcement learning from cached value estimates updated by prediction errors, without an explicit model of the enviro... | 1 |
-| [Pavlovian conditioning](#hed-pavlovian-conditioning) | Learning that a neutral stimulus predicts a biologically significant outcome, leading to conditioned responding. | 1 |
-| [Policy learning](#hed-policy-learning) | Direct learning of a mapping from states to actions without necessarily estimating values. | 0 |
-| [Reinforcement learning](#hed-reinforcement-learning) | Learning to select actions that maximize cumulative reward through experience with reward prediction errors. | 7 |
-| [Reversal learning](#hed-reversal-learning) | Relearning after contingencies between stimuli (or responses) and outcomes are switched. | 1 |
-| [Reward prediction error](#hed-reward-prediction-error) | Signed difference between received and expected reward, instantiated by phasic midbrain dopamine firing. | 7 |
-| [Value learning](#hed-value-learning) | Acquisition of the expected value of stimuli, actions, or states from experience with outcomes. | 2 |
-
 (hed-associative-learning)=
 ## Associative learning
 

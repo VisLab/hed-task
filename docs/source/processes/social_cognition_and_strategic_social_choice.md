@@ -11,20 +11,6 @@
 
 This category contains 11 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Competition](#hed-competition) | Action in conflict with another agent's interests for a contested resource. | 1 |
-| [Cooperation](#hed-cooperation) | Coordinated action among agents for mutual benefit, often at individual cost. | 2 |
-| [Imitation](#hed-imitation) | Reproduction of observed actions or behaviors. | 1 |
-| [In-group/out-group processing](#hed-in-group-out-group-processing) | Differential processing of members of one's own group versus other groups. | 2 |
-| [Joint attention](#hed-joint-attention) | Coordinated focus by two or more agents on the same object or event, involving shared awareness that attention is joint. | 0 |
-| [Perspective taking](#hed-perspective-taking) | Representation of another's viewpoint, visual or cognitive. | 5 |
-| [Reciprocity](#hed-reciprocity) | Contingent positive or negative responses to another's prior behavior. | 4 |
-| [Self-other distinction](#hed-self-other-distinction) | Discrimination between self-generated and other-generated states or actions. | 1 |
-| [Social decision making](#hed-social-decision-making) | Choice involving other agents and their preferences, often in strategic settings. | 4 |
-| [Social perception](#hed-social-perception) | Visual perception of socially relevant stimuli, including faces, bodies, and actions. | 6 |
-| [Stereotyping](#hed-stereotyping) | Attribution of attributes to individuals based on social category membership. | 2 |
-
 (hed-competition)=
 ## Competition
 

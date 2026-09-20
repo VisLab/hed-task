@@ -11,25 +11,6 @@
 
 This category contains 16 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Discourse processing](#hed-discourse-processing) | Integration of sentences into coherent representations of extended text or conversation. | 1 |
-| [Language comprehension](#hed-language-comprehension) | Extraction of meaning from linguistic input (spoken, written, or signed). | 2 |
-| [Language production](#hed-language-production) | Generation of spoken, written, or signed linguistic output, from message to articulation. | 2 |
-| [Lexical access](#hed-lexical-access) | Retrieval of word-level representations (form and meaning) from memory. | 7 |
-| [Naming](#hed-naming) | Production of a word label for a presented stimulus (e.g., picture naming). | 1 |
-| [Phonological awareness](#hed-phonological-awareness) | Explicit awareness of the sound structure of spoken words (onsets, rimes, phonemes). | 1 |
-| [Phonological encoding](#hed-phonological-encoding) | Assembly of phonological representations during language production. | 1 |
-| [Reading](#hed-reading) | Visual processing of written text, integrating orthography, phonology, and meaning. | 3 |
-| [Semantic knowledge](#hed-semantic-knowledge) | Long-term store of facts, concepts, and word meanings. | 3 |
-| [Semantic processing](#hed-semantic-processing) | Access and integration of word and phrase meaning, indexed by the N400. | 8 |
-| [Sentence comprehension](#hed-sentence-comprehension) | Integration of lexical, syntactic, and semantic information to derive sentence meaning. | 1 |
-| [Speech perception](#hed-speech-perception) | Extraction of linguistic content from the acoustic speech signal, including phoneme categorization, word segmentation, a... | 1 |
-| [Speech production](#hed-speech-production) | Planning and articulation of spoken output; the motor component of articulation is covered under vocal-motor control in... | 2 |
-| [Syntactic parsing](#hed-syntactic-parsing) | Assignment of hierarchical grammatical structure to a linguistic input. | 1 |
-| [Verbal fluency](#hed-verbal-fluency) | Rapid generation of words under a semantic or phonemic constraint. | 1 |
-| [Word recognition](#hed-word-recognition) | Identification of a word as a lexical item from its perceptual input. | 3 |
-
 (hed-discourse-processing)=
 ## Discourse processing
 

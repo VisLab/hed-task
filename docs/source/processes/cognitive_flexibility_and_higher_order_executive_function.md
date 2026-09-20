@@ -11,12 +11,6 @@
 
 This category contains 3 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Goal maintenance](#hed-goal-maintenance) | Active holding of task goals, rules, or sub-goals in a form that biases ongoing processing. | 1 |
-| [Set shifting](#hed-set-shifting) | Flexible reconfiguration of the task set in response to a change in task demands; the primary experimental operationaliz... | 5 |
-| [Strategy use](#hed-strategy-use) | Selection and implementation of a cognitive procedure chosen to improve performance on a task. | 6 |
-
 (hed-goal-maintenance)=
 ## Goal maintenance
 

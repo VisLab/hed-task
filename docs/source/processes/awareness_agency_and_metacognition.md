@@ -11,22 +11,6 @@
 
 This category contains 13 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Attentional awareness](#hed-attentional-awareness) | Awareness of the current focus and content of attention. | 2 |
-| [Body ownership](#hed-body-ownership) | The experience that a body or body-part belongs to the self, revealed by multisensory illusions in which synchronous vis... | 1 |
-| [Feeling of knowing](#hed-feeling-of-knowing) | Judgment that information currently not retrievable would be recognized if presented. | 1 |
-| [Interoceptive awareness](#hed-interoceptive-awareness) | Conscious perception of internal bodily signals such as heartbeat, respiration, and visceral state; indexed by heartbeat... | 2 |
-| [Judgment of learning](#hed-judgment-of-learning) | Prediction of future memory performance made during or after encoding. | 1 |
-| [Masking](#hed-masking) | Reduction in visibility or detectability of a target stimulus by a temporally or spatially adjacent masker. | 2 |
-| [Metacognitive control](#hed-metacognitive-control) | Regulation of cognition based on metacognitive monitoring - study-time allocation, strategy selection, answer withholdin... | 3 |
-| [Metacognitive monitoring](#hed-metacognitive-monitoring) | Second-order evaluation of ongoing first-order cognition - how confident one is in a perception, memory, or judgment - y... | 6 |
-| [Mind wandering](#hed-mind-wandering) | Task-unrelated thought that arises during an ongoing task. | 3 |
-| [Perceptual awareness](#hed-perceptual-awareness) | Conscious access to perceptual content. | 2 |
-| [Self-monitoring](#hed-self-monitoring) | Ongoing evaluation of one's own performance against task goals and expected outcomes. | 6 |
-| [Self-referential processing](#hed-self-referential-processing) | Processing of information in relation to the self, yielding enhanced encoding for self-relevant material and characteris... | 3 |
-| [Sense of agency](#hed-sense-of-agency) | The experience of being the cause of one's own actions and their sensory consequences, dissociable into implicit (intent... | 1 |
-
 (hed-attentional-awareness)=
 ## Attentional awareness
 

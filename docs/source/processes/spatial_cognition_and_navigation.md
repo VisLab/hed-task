@@ -9,11 +9,6 @@
 
 This category contains 2 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Mental rotation](#hed-mental-rotation) | Imagined rotation of a 2D or 3D figure to compare with another figure; RT increases linearly with angular disparity. | 1 |
-| [Spatial memory](#hed-spatial-memory) | Memory for the arrangement and location of objects and environments. | 4 |
-
 (hed-mental-rotation)=
 ## Mental rotation
 

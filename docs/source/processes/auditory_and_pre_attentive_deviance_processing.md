@@ -9,13 +9,6 @@
 
 This category contains 4 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Acoustic processing](#hed-acoustic-processing) | Low-level analysis of sound, including frequency, intensity, and temporal structure. | 1 |
-| [Auditory perception](#hed-auditory-perception) | Perception of sound, including pitch, timbre, loudness, and spatial location. | 2 |
-| [Auditory tone discrimination](#hed-auditory-tone-discrimination) | Judgment of whether two tones differ in pitch, intensity, or duration. | 1 |
-| [Pitch perception](#hed-pitch-perception) | Perception of the highness or lowness of a sound, related to fundamental frequency. | 1 |
-
 (hed-acoustic-processing)=
 ## Acoustic processing
 

@@ -11,18 +11,6 @@
 
 This category contains 9 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Conflict monitoring](#hed-conflict-monitoring) | Detection of co-activation of incompatible response tendencies, proposed to recruit anterior cingulate cortex and trigge... | 9 |
-| [Error correction](#hed-error-correction) | Adjustment of behavior following an error, including post-error slowing and improvement on subsequent trials. | 0 |
-| [Error detection](#hed-error-detection) | Recognition that a response was incorrect, indexed by the error-related negativity (ERN) and by error awareness. | 3 |
-| [Executive attention](#hed-executive-attention) | Resolution of conflict among thoughts, feelings, and responses; one of Posner's three attentional networks. | 3 |
-| [Interference control](#hed-interference-control) | Resistance to interference from task-irrelevant stimuli or competing response representations, measured by Stroop, Flank... | 9 |
-| [Proactive control](#hed-proactive-control) | Sustained, anticipatory maintenance of task goals that biases processing in preparation for an expected demand. | 1 |
-| [Reactive control](#hed-reactive-control) | Transient, stimulus-triggered engagement of control after interference or conflict is detected. | 1 |
-| [Response conflict](#hed-response-conflict) | Competing activation of two or more response representations on a single trial, typically engaging cognitive control. | 7 |
-| [Response inhibition](#hed-response-inhibition) | Suppression of a prepotent or already-initiated response when it becomes inappropriate, indexed behaviorally by stop-sig... | 11 |
-
 (hed-conflict-monitoring)=
 ## Conflict monitoring
 

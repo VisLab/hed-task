@@ -11,11 +11,6 @@
 
 This category contains 2 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Implicit memory](#hed-implicit-memory) | Memory expressed without conscious recollection, measurable by priming, skill learning, and conditioning. | 3 |
-| [Procedural memory](#hed-procedural-memory) | Non-declarative memory for skills and procedures, expressed through improved performance rather than conscious recollect... | 5 |
-
 (hed-implicit-memory)=
 ## Implicit memory
 

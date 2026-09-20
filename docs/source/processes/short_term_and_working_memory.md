@@ -11,18 +11,6 @@
 
 This category contains 9 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Active maintenance](#hed-active-maintenance) | Holding information active over a delay without manipulation, through volitional, attention-demanding processes; a core... | 7 |
-| [Chunking](#hed-chunking) | Binding of multiple items into a single unit in memory to expand effective capacity. | 1 |
-| [Manipulation](#hed-manipulation) | Transformation of information held in working memory (reordering, reversing, combining) beyond simple maintenance. | 2 |
-| [Rehearsal](#hed-rehearsal) | Covert repetition of material to refresh its representation in short-term memory, especially for verbal material (articu... | 2 |
-| [Spatial working memory](#hed-spatial-working-memory) | Short-term storage of spatial locations and spatial relations. | 3 |
-| [Verbal working memory](#hed-verbal-working-memory) | Short-term storage of phonological/verbal information, historically "phonological loop"; supports digit span, Sternberg... | 3 |
-| [Visual working memory](#hed-visual-working-memory) | Short-term storage and manipulation of visual information; capacity limited to ~3–4 items. | 3 |
-| [Working memory](#hed-working-memory) | System for the short-term maintenance, updating, and manipulation of task-relevant information over delays of seconds. | 7 |
-| [Working memory updating](#hed-working-memory-updating) | Replacement or revision of information currently held active in working memory with newly task-relevant content. One of... | 3 |
-
 (hed-active-maintenance)=
 ## Active maintenance
 

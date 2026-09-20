@@ -11,30 +11,6 @@
 
 This category contains 21 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Autobiographical memory](#hed-autobiographical-memory) | Memory for personally experienced events across the lifespan, integrating episodic and semantic components. | 1 |
-| [Consolidation](#hed-consolidation) | Post-encoding stabilization of memory traces, dependent on time and often on sleep; includes synaptic and systems consol... | 1 |
-| [Declarative memory](#hed-declarative-memory) | Consciously accessible memory for facts and events; encompasses semantic and episodic memory. | 1 |
-| [Directed forgetting](#hed-directed-forgetting) | Reduced memory for items that have been cued to be forgotten, relative to items cued to be remembered. | 2 |
-| [Encoding](#hed-encoding) | Processes by which perceptual input is transformed into a memory representation at acquisition. | 13 |
-| [Episodic memory](#hed-episodic-memory) | Memory for specific events located in a particular place and time and accompanied by autonoetic consciousness. | 6 |
-| [Familiarity](#hed-familiarity) | Sense that a stimulus has been encountered before, in the absence of retrieval of contextual detail. | 5 |
-| [Forgetting](#hed-forgetting) | Loss of accessibility of previously encoded information, due to decay, interference, or retrieval failure. | 0 |
-| [Pattern completion](#hed-pattern-completion) | Retrieval of a complete memory from a partial or degraded cue; CA3 function. | 1 |
-| [Pattern separation](#hed-pattern-separation) | Transformation of similar input patterns into distinct, non-overlapping memory representations; dentate gyrus function. | 1 |
-| [Proactive interference](#hed-proactive-interference) | Disruption of new learning by previously learned material. | 1 |
-| [Prospective memory](#hed-prospective-memory) | Memory for intentions to act at a future time or on a future event. | 1 |
-| [Recall](#hed-recall) | Retrieval of items without an external cue provided at test (free or cued recall). | 3 |
-| [Recognition](#hed-recognition) | Judgment that a test item has been previously encountered; supported by familiarity and recollection. | 5 |
-| [Recollection](#hed-recollection) | Retrieval of contextual detail about a prior event, including source information. | 5 |
-| [Reconsolidation](#hed-reconsolidation) | Destabilization and re-stabilization of a memory upon retrieval, creating a window for modification. | 0 |
-| [Retrieval](#hed-retrieval) | Reactivation of a stored memory representation; dissociable into cue-driven and strategic retrieval. | 14 |
-| [Retroactive interference](#hed-retroactive-interference) | Disruption of older memories by newly learned material. | 1 |
-| [Semantic memory](#hed-semantic-memory) | Long-term store of general knowledge about the world — facts, concepts, and word meanings — dissociable from episodic me... | 0 |
-| [Source memory](#hed-source-memory) | Memory for the contextual origin of information (e.g., who said it, where it was seen). | 1 |
-| [Verbal memory](#hed-verbal-memory) | Memory for linguistic material (words, sentences), tested via word lists, story recall, and RAVLT. | 1 |
-
 (hed-autobiographical-memory)=
 ## Autobiographical memory
 

@@ -319,7 +319,7 @@ def main() -> None:
     print("Generating docs/source/processes/ ...")
     n = process_pages.generate(docs_dir, processes, categories, tasks_by_id)
     total += n
-    print(f"  Wrote {n} process files (1 index + {n - 1} category pages).")
+    print(f"  Wrote {n} process files (index, by_category, alphabetically, {n - 3} category pages).")
 
     print("Generating docs/source/crossref.md ...")
     total += crossref_page.generate(docs_dir, tasks, processes, categories)

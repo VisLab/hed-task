@@ -11,14 +11,6 @@
 
 This category contains 5 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Affective priming](#hed-affective-priming) | Facilitation or interference in evaluating a target by a valence-related prime. | 1 |
-| [Cognitive reappraisal](#hed-cognitive-reappraisal) | Reinterpretation of an emotional stimulus to change its affective impact. | 1 |
-| [Emotion recognition](#hed-emotion-recognition) | Identification of emotional states from cues such as facial expression or vocal prosody. | 7 |
-| [Emotion regulation](#hed-emotion-regulation) | Processes by which individuals influence which emotions they have, when, and how they experience and express them. | 5 |
-| [Expressive suppression](#hed-expressive-suppression) | Inhibition of outward behavioral expression of emotion. | 1 |
-
 (hed-affective-priming)=
 ## Affective priming
 

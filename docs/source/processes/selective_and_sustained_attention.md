@@ -11,20 +11,6 @@
 
 This category contains 11 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Alerting](#hed-alerting) | Achieving and maintaining a state of readiness to respond, whether tonic or phasic; one of Posner's three attentional ne... | 3 |
-| [Attention shifting](#hed-attention-shifting) | Reorienting of attention from one location, feature, or object to another, indexed by cost in RT or accuracy. | 1 |
-| [Attentional capture](#hed-attentional-capture) | Involuntary shift of attention to a salient stimulus that is not the current target of task-directed attention. | 4 |
-| [Divided attention](#hed-divided-attention) | Concurrent processing of two or more streams of information or two tasks, typically yielding dual-task interference. | 4 |
-| [Feature-based attention](#hed-feature-based-attention) | Selection of a specific visual feature (e.g., a color, orientation, or motion direction) that enhances processing of tha... | 1 |
-| [Object-based attention](#hed-object-based-attention) | Selection of an object as a unit of attention such that the attended features belonging to the object are processed toge... | 2 |
-| [Orienting](#hed-orienting) | Selection of information from sensory input, typically in space, by covert or overt shifts of attention; one of Posner's... | 3 |
-| [Selective attention](#hed-selective-attention) | Prioritized processing of a task-relevant subset of stimuli (a location, feature, object, or modality) with suppression... | 22 |
-| [Spatial attention](#hed-spatial-attention) | Selection of a location in space for preferential sensory processing, measurable via cueing benefits and N2pc/P1 modulat... | 5 |
-| [Sustained attention](#hed-sustained-attention) | Maintenance of attentional engagement over extended intervals during which targets are rare or responses are repetitive;... | 8 |
-| [Temporal attention](#hed-temporal-attention) | Selection of a point in time for preferential processing, measurable via cueing benefits in time and the attentional bli... | 2 |
-
 (hed-alerting)=
 ## Alerting
 
