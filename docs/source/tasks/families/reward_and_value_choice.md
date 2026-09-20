@@ -5,14 +5,29 @@ Options differing in reward magnitude, probability, delay or effort are chosen b
 
 This family contains 6 tasks.
 
-| Task | Short definition | Processes |
-|---|---|---|
-| [Balloon Analog Risk Task](../hedtsk_balloon_analog_risk.md) | Sequential pumping of a virtual balloon for monetary reward with stochastic popping; average pumps per un-popp... | 5 |
-| [Delay Discounting Task](../hedtsk_delay_discounting.md) | Repeated choices between smaller-sooner and larger-later rewards at varying delays; indifference points estima... | 5 |
-| [Effort-Based Decision-Making Task](../hedtsk_effort_based_decision_making.md) | Participants choose between a low-effort/low-reward option and a high-effort/high-reward option on each trial;... | 5 |
-| [Iowa Gambling Task](../hedtsk_iowa_gambling.md) | Repeated choices among four decks with hidden reward and loss distributions; preference shift toward advantage... | 6 |
-| [Monetary Incentive Delay Task](../hedtsk_monetary_incentive_delay.md) | Cue predicts potential monetary gain or loss; speeded target response determines outcome. Striatal activity to... | 4 |
-| [Social Incentive Delay Task](../hedtsk_social_incentive_delay.md) | MID variant in which cues predict potential social (smiling/frowning face) rather than monetary outcomes; inde... | 4 |
+## [Balloon Analog Risk](../hedtsk_balloon_analog_risk.md)
+
+Sequential pumping of a virtual balloon for monetary reward with stochastic popping; average pumps per un-popped balloon indexes risk-taking. Engages 5 processes.
+
+## [Delay Discounting](../hedtsk_delay_discounting.md)
+
+Repeated choices between smaller-sooner and larger-later rewards at varying delays; indifference points estimate a temporal discount function. Engages 5 processes.
+
+## [Effort-Based Decision-Making](../hedtsk_effort_based_decision_making.md)
+
+Participants choose between a low-effort/low-reward option and a high-effort/high-reward option on each trial; the indifference point indexes effort discounting and motivational willingness to exert effort for reward. Engages 5 processes.
+
+## [Iowa Gambling](../hedtsk_iowa_gambling.md)
+
+Repeated choices among four decks with hidden reward and loss distributions; preference shift toward advantageous decks indexes affective decision making. Engages 6 processes.
+
+## [Monetary Incentive Delay](../hedtsk_monetary_incentive_delay.md)
+
+Cue predicts potential monetary gain or loss; speeded target response determines outcome. Striatal activity to cues indexes reward anticipation. Engages 4 processes.
+
+## [Social Incentive Delay](../hedtsk_social_incentive_delay.md)
+
+MID variant in which cues predict potential social (smiling/frowning face) rather than monetary outcomes; indexes social reward anticipation. Engages 4 processes.
 
 ```{toctree}
 :hidden:

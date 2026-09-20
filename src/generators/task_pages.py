@@ -4,17 +4,20 @@ Files written:
 
 - docs/tasks/index.md            the task landing page: what a task page holds, the
                                  families at a glance, and the two ways in
-- docs/tasks/by_category.md      the catalog grouped by paradigm family, one section
+- docs/tasks/by_family.md        the catalog grouped by paradigm family, one section
                                  per family; its toctree nests the family pages
 - docs/tasks/families/<id>.md    one page per family, whose toctree nests its tasks
-- docs/tasks/alphabetically.md   the flat alphabetical table; its toctree lists every
+- docs/tasks/alphabetically.md   every task in name order; its toctree lists every
                                  task
 - docs/tasks/hedtsk_*.md         one page per task
 
-The sidebar therefore reads Tasks > Tasks by category > family > task, and Tasks >
+The document tree is Tasks > Tasks by paradigm family > family > task, and Tasks >
 Tasks alphabetically > task. Each task page sits in two toctrees, which Sphinx allows
-(it picks the first as the parent for prev/next links). Sidebar labels drop the
-trailing "Task" or "tasks" of a name; page titles keep it. See `_sidebar_title`.
+(it picks the first as the parent for prev/next links). The left sidebar shows only the
+first two levels; a rule in docs/source/_static/custom.css hides the family and task
+entries, and the right-hand contents menu of the two listing pages takes over from
+there. Listing headings and sidebar labels drop a trailing "Task", "tasks" or "tests"
+from a name; page titles keep it. See `_short_name`.
 
 Families come from data/task_families.tsv and data/task_family_defs.tsv; see
 data/README.md. The assignment is validated in generate_docs.py before anything is
@@ -26,7 +29,7 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-from generators.utils import cell, citation_line, process_link, split_references, table, truncate, write_page
+from generators.utils import cell, citation_line, process_link, split_references, table, write_page
 
 ATLAS_TASK_URL = "https://www.cognitiveatlas.org/task/id/"
 
@@ -62,7 +65,7 @@ def generate(
 
     count = 0
     count += _write_task_index(tasks_dir, families, tasks_by_family, confidence_of)
-    count += _write_by_category(tasks_dir, families, tasks_by_family)
+    count += _write_by_family(tasks_dir, families, tasks_by_family)
     for fam in families:
         count += _write_family_page(tasks_dir, fam, tasks_by_family[fam["family_id"]], family_rows)
     count += _write_alphabetical(tasks_dir, sorted_tasks, family_of, family_by_id)
@@ -77,13 +80,14 @@ def generate(
 # ---------------------------------------------------------------------------
 
 
-def _sidebar_title(name: str) -> str:
-    """Return the sidebar label for a task or family name.
+def _short_name(name: str) -> str:
+    """Return the short display form of a task or family name.
 
-    The label drops a trailing " Task" (canonical task names), " tasks" or " tests"
-    (family names) because the sidebar already sits under a "Tasks" heading. A name
-    that ends some other way ("Pseudo tasks: ...") is left alone. Page titles are
-    never shortened; only the toctree entry is.
+    The short form drops a trailing " Task" (canonical task names), " tasks" or
+    " tests" (family names). It is used for sidebar labels and for the headings of the
+    task listings, where the page already says these are tasks. A
+    name that ends some other way ("Pseudo tasks: ...") is left alone. Page titles,
+    aliases and prose always use the full canonical name.
 
     Parameters:
         name: The canonical task name or the family name.
@@ -107,11 +111,27 @@ def _toctree(entries: list[tuple[str, str]], maxdepth: int) -> str:
     return "\n".join(lines) + "\n"
 
 
-def _task_row(task: dict, link_prefix: str) -> list[str]:
-    name = task["canonical_name"]
-    short_def = cell(truncate(task.get("short_definition", ""), 110))
-    n_procs = len(task.get("hed_process_ids", []))
-    return [f"[{name}]({link_prefix}{task['hedtsk_id']}.md)", short_def, str(n_procs)]
+def _task_sections(fam_tasks: list[dict], link_prefix: str, level: int) -> str:
+    """Return one short section per task: a linked heading, the full short definition,
+    and the number of processes the task engages.
+
+    The family listings used to be tables, which truncated the short definitions. A
+    section per task shows the whole definition and puts every task in the page's
+    right-hand contents menu.
+
+    Parameters:
+        fam_tasks: The tasks to list, in display order.
+        link_prefix: Path prefix from the page being written to the task pages.
+        level: Markdown heading level for each task.
+    """
+    parts: list[str] = []
+    for task in fam_tasks:
+        name = _short_name(task["canonical_name"])
+        n_procs = len(task.get("hed_process_ids", []))
+        engages = "no process links (pseudo task)" if n_procs == 0 else f"{n_procs} process{'es' if n_procs != 1 else ''}"
+        parts.append(f"{'#' * level} [{name}]({link_prefix}{task['hedtsk_id']}.md)\n\n")
+        parts.append(f"{task.get('short_definition', '').strip()} Engages {engages}.\n\n")
+    return "".join(parts)
 
 
 def _write_task_index(
@@ -142,8 +162,8 @@ def _write_task_index(
         "source table because a reasonable reader could file the task elsewhere; the family\n"
         "pages say which.\n\n",
         "Two ways in:\n\n",
-        "- [Tasks by category](by_category.md) lists every task under its family, with the\n  family's scope statement.\n",
-        "- [Tasks alphabetically](alphabetically.md) is one table of every task, for when you\n"
+        "- [Tasks by paradigm family](by_family.md) lists every task under its family, with the\n  family's scope statement.\n",
+        "- [Tasks alphabetically](alphabetically.md) lists every task in name order, for when you\n"
         "  know the name and not the family.\n\n",
         "## Families at a glance\n\n",
     ]
@@ -153,30 +173,37 @@ def _write_task_index(
     ]
     parts.append(table(["Family", "Tasks"], rows))
     parts.append("\n\n")
-    parts.append(_toctree([("Tasks by category", "by_category"), ("Tasks alphabetically", "alphabetically")], 3))
+    parts.append(_toctree([("Tasks by paradigm family", "by_family"), ("Tasks alphabetically", "alphabetically")], 3))
 
     write_page(tasks_dir / "index.md", "".join(parts))
     return 1
 
 
-def _write_by_category(tasks_dir: Path, families: list[dict], tasks_by_family: dict[str, list[dict]]) -> int:
-    """Write docs/tasks/by_category.md: one section per family, nesting the family pages."""
+def _write_by_family(tasks_dir: Path, families: list[dict], tasks_by_family: dict[str, list[dict]]) -> int:
+    """Write docs/tasks/by_family.md: one section per family, nesting the family pages."""
     parts: list[str] = [
-        "# Tasks by category\n\n",
+        "# Tasks by paradigm family\n\n",
         f"The {len(families)} paradigm families, each with its scope statement and the tasks filed\n"
-        "under it. Every task is in exactly one family. The family pages repeat these tables and\n"
-        "add the assignments marked for review. The [alphabetical list](alphabetically.md) has\n"
-        "the same tasks in one table.\n\n",
+        "under it. Every task is in exactly one family. The family pages repeat these entries\n"
+        "and add the assignments marked for review. The [alphabetical list](alphabetically.md)\n"
+        "has the same tasks in name order.\n\n",
+        # The right-hand contents menu is this page's navigation: the families are always
+        # listed, and a family's tasks unfold while that family is the current section.
+        # Furo's scroll-spy marks the current heading's entry and its ancestors with
+        # scroll-current, so a click on a family opens it. Page-specific, hence inline.
+        "<style>\n"
+        ".toc-tree li li > ul { display: none; }\n"
+        ".toc-tree li li.scroll-current > ul { display: block; }\n"
+        "</style>\n\n",
     ]
     for fam in families:
         fam_tasks = tasks_by_family[fam["family_id"]]
         parts.append(f"## [{fam['name']}](families/{fam['family_id']}.md)\n\n")
         parts.append(f"{fam['scope']}\n\n")
-        parts.append(table(["Task", "Short definition", "Processes"], [_task_row(t, "") for t in fam_tasks]))
-        parts.append("\n\n")
+        parts.append(_task_sections(fam_tasks, "", 3))
 
-    parts.append(_toctree([(_sidebar_title(fam["name"]), f"families/{fam['family_id']}") for fam in families], 2))
-    write_page(tasks_dir / "by_category.md", "".join(parts))
+    parts.append(_toctree([(_short_name(fam["name"]), f"families/{fam['family_id']}") for fam in families], 2))
+    write_page(tasks_dir / "by_family.md", "".join(parts))
     return 1
 
 
@@ -191,22 +218,22 @@ def _write_family_page(tasks_dir: Path, fam: dict, fam_tasks: list[dict], family
         f"# {fam['name']}\n\n",
         f"{fam['scope']}\n\n",
         f"This family contains {len(fam_tasks)} tasks.\n\n",
-        table(["Task", "Short definition", "Processes"], [_task_row(t, "../") for t in fam_tasks]),
-        "\n\n",
+        _task_sections(fam_tasks, "../", 2),
     ]
 
     if review:
-        parts.append("## Assignments marked for review\n\n")
+        parts.append("## Marked for review\n\n")
         parts.append(
             "The filing of these tasks is a judgement call; the note says why they are here and\nwhere else they could go.\n\n"
         )
         rows = [
-            [f"[{t['canonical_name']}](../{t['hedtsk_id']}.md)", cell(by_task[t["hedtsk_id"]]["rationale"])] for t in review
+            [f"[{_short_name(t['canonical_name'])}](../{t['hedtsk_id']}.md)", cell(by_task[t["hedtsk_id"]]["rationale"])]
+            for t in review
         ]
         parts.append(table(["Task", "Note"], rows))
         parts.append("\n\n")
 
-    parts.append(_toctree([(_sidebar_title(t["canonical_name"]), f"../{t['hedtsk_id']}") for t in fam_tasks], 1))
+    parts.append(_toctree([(_short_name(t["canonical_name"]), f"../{t['hedtsk_id']}") for t in fam_tasks], 1))
 
     write_page(tasks_dir / "families" / f"{fid}.md", "".join(parts))
     return 1
@@ -218,27 +245,29 @@ def _write_alphabetical(
     family_of: dict[str, str],
     family_by_id: dict[str, dict],
 ) -> int:
-    """Write docs/tasks/alphabetically.md, whose toctree lists every task for the sidebar."""
-    rows = []
+    """Write docs/tasks/alphabetically.md: one short section per task, in name order.
+
+    Like the family listings, each task is a linked heading followed by its full short
+    definition, so the right-hand contents menu lists every task under the page title.
+    Here the closing sentence also names the family the task is filed under.
+    """
+    parts: list[str] = [
+        "# Tasks alphabetically\n\n",
+        f"All {len(sorted_tasks)} tasks in name order, each with the paradigm family it is filed\n"
+        "under. [Tasks by paradigm family](by_family.md) presents the same tasks grouped by\n"
+        "family.\n\n",
+    ]
     for task in sorted_tasks:
         fam = family_by_id[family_of[task["hedtsk_id"]]]
-        rows.append(
-            [
-                f"[{task['canonical_name']}]({task['hedtsk_id']}.md)",
-                f"[{fam['name']}](families/{fam['family_id']}.md)",
-                cell(truncate(task.get("short_definition", ""), 100)),
-                str(len(task.get("hed_process_ids", []))),
-            ]
+        n_procs = len(task.get("hed_process_ids", []))
+        engages = "no process links (pseudo task)" if n_procs == 0 else f"{n_procs} process{'es' if n_procs != 1 else ''}"
+        parts.append(f"## [{_short_name(task['canonical_name'])}]({task['hedtsk_id']}.md)\n\n")
+        parts.append(
+            f"{task.get('short_definition', '').strip()} Filed under\n"
+            f"[{fam['name']}](families/{fam['family_id']}.md); engages {engages}.\n\n"
         )
-    content = (
-        "# Tasks alphabetically\n\n"
-        f"All {len(sorted_tasks)} tasks in one table, with the paradigm family each is filed under.\n"
-        "[Tasks by category](by_category.md) presents the same tasks grouped by family.\n\n"
-        + table(["Task", "Family", "Short definition", "Processes"], rows)
-        + "\n\n"
-        + _toctree([(_sidebar_title(t["canonical_name"]), t["hedtsk_id"]) for t in sorted_tasks], 1)
-    )
-    write_page(tasks_dir / "alphabetically.md", content)
+    parts.append(_toctree([(_short_name(t["canonical_name"]), t["hedtsk_id"]) for t in sorted_tasks], 1))
+    write_page(tasks_dir / "alphabetically.md", "".join(parts))
     return 1
 
 

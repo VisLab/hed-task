@@ -314,9 +314,7 @@ def main() -> None:
     print("Generating docs/source/tasks/ ...")
     n = task_pages.generate(docs_dir, tasks, processes_by_id, families, family_rows, atlas_map)
     total += n
-    print(
-        f"  Wrote {n} task files (index, by_category, {len(families)} family pages, alphabetically, {len(tasks)} task pages)."
-    )
+    print(f"  Wrote {n} task files (index, by_family, {len(families)} family pages, alphabetically, {len(tasks)} task pages).")
 
     print("Generating docs/source/processes/ ...")
     n = process_pages.generate(docs_dir, processes, categories, tasks_by_id)
