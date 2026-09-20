@@ -1,9 +1,26 @@
-"""Generate docs/processes/index.md and docs/processes/{category_id}.md (one per category).
+"""Generate the process section of the site.
 
-A category page opens with the category's scope, what is out of scope, any open issue,
-and a summary table of its processes, then gives one section per process. The per-process
-sub-lists (tasks, references) are run-in bold labels rather than headings, so that the
-page's table of contents lists the processes and nothing else.
+Files written:
+
+- docs/processes/index.md           the process landing page: what a process is, the
+                                    categories at a glance, and the two ways in
+- docs/processes/by_category.md     one section per category with its scope, and under
+                                    it one short section per process; its toctree nests
+                                    the category pages
+- docs/processes/alphabetically.md  every process in name order, each with its category
+- docs/processes/{category_id}.md   one page per category: scope, out of scope, open
+                                    issues, then one section per process
+
+Processes have no page of their own. A process lives as a section on its category page,
+and every link to a process (from task pages, the listing pages, the cross-reference)
+points at that section's anchor; see `process_anchor` in utils. The per-process
+sub-lists (tasks, references) are run-in bold labels rather than headings, so that a
+category page's contents menu lists the processes and nothing else.
+
+The document tree is Cognitive processes > Processes by category > category, and the
+left sidebar shows only the first two levels (a rule in docs/source/_static/custom.css
+hides deeper entries); the right-hand contents menu of the listing pages takes over from
+there, in the same arrangement as the task section.
 """
 
 from __future__ import annotations
@@ -11,7 +28,7 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-from generators.utils import cell, citation_line, process_anchor, split_references, table, task_link, truncate, write_page
+from generators.utils import citation_line, process_anchor, split_references, table, task_link, write_page
 
 
 def generate(
@@ -34,10 +51,50 @@ def generate(
 
     count = 0
     count += _write_process_index(procs_dir, sorted_categories, processes_by_category)
+    count += _write_by_category(procs_dir, sorted_categories, processes_by_category)
+    count += _write_alphabetical(procs_dir, sorted_categories, processes)
     for cat in sorted_categories:
         cat_procs = processes_by_category.get(cat["category_id"], [])
         count += _write_category_page(procs_dir, cat, cat_procs)
     return count
+
+
+def _toctree(entries: list[tuple[str, str]], maxdepth: int) -> str:
+    """Return a hidden toctree whose entries carry explicit sidebar titles.
+
+    Parameters:
+        entries: (sidebar title, document path) pairs.
+        maxdepth: The toctree's maxdepth option.
+    """
+    lines = ["```{toctree}", ":hidden:", f":maxdepth: {maxdepth}", ""]
+    lines += [f"{title} <{doc}>" for title, doc in entries]
+    lines.append("```")
+    return "\n".join(lines) + "\n"
+
+
+def _engaged_by(proc: dict) -> str:
+    """Return the closing phrase of a listing entry: how many tasks engage the process."""
+    n = len(proc.get("tasks", []))
+    if n == 0:
+        return "engaged by no task in the current catalog"
+    return f"engaged by {n} task{'s' if n != 1 else ''}"
+
+
+def _process_sections(cat_id: str, procs: list[dict], level: int) -> str:
+    """Return one short section per process: a heading linked to the process's anchor on
+    its category page, then the full definition and the task count.
+
+    Parameters:
+        cat_id: The category whose page holds the processes.
+        procs: The processes to list, in display order.
+        level: Markdown heading level for each process.
+    """
+    parts: list[str] = []
+    for proc in procs:
+        parts.append(f"{'#' * level} [{proc['process_name']}]({cat_id}.md#{process_anchor(proc['process_id'])})\n\n")
+        engaged = _engaged_by(proc)
+        parts.append(f"{proc.get('definition', '').strip()} {engaged[0].upper()}{engaged[1:]}.\n\n")
+    return "".join(parts)
 
 
 def _write_process_index(
@@ -45,26 +102,16 @@ def _write_process_index(
     sorted_categories: list[dict],
     processes_by_category: dict[str, list[dict]],
 ) -> int:
-    """Write docs/processes/index.md."""
+    """Write docs/processes/index.md: the landing page, nesting the two listing pages."""
     all_procs = [p for procs in processes_by_category.values() for p in procs]
     total_procs = len(all_procs)
     n_linked = sum(1 for p in all_procs if p.get("tasks"))
     n_cats = len(sorted_categories)
 
-    rows = []
-    for cat in sorted_categories:
-        cat_id = cat["category_id"]
-        # Publish-clean the scope before truncating: truncation would otherwise hide
-        # change-log text just past the cut, or expose it just before.
-        scope = _publish(cat.get("scope", ""), (cat_id, "scope"), _PUBLISHED_CATEGORY_FIELDS, f"scope for category {cat_id!r}")
-        rows.append(
-            [
-                f"[{cat['name']}]({cat_id}.md)",
-                str(len(processes_by_category.get(cat_id, []))),
-                cell(truncate(scope, 110)),
-            ]
-        )
-
+    rows = [
+        [f"[{cat['name']}]({cat['category_id']}.md)", str(len(processes_by_category.get(cat["category_id"], [])))]
+        for cat in sorted_categories
+    ]
     content = (
         "# Cognitive processes\n\n"
         f"The catalog defines {total_procs} cognitive processes organized into {n_cats} categories.\n"
@@ -77,10 +124,69 @@ def _write_process_index(
         "Categories group processes by research tradition for browsing. They are organizational\n"
         "labels, not ontological commitments: a process belongs to the category whose scope best\n"
         "describes where it is studied, and categories imply no inheritance.\n\n"
-        "## Categories\n\n" + table(["Category", "Processes", "Scope"], rows) + "\n\n"
-        "```{toctree}\n:hidden:\n:maxdepth: 1\n\n" + "".join(f"{cat['category_id']}\n" for cat in sorted_categories) + "```\n"
+        "Two ways in:\n\n"
+        "- [Processes by category](by_category.md) lists every process under its category, with\n"
+        "  the category's scope statement.\n"
+        "- [Processes alphabetically](alphabetically.md) lists every process in name order, for\n"
+        "  when you know the name and not the category.\n\n"
+        "## Categories at a glance\n\n"
+        + table(["Category", "Processes"], rows)
+        + "\n\n"
+        + _toctree([("Processes by category", "by_category"), ("Processes alphabetically", "alphabetically")], 2)
     )
     write_page(procs_dir / "index.md", content)
+    return 1
+
+
+def _write_by_category(
+    procs_dir: Path,
+    sorted_categories: list[dict],
+    processes_by_category: dict[str, list[dict]],
+) -> int:
+    """Write docs/processes/by_category.md: one section per category, nesting the category pages."""
+    parts: list[str] = [
+        "# Processes by category\n\n",
+        f"The {len(sorted_categories)} categories, each with its scope statement and the processes filed\n"
+        "under it. Every process is in exactly one category. The category pages add what is out\n"
+        "of scope, open issues, and each process's aliases, tasks and references. The\n"
+        "[alphabetical list](alphabetically.md) has the same processes in name order.\n\n",
+        # The right-hand contents menu is this page's navigation: the categories are always
+        # listed, and a category's processes unfold while that category is the current
+        # section. Furo's scroll-spy marks the current heading's entry and its ancestors
+        # with scroll-current, so a click on a category opens it. Page-specific, hence inline.
+        "<style>\n"
+        ".toc-tree li li > ul { display: none; }\n"
+        ".toc-tree li li.scroll-current > ul { display: block; }\n"
+        "</style>\n\n",
+    ]
+    for cat in sorted_categories:
+        cat_id = cat["category_id"]
+        scope = _publish(cat.get("scope", ""), (cat_id, "scope"), _PUBLISHED_CATEGORY_FIELDS, f"scope for category {cat_id!r}")
+        procs = sorted(processes_by_category.get(cat_id, []), key=lambda p: p["process_name"])
+        parts.append(f"## [{cat['name']}]({cat_id}.md)\n\n")
+        parts.append(f"{scope}\n\n")
+        parts.append(_process_sections(cat_id, procs, 3))
+
+    parts.append(_toctree([(cat["name"], cat["category_id"]) for cat in sorted_categories], 1))
+    write_page(procs_dir / "by_category.md", "".join(parts))
+    return 1
+
+
+def _write_alphabetical(procs_dir: Path, sorted_categories: list[dict], processes: list[dict]) -> int:
+    """Write docs/processes/alphabetically.md: one short section per process, in name order."""
+    cat_name = {c["category_id"]: c["name"] for c in sorted_categories}
+    parts: list[str] = [
+        "# Processes alphabetically\n\n",
+        f"All {len(processes)} processes in name order, each with the category it is filed under.\n"
+        "[Processes by category](by_category.md) presents the same processes grouped by category.\n\n",
+    ]
+    for proc in sorted(processes, key=lambda p: p["process_name"]):
+        cat_id = proc["category_id"]
+        parts.append(f"## [{proc['process_name']}]({cat_id}.md#{process_anchor(proc['process_id'])})\n\n")
+        parts.append(
+            f"{proc.get('definition', '').strip()} Filed under\n[{cat_name[cat_id]}]({cat_id}.md); {_engaged_by(proc)}.\n\n"
+        )
+    write_page(procs_dir / "alphabetically.md", "".join(parts))
     return 1
 
 
@@ -232,17 +338,9 @@ def _write_category_page(procs_dir: Path, category: dict, cat_procs: list[dict])
     # merged, dropped or renamed, with dates. A published page states what is true now,
     # so it is deliberately not rendered. The field is left in the source untouched.
 
+    # No summary table here: the sections below carry the full definitions, and the
+    # right-hand contents menu lists the processes.
     parts.append(f"This category contains {len(sorted_procs)} processes.\n\n")
-    rows = [
-        [
-            f"[{p['process_name']}](#{process_anchor(p['process_id'])})",
-            cell(truncate(p.get("definition", ""), 120)),
-            str(len(p.get("tasks", []))),
-        ]
-        for p in sorted_procs
-    ]
-    parts.append(table(["Process", "Definition", "Tasks"], rows))
-    parts.append("\n\n")
 
     for proc in sorted_procs:
         proc_id = proc["process_id"]

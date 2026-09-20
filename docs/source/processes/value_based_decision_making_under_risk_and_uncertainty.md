@@ -11,16 +11,6 @@
 
 This category contains 7 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Choice commitment](#hed-choice-commitment) | The act of locking in a selected option once accumulated evidence or value crosses a decision boundary; measured by resp... | 0 |
-| [Delay discounting](#hed-delay-discounting) | Devaluation of a reward as a function of the delay to its receipt, typically hyperbolic. | 1 |
-| [Intertemporal choice](#hed-intertemporal-choice) | Choice among options that differ in timing of outcomes; choice between smaller-sooner and larger-later. | 1 |
-| [Probability judgment](#hed-probability-judgment) | Estimation of likelihoods of events, often deviating from normative Bayes. | 1 |
-| [Risk processing](#hed-risk-processing) | Neural and behavioral evaluation of outcome uncertainty. | 3 |
-| [Valuation](#hed-valuation) | Assignment of a subjective value to a prospective option, integrating reward magnitude, probability, delay, and effort;... | 4 |
-| [Value-based decision making](#hed-value-based-decision-making) | Choice among options that differ in subjective value, computed across attributes. | 6 |
-
 (hed-choice-commitment)=
 ## Choice commitment
 

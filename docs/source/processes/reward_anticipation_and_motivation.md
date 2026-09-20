@@ -11,15 +11,6 @@
 
 This category contains 6 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Approach motivation](#hed-approach-motivation) | Tendency to engage with stimuli associated with positive outcomes. | 7 |
-| [Avoidance motivation](#hed-avoidance-motivation) | Tendency to disengage from stimuli associated with negative outcomes. | 3 |
-| [Effort allocation](#hed-effort-allocation) | Decision to expend physical or cognitive effort as a function of expected reward and cost. | 1 |
-| [Incentive salience](#hed-incentive-salience) | "Wanting" attributed to reward-predictive cues, distinct from "liking." | 2 |
-| [Reward anticipation](#hed-reward-anticipation) | Affective and neural response to cues predicting upcoming reward. | 4 |
-| [Reward consumption](#hed-reward-consumption) | Affective and neural response to receipt of reward. | 0 |
-
 (hed-approach-motivation)=
 ## Approach motivation
 

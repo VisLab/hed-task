@@ -11,25 +11,6 @@
 
 This category contains 16 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Action initiation](#hed-action-initiation) | Triggering of an action after planning is complete. | 0 |
-| [Antisaccade](#hed-antisaccade) | Voluntary eye movement away from a peripheral stimulus, requiring inhibition of a prepotent saccade. | 1 |
-| [Fine motor control](#hed-fine-motor-control) | Precise control of small-amplitude movements, typically of the hand and fingers. | 3 |
-| [Grasping](#hed-grasping) | Shaping and closure of the hand around an object. | 0 |
-| [Motor memory](#hed-motor-memory) | Long-term retention of motor skills and procedures. | 0 |
-| [Motor planning](#hed-motor-planning) | Specification of movement parameters before execution. | 4 |
-| [Motor preparation](#hed-motor-preparation) | Neural readiness state preceding movement, indexed by the readiness potential and LRP. | 5 |
-| [Motor sequence learning](#hed-motor-sequence-learning) | Acquisition of a skilled sequence of movements through repetition. | 2 |
-| [Motor timing](#hed-motor-timing) | Production or estimation of temporal intervals in motor output. | 1 |
-| [Proprioception](#hed-proprioception) | Perception of body position and movement from muscle, tendon, and joint receptors. | 0 |
-| [Reaching](#hed-reaching) | Goal-directed arm movement toward a spatial target. | 0 |
-| [Response execution](#hed-response-execution) | Overt production of a selected response in accordance with task demands. | 8 |
-| [Response selection](#hed-response-selection) | Choice of an action from a set of alternatives. | 11 |
-| [Saccade](#hed-saccade) | Rapid ballistic eye movement between points of fixation. | 1 |
-| [Visuomotor adaptation](#hed-visuomotor-adaptation) | Recalibration of movement in response to perturbations of the mapping between vision and action. | 1 |
-| [Vocal-motor control](#hed-vocal-motor-control) | Control of the articulators for speech production and vocalization. | 0 |
-
 (hed-action-initiation)=
 ## Action initiation
 

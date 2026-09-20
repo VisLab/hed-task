@@ -9,10 +9,6 @@
 
 This category contains 1 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Perceptual decision making](#hed-perceptual-decision-making) | Integration of noisy sensory evidence toward a decision criterion, modeled by sequential-sampling frameworks (drift-diff... | 3 |
-
 (hed-perceptual-decision-making)=
 ## Perceptual decision making
 

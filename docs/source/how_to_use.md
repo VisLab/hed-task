@@ -65,11 +65,10 @@ match is close rather than exact.
 ## Reading a process page
 
 Processes are presented one category to a page. The category page opens with the
-category's scope, what is out of scope, any open issue about its boundaries, and a
-summary table of its processes. Each process entry then gives the identifier, aliases
-with a note on the terminological distinction, the definition, the tasks that engage it,
-and references. A process with no linked tasks says so; it is kept because the catalog
-may grow a task for it.
+category's scope, what is out of scope and any open issue about its boundaries. Each
+process entry then gives the identifier, aliases with a note on the terminological
+distinction, the definition, the tasks that engage it, and references. A process with no
+linked tasks says so; it is kept because the catalog may grow a task for it.
 
 ## Tagging a dataset
 

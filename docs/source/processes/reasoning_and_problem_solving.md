@@ -11,20 +11,6 @@
 
 This category contains 11 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Analogical reasoning](#hed-analogical-reasoning) | Mapping of relational structure from a source domain to a target domain. | 1 |
-| [Categorization](#hed-categorization) | Assignment of instances to categories according to their features. | 8 |
-| [Causal reasoning](#hed-causal-reasoning) | Inference about cause–effect relations from observation and intervention. | 1 |
-| [Deductive reasoning](#hed-deductive-reasoning) | Inference in which the conclusion follows necessarily from the premises. | 1 |
-| [Hypothesis testing](#hed-hypothesis-testing) | Generation and evaluation of alternative explanations against evidence. | 2 |
-| [Inductive reasoning](#hed-inductive-reasoning) | Inference from specific instances to general principles; probabilistic rather than necessary. | 1 |
-| [Insight](#hed-insight) | Sudden restructuring of a problem representation yielding a solution that was previously unavailable, often accompanied... | 1 |
-| [Mathematical reasoning](#hed-mathematical-reasoning) | Manipulation of numerical and algebraic quantities and relations. | 0 |
-| [Means-ends analysis](#hed-means-ends-analysis) | Iterative problem-solving strategy in which the distance between the current state and the goal state is reduced by sele... | 1 |
-| [Planning](#hed-planning) | Mental formulation of a sequence of actions toward a goal before execution. | 1 |
-| [Subgoaling](#hed-subgoaling) | Decomposition of a goal into an ordered sequence of subgoals whose satisfaction advances the overall task; dissociable f... | 1 |
-
 (hed-analogical-reasoning)=
 ## Analogical reasoning
 

@@ -11,21 +11,6 @@
 
 This category contains 12 processes.
 
-| Process | Definition | Tasks |
-|---|---|---|
-| [Biological motion perception](#hed-biological-motion-perception) | Recognition of animate motion from sparse kinematic cues, such as point-light displays. | 1 |
-| [Depth perception](#hed-depth-perception) | Perception of distance and three-dimensional structure from monocular and binocular cues. | 0 |
-| [Face identity recognition](#hed-face-identity-recognition) | Identification of an individual from face-specific features. | 1 |
-| [Face perception](#hed-face-perception) | Recognition and processing of faces as a specialized perceptual category; N170-sensitive, FFA-dependent. | 5 |
-| [Gustatory perception](#hed-gustatory-perception) | Perception of taste qualities (sweet, sour, salty, bitter, umami). | 0 |
-| [Motion perception](#hed-motion-perception) | Detection and interpretation of moving stimuli; includes global motion and optic flow. | 2 |
-| [Olfactory perception](#hed-olfactory-perception) | Perception of odor via the olfactory system. | 0 |
-| [Pattern recognition](#hed-pattern-recognition) | Categorization of sensory input according to its structure. | 3 |
-| [Somatosensory perception](#hed-somatosensory-perception) | Perception of bodily sensations, including touch, proprioception, temperature, and pain. | 0 |
-| [Visual form recognition](#hed-visual-form-recognition) | Assignment of visual input to a shape category prior to semantic identification. | 0 |
-| [Visual object recognition](#hed-visual-object-recognition) | Identification of objects from visual input, invariant over viewpoint, size, and lighting. | 3 |
-| [Visual perception](#hed-visual-perception) | Perception of visual information; includes form, motion, depth, color, and spatial layout. | 12 |
-
 (hed-biological-motion-perception)=
 ## Biological motion perception
 
