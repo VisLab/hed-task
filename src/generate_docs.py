@@ -15,9 +15,8 @@ which are tabular views of the data:
     tasks/**                     task index, family pages, alphabetical list, task pages
     processes/**                 process index, category pages
     task_process_links.md        task-process links
-    atlas/task_mapping_tables.md     Atlas mapping tables
-    atlas/process_mapping_tables.md
-    _generated/*.md              table fragments that narrative pages include
+    _generated/*.md              table fragments that narrative pages include, among
+                                 them the full Atlas mapping tables
 
 Those paths are deleted and rewritten on every run, so a page dropped from the
 generators cannot linger. Every other file under docs/source/ - the landing page, the
@@ -61,8 +60,6 @@ GENERATED_PATHS = [
     "tasks",
     "processes",
     "task_process_links.md",
-    "atlas/task_mapping_tables.md",
-    "atlas/process_mapping_tables.md",
     "_generated",
 ]
 
@@ -326,10 +323,8 @@ def main() -> None:
     print("Generating docs/source/task_process_links.md ...")
     total += crossref_page.generate(docs_dir, tasks, processes, categories)
 
-    print("Generating docs/source/atlas/ mapping tables ...")
-    total += crossref_atlas_pages.generate(docs_dir, data_dir)
-
     print("Generating docs/source/_generated/ fragments ...")
+    total += crossref_atlas_pages.generate(docs_dir, data_dir)
     total += fragments.generate(docs_dir, data_dir, tasks, processes, categories, families)
 
     print(f"\nDone. {total} files written to {docs_dir}. Narrative pages were not touched.")

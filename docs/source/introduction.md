@@ -127,7 +127,7 @@ that pass the selection test above, and a gap analysis added paradigms the Atlas
 registered. Every task and process here is mapped back to the Atlas entry by entry; the
 [Cognitive Atlas](atlas/what_is_in_the_cognitive_atlas.md) pages describe the Atlas on its own terms,
 the [relationship](atlas/the_catalog_vs_the_atlas.md) page says how the two resources differ, and
-the [mapping method](methods/atlas_mapping/index.md) page says how each correspondence was
+the [Atlas mapping method](methods/atlas_mapping_method.md) page says how each correspondence was
 decided.
 
 ## Status

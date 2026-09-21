@@ -9,9 +9,9 @@ Catalog, and the two overlap heavily. They are not, however, the same kind of th
 reading one as a subset of the other gets the relationship wrong.
 
 [What is in the Cognitive Atlas](what_is_in_the_cognitive_atlas.md) describes the Atlas on its own
-terms. The [task](task_mapping_tables.md) and [process](process_mapping_tables.md) mapping tables
+terms. The [task mapping](task_mapping.md) and [process mapping](process_mapping.md) pages
 give the correspondence row by row, and the
-[methodology](../methods/atlas_mapping/index.md) page explains how each row was decided.
+[Atlas mapping method](../methods/atlas_mapping_method.md) page explains how each row was decided.
 This page says what it all adds up to.
 
 ## Two resources doing different jobs
@@ -44,21 +44,41 @@ a separate top-level entry instead.
 
 ## How much overlaps
 
-| Direction | Has a counterpart | Does not |
-|---|---|---|
-| [Tasks to Atlas](task_mapping_tables.md) (103) | 85 | 18 |
-| [Processes to Atlas](process_mapping_tables.md) (172) | 139 | 33 |
-| [Atlas tasks to Catalog](task_mapping_tables.md) (857) | 183 | 674 |
-| [Atlas concepts to Catalog](process_mapping_tables.md) (918) | 132 | 786 |
+The first table in each pair says what the Atlas can tell you about the Catalog; the
+second says what the Catalog covers of the Atlas. The [task mapping](task_mapping.md)
+and [process mapping](process_mapping.md) pages list every row.
 
-Read down the first two rows for what the Atlas can tell you about the Catalog, and the
-last two for what the Catalog covers of the Atlas.
+### Tasks
 
-The two large "does not" figures are not a gap. 674 Atlas entries have no
-counterpart here, but only 481 of those are experimental paradigms at
-all; the rest are instruments the Catalog deliberately excludes. Likewise
-786 Atlas concepts have no process here, and about half the Atlas concept
-layer (455 of 918) is asserted by no Atlas task either.
+Tasks in the Catalog, by the match type of their Atlas counterpart:
+
+```{include} ../_generated/mapping_task_forward.md
+```
+
+Atlas task entries, by the match type of their counterpart in the Catalog:
+
+```{include} ../_generated/mapping_task_reverse.md
+```
+
+The large `none` share in the second table is not a gap. Only 481 of the unmatched
+Atlas entries are experimental paradigms at all; the rest are instruments the Catalog
+deliberately excludes.
+
+### Processes
+
+Processes in the Catalog, by the match type of their Atlas concept:
+
+```{include} ../_generated/mapping_process_forward.md
+```
+
+Atlas concepts, by the match type of their counterpart in the Catalog:
+
+```{include} ../_generated/mapping_process_reverse.md
+```
+
+Likewise, about half the Atlas concept layer (455 of 918 concepts) is asserted by no
+Atlas task either, so a concept with no counterpart here is often one the Atlas itself
+makes no use of.
 
 ## What the Catalog adds
 
@@ -106,7 +126,7 @@ The reverse also holds. 18 tasks here have no Atlas counterpart at all, and
 several are heavily used paradigms the Atlas simply never registered: the Mismatch
 Negativity paradigm, the Dictator Game, Reading the Mind in the Eyes, Multiple Object
 Tracking, and the Weapons Identification Task among them. The
-[task mapping tables](task_mapping_tables.md) list all 18.
+[task mapping](task_mapping.md) page lists all 18.
 
 Mismatch Negativity is the starkest: thousands of published studies, a candidate
 clinical biomarker, and no Atlas entry at all.
@@ -114,13 +134,9 @@ clinical biomarker, and no Atlas entry at all.
 ## What the Atlas cannot be used for unchecked
 
 The mapping could not be built by matching names, and the reason matters for anyone
-planning to consume the Atlas programmatically. Names agree while meanings do not.
-`Judgment-of-Learning` and `Judgment of Line Orientation` share an abbreviation. The
-Atlas concept `acoustic processing` is defined as the propagation of signals "undersea,
-in the atmosphere". `Perspective taking` matches `worldview` on word overlap alone.
-
-Names also disagree while meanings agree: `Trail Making` finds nothing until you look
-for `Trail Making Test A and B`, and `Navon` is filed as `global-local task`.
+planning to consume the Atlas programmatically. Names agree while meanings do not, and
+names disagree while meanings agree; the
+[Atlas mapping method](../methods/atlas_mapping_method.md) page gives the cases.
 
 Every row in these mappings was therefore checked against the archived Atlas record.
 That is the practical conclusion of the whole exercise: the Atlas is an excellent source

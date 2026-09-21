@@ -141,7 +141,7 @@ task_process_links
 
 methods/task_criteria/index
 methods/process_criteria/index
-methods/atlas_mapping/index
+methods/atlas_mapping_method
 ```
 
 ```{toctree}
@@ -150,6 +150,6 @@ methods/atlas_mapping/index
 
 atlas/what_is_in_the_cognitive_atlas
 atlas/the_catalog_vs_the_atlas
-atlas/task_mapping_tables
-atlas/process_mapping_tables
+atlas/task_mapping
+atlas/process_mapping
 ```

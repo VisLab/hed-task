@@ -1,0 +1,185 @@
+| Atlas entry | Atlas ID | Match | Task | Variation | Notes |
+|---|---|---|---|---|---|
+| International Affective Picture System | `tsk_4a57abb949aca` | `close` | [Affective Picture Viewing Task](../tasks/hedtsk_affective_picture_viewing.md) | - | Primary match from hed_task_to_atlas.tsv |
+| passive viewing | `trm_4c899211a965c` | `related` | [Affective Picture Viewing Task](../tasks/hedtsk_affective_picture_viewing.md) | - | Generic passive viewing, not affective specifically |
+| antisaccade/prosaccade task | `tsk_4a57abb949869` | `exact` | [Anti-Saccade Task](../tasks/hedtsk_anti_saccade.md) | - | Primary match from hed_task_to_atlas.tsv |
+| memory guided saccade task | `trm_4f2457d94fd93` | `exact` | [Anti-Saccade Task](../tasks/hedtsk_anti_saccade.md) | `hedvar_anti_saccade__memory_guided_anti_saccade` | - |
+| visually guided saccade task | `trm_4f24108555294` | `close` | [Anti-Saccade Task](../tasks/hedtsk_anti_saccade.md) | `hedvar_anti_saccade__prosaccade_control_condition` | - |
+| artificial grammar learning task | `trm_4f244a88013ae` | `exact` | [Artificial Grammar Learning Task](../tasks/hedtsk_artificial_grammar_learning.md) | - | Primary match from hed_task_to_atlas.tsv |
+| ANT task | `trm_551f0857e1db8` | `exact` | [Attention Network Task](../tasks/hedtsk_attention_network.md) | - | Duplicate of trm_4da6304c9aa23 |
+| attention networks test | `trm_4da6304c9aa23` | `exact` | [Attention Network Task](../tasks/hedtsk_attention_network.md) | - | Primary match from hed_task_to_atlas.tsv |
+| auditory masking task | `trm_551b1b6f6a262` | `exact` | [Auditory Masking Task](../tasks/hedtsk_auditory_masking.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Tone Detection (JND) | `trm_5519c5f2ad56f` | `related` | [Auditory Masking Task](../tasks/hedtsk_auditory_masking.md) | - | Tone detection threshold |
+| autobiographical memory task | `trm_4f244d2a54e27` | `exact` | [Autobiographical Memory Task](../tasks/hedtsk_autobiographical_memory.md) | - | Primary match from hed_task_to_atlas.tsv |
+| balloon analogue risk task | `trm_4d559bcd67c18` | `exact` | [Balloon Analog Risk Task](../tasks/hedtsk_balloon_analog_risk.md) | - | Primary match from hed_task_to_atlas.tsv |
+| biological motion task | `trm_4f245326e2eaf` | `exact` | [Biological Motion Perception Task](../tasks/hedtsk_biological_motion_perception.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Biological Motion Perception (Passive Viewing) Paradigm | `trm_58a5d31f5c72d` | `close` | [Biological Motion Perception Task](../tasks/hedtsk_biological_motion_perception.md) | - | Passive-viewing variant |
+| gender discrimination task | `trm_4f241c8d4a75c` | `close` | [Biological Motion Perception Task](../tasks/hedtsk_biological_motion_perception.md) | `hedvar_biological_motion_perception__gender_identity_discrimination` | - |
+| rubber hand illusion | `trm_4e5bb14d814a8` | `close` | [Body Ownership Illusion Task](../tasks/hedtsk_body_ownership_illusion.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Cambridge Face Memory Test | `tsk_4a57abb949912` | `exact` | [Cambridge Face Memory Task](../tasks/hedtsk_cambridge_face_memory.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Penn Face Memory Test | `trm_50f99e56117fe` | `close` | [Cambridge Face Memory Task](../tasks/hedtsk_cambridge_face_memory.md) | - | Penn face memory instrument |
+| Change Detection Task | `trm_5154906cbead5` | `exact` | [Change Detection Task](../tasks/hedtsk_change_detection.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Regularity and Change Detection | `trm_5519c329eb334` | `related` | [Change Detection Task](../tasks/hedtsk_change_detection.md) | - | Regularity and change detection |
+| contextual cueing task | `trm_4f24492504ca0` | `exact` | [Contextual Cueing Task](../tasks/hedtsk_contextual_cueing.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Continuous Performance Task | `trm_57c0c34e61fdf` | `exact` | [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Continuous Performance Test - AX version | `trm_551f0c294ce23` | `exact` | [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md) | `hedvar_continuous_performance__ax_cpt_context_processing` | - |
+| AX-DPX | `trm_515495b718cd6` | `close` | [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md) | `hedvar_continuous_performance__ax_cpt_context_processing` | AX-DPX is a CPT variant, not a dot-probe task |
+| Penn continuous performance task | `trm_4b4a537644d76` | `close` | [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md) | - | Penn implementation |
+| Corsi Blocks | `trm_4da881dace79c` | `exact` | [Corsi Block-Tapping Task](../tasks/hedtsk_corsi_block_tapping.md) | - | Primary match from hed_task_to_atlas.tsv |
+| block tapping test | `tsk_4a57abb9498df` | `close` | [Corsi Block-Tapping Task](../tasks/hedtsk_corsi_block_tapping.md) | - | Same paradigm under a different name |
+| spatial span test | `trm_4da86b539924c` | `close` | [Corsi Block-Tapping Task](../tasks/hedtsk_corsi_block_tapping.md) | - | Atlas spatial span test |
+| Five-Trial Adjusting Delay Discounting Task | `tsk_qBdQueJHSouuF` | `exact` | [Delay Discounting Task](../tasks/hedtsk_delay_discounting.md) | `hedvar_delay_discounting__5_trial_adjusting_delay` | - |
+| temporal discounting task | `tsk_4a57abb949e98` | `exact` | [Delay Discounting Task](../tasks/hedtsk_delay_discounting.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Delay Discounting Titration | `trm_566748c929afc` | `close` | [Delay Discounting Task](../tasks/hedtsk_delay_discounting.md) | - | Titration procedure |
+| Kirby Delay Discounting Task | `trm_56bbee951f161` | `close` | [Delay Discounting Task](../tasks/hedtsk_delay_discounting.md) | - | Kirby monetary choice |
+| delayed match to sample task | `tsk_4a57abb9499e3` | `exact` | [Delayed Match-to-Sample Task](../tasks/hedtsk_delayed_match_to_sample.md) | - | Primary match from hed_task_to_atlas.tsv |
+| delayed nonmatch to sample task | `tsk_4a57abb9499f1` | `close` | [Delayed Match-to-Sample Task](../tasks/hedtsk_delayed_match_to_sample.md) | - | Non-match rule |
+| match to sample visual search | `trm_50f852c084fde` | `related` | [Delayed Match-to-Sample Task](../tasks/hedtsk_delayed_match_to_sample.md) | - | Match-to-sample embedded in visual search |
+| backward digit span task | `tsk_4a57abb94989b` | `exact` | [Digit Span Task](../tasks/hedtsk_digit_span.md) | `hedvar_digit_span__backward_digit_span` | - |
+| digit span task | `tsk_4a57abb949a0d` | `exact` | [Digit Span Task](../tasks/hedtsk_digit_span.md) | - | Primary match from hed_task_to_atlas.tsv |
+| forward digit span task | `tsk_4a57abb949a85` | `exact` | [Digit Span Task](../tasks/hedtsk_digit_span.md) | `hedvar_digit_span__forward_digit_span` | - |
+| span/supra-span test | `tsk_4a57abb949de3` | `close` | [Digit Span Task](../tasks/hedtsk_digit_span.md) | `hedvar_digit_span__supra_span_lists` | - |
+| WAIS Digit Span | `trm_5106eee90937a` | `close` | [Digit Span Task](../tasks/hedtsk_digit_span.md) | - | WAIS subtest form |
+| symbol-digit substitution | `tsk_4a57abb949e44` | `exact` | [Digit Symbol Substitution Task](../tasks/hedtsk_digit_symbol_substitution.md) | - | Primary match from hed_task_to_atlas.tsv |
+| digit/symbol coding test | `tsk_4a57abb949a25` | `close` | [Digit Symbol Substitution Task](../tasks/hedtsk_digit_symbol_substitution.md) | - | Digit/symbol coding |
+| directed forgetting task | `trm_4da87f383435b` | `exact` | [Directed Forgetting Task](../tasks/hedtsk_directed_forgetting.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Sternberg Directed Forgetting | `trm_56674c7c2fa4f` | `close` | [Directed Forgetting Task](../tasks/hedtsk_directed_forgetting.md) | - | Sternberg directed forgetting |
+| attention bias | `trm_50df0d8dc717b` | `close` | [Dot-Probe Task](../tasks/hedtsk_dot_probe.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Emotion Regulation Task | `trm_56bbea82c12bb` | `exact` | [Emotion Regulation Task](../tasks/hedtsk_emotion_regulation.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Stroop task | `tsk_4a57abb949e27` | `related` | [Emotional Stroop Task](../tasks/hedtsk_emotional_stroop.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Eriksen flanker task | `tsk_4a57abb949a4f` | `exact` | [Eriksen Flanker Task](../tasks/hedtsk_eriksen_flanker.md) | - | Primary match from hed_task_to_atlas.tsv |
+| multi-source interference task | `trm_5696b61ff253e` | `related` | [Eriksen Flanker Task](../tasks/hedtsk_eriksen_flanker.md) | - | MSIT combines flanker, Simon and Stroop conflict; not a listed flanker variation |
+| Emotion Recognition Task | `trm_50f734f86b11a` | `close` | [Facial Emotion Recognition Task](../tasks/hedtsk_facial_emotion_recognition.md) | - | Primary match from hed_task_to_atlas.tsv |
+| facial expression of emotion | `tsk_4HuWbAQzF0tgZ` | `close` | [Facial Emotion Recognition Task](../tasks/hedtsk_facial_emotion_recognition.md) | - | Facial expression of emotion |
+| Penn Emotion Recognition Task | `trm_56a2a6ce24586` | `close` | [Facial Emotion Recognition Task](../tasks/hedtsk_facial_emotion_recognition.md) | - | Penn implementation |
+| false belief task | `trm_4f2456027809f` | `exact` | [False Belief Task](../tasks/hedtsk_false_belief.md) | - | Primary match from hed_task_to_atlas.tsv |
+| False Belief task | `trm_5845a809e30d5` | `exact` | [False Belief Task](../tasks/hedtsk_false_belief.md) | - | Duplicate of trm_4f2456027809f |
+| theory of mind task | `trm_4c8a8467304e2` | `close` | [False Belief Task](../tasks/hedtsk_false_belief.md) | - | Generic theory-of-mind entry |
+| finger tapping task | `trm_4c898f079d05e` | `exact` | [Finger Tapping Task](../tasks/hedtsk_finger_tapping.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Continuous Tapping Task | `tsk_zaClbCwuCeWt2` | `close` | [Finger Tapping Task](../tasks/hedtsk_finger_tapping.md) | - | Continuous tapping |
+| Tapping task | `trm_534692ef3b5df` | `close` | [Finger Tapping Task](../tasks/hedtsk_finger_tapping.md) | - | Generic tapping |
+| delayed recall test | `tsk_4a57abb9499ff` | `close` | [Free Recall Task](../tasks/hedtsk_free_recall.md) | - | Delayed recall |
+| episodic recall | `trm_4c898c8bf1b4f` | `close` | [Free Recall Task](../tasks/hedtsk_free_recall.md) | - | Episodic recall |
+| immediate recall test | `tsk_4a57abb949abc` | `close` | [Free Recall Task](../tasks/hedtsk_free_recall.md) | - | Immediate recall |
+| recall test | `trm_4f2411c91ae5e` | `close` | [Free Recall Task](../tasks/hedtsk_free_recall.md) | - | Primary match from hed_task_to_atlas.tsv |
+| go/no-go task | `tsk_4a57abb949a93` | `exact` | [Go/No-Go Task](../tasks/hedtsk_go_no_go.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Go-No-Go Zoo Task | `tsk_k6MaDfNGbHqDx` | `close` | [Go/No-Go Task](../tasks/hedtsk_go_no_go.md) | - | Child version |
+| motivational go/no-go learning task | `tsk_uzbPk1YB47Iqd` | `close` | [Go/No-Go Task](../tasks/hedtsk_go_no_go.md) | - | Adds reward motivation |
+| action observation task | `tsk_4a57abb949846` | `related` | [Imitation-Inhibition Task](../tasks/hedtsk_imitation_inhibition.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Implicit Association Task | `trm_50b6660b1b847` | `exact` | [Implicit Association Task](../tasks/hedtsk_implicit_association.md) | - | Primary match from hed_task_to_atlas.tsv |
+| instrumental learning task | `trm_4f2414059baa8` | `exact` | [Instrumental Conditioning Task](../tasks/hedtsk_instrumental_conditioning.md) | - | Primary match from hed_task_to_atlas.tsv |
+| operant task | `trm_50240f06af135` | `exact` | [Instrumental Conditioning Task](../tasks/hedtsk_instrumental_conditioning.md) | - | Alias entry of trm_4f2414059baa8 |
+| Interval Estimation Task | `tsk_YShVp2KOuWrSS` | `related` | [Intentional Binding Task](../tasks/hedtsk_intentional_binding.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Iowa Gambling Task | `tsk_4a57abb949ae5` | `exact` | [Iowa Gambling Task](../tasks/hedtsk_iowa_gambling.md) | - | Primary match from hed_task_to_atlas.tsv |
+| gambling fMRI task paradigm | `trm_550b5c1a7f4db` | `related` | [Iowa Gambling Task](../tasks/hedtsk_iowa_gambling.md) | - | Generic gambling fMRI paradigm |
+| gambling task | `trm_4f24496a80587` | `related` | [Iowa Gambling Task](../tasks/hedtsk_iowa_gambling.md) | - | Generic gambling task |
+| lexical decision task | `tsk_4a57abb949b38` | `exact` | [Lexical Decision Task](../tasks/hedtsk_lexical_decision.md) | - | Primary match from hed_task_to_atlas.tsv |
+| mental rotation task | `trm_4c8990810541d` | `exact` | [Mental Rotation Task](../tasks/hedtsk_mental_rotation.md) | - | Primary match from hed_task_to_atlas.tsv |
+| mirror tracing task | `trm_4f244a67d5b17` | `exact` | [Mirror Tracing Task](../tasks/hedtsk_mirror_tracing.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Mnemonic similarity task | `tsk_RXmB56vrYW66T` | `exact` | [Mnemonic Similarity Task](../tasks/hedtsk_mnemonic_similarity.md) | - | Primary match from hed_task_to_atlas.tsv |
+| monetary incentive delay task | `trm_4f23fc8c42d28` | `exact` | [Monetary Incentive Delay Task](../tasks/hedtsk_monetary_incentive_delay.md) | - | Primary match from hed_task_to_atlas.tsv |
+| sequence recall/learning | `trm_4c8a83cac75f5` | `close` | [Motor Sequence Learning Task](../tasks/hedtsk_motor_sequence_learning.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Volatile Bandit | `trm_5696b180169bd` | `close` | [Multi-Armed Bandit Task](../tasks/hedtsk_multi_armed_bandit.md) | - | Primary match from hed_task_to_atlas.tsv |
+| adaptive n-back task | `trm_56674133b666c` | `exact` | [N-Back Task](../tasks/hedtsk_n_back.md) | `hedvar_n_back__adaptive_n_back` | - |
+| n-back task | `tsk_4a57abb949bcd` | `exact` | [N-Back Task](../tasks/hedtsk_n_back.md) | - | Primary match from hed_task_to_atlas.tsv |
+| face n-back task | `tsk_4a57abb949a6a` | `close` | [N-Back Task](../tasks/hedtsk_n_back.md) | - | Face n-back; no matching HED variation |
+| letter n-back task | `tsk_4a57abb949b1c` | `close` | [N-Back Task](../tasks/hedtsk_n_back.md) | `hedvar_n_back__verbal_n_back` | Letter n-back is the verbal form |
+| global-local task | `trm_4f241d7adf14e` | `exact` | [Navon Task](../tasks/hedtsk_navon.md) | - | Primary match from hed_task_to_atlas.tsv |
+| oddball task | `tsk_4a57abb949bf6` | `exact` | [Oddball Task](../tasks/hedtsk_oddball.md) | - | Primary match from hed_task_to_atlas.tsv |
+| roving somatosensory oddball task | `trm_566db10532583` | `close` | [Oddball Task](../tasks/hedtsk_oddball.md) | - | Somatosensory roving oddball |
+| P300 BCI | `tsk_GxjZBNiJorj1K` | `related` | [Oddball Task](../tasks/hedtsk_oddball.md) | - | P300 brain-computer interface |
+| recognition memory test | `tsk_4a57abb949d40` | `exact` | [Old/New Recognition Memory Task](../tasks/hedtsk_old_new_recognition_memory.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Spatial Recognition Memory | `trm_50f733d7305a1` | `close` | [Old/New Recognition Memory Task](../tasks/hedtsk_old_new_recognition_memory.md) | - | Spatial recognition memory |
+| operation span task | `trm_4c40d10cd776e` | `exact` | [Operation Span Task](../tasks/hedtsk_operation_span.md) | - | Primary match from hed_task_to_atlas.tsv |
+| complex span test | `trm_4da86ad02b3ea` | `close` | [Operation Span Task](../tasks/hedtsk_operation_span.md) | - | Complex span, the family OSPAN belongs to |
+| paired associate learning | `trm_4da88a2a63d97` | `exact` | [Paired Associates Learning Task](../tasks/hedtsk_paired_associates_learning.md) | - | Primary match from hed_task_to_atlas.tsv |
+| paired associate recall | `trm_4c8991e6e8597` | `close` | [Paired Associates Learning Task](../tasks/hedtsk_paired_associates_learning.md) | - | Recall phase of PAL |
+| pavlovian conditioning task | `trm_4c898acd1f28e` | `close` | [Pavlovian Fear Conditioning Task](../tasks/hedtsk_pavlovian_fear_conditioning.md) | - | Primary match from hed_task_to_atlas.tsv |
+| phonological task | `trm_4f241b751c5a0` | `related` | [Phonological Awareness Task](../tasks/hedtsk_phonological_awareness.md) | - | Generic phonological task |
+| rhyme verification task | `trm_4d949c5b0e380` | `related` | [Phonological Awareness Task](../tasks/hedtsk_phonological_awareness.md) | - | Primary match from hed_task_to_atlas.tsv |
+| picture naming task | `tsk_4a57abb949cfb` | `exact` | [Picture Naming Task](../tasks/hedtsk_picture_naming.md) | - | Primary match from hed_task_to_atlas.tsv |
+| naming (covert) | `trm_4c8990c87035d` | `close` | [Picture Naming Task](../tasks/hedtsk_picture_naming.md) | - | Covert naming |
+| naming (overt) | `trm_4c8990e187dc7` | `close` | [Picture Naming Task](../tasks/hedtsk_picture_naming.md) | - | Overt naming |
+| object naming task | `trm_4f2448d02d4d9` | `close` | [Picture Naming Task](../tasks/hedtsk_picture_naming.md) | - | Object naming |
+| Naming tasks | `trm_552174863d51e` | `related` | [Picture Naming Task](../tasks/hedtsk_picture_naming.md) | - | Generic naming-task grouping |
+| Posner cueing task | `tsk_4a57abb949d17` | `exact` | [Posner Spatial Cueing Task](../tasks/hedtsk_posner_spatial_cueing.md) | - | Primary match from hed_task_to_atlas.tsv |
+| prisoner's dilemma (PD) | `tsk_KRl3zbyaJcKWM` | `exact` | [Prisoner's Dilemma Task](../tasks/hedtsk_prisoners_dilemma.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Probabilistic classification task | `trm_4cacf22a22d80` | `exact` | [Probabilistic Classification Learning Task](../tasks/hedtsk_probabilistic_classification_learning.md) | - | Primary match from hed_task_to_atlas.tsv |
+| dual-task weather prediction | `trm_4ebc98cc77e7b` | `close` | [Probabilistic Classification Learning Task](../tasks/hedtsk_probabilistic_classification_learning.md) | - | Dual-task weather prediction |
+| reversal weather prediction | `trm_5181fb7bf350b` | `close` | [Probabilistic Classification Learning Task](../tasks/hedtsk_probabilistic_classification_learning.md) | - | Reversal weather prediction |
+| single-task weather prediction | `trm_4ebc728326a13` | `close` | [Probabilistic Classification Learning Task](../tasks/hedtsk_probabilistic_classification_learning.md) | - | Single-task weather prediction |
+| Probabilistic Selection Task | `trm_5667483dcc371` | `exact` | [Probabilistic Selection Task](../tasks/hedtsk_probabilistic_selection.md) | - | Primary match from hed_task_to_atlas.tsv |
+| prospective memory task | `trm_4f244860c702c` | `exact` | [Prospective Memory Task](../tasks/hedtsk_prospective_memory.md) | - | Primary match from hed_task_to_atlas.tsv |
+| psychological refractory period (PRP) paradigm | `trm_51c453f64d2a6` | `exact` | [Psychological Refractory Period Task](../tasks/hedtsk_psychological_refractory_period.md) | - | Primary match from hed_task_to_atlas.tsv |
+| PEBL Perceptual Vigilance Task | `trm_50b55d8a6da00` | `close` | [Psychomotor Vigilance Task](../tasks/hedtsk_psychomotor_vigilance.md) | - | Primary match from hed_task_to_atlas.tsv |
+| vigilance | `trm_4da88a8e13f26` | `related` | [Psychomotor Vigilance Task](../tasks/hedtsk_psychomotor_vigilance.md) | - | Vigilance as a construct entry |
+| dot motion task | `trm_4f244ad7dcde7` | `exact` | [Random Dot Kinematogram Task](../tasks/hedtsk_random_dot_kinematogram.md) | - | Primary match from hed_task_to_atlas.tsv |
+| motion discrimination task | `trm_553fc63a54ae6` | `close` | [Random Dot Kinematogram Task](../tasks/hedtsk_random_dot_kinematogram.md) | `hedvar_random_dot_kinematogram__multi_alternative_motion_discrimination` | - |
+| rapid serial visual presentation task | `tsk_4a57abb949879` | `exact` | [Rapid Serial Visual Presentation Task](../tasks/hedtsk_rapid_serial_visual_presentation.md) | - | Primary match from hed_task_to_atlas.tsv |
+| attentional blink paradigm | `trm_551f06a08dcc4` | `close` | [Rapid Serial Visual Presentation Task](../tasks/hedtsk_rapid_serial_visual_presentation.md) | - | Attentional blink is an RSVP paradigm |
+| target detection task | `trm_4f242499b8952` | `related` | [Rapid Serial Visual Presentation Task](../tasks/hedtsk_rapid_serial_visual_presentation.md) | - | Generic target detection |
+| Raven’s Progressive Matrices Test | `tsk_SJ4Q7gOYfy25Y` | `exact` | [Raven's Progressive Matrices Task](../tasks/hedtsk_ravens_progressive_matrices.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Raven's Advanced Progressive Matrices | `trm_4f24211a03b07` | `close` | [Raven's Progressive Matrices Task](../tasks/hedtsk_ravens_progressive_matrices.md) | - | Advanced form; definition absent |
+| remember/know task | `trm_4da63146f12d7` | `exact` | [Remember/Know Task](../tasks/hedtsk_remember_know.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Remote Associates Test | `tsk_ZMTNk4Oce5b2j` | `exact` | [Remote Associates Task](../tasks/hedtsk_remote_associates.md) | - | Primary match from hed_task_to_atlas.tsv |
+| reversal learning task | `tsk_4a57abb949d4e` | `exact` | [Reversal Learning Task](../tasks/hedtsk_reversal_learning.md) | - | Primary match from hed_task_to_atlas.tsv |
+| probabilistic reversal learning task | `trm_4da6318f7381b` | `close` | [Reversal Learning Task](../tasks/hedtsk_reversal_learning.md) | - | Probabilistic variant |
+| Rey Auditory Verbal Learning Task | `trm_4da88ae0f2952` | `exact` | [Rey Auditory Verbal Learning Task](../tasks/hedtsk_rey_auditory_verbal_learning.md) | - | Primary match from hed_task_to_atlas.tsv |
+| California Verbal Learning Test | `trm_4da6331cdeeb5` | `close` | [Rey Auditory Verbal Learning Task](../tasks/hedtsk_rey_auditory_verbal_learning.md) | - | CVLT, same word-list paradigm |
+| California Verbal Learning Test-II | `tsk_4a57abb949900` | `close` | [Rey Auditory Verbal Learning Task](../tasks/hedtsk_rey_auditory_verbal_learning.md) | - | CVLT-II |
+| Eye tracking paradigms | `trm_55217b48995ce` | `related` | [Self-Paced Reading Task](../tasks/hedtsk_self_paced_reading.md) | - | Eye-tracking reading methods |
+| contextual semantic priming task | `trm_553e73e29cf7d` | `close` | [Semantic Priming Task](../tasks/hedtsk_semantic_priming.md) | - | Primary match from hed_task_to_atlas.tsv |
+| semantic task | `trm_4f241b50caaf7` | `related` | [Semantic Priming Task](../tasks/hedtsk_semantic_priming.md) | - | Generic semantic task |
+| syntactic task | `trm_4f244a453522b` | `related` | [Sentence Comprehension Task](../tasks/hedtsk_sentence_comprehension.md) | - | Generic syntactic task |
+| serial reaction time task | `trm_4f241c735e7f6` | `exact` | [Serial Reaction Time Task](../tasks/hedtsk_serial_reaction_time.md) | - | Primary match from hed_task_to_atlas.tsv |
+| choice reaction time task | `tsk_4a57abb949934` | `related` | [Serial Reaction Time Task](../tasks/hedtsk_serial_reaction_time.md) | - | Choice RT is a component, not the SRT paradigm |
+| simple reaction time task | `tsk_4a57abb949dc8` | `related` | [Serial Reaction Time Task](../tasks/hedtsk_serial_reaction_time.md) | - | Simple RT is a component, not the SRT paradigm |
+| Simon task | `tsk_4a57abb949dbb` | `exact` | [Simon Task](../tasks/hedtsk_simon.md) | - | Primary match from hed_task_to_atlas.tsv |
+| source memory test | `tsk_4a57abb949dd6` | `exact` | [Source Memory Task](../tasks/hedtsk_source_memory.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Sternberg Item Recognition Task | `trm_551f0a8b5ba2c` | `exact` | [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Sternberg Recent Probes | `trm_56674987c8f0c` | `exact` | [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md) | `hedvar_sternberg_item_recognition__recent_probes_sternberg` | - |
+| item recognition task | `trm_4da869646e5d1` | `close` | [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md) | - | Item recognition |
+| Sternberg delayed recognition task | `tsk_4a57abb949e0c` | `close` | [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md) | - | Delayed recognition form |
+| stop signal task | `tsk_4a57abb949e1a` | `exact` | [Stop-Signal Task](../tasks/hedtsk_stop_signal.md) | - | Primary match from hed_task_to_atlas.tsv |
+| conditional stop signal task | `trm_4cacf3fbc503b` | `close` | [Stop-Signal Task](../tasks/hedtsk_stop_signal.md) | - | Conditional variant |
+| Motor Selective Stop Signal Task | `trm_56bbe45003cf7` | `close` | [Stop-Signal Task](../tasks/hedtsk_stop_signal.md) | - | Motor-selective variant |
+| stimulus selective stop signal task | `trm_56a9123fe580f` | `close` | [Stop-Signal Task](../tasks/hedtsk_stop_signal.md) | - | Stimulus-selective variant |
+| stop signal task with letter naming | `trm_5181f83b77fa4` | `close` | [Stop-Signal Task](../tasks/hedtsk_stop_signal.md) | - | Stop-signal with letter naming |
+| stop signal walking task with stroop | `trm_553fcbbe974ba` | `close` | [Stop-Signal Task](../tasks/hedtsk_stop_signal.md) | - | Walking stop-signal with Stroop |
+| color-word stroop task | `trm_4b1968619b00b` | `exact` | [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md) | - | Primary match from hed_task_to_atlas.tsv |
+| counting Stroop task | `trm_4da631be60291` | `exact` | [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md) | `hedvar_stroop_color_word__counting_stroop` | - |
+| chimeric animal Stroop task | `trm_4b843655d5d75` | `close` | [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md) | - | Chimeric animal Stroop |
+| color-word stroop with task switching | `trm_5542841f3dcd5` | `close` | [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md) | - | Stroop with task switching |
+| picture-word Stroop test | `trm_4dadbfd771a54` | `close` | [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md) | - | Picture-word Stroop |
+| Stroop-like Arrows Task | `tsk_ZnDT4SbTZ2Bye` | `close` | [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md) | - | Arrow Stroop-like task |
+| sustained attention to response task | `trm_4da86cfe8cf1b` | `exact` | [Sustained Attention to Response Task](../tasks/hedtsk_sustained_attention_to_response.md) | - | Primary match from hed_task_to_atlas.tsv |
+| alternating runs paradigm | `trm_4da88b8b60ffb` | `exact` | [Task Switching Task](../tasks/hedtsk_task_switching.md) | `hedvar_task_switching__alternating_runs_aabb` | - |
+| task-switching | `tsk_4a57abb949e8a` | `exact` | [Task Switching Task](../tasks/hedtsk_task_switching.md) | - | Primary match from hed_task_to_atlas.tsv |
+| set-shifting task | `tsk_4a57abb949dad` | `close` | [Task Switching Task](../tasks/hedtsk_task_switching.md) | - | Set shifting |
+| task switching (3x2) | `trm_566745bbf272a` | `close` | [Task Switching Task](../tasks/hedtsk_task_switching.md) | - | 3x2 design |
+| attention switching task | `trm_4f241614d4a25` | `related` | [Task Switching Task](../tasks/hedtsk_task_switching.md) | - | Attention switching, a broader construct |
+| think/no-think task | `trm_54f93101b2fd8` | `exact` | [Think/No-Think Task](../tasks/hedtsk_think_no_think.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Tower of London | `trm_4da87e439c411` | `exact` | [Tower of London Task](../tasks/hedtsk_tower_of_london.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Tower of London Imagine | `trm_5696bcf1b5c64` | `close` | [Tower of London Task](../tasks/hedtsk_tower_of_london.md) | - | Imagined-move variant |
+| Tower of Hanoi | `trm_4da87e7282f92` | `related` | [Tower of London Task](../tasks/hedtsk_tower_of_london.md) | - | Tower of Hanoi, a sibling planning task |
+| Trail Making Test A and B | `tsk_4a57abb949ec0` | `exact` | [Trail Making Task](../tasks/hedtsk_trail_making.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Trust game (TG) | `tsk_uzol7erTzr9Ix` | `exact` | [Trust Game Task](../tasks/hedtsk_trust_game.md) | - | Primary match from hed_task_to_atlas.tsv |
+| 2-stage decision task | `trm_5667451917a34` | `exact` | [Two-Stage Decision Task](../tasks/hedtsk_two_stage_decision.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Two-Stage Task | `tsk_Jdo0KE737b9N8` | `exact` | [Two-Stage Decision Task](../tasks/hedtsk_two_stage_decision.md) | - | Duplicate of trm_5667451917a34 |
+| Ultimatum Game (UG) | `trm_553e8882e3cb6` | `exact` | [Ultimatum Game Task](../tasks/hedtsk_ultimatum_game.md) | - | Primary match from hed_task_to_atlas.tsv |
+| verb generation task | `trm_4f24183fe80c6` | `exact` | [Verb Generation Task](../tasks/hedtsk_verb_generation.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Covert verb generation task | `trm_5346927710e88` | `close` | [Verb Generation Task](../tasks/hedtsk_verb_generation.md) | - | Covert form |
+| category fluency test | `tsk_4a57abb949923` | `exact` | [Verbal Fluency Task](../tasks/hedtsk_verbal_fluency.md) | `hedvar_verbal_fluency__semantic_category_fluency` | - |
+| letter fluency test | `tsk_4a57abb949b0e` | `exact` | [Verbal Fluency Task](../tasks/hedtsk_verbal_fluency.md) | `hedvar_verbal_fluency__phonemic_letter_fluency_fas` | - |
+| verbal fluency task | `trm_4f240f1c740da` | `exact` | [Verbal Fluency Task](../tasks/hedtsk_verbal_fluency.md) | - | Primary match from hed_task_to_atlas.tsv |
+| phonemic fluency task | `trm_4f241be43458e` | `close` | [Verbal Fluency Task](../tasks/hedtsk_verbal_fluency.md) | `hedvar_verbal_fluency__phonemic_letter_fluency_fas` | - |
+| semantic fluency task | `trm_4f241bd52b509` | `close` | [Verbal Fluency Task](../tasks/hedtsk_verbal_fluency.md) | `hedvar_verbal_fluency__semantic_category_fluency` | - |
+| word fluency test | `trm_4da633dbb5817` | `close` | [Verbal Fluency Task](../tasks/hedtsk_verbal_fluency.md) | - | Word fluency |
+| Morris water maze | `trm_4da890a9bd7a3` | `close` | [Virtual Morris Water Maze Task](../tasks/hedtsk_virtual_morris_water_maze.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Porteus maze test | `trm_4da87fdd7820e` | `related` | [Virtual Radial Arm Maze Task](../tasks/hedtsk_virtual_radial_arm_maze.md) | - | Porteus maze, a planning maze |
+| backward masking | `trm_4a3fd79d09b6d` | `exact` | [Visual Masking Task](../tasks/hedtsk_visual_masking.md) | - | Primary match from hed_task_to_atlas.tsv |
+| conjunction search task | `trm_4f24194bce29f` | `exact` | [Visual Search Task](../tasks/hedtsk_visual_search.md) | `hedvar_visual_search__conjunction_search` | - |
+| visual search task | `trm_4f2447fe67fb9` | `exact` | [Visual Search Task](../tasks/hedtsk_visual_search.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Parallel/serial search | `trm_551b06cf9783b` | `close` | [Visual Search Task](../tasks/hedtsk_visual_search.md) | - | Parallel/serial search framing |
+| Wason card selection task | `trm_4f2449bdcb0b1` | `exact` | [Wason Selection Task](../tasks/hedtsk_wason_selection.md) | - | Primary match from hed_task_to_atlas.tsv |
+| Wisconsin card sorting test | `tsk_4a57abb949f21` | `exact` | [Wisconsin Card Sorting Task](../tasks/hedtsk_wisconsin_card_sorting.md) | - | Primary match from hed_task_to_atlas.tsv |

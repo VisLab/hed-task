@@ -5,9 +5,9 @@
 #
 # Two kinds of page live under docs/source/. Narrative pages (the landing page, the
 # overview pages, the Atlas essays and the Methods documents) are hand-written Markdown,
-# edited directly. Catalog pages (tasks/, processes/, task_process_links.md, the two Atlas mapping
-# tables) and the table fragments in _generated/ are written by src/generate_docs.py from
-# the data in data/, and are never edited by hand.
+# edited directly. Catalog pages (tasks/, processes/, task_process_links.md) and the table
+# fragments in _generated/ (including the full Atlas mapping tables) are written by
+# src/generate_docs.py from the data in data/, and are never edited by hand.
 
 import csv
 import json
