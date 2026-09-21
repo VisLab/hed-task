@@ -303,3 +303,32 @@ table.docutils code {
     white-space: normal;
     overflow-wrap: anywhere;
 }
+
+/* Development banner at the top of the middle panel (template: _templates/page.html;
+   text: conf.py html_context["dev_banner"]). */
+.dev-banner {
+    margin: 0 0 1.5rem 0;
+    padding: 0.6rem 1rem;
+    border: 1px solid #d4a72c;
+    border-left: 0.3rem solid #d4a72c;
+    border-radius: 0.25rem;
+    background-color: #fff8e1;
+    color: var(--color-foreground-primary);
+    font-size: var(--font-size--small);
+}
+
+.dev-banner a {
+    color: var(--color-link);
+}
+
+body[data-theme="dark"] .dev-banner {
+    background-color: #2a2410;
+    border-color: #b58a1b;
+}
+
+@media (prefers-color-scheme: dark) {
+    body:not([data-theme="light"]) .dev-banner {
+        background-color: #2a2410;
+        border-color: #b58a1b;
+    }
+}
