@@ -8,7 +8,7 @@ The HED Task Catalog (called the Catalog on this site) is a curated vocabulary o
 experiments, and of the cognitive processes those tasks engage. The Catalog exists so that
 datasets can be categorized by what their participants were asked to do, in terms that are
 the same across laboratories. The HED Task Catalog began as an effort to curate the [Cognitive Atlas](https://www.cognitiveatlas.org/) (called the Atlas on this site) into a form that might be usable for dataset annotation.
-See [The Catalog vs the Atlas]()
+See [The Catalog vs the Atlas](atlas/the_catalog_vs_the_atlas.md) for how the two relate.
 
 ## What is the HED Task Catalog?
 
