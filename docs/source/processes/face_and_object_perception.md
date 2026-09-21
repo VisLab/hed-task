@@ -37,7 +37,7 @@ Recognition of animate motion from sparse kinematic cues, such as point-light di
 
 Perception of distance and three-dimensional structure from monocular and binocular cues.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 
@@ -94,7 +94,7 @@ Recognition and processing of faces as a specialized perceptual category; N170-s
 
 Perception of taste qualities (sweet, sour, salty, bitter, umami).
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Further references**
 
@@ -126,7 +126,7 @@ Detection and interpretation of moving stimuli; includes global motion and optic
 
 Perception of odor via the olfactory system.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 
@@ -158,7 +158,7 @@ Categorization of sensory input according to its structure.
 
 Perception of bodily sensations, including touch, proprioception, temperature, and pain.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Further references**
 
@@ -173,7 +173,7 @@ Perception of bodily sensations, including touch, proprioception, temperature, a
 
 Assignment of visual input to a shape category prior to semantic identification.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 

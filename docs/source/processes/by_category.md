@@ -48,7 +48,7 @@ Learning that a neutral stimulus predicts a biologically significant outcome, le
 
 ### [Policy learning](associative_learning_and_reinforcement.md#hed-policy-learning)
 
-Direct learning of a mapping from states to actions without necessarily estimating values. Engaged by no task in the current catalog.
+Direct learning of a mapping from states to actions without necessarily estimating values. Engaged by no task in the current Catalog.
 
 ### [Reinforcement learning](associative_learning_and_reinforcement.md#hed-reinforcement-learning)
 
@@ -192,7 +192,7 @@ Recognition of animate motion from sparse kinematic cues, such as point-light di
 
 ### [Depth perception](face_and_object_perception.md#hed-depth-perception)
 
-Perception of distance and three-dimensional structure from monocular and binocular cues. Engaged by no task in the current catalog.
+Perception of distance and three-dimensional structure from monocular and binocular cues. Engaged by no task in the current Catalog.
 
 ### [Face identity recognition](face_and_object_perception.md#hed-face-identity-recognition)
 
@@ -204,7 +204,7 @@ Recognition and processing of faces as a specialized perceptual category; N170-s
 
 ### [Gustatory perception](face_and_object_perception.md#hed-gustatory-perception)
 
-Perception of taste qualities (sweet, sour, salty, bitter, umami). Engaged by no task in the current catalog.
+Perception of taste qualities (sweet, sour, salty, bitter, umami). Engaged by no task in the current Catalog.
 
 ### [Motion perception](face_and_object_perception.md#hed-motion-perception)
 
@@ -212,7 +212,7 @@ Detection and interpretation of moving stimuli; includes global motion and optic
 
 ### [Olfactory perception](face_and_object_perception.md#hed-olfactory-perception)
 
-Perception of odor via the olfactory system. Engaged by no task in the current catalog.
+Perception of odor via the olfactory system. Engaged by no task in the current Catalog.
 
 ### [Pattern recognition](face_and_object_perception.md#hed-pattern-recognition)
 
@@ -220,11 +220,11 @@ Categorization of sensory input according to its structure. Engaged by 3 tasks.
 
 ### [Somatosensory perception](face_and_object_perception.md#hed-somatosensory-perception)
 
-Perception of bodily sensations, including touch, proprioception, temperature, and pain. Engaged by no task in the current catalog.
+Perception of bodily sensations, including touch, proprioception, temperature, and pain. Engaged by no task in the current Catalog.
 
 ### [Visual form recognition](face_and_object_perception.md#hed-visual-form-recognition)
 
-Assignment of visual input to a shape category prior to semantic identification. Engaged by no task in the current catalog.
+Assignment of visual input to a shape category prior to semantic identification. Engaged by no task in the current Catalog.
 
 ### [Visual object recognition](face_and_object_perception.md#hed-visual-object-recognition)
 
@@ -256,7 +256,7 @@ Detection of co-activation of incompatible response tendencies, proposed to recr
 
 ### [Error correction](inhibitory_control_and_conflict_monitoring.md#hed-error-correction)
 
-Adjustment of behavior following an error, including post-error slowing and improvement on subsequent trials. Engaged by no task in the current catalog.
+Adjustment of behavior following an error, including post-error slowing and improvement on subsequent trials. Engaged by no task in the current Catalog.
 
 ### [Error detection](inhibitory_control_and_conflict_monitoring.md#hed-error-detection)
 
@@ -388,7 +388,7 @@ Sense that a stimulus has been encountered before, in the absence of retrieval o
 
 ### [Forgetting](long_term_memory.md#hed-forgetting)
 
-Loss of accessibility of previously encoded information, due to decay, interference, or retrieval failure. Engaged by no task in the current catalog.
+Loss of accessibility of previously encoded information, due to decay, interference, or retrieval failure. Engaged by no task in the current Catalog.
 
 ### [Pattern completion](long_term_memory.md#hed-pattern-completion)
 
@@ -420,7 +420,7 @@ Retrieval of contextual detail about a prior event, including source information
 
 ### [Reconsolidation](long_term_memory.md#hed-reconsolidation)
 
-Destabilization and re-stabilization of a memory upon retrieval, creating a window for modification. Engaged by no task in the current catalog.
+Destabilization and re-stabilization of a memory upon retrieval, creating a window for modification. Engaged by no task in the current Catalog.
 
 ### [Retrieval](long_term_memory.md#hed-retrieval)
 
@@ -432,7 +432,7 @@ Disruption of older memories by newly learned material. Engaged by 1 task.
 
 ### [Semantic memory](long_term_memory.md#hed-semantic-memory)
 
-Long-term store of general knowledge about the world — facts, concepts, and word meanings — dissociable from episodic memory and supported by distributed cortical representations. Engaged by no task in the current catalog.
+Long-term store of general knowledge about the world — facts, concepts, and word meanings — dissociable from episodic memory and supported by distributed cortical representations. Engaged by no task in the current Catalog.
 
 ### [Source memory](long_term_memory.md#hed-source-memory)
 
@@ -448,7 +448,7 @@ Motor planning, response selection, motor preparation, action initiation, respon
 
 ### [Action initiation](motor_preparation_timing_and_execution.md#hed-action-initiation)
 
-Triggering of an action after planning is complete. Engaged by no task in the current catalog.
+Triggering of an action after planning is complete. Engaged by no task in the current Catalog.
 
 ### [Antisaccade](motor_preparation_timing_and_execution.md#hed-antisaccade)
 
@@ -460,11 +460,11 @@ Precise control of small-amplitude movements, typically of the hand and fingers.
 
 ### [Grasping](motor_preparation_timing_and_execution.md#hed-grasping)
 
-Shaping and closure of the hand around an object. Engaged by no task in the current catalog.
+Shaping and closure of the hand around an object. Engaged by no task in the current Catalog.
 
 ### [Motor memory](motor_preparation_timing_and_execution.md#hed-motor-memory)
 
-Long-term retention of motor skills and procedures. Engaged by no task in the current catalog.
+Long-term retention of motor skills and procedures. Engaged by no task in the current Catalog.
 
 ### [Motor planning](motor_preparation_timing_and_execution.md#hed-motor-planning)
 
@@ -484,11 +484,11 @@ Production or estimation of temporal intervals in motor output. Engaged by 1 tas
 
 ### [Proprioception](motor_preparation_timing_and_execution.md#hed-proprioception)
 
-Perception of body position and movement from muscle, tendon, and joint receptors. Engaged by no task in the current catalog.
+Perception of body position and movement from muscle, tendon, and joint receptors. Engaged by no task in the current Catalog.
 
 ### [Reaching](motor_preparation_timing_and_execution.md#hed-reaching)
 
-Goal-directed arm movement toward a spatial target. Engaged by no task in the current catalog.
+Goal-directed arm movement toward a spatial target. Engaged by no task in the current Catalog.
 
 ### [Response execution](motor_preparation_timing_and_execution.md#hed-response-execution)
 
@@ -508,7 +508,7 @@ Recalibration of movement in response to perturbations of the mapping between vi
 
 ### [Vocal-motor control](motor_preparation_timing_and_execution.md#hed-vocal-motor-control)
 
-Control of the articulators for speech production and vocalization. Engaged by no task in the current catalog.
+Control of the articulators for speech production and vocalization. Engaged by no task in the current Catalog.
 
 ## [Perceptual Decision-Making (Evidence Accumulation)](perceptual_decision_making_evidence_accumulation.md)
 
@@ -552,7 +552,7 @@ Sudden restructuring of a problem representation yielding a solution that was pr
 
 ### [Mathematical reasoning](reasoning_and_problem_solving.md#hed-mathematical-reasoning)
 
-Manipulation of numerical and algebraic quantities and relations. Engaged by no task in the current catalog.
+Manipulation of numerical and algebraic quantities and relations. Engaged by no task in the current Catalog.
 
 ### [Means-ends analysis](reasoning_and_problem_solving.md#hed-means-ends-analysis)
 
@@ -592,7 +592,7 @@ Affective and neural response to cues predicting upcoming reward. Engaged by 4 t
 
 ### [Reward consumption](reward_anticipation_and_motivation.md#hed-reward-consumption)
 
-Affective and neural response to receipt of reward. Engaged by no task in the current catalog.
+Affective and neural response to receipt of reward. Engaged by no task in the current Catalog.
 
 ## [Selective and Sustained Attention](selective_and_sustained_attention.md)
 
@@ -704,7 +704,7 @@ Differential processing of members of one's own group versus other groups. Engag
 
 ### [Joint attention](social_cognition_and_strategic_social_choice.md#hed-joint-attention)
 
-Coordinated focus by two or more agents on the same object or event, involving shared awareness that attention is joint. Engaged by no task in the current catalog.
+Coordinated focus by two or more agents on the same object or event, involving shared awareness that attention is joint. Engaged by no task in the current Catalog.
 
 ### [Perspective taking](social_cognition_and_strategic_social_choice.md#hed-perspective-taking)
 
@@ -748,7 +748,7 @@ Choice among options that differ in subjective value: valuation, value-based dec
 
 ### [Choice commitment](value_based_decision_making_under_risk_and_uncertainty.md#hed-choice-commitment)
 
-The act of locking in a selected option once accumulated evidence or value crosses a decision boundary; measured by response-time distributions, drift-diffusion boundary parameters, and motor preparation signatures. Engaged by no task in the current catalog.
+The act of locking in a selected option once accumulated evidence or value crosses a decision boundary; measured by response-time distributions, drift-diffusion boundary parameters, and motor preparation signatures. Engaged by no task in the current Catalog.
 
 ### [Delay discounting](value_based_decision_making_under_risk_and_uncertainty.md#hed-delay-discounting)
 

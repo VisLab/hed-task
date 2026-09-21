@@ -82,7 +82,7 @@ def generate(
             [
                 [label, sum(1 for r in reverse if r["match_type"] == "none" and r["scope_class"] == scope)]
                 for scope, label in (
-                    ("paradigm", f"Experimental paradigm not in the {len(forward)}-task catalog"),
+                    ("paradigm", "Experimental paradigm not in the Catalog"),
                     ("questionnaire", "Self-report instrument"),
                     ("battery", "Standardized test battery"),
                     ("imaging_protocol", "Imaging protocol label"),

@@ -1,6 +1,6 @@
 # Task-process links
 
-Every link between the 106 tasks and 172 processes in the catalog, in both
+Every link between the 106 tasks and 172 processes in the Catalog, in both
 directions: 486 links in all. A task is linked to a process when its inclusion test
 engages that process; the [process criteria](methods/process_criteria/index.md) say when a
 link is justified. The same links appear on the individual task and process pages;
@@ -9,9 +9,9 @@ this page is the single place to see the whole matrix.
 ## Processes to tasks
 
 One section per category. 20 processes are engaged by no task in the current
-catalog and are marked as such.
+Catalog and are marked as such.
 
-### Associative Learning and Reinforcement
+### Associative Learning and Reinforcement (13 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -29,7 +29,7 @@ catalog and are marked as such.
 | [Reward prediction error](processes/associative_learning_and_reinforcement.md#hed-reward-prediction-error) | [Causal Learning Task](tasks/hedtsk_causal_learning.md), [Instrumental Conditioning Task](tasks/hedtsk_instrumental_conditioning.md), [Iowa Gambling Task](tasks/hedtsk_iowa_gambling.md), [Multi-Armed Bandit Task](tasks/hedtsk_multi_armed_bandit.md), [Probabilistic Selection Task](tasks/hedtsk_probabilistic_selection.md), [Reversal Learning Task](tasks/hedtsk_reversal_learning.md), [Two-Stage Decision Task](tasks/hedtsk_two_stage_decision.md) |
 | [Value learning](processes/associative_learning_and_reinforcement.md#hed-value-learning) | [Multi-Armed Bandit Task](tasks/hedtsk_multi_armed_bandit.md), [Probabilistic Selection Task](tasks/hedtsk_probabilistic_selection.md) |
 
-### Auditory and Pre-Attentive Deviance Processing
+### Auditory and Pre-Attentive Deviance Processing (2 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -38,7 +38,7 @@ catalog and are marked as such.
 | [Auditory tone discrimination](processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-tone-discrimination) | [Mismatch Negativity Task](tasks/hedtsk_mismatch_negativity.md) |
 | [Pitch perception](processes/auditory_and_pre_attentive_deviance_processing.md#hed-pitch-perception) | [Mismatch Negativity Task](tasks/hedtsk_mismatch_negativity.md) |
 
-### Awareness, Agency, and Metacognition
+### Awareness, Agency, and Metacognition (20 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -56,7 +56,7 @@ catalog and are marked as such.
 | [Self-referential processing](processes/awareness_agency_and_metacognition.md#hed-self-referential-processing) | [Autobiographical Memory Task](tasks/hedtsk_autobiographical_memory.md), [Body Ownership Illusion Task](tasks/hedtsk_body_ownership_illusion.md), [Self-Referential Encoding Task](tasks/hedtsk_self_referential_encoding.md) |
 | [Sense of agency](processes/awareness_agency_and_metacognition.md#hed-sense-of-agency) | [Intentional Binding Task](tasks/hedtsk_intentional_binding.md) |
 
-### Cognitive Flexibility and Higher-Order Executive Function
+### Cognitive Flexibility and Higher-Order Executive Function (10 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -64,7 +64,7 @@ catalog and are marked as such.
 | [Set shifting](processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-set-shifting) | [Prospective Memory Task](tasks/hedtsk_prospective_memory.md), [Reversal Learning Task](tasks/hedtsk_reversal_learning.md), [Task Switching Task](tasks/hedtsk_task_switching.md), [Trail Making Task](tasks/hedtsk_trail_making.md), [Wisconsin Card Sorting Task](tasks/hedtsk_wisconsin_card_sorting.md) |
 | [Strategy use](processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-strategy-use) | [Multi-Armed Bandit Task](tasks/hedtsk_multi_armed_bandit.md), [Prisoner's Dilemma Task](tasks/hedtsk_prisoners_dilemma.md), [Probabilistic Classification Learning Task](tasks/hedtsk_probabilistic_classification_learning.md), [Tower of London Task](tasks/hedtsk_tower_of_london.md), [Virtual Morris Water Maze Task](tasks/hedtsk_virtual_morris_water_maze.md), [Wisconsin Card Sorting Task](tasks/hedtsk_wisconsin_card_sorting.md) |
 
-### Emotion Perception and Regulation
+### Emotion Perception and Regulation (10 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -74,7 +74,7 @@ catalog and are marked as such.
 | [Emotion regulation](processes/emotion_perception_and_regulation.md#hed-emotion-regulation) | [Affective Picture Viewing Task](tasks/hedtsk_affective_picture_viewing.md), [Emotion Regulation Task](tasks/hedtsk_emotion_regulation.md), [Iowa Gambling Task](tasks/hedtsk_iowa_gambling.md), [Pavlovian Fear Conditioning Task](tasks/hedtsk_pavlovian_fear_conditioning.md), [Ultimatum Game Task](tasks/hedtsk_ultimatum_game.md) |
 | [Expressive suppression](processes/emotion_perception_and_regulation.md#hed-expressive-suppression) | [Emotion Regulation Task](tasks/hedtsk_emotion_regulation.md) |
 
-### Face and Object Perception
+### Face and Object Perception (17 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -91,14 +91,14 @@ catalog and are marked as such.
 | [Visual object recognition](processes/face_and_object_perception.md#hed-visual-object-recognition) | [Face Processing Task](tasks/hedtsk_face_processing.md), [Picture Naming Task](tasks/hedtsk_picture_naming.md), [Weapons Identification Task](tasks/hedtsk_weapons_identification.md) |
 | [Visual perception](processes/face_and_object_perception.md#hed-visual-perception) | [Affective Picture Viewing Task](tasks/hedtsk_affective_picture_viewing.md), [Biological Motion Perception Task](tasks/hedtsk_biological_motion_perception.md), [Cambridge Face Memory Task](tasks/hedtsk_cambridge_face_memory.md), [Digit Symbol Substitution Task](tasks/hedtsk_digit_symbol_substitution.md), [Face Processing Task](tasks/hedtsk_face_processing.md), [Mental Rotation Task](tasks/hedtsk_mental_rotation.md), [Navon Task](tasks/hedtsk_navon.md), [Random Dot Kinematogram Task](tasks/hedtsk_random_dot_kinematogram.md), [Raven's Progressive Matrices Task](tasks/hedtsk_ravens_progressive_matrices.md), [Useful Field of View Task](tasks/hedtsk_useful_field_of_view.md), [Visual Masking Task](tasks/hedtsk_visual_masking.md), [Visual Search Task](tasks/hedtsk_visual_search.md) |
 
-### Implicit and Statistical Learning
+### Implicit and Statistical Learning (6 tasks)
 
 | Process | Tasks |
 |---|---|
 | [Implicit memory](processes/implicit_and_statistical_learning.md#hed-implicit-memory) | [Artificial Grammar Learning Task](tasks/hedtsk_artificial_grammar_learning.md), [Contextual Cueing Task](tasks/hedtsk_contextual_cueing.md), [Serial Reaction Time Task](tasks/hedtsk_serial_reaction_time.md) |
 | [Procedural memory](processes/implicit_and_statistical_learning.md#hed-procedural-memory) | [Artificial Grammar Learning Task](tasks/hedtsk_artificial_grammar_learning.md), [Mirror Tracing Task](tasks/hedtsk_mirror_tracing.md), [Motor Sequence Learning Task](tasks/hedtsk_motor_sequence_learning.md), [Probabilistic Classification Learning Task](tasks/hedtsk_probabilistic_classification_learning.md), [Serial Reaction Time Task](tasks/hedtsk_serial_reaction_time.md) |
 
-### Inhibitory Control and Conflict Monitoring
+### Inhibitory Control and Conflict Monitoring (26 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -112,7 +112,7 @@ catalog and are marked as such.
 | [Response conflict](processes/inhibitory_control_and_conflict_monitoring.md#hed-response-conflict) | [Affective Priming Task](tasks/hedtsk_affective_priming.md), [Eriksen Flanker Task](tasks/hedtsk_eriksen_flanker.md), [Implicit Association Task](tasks/hedtsk_implicit_association.md), [Navon Task](tasks/hedtsk_navon.md), [Simon Task](tasks/hedtsk_simon.md), [Stroop Color-Word Task](tasks/hedtsk_stroop_color_word.md), [Weapons Identification Task](tasks/hedtsk_weapons_identification.md) |
 | [Response inhibition](processes/inhibitory_control_and_conflict_monitoring.md#hed-response-inhibition) | [Anti-Saccade Task](tasks/hedtsk_anti_saccade.md), [Balloon Analog Risk Task](tasks/hedtsk_balloon_analog_risk.md), [Continuous Performance Task](tasks/hedtsk_continuous_performance.md), [Delay Discounting Task](tasks/hedtsk_delay_discounting.md), [Directed Forgetting Task](tasks/hedtsk_directed_forgetting.md), [Go/No-Go Task](tasks/hedtsk_go_no_go.md), [Imitation-Inhibition Task](tasks/hedtsk_imitation_inhibition.md), [Stop-Signal Task](tasks/hedtsk_stop_signal.md), [Stroop Color-Word Task](tasks/hedtsk_stroop_color_word.md), [Sustained Attention to Response Task](tasks/hedtsk_sustained_attention_to_response.md), [Think/No-Think Task](tasks/hedtsk_think_no_think.md) |
 
-### Language Comprehension and Production
+### Language Comprehension and Production (13 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -133,7 +133,7 @@ catalog and are marked as such.
 | [Verbal fluency](processes/language_comprehension_and_production.md#hed-verbal-fluency) | [Verbal Fluency Task](tasks/hedtsk_verbal_fluency.md) |
 | [Word recognition](processes/language_comprehension_and_production.md#hed-word-recognition) | [Lexical Decision Task](tasks/hedtsk_lexical_decision.md), [Self-Paced Reading Task](tasks/hedtsk_self_paced_reading.md), [Semantic Priming Task](tasks/hedtsk_semantic_priming.md) |
 
-### Long-Term Memory
+### Long-Term Memory (21 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -159,7 +159,7 @@ catalog and are marked as such.
 | [Source memory](processes/long_term_memory.md#hed-source-memory) | [Source Memory Task](tasks/hedtsk_source_memory.md) |
 | [Verbal memory](processes/long_term_memory.md#hed-verbal-memory) | [Rey Auditory Verbal Learning Task](tasks/hedtsk_rey_auditory_verbal_learning.md) |
 
-### Motor Preparation, Timing, and Execution
+### Motor Preparation, Timing, and Execution (22 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -180,13 +180,13 @@ catalog and are marked as such.
 | [Visuomotor adaptation](processes/motor_preparation_timing_and_execution.md#hed-visuomotor-adaptation) | [Mirror Tracing Task](tasks/hedtsk_mirror_tracing.md) |
 | [Vocal-motor control](processes/motor_preparation_timing_and_execution.md#hed-vocal-motor-control) | *none* |
 
-### Perceptual Decision-Making (Evidence Accumulation)
+### Perceptual Decision-Making (Evidence Accumulation) (3 tasks)
 
 | Process | Tasks |
 |---|---|
 | [Perceptual decision making](processes/perceptual_decision_making_evidence_accumulation.md#hed-perceptual-decision-making) | [Auditory Masking Task](tasks/hedtsk_auditory_masking.md), [Random Dot Kinematogram Task](tasks/hedtsk_random_dot_kinematogram.md), [Weapons Identification Task](tasks/hedtsk_weapons_identification.md) |
 
-### Reasoning and Problem-Solving
+### Reasoning and Problem-Solving (13 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -202,7 +202,7 @@ catalog and are marked as such.
 | [Planning](processes/reasoning_and_problem_solving.md#hed-planning) | [Tower of London Task](tasks/hedtsk_tower_of_london.md) |
 | [Subgoaling](processes/reasoning_and_problem_solving.md#hed-subgoaling) | [Tower of London Task](tasks/hedtsk_tower_of_london.md) |
 
-### Reward Anticipation and Motivation
+### Reward Anticipation and Motivation (8 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -213,7 +213,7 @@ catalog and are marked as such.
 | [Reward anticipation](processes/reward_anticipation_and_motivation.md#hed-reward-anticipation) | [Balloon Analog Risk Task](tasks/hedtsk_balloon_analog_risk.md), [Effort-Based Decision-Making Task](tasks/hedtsk_effort_based_decision_making.md), [Monetary Incentive Delay Task](tasks/hedtsk_monetary_incentive_delay.md), [Social Incentive Delay Task](tasks/hedtsk_social_incentive_delay.md) |
 | [Reward consumption](processes/reward_anticipation_and_motivation.md#hed-reward-consumption) | *none* |
 
-### Selective and Sustained Attention
+### Selective and Sustained Attention (26 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -229,7 +229,7 @@ catalog and are marked as such.
 | [Sustained attention](processes/selective_and_sustained_attention.md#hed-sustained-attention) | [Continuous Performance Task](tasks/hedtsk_continuous_performance.md), [Go/No-Go Task](tasks/hedtsk_go_no_go.md), [Multiple Object Tracking Task](tasks/hedtsk_multiple_object_tracking.md), [Oddball Task](tasks/hedtsk_oddball.md), [Psychomotor Vigilance Task](tasks/hedtsk_psychomotor_vigilance.md), [Rapid Serial Visual Presentation Task](tasks/hedtsk_rapid_serial_visual_presentation.md), [Sustained Attention to Response Task](tasks/hedtsk_sustained_attention_to_response.md), [Useful Field of View Task](tasks/hedtsk_useful_field_of_view.md) |
 | [Temporal attention](processes/selective_and_sustained_attention.md#hed-temporal-attention) | [Oddball Task](tasks/hedtsk_oddball.md), [Rapid Serial Visual Presentation Task](tasks/hedtsk_rapid_serial_visual_presentation.md) |
 
-### Short-Term and Working Memory
+### Short-Term and Working Memory (17 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -243,7 +243,7 @@ catalog and are marked as such.
 | [Working memory](processes/short_term_and_working_memory.md#hed-working-memory) | [Digit Symbol Substitution Task](tasks/hedtsk_digit_symbol_substitution.md), [N-Back Task](tasks/hedtsk_n_back.md), [Operation Span Task](tasks/hedtsk_operation_span.md), [Raven's Progressive Matrices Task](tasks/hedtsk_ravens_progressive_matrices.md), [Sternberg Item Recognition Task](tasks/hedtsk_sternberg_item_recognition.md), [Tower of London Task](tasks/hedtsk_tower_of_london.md), [Trail Making Task](tasks/hedtsk_trail_making.md) |
 | [Working memory updating](processes/short_term_and_working_memory.md#hed-working-memory-updating) | [N-Back Task](tasks/hedtsk_n_back.md), [Oddball Task](tasks/hedtsk_oddball.md), [Rapid Serial Visual Presentation Task](tasks/hedtsk_rapid_serial_visual_presentation.md) |
 
-### Social Cognition and Strategic Social Choice
+### Social Cognition and Strategic Social Choice (13 tasks)
 
 | Process | Tasks |
 |---|---|
@@ -259,14 +259,14 @@ catalog and are marked as such.
 | [Social perception](processes/social_cognition_and_strategic_social_choice.md#hed-social-perception) | [Biological Motion Perception Task](tasks/hedtsk_biological_motion_perception.md), [Facial Emotion Recognition Task](tasks/hedtsk_facial_emotion_recognition.md), [False Belief Task](tasks/hedtsk_false_belief.md), [Reading the Mind in the Eyes Task](tasks/hedtsk_reading_the_mind_in_the_eyes.md), [Social Incentive Delay Task](tasks/hedtsk_social_incentive_delay.md), [Wason Selection Task](tasks/hedtsk_wason_selection.md) |
 | [Stereotyping](processes/social_cognition_and_strategic_social_choice.md#hed-stereotyping) | [Implicit Association Task](tasks/hedtsk_implicit_association.md), [Weapons Identification Task](tasks/hedtsk_weapons_identification.md) |
 
-### Spatial Cognition and Navigation
+### Spatial Cognition and Navigation (4 tasks)
 
 | Process | Tasks |
 |---|---|
 | [Mental rotation](processes/spatial_cognition_and_navigation.md#hed-mental-rotation) | [Mental Rotation Task](tasks/hedtsk_mental_rotation.md) |
 | [Spatial memory](processes/spatial_cognition_and_navigation.md#hed-spatial-memory) | [Corsi Block-Tapping Task](tasks/hedtsk_corsi_block_tapping.md), [Mental Rotation Task](tasks/hedtsk_mental_rotation.md), [Virtual Morris Water Maze Task](tasks/hedtsk_virtual_morris_water_maze.md), [Virtual Radial Arm Maze Task](tasks/hedtsk_virtual_radial_arm_maze.md) |
 
-### Value-Based Decision-Making Under Risk and Uncertainty
+### Value-Based Decision-Making Under Risk and Uncertainty (10 tasks)
 
 | Process | Tasks |
 |---|---|

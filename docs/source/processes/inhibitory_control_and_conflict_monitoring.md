@@ -6,7 +6,7 @@
 **Out of scope:** Impulsivity as a trait; behavioral inhibition as a temperament construct.
 
 :::{note}
-**Open issues:** The proactive/reactive control split is paradigm-bound (AX-CPT-style designs); retained but worth revisiting if the catalog adds paradigms that dissociate other control modes.
+**Open issues:** The proactive/reactive control split is paradigm-bound (AX-CPT-style designs); retained but worth revisiting if the Catalog adds paradigms that dissociate other control modes.
 :::
 
 This category contains 9 processes.
@@ -35,7 +35,7 @@ Detection of co-activation of incompatible response tendencies, proposed to recr
 
 Adjustment of behavior following an error, including post-error slowing and improvement on subsequent trials.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 

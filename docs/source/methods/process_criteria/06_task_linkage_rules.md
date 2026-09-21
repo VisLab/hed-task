@@ -29,4 +29,4 @@ A link from task T to process P should satisfy at least one of:
 (process-criteria-6-4)=
 ## 6.4 Unlinked processes
 
-19 of 172 processes have `task_count = 0` (no linked tasks). Some of these are legitimate: the process is real but none of the 103 tasks in the current catalog are designed to study it (e.g., gustatory perception - no taste-perception task in the catalog). Others may signal problems: the process is too abstract, or a link was missed.
+19 of 172 processes have `task_count = 0` (no linked tasks). Some of these are legitimate: the process is real but none of the 103 tasks in the current Catalog are designed to study it (e.g., gustatory perception - no taste-perception task in the Catalog). Others may signal problems: the process is too abstract, or a link was missed.

@@ -99,7 +99,7 @@ Affective and neural response to cues predicting upcoming reward.
 
 Affective and neural response to receipt of reward.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 

@@ -47,7 +47,7 @@ hedtsk_autobiographical_memory	recall_and_recognition	high	Cued retrieval of per
 hedtsk_self_referential_encoding	memory_control	high	Encoding instruction manipulates later recall
 hedtsk_directed_forgetting	memory_control	high	Remember or forget cues at study
 hedtsk_think_no_think	memory_control	high	Retrieve or suppress an associate on cue
-hedtsk_prospective_memory	memory_control	review	Execute a deferred intention during an ongoing task; the only prospective paradigm in the catalog
+hedtsk_prospective_memory	memory_control	review	Execute a deferred intention during an ongoing task; the only prospective paradigm in the Catalog
 hedtsk_judgment_of_learning	metacognition_and_interoception	high	Predict later recall of each studied item
 hedtsk_feeling_of_knowing	metacognition_and_interoception	high	Rate recognizability after failed recall
 hedtsk_heartbeat_detection	metacognition_and_interoception	high	Count or discriminate one's own heartbeats

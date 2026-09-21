@@ -38,7 +38,7 @@ CONCEPT_CLASSES = {
 }
 
 SCOPE_HEADINGS = {
-    "paradigm": "Experimental paradigms not in the task catalog",
+    "paradigm": "Experimental paradigms not in the Catalog",
     "questionnaire": "Rating scales, questionnaires and inventories",
     "battery": "Standardized tests and batteries",
     "imaging_protocol": "Imaging protocol labels",
@@ -124,7 +124,7 @@ def _task_page(maps: Path) -> str:
     return f"""\
 # Task mapping tables
 
-Every correspondence between the {len(forward)} tasks in this catalog and the
+Every correspondence between the {len(forward)} tasks in the Catalog and the
 {len(reverse)} task entries in the Cognitive Atlas, in both directions. The
 [methodology](../methods/atlas_mapping/index.md) page explains what the match types mean
 and how each row was decided.
@@ -138,7 +138,7 @@ left uncorrected so that a name here matches the source byte for byte.
 
 ## Catalog to Atlas
 
-One row per task in this catalog: {_counts_line(forward)}.
+One row per task in the Catalog: {_counts_line(forward)}.
 
 {
         _table(
@@ -147,9 +147,9 @@ One row per task in this catalog: {_counts_line(forward)}.
         )
     }
 
-## Atlas to catalog, matched entries
+## Atlas to Catalog, matched entries
 
-{len(matched)} Atlas entries correspond to something in this catalog, covering
+{len(matched)} Atlas entries correspond to something in the Catalog, covering
 {covered} of its {len(forward)} tasks. {variations} of them resolve to a named variation
 rather than to the task itself, which is how the Atlas's habit of registering each
 implementation separately is absorbed.
@@ -161,10 +161,10 @@ implementation separately is absorbed.
         )
     }
 
-## Atlas to catalog, entries with no counterpart
+## Atlas to Catalog, entries with no counterpart
 
 The remaining {len(unmatched)} Atlas entries have no counterpart here. Most are not
-experimental paradigms at all; the rest are paradigms this catalog does not cover. The
+experimental paradigms at all; the rest are paradigms the Catalog does not cover. The
 grouping below is derived from each entry's name by rule, so treat it as an aid to
 navigation rather than a classification.
 
@@ -224,7 +224,7 @@ def _process_page(maps: Path) -> str:
     return f"""\
 # Process mapping tables
 
-Every correspondence between the {len(forward)} cognitive processes in this catalog and
+Every correspondence between the {len(forward)} cognitive processes in the Catalog and
 the {len(reverse)} concepts in the Cognitive Atlas, in both directions. The
 [methodology](../methods/atlas_mapping/index.md) page explains what the match types mean
 and how each row was decided.
@@ -233,7 +233,7 @@ The source of record is `data/mappings/`, not this page.
 
 ## Catalog to Atlas
 
-One row per process in this catalog: {_counts_line(forward)}. `Atlas tasks` counts the
+One row per process in the Catalog: {_counts_line(forward)}. `Atlas tasks` counts the
 Atlas task entries that assert the matched concept, which is a rough measure of how
 much use the Atlas makes of it.
 
@@ -244,7 +244,7 @@ much use the Atlas makes of it.
         )
     }
 
-## Atlas to catalog, matched concepts
+## Atlas to Catalog, matched concepts
 
 {len(matched)} Atlas concepts correspond to a process here, drawn on by {used} distinct
 concept records. The count is lower than the number of matched processes because
@@ -257,9 +257,9 @@ several processes resolve to the same Atlas concept.
         )
     }
 
-## Atlas to catalog, concepts with no counterpart
+## Atlas to Catalog, concepts with no counterpart
 
-{len(unmatched)} Atlas concepts have no process in this catalog. Roughly half of the
+{len(unmatched)} Atlas concepts have no process in the Catalog. Roughly half of the
 Atlas concept layer is asserted by no task either, so a concept appearing here is not
 evidence that it matters to anyone.
 

@@ -148,17 +148,17 @@ def _write_task_index(
 
     parts: list[str] = [
         "# Tasks\n\n",
-        f"The catalog defines {n_tasks} standard cognitive and behavioral neuroscience tasks, and\n"
+        f"The Catalog defines {n_tasks} standard cognitive and behavioral neuroscience tasks, and\n"
         f"{n_pseudo} pseudo tasks (rest, fixation and questionnaire blocks) that set up or hold a state\n"
         "rather than eliciting a process.\n"
         "Each task page gives the canonical name and aliases, a description, the inclusion\n"
         "test that decides whether an experiment is an instance of the task, its named\n"
         "variations, the cognitive processes it engages, and references.\n\n",
         f"Tasks are filed under {len(families)} **paradigm families** by what the participant does,\n"
-        "not by which process the task is thought to measure. The process catalog covers that\n"
+        "not by which process the task is thought to measure. The Catalog's process list covers that\n"
         "other axis, and the two cross-link. A family is a browsing aid; every task is in\n"
         "exactly one, the assignment is a curation decision, and it is expected to change as\n"
-        f"the catalog grows. {n_review} of the {n_tasks} assignments are marked for review in the\n"
+        f"the Catalog grows. {n_review} of the {n_tasks} assignments are marked for review in the\n"
         "source table because a reasonable reader could file the task elsewhere; the family\n"
         "pages say which.\n\n",
         "Two ways in:\n\n",
@@ -319,7 +319,7 @@ def _write_task_page(
         parts.append(
             ":::{note}\n"
             "**Pseudo task.** A block that establishes or holds a state, or collects a self-report,\n"
-            "rather than eliciting a cognitive process through a trial structure. It is in the catalog\n"
+            "rather than eliciting a cognitive process through a trial structure. It is in the Catalog\n"
             "so that such blocks can be labelled with the same vocabulary as the tasks around them.\n"
             "See [Pseudo tasks](../methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3) in the task criteria.\n"
             ":::\n\n"

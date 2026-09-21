@@ -140,7 +140,7 @@ Sense that a stimulus has been encountered before, in the absence of retrieval o
 
 Loss of accessibility of previously encoded information, due to decay, interference, or retrieval failure.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 
@@ -260,7 +260,7 @@ Retrieval of contextual detail about a prior event, including source information
 
 Destabilization and re-stabilization of a memory upon retrieval, creating a window for modification.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 
@@ -309,7 +309,7 @@ Disruption of older memories by newly learned material.
 
 Long-term store of general knowledge about the world — facts, concepts, and word meanings — dissociable from episodic memory and supported by distributed cortical representations.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 

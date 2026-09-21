@@ -8,7 +8,7 @@
 (process-criteria-4-1)=
 ## 4.1 The 19 categories
 
-The catalog organizes 172 processes into 19 categories. The categories, their process counts, and their scope are defined in the `categories` array of `process_details.json`. The 19 categories are:
+The Catalog organizes 172 processes into 19 categories. The categories, their process counts, and their scope are defined in the `categories` array of `process_details.json`. The 19 categories are:
 
 1. Associative Learning and Reinforcement (13)
 2. Auditory and Pre-Attentive Deviance Processing (4)

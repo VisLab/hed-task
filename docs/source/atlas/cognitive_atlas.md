@@ -9,11 +9,11 @@ processes and the experimental paradigms that measure them. It separates *concep
 (mental processes) from *tasks* (experimental paradigms), gives each a stable
 identifier, and records which concepts a task is claimed to assess. It is the only
 openly licensed lexicon spanning the breadth of cognitive neuroscience, and it was the
-starting corpus for this catalog.
+starting corpus for the Catalog.
 
 This page describes the Atlas on its own terms: what it contains, how completely its
 entries are filled in, and what condition the data is in. It draws no comparison with
-the task and process catalog published here.
+the Catalog.
 
 ## In short
 

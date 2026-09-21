@@ -1,4 +1,4 @@
-# The catalog data
+# The Catalog's data
 
 Everything the site is generated from lives here and is edited here, by pull request.
 
@@ -45,9 +45,9 @@ After adding or changing a reference, run `python src/check_references.py`. It c
 
 ## Task families
 
-A family groups tasks by what the participant does, not by which cognitive process the task is thought to measure. That is the same principle the task criteria use to decide whether two experiments are the same task: procedure first. The process catalog covers the other axis, so the two views cross-link rather than duplicate one another.
+A family groups tasks by what the participant does, not by which cognitive process the task is thought to measure. That is the same principle the task criteria use to decide whether two experiments are the same task: procedure first. The Catalog's process list covers the other axis, so the two views cross-link rather than duplicate one another.
 
-Every task is filed under exactly one family, which is what lets the site's sidebar nest the task pages. The assignment is a curation decision, and it is expected to change as the catalog grows. When a task genuinely spans two families the `rationale` column names the alternative.
+Every task is filed under exactly one family, which is what lets the site's sidebar nest the task pages. The assignment is a curation decision, and it is expected to change as the Catalog grows. When a task genuinely spans two families the `rationale` column names the alternative.
 
 `task_family_defs.tsv`
 

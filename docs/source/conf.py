@@ -16,7 +16,7 @@ from pathlib import Path
 
 # -- Project information -----------------------------------------------------
 
-project = "HED task catalog"
+project = "HED Task Catalog"
 copyright = f"2026-{date.today().year}, HED Working Group"
 author = "HED Working Group"
 release = "1.0.0"
@@ -39,7 +39,7 @@ master_doc = "index"
 # -- Options for HTML output -------------------------------------------------
 
 html_theme = "furo"
-html_title = "HED task catalog"
+html_title = "HED Task Catalog"
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
 html_js_files = ["gh_icon_fix.js"]

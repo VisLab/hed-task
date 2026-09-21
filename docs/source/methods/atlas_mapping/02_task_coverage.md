@@ -8,23 +8,23 @@
 (atlas-mapping-2-1)=
 ## 2.1 Catalog to Atlas
 
-One row per task in this catalog, recording its primary Atlas counterpart.
+One row per task in the Catalog, recording its primary Atlas counterpart.
 
 ```{include} ../../_generated/mapping_task_forward.md
 ```
 
 (atlas-mapping-2-2)=
-## 2.2 Atlas to catalog
+## 2.2 Atlas to Catalog
 
-One row per Atlas task entry. 88 of the catalog's tasks have at least one Atlas
+One row per Atlas task entry. 88 of the Catalog's tasks have at least one Atlas
 entry pointing at them, and 17 named variations are matched by an
 Atlas entry of their own.
 
 ```{include} ../../_generated/mapping_task_reverse.md
 ```
 
-Most Atlas entries have no counterpart here, which is expected rather than a gap: this
-catalog admits only event-producing experimental paradigms, while the Atlas mixes those
+Most Atlas entries have no counterpart here, which is expected rather than a gap: the
+Catalog admits only event-producing experimental paradigms, while the Atlas mixes those
 with instruments of several other kinds.
 
 ```{include} ../../_generated/mapping_task_reverse_scope.md
@@ -37,8 +37,8 @@ heuristic, not a hand-checked judgement. The `none` verdict itself was reviewed.
 ## 2.3 Reading the two directions together
 
 The directions answer different questions and can differ without contradiction. The
-catalog-to-Atlas table asks whether the Atlas contains a given paradigm; the
-Atlas-to-catalog table asks, for each Atlas entry, whether this catalog covers it.
+Catalog-to-Atlas table asks whether the Atlas contains a given paradigm; the
+Atlas-to-Catalog table asks, for each Atlas entry, whether the Catalog covers it.
 
 Three tasks are `none` in the first table yet appear in the second with `related` rows:
 Self-Paced Reading, Sentence Comprehension and Virtual Radial Arm Maze. The Atlas has

@@ -20,7 +20,7 @@
       "category_id": "auditory_and_pre_attentive_deviance_processing",
       "name": "Auditory and Pre-Attentive Deviance Processing",
       "scope": "Pitch perception, auditory tone discrimination, acoustic processing, auditory perception; the family of processes indexed by MMN / oddball paradigms.",
-      "issues": "Tightly coupled to a specific measurement tradition (ERP). If the catalog ever generalizes beyond MMN, the category boundary with Selective and Sustained Attention (feature-based attention) will need review.",
+      "issues": "Tightly coupled to a specific measurement tradition (ERP). If the Catalog ever generalizes beyond MMN, the category boundary with Selective and Sustained Attention (feature-based attention) will need review.",
       "process_count": 4
     },
     {
@@ -70,7 +70,7 @@
       "name": "Inhibitory Control and Conflict Monitoring",
       "scope": "Response inhibition, response conflict, conflict monitoring, interference control, executive attention, proactive control, reactive control, error detection, error correction.",
       "out_of_scope": "Impulsivity as a trait; behavioral inhibition as a temperament construct.",
-      "issues": "Self-monitoring was moved out to Awareness, Agency, and Metacognition during the reframe. The proactive/reactive control split is paradigm-bound (AX-CPT-style designs); retained but worth revisiting if the catalog adds paradigms that dissociate other control modes.",
+      "issues": "Self-monitoring was moved out to Awareness, Agency, and Metacognition during the reframe. The proactive/reactive control split is paradigm-bound (AX-CPT-style designs); retained but worth revisiting if the Catalog adds paradigms that dissociate other control modes.",
       "process_count": 9
     },
     {
@@ -102,7 +102,7 @@
       "category_id": "perceptual_decision_making_evidence_accumulation",
       "name": "Perceptual Decision-Making (Evidence Accumulation)",
       "scope": "Integration of noisy sensory evidence to a decision criterion.",
-      "issues": "Singleton row. Overlaps with Perceptual Awareness on confidence and with Value-Based Decision-Making on accumulation-model machinery — but the evidence source (perceptual vs. value) is the category boundary. If the catalog ever adds distinct rows for decision boundary, drift rate, confidence formation, and speed-accuracy tradeoff as processes (rather than task-level parameters), they belong here.",
+      "issues": "Singleton row. Overlaps with Perceptual Awareness on confidence and with Value-Based Decision-Making on accumulation-model machinery — but the evidence source (perceptual vs. value) is the category boundary. If the Catalog ever adds distinct rows for decision boundary, drift rate, confidence formation, and speed-accuracy tradeoff as processes (rather than task-level parameters), they belong here.",
       "process_count": 1
     },
     {

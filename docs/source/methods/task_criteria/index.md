@@ -5,7 +5,7 @@
 (task-criteria)=
 # Task criteria
 
-**Purpose:** Reference document specifying how the 103-task HED catalog was scoped, how tasks were selected, and the rules for classifying variations vs. aliases vs. non-variations.
+**Purpose:** Reference document specifying how the HED Task Catalog's 103 tasks were scoped, how tasks were selected, and the rules for classifying variations vs. aliases vs. non-variations.
 
 Companion to the [process criteria](../process_criteria/index.md).
 

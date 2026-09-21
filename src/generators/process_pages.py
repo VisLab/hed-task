@@ -76,7 +76,7 @@ def _engaged_by(proc: dict) -> str:
     """Return the closing phrase of a listing entry: how many tasks engage the process."""
     n = len(proc.get("tasks", []))
     if n == 0:
-        return "engaged by no task in the current catalog"
+        return "engaged by no task in the current Catalog"
     return f"engaged by {n} task{'s' if n != 1 else ''}"
 
 
@@ -114,13 +114,13 @@ def _write_process_index(
     ]
     content = (
         "# Cognitive processes\n\n"
-        f"The catalog defines {total_procs} cognitive processes organized into {n_cats} categories.\n"
+        f"The Catalog defines {total_procs} cognitive processes organized into {n_cats} categories.\n"
         "A process is a mental operation hypothesized to occur during a trial, with an\n"
         "identifiable onset, an eliciting condition and a measurable signature; the\n"
         "[process selection criteria](../methods/process_criteria/index.md) say what qualifies and\n"
         "what does not. Each process has a definition, references, and links to the tasks that\n"
         f"engage it. {n_linked} of the {total_procs} processes are engaged by at least one task in the\n"
-        "catalog; the rest are kept because the catalog may grow a task for them.\n\n"
+        "Catalog; the rest are kept because the Catalog may grow a task for them.\n\n"
         "Categories group processes by research tradition for browsing. They are organizational\n"
         "labels, not ontological commitments: a process belongs to the category whose scope best\n"
         "describes where it is studied, and categories imply no inheritance.\n\n"
@@ -226,7 +226,7 @@ _PUBLISHED_CATEGORY_FIELDS = {
     ),
     ("inhibitory_control_and_conflict_monitoring", "issues"): (
         "The proactive/reactive control split is paradigm-bound (AX-CPT-style designs); "
-        "retained but worth revisiting if the catalog adds paradigms that dissociate "
+        "retained but worth revisiting if the Catalog adds paradigms that dissociate "
         "other control modes."
     ),
     ("language_comprehension_and_production", "issues"): (
@@ -358,7 +358,7 @@ def _write_category_page(procs_dir: Path, category: dict, cat_procs: list[dict])
             links = ", ".join(task_link(t["hedtsk_id"], t["canonical_name"], "processes") for t in tasks)
             parts.append(f"**Tasks that engage this process:** {links}\n\n")
         else:
-            parts.append("**Tasks that engage this process:** none in the current catalog.\n\n")
+            parts.append("**Tasks that engage this process:** none in the current Catalog.\n\n")
 
         fund_refs, further_refs = split_references(proc)
         fund = _citations(fund_refs)

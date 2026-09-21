@@ -130,7 +130,7 @@ Sudden restructuring of a problem representation yielding a solution that was pr
 
 Manipulation of numerical and algebraic quantities and relations.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 

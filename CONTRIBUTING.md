@@ -1,10 +1,10 @@
 # Guide to contributing to the hed-task project
 
-The HED task catalog is curated continuously and depends on its users to grow. This guide says how to propose a change, how the site is regenerated, and which checks a pull request must pass.
+The HED Task Catalog is curated continuously and depends on its users to grow. This guide says how to propose a change, how the site is regenerated, and which checks a pull request must pass.
 
 ## Proposing a change
 
-Open an issue at <https://github.com/hed-standard/hed-task/issues>. The [how to use the catalog](https://www.hedtags.org/hed-task/how_to_use.html) page says what each kind of proposal should contain; in brief:
+Open an issue at <https://github.com/hed-standard/hed-task/issues>. The [how to use the Catalog](https://www.hedtags.org/hed-task/how_to_use.html) page says what each kind of proposal should contain; in brief:
 
 - **A new task.** Canonical name and aliases; a procedure, a manipulation and a measurement in the form the inclusion tests use; the processes it engages; one or two references; and why it is not a variation of an existing task.
 - **A new variation.** The parent task, what changes in what the participant experiences or does, and why that change is not one of the excluded kinds (measurement modality, analysis method, population, stimulus swap, and so on).
@@ -61,7 +61,7 @@ Any of these can be a pull request directly. An issue first is welcome when the 
 
 - ASCII only in prose, code, comments and filenames: `-` rather than an em or en dash, `->` rather than an arrow glyph, `...` rather than an ellipsis character, straight quotes. Genuine data such as author names and recorded Atlas entry names keep whatever characters they contain.
 - Sentence case for every Markdown heading, including generated ones.
-- Identifiers: `hedtsk_<slug>` for tasks, `hedvar_<task>__<variation>` for variations, `hed_<slug>` for processes. They are provisional while the catalog is being curated.
+- Identifiers: `hedtsk_<slug>` for tasks, `hedvar_<task>__<variation>` for variations, `hed_<slug>` for processes. They are provisional while the Catalog is being curated.
 - Published pages state what is true now. Dates, change logs and resolved-issue notes belong in issues and commit messages, not on the site.
 
 ## Where to ask

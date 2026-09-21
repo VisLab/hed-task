@@ -11,7 +11,7 @@ Low-level analysis of sound, including frequency, intensity, and temporal struct
 ## [Action initiation](motor_preparation_timing_and_execution.md#hed-action-initiation)
 
 Triggering of an action after planning is complete. Filed under
-[Motor Preparation, Timing, and Execution](motor_preparation_timing_and_execution.md); engaged by no task in the current catalog.
+[Motor Preparation, Timing, and Execution](motor_preparation_timing_and_execution.md); engaged by no task in the current Catalog.
 
 ## [Active maintenance](short_term_and_working_memory.md#hed-active-maintenance)
 
@@ -106,7 +106,7 @@ Inference about cause–effect relations from observation and intervention. File
 ## [Choice commitment](value_based_decision_making_under_risk_and_uncertainty.md#hed-choice-commitment)
 
 The act of locking in a selected option once accumulated evidence or value crosses a decision boundary; measured by response-time distributions, drift-diffusion boundary parameters, and motor preparation signatures. Filed under
-[Value-Based Decision-Making Under Risk and Uncertainty](value_based_decision_making_under_risk_and_uncertainty.md); engaged by no task in the current catalog.
+[Value-Based Decision-Making Under Risk and Uncertainty](value_based_decision_making_under_risk_and_uncertainty.md); engaged by no task in the current Catalog.
 
 ## [Chunking](short_term_and_working_memory.md#hed-chunking)
 
@@ -156,7 +156,7 @@ Devaluation of a reward as a function of the delay to its receipt, typically hyp
 ## [Depth perception](face_and_object_perception.md#hed-depth-perception)
 
 Perception of distance and three-dimensional structure from monocular and binocular cues. Filed under
-[Face and Object Perception](face_and_object_perception.md); engaged by no task in the current catalog.
+[Face and Object Perception](face_and_object_perception.md); engaged by no task in the current Catalog.
 
 ## [Directed forgetting](long_term_memory.md#hed-directed-forgetting)
 
@@ -201,7 +201,7 @@ Memory for specific events located in a particular place and time and accompanie
 ## [Error correction](inhibitory_control_and_conflict_monitoring.md#hed-error-correction)
 
 Adjustment of behavior following an error, including post-error slowing and improvement on subsequent trials. Filed under
-[Inhibitory Control and Conflict Monitoring](inhibitory_control_and_conflict_monitoring.md); engaged by no task in the current catalog.
+[Inhibitory Control and Conflict Monitoring](inhibitory_control_and_conflict_monitoring.md); engaged by no task in the current Catalog.
 
 ## [Error detection](inhibitory_control_and_conflict_monitoring.md#hed-error-detection)
 
@@ -256,7 +256,7 @@ Precise control of small-amplitude movements, typically of the hand and fingers.
 ## [Forgetting](long_term_memory.md#hed-forgetting)
 
 Loss of accessibility of previously encoded information, due to decay, interference, or retrieval failure. Filed under
-[Long-Term Memory](long_term_memory.md); engaged by no task in the current catalog.
+[Long-Term Memory](long_term_memory.md); engaged by no task in the current Catalog.
 
 ## [Goal maintenance](cognitive_flexibility_and_higher_order_executive_function.md#hed-goal-maintenance)
 
@@ -271,12 +271,12 @@ Behavior that is sensitive to current outcome value, characteristic of action–
 ## [Grasping](motor_preparation_timing_and_execution.md#hed-grasping)
 
 Shaping and closure of the hand around an object. Filed under
-[Motor Preparation, Timing, and Execution](motor_preparation_timing_and_execution.md); engaged by no task in the current catalog.
+[Motor Preparation, Timing, and Execution](motor_preparation_timing_and_execution.md); engaged by no task in the current Catalog.
 
 ## [Gustatory perception](face_and_object_perception.md#hed-gustatory-perception)
 
 Perception of taste qualities (sweet, sour, salty, bitter, umami). Filed under
-[Face and Object Perception](face_and_object_perception.md); engaged by no task in the current catalog.
+[Face and Object Perception](face_and_object_perception.md); engaged by no task in the current Catalog.
 
 ## [Habit](associative_learning_and_reinforcement.md#hed-habit)
 
@@ -341,7 +341,7 @@ Choice among options that differ in timing of outcomes; choice between smaller-s
 ## [Joint attention](social_cognition_and_strategic_social_choice.md#hed-joint-attention)
 
 Coordinated focus by two or more agents on the same object or event, involving shared awareness that attention is joint. Filed under
-[Social Cognition and Strategic Social Choice](social_cognition_and_strategic_social_choice.md); engaged by no task in the current catalog.
+[Social Cognition and Strategic Social Choice](social_cognition_and_strategic_social_choice.md); engaged by no task in the current Catalog.
 
 ## [Judgment of learning](awareness_agency_and_metacognition.md#hed-judgment-of-learning)
 
@@ -376,7 +376,7 @@ Reduction in visibility or detectability of a target stimulus by a temporally or
 ## [Mathematical reasoning](reasoning_and_problem_solving.md#hed-mathematical-reasoning)
 
 Manipulation of numerical and algebraic quantities and relations. Filed under
-[Reasoning and Problem-Solving](reasoning_and_problem_solving.md); engaged by no task in the current catalog.
+[Reasoning and Problem-Solving](reasoning_and_problem_solving.md); engaged by no task in the current Catalog.
 
 ## [Means-ends analysis](reasoning_and_problem_solving.md#hed-means-ends-analysis)
 
@@ -421,7 +421,7 @@ Detection and interpretation of moving stimuli; includes global motion and optic
 ## [Motor memory](motor_preparation_timing_and_execution.md#hed-motor-memory)
 
 Long-term retention of motor skills and procedures. Filed under
-[Motor Preparation, Timing, and Execution](motor_preparation_timing_and_execution.md); engaged by no task in the current catalog.
+[Motor Preparation, Timing, and Execution](motor_preparation_timing_and_execution.md); engaged by no task in the current Catalog.
 
 ## [Motor planning](motor_preparation_timing_and_execution.md#hed-motor-planning)
 
@@ -456,7 +456,7 @@ Selection of an object as a unit of attention such that the attended features be
 ## [Olfactory perception](face_and_object_perception.md#hed-olfactory-perception)
 
 Perception of odor via the olfactory system. Filed under
-[Face and Object Perception](face_and_object_perception.md); engaged by no task in the current catalog.
+[Face and Object Perception](face_and_object_perception.md); engaged by no task in the current Catalog.
 
 ## [Orienting](selective_and_sustained_attention.md#hed-orienting)
 
@@ -521,7 +521,7 @@ Mental formulation of a sequence of actions toward a goal before execution. File
 ## [Policy learning](associative_learning_and_reinforcement.md#hed-policy-learning)
 
 Direct learning of a mapping from states to actions without necessarily estimating values. Filed under
-[Associative Learning and Reinforcement](associative_learning_and_reinforcement.md); engaged by no task in the current catalog.
+[Associative Learning and Reinforcement](associative_learning_and_reinforcement.md); engaged by no task in the current Catalog.
 
 ## [Proactive control](inhibitory_control_and_conflict_monitoring.md#hed-proactive-control)
 
@@ -546,7 +546,7 @@ Non-declarative memory for skills and procedures, expressed through improved per
 ## [Proprioception](motor_preparation_timing_and_execution.md#hed-proprioception)
 
 Perception of body position and movement from muscle, tendon, and joint receptors. Filed under
-[Motor Preparation, Timing, and Execution](motor_preparation_timing_and_execution.md); engaged by no task in the current catalog.
+[Motor Preparation, Timing, and Execution](motor_preparation_timing_and_execution.md); engaged by no task in the current Catalog.
 
 ## [Prospective memory](long_term_memory.md#hed-prospective-memory)
 
@@ -556,7 +556,7 @@ Memory for intentions to act at a future time or on a future event. Filed under
 ## [Reaching](motor_preparation_timing_and_execution.md#hed-reaching)
 
 Goal-directed arm movement toward a spatial target. Filed under
-[Motor Preparation, Timing, and Execution](motor_preparation_timing_and_execution.md); engaged by no task in the current catalog.
+[Motor Preparation, Timing, and Execution](motor_preparation_timing_and_execution.md); engaged by no task in the current Catalog.
 
 ## [Reactive control](inhibitory_control_and_conflict_monitoring.md#hed-reactive-control)
 
@@ -591,7 +591,7 @@ Retrieval of contextual detail about a prior event, including source information
 ## [Reconsolidation](long_term_memory.md#hed-reconsolidation)
 
 Destabilization and re-stabilization of a memory upon retrieval, creating a window for modification. Filed under
-[Long-Term Memory](long_term_memory.md); engaged by no task in the current catalog.
+[Long-Term Memory](long_term_memory.md); engaged by no task in the current Catalog.
 
 ## [Rehearsal](short_term_and_working_memory.md#hed-rehearsal)
 
@@ -646,7 +646,7 @@ Affective and neural response to cues predicting upcoming reward. Filed under
 ## [Reward consumption](reward_anticipation_and_motivation.md#hed-reward-consumption)
 
 Affective and neural response to receipt of reward. Filed under
-[Reward Anticipation and Motivation](reward_anticipation_and_motivation.md); engaged by no task in the current catalog.
+[Reward Anticipation and Motivation](reward_anticipation_and_motivation.md); engaged by no task in the current Catalog.
 
 ## [Reward prediction error](associative_learning_and_reinforcement.md#hed-reward-prediction-error)
 
@@ -691,7 +691,7 @@ Long-term store of facts, concepts, and word meanings. Filed under
 ## [Semantic memory](long_term_memory.md#hed-semantic-memory)
 
 Long-term store of general knowledge about the world — facts, concepts, and word meanings — dissociable from episodic memory and supported by distributed cortical representations. Filed under
-[Long-Term Memory](long_term_memory.md); engaged by no task in the current catalog.
+[Long-Term Memory](long_term_memory.md); engaged by no task in the current Catalog.
 
 ## [Semantic processing](language_comprehension_and_production.md#hed-semantic-processing)
 
@@ -726,7 +726,7 @@ Visual perception of socially relevant stimuli, including faces, bodies, and act
 ## [Somatosensory perception](face_and_object_perception.md#hed-somatosensory-perception)
 
 Perception of bodily sensations, including touch, proprioception, temperature, and pain. Filed under
-[Face and Object Perception](face_and_object_perception.md); engaged by no task in the current catalog.
+[Face and Object Perception](face_and_object_perception.md); engaged by no task in the current Catalog.
 
 ## [Source memory](long_term_memory.md#hed-source-memory)
 
@@ -821,7 +821,7 @@ Short-term storage of phonological/verbal information, historically "phonologica
 ## [Visual form recognition](face_and_object_perception.md#hed-visual-form-recognition)
 
 Assignment of visual input to a shape category prior to semantic identification. Filed under
-[Face and Object Perception](face_and_object_perception.md); engaged by no task in the current catalog.
+[Face and Object Perception](face_and_object_perception.md); engaged by no task in the current Catalog.
 
 ## [Visual object recognition](face_and_object_perception.md#hed-visual-object-recognition)
 
@@ -846,7 +846,7 @@ Recalibration of movement in response to perturbations of the mapping between vi
 ## [Vocal-motor control](motor_preparation_timing_and_execution.md#hed-vocal-motor-control)
 
 Control of the articulators for speech production and vocalization. Filed under
-[Motor Preparation, Timing, and Execution](motor_preparation_timing_and_execution.md); engaged by no task in the current catalog.
+[Motor Preparation, Timing, and Execution](motor_preparation_timing_and_execution.md); engaged by no task in the current Catalog.
 
 ## [Word recognition](language_comprehension_and_production.md#hed-word-recognition)
 
