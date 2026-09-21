@@ -45,9 +45,11 @@ Each category entry in `process_details.json` has:
 - **`issues`** (optional): Open questions about boundaries, near-synonyms, or structural problems.
 
 (process-criteria-4-4)=
-## 4.4 Dual-category processes
+## 4.4 Primary and secondary membership
 
-Every process is assigned to exactly one category. When a process could fit two categories, the rule is:
+Categories are organizational, not a hierarchy, so a process may belong to more than one. Every process has exactly one **primary** category, where its entry is filed: the category page holds the full entry and the listings place it there. A process may also be a **secondary** member of other categories, which cross-lists it there under "Also in this category" with a rationale saying why it belongs. The primary is a filing choice, made because an entry has to live somewhere; a secondary membership is as real an edge as the primary. The membership is the `categories` list on the process record in `process_details.json`, with the same fields as task family membership ([task criteria, section 6.2](../task_criteria/06_task_family_assignment.md#task-criteria-6-2)).
+
+When a process could fit two categories, the primary is decided by these rules, and the other category is the natural candidate for a secondary membership:
 
 - **File by primary research tradition.** Antisaccade is in Motor Preparation, Timing, and Execution because it is an oculomotor output measure, even though it centrally depends on prepotent-saccade inhibition (which would argue for Inhibitory Control).
 - **File second-order processes by their second-order character.** Metacognitive monitoring, self-monitoring, feeling of knowing, and judgment of learning are in Awareness, Agency, and Metacognition (not in their "first-order" home categories) because the reportable content is what the participant consciously experiences about their own cognition.
@@ -56,4 +58,9 @@ Every process is assigned to exactly one category. When a process could fit two 
 (process-criteria-4-5)=
 ## 4.5 Category process counts
 
-Each category entry in `process_details.json` carries a `process_count` field. This must match the actual number of processes assigned to that `category_id` in the `processes` array. Drift between the count and the actual membership is a data quality issue.
+Each category entry in `process_details.json` carries a `process_count` field. This must match the number of processes whose primary category it is; cross-listings are not counted. Drift between the count and the actual membership is a data quality issue, and `src/generate_docs.py` refuses to build when they disagree.
+
+(process-criteria-4-6)=
+## 4.6 The review mark
+
+Each membership carries a confidence of `high` or `review`. A `review` mark means the assignment is a judgement call the curator has flagged for a second opinion. On the primary it means "not sure this is the right home"; on a secondary it means "not sure this belongs here at all". In both cases the rationale names the alternative or the doubt, and the process is listed under "Marked for review" on the category page for a reviewer to settle. To propose a move or a cross-listing, open an issue at <https://github.com/hed-standard/hed-task/issues> naming the process, the category, and the reason.

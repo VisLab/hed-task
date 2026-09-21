@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_sustained_attention_to_response`
 
-**Family:** [Response inhibition and stopping tasks](families/response_inhibition.md)
+**Family:** [Response inhibition and stopping tasks](families/response_inhibition.md) (also [Oddball, vigilance and continuous performance tasks](families/oddball_and_vigilance.md))
 
 **Also known as:** SART, Sustained Attention to Response
 

@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_weapons_identification`
 
-**Family:** [Conflict and interference tasks](families/conflict_and_interference.md)
+**Family:** [Conflict and interference tasks](families/conflict_and_interference.md) (also [Social cognition and social choice tasks](families/social_cognition_and_games.md))
 
 **Also known as:** Shooter Bias Task, Weapons Task, Payne Task
 

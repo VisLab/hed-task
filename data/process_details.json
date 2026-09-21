@@ -169,7 +169,13 @@
     {
       "process_id": "hed_associative_learning",
       "process_name": "Associative learning",
-      "category_id": "associative_learning_and_reinforcement",
+      "categories": [
+        {
+          "category_id": "associative_learning_and_reinforcement",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Learning of co-occurrence relations between stimuli or between stimuli and responses.",
       "tasks": [
         {
@@ -236,7 +242,13 @@
     {
       "process_id": "hed_extinction",
       "process_name": "Extinction",
-      "category_id": "associative_learning_and_reinforcement",
+      "categories": [
+        {
+          "category_id": "associative_learning_and_reinforcement",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Decrease in a previously reinforced response when reinforcement is withheld; a form of new inhibitory learning rather than erasure.",
       "tasks": [
         {
@@ -340,7 +352,13 @@
     {
       "process_id": "hed_goal_directed_behavior",
       "process_name": "Goal-directed behavior",
-      "category_id": "associative_learning_and_reinforcement",
+      "categories": [
+        {
+          "category_id": "associative_learning_and_reinforcement",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Behavior that is sensitive to current outcome value, characteristic of action–outcome learning.",
       "tasks": [
         {
@@ -416,7 +434,13 @@
     {
       "process_id": "hed_habit",
       "process_name": "Habit",
-      "category_id": "associative_learning_and_reinforcement",
+      "categories": [
+        {
+          "category_id": "associative_learning_and_reinforcement",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Behavior that is insensitive to the current value of its outcome, characteristic of stimulus–response learning.",
       "tasks": [
         {
@@ -470,7 +494,13 @@
           "note": "Skinnerian terminology; emphasizes the operant response and reinforcement schedules. Merged from separate entry 2026-04-18."
         }
       ],
-      "category_id": "associative_learning_and_reinforcement",
+      "categories": [
+        {
+          "category_id": "associative_learning_and_reinforcement",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Learning that an action produces an outcome; also called operant conditioning. Encompasses both goal-directed (action–outcome) and habitual (stimulus–response) control, studied via reinforcement schedules and outcome-devaluation procedures.",
       "tasks": [
         {
@@ -513,7 +543,13 @@
     {
       "process_id": "hed_model_based_learning",
       "process_name": "Model-based learning",
-      "category_id": "associative_learning_and_reinforcement",
+      "categories": [
+        {
+          "category_id": "associative_learning_and_reinforcement",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Reinforcement learning that uses an internal model of the environment's transition and reward structure to plan.",
       "tasks": [
         {
@@ -589,7 +625,13 @@
     {
       "process_id": "hed_model_free_learning",
       "process_name": "Model-free learning",
-      "category_id": "associative_learning_and_reinforcement",
+      "categories": [
+        {
+          "category_id": "associative_learning_and_reinforcement",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Reinforcement learning from cached value estimates updated by prediction errors, without an explicit model of the environment.",
       "tasks": [
         {
@@ -637,7 +679,13 @@
     {
       "process_id": "hed_pavlovian_conditioning",
       "process_name": "Pavlovian conditioning",
-      "category_id": "associative_learning_and_reinforcement",
+      "categories": [
+        {
+          "category_id": "associative_learning_and_reinforcement",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Learning that a neutral stimulus predicts a biologically significant outcome, leading to conditioned responding.",
       "tasks": [
         {
@@ -716,7 +764,13 @@
     {
       "process_id": "hed_policy_learning",
       "process_name": "Policy learning",
-      "category_id": "associative_learning_and_reinforcement",
+      "categories": [
+        {
+          "category_id": "associative_learning_and_reinforcement",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Direct learning of a mapping from states to actions without necessarily estimating values.",
       "tasks": [],
       "task_count": 0,
@@ -725,7 +779,13 @@
     {
       "process_id": "hed_reinforcement_learning",
       "process_name": "Reinforcement learning",
-      "category_id": "associative_learning_and_reinforcement",
+      "categories": [
+        {
+          "category_id": "associative_learning_and_reinforcement",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Learning to select actions that maximize cumulative reward through experience with reward prediction errors.",
       "tasks": [
         {
@@ -820,7 +880,13 @@
     {
       "process_id": "hed_reversal_learning",
       "process_name": "Reversal learning",
-      "category_id": "associative_learning_and_reinforcement",
+      "categories": [
+        {
+          "category_id": "associative_learning_and_reinforcement",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Relearning after contingencies between stimuli (or responses) and outcomes are switched.",
       "tasks": [
         {
@@ -891,7 +957,13 @@
     {
       "process_id": "hed_reward_prediction_error",
       "process_name": "Reward prediction error",
-      "category_id": "associative_learning_and_reinforcement",
+      "categories": [
+        {
+          "category_id": "associative_learning_and_reinforcement",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Signed difference between received and expected reward, instantiated by phasic midbrain dopamine firing.",
       "tasks": [
         {
@@ -986,7 +1058,13 @@
     {
       "process_id": "hed_value_learning",
       "process_name": "Value learning",
-      "category_id": "associative_learning_and_reinforcement",
+      "categories": [
+        {
+          "category_id": "associative_learning_and_reinforcement",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Acquisition of the expected value of stimuli, actions, or states from experience with outcomes.",
       "tasks": [
         {
@@ -1033,7 +1111,13 @@
     {
       "process_id": "hed_acoustic_processing",
       "process_name": "Acoustic processing",
-      "category_id": "auditory_and_pre_attentive_deviance_processing",
+      "categories": [
+        {
+          "category_id": "auditory_and_pre_attentive_deviance_processing",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Low-level analysis of sound, including frequency, intensity, and temporal structure.",
       "tasks": [
         {
@@ -1076,7 +1160,13 @@
     {
       "process_id": "hed_auditory_perception",
       "process_name": "Auditory perception",
-      "category_id": "auditory_and_pre_attentive_deviance_processing",
+      "categories": [
+        {
+          "category_id": "auditory_and_pre_attentive_deviance_processing",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Perception of sound, including pitch, timbre, loudness, and spatial location.",
       "tasks": [
         {
@@ -1123,7 +1213,13 @@
     {
       "process_id": "hed_auditory_tone_discrimination",
       "process_name": "Auditory tone discrimination",
-      "category_id": "auditory_and_pre_attentive_deviance_processing",
+      "categories": [
+        {
+          "category_id": "auditory_and_pre_attentive_deviance_processing",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Judgment of whether two tones differ in pitch, intensity, or duration.",
       "tasks": [
         {
@@ -1171,7 +1267,13 @@
     {
       "process_id": "hed_pitch_perception",
       "process_name": "Pitch perception",
-      "category_id": "auditory_and_pre_attentive_deviance_processing",
+      "categories": [
+        {
+          "category_id": "auditory_and_pre_attentive_deviance_processing",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Perception of the highness or lowness of a sound, related to fundamental frequency.",
       "tasks": [
         {
@@ -1219,7 +1321,13 @@
     {
       "process_id": "hed_attentional_awareness",
       "process_name": "Attentional awareness",
-      "category_id": "awareness_agency_and_metacognition",
+      "categories": [
+        {
+          "category_id": "awareness_agency_and_metacognition",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Awareness of the current focus and content of attention.",
       "tasks": [
         {
@@ -1266,7 +1374,13 @@
     {
       "process_id": "hed_body_ownership",
       "process_name": "Body ownership",
-      "category_id": "awareness_agency_and_metacognition",
+      "categories": [
+        {
+          "category_id": "awareness_agency_and_metacognition",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "The experience that a body or body-part belongs to the self, revealed by multisensory illusions in which synchronous visuo-tactile or visuo-proprioceptive input shifts the perceived location of the body.",
       "notes": "(new 2026-04-15)",
       "tasks": [
@@ -1394,7 +1508,13 @@
     {
       "process_id": "hed_feeling_of_knowing",
       "process_name": "Feeling of knowing",
-      "category_id": "awareness_agency_and_metacognition",
+      "categories": [
+        {
+          "category_id": "awareness_agency_and_metacognition",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Judgment that information currently not retrievable would be recognized if presented.",
       "tasks": [
         {
@@ -1408,7 +1528,13 @@
     {
       "process_id": "hed_interoceptive_awareness",
       "process_name": "Interoceptive awareness",
-      "category_id": "awareness_agency_and_metacognition",
+      "categories": [
+        {
+          "category_id": "awareness_agency_and_metacognition",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Conscious perception of internal bodily signals such as heartbeat, respiration, and visceral state; indexed by heartbeat-detection accuracy, heartbeat-evoked potentials, and interoceptive sensibility measures.",
       "notes": "(new 2026-04-15)",
       "tasks": [
@@ -1545,7 +1671,13 @@
     {
       "process_id": "hed_judgment_of_learning",
       "process_name": "Judgment of learning",
-      "category_id": "awareness_agency_and_metacognition",
+      "categories": [
+        {
+          "category_id": "awareness_agency_and_metacognition",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Prediction of future memory performance made during or after encoding.",
       "tasks": [
         {
@@ -1588,7 +1720,13 @@
     {
       "process_id": "hed_masking",
       "process_name": "Masking",
-      "category_id": "awareness_agency_and_metacognition",
+      "categories": [
+        {
+          "category_id": "awareness_agency_and_metacognition",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Reduction in visibility or detectability of a target stimulus by a temporally or spatially adjacent masker.",
       "tasks": [
         {
@@ -1663,7 +1801,13 @@
     {
       "process_id": "hed_metacognitive_control",
       "process_name": "Metacognitive control",
-      "category_id": "awareness_agency_and_metacognition",
+      "categories": [
+        {
+          "category_id": "awareness_agency_and_metacognition",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Regulation of cognition based on metacognitive monitoring - study-time allocation, strategy selection, answer withholding, and restart decisions - linking second-order evaluation to first-order behavior.",
       "notes": "(new 2026-04-15)",
       "tasks": [
@@ -1799,7 +1943,13 @@
     {
       "process_id": "hed_metacognitive_monitoring",
       "process_name": "Metacognitive monitoring",
-      "category_id": "awareness_agency_and_metacognition",
+      "categories": [
+        {
+          "category_id": "awareness_agency_and_metacognition",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Second-order evaluation of ongoing first-order cognition - how confident one is in a perception, memory, or judgment - yielding reportable assessments that dissociate from first-order accuracy.",
       "notes": "(new 2026-04-15)",
       "tasks": [
@@ -1947,7 +2097,13 @@
     {
       "process_id": "hed_mind_wandering",
       "process_name": "Mind wandering",
-      "category_id": "awareness_agency_and_metacognition",
+      "categories": [
+        {
+          "category_id": "awareness_agency_and_metacognition",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Task-unrelated thought that arises during an ongoing task.",
       "tasks": [
         {
@@ -2034,7 +2190,13 @@
     {
       "process_id": "hed_perceptual_awareness",
       "process_name": "Perceptual awareness",
-      "category_id": "awareness_agency_and_metacognition",
+      "categories": [
+        {
+          "category_id": "awareness_agency_and_metacognition",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Conscious access to perceptual content.",
       "tasks": [
         {
@@ -2142,7 +2304,13 @@
     {
       "process_id": "hed_self_monitoring",
       "process_name": "Self-monitoring",
-      "category_id": "awareness_agency_and_metacognition",
+      "categories": [
+        {
+          "category_id": "awareness_agency_and_metacognition",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Ongoing evaluation of one's own performance against task goals and expected outcomes.",
       "tasks": [
         {
@@ -2205,7 +2373,13 @@
     {
       "process_id": "hed_self_referential_processing",
       "process_name": "Self-referential processing",
-      "category_id": "awareness_agency_and_metacognition",
+      "categories": [
+        {
+          "category_id": "awareness_agency_and_metacognition",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Processing of information in relation to the self, yielding enhanced encoding for self-relevant material and characteristic engagement of cortical midline structures (mPFC, PCC).",
       "notes": "(new 2026-04-15)",
       "tasks": [
@@ -2346,7 +2520,13 @@
     {
       "process_id": "hed_sense_of_agency",
       "process_name": "Sense of agency",
-      "category_id": "awareness_agency_and_metacognition",
+      "categories": [
+        {
+          "category_id": "awareness_agency_and_metacognition",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "The experience of being the cause of one's own actions and their sensory consequences, dissociable into implicit (intentional binding) and explicit (authorship judgment) components.",
       "notes": "(new 2026-04-15)",
       "tasks": [
@@ -2474,7 +2654,13 @@
     {
       "process_id": "hed_goal_maintenance",
       "process_name": "Goal maintenance",
-      "category_id": "cognitive_flexibility_and_higher_order_executive_function",
+      "categories": [
+        {
+          "category_id": "cognitive_flexibility_and_higher_order_executive_function",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Active holding of task goals, rules, or sub-goals in a form that biases ongoing processing.",
       "tasks": [
         {
@@ -2545,7 +2731,13 @@
     {
       "process_id": "hed_set_shifting",
       "process_name": "Set shifting",
-      "category_id": "cognitive_flexibility_and_higher_order_executive_function",
+      "categories": [
+        {
+          "category_id": "cognitive_flexibility_and_higher_order_executive_function",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Flexible reconfiguration of the task set in response to a change in task demands; the primary experimental operationalization of cognitive flexibility, measured by task-switching paradigms and the WCST.",
       "aliases": [
         {
@@ -2700,7 +2892,13 @@
     {
       "process_id": "hed_strategy_use",
       "process_name": "Strategy use",
-      "category_id": "cognitive_flexibility_and_higher_order_executive_function",
+      "categories": [
+        {
+          "category_id": "cognitive_flexibility_and_higher_order_executive_function",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Selection and implementation of a cognitive procedure chosen to improve performance on a task.",
       "tasks": [
         {
@@ -2763,7 +2961,13 @@
     {
       "process_id": "hed_affective_priming",
       "process_name": "Affective priming",
-      "category_id": "emotion_perception_and_regulation",
+      "categories": [
+        {
+          "category_id": "emotion_perception_and_regulation",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Facilitation or interference in evaluating a target by a valence-related prime.",
       "tasks": [
         {
@@ -2839,7 +3043,13 @@
     {
       "process_id": "hed_cognitive_reappraisal",
       "process_name": "Cognitive reappraisal",
-      "category_id": "emotion_perception_and_regulation",
+      "categories": [
+        {
+          "category_id": "emotion_perception_and_regulation",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Reinterpretation of an emotional stimulus to change its affective impact.",
       "tasks": [
         {
@@ -2921,7 +3131,13 @@
           "note": "Broader term; recognition is the operationalized form (identification of a named emotion category)."
         }
       ],
-      "category_id": "emotion_perception_and_regulation",
+      "categories": [
+        {
+          "category_id": "emotion_perception_and_regulation",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Identification of emotional states from cues such as facial expression or vocal prosody.",
       "tasks": [
         {
@@ -2988,7 +3204,13 @@
     {
       "process_id": "hed_emotion_regulation",
       "process_name": "Emotion regulation",
-      "category_id": "emotion_perception_and_regulation",
+      "categories": [
+        {
+          "category_id": "emotion_perception_and_regulation",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Processes by which individuals influence which emotions they have, when, and how they experience and express them.",
       "tasks": [
         {
@@ -3047,7 +3269,13 @@
     {
       "process_id": "hed_expressive_suppression",
       "process_name": "Expressive suppression",
-      "category_id": "emotion_perception_and_regulation",
+      "categories": [
+        {
+          "category_id": "emotion_perception_and_regulation",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Inhibition of outward behavioral expression of emotion.",
       "tasks": [
         {
@@ -3090,7 +3318,13 @@
     {
       "process_id": "hed_biological_motion_perception",
       "process_name": "Biological motion perception",
-      "category_id": "face_and_object_perception",
+      "categories": [
+        {
+          "category_id": "face_and_object_perception",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Recognition of animate motion from sparse kinematic cues, such as point-light displays.",
       "tasks": [
         {
@@ -3167,7 +3401,13 @@
     {
       "process_id": "hed_depth_perception",
       "process_name": "Depth perception",
-      "category_id": "face_and_object_perception",
+      "categories": [
+        {
+          "category_id": "face_and_object_perception",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Perception of distance and three-dimensional structure from monocular and binocular cues.",
       "tasks": [],
       "task_count": 0,
@@ -3233,7 +3473,13 @@
     {
       "process_id": "hed_face_identity_recognition",
       "process_name": "Face identity recognition",
-      "category_id": "face_and_object_perception",
+      "categories": [
+        {
+          "category_id": "face_and_object_perception",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Identification of an individual from face-specific features.",
       "tasks": [
         {
@@ -3309,7 +3555,13 @@
     {
       "process_id": "hed_face_perception",
       "process_name": "Face perception",
-      "category_id": "face_and_object_perception",
+      "categories": [
+        {
+          "category_id": "face_and_object_perception",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Recognition and processing of faces as a specialized perceptual category; N170-sensitive, FFA-dependent.",
       "tasks": [
         {
@@ -3407,7 +3659,13 @@
           "note": "Pre-reframe name; renamed 2026-04-15 for consistency with other modality-perception rows."
         }
       ],
-      "category_id": "face_and_object_perception",
+      "categories": [
+        {
+          "category_id": "face_and_object_perception",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Perception of taste qualities (sweet, sour, salty, bitter, umami).",
       "tasks": [],
       "task_count": 0,
@@ -3445,7 +3703,13 @@
     {
       "process_id": "hed_motion_perception",
       "process_name": "Motion perception",
-      "category_id": "face_and_object_perception",
+      "categories": [
+        {
+          "category_id": "face_and_object_perception",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Detection and interpretation of moving stimuli; includes global motion and optic flow.",
       "tasks": [
         {
@@ -3520,7 +3784,13 @@
     {
       "process_id": "hed_olfactory_perception",
       "process_name": "Olfactory perception",
-      "category_id": "face_and_object_perception",
+      "categories": [
+        {
+          "category_id": "face_and_object_perception",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Perception of odor via the olfactory system.",
       "tasks": [],
       "task_count": 0,
@@ -3591,7 +3861,13 @@
     {
       "process_id": "hed_pattern_recognition",
       "process_name": "Pattern recognition",
-      "category_id": "face_and_object_perception",
+      "categories": [
+        {
+          "category_id": "face_and_object_perception",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Categorization of sensory input according to its structure.",
       "tasks": [
         {
@@ -3648,7 +3924,13 @@
           "note": "Pre-reframe name; renamed 2026-04-15 for consistency with other modality-perception rows."
         }
       ],
-      "category_id": "face_and_object_perception",
+      "categories": [
+        {
+          "category_id": "face_and_object_perception",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Perception of bodily sensations, including touch, proprioception, temperature, and pain.",
       "tasks": [],
       "task_count": 0,
@@ -3686,7 +3968,13 @@
     {
       "process_id": "hed_visual_form_recognition",
       "process_name": "Visual form recognition",
-      "category_id": "face_and_object_perception",
+      "categories": [
+        {
+          "category_id": "face_and_object_perception",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Assignment of visual input to a shape category prior to semantic identification.",
       "tasks": [],
       "task_count": 0,
@@ -3757,7 +4045,13 @@
     {
       "process_id": "hed_visual_object_recognition",
       "process_name": "Visual object recognition",
-      "category_id": "face_and_object_perception",
+      "categories": [
+        {
+          "category_id": "face_and_object_perception",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Identification of objects from visual input, invariant over viewpoint, size, and lighting.",
       "tasks": [
         {
@@ -3813,7 +4107,13 @@
     {
       "process_id": "hed_visual_perception",
       "process_name": "Visual perception",
-      "category_id": "face_and_object_perception",
+      "categories": [
+        {
+          "category_id": "face_and_object_perception",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Perception of visual information; includes form, motion, depth, color, and spatial layout.",
       "tasks": [
         {
@@ -3928,7 +4228,13 @@
     {
       "process_id": "hed_implicit_memory",
       "process_name": "Implicit memory",
-      "category_id": "implicit_and_statistical_learning",
+      "categories": [
+        {
+          "category_id": "implicit_and_statistical_learning",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Memory expressed without conscious recollection, measurable by priming, skill learning, and conditioning.",
       "tasks": [
         {
@@ -4007,7 +4313,13 @@
     {
       "process_id": "hed_procedural_memory",
       "process_name": "Procedural memory",
-      "category_id": "implicit_and_statistical_learning",
+      "categories": [
+        {
+          "category_id": "implicit_and_statistical_learning",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Non-declarative memory for skills and procedures, expressed through improved performance rather than conscious recollection.",
       "tasks": [
         {
@@ -4094,7 +4406,13 @@
     {
       "process_id": "hed_conflict_monitoring",
       "process_name": "Conflict monitoring",
-      "category_id": "inhibitory_control_and_conflict_monitoring",
+      "categories": [
+        {
+          "category_id": "inhibitory_control_and_conflict_monitoring",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Detection of co-activation of incompatible response tendencies, proposed to recruit anterior cingulate cortex and trigger cognitive control.",
       "tasks": [
         {
@@ -4197,7 +4515,13 @@
     {
       "process_id": "hed_error_correction",
       "process_name": "Error correction",
-      "category_id": "inhibitory_control_and_conflict_monitoring",
+      "categories": [
+        {
+          "category_id": "inhibitory_control_and_conflict_monitoring",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Adjustment of behavior following an error, including post-error slowing and improvement on subsequent trials.",
       "tasks": [],
       "task_count": 0,
@@ -4291,7 +4615,13 @@
     {
       "process_id": "hed_error_detection",
       "process_name": "Error detection",
-      "category_id": "inhibitory_control_and_conflict_monitoring",
+      "categories": [
+        {
+          "category_id": "inhibitory_control_and_conflict_monitoring",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Recognition that a response was incorrect, indexed by the error-related negativity (ERN) and by error awareness.",
       "tasks": [
         {
@@ -4370,7 +4700,13 @@
     {
       "process_id": "hed_executive_attention",
       "process_name": "Executive attention",
-      "category_id": "inhibitory_control_and_conflict_monitoring",
+      "categories": [
+        {
+          "category_id": "inhibitory_control_and_conflict_monitoring",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Resolution of conflict among thoughts, feelings, and responses; one of Posner's three attentional networks.",
       "tasks": [
         {
@@ -4449,7 +4785,13 @@
     {
       "process_id": "hed_interference_control",
       "process_name": "Interference control",
-      "category_id": "inhibitory_control_and_conflict_monitoring",
+      "categories": [
+        {
+          "category_id": "inhibitory_control_and_conflict_monitoring",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Resistance to interference from task-irrelevant stimuli or competing response representations, measured by Stroop, Flanker, and Simon effects.",
       "tasks": [
         {
@@ -4557,7 +4899,13 @@
     {
       "process_id": "hed_proactive_control",
       "process_name": "Proactive control",
-      "category_id": "inhibitory_control_and_conflict_monitoring",
+      "categories": [
+        {
+          "category_id": "inhibitory_control_and_conflict_monitoring",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Sustained, anticipatory maintenance of task goals that biases processing in preparation for an expected demand.",
       "tasks": [
         {
@@ -4628,7 +4976,13 @@
     {
       "process_id": "hed_reactive_control",
       "process_name": "Reactive control",
-      "category_id": "inhibitory_control_and_conflict_monitoring",
+      "categories": [
+        {
+          "category_id": "inhibitory_control_and_conflict_monitoring",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Transient, stimulus-triggered engagement of control after interference or conflict is detected.",
       "tasks": [
         {
@@ -4699,7 +5053,13 @@
     {
       "process_id": "hed_response_conflict",
       "process_name": "Response conflict",
-      "category_id": "inhibitory_control_and_conflict_monitoring",
+      "categories": [
+        {
+          "category_id": "inhibitory_control_and_conflict_monitoring",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Competing activation of two or more response representations on a single trial, typically engaging cognitive control.",
       "tasks": [
         {
@@ -4794,7 +5154,13 @@
     {
       "process_id": "hed_response_inhibition",
       "process_name": "Response inhibition",
-      "category_id": "inhibitory_control_and_conflict_monitoring",
+      "categories": [
+        {
+          "category_id": "inhibitory_control_and_conflict_monitoring",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Suppression of a prepotent or already-initiated response when it becomes inappropriate, indexed behaviorally by stop-signal reaction time or commission errors.",
       "tasks": [
         {
@@ -4914,7 +5280,13 @@
     {
       "process_id": "hed_discourse_processing",
       "process_name": "Discourse processing",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Integration of sentences into coherent representations of extended text or conversation.",
       "tasks": [
         {
@@ -4985,7 +5357,13 @@
     {
       "process_id": "hed_language_comprehension",
       "process_name": "Language comprehension",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Extraction of meaning from linguistic input (spoken, written, or signed).",
       "tasks": [
         {
@@ -5060,7 +5438,13 @@
     {
       "process_id": "hed_language_production",
       "process_name": "Language production",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Generation of spoken, written, or signed linguistic output, from message to articulation.",
       "tasks": [
         {
@@ -5107,7 +5491,13 @@
     {
       "process_id": "hed_lexical_access",
       "process_name": "Lexical access",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Retrieval of word-level representations (form and meaning) from memory.",
       "tasks": [
         {
@@ -5179,7 +5569,13 @@
     {
       "process_id": "hed_naming",
       "process_name": "Naming",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Production of a word label for a presented stimulus (e.g., picture naming).",
       "tasks": [
         {
@@ -5250,7 +5646,13 @@
     {
       "process_id": "hed_phonological_awareness",
       "process_name": "Phonological awareness",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Explicit awareness of the sound structure of spoken words (onsets, rimes, phonemes).",
       "tasks": [
         {
@@ -5321,7 +5723,13 @@
     {
       "process_id": "hed_phonological_encoding",
       "process_name": "Phonological encoding",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Assembly of phonological representations during language production.",
       "tasks": [
         {
@@ -5392,7 +5800,13 @@
     {
       "process_id": "hed_reading",
       "process_name": "Reading",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Visual processing of written text, integrating orthography, phonology, and meaning.",
       "tasks": [
         {
@@ -5471,7 +5885,13 @@
     {
       "process_id": "hed_semantic_knowledge",
       "process_name": "Semantic knowledge",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Long-term store of facts, concepts, and word meanings.",
       "tasks": [
         {
@@ -5550,7 +5970,13 @@
     {
       "process_id": "hed_semantic_processing",
       "process_name": "Semantic processing",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Access and integration of word and phrase meaning, indexed by the N400.",
       "tasks": [
         {
@@ -5649,7 +6075,13 @@
     {
       "process_id": "hed_sentence_comprehension",
       "process_name": "Sentence comprehension",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Integration of lexical, syntactic, and semantic information to derive sentence meaning.",
       "tasks": [
         {
@@ -5725,7 +6157,13 @@
     {
       "process_id": "hed_speech_perception",
       "process_name": "Speech perception",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Extraction of linguistic content from the acoustic speech signal, including phoneme categorization, word segmentation, and prosodic processing.",
       "tasks": [
         {
@@ -5796,7 +6234,13 @@
     {
       "process_id": "hed_speech_production",
       "process_name": "Speech production",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Planning and articulation of spoken output; the motor component of articulation is covered under vocal-motor control in Motor Preparation, Timing, and Execution.",
       "tasks": [
         {
@@ -5871,7 +6315,13 @@
     {
       "process_id": "hed_syntactic_parsing",
       "process_name": "Syntactic parsing",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Assignment of hierarchical grammatical structure to a linguistic input.",
       "tasks": [
         {
@@ -5919,7 +6369,13 @@
     {
       "process_id": "hed_verbal_fluency",
       "process_name": "Verbal fluency",
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Rapid generation of words under a semantic or phonemic constraint.",
       "tasks": [
         {
@@ -5996,7 +6452,13 @@
           "note": "Visual is the default modality in cognitive psychology; auditory word recognition has its own name (spoken-word recognition)."
         }
       ],
-      "category_id": "language_comprehension_and_production",
+      "categories": [
+        {
+          "category_id": "language_comprehension_and_production",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Identification of a word as a lexical item from its perceptual input.",
       "tasks": [
         {
@@ -6047,7 +6509,13 @@
     {
       "process_id": "hed_autobiographical_memory",
       "process_name": "Autobiographical memory",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Memory for personally experienced events across the lifespan, integrating episodic and semantic components.",
       "tasks": [
         {
@@ -6118,7 +6586,13 @@
     {
       "process_id": "hed_consolidation",
       "process_name": "Consolidation",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Post-encoding stabilization of memory traces, dependent on time and often on sleep; includes synaptic and systems consolidation.",
       "tasks": [
         {
@@ -6194,7 +6668,13 @@
     {
       "process_id": "hed_declarative_memory",
       "process_name": "Declarative memory",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Consciously accessible memory for facts and events; encompasses semantic and episodic memory.",
       "tasks": [
         {
@@ -6270,7 +6750,13 @@
     {
       "process_id": "hed_directed_forgetting",
       "process_name": "Directed forgetting",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Reduced memory for items that have been cued to be forgotten, relative to items cued to be remembered.",
       "tasks": [
         {
@@ -6345,7 +6831,13 @@
     {
       "process_id": "hed_encoding",
       "process_name": "Encoding",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Processes by which perceptual input is transformed into a memory representation at acquisition.",
       "tasks": [
         {
@@ -6469,7 +6961,13 @@
     {
       "process_id": "hed_episodic_memory",
       "process_name": "Episodic memory",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Memory for specific events located in a particular place and time and accompanied by autonoetic consciousness.",
       "tasks": [
         {
@@ -6588,7 +7086,13 @@
     {
       "process_id": "hed_familiarity",
       "process_name": "Familiarity",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Sense that a stimulus has been encountered before, in the absence of retrieval of contextual detail.",
       "tasks": [
         {
@@ -6647,7 +7151,13 @@
     {
       "process_id": "hed_forgetting",
       "process_name": "Forgetting",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Loss of accessibility of previously encoded information, due to decay, interference, or retrieval failure.",
       "tasks": [],
       "task_count": 0,
@@ -6713,7 +7223,13 @@
     {
       "process_id": "hed_pattern_completion",
       "process_name": "Pattern completion",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Retrieval of a complete memory from a partial or degraded cue; CA3 function.",
       "tasks": [
         {
@@ -6784,7 +7300,13 @@
     {
       "process_id": "hed_pattern_separation",
       "process_name": "Pattern separation",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Transformation of similar input patterns into distinct, non-overlapping memory representations; dentate gyrus function.",
       "tasks": [
         {
@@ -6827,7 +7349,13 @@
     {
       "process_id": "hed_proactive_interference",
       "process_name": "Proactive interference",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Disruption of new learning by previously learned material.",
       "tasks": [
         {
@@ -6870,7 +7398,13 @@
     {
       "process_id": "hed_prospective_memory",
       "process_name": "Prospective memory",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Memory for intentions to act at a future time or on a future event.",
       "tasks": [
         {
@@ -6941,7 +7475,13 @@
     {
       "process_id": "hed_recall",
       "process_name": "Recall",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Retrieval of items without an external cue provided at test (free or cued recall).",
       "tasks": [
         {
@@ -6963,7 +7503,13 @@
     {
       "process_id": "hed_recognition",
       "process_name": "Recognition",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Judgment that a test item has been previously encountered; supported by familiarity and recollection.",
       "tasks": [
         {
@@ -7027,7 +7573,13 @@
     {
       "process_id": "hed_recollection",
       "process_name": "Recollection",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Retrieval of contextual detail about a prior event, including source information.",
       "tasks": [
         {
@@ -7114,7 +7666,13 @@
     {
       "process_id": "hed_reconsolidation",
       "process_name": "Reconsolidation",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Destabilization and re-stabilization of a memory upon retrieval, creating a window for modification.",
       "tasks": [],
       "task_count": 0,
@@ -7185,7 +7743,13 @@
     {
       "process_id": "hed_retrieval",
       "process_name": "Retrieval",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Reactivation of a stored memory representation; dissociable into cue-driven and strategic retrieval.",
       "tasks": [
         {
@@ -7313,7 +7877,13 @@
     {
       "process_id": "hed_retroactive_interference",
       "process_name": "Retroactive interference",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Disruption of older memories by newly learned material.",
       "tasks": [
         {
@@ -7356,7 +7926,13 @@
     {
       "process_id": "hed_semantic_memory",
       "process_name": "Semantic memory",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Long-term store of general knowledge about the world — facts, concepts, and word meanings — dissociable from episodic memory and supported by distributed cortical representations.",
       "tasks": [],
       "task_count": 0,
@@ -7450,7 +8026,13 @@
     {
       "process_id": "hed_source_memory",
       "process_name": "Source memory",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Memory for the contextual origin of information (e.g., who said it, where it was seen).",
       "tasks": [
         {
@@ -7527,7 +8109,13 @@
     {
       "process_id": "hed_verbal_memory",
       "process_name": "Verbal memory",
-      "category_id": "long_term_memory",
+      "categories": [
+        {
+          "category_id": "long_term_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Memory for linguistic material (words, sentences), tested via word lists, story recall, and RAVLT.",
       "tasks": [
         {
@@ -7570,7 +8158,13 @@
     {
       "process_id": "hed_action_initiation",
       "process_name": "Action initiation",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Triggering of an action after planning is complete.",
       "tasks": [],
       "task_count": 0,
@@ -7636,7 +8230,13 @@
     {
       "process_id": "hed_antisaccade",
       "process_name": "Antisaccade",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Voluntary eye movement away from a peripheral stimulus, requiring inhibition of a prepotent saccade.",
       "tasks": [
         {
@@ -7712,7 +8312,13 @@
     {
       "process_id": "hed_fine_motor_control",
       "process_name": "Fine motor control",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Precise control of small-amplitude movements, typically of the hand and fingers.",
       "tasks": [
         {
@@ -7734,7 +8340,13 @@
     {
       "process_id": "hed_grasping",
       "process_name": "Grasping",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Shaping and closure of the hand around an object.",
       "tasks": [],
       "task_count": 0,
@@ -7772,7 +8384,13 @@
     {
       "process_id": "hed_motor_memory",
       "process_name": "Motor memory",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Long-term retention of motor skills and procedures.",
       "tasks": [],
       "task_count": 0,
@@ -7810,7 +8428,13 @@
     {
       "process_id": "hed_motor_planning",
       "process_name": "Motor planning",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Specification of movement parameters before execution.",
       "tasks": [
         {
@@ -7870,7 +8494,13 @@
     {
       "process_id": "hed_motor_preparation",
       "process_name": "Motor preparation",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Neural readiness state preceding movement, indexed by the readiness potential and LRP.",
       "tasks": [
         {
@@ -7962,7 +8592,13 @@
     {
       "process_id": "hed_motor_sequence_learning",
       "process_name": "Motor sequence learning",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Acquisition of a skilled sequence of movements through repetition.",
       "tasks": [
         {
@@ -8037,7 +8673,13 @@
     {
       "process_id": "hed_motor_timing",
       "process_name": "Motor timing",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Production or estimation of temporal intervals in motor output.",
       "tasks": [
         {
@@ -8108,7 +8750,13 @@
     {
       "process_id": "hed_proprioception",
       "process_name": "Proprioception",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Perception of body position and movement from muscle, tendon, and joint receptors.",
       "tasks": [],
       "task_count": 0,
@@ -8146,7 +8794,13 @@
     {
       "process_id": "hed_reaching",
       "process_name": "Reaching",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Goal-directed arm movement toward a spatial target.",
       "tasks": [],
       "task_count": 0,
@@ -8212,7 +8866,13 @@
     {
       "process_id": "hed_response_execution",
       "process_name": "Response execution",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Overt production of a selected response in accordance with task demands.",
       "tasks": [
         {
@@ -8316,7 +8976,13 @@
     {
       "process_id": "hed_response_selection",
       "process_name": "Response selection",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Choice of an action from a set of alternatives.",
       "tasks": [
         {
@@ -8404,7 +9070,13 @@
     {
       "process_id": "hed_saccade",
       "process_name": "Saccade",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Rapid ballistic eye movement between points of fixation.",
       "tasks": [
         {
@@ -8480,7 +9152,13 @@
     {
       "process_id": "hed_visuomotor_adaptation",
       "process_name": "Visuomotor adaptation",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Recalibration of movement in response to perturbations of the mapping between vision and action.",
       "tasks": [
         {
@@ -8499,7 +9177,13 @@
     {
       "process_id": "hed_vocal_motor_control",
       "process_name": "Vocal-motor control",
-      "category_id": "motor_preparation_timing_and_execution",
+      "categories": [
+        {
+          "category_id": "motor_preparation_timing_and_execution",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Control of the articulators for speech production and vocalization.",
       "tasks": [],
       "task_count": 0,
@@ -8570,7 +9254,13 @@
     {
       "process_id": "hed_perceptual_decision_making",
       "process_name": "Perceptual decision making",
-      "category_id": "perceptual_decision_making_evidence_accumulation",
+      "categories": [
+        {
+          "category_id": "perceptual_decision_making_evidence_accumulation",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Integration of noisy sensory evidence toward a decision criterion, modeled by sequential-sampling frameworks (drift-diffusion, race models) and indexed by accuracy and response-time distributions.",
       "tasks": [
         {
@@ -8649,7 +9339,13 @@
     {
       "process_id": "hed_analogical_reasoning",
       "process_name": "Analogical reasoning",
-      "category_id": "reasoning_and_problem_solving",
+      "categories": [
+        {
+          "category_id": "reasoning_and_problem_solving",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Mapping of relational structure from a source domain to a target domain.",
       "tasks": [
         {
@@ -8692,7 +9388,13 @@
     {
       "process_id": "hed_categorization",
       "process_name": "Categorization",
-      "category_id": "reasoning_and_problem_solving",
+      "categories": [
+        {
+          "category_id": "reasoning_and_problem_solving",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Assignment of instances to categories according to their features.",
       "tasks": [
         {
@@ -8791,7 +9493,13 @@
     {
       "process_id": "hed_causal_reasoning",
       "process_name": "Causal reasoning",
-      "category_id": "reasoning_and_problem_solving",
+      "categories": [
+        {
+          "category_id": "reasoning_and_problem_solving",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Inference about cause–effect relations from observation and intervention.",
       "tasks": [
         {
@@ -8845,7 +9553,13 @@
           "note": "Broader term encompassing deductive and inductive forms; dropped as separate entry 2026-04-18 because its definition was explicitly a union of the two. Wason Selection Task link reassigned here."
         }
       ],
-      "category_id": "reasoning_and_problem_solving",
+      "categories": [
+        {
+          "category_id": "reasoning_and_problem_solving",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Inference in which the conclusion follows necessarily from the premises.",
       "tasks": [
         {
@@ -8916,7 +9630,13 @@
     {
       "process_id": "hed_hypothesis_testing",
       "process_name": "Hypothesis testing",
-      "category_id": "reasoning_and_problem_solving",
+      "categories": [
+        {
+          "category_id": "reasoning_and_problem_solving",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Generation and evaluation of alternative explanations against evidence.",
       "tasks": [
         {
@@ -8963,7 +9683,13 @@
     {
       "process_id": "hed_inductive_reasoning",
       "process_name": "Inductive reasoning",
-      "category_id": "reasoning_and_problem_solving",
+      "categories": [
+        {
+          "category_id": "reasoning_and_problem_solving",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Inference from specific instances to general principles; probabilistic rather than necessary.",
       "tasks": [
         {
@@ -9034,7 +9760,13 @@
     {
       "process_id": "hed_insight",
       "process_name": "Insight",
-      "category_id": "reasoning_and_problem_solving",
+      "categories": [
+        {
+          "category_id": "reasoning_and_problem_solving",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Sudden restructuring of a problem representation yielding a solution that was previously unavailable, often accompanied by an \"Aha!\" experience distinct from incremental analytic search.",
       "notes": "(new 2026-04-15)",
       "tasks": [
@@ -9134,7 +9866,13 @@
     {
       "process_id": "hed_mathematical_reasoning",
       "process_name": "Mathematical reasoning",
-      "category_id": "reasoning_and_problem_solving",
+      "categories": [
+        {
+          "category_id": "reasoning_and_problem_solving",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Manipulation of numerical and algebraic quantities and relations.",
       "tasks": [],
       "task_count": 0,
@@ -9200,7 +9938,13 @@
     {
       "process_id": "hed_means_ends_analysis",
       "process_name": "Means-ends analysis",
-      "category_id": "reasoning_and_problem_solving",
+      "categories": [
+        {
+          "category_id": "reasoning_and_problem_solving",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Iterative problem-solving strategy in which the distance between the current state and the goal state is reduced by selecting operators that diminish the largest remaining difference.",
       "notes": "(new 2026-04-15)",
       "tasks": [
@@ -9300,7 +10044,13 @@
     {
       "process_id": "hed_planning",
       "process_name": "Planning",
-      "category_id": "reasoning_and_problem_solving",
+      "categories": [
+        {
+          "category_id": "reasoning_and_problem_solving",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Mental formulation of a sequence of actions toward a goal before execution.",
       "tasks": [
         {
@@ -9343,7 +10093,13 @@
     {
       "process_id": "hed_subgoaling",
       "process_name": "Subgoaling",
-      "category_id": "reasoning_and_problem_solving",
+      "categories": [
+        {
+          "category_id": "reasoning_and_problem_solving",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Decomposition of a goal into an ordered sequence of subgoals whose satisfaction advances the overall task; dissociable from means-ends search and often studied through hierarchical task analysis.",
       "notes": "(new 2026-04-15)",
       "tasks": [
@@ -9471,7 +10227,13 @@
     {
       "process_id": "hed_approach_motivation",
       "process_name": "Approach motivation",
-      "category_id": "reward_anticipation_and_motivation",
+      "categories": [
+        {
+          "category_id": "reward_anticipation_and_motivation",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Tendency to engage with stimuli associated with positive outcomes.",
       "tasks": [
         {
@@ -9566,7 +10328,13 @@
     {
       "process_id": "hed_avoidance_motivation",
       "process_name": "Avoidance motivation",
-      "category_id": "reward_anticipation_and_motivation",
+      "categories": [
+        {
+          "category_id": "reward_anticipation_and_motivation",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Tendency to disengage from stimuli associated with negative outcomes.",
       "tasks": [
         {
@@ -9645,7 +10413,13 @@
     {
       "process_id": "hed_effort_allocation",
       "process_name": "Effort allocation",
-      "category_id": "reward_anticipation_and_motivation",
+      "categories": [
+        {
+          "category_id": "reward_anticipation_and_motivation",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Decision to expend physical or cognitive effort as a function of expected reward and cost.",
       "tasks": [
         {
@@ -9716,7 +10490,13 @@
     {
       "process_id": "hed_incentive_salience",
       "process_name": "Incentive salience",
-      "category_id": "reward_anticipation_and_motivation",
+      "categories": [
+        {
+          "category_id": "reward_anticipation_and_motivation",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "\"Wanting\" attributed to reward-predictive cues, distinct from \"liking.\"",
       "tasks": [
         {
@@ -9763,7 +10543,13 @@
     {
       "process_id": "hed_reward_anticipation",
       "process_name": "Reward anticipation",
-      "category_id": "reward_anticipation_and_motivation",
+      "categories": [
+        {
+          "category_id": "reward_anticipation_and_motivation",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Affective and neural response to cues predicting upcoming reward.",
       "tasks": [
         {
@@ -9846,7 +10632,13 @@
     {
       "process_id": "hed_reward_consumption",
       "process_name": "Reward consumption",
-      "category_id": "reward_anticipation_and_motivation",
+      "categories": [
+        {
+          "category_id": "reward_anticipation_and_motivation",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Affective and neural response to receipt of reward.",
       "tasks": [],
       "task_count": 0,
@@ -9912,7 +10704,13 @@
     {
       "process_id": "hed_alerting",
       "process_name": "Alerting",
-      "category_id": "selective_and_sustained_attention",
+      "categories": [
+        {
+          "category_id": "selective_and_sustained_attention",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Achieving and maintaining a state of readiness to respond, whether tonic or phasic; one of Posner's three attentional networks.",
       "tasks": [
         {
@@ -10019,7 +10817,13 @@
     {
       "process_id": "hed_attention_shifting",
       "process_name": "Attention shifting",
-      "category_id": "selective_and_sustained_attention",
+      "categories": [
+        {
+          "category_id": "selective_and_sustained_attention",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Reorienting of attention from one location, feature, or object to another, indexed by cost in RT or accuracy.",
       "tasks": [
         {
@@ -10090,7 +10894,13 @@
     {
       "process_id": "hed_attentional_capture",
       "process_name": "Attentional capture",
-      "category_id": "selective_and_sustained_attention",
+      "categories": [
+        {
+          "category_id": "selective_and_sustained_attention",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Involuntary shift of attention to a salient stimulus that is not the current target of task-directed attention.",
       "tasks": [
         {
@@ -10201,7 +11011,13 @@
     {
       "process_id": "hed_divided_attention",
       "process_name": "Divided attention",
-      "category_id": "selective_and_sustained_attention",
+      "categories": [
+        {
+          "category_id": "selective_and_sustained_attention",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Concurrent processing of two or more streams of information or two tasks, typically yielding dual-task interference.",
       "tasks": [
         {
@@ -10284,7 +11100,13 @@
     {
       "process_id": "hed_feature_based_attention",
       "process_name": "Feature-based attention",
-      "category_id": "selective_and_sustained_attention",
+      "categories": [
+        {
+          "category_id": "selective_and_sustained_attention",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Selection of a specific visual feature (e.g., a color, orientation, or motion direction) that enhances processing of that feature throughout the visual field.",
       "tasks": [
         {
@@ -10355,7 +11177,13 @@
     {
       "process_id": "hed_object_based_attention",
       "process_name": "Object-based attention",
-      "category_id": "selective_and_sustained_attention",
+      "categories": [
+        {
+          "category_id": "selective_and_sustained_attention",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Selection of an object as a unit of attention such that the attended features belonging to the object are processed together.",
       "tasks": [
         {
@@ -10430,7 +11258,13 @@
     {
       "process_id": "hed_orienting",
       "process_name": "Orienting",
-      "category_id": "selective_and_sustained_attention",
+      "categories": [
+        {
+          "category_id": "selective_and_sustained_attention",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Selection of information from sensory input, typically in space, by covert or overt shifts of attention; one of Posner's three attentional networks.",
       "tasks": [
         {
@@ -10509,7 +11343,13 @@
     {
       "process_id": "hed_selective_attention",
       "process_name": "Selective attention",
-      "category_id": "selective_and_sustained_attention",
+      "categories": [
+        {
+          "category_id": "selective_and_sustained_attention",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Prioritized processing of a task-relevant subset of stimuli (a location, feature, object, or modality) with suppression of irrelevant stimuli.",
       "tasks": [
         {
@@ -10664,7 +11504,13 @@
     {
       "process_id": "hed_spatial_attention",
       "process_name": "Spatial attention",
-      "category_id": "selective_and_sustained_attention",
+      "categories": [
+        {
+          "category_id": "selective_and_sustained_attention",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Selection of a location in space for preferential sensory processing, measurable via cueing benefits and N2pc/P1 modulation.",
       "tasks": [
         {
@@ -10789,7 +11635,13 @@
           "note": "Robertson et al. tradition; emphasizes attention maintenance during monotonous, low-stimulation tasks."
         }
       ],
-      "category_id": "selective_and_sustained_attention",
+      "categories": [
+        {
+          "category_id": "selective_and_sustained_attention",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Maintenance of attentional engagement over extended intervals during which targets are rare or responses are repetitive; synonymous with vigilance.",
       "tasks": [
         {
@@ -10916,7 +11768,13 @@
     {
       "process_id": "hed_temporal_attention",
       "process_name": "Temporal attention",
-      "category_id": "selective_and_sustained_attention",
+      "categories": [
+        {
+          "category_id": "selective_and_sustained_attention",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Selection of a point in time for preferential processing, measurable via cueing benefits in time and the attentional blink.",
       "tasks": [
         {
@@ -11020,7 +11878,13 @@
       "process_id": "hed_active_maintenance",
       "process_name": "Active maintenance",
       "aliases": [],
-      "category_id": "short_term_and_working_memory",
+      "categories": [
+        {
+          "category_id": "short_term_and_working_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Holding information active over a delay without manipulation, through volitional, attention-demanding processes; a core subprocess of working memory.",
       "tasks": [
         {
@@ -11143,7 +12007,13 @@
     {
       "process_id": "hed_chunking",
       "process_name": "Chunking",
-      "category_id": "short_term_and_working_memory",
+      "categories": [
+        {
+          "category_id": "short_term_and_working_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Binding of multiple items into a single unit in memory to expand effective capacity.",
       "tasks": [
         {
@@ -11214,7 +12084,13 @@
     {
       "process_id": "hed_manipulation",
       "process_name": "Manipulation",
-      "category_id": "short_term_and_working_memory",
+      "categories": [
+        {
+          "category_id": "short_term_and_working_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Transformation of information held in working memory (reordering, reversing, combining) beyond simple maintenance.",
       "tasks": [
         {
@@ -11289,7 +12165,13 @@
     {
       "process_id": "hed_rehearsal",
       "process_name": "Rehearsal",
-      "category_id": "short_term_and_working_memory",
+      "categories": [
+        {
+          "category_id": "short_term_and_working_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Covert repetition of material to refresh its representation in short-term memory, especially for verbal material (articulatory rehearsal).",
       "tasks": [
         {
@@ -11364,7 +12246,13 @@
     {
       "process_id": "hed_spatial_working_memory",
       "process_name": "Spatial working memory",
-      "category_id": "short_term_and_working_memory",
+      "categories": [
+        {
+          "category_id": "short_term_and_working_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Short-term storage of spatial locations and spatial relations.",
       "tasks": [
         {
@@ -11443,7 +12331,13 @@
     {
       "process_id": "hed_verbal_working_memory",
       "process_name": "Verbal working memory",
-      "category_id": "short_term_and_working_memory",
+      "categories": [
+        {
+          "category_id": "short_term_and_working_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Short-term storage of phonological/verbal information, historically \"phonological loop\"; supports digit span, Sternberg with letters.",
       "tasks": [
         {
@@ -11556,7 +12450,13 @@
     {
       "process_id": "hed_visual_working_memory",
       "process_name": "Visual working memory",
-      "category_id": "short_term_and_working_memory",
+      "categories": [
+        {
+          "category_id": "short_term_and_working_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Short-term storage and manipulation of visual information; capacity limited to ~3–4 items.",
       "tasks": [
         {
@@ -11635,7 +12535,13 @@
     {
       "process_id": "hed_working_memory",
       "process_name": "Working memory",
-      "category_id": "short_term_and_working_memory",
+      "categories": [
+        {
+          "category_id": "short_term_and_working_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "System for the short-term maintenance, updating, and manipulation of task-relevant information over delays of seconds.",
       "tasks": [
         {
@@ -11764,7 +12670,13 @@
           "note": "Frequently used in literature to describe the process of changing the contents of working memory."
         }
       ],
-      "category_id": "short_term_and_working_memory",
+      "categories": [
+        {
+          "category_id": "short_term_and_working_memory",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Replacement or revision of information currently held active in working memory with newly task-relevant content. One of three core executive functions in the Miyake et al. unity/diversity framework; decomposable into retrieval, transformation, and substitution subcomponents (Ecker et al.); implemented by a cortico-striatal gating mechanism that opens to admit new content and closes to protect maintenance. Distinct from long-term-memory reconsolidation (which occurs when retrieval triggers a prediction error and targets stored representations rather than the focus of attention). Indexed behaviorally by N-Back, running-span, and keep-track performance.",
       "notes": "Renamed 2026-04-17 from `hed_updating` (+ merged duplicate `hed_updating_wm`) for specificity — plain \"Updating\" is memory-context-underspecified.",
       "tasks": [
@@ -11900,7 +12812,13 @@
     {
       "process_id": "hed_competition",
       "process_name": "Competition",
-      "category_id": "social_cognition_and_strategic_social_choice",
+      "categories": [
+        {
+          "category_id": "social_cognition_and_strategic_social_choice",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Action in conflict with another agent's interests for a contested resource.",
       "tasks": [
         {
@@ -11943,7 +12861,13 @@
     {
       "process_id": "hed_cooperation",
       "process_name": "Cooperation",
-      "category_id": "social_cognition_and_strategic_social_choice",
+      "categories": [
+        {
+          "category_id": "social_cognition_and_strategic_social_choice",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Coordinated action among agents for mutual benefit, often at individual cost.",
       "tasks": [
         {
@@ -11990,7 +12914,13 @@
     {
       "process_id": "hed_imitation",
       "process_name": "Imitation",
-      "category_id": "social_cognition_and_strategic_social_choice",
+      "categories": [
+        {
+          "category_id": "social_cognition_and_strategic_social_choice",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Reproduction of observed actions or behaviors.",
       "tasks": [
         {
@@ -12061,7 +12991,13 @@
     {
       "process_id": "hed_in_group_out_group_processing",
       "process_name": "In-group/out-group processing",
-      "category_id": "social_cognition_and_strategic_social_choice",
+      "categories": [
+        {
+          "category_id": "social_cognition_and_strategic_social_choice",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Differential processing of members of one's own group versus other groups.",
       "tasks": [
         {
@@ -12113,7 +13049,13 @@
     {
       "process_id": "hed_joint_attention",
       "process_name": "Joint attention",
-      "category_id": "social_cognition_and_strategic_social_choice",
+      "categories": [
+        {
+          "category_id": "social_cognition_and_strategic_social_choice",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Coordinated focus by two or more agents on the same object or event, involving shared awareness that attention is joint.",
       "tasks": [],
       "task_count": 0,
@@ -12189,7 +13131,13 @@
           "note": "Capacity/competence noun; the term used in developmental and clinical literatures."
         }
       ],
-      "category_id": "social_cognition_and_strategic_social_choice",
+      "categories": [
+        {
+          "category_id": "social_cognition_and_strategic_social_choice",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Representation of another's viewpoint, visual or cognitive.",
       "tasks": [
         {
@@ -12248,7 +13196,13 @@
     {
       "process_id": "hed_reciprocity",
       "process_name": "Reciprocity",
-      "category_id": "social_cognition_and_strategic_social_choice",
+      "categories": [
+        {
+          "category_id": "social_cognition_and_strategic_social_choice",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Contingent positive or negative responses to another's prior behavior.",
       "tasks": [
         {
@@ -12303,7 +13257,13 @@
     {
       "process_id": "hed_self_other_distinction",
       "process_name": "Self-other distinction",
-      "category_id": "social_cognition_and_strategic_social_choice",
+      "categories": [
+        {
+          "category_id": "social_cognition_and_strategic_social_choice",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Discrimination between self-generated and other-generated states or actions.",
       "tasks": [
         {
@@ -12374,7 +13334,13 @@
     {
       "process_id": "hed_social_decision_making",
       "process_name": "Social decision making",
-      "category_id": "social_cognition_and_strategic_social_choice",
+      "categories": [
+        {
+          "category_id": "social_cognition_and_strategic_social_choice",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Choice involving other agents and their preferences, often in strategic settings.",
       "tasks": [
         {
@@ -12457,7 +13423,13 @@
     {
       "process_id": "hed_social_perception",
       "process_name": "Social perception",
-      "category_id": "social_cognition_and_strategic_social_choice",
+      "categories": [
+        {
+          "category_id": "social_cognition_and_strategic_social_choice",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Visual perception of socially relevant stimuli, including faces, bodies, and actions.",
       "tasks": [
         {
@@ -12548,7 +13520,13 @@
     {
       "process_id": "hed_stereotyping",
       "process_name": "Stereotyping",
-      "category_id": "social_cognition_and_strategic_social_choice",
+      "categories": [
+        {
+          "category_id": "social_cognition_and_strategic_social_choice",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Attribution of attributes to individuals based on social category membership.",
       "tasks": [
         {
@@ -12595,7 +13573,13 @@
     {
       "process_id": "hed_mental_rotation",
       "process_name": "Mental rotation",
-      "category_id": "spatial_cognition_and_navigation",
+      "categories": [
+        {
+          "category_id": "spatial_cognition_and_navigation",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Imagined rotation of a 2D or 3D figure to compare with another figure; RT increases linearly with angular disparity.",
       "tasks": [
         {
@@ -12666,7 +13650,13 @@
     {
       "process_id": "hed_spatial_memory",
       "process_name": "Spatial memory",
-      "category_id": "spatial_cognition_and_navigation",
+      "categories": [
+        {
+          "category_id": "spatial_cognition_and_navigation",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Memory for the arrangement and location of objects and environments.",
       "tasks": [
         {
@@ -12692,7 +13682,13 @@
     {
       "process_id": "hed_choice_commitment",
       "process_name": "Choice commitment",
-      "category_id": "value_based_decision_making_under_risk_and_uncertainty",
+      "categories": [
+        {
+          "category_id": "value_based_decision_making_under_risk_and_uncertainty",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "The act of locking in a selected option once accumulated evidence or value crosses a decision boundary; measured by response-time distributions, drift-diffusion boundary parameters, and motor preparation signatures.",
       "notes": "(new 2026-04-15)",
       "tasks": [],
@@ -12815,7 +13811,13 @@
     {
       "process_id": "hed_delay_discounting",
       "process_name": "Delay discounting",
-      "category_id": "value_based_decision_making_under_risk_and_uncertainty",
+      "categories": [
+        {
+          "category_id": "value_based_decision_making_under_risk_and_uncertainty",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Devaluation of a reward as a function of the delay to its receipt, typically hyperbolic.",
       "tasks": [
         {
@@ -12863,7 +13865,13 @@
     {
       "process_id": "hed_intertemporal_choice",
       "process_name": "Intertemporal choice",
-      "category_id": "value_based_decision_making_under_risk_and_uncertainty",
+      "categories": [
+        {
+          "category_id": "value_based_decision_making_under_risk_and_uncertainty",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Choice among options that differ in timing of outcomes; choice between smaller-sooner and larger-later.",
       "tasks": [
         {
@@ -12939,7 +13947,13 @@
     {
       "process_id": "hed_probability_judgment",
       "process_name": "Probability judgment",
-      "category_id": "value_based_decision_making_under_risk_and_uncertainty",
+      "categories": [
+        {
+          "category_id": "value_based_decision_making_under_risk_and_uncertainty",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Estimation of likelihoods of events, often deviating from normative Bayes.",
       "tasks": [
         {
@@ -12993,7 +14007,13 @@
           "note": "Names the task class rather than the cognitive operation."
         }
       ],
-      "category_id": "value_based_decision_making_under_risk_and_uncertainty",
+      "categories": [
+        {
+          "category_id": "value_based_decision_making_under_risk_and_uncertainty",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Neural and behavioral evaluation of outcome uncertainty.",
       "tasks": [
         {
@@ -13072,7 +14092,13 @@
     {
       "process_id": "hed_valuation",
       "process_name": "Valuation",
-      "category_id": "value_based_decision_making_under_risk_and_uncertainty",
+      "categories": [
+        {
+          "category_id": "value_based_decision_making_under_risk_and_uncertainty",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Assignment of a subjective value to a prospective option, integrating reward magnitude, probability, delay, and effort; indexed by willingness-to-pay, subjective ratings, and value-coded neural signals in vmPFC and striatum.",
       "notes": "(new 2026-04-15)",
       "tasks": [
@@ -13156,7 +14182,13 @@
     {
       "process_id": "hed_value_based_decision_making",
       "process_name": "Value-based decision making",
-      "category_id": "value_based_decision_making_under_risk_and_uncertainty",
+      "categories": [
+        {
+          "category_id": "value_based_decision_making_under_risk_and_uncertainty",
+          "role": "primary",
+          "confidence": "high"
+        }
+      ],
       "definition": "Choice among options that differ in subjective value, computed across attributes.",
       "tasks": [
         {

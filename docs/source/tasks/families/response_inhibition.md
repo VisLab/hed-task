@@ -21,15 +21,6 @@ Choice RT task in which an occasional stop signal requires response cancellation
 
 Speeded responses to frequent non-targets with withholding on rare targets; commission errors and RT variability index sustained attention lapses. Engages 5 processes.
 
-## Marked for review
-
-The filing of these tasks is a judgement call; the note says why they are here and
-where else they could go.
-
-| Task | Note |
-|---|---|
-| [Sustained Attention to Response](../hedtsk_sustained_attention_to_response.md) | Go/no-go structure with rare withhold targets; also a vigilance measure |
-
 ```{toctree}
 :hidden:
 :maxdepth: 1

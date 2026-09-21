@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_mental_rotation`
 
-**Family:** [Spatial cognition and navigation tasks](families/spatial_navigation.md)
+**Family:** [Spatial cognition and navigation tasks](families/spatial_navigation.md) (also [Perceptual judgment and psychophysics tasks](families/perceptual_judgment.md))
 
 **Also known as:** MRT, Shepard-Metzler Task, Mental Rotation
 

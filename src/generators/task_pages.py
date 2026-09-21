@@ -19,7 +19,7 @@ entries, and the right-hand contents menu of the two listing pages takes over fr
 there. Listing headings and sidebar labels drop a trailing "Task", "tasks" or "tests"
 from a name; page titles keep it. See `_short_name`.
 
-Families come from data/task_families.tsv and data/task_family_defs.tsv; see
+Families are defined in data/task_family_defs.tsv and each task lists its memberships; see
 data/README.md. The assignment is validated in generate_docs.py before anything is
 written, so this module can assume every task has exactly one known family.
 """
@@ -29,7 +29,19 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-from generators.utils import cell, citation_line, process_link, split_references, table, write_page
+from generators.utils import (
+    REVIEW_NOTE,
+    cell,
+    citation_line,
+    primary_category,
+    primary_family,
+    primary_membership,
+    process_link,
+    secondary_memberships,
+    split_references,
+    table,
+    write_page,
+)
 
 ATLAS_TASK_URL = "https://www.cognitiveatlas.org/task/id/"
 
@@ -39,39 +51,42 @@ def generate(
     tasks: list[dict],
     processes_by_id: dict[str, dict],
     families: list[dict],
-    family_rows: list[dict],
     atlas_map: dict[str, dict] | None = None,
 ) -> int:
     """Write the task index, the family pages, the alphabetical list and the task pages.
 
     Parameters:
         docs_dir: The docs/source/ root.
-        tasks: Task records from data/task_details.json.
+        tasks: Task records from data/task_details.json, each with its `families`.
         processes_by_id: Process records keyed by process_id.
         families: Rows of data/task_family_defs.tsv, already sorted by `order`.
-        family_rows: Rows of data/task_families.tsv.
         atlas_map: Rows of data/mappings/hed_task_to_atlas.tsv keyed by hedtsk_id.
 
     Returns the number of files written.
     """
     tasks_dir = docs_dir / "tasks"
     sorted_tasks = sorted(tasks, key=lambda t: t["canonical_name"])
-    family_of = {r["hedtsk_id"]: r["family_id"] for r in family_rows}
-    confidence_of = {r["hedtsk_id"]: r["confidence"] for r in family_rows}
+    family_of = {t["hedtsk_id"]: primary_family(t) for t in tasks}
     family_by_id = {f["family_id"]: f for f in families}
     tasks_by_family: dict[str, list[dict]] = {f["family_id"]: [] for f in families}
+    # Secondary memberships, keyed by the family they cross-list into.
+    also_by_family: dict[str, list[tuple[dict, dict]]] = {f["family_id"]: [] for f in families}
     for task in sorted_tasks:
         tasks_by_family[family_of[task["hedtsk_id"]]].append(task)
+        for member in secondary_memberships(task, "families"):
+            also_by_family[member["family_id"]].append((task, member))
+    n_review = sum(1 for t in tasks for m in t["families"] if m.get("confidence") == "review")
 
     count = 0
-    count += _write_task_index(tasks_dir, families, tasks_by_family, confidence_of)
+    count += _write_task_index(tasks_dir, families, tasks_by_family, also_by_family, n_review)
     count += _write_by_family(tasks_dir, families, tasks_by_family)
     for fam in families:
-        count += _write_family_page(tasks_dir, fam, tasks_by_family[fam["family_id"]], family_rows)
+        fid = fam["family_id"]
+        count += _write_family_page(tasks_dir, fam, tasks_by_family[fid], also_by_family[fid], family_by_id)
     count += _write_alphabetical(tasks_dir, sorted_tasks, family_of, family_by_id)
     for task in sorted_tasks:
         fam = family_by_id[family_of[task["hedtsk_id"]]]
-        count += _write_task_page(tasks_dir, task, fam, processes_by_id, atlas_map or {})
+        count += _write_task_page(tasks_dir, task, fam, family_by_id, processes_by_id, atlas_map or {})
     return count
 
 
@@ -138,13 +153,14 @@ def _write_task_index(
     tasks_dir: Path,
     families: list[dict],
     tasks_by_family: dict[str, list[dict]],
-    confidence_of: dict[str, str],
+    also_by_family: dict[str, list[tuple[dict, dict]]],
+    n_review: int,
 ) -> int:
     """Write docs/tasks/index.md."""
     all_tasks = [t for v in tasks_by_family.values() for t in v]
     n_pseudo = sum(1 for t in all_tasks if t.get("task_kind") == "pseudo_task")
     n_tasks = len(all_tasks) - n_pseudo
-    n_review = sum(1 for c in confidence_of.values() if c == "review")
+    n_also = len({t["hedtsk_id"] for pairs in also_by_family.values() for t, _ in pairs})
 
     parts: list[str] = [
         "# Tasks\n\n",
@@ -156,11 +172,14 @@ def _write_task_index(
         "variations, the cognitive processes it engages, and references.\n\n",
         f"Tasks are filed under {len(families)} **paradigm families** by what the participant does,\n"
         "not by which process the task is thought to measure. The Catalog's process list covers that\n"
-        "other axis, and the two cross-link. A family is a browsing aid; every task is in\n"
-        "exactly one, the assignment is a curation decision, and it is expected to change as\n"
-        f"the Catalog grows. {n_review} of the {n_tasks} assignments are marked for review in the\n"
-        "source table because a reasonable reader could file the task elsewhere; the family\n"
-        "pages say which.\n\n",
+        "other axis, and the two cross-link. Families are organizational, not a hierarchy. Every\n"
+        "task has one **primary** family, where its page is filed, and may be cross-listed under\n"
+        f"others as a **secondary** member; {n_also} tasks are cross-listed at present. The\n"
+        "assignments are curation decisions and are expected to change as the Catalog grows;\n"
+        f"{n_review} memberships are marked `review`. The\n"
+        "[task family assignment rules](../methods/task_criteria/06_task_family_assignment.md)\n"
+        "say how families are assigned.\n\n",
+        REVIEW_NOTE.format(unit="family") + "\n",
         "Two ways in:\n\n",
         "- [Tasks by paradigm family](tasks_by_paradigm_family.md) lists every task under its family, with the\n  family's scope statement.\n",
         "- [Tasks alphabetically](tasks_alphabetically.md) lists every task in name order, for when you\n"
@@ -169,9 +188,14 @@ def _write_task_index(
     ]
 
     rows = [
-        [f"[{fam['name']}](families/{fam['family_id']}.md)", str(len(tasks_by_family[fam["family_id"]]))] for fam in families
+        [
+            f"[{fam['name']}](families/{fam['family_id']}.md)",
+            str(len(tasks_by_family[fam["family_id"]])),
+            str(len(also_by_family[fam["family_id"]])) if also_by_family[fam["family_id"]] else "-",
+        ]
+        for fam in families
     ]
-    parts.append(table(["Family", "Tasks"], rows))
+    parts.append(table(["Family", "Tasks filed", "Cross-listed"], rows))
     parts.append("\n\n")
     parts.append(
         _toctree(
@@ -211,30 +235,59 @@ def _write_by_family(tasks_dir: Path, families: list[dict], tasks_by_family: dic
     return 1
 
 
-def _write_family_page(tasks_dir: Path, fam: dict, fam_tasks: list[dict], family_rows: list[dict]) -> int:
-    """Write docs/tasks/families/<family_id>.md."""
-    fid = fam["family_id"]
-    by_task = {r["hedtsk_id"]: r for r in family_rows if r["family_id"] == fid}
-    review = [t for t in fam_tasks if by_task[t["hedtsk_id"]]["confidence"] == "review"]
+def _write_family_page(
+    tasks_dir: Path,
+    fam: dict,
+    fam_tasks: list[dict],
+    also: list[tuple[dict, dict]],
+    family_by_id: dict[str, dict],
+) -> int:
+    """Write docs/tasks/families/<family_id>.md.
 
+    Parameters:
+        fam: The family definition.
+        fam_tasks: Tasks filed under it (primary membership), in name order.
+        also: (task, membership) pairs cross-listed here (secondary membership).
+        family_by_id: Family definitions keyed by id, for naming a task's own family.
+    """
+    fid = fam["family_id"]
+
+    def link(t: dict) -> str:
+        return f"[{_short_name(t['canonical_name'])}](../{t['hedtsk_id']}.md)"
+
+    review_rows: list[list[str]] = []
+    for t in fam_tasks:
+        m = primary_membership(t, "families")
+        if m.get("confidence") == "review":
+            review_rows.append([link(t), "filed here", cell(m.get("rationale", ""))])
+    for t, m in also:
+        if m.get("confidence") == "review":
+            review_rows.append([link(t), "cross-listed", cell(m.get("rationale", ""))])
+
+    summary = f"This family contains {len(fam_tasks)} tasks"
+    summary += f" and cross-lists {len(also)} more.\n\n" if also else ".\n\n"
     parts: list[str] = [
         f"({fid})=\n",
         f"# {fam['name']}\n\n",
         f"{fam['scope']}\n\n",
-        f"This family contains {len(fam_tasks)} tasks.\n\n",
+        summary,
         _task_sections(fam_tasks, "../", 2),
     ]
 
-    if review:
-        parts.append("## Marked for review\n\n")
-        parts.append(
-            "The filing of these tasks is a judgement call; the note says why they are here and\nwhere else they could go.\n\n"
-        )
+    if also:
+        parts.append("## Also filed here\n\n")
+        parts.append("These tasks are filed under another family and cross-listed here; the note says why.\n\n")
         rows = [
-            [f"[{_short_name(t['canonical_name'])}](../{t['hedtsk_id']}.md)", cell(by_task[t["hedtsk_id"]]["rationale"])]
-            for t in review
+            [link(t), f"[{family_by_id[primary_family(t)]['name']}]({primary_family(t)}.md)", cell(m.get("rationale", ""))]
+            for t, m in also
         ]
-        parts.append(table(["Task", "Note"], rows))
+        parts.append(table(["Task", "Filed under", "Note"], rows))
+        parts.append("\n\n")
+
+    if review_rows:
+        parts.append("## Marked for review\n\n")
+        parts.append(REVIEW_NOTE.format(unit="family") + "\n")
+        parts.append(table(["Task", "Membership", "Note"], review_rows))
         parts.append("\n\n")
 
     parts.append(_toctree([(_short_name(t["canonical_name"]), f"../{t['hedtsk_id']}") for t in fam_tasks], 1))
@@ -294,6 +347,7 @@ def _write_task_page(
     tasks_dir: Path,
     task: dict,
     fam: dict,
+    family_by_id: dict[str, dict],
     processes_by_id: dict[str, dict],
     atlas_map: dict[str, dict],
 ) -> int:
@@ -318,7 +372,11 @@ def _write_task_page(
     parts.append(f"({hedtsk_id})=\n")
     parts.append(f"# {canonical_name}\n\n")
     parts.append(f"**HED task ID:** `{hedtsk_id}`\n\n")
-    parts.append(f"**Family:** [{fam['name']}](families/{fam['family_id']}.md)\n\n")
+    family_line = f"**Family:** [{fam['name']}](families/{fam['family_id']}.md)"
+    also = [family_by_id[m["family_id"]] for m in secondary_memberships(task, "families")]
+    if also:
+        family_line += " (also " + ", ".join(f"[{f['name']}](families/{f['family_id']}.md)" for f in also) + ")"
+    parts.append(family_line + "\n\n")
     if is_pseudo:
         parts.append(
             ":::{note}\n"
@@ -382,7 +440,7 @@ def _write_task_page(
                 )
                 parts.append(f"- `{pid}`\n")
             else:
-                parts.append(f"- {process_link(pid, proc['process_name'], proc['category_id'], 'tasks')}\n")
+                parts.append(f"- {process_link(pid, proc['process_name'], primary_category(proc), 'tasks')}\n")
         parts.append("\n")
 
     key_refs, further_refs = split_references(task)

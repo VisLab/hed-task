@@ -16,6 +16,7 @@ Sections are numbered so that they can be cited; a citation such as "task criter
 3. [The task inclusion test](03_the_task_inclusion_test.md)
 4. [Variation criteria](04_variation_criteria.md)
 5. [Borderline case policy](05_borderline_case_policy.md)
+6. [Task family assignment](06_task_family_assignment.md)
 
 ```{toctree}
 :hidden:
@@ -26,4 +27,5 @@ Sections are numbered so that they can be cited; a citation such as "task criter
 03_the_task_inclusion_test
 04_variation_criteria
 05_borderline_case_policy
+06_task_family_assignment
 ```

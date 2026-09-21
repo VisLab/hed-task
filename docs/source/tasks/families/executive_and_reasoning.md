@@ -33,16 +33,6 @@ Four cards with letters and numbers under a conditional rule; participants choos
 
 Sort cards by a hidden rule (color, form, or number) using only correct/incorrect feedback; after runs of correct sorts the rule silently switches. Perseverative errors index set-shifting. Engages 5 processes.
 
-## Marked for review
-
-The filing of these tasks is a judgement call; the note says why they are here and
-where else they could go.
-
-| Task | Note |
-|---|---|
-| [Remote Associates](../hedtsk_remote_associates.md) | Insight problem solving over words; could be filed under language |
-| [Trail Making](../hedtsk_trail_making.md) | Part B alternates sequences; Part A is a speeded motor task |
-
 ```{toctree}
 :hidden:
 :maxdepth: 1

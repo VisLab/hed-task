@@ -17,15 +17,6 @@ A pair of cues (often threat/neutral) is followed by a probe at one cue location
 
 A central or peripheral cue indicates the likely target location; RT differences between valid, neutral, and invalid cues index covert spatial orienting. Engages 5 processes.
 
-## Marked for review
-
-The filing of these tasks is a judgement call; the note says why they are here and
-where else they could go.
-
-| Task | Note |
-|---|---|
-| [Attention Network](../hedtsk_attention_network.md) | Cueing combined with a flanker; filed by its cue manipulation |
-
 ```{toctree}
 :hidden:
 :maxdepth: 1

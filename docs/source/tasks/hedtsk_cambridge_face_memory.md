@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_cambridge_face_memory`
 
-**Family:** [Recall and recognition memory tests](families/recall_and_recognition.md)
+**Family:** [Recall and recognition memory tests](families/recall_and_recognition.md) (also [Perceptual judgment and psychophysics tasks](families/perceptual_judgment.md))
 
 **Also known as:** Cambridge Face Memory Test, CFMT, Cambridge Face Test, Cambridge Face Memory
 

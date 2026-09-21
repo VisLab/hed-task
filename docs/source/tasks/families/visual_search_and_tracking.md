@@ -3,7 +3,7 @@
 
 A target must be found among, or followed through, a field of distractors; search slopes, detection accuracy or tracking capacity are the measures.
 
-This family contains 4 tasks.
+This family contains 4 tasks and cross-lists 1 more.
 
 ## [Contextual Cueing](../hedtsk_contextual_cueing.md)
 
@@ -21,14 +21,25 @@ Brief central identification combined with peripheral localization under increas
 
 Detection of a target in a display of distractors; search slopes across set size dissociate feature (parallel) from conjunction (serial) search. Engages 5 processes.
 
+## Also filed here
+
+These tasks are filed under another family and cross-listed here; the note says why.
+
+| Task | Filed under | Note |
+|---|---|---|
+| [Rapid Serial Visual Presentation](../hedtsk_rapid_serial_visual_presentation.md) | [Oddball, vigilance and continuous performance tasks](oddball_and_vigilance.md) | Targets in a rapid stream; the attentional blink could argue for visual search and tracking |
+
 ## Marked for review
 
-The filing of these tasks is a judgement call; the note says why they are here and
-where else they could go.
+A `review` mark means the assignment is a judgement call the curator has flagged for a
+second opinion. On the family an entry is filed under it means "not sure this is the right
+home"; on a cross-listing it means "not sure this belongs here at all". The note names
+the alternative or the doubt. Comments go to the
+[issue tracker](https://github.com/hed-standard/hed-task/issues).
 
-| Task | Note |
-|---|---|
-| [Contextual Cueing](../hedtsk_contextual_cueing.md) | Visual search with repeated layouts; the learning could argue for conditioning and implicit learning |
+| Task | Membership | Note |
+|---|---|---|
+| [Rapid Serial Visual Presentation](../hedtsk_rapid_serial_visual_presentation.md) | cross-listed | Targets in a rapid stream; the attentional blink could argue for visual search and tracking |
 
 ```{toctree}
 :hidden:

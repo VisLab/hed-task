@@ -407,7 +407,8 @@ def build_process_tables(
             {
                 "hed_process_id": process["process_id"],
                 "hed_process_name": process["process_name"],
-                "hed_category_id": process["category_id"],
+                # The category the process is filed under (its primary membership).
+                "hed_category_id": next(m["category_id"] for m in process["categories"] if m["role"] == "primary"),
                 "match_type": match_type,
                 "atlas_concept_id": candidate["id"] if candidate else "",
                 "atlas_concept_name": candidate["name"] if candidate else "",

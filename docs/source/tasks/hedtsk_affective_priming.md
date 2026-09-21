@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_affective_priming`
 
-**Family:** [Emotion elicitation and regulation tasks](families/emotion.md)
+**Family:** [Emotion elicitation and regulation tasks](families/emotion.md) (also [Conflict and interference tasks](families/conflict_and_interference.md))
 
 **Also known as:** Evaluative Priming
 
