@@ -356,6 +356,11 @@ apostrophe or an en dash in their name (`Raven's Progressive Matrices Test`,
 `Penn's Logical Reasoning Test`, `Angling Risk Task - Always Sunny`), which is a
 common source of retrieval failures in client code that assumes ASCII.
 
+Capitalization of names is not consistent either. 43 of the 918 concept names begin
+with a capital letter (`Limited Capacity`, `Active Cognitive Inhibition`, `Risk Taking`,
+`Self-Efficacy`) and the other 875 are lowercase. Names on these pages are shown exactly
+as the Atlas has them, so a capitalized concept here is a capitalized concept there.
+
 ## When the curation happened
 
 | Year | Task entries | Concept entries |

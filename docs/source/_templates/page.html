@@ -1,0 +1,13 @@
+{#
+  Development banner at the top of the middle panel on every page. The text lives in
+  conf.py (html_context["dev_banner"]) so that it can be changed or removed in one place;
+  the styling is in _static/custom.css under .dev-banner. Everything else is Furo's page.
+#}
+{% extends "!page.html" %}
+
+{% block content %}
+{% if dev_banner %}
+<div class="dev-banner" role="note">{{ dev_banner }}</div>
+{% endif %}
+{{ super() }}
+{% endblock %}

@@ -65,6 +65,16 @@ html_theme_options = {
     "source_directory": "docs/source/",
 }
 
+# Development banner shown at the top of the middle panel on every page, by the page
+# template in _templates/page.html. Edit the text here; delete the key to remove the banner.
+html_context = {
+    "dev_banner": (
+        "The HED Task Catalog is under development. IDs are not stable until formal release. "
+        'Comments are welcome at <a href="https://github.com/hed-standard/hed-task/issues">'
+        "github.com/hed-standard/hed-task/issues</a>."
+    ),
+}
+
 # Same sidebar composition as hed-resources: brand, search, navigation, quick links.
 html_sidebars = {
     "**": [
