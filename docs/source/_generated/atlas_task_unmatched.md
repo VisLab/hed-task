@@ -2,7 +2,7 @@
 
 | Atlas entry | Definition chars | Concepts |
 |---|---|---|
-| [-](https://www.cognitiveatlas.org/task/id/trm_4f244f46ebf58) | 4 | 2 |
+| [`trm_4f244f46ebf58`](https://www.cognitiveatlas.org/task/id/trm_4f244f46ebf58) | 4 | 2 |
 | [2nd-order rule acquisition](https://www.cognitiveatlas.org/task/id/trm_5667441c338a7) | 571 | - |
 | [abstract/concrete judgment: bilingual](https://www.cognitiveatlas.org/task/id/trm_4ebd44cd88360) | 152 | 5 |
 | [abstract/concrete task](https://www.cognitiveatlas.org/task/id/trm_4f24126c22011) | 71 | - |

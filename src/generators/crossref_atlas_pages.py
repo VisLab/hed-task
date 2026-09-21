@@ -78,10 +78,15 @@ def _process_link(process_id: str, name: str, category_id: str) -> str:
 
 
 def _atlas_link(name: str, atlas_id: str, base_url: str) -> str:
-    """Return the Atlas entry or concept name linked to its record, or "-" when there is none."""
+    """Return the Atlas entry or concept name linked to its record, or "-" when there is none.
+
+    One Atlas task record has an identifier but a blank name; the identifier is the label
+    then, so the row stays identifiable.
+    """
     if not atlas_id:
         return "-"
-    return f"[{_cell(name)}]({base_url}{atlas_id})"
+    label = _cell(name, empty=f"`{atlas_id}`")
+    return f"[{label}]({base_url}{atlas_id})"
 
 
 def _plural(n: int, noun: str) -> str:
