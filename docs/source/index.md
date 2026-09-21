@@ -10,6 +10,14 @@ datasets can be categorized by what their participants were asked to do, in term
 the same across laboratories. The HED Task Catalog began as an effort to curate the [Cognitive Atlas](https://www.cognitiveatlas.org/) (called the Atlas on this site) into a form that might be usable for dataset annotation.
 See [The Catalog vs the Atlas](atlas/the_catalog_vs_the_atlas.md) for how the two relate.
 
+The initial curation was done by Kay Robbins with the assistance of Claude Opus 4 and, more
+recently, of Claude Fable 5. The Catalog is under review by the
+[HED Working Group](https://www.hedtags.org/hed-resources) and other interested parties. The
+next goal is to curate and augment the Catalog with respect to the datasets on
+[NEMAR](https://nemar.org). If you are interested in contributing to this curation effort, or
+have comments or suggestions, please post an issue on the
+[hed-task](https://github.com/hed-standard/hed-task) GitHub repository.
+
 ## What is the HED Task Catalog?
 
 The HED Task Catalog consists of two interlinked lists **Tasks** and **Cognitive processes**.
@@ -148,7 +156,7 @@ methods/atlas_mapping_method
 :hidden:
 :caption: Cognitive Atlas
 
-atlas/what_is_in_the_cognitive_atlas
+atlas/what_is_the_cognitive_atlas
 atlas/the_catalog_vs_the_atlas
 atlas/task_mapping
 atlas/process_mapping

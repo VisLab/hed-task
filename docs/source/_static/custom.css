@@ -290,3 +290,16 @@ body[data-theme="dark"] .content-icon-container a[href*="github.com"]:not([href*
 .toc-tree > ul > li:first-child > ul {
     padding-left: var(--toc-item-spacing-horizontal);
 }
+
+/* Tables fill the content width and may wrap code spans. Furo scrolls a wide table
+   sideways inside a wrapper, which looks like a cut-off last column; letting cells
+   wrap (including identifiers in code spans) keeps the Atlas mapping tables inside
+   the page instead. */
+table.docutils {
+    width: 100%;
+}
+
+table.docutils code {
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
