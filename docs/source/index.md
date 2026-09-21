@@ -4,10 +4,11 @@
 
 # HED Task Catalog
 
-A curated vocabulary of the standard tasks used in cognitive and behavioral neuroscience
-experiments, and of the cognitive processes those tasks engage. It exists so that
-datasets can be tagged with what their participants were asked to do, in terms that are
-the same across laboratories.
+The HED Task Catalog (called the Catalog on this site) is a curated vocabulary of the standard tasks used in cognitive and behavioral neuroscience
+experiments, and of the cognitive processes those tasks engage. The Catalog exists so that
+datasets can be categorized by what their participants were asked to do, in terms that are
+the same across laboratories. The HED Task Catalog began as an effort to curate the [Cognitive Atlas](https://www.cognitiveatlas.org/) (called the Atlas on this site) into a form that might be usable for dataset annotation.
+See [The Catalog vs the Atlas](atlas/the_catalog_vs_the_atlas.md) for how the two relate.
 
 ## What is the HED Task Catalog?
 
@@ -90,7 +91,7 @@ counts as a variation.
 :::
 
 :::{grid-item-card} Compare with the Cognitive Atlas
-:link: atlas/relationship
+:link: atlas/the_catalog_vs_the_atlas
 :link-type: doc
 
 What the Atlas contains, how the Catalog maps onto it entry by entry, and what each
@@ -100,7 +101,7 @@ adds to the other.
 ::::
 
 New to the Catalog? Start with the [Introduction](introduction.md). Planning to tag a
-dataset or to read a task page closely? See [How to use the Catalog](how_to_use.md).
+dataset or to read a task page closely? See [How to use the Catalog](how_to_use_the_catalog.md).
 
 ## Status and how to contribute
 
@@ -122,7 +123,7 @@ elicits it and how it is measured.
 :caption: Overview
 
 introduction
-how_to_use
+how_to_use_the_catalog
 ```
 
 ```{toctree}
@@ -131,7 +132,7 @@ how_to_use
 
 tasks/index
 processes/index
-Task-process links <crossref>
+task_process_links
 ```
 
 ```{toctree}
@@ -140,15 +141,15 @@ Task-process links <crossref>
 
 methods/task_criteria/index
 methods/process_criteria/index
-methods/atlas_mapping/index
+methods/atlas_mapping_method
 ```
 
 ```{toctree}
 :hidden:
 :caption: Cognitive Atlas
 
-atlas/cognitive_atlas
-atlas/relationship
+atlas/what_is_in_the_cognitive_atlas
+atlas/the_catalog_vs_the_atlas
 atlas/task_mapping
 atlas/process_mapping
 ```

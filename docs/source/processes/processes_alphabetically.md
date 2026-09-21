@@ -1,7 +1,7 @@
 # Processes alphabetically
 
 All 172 processes in name order, each with the category it is filed under.
-[Processes by category](by_category.md) presents the same processes grouped by category.
+[Processes by category](processes_by_category.md) presents the same processes grouped by category.
 
 ## [Acoustic processing](auditory_and_pre_attentive_deviance_processing.md#hed-acoustic-processing)
 

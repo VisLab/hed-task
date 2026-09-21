@@ -4,10 +4,10 @@ Files written:
 
 - docs/tasks/index.md            the task landing page: what a task page holds, the
                                  families at a glance, and the two ways in
-- docs/tasks/by_family.md        the catalog grouped by paradigm family, one section
+- docs/tasks/tasks_by_paradigm_family.md        the catalog grouped by paradigm family, one section
                                  per family; its toctree nests the family pages
 - docs/tasks/families/<id>.md    one page per family, whose toctree nests its tasks
-- docs/tasks/alphabetically.md   every task in name order; its toctree lists every
+- docs/tasks/tasks_alphabetically.md   every task in name order; its toctree lists every
                                  task
 - docs/tasks/hedtsk_*.md         one page per task
 
@@ -162,8 +162,8 @@ def _write_task_index(
         "source table because a reasonable reader could file the task elsewhere; the family\n"
         "pages say which.\n\n",
         "Two ways in:\n\n",
-        "- [Tasks by paradigm family](by_family.md) lists every task under its family, with the\n  family's scope statement.\n",
-        "- [Tasks alphabetically](alphabetically.md) lists every task in name order, for when you\n"
+        "- [Tasks by paradigm family](tasks_by_paradigm_family.md) lists every task under its family, with the\n  family's scope statement.\n",
+        "- [Tasks alphabetically](tasks_alphabetically.md) lists every task in name order, for when you\n"
         "  know the name and not the family.\n\n",
         "## Families at a glance\n\n",
     ]
@@ -173,19 +173,23 @@ def _write_task_index(
     ]
     parts.append(table(["Family", "Tasks"], rows))
     parts.append("\n\n")
-    parts.append(_toctree([("Tasks by paradigm family", "by_family"), ("Tasks alphabetically", "alphabetically")], 3))
+    parts.append(
+        _toctree(
+            [("Tasks by paradigm family", "tasks_by_paradigm_family"), ("Tasks alphabetically", "tasks_alphabetically")], 3
+        )
+    )
 
     write_page(tasks_dir / "index.md", "".join(parts))
     return 1
 
 
 def _write_by_family(tasks_dir: Path, families: list[dict], tasks_by_family: dict[str, list[dict]]) -> int:
-    """Write docs/tasks/by_family.md: one section per family, nesting the family pages."""
+    """Write docs/tasks/tasks_by_paradigm_family.md: one section per family, nesting the family pages."""
     parts: list[str] = [
         "# Tasks by paradigm family\n\n",
         f"The {len(families)} paradigm families, each with its scope statement and the tasks filed\n"
         "under it. Every task is in exactly one family. The family pages repeat these entries\n"
-        "and add the assignments marked for review. The [alphabetical list](alphabetically.md)\n"
+        "and add the assignments marked for review. The [alphabetical list](tasks_alphabetically.md)\n"
         "has the same tasks in name order.\n\n",
         # The right-hand contents menu is this page's navigation: the families are always
         # listed, and a family's tasks unfold while that family is the current section.
@@ -203,7 +207,7 @@ def _write_by_family(tasks_dir: Path, families: list[dict], tasks_by_family: dic
         parts.append(_task_sections(fam_tasks, "", 3))
 
     parts.append(_toctree([(_short_name(fam["name"]), f"families/{fam['family_id']}") for fam in families], 2))
-    write_page(tasks_dir / "by_family.md", "".join(parts))
+    write_page(tasks_dir / "tasks_by_paradigm_family.md", "".join(parts))
     return 1
 
 
@@ -245,7 +249,7 @@ def _write_alphabetical(
     family_of: dict[str, str],
     family_by_id: dict[str, dict],
 ) -> int:
-    """Write docs/tasks/alphabetically.md: one short section per task, in name order.
+    """Write docs/tasks/tasks_alphabetically.md: one short section per task, in name order.
 
     Like the family listings, each task is a linked heading followed by its full short
     definition, so the right-hand contents menu lists every task under the page title.
@@ -254,7 +258,7 @@ def _write_alphabetical(
     parts: list[str] = [
         "# Tasks alphabetically\n\n",
         f"All {len(sorted_tasks)} tasks in name order, each with the paradigm family it is filed\n"
-        "under. [Tasks by paradigm family](by_family.md) presents the same tasks grouped by\n"
+        "under. [Tasks by paradigm family](tasks_by_paradigm_family.md) presents the same tasks grouped by\n"
         "family.\n\n",
     ]
     for task in sorted_tasks:
@@ -267,7 +271,7 @@ def _write_alphabetical(
             f"[{fam['name']}](families/{fam['family_id']}.md); engages {engages}.\n\n"
         )
     parts.append(_toctree([(_short_name(t["canonical_name"]), t["hedtsk_id"]) for t in sorted_tasks], 1))
-    write_page(tasks_dir / "alphabetically.md", "".join(parts))
+    write_page(tasks_dir / "tasks_alphabetically.md", "".join(parts))
     return 1
 
 

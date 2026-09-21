@@ -18,10 +18,10 @@ Three routes lead to a task page.
  {{ n_tasks }} tasks into paradigm families such as conflict and interference tasks, span
  tasks and economic games. Each family has a scope sentence and a table of its tasks.
 - **By process.** Each entry on a [process category page](processes/index.md) lists the
- tasks that engage the process, and the [task-process links](crossref.md) page gives
+ tasks that engage the process, and the [task-process links](task_process_links.md) page gives
  the whole matrix.
 
-The [alphabetical list](tasks/alphabetically.md) is the fallback when you know the name but
+The [alphabetical list](tasks/tasks_alphabetically.md) is the fallback when you know the name but
 not the family.
 
 ## Reading a task page

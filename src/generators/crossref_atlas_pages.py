@@ -1,13 +1,26 @@
-"""Generate the Atlas mapping-table pages from data/mappings/.
+"""Generate the Atlas mapping table fragments in docs/source/_generated/ from data/mappings/.
 
-Two reference pages, one per axis, each rendering both directions in full. The TSVs are
-the source of record; these pages are one view of them and hold no judgements of their
-own.
+The hand-written pages docs/source/atlas/task_mapping.md and process_mapping.md carry
+the prose and pull these fragments in with an include directive, so that the tables
+stay current while the explanation around them stays editable. The TSVs are the source
+of record; the fragments are one view of them and hold no judgements of their own.
+
+Fragments written (each one Markdown table, one run of headed tables, or one sentence):
+
+- atlas_task_forward.md            one row per task: its primary Atlas counterpart
+- atlas_task_matched.md            one row per Atlas task entry with a counterpart
+- atlas_task_unmatched.md          Atlas task entries with no counterpart, grouped by
+                                   why (### heading per group)
+- mapping_task_matched_line.md     one sentence with the matched-entry counts
+- atlas_process_forward.md         one row per process: its primary Atlas concept
+- atlas_process_matched.md         one row per Atlas concept with a counterpart
+- atlas_process_unmatched.md       Atlas concepts with no counterpart
+- mapping_process_matched_line.md  one sentence with the matched-concept counts
 
 Rows are rendered in full rather than summarized, so that a reader can look up any
-single task, process, Atlas entry or Atlas concept without opening the data files. The
-unmatched side of each reverse table is grouped by why no counterpart exists, which
-keeps several hundred rows navigable.
+single task, process, Atlas entry or Atlas concept without opening the data files.
+Links inside a fragment are relative to the including page (docs/source/atlas/), as
+MyST parses an included fragment as part of the including document.
 """
 
 from __future__ import annotations
@@ -59,16 +72,15 @@ def _process_link(process_id: str, name: str, category_id: str) -> str:
     return f"[{_cell(name)}](../processes/{category_id}.md#{anchor})"
 
 
-def _counts_line(rows: list[dict]) -> str:
-    counts = collections.Counter(r["match_type"] for r in rows)
-    parts = [f"{counts[k]} {k}" for k in ("exact", "close", "related", "none") if counts[k]]
-    return ", ".join(parts)
+def _plural(n: int, noun: str) -> str:
+    return f"{n} {noun}{'' if n == 1 else 's'}"
 
 
 # ---------------------------------------------------------------------------
 
 
-def _task_page(maps: Path) -> str:
+def _task_fragments(maps: Path) -> dict[str, str]:
+    """Return the task-axis fragments keyed by file name."""
     forward = _read(maps / "hed_task_to_atlas.tsv")
     reverse = _read(maps / "atlas_task_to_hed.tsv")
 
@@ -120,59 +132,25 @@ def _task_page(maps: Path) -> str:
 
     variations = len({r["hed_variation_id"] for r in reverse if r["hed_variation_id"]})
     covered = len({r["hedtsk_id"] for r in reverse if r["hedtsk_id"]})
+    matched_line = (
+        f"{_plural(len(matched), 'Atlas entry').replace('entrys', 'entries')} correspond to something in the "
+        f"Catalog, covering {covered} of its {len(forward)} tasks; {variations} of them resolve to a named "
+        "variation rather than to the task itself, which is how the Atlas's habit of registering each "
+        "implementation separately is absorbed."
+    )
 
-    return f"""\
-# Task mapping tables
-
-Every correspondence between the {len(forward)} tasks in the Catalog and the
-{len(reverse)} task entries in the Cognitive Atlas, in both directions. The
-[methodology](../methods/atlas_mapping/index.md) page explains what the match types mean
-and how each row was decided.
-
-The source of record is `data/mappings/`, not this page.
-
-Atlas entry names are reproduced exactly as the API returns them. A few carry a curly
-apostrophe or an en dash, and one (`Penn` + a mis-encoded apostrophe + `s Logical
-Reasoning Test`) carries a double-encoding defect present in the Atlas itself. These are
-left uncorrected so that a name here matches the source byte for byte.
-
-## Catalog to Atlas
-
-One row per task in the Catalog: {_counts_line(forward)}.
-
-{
-        _table(
-            ["Task", "Match", "Atlas entry", "Atlas ID", "Definition chars", "Concepts", "Notes"],
-            forward_rows,
-        )
+    return {
+        "atlas_task_forward.md": _table(
+            ["Task", "Match", "Atlas entry", "Atlas ID", "Definition chars", "Concepts", "Notes"], forward_rows
+        ),
+        "atlas_task_matched.md": _table(["Atlas entry", "Atlas ID", "Match", "Task", "Variation", "Notes"], matched_rows),
+        "atlas_task_unmatched.md": "\n\n".join(sections),
+        "mapping_task_matched_line.md": matched_line,
     }
 
-## Atlas to Catalog, matched entries
 
-{len(matched)} Atlas entries correspond to something in the Catalog, covering
-{covered} of its {len(forward)} tasks. {variations} of them resolve to a named variation
-rather than to the task itself, which is how the Atlas's habit of registering each
-implementation separately is absorbed.
-
-{
-        _table(
-            ["Atlas entry", "Atlas ID", "Match", "Task", "Variation", "Notes"],
-            matched_rows,
-        )
-    }
-
-## Atlas to Catalog, entries with no counterpart
-
-The remaining {len(unmatched)} Atlas entries have no counterpart here. Most are not
-experimental paradigms at all; the rest are paradigms the Catalog does not cover. The
-grouping below is derived from each entry's name by rule, so treat it as an aid to
-navigation rather than a classification.
-
-{chr(10).join(sections)}
-"""
-
-
-def _process_page(maps: Path) -> str:
+def _process_fragments(maps: Path) -> dict[str, str]:
+    """Return the process-axis fragments keyed by file name."""
     forward = _read(maps / "hed_process_to_atlas.tsv")
     reverse = _read(maps / "atlas_concept_to_hed.tsv")
     category_of = {r["hed_process_id"]: r["hed_category_id"] for r in forward}
@@ -219,63 +197,32 @@ def _process_page(maps: Path) -> str:
         for r in unmatched
     ]
 
-    used = len({r["atlas_concept_id"] for r in forward if r["atlas_concept_id"]})
+    n_matched_procs = sum(1 for r in forward if r["match_type"] != "none")
+    matched_line = (
+        f"{len(matched)} Atlas concepts correspond to a process in the Catalog, and between them they serve "
+        f"{n_matched_procs} matched processes, because several processes resolve to the same Atlas concept: "
+        "both metacognitive processes resolve to `metacognition`, for example."
+    )
 
-    return f"""\
-# Process mapping tables
-
-Every correspondence between the {len(forward)} cognitive processes in the Catalog and
-the {len(reverse)} concepts in the Cognitive Atlas, in both directions. The
-[methodology](../methods/atlas_mapping/index.md) page explains what the match types mean
-and how each row was decided.
-
-The source of record is `data/mappings/`, not this page.
-
-## Catalog to Atlas
-
-One row per process in the Catalog: {_counts_line(forward)}. `Atlas tasks` counts the
-Atlas task entries that assert the matched concept, which is a rough measure of how
-much use the Atlas makes of it.
-
-{
-        _table(
-            ["Process", "Match", "Atlas concept", "Concept ID", "Atlas class", "Atlas tasks", "Notes"],
-            forward_rows,
-        )
+    return {
+        "atlas_process_forward.md": _table(
+            ["Process", "Match", "Atlas concept", "Concept ID", "Atlas class", "Atlas tasks", "Notes"], forward_rows
+        ),
+        "atlas_process_matched.md": _table(
+            ["Atlas concept", "Concept ID", "Match", "Process", "Atlas tasks", "Relations"], matched_rows
+        ),
+        "atlas_process_unmatched.md": _table(
+            ["Atlas concept", "Concept ID", "Atlas class", "Atlas tasks", "Relations"], unmatched_rows
+        ),
+        "mapping_process_matched_line.md": matched_line,
     }
-
-## Atlas to Catalog, matched concepts
-
-{len(matched)} Atlas concepts correspond to a process here, drawn on by {used} distinct
-concept records. The count is lower than the number of matched processes because
-several processes resolve to the same Atlas concept.
-
-{
-        _table(
-            ["Atlas concept", "Concept ID", "Match", "Process", "Atlas tasks", "Relations"],
-            matched_rows,
-        )
-    }
-
-## Atlas to Catalog, concepts with no counterpart
-
-{len(unmatched)} Atlas concepts have no process in the Catalog. Roughly half of the
-Atlas concept layer is asserted by no task either, so a concept appearing here is not
-evidence that it matters to anyone.
-
-{
-        _table(
-            ["Atlas concept", "Concept ID", "Atlas class", "Atlas tasks", "Relations"],
-            unmatched_rows,
-        )
-    }
-"""
 
 
 def generate(docs_dir: Path, working_dir: Path) -> int:
-    """Write docs/atlas/task_mapping.md and docs/atlas/process_mapping.md."""
+    """Write the Atlas mapping fragments to docs/source/_generated/. Returns the number written."""
     maps = working_dir / "mappings"
-    atlas_dir = docs_dir / "atlas"
-    write_page(atlas_dir / "task_mapping.md", _task_page(maps))
-    write_page(atlas_dir / "process_mapping.md", _process_page(maps))
-    return 2
+    out = docs_dir / "_generated"
+    fragments = {**_task_fragments(maps), **_process_fragments(maps)}
+    for name, body in fragments.items():
+        write_page(out / name, body.rstrip("\n") + "\n")
+    return len(fragments)

@@ -99,7 +99,7 @@ A task is linked to a process when the task's inclusion test engages that proces
 paradigm-defining papers say so, a standard condition contrast isolates it, or a
 standard measure indexes it. A link is not an ontology assertion and not a claim that
 the task engages nothing else; it records what the task is designed to probe. The
-[task-process links](crossref.md) page lists every link in both directions.
+[task-process links](task_process_links.md) page lists every link in both directions.
 
 ## Identifiers
 
@@ -125,9 +125,9 @@ of cognitive concepts and the paradigms that measure them. Its task list was nar
 paradigms that produce event-structured data, its concepts were reshaped into processes
 that pass the selection test above, and a gap analysis added paradigms the Atlas never
 registered. Every task and process here is mapped back to the Atlas entry by entry; the
-[Cognitive Atlas](atlas/cognitive_atlas.md) pages describe the Atlas on its own terms,
-the [relationship](atlas/relationship.md) page says how the two resources differ, and
-the [mapping method](methods/atlas_mapping/index.md) page says how each correspondence was
+[Cognitive Atlas](atlas/what_is_in_the_cognitive_atlas.md) pages describe the Atlas on its own terms,
+the [relationship](atlas/the_catalog_vs_the_atlas.md) page says how the two resources differ, and
+the [Atlas mapping method](methods/atlas_mapping_method.md) page says how each correspondence was
 decided.
 
 ## Status
@@ -136,4 +136,4 @@ The Catalog is a work in progress. Its lists are not definitive, its identifiers
 provisional, and its curation is a continuing process. Suggestions, corrections and
 ideas should be posted as issues at <https://github.com/hed-standard/hed-task/issues>; the repository's
 [contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the process, and
-[how to use the Catalog](how_to_use.md) says what a useful proposal contains.
+[how to use the Catalog](how_to_use_the_catalog.md) says what a useful proposal contains.

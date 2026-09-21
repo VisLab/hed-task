@@ -1,7 +1,7 @@
 # Tasks alphabetically
 
 All 106 tasks in name order, each with the paradigm family it is filed
-under. [Tasks by paradigm family](by_family.md) presents the same tasks grouped by
+under. [Tasks by paradigm family](tasks_by_paradigm_family.md) presents the same tasks grouped by
 family.
 
 ## [Affective Picture Viewing](hedtsk_affective_picture_viewing.md)

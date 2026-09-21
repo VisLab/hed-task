@@ -1,4 +1,4 @@
-"""Generate docs/crossref.md - the task-process links in both directions.
+"""Generate docs/task_process_links.md - the task-process links in both directions.
 
 Two tables: processes to tasks, one section per category, and tasks to processes. Every
 figure is computed so the prose cannot drift from the data.
@@ -17,7 +17,7 @@ def generate(
     processes: list[dict],
     categories: list[dict],
 ) -> int:
-    """Write docs/crossref.md. Returns the number of files written."""
+    """Write docs/task_process_links.md. Returns the number of files written."""
     processes_by_id = {p["process_id"]: p for p in processes}
     processes_by_category: dict[str, list[dict]] = {}
     for proc in processes:
@@ -67,5 +67,5 @@ def generate(
     parts.append(table(["Task", "Processes"], rows))
     parts.append("\n")
 
-    write_page(docs_dir / "crossref.md", "".join(parts))
+    write_page(docs_dir / "task_process_links.md", "".join(parts))
     return 1

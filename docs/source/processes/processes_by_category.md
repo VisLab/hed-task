@@ -3,7 +3,7 @@
 The 19 categories, each with its scope statement and the processes filed
 under it. Every process is in exactly one category. The category pages add what is out
 of scope, open issues, and each process's aliases, tasks and references. The
-[alphabetical list](alphabetically.md) has the same processes in name order.
+[alphabetical list](processes_alphabetically.md) has the same processes in name order.
 
 <style>
 .toc-tree li li > ul { display: none; }

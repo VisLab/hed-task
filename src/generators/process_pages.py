@@ -4,10 +4,10 @@ Files written:
 
 - docs/processes/index.md           the process landing page: what a process is, the
                                     categories at a glance, and the two ways in
-- docs/processes/by_category.md     one section per category with its scope, and under
+- docs/processes/processes_by_category.md     one section per category with its scope, and under
                                     it one short section per process; its toctree nests
                                     the category pages
-- docs/processes/alphabetically.md  every process in name order, each with its category
+- docs/processes/processes_alphabetically.md  every process in name order, each with its category
 - docs/processes/{category_id}.md   one page per category: scope, out of scope, open
                                     issues, then one section per process
 
@@ -125,14 +125,16 @@ def _write_process_index(
         "labels, not ontological commitments: a process belongs to the category whose scope best\n"
         "describes where it is studied, and categories imply no inheritance.\n\n"
         "Two ways in:\n\n"
-        "- [Processes by category](by_category.md) lists every process under its category, with\n"
+        "- [Processes by category](processes_by_category.md) lists every process under its category, with\n"
         "  the category's scope statement.\n"
-        "- [Processes alphabetically](alphabetically.md) lists every process in name order, for\n"
+        "- [Processes alphabetically](processes_alphabetically.md) lists every process in name order, for\n"
         "  when you know the name and not the category.\n\n"
         "## Categories at a glance\n\n"
         + table(["Category", "Processes"], rows)
         + "\n\n"
-        + _toctree([("Processes by category", "by_category"), ("Processes alphabetically", "alphabetically")], 2)
+        + _toctree(
+            [("Processes by category", "processes_by_category"), ("Processes alphabetically", "processes_alphabetically")], 2
+        )
     )
     write_page(procs_dir / "index.md", content)
     return 1
@@ -143,13 +145,13 @@ def _write_by_category(
     sorted_categories: list[dict],
     processes_by_category: dict[str, list[dict]],
 ) -> int:
-    """Write docs/processes/by_category.md: one section per category, nesting the category pages."""
+    """Write docs/processes/processes_by_category.md: one section per category, nesting the category pages."""
     parts: list[str] = [
         "# Processes by category\n\n",
         f"The {len(sorted_categories)} categories, each with its scope statement and the processes filed\n"
         "under it. Every process is in exactly one category. The category pages add what is out\n"
         "of scope, open issues, and each process's aliases, tasks and references. The\n"
-        "[alphabetical list](alphabetically.md) has the same processes in name order.\n\n",
+        "[alphabetical list](processes_alphabetically.md) has the same processes in name order.\n\n",
         # The right-hand contents menu is this page's navigation: the categories are always
         # listed, and a category's processes unfold while that category is the current
         # section. Furo's scroll-spy marks the current heading's entry and its ancestors
@@ -168,17 +170,17 @@ def _write_by_category(
         parts.append(_process_sections(cat_id, procs, 3))
 
     parts.append(_toctree([(cat["name"], cat["category_id"]) for cat in sorted_categories], 1))
-    write_page(procs_dir / "by_category.md", "".join(parts))
+    write_page(procs_dir / "processes_by_category.md", "".join(parts))
     return 1
 
 
 def _write_alphabetical(procs_dir: Path, sorted_categories: list[dict], processes: list[dict]) -> int:
-    """Write docs/processes/alphabetically.md: one short section per process, in name order."""
+    """Write docs/processes/processes_alphabetically.md: one short section per process, in name order."""
     cat_name = {c["category_id"]: c["name"] for c in sorted_categories}
     parts: list[str] = [
         "# Processes alphabetically\n\n",
         f"All {len(processes)} processes in name order, each with the category it is filed under.\n"
-        "[Processes by category](by_category.md) presents the same processes grouped by category.\n\n",
+        "[Processes by category](processes_by_category.md) presents the same processes grouped by category.\n\n",
     ]
     for proc in sorted(processes, key=lambda p: p["process_name"]):
         cat_id = proc["category_id"]
@@ -186,7 +188,7 @@ def _write_alphabetical(procs_dir: Path, sorted_categories: list[dict], processe
         parts.append(
             f"{proc.get('definition', '').strip()} Filed under\n[{cat_name[cat_id]}]({cat_id}.md); {_engaged_by(proc)}.\n\n"
         )
-    write_page(procs_dir / "alphabetically.md", "".join(parts))
+    write_page(procs_dir / "processes_alphabetically.md", "".join(parts))
     return 1
 
 

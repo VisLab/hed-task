@@ -8,8 +8,9 @@ coverage), the table is written here as a fragment and the page pulls it in with
     ```
 
 so that the prose around the table stays editable and the table stays current. Each
-fragment is one Markdown table and nothing else. The directory is excluded from the
-Sphinx document tree in conf.py; only includes read it.
+fragment is one Markdown table, or one sentence carrying live counts, and nothing else.
+The full Atlas mapping tables are written here too, by crossref_atlas_pages.py. The
+directory is excluded from the Sphinx document tree in conf.py; only includes read it.
 """
 
 from __future__ import annotations
@@ -59,12 +60,12 @@ def generate(
                 [
                     "Task-to-process links",
                     sum(len(t.get("hed_process_ids", [])) for t in tasks),
-                    "[Task-process links](crossref.md)",
+                    "[Task-process links](task_process_links.md)",
                 ],
                 [
                     "Processes engaged by at least one task",
                     sum(1 for p in processes if p["process_id"] in linked),
-                    "[Task-process links](crossref.md)",
+                    "[Task-process links](task_process_links.md)",
                 ],
             ],
         ),
