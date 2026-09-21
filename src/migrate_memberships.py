@@ -123,9 +123,19 @@ def main() -> None:
     tasks = json.loads((DATA / "task_details.json").read_text(encoding="utf-8"))
     proc_data = json.loads((DATA / "process_details.json").read_text(encoding="utf-8"))
 
-    missing = {t["hedtsk_id"] for t in tasks} - {r["hedtsk_id"] for r in rows}
+    # The TSV must name every catalog task exactly once and nothing else; a duplicate
+    # or stray row would otherwise migrate silently and the source would then be deleted.
+    row_ids = [r["hedtsk_id"] for r in rows]
+    duplicates = sorted({i for i in row_ids if row_ids.count(i) > 1})
+    if duplicates:
+        sys.exit(f"task_families.tsv lists these tasks more than once: {duplicates}")
+    task_ids = {t["hedtsk_id"] for t in tasks}
+    missing = task_ids - set(row_ids)
     if missing:
         sys.exit(f"tasks without a family row: {sorted(missing)}")
+    stray = set(row_ids) - task_ids
+    if stray:
+        sys.exit(f"task_families.tsv rows for tasks not in the catalog: {sorted(stray)}")
     unknown = set(SECONDARY_FROM_REVIEW) - {r["hedtsk_id"] for r in rows if r["confidence"] == "review"}
     if unknown:
         sys.exit(f"SECONDARY_FROM_REVIEW names tasks that are not review rows: {sorted(unknown)}")
