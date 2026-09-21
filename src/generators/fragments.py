@@ -59,12 +59,12 @@ def generate(
                 [
                     "Task-to-process links",
                     sum(len(t.get("hed_process_ids", [])) for t in tasks),
-                    "[Task-process links](crossref.md)",
+                    "[Task-process links](task_process_links.md)",
                 ],
                 [
                     "Processes engaged by at least one task",
                     sum(1 for p in processes if p["process_id"] in linked),
-                    "[Task-process links](crossref.md)",
+                    "[Task-process links](task_process_links.md)",
                 ],
             ],
         ),

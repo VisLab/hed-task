@@ -14,9 +14,9 @@ which are tabular views of the data:
 
     tasks/**                     task index, family pages, alphabetical list, task pages
     processes/**                 process index, category pages
-    crossref.md                  task-process links
-    atlas/task_mapping.md        Atlas mapping tables
-    atlas/process_mapping.md
+    task_process_links.md        task-process links
+    atlas/task_mapping_tables.md     Atlas mapping tables
+    atlas/process_mapping_tables.md
     _generated/*.md              table fragments that narrative pages include
 
 Those paths are deleted and rewritten on every run, so a page dropped from the
@@ -60,9 +60,9 @@ from generators.utils import load_json, read_tsv  # noqa: E402
 GENERATED_PATHS = [
     "tasks",
     "processes",
-    "crossref.md",
-    "atlas/task_mapping.md",
-    "atlas/process_mapping.md",
+    "task_process_links.md",
+    "atlas/task_mapping_tables.md",
+    "atlas/process_mapping_tables.md",
     "_generated",
 ]
 
@@ -314,14 +314,16 @@ def main() -> None:
     print("Generating docs/source/tasks/ ...")
     n = task_pages.generate(docs_dir, tasks, processes_by_id, families, family_rows, atlas_map)
     total += n
-    print(f"  Wrote {n} task files (index, by_family, {len(families)} family pages, alphabetically, {len(tasks)} task pages).")
+    print(
+        f"  Wrote {n} task files (index, tasks_by_paradigm_family, {len(families)} family pages, tasks_alphabetically, {len(tasks)} task pages)."
+    )
 
     print("Generating docs/source/processes/ ...")
     n = process_pages.generate(docs_dir, processes, categories, tasks_by_id)
     total += n
-    print(f"  Wrote {n} process files (index, by_category, alphabetically, {n - 3} category pages).")
+    print(f"  Wrote {n} process files (index, processes_by_category, processes_alphabetically, {n - 3} category pages).")
 
-    print("Generating docs/source/crossref.md ...")
+    print("Generating docs/source/task_process_links.md ...")
     total += crossref_page.generate(docs_dir, tasks, processes, categories)
 
     print("Generating docs/source/atlas/ mapping tables ...")

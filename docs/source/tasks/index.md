@@ -17,9 +17,9 @@ pages say which.
 
 Two ways in:
 
-- [Tasks by paradigm family](by_family.md) lists every task under its family, with the
+- [Tasks by paradigm family](tasks_by_paradigm_family.md) lists every task under its family, with the
   family's scope statement.
-- [Tasks alphabetically](alphabetically.md) lists every task in name order, for when you
+- [Tasks alphabetically](tasks_alphabetically.md) lists every task in name order, for when you
   know the name and not the family.
 
 ## Families at a glance
@@ -50,6 +50,6 @@ Two ways in:
 :hidden:
 :maxdepth: 3
 
-Tasks by paradigm family <by_family>
-Tasks alphabetically <alphabetically>
+Tasks by paradigm family <tasks_by_paradigm_family>
+Tasks alphabetically <tasks_alphabetically>
 ```

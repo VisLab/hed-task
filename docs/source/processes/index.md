@@ -14,9 +14,9 @@ describes where it is studied, and categories imply no inheritance.
 
 Two ways in:
 
-- [Processes by category](by_category.md) lists every process under its category, with
+- [Processes by category](processes_by_category.md) lists every process under its category, with
   the category's scope statement.
-- [Processes alphabetically](alphabetically.md) lists every process in name order, for
+- [Processes alphabetically](processes_alphabetically.md) lists every process in name order, for
   when you know the name and not the category.
 
 ## Categories at a glance
@@ -47,6 +47,6 @@ Two ways in:
 :hidden:
 :maxdepth: 2
 
-Processes by category <by_category>
-Processes alphabetically <alphabetically>
+Processes by category <processes_by_category>
+Processes alphabetically <processes_alphabetically>
 ```

@@ -11,9 +11,9 @@ Sections are numbered so that they can be cited; a citation such as "process cri
 
 1. [Process selection criteria](01_process_selection_criteria.md)
 2. [Process naming rules](02_process_naming_rules.md)
-3. [Process definition standards](03_definition_standards.md)
-4. [Process category rules](04_category_rules.md)
-5. [Process reference standards](05_reference_standards.md)
+3. [Process definition standards](03_process_definition_standards.md)
+4. [Process category rules](04_process_category_rules.md)
+5. [Process reference standards](05_process_reference_standards.md)
 6. [Task linkage rules](06_task_linkage_rules.md)
 
 ```{toctree}
@@ -22,8 +22,8 @@ Sections are numbered so that they can be cited; a citation such as "process cri
 
 01_process_selection_criteria
 02_process_naming_rules
-03_definition_standards
-04_category_rules
-05_reference_standards
+03_process_definition_standards
+04_process_category_rules
+05_process_reference_standards
 06_task_linkage_rules
 ```

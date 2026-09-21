@@ -8,8 +8,8 @@
 This document describes how the correspondence between the Catalog and the
 [Cognitive Atlas](https://www.cognitiveatlas.org/) was established, so that a reader
 can judge how much weight each mapping carries. The row-by-row results are on the
-[task mapping tables](../../atlas/task_mapping.md) and
-[process mapping tables](../../atlas/process_mapping.md) pages. The mappings live in
+[task mapping tables](../../atlas/task_mapping_tables.md) and
+[process mapping tables](../../atlas/process_mapping_tables.md) pages. The mappings live in
 four tab-separated tables under `data/mappings/`, one row per entity with a unique
 key, so that any view can be generated from them.
 

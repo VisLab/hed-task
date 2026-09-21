@@ -273,9 +273,9 @@ evidence that it matters to anyone.
 
 
 def generate(docs_dir: Path, working_dir: Path) -> int:
-    """Write docs/atlas/task_mapping.md and docs/atlas/process_mapping.md."""
+    """Write docs/atlas/task_mapping_tables.md and docs/atlas/process_mapping_tables.md."""
     maps = working_dir / "mappings"
     atlas_dir = docs_dir / "atlas"
-    write_page(atlas_dir / "task_mapping.md", _task_page(maps))
-    write_page(atlas_dir / "process_mapping.md", _process_page(maps))
+    write_page(atlas_dir / "task_mapping_tables.md", _task_page(maps))
+    write_page(atlas_dir / "process_mapping_tables.md", _process_page(maps))
     return 2
