@@ -1,12 +1,12 @@
 # Cognitive processes
 
-The catalog defines 172 cognitive processes organized into 19 categories.
+The Catalog defines 172 cognitive processes organized into 19 categories.
 A process is a mental operation hypothesized to occur during a trial, with an
 identifiable onset, an eliciting condition and a measurable signature; the
 [process selection criteria](../methods/process_criteria/index.md) say what qualifies and
 what does not. Each process has a definition, references, and links to the tasks that
 engage it. 152 of the 172 processes are engaged by at least one task in the
-catalog; the rest are kept because the catalog may grow a task for them.
+Catalog; the rest are kept because the Catalog may grow a task for them.
 
 Categories group processes by research tradition for browsing. They are organizational
 labels, not ontological commitments: a process belongs to the category whose scope best

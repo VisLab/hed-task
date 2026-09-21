@@ -10,7 +10,7 @@
 
 Every process has an identifier of the form `hed_<slug>`, where `<slug>` is a snake_case string. Examples: `hed_response_inhibition`, `hed_visual_working_memory`, `hed_working_memory_updating`.
 
-The `hed_` prefix is this catalog's working identifier - it is a naming choice, not a claim about HED-schema membership. How (or whether) these IDs relate to the HED schema in the future is a separate, downstream decision.
+The `hed_` prefix is the Catalog's working identifier - it is a naming choice, not a claim about HED-schema membership. How (or whether) these IDs relate to the HED schema in the future is a separate, downstream decision.
 
 **Stability policy:** During the current audit phase, IDs are explicitly provisional. They may change when a definition is refined, a near-duplicate is merged, or a better slug is chosen. Every rename must cascade atomically through `process_details.json`, `task_details.json`, and every derived file (`task_names.json`, `process_task_index.json`, `process_task_crossref.md`). Post-stability (after a declared freeze milestone), IDs are frozen: renames become aliases, and ID reassignment is a breaking change.
 

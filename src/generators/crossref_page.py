@@ -31,7 +31,7 @@ def generate(
     parts: list[str] = []
     parts.append("# Task-process links\n\n")
     parts.append(
-        f"Every link between the {len(tasks)} tasks and {len(processes)} processes in the catalog, in both\n"
+        f"Every link between the {len(tasks)} tasks and {len(processes)} processes in the Catalog, in both\n"
         f"directions: {n_links} links in all. A task is linked to a process when its inclusion test\n"
         "engages that process; the [process criteria](methods/process_criteria/index.md) say when a\n"
         "link is justified. The same links appear on the individual task and process pages;\n"
@@ -40,11 +40,14 @@ def generate(
 
     parts.append("## Processes to tasks\n\n")
     parts.append(
-        f"One section per category. {n_unlinked} processes are engaged by no task in the current\ncatalog and are marked as such.\n\n"
+        f"One section per category. {n_unlinked} processes are engaged by no task in the current\nCatalog and are marked as such.\n\n"
     )
     for cat in sorted_categories:
         cat_procs = sorted(processes_by_category.get(cat["category_id"], []), key=lambda p: p["process_name"])
-        parts.append(f"### {cat['name']}\n\n")
+        # Distinct tasks engaging any process in the category, in the heading so that the
+        # page's contents menu shows the count next to the category name.
+        n_cat_tasks = len({t["hedtsk_id"] for p in cat_procs for t in p.get("tasks", [])})
+        parts.append(f"### {cat['name']} ({n_cat_tasks} task{'s' if n_cat_tasks != 1 else ''})\n\n")
         rows = []
         for proc in cat_procs:
             linked = sorted(proc.get("tasks", []), key=lambda t: t["canonical_name"])

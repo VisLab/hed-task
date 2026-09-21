@@ -1,6 +1,6 @@
 # Tasks
 
-The catalog defines 103 standard cognitive and behavioral neuroscience tasks, and
+The Catalog defines 103 standard cognitive and behavioral neuroscience tasks, and
 3 pseudo tasks (rest, fixation and questionnaire blocks) that set up or hold a state
 rather than eliciting a process.
 Each task page gives the canonical name and aliases, a description, the inclusion
@@ -8,10 +8,10 @@ test that decides whether an experiment is an instance of the task, its named
 variations, the cognitive processes it engages, and references.
 
 Tasks are filed under 19 **paradigm families** by what the participant does,
-not by which process the task is thought to measure. The process catalog covers that
+not by which process the task is thought to measure. The Catalog's process list covers that
 other axis, and the two cross-link. A family is a browsing aid; every task is in
 exactly one, the assignment is a curation decision, and it is expected to change as
-the catalog grows. 15 of the 103 assignments are marked for review in the
+the Catalog grows. 15 of the 103 assignments are marked for review in the
 source table because a reasonable reader could file the task elsewhere; the family
 pages say which.
 

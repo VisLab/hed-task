@@ -7,7 +7,7 @@
 
 :::{note}
 **Pseudo task.** A block that establishes or holds a state, or collects a self-report,
-rather than eliciting a cognitive process through a trial structure. It is in the catalog
+rather than eliciting a cognitive process through a trial structure. It is in the Catalog
 so that such blocks can be labelled with the same vocabulary as the tasks around them.
 See [Pseudo tasks](../methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3) in the task criteria.
 :::
@@ -18,7 +18,7 @@ Participant reads or hears a series of questionnaire items and records a respons
 
 ## Description
 
-A self-report instrument is administered as a block of the session, before, between or after task blocks. Items are presented on paper, on screen or read aloud, and the participant answers each in the instrument's response format. There is no time pressure and no stimulus other than the items themselves. The catalog does not list instruments as tasks; it records the administration as a block so that the time spent on it, and any physiology recorded during it, can be labelled, and it records which instrument was used as a parameter of the block. Take Questionnaire is a pseudo task: it collects a self-report rather than eliciting a process, so it carries no process links.
+A self-report instrument is administered as a block of the session, before, between or after task blocks. Items are presented on paper, on screen or read aloud, and the participant answers each in the instrument's response format. There is no time pressure and no stimulus other than the items themselves. The Catalog does not list instruments as tasks; it records the administration as a block so that the time spent on it, and any physiology recorded during it, can be labelled, and it records which instrument was used as a parameter of the block. Take Questionnaire is a pseudo task: it collects a self-report rather than eliciting a process, so it carries no process links.
 
 ## Inclusion test
 

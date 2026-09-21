@@ -13,7 +13,7 @@
 
 Two things in these tables are not hand-checked. The `scope_class` on an unmatched Atlas
 task is derived from its name by rule. And the `none` verdicts on the reverse tables
-assert only that no counterpart exists in a catalog of 103 tasks and
+assert only that no counterpart exists in the Catalog's 103 tasks and
 172 processes, which is the expected answer for most of an
 857-entry and 918-concept corpus.
 

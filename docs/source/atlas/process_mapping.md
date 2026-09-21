@@ -1,6 +1,6 @@
 # Process mapping tables
 
-Every correspondence between the 172 cognitive processes in this catalog and
+Every correspondence between the 172 cognitive processes in the Catalog and
 the 918 concepts in the Cognitive Atlas, in both directions. The
 [methodology](../methods/atlas_mapping/index.md) page explains what the match types mean
 and how each row was decided.
@@ -9,7 +9,7 @@ The source of record is `data/mappings/`, not this page.
 
 ## Catalog to Atlas
 
-One row per process in this catalog: 102 exact, 14 close, 23 related, 33 none. `Atlas tasks` counts the
+One row per process in the Catalog: 102 exact, 14 close, 23 related, 33 none. `Atlas tasks` counts the
 Atlas task entries that assert the matched concept, which is a rough measure of how
 much use the Atlas makes of it.
 
@@ -188,7 +188,7 @@ much use the Atlas makes of it.
 | [Working memory](../processes/short_term_and_working_memory.md#hed-working-memory) | `exact` | working memory | `trm_4a3fd79d0b5a7` | Executive/Cognitive Control | 27 | - |
 | [Working memory updating](../processes/short_term_and_working_memory.md#hed-working-memory-updating) | `exact` | working memory updating | `trm_55b6b9a666604` | Learning and Memory | 1 | - |
 
-## Atlas to catalog, matched concepts
+## Atlas to Catalog, matched concepts
 
 132 Atlas concepts correspond to a process here, drawn on by 132 distinct
 concept records. The count is lower than the number of matched processes because
@@ -329,9 +329,9 @@ several processes resolve to the same Atlas concept.
 | working memory | `trm_4a3fd79d0b5a7` | `exact` | [Working memory](../processes/short_term_and_working_memory.md#hed-working-memory) | 27 | 24 |
 | working memory updating | `trm_55b6b9a666604` | `exact` | [Working memory updating](../processes/short_term_and_working_memory.md#hed-working-memory-updating) | 1 | 2 |
 
-## Atlas to catalog, concepts with no counterpart
+## Atlas to Catalog, concepts with no counterpart
 
-786 Atlas concepts have no process in this catalog. Roughly half of the
+786 Atlas concepts have no process in the Catalog. Roughly half of the
 Atlas concept layer is asserted by no task either, so a concept appearing here is not
 evidence that it matters to anyone.
 

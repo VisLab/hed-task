@@ -4,7 +4,7 @@
 **Scope:** Pitch perception, auditory tone discrimination, acoustic processing, auditory perception; the family of processes indexed by MMN / oddball paradigms.
 
 :::{note}
-**Open issues:** Tightly coupled to a specific measurement tradition (ERP). If the catalog ever generalizes beyond MMN, the category boundary with Selective and Sustained Attention (feature-based attention) will need review.
+**Open issues:** Tightly coupled to a specific measurement tradition (ERP). If the Catalog ever generalizes beyond MMN, the category boundary with Selective and Sustained Attention (feature-based attention) will need review.
 :::
 
 This category contains 4 processes.

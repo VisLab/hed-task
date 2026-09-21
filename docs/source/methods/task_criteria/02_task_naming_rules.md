@@ -12,7 +12,7 @@ Each task has a **canonical_name** (the standard reference name) and zero or mor
 
 - Use the most widely recognized name in the literature
 - Include "Task" as a suffix (e.g., "Stroop Color-Word Task", not just "Stroop")
-- [Pseudo tasks](01_task_selection_criteria.md#task-criteria-1-3) keep the suffix too ("Rest Task", "Fixate Task", "Take Questionnaire Task"), so that every catalog entry is named the same way
+- [Pseudo tasks](01_task_selection_criteria.md#task-criteria-1-3) keep the suffix too ("Rest Task", "Fixate Task", "Take Questionnaire Task"), so that every Catalog entry is named the same way
 - For named paradigms, the standard abbreviation goes in the `aliases` array, not in the canonical name (e.g., canonical name "Cambridge Face Memory Task", alias "CFMT")
 - Prefer the specific paradigm name over the generic process name when both exist (e.g., "Eriksen Flanker Task" not "Response Conflict Task")
 
@@ -31,10 +31,10 @@ Aliases are **not** variations. An alias refers to the same procedure with a dif
 (task-criteria-2-3)=
 ## 2.3 Identifier formats
 
-Every term in the catalog is typed by its identifier prefix, so any ID encountered anywhere in the documents is unambiguously classifiable:
+Every term in the Catalog is typed by its identifier prefix, so any ID encountered anywhere in the documents is unambiguously classifiable:
 
 - **Task IDs** have the form `hedtsk_<slug>` (e.g., `hedtsk_eriksen_flanker`, `hedtsk_change_detection`, `hedtsk_balloon_analog_risk`). The slug is mechanically derived from the `canonical_name` by stripping the trailing word "Task" or "Test", lowercasing, removing apostrophes, replacing `/`, `-`, and spaces with `_`, collapsing runs of `_`, and prepending `hedtsk_`. It is therefore a stable, deterministic identifier once the canonical name is fixed. The `hedtsk_` prefix is mandatory.
-- **Process IDs** have the form `hed_<slug>` (e.g., `hed_response_inhibition`, `hed_visual_working_memory`). The `hed_` prefix is mandatory. The `hed_` prefix is this catalog's working prefix and is not a claim about HED-schema membership (see section 2.5).
+- **Process IDs** have the form `hed_<slug>` (e.g., `hed_response_inhibition`, `hed_visual_working_memory`). The `hed_` prefix is mandatory. The `hed_` prefix is the Catalog's working prefix and is not a claim about HED-schema membership (see section 2.5).
 - **Canonical names** for tasks always end in the word `Task` or `Test`. `Task` is the default. The canonical name contains no parenthetical abbreviations and no spaced slashes - abbreviations and alternative names go in `aliases`. Examples: "Balloon Analog Risk Task" with alias "BART"; "False Belief Task" with alias "Theory of Mind Task".
 - **Process names** are sentence case (first word capitalized, remainder lowercase except proper nouns).
 

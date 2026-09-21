@@ -28,7 +28,7 @@ where else they could go.
 
 | Task | Note |
 |---|---|
-| [Prospective Memory](../hedtsk_prospective_memory.md) | Execute a deferred intention during an ongoing task; the only prospective paradigm in the catalog |
+| [Prospective Memory](../hedtsk_prospective_memory.md) | Execute a deferred intention during an ongoing task; the only prospective paradigm in the Catalog |
 
 ```{toctree}
 :hidden:

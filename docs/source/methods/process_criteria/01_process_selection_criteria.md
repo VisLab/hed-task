@@ -6,7 +6,7 @@
 # 1. Process selection criteria
 
 (process-criteria-1-1)=
-## 1.1 What counts as a process in this catalog?
+## 1.1 What counts as a process in the Catalog?
 
 A **cognitive process** is a mental operation hypothesized to occur in a participant during a trial - something with an identifiable onset, an eliciting condition, and an in-principle measurable signature. Concretely, a candidate is a cognitive process if we can plausibly answer three questions:
 
@@ -21,7 +21,7 @@ A process row should sit at the level where the inclusion-test triple has a sing
 (process-criteria-1-2)=
 ## 1.2 Processes that are excluded
 
-The following do **not** count as cognitive processes in this catalog:
+The following do **not** count as cognitive processes in the Catalog:
 
 - **States and traits:** Fear, arousal, anxiety, empathy-as-a-trait, boredom, mood. HED handles these as stimulus/state labels.
 - **Specific emotions as states:** Happiness, disgust, anger, sadness. These are what participants experience, not operations they perform. Emotion *recognition* and emotion *regulation* are processes; the emotions themselves are not.

@@ -1,6 +1,6 @@
 # Task mapping tables
 
-Every correspondence between the 103 tasks in this catalog and the
+Every correspondence between the 103 tasks in the Catalog and the
 857 task entries in the Cognitive Atlas, in both directions. The
 [methodology](../methods/atlas_mapping/index.md) page explains what the match types mean
 and how each row was decided.
@@ -14,7 +14,7 @@ left uncorrected so that a name here matches the source byte for byte.
 
 ## Catalog to Atlas
 
-One row per task in this catalog: 70 exact, 11 close, 4 related, 18 none.
+One row per task in the Catalog: 70 exact, 11 close, 4 related, 18 none.
 
 | Task | Match | Atlas entry | Atlas ID | Definition chars | Concepts | Notes |
 |---|---|---|---|---|---|---|
@@ -122,9 +122,9 @@ One row per task in this catalog: 70 exact, 11 close, 4 related, 18 none.
 | [Weapons Identification Task](../tasks/hedtsk_weapons_identification.md) | `none` | - | - | - | - | No weapons identification or shooter bias entry |
 | [Wisconsin Card Sorting Task](../tasks/hedtsk_wisconsin_card_sorting.md) | `exact` | Wisconsin card sorting test | `tsk_4a57abb949f21` | 516 | 5 | - |
 
-## Atlas to catalog, matched entries
+## Atlas to Catalog, matched entries
 
-183 Atlas entries correspond to something in this catalog, covering
+183 Atlas entries correspond to something in the Catalog, covering
 88 of its 103 tasks. 17 of them resolve to a named variation
 rather than to the task itself, which is how the Atlas's habit of registering each
 implementation separately is absorbed.
@@ -315,14 +315,14 @@ implementation separately is absorbed.
 | Wason card selection task | `trm_4f2449bdcb0b1` | `exact` | [Wason Selection Task](../tasks/hedtsk_wason_selection.md) | - | Primary match from hed_task_to_atlas.tsv |
 | Wisconsin card sorting test | `tsk_4a57abb949f21` | `exact` | [Wisconsin Card Sorting Task](../tasks/hedtsk_wisconsin_card_sorting.md) | - | Primary match from hed_task_to_atlas.tsv |
 
-## Atlas to catalog, entries with no counterpart
+## Atlas to Catalog, entries with no counterpart
 
 The remaining 674 Atlas entries have no counterpart here. Most are not
-experimental paradigms at all; the rest are paradigms this catalog does not cover. The
+experimental paradigms at all; the rest are paradigms the Catalog does not cover. The
 grouping below is derived from each entry's name by rule, so treat it as an aid to
 navigation rather than a classification.
 
-### Experimental paradigms not in the task catalog (481)
+### Experimental paradigms not in the Catalog (481)
 
 | Atlas entry | Atlas ID | Definition chars | Concepts |
 |---|---|---|---|

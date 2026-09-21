@@ -76,7 +76,7 @@ Differential processing of members of one's own group versus other groups.
 
 Coordinated focus by two or more agents on the same object or event, involving shared awareness that attention is joint.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 

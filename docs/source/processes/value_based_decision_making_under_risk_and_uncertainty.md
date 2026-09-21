@@ -18,7 +18,7 @@ This category contains 7 processes.
 
 The act of locking in a selected option once accumulated evidence or value crosses a decision boundary; measured by response-time distributions, drift-diffusion boundary parameters, and motor preparation signatures.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 

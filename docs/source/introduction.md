@@ -9,38 +9,41 @@ performed, or a combination of the two, under conditions the experimenter contro
 that what participants do can be attributed to the mental processes the task was
 designed to engage.
 
-## What the catalog is for
+Throughout these pages, the Catalog is the HED Task Catalog and the Atlas is the
+Cognitive Atlas.
+
+## What the Catalog is for
 
 Experiments in cognitive and behavioral neuroscience are built from a fairly small
 repertoire of standard tasks, but the datasets they produce rarely say which one was
-used in a way a machine can act on. This catalog provides a controlled vocabulary for
+used in a way a machine can act on. The Catalog provides a controlled vocabulary for
 that: a list of tasks, a list of the cognitive processes those tasks engage, and the
-links between them. Tagging a dataset with identifiers from the catalog makes it
+links between them. Tagging a dataset with identifiers from the Catalog makes it
 findable by task name, by alias, or by process, and makes datasets that share a task or
 a process comparable.
 
-The catalog is being developed as part of HED (Hierarchical Event Descriptors), the standard
-for annotating what happened during an experiment. HED describes events; the task
-catalog describes the paradigm the events belong to. How task and process identifiers
+The Catalog is being developed as part of HED (Hierarchical Event Descriptors), the standard
+for annotating what happened during an experiment. HED describes events; the
+Catalog describes the paradigm the events belong to. How task and process identifiers
 will be carried in HED annotations and in dataset metadata is not yet decided, and the
 identifiers here are not HED schema terms.
 
 ## Tasks
 
-A **task** in this catalog is a structured experimental paradigm that produces a
+A **task** in the Catalog is a structured experimental paradigm that produces a
 sequence of discrete, time-stamped events, has a specific reproducible procedure, is
 widely used, and engages identifiable cognitive processes. Particular questionnaires, clinical
 screening instruments, generic labels such as "memory task", and one-off designs are
 excluded. The full rules are in the [Task selection criteria](methods/task_criteria/index.md).
 
-The catalog also has {{ n_pseudo_tasks }} **pseudo tasks**, which are not tasks in the sense
+The Catalog also has {{ n_pseudo_tasks }} **pseudo tasks**, which are not tasks in the sense
 above: the Rest Task, the Fixate Task and the Take Questionnaire Task. A pseudo task is a block that sets up or holds a brain state, or
 collects a self-report, rather than eliciting a process through trials. Such blocks appear in
-most experiments and datasets need to label them. The catalog includes them for that reason,
+most experiments and datasets need to label them. The Catalog includes them for that reason,
 marks them on their pages, and gives them no process links. The [Pseudo tasks section](methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3) of the task criteria
 says exactly what qualifies.
 
-The catalog currently has {{ n_tasks }} tasks. Each task page carries:
+The Catalog currently has {{ n_tasks }} tasks. Each task page carries:
 
 - a **canonical name** and its **aliases**, so that a search for "CWIT" or "Stroop" lands
   on the Stroop Color-Word Task;
@@ -56,7 +59,7 @@ The catalog currently has {{ n_tasks }} tasks. Each task page carries:
   event structure of the recorded data differs. Changing the recording equipment, the
   analysis, the population or the stimulus set does not make a variation; changing the
   response modality, the stimulus-response mapping or the required actions does. There
-  are {{ n_variations }} variations across the catalog;
+  are {{ n_variations }} variations across the Catalog;
 - the **cognitive processes** the task engages, linked to their definitions;
 - **key references** that established the paradigm and **recent references** that give a
   modern entry point;
@@ -83,12 +86,12 @@ analysis methods and umbrella terms such as "attention" or "memory" are excluded
 umbrella role is carried by the categories instead. The full rules are in the
 [process selection criteria](methods/process_criteria/index.md).
 
-The catalog has {{ n_processes }} processes in {{ n_categories }} **categories**. A category
+The Catalog has {{ n_processes }} processes in {{ n_categories }} **categories**. A category
 groups processes by research tradition for browsing and carries a scope statement and a
 note of what is out of scope. Each process page entry has a definition, aliases where
 the literature uses more than one name, fundamental and recent references, and the list
-of tasks that engage it. Some processes are engaged by no task in the current catalog;
-they are kept because they are real and the catalog may grow a task for them.
+of tasks that engage it. Some processes are engaged by no task in the current Catalog;
+they are kept because they are real and the Catalog may grow a task for them.
 
 ## Links between tasks and processes
 
@@ -111,11 +114,11 @@ at sight:
 | Process category | `<slug>` | `inhibitory_control_and_conflict_monitoring` |
 | Paradigm family | `<slug>` | `conflict_and_interference` |
 
-The `hed_` prefix on process identifiers is the catalog's working prefix and is not a
-claim of HED schema membership. Identifiers are provisional while the catalog is being
+The `hed_` prefix on process identifiers is the Catalog's working prefix and is not a
+claim of HED schema membership. Identifiers are provisional while the Catalog is being
 curated; when they stabilise, renames will become aliases.
 
-## Where the catalog came from
+## Where the Catalog came from
 
 The starting corpus was the [Cognitive Atlas](https://www.cognitiveatlas.org/), a community-built ontology
 of cognitive concepts and the paradigms that measure them. Its task list was narrowed to
@@ -129,8 +132,8 @@ decided.
 
 ## Status
 
-The catalog is a work in progress. Its lists are not definitive, its identifiers are
+The Catalog is a work in progress. Its lists are not definitive, its identifiers are
 provisional, and its curation is a continuing process. Suggestions, corrections and
 ideas should be posted as issues at <https://github.com/hed-standard/hed-task/issues>; the repository's
 [contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the process, and
-[how to use the catalog](how_to_use.md) says what a useful proposal contains.
+[how to use the Catalog](how_to_use.md) says what a useful proposal contains.

@@ -18,7 +18,7 @@ This category contains 16 processes.
 
 Triggering of an action after planning is complete.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 
@@ -63,7 +63,7 @@ Precise control of small-amplitude movements, typically of the hand and fingers.
 
 Shaping and closure of the hand around an object.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Further references**
 
@@ -76,7 +76,7 @@ Shaping and closure of the hand around an object.
 
 Long-term retention of motor skills and procedures.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 
@@ -157,7 +157,7 @@ Production or estimation of temporal intervals in motor output.
 
 Perception of body position and movement from muscle, tendon, and joint receptors.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 
@@ -170,7 +170,7 @@ Perception of body position and movement from muscle, tendon, and joint receptor
 
 Goal-directed arm movement toward a spatial target.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 
@@ -253,7 +253,7 @@ Recalibration of movement in response to perturbations of the mapping between vi
 
 Control of the articulators for speech production and vocalization.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 

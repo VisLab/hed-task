@@ -146,7 +146,7 @@ Learning that a neutral stimulus predicts a biologically significant outcome, le
 
 Direct learning of a mapping from states to actions without necessarily estimating values.
 
-**Tasks that engage this process:** none in the current catalog.
+**Tasks that engage this process:** none in the current Catalog.
 
 (hed-reinforcement-learning)=
 ## Reinforcement learning

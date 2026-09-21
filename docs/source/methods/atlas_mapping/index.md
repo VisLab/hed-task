@@ -5,7 +5,7 @@
 (atlas-mapping)=
 # Mapping to Cognitive Atlas
 
-This document describes how the correspondence between this catalog and the
+This document describes how the correspondence between the Catalog and the
 [Cognitive Atlas](https://www.cognitiveatlas.org/) was established, so that a reader
 can judge how much weight each mapping carries. The row-by-row results are on the
 [task mapping tables](../../atlas/task_mapping.md) and

@@ -34,7 +34,7 @@ search will turn up neighbours only.
 
 The Atlas frequently registers a specific implementation as its own entry rather than
 recording it under the parent paradigm: eight separate Stroop entries, eight n-back,
-six fluency. Many of those correspond not to a task in this catalog but to a *named
+six fluency. Many of those correspond not to a task in the Catalog but to a *named
 variation* of one.
 
 Each mapping row therefore records whether it resolves to a task or to a variation.

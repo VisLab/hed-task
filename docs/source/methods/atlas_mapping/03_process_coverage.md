@@ -7,7 +7,7 @@
 
 The same method was applied to the second axis: 172 cognitive processes
 against 918 Atlas concepts. This mapping was built from nothing. The
-process catalog carries no Atlas concept identifier of any kind, so there was no prior
+Catalog's processes carry no Atlas concept identifier of any kind, so there was no prior
 linkage to correct, only to construct.
 
 (atlas-mapping-3-1)=

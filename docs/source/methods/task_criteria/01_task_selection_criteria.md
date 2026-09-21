@@ -6,7 +6,7 @@
 # 1. Task selection criteria
 
 (task-criteria-1-1)=
-## 1.1 What counts as a task in this catalog?
+## 1.1 What counts as a task in the Catalog?
 
 A **task** is a structured experimental paradigm that:
 
@@ -21,24 +21,24 @@ A **task** is a structured experimental paradigm that:
 (task-criteria-1-2)=
 ## 1.2 Tasks that are excluded
 
-This task catalog does not include activities that produce no time-stamped record of their events. The timing itself may vary from trial to trial or be reported as a range; what matters is that each event is recorded when it happens. Activities without such a record typically include:
+The Catalog does not include activities that produce no time-stamped record of their events. The timing itself may vary from trial to trial or be reported as a range; what matters is that each event is recorded when it happens. Activities without such a record typically include:
 
 - **Self-report instruments**: Personality inventories, mood questionnaires, symptom checklists (e.g., BDI, STAI). These do not produce event-structured data. Administering one is a pseudo task, the Take Questionnaire Task; see [Pseudo tasks](#task-criteria-1-3) below.
 - **Clinical screening tools**: Instruments designed for diagnostic classification rather than experimental measurement (e.g., MMSE as a screening tool, though components like digit span are included as standalone tasks).
-- **Broad task categories**: "Working memory task" as a generic label. The catalog includes more specific instantiations (N-Back, Operation Span, Change Detection, etc.).
+- **Broad task categories**: "Working memory task" as a generic label. The Catalog includes more specific instantiations (N-Back, Operation Span, Change Detection, etc.).
 - **One-off experimental designs**: Paradigms used in a single study with to date no reported broader adoption.
 - **Neurological examinations**: Reflex testing, cranial nerve exams, etc.
 
 (task-criteria-1-3)=
 ## 1.3 Pseudo tasks
 
-A **pseudo task** is a block-level activity that appears in experiments not to elicit a cognitive process through a trial structure but to establish or hold a brain state, or to collect a self-report. Resting blocks, fixation blocks and questionnaire administration are the common cases. A pseudo task passes two of the four task tests (a reproducible procedure; wide use) and fails the other two by design: it produces little internal event structure beyond its own onset and offset, and it engages no process the catalog would list. It is included because datasets need to label these blocks with the same vocabulary as the tasks they sit between, and because a task block is often interpreted against the state a pseudo task sets up.
+A **pseudo task** is a block-level activity that appears in experiments not to elicit a cognitive process through a trial structure but to establish or hold a brain state, or to collect a self-report. Resting blocks, fixation blocks and questionnaire administration are the common cases. A pseudo task passes two of the four task tests (a reproducible procedure; wide use) and fails the other two by design: it produces little internal event structure beyond its own onset and offset, and it engages no process the Catalog would list. It is included because datasets need to label these blocks with the same vocabulary as the tasks they sit between, and because a task block is often interpreted against the state a pseudo task sets up.
 
-The catalog currently has {{ n_pseudo_tasks }} pseudo tasks: the Rest Task (with eyes-open and eyes-closed variations), the Fixate Task, and the Take Questionnaire Task. They are marked as such on their pages and are filed under one paradigm family. Their inclusion tests take the same three-part form; the manipulation is usually block duration and instruction alone. They carry no process links.
+The Catalog currently has {{ n_pseudo_tasks }} pseudo tasks: the Rest Task (with eyes-open and eyes-closed variations), the Fixate Task, and the Take Questionnaire Task. They are marked as such on their pages and are filed under one paradigm family. Their inclusion tests take the same three-part form; the manipulation is usually block duration and instruction alone. They carry no process links.
 
-The exclusion of self-report instruments stands. What the catalog admits is the act of administering one; the instrument used is recorded as a parameter of that block, as a stimulus set is a parameter of a task, and is not a variation.
+The exclusion of self-report instruments stands. What the Catalog admits is the act of administering one; the instrument used is recorded as a parameter of that block, as a stimulus set is a parameter of a task, and is not a variation.
 
 (task-criteria-1-4)=
 ## 1.4 Why only {{ n_tasks }} tasks?
 
-The catalog currently lists {{ n_tasks }} canonical tasks spanning the major domains of cognitive and behavioral neuroscience: attention, memory, executive function, language, perception, motor control, emotion, social cognition, decision-making, and learning. The number {{ n_tasks }} reflects the current state of consolidation from the Cognitive Atlas plus gap-filling. Tasks may be added or removed as the catalog matures.
+The Catalog currently lists {{ n_tasks }} canonical tasks spanning the major domains of cognitive and behavioral neuroscience: attention, memory, executive function, language, perception, motor control, emotion, social cognition, decision-making, and learning. The number {{ n_tasks }} reflects the current state of consolidation from the Cognitive Atlas plus gap-filling. Tasks may be added or removed as the Catalog matures.
