@@ -1,174 +1,174 @@
-| Process | Match | Atlas concept | Concept ID | Atlas class | Atlas tasks | Notes |
-|---|---|---|---|---|---|---|
-| [Acoustic processing](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-acoustic-processing) | `close` | acoustic processing | `trm_4a3fd79d0971e` | Perception | 3 | Atlas definition describes underwater and atmospheric signal propagation, not auditory cognition |
-| [Action initiation](../processes/motor_preparation_timing_and_execution.md#hed-action-initiation) | `exact` | action initiation | `trm_4a3fd79d0b5c0` | Action | - | - |
-| [Active maintenance](../processes/short_term_and_working_memory.md#hed-active-maintenance) | `exact` | active maintenance | `trm_4a3fd79d0ba0d` | Executive/Cognitive Control | 15 | - |
-| [Affective priming](../processes/emotion_perception_and_regulation.md#hed-affective-priming) | `related` | priming | `trm_4e89aebaa311d` | Learning and Memory | - | Atlas has no affective or evaluative priming entry |
-| [Alerting](../processes/selective_and_sustained_attention.md#hed-alerting) | `none` | - | - | (none) | - | Atlas has no alerting entry despite carrying the ANT |
-| [Analogical reasoning](../processes/reasoning_and_problem_solving.md#hed-analogical-reasoning) | `exact` | analogical reasoning | `trm_4a3fd79d09810` | Reasoning and Decision Making | 1 | - |
-| [Antisaccade](../processes/motor_preparation_timing_and_execution.md#hed-antisaccade) | `none` | - | - | (none) | - | No antisaccade concept; the Atlas registers it only as a task |
-| [Approach motivation](../processes/reward_anticipation_and_motivation.md#hed-approach-motivation) | `none` | - | - | (none) | - | Only the BIS/BAS trait scale, not the process |
-| [Associative learning](../processes/associative_learning_and_reinforcement.md#hed-associative-learning) | `exact` | association learning | `trm_4a3fd79d098c9` | Learning and Memory | 7 | - |
-| [Attention shifting](../processes/selective_and_sustained_attention.md#hed-attention-shifting) | `exact` | attention shifting | `trm_4a3fd79d0b5fb` | Attention | 12 | - |
-| [Attentional awareness](../processes/awareness_agency_and_metacognition.md#hed-attentional-awareness) | `related` | consciousness | `trm_4a3fd79d09e35` | (none) | - | Atlas has only the broader parent term |
-| [Attentional capture](../processes/selective_and_sustained_attention.md#hed-attentional-capture) | `none` | - | - | (none) | - | No attentional capture entry |
-| [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception) | `exact` | auditory perception | `trm_4a3fd79d09ab2` | Perception | 21 | - |
-| [Auditory tone discrimination](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-tone-discrimination) | `exact` | auditory tone discrimination | `trm_557b476527a27` | Perception | 3 | - |
-| [Autobiographical memory](../processes/long_term_memory.md#hed-autobiographical-memory) | `exact` | autobiographical memory | `trm_4a3fd79d09b10` | Learning and Memory | 2 | - |
-| [Avoidance motivation](../processes/reward_anticipation_and_motivation.md#hed-avoidance-motivation) | `none` | - | - | (none) | - | Only the BIS/BAS trait scale, not the process |
-| [Biological motion perception](../processes/face_and_object_perception.md#hed-biological-motion-perception) | `close` | biological motion | `trm_kYtw4QBOKCbsM` | (none) | - | - |
-| [Body ownership](../processes/awareness_agency_and_metacognition.md#hed-body-ownership) | `close` | sense of body ownership | `trm_4e5faabfe8ce3` | (none) | 1 | - |
-| [Categorization](../processes/reasoning_and_problem_solving.md#hed-categorization) | `exact` | categorization | `trm_4a3fd79d09c28` | Reasoning and Decision Making | 5 | - |
-| [Causal reasoning](../processes/reasoning_and_problem_solving.md#hed-causal-reasoning) | `related` | reasoning | `trm_4a3fd79d0aec1` | Reasoning and Decision Making | 5 | Atlas has only the broader parent term |
-| [Choice commitment](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-choice-commitment) | `none` | - | - | (none) | - | No entry for decision commitment |
-| [Chunking](../processes/short_term_and_working_memory.md#hed-chunking) | `exact` | chunking | `trm_4a3fd79d09cae` | Executive/Cognitive Control | 4 | - |
-| [Cognitive reappraisal](../processes/emotion_perception_and_regulation.md#hed-cognitive-reappraisal) | `close` | emotional reappraisal | `trm_557b4844ca14d` | (none) | - | Atlas entry has no definition |
-| [Competition](../processes/social_cognition_and_strategic_social_choice.md#hed-competition) | `exact` | competition | `trm_4a3fd79d09daa` | (none) | - | - |
-| [Conflict monitoring](../processes/inhibitory_control_and_conflict_monitoring.md#hed-conflict-monitoring) | `related` | monitoring | `trm_4a3fd79d0a94f` | Executive/Cognitive Control | 1 | Atlas has only the broader parent term |
-| [Consolidation](../processes/long_term_memory.md#hed-consolidation) | `exact` | consolidation | `trm_4a3fd79d0b8cd` | Learning and Memory | - | - |
-| [Cooperation](../processes/social_cognition_and_strategic_social_choice.md#hed-cooperation) | `none` | - | - | (none) | - | No cooperation entry |
-| [Declarative memory](../processes/long_term_memory.md#hed-declarative-memory) | `exact` | declarative memory | `trm_4a3fd79d0a04f` | Learning and Memory | 7 | - |
-| [Deductive reasoning](../processes/reasoning_and_problem_solving.md#hed-deductive-reasoning) | `exact` | deductive reasoning | `trm_4a3fd79d0a072` | Reasoning and Decision Making | 1 | - |
-| [Delay discounting](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-delay-discounting) | `exact` | delay discounting | `trm_a4WdpQW5JYPH0` | (none) | 3 | - |
-| [Depth perception](../processes/face_and_object_perception.md#hed-depth-perception) | `exact` | depth perception | `trm_4a3fd79d0a0a1` | Perception | - | - |
-| [Directed forgetting](../processes/long_term_memory.md#hed-directed-forgetting) | `close` | intentional forgetting | `trm_4a3fd79d0a689` | Learning and Memory | - | Atlas names the construct, not the paradigm effect |
-| [Discourse processing](../processes/language_comprehension_and_production.md#hed-discourse-processing) | `exact` | discourse processing | `trm_4a3fd79d0b6f5` | Language | - | - |
-| [Divided attention](../processes/selective_and_sustained_attention.md#hed-divided-attention) | `exact` | divided attention | `trm_4a3fd79d0a116` | Attention | 5 | - |
-| [Effort allocation](../processes/reward_anticipation_and_motivation.md#hed-effort-allocation) | `related` | effort | `trm_4a3fd79d0a151` | (none) | - | Atlas has only the broader parent term |
-| [Emotion recognition](../processes/emotion_perception_and_regulation.md#hed-emotion-recognition) | `exact` | emotion recognition | `trm_4a3fd79d0b665` | Emotion | 2 | - |
-| [Emotion regulation](../processes/emotion_perception_and_regulation.md#hed-emotion-regulation) | `exact` | emotion regulation | `trm_51a690a7492eb` | (none) | 10 | - |
-| [Encoding](../processes/long_term_memory.md#hed-encoding) | `exact` | encoding | `trm_4a3fd79d0b8e5` | Learning and Memory | 3 | - |
-| [Episodic memory](../processes/long_term_memory.md#hed-episodic-memory) | `exact` | episodic memory | `trm_4a3fd79d0a1f4` | Learning and Memory | 6 | - |
-| [Error correction](../processes/inhibitory_control_and_conflict_monitoring.md#hed-error-correction) | `none` | - | - | (none) | - | No corresponding Atlas concept |
-| [Error detection](../processes/inhibitory_control_and_conflict_monitoring.md#hed-error-detection) | `exact` | error detection | `trm_4a3fd79d0a20c` | Executive/Cognitive Control | 7 | - |
-| [Executive attention](../processes/inhibitory_control_and_conflict_monitoring.md#hed-executive-attention) | `related` | attention | `trm_4a3fd79d09902` | Attention | 29 | Atlas has only the broader parent term |
-| [Expressive suppression](../processes/emotion_perception_and_regulation.md#hed-expressive-suppression) | `none` | - | - | (none) | - | No corresponding Atlas concept |
-| [Extinction](../processes/associative_learning_and_reinforcement.md#hed-extinction) | `exact` | extinction | `trm_4fe8edc62f613` | (none) | - | - |
-| [Face identity recognition](../processes/face_and_object_perception.md#hed-face-identity-recognition) | `close` | face recognition | `trm_4a3fd79d0a30c` | Learning and Memory | 6 | Atlas entry does not separate identity from expression |
-| [Face perception](../processes/face_and_object_perception.md#hed-face-perception) | `exact` | face perception | `trm_4a3fd79d0a300` | Perception | 1 | - |
-| [Familiarity](../processes/long_term_memory.md#hed-familiarity) | `exact` | familiarity | `trm_4a3fd79d0b8fc` | Learning and Memory | - | - |
-| [Feature-based attention](../processes/selective_and_sustained_attention.md#hed-feature-based-attention) | `exact` | feature-based attention | `trm_5524572b66764` | (none) | - | - |
-| [Feeling of knowing](../processes/awareness_agency_and_metacognition.md#hed-feeling-of-knowing) | `none` | - | - | (none) | - | No feeling-of-knowing entry |
-| [Fine motor control](../processes/motor_preparation_timing_and_execution.md#hed-fine-motor-control) | `related` | motor control | `trm_4a3fd79d0a972` | Action | 26 | Atlas does not separate fine motor control |
-| [Forgetting](../processes/long_term_memory.md#hed-forgetting) | `exact` | forgetting | `trm_4a3fd79d0b908` | Learning and Memory | 4 | - |
-| [Goal maintenance](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-goal-maintenance) | `exact` | goal maintenance | `trm_4a3fd79d0a431` | Executive/Cognitive Control | 3 | - |
-| [Goal-directed behavior](../processes/associative_learning_and_reinforcement.md#hed-goal-directed-behavior) | `none` | - | - | (none) | - | No goal-directed control entry |
-| [Grasping](../processes/motor_preparation_timing_and_execution.md#hed-grasping) | `none` | - | - | (none) | - | No grasping entry |
-| [Gustatory perception](../processes/face_and_object_perception.md#hed-gustatory-perception) | `exact` | gustatory perception | `trm_4a3fd79d0a477` | Perception | - | - |
-| [Habit](../processes/associative_learning_and_reinforcement.md#hed-habit) | `exact` | habit | `trm_4a3fd79d0a483` | Learning and Memory | - | - |
-| [Hypothesis testing](../processes/reasoning_and_problem_solving.md#hed-hypothesis-testing) | `none` | - | - | (none) | - | No hypothesis testing entry |
-| [Imitation](../processes/social_cognition_and_strategic_social_choice.md#hed-imitation) | `none` | - | - | (none) | - | No imitation entry |
-| [Implicit memory](../processes/implicit_and_statistical_learning.md#hed-implicit-memory) | `exact` | implicit memory | `trm_4a3fd79d0a533` | Learning and Memory | 1 | - |
-| [In-group/out-group processing](../processes/social_cognition_and_strategic_social_choice.md#hed-in-group-out-group-processing) | `none` | - | - | (none) | - | No in-group/out-group entry |
-| [Incentive salience](../processes/reward_anticipation_and_motivation.md#hed-incentive-salience) | `exact` | incentive salience | `trm_QehTtEcwPuRtK` | (none) | - | - |
-| [Inductive reasoning](../processes/reasoning_and_problem_solving.md#hed-inductive-reasoning) | `exact` | inductive reasoning | `trm_4a3fd79d0a590` | Reasoning and Decision Making | 1 | Atlas also has the narrower `induction` |
-| [Insight](../processes/reasoning_and_problem_solving.md#hed-insight) | `exact` | insight | `trm_4a3fd79d0a62b` | Reasoning and Decision Making | - | - |
-| [Instrumental conditioning](../processes/associative_learning_and_reinforcement.md#hed-instrumental-conditioning) | `exact` | instrumental conditioning | `trm_4a3fd79d0a642` | Learning and Memory | 1 | - |
-| [Interference control](../processes/inhibitory_control_and_conflict_monitoring.md#hed-interference-control) | `exact` | interference control | `trm_551f11bb8f6a8` | (none) | 5 | Atlas also has `interference resolution` |
-| [Interoceptive awareness](../processes/awareness_agency_and_metacognition.md#hed-interoceptive-awareness) | `exact` | Interoceptive awareness | `trm_WoLBai9ycl8yE` | (none) | 1 | - |
-| [Intertemporal choice](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-intertemporal-choice) | `exact` | intertemporal choice | `trm_558c73324a6ca` | (none) | 4 | - |
-| [Joint attention](../processes/social_cognition_and_strategic_social_choice.md#hed-joint-attention) | `exact` | joint attention | `trm_4b75ed06c917d` | Attention | 5 | - |
-| [Judgment of learning](../processes/awareness_agency_and_metacognition.md#hed-judgment-of-learning) | `none` | - | - | (none) | - | No judgment-of-learning entry |
-| [Language comprehension](../processes/language_comprehension_and_production.md#hed-language-comprehension) | `exact` | language comprehension | `trm_4a3fd79d0a775` | Language | 13 | - |
-| [Language production](../processes/language_comprehension_and_production.md#hed-language-production) | `exact` | language production | `trm_4a3fd79d0a78d` | Language | 6 | - |
-| [Lexical access](../processes/language_comprehension_and_production.md#hed-lexical-access) | `exact` | lexical access | `trm_4a3fd79d0b80f` | Language | 8 | - |
-| [Manipulation](../processes/short_term_and_working_memory.md#hed-manipulation) | `exact` | manipulation | `trm_4a3fd79d0ba3c` | Executive/Cognitive Control | 1 | - |
-| [Masking](../processes/awareness_agency_and_metacognition.md#hed-masking) | `close` | visual masking | `trm_4a3fd79d0b492` | Perception | 2 | Atlas splits masking by modality: visual, auditory, lateral |
-| [Mathematical reasoning](../processes/reasoning_and_problem_solving.md#hed-mathematical-reasoning) | `exact` | mathematical reasoning | `trm_4a3fd79d0a862` | Reasoning and Decision Making | 3 | - |
-| [Means-ends analysis](../processes/reasoning_and_problem_solving.md#hed-means-ends-analysis) | `none` | - | - | (none) | - | No means-ends analysis entry |
-| [Mental rotation](../processes/spatial_cognition_and_navigation.md#hed-mental-rotation) | `exact` | mental rotation | `trm_4a3fd79d0a914` | Perception | 3 | - |
-| [Metacognitive control](../processes/awareness_agency_and_metacognition.md#hed-metacognitive-control) | `related` | metacognition | `trm_4a3fd79d0a920` | (none) | - | Atlas has no monitoring/control split |
-| [Metacognitive monitoring](../processes/awareness_agency_and_metacognition.md#hed-metacognitive-monitoring) | `related` | metacognition | `trm_4a3fd79d0a920` | (none) | - | Atlas has no monitoring/control split |
-| [Mind wandering](../processes/awareness_agency_and_metacognition.md#hed-mind-wandering) | `none` | - | - | (none) | - | No mind wandering entry |
-| [Model-based learning](../processes/associative_learning_and_reinforcement.md#hed-model-based-learning) | `none` | - | - | (none) | - | Computational RL vocabulary post-dates the Atlas's curation |
-| [Model-free learning](../processes/associative_learning_and_reinforcement.md#hed-model-free-learning) | `none` | - | - | (none) | - | Computational RL vocabulary post-dates the Atlas's curation |
-| [Motion perception](../processes/face_and_object_perception.md#hed-motion-perception) | `none` | - | - | (none) | - | No motion perception entry; `emotion perception` is unrelated |
-| [Motor memory](../processes/motor_preparation_timing_and_execution.md#hed-motor-memory) | `related` | memory | `trm_4a3fd79d0a891` | Learning and Memory | 4 | Atlas has no motor memory entry |
-| [Motor planning](../processes/motor_preparation_timing_and_execution.md#hed-motor-planning) | `exact` | motor planning | `trm_4a3fd79d0a9a1` | Action | 6 | - |
-| [Motor preparation](../processes/motor_preparation_timing_and_execution.md#hed-motor-preparation) | `none` | - | - | (none) | - | No motor preparation entry |
-| [Motor sequence learning](../processes/motor_preparation_timing_and_execution.md#hed-motor-sequence-learning) | `exact` | motor sequence learning | `trm_4a3fd79d0a9b9` | Learning and Memory | 1 | - |
-| [Motor timing](../processes/motor_preparation_timing_and_execution.md#hed-motor-timing) | `related` | timing | `trm_vqA8b1BrA6U4V` | (none) | - | Atlas has only the broader parent term |
-| [Naming](../processes/language_comprehension_and_production.md#hed-naming) | `exact` | naming | `trm_4a3fd79d0a9dc` | Language | 3 | - |
-| [Object-based attention](../processes/selective_and_sustained_attention.md#hed-object-based-attention) | `exact` | object-based attention | `trm_552185f5cda66` | Attention | - | - |
-| [Olfactory perception](../processes/face_and_object_perception.md#hed-olfactory-perception) | `exact` | olfactory perception | `trm_4a3fd79d0aac8` | Perception | 5 | - |
-| [Orienting](../processes/selective_and_sustained_attention.md#hed-orienting) | `none` | - | - | (none) | - | No corresponding Atlas concept |
-| [Pattern completion](../processes/long_term_memory.md#hed-pattern-completion) | `none` | - | - | (none) | - | No corresponding Atlas concept |
-| [Pattern recognition](../processes/face_and_object_perception.md#hed-pattern-recognition) | `exact` | pattern recognition | `trm_4a3fd79d0ab65` | Perception | 4 | - |
-| [Pattern separation](../processes/long_term_memory.md#hed-pattern-separation) | `none` | - | - | (none) | - | No corresponding Atlas concept |
-| [Pavlovian conditioning](../processes/associative_learning_and_reinforcement.md#hed-pavlovian-conditioning) | `exact` | pavlovian conditioning | `trm_4a3fd79d0ab70` | Learning and Memory | 1 | - |
-| [Perceptual awareness](../processes/awareness_agency_and_metacognition.md#hed-perceptual-awareness) | `related` | consciousness | `trm_4a3fd79d09e35` | (none) | - | Atlas has only the broader parent term |
-| [Perceptual decision making](../processes/perceptual_decision_making_evidence_accumulation.md#hed-perceptual-decision-making) | `related` | decision making | `trm_4a3fd79d0a038` | Reasoning and Decision Making | 12 | Atlas has only the broader parent term |
-| [Perspective taking](../processes/social_cognition_and_strategic_social_choice.md#hed-perspective-taking) | `close` | theory of mind | `trm_4a3fd79d0b392` | Social Function | 6 | Atlas has no perspective-taking entry; `worldview` is unrelated |
-| [Phonological awareness](../processes/language_comprehension_and_production.md#hed-phonological-awareness) | `exact` | phonological awareness | `trm_5240fddc2e43e` | (none) | 2 | - |
-| [Phonological encoding](../processes/language_comprehension_and_production.md#hed-phonological-encoding) | `exact` | phonological encoding | `trm_4a3fd79d0ac87` | Language | 6 | - |
-| [Pitch perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-pitch-perception) | `exact` | pitch perception | `trm_H19qgUFFeZaLg` | (none) | - | - |
-| [Planning](../processes/reasoning_and_problem_solving.md#hed-planning) | `exact` | planning | `trm_4a3fd79d0acc1` | Executive/Cognitive Control | 4 | - |
-| [Policy learning](../processes/associative_learning_and_reinforcement.md#hed-policy-learning) | `related` | learning | `trm_4a3fd79d0a7bb` | Learning and Memory | 2 | Atlas has only the broader parent term |
-| [Proactive control](../processes/inhibitory_control_and_conflict_monitoring.md#hed-proactive-control) | `exact` | proactive control | `trm_557b49851e991` | Executive/Cognitive Control | 6 | - |
-| [Proactive interference](../processes/long_term_memory.md#hed-proactive-interference) | `exact` | proactive interference | `trm_4a3fd79d0adab` | Learning and Memory | 3 | - |
-| [Probability judgment](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-probability-judgment) | `related` | judgment | `trm_4a3fd79d0a723` | Reasoning and Decision Making | 1 | Atlas has only the generic `judgment` |
-| [Procedural memory](../processes/implicit_and_statistical_learning.md#hed-procedural-memory) | `exact` | procedural memory | `trm_4a3fd79d0addc` | (none) | 4 | - |
-| [Proprioception](../processes/motor_preparation_timing_and_execution.md#hed-proprioception) | `exact` | proprioception | `trm_4a3fd79d0ae3d` | Perception | 2 | - |
-| [Prospective memory](../processes/long_term_memory.md#hed-prospective-memory) | `exact` | prospective memory | `trm_4a3fd79d0ae70` | Learning and Memory | - | - |
-| [Reaching](../processes/motor_preparation_timing_and_execution.md#hed-reaching) | `none` | - | - | (none) | - | No corresponding Atlas concept |
-| [Reactive control](../processes/inhibitory_control_and_conflict_monitoring.md#hed-reactive-control) | `exact` | Reactive Control | `trm_0wLVVlkHaAov9` | (none) | 1 | - |
-| [Reading](../processes/language_comprehension_and_production.md#hed-reading) | `exact` | reading | `trm_4a3fd79d0aeb6` | Language | 8 | - |
-| [Recall](../processes/long_term_memory.md#hed-recall) | `exact` | recall | `trm_4a3fd79d0b95b` | Learning and Memory | 4 | - |
-| [Reciprocity](../processes/social_cognition_and_strategic_social_choice.md#hed-reciprocity) | `exact` | reciprocity | `trm_seBaaqL9E7Q1v` | (none) | - | - |
-| [Recognition](../processes/long_term_memory.md#hed-recognition) | `exact` | recognition | `trm_4a3fd79d0b967` | Learning and Memory | 3 | - |
-| [Recollection](../processes/long_term_memory.md#hed-recollection) | `none` | - | - | (none) | - | No recollection entry despite the Atlas carrying `familiarity` |
-| [Reconsolidation](../processes/long_term_memory.md#hed-reconsolidation) | `exact` | reconsolidation | `trm_4a3fd79d0b972` | Learning and Memory | - | - |
-| [Rehearsal](../processes/short_term_and_working_memory.md#hed-rehearsal) | `exact` | rehearsal | `trm_4a3fd79d0ba54` | Learning and Memory | - | - |
-| [Reinforcement learning](../processes/associative_learning_and_reinforcement.md#hed-reinforcement-learning) | `exact` | reinforcement learning | `trm_557b4993a0fdd` | Learning and Memory | 7 | - |
-| [Response conflict](../processes/inhibitory_control_and_conflict_monitoring.md#hed-response-conflict) | `exact` | response conflict | `trm_557b49ad14adf` | Executive/Cognitive Control | 3 | - |
-| [Response execution](../processes/motor_preparation_timing_and_execution.md#hed-response-execution) | `exact` | response execution | `trm_557b4a7315f1b` | Action | 24 | - |
-| [Response inhibition](../processes/inhibitory_control_and_conflict_monitoring.md#hed-response-inhibition) | `exact` | response inhibition | `trm_4a3fd79d0af66` | Executive/Cognitive Control | 19 | - |
-| [Response selection](../processes/motor_preparation_timing_and_execution.md#hed-response-selection) | `exact` | response selection | `trm_4a3fd79d0af71` | Action | 28 | - |
-| [Retrieval](../processes/long_term_memory.md#hed-retrieval) | `exact` | retrieval | `trm_4a3fd79d0af94` | Learning and Memory | - | - |
-| [Retroactive interference](../processes/long_term_memory.md#hed-retroactive-interference) | `exact` | retroactive interference | `trm_4a3fd79d0afab` | Learning and Memory | 1 | - |
-| [Reversal learning](../processes/associative_learning_and_reinforcement.md#hed-reversal-learning) | `none` | - | - | (none) | - | No reversal learning concept; registered only as a task |
-| [Reward anticipation](../processes/reward_anticipation_and_motivation.md#hed-reward-anticipation) | `exact` | reward anticipation | `trm_557b4a81a4a17` | (none) | 1 | - |
-| [Reward consumption](../processes/reward_anticipation_and_motivation.md#hed-reward-consumption) | `related` | reward processing | `trm_4b6525253c63f` | Learning and Memory | 2 | Atlas has only the broader parent term |
-| [Reward prediction error](../processes/associative_learning_and_reinforcement.md#hed-reward-prediction-error) | `close` | monetary reward prediction error | `trm_559f0a5b4cd36` | Reasoning and Decision Making | 1 | Atlas has only the monetary-domain form, not a general RPE |
-| [Risk processing](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-risk-processing) | `exact` | risk processing | `trm_557b4a913f8cc` | Reasoning and Decision Making | 3 | - |
-| [Saccade](../processes/motor_preparation_timing_and_execution.md#hed-saccade) | `none` | - | - | (none) | - | No saccade entry |
-| [Selective attention](../processes/selective_and_sustained_attention.md#hed-selective-attention) | `exact` | selective attention | `trm_4a3fd79d0b043` | Attention | 6 | - |
-| [Self-monitoring](../processes/awareness_agency_and_metacognition.md#hed-self-monitoring) | `exact` | self monitoring | `trm_4a3fd79d0b05e` | Executive/Cognitive Control | 4 | - |
-| [Self-other distinction](../processes/social_cognition_and_strategic_social_choice.md#hed-self-other-distinction) | `none` | - | - | (none) | - | No self-other distinction entry |
-| [Self-referential processing](../processes/awareness_agency_and_metacognition.md#hed-self-referential-processing) | `close` | self-reference effect | `trm_vK5imljyKMUAL` | (none) | - | Atlas names the effect rather than the process |
-| [Semantic knowledge](../processes/language_comprehension_and_production.md#hed-semantic-knowledge) | `exact` | semantic knowledge | `trm_4a3fd79d0b077` | Language | 11 | Atlas also has `semantic information` |
-| [Semantic memory](../processes/long_term_memory.md#hed-semantic-memory) | `exact` | semantic memory | `trm_4a3fd79d0b083` | Language | 6 | - |
-| [Semantic processing](../processes/language_comprehension_and_production.md#hed-semantic-processing) | `exact` | semantic processing | `trm_4a3fd79d0b87a` | Language | 6 | - |
-| [Sense of agency](../processes/awareness_agency_and_metacognition.md#hed-sense-of-agency) | `close` | agency | `trm_5154b2f947fe9` | (none) | - | Atlas entry is broader than the action-effect sense |
-| [Sentence comprehension](../processes/language_comprehension_and_production.md#hed-sentence-comprehension) | `exact` | sentence comprehension | `trm_4a3fd79d0b892` | Language | 4 | - |
-| [Set shifting](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-set-shifting) | `exact` | set shifting | `trm_4a3fd79d0b607` | Executive/Cognitive Control | 8 | - |
-| [Social decision making](../processes/social_cognition_and_strategic_social_choice.md#hed-social-decision-making) | `related` | decision making | `trm_4a3fd79d0a038` | Reasoning and Decision Making | 12 | Atlas has no social decision-making entry |
-| [Social perception](../processes/social_cognition_and_strategic_social_choice.md#hed-social-perception) | `related` | perception | `trm_4a3fd79d0ab7c` | Perception | - | Atlas has no social perception entry |
-| [Somatosensory perception](../processes/face_and_object_perception.md#hed-somatosensory-perception) | `close` | somatosensation | `trm_4a3fd79d0b160` | Perception | 6 | Atlas entry is framed anatomically |
-| [Source memory](../processes/long_term_memory.md#hed-source-memory) | `exact` | source memory | `trm_4a3fd79d0b18f` | Learning and Memory | 1 | - |
-| [Spatial attention](../processes/selective_and_sustained_attention.md#hed-spatial-attention) | `exact` | spatial attention | `trm_4a3fd79d0b1b2` | Attention | 2 | - |
-| [Spatial memory](../processes/spatial_cognition_and_navigation.md#hed-spatial-memory) | `exact` | spatial memory | `trm_4a3fd79d0b1d5` | Learning and Memory | 5 | - |
-| [Spatial working memory](../processes/short_term_and_working_memory.md#hed-spatial-working-memory) | `exact` | spatial working memory | `trm_4a3fd79d0b1e0` | Attention | 5 | - |
-| [Speech perception](../processes/language_comprehension_and_production.md#hed-speech-perception) | `exact` | speech perception | `trm_4a3fd79d0b1f7` | Language | 1 | - |
-| [Speech production](../processes/language_comprehension_and_production.md#hed-speech-production) | `exact` | speech production | `trm_4a3fd79d0b247` | Language | 6 | - |
-| [Stereotyping](../processes/social_cognition_and_strategic_social_choice.md#hed-stereotyping) | `none` | - | - | (none) | - | No corresponding Atlas concept |
-| [Strategy use](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-strategy-use) | `related` | strategy | `trm_4a3fd79d0b29c` | (none) | 1 | Atlas names the object, not its use |
-| [Subgoaling](../processes/reasoning_and_problem_solving.md#hed-subgoaling) | `none` | - | - | (none) | - | No corresponding Atlas concept |
-| [Sustained attention](../processes/selective_and_sustained_attention.md#hed-sustained-attention) | `exact` | sustained attention | `trm_4a3fd79d0b311` | Attention | 7 | - |
-| [Syntactic parsing](../processes/language_comprehension_and_production.md#hed-syntactic-parsing) | `exact` | syntactic parsing | `trm_4a3fd79d0b340` | Language | 4 | - |
-| [Temporal attention](../processes/selective_and_sustained_attention.md#hed-temporal-attention) | `related` | attention | `trm_4a3fd79d09902` | Attention | 29 | Atlas has only the broader parent term |
-| [Valuation](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-valuation) | `close` | reward valuation | `trm_5159c94667677` | (none) | 1 | - |
-| [Value learning](../processes/associative_learning_and_reinforcement.md#hed-value-learning) | `related` | learning | `trm_4a3fd79d0a7bb` | Learning and Memory | 2 | Atlas has only the broader parent term |
-| [Value-based decision making](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-value-based-decision-making) | `related` | decision making | `trm_4a3fd79d0a038` | Reasoning and Decision Making | 12 | Atlas has only the broader parent term |
-| [Verbal fluency](../processes/language_comprehension_and_production.md#hed-verbal-fluency) | `exact` | verbal fluency | `trm_4a3fd79d0b44c` | Language | 9 | - |
-| [Verbal memory](../processes/long_term_memory.md#hed-verbal-memory) | `exact` | verbal memory | `trm_4a3fd79d0b457` | Learning and Memory | 8 | - |
-| [Verbal working memory](../processes/short_term_and_working_memory.md#hed-verbal-working-memory) | `close` | phonological working memory | `trm_4a3fd79d0ac9e` | Executive/Cognitive Control | 8 | Atlas frames verbal WM phonologically |
-| [Visual form recognition](../processes/face_and_object_perception.md#hed-visual-form-recognition) | `exact` | visual form recognition | `trm_557b4b3a6a34d` | Perception | 11 | - |
-| [Visual object recognition](../processes/face_and_object_perception.md#hed-visual-object-recognition) | `exact` | visual object recognition | `trm_4a3fd79d0b4a9` | Perception | 5 | - |
-| [Visual perception](../processes/face_and_object_perception.md#hed-visual-perception) | `exact` | visual perception | `trm_4a3fd79d0b4b5` | Perception | 40 | - |
-| [Visual working memory](../processes/short_term_and_working_memory.md#hed-visual-working-memory) | `exact` | visual working memory | `trm_4a3fd79d0b4d8` | Attention | 6 | - |
-| [Visuomotor adaptation](../processes/motor_preparation_timing_and_execution.md#hed-visuomotor-adaptation) | `none` | - | - | (none) | - | Atlas `adaptation` is sensory adaptation, not visuomotor recalibration |
-| [Vocal-motor control](../processes/motor_preparation_timing_and_execution.md#hed-vocal-motor-control) | `related` | motor control | `trm_4a3fd79d0a972` | Action | 26 | Atlas has only the broader parent term |
-| [Word recognition](../processes/language_comprehension_and_production.md#hed-word-recognition) | `exact` | word recognition | `trm_4a3fd79d0b58f` | Language | 5 | - |
-| [Working memory](../processes/short_term_and_working_memory.md#hed-working-memory) | `exact` | working memory | `trm_4a3fd79d0b5a7` | Executive/Cognitive Control | 27 | - |
-| [Working memory updating](../processes/short_term_and_working_memory.md#hed-working-memory-updating) | `exact` | working memory updating | `trm_55b6b9a666604` | Learning and Memory | 1 | - |
+| Process | Match | Atlas concept | Atlas class | Atlas tasks | Notes |
+|---|---|---|---|---|---|
+| [Acoustic processing](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-acoustic-processing) | `close` | [acoustic processing](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0971e) | Perception | 3 | Atlas definition describes underwater and atmospheric signal propagation, not auditory cognition |
+| [Action initiation](../processes/motor_preparation_timing_and_execution.md#hed-action-initiation) | `exact` | [action initiation](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b5c0) | Action | - | - |
+| [Active maintenance](../processes/short_term_and_working_memory.md#hed-active-maintenance) | `exact` | [active maintenance](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0ba0d) | Executive/Cognitive Control | 15 | - |
+| [Affective priming](../processes/emotion_perception_and_regulation.md#hed-affective-priming) | `related` | [priming](https://www.cognitiveatlas.org/concept/id/trm_4e89aebaa311d) | Learning and Memory | - | Atlas has no affective or evaluative priming entry |
+| [Alerting](../processes/selective_and_sustained_attention.md#hed-alerting) | `none` | - | (none) | - | Atlas has no alerting entry despite carrying the ANT |
+| [Analogical reasoning](../processes/reasoning_and_problem_solving.md#hed-analogical-reasoning) | `exact` | [analogical reasoning](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d09810) | Reasoning and Decision Making | 1 | - |
+| [Antisaccade](../processes/motor_preparation_timing_and_execution.md#hed-antisaccade) | `none` | - | (none) | - | No antisaccade concept; the Atlas registers it only as a task |
+| [Approach motivation](../processes/reward_anticipation_and_motivation.md#hed-approach-motivation) | `none` | - | (none) | - | Only the BIS/BAS trait scale, not the process |
+| [Associative learning](../processes/associative_learning_and_reinforcement.md#hed-associative-learning) | `exact` | [association learning](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d098c9) | Learning and Memory | 7 | - |
+| [Attention shifting](../processes/selective_and_sustained_attention.md#hed-attention-shifting) | `exact` | [attention shifting](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b5fb) | Attention | 12 | - |
+| [Attentional awareness](../processes/awareness_agency_and_metacognition.md#hed-attentional-awareness) | `related` | [consciousness](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d09e35) | (none) | - | Atlas has only the broader parent term |
+| [Attentional capture](../processes/selective_and_sustained_attention.md#hed-attentional-capture) | `none` | - | (none) | - | No attentional capture entry |
+| [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception) | `exact` | [auditory perception](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d09ab2) | Perception | 21 | - |
+| [Auditory tone discrimination](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-tone-discrimination) | `exact` | [auditory tone discrimination](https://www.cognitiveatlas.org/concept/id/trm_557b476527a27) | Perception | 3 | - |
+| [Autobiographical memory](../processes/long_term_memory.md#hed-autobiographical-memory) | `exact` | [autobiographical memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d09b10) | Learning and Memory | 2 | - |
+| [Avoidance motivation](../processes/reward_anticipation_and_motivation.md#hed-avoidance-motivation) | `none` | - | (none) | - | Only the BIS/BAS trait scale, not the process |
+| [Biological motion perception](../processes/face_and_object_perception.md#hed-biological-motion-perception) | `close` | [biological motion](https://www.cognitiveatlas.org/concept/id/trm_kYtw4QBOKCbsM) | (none) | - | - |
+| [Body ownership](../processes/awareness_agency_and_metacognition.md#hed-body-ownership) | `close` | [sense of body ownership](https://www.cognitiveatlas.org/concept/id/trm_4e5faabfe8ce3) | (none) | 1 | - |
+| [Categorization](../processes/reasoning_and_problem_solving.md#hed-categorization) | `exact` | [categorization](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d09c28) | Reasoning and Decision Making | 5 | - |
+| [Causal reasoning](../processes/reasoning_and_problem_solving.md#hed-causal-reasoning) | `related` | [reasoning](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0aec1) | Reasoning and Decision Making | 5 | Atlas has only the broader parent term |
+| [Choice commitment](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-choice-commitment) | `none` | - | (none) | - | No entry for decision commitment |
+| [Chunking](../processes/short_term_and_working_memory.md#hed-chunking) | `exact` | [chunking](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d09cae) | Executive/Cognitive Control | 4 | - |
+| [Cognitive reappraisal](../processes/emotion_perception_and_regulation.md#hed-cognitive-reappraisal) | `close` | [emotional reappraisal](https://www.cognitiveatlas.org/concept/id/trm_557b4844ca14d) | (none) | - | Atlas entry has no definition |
+| [Competition](../processes/social_cognition_and_strategic_social_choice.md#hed-competition) | `exact` | [competition](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d09daa) | (none) | - | - |
+| [Conflict monitoring](../processes/inhibitory_control_and_conflict_monitoring.md#hed-conflict-monitoring) | `related` | [monitoring](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a94f) | Executive/Cognitive Control | 1 | Atlas has only the broader parent term |
+| [Consolidation](../processes/long_term_memory.md#hed-consolidation) | `exact` | [consolidation](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b8cd) | Learning and Memory | - | - |
+| [Cooperation](../processes/social_cognition_and_strategic_social_choice.md#hed-cooperation) | `none` | - | (none) | - | No cooperation entry |
+| [Declarative memory](../processes/long_term_memory.md#hed-declarative-memory) | `exact` | [declarative memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a04f) | Learning and Memory | 7 | - |
+| [Deductive reasoning](../processes/reasoning_and_problem_solving.md#hed-deductive-reasoning) | `exact` | [deductive reasoning](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a072) | Reasoning and Decision Making | 1 | - |
+| [Delay discounting](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-delay-discounting) | `exact` | [delay discounting](https://www.cognitiveatlas.org/concept/id/trm_a4WdpQW5JYPH0) | (none) | 3 | - |
+| [Depth perception](../processes/face_and_object_perception.md#hed-depth-perception) | `exact` | [depth perception](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a0a1) | Perception | - | - |
+| [Directed forgetting](../processes/long_term_memory.md#hed-directed-forgetting) | `close` | [intentional forgetting](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a689) | Learning and Memory | - | Atlas names the construct, not the paradigm effect |
+| [Discourse processing](../processes/language_comprehension_and_production.md#hed-discourse-processing) | `exact` | [discourse processing](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b6f5) | Language | - | - |
+| [Divided attention](../processes/selective_and_sustained_attention.md#hed-divided-attention) | `exact` | [divided attention](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a116) | Attention | 5 | - |
+| [Effort allocation](../processes/reward_anticipation_and_motivation.md#hed-effort-allocation) | `related` | [effort](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a151) | (none) | - | Atlas has only the broader parent term |
+| [Emotion recognition](../processes/emotion_perception_and_regulation.md#hed-emotion-recognition) | `exact` | [emotion recognition](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b665) | Emotion | 2 | - |
+| [Emotion regulation](../processes/emotion_perception_and_regulation.md#hed-emotion-regulation) | `exact` | [emotion regulation](https://www.cognitiveatlas.org/concept/id/trm_51a690a7492eb) | (none) | 10 | - |
+| [Encoding](../processes/long_term_memory.md#hed-encoding) | `exact` | [encoding](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b8e5) | Learning and Memory | 3 | - |
+| [Episodic memory](../processes/long_term_memory.md#hed-episodic-memory) | `exact` | [episodic memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a1f4) | Learning and Memory | 6 | - |
+| [Error correction](../processes/inhibitory_control_and_conflict_monitoring.md#hed-error-correction) | `none` | - | (none) | - | No corresponding Atlas concept |
+| [Error detection](../processes/inhibitory_control_and_conflict_monitoring.md#hed-error-detection) | `exact` | [error detection](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a20c) | Executive/Cognitive Control | 7 | - |
+| [Executive attention](../processes/inhibitory_control_and_conflict_monitoring.md#hed-executive-attention) | `related` | [attention](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d09902) | Attention | 29 | Atlas has only the broader parent term |
+| [Expressive suppression](../processes/emotion_perception_and_regulation.md#hed-expressive-suppression) | `none` | - | (none) | - | No corresponding Atlas concept |
+| [Extinction](../processes/associative_learning_and_reinforcement.md#hed-extinction) | `exact` | [extinction](https://www.cognitiveatlas.org/concept/id/trm_4fe8edc62f613) | (none) | - | - |
+| [Face identity recognition](../processes/face_and_object_perception.md#hed-face-identity-recognition) | `close` | [face recognition](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a30c) | Learning and Memory | 6 | Atlas entry does not separate identity from expression |
+| [Face perception](../processes/face_and_object_perception.md#hed-face-perception) | `exact` | [face perception](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a300) | Perception | 1 | - |
+| [Familiarity](../processes/long_term_memory.md#hed-familiarity) | `exact` | [familiarity](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b8fc) | Learning and Memory | - | - |
+| [Feature-based attention](../processes/selective_and_sustained_attention.md#hed-feature-based-attention) | `exact` | [feature-based attention](https://www.cognitiveatlas.org/concept/id/trm_5524572b66764) | (none) | - | - |
+| [Feeling of knowing](../processes/awareness_agency_and_metacognition.md#hed-feeling-of-knowing) | `none` | - | (none) | - | No feeling-of-knowing entry |
+| [Fine motor control](../processes/motor_preparation_timing_and_execution.md#hed-fine-motor-control) | `related` | [motor control](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a972) | Action | 26 | Atlas does not separate fine motor control |
+| [Forgetting](../processes/long_term_memory.md#hed-forgetting) | `exact` | [forgetting](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b908) | Learning and Memory | 4 | - |
+| [Goal maintenance](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-goal-maintenance) | `exact` | [goal maintenance](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a431) | Executive/Cognitive Control | 3 | - |
+| [Goal-directed behavior](../processes/associative_learning_and_reinforcement.md#hed-goal-directed-behavior) | `none` | - | (none) | - | No goal-directed control entry |
+| [Grasping](../processes/motor_preparation_timing_and_execution.md#hed-grasping) | `none` | - | (none) | - | No grasping entry |
+| [Gustatory perception](../processes/face_and_object_perception.md#hed-gustatory-perception) | `exact` | [gustatory perception](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a477) | Perception | - | - |
+| [Habit](../processes/associative_learning_and_reinforcement.md#hed-habit) | `exact` | [habit](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a483) | Learning and Memory | - | - |
+| [Hypothesis testing](../processes/reasoning_and_problem_solving.md#hed-hypothesis-testing) | `none` | - | (none) | - | No hypothesis testing entry |
+| [Imitation](../processes/social_cognition_and_strategic_social_choice.md#hed-imitation) | `none` | - | (none) | - | No imitation entry |
+| [Implicit memory](../processes/implicit_and_statistical_learning.md#hed-implicit-memory) | `exact` | [implicit memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a533) | Learning and Memory | 1 | - |
+| [In-group/out-group processing](../processes/social_cognition_and_strategic_social_choice.md#hed-in-group-out-group-processing) | `none` | - | (none) | - | No in-group/out-group entry |
+| [Incentive salience](../processes/reward_anticipation_and_motivation.md#hed-incentive-salience) | `exact` | [incentive salience](https://www.cognitiveatlas.org/concept/id/trm_QehTtEcwPuRtK) | (none) | - | - |
+| [Inductive reasoning](../processes/reasoning_and_problem_solving.md#hed-inductive-reasoning) | `exact` | [inductive reasoning](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a590) | Reasoning and Decision Making | 1 | Atlas also has the narrower `induction` |
+| [Insight](../processes/reasoning_and_problem_solving.md#hed-insight) | `exact` | [insight](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a62b) | Reasoning and Decision Making | - | - |
+| [Instrumental conditioning](../processes/associative_learning_and_reinforcement.md#hed-instrumental-conditioning) | `exact` | [instrumental conditioning](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a642) | Learning and Memory | 1 | - |
+| [Interference control](../processes/inhibitory_control_and_conflict_monitoring.md#hed-interference-control) | `exact` | [interference control](https://www.cognitiveatlas.org/concept/id/trm_551f11bb8f6a8) | (none) | 5 | Atlas also has `interference resolution` |
+| [Interoceptive awareness](../processes/awareness_agency_and_metacognition.md#hed-interoceptive-awareness) | `exact` | [Interoceptive awareness](https://www.cognitiveatlas.org/concept/id/trm_WoLBai9ycl8yE) | (none) | 1 | - |
+| [Intertemporal choice](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-intertemporal-choice) | `exact` | [intertemporal choice](https://www.cognitiveatlas.org/concept/id/trm_558c73324a6ca) | (none) | 4 | - |
+| [Joint attention](../processes/social_cognition_and_strategic_social_choice.md#hed-joint-attention) | `exact` | [joint attention](https://www.cognitiveatlas.org/concept/id/trm_4b75ed06c917d) | Attention | 5 | - |
+| [Judgment of learning](../processes/awareness_agency_and_metacognition.md#hed-judgment-of-learning) | `none` | - | (none) | - | No judgment-of-learning entry |
+| [Language comprehension](../processes/language_comprehension_and_production.md#hed-language-comprehension) | `exact` | [language comprehension](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a775) | Language | 13 | - |
+| [Language production](../processes/language_comprehension_and_production.md#hed-language-production) | `exact` | [language production](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a78d) | Language | 6 | - |
+| [Lexical access](../processes/language_comprehension_and_production.md#hed-lexical-access) | `exact` | [lexical access](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b80f) | Language | 8 | - |
+| [Manipulation](../processes/short_term_and_working_memory.md#hed-manipulation) | `exact` | [manipulation](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0ba3c) | Executive/Cognitive Control | 1 | - |
+| [Masking](../processes/awareness_agency_and_metacognition.md#hed-masking) | `close` | [visual masking](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b492) | Perception | 2 | Atlas splits masking by modality: visual, auditory, lateral |
+| [Mathematical reasoning](../processes/reasoning_and_problem_solving.md#hed-mathematical-reasoning) | `exact` | [mathematical reasoning](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a862) | Reasoning and Decision Making | 3 | - |
+| [Means-ends analysis](../processes/reasoning_and_problem_solving.md#hed-means-ends-analysis) | `none` | - | (none) | - | No means-ends analysis entry |
+| [Mental rotation](../processes/spatial_cognition_and_navigation.md#hed-mental-rotation) | `exact` | [mental rotation](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a914) | Perception | 3 | - |
+| [Metacognitive control](../processes/awareness_agency_and_metacognition.md#hed-metacognitive-control) | `related` | [metacognition](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a920) | (none) | - | Atlas has no monitoring/control split |
+| [Metacognitive monitoring](../processes/awareness_agency_and_metacognition.md#hed-metacognitive-monitoring) | `related` | [metacognition](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a920) | (none) | - | Atlas has no monitoring/control split |
+| [Mind wandering](../processes/awareness_agency_and_metacognition.md#hed-mind-wandering) | `none` | - | (none) | - | No mind wandering entry |
+| [Model-based learning](../processes/associative_learning_and_reinforcement.md#hed-model-based-learning) | `none` | - | (none) | - | Computational RL vocabulary post-dates the Atlas's curation |
+| [Model-free learning](../processes/associative_learning_and_reinforcement.md#hed-model-free-learning) | `none` | - | (none) | - | Computational RL vocabulary post-dates the Atlas's curation |
+| [Motion perception](../processes/face_and_object_perception.md#hed-motion-perception) | `none` | - | (none) | - | No motion perception entry; `emotion perception` is unrelated |
+| [Motor memory](../processes/motor_preparation_timing_and_execution.md#hed-motor-memory) | `related` | [memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a891) | Learning and Memory | 4 | Atlas has no motor memory entry |
+| [Motor planning](../processes/motor_preparation_timing_and_execution.md#hed-motor-planning) | `exact` | [motor planning](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a9a1) | Action | 6 | - |
+| [Motor preparation](../processes/motor_preparation_timing_and_execution.md#hed-motor-preparation) | `none` | - | (none) | - | No motor preparation entry |
+| [Motor sequence learning](../processes/motor_preparation_timing_and_execution.md#hed-motor-sequence-learning) | `exact` | [motor sequence learning](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a9b9) | Learning and Memory | 1 | - |
+| [Motor timing](../processes/motor_preparation_timing_and_execution.md#hed-motor-timing) | `related` | [timing](https://www.cognitiveatlas.org/concept/id/trm_vqA8b1BrA6U4V) | (none) | - | Atlas has only the broader parent term |
+| [Naming](../processes/language_comprehension_and_production.md#hed-naming) | `exact` | [naming](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a9dc) | Language | 3 | - |
+| [Object-based attention](../processes/selective_and_sustained_attention.md#hed-object-based-attention) | `exact` | [object-based attention](https://www.cognitiveatlas.org/concept/id/trm_552185f5cda66) | Attention | - | - |
+| [Olfactory perception](../processes/face_and_object_perception.md#hed-olfactory-perception) | `exact` | [olfactory perception](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0aac8) | Perception | 5 | - |
+| [Orienting](../processes/selective_and_sustained_attention.md#hed-orienting) | `none` | - | (none) | - | No corresponding Atlas concept |
+| [Pattern completion](../processes/long_term_memory.md#hed-pattern-completion) | `none` | - | (none) | - | No corresponding Atlas concept |
+| [Pattern recognition](../processes/face_and_object_perception.md#hed-pattern-recognition) | `exact` | [pattern recognition](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0ab65) | Perception | 4 | - |
+| [Pattern separation](../processes/long_term_memory.md#hed-pattern-separation) | `none` | - | (none) | - | No corresponding Atlas concept |
+| [Pavlovian conditioning](../processes/associative_learning_and_reinforcement.md#hed-pavlovian-conditioning) | `exact` | [pavlovian conditioning](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0ab70) | Learning and Memory | 1 | - |
+| [Perceptual awareness](../processes/awareness_agency_and_metacognition.md#hed-perceptual-awareness) | `related` | [consciousness](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d09e35) | (none) | - | Atlas has only the broader parent term |
+| [Perceptual decision making](../processes/perceptual_decision_making_evidence_accumulation.md#hed-perceptual-decision-making) | `related` | [decision making](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a038) | Reasoning and Decision Making | 12 | Atlas has only the broader parent term |
+| [Perspective taking](../processes/social_cognition_and_strategic_social_choice.md#hed-perspective-taking) | `close` | [theory of mind](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b392) | Social Function | 6 | Atlas has no perspective-taking entry; `worldview` is unrelated |
+| [Phonological awareness](../processes/language_comprehension_and_production.md#hed-phonological-awareness) | `exact` | [phonological awareness](https://www.cognitiveatlas.org/concept/id/trm_5240fddc2e43e) | (none) | 2 | - |
+| [Phonological encoding](../processes/language_comprehension_and_production.md#hed-phonological-encoding) | `exact` | [phonological encoding](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0ac87) | Language | 6 | - |
+| [Pitch perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-pitch-perception) | `exact` | [pitch perception](https://www.cognitiveatlas.org/concept/id/trm_H19qgUFFeZaLg) | (none) | - | - |
+| [Planning](../processes/reasoning_and_problem_solving.md#hed-planning) | `exact` | [planning](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0acc1) | Executive/Cognitive Control | 4 | - |
+| [Policy learning](../processes/associative_learning_and_reinforcement.md#hed-policy-learning) | `related` | [learning](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a7bb) | Learning and Memory | 2 | Atlas has only the broader parent term |
+| [Proactive control](../processes/inhibitory_control_and_conflict_monitoring.md#hed-proactive-control) | `exact` | [proactive control](https://www.cognitiveatlas.org/concept/id/trm_557b49851e991) | Executive/Cognitive Control | 6 | - |
+| [Proactive interference](../processes/long_term_memory.md#hed-proactive-interference) | `exact` | [proactive interference](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0adab) | Learning and Memory | 3 | - |
+| [Probability judgment](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-probability-judgment) | `related` | [judgment](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a723) | Reasoning and Decision Making | 1 | Atlas has only the generic `judgment` |
+| [Procedural memory](../processes/implicit_and_statistical_learning.md#hed-procedural-memory) | `exact` | [procedural memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0addc) | (none) | 4 | - |
+| [Proprioception](../processes/motor_preparation_timing_and_execution.md#hed-proprioception) | `exact` | [proprioception](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0ae3d) | Perception | 2 | - |
+| [Prospective memory](../processes/long_term_memory.md#hed-prospective-memory) | `exact` | [prospective memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0ae70) | Learning and Memory | - | - |
+| [Reaching](../processes/motor_preparation_timing_and_execution.md#hed-reaching) | `none` | - | (none) | - | No corresponding Atlas concept |
+| [Reactive control](../processes/inhibitory_control_and_conflict_monitoring.md#hed-reactive-control) | `exact` | [Reactive Control](https://www.cognitiveatlas.org/concept/id/trm_0wLVVlkHaAov9) | (none) | 1 | - |
+| [Reading](../processes/language_comprehension_and_production.md#hed-reading) | `exact` | [reading](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0aeb6) | Language | 8 | - |
+| [Recall](../processes/long_term_memory.md#hed-recall) | `exact` | [recall](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b95b) | Learning and Memory | 4 | - |
+| [Reciprocity](../processes/social_cognition_and_strategic_social_choice.md#hed-reciprocity) | `exact` | [reciprocity](https://www.cognitiveatlas.org/concept/id/trm_seBaaqL9E7Q1v) | (none) | - | - |
+| [Recognition](../processes/long_term_memory.md#hed-recognition) | `exact` | [recognition](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b967) | Learning and Memory | 3 | - |
+| [Recollection](../processes/long_term_memory.md#hed-recollection) | `none` | - | (none) | - | No recollection entry despite the Atlas carrying `familiarity` |
+| [Reconsolidation](../processes/long_term_memory.md#hed-reconsolidation) | `exact` | [reconsolidation](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b972) | Learning and Memory | - | - |
+| [Rehearsal](../processes/short_term_and_working_memory.md#hed-rehearsal) | `exact` | [rehearsal](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0ba54) | Learning and Memory | - | - |
+| [Reinforcement learning](../processes/associative_learning_and_reinforcement.md#hed-reinforcement-learning) | `exact` | [reinforcement learning](https://www.cognitiveatlas.org/concept/id/trm_557b4993a0fdd) | Learning and Memory | 7 | - |
+| [Response conflict](../processes/inhibitory_control_and_conflict_monitoring.md#hed-response-conflict) | `exact` | [response conflict](https://www.cognitiveatlas.org/concept/id/trm_557b49ad14adf) | Executive/Cognitive Control | 3 | - |
+| [Response execution](../processes/motor_preparation_timing_and_execution.md#hed-response-execution) | `exact` | [response execution](https://www.cognitiveatlas.org/concept/id/trm_557b4a7315f1b) | Action | 24 | - |
+| [Response inhibition](../processes/inhibitory_control_and_conflict_monitoring.md#hed-response-inhibition) | `exact` | [response inhibition](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0af66) | Executive/Cognitive Control | 19 | - |
+| [Response selection](../processes/motor_preparation_timing_and_execution.md#hed-response-selection) | `exact` | [response selection](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0af71) | Action | 28 | - |
+| [Retrieval](../processes/long_term_memory.md#hed-retrieval) | `exact` | [retrieval](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0af94) | Learning and Memory | - | - |
+| [Retroactive interference](../processes/long_term_memory.md#hed-retroactive-interference) | `exact` | [retroactive interference](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0afab) | Learning and Memory | 1 | - |
+| [Reversal learning](../processes/associative_learning_and_reinforcement.md#hed-reversal-learning) | `none` | - | (none) | - | No reversal learning concept; registered only as a task |
+| [Reward anticipation](../processes/reward_anticipation_and_motivation.md#hed-reward-anticipation) | `exact` | [reward anticipation](https://www.cognitiveatlas.org/concept/id/trm_557b4a81a4a17) | (none) | 1 | - |
+| [Reward consumption](../processes/reward_anticipation_and_motivation.md#hed-reward-consumption) | `related` | [reward processing](https://www.cognitiveatlas.org/concept/id/trm_4b6525253c63f) | Learning and Memory | 2 | Atlas has only the broader parent term |
+| [Reward prediction error](../processes/associative_learning_and_reinforcement.md#hed-reward-prediction-error) | `close` | [monetary reward prediction error](https://www.cognitiveatlas.org/concept/id/trm_559f0a5b4cd36) | Reasoning and Decision Making | 1 | Atlas has only the monetary-domain form, not a general RPE |
+| [Risk processing](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-risk-processing) | `exact` | [risk processing](https://www.cognitiveatlas.org/concept/id/trm_557b4a913f8cc) | Reasoning and Decision Making | 3 | - |
+| [Saccade](../processes/motor_preparation_timing_and_execution.md#hed-saccade) | `none` | - | (none) | - | No saccade entry |
+| [Selective attention](../processes/selective_and_sustained_attention.md#hed-selective-attention) | `exact` | [selective attention](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b043) | Attention | 6 | - |
+| [Self-monitoring](../processes/awareness_agency_and_metacognition.md#hed-self-monitoring) | `exact` | [self monitoring](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b05e) | Executive/Cognitive Control | 4 | - |
+| [Self-other distinction](../processes/social_cognition_and_strategic_social_choice.md#hed-self-other-distinction) | `none` | - | (none) | - | No self-other distinction entry |
+| [Self-referential processing](../processes/awareness_agency_and_metacognition.md#hed-self-referential-processing) | `close` | [self-reference effect](https://www.cognitiveatlas.org/concept/id/trm_vK5imljyKMUAL) | (none) | - | Atlas names the effect rather than the process |
+| [Semantic knowledge](../processes/language_comprehension_and_production.md#hed-semantic-knowledge) | `exact` | [semantic knowledge](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b077) | Language | 11 | Atlas also has `semantic information` |
+| [Semantic memory](../processes/long_term_memory.md#hed-semantic-memory) | `exact` | [semantic memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b083) | Language | 6 | - |
+| [Semantic processing](../processes/language_comprehension_and_production.md#hed-semantic-processing) | `exact` | [semantic processing](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b87a) | Language | 6 | - |
+| [Sense of agency](../processes/awareness_agency_and_metacognition.md#hed-sense-of-agency) | `close` | [agency](https://www.cognitiveatlas.org/concept/id/trm_5154b2f947fe9) | (none) | - | Atlas entry is broader than the action-effect sense |
+| [Sentence comprehension](../processes/language_comprehension_and_production.md#hed-sentence-comprehension) | `exact` | [sentence comprehension](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b892) | Language | 4 | - |
+| [Set shifting](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-set-shifting) | `exact` | [set shifting](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b607) | Executive/Cognitive Control | 8 | - |
+| [Social decision making](../processes/social_cognition_and_strategic_social_choice.md#hed-social-decision-making) | `related` | [decision making](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a038) | Reasoning and Decision Making | 12 | Atlas has no social decision-making entry |
+| [Social perception](../processes/social_cognition_and_strategic_social_choice.md#hed-social-perception) | `related` | [perception](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0ab7c) | Perception | - | Atlas has no social perception entry |
+| [Somatosensory perception](../processes/face_and_object_perception.md#hed-somatosensory-perception) | `close` | [somatosensation](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b160) | Perception | 6 | Atlas entry is framed anatomically |
+| [Source memory](../processes/long_term_memory.md#hed-source-memory) | `exact` | [source memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b18f) | Learning and Memory | 1 | - |
+| [Spatial attention](../processes/selective_and_sustained_attention.md#hed-spatial-attention) | `exact` | [spatial attention](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b1b2) | Attention | 2 | - |
+| [Spatial memory](../processes/spatial_cognition_and_navigation.md#hed-spatial-memory) | `exact` | [spatial memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b1d5) | Learning and Memory | 5 | - |
+| [Spatial working memory](../processes/short_term_and_working_memory.md#hed-spatial-working-memory) | `exact` | [spatial working memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b1e0) | Attention | 5 | - |
+| [Speech perception](../processes/language_comprehension_and_production.md#hed-speech-perception) | `exact` | [speech perception](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b1f7) | Language | 1 | - |
+| [Speech production](../processes/language_comprehension_and_production.md#hed-speech-production) | `exact` | [speech production](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b247) | Language | 6 | - |
+| [Stereotyping](../processes/social_cognition_and_strategic_social_choice.md#hed-stereotyping) | `none` | - | (none) | - | No corresponding Atlas concept |
+| [Strategy use](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-strategy-use) | `related` | [strategy](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b29c) | (none) | 1 | Atlas names the object, not its use |
+| [Subgoaling](../processes/reasoning_and_problem_solving.md#hed-subgoaling) | `none` | - | (none) | - | No corresponding Atlas concept |
+| [Sustained attention](../processes/selective_and_sustained_attention.md#hed-sustained-attention) | `exact` | [sustained attention](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b311) | Attention | 7 | - |
+| [Syntactic parsing](../processes/language_comprehension_and_production.md#hed-syntactic-parsing) | `exact` | [syntactic parsing](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b340) | Language | 4 | - |
+| [Temporal attention](../processes/selective_and_sustained_attention.md#hed-temporal-attention) | `related` | [attention](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d09902) | Attention | 29 | Atlas has only the broader parent term |
+| [Valuation](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-valuation) | `close` | [reward valuation](https://www.cognitiveatlas.org/concept/id/trm_5159c94667677) | (none) | 1 | - |
+| [Value learning](../processes/associative_learning_and_reinforcement.md#hed-value-learning) | `related` | [learning](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a7bb) | Learning and Memory | 2 | Atlas has only the broader parent term |
+| [Value-based decision making](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-value-based-decision-making) | `related` | [decision making](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a038) | Reasoning and Decision Making | 12 | Atlas has only the broader parent term |
+| [Verbal fluency](../processes/language_comprehension_and_production.md#hed-verbal-fluency) | `exact` | [verbal fluency](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b44c) | Language | 9 | - |
+| [Verbal memory](../processes/long_term_memory.md#hed-verbal-memory) | `exact` | [verbal memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b457) | Learning and Memory | 8 | - |
+| [Verbal working memory](../processes/short_term_and_working_memory.md#hed-verbal-working-memory) | `close` | [phonological working memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0ac9e) | Executive/Cognitive Control | 8 | Atlas frames verbal WM phonologically |
+| [Visual form recognition](../processes/face_and_object_perception.md#hed-visual-form-recognition) | `exact` | [visual form recognition](https://www.cognitiveatlas.org/concept/id/trm_557b4b3a6a34d) | Perception | 11 | - |
+| [Visual object recognition](../processes/face_and_object_perception.md#hed-visual-object-recognition) | `exact` | [visual object recognition](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b4a9) | Perception | 5 | - |
+| [Visual perception](../processes/face_and_object_perception.md#hed-visual-perception) | `exact` | [visual perception](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b4b5) | Perception | 40 | - |
+| [Visual working memory](../processes/short_term_and_working_memory.md#hed-visual-working-memory) | `exact` | [visual working memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b4d8) | Attention | 6 | - |
+| [Visuomotor adaptation](../processes/motor_preparation_timing_and_execution.md#hed-visuomotor-adaptation) | `none` | - | (none) | - | Atlas `adaptation` is sensory adaptation, not visuomotor recalibration |
+| [Vocal-motor control](../processes/motor_preparation_timing_and_execution.md#hed-vocal-motor-control) | `related` | [motor control](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a972) | Action | 26 | Atlas has only the broader parent term |
+| [Word recognition](../processes/language_comprehension_and_production.md#hed-word-recognition) | `exact` | [word recognition](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b58f) | Language | 5 | - |
+| [Working memory](../processes/short_term_and_working_memory.md#hed-working-memory) | `exact` | [working memory](https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b5a7) | Executive/Cognitive Control | 27 | - |
+| [Working memory updating](../processes/short_term_and_working_memory.md#hed-working-memory-updating) | `exact` | [working memory updating](https://www.cognitiveatlas.org/concept/id/trm_55b6b9a666604) | Learning and Memory | 1 | - |

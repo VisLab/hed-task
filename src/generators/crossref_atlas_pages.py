@@ -35,6 +35,11 @@ from generators.utils import write_page
 
 MATCH_ORDER = {"exact": 0, "close": 1, "related": 2, "none": 3}
 
+# Atlas record pages. An entry or concept name in a table links to its record, which is
+# where the identifier lives; the identifier is not shown as a column of its own.
+ATLAS_TASK_URL = "https://www.cognitiveatlas.org/task/id/"
+ATLAS_CONCEPT_URL = "https://www.cognitiveatlas.org/concept/id/"
+
 # The ten top-level concept classes of the Cognitive Atlas ontology.
 CONCEPT_CLASSES = {
     "ctp_C1": "Perception",
@@ -72,6 +77,13 @@ def _process_link(process_id: str, name: str, category_id: str) -> str:
     return f"[{_cell(name)}](../processes/{category_id}.md#{anchor})"
 
 
+def _atlas_link(name: str, atlas_id: str, base_url: str) -> str:
+    """Return the Atlas entry or concept name linked to its record, or "-" when there is none."""
+    if not atlas_id:
+        return "-"
+    return f"[{_cell(name)}]({base_url}{atlas_id})"
+
+
 def _plural(n: int, noun: str) -> str:
     return f"{n} {noun}{'' if n == 1 else 's'}"
 
@@ -88,10 +100,7 @@ def _task_fragments(maps: Path) -> dict[str, str]:
         [
             _task_link(r["hedtsk_id"], r["hed_task_name"]),
             f"`{r['match_type']}`",
-            _cell(r["atlas_name"]),
-            f"`{r['atlas_id']}`" if r["atlas_id"] else "-",
-            _cell(r["atlas_def_chars"]),
-            _cell(r["atlas_concept_count"]),
+            _atlas_link(r["atlas_name"], r["atlas_id"], ATLAS_TASK_URL),
             _cell(r["notes"]),
         ]
         for r in sorted(forward, key=lambda r: r["hed_task_name"].lower())
@@ -101,11 +110,10 @@ def _task_fragments(maps: Path) -> dict[str, str]:
     matched.sort(key=lambda r: (r["hed_task_name"].lower(), MATCH_ORDER[r["match_type"]], r["atlas_name"].lower()))
     matched_rows = [
         [
-            _cell(r["atlas_name"]),
-            f"`{r['atlas_id']}`",
+            _atlas_link(r["atlas_name"], r["atlas_id"], ATLAS_TASK_URL),
             f"`{r['match_type']}`",
             _task_link(r["hedtsk_id"], r["hed_task_name"]),
-            f"`{r['hed_variation_id']}`" if r["hed_variation_id"] else "-",
+            _cell(r["hed_variation_name"]),
             _cell(r["notes"]),
         ]
         for r in matched
@@ -122,12 +130,15 @@ def _task_fragments(maps: Path) -> dict[str, str]:
         if not group:
             continue
         rows = [
-            [_cell(r["atlas_name"]), f"`{r['atlas_id']}`", _cell(r["atlas_def_chars"]), _cell(r["atlas_concept_count"])]
+            [
+                _atlas_link(r["atlas_name"], r["atlas_id"], ATLAS_TASK_URL),
+                _cell(r["atlas_def_chars"]),
+                _cell(r["atlas_concept_count"]),
+            ]
             for r in group
         ]
         sections.append(
-            f"### {SCOPE_HEADINGS[scope]} ({len(group)})\n\n"
-            + _table(["Atlas entry", "Atlas ID", "Definition chars", "Concepts"], rows)
+            f"### {SCOPE_HEADINGS[scope]} ({len(group)})\n\n" + _table(["Atlas entry", "Definition chars", "Concepts"], rows)
         )
 
     variations = len({r["hed_variation_id"] for r in reverse if r["hed_variation_id"]})
@@ -140,10 +151,8 @@ def _task_fragments(maps: Path) -> dict[str, str]:
     )
 
     return {
-        "atlas_task_forward.md": _table(
-            ["Task", "Match", "Atlas entry", "Atlas ID", "Definition chars", "Concepts", "Notes"], forward_rows
-        ),
-        "atlas_task_matched.md": _table(["Atlas entry", "Atlas ID", "Match", "Task", "Variation", "Notes"], matched_rows),
+        "atlas_task_forward.md": _table(["Task", "Match", "Atlas entry", "Notes"], forward_rows),
+        "atlas_task_matched.md": _table(["Atlas entry", "Match", "Task", "Variation", "Notes"], matched_rows),
         "atlas_task_unmatched.md": "\n\n".join(sections),
         "mapping_task_matched_line.md": matched_line,
     }
@@ -159,8 +168,7 @@ def _process_fragments(maps: Path) -> dict[str, str]:
         [
             _process_link(r["hed_process_id"], r["hed_process_name"], r["hed_category_id"]),
             f"`{r['match_type']}`",
-            _cell(r["atlas_concept_name"]),
-            f"`{r['atlas_concept_id']}`" if r["atlas_concept_id"] else "-",
+            _atlas_link(r["atlas_concept_name"], r["atlas_concept_id"], ATLAS_CONCEPT_URL),
             _cell(CONCEPT_CLASSES.get(r["atlas_concept_class"], r["atlas_concept_class"])),
             _cell(r["atlas_task_count"]),
             _cell(r["notes"]),
@@ -172,8 +180,7 @@ def _process_fragments(maps: Path) -> dict[str, str]:
     matched.sort(key=lambda r: (r["hed_process_name"].lower(), r["atlas_concept_name"].lower()))
     matched_rows = [
         [
-            _cell(r["atlas_concept_name"]),
-            f"`{r['atlas_concept_id']}`",
+            _atlas_link(r["atlas_concept_name"], r["atlas_concept_id"], ATLAS_CONCEPT_URL),
             f"`{r['match_type']}`",
             _process_link(r["hed_process_id"], r["hed_process_name"], category_of.get(r["hed_process_id"], "")),
             _cell(r["atlas_task_count"]),
@@ -188,8 +195,7 @@ def _process_fragments(maps: Path) -> dict[str, str]:
     )
     unmatched_rows = [
         [
-            _cell(r["atlas_concept_name"]),
-            f"`{r['atlas_concept_id']}`",
+            _atlas_link(r["atlas_concept_name"], r["atlas_concept_id"], ATLAS_CONCEPT_URL),
             _cell(CONCEPT_CLASSES.get(r["atlas_concept_class"], r["atlas_concept_class"])),
             _cell(r["atlas_task_count"]),
             _cell(r["relation_count"]),
@@ -206,14 +212,10 @@ def _process_fragments(maps: Path) -> dict[str, str]:
 
     return {
         "atlas_process_forward.md": _table(
-            ["Process", "Match", "Atlas concept", "Concept ID", "Atlas class", "Atlas tasks", "Notes"], forward_rows
+            ["Process", "Match", "Atlas concept", "Atlas class", "Atlas tasks", "Notes"], forward_rows
         ),
-        "atlas_process_matched.md": _table(
-            ["Atlas concept", "Concept ID", "Match", "Process", "Atlas tasks", "Relations"], matched_rows
-        ),
-        "atlas_process_unmatched.md": _table(
-            ["Atlas concept", "Concept ID", "Atlas class", "Atlas tasks", "Relations"], unmatched_rows
-        ),
+        "atlas_process_matched.md": _table(["Atlas concept", "Match", "Process", "Atlas tasks", "Relations"], matched_rows),
+        "atlas_process_unmatched.md": _table(["Atlas concept", "Atlas class", "Atlas tasks", "Relations"], unmatched_rows),
         "mapping_process_matched_line.md": matched_line,
     }
 

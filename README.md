@@ -10,15 +10,15 @@ The Catalog is published as a searchable website at **<https://www.hedtags.org/h
 
 ## Contents
 
-| Section                                                                                       | Description                                                                               |
-| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| [Introduction](https://www.hedtags.org/hed-task/introduction.html)                            | What the Catalog is made of, its identifiers, and where it came from                      |
-| [How to use the Catalog](https://www.hedtags.org/hed-task/how_to_use_the_catalog.html)        | Reading a task page, tagging a dataset, proposing a change                                |
-| [Tasks](https://www.hedtags.org/hed-task/tasks/index.html)                                    | 103 tasks in 18 paradigm families, each with inclusion test, variations and process links |
-| [Cognitive processes](https://www.hedtags.org/hed-task/processes/index.html)                  | 172 processes in 19 categories, each with definition, references and linked tasks         |
-| [Task-process links](https://www.hedtags.org/hed-task/task_process_links.html)                | The whole task-to-process matrix in both directions                                       |
-| [Methods](https://www.hedtags.org/hed-task/methods/task_criteria.html)                        | Task and process selection criteria; how the Cognitive Atlas mapping was built            |
-| [Cognitive Atlas](https://www.hedtags.org/hed-task/atlas/what_is_in_the_cognitive_atlas.html) | What the Atlas contains, how the Catalog relates to it, and the row-by-row mapping tables |
+| Section                                                                                    | Description                                                                               |
+| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| [Introduction](https://www.hedtags.org/hed-task/introduction.html)                         | What the Catalog is made of, its identifiers, and where it came from                      |
+| [How to use the Catalog](https://www.hedtags.org/hed-task/how_to_use_the_catalog.html)     | Reading a task page, tagging a dataset, proposing a change                                |
+| [Tasks](https://www.hedtags.org/hed-task/tasks/index.html)                                 | 103 tasks in 18 paradigm families, each with inclusion test, variations and process links |
+| [Cognitive processes](https://www.hedtags.org/hed-task/processes/index.html)               | 172 processes in 19 categories, each with definition, references and linked tasks         |
+| [Task-process links](https://www.hedtags.org/hed-task/task_process_links.html)             | The whole task-to-process matrix in both directions                                       |
+| [Methods](https://www.hedtags.org/hed-task/methods/task_criteria.html)                     | Task and process selection criteria; how the Cognitive Atlas mapping was built            |
+| [Cognitive Atlas](https://www.hedtags.org/hed-task/atlas/what_is_the_cognitive_atlas.html) | What the Atlas contains, how the Catalog relates to it, and the row-by-row mapping tables |
 
 ## Repository structure
 

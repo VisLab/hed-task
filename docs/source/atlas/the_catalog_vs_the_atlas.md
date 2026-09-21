@@ -8,7 +8,7 @@ The [Cognitive Atlas](https://www.cognitiveatlas.org/) was the starting corpus f
 Catalog, and the two overlap heavily. They are not, however, the same kind of thing, and
 reading one as a subset of the other gets the relationship wrong.
 
-[What is in the Cognitive Atlas](what_is_in_the_cognitive_atlas.md) describes the Atlas on its own
+[What is the Cognitive Atlas?](what_is_the_cognitive_atlas.md) describes the Atlas on its own
 terms. The [task mapping](task_mapping.md) and [process mapping](process_mapping.md) pages
 give the correspondence row by row, and the
 [Atlas mapping method](../methods/atlas_mapping_method.md) page explains how each row was decided.

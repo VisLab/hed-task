@@ -156,7 +156,7 @@ methods/atlas_mapping_method
 :hidden:
 :caption: Cognitive Atlas
 
-atlas/what_is_in_the_cognitive_atlas
+atlas/what_is_the_cognitive_atlas
 atlas/the_catalog_vs_the_atlas
 atlas/task_mapping
 atlas/process_mapping
