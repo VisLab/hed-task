@@ -128,3 +128,52 @@ def process_link(process_id: str, name: str, category_id: str, from_dir: str = "
 def _prefix_to_root(from_dir: str) -> str:
     depth = len([p for p in from_dir.split("/") if p])
     return "../" * depth
+
+
+# ---------------------------------------------------------------------------
+# Family and category membership
+#
+# A task record carries `families` and a process record `categories`: a list of
+# memberships, each {family_id | category_id, role, confidence, rationale}. Exactly one
+# has role "primary" (where the record is filed; the validator enforces this); the rest
+# are "secondary" cross-listings. See data/README.md.
+
+
+def primary_membership(record: dict, field: str) -> dict:
+    """Return the membership with role primary from record[field].
+
+    Parameters:
+        record: A task or process record.
+        field: "families" for a task, "categories" for a process.
+    """
+    for member in record.get(field, []):
+        if member.get("role") == "primary":
+            return member
+    ident = record.get("hedtsk_id") or record.get("process_id") or "?"
+    raise KeyError(f"{ident}: no primary membership in {field!r}")
+
+
+def secondary_memberships(record: dict, field: str) -> list[dict]:
+    """Return the memberships with role secondary from record[field], in file order."""
+    return [m for m in record.get(field, []) if m.get("role") == "secondary"]
+
+
+def primary_family(task: dict) -> str:
+    """Return the family_id a task is filed under."""
+    return primary_membership(task, "families")["family_id"]
+
+
+def primary_category(process: dict) -> str:
+    """Return the category_id a process is filed under."""
+    return primary_membership(process, "categories")["category_id"]
+
+
+# The meaning of a `review` mark, worded once and placed on every family and category page
+# and on the two landing pages, so the three cannot drift.
+REVIEW_NOTE = (
+    "A `review` mark means the assignment is a judgement call the curator has flagged for a\n"
+    'second opinion. On the {unit} an entry is filed under it means "not sure this is the right\n'
+    'home"; on a cross-listing it means "not sure this belongs here at all". The note names\n'
+    "the alternative or the doubt. Comments go to the\n"
+    "[issue tracker](https://github.com/hed-standard/hed-task/issues).\n"
+)

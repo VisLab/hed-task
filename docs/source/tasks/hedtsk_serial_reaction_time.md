@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_serial_reaction_time`
 
-**Family:** [Conditioning, reinforcement and implicit learning tasks](families/conditioning_and_reinforcement.md)
+**Family:** [Conditioning, reinforcement and implicit learning tasks](families/conditioning_and_reinforcement.md) (also [Motor performance and speeded response tasks](families/motor_performance.md))
 
 **Also known as:** SRTT, Serial RT, Serial Reaction Time
 

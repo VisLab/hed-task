@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_trail_making`
 
-**Family:** [Rule use, planning and reasoning tasks](families/executive_and_reasoning.md)
+**Family:** [Rule use, planning and reasoning tasks](families/executive_and_reasoning.md) (also [Motor performance and speeded response tasks](families/motor_performance.md))
 
 **Also known as:** Trail Making Test, TMT, Trails A/B, Trail Making
 

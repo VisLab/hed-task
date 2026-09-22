@@ -3,7 +3,7 @@
 
 Words, sentences or pictures are read, heard, named or generated; reading time, naming latency, lexical decision speed and fluency counts are the measures.
 
-This family contains 8 tasks.
+This family contains 8 tasks and cross-lists 1 more.
 
 ## [Lexical Decision](../hedtsk_lexical_decision.md)
 
@@ -36,6 +36,26 @@ Produce a verb associated with each presented noun; indexes lexical-semantic ret
 ## [Verbal Fluency](../hedtsk_verbal_fluency.md)
 
 Generate as many words as possible within a time limit matching a phonemic (letter) or semantic (category) constraint; production count and clustering/switching patterns index executive-lexical retrieval. Engages 4 processes.
+
+## Also filed here
+
+These tasks are filed under another family and cross-listed here; the note says why.
+
+| Task | Filed under | Note |
+|---|---|---|
+| [Remote Associates](../hedtsk_remote_associates.md) | [Rule use, planning and reasoning tasks](executive_and_reasoning.md) | Insight problem solving over words; could be filed under language |
+
+## Marked for review
+
+A `review` mark means the assignment is a judgement call the curator has flagged for a
+second opinion. On the family an entry is filed under it means "not sure this is the right
+home"; on a cross-listing it means "not sure this belongs here at all". The note names
+the alternative or the doubt. Comments go to the
+[issue tracker](https://github.com/hed-standard/hed-task/issues).
+
+| Task | Membership | Note |
+|---|---|---|
+| [Remote Associates](../hedtsk_remote_associates.md) | cross-listed | Insight problem solving over words; could be filed under language |
 
 ```{toctree}
 :hidden:

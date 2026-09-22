@@ -41,15 +41,6 @@ Repeated presentation of a 15-word list with immediate free recall over five tri
 
 After studying items presented in distinct contexts (speaker, location, modality, time), participants judge each item's encoding source; source accuracy dissociates contextual recollection from item familiarity. Engages 5 processes.
 
-## Marked for review
-
-The filing of these tasks is a judgement call; the note says why they are here and
-where else they could go.
-
-| Task | Note |
-|---|---|
-| [Cambridge Face Memory](../hedtsk_cambridge_face_memory.md) | Learn then recognize faces; could be filed under perceptual judgment as a face-processing measure |
-
 ```{toctree}
 :hidden:
 :maxdepth: 1

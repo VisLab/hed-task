@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_contextual_cueing`
 
-**Family:** [Visual search and tracking tasks](families/visual_search_and_tracking.md)
+**Family:** [Visual search and tracking tasks](families/visual_search_and_tracking.md) (also [Conditioning, reinforcement and implicit learning tasks](families/conditioning_and_reinforcement.md))
 
 **Also known as:** CC Task
 

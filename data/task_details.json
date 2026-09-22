@@ -25,6 +25,14 @@
       43
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "emotion",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "View valenced images"
+      }
+    ],
     "hed_process_ids": [
       "hed_emotion_recognition",
       "hed_emotion_regulation",
@@ -209,6 +217,19 @@
       41
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "emotion",
+        "role": "primary",
+        "confidence": "high"
+      },
+      {
+        "family_id": "conflict_and_interference",
+        "role": "secondary",
+        "confidence": "review",
+        "rationale": "Evaluative priming; the congruence structure could argue for conflict and interference"
+      }
+    ],
     "hed_process_ids": [
       "hed_affective_priming",
       "hed_emotion_recognition",
@@ -462,6 +483,14 @@
       12
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "response_inhibition",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Suppress the reflexive saccade and look away"
+      }
+    ],
     "hed_process_ids": [
       "hed_antisaccade",
       "hed_response_inhibition",
@@ -732,6 +761,14 @@
       89
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conditioning_and_reinforcement",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Implicit rule learning from exposure to strings"
+      }
+    ],
     "hed_process_ids": [
       "hed_implicit_memory",
       "hed_procedural_memory",
@@ -966,6 +1003,19 @@
       50
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "attentional_cueing",
+        "role": "primary",
+        "confidence": "high"
+      },
+      {
+        "family_id": "conflict_and_interference",
+        "role": "secondary",
+        "confidence": "review",
+        "rationale": "Cueing combined with a flanker; filed by its cue manipulation"
+      }
+    ],
     "hed_process_ids": [
       "hed_alerting",
       "hed_orienting",
@@ -1224,6 +1274,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "perceptual_judgment",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Detection or discrimination of a sound in noise"
+      }
+    ],
     "hed_process_ids": [
       "hed_auditory_perception",
       "hed_masking",
@@ -1352,6 +1410,14 @@
       32
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "reward_and_value_choice",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Sequential risk taking for reward"
+      }
+    ],
     "hed_process_ids": [
       "hed_risk_processing",
       "hed_value_based_decision_making",
@@ -1617,6 +1683,14 @@
       48
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "perceptual_judgment",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Judgment of point-light displays"
+      }
+    ],
     "hed_process_ids": [
       "hed_biological_motion_perception",
       "hed_motion_perception",
@@ -1965,6 +2039,19 @@
       66
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "recall_and_recognition",
+        "role": "primary",
+        "confidence": "high"
+      },
+      {
+        "family_id": "perceptual_judgment",
+        "role": "secondary",
+        "confidence": "review",
+        "rationale": "Learn then recognize faces; could be filed under perceptual judgment as a face-processing measure"
+      }
+    ],
     "hed_process_ids": [
       "hed_face_identity_recognition",
       "hed_face_perception",
@@ -2233,6 +2320,14 @@
       67
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "working_memory_span",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Sample array, delay, probe array"
+      }
+    ],
     "hed_process_ids": [
       "hed_visual_working_memory",
       "hed_active_maintenance",
@@ -2493,6 +2588,19 @@
       90
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "visual_search_and_tracking",
+        "role": "primary",
+        "confidence": "high"
+      },
+      {
+        "family_id": "conditioning_and_reinforcement",
+        "role": "secondary",
+        "confidence": "review",
+        "rationale": "Visual search with repeated layouts; the learning could argue for conditioning and implicit learning"
+      }
+    ],
     "hed_process_ids": [
       "hed_implicit_memory",
       "hed_spatial_attention",
@@ -2768,6 +2876,14 @@
       6
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "oddball_and_vigilance",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Rare targets in an extended stream"
+      }
+    ],
     "hed_process_ids": [
       "hed_sustained_attention",
       "hed_alerting",
@@ -3037,6 +3153,14 @@
       54
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "working_memory_span",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Reproduce a spatial sequence"
+      }
+    ],
     "hed_process_ids": [
       "hed_spatial_working_memory",
       "hed_active_maintenance",
@@ -3238,6 +3362,14 @@
       33
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "reward_and_value_choice",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Smaller-sooner versus larger-later choices"
+      }
+    ],
     "hed_process_ids": [
       "hed_delay_discounting",
       "hed_intertemporal_choice",
@@ -3451,6 +3583,14 @@
       15
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "working_memory_span",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Sample, delay, match judgment"
+      }
+    ],
     "hed_process_ids": [
       "hed_active_maintenance",
       "hed_recognition",
@@ -3730,6 +3870,14 @@
       36
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "social_cognition_and_games",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Unilateral allocation to a passive receiver"
+      }
+    ],
     "hed_process_ids": [
       "hed_social_decision_making",
       "hed_valuation",
@@ -3966,6 +4114,14 @@
       51
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "working_memory_span",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Reproduce a digit sequence"
+      }
+    ],
     "hed_process_ids": [
       "hed_verbal_working_memory",
       "hed_rehearsal",
@@ -4114,6 +4270,14 @@
       70
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "motor_performance",
+        "role": "primary",
+        "confidence": "review",
+        "rationale": "Speeded symbol coding; processing speed rather than motor control is the usual reading"
+      }
+    ],
     "hed_process_ids": [
       "hed_response_execution",
       "hed_selective_attention",
@@ -4299,6 +4463,14 @@
       83
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "memory_control",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Remember or forget cues at study"
+      }
+    ],
     "hed_process_ids": [
       "hed_directed_forgetting",
       "hed_encoding",
@@ -4505,6 +4677,14 @@
       60
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "attentional_cueing",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Probe appears at one of two cue locations"
+      }
+    ],
     "hed_process_ids": [
       "hed_selective_attention",
       "hed_spatial_attention",
@@ -4785,6 +4965,14 @@
       42
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "emotion",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Reappraise or passively view affective images"
+      }
+    ],
     "hed_process_ids": [
       "hed_emotion_regulation",
       "hed_cognitive_reappraisal",
@@ -5046,6 +5234,14 @@
       39
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conflict_and_interference",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Stroop procedure with emotional words"
+      }
+    ],
     "hed_process_ids": [
       "hed_selective_attention",
       "hed_interference_control",
@@ -5286,6 +5482,14 @@
       2
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conflict_and_interference",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Target with congruent or incongruent flankers"
+      }
+    ],
     "hed_process_ids": [
       "hed_interference_control",
       "hed_selective_attention",
@@ -5560,6 +5764,14 @@
       49
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "perceptual_judgment",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Passive presentation of faces versus objects to isolate a perceptual response"
+      }
+    ],
     "hed_process_ids": [
       "hed_face_perception",
       "hed_visual_object_recognition",
@@ -5804,6 +6016,14 @@
       40
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "emotion",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Identify the emotion category of a face"
+      }
+    ],
     "hed_process_ids": [
       "hed_emotion_recognition",
       "hed_face_perception",
@@ -6068,6 +6288,14 @@
       37
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "social_cognition_and_games",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Predict behavior from a protagonist's false belief"
+      }
+    ],
     "hed_process_ids": [
       "hed_perspective_taking",
       "hed_self_other_distinction",
@@ -6392,6 +6620,14 @@
       44
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "motor_performance",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Tapping rate and timing"
+      }
+    ],
     "hed_process_ids": [
       "hed_fine_motor_control",
       "hed_motor_timing",
@@ -6580,6 +6816,14 @@
       18
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "recall_and_recognition",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Study a list, recall in any order"
+      }
+    ],
     "hed_process_ids": [
       "hed_recall",
       "hed_encoding",
@@ -6834,6 +7078,14 @@
       7
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "response_inhibition",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Withhold on rare no-go stimuli"
+      }
+    ],
     "hed_process_ids": [
       "hed_response_inhibition",
       "hed_selective_attention",
@@ -7115,6 +7367,14 @@
       87
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conflict_and_interference",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Response-key compatibility effect between paired categories"
+      }
+    ],
     "hed_process_ids": [
       "hed_stereotyping",
       "hed_in_group_out_group_processing",
@@ -7410,6 +7670,14 @@
       21
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conditioning_and_reinforcement",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Actions reinforced under a schedule"
+      }
+    ],
     "hed_process_ids": [
       "hed_instrumental_conditioning",
       "hed_reinforcement_learning",
@@ -7644,6 +7912,14 @@
       31
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "reward_and_value_choice",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Deck choices with hidden gain and loss distributions"
+      }
+    ],
     "hed_process_ids": [
       "hed_value_based_decision_making",
       "hed_reinforcement_learning",
@@ -7947,6 +8223,14 @@
       26
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "language",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Word versus nonword judgment"
+      }
+    ],
     "hed_process_ids": [
       "hed_lexical_access",
       "hed_word_recognition",
@@ -8244,6 +8528,19 @@
       45
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "spatial_navigation",
+        "role": "primary",
+        "confidence": "high"
+      },
+      {
+        "family_id": "perceptual_judgment",
+        "role": "secondary",
+        "confidence": "review",
+        "rationale": "Rotate objects mentally; could be filed under perceptual judgment"
+      }
+    ],
     "hed_process_ids": [
       "hed_mental_rotation",
       "hed_visual_perception",
@@ -8406,6 +8703,14 @@
       65
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "motor_performance",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Visuomotor adaptation to mirrored feedback"
+      }
+    ],
     "hed_process_ids": [
       "hed_visuomotor_adaptation",
       "hed_fine_motor_control",
@@ -8659,6 +8964,14 @@
       47
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "oddball_and_vigilance",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Passive auditory oddball"
+      }
+    ],
     "hed_process_ids": [
       "hed_auditory_perception",
       "hed_auditory_tone_discrimination",
@@ -8900,6 +9213,14 @@
       71
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "recall_and_recognition",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Recognition with similar lures"
+      }
+    ],
     "hed_process_ids": [
       "hed_pattern_separation",
       "hed_pattern_completion",
@@ -9163,6 +9484,14 @@
       63
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "reward_and_value_choice",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Cue announces a potential monetary outcome before a speeded response"
+      }
+    ],
     "hed_process_ids": [
       "hed_reward_anticipation",
       "hed_incentive_salience",
@@ -9408,6 +9737,14 @@
       24
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "motor_performance",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Explicit practice of a finger sequence"
+      }
+    ],
     "hed_process_ids": [
       "hed_motor_sequence_learning",
       "hed_procedural_memory",
@@ -9662,6 +9999,14 @@
       85
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conditioning_and_reinforcement",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Repeated choice among options with unknown payoffs"
+      }
+    ],
     "hed_process_ids": [
       "hed_reinforcement_learning",
       "hed_value_learning",
@@ -9875,6 +10220,14 @@
       58
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "visual_search_and_tracking",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Track moving targets among identical distractors"
+      }
+    ],
     "hed_process_ids": [
       "hed_selective_attention",
       "hed_divided_attention",
@@ -10121,6 +10474,14 @@
       13
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "working_memory_span",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Compare each item with the one n back"
+      }
+    ],
     "hed_process_ids": [
       "hed_working_memory_updating",
       "hed_active_maintenance",
@@ -10413,6 +10774,19 @@
       56
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conflict_and_interference",
+        "role": "primary",
+        "confidence": "high"
+      },
+      {
+        "family_id": "perceptual_judgment",
+        "role": "secondary",
+        "confidence": "review",
+        "rationale": "Global-local interference; could be filed under perceptual judgment"
+      }
+    ],
     "hed_process_ids": [
       "hed_selective_attention",
       "hed_visual_perception",
@@ -10749,6 +11123,14 @@
       46
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "oddball_and_vigilance",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Rare deviants in a stream of standards"
+      }
+    ],
     "hed_process_ids": [
       "hed_selective_attention",
       "hed_temporal_attention",
@@ -10989,6 +11371,14 @@
       17
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "recall_and_recognition",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Studied items among new lures"
+      }
+    ],
     "hed_process_ids": [
       "hed_recognition",
       "hed_recollection",
@@ -11225,6 +11615,14 @@
       57
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "working_memory_span",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Complex span with interleaved arithmetic"
+      }
+    ],
     "hed_process_ids": [
       "hed_working_memory",
       "hed_active_maintenance",
@@ -11478,6 +11876,14 @@
       19
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "recall_and_recognition",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Cued recall of studied pairs"
+      }
+    ],
     "hed_process_ids": [
       "hed_associative_learning",
       "hed_encoding",
@@ -11721,6 +12127,14 @@
       20
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conditioning_and_reinforcement",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "CS paired with an aversive US"
+      }
+    ],
     "hed_process_ids": [
       "hed_pavlovian_conditioning",
       "hed_associative_learning",
@@ -12041,6 +12455,14 @@
       30
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "language",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Rhyme and phoneme manipulation judgments"
+      }
+    ],
     "hed_process_ids": [
       "hed_phonological_awareness",
       "hed_phonological_encoding",
@@ -12292,6 +12714,14 @@
       28
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "language",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Name pictured objects"
+      }
+    ],
     "hed_process_ids": [
       "hed_naming",
       "hed_lexical_access",
@@ -12557,6 +12987,14 @@
       3
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "attentional_cueing",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Canonical spatial cueing paradigm"
+      }
+    ],
     "hed_process_ids": [
       "hed_spatial_attention",
       "hed_orienting",
@@ -12857,6 +13295,14 @@
       62
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "social_cognition_and_games",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Cooperate or defect with asymmetric payoffs"
+      }
+    ],
     "hed_process_ids": [
       "hed_social_decision_making",
       "hed_cooperation",
@@ -13100,6 +13546,14 @@
       23
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conditioning_and_reinforcement",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Multi-cue prediction with trial feedback"
+      }
+    ],
     "hed_process_ids": [
       "hed_reinforcement_learning",
       "hed_associative_learning",
@@ -13359,6 +13813,14 @@
       61
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conditioning_and_reinforcement",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Learn stimulus pairs from probabilistic feedback"
+      }
+    ],
     "hed_process_ids": [
       "hed_reinforcement_learning",
       "hed_reward_prediction_error",
@@ -13621,6 +14083,14 @@
       93
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "motor_performance",
+        "role": "primary",
+        "confidence": "review",
+        "rationale": "Dual-task response-selection bottleneck; no dual-task family exists yet"
+      }
+    ],
     "hed_process_ids": [
       "hed_divided_attention",
       "hed_response_selection",
@@ -13842,6 +14312,14 @@
       59
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "oddball_and_vigilance",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Simple reactions to unpredictable stimuli over minutes"
+      }
+    ],
     "hed_process_ids": [
       "hed_sustained_attention",
       "hed_alerting",
@@ -14095,6 +14573,14 @@
       64
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "spatial_navigation",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Visit rewarded arms without repetition"
+      }
+    ],
     "hed_process_ids": [
       "hed_spatial_memory",
       "hed_spatial_working_memory",
@@ -14346,6 +14832,14 @@
       79
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "perceptual_judgment",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Motion direction judgment under varying coherence"
+      }
+    ],
     "hed_process_ids": [
       "hed_perceptual_decision_making",
       "hed_motion_perception",
@@ -14623,6 +15117,14 @@
       88
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "executive_and_reasoning",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Induce a rule from a matrix"
+      }
+    ],
     "hed_process_ids": [
       "hed_inductive_reasoning",
       "hed_analogical_reasoning",
@@ -14853,6 +15355,14 @@
       38
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "social_cognition_and_games",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Infer a mental state from the eye region"
+      }
+    ],
     "hed_process_ids": [
       "hed_perspective_taking",
       "hed_emotion_recognition",
@@ -15074,6 +15584,14 @@
       82
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "recall_and_recognition",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Recognition with a remember or know judgment"
+      }
+    ],
     "hed_process_ids": [
       "hed_recollection",
       "hed_familiarity",
@@ -15297,6 +15815,19 @@
       74
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "executive_and_reasoning",
+        "role": "primary",
+        "confidence": "high"
+      },
+      {
+        "family_id": "language",
+        "role": "secondary",
+        "confidence": "review",
+        "rationale": "Insight problem solving over words; could be filed under language"
+      }
+    ],
     "hed_process_ids": [
       "hed_insight",
       "hed_semantic_processing",
@@ -15558,6 +16089,14 @@
       22
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conditioning_and_reinforcement",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Learned contingencies switch"
+      }
+    ],
     "hed_process_ids": [
       "hed_reversal_learning",
       "hed_reinforcement_learning",
@@ -15786,6 +16325,14 @@
       53
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "recall_and_recognition",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Repeated list learning with delayed recall"
+      }
+    ],
     "hed_process_ids": [
       "hed_encoding",
       "hed_recall",
@@ -16005,6 +16552,14 @@
       27
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "language",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Lexical decision with related or unrelated primes"
+      }
+    ],
     "hed_process_ids": [
       "hed_semantic_processing",
       "hed_lexical_access",
@@ -16300,6 +16855,14 @@
       29
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "language",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Read or hear syntactically ambiguous sentences"
+      }
+    ],
     "hed_process_ids": [
       "hed_syntactic_parsing",
       "hed_sentence_comprehension",
@@ -16542,6 +17105,19 @@
       16
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conditioning_and_reinforcement",
+        "role": "primary",
+        "confidence": "high"
+      },
+      {
+        "family_id": "motor_performance",
+        "role": "secondary",
+        "confidence": "review",
+        "rationale": "Implicit sequence learning through key presses; could be filed under motor performance"
+      }
+    ],
     "hed_process_ids": [
       "hed_motor_sequence_learning",
       "hed_implicit_memory",
@@ -16800,6 +17376,14 @@
       55
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conflict_and_interference",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Irrelevant location conflicts with response side"
+      }
+    ],
     "hed_process_ids": [
       "hed_response_conflict",
       "hed_interference_control",
@@ -17056,6 +17640,14 @@
       75
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "reward_and_value_choice",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Incentive delay with social outcomes"
+      }
+    ],
     "hed_process_ids": [
       "hed_reward_anticipation",
       "hed_social_perception",
@@ -17283,6 +17875,14 @@
       14
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "working_memory_span",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Memory set followed by a membership probe"
+      }
+    ],
     "hed_process_ids": [
       "hed_active_maintenance",
       "hed_retrieval",
@@ -17503,6 +18103,14 @@
       8
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "response_inhibition",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Cancel an initiated response on a stop signal"
+      }
+    ],
     "hed_process_ids": [
       "hed_response_inhibition",
       "hed_conflict_monitoring",
@@ -17802,6 +18410,14 @@
       1
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conflict_and_interference",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Canonical interference task"
+      }
+    ],
     "hed_process_ids": [
       "hed_interference_control",
       "hed_selective_attention",
@@ -18077,6 +18693,19 @@
       69
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "response_inhibition",
+        "role": "primary",
+        "confidence": "high"
+      },
+      {
+        "family_id": "oddball_and_vigilance",
+        "role": "secondary",
+        "confidence": "review",
+        "rationale": "Go/no-go structure with rare withhold targets; also a vigilance measure"
+      }
+    ],
     "hed_process_ids": [
       "hed_sustained_attention",
       "hed_response_inhibition",
@@ -18447,6 +19076,14 @@
       11
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "executive_and_reasoning",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Alternate between tasks on cue"
+      }
+    ],
     "hed_process_ids": [
       "hed_set_shifting",
       "hed_goal_maintenance",
@@ -18708,6 +19345,14 @@
       84
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "memory_control",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Retrieve or suppress an associate on cue"
+      }
+    ],
     "hed_process_ids": [
       "hed_directed_forgetting",
       "hed_response_inhibition",
@@ -18971,6 +19616,14 @@
       10
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "executive_and_reasoning",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Plan a sequence of moves to a goal state"
+      }
+    ],
     "hed_process_ids": [
       "hed_planning",
       "hed_means_ends_analysis",
@@ -19235,6 +19888,19 @@
       52
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "executive_and_reasoning",
+        "role": "primary",
+        "confidence": "high"
+      },
+      {
+        "family_id": "motor_performance",
+        "role": "secondary",
+        "confidence": "review",
+        "rationale": "Part B alternates sequences; Part A is a speeded motor task"
+      }
+    ],
     "hed_process_ids": [
       "hed_selective_attention",
       "hed_set_shifting",
@@ -19448,6 +20114,14 @@
       35
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "social_cognition_and_games",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Investment returned at the partner's discretion"
+      }
+    ],
     "hed_process_ids": [
       "hed_social_decision_making",
       "hed_reciprocity",
@@ -19705,6 +20379,14 @@
       86
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conditioning_and_reinforcement",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Two-step choice dissociating model-based and model-free learning"
+      }
+    ],
     "hed_process_ids": [
       "hed_model_based_learning",
       "hed_model_free_learning",
@@ -19985,6 +20667,14 @@
       34
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "social_cognition_and_games",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Accept or reject a proposed split"
+      }
+    ],
     "hed_process_ids": [
       "hed_social_decision_making",
       "hed_reciprocity",
@@ -20178,6 +20868,14 @@
       68
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "visual_search_and_tracking",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Peripheral target localization among distractors"
+      }
+    ],
     "hed_process_ids": [
       "hed_divided_attention",
       "hed_selective_attention",
@@ -20384,6 +21082,14 @@
       72
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "language",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Generate a verb for a presented noun"
+      }
+    ],
     "hed_process_ids": [
       "hed_language_production",
       "hed_lexical_access",
@@ -20665,6 +21371,14 @@
       25
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "spatial_navigation",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Find a hidden platform in a virtual pool"
+      }
+    ],
     "hed_process_ids": [
       "hed_spatial_memory",
       "hed_encoding",
@@ -20950,6 +21664,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "perceptual_judgment",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Target visibility reduced by a mask"
+      }
+    ],
     "hed_process_ids": [
       "hed_masking",
       "hed_visual_perception",
@@ -21437,6 +22159,14 @@
       4
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "visual_search_and_tracking",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Find a target among distractors"
+      }
+    ],
     "hed_process_ids": [
       "hed_selective_attention",
       "hed_feature_based_attention",
@@ -21683,6 +22413,14 @@
       73
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "executive_and_reasoning",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Choose cards to test a conditional rule"
+      }
+    ],
     "hed_process_ids": [
       "hed_deductive_reasoning",
       "hed_hypothesis_testing",
@@ -21892,6 +22630,19 @@
       78
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conflict_and_interference",
+        "role": "primary",
+        "confidence": "high"
+      },
+      {
+        "family_id": "social_cognition_and_games",
+        "role": "secondary",
+        "confidence": "review",
+        "rationale": "Race prime creates a congruence effect on categorization; could be filed under social cognition"
+      }
+    ],
     "hed_process_ids": [
       "hed_stereotyping",
       "hed_in_group_out_group_processing",
@@ -22162,6 +22913,14 @@
       9
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "executive_and_reasoning",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Discover and switch a hidden sorting rule"
+      }
+    ],
     "hed_process_ids": [
       "hed_set_shifting",
       "hed_hypothesis_testing",
@@ -22371,6 +23130,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "language",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Generate words to a category or letter"
+      }
+    ],
     "hed_process_ids": [
       "hed_verbal_fluency",
       "hed_lexical_access",
@@ -22605,6 +23372,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "memory_control",
+        "role": "primary",
+        "confidence": "review",
+        "rationale": "Execute a deferred intention during an ongoing task; the only prospective paradigm in the Catalog"
+      }
+    ],
     "hed_process_ids": [
       "hed_prospective_memory",
       "hed_self_monitoring",
@@ -22850,6 +23625,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "recall_and_recognition",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Recognition with an attribution of encoding context"
+      }
+    ],
     "hed_process_ids": [
       "hed_source_memory",
       "hed_retrieval",
@@ -23119,6 +23902,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "reward_and_value_choice",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Choice between low and high effort for reward"
+      }
+    ],
     "hed_process_ids": [
       "hed_effort_allocation",
       "hed_valuation",
@@ -23374,6 +24165,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "metacognition_and_interoception",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Rate recognizability after failed recall"
+      }
+    ],
     "hed_process_ids": [
       "hed_feeling_of_knowing",
       "hed_metacognitive_monitoring",
@@ -23634,6 +24433,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "metacognition_and_interoception",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Predict later recall of each studied item"
+      }
+    ],
     "hed_process_ids": [
       "hed_judgment_of_learning",
       "hed_metacognitive_monitoring",
@@ -23891,6 +24698,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "metacognition_and_interoception",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Count or discriminate one's own heartbeats"
+      }
+    ],
     "hed_process_ids": [
       "hed_interoceptive_awareness",
       "hed_self_monitoring",
@@ -24123,6 +24938,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "memory_control",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Encoding instruction manipulates later recall"
+      }
+    ],
     "hed_process_ids": [
       "hed_self_referential_processing",
       "hed_encoding",
@@ -24385,6 +25208,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "recall_and_recognition",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Cued retrieval of personal memories"
+      }
+    ],
     "hed_process_ids": [
       "hed_autobiographical_memory",
       "hed_retrieval",
@@ -24660,6 +25491,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conditioning_and_reinforcement",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Judge causal strength from cue-outcome pairings"
+      }
+    ],
     "hed_process_ids": [
       "hed_causal_reasoning",
       "hed_associative_learning",
@@ -24936,6 +25775,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "metacognition_and_interoception",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Induced ownership of a fake limb"
+      }
+    ],
     "hed_process_ids": [
       "hed_body_ownership",
       "hed_interoceptive_awareness",
@@ -25181,6 +26028,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "conflict_and_interference",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Observed action congruent or incongruent with the instructed movement"
+      }
+    ],
     "hed_process_ids": [
       "hed_imitation",
       "hed_response_inhibition",
@@ -25419,6 +26274,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "metacognition_and_interoception",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Judge the time of a voluntary action and its effect"
+      }
+    ],
     "hed_process_ids": [
       "hed_sense_of_agency",
       "hed_motor_planning",
@@ -25652,6 +26515,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "language",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Reveal a sentence word by word"
+      }
+    ],
     "hed_process_ids": [
       "hed_discourse_processing",
       "hed_semantic_processing",
@@ -25932,6 +26803,19 @@
       5
     ],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "oddball_and_vigilance",
+        "role": "primary",
+        "confidence": "high"
+      },
+      {
+        "family_id": "visual_search_and_tracking",
+        "role": "secondary",
+        "confidence": "review",
+        "rationale": "Targets in a rapid stream; the attentional blink could argue for visual search and tracking"
+      }
+    ],
     "hed_process_ids": [
       "hed_temporal_attention",
       "hed_selective_attention",
@@ -26201,6 +27085,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "pseudo_tasks",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Resting block; establishes a baseline state"
+      }
+    ],
     "hed_process_ids": [],
     "references": [
       {
@@ -26308,6 +27200,14 @@
     "variations": [],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "pseudo_tasks",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Fixation block; holds gaze as a baseline or control"
+      }
+    ],
     "hed_process_ids": [],
     "references": [
       {
@@ -26373,6 +27273,14 @@
     ],
     "source_task_numbers": [],
     "status": "complete",
+    "families": [
+      {
+        "family_id": "pseudo_tasks",
+        "role": "primary",
+        "confidence": "high",
+        "rationale": "Self-report administration block; the instrument is a parameter"
+      }
+    ],
     "hed_process_ids": [],
     "references": [
       {

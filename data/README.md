@@ -10,7 +10,6 @@ Everything the site is generated from lives here and is edited here, by pull req
 | `mappings/*.tsv`        | The curated correspondence with the Cognitive Atlas, one row per entity; see `mappings/README.md`              | By hand; `src/build_atlas_maps.py` refreshes the descriptive columns without touching curation |
 | `atlas_summary.json`    | Statistics about the Cognitive Atlas snapshot, for the Atlas essays                                            | Recomputed by `src/build_atlas_data.py` from the archive                                       |
 | `task_family_defs.tsv`  | The paradigm families: display order, name, scope                                                              | By hand                                                                                        |
-| `task_families.tsv`     | Which family each task is filed under, and why                                                                 | By hand                                                                                        |
 
 The two JSON files began as an export from the research workspace that found the citations (see `src/import_catalog.py`, kept as the record of that one-time migration). Since 2026-09-19 this directory is their home.
 
@@ -43,11 +42,18 @@ A reference carries bibliographic fields, an `ids` block (`doi`, `pmid`, `openal
 
 After adding or changing a reference, run `python src/check_references.py`. It compares each reference's citation string with the bibliographic record its DOI resolves to and reports the ones that disagree, which is how a DOI attached to the wrong paper is caught. A tool-filled DOI is not trusted until the two agree.
 
-## Task families
+## Task families and process categories
 
-A family groups tasks by what the participant does, not by which cognitive process the task is thought to measure. That is the same principle the task criteria use to decide whether two experiments are the same task: procedure first. The Catalog's process list covers the other axis, so the two views cross-link rather than duplicate one another.
+A family groups tasks by what the participant does, not by which cognitive process the task is thought to measure. That is the same principle the task criteria use to decide whether two experiments are the same task: procedure first. The Catalog's process list covers the other axis, so the two views cross-link rather than duplicate one another. Categories group processes by research tradition in the same organizational spirit.
 
-Every task is filed under exactly one family, which is what lets the site's sidebar nest the task pages. The assignment is a curation decision, and it is expected to change as the Catalog grows. When a task genuinely spans two families the `rationale` column names the alternative.
+Families and categories are organizational, not a hierarchy (GitHub issue 28). A task or process may belong to several, so membership is a list on the record itself: `families` on a task in `task_details.json`, `categories` on a process in `process_details.json`. Each entry has:
+
+- `family_id` or `category_id` - must exist in `task_family_defs.tsv` or in the `categories` array
+- `role` - `primary` for the one family or category the record is filed under (its page holds the full entry; the sidebar and listings place it there), `secondary` for a cross-listing. Exactly one entry is `primary`.
+- `confidence` - `high` (the default when omitted) or `review`. A `review` mark flags a judgement call for a second opinion: on the primary, "not sure this is the right home"; on a secondary, "not sure this belongs here at all". Review entries are listed under "Marked for review" on the family or category page.
+- `rationale` - one line saying why; required on a secondary and on any `review` entry, naming the alternative or the doubt
+
+A pseudo task belongs to the `pseudo_tasks` family only. The site documents the same rules in the [task family assignment](https://www.hedtags.org/hed-task/methods/task_criteria/06_task_family_assignment.html) and [process category rules](https://www.hedtags.org/hed-task/methods/process_criteria/04_process_category_rules.html) pages.
 
 `task_family_defs.tsv`
 
@@ -56,11 +62,6 @@ Every task is filed under exactly one family, which is what lets the site's side
 - `name` - display name, sentence case
 - `scope` - one or two sentences saying what procedure the family covers and what is measured
 
-`task_families.tsv`
+`src/generate_docs.py` fails if a record has no primary or more than one, lists a family or category twice, names an unknown id, omits a required rationale, or if a family or category has no primary member. A category's `process_count` must equal the number of processes filed under it.
 
-- `hedtsk_id` - the task, as in `task_details.json`
-- `family_id` - must exist in `task_family_defs.tsv`
-- `confidence` - `high` when the filing is uncontroversial, `review` when a reasonable reader could file it elsewhere; the task index notes how many there are
-- `rationale` - one line saying why the task is in this family, naming the alternative when `confidence` is `review`
-
-`src/generate_docs.py` fails if a task has no family, a row names an unknown task or family, or a family has no tasks.
+The one-time move from the former `task_families.tsv` to the `families` field is recorded in `src/migrate_memberships.py`.

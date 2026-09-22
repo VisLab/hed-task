@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from generators.utils import process_link, table, task_link, write_page
+from generators.utils import primary_category, process_link, table, task_link, write_page
 
 
 def generate(
@@ -21,7 +21,7 @@ def generate(
     processes_by_id = {p["process_id"]: p for p in processes}
     processes_by_category: dict[str, list[dict]] = {}
     for proc in processes:
-        processes_by_category.setdefault(proc["category_id"], []).append(proc)
+        processes_by_category.setdefault(primary_category(proc), []).append(proc)
 
     sorted_categories = sorted(categories, key=lambda c: c["name"])
     sorted_tasks = sorted(tasks, key=lambda t: t["canonical_name"])
@@ -62,7 +62,7 @@ def generate(
         links = []
         for pid in task.get("hed_process_ids", []):
             proc = processes_by_id.get(pid)
-            links.append(process_link(pid, proc["process_name"], proc["category_id"]) if proc else f"`{pid}`")
+            links.append(process_link(pid, proc["process_name"], primary_category(proc)) if proc else f"`{pid}`")
         rows.append([task_link(task["hedtsk_id"], task["canonical_name"]), ", ".join(links) or "*none*"])
     parts.append(table(["Task", "Processes"], rows))
     parts.append("\n")

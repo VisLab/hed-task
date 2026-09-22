@@ -5,8 +5,7 @@ Inputs, all under data/ and all edited in this repository by pull request:
     task_details.json        the tasks (top level is a bare array)
     process_details.json     the processes and their categories
     mappings/*.tsv           the curated correspondence with the Cognitive Atlas
-    task_families.tsv        which paradigm family each task is filed under
-    task_family_defs.tsv     the families themselves
+    task_family_defs.tsv     the paradigm families (membership is on each task record)
     schemas/*.schema.json    JSON Schemas for the two catalog files
 
 Two kinds of page live under docs/source/. This script writes only the catalog pages,
@@ -52,7 +51,7 @@ from generators import (  # noqa: E402
     process_pages,
     task_pages,
 )
-from generators.utils import load_json, read_tsv  # noqa: E402
+from generators.utils import load_json, primary_category, primary_family, read_tsv  # noqa: E402
 
 # Everything the generator owns, relative to docs/source/. Nothing outside this list is
 # ever deleted or written.
@@ -92,6 +91,41 @@ def _reference_roles(schema: dict) -> set[str]:
     """The allowed `roles` values, read from the schema so they are defined once."""
     role_def = schema.get("definitions", {}).get("reference_role", {})
     return set(role_def.get("enum", []))
+
+
+def _check_memberships(records: list[dict], field: str, id_key: str, known: set[str], ident: str, problems: list[str]) -> None:
+    """Check a record's family or category memberships (issue 28).
+
+    Exactly one primary, no repeated ids, every id known, confidence in the vocabulary, a
+    rationale on every secondary and on every review entry. The JSON Schema checks the
+    shape of one membership; these rules span the list, so they live here.
+
+    Parameters:
+        records: Task or process records.
+        field: "families" or "categories".
+        id_key: "family_id" or "category_id".
+        known: The vocabulary of ids.
+        ident: The record's identifier field, for messages.
+        problems: The list to append messages to.
+    """
+    for r in records:
+        members = r.get(field, [])
+        label = f"{r[ident]}: {field}"
+        primaries = [m for m in members if m.get("role") == "primary"]
+        if len(primaries) != 1:
+            problems.append(f"{label} has {len(primaries)} primary memberships; exactly one is required")
+        ids = [m.get(id_key) for m in members]
+        for value, n in collections.Counter(ids).items():
+            if n > 1:
+                problems.append(f"{label} lists {value!r} {n} times")
+        for m in members:
+            if m.get(id_key) not in known:
+                problems.append(f"{label} names unknown {id_key} {m.get(id_key)!r}")
+            if m.get("confidence", "high") not in _VALID_CONFIDENCE:
+                problems.append(f"{label} {m.get(id_key)}: confidence {m.get('confidence')!r}, expected high or review")
+            needs_rationale = m.get("role") == "secondary" or m.get("confidence") == "review"
+            if needs_rationale and not m.get("rationale"):
+                problems.append(f"{label} {m.get(id_key)}: a secondary or review membership needs a rationale")
 
 
 def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None:
@@ -139,9 +173,10 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
             problems.append(
                 f"{t['hedtsk_id']}: a pseudo task carries no process links, but hed_process_ids is {t['hed_process_ids']}"
             )
-    for p in processes:
-        if p["category_id"] not in category_ids:
-            problems.append(f"{p['process_id']}: unknown category {p['category_id']!r}")
+    _check_memberships(processes, "categories", "category_id", category_ids, "process_id", problems)
+    primary_cats = {primary_category(p) for p in processes if any(m.get("role") == "primary" for m in p.get("categories", []))}
+    for cid in sorted(category_ids - primary_cats):
+        problems.append(f"category {cid}: no process is filed under it")
 
     # Derived fields must agree with their sources: a process's tasks[] with the tasks
     # that name it, task_count with tasks[], and the category and header counts.
@@ -162,11 +197,14 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
         for x in p.get("tasks", []):
             if x["hedtsk_id"] not in task_ids:
                 problems.append(f"{p['process_id']}: tasks[] names unknown task {x['hedtsk_id']!r}")
-    per_category = collections.Counter(p["category_id"] for p in processes)
+    per_category = collections.Counter(
+        primary_category(p) for p in processes if any(m.get("role") == "primary" for m in p.get("categories", []))
+    )
     for c in categories:
         if c.get("process_count") != per_category[c["category_id"]]:
             problems.append(
-                f"category {c['category_id']}: process_count {c.get('process_count')} but {per_category[c['category_id']]} processes"
+                f"category {c['category_id']}: process_count {c.get('process_count')} but "
+                f"{per_category[c['category_id']]} processes are filed under it"
             )
     for key, actual in (
         ("total_processes", len(processes)),
@@ -202,62 +240,45 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
         sys.exit(f"Catalog data is inconsistent ({len(problems)} problems); nothing written.\n  " + "\n  ".join(problems))
 
 
-def load_families(data_dir: Path, tasks: list[dict]) -> tuple[list[dict], list[dict]]:
-    """Read and validate data/task_family_defs.tsv and data/task_families.tsv.
+def load_families(data_dir: Path, tasks: list[dict]) -> list[dict]:
+    """Read data/task_family_defs.tsv and validate every task's `families` against it.
 
     Raises SystemExit with a list of every problem found, so that a partial site is never
-    published from an inconsistent assignment.
+    published from an inconsistent assignment. Returns the family definitions sorted by
+    display order.
     """
     defs = read_tsv(data_dir / "task_family_defs.tsv")
-    rows = read_tsv(data_dir / "task_families.tsv")
     problems: list[str] = []
 
     if not defs:
         problems.append("data/task_family_defs.tsv is missing or empty")
-    if not rows:
-        problems.append("data/task_families.tsv is missing or empty")
 
     family_ids = [d["family_id"] for d in defs]
     if len(family_ids) != len(set(family_ids)):
         problems.append("duplicate family_id in task_family_defs.tsv")
     known = set(family_ids)
 
-    task_ids = {t["hedtsk_id"] for t in tasks}
-    seen: set[str] = set()
-    used: set[str] = set()
-    for row in rows:
-        tid = row["hedtsk_id"]
-        if tid in seen:
-            problems.append(f"task_families.tsv: {tid} appears more than once")
-        seen.add(tid)
-        if tid not in task_ids:
-            problems.append(f"task_families.tsv: {tid} is not a task in the catalog")
-        if row["family_id"] not in known:
-            problems.append(f"task_families.tsv: {tid} names unknown family {row['family_id']!r}")
-        used.add(row["family_id"])
-        if row["confidence"] not in _VALID_CONFIDENCE:
-            problems.append(f"task_families.tsv: {tid} has confidence {row['confidence']!r}, expected high or review")
-    for tid in sorted(task_ids - seen):
-        problems.append(f"task_families.tsv: catalog task {tid} has no family")
+    _check_memberships(tasks, "families", "family_id", known, "hedtsk_id", problems)
+    with_primary = [t for t in tasks if any(m.get("role") == "primary" for m in t.get("families", []))]
+    used = {primary_family(t) for t in with_primary}
     for fid in sorted(known - used):
-        problems.append(f"task_family_defs.tsv: family {fid} has no tasks")
+        problems.append(f"task_family_defs.tsv: no task is filed under family {fid}")
 
-    # Pseudo tasks and the pseudo-task family belong together, in both directions.
-    kind_of = {t["hedtsk_id"]: t.get("task_kind", "task") for t in tasks}
-    for row in rows:
-        kind = kind_of.get(row["hedtsk_id"], "task")
-        if kind == "pseudo_task" and row["family_id"] != PSEUDO_FAMILY:
-            problems.append(f"task_families.tsv: pseudo task {row['hedtsk_id']} must be in family {PSEUDO_FAMILY!r}")
-        if kind != "pseudo_task" and row["family_id"] == PSEUDO_FAMILY:
-            problems.append(
-                f"task_families.tsv: {row['hedtsk_id']} is in {PSEUDO_FAMILY!r} but its task_kind is not pseudo_task"
-            )
+    # Pseudo tasks and the pseudo-task family belong together, in both directions, and a
+    # pseudo task is not cross-listed elsewhere.
+    for t in with_primary:
+        kind = t.get("task_kind", "task")
+        listed = {m["family_id"] for m in t["families"]}
+        if kind == "pseudo_task" and (primary_family(t) != PSEUDO_FAMILY or listed != {PSEUDO_FAMILY}):
+            problems.append(f"{t['hedtsk_id']}: a pseudo task belongs to {PSEUDO_FAMILY!r} only")
+        if kind != "pseudo_task" and PSEUDO_FAMILY in listed:
+            problems.append(f"{t['hedtsk_id']}: is in {PSEUDO_FAMILY!r} but its task_kind is not pseudo_task")
 
     if problems:
         sys.exit("Family data is inconsistent; nothing written.\n  " + "\n  ".join(problems))
 
     defs.sort(key=lambda d: int(d["order"]))
-    return defs, rows
+    return defs
 
 
 # ---------------------------------------------------------------------------
@@ -292,7 +313,7 @@ def main() -> None:
 
     print("Validating the catalog ...")
     validate_catalog(data_dir, tasks, proc_data)
-    families, family_rows = load_families(data_dir, tasks)
+    families = load_families(data_dir, tasks)
     print(
         f"  {len(tasks)} tasks, {len(processes)} processes, {len(categories)} categories, {len(families)} families: consistent"
     )
@@ -309,7 +330,7 @@ def main() -> None:
     total = 0
 
     print("Generating docs/source/tasks/ ...")
-    n = task_pages.generate(docs_dir, tasks, processes_by_id, families, family_rows, atlas_map)
+    n = task_pages.generate(docs_dir, tasks, processes_by_id, families, atlas_map)
     total += n
     print(
         f"  Wrote {n} task files (index, tasks_by_paradigm_family, {len(families)} family pages, tasks_alphabetically, {len(tasks)} task pages)."

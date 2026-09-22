@@ -23,12 +23,15 @@ Cue words are presented with instructions to either retrieve or suppress their l
 
 ## Marked for review
 
-The filing of these tasks is a judgement call; the note says why they are here and
-where else they could go.
+A `review` mark means the assignment is a judgement call the curator has flagged for a
+second opinion. On the family an entry is filed under it means "not sure this is the right
+home"; on a cross-listing it means "not sure this belongs here at all". The note names
+the alternative or the doubt. Comments go to the
+[issue tracker](https://github.com/hed-standard/hed-task/issues).
 
-| Task | Note |
-|---|---|
-| [Prospective Memory](../hedtsk_prospective_memory.md) | Execute a deferred intention during an ongoing task; the only prospective paradigm in the Catalog |
+| Task | Membership | Note |
+|---|---|---|
+| [Prospective Memory](../hedtsk_prospective_memory.md) | filed here | Execute a deferred intention during an ongoing task; the only prospective paradigm in the Catalog |
 
 ```{toctree}
 :hidden:

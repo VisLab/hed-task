@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_remote_associates`
 
-**Family:** [Rule use, planning and reasoning tasks](families/executive_and_reasoning.md)
+**Family:** [Rule use, planning and reasoning tasks](families/executive_and_reasoning.md) (also [Language comprehension and production tasks](families/language.md))
 
 **Also known as:** Remote Associates Test, RAT, Remote Associates
 

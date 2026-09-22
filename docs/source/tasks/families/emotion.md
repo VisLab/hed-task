@@ -21,15 +21,6 @@ View affective images under instructions to reappraise or passively view; self-r
 
 Identification of an emotion category from a face image; accuracy and RT per emotion index emotion decoding ability. Engages 4 processes.
 
-## Marked for review
-
-The filing of these tasks is a judgement call; the note says why they are here and
-where else they could go.
-
-| Task | Note |
-|---|---|
-| [Affective Priming](../hedtsk_affective_priming.md) | Evaluative priming; the congruence structure could argue for conflict and interference |
-
 ```{toctree}
 :hidden:
 :maxdepth: 1

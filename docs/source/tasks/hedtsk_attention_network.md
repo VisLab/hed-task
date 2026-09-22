@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_attention_network`
 
-**Family:** [Attentional cueing and orienting tasks](families/attentional_cueing.md)
+**Family:** [Attentional cueing and orienting tasks](families/attentional_cueing.md) (also [Conflict and interference tasks](families/conflict_and_interference.md))
 
 **Also known as:** Attention Network Test, ANT, Clinical Screening ANT
 

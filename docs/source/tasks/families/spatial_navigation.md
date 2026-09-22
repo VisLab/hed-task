@@ -17,15 +17,6 @@ Navigate a virtual circular arena to find a hidden platform using distal spatial
 
 Virtual multi-arm maze in which participants retrieve rewards from each arm once; working-memory and reference-memory errors index spatial memory. Engages 4 processes.
 
-## Marked for review
-
-The filing of these tasks is a judgement call; the note says why they are here and
-where else they could go.
-
-| Task | Note |
-|---|---|
-| [Mental Rotation](../hedtsk_mental_rotation.md) | Rotate objects mentally; could be filed under perceptual judgment |
-
 ```{toctree}
 :hidden:
 :maxdepth: 1

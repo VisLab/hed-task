@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_navon`
 
-**Family:** [Conflict and interference tasks](families/conflict_and_interference.md)
+**Family:** [Conflict and interference tasks](families/conflict_and_interference.md) (also [Perceptual judgment and psychophysics tasks](families/perceptual_judgment.md))
 
 **Also known as:** Global-Local Task, Navon Letters
 

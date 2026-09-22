@@ -71,9 +71,11 @@ Tasks are filed under {{ n_families }} **paradigm families** by what the partici
 conflict and interference tasks, response inhibition tasks, recall and recognition
 tests, economic games, and so on. The Stroop Color-Word Task is in the family
 *Conflict and interference tasks*. A family is a browsing aid, not a claim about mechanism; the
-processes a task engages are the place to look for that. Every task is in exactly one
-family, and the assignment is a curation decision that is expected to change. The
-[task index](tasks/index.md) lists the families with their scope.
+processes a task engages are the place to look for that. Every task is filed under one
+primary family and may be cross-listed under others; the assignment is a curation
+decision that is expected to change, and the
+[task family assignment rules](methods/task_criteria/06_task_family_assignment.md) say
+how it is made. The [task index](tasks/index.md) lists the families with their scope.
 
 ## Cognitive processes
 
@@ -88,7 +90,8 @@ umbrella role is carried by the categories instead. The full rules are in the
 
 The Catalog has {{ n_processes }} processes in {{ n_categories }} **categories**. A category
 groups processes by research tradition for browsing and carries a scope statement and a
-note of what is out of scope. Each process page entry has a definition, aliases where
+note of what is out of scope. A process is filed under one primary category and may be
+cross-listed under others. Each process page entry has a definition, aliases where
 the literature uses more than one name, fundamental and recent references, and the list
 of tasks that engage it. Some processes are engaged by no task in the current Catalog;
 they are kept because they are real and the Catalog may grow a task for them.

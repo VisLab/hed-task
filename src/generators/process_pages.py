@@ -28,7 +28,19 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-from generators.utils import citation_line, process_anchor, split_references, table, task_link, write_page
+from generators.utils import (
+    REVIEW_NOTE,
+    cell,
+    citation_line,
+    primary_category,
+    primary_membership,
+    process_anchor,
+    secondary_memberships,
+    split_references,
+    table,
+    task_link,
+    write_page,
+)
 
 
 def generate(
@@ -44,18 +56,25 @@ def generate(
     procs_dir = docs_dir / "processes"
 
     processes_by_category: dict[str, list[dict]] = {}
+    # Secondary memberships, keyed by the category they cross-list into.
+    also_by_category: dict[str, list[tuple[dict, dict]]] = {}
     for proc in processes:
-        processes_by_category.setdefault(proc["category_id"], []).append(proc)
+        processes_by_category.setdefault(primary_category(proc), []).append(proc)
+        for member in secondary_memberships(proc, "categories"):
+            also_by_category.setdefault(member["category_id"], []).append((proc, member))
 
     sorted_categories = sorted(categories, key=lambda c: c["name"])
+    cat_name = {c["category_id"]: c["name"] for c in categories}
+    n_review = sum(1 for p in processes for m in p["categories"] if m.get("confidence") == "review")
 
     count = 0
-    count += _write_process_index(procs_dir, sorted_categories, processes_by_category)
+    count += _write_process_index(procs_dir, sorted_categories, processes_by_category, also_by_category, n_review)
     count += _write_by_category(procs_dir, sorted_categories, processes_by_category)
     count += _write_alphabetical(procs_dir, sorted_categories, processes)
     for cat in sorted_categories:
-        cat_procs = processes_by_category.get(cat["category_id"], [])
-        count += _write_category_page(procs_dir, cat, cat_procs)
+        cat_id = cat["category_id"]
+        cat_procs = processes_by_category.get(cat_id, [])
+        count += _write_category_page(procs_dir, cat, cat_procs, also_by_category.get(cat_id, []), cat_name)
     return count
 
 
@@ -101,15 +120,22 @@ def _write_process_index(
     procs_dir: Path,
     sorted_categories: list[dict],
     processes_by_category: dict[str, list[dict]],
+    also_by_category: dict[str, list[tuple[dict, dict]]],
+    n_review: int,
 ) -> int:
     """Write docs/processes/index.md: the landing page, nesting the two listing pages."""
     all_procs = [p for procs in processes_by_category.values() for p in procs]
     total_procs = len(all_procs)
     n_linked = sum(1 for p in all_procs if p.get("tasks"))
     n_cats = len(sorted_categories)
+    n_also = len({p["process_id"] for pairs in also_by_category.values() for p, _ in pairs})
 
     rows = [
-        [f"[{cat['name']}]({cat['category_id']}.md)", str(len(processes_by_category.get(cat["category_id"], [])))]
+        [
+            f"[{cat['name']}]({cat['category_id']}.md)",
+            str(len(processes_by_category.get(cat["category_id"], []))),
+            str(len(also_by_category[cat["category_id"]])) if also_by_category.get(cat["category_id"]) else "-",
+        ]
         for cat in sorted_categories
     ]
     content = (
@@ -123,14 +149,19 @@ def _write_process_index(
         "Catalog; the rest are kept because the Catalog may grow a task for them.\n\n"
         "Categories group processes by research tradition for browsing. They are organizational\n"
         "labels, not ontological commitments: a process belongs to the category whose scope best\n"
-        "describes where it is studied, and categories imply no inheritance.\n\n"
+        "describes where it is studied, and categories imply no inheritance. Every process has one\n"
+        "**primary** category, where its entry is filed, and may be cross-listed under others as a\n"
+        f"**secondary** member; {n_also} processes are cross-listed at present, and {n_review}\n"
+        "memberships are marked `review`. The\n"
+        "[process category rules](../methods/process_criteria/04_process_category_rules.md) say how\n"
+        "categories are assigned.\n\n" + REVIEW_NOTE.format(unit="category") + "\n"
         "Two ways in:\n\n"
         "- [Processes by category](processes_by_category.md) lists every process under its category, with\n"
         "  the category's scope statement.\n"
         "- [Processes alphabetically](processes_alphabetically.md) lists every process in name order, for\n"
         "  when you know the name and not the category.\n\n"
         "## Categories at a glance\n\n"
-        + table(["Category", "Processes"], rows)
+        + table(["Category", "Processes filed", "Cross-listed"], rows)
         + "\n\n"
         + _toctree(
             [("Processes by category", "processes_by_category"), ("Processes alphabetically", "processes_alphabetically")], 2
@@ -183,7 +214,7 @@ def _write_alphabetical(procs_dir: Path, sorted_categories: list[dict], processe
         "[Processes by category](processes_by_category.md) presents the same processes grouped by category.\n\n",
     ]
     for proc in sorted(processes, key=lambda p: p["process_name"]):
-        cat_id = proc["category_id"]
+        cat_id = primary_category(proc)
         parts.append(f"## [{proc['process_name']}]({cat_id}.md#{process_anchor(proc['process_id'])})\n\n")
         parts.append(
             f"{proc.get('definition', '').strip()} Filed under\n[{cat_name[cat_id]}]({cat_id}.md); {_engaged_by(proc)}.\n\n"
@@ -309,8 +340,21 @@ def _citations(refs: list[dict]) -> list[str]:
     return [citation_line(r) for r in refs if r.get("citation_string")]
 
 
-def _write_category_page(procs_dir: Path, category: dict, cat_procs: list[dict]) -> int:
-    """Write docs/processes/{category_id}.md."""
+def _write_category_page(
+    procs_dir: Path,
+    category: dict,
+    cat_procs: list[dict],
+    also: list[tuple[dict, dict]],
+    cat_name: dict[str, str],
+) -> int:
+    """Write docs/processes/{category_id}.md.
+
+    Parameters:
+        category: The category record.
+        cat_procs: Processes filed under it (primary membership).
+        also: (process, membership) pairs cross-listed here (secondary membership).
+        cat_name: Category names keyed by id, for naming a process's own category.
+    """
     cat_id = category["category_id"]
     name = category["name"]
     scope = _publish(
@@ -342,7 +386,11 @@ def _write_category_page(procs_dir: Path, category: dict, cat_procs: list[dict])
 
     # No summary table here: the sections below carry the full definitions, and the
     # right-hand contents menu lists the processes.
-    parts.append(f"This category contains {len(sorted_procs)} processes.\n\n")
+    summary = f"This category contains {len(sorted_procs)} processes"
+    parts.append(summary + (f" and cross-lists {len(also)} more.\n\n" if also else ".\n\n"))
+
+    def link(p: dict) -> str:
+        return f"[{p['process_name']}]({primary_category(p)}.md#{process_anchor(p['process_id'])})"
 
     for proc in sorted_procs:
         proc_id = proc["process_id"]
@@ -353,6 +401,10 @@ def _write_category_page(procs_dir: Path, category: dict, cat_procs: list[dict])
         parts.append(f"**Process ID:** `{proc_id}`\n\n")
         if proc.get("aliases"):
             parts.append(f"**Also known as:** {_format_aliases(proc['aliases'])}\n\n")
+        secondaries = secondary_memberships(proc, "categories")
+        if secondaries:
+            links = ", ".join(f"[{cat_name[m['category_id']]}]({m['category_id']}.md)" for m in secondaries)
+            parts.append(f"**Also in:** {links}\n\n")
         parts.append(f"{proc.get('definition', '')}\n\n")
 
         tasks = sorted(proc.get("tasks", []), key=lambda t: t["canonical_name"])
@@ -373,6 +425,30 @@ def _write_category_page(procs_dir: Path, category: dict, cat_procs: list[dict])
             parts.append("**Further references**\n\n")
             parts.extend(f"- {c}\n" for c in further)
             parts.append("\n")
+
+    if also:
+        parts.append("## Also in this category\n\n")
+        parts.append("These processes are filed under another category and cross-listed here; the note says why.\n\n")
+        rows = [
+            [link(p), f"[{cat_name[primary_category(p)]}]({primary_category(p)}.md)", cell(m.get("rationale", ""))]
+            for p, m in also
+        ]
+        parts.append(table(["Process", "Filed under", "Note"], rows))
+        parts.append("\n\n")
+
+    review_rows: list[list[str]] = []
+    for p in sorted_procs:
+        m = primary_membership(p, "categories")
+        if m.get("confidence") == "review":
+            review_rows.append([link(p), "filed here", cell(m.get("rationale", ""))])
+    for p, m in also:
+        if m.get("confidence") == "review":
+            review_rows.append([link(p), "cross-listed", cell(m.get("rationale", ""))])
+    if review_rows:
+        parts.append("## Marked for review\n\n")
+        parts.append(REVIEW_NOTE.format(unit="category") + "\n")
+        parts.append(table(["Process", "Membership", "Note"], review_rows))
+        parts.append("\n\n")
 
     write_page(procs_dir / f"{cat_id}.md", "".join(parts))
     return 1

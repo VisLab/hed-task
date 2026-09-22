@@ -3,7 +3,7 @@
 
 Contingencies between stimuli, actions and outcomes are learned from experience, with or without explicit instruction; learning curves, choice probabilities and perseveration are the measures.
 
-This family contains 10 tasks.
+This family contains 10 tasks and cross-lists 1 more.
 
 ## [Artificial Grammar Learning](../hedtsk_artificial_grammar_learning.md)
 
@@ -45,14 +45,25 @@ Sequential key-press responses to cued locations; RT speedup on repeating vs ran
 
 Sequential two-choice task with probabilistic transitions to second-stage states and drifting rewards; choice patterns dissociate model-based from model-free control. Engages 5 processes.
 
+## Also filed here
+
+These tasks are filed under another family and cross-listed here; the note says why.
+
+| Task | Filed under | Note |
+|---|---|---|
+| [Contextual Cueing](../hedtsk_contextual_cueing.md) | [Visual search and tracking tasks](visual_search_and_tracking.md) | Visual search with repeated layouts; the learning could argue for conditioning and implicit learning |
+
 ## Marked for review
 
-The filing of these tasks is a judgement call; the note says why they are here and
-where else they could go.
+A `review` mark means the assignment is a judgement call the curator has flagged for a
+second opinion. On the family an entry is filed under it means "not sure this is the right
+home"; on a cross-listing it means "not sure this belongs here at all". The note names
+the alternative or the doubt. Comments go to the
+[issue tracker](https://github.com/hed-standard/hed-task/issues).
 
-| Task | Note |
-|---|---|
-| [Serial Reaction Time](../hedtsk_serial_reaction_time.md) | Implicit sequence learning through key presses; could be filed under motor performance |
+| Task | Membership | Note |
+|---|---|---|
+| [Contextual Cueing](../hedtsk_contextual_cueing.md) | cross-listed | Visual search with repeated layouts; the learning could argue for conditioning and implicit learning |
 
 ```{toctree}
 :hidden:

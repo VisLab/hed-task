@@ -3,7 +3,7 @@
 
 Another agent's mental state must be inferred, or money must be allocated between the participant and another player; inference accuracy and allocation patterns are the measures.
 
-This family contains 6 tasks.
+This family contains 6 tasks and cross-lists 1 more.
 
 ## [Dictator Game](../hedtsk_dictator_game.md)
 
@@ -28,6 +28,26 @@ Two-stage exchange in which an investor transfers a fraction of an endowment (mu
 ## [Ultimatum Game](../hedtsk_ultimatum_game.md)
 
 Proposer offers a division of an endowment; responder accepts or rejects. Rejection of unfair offers indexes inequity aversion and strategic punishment. Engages 4 processes.
+
+## Also filed here
+
+These tasks are filed under another family and cross-listed here; the note says why.
+
+| Task | Filed under | Note |
+|---|---|---|
+| [Weapons Identification](../hedtsk_weapons_identification.md) | [Conflict and interference tasks](conflict_and_interference.md) | Race prime creates a congruence effect on categorization; could be filed under social cognition |
+
+## Marked for review
+
+A `review` mark means the assignment is a judgement call the curator has flagged for a
+second opinion. On the family an entry is filed under it means "not sure this is the right
+home"; on a cross-listing it means "not sure this belongs here at all". The note names
+the alternative or the doubt. Comments go to the
+[issue tracker](https://github.com/hed-standard/hed-task/issues).
+
+| Task | Membership | Note |
+|---|---|---|
+| [Weapons Identification](../hedtsk_weapons_identification.md) | cross-listed | Race prime creates a congruence effect on categorization; could be filed under social cognition |
 
 ```{toctree}
 :hidden:

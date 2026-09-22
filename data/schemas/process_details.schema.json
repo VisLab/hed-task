@@ -88,7 +88,8 @@
         },
         "process_count": {
           "type": "integer",
-          "minimum": 0
+          "minimum": 0,
+          "description": "Number of processes whose primary category this is."
         }
       }
     },
@@ -97,7 +98,7 @@
       "required": [
         "process_id",
         "process_name",
-        "category_id",
+        "categories",
         "definition"
       ],
       "properties": {
@@ -110,10 +111,13 @@
           "type": "string",
           "minLength": 1
         },
-        "category_id": {
-          "type": "string",
-          "pattern": "^[a-z][a-z0-9_]*$",
-          "description": "Must reference a category_id defined in the categories array (cross-check enforced in Python validator, not here)."
+        "categories": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/category_membership"
+          },
+          "description": "The categories this process belongs to: exactly one primary (where it is filed) and any number of secondary cross-listings."
         },
         "definition": {
           "type": "string",
@@ -507,6 +511,41 @@
         "unknown"
       ],
       "description": "Role vocabulary fixed by CLAUDE.md (2026-04-23)."
+    },
+    "category_membership": {
+      "type": "object",
+      "description": "One category membership. Exactly one membership per record has role 'primary' (where the record is filed; the category page holds its full entry); the rest are 'secondary' cross-listings. confidence 'review' flags a judgement call for a second opinion: on the primary, 'not sure this is the right home'; on a secondary, 'not sure this belongs here at all'. rationale is required on a secondary and on any review entry (cross-checks in src/generate_docs.py).",
+      "required": [
+        "category_id",
+        "role"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "category_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "description": "Must exist in the categories array."
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "primary",
+            "secondary"
+          ]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": [
+            "high",
+            "review"
+          ],
+          "description": "Omitted means 'high'."
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
     }
   }
 }

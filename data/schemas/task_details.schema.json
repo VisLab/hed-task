@@ -16,6 +16,7 @@
         "short_definition",
         "description",
         "inclusion_test",
+        "families",
         "hed_process_ids"
       ],
       "properties": {
@@ -70,6 +71,14 @@
         "status": {
           "type": "string",
           "description": "Editorial status; current single value is 'complete' but kept open-typed for future states."
+        },
+        "families": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/family_membership"
+          },
+          "description": "The paradigm families this task belongs to: exactly one primary (where it is filed) and any number of secondary cross-listings. A pseudo task's primary is pseudo_tasks."
         },
         "hed_process_ids": {
           "type": "array",
@@ -452,6 +461,41 @@
         "unknown"
       ],
       "description": "Role vocabulary fixed by CLAUDE.md (2026-04-23)."
+    },
+    "family_membership": {
+      "type": "object",
+      "description": "One family membership. Exactly one membership per record has role 'primary' (where the record is filed; the family page holds its full entry); the rest are 'secondary' cross-listings. confidence 'review' flags a judgement call for a second opinion: on the primary, 'not sure this is the right home'; on a secondary, 'not sure this belongs here at all'. rationale is required on a secondary and on any review entry (cross-checks in src/generate_docs.py).",
+      "required": [
+        "family_id",
+        "role"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "family_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "description": "Must exist in data/task_family_defs.tsv."
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "primary",
+            "secondary"
+          ]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": [
+            "high",
+            "review"
+          ],
+          "description": "Omitted means 'high'."
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
     }
   }
 }

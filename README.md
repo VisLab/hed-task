@@ -40,7 +40,7 @@ hed-task/
 
 Two kinds of page live in `docs/source/`. The narrative pages (landing page, introduction, how to use, the four Cognitive Atlas pages, and the three Methods documents) are hand-written Markdown: edit them directly. The catalog pages (`tasks/`, `processes/`, `task_process_links.md`, and the table fragments in `_generated/`) are generated from the JSON and TSV data in `data/` by the scripts in `src/`, and are never edited by hand. Each hand-written page says so in a comment at its top. See [Regenerating the site](#regenerating-the-site) below.
 
-The Catalog itself lives in `data/`: `task_details.json`, `process_details.json`, their JSON Schemas, the Cognitive Atlas mapping tables and the paradigm-family tables. It is edited here by pull request; `data/README.md` says how, and `python src/generate_docs.py` validates every edit before writing a page. The two JSON files began as a one-time import from the research workspace that found the citations (`src/import_catalog.py` records that migration).
+The Catalog itself lives in `data/`: `task_details.json`, `process_details.json`, their JSON Schemas, the Cognitive Atlas mapping tables and the paradigm-family definitions. It is edited here by pull request; `data/README.md` says how, and `python src/generate_docs.py` validates every edit before writing a page. The two JSON files began as a one-time import from the research workspace that found the citations (`src/import_catalog.py` records that migration).
 
 ## Local development
 

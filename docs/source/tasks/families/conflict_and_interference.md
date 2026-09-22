@@ -3,7 +3,7 @@
 
 A task-relevant feature must be reported while a task-irrelevant feature of the same stimulus or of a distractor pulls toward a competing response; the cost on incongruent trials is the measure.
 
-This family contains 8 tasks.
+This family contains 8 tasks and cross-lists 2 more.
 
 ## [Emotional Stroop](../hedtsk_emotional_stroop.md)
 
@@ -37,15 +37,27 @@ Naming the ink color of color words while ignoring word meaning; RT and error co
 
 Speeded categorization of tools vs weapons primed by faces of varying race; congruence effects index implicit racial bias in perception. Engages 6 processes.
 
+## Also filed here
+
+These tasks are filed under another family and cross-listed here; the note says why.
+
+| Task | Filed under | Note |
+|---|---|---|
+| [Affective Priming](../hedtsk_affective_priming.md) | [Emotion elicitation and regulation tasks](emotion.md) | Evaluative priming; the congruence structure could argue for conflict and interference |
+| [Attention Network](../hedtsk_attention_network.md) | [Attentional cueing and orienting tasks](attentional_cueing.md) | Cueing combined with a flanker; filed by its cue manipulation |
+
 ## Marked for review
 
-The filing of these tasks is a judgement call; the note says why they are here and
-where else they could go.
+A `review` mark means the assignment is a judgement call the curator has flagged for a
+second opinion. On the family an entry is filed under it means "not sure this is the right
+home"; on a cross-listing it means "not sure this belongs here at all". The note names
+the alternative or the doubt. Comments go to the
+[issue tracker](https://github.com/hed-standard/hed-task/issues).
 
-| Task | Note |
-|---|---|
-| [Navon](../hedtsk_navon.md) | Global-local interference; could be filed under perceptual judgment |
-| [Weapons Identification](../hedtsk_weapons_identification.md) | Race prime creates a congruence effect on categorization; could be filed under social cognition |
+| Task | Membership | Note |
+|---|---|---|
+| [Affective Priming](../hedtsk_affective_priming.md) | cross-listed | Evaluative priming; the congruence structure could argue for conflict and interference |
+| [Attention Network](../hedtsk_attention_network.md) | cross-listed | Cueing combined with a flanker; filed by its cue manipulation |
 
 ```{toctree}
 :hidden:

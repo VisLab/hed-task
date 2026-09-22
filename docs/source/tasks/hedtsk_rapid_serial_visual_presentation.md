@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_rapid_serial_visual_presentation`
 
-**Family:** [Oddball, vigilance and continuous performance tasks](families/oddball_and_vigilance.md)
+**Family:** [Oddball, vigilance and continuous performance tasks](families/oddball_and_vigilance.md) (also [Visual search and tracking tasks](families/visual_search_and_tracking.md))
 
 **Also known as:** RSVP Task, Attentional Blink Task, AB Task, RSVP Attentional Blink, RSVP Target Detection, RSVP Stream Task, Dual-Target RSVP
 
