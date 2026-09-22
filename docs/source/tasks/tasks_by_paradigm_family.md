@@ -532,7 +532,7 @@ Virtual multi-arm maze in which participants retrieve rewards from each arm once
 
 ## [Pseudo tasks: rest, fixation, self-report and feedback blocks](families/pseudo_tasks.md)
 
-Block-level activities that establish or hold a brain state, collect a self-report, or deliver feedback, rather than eliciting a process through trials; the participant rests, fixates, answers a questionnaire or receives a performance summary, and the block's onset, offset and instruction are what is recorded. Pseudo tasks carry no process links at this time.
+Block-level activities that serve the experiment around them rather than eliciting a process through trials: a resting block as a baseline or a reset, a fixation block that sets up a physical state, a questionnaire that collects a self-report, and feedback that tells the participant how they are performing, after a response, a block or a session. For rest, fixation and questionnaires the block's onset, offset and instruction are what is recorded; for feedback its schedule, content, valence and modality are recorded as well. Pseudo tasks have no process links recorded at this time.
 
 ### [Fixate](hedtsk_fixate.md)
 

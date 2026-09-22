@@ -39,8 +39,9 @@ least one of the listed variables, and it records at least one of the listed mea
 
 ## Cognitive processes
 
-None linked yet. A pseudo task is not run to probe a process, so the processes engaged during
-the block have not been recorded; linking them is future work.
+No process links have been recorded for this pseudo task. That is a gap in the Catalog, not a
+claim that the block engages no process: a pseudo task is not run to probe a process, and the
+processes it does engage have not yet been linked.
 
 ## Further references
 

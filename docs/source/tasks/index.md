@@ -1,8 +1,9 @@
 # Tasks
 
 The Catalog defines 103 standard cognitive and behavioral neuroscience tasks, and
-4 pseudo tasks (rest, fixation, questionnaire and feedback blocks) that set up or hold a state
-rather than eliciting a process.
+4 pseudo tasks (rest, fixation, questionnaire and feedback blocks) that serve the experiment
+around them, as a baseline, a reset, a set-up or an exchange of information, rather than eliciting a
+process.
 Each task page gives the canonical name and aliases, a description, the inclusion
 test that decides whether an experiment is an instance of the task, its named
 variations, the cognitive processes it engages, and references.

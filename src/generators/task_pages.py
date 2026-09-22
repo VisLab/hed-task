@@ -238,8 +238,9 @@ def _write_task_index(
     parts: list[str] = [
         "# Tasks\n\n",
         f"The Catalog defines {n_tasks} standard cognitive and behavioral neuroscience tasks, and\n"
-        f"{n_pseudo} pseudo tasks (rest, fixation, questionnaire and feedback blocks) that set up or hold a state\n"
-        "rather than eliciting a process.\n"
+        f"{n_pseudo} pseudo tasks (rest, fixation, questionnaire and feedback blocks) that serve the experiment\n"
+        "around them, as a baseline, a reset, a set-up or an exchange of information, rather than eliciting a\n"
+        "process.\n"
         "Each task page gives the canonical name and aliases, a description, the inclusion\n"
         "test that decides whether an experiment is an instance of the task, its named\n"
         "variations, the cognitive processes it engages, and references.\n\n",
@@ -515,8 +516,9 @@ def _write_task_page(
     if is_pseudo and not hed_process_ids:
         parts.append("## Cognitive processes\n\n")
         parts.append(
-            "None linked yet. A pseudo task is not run to probe a process, so the processes engaged during\n"
-            "the block have not been recorded; linking them is future work.\n\n"
+            "No process links have been recorded for this pseudo task. That is a gap in the Catalog, not a\n"
+            "claim that the block engages no process: a pseudo task is not run to probe a process, and the\n"
+            "processes it does engage have not yet been linked.\n\n"
         )
     if hed_process_ids:
         parts.append("## Cognitive processes\n\n")
