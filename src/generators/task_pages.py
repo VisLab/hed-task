@@ -26,6 +26,7 @@ written, so this module can assume every task has exactly one known family.
 
 from __future__ import annotations
 
+import html
 import sys
 from pathlib import Path
 
@@ -36,6 +37,7 @@ from generators.utils import (
     primary_category,
     primary_family,
     primary_membership,
+    process_anchor,
     process_link,
     secondary_memberships,
     split_references,
@@ -79,11 +81,11 @@ def generate(
 
     count = 0
     count += _write_task_index(tasks_dir, families, tasks_by_family, also_by_family, n_review)
-    count += _write_by_family(tasks_dir, families, tasks_by_family)
+    count += _write_by_family(tasks_dir, families, tasks_by_family, also_by_family, processes_by_id, family_by_id)
     for fam in families:
         fid = fam["family_id"]
-        count += _write_family_page(tasks_dir, fam, tasks_by_family[fid], also_by_family[fid], family_by_id)
-    count += _write_alphabetical(tasks_dir, sorted_tasks, family_of, family_by_id)
+        count += _write_family_page(tasks_dir, fam, tasks_by_family[fid], also_by_family[fid], family_by_id, processes_by_id)
+    count += _write_alphabetical(tasks_dir, sorted_tasks, family_by_id, processes_by_id)
     for task in sorted_tasks:
         fam = family_by_id[family_of[task["hedtsk_id"]]]
         count += _write_task_page(tasks_dir, task, fam, family_by_id, processes_by_id, atlas_map or {})
@@ -126,9 +128,87 @@ def _toctree(entries: list[tuple[str, str]], maxdepth: int) -> str:
     return "\n".join(lines) + "\n"
 
 
-def _task_sections(fam_tasks: list[dict], link_prefix: str, level: int) -> str:
+def _pop(label: str, items: list[str]) -> str:
+    """Return `label` as a pop-up trigger whose card lists `items` (HTML strings).
+
+    The card is plain inline HTML that MyST passes through; the stylesheet (custom.css,
+    `.pop`) shows it on hover, tap or keyboard focus. Links inside it are written as
+    `.html` hrefs relative to the page, because Markdown is not parsed inside raw HTML.
+    With no items the label is returned as plain text.
+    """
+    if not items:
+        return label
+    card = "".join(f"<span>{item}</span>" for item in items)
+    return f'<span class="pop" tabindex="0">{label}<span class="pop-card">{card}</span></span>'
+
+
+def _count(n: int, singular: str, plural: str | None = None) -> str:
+    return f"{n} {singular if n == 1 else (plural or singular + 's')}"
+
+
+def _entry_details(
+    task: dict,
+    link_prefix: str,
+    processes_by_id: dict[str, dict],
+    family_by_id: dict[str, dict],
+    with_family: bool,
+) -> str:
+    """Return the one-sentence detail line of a listing entry, with pop-up counts.
+
+    "Engages N processes. N aliases, N variations, also filed under N other families."
+    Each count opens a card listing the items: processes and families as links, aliases
+    as text, variations as links to the task page's Variations section.
+
+    Parameters:
+        task: The task record.
+        link_prefix: Path prefix from the page being written to the task pages.
+        processes_by_id: Process records keyed by process_id, for names and anchors.
+        family_by_id: Family definitions keyed by id.
+        with_family: Whether to open with "Filed under <family>" (the alphabetical page).
+    """
+    tid = task["hedtsk_id"]
+    proc_ids = task.get("hed_process_ids", [])
+    proc_items = []
+    for pid in proc_ids:
+        proc = processes_by_id.get(pid)
+        if proc is None:
+            proc_items.append(html.escape(pid))
+        else:
+            href = f"{link_prefix}../processes/{primary_category(proc)}.html#{process_anchor(pid)}"
+            proc_items.append(f'<a href="{href}">{html.escape(proc["process_name"])}</a>')
+    engages = (
+        "no process links (pseudo task)" if not proc_ids else _pop(_count(len(proc_ids), "process", "processes"), proc_items)
+    )
+
+    aliases = task.get("aliases", [])
+    alias_part = _pop(_count(len(aliases), "alias", "aliases"), [html.escape(a) for a in aliases]) if aliases else "no aliases"
+    variations = task.get("variations", [])
+    var_items = [f'<a href="{link_prefix}{tid}.html#variations">{html.escape(v["name"])}</a>' for v in variations]
+    var_part = _pop(_count(len(variations), "variation"), var_items) if variations else "no variations"
+    also_items = [
+        f'<a href="{link_prefix}families/{m["family_id"]}.html">{html.escape(family_by_id[m["family_id"]]["name"])}</a>'
+        for m in secondary_memberships(task, "families")
+    ]
+
+    lead = ""
+    if with_family:
+        fam = family_by_id[primary_family(task)]
+        lead = f"Filed under [{fam['name']}]({link_prefix}families/{fam['family_id']}.md). "
+    sentence = f"{lead}Engages {engages}. {alias_part[0].upper()}{alias_part[1:]}, {var_part}"
+    if also_items:
+        sentence += f", also filed under {_pop(_count(len(also_items), 'other family', 'other families'), also_items)}"
+    return sentence + "."
+
+
+def _task_sections(
+    fam_tasks: list[dict],
+    link_prefix: str,
+    level: int,
+    processes_by_id: dict[str, dict],
+    family_by_id: dict[str, dict],
+) -> str:
     """Return one short section per task: a linked heading, the full short definition,
-    and the number of processes the task engages.
+    and a detail line whose counts pop up the items (see `_entry_details`).
 
     The family listings used to be tables, which truncated the short definitions. A
     section per task shows the whole definition and puts every task in the page's
@@ -138,14 +218,15 @@ def _task_sections(fam_tasks: list[dict], link_prefix: str, level: int) -> str:
         fam_tasks: The tasks to list, in display order.
         link_prefix: Path prefix from the page being written to the task pages.
         level: Markdown heading level for each task.
+        processes_by_id: Process records keyed by process_id.
+        family_by_id: Family definitions keyed by id.
     """
     parts: list[str] = []
     for task in fam_tasks:
         name = _short_name(task["canonical_name"])
-        n_procs = len(task.get("hed_process_ids", []))
-        engages = "no process links (pseudo task)" if n_procs == 0 else f"{n_procs} process{'es' if n_procs != 1 else ''}"
         parts.append(f"{'#' * level} [{name}]({link_prefix}{task['hedtsk_id']}.md)\n\n")
-        parts.append(f"{task.get('short_definition', '').strip()} Engages {engages}.\n\n")
+        details = _entry_details(task, link_prefix, processes_by_id, family_by_id, with_family=False)
+        parts.append(f"{task.get('short_definition', '').strip()} {details}\n\n")
     return "".join(parts)
 
 
@@ -207,8 +288,19 @@ def _write_task_index(
     return 1
 
 
-def _write_by_family(tasks_dir: Path, families: list[dict], tasks_by_family: dict[str, list[dict]]) -> int:
-    """Write docs/tasks/tasks_by_paradigm_family.md: one section per family, nesting the family pages."""
+def _write_by_family(
+    tasks_dir: Path,
+    families: list[dict],
+    tasks_by_family: dict[str, list[dict]],
+    also_by_family: dict[str, list[tuple[dict, dict]]],
+    processes_by_id: dict[str, dict],
+    family_by_id: dict[str, dict],
+) -> int:
+    """Write docs/tasks/tasks_by_paradigm_family.md: one section per family, nesting the family pages.
+
+    A family's section lists the tasks filed under it in full, then the tasks cross-listed
+    into it as a short "Also filed here" list, each naming its own family and the reason.
+    """
     parts: list[str] = [
         "# Tasks by paradigm family\n\n",
         f"The {len(families)} paradigm families, each with its scope statement and the tasks filed\n"
@@ -228,7 +320,17 @@ def _write_by_family(tasks_dir: Path, families: list[dict], tasks_by_family: dic
         fam_tasks = tasks_by_family[fam["family_id"]]
         parts.append(f"## [{fam['name']}](families/{fam['family_id']}.md)\n\n")
         parts.append(f"{fam['scope']}\n\n")
-        parts.append(_task_sections(fam_tasks, "", 3))
+        parts.append(_task_sections(fam_tasks, "", 3, processes_by_id, family_by_id))
+        also = also_by_family[fam["family_id"]]
+        if also:
+            parts.append("### Also filed here\n\n")
+            for t, m in also:
+                home = family_by_id[primary_family(t)]
+                parts.append(
+                    f"- [{_short_name(t['canonical_name'])}]({t['hedtsk_id']}.md), filed under "
+                    f"[{home['name']}](families/{home['family_id']}.md): {m.get('rationale', '')}\n"
+                )
+            parts.append("\n")
 
     parts.append(_toctree([(_short_name(fam["name"]), f"families/{fam['family_id']}") for fam in families], 2))
     write_page(tasks_dir / "tasks_by_paradigm_family.md", "".join(parts))
@@ -241,6 +343,7 @@ def _write_family_page(
     fam_tasks: list[dict],
     also: list[tuple[dict, dict]],
     family_by_id: dict[str, dict],
+    processes_by_id: dict[str, dict],
 ) -> int:
     """Write docs/tasks/families/<family_id>.md.
 
@@ -271,7 +374,7 @@ def _write_family_page(
         f"# {fam['name']}\n\n",
         f"{fam['scope']}\n\n",
         summary,
-        _task_sections(fam_tasks, "../", 2),
+        _task_sections(fam_tasks, "../", 2, processes_by_id, family_by_id),
     ]
 
     if also:
@@ -299,14 +402,14 @@ def _write_family_page(
 def _write_alphabetical(
     tasks_dir: Path,
     sorted_tasks: list[dict],
-    family_of: dict[str, str],
     family_by_id: dict[str, dict],
+    processes_by_id: dict[str, dict],
 ) -> int:
     """Write docs/tasks/tasks_alphabetically.md: one short section per task, in name order.
 
     Like the family listings, each task is a linked heading followed by its full short
     definition, so the right-hand contents menu lists every task under the page title.
-    Here the closing sentence also names the family the task is filed under.
+    Here the detail line also names the family the task is filed under.
     """
     parts: list[str] = [
         "# Tasks alphabetically\n\n",
@@ -315,14 +418,9 @@ def _write_alphabetical(
         "family.\n\n",
     ]
     for task in sorted_tasks:
-        fam = family_by_id[family_of[task["hedtsk_id"]]]
-        n_procs = len(task.get("hed_process_ids", []))
-        engages = "no process links (pseudo task)" if n_procs == 0 else f"{n_procs} process{'es' if n_procs != 1 else ''}"
         parts.append(f"## [{_short_name(task['canonical_name'])}]({task['hedtsk_id']}.md)\n\n")
-        parts.append(
-            f"{task.get('short_definition', '').strip()} Filed under\n"
-            f"[{fam['name']}](families/{fam['family_id']}.md); engages {engages}.\n\n"
-        )
+        details = _entry_details(task, "", processes_by_id, family_by_id, with_family=True)
+        parts.append(f"{task.get('short_definition', '').strip()} {details}\n\n")
     parts.append(_toctree([(_short_name(t["canonical_name"]), t["hedtsk_id"]) for t in sorted_tasks], 1))
     write_page(tasks_dir / "tasks_alphabetically.md", "".join(parts))
     return 1
