@@ -21,8 +21,10 @@
 | [Change Detection Task](https://www.cognitiveatlas.org/task/id/trm_5154906cbead5) | `exact` | [Change Detection Task](../tasks/hedtsk_change_detection.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [Regularity and Change Detection](https://www.cognitiveatlas.org/task/id/trm_5519c329eb334) | `related` | [Change Detection Task](../tasks/hedtsk_change_detection.md) | - | Regularity and change detection |
 | [contextual cueing task](https://www.cognitiveatlas.org/task/id/trm_4f24492504ca0) | `exact` | [Contextual Cueing Task](../tasks/hedtsk_contextual_cueing.md) | - | Primary match from hed_task_to_atlas.tsv |
+| [AX-CPT task](https://www.cognitiveatlas.org/task/id/trm_4c40d2a93ea15) | `exact` | [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md) | AX-CPT (Context Processing) | - |
 | [Continuous Performance Task](https://www.cognitiveatlas.org/task/id/trm_57c0c34e61fdf) | `exact` | [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [Continuous Performance Test - AX version](https://www.cognitiveatlas.org/task/id/trm_551f0c294ce23) | `exact` | [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md) | AX-CPT (Context Processing) | - |
+| [test of variables of attention](https://www.cognitiveatlas.org/task/id/trm_4da86cdbd9eeb) | `exact` | [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md) | TOVA (Test of Variables of Attention) | - |
 | [AX-DPX](https://www.cognitiveatlas.org/task/id/trm_515495b718cd6) | `close` | [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md) | AX-CPT (Context Processing) | AX-DPX is a CPT variant, not a dot-probe task |
 | [Penn continuous performance task](https://www.cognitiveatlas.org/task/id/trm_4b4a537644d76) | `close` | [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md) | - | Penn implementation |
 | [Corsi Blocks](https://www.cognitiveatlas.org/task/id/trm_4da881dace79c) | `exact` | [Corsi Block-Tapping Task](../tasks/hedtsk_corsi_block_tapping.md) | - | Primary match from hed_task_to_atlas.tsv |
@@ -38,6 +40,7 @@
 | [backward digit span task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb94989b) | `exact` | [Digit Span Task](../tasks/hedtsk_digit_span.md) | Backward Digit Span | - |
 | [digit span task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949a0d) | `exact` | [Digit Span Task](../tasks/hedtsk_digit_span.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [forward digit span task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949a85) | `exact` | [Digit Span Task](../tasks/hedtsk_digit_span.md) | Forward Digit Span | - |
+| [letter number sequencing](https://www.cognitiveatlas.org/task/id/trm_4c3e0a9576c3b) | `exact` | [Digit Span Task](../tasks/hedtsk_digit_span.md) | Letter-Number Sequencing | - |
 | [span/supra-span test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949de3) | `close` | [Digit Span Task](../tasks/hedtsk_digit_span.md) | Supra-Span Lists | - |
 | [WAIS Digit Span](https://www.cognitiveatlas.org/task/id/trm_5106eee90937a) | `close` | [Digit Span Task](../tasks/hedtsk_digit_span.md) | - | WAIS subtest form |
 | [symbol-digit substitution](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e44) | `exact` | [Digit Symbol Substitution Task](../tasks/hedtsk_digit_symbol_substitution.md) | - | Primary match from hed_task_to_atlas.tsv |
@@ -46,6 +49,7 @@
 | [Sternberg Directed Forgetting](https://www.cognitiveatlas.org/task/id/trm_56674c7c2fa4f) | `close` | [Directed Forgetting Task](../tasks/hedtsk_directed_forgetting.md) | - | Sternberg directed forgetting |
 | [attention bias](https://www.cognitiveatlas.org/task/id/trm_50df0d8dc717b) | `close` | [Dot-Probe Task](../tasks/hedtsk_dot_probe.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [Emotion Regulation Task](https://www.cognitiveatlas.org/task/id/trm_56bbea82c12bb) | `exact` | [Emotion Regulation Task](../tasks/hedtsk_emotion_regulation.md) | - | Primary match from hed_task_to_atlas.tsv |
+| [reappraisal task](https://www.cognitiveatlas.org/task/id/trm_4f2420b042165) | `exact` | [Emotion Regulation Task](../tasks/hedtsk_emotion_regulation.md) | Reinterpretation/Reappraisal | - |
 | [Stroop task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e27) | `related` | [Emotional Stroop Task](../tasks/hedtsk_emotional_stroop.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [Eriksen flanker task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949a4f) | `exact` | [Eriksen Flanker Task](../tasks/hedtsk_eriksen_flanker.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [multi-source interference task](https://www.cognitiveatlas.org/task/id/trm_5696b61ff253e) | `related` | [Eriksen Flanker Task](../tasks/hedtsk_eriksen_flanker.md) | - | MSIT combines flanker, Simon and Stroop conflict; not a listed flanker variation |
@@ -78,23 +82,32 @@
 | [mirror tracing task](https://www.cognitiveatlas.org/task/id/trm_4f244a67d5b17) | `exact` | [Mirror Tracing Task](../tasks/hedtsk_mirror_tracing.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [Mnemonic similarity task](https://www.cognitiveatlas.org/task/id/tsk_RXmB56vrYW66T) | `exact` | [Mnemonic Similarity Task](../tasks/hedtsk_mnemonic_similarity.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [monetary incentive delay task](https://www.cognitiveatlas.org/task/id/trm_4f23fc8c42d28) | `exact` | [Monetary Incentive Delay Task](../tasks/hedtsk_monetary_incentive_delay.md) | - | Primary match from hed_task_to_atlas.tsv |
+| [bimanual coordination task](https://www.cognitiveatlas.org/task/id/trm_4f244f997615c) | `close` | [Motor Sequence Learning Task](../tasks/hedtsk_motor_sequence_learning.md) | Bimanual Coordination | Atlas entry is bimanual coordination in general, not sequence learning |
 | [sequence recall/learning](https://www.cognitiveatlas.org/task/id/trm_4c8a83cac75f5) | `close` | [Motor Sequence Learning Task](../tasks/hedtsk_motor_sequence_learning.md) | - | Primary match from hed_task_to_atlas.tsv |
+| [contextual bandit](https://www.cognitiveatlas.org/task/id/tsk_3ICXMd8R3ekcb) | `exact` | [Multi-Armed Bandit Task](../tasks/hedtsk_multi_armed_bandit.md) | Contextual Bandit | - |
 | [Volatile Bandit](https://www.cognitiveatlas.org/task/id/trm_5696b180169bd) | `close` | [Multi-Armed Bandit Task](../tasks/hedtsk_multi_armed_bandit.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [adaptive n-back task](https://www.cognitiveatlas.org/task/id/trm_56674133b666c) | `exact` | [N-Back Task](../tasks/hedtsk_n_back.md) | Adaptive N-Back | - |
 | [n-back task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949bcd) | `exact` | [N-Back Task](../tasks/hedtsk_n_back.md) | - | Primary match from hed_task_to_atlas.tsv |
+| [object n-back](https://www.cognitiveatlas.org/task/id/trm_4ebd477ab5a11) | `exact` | [N-Back Task](../tasks/hedtsk_n_back.md) | Fractal/Object N-Back | - |
+| [spatial n-back task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949df1) | `exact` | [N-Back Task](../tasks/hedtsk_n_back.md) | Spatial N-Back | - |
 | [face n-back task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949a6a) | `close` | [N-Back Task](../tasks/hedtsk_n_back.md) | - | Face n-back; no matching HED variation |
 | [letter n-back task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949b1c) | `close` | [N-Back Task](../tasks/hedtsk_n_back.md) | Verbal N-Back | Letter n-back is the verbal form |
 | [global-local task](https://www.cognitiveatlas.org/task/id/trm_4f241d7adf14e) | `exact` | [Navon Task](../tasks/hedtsk_navon.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [oddball task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949bf6) | `exact` | [Oddball Task](../tasks/hedtsk_oddball.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [roving somatosensory oddball task](https://www.cognitiveatlas.org/task/id/trm_566db10532583) | `close` | [Oddball Task](../tasks/hedtsk_oddball.md) | - | Somatosensory roving oddball |
 | [P300 BCI](https://www.cognitiveatlas.org/task/id/tsk_GxjZBNiJorj1K) | `related` | [Oddball Task](../tasks/hedtsk_oddball.md) | - | P300 brain-computer interface |
+| [continuous recognition paradigm](https://www.cognitiveatlas.org/task/id/tsk_4a57abb9499c7) | `exact` | [Old/New Recognition Memory Task](../tasks/hedtsk_old_new_recognition_memory.md) | Continuous Recognition | - |
 | [recognition memory test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949d40) | `exact` | [Old/New Recognition Memory Task](../tasks/hedtsk_old_new_recognition_memory.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [Spatial Recognition Memory](https://www.cognitiveatlas.org/task/id/trm_50f733d7305a1) | `close` | [Old/New Recognition Memory Task](../tasks/hedtsk_old_new_recognition_memory.md) | - | Spatial recognition memory |
 | [operation span task](https://www.cognitiveatlas.org/task/id/trm_4c40d10cd776e) | `exact` | [Operation Span Task](../tasks/hedtsk_operation_span.md) | - | Primary match from hed_task_to_atlas.tsv |
+| [reading span task](https://www.cognitiveatlas.org/task/id/trm_4c40d168898db) | `exact` | [Operation Span Task](../tasks/hedtsk_operation_span.md) | Reading Span (RSPAN) | - |
 | [complex span test](https://www.cognitiveatlas.org/task/id/trm_4da86ad02b3ea) | `close` | [Operation Span Task](../tasks/hedtsk_operation_span.md) | - | Complex span, the family OSPAN belongs to |
 | [paired associate learning](https://www.cognitiveatlas.org/task/id/trm_4da88a2a63d97) | `exact` | [Paired Associates Learning Task](../tasks/hedtsk_paired_associates_learning.md) | - | Primary match from hed_task_to_atlas.tsv |
+| [Incidental encoding task](https://www.cognitiveatlas.org/task/id/trm_50df0dd9d0b6f) | `close` | [Paired Associates Learning Task](../tasks/hedtsk_paired_associates_learning.md) | Incidental vs. Intentional Encoding | Atlas entry is incidental encoding in general, not paired associates |
 | [paired associate recall](https://www.cognitiveatlas.org/task/id/trm_4c8991e6e8597) | `close` | [Paired Associates Learning Task](../tasks/hedtsk_paired_associates_learning.md) | - | Recall phase of PAL |
+| [delay conditioning](https://www.cognitiveatlas.org/task/id/trm_5023ef8eab626) | `close` | [Pavlovian Fear Conditioning Task](../tasks/hedtsk_pavlovian_fear_conditioning.md) | Delay Conditioning | Atlas entry is delay conditioning in general, not fear-specific |
 | [pavlovian conditioning task](https://www.cognitiveatlas.org/task/id/trm_4c898acd1f28e) | `close` | [Pavlovian Fear Conditioning Task](../tasks/hedtsk_pavlovian_fear_conditioning.md) | - | Primary match from hed_task_to_atlas.tsv |
+| [trace conditioning](https://www.cognitiveatlas.org/task/id/trm_4a3fd79d0b3d7) | `close` | [Pavlovian Fear Conditioning Task](../tasks/hedtsk_pavlovian_fear_conditioning.md) | Trace Conditioning | Atlas entry is trace conditioning in general, not fear-specific |
 | [phonological task](https://www.cognitiveatlas.org/task/id/trm_4f241b751c5a0) | `related` | [Phonological Awareness Task](../tasks/hedtsk_phonological_awareness.md) | - | Generic phonological task |
 | [rhyme verification task](https://www.cognitiveatlas.org/task/id/trm_4d949c5b0e380) | `related` | [Phonological Awareness Task](../tasks/hedtsk_phonological_awareness.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [picture naming task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949cfb) | `exact` | [Picture Naming Task](../tasks/hedtsk_picture_naming.md) | - | Primary match from hed_task_to_atlas.tsv |
@@ -105,6 +118,7 @@
 | [Posner cueing task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949d17) | `exact` | [Posner Spatial Cueing Task](../tasks/hedtsk_posner_spatial_cueing.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [prisoner's dilemma (PD)](https://www.cognitiveatlas.org/task/id/tsk_KRl3zbyaJcKWM) | `exact` | [Prisoner's Dilemma Task](../tasks/hedtsk_prisoners_dilemma.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [Probabilistic classification task](https://www.cognitiveatlas.org/task/id/trm_4cacf22a22d80) | `exact` | [Probabilistic Classification Learning Task](../tasks/hedtsk_probabilistic_classification_learning.md) | - | Primary match from hed_task_to_atlas.tsv |
+| [deterministic classification](https://www.cognitiveatlas.org/task/id/trm_4e8dd3831f0cc) | `close` | [Probabilistic Classification Learning Task](../tasks/hedtsk_probabilistic_classification_learning.md) | Deterministic Version | Atlas definition describes feedback-driven classification learning in general |
 | [dual-task weather prediction](https://www.cognitiveatlas.org/task/id/trm_4ebc98cc77e7b) | `close` | [Probabilistic Classification Learning Task](../tasks/hedtsk_probabilistic_classification_learning.md) | - | Dual-task weather prediction |
 | [reversal weather prediction](https://www.cognitiveatlas.org/task/id/trm_5181fb7bf350b) | `close` | [Probabilistic Classification Learning Task](../tasks/hedtsk_probabilistic_classification_learning.md) | - | Reversal weather prediction |
 | [single-task weather prediction](https://www.cognitiveatlas.org/task/id/trm_4ebc728326a13) | `close` | [Probabilistic Classification Learning Task](../tasks/hedtsk_probabilistic_classification_learning.md) | - | Single-task weather prediction |
@@ -122,6 +136,8 @@
 | [Raven's Advanced Progressive Matrices](https://www.cognitiveatlas.org/task/id/trm_4f24211a03b07) | `close` | [Raven's Progressive Matrices Task](../tasks/hedtsk_ravens_progressive_matrices.md) | - | Advanced form; definition absent |
 | [remember/know task](https://www.cognitiveatlas.org/task/id/trm_4da63146f12d7) | `exact` | [Remember/Know Task](../tasks/hedtsk_remember_know.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [Remote Associates Test](https://www.cognitiveatlas.org/task/id/tsk_ZMTNk4Oce5b2j) | `exact` | [Remote Associates Task](../tasks/hedtsk_remote_associates.md) | - | Primary match from hed_task_to_atlas.tsv |
+| [rest eyes closed](https://www.cognitiveatlas.org/task/id/trm_54e69c642d89b) | `exact` | [Rest Task](../tasks/hedtsk_rest.md) | Eyes-Closed Rest | - |
+| [rest eyes open](https://www.cognitiveatlas.org/task/id/trm_4c8a834779883) | `exact` | [Rest Task](../tasks/hedtsk_rest.md) | Eyes-Open Rest | - |
 | [reversal learning task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949d4e) | `exact` | [Reversal Learning Task](../tasks/hedtsk_reversal_learning.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [probabilistic reversal learning task](https://www.cognitiveatlas.org/task/id/trm_4da6318f7381b) | `close` | [Reversal Learning Task](../tasks/hedtsk_reversal_learning.md) | - | Probabilistic variant |
 | [Rey Auditory Verbal Learning Task](https://www.cognitiveatlas.org/task/id/trm_4da88ae0f2952) | `exact` | [Rey Auditory Verbal Learning Task](../tasks/hedtsk_rey_auditory_verbal_learning.md) | - | Primary match from hed_task_to_atlas.tsv |
@@ -129,6 +145,7 @@
 | [California Verbal Learning Test-II](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949900) | `close` | [Rey Auditory Verbal Learning Task](../tasks/hedtsk_rey_auditory_verbal_learning.md) | - | CVLT-II |
 | [Eye tracking paradigms](https://www.cognitiveatlas.org/task/id/trm_55217b48995ce) | `related` | [Self-Paced Reading Task](../tasks/hedtsk_self_paced_reading.md) | - | Eye-tracking reading methods |
 | [contextual semantic priming task](https://www.cognitiveatlas.org/task/id/trm_553e73e29cf7d) | `close` | [Semantic Priming Task](../tasks/hedtsk_semantic_priming.md) | - | Primary match from hed_task_to_atlas.tsv |
+| [orthographic task](https://www.cognitiveatlas.org/task/id/trm_4f24250e0137e) | `related` | [Semantic Priming Task](../tasks/hedtsk_semantic_priming.md) | Orthographic Priming | Atlas entry is any task requiring letter-structure processing; orthographic priming is one such task |
 | [semantic task](https://www.cognitiveatlas.org/task/id/trm_4f241b50caaf7) | `related` | [Semantic Priming Task](../tasks/hedtsk_semantic_priming.md) | - | Generic semantic task |
 | [syntactic task](https://www.cognitiveatlas.org/task/id/trm_4f244a453522b) | `related` | [Sentence Comprehension Task](../tasks/hedtsk_sentence_comprehension.md) | - | Generic syntactic task |
 | [serial reaction time task](https://www.cognitiveatlas.org/task/id/trm_4f241c735e7f6) | `exact` | [Serial Reaction Time Task](../tasks/hedtsk_serial_reaction_time.md) | - | Primary match from hed_task_to_atlas.tsv |
@@ -141,6 +158,7 @@
 | [item recognition task](https://www.cognitiveatlas.org/task/id/trm_4da869646e5d1) | `close` | [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md) | - | Item recognition |
 | [Sternberg delayed recognition task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e0c) | `close` | [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md) | - | Delayed recognition form |
 | [stop signal task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e1a) | `exact` | [Stop-Signal Task](../tasks/hedtsk_stop_signal.md) | - | Primary match from hed_task_to_atlas.tsv |
+| [stop-change task](https://www.cognitiveatlas.org/task/id/trm_4f2447dfa5947) | `exact` | [Stop-Signal Task](../tasks/hedtsk_stop_signal.md) | Stop-Change Task | - |
 | [conditional stop signal task](https://www.cognitiveatlas.org/task/id/trm_4cacf3fbc503b) | `close` | [Stop-Signal Task](../tasks/hedtsk_stop_signal.md) | - | Conditional variant |
 | [Motor Selective Stop Signal Task](https://www.cognitiveatlas.org/task/id/trm_56bbe45003cf7) | `close` | [Stop-Signal Task](../tasks/hedtsk_stop_signal.md) | - | Motor-selective variant |
 | [stimulus selective stop signal task](https://www.cognitiveatlas.org/task/id/trm_56a9123fe580f) | `close` | [Stop-Signal Task](../tasks/hedtsk_stop_signal.md) | - | Stimulus-selective variant |
@@ -150,6 +168,7 @@
 | [counting Stroop task](https://www.cognitiveatlas.org/task/id/trm_4da631be60291) | `exact` | [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md) | Counting Stroop | - |
 | [chimeric animal Stroop task](https://www.cognitiveatlas.org/task/id/trm_4b843655d5d75) | `close` | [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md) | - | Chimeric animal Stroop |
 | [color-word stroop with task switching](https://www.cognitiveatlas.org/task/id/trm_5542841f3dcd5) | `close` | [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md) | - | Stroop with task switching |
+| [negative priming task](https://www.cognitiveatlas.org/task/id/trm_4f244d64e45bc) | `close` | [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md) | Negative Priming Stroop | Atlas entry is the general negative priming paradigm; the Catalog's row is its Stroop form |
 | [picture-word Stroop test](https://www.cognitiveatlas.org/task/id/trm_4dadbfd771a54) | `close` | [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md) | - | Picture-word Stroop |
 | [Stroop-like Arrows Task](https://www.cognitiveatlas.org/task/id/tsk_ZnDT4SbTZ2Bye) | `close` | [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md) | - | Arrow Stroop-like task |
 | [sustained attention to response task](https://www.cognitiveatlas.org/task/id/trm_4da86cfe8cf1b) | `exact` | [Sustained Attention to Response Task](../tasks/hedtsk_sustained_attention_to_response.md) | - | Primary match from hed_task_to_atlas.tsv |
@@ -162,6 +181,7 @@
 | [Tower of London](https://www.cognitiveatlas.org/task/id/trm_4da87e439c411) | `exact` | [Tower of London Task](../tasks/hedtsk_tower_of_london.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [Tower of London Imagine](https://www.cognitiveatlas.org/task/id/trm_5696bcf1b5c64) | `close` | [Tower of London Task](../tasks/hedtsk_tower_of_london.md) | - | Imagined-move variant |
 | [Tower of Hanoi](https://www.cognitiveatlas.org/task/id/trm_4da87e7282f92) | `related` | [Tower of London Task](../tasks/hedtsk_tower_of_london.md) | - | Tower of Hanoi, a sibling planning task |
+| [Color Trails Test](https://www.cognitiveatlas.org/task/id/trm_4da633fe917c4) | `exact` | [Trail Making Task](../tasks/hedtsk_trail_making.md) | Color Trails Test | - |
 | [Trail Making Test A and B](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949ec0) | `exact` | [Trail Making Task](../tasks/hedtsk_trail_making.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [Trust game (TG)](https://www.cognitiveatlas.org/task/id/tsk_uzol7erTzr9Ix) | `exact` | [Trust Game Task](../tasks/hedtsk_trust_game.md) | - | Primary match from hed_task_to_atlas.tsv |
 | [2-stage decision task](https://www.cognitiveatlas.org/task/id/trm_5667451917a34) | `exact` | [Two-Stage Decision Task](../tasks/hedtsk_two_stage_decision.md) | - | Primary match from hed_task_to_atlas.tsv |

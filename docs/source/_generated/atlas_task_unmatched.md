@@ -1,4 +1,4 @@
-### Experimental paradigms not in the Catalog (481)
+### Experimental paradigms not in the Catalog (461)
 
 | Atlas entry | Definition chars | Concepts |
 |---|---|---|
@@ -29,7 +29,6 @@
 | [autism diagnostic interview - revised](https://www.cognitiveatlas.org/task/id/trm_525d847e2bd0b) | 248 | 16 |
 | [autism diagnostic observation schedule](https://www.cognitiveatlas.org/task/id/trm_4da891a546d8c) | 214 | 6 |
 | [autism spectrum quotient](https://www.cognitiveatlas.org/task/id/trm_51d6fe3f3942f) | 1433 | 5 |
-| [AX-CPT task](https://www.cognitiveatlas.org/task/id/trm_4c40d2a93ea15) | 558 | 4 |
 | [Becker-Degroot-Marschak (BDM) procedure](https://www.cognitiveatlas.org/task/id/trm_553e77887abc7) | 282 | 1 |
 | [beery-buktenica developmental test of visual-motor integration](https://www.cognitiveatlas.org/task/id/trm_523f58d91f2c0) | 358 | 2 |
 | [behavioral approach/inhibition systems](https://www.cognitiveatlas.org/task/id/trm_56a9137d9dce1) | 419 | 4 |
@@ -37,7 +36,6 @@
 | [Benton facial recognition test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb9498bc) | 53 | 1 |
 | [Bickel Titrator](https://www.cognitiveatlas.org/task/id/trm_5696a599bfcb6) | 266 | - |
 | [big/little circle](https://www.cognitiveatlas.org/task/id/trm_50f72fafa53ec) | 431 | 1 |
-| [bimanual coordination task](https://www.cognitiveatlas.org/task/id/trm_4f244f997615c) | 108 | 1 |
 | [Birkbeck Reversible Sentence Comprehension Test](https://www.cognitiveatlas.org/task/id/trm_579640ddba2c0) | 109 | 1 |
 | [Bistability](https://www.cognitiveatlas.org/task/id/trm_5519c4bb1d1ee) | 139 | 2 |
 | [Bistable percept paradigm](https://www.cognitiveatlas.org/task/id/trm_553fce5d21da7) | 285 | - |
@@ -66,7 +64,6 @@
 | [coherent motion](https://www.cognitiveatlas.org/task/id/trm_551b0c616de16) | 4 | 1 |
 | [Coherent/Incoherent discourse distinction task](https://www.cognitiveatlas.org/task/id/trm_55217860a9dea) | 87 | 1 |
 | [color naming task](https://www.cognitiveatlas.org/task/id/trm_4f244c1f6b53f) | 4 | - |
-| [Color Trails Test](https://www.cognitiveatlas.org/task/id/trm_4da633fe917c4) | 254 | 2 |
 | [color-discrimination task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb9499b8) | 229 | 1 |
 | [Columbia Card Task](https://www.cognitiveatlas.org/task/id/trm_5667492c555b7) | 670 | 3 |
 | [Communication and Symbolic Behavior Scales Development Profile](https://www.cognitiveatlas.org/task/id/trm_52718631bc934) | 193 | 8 |
@@ -76,8 +73,6 @@
 | [Conners 3rd Edition](https://www.cognitiveatlas.org/task/id/trm_525c4cb94bfff) | 504 | 9 |
 | [Conners Comprehensive Behavior Rating Scales](https://www.cognitiveatlas.org/task/id/trm_524b563fb87c8) | 232 | 5 |
 | [consensus decision-making task](https://www.cognitiveatlas.org/task/id/trm_553fc858cacc5) | 520 | 1 |
-| [contextual bandit](https://www.cognitiveatlas.org/task/id/tsk_3ICXMd8R3ekcb) | 622 | - |
-| [continuous recognition paradigm](https://www.cognitiveatlas.org/task/id/tsk_4a57abb9499c7) | 525 | 3 |
 | [contour integration task](https://www.cognitiveatlas.org/task/id/trm_5519c85ed1e8d) | 142 | 1 |
 | [contour interpolation task](https://www.cognitiveatlas.org/task/id/trm_551b0bb59173d) | 105 | 1 |
 | [contrast detection task](https://www.cognitiveatlas.org/task/id/trm_502be67697201) | 115 | 2 |
@@ -100,11 +95,9 @@
 | [cyberball task](https://www.cognitiveatlas.org/task/id/trm_4f24189031a4a) | 153 | - |
 | [deception task](https://www.cognitiveatlas.org/task/id/trm_4c898b4b463aa) | 86 | 2 |
 | [deductive reasoning task](https://www.cognitiveatlas.org/task/id/trm_4c898b8c2d071) | 84 | 6 |
-| [delay conditioning](https://www.cognitiveatlas.org/task/id/trm_5023ef8eab626) | 262 | 1 |
 | [delayed intention task](https://www.cognitiveatlas.org/task/id/trm_5736095d91380) | 229 | 2 |
 | [delayed memory task](https://www.cognitiveatlas.org/task/id/trm_4fba85a597ca9) | 197 | 2 |
 | [delayed response task](https://www.cognitiveatlas.org/task/id/trm_4dadbdd0b2b8c) | 28 | - |
-| [deterministic classification](https://www.cognitiveatlas.org/task/id/trm_4e8dd3831f0cc) | 173 | 7 |
 | [Deviance Detection](https://www.cognitiveatlas.org/task/id/trm_5519c2d8d7b1d) | 55 | 1 |
 | [devil's task](https://www.cognitiveatlas.org/task/id/trm_4d559d2703bae) | 443 | 1 |
 | [dichotic listening task](https://www.cognitiveatlas.org/task/id/trm_4da87e9c79847) | 139 | 2 |
@@ -185,7 +178,6 @@
 | [imagined objects/scenes](https://www.cognitiveatlas.org/task/id/trm_4c89903149aeb) | 128 | 2 |
 | [immediate memory task](https://www.cognitiveatlas.org/task/id/trm_4fba857ad04ac) | 194 | 2 |
 | [incentive modulated antisaccade task](https://www.cognitiveatlas.org/task/id/trm_565a2e79b22f2) | 2526 | 2 |
-| [Incidental encoding task](https://www.cognitiveatlas.org/task/id/trm_50df0dd9d0b6f) | 226 | - |
 | [inductive reasoning aptitude](https://www.cognitiveatlas.org/task/id/trm_4d8a48e403c78) | 48 | 2 |
 | [Information Sampling Task](https://www.cognitiveatlas.org/task/id/trm_50f73d557c967) | 1558 | 2 |
 | [Inter-dimensional/Extra-dimensional Shift Task](https://www.cognitiveatlas.org/task/id/trm_5667476fc14dd) | 971 | - |
@@ -210,7 +202,6 @@
 | [letter matching task](https://www.cognitiveatlas.org/task/id/tsk_PNUOMlNOAajsT) | 300 | - |
 | [letter memory](https://www.cognitiveatlas.org/task/id/trm_5696a9cfe45b1) | 248 | - |
 | [letter naming task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949b2b) | 131 | 2 |
-| [letter number sequencing](https://www.cognitiveatlas.org/task/id/trm_4c3e0a9576c3b) | 88 | 5 |
 | [Listening and reading task](https://www.cognitiveatlas.org/task/id/trm_55217a9f473f0) | 77 | 1 |
 | [listening span task](https://www.cognitiveatlas.org/task/id/trm_4c40d1d16071e) | 177 | 2 |
 | [living-nonliving task](https://www.cognitiveatlas.org/task/id/trm_4f24258b51e2c) | 127 | 1 |
@@ -267,7 +258,6 @@
 | [NART-R](https://www.cognitiveatlas.org/task/id/trm_5798f94752841) | 351 | 2 |
 | [National Adult Reading Test](https://www.cognitiveatlas.org/task/id/trm_5798f5c57048d) | 836 | 2 |
 | [navigation task](https://www.cognitiveatlas.org/task/id/trm_4f241173868a3) | 55 | - |
-| [negative priming task](https://www.cognitiveatlas.org/task/id/trm_4f244d64e45bc) | 260 | 1 |
 | [network traversal task](https://www.cognitiveatlas.org/task/id/trm_597249e1ec9d3) | 151 | - |
 | [nine-hole peg test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949bdb) | 182 | 2 |
 | [non-choice task](https://www.cognitiveatlas.org/task/id/trm_4d55997cd3edb) | 533 | 1 |
@@ -281,7 +271,6 @@
 | [object alternation task](https://www.cognitiveatlas.org/task/id/trm_4da88bb3c2462) | 136 | - |
 | [object classification](https://www.cognitiveatlas.org/task/id/trm_551b107c5c111) | 4 | 1 |
 | [object decision task](https://www.cognitiveatlas.org/task/id/trm_4fbd2c18e1dd9) | 99 | - |
-| [object n-back](https://www.cognitiveatlas.org/task/id/trm_4ebd477ab5a11) | 65 | - |
 | [object one-back task](https://www.cognitiveatlas.org/task/id/trm_4ebd47b8bab6b) | 65 | 5 |
 | [object perception task](https://www.cognitiveatlas.org/task/id/trm_551b0ee81fb6b) | 4 | 2 |
 | [Object Rating Task](https://www.cognitiveatlas.org/task/id/trm_553fbba5d5327) | 97 | - |
@@ -295,7 +284,6 @@
 | [orientation match task](https://www.cognitiveatlas.org/task/id/trm_4fbd2b4bb165c) | 97 | 1 |
 | [orientation test](https://www.cognitiveatlas.org/task/id/trm_5798d7ba0197d) | 187 | - |
 | [orthographic discrimination](https://www.cognitiveatlas.org/task/id/trm_4c89913f80802) | 173 | 3 |
-| [orthographic task](https://www.cognitiveatlas.org/task/id/trm_4f24250e0137e) | 51 | - |
 | [Other evaluation task](https://www.cognitiveatlas.org/task/id/tsk_i6bcjHSADB30O) | 108 | - |
 | [overlapping figures task](https://www.cognitiveatlas.org/task/id/trm_4fbd2b964d3ec) | 93 | - |
 | [Overt word repetition](https://www.cognitiveatlas.org/task/id/trm_534690b0e9dc5) | 76 | 3 |
@@ -343,8 +331,6 @@
 | [Reaction Time](https://www.cognitiveatlas.org/task/id/trm_50f84e8ab7af8) | 585 | 1 |
 | [reading (covert)](https://www.cognitiveatlas.org/task/id/trm_4c8a82ba8a538) | 99 | - |
 | [reading (overt)](https://www.cognitiveatlas.org/task/id/trm_4c8a82eeaa58f) | 88 | 2 |
-| [reading span task](https://www.cognitiveatlas.org/task/id/trm_4c40d168898db) | 592 | 2 |
-| [reappraisal task](https://www.cognitiveatlas.org/task/id/trm_4f2420b042165) | 71 | - |
 | [recency judgment task](https://www.cognitiveatlas.org/task/id/trm_4f241fb95918f) | 180 | - |
 | [Reciprocal Artwork Evaluation Task](https://www.cognitiveatlas.org/task/id/tsk_zcuAj6VrsFmfV) | 340 | - |
 | [recitation/repetition (covert)](https://www.cognitiveatlas.org/task/id/trm_4c8a830dec136) | 136 | 2 |
@@ -352,8 +338,6 @@
 | [relational reasoning task](https://www.cognitiveatlas.org/task/id/trm_4f2454dfca337) | 4 | - |
 | [Relative Reinforcing Efficacy Purchase Task](https://www.cognitiveatlas.org/task/id/tsk_dn4ejmrGGaUAZ) | 533 | 1 |
 | [response mapping task](https://www.cognitiveatlas.org/task/id/trm_4da88b3b0cbcc) | 28 | - |
-| [rest eyes closed](https://www.cognitiveatlas.org/task/id/trm_54e69c642d89b) | 104 | - |
-| [rest eyes open](https://www.cognitiveatlas.org/task/id/trm_4c8a834779883) | 102 | - |
 | [retrieval-induced forgetting task](https://www.cognitiveatlas.org/task/id/trm_4da87f81bc2c8) | 28 | - |
 | [Rey-Ostereith Complex Figure Test](https://www.cognitiveatlas.org/task/id/trm_4da880396c76b) | 28 | - |
 | [Reynell Developmental Language Scales](https://www.cognitiveatlas.org/task/id/trm_4da8914987ee2) | 270 | 2 |
@@ -402,7 +386,6 @@
 | [Spatial cuing paradigm](https://www.cognitiveatlas.org/task/id/trm_551f0634b2607) | 211 | 1 |
 | [spatial delayed response task](https://www.cognitiveatlas.org/task/id/trm_4dadbe225bdf1) | 307 | 1 |
 | [spatial location/discrimination](https://www.cognitiveatlas.org/task/id/trm_4c8a83f27ac55) | 145 | 1 |
-| [spatial n-back task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949df1) | 309 | 2 |
 | [spatial working memory task](https://www.cognitiveatlas.org/task/id/trm_4f2453b806fe1) | 1159 | 1 |
 | [Speech Detection](https://www.cognitiveatlas.org/task/id/trm_5519c3eaa3fb7) | 4 | - |
 | [spelling task](https://www.cognitiveatlas.org/task/id/trm_4f24135453d65) | 50 | 1 |
@@ -411,7 +394,6 @@
 | [Stockings of Cambridge Task](https://www.cognitiveatlas.org/task/id/trm_4da890cf99b9e) | 461 | 1 |
 | [Stop signal task with dot motion discrimination](https://www.cognitiveatlas.org/task/id/trm_558c3350c6a9f) | 80 | - |
 | [stop signal task with pseudo word naming](https://www.cognitiveatlas.org/task/id/trm_5181f863d24f4) | 110 | 5 |
-| [stop-change task](https://www.cognitiveatlas.org/task/id/trm_4f2447dfa5947) | 138 | - |
 | [Structured Clinical Interview for Diagnostic and Statistical Manual of Mental Disorders (DSM-IV)](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e35) | 495 | 1 |
 | [subjective emotional picture discrimination](https://www.cognitiveatlas.org/task/id/trm_4c8a840d6f969) | 189 | 1 |
 | [Surface properties of object paradigms](https://www.cognitiveatlas.org/task/id/trm_552184243d7ab) | 183 | 1 |
@@ -425,7 +407,6 @@
 | [Test of Adolescent and Adult Language](https://www.cognitiveatlas.org/task/id/trm_52713c85c0bd2) | 425 | 2 |
 | [Test of Early Language Development](https://www.cognitiveatlas.org/task/id/trm_527138126fb20) | 235 | 3 |
 | [Test of Language Development](https://www.cognitiveatlas.org/task/id/trm_527143a263937) | 263 | 1 |
-| [test of variables of attention](https://www.cognitiveatlas.org/task/id/trm_4da86cdbd9eeb) | 105 | 2 |
 | [Test of Word Reading Efficiency](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949ea5) | 360 | 2 |
 | [Thirst perception](https://www.cognitiveatlas.org/task/id/tsk_lihqGPC9Y8ge0) | 123 | - |
 | [Time Wall](https://www.cognitiveatlas.org/task/id/trm_50c0f3e6c596e) | 333 | - |
@@ -433,7 +414,6 @@
 | [tone counting](https://www.cognitiveatlas.org/task/id/trm_4ebc6a6b75ebf) | 120 | 6 |
 | [Tone Matching](https://www.cognitiveatlas.org/task/id/trm_5519c2645167e) | 232 | 1 |
 | [tone monitor/discrimination](https://www.cognitiveatlas.org/task/id/trm_4c8a84825c4e4) | 196 | 1 |
-| [trace conditioning](https://www.cognitiveatlas.org/task/id/trm_4a3fd79d0b3d7) | 168 | 1 |
 | [Transitive inference task](https://www.cognitiveatlas.org/task/id/trm_551f1491a2fe8) | 323 | 1 |
 | [tri-modal roving stimulus paradigm](https://www.cognitiveatlas.org/task/id/tsk_QyZsV96fiVlT1) | 332 | - |
 | [Trier Social Stress Test](https://www.cognitiveatlas.org/task/id/tsk_Qa4kXAzvUyaGL) | 563 | - |

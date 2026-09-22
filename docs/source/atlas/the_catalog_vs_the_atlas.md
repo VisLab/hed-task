@@ -33,10 +33,9 @@ The difference in scale follows from the difference in purpose.
 | Cognitive processes or concepts | 172 | 918 |
 | Links between the two | 486 | 1422 |
 | Mean processes or concepts per paradigm | 4.72 | 1.66 |
-| Named variations | 772 | not modelled |
+| Named variations | {{ n_variations }} | not modelled |
 | Mean named variations per paradigm | 7.5 | not modelled |
 
-Size is the least interesting difference. What matters is the density and the shape.
 The Catalog links each paradigm to 4.7 processes on average against the
 Atlas's 1.66, and it models named variations at 7.5
 per paradigm, which the Atlas does not model at all: it registers each implementation as
@@ -60,9 +59,22 @@ Atlas task entries, by the match type of their counterpart in the Catalog:
 ```{include} ../_generated/mapping_task_reverse.md
 ```
 
-The large `none` share in the second table is not a gap. Only 481 of the unmatched
-Atlas entries are experimental paradigms at all; the rest are instruments the Catalog
-deliberately excludes.
+The large `none` share in the second table is not a gap. Most of the unmatched Atlas
+entries are experimental paradigms the Catalog does not cover; the rest are instruments
+the Catalog deliberately excludes, and are not paradigms at all:
+
+```{include} ../_generated/mapping_task_reverse_scope.md
+```
+
+The Atlas often registers a specific implementation as an entry of its own, where the
+Catalog records it as a named variation of a task. Such entries are matched at the
+variation level:
+
+```{include} ../_generated/mapping_variation_line.md
+```
+
+```{include} ../_generated/mapping_level.md
+```
 
 ### Processes
 
@@ -82,9 +94,10 @@ makes no use of.
 
 ## What the Catalog adds
 
-For the 183 Atlas entries that do correspond to something here, the
-Atlas records on average 2.13 concepts each, and 51 of them
-record none at all. Against that, every task in the Catalog carries:
+```{include} ../_generated/mapping_task_matched_concepts_line.md
+```
+
+Against that, every task in the Catalog carries:
 
 - an inclusion test stating procedure, manipulation and measurement, so that membership
   is decidable rather than a matter of name

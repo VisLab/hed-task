@@ -11,18 +11,18 @@ identifier, and records which concepts a task is claimed to assess. It is the on
 openly licensed lexicon spanning the breadth of cognitive neuroscience, and it was the
 starting corpus for the Catalog.
 
-This page describes the Atlas on its own terms: what it contains, how completely its
+This page describes the Atlas based on what it contains, how completely its
 entries are filled in, and what condition the data is in. It draws no comparison with
 the Catalog.
 
-## In short
+## Atlas overview
 
 The Atlas is best understood as a broad but thinly and unevenly curated corpus rather
-than a finished reference. Its breadth is real, and so is its architecture: separating
-processes from paradigms is right, the identifiers are stable, and a genuine
-1398-edge relation graph connects concepts to one another.
+than a finished reference. The Atlas has breadth, a well-designed architecture separating
+processes from paradigms, stable permanent identifiers, and a 1398-edge knowledge graph
+connecting concepts to one another.
 
-The curation is partial, in both layers at once. On the task side,
+The curation is partial for both tasks and concepts. On the task side,
 298 of 857 tasks (34.8%)
 assert no concept at all, which disconnects them from the ontology that gives the
 Atlas its value, and only 363 (42.4%) have a definition, a
@@ -385,13 +385,7 @@ adopted over the same period.
 ## Reading the Atlas fairly
 
 The weaknesses above are those of an unfunded community resource that stopped being
-actively curated, not of its design. What the Atlas got right still matters: separating
-processes from paradigms is the correct architecture, the identifiers are stable and
-citable, the relation graph is real, and the breadth of coverage is unmatched by any
-open alternative. For the subset of entries that were curated properly, the
-task-to-concept graph is exactly the structure a paradigm ontology needs.
-
-The practical conclusion is about how to use it. The Atlas is a well-designed, broadly
+actively curated, not of its design. The Atlas is a well-designed, broadly
 scoped, partially populated corpus. It is an excellent source of candidate paradigm
 names, concept labels, and stable identifiers. It is not a source that can be consumed
 without verification, because a given entry may be complete, a stub, a duplicate

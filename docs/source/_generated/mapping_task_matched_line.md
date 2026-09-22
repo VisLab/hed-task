@@ -1,1 +1,1 @@
-183 Atlas entries correspond to something in the Catalog, covering 88 of its 103 tasks; 17 of them resolve to a named variation rather than to the task itself, which is how the Atlas's habit of registering each implementation separately is absorbed.
+203 Atlas entries correspond to something in the Catalog, covering 89 of its 103 tasks; 40 of them resolve to a named variation rather than to the task itself, which is how the Atlas's habit of registering each implementation separately is absorbed.
