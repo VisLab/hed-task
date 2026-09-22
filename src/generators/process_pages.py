@@ -25,6 +25,7 @@ there, in the same arrangement as the task section.
 
 from __future__ import annotations
 
+import html
 import re
 from pathlib import Path
 
@@ -32,6 +33,8 @@ from generators.utils import (
     REVIEW_NOTE,
     cell,
     citation_line,
+    count_phrase,
+    pop_card,
     primary_category,
     primary_membership,
     process_anchor,
@@ -91,28 +94,67 @@ def _toctree(entries: list[tuple[str, str]], maxdepth: int) -> str:
     return "\n".join(lines) + "\n"
 
 
-def _engaged_by(proc: dict) -> str:
-    """Return the closing phrase of a listing entry: how many tasks engage the process."""
-    n = len(proc.get("tasks", []))
-    if n == 0:
-        return "engaged by no task in the current Catalog"
-    return f"engaged by {n} task{'s' if n != 1 else ''}"
+def _alias_names(proc: dict) -> list[str]:
+    """Return a process's alias names (aliases are dicts with a name and an optional note)."""
+    return [a["name"] if isinstance(a, dict) else str(a) for a in proc.get("aliases", [])]
 
 
-def _process_sections(cat_id: str, procs: list[dict], level: int) -> str:
+def _entry_details(proc: dict, cat_name: dict[str, str], with_category: bool) -> str:
+    """Return the one-sentence detail line of a listing entry, with pop-up counts.
+
+    "Engaged by N tasks. N aliases, also filed under N other categories." Each count opens
+    a card listing the items: tasks and categories as links, aliases as text. The pages
+    that use it live in docs/source/processes/, so task links climb one level.
+
+    Parameters:
+        proc: The process record.
+        cat_name: Category names keyed by id.
+        with_category: Whether to open with "Filed under <category>" (the alphabetical page).
+    """
+    tasks = sorted(proc.get("tasks", []), key=lambda t: t["canonical_name"])
+    task_items = [f'<a href="../tasks/{t["hedtsk_id"]}.html">{html.escape(t["canonical_name"])}</a>' for t in tasks]
+    engaged = (
+        "Engaged by no task in the current Catalog"
+        if not tasks
+        else f"Engaged by {pop_card(count_phrase(len(tasks), 'task'), task_items)}"
+    )
+    aliases = _alias_names(proc)
+    alias_part = (
+        pop_card(count_phrase(len(aliases), "alias", "aliases"), [html.escape(a) for a in aliases])
+        if aliases
+        else "no aliases"
+    )
+    also_items = [
+        f'<a href="{m["category_id"]}.html">{html.escape(cat_name[m["category_id"]])}</a>'
+        for m in secondary_memberships(proc, "categories")
+    ]
+
+    lead = ""
+    if with_category:
+        cat_id = primary_category(proc)
+        lead = f"Filed under [{cat_name[cat_id]}]({cat_id}.md). "
+    sentence = f"{lead}{engaged}. {alias_part[0].upper()}{alias_part[1:]}"
+    if also_items:
+        sentence += (
+            f", also filed under {pop_card(count_phrase(len(also_items), 'other category', 'other categories'), also_items)}"
+        )
+    return sentence + "."
+
+
+def _process_sections(cat_id: str, procs: list[dict], level: int, cat_name: dict[str, str]) -> str:
     """Return one short section per process: a heading linked to the process's anchor on
-    its category page, then the full definition and the task count.
+    its category page, then the full definition and a detail line with pop-up counts.
 
     Parameters:
         cat_id: The category whose page holds the processes.
         procs: The processes to list, in display order.
         level: Markdown heading level for each process.
+        cat_name: Category names keyed by id.
     """
     parts: list[str] = []
     for proc in procs:
         parts.append(f"{'#' * level} [{proc['process_name']}]({cat_id}.md#{process_anchor(proc['process_id'])})\n\n")
-        engaged = _engaged_by(proc)
-        parts.append(f"{proc.get('definition', '').strip()} {engaged[0].upper()}{engaged[1:]}.\n\n")
+        parts.append(f"{proc.get('definition', '').strip()} {_entry_details(proc, cat_name, with_category=False)}\n\n")
     return "".join(parts)
 
 
@@ -177,6 +219,7 @@ def _write_by_category(
     processes_by_category: dict[str, list[dict]],
 ) -> int:
     """Write docs/processes/processes_by_category.md: one section per category, nesting the category pages."""
+    cat_name = {c["category_id"]: c["name"] for c in sorted_categories}
     parts: list[str] = [
         "# Processes by category\n\n",
         f"The {len(sorted_categories)} categories, each with its scope statement and the processes filed\n"
@@ -198,7 +241,7 @@ def _write_by_category(
         procs = sorted(processes_by_category.get(cat_id, []), key=lambda p: p["process_name"])
         parts.append(f"## [{cat['name']}]({cat_id}.md)\n\n")
         parts.append(f"{scope}\n\n")
-        parts.append(_process_sections(cat_id, procs, 3))
+        parts.append(_process_sections(cat_id, procs, 3, cat_name))
 
     parts.append(_toctree([(cat["name"], cat["category_id"]) for cat in sorted_categories], 1))
     write_page(procs_dir / "processes_by_category.md", "".join(parts))
@@ -216,9 +259,7 @@ def _write_alphabetical(procs_dir: Path, sorted_categories: list[dict], processe
     for proc in sorted(processes, key=lambda p: p["process_name"]):
         cat_id = primary_category(proc)
         parts.append(f"## [{proc['process_name']}]({cat_id}.md#{process_anchor(proc['process_id'])})\n\n")
-        parts.append(
-            f"{proc.get('definition', '').strip()} Filed under\n[{cat_name[cat_id]}]({cat_id}.md); {_engaged_by(proc)}.\n\n"
-        )
+        parts.append(f"{proc.get('definition', '').strip()} {_entry_details(proc, cat_name, with_category=True)}\n\n")
     write_page(procs_dir / "processes_alphabetically.md", "".join(parts))
     return 1
 
