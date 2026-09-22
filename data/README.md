@@ -9,6 +9,7 @@ Everything the site is generated from lives here and is edited here, by pull req
 | `schemas/*.schema.json` | JSON Schemas (draft-07) for the two files above; editors that understand them flag shape errors as you type    | Rarely; when the record shape changes                                                          |
 | `mappings/*.tsv`        | The curated correspondence with the Cognitive Atlas, one row per entity; see `mappings/README.md`              | By hand; `src/build_atlas_maps.py` refreshes the descriptive columns without touching curation |
 | `atlas_summary.json`    | Statistics about the Cognitive Atlas snapshot, for the Atlas essays                                            | Recomputed by `src/build_atlas_data.py` from the archive                                       |
+| `cogpo_summary.json`    | CogPO (Cognitive Paradigm Ontology) classes by branch, the paradigm list and the six dimension vocabularies    | Recomputed by `src/build_cogpo_data.py` from the archive                                       |
 | `task_family_defs.tsv`  | The paradigm families: display order, name, scope                                                              | By hand                                                                                        |
 
 The two JSON files began as an export from the research workspace that found the citations (see `src/import_catalog.py`, kept as the record of that one-time migration). Since 2026-09-19 this directory is their home.

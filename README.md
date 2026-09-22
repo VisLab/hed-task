@@ -29,8 +29,10 @@ hed-task/
 |   |-- build_atlas_data.py # Recomputes data/atlas_summary.json from the Atlas harvest
 |   |-- build_atlas_maps.py # Refreshes data/mappings/*.tsv, preserving curation
 |   |-- fetch_cog_data.py   # Rebuilds the Atlas API archive in .cog_data/
+|   |-- build_cogpo_data.py # Recomputes data/cogpo_summary.json from the CogPO archive
+|   |-- fetch_cogpo_data.py # Rebuilds the CogPO OWL and wiki archive in .cog_data/cogpo/
 |   |-- generators/         # One module per page family
-|-- data/                   # The Catalog: task/process JSON, schemas, Atlas mappings, task families
+|-- data/                   # The Catalog: task/process JSON, schemas, Atlas and CogPO summaries and mappings, task families
 |-- docs/
 |   |-- source/             # Sphinx source: hand-written narrative pages plus generated catalog pages
 |   |-- _build/             # Build output (gitignored)
@@ -82,6 +84,13 @@ python src/build_atlas_maps.py    # refresh the mapping tables, preserving curat
 ```
 
 `build_atlas_data.py` and `build_atlas_maps.py` both take `--archive` if the archive is not at `.cog_data/`.
+
+`cogpo_summary.json` is derived the same way from an archive of [CogPO](http://www.cogpo.org/), the Cognitive Paradigm Ontology: the OWL release and the raw wikitext of its wiki, kept untracked in `.cog_data/cogpo/`. Both are fetched over plain http because the wiki's certificate is invalid. To refresh, run:
+
+```bash
+python src/fetch_cogpo_data.py    # rebuild .cog_data/cogpo/ (resumable; --no-wiki for the OWL alone)
+python src/build_cogpo_data.py    # recompute data/cogpo_summary.json
+```
 
 **Step 2 - build the HTML:**
 
