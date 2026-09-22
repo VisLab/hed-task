@@ -35,7 +35,7 @@
             "task",
             "pseudo_task"
           ],
-          "description": "Omitted means 'task'. A pseudo task is a block-level activity that establishes or holds a state, or collects a self-report, rather than eliciting a process (task criteria, section 'Pseudo tasks'); it may have no hed_process_ids and must be filed under the pseudo_tasks family."
+          "description": "Omitted means 'task'. A pseudo task is a block-level activity that serves the experiment around it rather than eliciting a process through a trial structure: it provides a baseline or a reset (rest), sets up a physical state (fixation), collects a self-report (questionnaire) or delivers feedback on performance (task criteria, section 'Pseudo tasks'). It may have an empty hed_process_ids (no links recorded yet, which is not a claim that no process is engaged) and must be filed under the pseudo_tasks family."
         },
         "aliases": {
           "type": "array",

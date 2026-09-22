@@ -3,11 +3,11 @@
 
 **HED task ID:** `hedtsk_take_questionnaire`
 
-**Family:** [Pseudo tasks: rest, fixation and self-report blocks](families/pseudo_tasks.md)
+**Family:** [Pseudo tasks: rest, fixation, self-report and feedback blocks](families/pseudo_tasks.md)
 
 :::{note}
-**Pseudo task.** A block that establishes or holds a state, or collects a self-report,
-rather than eliciting a cognitive process through a trial structure. It is in the Catalog
+**Pseudo task.** A block that establishes or holds a state, collects a self-report or
+delivers feedback, rather than eliciting a cognitive process through a trial structure. It is in the Catalog
 so that such blocks can be labelled with the same vocabulary as the tasks around them.
 See [Pseudo tasks](../methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3) in the task criteria.
 :::
@@ -63,8 +63,9 @@ of a variation is `hedvar_<task>__<variation>`.
 
 ## Cognitive processes
 
-None by design. A pseudo task sets up or holds a state rather than probing a process;
-the processes engaged during the block are whatever the participant brings to it.
+No process links have been recorded for this pseudo task. That is a gap in the Catalog, not a
+claim that the block engages no process: a pseudo task is not run to probe a process, and the
+processes it does engage have not yet been linked.
 
 ## Further references
 
