@@ -161,7 +161,7 @@ def _entry_details(
             href = f"{link_prefix}../processes/{primary_category(proc)}.html#{process_anchor(pid)}"
             proc_items.append(f'<a href="{href}">{html.escape(proc["process_name"])}</a>')
     engages = (
-        "no process links (pseudo task)"
+        "no linked processes yet (pseudo task)"
         if not proc_ids
         else pop_card(count_phrase(len(proc_ids), "process", "processes"), proc_items)
     )
@@ -238,7 +238,7 @@ def _write_task_index(
     parts: list[str] = [
         "# Tasks\n\n",
         f"The Catalog defines {n_tasks} standard cognitive and behavioral neuroscience tasks, and\n"
-        f"{n_pseudo} pseudo tasks (rest, fixation and questionnaire blocks) that set up or hold a state\n"
+        f"{n_pseudo} pseudo tasks (rest, fixation, questionnaire and feedback blocks) that set up or hold a state\n"
         "rather than eliciting a process.\n"
         "Each task page gives the canonical name and aliases, a description, the inclusion\n"
         "test that decides whether an experiment is an instance of the task, its named\n"
@@ -470,8 +470,8 @@ def _write_task_page(
     if is_pseudo:
         parts.append(
             ":::{note}\n"
-            "**Pseudo task.** A block that establishes or holds a state, or collects a self-report,\n"
-            "rather than eliciting a cognitive process through a trial structure. It is in the Catalog\n"
+            "**Pseudo task.** A block that establishes or holds a state, collects a self-report or\n"
+            "delivers feedback, rather than eliciting a cognitive process through a trial structure. It is in the Catalog\n"
             "so that such blocks can be labelled with the same vocabulary as the tasks around them.\n"
             "See [Pseudo tasks](../methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3) in the task criteria.\n"
             ":::\n\n"
@@ -515,8 +515,8 @@ def _write_task_page(
     if is_pseudo and not hed_process_ids:
         parts.append("## Cognitive processes\n\n")
         parts.append(
-            "None by design. A pseudo task sets up or holds a state rather than probing a process;\n"
-            "the processes engaged during the block are whatever the participant brings to it.\n\n"
+            "None linked yet. A pseudo task is not run to probe a process, so the processes engaged during\n"
+            "the block have not been recorded; linking them is future work.\n\n"
         )
     if hed_process_ids:
         parts.append("## Cognitive processes\n\n")

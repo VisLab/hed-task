@@ -1,7 +1,7 @@
 # Tasks
 
 The Catalog defines 103 standard cognitive and behavioral neuroscience tasks, and
-3 pseudo tasks (rest, fixation and questionnaire blocks) that set up or hold a state
+4 pseudo tasks (rest, fixation, questionnaire and feedback blocks) that set up or hold a state
 rather than eliciting a process.
 Each task page gives the canonical name and aliases, a description, the inclusion
 test that decides whether an experiment is an instance of the task, its named
@@ -52,7 +52,7 @@ Two ways in:
 | [Emotion elicitation and regulation tasks](families/emotion.md) | 4 | - |
 | [Language comprehension and production tasks](families/language.md) | 8 | 1 |
 | [Spatial cognition and navigation tasks](families/spatial_navigation.md) | 3 | - |
-| [Pseudo tasks: rest, fixation and self-report blocks](families/pseudo_tasks.md) | 3 | - |
+| [Pseudo tasks: rest, fixation, self-report and feedback blocks](families/pseudo_tasks.md) | 4 | - |
 
 ```{toctree}
 :hidden:

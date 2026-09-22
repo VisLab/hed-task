@@ -49,7 +49,7 @@ def generate(
             [
                 ["Tasks", sum(1 for t in tasks if t.get("task_kind", "task") != "pseudo_task"), "[Tasks](tasks/index.md)"],
                 [
-                    "Pseudo tasks (rest, fixation and questionnaire blocks)",
+                    "Pseudo tasks (rest, fixation, questionnaire and feedback blocks)",
                     sum(1 for t in tasks if t.get("task_kind") == "pseudo_task"),
                     "[Tasks](tasks/families/pseudo_tasks.md)",
                 ],

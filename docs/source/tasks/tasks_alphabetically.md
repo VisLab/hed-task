@@ -1,6 +1,6 @@
 # Tasks alphabetically
 
-All 106 tasks in name order, each with the paradigm family it is filed
+All 107 tasks in name order, each with the paradigm family it is filed
 under. [Tasks by paradigm family](tasks_by_paradigm_family.md) presents the same tasks grouped by
 family.
 
@@ -134,7 +134,7 @@ Repetitive single-finger or sequence tapping at fastest or paced rates; taps-per
 
 ## [Fixate](hedtsk_fixate.md)
 
-Participant holds gaze on a fixation target for a block with nothing else to process or do; used as a baseline or control block and to limit eye movement. Filed under [Pseudo tasks: rest, fixation and self-report blocks](families/pseudo_tasks.md). Engages no process links (pseudo task). <span class="pop" tabindex="0">3 aliases<span class="pop-card"><span>Fixation Block</span><span>Fixation Baseline</span><span>Central Fixation</span></span></span>, no variations.
+Participant holds gaze on a fixation target for a block with nothing else to process or do; used as a baseline or control block and to limit eye movement. Filed under [Pseudo tasks: rest, fixation, self-report and feedback blocks](families/pseudo_tasks.md). Engages no linked processes yet (pseudo task). <span class="pop" tabindex="0">3 aliases<span class="pop-card"><span>Fixation Block</span><span>Fixation Baseline</span><span>Central Fixation</span></span></span>, no variations.
 
 ## [Free Recall](hedtsk_free_recall.md)
 
@@ -288,6 +288,10 @@ Matrix completion items requiring induction of a rule from a 3x3 array of figure
 
 Choice of the best-matching mental-state word for a photograph of the eye region; accuracy indexes complex emotion and mental-state inference. Filed under [Social cognition and social choice tasks](families/social_cognition_and_games.md). Engages <span class="pop" tabindex="0">4 processes<span class="pop-card"><span><a href="../processes/social_cognition_and_strategic_social_choice.html#hed-perspective-taking">Perspective taking</a></span><span><a href="../processes/emotion_perception_and_regulation.html#hed-emotion-recognition">Emotion recognition</a></span><span><a href="../processes/social_cognition_and_strategic_social_choice.html#hed-social-perception">Social perception</a></span><span><a href="../processes/face_and_object_perception.html#hed-face-perception">Face perception</a></span></span></span>. <span class="pop" tabindex="0">4 aliases<span class="pop-card"><span>RMET</span><span>Eyes Test</span><span>Baron-Cohen Eyes Task</span><span>Reading the Mind in the Eyes Test</span></span></span>, <span class="pop" tabindex="0">5 variations<span class="pop-card"><span><a href="hedtsk_reading_the_mind_in_the_eyes.html#variations">RMET Revised (36 items)</a></span><span><a href="hedtsk_reading_the_mind_in_the_eyes.html#variations">RMET Short Form (15–18 items)</a></span><span><a href="hedtsk_reading_the_mind_in_the_eyes.html#variations">RMET Child Version</a></span><span><a href="hedtsk_reading_the_mind_in_the_eyes.html#variations">Dynamic Eyes Task</a></span><span><a href="hedtsk_reading_the_mind_in_the_eyes.html#variations">Full-Face vs. Eyes-Only</a></span></span></span>.
 
+## [Receive Feedback](hedtsk_receive_feedback.md)
+
+Participant is told whether a response was right or wrong, how fast it was, or what was earned, after a response, a block or a session; feedback is a pseudo task when it accompanies a task incidentally, and part of the task itself when the task is built on it. Filed under [Pseudo tasks: rest, fixation, self-report and feedback blocks](families/pseudo_tasks.md). Engages no linked processes yet (pseudo task). <span class="pop" tabindex="0">4 aliases<span class="pop-card"><span>Feedback Block</span><span>Performance Feedback</span><span>Trial Feedback</span><span>Score Screen</span></span></span>, no variations.
+
 ## [Remember/Know](hedtsk_remember_know.md)
 
 Classify recognition hits as 'remember' (vivid recollection) or 'know' (familiarity without context); proportions index the relative contributions of recollection and familiarity to recognition memory. Filed under [Recall and recognition memory tests](families/recall_and_recognition.md). Engages <span class="pop" tabindex="0">5 processes<span class="pop-card"><span><a href="../processes/long_term_memory.html#hed-recollection">Recollection</a></span><span><a href="../processes/long_term_memory.html#hed-familiarity">Familiarity</a></span><span><a href="../processes/long_term_memory.html#hed-recognition">Recognition</a></span><span><a href="../processes/long_term_memory.html#hed-episodic-memory">Episodic memory</a></span><span><a href="../processes/awareness_agency_and_metacognition.html#hed-metacognitive-monitoring">Metacognitive monitoring</a></span></span></span>. <span class="pop" tabindex="0">2 aliases<span class="pop-card"><span>R/K Paradigm</span><span>Remember-Know</span></span></span>, <span class="pop" tabindex="0">4 variations<span class="pop-card"><span><a href="hedtsk_remember_know.html#variations">Standard Remember/Know</a></span><span><a href="hedtsk_remember_know.html#variations">Remember/Know/Guess (RKG)</a></span><span><a href="hedtsk_remember_know.html#variations">Remember/Know with Source Memory</a></span><span><a href="hedtsk_remember_know.html#variations">Associative Remember/Know</a></span></span></span>.
@@ -298,7 +302,7 @@ Three cue words linked to a single fourth word; solution rate and solution time 
 
 ## [Rest](hedtsk_rest.md)
 
-Participant stays awake, still and unoccupied for a block of several minutes while spontaneous activity is recorded; the block is a baseline for task blocks or a resting-state recording in its own right. Filed under [Pseudo tasks: rest, fixation and self-report blocks](families/pseudo_tasks.md). Engages no process links (pseudo task). <span class="pop" tabindex="0">4 aliases<span class="pop-card"><span>Resting State</span><span>Resting-State Recording</span><span>Rest Block</span><span>Baseline Rest</span></span></span>, <span class="pop" tabindex="0">2 variations<span class="pop-card"><span><a href="hedtsk_rest.html#variations">Eyes-Open Rest</a></span><span><a href="hedtsk_rest.html#variations">Eyes-Closed Rest</a></span></span></span>.
+Participant stays awake, still and unoccupied for a block of several minutes while spontaneous activity is recorded; the block is a baseline for task blocks or a resting-state recording in its own right. Filed under [Pseudo tasks: rest, fixation, self-report and feedback blocks](families/pseudo_tasks.md). Engages no linked processes yet (pseudo task). <span class="pop" tabindex="0">4 aliases<span class="pop-card"><span>Resting State</span><span>Resting-State Recording</span><span>Rest Block</span><span>Baseline Rest</span></span></span>, <span class="pop" tabindex="0">2 variations<span class="pop-card"><span><a href="hedtsk_rest.html#variations">Eyes-Open Rest</a></span><span><a href="hedtsk_rest.html#variations">Eyes-Closed Rest</a></span></span></span>.
 
 ## [Reversal Learning](hedtsk_reversal_learning.md)
 
@@ -358,7 +362,7 @@ Speeded responses to frequent non-targets with withholding on rare targets; comm
 
 ## [Take Questionnaire](hedtsk_take_questionnaire.md)
 
-Participant reads or hears a series of questionnaire items and records a response to each; the instrument administered is a parameter of the block, not a variation. Filed under [Pseudo tasks: rest, fixation and self-report blocks](families/pseudo_tasks.md). Engages no process links (pseudo task). <span class="pop" tabindex="0">4 aliases<span class="pop-card"><span>Questionnaire Block</span><span>Questionnaire Administration</span><span>Self-Report Block</span><span>Survey</span></span></span>, <span class="pop" tabindex="0">2 variations<span class="pop-card"><span><a href="hedtsk_take_questionnaire.html#variations">Computerized Questionnaire</a></span><span><a href="hedtsk_take_questionnaire.html#variations">Interviewer-Administered Questionnaire</a></span></span></span>.
+Participant reads or hears a series of questionnaire items and records a response to each; the instrument administered is a parameter of the block, not a variation. Filed under [Pseudo tasks: rest, fixation, self-report and feedback blocks](families/pseudo_tasks.md). Engages no linked processes yet (pseudo task). <span class="pop" tabindex="0">4 aliases<span class="pop-card"><span>Questionnaire Block</span><span>Questionnaire Administration</span><span>Self-Report Block</span><span>Survey</span></span></span>, <span class="pop" tabindex="0">2 variations<span class="pop-card"><span><a href="hedtsk_take_questionnaire.html#variations">Computerized Questionnaire</a></span><span><a href="hedtsk_take_questionnaire.html#variations">Interviewer-Administered Questionnaire</a></span></span></span>.
 
 ## [Task Switching](hedtsk_task_switching.md)
 
@@ -503,6 +507,7 @@ Random Dot Kinematogram <hedtsk_random_dot_kinematogram>
 Rapid Serial Visual Presentation <hedtsk_rapid_serial_visual_presentation>
 Raven's Progressive Matrices <hedtsk_ravens_progressive_matrices>
 Reading the Mind in the Eyes <hedtsk_reading_the_mind_in_the_eyes>
+Receive Feedback <hedtsk_receive_feedback>
 Remember/Know <hedtsk_remember_know>
 Remote Associates <hedtsk_remote_associates>
 Rest <hedtsk_rest>
