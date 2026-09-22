@@ -332,3 +332,62 @@ body[data-theme="dark"] .dev-banner {
         background-color: #8e1b1b;
     }
 }
+
+/* Pop-up cards on the task listings. A count such as "4 processes" is a .pop trigger;
+   the .pop-card inside it lists the items and shows on hover, tap (tabindex focus) or
+   keyboard focus. The card is a child of the trigger, so moving the pointer onto the
+   card keeps it open for clicking a link. Emitted by src/generators/task_pages.py. */
+.pop {
+    position: relative;
+    display: inline-block;
+    color: var(--color-brand-primary);
+    border-bottom: 1px dotted var(--color-brand-primary);
+    cursor: pointer;
+}
+
+/* Keyboard users see which trigger is focused; pointer users do not get a ring. */
+.pop:focus-visible {
+    outline: 2px solid var(--color-brand-primary);
+    outline-offset: 2px;
+}
+
+.pop-card {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 30;
+    min-width: 14rem;
+    max-width: min(24rem, calc(100vw - 2rem));
+    padding: 0.5rem 0.75rem;
+    background-color: var(--color-background-primary);
+    color: var(--color-foreground-primary);
+    border: 1px solid var(--color-background-border);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.18);
+    font-size: var(--font-size--small);
+    line-height: 1.5;
+    white-space: normal;
+    text-align: left;
+}
+
+.pop:hover .pop-card,
+.pop:focus .pop-card,
+.pop:focus-within .pop-card {
+    display: block;
+}
+
+/* Set by _static/pop_cards.js when the card would run past the right edge of the
+   content column: align it with the trigger's right edge instead. */
+.pop.pop-flip .pop-card {
+    left: auto;
+    right: 0;
+}
+
+.pop-card > span {
+    display: block;
+}
+
+.pop-card a {
+    color: var(--color-link);
+}
