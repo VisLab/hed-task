@@ -177,3 +177,33 @@ REVIEW_NOTE = (
     "the alternative or the doubt. Comments go to the\n"
     "[issue tracker](https://github.com/hed-standard/hed-task/issues).\n"
 )
+
+
+# ---------------------------------------------------------------------------
+# Pop-up cards on the listing pages
+#
+# A count such as "4 processes" is a trigger whose card lists the items; the stylesheet
+# (docs/source/_static/custom.css, `.pop`) shows the card on hover, tap or keyboard focus
+# and docs/source/_static/pop_cards.js keeps it inside the content column.
+
+
+def pop_card(label: str, items: list[str]) -> str:
+    """Return `label` as a pop-up trigger whose card lists `items` (HTML strings).
+
+    The card is inline HTML that MyST passes through, so links inside it are written as
+    `.html` hrefs relative to the page, not as Markdown. With no items the label is
+    returned as plain text.
+
+    Parameters:
+        label: The visible text, usually a count.
+        items: The card's lines, already escaped or linked HTML.
+    """
+    if not items:
+        return label
+    card = "".join(f"<span>{item}</span>" for item in items)
+    return f'<span class="pop" tabindex="0">{label}<span class="pop-card">{card}</span></span>'
+
+
+def count_phrase(n: int, singular: str, plural: str | None = None) -> str:
+    """Return "N singular" or "N plural" (default plural: singular + "s")."""
+    return f"{n} {singular if n == 1 else (plural or singular + 's')}"

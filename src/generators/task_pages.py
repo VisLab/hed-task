@@ -34,6 +34,8 @@ from generators.utils import (
     REVIEW_NOTE,
     cell,
     citation_line,
+    count_phrase,
+    pop_card,
     primary_category,
     primary_family,
     primary_membership,
@@ -128,24 +130,6 @@ def _toctree(entries: list[tuple[str, str]], maxdepth: int) -> str:
     return "\n".join(lines) + "\n"
 
 
-def _pop(label: str, items: list[str]) -> str:
-    """Return `label` as a pop-up trigger whose card lists `items` (HTML strings).
-
-    The card is plain inline HTML that MyST passes through; the stylesheet (custom.css,
-    `.pop`) shows it on hover, tap or keyboard focus. Links inside it are written as
-    `.html` hrefs relative to the page, because Markdown is not parsed inside raw HTML.
-    With no items the label is returned as plain text.
-    """
-    if not items:
-        return label
-    card = "".join(f"<span>{item}</span>" for item in items)
-    return f'<span class="pop" tabindex="0">{label}<span class="pop-card">{card}</span></span>'
-
-
-def _count(n: int, singular: str, plural: str | None = None) -> str:
-    return f"{n} {singular if n == 1 else (plural or singular + 's')}"
-
-
 def _entry_details(
     task: dict,
     link_prefix: str,
@@ -177,14 +161,20 @@ def _entry_details(
             href = f"{link_prefix}../processes/{primary_category(proc)}.html#{process_anchor(pid)}"
             proc_items.append(f'<a href="{href}">{html.escape(proc["process_name"])}</a>')
     engages = (
-        "no process links (pseudo task)" if not proc_ids else _pop(_count(len(proc_ids), "process", "processes"), proc_items)
+        "no process links (pseudo task)"
+        if not proc_ids
+        else pop_card(count_phrase(len(proc_ids), "process", "processes"), proc_items)
     )
 
     aliases = task.get("aliases", [])
-    alias_part = _pop(_count(len(aliases), "alias", "aliases"), [html.escape(a) for a in aliases]) if aliases else "no aliases"
+    alias_part = (
+        pop_card(count_phrase(len(aliases), "alias", "aliases"), [html.escape(a) for a in aliases])
+        if aliases
+        else "no aliases"
+    )
     variations = task.get("variations", [])
     var_items = [f'<a href="{link_prefix}{tid}.html#variations">{html.escape(v["name"])}</a>' for v in variations]
-    var_part = _pop(_count(len(variations), "variation"), var_items) if variations else "no variations"
+    var_part = pop_card(count_phrase(len(variations), "variation"), var_items) if variations else "no variations"
     also_items = [
         f'<a href="{link_prefix}families/{m["family_id"]}.html">{html.escape(family_by_id[m["family_id"]]["name"])}</a>'
         for m in secondary_memberships(task, "families")
@@ -196,7 +186,9 @@ def _entry_details(
         lead = f"Filed under [{fam['name']}]({link_prefix}families/{fam['family_id']}.md). "
     sentence = f"{lead}Engages {engages}. {alias_part[0].upper()}{alias_part[1:]}, {var_part}"
     if also_items:
-        sentence += f", also filed under {_pop(_count(len(also_items), 'other family', 'other families'), also_items)}"
+        sentence += (
+            f", also filed under {pop_card(count_phrase(len(also_items), 'other family', 'other families'), also_items)}"
+        )
     return sentence + "."
 
 
