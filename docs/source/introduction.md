@@ -16,8 +16,8 @@ Cognitive Atlas.
 
 Experiments in cognitive and behavioral neuroscience are built from a fairly small
 repertoire of standard tasks, but the datasets they produce rarely say which one was
-used in a way a machine can act on. The Catalog provides a controlled vocabulary for
-that includes: a list of tasks, a list of the cognitive processes those tasks engage, and the
+used in a way a machine can act on. The Catalog provides a controlled vocabulary that
+includes a list of tasks, a list of the cognitive processes those tasks engage, and the
 links between them. Tagging a dataset with identifiers from the Catalog makes it
 findable by task name, by alias, or by process, and makes datasets that share a task or
 a process comparable.
@@ -26,7 +26,7 @@ The Catalog is being developed as part of HED (Hierarchical Event Descriptors), 
 for annotating what happened during an experiment. HED describes events; the
 Catalog describes the paradigm the events belong to. How task and process identifiers
 will be carried in HED annotations and in dataset metadata is not yet decided, and the
-identifiers here are not [HED schema terms](https://www.hedtags.org/hed-resources/HedSchemas.html)..
+identifiers here are not [HED schema terms](https://www.hedtags.org/hed-resources/HedSchemas.html).
 
 ## Tasks
 
