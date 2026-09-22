@@ -1,0 +1,1 @@
+Of the 776 named variations in the Catalog, 36 have an Atlas entry of their own, belonging to 24 tasks; 40 Atlas entries resolve to a variation rather than to a task, and are counted among the matched entries above.

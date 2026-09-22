@@ -12,6 +12,7 @@ Fragments written (each one Markdown table, one run of headed tables, or one sen
 - atlas_task_unmatched.md          Atlas task entries with no counterpart, grouped by
                                    why (### heading per group)
 - mapping_task_matched_line.md     one sentence with the matched-entry counts
+- mapping_variation_line.md        one sentence on variations with an Atlas entry
 - atlas_process_forward.md         one row per process: its primary Atlas concept
 - atlas_process_matched.md         one row per Atlas concept with a counterpart
 - atlas_process_unmatched.md       Atlas concepts with no counterpart
@@ -225,11 +226,34 @@ def _process_fragments(maps: Path) -> dict[str, str]:
     }
 
 
+def _variation_line(maps: Path, data_dir: Path) -> str:
+    """Return one sentence on how the Catalog's named variations fare against the Atlas.
+
+    The Atlas registers implementations as entries of their own, so some entries resolve
+    to a named variation rather than to a task. The task-level tables cannot show this,
+    hence a sentence of its own.
+    """
+    import json
+
+    reverse = _read(maps / "atlas_task_to_hed.tsv")
+    tasks = json.loads((data_dir / "task_details.json").read_text(encoding="utf-8"))
+    n_variations = sum(len(t.get("variations", [])) for t in tasks)
+    var_rows = [r for r in reverse if r["match_type"] != "none" and r["match_level"] == "variation"]
+    matched_vars = {r["hed_variation_id"] for r in var_rows}
+    parents = {r["hedtsk_id"] for r in var_rows}
+    return (
+        f"Of the {n_variations} named variations in the Catalog, {len(matched_vars)} have an Atlas entry of "
+        f"their own, belonging to {len(parents)} tasks; {len(var_rows)} Atlas entries resolve to a variation "
+        "rather than to a task, and are counted among the matched entries above."
+    )
+
+
 def generate(docs_dir: Path, working_dir: Path) -> int:
     """Write the Atlas mapping fragments to docs/source/_generated/. Returns the number written."""
     maps = working_dir / "mappings"
     out = docs_dir / "_generated"
     fragments = {**_task_fragments(maps), **_process_fragments(maps)}
+    fragments["mapping_variation_line.md"] = _variation_line(maps, working_dir)
     for name, body in fragments.items():
         write_page(out / name, body.rstrip("\n") + "\n")
     return len(fragments)
