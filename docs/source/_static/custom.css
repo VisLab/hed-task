@@ -345,8 +345,10 @@ body[data-theme="dark"] .dev-banner {
     cursor: pointer;
 }
 
-.pop:focus {
-    outline: none;
+/* Keyboard users see which trigger is focused; pointer users do not get a ring. */
+.pop:focus-visible {
+    outline: 2px solid var(--color-brand-primary);
+    outline-offset: 2px;
 }
 
 .pop-card {
@@ -356,7 +358,7 @@ body[data-theme="dark"] .dev-banner {
     top: 100%;
     z-index: 30;
     min-width: 14rem;
-    max-width: 24rem;
+    max-width: min(24rem, calc(100vw - 2rem));
     padding: 0.5rem 0.75rem;
     background-color: var(--color-background-primary);
     color: var(--color-foreground-primary);
@@ -373,6 +375,13 @@ body[data-theme="dark"] .dev-banner {
 .pop:focus .pop-card,
 .pop:focus-within .pop-card {
     display: block;
+}
+
+/* Set by _static/pop_cards.js when the card would run past the right edge of the
+   content column: align it with the trigger's right edge instead. */
+.pop.pop-flip .pop-card {
+    left: auto;
+    right: 0;
 }
 
 .pop-card > span {

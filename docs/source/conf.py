@@ -42,7 +42,7 @@ html_theme = "furo"
 html_title = "HED Task Catalog"
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
-html_js_files = ["gh_icon_fix.js"]
+html_js_files = ["gh_icon_fix.js", "pop_cards.js"]
 html_logo = "_static/images/croppedWideLogo.png"
 
 # There is no Python domain content, so py-modindex.html would be empty.
