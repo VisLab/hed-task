@@ -60,8 +60,8 @@ Atlas task entries, by the match type of their counterpart in the Catalog:
 ```
 
 The large `none` share in the second table is not a gap. Most of the unmatched Atlas
-entries are not experimental paradigms at all; the rest are instruments the Catalog
-deliberately excludes:
+entries are experimental paradigms the Catalog does not cover; the rest are instruments
+the Catalog deliberately excludes, and are not paradigms at all:
 
 ```{include} ../_generated/mapping_task_reverse_scope.md
 ```
@@ -94,9 +94,10 @@ makes no use of.
 
 ## What the Catalog adds
 
-For the 183 Atlas entries that correspond to Catalog entries
-Atlas records on average 2.13 concepts each, and 51 of them
-record none at all. Against that, every task in the Catalog carries:
+```{include} ../_generated/mapping_task_matched_concepts_line.md
+```
+
+Against that, every task in the Catalog carries:
 
 - an inclusion test stating procedure, manipulation and measurement, so that membership
   is decidable rather than a matter of name

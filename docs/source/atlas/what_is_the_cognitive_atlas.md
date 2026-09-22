@@ -19,7 +19,7 @@ the Catalog.
 
 The Atlas is best understood as a broad but thinly and unevenly curated corpus rather
 than a finished reference. The Atlas has breadth, a well-designed architecture separating
-processes from paradigm, stable permanent identifiers, and a 1398-edge knowledge graph
+processes from paradigms, stable permanent identifiers, and a 1398-edge knowledge graph
 connecting concepts to one another.
 
 The curation is partial for both tasks and concepts. On the task side,
