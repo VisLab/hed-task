@@ -117,3 +117,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [antisaccade/prosaccade task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949869)
 
+- CogPO: [Anti-Saccades Paradigm](http://www.wiki.cogpo.org/index.php?title=Anti-Saccades_Paradigm)
+

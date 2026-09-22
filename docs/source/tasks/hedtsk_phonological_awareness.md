@@ -124,3 +124,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [rhyme verification task](https://www.cognitiveatlas.org/task/id/trm_4d949c5b0e380) (related match)
 
+- CogPO: [Phonological Discrimination Paradigm](http://www.wiki.cogpo.org/index.php?title=Phonological_Discrimination_Paradigm)
+

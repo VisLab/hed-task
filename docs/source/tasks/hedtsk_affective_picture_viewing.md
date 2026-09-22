@@ -74,3 +74,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [International Affective Picture System](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949aca) (close match)
 
+- CogPO: [Subjective Emotional Picture Discrimination Paradigm](http://www.wiki.cogpo.org/index.php?title=Subjective_Emotional_Picture_Discrimination_Paradigm) (close match)
+

@@ -95,3 +95,7 @@ This task is designed to engage the following processes:
 - Smith, N. J., & Levy, R. (2013). The effect of word predictability on reading time is logarithmic. Cognition, 128(3), 302-319. ([DOI](https://doi.org/10.1016/j.cognition.2013.02.013), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23747651/))
 - Boyce, V., Futrell, R., & Levy, R. P. (2020). Maze made easy: Better and easier measurement of incremental processing difficulty. Journal of Memory and Language, 111, 104082. ([DOI](https://doi.org/10.1016/j.jml.2019.104082))
 
+## External links
+
+- CogPO: [Reading (Covert) Paradigm](http://www.wiki.cogpo.org/index.php?title=Reading_%28Covert%29_Paradigm) (close match)
+

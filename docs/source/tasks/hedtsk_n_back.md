@@ -111,3 +111,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [n-back task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949bcd)
 
+- CogPO: [n-back Paradigm](http://www.wiki.cogpo.org/index.php?title=N-back_Paradigm)
+

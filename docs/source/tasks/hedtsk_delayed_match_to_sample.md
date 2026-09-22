@@ -105,3 +105,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [delayed match to sample task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb9499e3)
 
+- CogPO: [Delayed Match To Sample Paradigm](http://www.wiki.cogpo.org/index.php?title=Delayed_Match_To_Sample_Paradigm)
+

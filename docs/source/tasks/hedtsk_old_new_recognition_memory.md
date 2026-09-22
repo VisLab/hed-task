@@ -106,3 +106,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [recognition memory test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949d40)
 
+- CogPO: [Cued Explicit Recognition Paradigm](http://www.wiki.cogpo.org/index.php?title=Cued_Explicit_Recognition_Paradigm)
+

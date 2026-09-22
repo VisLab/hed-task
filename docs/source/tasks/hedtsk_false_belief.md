@@ -127,3 +127,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [false belief task](https://www.cognitiveatlas.org/task/id/trm_4f2456027809f)
 
+- CogPO: [Theory of Mind Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Theory_of_Mind_Task_Paradigm) (close match)
+

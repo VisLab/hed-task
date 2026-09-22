@@ -109,3 +109,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [Emotion Recognition Task](https://www.cognitiveatlas.org/task/id/trm_50f734f86b11a) (close match)
 
+- CogPO: [Face Monitor or Discrimination Paradigm](http://www.wiki.cogpo.org/index.php?title=Face_Monitor_or_Discrimination_Paradigm) (close match)
+

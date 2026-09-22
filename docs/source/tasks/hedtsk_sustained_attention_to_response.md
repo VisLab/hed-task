@@ -114,3 +114,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [sustained attention to response task](https://www.cognitiveatlas.org/task/id/trm_4da86cfe8cf1b)
 
+- CogPO: [Go/No-Go Paradigm](http://www.wiki.cogpo.org/index.php?title=Go%2FNo-Go_Paradigm) (close match)
+

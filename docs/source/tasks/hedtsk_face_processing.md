@@ -104,3 +104,7 @@ This task is designed to engage the following processes:
 - Pitcher, D., Walsh, V., & Duchaine, B. (2011). The role of the occipital face area in the cortical face perception network. *Experimental Brain Research*, 209(4), 481–493. ([DOI](https://doi.org/10.1007/s00221-011-2579-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21318346/))
 - Grill-Spector, K., Weiner, K. S., Kay, K., & Gomez, J. (2017). The functional neuroanatomy of human face perception. *Annual Review of Vision Science*, 3, 167–196. ([DOI](https://doi.org/10.1146/annurev-vision-102016-061214), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28715955/))
 
+## External links
+
+- CogPO: [Face Monitor or Discrimination Paradigm](http://www.wiki.cogpo.org/index.php?title=Face_Monitor_or_Discrimination_Paradigm) (close match)
+

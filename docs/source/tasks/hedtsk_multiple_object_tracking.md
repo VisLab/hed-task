@@ -101,3 +101,7 @@ This task is designed to engage the following processes:
 - Alvarez, G. A., & Franconeri, S. L. (2007). How many objects can you track? Evidence for a resource-limited attentive tracking mechanism. *Journal of Vision*, 7(13), 14. ([DOI](https://doi.org/10.1167/7.13.14), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17997642/))
 - Drew, T., & Vogel, E. K. (2008). Neural measures of individual differences in selecting and tracking multiple moving objects. *Journal of Neuroscience*, 28(16), 4183–4191. ([DOI](https://doi.org/10.1523/jneurosci.0556-08.2008), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18417697/))
 
+## External links
+
+- CogPO: [Visual Pursuit/Tracking Paradigm](http://www.wiki.cogpo.org/index.php?title=Visual_Pursuit_or_Tracking_Paradigm) (close match)
+

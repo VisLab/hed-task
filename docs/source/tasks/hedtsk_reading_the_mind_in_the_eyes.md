@@ -90,3 +90,7 @@ This task is designed to engage the following processes:
 - Warrier, V., Grasby, K. L., Uzefovsky, F., et al. (2018). Genome-wide meta-analysis of cognitive empathy: Heritability and correlates with sex, neuropsychiatric conditions and cognition. *Molecular Psychiatry*, 23(6), 1402–1409. ([DOI](https://doi.org/10.1038/mp.2017.122))
 - Vellante, M., Baron-Cohen, S., Melis, M., et al. (2013). The "Reading the Mind in the Eyes" test: Systematic review of psychometric properties and a validation study in Italy. *Cognitive Neuropsychiatry*, 18(4), 326–354. ([DOI](https://doi.org/10.1080/13546805.2012.721728), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23106125/))
 
+## External links
+
+- CogPO: [Theory of Mind Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Theory_of_Mind_Task_Paradigm) (close match)
+

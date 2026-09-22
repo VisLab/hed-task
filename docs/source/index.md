@@ -98,12 +98,12 @@ The selection criteria, naming rules, inclusion test and the rules that decide w
 counts as a variation.
 :::
 
-:::{grid-item-card} Compare with the Cognitive Atlas
+:::{grid-item-card} Compare with related ontologies
 :link: atlas/the_catalog_vs_the_atlas
 :link-type: doc
 
-What the Atlas contains, how the Catalog maps onto it entry by entry, and what each
-adds to the other.
+What the Cognitive Atlas and [CogPO](cogpo/the_catalog_vs_cogpo.md) contain, how the
+Catalog maps onto each entry by entry, and what each adds to the other.
 :::
 
 ::::
@@ -150,14 +150,19 @@ task_process_links
 methods/task_criteria/index
 methods/process_criteria/index
 methods/atlas_mapping_method
+methods/cogpo_mapping_method
 ```
 
 ```{toctree}
 :hidden:
-:caption: Cognitive Atlas
+:caption: Related resources
 
 atlas/what_is_the_cognitive_atlas
 atlas/the_catalog_vs_the_atlas
 atlas/task_mapping
 atlas/process_mapping
+cogpo/what_is_cogpo
+cogpo/the_catalog_vs_cogpo
+cogpo/paradigm_mapping
+cogpo/dimension_mapping
 ```

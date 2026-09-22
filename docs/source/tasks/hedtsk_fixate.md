@@ -47,3 +47,7 @@ processes it does engage have not yet been linked.
 
 - Stark, C. E. L., & Squire, L. R. (2001). When zero is not zero: The problem of ambiguous baseline conditions in fMRI. *Proceedings of the National Academy of Sciences*, 98(22), 12760-12766. ([DOI](https://doi.org/10.1073/pnas.221462998))
 
+## External links
+
+- CogPO: [Fixation Paradigm](http://www.wiki.cogpo.org/index.php?title=Fixation_Paradigm)
+

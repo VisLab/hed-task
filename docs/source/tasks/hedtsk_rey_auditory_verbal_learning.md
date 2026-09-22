@@ -95,3 +95,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [Rey Auditory Verbal Learning Task](https://www.cognitiveatlas.org/task/id/trm_4da88ae0f2952)
 
+- CogPO: [Free Word List Recall Paradigm](http://www.wiki.cogpo.org/index.php?title=Free_Word_List_Recall_Paradigm) (close match)
+

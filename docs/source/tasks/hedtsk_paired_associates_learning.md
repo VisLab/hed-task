@@ -114,3 +114,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [paired associate learning](https://www.cognitiveatlas.org/task/id/trm_4da88a2a63d97)
 
+- CogPO: [Paired Associate Recall Paradigm](http://www.wiki.cogpo.org/index.php?title=Paired_Associate_Recall_Paradigm)
+

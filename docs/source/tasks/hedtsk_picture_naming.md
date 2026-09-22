@@ -116,3 +116,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [picture naming task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949cfb)
 
+- CogPO: [Naming (Overt) Paradigm](http://www.wiki.cogpo.org/index.php?title=Naming_%28Overt%29_Paradigm)
+

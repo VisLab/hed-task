@@ -99,3 +99,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [monetary incentive delay task](https://www.cognitiveatlas.org/task/id/trm_4f23fc8c42d28)
 
+- CogPO: [Reward Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Reward_Task_Paradigm) (close match)
+

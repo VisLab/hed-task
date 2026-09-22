@@ -102,3 +102,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [finger tapping task](https://www.cognitiveatlas.org/task/id/trm_4c898f079d05e)
 
+- CogPO: [Finger Tapping Paradigm](http://www.wiki.cogpo.org/index.php?title=Finger_Tapping_Paradigm)
+

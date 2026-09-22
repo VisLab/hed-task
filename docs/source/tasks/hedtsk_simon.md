@@ -121,3 +121,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [Simon task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949dbb)
 
+- CogPO: [Simon Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Simon_Task_Paradigm)
+

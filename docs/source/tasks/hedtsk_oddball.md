@@ -115,3 +115,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [oddball task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949bf6)
 
+- CogPO: [Oddball Discrimination Paradigm](http://www.wiki.cogpo.org/index.php?title=Oddball_Discrimination_Paradigm)
+

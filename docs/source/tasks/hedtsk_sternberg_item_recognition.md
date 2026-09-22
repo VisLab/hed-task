@@ -94,3 +94,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [Sternberg Item Recognition Task](https://www.cognitiveatlas.org/task/id/trm_551f0a8b5ba2c)
 
+- CogPO: [Sternberg Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Sternberg_Task_Paradigm)
+

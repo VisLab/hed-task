@@ -100,3 +100,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [autobiographical memory task](https://www.cognitiveatlas.org/task/id/trm_4f244d2a54e27)
 
+- CogPO: [Episodic Recall Paradigm](http://www.wiki.cogpo.org/index.php?title=Episodic_Recall_Paradigm) (close match)
+

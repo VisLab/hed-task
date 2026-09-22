@@ -120,3 +120,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [task-switching ](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e8a)
 
+- CogPO: [Task Switching Paradigm](http://www.wiki.cogpo.org/index.php?title=Task_Switching_Paradigm)
+

@@ -99,3 +99,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [verbal fluency task](https://www.cognitiveatlas.org/task/id/trm_4f240f1c740da)
 
+- CogPO: [Word Generation (Overt) Paradigm](http://www.wiki.cogpo.org/index.php?title=Word_Generation_%28Overt%29_Paradigm) (close match)
+

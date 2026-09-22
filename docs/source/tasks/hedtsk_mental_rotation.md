@@ -101,3 +101,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [mental rotation task](https://www.cognitiveatlas.org/task/id/trm_4c8990810541d)
 
+- CogPO: [Mental Rotation Paradigm](http://www.wiki.cogpo.org/index.php?title=Mental_Rotation_Paradigm)
+

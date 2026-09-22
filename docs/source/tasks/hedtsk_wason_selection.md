@@ -108,3 +108,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [Wason card selection task](https://www.cognitiveatlas.org/task/id/trm_4f2449bdcb0b1)
 
+- CogPO: [Deductive Reasoning Paradigm](http://www.wiki.cogpo.org/index.php?title=Deductive_Reasoning_Paradigm) (close match)
+

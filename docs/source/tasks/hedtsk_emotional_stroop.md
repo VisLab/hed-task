@@ -100,3 +100,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [Stroop task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e27) (related match)
 
+- CogPO: [Stroop Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Stroop_Task_Paradigm) (close match)
+

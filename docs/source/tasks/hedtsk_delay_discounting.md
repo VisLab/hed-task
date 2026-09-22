@@ -119,3 +119,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [temporal discounting task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e98)
 
+- CogPO: [Delay Discounting Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Delay_Discounting_Task_Paradigm)
+

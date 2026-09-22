@@ -125,3 +125,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [visual search task](https://www.cognitiveatlas.org/task/id/trm_4f2447fe67fb9)
 
+- CogPO: [Visual Distractor/Visual Attention Paradigm](http://www.wiki.cogpo.org/index.php?title=Visual_Distractor_or_Visual_Attention_Paradigm) (close match)
+

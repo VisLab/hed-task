@@ -76,3 +76,7 @@ processes it does engage have not yet been linked.
 
 - Barry, R. J., Clarke, A. R., Johnstone, S. J., Magee, C. A., & Rushby, J. A. (2007). EEG differences between eyes-closed and eyes-open resting conditions. *Clinical Neurophysiology*, 118(12), 2765-2773. ([DOI](https://doi.org/10.1016/j.clinph.2007.07.028))
 
+## External links
+
+- CogPO: [Rest Paradigm](http://www.wiki.cogpo.org/index.php?title=Rest_Paradigm)
+

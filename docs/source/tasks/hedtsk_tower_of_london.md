@@ -101,3 +101,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [Tower of London](https://www.cognitiveatlas.org/task/id/trm_4da87e439c411)
 
+- CogPO: [Tower of London Paradigm](http://www.wiki.cogpo.org/index.php?title=Tower_of_London_Paradigm)
+

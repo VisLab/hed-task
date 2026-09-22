@@ -112,3 +112,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [lexical decision task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949b38)
 
+- CogPO: [Semantic Monitor/Discrimination Paradigm](http://www.wiki.cogpo.org/index.php?title=Semantic_Monitor_or_Discrimination_Paradigm) (close match)
+

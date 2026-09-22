@@ -110,3 +110,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [sequence recall/learning](https://www.cognitiveatlas.org/task/id/trm_4c8a83cac75f5) (close match)
 
+- CogPO: [Sequence Recall/Learning Paradigm](http://www.wiki.cogpo.org/index.php?title=Sequence_Recall_or_Learning_Paradigm)
+

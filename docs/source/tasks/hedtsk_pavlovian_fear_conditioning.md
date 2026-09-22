@@ -132,3 +132,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [pavlovian conditioning task](https://www.cognitiveatlas.org/task/id/trm_4c898acd1f28e) (close match)
 
+- CogPO: [Classical Conditioning Paradigm](http://www.wiki.cogpo.org/index.php?title=Classical_Conditioning_Paradigm) (close match)
+

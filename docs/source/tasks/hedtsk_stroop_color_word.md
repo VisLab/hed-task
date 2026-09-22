@@ -132,3 +132,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [color-word stroop task](https://www.cognitiveatlas.org/task/id/trm_4b1968619b00b)
 
+- CogPO: [Stroop Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Stroop_Task_Paradigm)
+

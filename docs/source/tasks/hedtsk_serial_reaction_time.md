@@ -105,3 +105,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [serial reaction time task](https://www.cognitiveatlas.org/task/id/trm_4f241c735e7f6)
 
+- CogPO: [Sequence Recall/Learning Paradigm](http://www.wiki.cogpo.org/index.php?title=Sequence_Recall_or_Learning_Paradigm) (close match)
+

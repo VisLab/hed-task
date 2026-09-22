@@ -46,6 +46,7 @@ if str(_HERE) not in sys.path:
 from add_variation_ids import variation_id  # noqa: E402
 from generators import (  # noqa: E402
     crossref_atlas_pages,
+    crossref_cogpo_pages,
     crossref_page,
     fragments,
     process_pages,
@@ -322,6 +323,17 @@ def main() -> None:
     # cross-reference; task records carry no atlas_id of their own.
     atlas_map = {r["hedtsk_id"]: r for r in read_tsv(data_dir / "mappings" / "hed_task_to_atlas.tsv")}
 
+    # The CogPO mapping drives the CogPO link on each task page the same way. A class
+    # links to its page on the CogPO wiki, whose title the summary records; the two
+    # Oddball subclasses have no wiki page and get no link.
+    cogpo_summary = load_json(data_dir / "cogpo_summary.json")
+    wiki_titles = {p["id"]: p["wiki"]["title"] for p in cogpo_summary["paradigms"] if p.get("wiki")}
+    wiki_titles.update({p["title"]: p["title"] for p in cogpo_summary["paradigm_comparison"]["wiki_only"]})
+    cogpo_map = {}
+    for row in read_tsv(data_dir / "mappings" / "hed_task_to_cogpo.tsv"):
+        row["cogpo_wiki_title"] = wiki_titles.get(row["cogpo_id"], "")
+        cogpo_map[row["hedtsk_id"]] = row
+
     tasks_by_id: dict[str, dict] = {t["hedtsk_id"]: t for t in tasks}
     processes_by_id: dict[str, dict] = {p["process_id"]: p for p in processes}
 
@@ -330,7 +342,7 @@ def main() -> None:
     total = 0
 
     print("Generating docs/source/tasks/ ...")
-    n = task_pages.generate(docs_dir, tasks, processes_by_id, families, atlas_map)
+    n = task_pages.generate(docs_dir, tasks, processes_by_id, families, atlas_map, cogpo_map)
     total += n
     print(
         f"  Wrote {n} task files (index, tasks_by_paradigm_family, {len(families)} family pages, tasks_alphabetically, {len(tasks)} task pages)."
@@ -346,6 +358,7 @@ def main() -> None:
 
     print("Generating docs/source/_generated/ fragments ...")
     total += crossref_atlas_pages.generate(docs_dir, data_dir)
+    total += crossref_cogpo_pages.generate(docs_dir, data_dir)
     total += fragments.generate(docs_dir, data_dir, tasks, processes, categories, families)
 
     print(f"\nDone. {total} files written to {docs_dir}. Narrative pages were not touched.")

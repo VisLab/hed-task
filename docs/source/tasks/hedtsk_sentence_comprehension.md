@@ -102,3 +102,7 @@ This task is designed to engage the following processes:
 - Fedorenko, E., & Thompson-Schill, S. L. (2014). Reworking the language network. *Trends in Cognitive Sciences*, 18(3), 120–126. ([DOI](https://doi.org/10.1016/j.tics.2013.12.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24440115/))
 - Staub, A. (2015). The effect of lexical predictability on eye movements in reading: Critical review and theoretical interpretation. *Language and Linguistics Compass*, 9(8), 311–327. ([DOI](https://doi.org/10.1111/lnc3.12151))
 
+## External links
+
+- CogPO: [Syntactic Discrimination Paradigm](http://www.wiki.cogpo.org/index.php?title=Syntactic_Discrimination_Paradigm) (close match)
+

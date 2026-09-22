@@ -29,6 +29,7 @@ from __future__ import annotations
 import html
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 from generators.utils import (
     REVIEW_NOTE,
@@ -48,6 +49,9 @@ from generators.utils import (
 )
 
 ATLAS_TASK_URL = "https://www.cognitiveatlas.org/task/id/"
+# A CogPO class is readable online only on the CogPO wiki, whose TLS certificate is
+# invalid, so the link is plain http.
+COGPO_WIKI_URL = "http://www.wiki.cogpo.org/index.php?title="
 
 
 def generate(
@@ -56,6 +60,7 @@ def generate(
     processes_by_id: dict[str, dict],
     families: list[dict],
     atlas_map: dict[str, dict] | None = None,
+    cogpo_map: dict[str, dict] | None = None,
 ) -> int:
     """Write the task index, the family pages, the alphabetical list and the task pages.
 
@@ -65,6 +70,8 @@ def generate(
         processes_by_id: Process records keyed by process_id.
         families: Rows of data/task_family_defs.tsv, already sorted by `order`.
         atlas_map: Rows of data/mappings/hed_task_to_atlas.tsv keyed by hedtsk_id.
+        cogpo_map: Rows of data/mappings/hed_task_to_cogpo.tsv keyed by hedtsk_id, each
+            with a `cogpo_wiki_title` added for the link target.
 
     Returns the number of files written.
     """
@@ -90,7 +97,7 @@ def generate(
     count += _write_alphabetical(tasks_dir, sorted_tasks, family_by_id, processes_by_id)
     for task in sorted_tasks:
         fam = family_by_id[family_of[task["hedtsk_id"]]]
-        count += _write_task_page(tasks_dir, task, fam, family_by_id, processes_by_id, atlas_map or {})
+        count += _write_task_page(tasks_dir, task, fam, family_by_id, processes_by_id, atlas_map or {}, cogpo_map or {})
     return count
 
 
@@ -441,6 +448,7 @@ def _write_task_page(
     family_by_id: dict[str, dict],
     processes_by_id: dict[str, dict],
     atlas_map: dict[str, dict],
+    cogpo_map: dict[str, dict] | None = None,
 ) -> int:
     """Write an individual task page docs/tasks/{hedtsk_id}.md."""
     hedtsk_id = task["hedtsk_id"]
@@ -539,11 +547,27 @@ def _write_task_page(
     _references(parts, "Key references", key_refs)
     _references(parts, "Further references", further_refs)
 
+    # The CogPO row is used only when it names a class: a `related` row points at a
+    # broad class the task merely falls under, which is a comparison-page fact, not a
+    # link a reader of the task page needs.
+    cogpo_row = (cogpo_map or {}).get(hedtsk_id) or {}
+    cogpo_id = cogpo_row.get("cogpo_id") or ""
+    cogpo_match = cogpo_row.get("match_type") or ""
+    cogpo_line = ""
+    if cogpo_id and cogpo_match in ("exact", "close"):
+        label = cogpo_row.get("cogpo_label") or "CogPO paradigm class"
+        title = cogpo_row.get("cogpo_wiki_title") or ""
+        target = f"[{label}]({COGPO_WIKI_URL}{quote(title, safe='')})" if title else label
+        qualifier = f" ({cogpo_match} match)" if cogpo_match != "exact" else ""
+        cogpo_line = f"- CogPO: {target}{qualifier}\n\n"
+
+    if atlas_id or cogpo_line:
+        parts.append("## External links\n\n")
     if atlas_id:
         label = atlas_name or "Cognitive Atlas entry"
         qualifier = f" ({atlas_match} match)" if atlas_match and atlas_match != "exact" else ""
-        parts.append("## External links\n\n")
         parts.append(f"- Cognitive Atlas: [{label}]({ATLAS_TASK_URL}{atlas_id}){qualifier}\n\n")
+    parts.append(cogpo_line)
 
     write_page(tasks_dir / f"{hedtsk_id}.md", "".join(parts))
     return 1

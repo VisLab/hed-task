@@ -116,3 +116,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [go/no-go task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949a93)
 
+- CogPO: [Go/No-Go Paradigm](http://www.wiki.cogpo.org/index.php?title=Go%2FNo-Go_Paradigm)
+

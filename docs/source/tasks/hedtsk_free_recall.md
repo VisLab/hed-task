@@ -111,3 +111,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [recall test](https://www.cognitiveatlas.org/task/id/trm_4f2411c91ae5e) (close match)
 
+- CogPO: [Free Word List Recall Paradigm](http://www.wiki.cogpo.org/index.php?title=Free_Word_List_Recall_Paradigm)
+

@@ -101,3 +101,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [verb generation task](https://www.cognitiveatlas.org/task/id/trm_4f24183fe80c6)
 
+- CogPO: [Word Generation (Overt) Paradigm](http://www.wiki.cogpo.org/index.php?title=Word_Generation_%28Overt%29_Paradigm) (close match)
+

@@ -126,3 +126,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [Posner cueing task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949d17)
 
+- CogPO: [Posner Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Posner_Task_Paradigm)
+

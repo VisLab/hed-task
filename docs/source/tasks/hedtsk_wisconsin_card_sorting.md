@@ -104,3 +104,5 @@ This task is designed to engage the following processes:
 
 - Cognitive Atlas: [Wisconsin card sorting test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949f21)
 
+- CogPO: [Wisconsin Card Sorting Test Paradigm](http://www.wiki.cogpo.org/index.php?title=Wisconsin_Card_Sorting_Test_Paradigm)
+

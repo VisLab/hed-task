@@ -110,3 +110,7 @@ This task is designed to engage the following processes:
 - Erickson, M. A., Ruffle, A., & Gold, J. M. (2016). A meta-analysis of mismatch negativity in schizophrenia: From clinical risk to disease specificity and progression. *Biological Psychiatry*, 79(12), 980–987. ([DOI](https://doi.org/10.1016/j.biopsych.2015.08.025), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26444073/))
 - Wacongne, C., Labyt, E., van Wassenhove, V., Bekinschtein, T., Naccache, L., & Dehaene, S. (2011). Evidence for a hierarchy of predictions and prediction errors in the human cortex. *Proceedings of the National Academy of Sciences*, 108(51), 20754–20759. ([DOI](https://doi.org/10.1073/pnas.1117807108), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22147913/))
 
+## External links
+
+- CogPO: Auditory Oddball Paradigm (close match)
+
