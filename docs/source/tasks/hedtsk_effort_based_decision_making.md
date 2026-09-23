@@ -23,11 +23,20 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - On each trial, participants choose between a low-effort/low-reward option and a high-effort/high-reward option, then execute the chosen action; trials vary reward magnitude and probability.
-* - **Manipulation**
-  - Reward magnitude (small vs. large); reward probability (high vs. low); effort demand level (physical vs. cognitive; graded difficulty); effort type (button pressing, grip force, N-back); block structure (fixed vs. adaptive staircase).
-* - **Measurement**
-  - Proportion of high-effort choices; effort indifference point (reward at which hard and easy options are equally chosen); RT for choice; completion rate on hard trials; computational model parameters (effort sensitivity, reward sensitivity, probability weighting).
+  - 1. On each trial, participants choose between a low-effort/low-reward option and a high-effort/high-reward option, then execute the chosen action.
+    2. Trials vary reward magnitude and probability.
+* - **Manipulations**
+  - - Reward magnitude (small vs. large)
+    - Reward probability (high vs. low)
+    - Effort demand level (physical vs. cognitive; graded difficulty)
+    - Effort type (button pressing, grip force, N-back)
+    - Block structure (fixed vs. adaptive staircase)
+* - **Measurements**
+  - - Proportion of high-effort choices
+    - Effort indifference point (reward at which hard and easy options are equally chosen)
+    - RT for choice
+    - Completion rate on hard trials
+    - Computational model parameters (effort sensitivity, reward sensitivity, probability weighting)
 ```
 
 ## Variations

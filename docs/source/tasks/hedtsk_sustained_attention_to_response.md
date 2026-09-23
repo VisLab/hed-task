@@ -23,11 +23,19 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Single digits (1–9) are presented one at a time; participants respond to every digit except a designated target (typically 3). The high go-probability induces a prepotent response tendency.
-* - **Manipulation**
-  - Target digit identity; fixed vs. random digit sequences; ISI; session duration.
-* - **Measurement**
-  - Commission errors (responses to the no-go target); omission errors; RT variability; thought-probe responses (mind wandering frequency).
+  - 1. Single digits (1–9) are presented one at a time.
+    2. Participants respond to every digit except a designated target (typically 3).
+    3. The high go-probability induces a prepotent response tendency.
+* - **Manipulations**
+  - - Target digit identity
+    - Fixed vs. random digit sequences
+    - ISI
+    - Session duration
+* - **Measurements**
+  - - Commission errors (responses to the no-go target)
+    - Omission errors
+    - RT variability
+    - Thought-probe responses (mind wandering frequency)
 ```
 
 ## Variations

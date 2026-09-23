@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A field of moving dots is displayed; a proportion move coherently in one direction while the rest move randomly. Participants judge the direction of coherent motion.
-* - **Manipulation**
-  - Coherence level (% coherent dots); speed-accuracy instructions; number of alternatives; reward asymmetry.
-* - **Measurement**
-  - Accuracy and RT as functions of coherence; psychometric and chronometric functions; drift rate and threshold parameters from diffusion model fits.
+  - 1. A field of moving dots is displayed.
+    2. A proportion move coherently in one direction while the rest move randomly.
+    3. Participants judge the direction of coherent motion.
+* - **Manipulations**
+  - - Coherence level (% coherent dots)
+    - Speed-accuracy instructions
+    - Number of alternatives
+    - Reward asymmetry
+* - **Measurements**
+  - - Accuracy and RT as functions of coherence
+    - Psychometric and chronometric functions
+    - Drift rate and threshold parameters from diffusion model fits
 ```
 
 ## Variations

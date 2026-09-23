@@ -24,10 +24,14 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants view a 3×3 matrix of geometric patterns with one cell missing and select the pattern that completes the matrix from a set of alternatives.
-* - **Manipulation**
-  - Number of relational rules to integrate; rule types (distribution of values, quantitative progression, figure addition); number of response options.
-* - **Measurement**
-  - Number correct (raw score, often converted to IQ-scale); accuracy by item difficulty; response time.
+* - **Manipulations**
+  - - Number of relational rules to integrate
+    - Rule types (distribution of values, quantitative progression, figure addition)
+    - Number of response options
+* - **Measurements**
+  - - Number correct (raw score, often converted to IQ-scale)
+    - Accuracy by item difficulty
+    - Response time
 ```
 
 ## Variations

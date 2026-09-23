@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants repeatedly perform a fixed sequence of finger movements (e.g., 4-1-3-2-4) in response to spatial cues. Over practice, performance speeds up and becomes more automatic.
-* - **Manipulation**
-  - Sequence length and complexity; explicit vs. implicit instruction; amount of practice; sleep consolidation intervals.
-* - **Measurement**
-  - Sequence execution time; error rate; offline gains (improvement after sleep); transfer to new sequences.
+  - 1. Participants repeatedly perform a fixed sequence of finger movements (e.g., 4-1-3-2-4) in response to spatial cues.
+    2. Over practice, performance speeds up and becomes more automatic.
+* - **Manipulations**
+  - - Sequence length and complexity
+    - Explicit vs. implicit instruction
+    - Amount of practice
+    - Sleep consolidation intervals
+* - **Measurements**
+  - - Sequence execution time
+    - Error rate
+    - Offline gains (improvement after sleep)
+    - Transfer to new sequences
 ```
 
 ## Variations

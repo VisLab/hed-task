@@ -23,11 +23,19 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - An investor receives an endowment and chooses how much to send to a trustee; the amount is multiplied (typically tripled). The trustee decides how much to return to the investor.
-* - **Manipulation**
-  - Multiplication factor; endowment size; partner identity; reputation information; one-shot vs. repeated.
-* - **Measurement**
-  - Amount invested (trust); amount returned (trustworthiness); investment and return ratios.
+  - 1. An investor receives an endowment and chooses how much to send to a trustee.
+    2. The amount is multiplied (typically tripled).
+    3. The trustee decides how much to return to the investor.
+* - **Manipulations**
+  - - Multiplication factor
+    - Endowment size
+    - Partner identity
+    - Reputation information
+    - One-shot vs. repeated
+* - **Measurements**
+  - - Amount invested (trust)
+    - Amount returned (trustworthiness)
+    - Investment and return ratios
 ```
 
 ## Variations

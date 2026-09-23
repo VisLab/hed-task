@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Two stimuli requiring separate speeded responses are presented in rapid succession with a variable stimulus-onset asynchrony (SOA). Both responses are required.
-* - **Manipulation**
-  - SOA between S1 and S2 (50–1000 ms); task difficulty of each task; response modality overlap.
-* - **Measurement**
-  - RT2 as a function of SOA (PRP effect: RT2 slowing at short SOAs); RT1 (usually unaffected); locus of interference per bottleneck models.
+  - 1. Two stimuli requiring separate speeded responses are presented in rapid succession with a variable stimulus-onset asynchrony (SOA).
+    2. Both responses are required.
+* - **Manipulations**
+  - - SOA between S1 and S2 (50–1000 ms)
+    - Task difficulty of each task
+    - Response modality overlap
+* - **Measurements**
+  - - RT2 as a function of SOA (PRP effect: RT2 slowing at short SOAs)
+    - RT1 (usually unaffected)
+    - Locus of interference per bottleneck models
 ```
 
 ## Variations

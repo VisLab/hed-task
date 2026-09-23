@@ -441,6 +441,21 @@ def _references(parts: list[str], heading: str, refs: list[dict]) -> None:
     parts.append("\n")
 
 
+def _items_cell(items: list[str] | None, ordered: bool = False) -> str:
+    """Render an inclusion-test list inside a list-table cell.
+
+    One item is a line of text; several are a nested numbered list (procedure steps are
+    ordered) or bulleted list, indented so that MyST keeps them inside the cell.
+    """
+    items = [i for i in (items or []) if i]
+    if not items:
+        return ""
+    if len(items) == 1:
+        return items[0]
+    lines = [f"{n}. {item}" if ordered else f"- {item}" for n, item in enumerate(items, 1)]
+    return "\n    ".join(lines)
+
+
 def _write_task_page(
     tasks_dir: Path,
     task: dict,
@@ -498,9 +513,9 @@ def _write_task_page(
         "least one of the listed variables, and it records at least one of the listed measures.\n\n"
     )
     parts.append("```{list-table}\n:widths: 15 85\n:header-rows: 0\n\n")
-    parts.append(f"* - **Procedure**\n  - {inclusion.get('procedure', '')}\n")
-    parts.append(f"* - **Manipulation**\n  - {inclusion.get('manipulation', '')}\n")
-    parts.append(f"* - **Measurement**\n  - {inclusion.get('measurement', '')}\n")
+    parts.append(f"* - **Procedure**\n  - {_items_cell(inclusion.get('procedure'), ordered=True)}\n")
+    parts.append(f"* - **Manipulations**\n  - {_items_cell(inclusion.get('manipulations'))}\n")
+    parts.append(f"* - **Measurements**\n  - {_items_cell(inclusion.get('measurements'))}\n")
     parts.append("```\n\n")
 
     if variations:

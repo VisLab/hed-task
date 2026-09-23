@@ -24,10 +24,15 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants view emotionally evocative images and are instructed to regulate their emotional response using a specified strategy (e.g., cognitive reappraisal, suppression, or distraction) or to simply attend.
-* - **Manipulation**
-  - Regulation strategy (reappraise, suppress, distract, attend); image valence (negative, positive); regulation timing (before vs. during viewing).
-* - **Measurement**
-  - Self-reported affect (valence, arousal); physiological responses (SCR, corrugator EMG, startle); fMRI prefrontal-amygdala modulation; ERP (LPP reduction).
+* - **Manipulations**
+  - - Regulation strategy (reappraise, suppress, distract, attend)
+    - Image valence (negative, positive)
+    - Regulation timing (before vs. during viewing)
+* - **Measurements**
+  - - Self-reported affect (valence, arousal)
+    - Physiological responses (SCR, corrugator EMG, startle)
+    - FMRI prefrontal-amygdala modulation
+    - ERP (LPP reduction)
 ```
 
 ## Variations

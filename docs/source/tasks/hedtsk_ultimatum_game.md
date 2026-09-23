@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A proposer splits a sum of money; the responder can accept (both keep their shares) or reject (neither gets anything).
-* - **Manipulation**
-  - Offer fairness (proportion offered); endowment size; proposer identity (human, computer); cultural context.
-* - **Measurement**
-  - Rejection rate as function of offer; minimum acceptable offer; proposer strategy (modal offer); fMRI anterior insula activation to unfair offers.
+  - 1. A proposer splits a sum of money.
+    2. The responder can accept (both keep their shares) or reject (neither gets anything).
+* - **Manipulations**
+  - - Offer fairness (proportion offered)
+    - Endowment size
+    - Proposer identity (human, computer)
+    - Cultural context
+* - **Measurements**
+  - - Rejection rate as function of offer
+    - Minimum acceptable offer
+    - Proposer strategy (modal offer)
+    - FMRI anterior insula activation to unfair offers
 ```
 
 ## Variations

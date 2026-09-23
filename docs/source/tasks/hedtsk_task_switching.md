@@ -24,10 +24,16 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants alternate between two (or more) simple tasks on the same stimuli, cued by an explicit cue or a predictable alternation schedule.
-* - **Manipulation**
-  - Switch vs. repeat trials; cue-stimulus interval (preparation time); task difficulty; number of tasks; cue transparency.
-* - **Measurement**
-  - Switch cost (switch − repeat RT and accuracy); mixing cost (mixed block − pure block); preparation effect (switch cost reduction with longer CSI).
+* - **Manipulations**
+  - - Switch vs. repeat trials
+    - Cue-stimulus interval (preparation time)
+    - Task difficulty
+    - Number of tasks
+    - Cue transparency
+* - **Measurements**
+  - - Switch cost (switch − repeat RT and accuracy)
+    - Mixing cost (mixed block − pure block)
+    - Preparation effect (switch cost reduction with longer CSI)
 ```
 
 ## Variations

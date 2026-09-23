@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A set of identical objects (dots) move randomly; a subset is designated as targets. After the targets are highlighted, all dots move for several seconds, then participants identify which dots were targets.
-* - **Manipulation**
-  - Number of targets; number of distractors; speed of motion; tracking duration.
-* - **Measurement**
-  - Tracking accuracy (proportion correct); capacity estimate (Pylyshyn's 4±1); effects of load on accuracy.
+  - 1. A set of identical objects (dots) move randomly.
+    2. A subset is designated as targets.
+    3. After the targets are highlighted, all dots move for several seconds, then participants identify which dots were targets.
+* - **Manipulations**
+  - - Number of targets
+    - Number of distractors
+    - Speed of motion
+    - Tracking duration
+* - **Measurements**
+  - - Tracking accuracy (proportion correct)
+    - Capacity estimate (Pylyshyn's 4±1)
+    - Effects of load on accuracy
 ```
 
 ## Variations

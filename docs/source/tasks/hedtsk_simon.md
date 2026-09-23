@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Stimuli varying on a non-spatial attribute (color, shape) appear on the left or right; participants respond with spatially mapped keys. On incongruent trials, stimulus location conflicts with response location.
-* - **Manipulation**
-  - Spatial congruency (stimulus side matches or conflicts with response side); stimulus eccentricity; proportion congruent.
-* - **Measurement**
-  - Simon effect (RT difference: incongruent − congruent); accuracy; delta-plot analysis of time-course of interference.
+  - 1. Stimuli varying on a non-spatial attribute (color, shape) appear on the left or right.
+    2. Participants respond with spatially mapped keys.
+    3. On incongruent trials, stimulus location conflicts with response location.
+* - **Manipulations**
+  - - Spatial congruency (stimulus side matches or conflicts with response side)
+    - Stimulus eccentricity
+    - Proportion congruent
+* - **Measurements**
+  - - Simon effect (RT difference: incongruent − congruent)
+    - Accuracy
+    - Delta-plot analysis of time-course of interference
 ```
 
 ## Variations

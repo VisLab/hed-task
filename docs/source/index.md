@@ -24,7 +24,7 @@ The HED Task Catalog consists of two interlinked lists **Tasks** and **Cognitive
 
 **Tasks** are experimental paradigms each having a specific, reproducible procedure: the Stroop
 Color-Word Task, the N-Back Task, the Iowa Gambling Task. Each task specification has a canonical name,
-aliases, a description, an *inclusion test* stating the procedure, the
+aliases, a description, an *inclusion test* listing the steps of the procedure, the
 manipulations and the measurements that make an experiment an instance of that task, a list
 of named variations with the reason each one counts as a variation, and verified
 references. Tasks are filed under {{ n_families }} paradigm families according to what the
@@ -137,8 +137,8 @@ primary measure). How CogPO and HED relate is the subject of [HED vs CogPO](cogp
 
 Suggestions, corrections and ideas are welcome: please open an issue at
 <https://github.com/hed-standard/hed-task/issues>. The repository's [contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the
-process. A proposal for a new task is most useful when it comes with a procedure,
-a manipulation and a measurement in the form the inclusion tests use; a proposal for a
+process. A proposal for a new task is most useful when it comes with the procedure as
+steps, its manipulations and its measurements in the form the inclusion tests use; a proposal for a
 new process is most useful when it says when in a trial the process happens, what
 elicits it and how it is measured.
 

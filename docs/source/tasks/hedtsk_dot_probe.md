@@ -23,11 +23,15 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Two stimuli (e.g., a threatening face and a neutral face) appear briefly on screen; one is replaced by a probe (dot or letter) that participants locate or classify.
-* - **Manipulation**
-  - Stimulus valence (threat, positive, neutral); stimulus duration; probe location (congruent with threat vs. incongruent).
-* - **Measurement**
-  - RT difference between congruent and incongruent probe trials (attentional bias score); vigilance vs. avoidance patterns.
+  - 1. Two stimuli (e.g., a threatening face and a neutral face) appear briefly on screen.
+    2. One is replaced by a probe (dot or letter) that participants locate or classify.
+* - **Manipulations**
+  - - Stimulus valence (threat, positive, neutral)
+    - Stimulus duration
+    - Probe location (congruent with threat vs. incongruent)
+* - **Measurements**
+  - - RT difference between congruent and incongruent probe trials (attentional bias score)
+    - Vigilance vs. avoidance patterns
 ```
 
 ## Variations

@@ -30,11 +30,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participant receives information about the correctness, speed or outcome of their own performance, after a response, a block or a session, in a task that would be the same task without it; no task response to the feedback is required beyond acknowledging it.
-* - **Manipulation**
-  - Schedule (after each response, after a block, at the end of a session; immediate or delayed); content (correct/incorrect, reaction time, score, points, money, rank, message); valence (positive, negative, neutral); modality (visual, auditory, spoken by the experimenter); whether the feedback is accurate or manipulated.
-* - **Measurement**
-  - Feedback-locked physiological responses (feedback-related potentials, skin conductance, heart rate); changes in accuracy, speed or strategy on the trials that follow; self-reported motivation, affect or confidence. Where these are the study's object, the feedback is essential and the experiment is an instance of the task built on it, not of this pseudo task.
+  - 1. Participant receives information about the correctness, speed or outcome of their own performance, after a response, a block or a session, in a task that would be the same task without it.
+    2. No task response to the feedback is required beyond acknowledging it.
+* - **Manipulations**
+  - - Schedule (after each response, after a block, at the end of a session; immediate or delayed)
+    - Content (correct/incorrect, reaction time, score, points, money, rank, message)
+    - Valence (positive, negative, neutral)
+    - Modality (visual, auditory, spoken by the experimenter)
+    - Whether the feedback is accurate or manipulated
+* - **Measurements**
+  - - Feedback-locked physiological responses (feedback-related potentials, skin conductance, heart rate)
+    - Changes in accuracy, speed or strategy on the trials that follow
+    - Self-reported motivation, affect or confidence. Where these are the study's object, the feedback is essential and the experiment is an instance of the task built on it, not of this pseudo task
 ```
 
 ## Cognitive processes

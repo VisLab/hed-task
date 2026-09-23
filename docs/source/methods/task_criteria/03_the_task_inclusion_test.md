@@ -5,26 +5,52 @@
 (task-criteria-3)=
 # 3. The task inclusion test
 
-Each task has a three-part **inclusion_test** that defines the boundary of the task:
+Each task has a three-part **inclusion test** that defines the boundary of the task:
+what the participant does, what the experimenter varies, and what is recorded.
 
 (task-criteria-3-1)=
 ## 3.1 Structure
 
+The test is three lists on the task record:
+
 ```json
-{
- "procedure": "What the participant does - the observable sequence of events",
- "manipulation": "What the experimenter varies - the independent variables",
- "measurement": "What is recorded - the dependent variables and signals"
+"inclusion_test": {
+  "procedure": [
+    "A continuous stream of stimuli is presented.",
+    "Participants indicate when the current item matches the one presented N items back."
+  ],
+  "manipulations": [
+    "Load level (N = 0, 1, 2, 3)",
+    "Stimulus type (letters, locations, faces)",
+    "Lure trials (N+-1 matches)",
+    "Dual N-back (two simultaneous streams)"
+  ],
+  "measurements": [
+    "Hit rate, false alarm rate, d-prime",
+    "RT",
+    "Load-dependent accuracy decline"
+  ]
 }
 ```
+
+- **procedure** - what the participant does, as ordered steps. Each step is a sentence
+  naming an observable event: a presentation, a response, an instruction. The order is
+  the order of a trial or block.
+- **manipulations** - what the experimenter varies: one independent variable per item,
+  with its typical levels in parentheses.
+- **measurements** - what is recorded: one dependent variable or signal per item.
+
+Every list has at least one item. The steps of the procedure are the level at which the
+task meets CogPO's conditions and the Catalog's facets: each step names a stimulus, a
+response or an instruction.
 
 (task-criteria-3-2)=
 ## 3.2 Using the inclusion test
 
 A specific experiment is an instance of a given task if and only if:
 
-1. Its procedure matches the **procedure** field (the participant performs the described sequence of actions)
-2. It manipulates at least one variable from the **manipulation** field
-3. It records at least one measure from the **measurement** field
+1. Its procedure matches the **procedure** steps (the participant performs the described sequence of actions)
+2. It manipulates at least one variable from the **manipulations** list
+3. It records at least one measure from the **measurements** list
 
-The procedure field is the most important. Two experiments with different manipulations or measurements but the same procedure are instances of the same task. Two experiments with different procedures are different tasks, even if they target the same cognitive construct.
+The procedure is the most important part. Two experiments with different manipulations or measurements but the same procedure are instances of the same task. Two experiments with different procedures are different tasks, even if they target the same cognitive construct.

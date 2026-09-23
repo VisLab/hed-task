@@ -24,10 +24,16 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants study a list of items, then view a test list containing studied (old) items and unstudied (new) items and classify each as old or new.
-* - **Manipulation**
-  - Study list length; encoding depth (levels of processing); retention interval; confidence judgment; response deadline.
-* - **Measurement**
-  - Hit rate, false alarm rate, d-prime (discriminability), criterion (response bias); ROC curves; remember/know judgments (when combined).
+* - **Manipulations**
+  - - Study list length
+    - Encoding depth (levels of processing)
+    - Retention interval
+    - Confidence judgment
+    - Response deadline
+* - **Measurements**
+  - - Hit rate, false alarm rate, d-prime (discriminability), criterion (response bias)
+    - ROC curves
+    - Remember/know judgments (when combined)
 ```
 
 ## Variations

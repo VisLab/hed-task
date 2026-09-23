@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A cue (peripheral flash or central arrow) indicates a likely target location; the target then appears at the cued or uncued location and participants detect or discriminate it.
-* - **Manipulation**
-  - Cue type (exogenous/peripheral vs. endogenous/central); cue validity (proportion valid trials); SOA; target task (detection vs. discrimination).
-* - **Measurement**
-  - RT difference between valid and invalid trials (attention effect); costs (invalid − neutral) and benefits (neutral − valid); IOR at long SOAs.
+  - 1. A cue (peripheral flash or central arrow) indicates a likely target location.
+    2. The target then appears at the cued or uncued location and participants detect or discriminate it.
+* - **Manipulations**
+  - - Cue type (exogenous/peripheral vs. endogenous/central)
+    - Cue validity (proportion valid trials)
+    - SOA
+    - Target task (detection vs. discrimination)
+* - **Measurements**
+  - - RT difference between valid and invalid trials (attention effect)
+    - Costs (invalid − neutral) and benefits (neutral − valid)
+    - IOR at long SOAs
 ```
 
 ## Variations

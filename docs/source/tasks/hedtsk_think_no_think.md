@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants learn cue-target word pairs to criterion. In the critical phase, cues are presented and participants either actively recall the target (think) or suppress retrieval (no-think). A final test probes all pairs.
-* - **Manipulation**
-  - Think vs. no-think vs. baseline (not presented in critical phase); number of suppression repetitions; independent probe test (IP: novel cue for same target).
-* - **Measurement**
-  - Suppression-induced forgetting (baseline − no-think recall); think benefit (think − baseline); IP test (demonstrates inhibitory vs. associative interference account).
+  - 1. Participants learn cue-target word pairs to criterion.
+    2. In the critical phase, cues are presented and participants either actively recall the target (think) or suppress retrieval (no-think).
+    3. A final test probes all pairs.
+* - **Manipulations**
+  - - Think vs. no-think vs. baseline (not presented in critical phase)
+    - Number of suppression repetitions
+    - Independent probe test (IP: novel cue for same target)
+* - **Measurements**
+  - - Suppression-induced forgetting (baseline − no-think recall)
+    - Think benefit (think − baseline)
+    - IP test (demonstrates inhibitory vs. associative interference account)
 ```
 
 ## Variations

@@ -24,10 +24,16 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants view face photographs displaying basic emotions and identify the expressed emotion from a fixed set (happy, sad, angry, fearful, disgusted, surprised, neutral).
-* - **Manipulation**
-  - Emotion category; expression intensity (morphed continua); presentation duration; face race/gender.
-* - **Measurement**
-  - Accuracy per emotion; confusion matrices; unbiased hit rate; RT.
+* - **Manipulations**
+  - - Emotion category
+    - Expression intensity (morphed continua)
+    - Presentation duration
+    - Face race/gender
+* - **Measurements**
+  - - Accuracy per emotion
+    - Confusion matrices
+    - Unbiased hit rate
+    - RT
 ```
 
 ## Variations

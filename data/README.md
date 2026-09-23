@@ -17,7 +17,7 @@ The two JSON files began as an export from the research workspace that found the
 
 ## Editing a task or process
 
-1. Edit the JSON. Keep the file ASCII except inside recorded data (author names, titles), keep two-space indentation, and keep records in their existing order.
+1. Edit the JSON. Keep the file ASCII except inside recorded data (author names, titles), keep two-space indentation, and keep records in their existing order. The `inclusion_test` is three lists: `procedure` (ordered steps, each a sentence ending in a period), `manipulations` and `measurements` (one variable or measure per item, a capital first letter, no final period). Every list has at least one item.
 2. Run `python src/generate_docs.py`. It validates before writing: schema shape, unique identifiers, every `hed_process_ids` entry resolving to a process, every process's `tasks` list agreeing with the tasks that name it, `task_count` and the header counts, reference `roles` from the allowed vocabulary, and every variation carrying its derived `variation_id`. A failure names the record and writes nothing.
 3. Commit the data and the regenerated pages together. CI regenerates and fails the PR if they disagree.
 

@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants read sentences word-by-word or in regions; some sentences contain temporary syntactic ambiguities that lead the reader down a wrong parse (garden path) before disambiguation.
-* - **Manipulation**
-  - Ambiguity type (main verb/reduced relative, NP/S, etc.); disambiguation point; plausibility; context sentences.
-* - **Measurement**
-  - Reading time at disambiguating region (self-paced reading, eye tracking); regression probability; ERP (P600, N400); comprehension question accuracy.
+  - 1. Participants read sentences word-by-word or in regions.
+    2. Some sentences contain temporary syntactic ambiguities that lead the reader down a wrong parse (garden path) before disambiguation.
+* - **Manipulations**
+  - - Ambiguity type (main verb/reduced relative, NP/S, etc.)
+    - Disambiguation point
+    - Plausibility
+    - Context sentences
+* - **Measurements**
+  - - Reading time at disambiguating region (self-paced reading, eye tracking)
+    - Regression probability
+    - ERP (P600, N400)
+    - Comprehension question accuracy
 ```
 
 ## Variations

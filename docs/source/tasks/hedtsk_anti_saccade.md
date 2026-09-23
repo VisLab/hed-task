@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A peripheral cue appears; participants must suppress the reflexive saccade toward it and instead generate a voluntary saccade to the mirror-opposite location.
-* - **Manipulation**
-  - Prosaccade vs. antisaccade blocks or interleaved trials; cue eccentricity; gap vs. overlap conditions.
-* - **Measurement**
-  - Saccade direction errors (% erroneous prosaccades on antisaccade trials); saccade latency; corrective saccade latency.
+  - 1. A peripheral cue appears.
+    2. Participants must suppress the reflexive saccade toward it and instead generate a voluntary saccade to the mirror-opposite location.
+* - **Manipulations**
+  - - Prosaccade vs. antisaccade blocks or interleaved trials
+    - Cue eccentricity
+    - Gap vs. overlap conditions
+* - **Measurements**
+  - - Saccade direction errors (% erroneous prosaccades on antisaccade trials)
+    - Saccade latency
+    - Corrective saccade latency
 ```
 
 ## Variations

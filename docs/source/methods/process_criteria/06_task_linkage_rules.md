@@ -8,7 +8,7 @@
 (process-criteria-6-1)=
 ## 6.1 How processes link to tasks
 
-A process links to a task if the task's inclusion test (Procedure / Manipulation / Measurement) engages that process. The link is stored in the `tasks[]` array of each process entry in `process_details.json`, using `hedtsk_<slug>` IDs. The reverse direction (task -> process) is stored in the `hed_process_ids` array of each task entry in `task_details.json`.
+A process links to a task if the task's inclusion test (procedure, manipulations, measurements) engages that process. The link is stored in the `tasks[]` array of each process entry in `process_details.json`, using `hedtsk_<slug>` IDs. The reverse direction (task -> process) is stored in the `hed_process_ids` array of each task entry in `task_details.json`.
 
 (process-criteria-6-2)=
 ## 6.2 When is a link justified?

@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Color words (RED, BLUE) are printed in incongruent ink colors; participants name the ink color while ignoring the word.
-* - **Manipulation**
-  - Congruency (congruent, incongruent, neutral); proportion congruent; response modality (vocal, manual); stimulus type (classic, spatial, numerical).
-* - **Measurement**
-  - Stroop interference effect (incongruent − congruent RT); facilitation (neutral − congruent); error rate; conflict adaptation (Gratton effect).
+  - 1. Color words (RED, BLUE) are printed in incongruent ink colors.
+    2. Participants name the ink color while ignoring the word.
+* - **Manipulations**
+  - - Congruency (congruent, incongruent, neutral)
+    - Proportion congruent
+    - Response modality (vocal, manual)
+    - Stimulus type (classic, spatial, numerical)
+* - **Measurements**
+  - - Stroop interference effect (incongruent − congruent RT)
+    - Facilitation (neutral − congruent)
+    - Error rate
+    - Conflict adaptation (Gratton effect)
 ```
 
 ## Variations

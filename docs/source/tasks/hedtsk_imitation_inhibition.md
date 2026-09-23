@@ -24,10 +24,18 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants perform an instructed action (e.g., finger lift) in response to a symbolic cue while simultaneously observing a task-irrelevant video or animation of another agent performing a congruent, incongruent, or neutral action.
-* - **Manipulation**
-  - Congruency (observed action matches vs. mismatches instructed action); agent type (human hand, robotic hand, non-biological stimulus); social context (in-group vs. out-group model); action type (finger lift, hand open/close, whole-arm movement); spatial compatibility control (orthogonal spatial arrangement to dissociate imitative from spatial compatibility).
-* - **Measurement**
-  - Congruency effect (RT and error rate difference: incongruent minus congruent); interference effect (incongruent minus neutral); facilitation effect (neutral minus congruent); congruency effect magnitude as individual-difference measure; EEG mu-suppression as neural index of motor simulation.
+* - **Manipulations**
+  - - Congruency (observed action matches vs. mismatches instructed action)
+    - Agent type (human hand, robotic hand, non-biological stimulus)
+    - Social context (in-group vs. out-group model)
+    - Action type (finger lift, hand open/close, whole-arm movement)
+    - Spatial compatibility control (orthogonal spatial arrangement to dissociate imitative from spatial compatibility)
+* - **Measurements**
+  - - Congruency effect (RT and error rate difference: incongruent minus congruent)
+    - Interference effect (incongruent minus neutral)
+    - Facilitation effect (neutral minus congruent)
+    - Congruency effect magnitude as individual-difference measure
+    - EEG mu-suppression as neural index of motor simulation
 ```
 
 ## Variations

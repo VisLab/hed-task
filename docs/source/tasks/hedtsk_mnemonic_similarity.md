@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants study a set of images, then view old items, new items, and similar lures (items resembling studied items). They classify each as old, new, or similar.
-* - **Manipulation**
-  - Lure similarity (mnemonic similarity parameter); encoding depth; retention interval; number of items.
-* - **Measurement**
-  - Lure discrimination index (LDI: p('similar'|lure) − p('similar'|foil)); recognition d-prime; pattern separation score.
+  - 1. Participants study a set of images, then view old items, new items, and similar lures (items resembling studied items).
+    2. They classify each as old, new, or similar.
+* - **Manipulations**
+  - - Lure similarity (mnemonic similarity parameter)
+    - Encoding depth
+    - Retention interval
+    - Number of items
+* - **Measurements**
+  - - Lure discrimination index (LDI: p('similar'|lure) − p('similar'|foil))
+    - Recognition d-prime
+    - Pattern separation score
 ```
 
 ## Variations

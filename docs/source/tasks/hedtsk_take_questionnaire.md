@@ -31,10 +31,15 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participant reads or hears each item of a questionnaire and records a response to it, in the instrument's format, with no time pressure.
-* - **Manipulation**
-  - The instrument administered (a parameter, not a variation); administration mode (paper, computerized, interviewer-read); response format (Likert, forced choice, free text); position relative to task blocks.
-* - **Measurement**
-  - Item responses and derived scale scores; per-item response times when computerized; physiological recording during completion is incidental.
+* - **Manipulations**
+  - - The instrument administered (a parameter, not a variation)
+    - Administration mode (paper, computerized, interviewer-read)
+    - Response format (Likert, forced choice, free text)
+    - Position relative to task blocks
+* - **Measurements**
+  - - Item responses and derived scale scores
+    - Per-item response times when computerized
+    - Physiological recording during completion is incidental
 ```
 
 ## Variations

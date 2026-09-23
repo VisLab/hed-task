@@ -23,11 +23,22 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A participant's real body part is hidden while a visible artificial (rubber, virtual, or video-displayed) counterpart is placed in a plausible position; synchronous multisensory stimulation (typically visuotactile stroking) is applied to both the real and artificial body parts, with asynchronous stimulation as a control.
-* - **Manipulation**
-  - Synchrony (synchronous vs. asynchronous stroking); modality of stimulation (visuotactile, visuomotor, visuoproprioceptive); body part (hand, arm, face, full body); realism of the artificial body part (rubber, wooden, virtual, incongruent object); spatial congruence (anatomically plausible vs. rotated position); temporal delay between seen and felt touch.
-* - **Measurement**
-  - Proprioceptive drift (pointing error toward the artificial body part, pre- vs. post-stimulation); subjective ownership questionnaire ratings; skin conductance response to threat directed at the artificial body part; skin temperature change of the real hand; onset latency of the illusion; grip force or other motor measures.
+  - 1. A participant's real body part is hidden while a visible artificial (rubber, virtual, or video-displayed) counterpart is placed in a plausible position.
+    2. Synchronous multisensory stimulation (typically visuotactile stroking) is applied to both the real and artificial body parts, with asynchronous stimulation as a control.
+* - **Manipulations**
+  - - Synchrony (synchronous vs. asynchronous stroking)
+    - Modality of stimulation (visuotactile, visuomotor, visuoproprioceptive)
+    - Body part (hand, arm, face, full body)
+    - Realism of the artificial body part (rubber, wooden, virtual, incongruent object)
+    - Spatial congruence (anatomically plausible vs. rotated position)
+    - Temporal delay between seen and felt touch
+* - **Measurements**
+  - - Proprioceptive drift (pointing error toward the artificial body part, pre- vs. post-stimulation)
+    - Subjective ownership questionnaire ratings
+    - Skin conductance response to threat directed at the artificial body part
+    - Skin temperature change of the real hand
+    - Onset latency of the illusion
+    - Grip force or other motor measures
 ```
 
 ## Variations

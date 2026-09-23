@@ -24,10 +24,15 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants memorize a small set of items (1–6 digits or letters), then a probe appears and they indicate whether it was in the memory set.
-* - **Manipulation**
-  - Set size (1–6); probe type (positive/present vs. negative/absent); degraded probes; varied vs. fixed set across trials.
-* - **Measurement**
-  - RT as a function of set size (slope = scanning rate, ~38 ms/item); intercept; accuracy.
+* - **Manipulations**
+  - - Set size (1–6)
+    - Probe type (positive/present vs. negative/absent)
+    - Degraded probes
+    - Varied vs. fixed set across trials
+* - **Measurements**
+  - - RT as a function of set size (slope = scanning rate, ~38 ms/item)
+    - Intercept
+    - Accuracy
 ```
 
 ## Variations

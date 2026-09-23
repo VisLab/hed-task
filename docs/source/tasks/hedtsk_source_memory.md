@@ -23,11 +23,21 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Items are studied under two or more contextually distinct source conditions; at test, participants recognize studied items and judge the source (context) in which each item was encoded.
-* - **Manipulation**
-  - Source type (voice, spatial location, temporal position, modality, cognitive operation); number of sources (2, 3, or more); encoding depth; source similarity (easy-to-discriminate vs. similar sources); response format (forced-choice source vs. source confidence rating).
-* - **Measurement**
-  - Source accuracy (proportion of recognized items with correct source attribution); source d' (signal detection); item-source conditional analysis; remember/know × source interaction; source attribution errors (systematic misattributions); PFC and hippocampal activation differences.
+  - 1. Items are studied under two or more contextually distinct source conditions.
+    2. At test, participants recognize studied items and judge the source (context) in which each item was encoded.
+* - **Manipulations**
+  - - Source type (voice, spatial location, temporal position, modality, cognitive operation)
+    - Number of sources (2, 3, or more)
+    - Encoding depth
+    - Source similarity (easy-to-discriminate vs. similar sources)
+    - Response format (forced-choice source vs. source confidence rating)
+* - **Measurements**
+  - - Source accuracy (proportion of recognized items with correct source attribution)
+    - Source d' (signal detection)
+    - Item-source conditional analysis
+    - Remember/know × source interaction
+    - Source attribution errors (systematic misattributions)
+    - PFC and hippocampal activation differences
 ```
 
 ## Variations

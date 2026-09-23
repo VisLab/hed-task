@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants view emotionally valenced images (e.g., IAPS) presented for several seconds each; may rate valence/arousal or simply view while physiological signals are recorded.
-* - **Manipulation**
-  - Emotional valence (positive, negative, neutral) and arousal level of the images; viewing instructions (passive, reappraise, suppress).
-* - **Measurement**
-  - Subjective valence and arousal ratings (SAM); skin conductance, startle reflex magnitude, corrugator/zygomatic EMG; ERP components (LPP); fMRI amygdala/PFC activation.
+  - 1. Participants view emotionally valenced images (e.g., IAPS) presented for several seconds each.
+    2. Participants may rate valence and arousal or simply view while physiological signals are recorded.
+* - **Manipulations**
+  - - Emotional valence (positive, negative, neutral) and arousal level of the images
+    - Viewing instructions (passive, reappraise, suppress)
+* - **Measurements**
+  - - Subjective valence and arousal ratings (SAM)
+    - Skin conductance, startle reflex magnitude, corrugator/zygomatic EMG
+    - ERP components (LPP)
+    - FMRI amygdala/PFC activation
 ```
 
 ## Variations

@@ -24,10 +24,15 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants tap a key or button with a single finger as rapidly as possible (maximum rate) or in synchrony with a metronome (paced tapping).
-* - **Manipulation**
-  - Hand (dominant vs. non-dominant); pacing rate; tapping duration; sequence complexity (single finger vs. sequence).
-* - **Measurement**
-  - Tapping rate (taps/sec); inter-tap interval variability; synchronization error and drift in paced conditions.
+* - **Manipulations**
+  - - Hand (dominant vs. non-dominant)
+    - Pacing rate
+    - Tapping duration
+    - Sequence complexity (single finger vs. sequence)
+* - **Measurements**
+  - - Tapping rate (taps/sec)
+    - Inter-tap interval variability
+    - Synchronization error and drift in paced conditions
 ```
 
 ## Variations

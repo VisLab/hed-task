@@ -24,10 +24,15 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants connect numbered circles in order (Part A: 1-2-3...) or alternate between numbers and letters (Part B: 1-A-2-B-3-C...), drawing lines as quickly as possible.
-* - **Manipulation**
-  - Part A vs. Part B; number of targets; digital vs. paper administration.
-* - **Measurement**
-  - Completion time for Part A and Part B; B-minus-A difference (executive component); B/A ratio; errors.
+* - **Manipulations**
+  - - Part A vs. Part B
+    - Number of targets
+    - Digital vs. paper administration
+* - **Measurements**
+  - - Completion time for Part A and Part B
+    - B-minus-A difference (executive component)
+    - B/A ratio
+    - Errors
 ```
 
 ## Variations

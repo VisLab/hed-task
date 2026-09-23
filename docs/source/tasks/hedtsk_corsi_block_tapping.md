@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - The experimenter (or computer) taps a sequence of blocks on a board; the participant reproduces the sequence in the same (or reverse) order. Sequence length increases until recall fails.
-* - **Manipulation**
-  - Sequence length; forward vs. backward reproduction; block spatial arrangement.
-* - **Measurement**
-  - Span (longest sequence correctly recalled); total score across trials.
+  - 1. The experimenter (or computer) taps a sequence of blocks on a board.
+    2. The participant reproduces the sequence in the same (or reverse) order.
+    3. Sequence length increases until recall fails.
+* - **Manipulations**
+  - - Sequence length
+    - Forward vs. backward reproduction
+    - Block spatial arrangement
+* - **Measurements**
+  - - Span (longest sequence correctly recalled)
+    - Total score across trials
 ```
 
 ## Variations

@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Cues signal potential social reward (smiling face), social non-reward (neutral face), or control (geometric shape). After a delay, participants respond to a target; outcome is contingent on response speed.
-* - **Manipulation**
-  - Cue type (social reward, social non-reward, non-social control); target duration (titrated); reward magnitude.
-* - **Measurement**
-  - RT by cue type; fMRI ventral striatum activation; comparison of social vs. monetary reward anticipation signals.
+  - 1. Cues signal potential social reward (smiling face), social non-reward (neutral face), or control (geometric shape).
+    2. After a delay, participants respond to a target.
+    3. Outcome is contingent on response speed.
+* - **Manipulations**
+  - - Cue type (social reward, social non-reward, non-social control)
+    - Target duration (titrated)
+    - Reward magnitude
+* - **Measurements**
+  - - RT by cue type
+    - FMRI ventral striatum activation
+    - Comparison of social vs. monetary reward anticipation signals
 ```
 
 ## Variations

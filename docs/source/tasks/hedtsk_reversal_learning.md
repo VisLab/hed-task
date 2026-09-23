@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants learn to choose the rewarded stimulus over an unrewarded one. After reaching criterion, contingencies reverse — the previously correct stimulus becomes incorrect and vice versa.
-* - **Manipulation**
-  - Number of reversals; deterministic vs. probabilistic feedback; stimulus discriminability; serial vs. spatial reversals.
-* - **Measurement**
-  - Errors to criterion on initial discrimination and on reversals; perseverative errors (continuing to choose previously correct stimulus); reversal cost.
+  - 1. Participants learn to choose the rewarded stimulus over an unrewarded one.
+    2. After reaching criterion, contingencies reverse — the previously correct stimulus becomes incorrect and vice versa.
+* - **Manipulations**
+  - - Number of reversals
+    - Deterministic vs. probabilistic feedback
+    - Stimulus discriminability
+    - Serial vs. spatial reversals
+* - **Measurements**
+  - - Errors to criterion on initial discrimination and on reversals
+    - Perseverative errors (continuing to choose previously correct stimulus)
+    - Reversal cost
 ```
 
 ## Variations

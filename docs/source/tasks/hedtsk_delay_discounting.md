@@ -24,10 +24,14 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants choose between a smaller immediate reward and a larger delayed reward across many trials with varying amounts and delays.
-* - **Manipulation**
-  - Reward magnitude; delay duration; ascending vs. descending adjustment procedures.
-* - **Measurement**
-  - Indifference point at each delay; discount rate k (hyperbolic model); area under the discount curve (AUC).
+* - **Manipulations**
+  - - Reward magnitude
+    - Delay duration
+    - Ascending vs. descending adjustment procedures
+* - **Measurements**
+  - - Indifference point at each delay
+    - Discount rate k (hyperbolic model)
+    - Area under the discount curve (AUC)
 ```
 
 ## Variations

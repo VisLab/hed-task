@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A brief target stimulus is rendered invisible or reduced in visibility by a temporally adjacent mask. Participants detect, identify, or discriminate the target.
-* - **Manipulation**
-  - Mask type (metacontrast, pattern, backward, forward, common-onset, object-substitution); SOA/ISA between target and mask; target-mask spatial relationship; mask energy.
-* - **Measurement**
-  - Target detection/identification accuracy or d-prime as a function of SOA (U-shaped or monotonic masking functions); subjective visibility ratings; priming effects from unseen targets.
+  - 1. A brief target stimulus is rendered invisible or reduced in visibility by a temporally adjacent mask.
+    2. Participants detect, identify, or discriminate the target.
+* - **Manipulations**
+  - - Mask type (metacontrast, pattern, backward, forward, common-onset, object-substitution)
+    - SOA/ISA between target and mask
+    - Target-mask spatial relationship
+    - Mask energy
+* - **Measurements**
+  - - Target detection/identification accuracy or d-prime as a function of SOA (U-shaped or monotonic masking functions)
+    - Subjective visibility ratings
+    - Priming effects from unseen targets
 ```
 
 ## Variations

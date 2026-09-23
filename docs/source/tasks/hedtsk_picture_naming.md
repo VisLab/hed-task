@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Line drawings or photographs of objects are presented one at a time; participants name each object as quickly as possible.
-* - **Manipulation**
-  - Object frequency; name agreement; visual complexity; phonological or semantic context (blocked naming, picture-word interference).
-* - **Measurement**
-  - Naming latency; error type (semantic, phonological); frequency and agreement effects.
+  - 1. Line drawings or photographs of objects are presented one at a time.
+    2. Participants name each object as quickly as possible.
+* - **Manipulations**
+  - - Object frequency
+    - Name agreement
+    - Visual complexity
+    - Phonological or semantic context (blocked naming, picture-word interference)
+* - **Measurements**
+  - - Naming latency
+    - Error type (semantic, phonological)
+    - Frequency and agreement effects
 ```
 
 ## Variations

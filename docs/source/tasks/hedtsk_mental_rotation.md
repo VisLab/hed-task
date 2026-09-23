@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Two figures (3-D block shapes, letters, or hands) are presented at different orientations; participants judge whether they are the same or mirror-reversed.
-* - **Manipulation**
-  - Angular disparity between the two figures (0°–180°); stimulus complexity; dimensionality (2D vs. 3D).
-* - **Measurement**
-  - RT as a function of angular disparity (linear slope = rotation rate); accuracy; the RT-angle linear function.
+  - 1. Two figures (3-D block shapes, letters, or hands) are presented at different orientations.
+    2. Participants judge whether they are the same or mirror-reversed.
+* - **Manipulations**
+  - - Angular disparity between the two figures (0°–180°)
+    - Stimulus complexity
+    - Dimensionality (2D vs. 3D)
+* - **Measurements**
+  - - RT as a function of angular disparity (linear slope = rotation rate)
+    - Accuracy
+    - The RT-angle linear function
 ```
 
 ## Variations

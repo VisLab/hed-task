@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A repetitive standard tone is occasionally replaced by a deviant tone differing in frequency, duration, or intensity. Participants typically ignore the sounds while reading or watching a silent video.
-* - **Manipulation**
-  - Deviant type (frequency, duration, intensity, phoneme); deviant probability; magnitude of deviance; ISI.
-* - **Measurement**
-  - MMN amplitude and latency (deviant-minus-standard difference wave, peaking 100–250 ms); scalp topography.
+  - 1. A repetitive standard tone is occasionally replaced by a deviant tone differing in frequency, duration, or intensity.
+    2. Participants typically ignore the sounds while reading or watching a silent video.
+* - **Manipulations**
+  - - Deviant type (frequency, duration, intensity, phoneme)
+    - Deviant probability
+    - Magnitude of deviance
+    - ISI
+* - **Measurements**
+  - - MMN amplitude and latency (deviant-minus-standard difference wave, peaking 100–250 ms)
+    - Scalp topography
 ```
 
 ## Variations

@@ -23,11 +23,20 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participant generates words aloud matching a letter or category constraint within a timed interval; an examiner records all responses.
-* - **Manipulation**
-  - Constraint type (phonemic letter vs. semantic category); letter difficulty (e.g., F vs. Q); category breadth (animals vs. tools); time interval (30 s, 60 s, 90 s); switching vs. free-generation instructions.
-* - **Measurement**
-  - Total correct words; number of perseverations and rule violations; cluster size (mean words per semantic/phonemic cluster); number of switches between clusters; temporal production curve (words per 15-s quartile).
+  - 1. Participant generates words aloud matching a letter or category constraint within a timed interval.
+    2. An examiner records all responses.
+* - **Manipulations**
+  - - Constraint type (phonemic letter vs. semantic category)
+    - Letter difficulty (e.g., F vs. Q)
+    - Category breadth (animals vs. tools)
+    - Time interval (30 s, 60 s, 90 s)
+    - Switching vs. free-generation instructions
+* - **Measurements**
+  - - Total correct words
+    - Number of perseverations and rule violations
+    - Cluster size (mean words per semantic/phonemic cluster)
+    - Number of switches between clusters
+    - Temporal production curve (words per 15-s quartile)
 ```
 
 ## Variations

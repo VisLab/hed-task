@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A target sound is presented alongside, before, or after a masker; participants detect, discriminate, or identify the target.
-* - **Manipulation**
-  - Temporal relation (simultaneous, forward, backward); spectral overlap between target and masker; masker type (noise, tones, speech, modulated); spatial separation.
-* - **Measurement**
-  - Detection threshold (masked vs. unmasked); threshold shift; psychometric function slope; speech reception threshold in noise.
+  - 1. A target sound is presented alongside, before, or after a masker.
+    2. Participants detect, discriminate, or identify the target.
+* - **Manipulations**
+  - - Temporal relation (simultaneous, forward, backward)
+    - Spectral overlap between target and masker
+    - Masker type (noise, tones, speech, modulated)
+    - Spatial separation
+* - **Measurements**
+  - - Detection threshold (masked vs. unmasked)
+    - Threshold shift
+    - Psychometric function slope
+    - Speech reception threshold in noise
 ```
 
 ## Variations

@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - First stage: choose between two options that lead probabilistically (70/30) to one of two second-stage choice sets. Second stage: choose between two options with drifting reward probabilities. This separates model-based from model-free learning.
-* - **Manipulation**
-  - Transition structure (common vs. rare); reward probability drift rate; reward magnitude.
-* - **Measurement**
-  - Stay probability as a function of previous trial outcome × transition type; model-based index; computational model fits (hybrid MB/MF learning rates, mixing weight).
+  - 1. First stage: choose between two options that lead probabilistically (70/30) to one of two second-stage choice sets.
+    2. Second stage: choose between two options with drifting reward probabilities.
+    3. This separates model-based from model-free learning.
+* - **Manipulations**
+  - - Transition structure (common vs. rare)
+    - Reward probability drift rate
+    - Reward magnitude
+* - **Measurements**
+  - - Stay probability as a function of previous trial outcome × transition type
+    - Model-based index
+    - Computational model fits (hybrid MB/MF learning rates, mixing weight)
 ```
 
 ## Variations

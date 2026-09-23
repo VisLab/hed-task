@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Stimuli appear at one of several spatial locations in a repeating (but covert) sequence; participants respond to each location with a spatially mapped keypress. Sequence awareness is typically not disclosed.
-* - **Manipulation**
-  - Sequence length and complexity; sequence vs. random blocks; explicit vs. implicit instruction; secondary task (dual-task interference).
-* - **Measurement**
-  - RT slowing when sequence is replaced by random order (sequence learning effect); explicit sequence knowledge (generation task, recognition); offline consolidation gains.
+  - 1. Stimuli appear at one of several spatial locations in a repeating (but covert) sequence.
+    2. Participants respond to each location with a spatially mapped keypress.
+    3. Sequence awareness is typically not disclosed.
+* - **Manipulations**
+  - - Sequence length and complexity
+    - Sequence vs. random blocks
+    - Explicit vs. implicit instruction
+    - Secondary task (dual-task interference)
+* - **Measurements**
+  - - RT slowing when sequence is replaced by random order (sequence learning effect)
+    - Explicit sequence knowledge (generation task, recognition)
+    - Offline consolidation gains
 ```
 
 ## Variations

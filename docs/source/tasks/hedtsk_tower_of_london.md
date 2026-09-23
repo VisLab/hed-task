@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Three pegs hold colored discs in a start configuration; participants move discs one at a time to reach a goal configuration in the minimum number of moves.
-* - **Manipulation**
-  - Problem difficulty (minimum moves: 2–7); number of discs; time constraints; one-touch (planning only) vs. execution versions.
-* - **Measurement**
-  - Number of problems solved in minimum moves; excess moves; planning time (first-move latency); total solution time.
+  - 1. Three pegs hold colored discs in a start configuration.
+    2. Participants move discs one at a time to reach a goal configuration in the minimum number of moves.
+* - **Manipulations**
+  - - Problem difficulty (minimum moves: 2–7)
+    - Number of discs
+    - Time constraints
+    - One-touch (planning only) vs. execution versions
+* - **Measurements**
+  - - Number of problems solved in minimum moves
+    - Excess moves
+    - Planning time (first-move latency)
+    - Total solution time
 ```
 
 ## Variations

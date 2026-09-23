@@ -24,10 +24,15 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants study pairs of items (word-word, face-name, object-location) and are later cued with one member to recall the other.
-* - **Manipulation**
-  - Pair relatedness (semantic, unrelated); number of pairs; study-test cycles; cue type.
-* - **Measurement**
-  - Cued recall accuracy; number of cycles to criterion; intrusion errors.
+* - **Manipulations**
+  - - Pair relatedness (semantic, unrelated)
+    - Number of pairs
+    - Study-test cycles
+    - Cue type
+* - **Measurements**
+  - - Cued recall accuracy
+    - Number of cycles to criterion
+    - Intrusion errors
 ```
 
 ## Variations

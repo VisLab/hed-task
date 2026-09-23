@@ -24,10 +24,13 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants learn a set of target faces during study, then identify them among distractor faces in increasingly difficult test phases (same image, novel viewpoint, plus noise).
-* - **Manipulation**
-  - Test phase difficulty (same view, novel view, contrast-degraded); number of target/distractor faces.
-* - **Measurement**
-  - Total correct identifications across phases; accuracy per phase; comparison to prosopagnosia norms.
+* - **Manipulations**
+  - - Test phase difficulty (same view, novel view, contrast-degraded)
+    - Number of target/distractor faces
+* - **Measurements**
+  - - Total correct identifications across phases
+    - Accuracy per phase
+    - Comparison to prosopagnosia norms
 ```
 
 ## Variations

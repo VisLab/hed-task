@@ -24,10 +24,14 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants view point-light displays (dots at major joints) and identify actions, discriminate facing direction, or detect biological motion embedded in noise dots.
-* - **Manipulation**
-  - Display type (intact vs. scrambled vs. inverted); noise dot density; action category; viewpoint angle.
-* - **Measurement**
-  - Accuracy and RT for action identification, direction discrimination, or detection; noise-dot threshold for biological motion detection.
+* - **Manipulations**
+  - - Display type (intact vs. scrambled vs. inverted)
+    - Noise dot density
+    - Action category
+    - Viewpoint angle
+* - **Measurements**
+  - - Accuracy and RT for action identification, direction discrimination, or detection
+    - Noise-dot threshold for biological motion detection
 ```
 
 ## Variations

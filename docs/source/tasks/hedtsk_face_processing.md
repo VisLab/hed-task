@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Blocks of faces alternate with blocks of non-face objects (houses, scrambled images) while participants perform a simple repetition-detection task. The contrast localizes face-selective cortex.
-* - **Manipulation**
-  - Stimulus category (faces vs. objects vs. scrambled vs. scenes); block duration; task (1-back, passive viewing).
-* - **Measurement**
-  - fMRI contrast (faces > objects) identifying FFA, OFA, STS; extent and magnitude of face-selective activation; lateralization index.
+  - 1. Blocks of faces alternate with blocks of non-face objects (houses, scrambled images) while participants perform a simple repetition-detection task.
+    2. The contrast localizes face-selective cortex.
+* - **Manipulations**
+  - - Stimulus category (faces vs. objects vs. scrambled vs. scenes)
+    - Block duration
+    - Task (1-back, passive viewing)
+* - **Measurements**
+  - - FMRI contrast (faces > objects) identifying FFA, OFA, STS
+    - Extent and magnitude of face-selective activation
+    - Lateralization index
 ```
 
 ## Variations

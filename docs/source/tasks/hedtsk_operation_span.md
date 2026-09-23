@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants alternate between processing a distractor task (verifying math equations) and remembering items (letters or words). At the end of each set, they recall items in order.
-* - **Manipulation**
-  - Set size (2–7); processing task difficulty; type of memoranda; partial-credit vs. absolute scoring.
-* - **Measurement**
-  - Operation span score (items recalled in correct position); processing accuracy (to verify engagement with distractor task).
+  - 1. Participants alternate between processing a distractor task (verifying math equations) and remembering items (letters or words).
+    2. At the end of each set, they recall items in order.
+* - **Manipulations**
+  - - Set size (2–7)
+    - Processing task difficulty
+    - Type of memoranda
+    - Partial-credit vs. absolute scoring
+* - **Measurements**
+  - - Operation span score (items recalled in correct position)
+    - Processing accuracy (to verify engagement with distractor task)
 ```
 
 ## Variations

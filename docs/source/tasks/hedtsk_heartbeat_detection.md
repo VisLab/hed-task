@@ -24,10 +24,18 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants perceive their own heartbeats — either counting them during timed intervals (counting variant) or judging synchrony between external stimuli and cardiac events (discrimination variant) — while actual heartbeats are recorded physiologically.
-* - **Manipulation**
-  - Task variant (counting vs. discrimination); interval duration; stimulus timing relative to R-wave (synchronous vs. delayed); attention condition (interoceptive focus vs. exteroceptive distraction); pharmacological manipulation (beta-blockers, isoproterenol).
-* - **Measurement**
-  - Interoceptive accuracy score (1 - |counted - actual| / actual); heartbeat discrimination d-prime; confidence ratings (interoceptive sensibility); heart rate variability as a covariate; heartbeat-evoked potential (HEP) amplitude as a neural index.
+* - **Manipulations**
+  - - Task variant (counting vs. discrimination)
+    - Interval duration
+    - Stimulus timing relative to R-wave (synchronous vs. delayed)
+    - Attention condition (interoceptive focus vs. exteroceptive distraction)
+    - Pharmacological manipulation (beta-blockers, isoproterenol)
+* - **Measurements**
+  - - Interoceptive accuracy score (1 - |counted - actual| / actual)
+    - Heartbeat discrimination d-prime
+    - Confidence ratings (interoceptive sensibility)
+    - Heart rate variability as a covariate
+    - Heartbeat-evoked potential (HEP) amplitude as a neural index
 ```
 
 ## Variations

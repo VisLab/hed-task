@@ -24,10 +24,16 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants perform actions (button presses, lever responses) that produce contingent outcomes (rewards or punishments) according to defined reinforcement schedules.
-* - **Manipulation**
-  - Reinforcement schedule (fixed ratio, variable ratio, fixed interval, variable interval); outcome valence; contingency degradation; Pavlovian-instrumental transfer.
-* - **Measurement**
-  - Response rate; choice probability; sensitivity to contingency and outcome devaluation; transfer effects between Pavlovian cues and instrumental actions.
+* - **Manipulations**
+  - - Reinforcement schedule (fixed ratio, variable ratio, fixed interval, variable interval)
+    - Outcome valence
+    - Contingency degradation
+    - Pavlovian-instrumental transfer
+* - **Measurements**
+  - - Response rate
+    - Choice probability
+    - Sensitivity to contingency and outcome devaluation
+    - Transfer effects between Pavlovian cues and instrumental actions
 ```
 
 ## Variations

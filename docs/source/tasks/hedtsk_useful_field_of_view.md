@@ -24,10 +24,14 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Three subtests of increasing demand: central target identification, divided attention (central + peripheral targets simultaneously), and selective attention (peripheral target among distractors).
-* - **Manipulation**
-  - Display duration (thresholded per subtest); distractor density; eccentricity of peripheral target.
-* - **Measurement**
-  - Display duration threshold for 75% accuracy per subtest; UFOV composite score; correlation with driving safety measures.
+* - **Manipulations**
+  - - Display duration (thresholded per subtest)
+    - Distractor density
+    - Eccentricity of peripheral target
+* - **Measurements**
+  - - Display duration threshold for 75% accuracy per subtest
+    - UFOV composite score
+    - Correlation with driving safety measures
 ```
 
 ## Variations

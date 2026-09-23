@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants trace a path (star, maze) while viewing their hand only through a mirror, which reverses visual-motor mapping. They must stay within path boundaries.
-* - **Manipulation**
-  - Path complexity; practice blocks; dominant vs. non-dominant hand.
-* - **Measurement**
-  - Tracing time; number of boundary errors; improvement across trials (learning curve).
+  - 1. Participants trace a path (star, maze) while viewing their hand only through a mirror, which reverses visual-motor mapping.
+    2. They must stay within path boundaries.
+* - **Manipulations**
+  - - Path complexity
+    - Practice blocks
+    - Dominant vs. non-dominant hand
+* - **Measurements**
+  - - Tracing time
+    - Number of boundary errors
+    - Improvement across trials (learning curve)
 ```
 
 ## Variations

@@ -23,11 +23,19 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Letter strings are presented one at a time; participants classify each as a real word or a nonword as quickly and accurately as possible.
-* - **Manipulation**
-  - Word frequency; word length; orthographic neighborhood; nonword type (pseudoword vs. random); priming (semantic, associative, morphological).
-* - **Measurement**
-  - RT and accuracy; frequency effect; priming effect (primed − unprimed RT); d-prime.
+  - 1. Letter strings are presented one at a time.
+    2. Participants classify each as a real word or a nonword as quickly and accurately as possible.
+* - **Manipulations**
+  - - Word frequency
+    - Word length
+    - Orthographic neighborhood
+    - Nonword type (pseudoword vs. random)
+    - Priming (semantic, associative, morphological)
+* - **Measurements**
+  - - RT and accuracy
+    - Frequency effect
+    - Priming effect (primed − unprimed RT)
+    - D-prime
 ```
 
 ## Variations

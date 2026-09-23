@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Two players simultaneously choose to cooperate or defect; payoffs depend on both choices according to a matrix where mutual cooperation beats mutual defection but defection is individually tempting.
-* - **Manipulation**
-  - Payoff matrix values; one-shot vs. iterated; partner identity (human, computer, in-group); communication allowed or not.
-* - **Measurement**
-  - Cooperation rate; payoff earned; tit-for-tat and other strategy classification; first-move cooperation.
+  - 1. Two players simultaneously choose to cooperate or defect.
+    2. Payoffs depend on both choices according to a matrix where mutual cooperation beats mutual defection but defection is individually tempting.
+* - **Manipulations**
+  - - Payoff matrix values
+    - One-shot vs. iterated
+    - Partner identity (human, computer, in-group)
+    - Communication allowed or not
+* - **Measurements**
+  - - Cooperation rate
+    - Payoff earned
+    - Tit-for-tat and other strategy classification
+    - First-move cooperation
 ```
 
 ## Variations

@@ -24,10 +24,16 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants identify a central target (arrow or letter) flanked by congruent, incongruent, or neutral distractors.
-* - **Manipulation**
-  - Flanker congruency; flanker-target distance; proportion congruent; response deadline.
-* - **Measurement**
-  - RT and accuracy; congruency effect (incongruent − congruent RT); delta plots (interference across RT distribution); conflict adaptation (Gratton effect).
+* - **Manipulations**
+  - - Flanker congruency
+    - Flanker-target distance
+    - Proportion congruent
+    - Response deadline
+* - **Measurements**
+  - - RT and accuracy
+    - Congruency effect (incongruent − congruent RT)
+    - Delta plots (interference across RT distribution)
+    - Conflict adaptation (Gratton effect)
 ```
 
 ## Variations

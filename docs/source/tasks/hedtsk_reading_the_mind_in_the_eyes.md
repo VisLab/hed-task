@@ -24,10 +24,15 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants view photographs of the eye region of faces and select the mental state (from four word options) that best describes what the person is thinking or feeling.
-* - **Manipulation**
-  - Number of items (typically 36); response options; presentation duration; basic vs. complex mental states.
-* - **Measurement**
-  - Total correct; comparison to normative data; errors by emotion category.
+* - **Manipulations**
+  - - Number of items (typically 36)
+    - Response options
+    - Presentation duration
+    - Basic vs. complex mental states
+* - **Measurements**
+  - - Total correct
+    - Comparison to normative data
+    - Errors by emotion category
 ```
 
 ## Variations

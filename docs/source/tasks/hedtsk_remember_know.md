@@ -24,10 +24,13 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - During a recognition memory test, participants first judge each item as old or new, then classify old responses as 'remember' (vivid recollection of encoding context) or 'know' (familiarity without recollection).
-* - **Manipulation**
-  - Encoding depth (deep vs. shallow processing); divided attention at encoding; item type (words, faces, scenes).
-* - **Measurement**
-  - Proportion remember and know responses for hits and false alarms; estimates of recollection and familiarity (dual-process model parameters).
+* - **Manipulations**
+  - - Encoding depth (deep vs. shallow processing)
+    - Divided attention at encoding
+    - Item type (words, faces, scenes)
+* - **Measurements**
+  - - Proportion remember and know responses for hits and false alarms
+    - Estimates of recollection and familiarity (dual-process model parameters)
 ```
 
 ## Variations

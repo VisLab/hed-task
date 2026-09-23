@@ -24,10 +24,15 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants hear or read vignettes in which a character holds a belief that conflicts with reality (e.g., Sally-Anne scenario), then predict the character's behavior.
-* - **Manipulation**
-  - True belief vs. false belief conditions; first-order vs. second-order belief attribution; verbal vs. nonverbal response; story complexity.
-* - **Measurement**
-  - Accuracy on false-belief vs. true-belief questions; RT; pass/fail classification in developmental studies.
+* - **Manipulations**
+  - - True belief vs. false belief conditions
+    - First-order vs. second-order belief attribution
+    - Verbal vs. nonverbal response
+    - Story complexity
+* - **Measurements**
+  - - Accuracy on false-belief vs. true-belief questions
+    - RT
+    - Pass/fail classification in developmental studies
 ```
 
 ## Variations

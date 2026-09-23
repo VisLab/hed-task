@@ -166,6 +166,19 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
         for pid in t.get("hed_process_ids", []):
             if pid not in process_ids:
                 problems.append(f"{t['hedtsk_id']}: hed_process_ids names unknown process {pid!r}")
+        # The inclusion test is three lists (data/README.md, "Editing a task or process"):
+        # procedure steps are sentences, the other two are fragments. The schema checks
+        # the shape; the text rules are here.
+        test = t.get("inclusion_test") or {}
+        for step in test.get("procedure") or []:
+            if step != step.strip() or not step.endswith((".", "!", "?")):
+                problems.append(f"{t['hedtsk_id']}: procedure step must be a trimmed sentence ending in a period: {step!r}")
+        for field in ("manipulations", "measurements"):
+            for item in test.get(field) or []:
+                if item != item.strip() or item.endswith((";", ".")) or not item[:1].isupper() and not item[:1].isdigit():
+                    problems.append(
+                        f"{t['hedtsk_id']}: {field} item must be trimmed, start with a capital and carry no final period or semicolon: {item!r}"
+                    )
         # A task engages at least one process; a pseudo task (task criteria, "Pseudo tasks") engages none
         # by definition, so the two kinds are checked in opposite directions.
         is_pseudo = t.get("task_kind", "task") == "pseudo_task"

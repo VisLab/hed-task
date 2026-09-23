@@ -23,11 +23,15 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Flanker task with preceding spatial and temporal cues; participants identify the direction of a central arrow flanked by congruent or incongruent arrows.
-* - **Manipulation**
-  - Cue type (no cue, center cue, double cue, spatial cue) crossed with flanker congruency (congruent, incongruent).
-* - **Measurement**
-  - Three network scores derived from RT differences: alerting (double cue − no cue), orienting (center cue − spatial cue), executive (incongruent − congruent).
+  - 1. Flanker task with preceding spatial and temporal cues.
+    2. Participants identify the direction of a central arrow flanked by congruent or incongruent arrows.
+* - **Manipulations**
+  - - Cue type (no cue, center cue, double cue, spatial cue)
+    - Flanker congruency (congruent, incongruent)
+* - **Measurements**
+  - - Alerting network score (double-cue minus no-cue RT)
+    - Orienting network score (center-cue minus spatial-cue RT)
+    - Executive network score (incongruent minus congruent RT)
 ```
 
 ## Variations

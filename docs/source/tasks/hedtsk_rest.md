@@ -31,10 +31,16 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participant remains awake, still and relaxed with no stimulus to process and no response to make, for a block typically lasting 3 to 10 minutes.
-* - **Manipulation**
-  - Eye state (open or closed); block duration; position relative to task blocks (before, between, after); instruction to let the mind wander versus to stay alert.
-* - **Measurement**
-  - Spontaneous EEG or MEG spectra and microstates; resting-state fMRI connectivity; heart rate and respiration; self-reported drowsiness or thought content after the block. No behavioral performance measure.
+* - **Manipulations**
+  - - Eye state (open or closed)
+    - Block duration
+    - Position relative to task blocks (before, between, after)
+    - Instruction to let the mind wander versus to stay alert
+* - **Measurements**
+  - - Spontaneous EEG or MEG spectra and microstates
+    - Resting-state fMRI connectivity
+    - Heart rate and respiration
+    - Self-reported drowsiness or thought content after the block. No behavioral performance measure
 ```
 
 ## Variations

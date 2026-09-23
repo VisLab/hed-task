@@ -24,10 +24,14 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants make explicit judgments about the sound structure of spoken words: rhyme detection, phoneme deletion, phoneme segmentation, or blending.
-* - **Manipulation**
-  - Task type (rhyme, onset, phoneme deletion, blending); word complexity; real word vs. nonword targets.
-* - **Measurement**
-  - Accuracy; RT; correlation with reading ability in developmental populations.
+* - **Manipulations**
+  - - Task type (rhyme, onset, phoneme deletion, blending)
+    - Word complexity
+    - Real word vs. nonword targets
+* - **Measurements**
+  - - Accuracy
+    - RT
+    - Correlation with reading ability in developmental populations
 ```
 
 ## Variations

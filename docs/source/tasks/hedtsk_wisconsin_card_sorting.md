@@ -23,11 +23,19 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Cards vary on three dimensions (color, form, number). Participants sort cards to match a target according to an undisclosed rule (e.g., color), receiving feedback. After a run of correct sorts, the rule changes without warning.
-* - **Manipulation**
-  - Number of sorting categories; number of consecutive correct before shift; ambiguous cards; computerized vs. manual administration.
-* - **Measurement**
-  - Categories completed; perseverative errors (continuing to sort by old rule); total errors; trials to first category.
+  - 1. Cards vary on three dimensions (color, form, number).
+    2. Participants sort cards to match a target according to an undisclosed rule (e.g., color), receiving feedback.
+    3. After a run of correct sorts, the rule changes without warning.
+* - **Manipulations**
+  - - Number of sorting categories
+    - Number of consecutive correct before shift
+    - Ambiguous cards
+    - Computerized vs. manual administration
+* - **Measurements**
+  - - Categories completed
+    - Perseverative errors (continuing to sort by old rule)
+    - Total errors
+    - Trials to first category
 ```
 
 ## Variations

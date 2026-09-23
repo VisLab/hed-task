@@ -32,12 +32,17 @@ Take the [Stroop Color-Word Task](tasks/hedtsk_stroop_color_word.md) as the exam
 record when tagging. The aliases are the other names the literature uses for the same
 procedure.
 
-**Inclusion test.** The three rows decide whether a particular experiment is an
+**Inclusion test.** The three lists decide whether a particular experiment is an
 instance of this task:
 
-- *Procedure*: Color words (RED, BLUE) are printed in incongruent ink colors; participants name the ink color while ignoring the word.
-- *Manipulation*: Congruency (congruent, incongruent, neutral); proportion congruent; response modality (vocal, manual); stimulus type (classic, spatial, numerical).
-- *Measurement*: Stroop interference effect (incongruent - congruent RT); facilitation (neutral - congruent); error rate; conflict adaptation (Gratton effect).
+- *Procedure*, as ordered steps: color words (RED, BLUE) are printed in incongruent ink
+  colors; participants name the ink color while ignoring the word.
+- *Manipulations*, one variable per item: congruency (congruent, incongruent, neutral);
+  proportion congruent; response modality (vocal, manual); stimulus type (classic,
+  spatial, numerical).
+- *Measurements*, one measure per item: Stroop interference effect (incongruent minus
+  congruent RT); facilitation (neutral minus congruent); error rate; conflict adaptation
+  (Gratton effect).
 
 An experiment is an instance when its procedure matches, it manipulates at least one of
 the listed variables, and it records at least one of the listed measures. If the
@@ -95,9 +100,9 @@ The Catalog is curated continuously and depends on its users to grow. The reposi
 [contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the process; in short, post an issue at
 <https://github.com/hed-standard/hed-task/issues> for any of the following.
 
-- **A new task.** Give the canonical name and aliases, a procedure, a manipulation and
- a measurement in the form the inclusion tests use, the processes it engages, and one
- or two references. Say why it is not a variation of an existing task.
+- **A new task.** Give the canonical name and aliases, the procedure as ordered steps,
+ the manipulations and the measurements in the form the inclusion tests use, the
+ processes it engages, and one or two references. Say why it is not a variation of an existing task.
 - **A new variation.** Name the parent task, describe what changes in what the
  participant experiences or does, and say why that is not one of the excluded kinds of
  change (measurement modality, analysis, population, stimulus swap, and so on).

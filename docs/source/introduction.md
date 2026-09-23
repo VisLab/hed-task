@@ -69,10 +69,10 @@ The Catalog currently has {{ n_tasks }} tasks. Each task page carries:
 - a **canonical name** and its **aliases**, so that a search for "CWIT" or "Stroop" lands
   on the Stroop Color-Word Task;
 - a **short definition** and a longer **description**;
-- an **inclusion test** in three parts: the *procedure* the participant follows, the
-  *manipulation* the experimenter varies, and the *measurement* recorded. An experiment
-  is an instance of the task when its procedure matches, it manipulates at least one of
-  the listed variables, and it records at least one of the listed measures. The
+- an **inclusion test** in three lists: the steps of the *procedure* the participant
+  follows, the *manipulations* the experimenter varies, and the *measurements* recorded.
+  An experiment is an instance of the task when its procedure matches, it manipulates at
+  least one of the listed variables, and it records at least one of the listed measures. The
   procedure is decisive: two experiments with the same procedure are the same task even
   if they target different constructs;
 - a list of **variations**, each with a description and a justification. A variation
