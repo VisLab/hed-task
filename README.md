@@ -86,7 +86,7 @@ python src/build_atlas_maps.py    # refresh the mapping tables, preserving curat
 
 `build_atlas_data.py` and `build_atlas_maps.py` both take `--archive` if the archive is not at `.cog_data/`.
 
-`cogpo_summary.json` is derived the same way from an archive of [CogPO](http://www.cogpo.org/), the Cognitive Paradigm Ontology: the OWL release and the raw wikitext of its wiki, kept untracked in `.cog_data/cogpo/`. Both are fetched over plain http because the wiki's certificate is invalid. To refresh, run:
+`cogpo_summary.json` is derived the same way from an archive of [CogPO](http://www.cogpo.org/), the Cognitive Paradigm Ontology: the OWL release and the raw wikitext of its wiki, kept untracked in `.cog_data/cogpo/`. Neither CogPO host serves https, so both are fetched over plain http; the OWL file's SHA-256 is pinned in `src/build_cogpo_data.py` and the builder refuses a file that does not match it, while the wiki pages are supplementary and their effect is reviewable in the committed summary. To refresh, run:
 
 ```bash
 python src/fetch_cogpo_data.py    # rebuild .cog_data/cogpo/ (resumable; --no-wiki for the OWL alone)

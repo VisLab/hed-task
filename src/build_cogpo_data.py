@@ -43,6 +43,7 @@ from __future__ import annotations
 
 import argparse
 import collections
+import hashlib
 import json
 import re
 import urllib.parse
@@ -51,6 +52,13 @@ from pathlib import Path
 
 DEFAULT_ARCHIVE = Path(__file__).parent.parent / ".cog_data" / "cogpo"
 OWL_FILE = "CogPOver1.owl"
+
+# SHA-256 of CogPOver1.owl as released (Last-Modified 22 Dec 2010, 209798 bytes), recorded
+# 2026-09-22. Both CogPO hosts serve plain http only, so the download itself cannot be
+# trusted; this pin is what makes the summary reproducible from a known file. A different
+# hash stops the build unless --allow-unverified is given, and then the summary records
+# that it was built from an unverified file.
+EXPECTED_OWL_SHA256 = "09d8fd3e7c41437fc9e4094cfd12f8879e5eac68d1d2db101913d91f3c242255"
 
 OWL = "{http://www.w3.org/2002/07/owl#}"
 RDF = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}"
@@ -331,10 +339,19 @@ def _norm(name: str) -> str:
 # ---------------------------------------------------------------------------
 
 
-def build(archive: Path) -> dict:
+def build(archive: Path, allow_unverified: bool = False) -> dict:
     owl_path = archive / "owl" / OWL_FILE
     if not owl_path.exists():
         raise SystemExit(f"Missing {owl_path}. Run src/fetch_cogpo_data.py first.")
+    owl_sha256 = hashlib.sha256(owl_path.read_bytes()).hexdigest()
+    owl_verified = owl_sha256 == EXPECTED_OWL_SHA256
+    if not owl_verified and not allow_unverified:
+        raise SystemExit(
+            f"{owl_path} has SHA-256 {owl_sha256}, not the pinned {EXPECTED_OWL_SHA256}. The file was "
+            "fetched over plain http and cannot be checked against the server, so nothing is built from it. "
+            "If CogPO really changed, confirm the new file by another route and update EXPECTED_OWL_SHA256, "
+            "or rerun with --allow-unverified."
+        )
     owl = load_owl(owl_path)
     classes = owl["classes"]
     wiki = load_wiki(archive / "wiki" / "pages")
@@ -549,7 +566,8 @@ def build(archive: Path) -> dict:
         "source": {
             "owl_url": owl_entry.get("url", ""),
             "owl_bytes": owl_entry.get("bytes"),
-            "owl_sha256": owl_entry.get("sha256", ""),
+            "owl_sha256": owl_sha256,
+            "owl_sha256_verified": owl_verified,
             "owl_identical_to": owl_entry.get("identical_to", []),
             "imports": owl["imports"],
             "imports_not_archived": manifest.get("imports_not_archived", []),
@@ -612,12 +630,17 @@ def main() -> None:
         type=Path,
         default=Path(__file__).parent.parent / "data" / "cogpo_summary.json",
     )
+    parser.add_argument(
+        "--allow-unverified",
+        action="store_true",
+        help="build even if the OWL file's SHA-256 is not the pinned value (the summary records this)",
+    )
     args = parser.parse_args()
 
     if not args.archive.exists():
         raise SystemExit(f"Archive not found: {args.archive}. Run src/fetch_cogpo_data.py first.")
 
-    summary = build(args.archive)
+    summary = build(args.archive, allow_unverified=args.allow_unverified)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(
         json.dumps(summary, indent=2, ensure_ascii=True) + "\n",

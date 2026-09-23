@@ -24,7 +24,7 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - 1. A field of moving dots is displayed.
-    2. A proportion move coherently in one direction while the rest move randomly.
+    2. a proportion move coherently in one direction while the rest move randomly.
     3. Participants judge the direction of coherent motion.
 * - **Manipulations**
   - - Coherence level (% coherent dots)

@@ -31,9 +31,14 @@ least one of the listed variables, and it records at least one of the listed mea
     - Confidence judgment
     - Response deadline
 * - **Measurements**
-  - - Hit rate, false alarm rate, d-prime (discriminability), criterion (response bias)
+  - - Hit rate
+    - False alarm rate
+    - d-prime (discriminability)
+    - Criterion (response bias)
+    - Confidence ratings
     - ROC curves
-    - Remember/know judgments (when combined)
+    - ERP old/new effects (FN400, LPC)
+    - RT
 ```
 
 ## Variations

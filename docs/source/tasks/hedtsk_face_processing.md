@@ -30,7 +30,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Block duration
     - Task (1-back, passive viewing)
 * - **Measurements**
-  - - FMRI contrast (faces > objects) identifying FFA, OFA, STS
+  - - fMRI contrast (faces > objects) identifying FFA, OFA, STS
     - Extent and magnitude of face-selective activation
     - Lateralization index
 ```

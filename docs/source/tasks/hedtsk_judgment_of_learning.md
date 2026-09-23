@@ -24,7 +24,7 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - 1. Participants study items (typically word pairs), then predict the likelihood of recalling each item on a future test.
-    2. A subsequent recall test assesses prediction accuracy.
+    2. a subsequent recall test assesses prediction accuracy.
 * - **Manipulations**
   - - Judgment timing (immediate vs. delayed)
     - Item difficulty (related vs. unrelated pairs)
@@ -35,7 +35,7 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Measurements**
   - - Resolution (gamma correlation between judgments and recall)
     - Calibration (mean judgment - mean recall)
-    - Over/underconfidence (signed calibration)
+    - over/underconfidence (signed calibration)
     - Absolute accuracy
     - Judgment latency
     - Study-time allocation as a behavioral consequence of judgments

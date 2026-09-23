@@ -31,7 +31,9 @@ least one of the listed variables, and it records at least one of the listed mea
     - Lure trials (N±1 matches)
     - Dual N-back (two simultaneous streams)
 * - **Measurements**
-  - - Hit rate, false alarm rate, d-prime
+  - - Hit rate
+    - False alarm rate
+    - d-prime
     - RT
     - Load-dependent accuracy decline
 ```

@@ -31,9 +31,11 @@ least one of the listed variables, and it records at least one of the listed mea
     - Probe trials (platform removed to assess spatial knowledge)
     - Visible vs. hidden platform
 * - **Measurements**
-  - - Path length and latency to find platform across trials (learning curve)
-    - Probe trial: time in target quadrant, proximity to platform location
-    - Search strategy classification
+  - - Path length and latency to reach the hidden platform
+    - Probe trial time in target quadrant
+    - Probe trial proximity to platform location
+    - Learning curve across trials
+    - Heading error
 ```
 
 ## Variations

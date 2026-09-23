@@ -32,7 +32,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Reward magnitude
 * - **Measurements**
   - - RT by cue type
-    - FMRI ventral striatum activation
+    - fMRI ventral striatum activation
     - Comparison of social vs. monetary reward anticipation signals
 ```
 

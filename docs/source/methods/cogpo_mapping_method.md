@@ -25,8 +25,13 @@ reported against each other in `data/cogpo_summary.json`. The server returns the
 OWL file's bytes for its declared companion import as well, so there is one ontology
 file; the archive's manifest records the identical hash.
 
-The wiki's TLS certificate is invalid. Everything is fetched over plain http, and every
-link to a CogPO class on this site is plain http for the same reason.
+Neither CogPO host serves https, so everything is fetched over plain http and the
+transfer alone cannot be trusted. The OWL release is a static file from 2010 whose SHA-256
+is pinned in the builder, which refuses a file that does not match; the summary records
+the hash it was built from. The wiki pages have no pin and are treated as supplementary:
+what they add to the summary (three paradigm names, the four stimulus roles, curation
+dates) is small and visible in the committed file. Links to CogPO classes on this site are
+plain http for the same reason.
 
 (cogpo-method-2)=
 ## What is mapped

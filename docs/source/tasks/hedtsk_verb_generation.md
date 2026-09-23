@@ -34,7 +34,7 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Response latency
     - Competition effect (slower for nouns with many associates)
     - Repetition suppression
-    - FMRI left IFG (Broca's area) activation
+    - fMRI left IFG (Broca's area) activation
 ```
 
 ## Variations

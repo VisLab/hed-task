@@ -24,7 +24,7 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - 1. Participants study cue-target pairs, attempt cued recall, and for each unrecalled item rate their feeling of knowing (likelihood of future recognition).
-    2. A subsequent recognition test assesses prediction accuracy.
+    2. a subsequent recognition test assesses prediction accuracy.
 * - **Manipulations**
   - - Cue familiarity (high vs. low)
     - Target accessibility (related vs. unrelated cues)

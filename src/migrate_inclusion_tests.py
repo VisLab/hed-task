@@ -15,16 +15,25 @@ The split is mechanical and then checked by hand. Manipulations and measurements
 on a semicolon outside parentheses. A procedure splits on a semicolon outside
 parentheses and on a sentence boundary (a period, question mark or exclamation mark
 followed by a space and a capital letter), except after the abbreviations e.g., i.e.,
-vs., etc., cf. and a single capital letter. Every record whose result looks doubtful is
-printed so that it can be read: an item under 12 characters, unbalanced parentheses in an
-item, a procedure of more than four steps, an item ending in a colon, or a one-item
-manipulation or measurement list over 120 characters that contains commas (a comma list
-the semicolon rule could not see).
+vs., etc., cf. and a single capital letter. An item's first letter is capitalized only
+when its first word is an ordinary lowercase word, so initialisms such as `fMRI` and
+conventionally lowercase terms such as `d-prime` keep their case. Every record whose
+result looks doubtful is printed so that it can be read: an item under 12 characters,
+unbalanced parentheses in an item, a procedure of more than four steps, an item ending in
+a colon, or a manipulation or measurement item that still contains a comma outside
+parentheses (a list the semicolon rule could not see).
 
-Run from the repository root:
+The comma lists and the few splits the rules got wrong are corrected by `HAND_FIXES`,
+applied after the mechanical split, so that running this script on the pre-migration
+file reproduces the committed data exactly. Items with commas that name one measure
+("Accuracy and RT for action identification, direction discrimination, or detection")
+are left whole; only lists of distinct measures were split.
 
-    python src/migrate_inclusion_tests.py             # rewrite data/task_details.json
-    python src/migrate_inclusion_tests.py --dry-run   # print the report, write nothing
+Run from the repository root on the file as it was before the migration (commit 3f5effd):
+
+    git show 3f5effd:data/task_details.json > original.json
+    python src/migrate_inclusion_tests.py --source original.json --out data/task_details.json
+    python src/migrate_inclusion_tests.py --source original.json --dry-run   # report only
 
 Run src/generate_docs.py afterwards to validate and regenerate.
 """
@@ -44,6 +53,162 @@ DATA = ROOT / "data"
 # a period are handled separately in _split_sentences.
 _SENTENCE = re.compile(r"(?<=[.!?])\s+(?=[A-Z(\"'])")
 _ABBREVIATIONS = ("e.g.", "i.e.", "vs.", "etc.", "cf.", "approx.")
+# A first word that may be capitalized: lowercase letters, optionally hyphenated, whose
+# first segment has at least two letters. This leaves `fMRI`, `eCorsi`, `d-prime` and
+# `d'` alone.
+_PLAIN_WORD = re.compile(r"^[a-z]{2,}(?:-[a-z]+)*$")
+
+# Record-specific corrections applied after the mechanical split: comma lists of distinct
+# measures or variables, and the sentence the splitter left starting with "May". Keyed by
+# hedtsk_id, then field; the value replaces that field's list.
+HAND_FIXES: dict[str, dict[str, list[str]]] = {
+    "hedtsk_attention_network": {
+        "manipulations": [
+            "Cue type (no cue, center cue, double cue, spatial cue)",
+            "Flanker congruency (congruent, incongruent)",
+        ],
+        "measurements": [
+            "Alerting network score (double-cue minus no-cue RT)",
+            "Orienting network score (center-cue minus spatial-cue RT)",
+            "Executive network score (incongruent minus congruent RT)",
+        ],
+    },
+    "hedtsk_self_paced_reading": {
+        "manipulations": [
+            "Syntactic ambiguity at the critical region (reduced relative clause, garden-path)",
+            "Semantic plausibility (plausible vs. implausible continuation)",
+            "Discourse coherence (coherent vs. incoherent continuation)",
+            "Anaphor type (pronoun, repeated name, definite NP)",
+            "Word predictability (high vs. low cloze probability)",
+            "Syntactic complexity (embedded clause, long-distance dependency)",
+        ],
+    },
+    "hedtsk_affective_picture_viewing": {
+        "procedure": [
+            "Participants view emotionally valenced images (e.g., IAPS) presented for several seconds each.",
+            "Participants may rate valence and arousal or simply view while physiological signals are recorded.",
+        ],
+        "measurements": [
+            "Subjective valence and arousal ratings (SAM)",
+            "Skin conductance",
+            "Startle reflex magnitude",
+            "Corrugator and zygomatic EMG",
+            "ERP components (LPP)",
+            "fMRI amygdala/PFC activation",
+        ],
+    },
+    "hedtsk_continuous_performance": {
+        "measurements": [
+            "Hit rate",
+            "False alarm rate",
+            "d-prime (sensitivity)",
+            "RT and RT variability",
+            "Omission and commission errors",
+        ],
+    },
+    "hedtsk_n_back": {
+        "measurements": ["Hit rate", "False alarm rate", "d-prime", "RT", "Load-dependent accuracy decline"],
+    },
+    "hedtsk_old_new_recognition_memory": {
+        "measurements": [
+            "Hit rate",
+            "False alarm rate",
+            "d-prime (discriminability)",
+            "Criterion (response bias)",
+            "Confidence ratings",
+            "ROC curves",
+            "ERP old/new effects (FN400, LPC)",
+            "RT",
+        ],
+    },
+    "hedtsk_virtual_morris_water_maze": {
+        "measurements": [
+            "Path length and latency to reach the hidden platform",
+            "Probe trial time in target quadrant",
+            "Probe trial proximity to platform location",
+            "Learning curve across trials",
+            "Heading error",
+        ],
+    },
+}
+# A first word that may be capitalized: lowercase letters, optionally hyphenated, whose
+# first segment has at least two letters. This leaves `fMRI`, `eCorsi`, `d-prime` and
+# `d'` alone.
+_PLAIN_WORD = re.compile(r"^[a-z]{2,}(?:-[a-z]+)*$")
+
+# Record-specific corrections applied after the mechanical split: comma lists of distinct
+# measures or variables, and the sentence the splitter left starting with "May". Keyed by
+# hedtsk_id, then field; the value replaces that field's list.
+HAND_FIXES: dict[str, dict[str, list[str]]] = {
+    "hedtsk_attention_network": {
+        "manipulations": [
+            "Cue type (no cue, center cue, double cue, spatial cue)",
+            "Flanker congruency (congruent, incongruent)",
+        ],
+        "measurements": [
+            "Alerting network score (double-cue minus no-cue RT)",
+            "Orienting network score (center-cue minus spatial-cue RT)",
+            "Executive network score (incongruent minus congruent RT)",
+        ],
+    },
+    "hedtsk_self_paced_reading": {
+        "manipulations": [
+            "Syntactic ambiguity at the critical region (reduced relative clause, garden-path)",
+            "Semantic plausibility (plausible vs. implausible continuation)",
+            "Discourse coherence (coherent vs. incoherent continuation)",
+            "Anaphor type (pronoun, repeated name, definite NP)",
+            "Word predictability (high vs. low cloze probability)",
+            "Syntactic complexity (embedded clause, long-distance dependency)",
+        ],
+    },
+    "hedtsk_affective_picture_viewing": {
+        "procedure": [
+            "Participants view emotionally valenced images (e.g., IAPS) presented for several seconds each.",
+            "Participants may rate valence and arousal or simply view while physiological signals are recorded.",
+        ],
+        "measurements": [
+            "Subjective valence and arousal ratings (SAM)",
+            "Skin conductance",
+            "Startle reflex magnitude",
+            "Corrugator and zygomatic EMG",
+            "ERP components (LPP)",
+            "fMRI amygdala/PFC activation",
+        ],
+    },
+    "hedtsk_continuous_performance": {
+        "measurements": [
+            "Hit rate",
+            "False alarm rate",
+            "d-prime (sensitivity)",
+            "RT and RT variability",
+            "Omission and commission errors",
+        ],
+    },
+    "hedtsk_n_back": {
+        "measurements": ["Hit rate", "False alarm rate", "d-prime", "RT", "Load-dependent accuracy decline"],
+    },
+    "hedtsk_old_new_recognition_memory": {
+        "measurements": [
+            "Hit rate",
+            "False alarm rate",
+            "d-prime (discriminability)",
+            "Criterion (response bias)",
+            "Confidence ratings",
+            "ROC curves",
+            "ERP old/new effects (FN400, LPC)",
+            "RT",
+        ],
+    },
+    "hedtsk_virtual_morris_water_maze": {
+        "measurements": [
+            "Path length and latency to reach the hidden platform",
+            "Probe trial time in target quadrant",
+            "Probe trial proximity to platform location",
+            "Learning curve across trials",
+            "Heading error",
+        ],
+    },
+}
 
 
 def _split_top_level(text: str) -> list[str]:
@@ -79,19 +244,38 @@ def _split_sentences(text: str) -> list[str]:
     return [s.strip() for s in out if s.strip()]
 
 
+def _capitalize(item: str) -> str:
+    """Capitalize the first letter when the first word is an ordinary lowercase word."""
+    first = item.split(" ", 1)[0] if item else ""
+    if _PLAIN_WORD.match(first):
+        return item[:1].upper() + item[1:]
+    return item
+
+
 def _fragment(item: str) -> str:
     """Normalize a manipulation or measurement item: capital first letter, no final period."""
-    item = item.strip().rstrip(".").strip()
-    return item[:1].upper() + item[1:] if item else item
+    return _capitalize(item.strip().rstrip(".").strip())
 
 
 def _sentence(item: str) -> str:
     """Normalize a procedure step: capital first letter, ends in a period."""
-    item = item.strip()
+    item = _capitalize(item.strip())
     if not item:
         return item
-    item = item[:1].upper() + item[1:]
     return item if item.endswith((".", "!", "?")) else item + "."
+
+
+def _top_level_comma(text: str) -> bool:
+    """True when a comma sits outside every pair of parentheses."""
+    depth = 0
+    for ch in text:
+        if ch == "(":
+            depth += 1
+        elif ch == ")":
+            depth -= 1
+        elif ch == "," and depth == 0:
+            return True
+    return False
 
 
 def split_procedure(text: str) -> list[str]:
@@ -118,8 +302,10 @@ def doubts(hedtsk_id: str, test: dict) -> list[str]:
                 found.append(f"{field}: item ends in a colon {item!r}")
         if field == "procedure" and len(items) > 4:
             found.append(f"procedure: {len(items)} steps")
-        if field != "procedure" and len(items) == 1 and len(items[0]) > 120 and "," in items[0]:
-            found.append(f"{field}: one long comma-separated item ({len(items[0])} chars)")
+        if field != "procedure":
+            for item in items:
+                if _top_level_comma(item):
+                    found.append(f"{field}: comma outside parentheses, a list or one measure? {item!r}")
     return found
 
 
@@ -137,6 +323,10 @@ def migrate(tasks: list[dict]) -> tuple[list[dict], dict[str, list[str]]]:
         for field, items in new.items():
             if not items:
                 sys.exit(f"{task['hedtsk_id']}: {field} split to nothing from {old!r}")
+        for field, items in HAND_FIXES.get(task["hedtsk_id"], {}).items():
+            new[field] = list(items)
+        for field, items in HAND_FIXES.get(task["hedtsk_id"], {}).items():
+            new[field] = list(items)
         task["inclusion_test"] = new
         found = doubts(task["hedtsk_id"], new)
         if found:

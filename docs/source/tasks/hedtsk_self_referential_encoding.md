@@ -24,7 +24,7 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - 1. Participants judge trait adjectives under self-reference and comparison encoding conditions (other-reference, semantic, structural).
-    2. A subsequent memory test assesses the self-reference effect on recall or recognition.
+    2. a subsequent memory test assesses the self-reference effect on recall or recognition.
 * - **Manipulations**
   - - Encoding condition (self, other, semantic, structural)
     - Valence of adjectives (positive, negative, neutral)

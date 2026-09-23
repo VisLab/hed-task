@@ -31,7 +31,7 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Measurements**
   - - Self-reported affect (valence, arousal)
     - Physiological responses (SCR, corrugator EMG, startle)
-    - FMRI prefrontal-amygdala modulation
+    - fMRI prefrontal-amygdala modulation
     - ERP (LPP reduction)
 ```
 

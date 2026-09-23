@@ -31,10 +31,11 @@ least one of the listed variables, and it records at least one of the listed mea
     - Session duration
     - Signal type (letters, digits, tones)
 * - **Measurements**
-  - - Hit rate, false alarm rate, d-prime (sensitivity)
-    - Commission errors (impulsivity)
-    - Omission errors (inattention)
-    - RT variability
+  - - Hit rate
+    - False alarm rate
+    - d-prime (sensitivity)
+    - RT and RT variability
+    - Omission and commission errors
 ```
 
 ## Variations

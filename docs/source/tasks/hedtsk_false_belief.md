@@ -32,7 +32,7 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Measurements**
   - - Accuracy on false-belief vs. true-belief questions
     - RT
-    - Pass/fail classification in developmental studies
+    - pass/fail classification in developmental studies
 ```
 
 ## Variations
