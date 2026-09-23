@@ -1,0 +1,50 @@
+name: Propose a new variation
+description: Propose a named variation of a task that is already in the Catalog.
+title: "New variation: "
+labels: ["new-variation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A variation is a named version of a task that changes what the participant experiences or does, so that the event structure of the recorded data differs. Changing the recording equipment, the analysis, the population or the stimulus set does not make a variation; see the [variation criteria](https://www.hedtags.org/hed-task/methods/task_criteria/04_variation_criteria.html).
+  - type: input
+    id: parent_task
+    attributes:
+      label: Parent task
+      description: The canonical name or hedtsk identifier of the task this varies.
+      placeholder: N-Back Task (hedtsk_n_back)
+    validations:
+      required: true
+  - type: input
+    id: variation_name
+    attributes:
+      label: Proposed variation name
+      placeholder: Auditory N-Back
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What changes
+      description: What the participant experiences or does differently from the canonical procedure.
+    validations:
+      required: true
+  - type: textarea
+    id: justification
+    attributes:
+      label: Why it counts as a variation
+      description: Which of the variation rules it meets, and why the change is not one of the excluded kinds (measurement modality, analysis method, population, stimulus swap).
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: One or two papers that use this version, each with a DOI or PubMed id.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before filing
+      options:
+        - label: I checked the parent task's page and this variation is not already listed.
+          required: true

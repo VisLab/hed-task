@@ -4,7 +4,7 @@ The HED Task Catalog is curated continuously and depends on its users to grow. T
 
 ## Proposing a change
 
-Open an issue at <https://github.com/hed-standard/hed-task/issues>. The [how to use the Catalog](https://www.hedtags.org/hed-task/how_to_use_the_catalog.html) page says what each kind of proposal should contain; in brief:
+Open an issue at <https://github.com/hed-standard/hed-task/issues/new/choose>. Four issue forms ask for what each kind of proposal needs, field by field: a new task, a new variation, a new process, and a correction to an entry. The forms live in `.github/ISSUE_TEMPLATE/`; their family and category dropdowns mirror `data/task_family_defs.tsv` and the `categories` array, so a change there is also a change to the form. Anything else, including the last two kinds below, goes in a blank issue. In brief:
 
 - **A new task.** Canonical name and aliases; the procedure as ordered steps, the manipulations and the measurements in the form the inclusion tests use; the processes it engages; one or two references; and why it is not a variation of an existing task.
 - **A new variation.** The parent task, what changes in what the participant experiences or does, and why that change is not one of the excluded kinds (measurement modality, analysis method, population, stimulus swap, and so on).

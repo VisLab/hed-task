@@ -1,0 +1,44 @@
+name: Report a problem with an entry
+description: A wrong or missing fact on a task, process, family or mapping page.
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Catalog pages are generated from the data in `data/`, so a correction is applied to the record, never to the page. Quoting the text that is wrong lets the curator find it.
+  - type: input
+    id: page
+    attributes:
+      label: Page address
+      placeholder: https://www.hedtags.org/hed-task/tasks/hedtsk_n_back.html
+    validations:
+      required: true
+  - type: input
+    id: entry_id
+    attributes:
+      label: Entry identifier
+      description: The hedtsk, hedvar or hed identifier shown on the page, if there is one.
+      placeholder: hedtsk_n_back
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+      description: Quote the text or name the field.
+    validations:
+      required: true
+  - type: textarea
+    id: should_say
+    attributes:
+      label: What it should say
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: A reference with a DOI or PubMed id, a dataset, or the reasoning.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Kind of problem
+      options:
+        - label: This is about the Catalog's data (a task, process, family or mapping), not about the site's code or layout.

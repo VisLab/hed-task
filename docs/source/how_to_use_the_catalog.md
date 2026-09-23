@@ -97,8 +97,10 @@ carries no process identifiers, so there is nothing to record for step 3.
 ## Proposing a change
 
 The Catalog is curated continuously and depends on its users to grow. The repository's
-[contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the process; in short, post an issue at
-<https://github.com/hed-standard/hed-task/issues> for any of the following.
+[contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the process; in short, open an issue at
+<https://github.com/hed-standard/hed-task/issues/new/choose>. There is a form for each
+of the first three kinds below and for a correction, asking for the fields the Catalog
+needs; anything else goes in a blank issue.
 
 - **A new task.** Give the canonical name and aliases, the procedure as ordered steps,
  the manipulations and the measurements in the form the inclusion tests use, the

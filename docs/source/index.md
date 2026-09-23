@@ -139,7 +139,9 @@ for want of a standardized task nomenclature, which is the gap the Catalog now f
 [HED vs CogPO](cogpo/hed_vs_cogpo.md).
 
 Suggestions, corrections and ideas are welcome: please open an issue at
-<https://github.com/hed-standard/hed-task/issues>. The repository's [contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the
+<https://github.com/hed-standard/hed-task/issues/new/choose>, where a form for a new task,
+a new variation, a new process or a correction asks for what the Catalog needs. The
+repository's [contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the
 process. A proposal for a new task is most useful when it comes with the procedure as
 steps, its manipulations and its measurements in the form the inclusion tests use; a proposal for a
 new process is most useful when it says when in a trial the process happens, what
