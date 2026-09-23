@@ -19,7 +19,7 @@ Each task has a three-part **inclusion_test** that defines the boundary of the t
 ```
 
 (task-criteria-3-2)=
-## 3.2 How to use the inclusion test
+## 3.2 Using the inclusion test
 
 A specific experiment is an instance of a given task if and only if:
 

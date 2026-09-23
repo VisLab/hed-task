@@ -42,7 +42,16 @@ engage it. The Catalog is part of the HED (Hierarchical Event Descriptors) effor
 make the events in neuroimaging and behavioral data machine-actionable; see
 [HED resources](https://www.hedtags.org/hed-resources) for information on HED.
 
-## Why a task and process taxonomy?
+**Facets** (planned) describe a task by its observable components: what the participant
+is shown, in which modality and role, what response is made and with which body part, and
+what the participant is told to do. The idea and the starting vocabularies come from
+[CogPO](cogpo/what_is_cogpo.md), the Cognitive Paradigm Ontology, which decomposes every
+paradigm this way, and each facet value is paired with the HED tag that expresses it, so
+that facets sit between a task name and the HED annotation of its events. The vocabulary
+is on the [CogPO dimension mapping](cogpo/dimension_mapping.md) page; no task record
+carries facet values yet.
+
+## Why tasks and processes?
 
 A data repository knows what files a dataset contains but usually not what its
 participants did beyond a free-text label such as `task-flanker` or `task-rest`. The
@@ -102,7 +111,7 @@ counts as a variation.
 :link: atlas/the_catalog_vs_the_atlas
 :link-type: doc
 
-What the Cognitive Atlas and [CogPO](cogpo/the_catalog_vs_cogpo.md) contain, how the
+What the [Cognitive Atlas](atlas/the_catalog_vs_the_atlas.md) and [CogPO](cogpo/the_catalog_vs_cogpo.md) contain, how the
 Catalog maps onto each entry by entry, and what each adds to the other.
 :::
 
@@ -118,6 +127,13 @@ finished product. The task and process lists began from the
 [Cognitive Atlas](https://www.cognitiveatlas.org/), were narrowed to paradigms that produce event-structured
 data, and have been added to, merged and redefined since. Tasks, processes, categories
 and paradigm families will keep changing as the Catalog is used.
+
+A second source for the Catalog is [CogPO](http://www.cogpo.org/), the Cognitive Paradigm
+Ontology, whose stimulus, response and instruction vocabularies seed the Catalog's facets;
+see [The Catalog vs CogPO](cogpo/the_catalog_vs_cogpo.md). The first facets to be filled
+are the six CogPO-derived ones (stimulus modality, kind and role; response modality and
+kind; instructions), followed by the Catalog's own (trial structure, feedback, timing and
+primary measure). How CogPO and HED relate is the subject of [HED vs CogPO](cogpo/hed_vs_cogpo.md).
 
 Suggestions, corrections and ideas are welcome: please open an issue at
 <https://github.com/hed-standard/hed-task/issues>. The repository's [contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the
@@ -163,6 +179,7 @@ atlas/task_mapping
 atlas/process_mapping
 cogpo/what_is_cogpo
 cogpo/the_catalog_vs_cogpo
+cogpo/hed_vs_cogpo
 cogpo/paradigm_mapping
 cogpo/dimension_mapping
 ```

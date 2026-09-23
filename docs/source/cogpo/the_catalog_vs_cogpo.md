@@ -8,7 +8,7 @@
 name experimental paradigms and both refuse to define a paradigm by the mental process
 it is supposed to measure. From there they diverge. CogPO describes a paradigm by its
 observable components, the stimuli, responses and instructions, so that an imaging
-experiment can be coded; the Catalog names standard tasks, tests membership by
+experiment can be coded. The Catalog names standard tasks, tests membership by
 procedure, and links each task to the processes it engages, so that a dataset can be
 tagged. Each has what the other lacks.
 

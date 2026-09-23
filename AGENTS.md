@@ -13,14 +13,14 @@ Always run in the virtual environment - the system interpreter does not have the
 - Format check: `python -m ruff format --check .`
 - Audit reference identifiers against their citations: `python src/check_references.py` (prints; does not fail)
 - Generate the docs pages: `python src/generate_docs.py`
-- Build the site: `python -m sphinx -b html docs/source docs/_build/html`
+- Build the site: `python -m sphinx -b html docs/source docs/_build/html`. After a toctree change build clean (`-E -a`); an incremental build leaves the old sidebar on pages whose source did not change.
 
 Local development uses `pip`; GitHub Actions uses `uv`. Do not use `uv` locally unless asked.
 
 ## Layout
 
 - `src/` - the generators. `generate_docs.py` is the entry point; `src/generators/` holds one module per page family.
-- `docs/source/` - Sphinx sources, built into `docs/_build/`. Two kinds of page: **narrative pages** (`index.md`, `introduction.md`, `how_to_use_the_catalog.md`, `atlas/what_is_the_cognitive_atlas.md`, `atlas/the_catalog_vs_the_atlas.md`, `atlas/task_mapping.md`, `atlas/process_mapping.md`, everything under `methods/`) are hand-written Markdown, edited directly, each marked by a comment at the top; **catalog pages** (`tasks/`, `processes/`, `task_process_links.md`, `_generated/`) are generated - edit the generator or the data, not these files. `generate_docs.py` lists the generated paths in `GENERATED_PATHS` and touches nothing else.
+- `docs/source/` - Sphinx sources, built into `docs/_build/`. Two kinds of page: **narrative pages** (`index.md`, `introduction.md`, `how_to_use_the_catalog.md`, `atlas/what_is_the_cognitive_atlas.md`, `atlas/the_catalog_vs_the_atlas.md`, `atlas/task_mapping.md`, `atlas/process_mapping.md`, everything under `cogpo/` and `methods/`) are hand-written Markdown, edited directly, each marked by a comment at the top; **catalog pages** (`tasks/`, `processes/`, `task_process_links.md`, `_generated/`) are generated - edit the generator or the data, not these files. `generate_docs.py` lists the generated paths in `GENERATED_PATHS` and touches nothing else.
 - `data/` - the Catalog: `task_details.json`, `process_details.json`, `schemas/`, `mappings/`, `atlas_summary.json`, `cogpo_summary.json`, and the paradigm-family definitions. Edited here by pull request; `generate_docs.py` validates all of it before writing. See `data/README.md`.
 - `tests/` - unit tests.
 - `.status/` - working notes. Gitignored; local to each machine.

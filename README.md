@@ -19,6 +19,7 @@ The Catalog is published as a searchable website at **<https://www.hedtags.org/h
 | [Task-process links](https://www.hedtags.org/hed-task/task_process_links.html)             | The whole task-to-process matrix in both directions                                       |
 | [Methods](https://www.hedtags.org/hed-task/methods/task_criteria.html)                     | Task and process selection criteria; how the Cognitive Atlas mapping was built            |
 | [Cognitive Atlas](https://www.hedtags.org/hed-task/atlas/what_is_the_cognitive_atlas.html) | What the Atlas contains, how the Catalog relates to it, and the row-by-row mapping tables |
+| [CogPO](https://www.hedtags.org/hed-task/cogpo/what_is_cogpo.html)                         | What CogPO contains, how the Catalog and HED relate to it, and its dimension vocabularies |
 
 ## Repository structure
 
@@ -97,6 +98,8 @@ python src/build_cogpo_data.py    # recompute data/cogpo_summary.json
 ```bash
 sphinx-build -b html docs/source docs/_build/html
 ```
+
+After a change to a toctree (the sidebar), build clean with `-E -a` or delete `docs/_build/` first: Sphinx writes the sidebar into each page and an incremental build rewrites only the pages whose source changed, so the others keep the old sidebar.
 
 Then open `docs/_build/html/index.html` in a browser to preview. A clean build emits no warnings.
 

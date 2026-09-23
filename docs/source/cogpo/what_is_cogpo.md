@@ -20,9 +20,10 @@ dimensions: the **stimulus** presented (its modality, its kind and its role), th
 Paradigm* is then a named pattern of such conditions. The paradigm layer came from the
 BrainMap taxonomy; the dimension vocabularies were new.
 
-This page describes CogPO on its own terms: what it contains, in what state, and how far
-it was finished. It draws no comparison with the Catalog; that is the job of
-[The Catalog vs CogPO](the_catalog_vs_cogpo.md).
+This page provides an overview of CogPO and its current state. The page also describes
+its influence on and relationship to [HED](https://www.hedtags.org) (Hierarchical Event
+Descriptors). [The Catalog vs CogPO](the_catalog_vs_cogpo.md) compares CogPO and the Catalog.
+[HED vs CogPO](hed_vs_cogpo.md)
 
 ## Two sources
 
@@ -44,7 +45,7 @@ The figures below come from an archive of both taken on 2026-09-22. Nothing in e
 source is dated after 2011 and no later release appeared: CogPO is complete as far as it
 goes, and unmaintained.
 
-## What the OWL release contains
+## OWL release summary
 
 | Layer | Classes |
 |---|---|
