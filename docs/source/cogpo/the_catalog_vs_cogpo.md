@@ -5,15 +5,14 @@
 # The Catalog vs CogPO
 
 [CogPO](http://www.cogpo.org/), the Cognitive Paradigm Ontology, and the Catalog both
-name experimental paradigms and both refuse to define a paradigm by the mental process
-it is supposed to measure. From there they diverge. CogPO describes a paradigm by its
-observable components, the stimuli, responses and instructions, so that an imaging
-experiment can be coded. The Catalog names standard tasks, tests membership by
-procedure, and links each task to the processes it engages, so that a dataset can be
-tagged. Each has what the other lacks.
+name experimental paradigms and both decouple paradigms from the mental processes
+they are supposed to measure. From there they diverge. The Catalog names standard tasks, tests membership by
+procedure, and links each task to the processes it engages. CogPO describes a paradigm by its
+observable components, the stimuli, responses and instructions. The CogPO paradigm is defined
+with a granularity finer than that defined by the Catalog. Each has what the other lacks.
 
-[What is CogPO?](what_is_cogpo.md) describes CogPO on its own terms. The
-[paradigm mapping](paradigm_mapping.md) page gives the correspondence between the two
+[What is CogPO?](what_is_cogpo.md) provides an overview of CogPO. The
+[task mapping](task_mapping.md) page gives the correspondence between the two
 paradigm lists row by row, the [dimension mapping](dimension_mapping.md) page sets
 CogPO's stimulus, response and instruction vocabularies beside the Catalog's facets and
 the HED schema, and the [CogPO mapping method](../methods/cogpo_mapping_method.md) page

@@ -9,7 +9,7 @@ This page describes how the correspondence between the Catalog and
 [CogPO](http://www.cogpo.org/), the Cognitive Paradigm Ontology, was established. It
 follows the [Atlas mapping method](atlas_mapping_method.md), and the match types, the
 two matching levels and the refresh contract are the same; this page records only what
-differs. The row-by-row results are on the [paradigm mapping](../cogpo/paradigm_mapping.md)
+differs. The row-by-row results are on the [task mapping](../cogpo/task_mapping.md)
 page, the vocabulary on the [dimension mapping](../cogpo/dimension_mapping.md) page,
 and [The Catalog vs CogPO](../cogpo/the_catalog_vs_cogpo.md) says what they add up to.
 

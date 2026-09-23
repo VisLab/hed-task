@@ -42,14 +42,16 @@ engage it. The Catalog is part of the HED (Hierarchical Event Descriptors) effor
 make the events in neuroimaging and behavioral data machine-actionable; see
 [HED resources](https://www.hedtags.org/hed-resources) for information on HED.
 
-**Facets** (planned) describe a task by its observable components: what the participant
-is shown, in which modality and role, what response is made and with which body part, and
-what the participant is told to do. The idea and the starting vocabularies come from
-[CogPO](cogpo/what_is_cogpo.md), the Cognitive Paradigm Ontology, which decomposes every
-paradigm this way, and each facet value is paired with the HED tag that expresses it, so
-that facets sit between a task name and the HED annotation of its events. The vocabulary
-is on the [CogPO dimension mapping](cogpo/dimension_mapping.md) page; no task record
-carries facet values yet.
+**Facets** are a proposed third element. A facet is a single attribute of a task from a
+closed vocabulary, such as its stimulus modality (visual, auditory) or its response kind
+(button press, saccade), so that a repository can filter tasks by what the participant is
+shown, does and is told, not only by name. The idea and the candidate vocabularies come
+from [CogPO](cogpo/what_is_cogpo.md), the Cognitive Paradigm Ontology, which describes
+every paradigm by exactly those three things, and each value has the HED tag that
+expresses it, so that a facet would sit between a task name and the HED annotation of its
+events. The [dimension mapping](cogpo/dimension_mapping.md) page holds the vocabularies;
+whether and how the Catalog adopts facets is not yet decided, and no task record carries
+one.
 
 ## Why tasks and processes?
 
@@ -129,7 +131,7 @@ data, and have been added to, merged and redefined since. Tasks, processes, cate
 and paradigm families will keep changing as the Catalog is used.
 
 A second source for the Catalog is [CogPO](http://www.cogpo.org/), the Cognitive Paradigm
-Ontology, whose stimulus, response and instruction vocabularies seed the Catalog's facets;
+Ontology, whose stimulus, response and instruction vocabularies are the candidate facets;
 see [The Catalog vs CogPO](cogpo/the_catalog_vs_cogpo.md). The first facets to be filled
 are the six CogPO-derived ones (stimulus modality, kind and role; response modality and
 kind; instructions), followed by the Catalog's own (trial structure, feedback, timing and
@@ -180,11 +182,16 @@ methods/cogpo_mapping_method
 
 atlas/what_is_the_cognitive_atlas
 atlas/the_catalog_vs_the_atlas
-atlas/task_mapping
-atlas/process_mapping
+Task mapping (Atlas) <atlas/task_mapping>
+Process mapping (Atlas) <atlas/process_mapping>
+```
+
+```{toctree}
+:hidden:
+
 cogpo/what_is_cogpo
 cogpo/the_catalog_vs_cogpo
 cogpo/hed_vs_cogpo
-cogpo/paradigm_mapping
-cogpo/dimension_mapping
+Task mapping (CogPO) <cogpo/task_mapping>
+Dimension mapping (CogPO) <cogpo/dimension_mapping>
 ```

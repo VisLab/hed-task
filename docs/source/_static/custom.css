@@ -391,3 +391,11 @@ body[data-theme="dark"] .dev-banner {
 .pop-card a {
     color: var(--color-link);
 }
+
+/* The Related resources section holds two toctrees, the Atlas pages and the CogPO pages;
+   the second has no caption, so a rule separates the two groups in the sidebar. */
+.sidebar-tree ul + ul {
+    border-top: 1px solid var(--color-background-border);
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+}

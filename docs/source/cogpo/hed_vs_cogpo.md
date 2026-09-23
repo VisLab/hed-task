@@ -114,7 +114,7 @@ Catalog could adopt them as facets and pair every value with a tag:
 ```
 
 The value-by-value tables, with the HED tag and a note on the fit for every value, are
-on the [CogPO dimension mapping](dimension_mapping.md) page. The fit is close for a
+on the [dimension mapping](dimension_mapping.md) page. The fit is close for a
 reason: Turner and Laird expected exactly this, writing that "tones are not really a
 stimulus type, but instead they are a kind of sound" and that CogPO would one day refer
 to "ontologies of sounds, shapes, food, actions etc." HED's `Item` and `Action` trees are
@@ -162,7 +162,7 @@ annotating experiment scripts with CogPO terms was not realized.
 pattern makes an experiment an instance. HED has none: it dropped its Paradigm hierarchy
 in the third generation and kept only the identifier slot, so a HED dataset says what
 happened but not which standard task it was. The Catalog exists to supply that layer for
-HED, and its [paradigm mapping](paradigm_mapping.md) to CogPO is where the two paradigm
+HED, and its [task mapping](task_mapping.md) to CogPO is where the two paradigm
 lists are compared.
 
 **A few items and presentations.** HED 8.4.0 has no interoceptive presentation, no item

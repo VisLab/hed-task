@@ -35,8 +35,9 @@ detail. The Catalog is the coarsest: a task label names the goal of a block of a
 experiment, what the participant was asked to do, without saying how any trial unfolded.
 CogPO is intermediate: it labels the task and the steps within it, each condition with
 its stimuli, responses and instructions. The Catalog's counterparts at that level are the
-facets, which carry CogPO's vocabularies, and the pseudo tasks, which name the block-level
-steps such as rest, fixation and feedback. HED is the finest: it annotates what actually
+proposed facets, single attributes of a task such as stimulus modality or response kind
+drawn from closed vocabularies that CogPO supplies, and the pseudo tasks, which name the
+block-level steps such as rest, fixation and feedback. HED is the finest: it annotates what actually
 happened, event by event, with a time for each.
 
 | Resource | Labels | Example, for a Stroop experiment |
