@@ -5,7 +5,7 @@ Inputs, all under data/ and all edited in this repository by pull request:
     task_details.json        the tasks (top level is a bare array)
     process_details.json     the processes and their categories
     mappings/*.tsv           the curated correspondence with the Cognitive Atlas
-    task_family_defs.tsv     the paradigm families (membership is on each task record)
+    task_family_defs.tsv     the task families (membership is on each task record)
     schemas/*.schema.json    JSON Schemas for the two catalog files
 
 Two kinds of page live under docs/source/. This script writes only the catalog pages,
@@ -422,7 +422,7 @@ def main() -> None:
     n = task_pages.generate(docs_dir, tasks, processes_by_id, families, atlas_map, cogpo_map)
     total += n
     print(
-        f"  Wrote {n} task files (index, tasks_by_paradigm_family, {len(families)} family pages, tasks_alphabetically, {len(tasks)} task pages)."
+        f"  Wrote {n} task files (index, tasks_by_family, {len(families)} family pages, tasks_alphabetically, {len(tasks)} task pages)."
     )
 
     print("Generating docs/source/processes/ ...")

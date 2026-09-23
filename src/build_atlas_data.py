@@ -79,7 +79,7 @@ _ENTRY_TYPES = [
     ),
 ]
 
-# Paradigm families reported as evidence of variant fragmentation.
+# Task families reported as evidence of variant fragmentation.
 _FAMILIES = [
     "sternberg",
     "stroop",

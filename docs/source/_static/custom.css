@@ -269,7 +269,7 @@ body[data-theme="dark"] .content-icon-container a[href*="github.com"]:not([href*
 /* Left sidebar depth. The Tasks branch nests its family and task pages in toctrees so
    that Sphinx knows the document tree (previous/next links, current-page highlighting,
    no orphan warnings), but the sidebar itself stops at the second level: Tasks, then
-   "Tasks by paradigm family" and "Tasks alphabetically". The right-hand contents menu of those
+   "Tasks by family" and "Tasks alphabetically". The right-hand contents menu of those
    pages does the finer navigation. Furo renders the whole tree (maxdepth=-1), so the
    cut is made here. No other branch currently has a third level. */
 .sidebar-tree li.toctree-l2 > input.toctree-checkbox,
@@ -395,7 +395,9 @@ body[data-theme="dark"] .dev-banner {
 /* The Related resources section holds two toctrees, the Atlas pages and the CogPO pages;
    the second has no caption, so a rule separates the two groups in the sidebar. */
 .sidebar-tree ul + ul {
-    border-top: 1px solid var(--color-background-border);
-    margin-top: 0.5rem;
-    padding-top: 0.5rem;
+    /* --color-background-border is nearly the sidebar's own shade and does not show;
+       the foreground border gray is visible in both themes. */
+    border-top: 1px solid var(--color-foreground-border);
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
 }

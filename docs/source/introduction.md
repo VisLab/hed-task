@@ -15,18 +15,43 @@ Cognitive Atlas, and CogPO is the Cognitive Paradigm Ontology.
 ## What the Catalog is for
 
 Experiments in cognitive and behavioral neuroscience are built from a fairly small
-repertoire of standard tasks, but the datasets they produce rarely say which one was
-used in a way a machine can act on. The Catalog provides a controlled vocabulary that
-includes a list of tasks, a list of the cognitive processes those tasks engage, and the
-links between them. Tagging a dataset with identifiers from the Catalog makes it
-findable by task name, by alias, or by process, and makes datasets that share a task or
-a process comparable.
+repertoire of standard tasks, but the datasets they produce rarely say which task
+represented the "instructed behavior" of an experiment in a standardized way a
+machine can act on. A data repository knows what files a dataset
+contains but usually not what instructed behavior the participants did beyond
+a free-text label such as `task-flanker` or `task-rest`. The same paradigm goes
+by different names across laboratories, and related paradigms that engage the
+same cognitive processes are not connected at all.
+
+The Catalog is meant to supply the missing layer: a controlled vocabulary made of a list
+of tasks, a list of the cognitive processes those tasks engage, and the links between
+them.
+
+- **Tags for datasets.** A dataset tagged with a task identifier from the Catalog, and
+  with the process identifiers that task engages, can be found by a repository search for
+  the task, for any of its aliases, or for a process, whatever the dataset called it
+  locally.
+- **Commonalities across datasets.** Two datasets tagged with the same task can be
+  compared directly. Two datasets tagged with different tasks that share a process can be
+  grouped for a question about that cognitive process.
+- **Context for event annotation.** A task tag tells a reader of a HED-annotated events
+  file what the trial structure was designed to do, which the event-level annotations
+  alone do not.
 
 The Catalog is being developed as part of HED (Hierarchical Event Descriptors), the standard
 for annotating what happened during an experiment. HED describes events; the
 Catalog describes the paradigm the events belong to. How task and process identifiers
-will be carried in HED annotations and in dataset metadata is not yet decided, and the
-identifiers here are not [HED schema terms](https://www.hedtags.org/hed-resources/HedSchemas.html).
+will be carried in HED annotations and in dataset metadata is not yet decided; the
+identifiers here are the Catalog's own and are not [HED schema terms](https://www.hedtags.org/hed-resources/HedSchemas.html).
+
+## What the Catalog contains
+
+The Catalog consists of two interlinked lists, **tasks** and **cognitive processes**, with
+**facets** as a proposed third element. Every task states which processes it engages, and
+every process lists the tasks that engage it.
+
+```{include} _generated/counts_table.md
+```
 
 ## Three resources, three granularities
 
@@ -52,7 +77,8 @@ happened, event by event, with a time for each.
 
 A **task** in the Catalog is a structured experimental paradigm that produces a
 sequence of discrete, time-stamped events, has a specific reproducible procedure, is
-widely used, and engages identifiable cognitive processes. Particular questionnaires, clinical
+widely used, and engages identifiable cognitive processes: the Stroop Color-Word Task,
+the N-Back Task, the Iowa Gambling Task. Particular questionnaires, clinical
 screening instruments, generic labels such as "memory task", and one-off designs are
 excluded. The full rules are in the [Task selection criteria](methods/task_criteria/index.md).
 
@@ -87,9 +113,9 @@ The Catalog currently has {{ n_tasks }} tasks. Each task page carries:
   modern entry point;
 - where one exists, the corresponding **Cognitive Atlas** entry.
 
-### Paradigm families
+### Task families
 
-Tasks are filed under {{ n_families }} **paradigm families** by what the participant does:
+Tasks are filed under {{ n_families }} **task families** by what the participant does:
 conflict and interference tasks, response inhibition tasks, recall and recognition
 tests, economic games, and so on. The Stroop Color-Word Task is in the family
 *Conflict and interference tasks*. A family is a browsing aid, not a claim about mechanism; the
@@ -101,13 +127,14 @@ how it is made. The [task index](tasks/index.md) lists the families with their s
 
 ## Cognitive processes
 
-A **cognitive process** is a mental operation hypothesized to occur during a trial:
-something with an identifiable onset, an eliciting condition and an in-principle
-measurable signature. A candidate qualifies when it is plausible to say when in a trial
-it happens, what elicits it, and how it is measured. States and traits, specific
-emotions, stimulus categories, individual-difference constructs, task parameters,
-analysis methods and umbrella terms such as "attention" or "memory" are excluded; the
-umbrella role is carried by the categories instead. The full rules are in the
+A **cognitive process** is a mental operation hypothesized to occur during a trial, such
+as response inhibition, working memory updating or reward anticipation: something with
+an identifiable onset, an eliciting condition and an in-principle measurable signature.
+A candidate qualifies when it is plausible to say when in a trial it happens, what
+elicits it, and how it is measured. States and traits, specific emotions, stimulus
+categories, individual-difference constructs, task parameters, analysis methods and
+umbrella terms such as "attention" or "memory" are excluded; the umbrella role is
+carried by the categories instead. The full rules are in the
 [process selection criteria](methods/process_criteria/index.md).
 
 The Catalog has {{ n_processes }} processes in {{ n_categories }} **categories**. A category
@@ -126,6 +153,18 @@ standard measure indexes it. A link is not an ontology assertion and not a claim
 the task engages nothing else; it records what the task is designed to probe. The
 [task-process links](task_process_links.md) page lists every link in both directions.
 
+## Facets
+
+A **facet** is a single attribute of a task from a closed vocabulary, such as its
+stimulus modality (visual, auditory) or its response kind (button press, saccade), so
+that a repository can filter tasks by what the participant is shown, does and is told,
+not only by name. The idea and the candidate vocabularies come from
+[CogPO](cogpo/what_is_cogpo.md), the Cognitive Paradigm Ontology, which describes every
+paradigm by exactly those three things, and each value has the HED tag that expresses
+it, so that a facet would sit between a task name and the HED annotation of its events.
+The [dimension mapping](cogpo/dimension_mapping.md) page holds the vocabularies; whether
+and how the Catalog adopts facets is not yet decided, and no task record carries one.
+
 ## Identifiers
 
 Every entity has a typed identifier, so an identifier met anywhere can be classified
@@ -137,7 +176,7 @@ at sight:
 | Task variation | `hedvar_<task slug>__<variation slug>` | `hedvar_stroop_color_word__counting_stroop` |
 | Process | `hed_<slug>` | `hed_response_inhibition` |
 | Process category | `<slug>` | `inhibitory_control_and_conflict_monitoring` |
-| Paradigm family | `<slug>` | `conflict_and_interference` |
+| Task family | `<slug>` | `conflict_and_interference` |
 
 The `hed_` prefix on process identifiers is the Catalog's working prefix and is not a
 claim of HED schema membership. Identifiers are provisional while the Catalog is being
@@ -162,3 +201,45 @@ provisional, and its curation is a continuing process. Suggestions, corrections 
 ideas should be posted as issues at <https://github.com/hed-standard/hed-task/issues>; the repository's
 [contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the process, and
 [how to use the Catalog](how_to_use_the_catalog.md) says what a useful proposal contains.
+
+## Where to go next
+
+::::{grid} 2
+:gutter: 3
+
+:::{grid-item-card} Browse the tasks
+:link: tasks/index
+:link-type: doc
+
+{{ n_tasks }} tasks in {{ n_families }} task families, each with its inclusion test,
+variations, processes and references.
+:::
+
+:::{grid-item-card} Browse the cognitive processes
+:link: processes/index
+:link-type: doc
+
+{{ n_processes }} processes in {{ n_categories }} categories, each with a definition, references
+and the tasks that engage it.
+:::
+
+:::{grid-item-card} Understand the selection rules
+:link: methods/task_criteria/index
+:link-type: doc
+
+The selection criteria, naming rules, inclusion test and the rules that decide what
+counts as a variation.
+:::
+
+:::{grid-item-card} Compare with related ontologies
+:link: atlas/the_catalog_vs_the_atlas
+:link-type: doc
+
+What the [Cognitive Atlas](atlas/the_catalog_vs_the_atlas.md) and [CogPO](cogpo/the_catalog_vs_cogpo.md) contain, how the
+Catalog maps onto each entry by entry, and what each adds to the other.
+:::
+
+::::
+
+Planning to tag a dataset or to read a task page closely? See
+[How to use the Catalog](how_to_use_the_catalog.md).

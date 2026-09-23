@@ -313,7 +313,7 @@ distinction itself.
 
 ## Duplicate and fragmented entries
 
-A paradigm family is often spread across several entries, one per implementation, with
+A task family is often spread across several entries, one per implementation, with
 no entry marked canonical and the best-annotated one frequently not the standard
 version.
 

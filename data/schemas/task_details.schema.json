@@ -78,7 +78,7 @@
           "items": {
             "$ref": "#/definitions/family_membership"
           },
-          "description": "The paradigm families this task belongs to: exactly one primary (where it is filed) and any number of secondary cross-listings. A pseudo task's primary is pseudo_tasks."
+          "description": "The task families this task belongs to: exactly one primary (where it is filed) and any number of secondary cross-listings. A pseudo task's primary is pseudo_tasks."
         },
         "hed_process_ids": {
           "type": "array",

@@ -4,14 +4,14 @@ Files written:
 
 - docs/tasks/index.md            the task landing page: what a task page holds, the
                                  families at a glance, and the two ways in
-- docs/tasks/tasks_by_paradigm_family.md        the catalog grouped by paradigm family, one section
+- docs/tasks/tasks_by_family.md        the catalog grouped by task family, one section
                                  per family; its toctree nests the family pages
 - docs/tasks/families/<id>.md    one page per family, whose toctree nests its tasks
 - docs/tasks/tasks_alphabetically.md   every task in name order; its toctree lists every
                                  task
 - docs/tasks/hedtsk_*.md         one page per task
 
-The document tree is Tasks > Tasks by paradigm family > family > task, and Tasks >
+The document tree is Tasks > Tasks by family > family > task, and Tasks >
 Tasks alphabetically > task. Each task page sits in two toctrees, which Sphinx allows
 (it picks the first as the parent for prev/next links). The left sidebar shows only the
 first two levels; a rule in docs/source/_static/custom.css hides the family and task
@@ -251,7 +251,7 @@ def _write_task_index(
         "Each task page gives the canonical name and aliases, a description, the inclusion\n"
         "test that decides whether an experiment is an instance of the task, its named\n"
         "variations, the cognitive processes it engages, and references.\n\n",
-        f"Tasks are filed under {len(families)} **paradigm families** by what the participant does,\n"
+        f"Tasks are filed under {len(families)} **task families** by what the participant does,\n"
         "not by which process the task is thought to measure. The Catalog's process list covers that\n"
         "other axis, and the two cross-link. Families are organizational, not a hierarchy. Every\n"
         "task has one **primary** family, where its page is filed, and may be cross-listed under\n"
@@ -262,7 +262,7 @@ def _write_task_index(
         "say how families are assigned.\n\n",
         REVIEW_NOTE.format(unit="family") + "\n",
         "Two ways in:\n\n",
-        "- [Tasks by paradigm family](tasks_by_paradigm_family.md) lists every task under its family, with the\n  family's scope statement.\n",
+        "- [Tasks by family](tasks_by_family.md) lists every task under its family, with the\n  family's scope statement.\n",
         "- [Tasks alphabetically](tasks_alphabetically.md) lists every task in name order, for when you\n"
         "  know the name and not the family.\n\n",
         "## Families at a glance\n\n",
@@ -278,11 +278,7 @@ def _write_task_index(
     ]
     parts.append(table(["Family", "Tasks filed", "Cross-listed"], rows))
     parts.append("\n\n")
-    parts.append(
-        _toctree(
-            [("Tasks by paradigm family", "tasks_by_paradigm_family"), ("Tasks alphabetically", "tasks_alphabetically")], 3
-        )
-    )
+    parts.append(_toctree([("Tasks by family", "tasks_by_family"), ("Tasks alphabetically", "tasks_alphabetically")], 3))
 
     write_page(tasks_dir / "index.md", "".join(parts))
     return 1
@@ -296,14 +292,14 @@ def _write_by_family(
     processes_by_id: dict[str, dict],
     family_by_id: dict[str, dict],
 ) -> int:
-    """Write docs/tasks/tasks_by_paradigm_family.md: one section per family, nesting the family pages.
+    """Write docs/tasks/tasks_by_family.md: one section per family, nesting the family pages.
 
     A family's section lists the tasks filed under it in full, then the tasks cross-listed
     into it as a short "Also filed here" list, each naming its own family and the reason.
     """
     parts: list[str] = [
-        "# Tasks by paradigm family\n\n",
-        f"The {len(families)} paradigm families, each with its scope statement and the tasks filed\n"
+        "# Tasks by family\n\n",
+        f"The {len(families)} task families, each with its scope statement and the tasks filed\n"
         "under it. Every task is in exactly one family. The family pages repeat these entries\n"
         "and add the assignments marked for review. The [alphabetical list](tasks_alphabetically.md)\n"
         "has the same tasks in name order.\n\n",
@@ -333,7 +329,7 @@ def _write_by_family(
             parts.append("\n")
 
     parts.append(_toctree([(_short_name(fam["name"]), f"families/{fam['family_id']}") for fam in families], 2))
-    write_page(tasks_dir / "tasks_by_paradigm_family.md", "".join(parts))
+    write_page(tasks_dir / "tasks_by_family.md", "".join(parts))
     return 1
 
 
@@ -413,8 +409,8 @@ def _write_alphabetical(
     """
     parts: list[str] = [
         "# Tasks alphabetically\n\n",
-        f"All {len(sorted_tasks)} tasks in name order, each with the paradigm family it is filed\n"
-        "under. [Tasks by paradigm family](tasks_by_paradigm_family.md) presents the same tasks grouped by\n"
+        f"All {len(sorted_tasks)} tasks in name order, each with the task family it is filed\n"
+        "under. [Tasks by family](tasks_by_family.md) presents the same tasks grouped by\n"
         "family.\n\n",
     ]
     for task in sorted_tasks:

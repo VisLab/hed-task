@@ -2,7 +2,7 @@
 |---|---|---|
 | Tasks | 103 | [Tasks](tasks/index.md) |
 | Pseudo tasks (rest, fixation, questionnaire and feedback blocks) | 4 | [Tasks](tasks/families/pseudo_tasks.md) |
-| Paradigm families the tasks are filed under | 19 | [Tasks](tasks/index.md) |
+| Task families the tasks are filed under | 19 | [Tasks](tasks/index.md) |
 | Named task variations | 776 | on each task page |
 | Cognitive processes | 172 | [Cognitive processes](processes/index.md) |
 | Process categories | 19 | [Cognitive processes](processes/index.md) |
