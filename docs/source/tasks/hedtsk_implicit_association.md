@@ -23,11 +23,15 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants sort stimuli from two target categories (e.g., Black/White faces) and two attribute categories (e.g., pleasant/unpleasant words) using two response keys. Critical comparison is between compatible and incompatible pairings.
-* - **Manipulation**
-  - Target-attribute pairing (compatible vs. incompatible blocks); category exemplars; number of practice and test trials.
-* - **Measurement**
-  - IAT D-score (standardized RT difference between incompatible and compatible blocks); error rates.
+  - 1. Participants sort stimuli from two target categories (e.g., Black/White faces) and two attribute categories (e.g., pleasant/unpleasant words) using two response keys.
+    2. Critical comparison is between compatible and incompatible pairings.
+* - **Manipulations**
+  - - Target-attribute pairing (compatible vs. incompatible blocks)
+    - Category exemplars
+    - Number of practice and test trials
+* - **Measurements**
+  - - IAT D-score (standardized RT difference between incompatible and compatible blocks)
+    - Error rates
 ```
 
 ## Variations

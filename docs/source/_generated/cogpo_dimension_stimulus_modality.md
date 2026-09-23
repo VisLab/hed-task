@@ -1,0 +1,12 @@
+| Value | Label | CogPO term | Definition | HED 8.4.0 tags | HED note | Source |
+|---|---|---|---|---|---|---|
+| `visual` | Visual | [COGPO_00132](http://www.wiki.cogpo.org/index.php?title=Visual_Modality) | The sensory modality that pertains to the sense of sight. | Visual-presentation | Exact tag. | CogPO (OWL) |
+| `auditory` | Auditory | [COGPO_00125](http://www.wiki.cogpo.org/index.php?title=Auditory_Modality) | The sensory modality that pertains to the sense of hearing. | Auditory-presentation | Exact tag. | CogPO (OWL) |
+| `tactile` | Tactile | [COGPO_00131](http://www.wiki.cogpo.org/index.php?title=Tactile_Modality) | The sensory modality pertaining to the sense of contact via the skin with external objects. | Tactile-presentation | Exact tag. | CogPO (OWL) |
+| `olfactory` | Olfactory | [COGPO_00130](http://www.wiki.cogpo.org/index.php?title=Olfactory_Modality) | The sensory modality pertaining to the sense of smell. | Olfactory-presentation | Exact tag. | CogPO (OWL) |
+| `gustatory` | Gustatory | [COGPO_00123](http://www.wiki.cogpo.org/index.php?title=Gustatory_Modality) | The sensory modality pertaining to the sense of taste or flavor. | Gustatory-presentation | Exact tag. | CogPO (OWL) |
+| `interoceptive` | Interoceptive | [COGPO_00128](http://www.wiki.cogpo.org/index.php?title=Interoceptive_Modality) | The sensory modality that pertains to the sense of interoception, or internal sensations. | (none) | HED 8.4.0 has Somatic-presentation and Vestibular-presentation but no interoceptive presentation tag. | CogPO (OWL) |
+| `electrical` | Electrical | COGPO_00127 | The sensory modality that pertains to the sense of electric shock; a subtype of tactile in CogPO. | Somatic-presentation | Nearest tag; HED has no electrical modality. | CogPO (OWL) |
+| `pain` | Pain | COGPO_00126 | The subtype of tactile modality that pertains to the sense of pain. | Somatic-presentation, Pain | Pain is a Somatic-attribute, so it qualifies the presentation rather than naming a modality. | CogPO (OWL) |
+| `pressure` | Pressure | COGPO_00129 | The tactile modality that pertains to the sense of non-painful touch. | Tactile-presentation, Tactile-pressure | Tactile-pressure is a Tactile-attribute. | CogPO (OWL) |
+| `thermal` | Thermal | COGPO_00133 | The sensory modality that pertains to the sense of heat applied to the skin. | Tactile-presentation, Tactile-temperature | Tactile-temperature is a Tactile-attribute. | CogPO (OWL) |

@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants predict an outcome (e.g., rain/sun) based on combinations of cues (cards), where each cue is probabilistically (not deterministically) related to outcomes. Learning is incremental across hundreds of trials.
-* - **Manipulation**
-  - Cue-outcome probability structure; number of cues per trial; feedback type (corrective, observational); concurrent vs. single task.
-* - **Measurement**
-  - Accuracy learning curve; optimal response rate; strategy analysis (multi-cue vs. single-cue); comparison to Parkinson patients (basal ganglia involvement).
+  - 1. Participants predict an outcome (e.g., rain/sun) based on combinations of cues (cards), where each cue is probabilistically (not deterministically) related to outcomes.
+    2. Learning is incremental across hundreds of trials.
+* - **Manipulations**
+  - - Cue-outcome probability structure
+    - Number of cues per trial
+    - Feedback type (corrective, observational)
+    - Concurrent vs. single task
+* - **Measurements**
+  - - Accuracy learning curve
+    - Optimal response rate
+    - Strategy analysis (multi-cue vs. single-cue)
+    - Comparison to Parkinson patients (basal ganglia involvement)
 ```
 
 ## Variations

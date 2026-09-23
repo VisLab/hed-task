@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A cue signals potential reward, loss, or neutral outcome; after a delay, a target appears and participants make a speeded response. Outcome depends on response speed.
-* - **Manipulation**
-  - Cue type (reward magnitude, loss magnitude, neutral); target duration (titrated to ~66% hit rate).
-* - **Measurement**
-  - RT by cue condition; fMRI activation in ventral striatum (anticipation) and medial PFC (outcome); hit rate.
+  - 1. A cue signals potential reward, loss, or neutral outcome.
+    2. After a delay, a target appears and participants make a speeded response.
+    3. Outcome depends on response speed.
+* - **Manipulations**
+  - - Cue type (reward magnitude, loss magnitude, neutral)
+    - Target duration (titrated to ~66% hit rate)
+* - **Measurements**
+  - - RT by cue condition
+    - FMRI activation in ventral striatum (anticipation) and medial PFC (outcome)
+    - Hit rate
 ```
 
 ## Variations
@@ -98,4 +103,6 @@ This task is designed to engage the following processes:
 ## External links
 
 - Cognitive Atlas: [monetary incentive delay task](https://www.cognitiveatlas.org/task/id/trm_4f23fc8c42d28)
+
+- CogPO: [Reward Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Reward_Task_Paradigm) (close match)
 

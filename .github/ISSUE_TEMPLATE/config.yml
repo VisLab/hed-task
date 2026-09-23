@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question about HED itself
+    url: https://www.hedtags.org/hed-resources/
+    about: The HED specification, schemas and tools are documented at hed-resources; questions about them belong with the HED project rather than the Catalog.
+  - name: Disagree with a rule, or want a task moved to another family
+    url: https://github.com/hed-standard/hed-task/issues/new
+    about: Open a blank issue. Name the rule or the task, the change you propose, and the procedural reason.

@@ -23,11 +23,20 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participant performs a continuous ongoing task while holding a delayed intention; on designated trials (event cue) or at designated times (time cue), the participant must interrupt the ongoing task to execute the prospective action.
-* - **Manipulation**
-  - PM cue type (event-based vs. time-based); cue focality (focal cue processed as part of ongoing task vs. non-focal cue requiring monitoring); ongoing-task demand (low vs. high load); PM target frequency; delay between intention formation and PM window; number of PM targets.
-* - **Measurement**
-  - PM hit rate (proportion of cues correctly detected and acted upon); ongoing-task cost (RT and accuracy difference between PM blocks and baseline blocks); time-monitoring behavior (clock-checking frequency in time-based PM); false alarms to lure items.
+  - 1. Participant performs a continuous ongoing task while holding a delayed intention.
+    2. On designated trials (event cue) or at designated times (time cue), the participant must interrupt the ongoing task to execute the prospective action.
+* - **Manipulations**
+  - - PM cue type (event-based vs. time-based)
+    - Cue focality (focal cue processed as part of ongoing task vs. non-focal cue requiring monitoring)
+    - Ongoing-task demand (low vs. high load)
+    - PM target frequency
+    - Delay between intention formation and PM window
+    - Number of PM targets
+* - **Measurements**
+  - - PM hit rate (proportion of cues correctly detected and acted upon)
+    - Ongoing-task cost (RT and accuracy difference between PM blocks and baseline blocks)
+    - Time-monitoring behavior (clock-checking frequency in time-based PM)
+    - False alarms to lure items
 ```
 
 ## Variations

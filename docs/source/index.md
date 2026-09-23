@@ -24,7 +24,7 @@ The HED Task Catalog consists of two interlinked lists **Tasks** and **Cognitive
 
 **Tasks** are experimental paradigms each having a specific, reproducible procedure: the Stroop
 Color-Word Task, the N-Back Task, the Iowa Gambling Task. Each task specification has a canonical name,
-aliases, a description, an *inclusion test* stating the procedure, the
+aliases, a description, an *inclusion test* listing the steps of the procedure, the
 manipulations and the measurements that make an experiment an instance of that task, a list
 of named variations with the reason each one counts as a variation, and verified
 references. Tasks are filed under {{ n_families }} paradigm families according to what the
@@ -42,7 +42,18 @@ engage it. The Catalog is part of the HED (Hierarchical Event Descriptors) effor
 make the events in neuroimaging and behavioral data machine-actionable; see
 [HED resources](https://www.hedtags.org/hed-resources) for information on HED.
 
-## Why a task and process taxonomy?
+**Facets** are a proposed third element. A facet is a single attribute of a task from a
+closed vocabulary, such as its stimulus modality (visual, auditory) or its response kind
+(button press, saccade), so that a repository can filter tasks by what the participant is
+shown, does and is told, not only by name. The idea and the candidate vocabularies come
+from [CogPO](cogpo/what_is_cogpo.md), the Cognitive Paradigm Ontology, which describes
+every paradigm by exactly those three things, and each value has the HED tag that
+expresses it, so that a facet would sit between a task name and the HED annotation of its
+events. The [dimension mapping](cogpo/dimension_mapping.md) page holds the vocabularies;
+whether and how the Catalog adopts facets is not yet decided, and no task record carries
+one.
+
+## Why tasks and processes?
 
 A data repository knows what files a dataset contains but usually not what its
 participants did beyond a free-text label such as `task-flanker` or `task-rest`. The
@@ -98,12 +109,12 @@ The selection criteria, naming rules, inclusion test and the rules that decide w
 counts as a variation.
 :::
 
-:::{grid-item-card} Compare with the Cognitive Atlas
+:::{grid-item-card} Compare with related ontologies
 :link: atlas/the_catalog_vs_the_atlas
 :link-type: doc
 
-What the Atlas contains, how the Catalog maps onto it entry by entry, and what each
-adds to the other.
+What the [Cognitive Atlas](atlas/the_catalog_vs_the_atlas.md) and [CogPO](cogpo/the_catalog_vs_cogpo.md) contain, how the
+Catalog maps onto each entry by entry, and what each adds to the other.
 :::
 
 ::::
@@ -119,10 +130,22 @@ finished product. The task and process lists began from the
 data, and have been added to, merged and redefined since. Tasks, processes, categories
 and paradigm families will keep changing as the Catalog is used.
 
+A second source for the Catalog is [CogPO](http://www.cogpo.org/), the Cognitive Paradigm
+Ontology, whose stimulus, response and instruction vocabularies are the candidate facets;
+see [The Catalog vs CogPO](cogpo/the_catalog_vs_cogpo.md). The first facets to be filled
+are the six CogPO-derived ones (stimulus modality, kind and role; response modality and
+kind; instructions), followed by the Catalog's own (trial structure, feedback, timing and
+primary measure). CogPO and HED share a history: early HED terminology drew partly on
+CogPO, and HED's plan to adopt CogPO's paradigm list was dropped in its third generation
+for want of a standardized task nomenclature, which is the gap the Catalog now fills. See
+[HED vs CogPO](cogpo/hed_vs_cogpo.md).
+
 Suggestions, corrections and ideas are welcome: please open an issue at
-<https://github.com/hed-standard/hed-task/issues>. The repository's [contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the
-process. A proposal for a new task is most useful when it comes with a procedure,
-a manipulation and a measurement in the form the inclusion tests use; a proposal for a
+<https://github.com/hed-standard/hed-task/issues/new/choose>, where a form for a new task,
+a new variation, a new process or a correction asks for what the Catalog needs. The
+repository's [contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the
+process. A proposal for a new task is most useful when it comes with the procedure as
+steps, its manipulations and its measurements in the form the inclusion tests use; a proposal for a
 new process is most useful when it says when in a trial the process happens, what
 elicits it and how it is measured.
 
@@ -150,14 +173,25 @@ task_process_links
 methods/task_criteria/index
 methods/process_criteria/index
 methods/atlas_mapping_method
+methods/cogpo_mapping_method
 ```
 
 ```{toctree}
 :hidden:
-:caption: Cognitive Atlas
+:caption: Related resources
 
 atlas/what_is_the_cognitive_atlas
 atlas/the_catalog_vs_the_atlas
-atlas/task_mapping
-atlas/process_mapping
+Task mapping (Atlas) <atlas/task_mapping>
+Process mapping (Atlas) <atlas/process_mapping>
+```
+
+```{toctree}
+:hidden:
+
+cogpo/what_is_cogpo
+cogpo/the_catalog_vs_cogpo
+cogpo/hed_vs_cogpo
+Task mapping (CogPO) <cogpo/task_mapping>
+Dimension mapping (CogPO) <cogpo/dimension_mapping>
 ```

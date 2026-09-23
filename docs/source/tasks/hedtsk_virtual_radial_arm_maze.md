@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - In a virtual radial arm maze (typically 8 arms radiating from a center), some arms are baited with reward. Participants visit arms to collect rewards, using spatial cues to remember which arms have been visited.
-* - **Manipulation**
-  - Number of arms; number of baited arms; intra-maze vs. extra-maze cues; delay between visits.
-* - **Measurement**
-  - Reference memory errors (entering never-baited arms); working memory errors (re-entering already-visited baited arms); total errors to criterion.
+  - 1. In a virtual radial arm maze (typically 8 arms radiating from a center), some arms are baited with reward.
+    2. Participants visit arms to collect rewards, using spatial cues to remember which arms have been visited.
+* - **Manipulations**
+  - - Number of arms
+    - Number of baited arms
+    - Intra-maze vs. extra-maze cues
+    - Delay between visits
+* - **Measurements**
+  - - Reference memory errors (entering never-baited arms)
+    - Working memory errors (re-entering already-visited baited arms)
+    - Total errors to criterion
 ```
 
 ## Variations

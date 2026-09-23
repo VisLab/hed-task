@@ -23,11 +23,19 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Four decks of cards are presented; participants draw one card at a time from any deck. Each draw yields a reward and sometimes a penalty. Two decks are advantageous (smaller rewards, smaller penalties, net positive) and two are disadvantageous (larger rewards, larger penalties, net negative).
-* - **Manipulation**
-  - Reward/penalty schedule; number of trials; deck position; variant payoff structures.
-* - **Measurement**
-  - Net score (advantageous − disadvantageous deck selections); learning curve across blocks; anticipatory SCR before deck selection.
+  - 1. Four decks of cards are presented.
+    2. Participants draw one card at a time from any deck.
+    3. Each draw yields a reward and sometimes a penalty.
+    4. Two decks are advantageous (smaller rewards, smaller penalties, net positive) and two are disadvantageous (larger rewards, larger penalties, net negative).
+* - **Manipulations**
+  - - Reward/penalty schedule
+    - Number of trials
+    - Deck position
+    - Variant payoff structures
+* - **Measurements**
+  - - Net score (advantageous − disadvantageous deck selections)
+    - Learning curve across blocks
+    - Anticipatory SCR before deck selection
 ```
 
 ## Variations

@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A set of identical objects (dots) move randomly; a subset is designated as targets. After the targets are highlighted, all dots move for several seconds, then participants identify which dots were targets.
-* - **Manipulation**
-  - Number of targets; number of distractors; speed of motion; tracking duration.
-* - **Measurement**
-  - Tracking accuracy (proportion correct); capacity estimate (Pylyshyn's 4±1); effects of load on accuracy.
+  - 1. A set of identical objects (dots) move randomly.
+    2. A subset is designated as targets.
+    3. After the targets are highlighted, all dots move for several seconds, then participants identify which dots were targets.
+* - **Manipulations**
+  - - Number of targets
+    - Number of distractors
+    - Speed of motion
+    - Tracking duration
+* - **Measurements**
+  - - Tracking accuracy (proportion correct)
+    - Capacity estimate (Pylyshyn's 4±1)
+    - Effects of load on accuracy
 ```
 
 ## Variations
@@ -100,4 +107,8 @@ This task is designed to engage the following processes:
 - Oksama, L., & Hyönä, J. (2016). Position tracking and identity tracking are separate systems: Evidence from eye movements. *Cognition*, 146, 393–409. ([DOI](https://doi.org/10.1016/j.cognition.2015.10.016), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26529194/))
 - Alvarez, G. A., & Franconeri, S. L. (2007). How many objects can you track? Evidence for a resource-limited attentive tracking mechanism. *Journal of Vision*, 7(13), 14. ([DOI](https://doi.org/10.1167/7.13.14), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17997642/))
 - Drew, T., & Vogel, E. K. (2008). Neural measures of individual differences in selecting and tracking multiple moving objects. *Journal of Neuroscience*, 28(16), 4183–4191. ([DOI](https://doi.org/10.1523/jneurosci.0556-08.2008), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18417697/))
+
+## External links
+
+- CogPO: [Visual Pursuit/Tracking Paradigm](http://www.wiki.cogpo.org/index.php?title=Visual_Pursuit_or_Tracking_Paradigm) (close match)
 

@@ -24,10 +24,15 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants learn to choose between stimulus pairs through probabilistic feedback (80/20 or 70/30 contingencies), then are tested on novel recombinations without feedback to dissociate Go learning (choose A) from NoGo learning (avoid B).
-* - **Manipulation**
-  - Feedback probability; number of training pairs; transfer test composition; dopaminergic manipulation (medication status in Parkinson's).
-* - **Measurement**
-  - Training accuracy; transfer test accuracy (choose-A vs. avoid-B dissociation); fit to actor-critic or opponent-actor learning models.
+* - **Manipulations**
+  - - Feedback probability
+    - Number of training pairs
+    - Transfer test composition
+    - Dopaminergic manipulation (medication status in Parkinson's)
+* - **Measurements**
+  - - Training accuracy
+    - Transfer test accuracy (choose-A vs. avoid-B dissociation)
+    - Fit to actor-critic or opponent-actor learning models
 ```
 
 ## Variations

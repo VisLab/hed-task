@@ -23,11 +23,20 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants retrieve specific personal memories in response to cue words, category prompts, or structured interview questions; retrieved memories are scored for specificity, detail, emotional content, and temporal distribution.
-* - **Manipulation**
-  - Cue type (word, sentence, photograph, odor); cue valence (positive, negative, neutral); retrieval instruction (specific episode vs. free retrieval); time period constraint (childhood, recent, specific decade); retrieval time limit.
-* - **Measurement**
-  - Specificity (proportion of specific vs. overgeneral memories); retrieval latency; phenomenological detail ratings (vividness, emotional intensity, sensory detail); temporal distribution (reminiscence bump, recency); Autobiographical Memory Interview scores (personal semantic + autobiographical incident).
+  - 1. Participants retrieve specific personal memories in response to cue words, category prompts, or structured interview questions.
+    2. Retrieved memories are scored for specificity, detail, emotional content, and temporal distribution.
+* - **Manipulations**
+  - - Cue type (word, sentence, photograph, odor)
+    - Cue valence (positive, negative, neutral)
+    - Retrieval instruction (specific episode vs. free retrieval)
+    - Time period constraint (childhood, recent, specific decade)
+    - Retrieval time limit
+* - **Measurements**
+  - - Specificity (proportion of specific vs. overgeneral memories)
+    - Retrieval latency
+    - Phenomenological detail ratings (vividness, emotional intensity, sensory detail)
+    - Temporal distribution (reminiscence bump, recency)
+    - Autobiographical Memory Interview scores (personal semantic + autobiographical incident)
 ```
 
 ## Variations
@@ -99,4 +108,6 @@ This task is designed to engage the following processes:
 ## External links
 
 - Cognitive Atlas: [autobiographical memory task](https://www.cognitiveatlas.org/task/id/trm_4f244d2a54e27)
+
+- CogPO: [Episodic Recall Paradigm](http://www.wiki.cogpo.org/index.php?title=Episodic_Recall_Paradigm) (close match)
 

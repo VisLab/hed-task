@@ -34,6 +34,7 @@ Usage (from repo root, with venv active):
 from __future__ import annotations
 
 import collections
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -46,6 +47,7 @@ if str(_HERE) not in sys.path:
 from add_variation_ids import variation_id  # noqa: E402
 from generators import (  # noqa: E402
     crossref_atlas_pages,
+    crossref_cogpo_pages,
     crossref_page,
     fragments,
     process_pages,
@@ -164,6 +166,19 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
         for pid in t.get("hed_process_ids", []):
             if pid not in process_ids:
                 problems.append(f"{t['hedtsk_id']}: hed_process_ids names unknown process {pid!r}")
+        # The inclusion test is three lists (data/README.md, "Editing a task or process"):
+        # procedure steps are sentences, the other two are fragments. The schema checks
+        # the shape; the text rules are here.
+        test = t.get("inclusion_test") or {}
+        for step in test.get("procedure") or []:
+            if step != step.strip() or not step.endswith((".", "!", "?")):
+                problems.append(f"{t['hedtsk_id']}: procedure step must be a trimmed sentence ending in a period: {step!r}")
+        for field in ("manipulations", "measurements"):
+            for item in test.get(field) or []:
+                if item != item.strip() or item.endswith((";", ".")) or not item[:1].isupper() and not item[:1].isdigit():
+                    problems.append(
+                        f"{t['hedtsk_id']}: {field} item must be trimmed, start with a capital and carry no final period or semicolon: {item!r}"
+                    )
         # A task engages at least one process; a pseudo task (task criteria, "Pseudo tasks") engages none
         # by definition, so the two kinds are checked in opposite directions.
         is_pseudo = t.get("task_kind", "task") == "pseudo_task"
@@ -281,6 +296,64 @@ def load_families(data_dir: Path, tasks: list[dict]) -> list[dict]:
     return defs
 
 
+# The facet vocabulary in data/facet_defs.tsv. Nothing on a task record uses it yet; it
+# is validated here so that an edit to the vocabulary is caught before the pages that
+# render it are written.
+FACETS = ("stimulus_modality", "stimulus_kind", "stimulus_role", "response_modality", "response_kind", "instructions")
+FACET_SOURCES = ("cogpo", "cogpo_wiki", "hed", "catalog")
+FACET_COLUMNS = ("facet", "value", "label", "definition", "source", "cogpo_id", "hed_tags", "hed_note")
+_FACET_VALUE = re.compile(r"^[a-z][a-z0-9_]*$")
+
+
+def load_facet_defs(data_dir: Path) -> list[dict]:
+    """Read and validate data/facet_defs.tsv. Exits, naming the row, on any problem.
+
+    A `cogpo` row must name a dimension value that exists in data/cogpo_summary.json. A
+    `cogpo_wiki` row names a wiki page title, which the summary does not list when the
+    page has no term template (the body parts), so only its presence is checked.
+    """
+    path = data_dir / "facet_defs.tsv"
+    rows = read_tsv(path)
+    problems: list[str] = []
+    if not rows:
+        sys.exit("data/facet_defs.tsv is missing or empty; nothing written.")
+    missing = [c for c in FACET_COLUMNS if c not in rows[0]]
+    if missing:
+        sys.exit(f"data/facet_defs.tsv lacks columns {missing}; nothing written.")
+
+    summary = load_json(data_dir / "cogpo_summary.json")
+    owl_ids = {v["id"] for d in summary["dimensions"].values() for v in d["values"]}
+
+    seen: set[tuple[str, str]] = set()
+    for row in rows:
+        label = f"facet_defs.tsv {row['facet']}/{row['value']}"
+        if row["facet"] not in FACETS:
+            problems.append(f"{label}: facet not in {FACETS}")
+        if not _FACET_VALUE.match(row["value"]):
+            problems.append(f"{label}: value must be lowercase snake_case")
+        if (row["facet"], row["value"]) in seen:
+            problems.append(f"{label}: duplicate value")
+        seen.add((row["facet"], row["value"]))
+        if row["source"] not in FACET_SOURCES:
+            problems.append(f"{label}: source {row['source']!r} not in {FACET_SOURCES}")
+        if row["source"] == "cogpo" and row["cogpo_id"] not in owl_ids:
+            problems.append(f"{label}: cogpo_id {row['cogpo_id']!r} is not a CogPO dimension value in cogpo_summary.json")
+        if row["source"] == "cogpo_wiki" and not row["cogpo_id"]:
+            problems.append(f"{label}: a cogpo_wiki row needs the wiki page title in cogpo_id")
+        if row["source"] in ("hed", "catalog") and row["cogpo_id"]:
+            problems.append(f"{label}: a {row['source']} row must not carry a cogpo_id")
+        if row["source"] == "hed" and not row["hed_tags"].strip():
+            problems.append(f"{label}: a hed row needs hed_tags")
+        if not row["label"].strip() or not row["definition"].strip():
+            problems.append(f"{label}: label and definition are required")
+        if any(ord(ch) > 127 for ch in "\t".join(row.values())):
+            problems.append(f"{label}: non-ASCII character")
+
+    if problems:
+        sys.exit("Facet vocabulary is inconsistent; nothing written.\n  " + "\n  ".join(problems))
+    return rows
+
+
 # ---------------------------------------------------------------------------
 # Generation
 # ---------------------------------------------------------------------------
@@ -317,10 +390,23 @@ def main() -> None:
     print(
         f"  {len(tasks)} tasks, {len(processes)} processes, {len(categories)} categories, {len(families)} families: consistent"
     )
+    facet_defs = load_facet_defs(data_dir)
+    print(f"  {len(facet_defs)} facet values in {len({r['facet'] for r in facet_defs})} facets: consistent")
 
     # The curated mapping drives the Atlas link on each task page and is the only Atlas
     # cross-reference; task records carry no atlas_id of their own.
     atlas_map = {r["hedtsk_id"]: r for r in read_tsv(data_dir / "mappings" / "hed_task_to_atlas.tsv")}
+
+    # The CogPO mapping drives the CogPO link on each task page the same way. A class
+    # links to its page on the CogPO wiki, whose title the summary records; the two
+    # Oddball subclasses have no wiki page and get no link.
+    cogpo_summary = load_json(data_dir / "cogpo_summary.json")
+    wiki_titles = {p["id"]: p["wiki"]["title"] for p in cogpo_summary["paradigms"] if p.get("wiki")}
+    wiki_titles.update({p["title"]: p["title"] for p in cogpo_summary["paradigm_comparison"]["wiki_only"]})
+    cogpo_map = {}
+    for row in read_tsv(data_dir / "mappings" / "hed_task_to_cogpo.tsv"):
+        row["cogpo_wiki_title"] = wiki_titles.get(row["cogpo_id"], "")
+        cogpo_map[row["hedtsk_id"]] = row
 
     tasks_by_id: dict[str, dict] = {t["hedtsk_id"]: t for t in tasks}
     processes_by_id: dict[str, dict] = {p["process_id"]: p for p in processes}
@@ -330,7 +416,7 @@ def main() -> None:
     total = 0
 
     print("Generating docs/source/tasks/ ...")
-    n = task_pages.generate(docs_dir, tasks, processes_by_id, families, atlas_map)
+    n = task_pages.generate(docs_dir, tasks, processes_by_id, families, atlas_map, cogpo_map)
     total += n
     print(
         f"  Wrote {n} task files (index, tasks_by_paradigm_family, {len(families)} family pages, tasks_alphabetically, {len(tasks)} task pages)."
@@ -346,6 +432,7 @@ def main() -> None:
 
     print("Generating docs/source/_generated/ fragments ...")
     total += crossref_atlas_pages.generate(docs_dir, data_dir)
+    total += crossref_cogpo_pages.generate(docs_dir, data_dir)
     total += fragments.generate(docs_dir, data_dir, tasks, processes, categories, families)
 
     print(f"\nDone. {total} files written to {docs_dir}. Narrative pages were not touched.")

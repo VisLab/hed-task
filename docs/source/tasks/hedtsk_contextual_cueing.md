@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Visual search through letter arrays; some spatial configurations repeat across blocks while others are novel. Participants find and respond to a target embedded in the display.
-* - **Manipulation**
-  - Repeated vs. novel display configurations; number of repetitions across blocks; explicit awareness of repetition.
-* - **Measurement**
-  - RT advantage for repeated over novel configurations (contextual cueing effect); learning curve across blocks; recognition test for repeated displays.
+  - 1. Visual search through letter arrays.
+    2. Some spatial configurations repeat across blocks while others are novel.
+    3. Participants find and respond to a target embedded in the display.
+* - **Manipulations**
+  - - Repeated vs. novel display configurations
+    - Number of repetitions across blocks
+    - Explicit awareness of repetition
+* - **Measurements**
+  - - RT advantage for repeated over novel configurations (contextual cueing effect)
+    - Learning curve across blocks
+    - Recognition test for repeated displays
 ```
 
 ## Variations

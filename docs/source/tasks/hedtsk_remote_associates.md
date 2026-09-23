@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Three seemingly unrelated words are presented (e.g., PINE, CRAB, SAUCE); participants find a single word that forms a compound or common phrase with each (APPLE).
-* - **Manipulation**
-  - Item difficulty (associative strength of solution to each cue); number of items; time limit.
-* - **Measurement**
-  - Number correct; RT to solution; solution probability as a function of associative strength.
+  - 1. Three seemingly unrelated words are presented (e.g., PINE, CRAB, SAUCE).
+    2. Participants find a single word that forms a compound or common phrase with each (APPLE).
+* - **Manipulations**
+  - - Item difficulty (associative strength of solution to each cue)
+    - Number of items
+    - Time limit
+* - **Measurements**
+  - - Number correct
+    - RT to solution
+    - Solution probability as a function of associative strength
 ```
 
 ## Variations

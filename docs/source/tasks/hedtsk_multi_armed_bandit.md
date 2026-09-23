@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants choose repeatedly among multiple options (arms) that deliver stochastic rewards drawn from different distributions. They must balance exploring unknown options with exploiting known good ones.
-* - **Manipulation**
-  - Number of arms; reward distributions (stationary vs. drifting); horizon length; information asymmetry.
-* - **Measurement**
-  - Total reward earned; exploration-exploitation ratio; fit to reinforcement learning models (learning rate, inverse temperature); regret.
+  - 1. Participants choose repeatedly among multiple options (arms) that deliver stochastic rewards drawn from different distributions.
+    2. They must balance exploring unknown options with exploiting known good ones.
+* - **Manipulations**
+  - - Number of arms
+    - Reward distributions (stationary vs. drifting)
+    - Horizon length
+    - Information asymmetry
+* - **Measurements**
+  - - Total reward earned
+    - Exploration-exploitation ratio
+    - Fit to reinforcement learning models (learning rate, inverse temperature)
+    - Regret
 ```
 
 ## Variations

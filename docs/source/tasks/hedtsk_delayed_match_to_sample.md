@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A sample stimulus is presented, followed by a retention interval (delay), then a test stimulus; participants indicate whether the test matches the sample.
-* - **Manipulation**
-  - Delay duration; sample complexity; number of test alternatives; interference during delay.
-* - **Measurement**
-  - Accuracy (proportion correct); RT; decay function across delay intervals.
+  - 1. A sample stimulus is presented, followed by a retention interval (delay), then a test stimulus.
+    2. Participants indicate whether the test matches the sample.
+* - **Manipulations**
+  - - Delay duration
+    - Sample complexity
+    - Number of test alternatives
+    - Interference during delay
+* - **Measurements**
+  - - Accuracy (proportion correct)
+    - RT
+    - Decay function across delay intervals
 ```
 
 ## Variations
@@ -104,4 +110,6 @@ This task is designed to engage the following processes:
 ## External links
 
 - Cognitive Atlas: [delayed match to sample task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb9499e3)
+
+- CogPO: [Delayed Match To Sample Paradigm](http://www.wiki.cogpo.org/index.php?title=Delayed_Match_To_Sample_Paradigm)
 

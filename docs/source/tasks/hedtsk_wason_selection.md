@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants see four cards showing one side each and a conditional rule (if P then Q). They select which cards must be turned over to test the rule.
-* - **Manipulation**
-  - Rule content (abstract vs. deontic/social contract); rule polarity; number of rules; thematic context.
-* - **Measurement**
-  - Proportion selecting logically correct cards (P and not-Q); error patterns; facilitation from social-contract framing.
+  - 1. Participants see four cards showing one side each and a conditional rule (if P then Q).
+    2. They select which cards must be turned over to test the rule.
+* - **Manipulations**
+  - - Rule content (abstract vs. deontic/social contract)
+    - Rule polarity
+    - Number of rules
+    - Thematic context
+* - **Measurements**
+  - - Proportion selecting logically correct cards (P and not-Q)
+    - Error patterns
+    - Facilitation from social-contract framing
 ```
 
 ## Variations
@@ -107,4 +113,6 @@ This task is designed to engage the following processes:
 ## External links
 
 - Cognitive Atlas: [Wason card selection task](https://www.cognitiveatlas.org/task/id/trm_4f2449bdcb0b1)
+
+- CogPO: [Deductive Reasoning Paradigm](http://www.wiki.cogpo.org/index.php?title=Deductive_Reasoning_Paradigm) (close match)
 

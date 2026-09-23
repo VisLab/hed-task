@@ -31,10 +31,14 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participant maintains gaze on a fixation target for the block, with no other stimulus to process and no response to make.
-* - **Manipulation**
-  - Block duration; target form and size; background (blank, static scene); whether gaze is monitored and fed back.
-* - **Measurement**
-  - Baseline neural activity for contrast with task blocks; fixation stability (gaze dispersion, saccade and blink counts) when eye-tracked.
+* - **Manipulations**
+  - - Block duration
+    - Target form and size
+    - Background (blank, static scene)
+    - Whether gaze is monitored and fed back
+* - **Measurements**
+  - - Baseline neural activity for contrast with task blocks
+    - Fixation stability (gaze dispersion, saccade and blink counts) when eye-tracked
 ```
 
 ## Cognitive processes
@@ -46,4 +50,8 @@ processes it does engage have not yet been linked.
 ## Further references
 
 - Stark, C. E. L., & Squire, L. R. (2001). When zero is not zero: The problem of ambiguous baseline conditions in fMRI. *Proceedings of the National Academy of Sciences*, 98(22), 12760-12766. ([DOI](https://doi.org/10.1073/pnas.221462998))
+
+## External links
+
+- CogPO: [Fixation Paradigm](http://www.wiki.cogpo.org/index.php?title=Fixation_Paradigm)
 

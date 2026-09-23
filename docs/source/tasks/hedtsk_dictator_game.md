@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants in the dictator role are endowed with a sum and decide how much (if any) to give to an anonymous recipient; the recipient has no choice but to accept.
-* - **Manipulation**
-  - Endowment size; anonymity conditions; social distance; framing (give vs. take); group identity.
-* - **Measurement**
-  - Amount allocated to recipient; proportion of fair (50-50) splits; distribution of allocations across participants.
+  - 1. Participants in the dictator role are endowed with a sum and decide how much (if any) to give to an anonymous recipient.
+    2. The recipient has no choice but to accept.
+* - **Manipulations**
+  - - Endowment size
+    - Anonymity conditions
+    - Social distance
+    - Framing (give vs. take)
+    - Group identity
+* - **Measurements**
+  - - Amount allocated to recipient
+    - Proportion of fair (50-50) splits
+    - Distribution of allocations across participants
 ```
 
 ## Variations

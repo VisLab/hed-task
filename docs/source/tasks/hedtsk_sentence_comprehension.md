@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants read sentences word-by-word or in regions; some sentences contain temporary syntactic ambiguities that lead the reader down a wrong parse (garden path) before disambiguation.
-* - **Manipulation**
-  - Ambiguity type (main verb/reduced relative, NP/S, etc.); disambiguation point; plausibility; context sentences.
-* - **Measurement**
-  - Reading time at disambiguating region (self-paced reading, eye tracking); regression probability; ERP (P600, N400); comprehension question accuracy.
+  - 1. Participants read sentences word-by-word or in regions.
+    2. Some sentences contain temporary syntactic ambiguities that lead the reader down a wrong parse (garden path) before disambiguation.
+* - **Manipulations**
+  - - Ambiguity type (main verb/reduced relative, NP/S, etc.)
+    - Disambiguation point
+    - Plausibility
+    - Context sentences
+* - **Measurements**
+  - - Reading time at disambiguating region (self-paced reading, eye tracking)
+    - Regression probability
+    - ERP (P600, N400)
+    - Comprehension question accuracy
 ```
 
 ## Variations
@@ -101,4 +108,8 @@ This task is designed to engage the following processes:
 - Levy, R. (2008). Expectation-based syntactic comprehension. *Cognition*, 106(3), 1126–1177. ([DOI](https://doi.org/10.1016/j.cognition.2007.05.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17662975/))
 - Fedorenko, E., & Thompson-Schill, S. L. (2014). Reworking the language network. *Trends in Cognitive Sciences*, 18(3), 120–126. ([DOI](https://doi.org/10.1016/j.tics.2013.12.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24440115/))
 - Staub, A. (2015). The effect of lexical predictability on eye movements in reading: Critical review and theoretical interpretation. *Language and Linguistics Compass*, 9(8), 311–327. ([DOI](https://doi.org/10.1111/lnc3.12151))
+
+## External links
+
+- CogPO: [Syntactic Discrimination Paradigm](http://www.wiki.cogpo.org/index.php?title=Syntactic_Discrimination_Paradigm) (close match)
 

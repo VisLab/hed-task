@@ -23,11 +23,21 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants make voluntary actions (key presses) that produce delayed sensory effects (tones) while monitoring a Libet clock; they report the perceived time of either the action or the effect in separate blocks.
-* - **Manipulation**
-  - Action type (voluntary vs. involuntary/TMS-induced vs. passive observation); action-effect interval (150, 250, 450, 650 ms); effect probability (certain vs. uncertain); causal belief (participant told action causes vs. does not cause effect); outcome valence (positive vs. negative vs. neutral tone); social agency (self-caused vs. other-caused).
-* - **Measurement**
-  - Action binding (shift of perceived action time toward the effect); effect binding (shift of perceived effect time toward the action); overall intentional binding (action binding + effect binding); interval estimation (judged action-effect interval vs. actual); binding magnitude as individual-difference variable.
+  - 1. Participants make voluntary actions (key presses) that produce delayed sensory effects (tones) while monitoring a Libet clock.
+    2. They report the perceived time of either the action or the effect in separate blocks.
+* - **Manipulations**
+  - - Action type (voluntary vs. involuntary/TMS-induced vs. passive observation)
+    - Action-effect interval (150, 250, 450, 650 ms)
+    - Effect probability (certain vs. uncertain)
+    - Causal belief (participant told action causes vs. does not cause effect)
+    - Outcome valence (positive vs. negative vs. neutral tone)
+    - Social agency (self-caused vs. other-caused)
+* - **Measurements**
+  - - Action binding (shift of perceived action time toward the effect)
+    - Effect binding (shift of perceived effect time toward the action)
+    - Overall intentional binding (action binding + effect binding)
+    - Interval estimation (judged action-effect interval vs. actual)
+    - Binding magnitude as individual-difference variable
 ```
 
 ## Variations

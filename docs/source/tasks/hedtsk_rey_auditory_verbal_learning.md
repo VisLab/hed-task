@@ -23,11 +23,19 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A 15-word list (List A) is read aloud five times with free recall after each. A single interference list (List B) is then read once and recalled. Immediate and delayed recall of List A follow, plus a recognition test.
-* - **Manipulation**
-  - Number of learning trials; interference list; delay before delayed recall; recognition list composition.
-* - **Measurement**
-  - Total learning (sum of trials 1–5); retroactive interference (trial 5 − post-interference recall); delayed recall; recognition hits and false alarms.
+  - 1. A 15-word list (List A) is read aloud five times with free recall after each.
+    2. A single interference list (List B) is then read once and recalled.
+    3. Immediate and delayed recall of List A follow, plus a recognition test.
+* - **Manipulations**
+  - - Number of learning trials
+    - Interference list
+    - Delay before delayed recall
+    - Recognition list composition
+* - **Measurements**
+  - - Total learning (sum of trials 1–5)
+    - Retroactive interference (trial 5 − post-interference recall)
+    - Delayed recall
+    - Recognition hits and false alarms
 ```
 
 ## Variations
@@ -94,4 +102,6 @@ This task is designed to engage the following processes:
 ## External links
 
 - Cognitive Atlas: [Rey Auditory Verbal Learning Task](https://www.cognitiveatlas.org/task/id/trm_4da88ae0f2952)
+
+- CogPO: [Free Word List Recall Paradigm](http://www.wiki.cogpo.org/index.php?title=Free_Word_List_Recall_Paradigm) (close match)
 

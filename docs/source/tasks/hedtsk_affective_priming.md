@@ -24,10 +24,12 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - A briefly presented prime (word, face, or image with positive or negative valence) is followed by a target that participants evaluate as good/bad or classify.
-* - **Manipulation**
-  - Congruence between prime valence and target valence; prime duration and SOA.
-* - **Measurement**
-  - RT and accuracy for target evaluation; congruency effect (faster on congruent trials) indexes automatic affective evaluation.
+* - **Manipulations**
+  - - Congruence between prime valence and target valence
+    - Prime duration and SOA
+* - **Measurements**
+  - - RT and accuracy for target evaluation
+    - Congruency effect (faster on congruent trials) indexes automatic affective evaluation
 ```
 
 ## Variations

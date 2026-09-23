@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A repetitive standard tone is occasionally replaced by a deviant tone differing in frequency, duration, or intensity. Participants typically ignore the sounds while reading or watching a silent video.
-* - **Manipulation**
-  - Deviant type (frequency, duration, intensity, phoneme); deviant probability; magnitude of deviance; ISI.
-* - **Measurement**
-  - MMN amplitude and latency (deviant-minus-standard difference wave, peaking 100–250 ms); scalp topography.
+  - 1. A repetitive standard tone is occasionally replaced by a deviant tone differing in frequency, duration, or intensity.
+    2. Participants typically ignore the sounds while reading or watching a silent video.
+* - **Manipulations**
+  - - Deviant type (frequency, duration, intensity, phoneme)
+    - Deviant probability
+    - Magnitude of deviance
+    - ISI
+* - **Measurements**
+  - - MMN amplitude and latency (deviant-minus-standard difference wave, peaking 100–250 ms)
+    - Scalp topography
 ```
 
 ## Variations
@@ -109,4 +114,8 @@ This task is designed to engage the following processes:
 - Näätänen, R., Kujala, T., & Winkler, I. (2011). Auditory processing that leads to conscious perception: A unique window to central auditory processing opened by the mismatch negativity and related responses. *Psychophysiology*, 48(1), 4–22. ([DOI](https://doi.org/10.1111/j.1469-8986.2010.01114.x))
 - Erickson, M. A., Ruffle, A., & Gold, J. M. (2016). A meta-analysis of mismatch negativity in schizophrenia: From clinical risk to disease specificity and progression. *Biological Psychiatry*, 79(12), 980–987. ([DOI](https://doi.org/10.1016/j.biopsych.2015.08.025), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26444073/))
 - Wacongne, C., Labyt, E., van Wassenhove, V., Bekinschtein, T., Naccache, L., & Dehaene, S. (2011). Evidence for a hierarchy of predictions and prediction errors in the human cortex. *Proceedings of the National Academy of Sciences*, 108(51), 20754–20759. ([DOI](https://doi.org/10.1073/pnas.1117807108), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22147913/))
+
+## External links
+
+- CogPO: Auditory Oddball Paradigm (close match)
 

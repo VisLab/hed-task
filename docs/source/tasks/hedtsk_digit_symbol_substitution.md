@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A key pairs digits 1-9 with unique symbols. Participants fill in the correct symbol below each digit in a long sequence, working as quickly as possible for 90-120 seconds.
-* - **Manipulation**
-  - Time limit; paired vs. free recall variants; incidental learning (recall symbols after test).
-* - **Measurement**
-  - Number of correct substitutions in the time limit; errors; incidental recall of pairs.
+  - 1. A key pairs digits 1-9 with unique symbols.
+    2. Participants fill in the correct symbol below each digit in a long sequence, working as quickly as possible for 90-120 seconds.
+* - **Manipulations**
+  - - Time limit
+    - Paired vs. free recall variants
+    - Incidental learning (recall symbols after test)
+* - **Measurements**
+  - - Number of correct substitutions in the time limit
+    - Errors
+    - Incidental recall of pairs
 ```
 
 ## Variations

@@ -23,11 +23,19 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants study cue-target pairs, attempt cued recall, and for each unrecalled item rate their feeling of knowing (likelihood of future recognition); a subsequent recognition test assesses prediction accuracy.
-* - **Manipulation**
-  - Cue familiarity (high vs. low); target accessibility (related vs. unrelated cues); number of recognition alternatives; delay between judgment and recognition test; domain (episodic vs. semantic general knowledge).
-* - **Measurement**
-  - Feeling-of-knowing magnitude (mean rating); resolution (gamma correlation between ratings and recognition accuracy); calibration (correspondence between predicted and actual recognition probabilities); response latency for feeling-of-knowing judgments.
+  - 1. Participants study cue-target pairs, attempt cued recall, and for each unrecalled item rate their feeling of knowing (likelihood of future recognition).
+    2. A subsequent recognition test assesses prediction accuracy.
+* - **Manipulations**
+  - - Cue familiarity (high vs. low)
+    - Target accessibility (related vs. unrelated cues)
+    - Number of recognition alternatives
+    - Delay between judgment and recognition test
+    - Domain (episodic vs. semantic general knowledge)
+* - **Measurements**
+  - - Feeling-of-knowing magnitude (mean rating)
+    - Resolution (gamma correlation between ratings and recognition accuracy)
+    - Calibration (correspondence between predicted and actual recognition probabilities)
+    - Response latency for feeling-of-knowing judgments
 ```
 
 ## Variations

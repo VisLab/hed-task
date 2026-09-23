@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A rapid sequence of stimuli is presented; participants respond to infrequent target stimuli and withhold responses to non-targets over a prolonged session (10–20 min).
-* - **Manipulation**
-  - Target probability; stimulus presentation rate (ISI); session duration; signal type (letters, digits, tones).
-* - **Measurement**
-  - Hit rate, false alarm rate, d-prime (sensitivity); commission errors (impulsivity); omission errors (inattention); RT variability.
+  - 1. A rapid sequence of stimuli is presented.
+    2. Participants respond to infrequent target stimuli and withhold responses to non-targets over a prolonged session (10–20 min).
+* - **Manipulations**
+  - - Target probability
+    - Stimulus presentation rate (ISI)
+    - Session duration
+    - Signal type (letters, digits, tones)
+* - **Measurements**
+  - - Hit rate, false alarm rate, d-prime (sensitivity)
+    - Commission errors (impulsivity)
+    - Omission errors (inattention)
+    - RT variability
 ```
 
 ## Variations

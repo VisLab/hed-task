@@ -24,10 +24,17 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants study a list of items (words, pictures) presented one at a time, then recall as many as possible in any order after the last item.
-* - **Manipulation**
-  - List length; presentation rate; semantic organization; encoding task (deep vs. shallow); retention interval (immediate vs. delayed).
-* - **Measurement**
-  - Total items recalled; serial position curve (primacy, recency); temporal clustering; semantic clustering.
+* - **Manipulations**
+  - - List length
+    - Presentation rate
+    - Semantic organization
+    - Encoding task (deep vs. shallow)
+    - Retention interval (immediate vs. delayed)
+* - **Measurements**
+  - - Total items recalled
+    - Serial position curve (primacy, recency)
+    - Temporal clustering
+    - Semantic clustering
 ```
 
 ## Variations
@@ -110,4 +117,6 @@ This task is designed to engage the following processes:
 ## External links
 
 - Cognitive Atlas: [recall test](https://www.cognitiveatlas.org/task/id/trm_4f2411c91ae5e) (close match)
+
+- CogPO: [Free Word List Recall Paradigm](http://www.wiki.cogpo.org/index.php?title=Free_Word_List_Recall_Paradigm)
 

@@ -23,11 +23,19 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A face (Black or White) is flashed briefly, followed by an object (weapon or tool); participants classify the object. Racial bias is indexed by differential accuracy or speed.
-* - **Manipulation**
-  - Face race; object type (weapon vs. tool); presentation duration; response deadline.
-* - **Measurement**
-  - Signal-detection measures of racial bias (criterion shift); error rate for weapon/tool by face race; RT differences; shooter bias (shoot/don't-shoot variants).
+  - 1. A face (Black or White) is flashed briefly, followed by an object (weapon or tool).
+    2. Participants classify the object.
+    3. Racial bias is indexed by differential accuracy or speed.
+* - **Manipulations**
+  - - Face race
+    - Object type (weapon vs. tool)
+    - Presentation duration
+    - Response deadline
+* - **Measurements**
+  - - Signal-detection measures of racial bias (criterion shift)
+    - Error rate for weapon/tool by face race
+    - RT differences
+    - Shooter bias (shoot/don't-shoot variants)
 ```
 
 ## Variations

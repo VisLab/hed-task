@@ -23,11 +23,22 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants study items (typically word pairs), then predict the likelihood of recalling each item on a future test; a subsequent recall test assesses prediction accuracy.
-* - **Manipulation**
-  - Judgment timing (immediate vs. delayed); item difficulty (related vs. unrelated pairs); encoding conditions (number of presentations, elaborative vs. rote); cue type (cue-only vs. cue-target at judgment); self-paced vs. fixed study time; reactivity (whether making judgments alters learning).
-* - **Measurement**
-  - Resolution (gamma correlation between judgments and recall); calibration (mean judgment - mean recall); over/underconfidence (signed calibration); absolute accuracy; judgment latency; study-time allocation as a behavioral consequence of judgments.
+  - 1. Participants study items (typically word pairs), then predict the likelihood of recalling each item on a future test.
+    2. A subsequent recall test assesses prediction accuracy.
+* - **Manipulations**
+  - - Judgment timing (immediate vs. delayed)
+    - Item difficulty (related vs. unrelated pairs)
+    - Encoding conditions (number of presentations, elaborative vs. rote)
+    - Cue type (cue-only vs. cue-target at judgment)
+    - Self-paced vs. fixed study time
+    - Reactivity (whether making judgments alters learning)
+* - **Measurements**
+  - - Resolution (gamma correlation between judgments and recall)
+    - Calibration (mean judgment - mean recall)
+    - Over/underconfidence (signed calibration)
+    - Absolute accuracy
+    - Judgment latency
+    - Study-time allocation as a behavioral consequence of judgments
 ```
 
 ## Variations

@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants sequentially pump a virtual balloon for incremental monetary reward; each pump risks the balloon popping and losing that trial's earnings. They can stop and bank at any time.
-* - **Manipulation**
-  - Explosion probability function (risk schedule); reward per pump; number of trials.
-* - **Measurement**
-  - Adjusted average pumps on un-popped balloons (risk-taking index); total earnings; pump-by-pump decision sequences; response rate across trial segments.
+  - 1. Participants sequentially pump a virtual balloon for incremental monetary reward.
+    2. Each pump risks the balloon popping and losing that trial's earnings.
+    3. They can stop and bank at any time.
+* - **Manipulations**
+  - - Explosion probability function (risk schedule)
+    - Reward per pump
+    - Number of trials
+* - **Measurements**
+  - - Adjusted average pumps on un-popped balloons (risk-taking index)
+    - Total earnings
+    - Pump-by-pump decision sequences
+    - Response rate across trial segments
 ```
 
 ## Variations

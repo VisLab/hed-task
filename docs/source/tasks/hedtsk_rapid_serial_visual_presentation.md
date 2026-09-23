@@ -23,11 +23,24 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A rapid serial stream of visual items is presented at a single location; participants detect, identify, or categorize one or more targets embedded among distractors. Presentation rate is typically 6-20 items per second.
-* - **Manipulation**
-  - Number of targets (single vs. dual); T1-T2 lag (temporal separation between targets); target-distractor similarity; stream rate (items per second); target category (letter among digits, face among objects, scene category); distractor set composition; emotional content of targets or distractors.
-* - **Measurement**
-  - Target detection accuracy (T1 and T2); attentional blink magnitude (T2 accuracy deficit at short lags, conditional on correct T1 detection); lag-1 sparing; T1-T2 intrusion errors (order reversals); P300 ERP amplitude for detected targets; d-prime for target discrimination.
+  - 1. A rapid serial stream of visual items is presented at a single location.
+    2. Participants detect, identify, or categorize one or more targets embedded among distractors.
+    3. Presentation rate is typically 6-20 items per second.
+* - **Manipulations**
+  - - Number of targets (single vs. dual)
+    - T1-T2 lag (temporal separation between targets)
+    - Target-distractor similarity
+    - Stream rate (items per second)
+    - Target category (letter among digits, face among objects, scene category)
+    - Distractor set composition
+    - Emotional content of targets or distractors
+* - **Measurements**
+  - - Target detection accuracy (T1 and T2)
+    - Attentional blink magnitude (T2 accuracy deficit at short lags, conditional on correct T1 detection)
+    - Lag-1 sparing
+    - T1-T2 intrusion errors (order reversals)
+    - P300 ERP amplitude for detected targets
+    - D-prime for target discrimination
 ```
 
 ## Variations

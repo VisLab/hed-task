@@ -23,11 +23,19 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A visual stimulus (counter or light) appears at random intervals (2–10 s); participants press a button as quickly as possible upon detection. The task runs for 10 minutes.
-* - **Manipulation**
-  - Test duration; inter-stimulus interval range; time of day; sleep deprivation condition.
-* - **Measurement**
-  - Mean RT; number of lapses (RT > 500 ms); fastest 10% RT; reciprocal RT transformation.
+  - 1. A visual stimulus (counter or light) appears at random intervals (2–10 s).
+    2. Participants press a button as quickly as possible upon detection.
+    3. The task runs for 10 minutes.
+* - **Manipulations**
+  - - Test duration
+    - Inter-stimulus interval range
+    - Time of day
+    - Sleep deprivation condition
+* - **Measurements**
+  - - Mean RT
+    - Number of lapses (RT > 500 ms)
+    - Fastest 10% RT
+    - Reciprocal RT transformation
 ```
 
 ## Variations

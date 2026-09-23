@@ -23,11 +23,20 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants view a neutral stimulus (CS+) paired with an aversive unconditioned stimulus (US, typically mild shock or loud noise); another stimulus (CS−) is never paired. Acquisition is followed by extinction (CS+ presented without US).
-* - **Manipulation**
-  - CS+/CS− discrimination; reinforcement schedule (partial vs. 100%); extinction timing; reinstatement/renewal context.
-* - **Measurement**
-  - Differential SCR (CS+ > CS−); startle potentiation; fMRI amygdala and vmPFC activation; fear ratings; extinction learning curve.
+  - 1. Participants view a neutral stimulus (CS+) paired with an aversive unconditioned stimulus (US, typically mild shock or loud noise).
+    2. Another stimulus (CS−) is never paired.
+    3. Acquisition is followed by extinction (CS+ presented without US).
+* - **Manipulations**
+  - - CS+/CS− discrimination
+    - Reinforcement schedule (partial vs. 100%)
+    - Extinction timing
+    - Reinstatement/renewal context
+* - **Measurements**
+  - - Differential SCR (CS+ > CS−)
+    - Startle potentiation
+    - FMRI amygdala and vmPFC activation
+    - Fear ratings
+    - Extinction learning curve
 ```
 
 ## Variations
@@ -131,4 +140,6 @@ This task is designed to engage the following processes:
 ## External links
 
 - Cognitive Atlas: [pavlovian conditioning task](https://www.cognitiveatlas.org/task/id/trm_4c898acd1f28e) (close match)
+
+- CogPO: [Classical Conditioning Paradigm](http://www.wiki.cogpo.org/index.php?title=Classical_Conditioning_Paradigm) (close match)
 

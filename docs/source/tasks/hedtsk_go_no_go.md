@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Stimuli appear one at a time; participants respond (Go) to frequent targets and withhold (No-Go) responses to infrequent non-targets.
-* - **Manipulation**
-  - Go/No-Go ratio (typically 70:30 or 80:20); ISI; stimulus type; response deadline.
-* - **Measurement**
-  - Commission errors (false alarms to No-Go); omission errors; Go RT; No-Go N2 and P3 ERP components.
+  - 1. Stimuli appear one at a time.
+    2. Participants respond (Go) to frequent targets and withhold (No-Go) responses to infrequent non-targets.
+* - **Manipulations**
+  - - Go/No-Go ratio (typically 70:30 or 80:20)
+    - ISI
+    - Stimulus type
+    - Response deadline
+* - **Measurements**
+  - - Commission errors (false alarms to No-Go)
+    - Omission errors
+    - Go RT
+    - No-Go N2 and P3 ERP components
 ```
 
 ## Variations
@@ -115,4 +122,6 @@ This task is designed to engage the following processes:
 ## External links
 
 - Cognitive Atlas: [go/no-go task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949a93)
+
+- CogPO: [Go/No-Go Paradigm](http://www.wiki.cogpo.org/index.php?title=Go%2FNo-Go_Paradigm)
 

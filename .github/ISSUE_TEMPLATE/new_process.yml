@@ -1,0 +1,102 @@
+name: Propose a new process
+description: Propose a cognitive process for the Catalog, in the form the process criteria use.
+title: "New process: "
+labels: ["new-process"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A process is a mental operation a task is designed to engage. It must be sayable when in a trial it happens, what elicits it and how it is measured; see the [process selection criteria](https://www.hedtags.org/hed-task/methods/process_criteria/01_process_selection_criteria.html). Before filing, please search the [process list](https://www.hedtags.org/hed-task/processes/processes_alphabetically.html): the process may already be there under another name.
+  - type: input
+    id: process_name
+    attributes:
+      label: Proposed process name
+      placeholder: Proactive interference resolution
+    validations:
+      required: true
+  - type: textarea
+    id: definition
+    attributes:
+      label: Definition
+      description: One or two sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: when
+    attributes:
+      label: When in a trial it happens
+      description: The trial phase or event at which the process is engaged.
+    validations:
+      required: true
+  - type: textarea
+    id: elicited_by
+    attributes:
+      label: What elicits it
+      description: The stimulus, instruction or task demand that calls the process into play.
+    validations:
+      required: true
+  - type: textarea
+    id: measured_by
+    attributes:
+      label: How it is measured
+      description: The behavioral, physiological or neural measures standardly read as an index of it.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Process category
+      description: Choose "Not sure" if none fits.
+      options:
+        - Not sure
+        - Associative Learning and Reinforcement
+        - Auditory and Pre-Attentive Deviance Processing
+        - Awareness, Agency, and Metacognition
+        - Cognitive Flexibility and Higher-Order Executive Function
+        - Emotion Perception and Regulation
+        - Face and Object Perception
+        - Implicit and Statistical Learning
+        - Inhibitory Control and Conflict Monitoring
+        - Language Comprehension and Production
+        - Long-Term Memory
+        - Motor Preparation, Timing, and Execution
+        - Perceptual Decision-Making (Evidence Accumulation)
+        - Reasoning and Problem-Solving
+        - Reward Anticipation and Motivation
+        - Selective and Sustained Attention
+        - Short-Term and Working Memory
+        - Social Cognition and Strategic Social Choice
+        - Spatial Cognition and Navigation
+        - Value-Based Decision-Making Under Risk and Uncertainty
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks that engage it
+      description: Catalog tasks (names or hedtsk identifiers), one per line, with the link rule each meets if you know it (procedure, manipulation or measurement based).
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Fundamental references
+      description: One or two papers that define or review the process, each with a DOI or PubMed id.
+    validations:
+      required: true
+  - type: textarea
+    id: not_an_alias
+    attributes:
+      label: Why this is not an alias of an existing process
+      description: Name the nearest existing process and say what differs.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before filing
+      options:
+        - label: I searched the process list for this process and its likely synonyms.
+          required: true
+        - label: I read the process selection criteria.
+          required: true

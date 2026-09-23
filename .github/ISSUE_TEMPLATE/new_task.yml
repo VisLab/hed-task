@@ -1,0 +1,131 @@
+name: Propose a new task
+description: Propose an experimental paradigm for the Catalog, in the form its inclusion tests use.
+title: "New task: "
+labels: ["new-task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a task. The Catalog admits paradigms that produce event-structured data, have a reproducible procedure, are widely used and engage identifiable processes; see the [task selection criteria](https://www.hedtags.org/hed-task/methods/task_criteria/01_task_selection_criteria.html). Before filing, please search the [task list](https://www.hedtags.org/hed-task/tasks/tasks_alphabetically.html) for the name and its aliases: the paradigm may already be a task or a variation of one.
+  - type: input
+    id: canonical_name
+    attributes:
+      label: Proposed canonical name
+      description: Ends in "Task", as the Catalog's names do.
+      placeholder: Example Recognition Task
+    validations:
+      required: true
+  - type: input
+    id: aliases
+    attributes:
+      label: Aliases
+      description: Other names the literature uses, separated by semicolons. Abbreviations count.
+      placeholder: ERT; Example Recognition
+  - type: textarea
+    id: short_definition
+    attributes:
+      label: Short definition
+      description: One sentence saying what the participant does and what the task measures.
+    validations:
+      required: true
+  - type: textarea
+    id: procedure
+    attributes:
+      label: Procedure
+      description: What the participant does, as ordered steps. One step per line, each a sentence naming an observable event (a presentation, a response, an instruction).
+      placeholder: |
+        A continuous stream of stimuli is presented.
+        Participants indicate when the current item matches the one presented N items back.
+    validations:
+      required: true
+  - type: textarea
+    id: manipulations
+    attributes:
+      label: Manipulations
+      description: What the experimenter varies. One independent variable per line, with its typical levels in parentheses.
+      placeholder: |
+        Load level (N = 0, 1, 2, 3)
+        Stimulus type (letters, locations, faces)
+    validations:
+      required: true
+  - type: textarea
+    id: measurements
+    attributes:
+      label: Measurements
+      description: What is recorded. One dependent variable or signal per line.
+      placeholder: |
+        Hit rate, false alarm rate, d-prime
+        RT
+    validations:
+      required: true
+  - type: textarea
+    id: variations
+    attributes:
+      label: Named variations
+      description: Versions that change what the participant experiences or does, one per line, each with why it counts as a variation rather than a separate task. Leave empty if none.
+      placeholder: |
+        Auditory version - the same procedure with spoken items; changes the stimulus modality
+  - type: dropdown
+    id: family
+    attributes:
+      label: Paradigm family
+      description: Where the task should be filed. Families group tasks by what the participant does. Choose "Not sure" if none fits.
+      options:
+        - Not sure
+        - Conflict and interference tasks
+        - Response inhibition and stopping tasks
+        - Attentional cueing and orienting tasks
+        - Visual search and tracking tasks
+        - Oddball, vigilance and continuous performance tasks
+        - Perceptual judgment and psychophysics tasks
+        - Short-term and working memory tasks
+        - Recall and recognition memory tests
+        - Memory control and prospective memory tasks
+        - Metacognition, agency and interoception tasks
+        - Conditioning, reinforcement and implicit learning tasks
+        - Motor performance and speeded response tasks
+        - Rule use, planning and reasoning tasks
+        - Reward, risk and value-based choice tasks
+        - Social cognition and social choice tasks
+        - Emotion elicitation and regulation tasks
+        - Language comprehension and production tasks
+        - Spatial cognition and navigation tasks
+    validations:
+      required: true
+  - type: textarea
+    id: processes
+    attributes:
+      label: Cognitive processes engaged
+      description: Names or identifiers from the [process list](https://www.hedtags.org/hed-task/processes/processes_alphabetically.html), one per line. Say if a needed process is missing.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Key references
+      description: The paradigm-defining paper and one or two others, one per line, each with a DOI or PubMed id.
+      placeholder: |
+        Author A, Author B (1990). Title. Journal 1:1-10. doi:10.1000/example
+    validations:
+      required: true
+  - type: textarea
+    id: adoption
+    attributes:
+      label: Evidence of broad adoption
+      description: Laboratories or fields that use the paradigm, review articles, shared datasets. A paradigm used in one study is not yet a task.
+  - type: textarea
+    id: not_a_variation
+    attributes:
+      label: Why this is not a variation of an existing task
+      description: Name the nearest existing task and say what differs in the procedure.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before filing
+      options:
+        - label: I searched the task list and the aliases for this paradigm.
+          required: true
+        - label: I read the task selection criteria and the inclusion test rules.
+          required: true

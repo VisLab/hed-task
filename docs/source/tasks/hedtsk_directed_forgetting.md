@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Items are presented one at a time or in lists; after each item (item method) or after a full list (list method), a cue instructs the participant to remember or forget it. A final test probes all items.
-* - **Manipulation**
-  - Remember vs. forget cues; item vs. list method; retention interval; item type (words, pictures, emotional content).
-* - **Measurement**
-  - Recall/recognition accuracy for remember-cued vs. forget-cued items; directed forgetting effect (remember advantage); intrusion of forget items.
+  - 1. Items are presented one at a time or in lists.
+    2. After each item (item method) or after a full list (list method), a cue instructs the participant to remember or forget it.
+    3. A final test probes all items.
+* - **Manipulations**
+  - - Remember vs. forget cues
+    - Item vs. list method
+    - Retention interval
+    - Item type (words, pictures, emotional content)
+* - **Measurements**
+  - - Recall/recognition accuracy for remember-cued vs. forget-cued items
+    - Directed forgetting effect (remember advantage)
+    - Intrusion of forget items
 ```
 
 ## Variations

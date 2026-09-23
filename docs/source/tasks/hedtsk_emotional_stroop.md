@@ -23,11 +23,14 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Color words are replaced by emotionally valenced or threat-related words; participants name the ink color while ignoring word meaning.
-* - **Manipulation**
-  - Word valence/threat relevance (disorder-specific, general threat, neutral); blocked vs. mixed presentation.
-* - **Measurement**
-  - RT slowing for threat/emotional words relative to neutral (emotional Stroop interference); accuracy.
+  - 1. Color words are replaced by emotionally valenced or threat-related words.
+    2. Participants name the ink color while ignoring word meaning.
+* - **Manipulations**
+  - - Word valence/threat relevance (disorder-specific, general threat, neutral)
+    - Blocked vs. mixed presentation
+* - **Measurements**
+  - - RT slowing for threat/emotional words relative to neutral (emotional Stroop interference)
+    - Accuracy
 ```
 
 ## Variations
@@ -99,4 +102,6 @@ This task is designed to engage the following processes:
 ## External links
 
 - Cognitive Atlas: [Stroop task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e27) (related match)
+
+- CogPO: [Stroop Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Stroop_Task_Paradigm) (close match)
 

@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A prime word is followed by a target word; participants make a lexical decision or naming response to the target. Prime-target pairs are semantically related or unrelated.
-* - **Manipulation**
-  - Prime-target relatedness (associated, categorical, unrelated); SOA (short for automatic priming, long for strategic); prime type (word, sentence context).
-* - **Measurement**
-  - Priming effect (RT difference: unrelated − related); accuracy; N400 ERP amplitude reduction for related pairs.
+  - 1. A prime word is followed by a target word.
+    2. Participants make a lexical decision or naming response to the target.
+    3. Prime-target pairs are semantically related or unrelated.
+* - **Manipulations**
+  - - Prime-target relatedness (associated, categorical, unrelated)
+    - SOA (short for automatic priming, long for strategic)
+    - Prime type (word, sentence context)
+* - **Measurements**
+  - - Priming effect (RT difference: unrelated − related)
+    - Accuracy
+    - N400 ERP amplitude reduction for related pairs
 ```
 
 ## Variations

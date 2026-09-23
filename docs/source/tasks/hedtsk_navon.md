@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A large letter (global) composed of small letters (local) is presented; participants identify the letter at the designated level (global or local).
-* - **Manipulation**
-  - Target level (global vs. local); congruency (same vs. different letter at two levels); exposure duration; visual field.
-* - **Measurement**
-  - RT and accuracy; global precedence effect (faster global); asymmetric interference (global disrupts local more than reverse); congruency effect.
+  - 1. A large letter (global) composed of small letters (local) is presented.
+    2. Participants identify the letter at the designated level (global or local).
+* - **Manipulations**
+  - - Target level (global vs. local)
+    - Congruency (same vs. different letter at two levels)
+    - Exposure duration
+    - Visual field
+* - **Measurements**
+  - - RT and accuracy
+    - Global precedence effect (faster global)
+    - Asymmetric interference (global disrupts local more than reverse)
+    - Congruency effect
 ```
 
 ## Variations

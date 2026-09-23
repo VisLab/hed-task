@@ -23,11 +23,22 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants read sentences or passages presented one word or phrase at a time, advancing by button press; reading time at each region is recorded. Comprehension questions follow each trial.
-* - **Manipulation**
-  - Linguistic manipulation at the critical region: syntactic ambiguity (reduced relative clause, garden-path), semantic plausibility (plausible vs. implausible continuation), discourse coherence (coherent vs. incoherent continuation), anaphor type (pronoun, repeated name, definite NP), word predictability (high vs. low cloze probability), syntactic complexity (embedded clause, long-distance dependency).
-* - **Measurement**
-  - Reading time at the critical region (ms); spillover reading time (region + 1, + 2); wrap-up effects (sentence-final reading time); comprehension question accuracy; reading time differences between conditions at the critical region.
+  - 1. Participants read sentences or passages presented one word or phrase at a time, advancing by button press.
+    2. Reading time at each region is recorded.
+    3. Comprehension questions follow each trial.
+* - **Manipulations**
+  - - Syntactic ambiguity at the critical region (reduced relative clause, garden-path)
+    - Semantic plausibility (plausible vs. implausible continuation)
+    - Discourse coherence (coherent vs. incoherent continuation)
+    - Anaphor type (pronoun, repeated name, definite NP)
+    - Word predictability (high vs. low cloze probability)
+    - Syntactic complexity (embedded clause, long-distance dependency)
+* - **Measurements**
+  - - Reading time at the critical region (ms)
+    - Spillover reading time (region + 1, + 2)
+    - Wrap-up effects (sentence-final reading time)
+    - Comprehension question accuracy
+    - Reading time differences between conditions at the critical region
 ```
 
 ## Variations
@@ -94,4 +105,8 @@ This task is designed to engage the following processes:
 - Vasishth, S., & Nicenboim, B. (2016). Statistical methods for linguistic research: Foundational ideas -- Part I. Language and Linguistics Compass, 10(8), 349-369. ([DOI](https://doi.org/10.1111/lnc3.12201))
 - Smith, N. J., & Levy, R. (2013). The effect of word predictability on reading time is logarithmic. Cognition, 128(3), 302-319. ([DOI](https://doi.org/10.1016/j.cognition.2013.02.013), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23747651/))
 - Boyce, V., Futrell, R., & Levy, R. P. (2020). Maze made easy: Better and easier measurement of incremental processing difficulty. Journal of Memory and Language, 111, 104082. ([DOI](https://doi.org/10.1016/j.jml.2019.104082))
+
+## External links
+
+- CogPO: [Reading (Covert) Paradigm](http://www.wiki.cogpo.org/index.php?title=Reading_%28Covert%29_Paradigm) (close match)
 

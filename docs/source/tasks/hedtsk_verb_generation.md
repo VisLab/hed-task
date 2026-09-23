@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A concrete noun is presented (e.g., HAMMER); participants generate an associated verb (e.g., 'hit' or 'pound') as quickly as possible.
-* - **Manipulation**
-  - Noun imageability and frequency; number of competing verb associates; repetition (novel vs. repeated nouns); overt vs. covert generation.
-* - **Measurement**
-  - Response latency; competition effect (slower for nouns with many associates); repetition suppression; fMRI left IFG (Broca's area) activation.
+  - 1. A concrete noun is presented (e.g., HAMMER).
+    2. Participants generate an associated verb (e.g., 'hit' or 'pound') as quickly as possible.
+* - **Manipulations**
+  - - Noun imageability and frequency
+    - Number of competing verb associates
+    - Repetition (novel vs. repeated nouns)
+    - Overt vs. covert generation
+* - **Measurements**
+  - - Response latency
+    - Competition effect (slower for nouns with many associates)
+    - Repetition suppression
+    - FMRI left IFG (Broca's area) activation
 ```
 
 ## Variations
@@ -100,4 +107,6 @@ This task is designed to engage the following processes:
 ## External links
 
 - Cognitive Atlas: [verb generation task](https://www.cognitiveatlas.org/task/id/trm_4f24183fe80c6)
+
+- CogPO: [Word Generation (Overt) Paradigm](http://www.wiki.cogpo.org/index.php?title=Word_Generation_%28Overt%29_Paradigm) (close match)
 

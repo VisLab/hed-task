@@ -24,10 +24,21 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - Participants observe a series of trials presenting the presence/absence of candidate causes and occurrence/non-occurrence of outcomes, then judge the causal strength of cause-outcome relationships.
-* - **Manipulation**
-  - Contingency (delta-P value: positive, zero, negative); outcome base rate (common vs. rare outcomes); cue competition (blocking, overshadowing, relative validity); number of trials; trial-by-trial vs. summary presentation; number of candidate causes; temporal contiguity between cause and outcome.
-* - **Measurement**
-  - Causal strength ratings; trial-by-trial prediction accuracy; judgment latency; sensitivity to contingency components (P(O|C) and P(O|~C) separately); blocking magnitude; correspondence between judgments and normative models (delta-P, causal power, Rescorla-Wagner).
+* - **Manipulations**
+  - - Contingency (delta-P value: positive, zero, negative)
+    - Outcome base rate (common vs. rare outcomes)
+    - Cue competition (blocking, overshadowing, relative validity)
+    - Number of trials
+    - Trial-by-trial vs. summary presentation
+    - Number of candidate causes
+    - Temporal contiguity between cause and outcome
+* - **Measurements**
+  - - Causal strength ratings
+    - Trial-by-trial prediction accuracy
+    - Judgment latency
+    - Sensitivity to contingency components (P(O|C) and P(O|~C) separately)
+    - Blocking magnitude
+    - Correspondence between judgments and normative models (delta-P, causal power, Rescorla-Wagner)
 ```
 
 ## Variations

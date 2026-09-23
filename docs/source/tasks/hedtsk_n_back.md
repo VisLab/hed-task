@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A continuous stream of stimuli is presented; participants indicate when the current item matches the one presented N items back.
-* - **Manipulation**
-  - Load level (N = 0, 1, 2, 3); stimulus type (letters, locations, faces); lure trials (N±1 matches); dual N-back (two simultaneous streams).
-* - **Measurement**
-  - Hit rate, false alarm rate, d-prime; RT; load-dependent accuracy decline.
+  - 1. A continuous stream of stimuli is presented.
+    2. Participants indicate when the current item matches the one presented N items back.
+* - **Manipulations**
+  - - Load level (N = 0, 1, 2, 3)
+    - Stimulus type (letters, locations, faces)
+    - Lure trials (N±1 matches)
+    - Dual N-back (two simultaneous streams)
+* - **Measurements**
+  - - Hit rate, false alarm rate, d-prime
+    - RT
+    - Load-dependent accuracy decline
 ```
 
 ## Variations
@@ -110,4 +116,6 @@ This task is designed to engage the following processes:
 ## External links
 
 - Cognitive Atlas: [n-back task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949bcd)
+
+- CogPO: [n-back Paradigm](http://www.wiki.cogpo.org/index.php?title=N-back_Paradigm)
 

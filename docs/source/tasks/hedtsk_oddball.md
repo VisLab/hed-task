@@ -23,11 +23,18 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A sequence of frequent standard stimuli is occasionally interrupted by rare target (and sometimes novel) stimuli; participants count or respond to targets.
-* - **Manipulation**
-  - Target probability (typically 10–20%); stimulus modality (auditory, visual); inclusion of novel non-target deviants; ISI.
-* - **Measurement**
-  - P3b amplitude and latency to targets; P3a to novels; target detection accuracy and RT; N2 component.
+  - 1. A sequence of frequent standard stimuli is occasionally interrupted by rare target (and sometimes novel) stimuli.
+    2. Participants count or respond to targets.
+* - **Manipulations**
+  - - Target probability (typically 10–20%)
+    - Stimulus modality (auditory, visual)
+    - Inclusion of novel non-target deviants
+    - ISI
+* - **Measurements**
+  - - P3b amplitude and latency to targets
+    - P3a to novels
+    - Target detection accuracy and RT
+    - N2 component
 ```
 
 ## Variations
@@ -114,4 +121,6 @@ This task is designed to engage the following processes:
 ## External links
 
 - Cognitive Atlas: [oddball task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949bf6)
+
+- CogPO: [Oddball Discrimination Paradigm](http://www.wiki.cogpo.org/index.php?title=Oddball_Discrimination_Paradigm)
 

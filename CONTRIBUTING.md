@@ -4,9 +4,9 @@ The HED Task Catalog is curated continuously and depends on its users to grow. T
 
 ## Proposing a change
 
-Open an issue at <https://github.com/hed-standard/hed-task/issues>. The [how to use the Catalog](https://www.hedtags.org/hed-task/how_to_use_the_catalog.html) page says what each kind of proposal should contain; in brief:
+Open an issue at <https://github.com/hed-standard/hed-task/issues/new/choose>. Four issue forms ask for what each kind of proposal needs, field by field: a new task, a new variation, a new process, and a correction to an entry. The forms live in `.github/ISSUE_TEMPLATE/`; their family and category dropdowns mirror `data/task_family_defs.tsv` and the `categories` array, so a change there is also a change to the form. Anything else, including the last two kinds below, goes in a blank issue. In brief:
 
-- **A new task.** Canonical name and aliases; a procedure, a manipulation and a measurement in the form the inclusion tests use; the processes it engages; one or two references; and why it is not a variation of an existing task.
+- **A new task.** Canonical name and aliases; the procedure as ordered steps, the manipulations and the measurements in the form the inclusion tests use; the processes it engages; one or two references; and why it is not a variation of an existing task.
 - **A new variation.** The parent task, what changes in what the participant experiences or does, and why that change is not one of the excluded kinds (measurement modality, analysis method, population, stimulus swap, and so on).
 - **A new process.** When in a trial it happens, what elicits it, how it is measured, which category it belongs in, and why it is not an alias of an existing process.
 - **A different family for a task, or a second one.** Name the task, the family you would move it to or cross-list it under, and the procedural reason. The current memberships and their rationales are the `families` list on each task record in `data/task_details.json`.

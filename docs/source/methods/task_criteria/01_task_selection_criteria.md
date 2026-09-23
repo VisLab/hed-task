@@ -8,6 +8,11 @@
 (task-criteria-1-1)=
 ## 1.1 What counts as a task in the Catalog?
 
+Whether a given experiment is an instance of a task in the Catalog is decided by that
+task's [inclusion test](03_the_task_inclusion_test.md), which states the procedure, the
+manipulations and the measurements that make an experiment an instance. The criteria on
+this page decide the prior question: whether a paradigm belongs in the Catalog at all.
+
 A **task** is a structured experimental paradigm that:
 
 1. **Produces psychobiological time series data and event markers.** The paradigm generates a sequence of discrete, time-stamped events (sensory presentations, participant or sensory agent actions, brain dynamic events, experiment control events, experiment structure events, measurement events) that can be annotated with HED tags.

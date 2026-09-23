@@ -19,6 +19,7 @@ The Catalog is published as a searchable website at **<https://www.hedtags.org/h
 | [Task-process links](https://www.hedtags.org/hed-task/task_process_links.html)             | The whole task-to-process matrix in both directions                                       |
 | [Methods](https://www.hedtags.org/hed-task/methods/task_criteria.html)                     | Task and process selection criteria; how the Cognitive Atlas mapping was built            |
 | [Cognitive Atlas](https://www.hedtags.org/hed-task/atlas/what_is_the_cognitive_atlas.html) | What the Atlas contains, how the Catalog relates to it, and the row-by-row mapping tables |
+| [CogPO](https://www.hedtags.org/hed-task/cogpo/what_is_cogpo.html)                         | What CogPO contains, how the Catalog and HED relate to it, and its dimension vocabularies |
 
 ## Repository structure
 
@@ -29,8 +30,10 @@ hed-task/
 |   |-- build_atlas_data.py # Recomputes data/atlas_summary.json from the Atlas harvest
 |   |-- build_atlas_maps.py # Refreshes data/mappings/*.tsv, preserving curation
 |   |-- fetch_cog_data.py   # Rebuilds the Atlas API archive in .cog_data/
+|   |-- build_cogpo_data.py # Recomputes data/cogpo_summary.json from the CogPO archive
+|   |-- fetch_cogpo_data.py # Rebuilds the CogPO OWL and wiki archive in .cog_data/cogpo/
 |   |-- generators/         # One module per page family
-|-- data/                   # The Catalog: task/process JSON, schemas, Atlas mappings, task families
+|-- data/                   # The Catalog: task/process JSON, schemas, Atlas and CogPO summaries and mappings, task families
 |-- docs/
 |   |-- source/             # Sphinx source: hand-written narrative pages plus generated catalog pages
 |   |-- _build/             # Build output (gitignored)
@@ -83,11 +86,20 @@ python src/build_atlas_maps.py    # refresh the mapping tables, preserving curat
 
 `build_atlas_data.py` and `build_atlas_maps.py` both take `--archive` if the archive is not at `.cog_data/`.
 
+`cogpo_summary.json` is derived the same way from an archive of [CogPO](http://www.cogpo.org/), the Cognitive Paradigm Ontology: the OWL release and the raw wikitext of its wiki, kept untracked in `.cog_data/cogpo/`. Both are fetched over plain http because the wiki's certificate is invalid. To refresh, run:
+
+```bash
+python src/fetch_cogpo_data.py    # rebuild .cog_data/cogpo/ (resumable; --no-wiki for the OWL alone)
+python src/build_cogpo_data.py    # recompute data/cogpo_summary.json
+```
+
 **Step 2 - build the HTML:**
 
 ```bash
 sphinx-build -b html docs/source docs/_build/html
 ```
+
+After a change to a toctree (the sidebar), build clean with `-E -a` or delete `docs/_build/` first: Sphinx writes the sidebar into each page and an incremental build rewrites only the pages whose source changed, so the others keep the old sidebar.
 
 Then open `docs/_build/html/index.html` in a browser to preview. A clean build emits no warnings.
 

@@ -23,11 +23,19 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - An array of items is displayed; participants search for a target defined by a feature or feature conjunction among distractors and indicate its presence/absence or identity.
-* - **Manipulation**
-  - Set size; target-distractor similarity; feature vs. conjunction target; target prevalence; display duration.
-* - **Measurement**
-  - RT × set size slope (search efficiency); intercept; accuracy; miss rate at low target prevalence.
+  - 1. An array of items is displayed.
+    2. Participants search for a target defined by a feature or feature conjunction among distractors and indicate its presence/absence or identity.
+* - **Manipulations**
+  - - Set size
+    - Target-distractor similarity
+    - Feature vs. conjunction target
+    - Target prevalence
+    - Display duration
+* - **Measurements**
+  - - RT × set size slope (search efficiency)
+    - Intercept
+    - Accuracy
+    - Miss rate at low target prevalence
 ```
 
 ## Variations
@@ -124,4 +132,6 @@ This task is designed to engage the following processes:
 ## External links
 
 - Cognitive Atlas: [visual search task](https://www.cognitiveatlas.org/task/id/trm_4f2447fe67fb9)
+
+- CogPO: [Visual Distractor/Visual Attention Paradigm](http://www.wiki.cogpo.org/index.php?title=Visual_Distractor_or_Visual_Attention_Paradigm) (close match)
 

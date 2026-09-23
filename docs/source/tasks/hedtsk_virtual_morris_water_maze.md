@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants navigate a virtual circular arena to find a hidden platform using distal visual cues. Across trials, they learn the platform's fixed spatial location.
-* - **Manipulation**
-  - Cue availability and configuration; platform position; probe trials (platform removed to assess spatial knowledge); visible vs. hidden platform.
-* - **Measurement**
-  - Path length and latency to find platform across trials (learning curve); probe trial: time in target quadrant, proximity to platform location; search strategy classification.
+  - 1. Participants navigate a virtual circular arena to find a hidden platform using distal visual cues.
+    2. Across trials, they learn the platform's fixed spatial location.
+* - **Manipulations**
+  - - Cue availability and configuration
+    - Platform position
+    - Probe trials (platform removed to assess spatial knowledge)
+    - Visible vs. hidden platform
+* - **Measurements**
+  - - Path length and latency to find platform across trials (learning curve)
+    - Probe trial: time in target quadrant, proximity to platform location
+    - Search strategy classification
 ```
 
 ## Variations

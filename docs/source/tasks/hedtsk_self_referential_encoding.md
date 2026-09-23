@@ -23,11 +23,20 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants judge trait adjectives under self-reference and comparison encoding conditions (other-reference, semantic, structural); a subsequent memory test assesses the self-reference effect on recall or recognition.
-* - **Manipulation**
-  - Encoding condition (self, other, semantic, structural); valence of adjectives (positive, negative, neutral); other-reference target (close other vs. distant other vs. celebrity); self-relevance (high vs. low); presentation modality.
-* - **Measurement**
-  - Self-reference effect (recall/recognition advantage for self-encoded items); endorsement rate by valence and condition; endorsement latency; recall bias (proportion positive vs. negative recalled); cortical midline activation (medial prefrontal cortex, posterior cingulate).
+  - 1. Participants judge trait adjectives under self-reference and comparison encoding conditions (other-reference, semantic, structural).
+    2. A subsequent memory test assesses the self-reference effect on recall or recognition.
+* - **Manipulations**
+  - - Encoding condition (self, other, semantic, structural)
+    - Valence of adjectives (positive, negative, neutral)
+    - Other-reference target (close other vs. distant other vs. celebrity)
+    - Self-relevance (high vs. low)
+    - Presentation modality
+* - **Measurements**
+  - - Self-reference effect (recall/recognition advantage for self-encoded items)
+    - Endorsement rate by valence and condition
+    - Endorsement latency
+    - Recall bias (proportion positive vs. negative recalled)
+    - Cortical midline activation (medial prefrontal cortex, posterior cingulate)
 ```
 
 ## Variations

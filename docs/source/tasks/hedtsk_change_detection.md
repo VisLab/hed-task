@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - A brief memory array of colored squares (or oriented bars) is followed by a retention interval and a test array; participants indicate whether a change occurred.
-* - **Manipulation**
-  - Set size (number of items); retention interval; number of changes; feature complexity.
-* - **Measurement**
-  - Accuracy converted to capacity estimate K (Cowan's K or Pashler's K); RT.
+  - 1. A brief memory array of colored squares (or oriented bars) is followed by a retention interval and a test array.
+    2. Participants indicate whether a change occurred.
+* - **Manipulations**
+  - - Set size (number of items)
+    - Retention interval
+    - Number of changes
+    - Feature complexity
+* - **Measurements**
+  - - Accuracy converted to capacity estimate K (Cowan's K or Pashler's K)
+    - RT
 ```
 
 ## Variations

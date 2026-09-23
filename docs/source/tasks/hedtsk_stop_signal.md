@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - On most trials, participants make a speeded response to a go stimulus. On a minority of trials, a stop signal (tone or visual cue) appears after the go stimulus, instructing them to withhold their response.
-* - **Manipulation**
-  - Stop-signal delay (SSD, adjusted by staircase); proportion of stop trials (typically 25%); go stimulus type.
-* - **Measurement**
-  - Stop-signal reaction time (SSRT, estimated via race model); go RT; probability of stopping at each SSD.
+  - 1. On most trials, participants make a speeded response to a go stimulus.
+    2. On a minority of trials, a stop signal (tone or visual cue) appears after the go stimulus, instructing them to withhold their response.
+* - **Manipulations**
+  - - Stop-signal delay (SSD, adjusted by staircase)
+    - Proportion of stop trials (typically 25%)
+    - Go stimulus type
+* - **Measurements**
+  - - Stop-signal reaction time (SSRT, estimated via race model)
+    - Go RT
+    - Probability of stopping at each SSD
 ```
 
 ## Variations
@@ -110,4 +115,6 @@ This task is designed to engage the following processes:
 ## External links
 
 - Cognitive Atlas: [stop signal task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e1a)
+
+- CogPO: [Go/No-Go Paradigm](http://www.wiki.cogpo.org/index.php?title=Go%2FNo-Go_Paradigm) (close match)
 

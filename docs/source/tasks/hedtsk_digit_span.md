@@ -23,11 +23,17 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Sequences of digits are presented at a rate of one per second; participants reproduce the sequence in forward, backward, or sequencing order. Length increases until two consecutive failures.
-* - **Manipulation**
-  - Direction (forward, backward, sequencing); sequence length; presentation modality (auditory vs. visual).
-* - **Measurement**
-  - Span (longest correct sequence); total score; forward-backward difference as index of executive load.
+  - 1. Sequences of digits are presented at a rate of one per second.
+    2. Participants reproduce the sequence in forward, backward, or sequencing order.
+    3. Length increases until two consecutive failures.
+* - **Manipulations**
+  - - Direction (forward, backward, sequencing)
+    - Sequence length
+    - Presentation modality (auditory vs. visual)
+* - **Measurements**
+  - - Span (longest correct sequence)
+    - Total score
+    - Forward-backward difference as index of executive load
 ```
 
 ## Variations

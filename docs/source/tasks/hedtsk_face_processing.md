@@ -23,11 +23,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Blocks of faces alternate with blocks of non-face objects (houses, scrambled images) while participants perform a simple repetition-detection task. The contrast localizes face-selective cortex.
-* - **Manipulation**
-  - Stimulus category (faces vs. objects vs. scrambled vs. scenes); block duration; task (1-back, passive viewing).
-* - **Measurement**
-  - fMRI contrast (faces > objects) identifying FFA, OFA, STS; extent and magnitude of face-selective activation; lateralization index.
+  - 1. Blocks of faces alternate with blocks of non-face objects (houses, scrambled images) while participants perform a simple repetition-detection task.
+    2. The contrast localizes face-selective cortex.
+* - **Manipulations**
+  - - Stimulus category (faces vs. objects vs. scrambled vs. scenes)
+    - Block duration
+    - Task (1-back, passive viewing)
+* - **Measurements**
+  - - FMRI contrast (faces > objects) identifying FFA, OFA, STS
+    - Extent and magnitude of face-selective activation
+    - Lateralization index
 ```
 
 ## Variations
@@ -103,4 +108,8 @@ This task is designed to engage the following processes:
 - Weiner, K. S., & Grill-Spector, K. (2012). The improbable simplicity of the fusiform face area. *Trends in Cognitive Sciences*, 16(5), 251–254. ([DOI](https://doi.org/10.1016/j.tics.2012.03.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22481071/))
 - Pitcher, D., Walsh, V., & Duchaine, B. (2011). The role of the occipital face area in the cortical face perception network. *Experimental Brain Research*, 209(4), 481–493. ([DOI](https://doi.org/10.1007/s00221-011-2579-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21318346/))
 - Grill-Spector, K., Weiner, K. S., Kay, K., & Gomez, J. (2017). The functional neuroanatomy of human face perception. *Annual Review of Vision Science*, 3, 167–196. ([DOI](https://doi.org/10.1146/annurev-vision-102016-061214), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28715955/))
+
+## External links
+
+- CogPO: [Face Monitor or Discrimination Paradigm](http://www.wiki.cogpo.org/index.php?title=Face_Monitor_or_Discrimination_Paradigm) (close match)
 
