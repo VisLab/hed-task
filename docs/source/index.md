@@ -10,9 +10,10 @@ datasets can be categorized by what their participants were asked to do, in term
 the same across laboratories. The HED Task Catalog began as an effort to curate the [Cognitive Atlas](https://www.cognitiveatlas.org/) (called the Atlas on this site) into a form that might be usable for dataset annotation.
 See [The Catalog vs the Atlas](atlas/the_catalog_vs_the_atlas.md) for how the two relate.
 
-In addition, [The Catalog vs CogPO](cogpo/the_catalog_vs_cogpo.md) and [HED](cogpo/hed_vs_cogpo.md) explore the relationship
-between the HED Task Catalog, Hierarchical Event Descriptors HED and another
-important ontological resource in this domain, the [Cognitive Paradigm Ontology](https://bioportal.bioontology.org/ontologies/COGPO).
+In addition, [The Catalog vs CogPO](cogpo/the_catalog_vs_cogpo.md) and [HED vs CogPO](cogpo/hed_vs_cogpo.md)
+explore the relationship between the HED Task Catalog, Hierarchical Event Descriptors (HED),
+and another important ontological resource in this domain, the
+[Cognitive Paradigm Ontology](https://bioportal.bioontology.org/ontologies/COGPO) (CogPO).
 
 The initial curation of the HED Task Catalog was done by Kay Robbins with the assistance of Claude Opus 4 and, more
 recently, of Claude Fable 5. The Catalog is under review by the
