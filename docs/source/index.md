@@ -133,7 +133,10 @@ Ontology, whose stimulus, response and instruction vocabularies seed the Catalog
 see [The Catalog vs CogPO](cogpo/the_catalog_vs_cogpo.md). The first facets to be filled
 are the six CogPO-derived ones (stimulus modality, kind and role; response modality and
 kind; instructions), followed by the Catalog's own (trial structure, feedback, timing and
-primary measure). How CogPO and HED relate is the subject of [HED vs CogPO](cogpo/hed_vs_cogpo.md).
+primary measure). CogPO and HED share a history: early HED terminology drew partly on
+CogPO, and HED's plan to adopt CogPO's paradigm list was dropped in its third generation
+for want of a standardized task nomenclature, which is the gap the Catalog now fills. See
+[HED vs CogPO](cogpo/hed_vs_cogpo.md).
 
 Suggestions, corrections and ideas are welcome: please open an issue at
 <https://github.com/hed-standard/hed-task/issues>. The repository's [contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the

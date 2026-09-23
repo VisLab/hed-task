@@ -7,29 +7,75 @@
 HED, the Hierarchical Event Descriptors, and [CogPO](http://www.cogpo.org/), the
 Cognitive Paradigm Ontology, both describe what happens to a participant in an
 experiment in a controlled vocabulary, and they do it at different levels: CogPO labels a
-condition by its stimuli, responses and instructions; HED labels each event as it
-happens. This page sets the two side by side: what each describes, where their
+condition by its stimuli, responses and instructions, as the experimenter planned it; HED
+labels each event as it happened. The two are related by history as well as by design.
+This page sets them side by side: where they came from, what each describes, where their
 vocabularies meet, what each has that the other lacks, and how the Catalog fits between
 them.
 
-```{note}
-The sections on the two designs' history and philosophy are in preparation. They rest
-on Turner and Laird (2012), *The Cognitive Paradigm Ontology: Design and Application*,
-and Robbins, Truong, Jones, Callanan and Makeig (2022), *Building FAIR functionality:
-Annotating events in time series data using Hierarchical Event Descriptors (HED)*, and
-will be filled in once that reading is done. The vocabulary sections below are current.
-```
+The account rests on the two design papers: Turner and Laird (2012), "The Cognitive
+Paradigm Ontology: Design and Application", *Neuroinformatics* 10:57-66
+([DOI](https://doi.org/10.1007/s12021-011-9126-x)), and Robbins, Truong, Jones, Callanan
+and Makeig (2022), "Building FAIR functionality: Annotating events in time series data
+using Hierarchical Event Descriptors (HED)", *Neuroinformatics* 20:463-481
+([DOI](https://doi.org/10.1007/s12021-021-09537-4)).
 
 ## Two designs for one problem
+
+Both projects began from the same complaint. Turner and Laird open with the observation
+that a paradigm named in the literature, "the Stroop paradigm or the Sternberg paradigm",
+can "vary tremendously in the stimuli that are presented to the subject, the response
+expected from the subject, and the instructions given to the subject", so that named
+tasks cannot be compared across studies. Robbins and colleagues open with the same gap
+seen from the data side: shared recordings rarely say what their participants did in a
+form a machine can act on, which blocks analysis across studies.
+
+The two answers differ in what they take as the unit of description.
+
+**CogPO describes the plan.** It grew out of the BrainMap database's taxonomy for coding
+published neuroimaging experiments, and it keeps BrainMap's stance: the ontology
+represents "what was intended by the experimenters and what instructions were given, and
+not what the subject may have actually perceived about the stimuli or what they thought
+they were doing". Its unit is the condition, "a planned process which must include at
+least one stimulus, one instruction, and one response type", and a paradigm class is a
+recurring pattern of conditions, named once BrainMap had seen "at least five instances"
+of it. CogPO is an OWL ontology on the Basic Formal Ontology with IAO annotation
+properties, built for curators coding papers into a database and for reasoning over the
+result. Its authors expected its Stimulus and Response classes to become "inferred
+classes" once ontologies of sounds, shapes, food and actions existed to point at.
+
+**HED describes what happened.** It was first deployed in 2011 to annotate the events in
+EEG recordings shared through the HeadIT repository, and its unit has always been the
+event: a time-stamped occurrence during a recording, described by a string of tags. HED
+is a tag vocabulary with a grammar for combining tags into groups and definitions, a
+validator, and tools that read the annotations back for analysis; it is built for the
+people who produce data, not for curators of the literature, and it was adopted by BIDS
+in 2019. Where CogPO stops at the instruction "push a button when the light flashes",
+HED records each flash and each press, including the presses that did not come.
+
+**The connection.** Early HED-1G terminology, the 2022 paper says, "was partially based
+on CogPO". Second-generation HED carried a Paradigm hierarchy among its top-level terms,
+and the plan through HED-1G and HED-2G was "to incorporate the CogPO list of task
+paradigms, with hopes of linking HED event descriptions to task databases such as the
+Cognitive Atlas". Third-generation HED removed the Paradigm tags, "because the available
+paradigm nomenclature is not standardized": task descriptions in the Cognitive Atlas
+"vary in specificity and use only broadly-defined and sub-field specific terminology" and
+"do not, at present, represent machine-actionable information". What remains in the HED
+schema is a slot for the identifier, `Metadata-identifier/CogPo/#`, beside one for the
+Cognitive Atlas, and the paper is plain that "merely associating these respective IDs
+with the recording does not present task information in a machine-actionable form". The
+same section names the missing piece: "a task specification meta-code to enable
+comparison of events on the basis of their function and value in the context of the
+task". That is the gap the Catalog exists to fill.
 
 ## What each describes
 
 A CogPO paradigm class is defined by its conditions, and a condition is "a planned
 combination of stimuli and instructions regarding responses". CogPO's one worked example
-is an FBIRN auditory oddball task with two conditions, standard tones and target tones;
-each condition has a stimulus (tones, auditory modality, in the role of standard or
-target), an instruction (detect) and a response (button press with the hand). Nothing in
-CogPO says when a tone was played or which one.
+in the OWL file is an FBIRN auditory oddball task with two conditions, standard tones and
+target tones; each condition has a stimulus (tones, auditory modality, in the role of
+standard or target), an instruction (detect) and a response (button press with the hand).
+Nothing in CogPO says when a tone was played or which one.
 
 HED describes the same experiment as a sequence of events. Each tone onset is a
 `Sensory-event` with `Auditory-presentation`, `Tone` and a role tag (`Target` or
@@ -41,7 +87,11 @@ conditions, subjects detect an oddball tone", HED records every tone and every p
 that made up the run.
 
 The two therefore meet at the condition. CogPO's condition is a summary of a HED event
-stream; a HED event stream is an instance of a CogPO condition unfolding in time.
+stream; a HED event stream is an instance of a CogPO condition unfolding in time. And the
+deviations CogPO's authors said their formulation could not represent, "the subject
+failed to press the button, for example, or pressed the button more than was
+instructed", are ordinary HED annotations: an `Omitted-action`, an extra
+`Participant-response`.
 
 ## Where the vocabularies meet
 
@@ -64,7 +114,12 @@ Catalog could adopt them as facets and pair every value with a tag:
 ```
 
 The value-by-value tables, with the HED tag and a note on the fit for every value, are
-on the [CogPO dimension mapping](dimension_mapping.md) page.
+on the [CogPO dimension mapping](dimension_mapping.md) page. The fit is close for a
+reason: Turner and Laird expected exactly this, writing that "tones are not really a
+stimulus type, but instead they are a kind of sound" and that CogPO would one day refer
+to "ontologies of sounds, shapes, food, actions etc." HED's `Item` and `Action` trees are
+such vocabularies, and CogPO's stimulus and response classes map onto them as the roles
+its authors said they were.
 
 ## What HED has that CogPO does not
 
@@ -77,6 +132,11 @@ features, experiment control and experiment structure; its organizational tags
 `Definition`) let an annotator say which events belong to which trial, block and
 condition. CogPO's structure is the paradigm-condition-component hierarchy and nothing
 below it.
+
+**What actually happened.** CogPO records the intended paradigm and, by its authors'
+account, cannot record a missed or extra response. HED records the response that was
+made, or not made, and its `Task-action-type` tags (`Correct-action`, `Incorrect-action`,
+`Omitted-action`, `Miss`) say how it related to what was asked.
 
 **Richer roles.** CogPO has four stimulus roles, and those only on its wiki. HED's
 `Task-stimulus-role` has 22 (`Distractor`, `Cue`, `Oddball`, `Novel`, `Penalty`,
@@ -91,16 +151,19 @@ several the Catalog's tasks need: `Judge`, `Recognize`, `Predict`, `Plan`, `Lear
 leaves implicit.
 
 **A grammar and tools.** HED tags combine into groups and definitions with a validator
-behind them; a HED string can be checked and searched. CogPO is an OWL file: it can be
-reasoned over, but nothing was built to annotate data with it.
+behind them; a HED string can be checked and searched, and library schemas extend the
+vocabulary for a field without changing the standard one. CogPO is an OWL file: it can be
+reasoned over, but nothing was built to annotate data with it, and its authors' hope of
+annotating experiment scripts with CogPO terms was not realized.
 
 ## What CogPO has that HED does not
 
 **The paradigm layer.** CogPO names 83 paradigms and says, for each, which condition
-pattern makes an experiment an instance. HED has no paradigm vocabulary: a HED dataset
-says what happened, not which standard task it was. The Catalog exists to supply that
-layer for HED, and its [paradigm mapping](paradigm_mapping.md) to CogPO is where the two
-paradigm lists are compared.
+pattern makes an experiment an instance. HED has none: it dropped its Paradigm hierarchy
+in the third generation and kept only the identifier slot, so a HED dataset says what
+happened but not which standard task it was. The Catalog exists to supply that layer for
+HED, and its [paradigm mapping](paradigm_mapping.md) to CogPO is where the two paradigm
+lists are compared.
 
 **A few items and presentations.** HED 8.4.0 has no interoceptive presentation, no item
 for a digit or number, for food, an odor, a puff of air or speech as a stimulus, and no
@@ -133,6 +196,13 @@ to raise them is a decision for the HED Working Group.
 | The Catalog | a task | what the participant was asked to do, and which processes that engages |
 | CogPO, and the Catalog's facets | a condition | what was shown, in which modality and role; what was done, with which body part; under what instruction |
 | HED | an event | what happened, when, to whom, in which role |
+
+Turner and Laird kept cognitive processes out of CogPO on purpose, because "if these
+links are explicit within the ontology then the ontology must be reconstructed or
+refactored every time the research community consensus about cognitive processes
+changes", and left them to the Cognitive Atlas. The Catalog takes the other side of that
+bargain: it links every task to the processes it engages, keeps the links revisable, and
+grounds task identity in procedure, which is the part CogPO showed does not shift.
 
 A dataset tagged with a Catalog task, whose task carries facet values, whose events are
 annotated in HED, is described at all three levels with one vocabulary running through

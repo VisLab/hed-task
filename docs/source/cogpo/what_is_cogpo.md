@@ -42,8 +42,8 @@ CogPO exists in two forms, and they do not quite agree.
   reachable over plain http only.
 
 The figures below come from an archive of both taken on 2026-09-22. Nothing in either
-source is dated after 2011 and no later release appeared: CogPO is complete as far as it
-goes, and unmaintained.
+source is dated after 2011, and the "upcoming releases" the 2012 paper speaks of did not
+appear: CogPO is complete as far as it goes, and unmaintained.
 
 ## OWL release summary
 
