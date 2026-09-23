@@ -5,7 +5,7 @@
 # What is CogPO?
 
 [CogPO](http://www.cogpo.org/), the Cognitive Paradigm Ontology, is a small formal
-ontology of behavioral experimental paradigms, built between 2009 and 2011 to give the
+ontology of behavioral experimental paradigms, built around 2010 to give the
 [BrainMap](https://www.brainmap.org/) database a controlled vocabulary for the
 experiments it indexes. Its design is described in Turner JA and Laird AR, "The
 Cognitive Paradigm Ontology: Design and Application", *Neuroinformatics* 10:57-66
@@ -41,8 +41,8 @@ CogPO exists in two forms, and they do not quite agree.
   reachable over plain http only.
 
 The figures below come from an archive of both taken on 2026-09-22. Nothing in either
-source is dated after 2011, and the paper's promised later versions did not appear:
-CogPO is complete as far as it goes, and unmaintained.
+source is dated after 2011 and no later release appeared: CogPO is complete as far as it
+goes, and unmaintained.
 
 ## What the OWL release contains
 

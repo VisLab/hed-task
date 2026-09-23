@@ -34,6 +34,7 @@ Usage (from repo root, with venv active):
 from __future__ import annotations
 
 import collections
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -282,6 +283,64 @@ def load_families(data_dir: Path, tasks: list[dict]) -> list[dict]:
     return defs
 
 
+# The facet vocabulary in data/facet_defs.tsv. Nothing on a task record uses it yet; it
+# is validated here so that an edit to the vocabulary is caught before the pages that
+# render it are written.
+FACETS = ("stimulus_modality", "stimulus_kind", "stimulus_role", "response_modality", "response_kind", "instructions")
+FACET_SOURCES = ("cogpo", "cogpo_wiki", "hed", "catalog")
+FACET_COLUMNS = ("facet", "value", "label", "definition", "source", "cogpo_id", "hed_tags", "hed_note")
+_FACET_VALUE = re.compile(r"^[a-z][a-z0-9_]*$")
+
+
+def load_facet_defs(data_dir: Path) -> list[dict]:
+    """Read and validate data/facet_defs.tsv. Exits, naming the row, on any problem.
+
+    A `cogpo` row must name a dimension value that exists in data/cogpo_summary.json. A
+    `cogpo_wiki` row names a wiki page title, which the summary does not list when the
+    page has no term template (the body parts), so only its presence is checked.
+    """
+    path = data_dir / "facet_defs.tsv"
+    rows = read_tsv(path)
+    problems: list[str] = []
+    if not rows:
+        sys.exit("data/facet_defs.tsv is missing or empty; nothing written.")
+    missing = [c for c in FACET_COLUMNS if c not in rows[0]]
+    if missing:
+        sys.exit(f"data/facet_defs.tsv lacks columns {missing}; nothing written.")
+
+    summary = load_json(data_dir / "cogpo_summary.json")
+    owl_ids = {v["id"] for d in summary["dimensions"].values() for v in d["values"]}
+
+    seen: set[tuple[str, str]] = set()
+    for row in rows:
+        label = f"facet_defs.tsv {row['facet']}/{row['value']}"
+        if row["facet"] not in FACETS:
+            problems.append(f"{label}: facet not in {FACETS}")
+        if not _FACET_VALUE.match(row["value"]):
+            problems.append(f"{label}: value must be lowercase snake_case")
+        if (row["facet"], row["value"]) in seen:
+            problems.append(f"{label}: duplicate value")
+        seen.add((row["facet"], row["value"]))
+        if row["source"] not in FACET_SOURCES:
+            problems.append(f"{label}: source {row['source']!r} not in {FACET_SOURCES}")
+        if row["source"] == "cogpo" and row["cogpo_id"] not in owl_ids:
+            problems.append(f"{label}: cogpo_id {row['cogpo_id']!r} is not a CogPO dimension value in cogpo_summary.json")
+        if row["source"] == "cogpo_wiki" and not row["cogpo_id"]:
+            problems.append(f"{label}: a cogpo_wiki row needs the wiki page title in cogpo_id")
+        if row["source"] in ("hed", "catalog") and row["cogpo_id"]:
+            problems.append(f"{label}: a {row['source']} row must not carry a cogpo_id")
+        if row["source"] == "hed" and not row["hed_tags"].strip():
+            problems.append(f"{label}: a hed row needs hed_tags")
+        if not row["label"].strip() or not row["definition"].strip():
+            problems.append(f"{label}: label and definition are required")
+        if any(ord(ch) > 127 for ch in "\t".join(row.values())):
+            problems.append(f"{label}: non-ASCII character")
+
+    if problems:
+        sys.exit("Facet vocabulary is inconsistent; nothing written.\n  " + "\n  ".join(problems))
+    return rows
+
+
 # ---------------------------------------------------------------------------
 # Generation
 # ---------------------------------------------------------------------------
@@ -318,6 +377,8 @@ def main() -> None:
     print(
         f"  {len(tasks)} tasks, {len(processes)} processes, {len(categories)} categories, {len(families)} families: consistent"
     )
+    facet_defs = load_facet_defs(data_dir)
+    print(f"  {len(facet_defs)} facet values in {len({r['facet'] for r in facet_defs})} facets: consistent")
 
     # The curated mapping drives the Atlas link on each task page and is the only Atlas
     # cross-reference; task records carry no atlas_id of their own.

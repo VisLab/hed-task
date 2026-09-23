@@ -110,7 +110,8 @@ only play has a HED tag.
 
 ## What the tables do not settle
 
-Whether a facet value should be stored on the task record as the plain value or as its
-HED tag string is not yet decided; these tables keep both so that either choice can be
-made later without redoing the work. The HED schema version is 8.4.0 throughout, and a schema release that adds a
+A facet value will be stored on the task record as the plain value (`words`,
+`button_press`), and the HED tag is looked up in the vocabulary, so that a schema release
+that adds a missing tag changes one row here and no task record. These tables keep both
+so that the choice can be revisited without redoing the work. The HED schema version is 8.4.0 throughout, and a schema release that adds a
 missing item or action changes the tag column, not the vocabulary.
