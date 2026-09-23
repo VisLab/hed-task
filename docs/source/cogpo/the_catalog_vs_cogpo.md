@@ -136,33 +136,12 @@ few values dropped as out of scope.
 
 ## CogPO and the HED schema
 
-CogPO's dimensions are close kin to the HED schema, and the kinship is the reason the
-Catalog can adopt them without inventing a parallel vocabulary. A CogPO condition,
-"stimulus of this kind and modality in this role, response of this kind with this body
-part, under this instruction", is very nearly a HED event description:
-
-| CogPO dimension | HED 8.4.0 subtree |
-|---|---|
-| Stimulus Modality | `Property/Sensory-property/Sensory-presentation` (`Visual-presentation`, `Auditory-presentation`, ...) |
-| Explicit Stimulus | `Item` (`Face`, `Word`, `Tone`, `Dots`, `Pattern`, `Image`, ...) |
-| Stimulus Role | `Property/Task-property/Task-stimulus-role` (`Target`, `Non-target`, `Reward`) and `Task-event-role/Feedback` |
-| Response Modality | `Item/Biological-item/Anatomical-item/Body-part` (`Hand`, `Foot`, `Mouth`, ...) |
-| Overt Response | `Action` (`Press`, `Saccade`, `Speak`, `Grasp`, `Write`, ...) |
-| Instructions | `Action/Think` and `Action/Perform` (`Detect`, `Discriminate`, `Recall`, `Read`, `Rest`, ...) |
-
-```{include} ../_generated/cogpo_hed_line.md
-```
-
-The gaps run both ways and are listed value by value on the
-[dimension mapping](dimension_mapping.md) page. HED has no interoceptive presentation,
-no digit or number item, no food, odorant or speech item, no tap, draw or name action,
-and no choose or rate action; those are the CogPO and Catalog values that carry no tag.
-CogPO, for its part, has no distractor, cue, oddball, stop-signal or prime role and no
-judge, recognize, predict, plan or switch-attention instruction, all of which HED has and
-the Catalog's tasks need; those enter the facet vocabularies from HED. The practical
-consequence is that a task's facet values can be expressed as HED tags for most of the
-values CogPO supplied (88 of 102), which is what makes the facets useful for annotation
-and not only for search.
+CogPO's dimensions are close kin to the HED schema: each of the six lands in one HED
+subtree, and 88 of the 102 CogPO values have a HED 8.4.0 tag. That kinship is why the
+Catalog can adopt CogPO's vocabularies as facets without inventing a parallel one, and
+why a facet value on a task can become a tag on the dataset's events.
+[HED vs CogPO](hed_vs_cogpo.md) sets the two out in full: what each describes, where the
+vocabularies meet value by value, and what each has that the other lacks.
 
 ## What the comparison changes
 

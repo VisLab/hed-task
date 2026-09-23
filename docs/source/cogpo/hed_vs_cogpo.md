@@ -8,22 +8,54 @@ HED, the Hierarchical Event Descriptors, and [CogPO](http://www.cogpo.org/), the
 Cognitive Paradigm Ontology, both describe what happens to a participant in an
 experiment in a controlled vocabulary, and they do it at different levels: CogPO labels a
 condition by its stimuli, responses and instructions; HED labels each event as it
-happens. This page will set the two side by side: where they came from, what each
-describes, where their vocabularies meet, and what each has that the other lacks.
+happens. This page sets the two side by side: what each describes, where their
+vocabularies meet, what each has that the other lacks, and how the Catalog fits between
+them.
 
 ```{note}
-This page is in preparation. Its analysis rests on Turner and Laird (2012), *The
-Cognitive Paradigm Ontology: Design and Application*, and Robbins, Truong, Jones,
-Callanan and Makeig (2022), *Building FAIR functionality: Annotating events in time
-series data using Hierarchical Event Descriptors (HED)*, and will be filled in once that
-reading is done. The vocabulary figures below are already current.
+The sections on the two designs' history and philosophy are in preparation. They rest
+on Turner and Laird (2012), *The Cognitive Paradigm Ontology: Design and Application*,
+and Robbins, Truong, Jones, Callanan and Makeig (2022), *Building FAIR functionality:
+Annotating events in time series data using Hierarchical Event Descriptors (HED)*, and
+will be filled in once that reading is done. The vocabulary sections below are current.
 ```
 
 ## Two designs for one problem
 
 ## What each describes
 
+A CogPO paradigm class is defined by its conditions, and a condition is "a planned
+combination of stimuli and instructions regarding responses". CogPO's one worked example
+is an FBIRN auditory oddball task with two conditions, standard tones and target tones;
+each condition has a stimulus (tones, auditory modality, in the role of standard or
+target), an instruction (detect) and a response (button press with the hand). Nothing in
+CogPO says when a tone was played or which one.
+
+HED describes the same experiment as a sequence of events. Each tone onset is a
+`Sensory-event` with `Auditory-presentation`, `Tone` and a role tag (`Target` or
+`Non-target`), each press an `Agent-action` with `Press` and `Participant-response`, and
+each carries a time. The condition CogPO names is recovered from the events by their
+shared tags, and HED's `Condition-variable` and `Definition` mechanisms name it
+explicitly when the annotator wants to. Where CogPO stops at "in at least one of the
+conditions, subjects detect an oddball tone", HED records every tone and every press
+that made up the run.
+
+The two therefore meet at the condition. CogPO's condition is a summary of a HED event
+stream; a HED event stream is an instance of a CogPO condition unfolding in time.
+
 ## Where the vocabularies meet
+
+CogPO's six dimension vocabularies each land in one HED subtree, which is why the
+Catalog could adopt them as facets and pair every value with a tag:
+
+| CogPO dimension | HED 8.4.0 subtree |
+|---|---|
+| Stimulus Modality | `Property/Sensory-property/Sensory-presentation` (`Visual-presentation`, `Auditory-presentation`, ...) |
+| Explicit Stimulus | `Item` (`Face`, `Word`, `Tone`, `Dots`, `Pattern`, `Image`, ...) |
+| Stimulus Role | `Property/Task-property/Task-stimulus-role` (`Target`, `Non-target`, `Reward`) and `Task-event-role/Feedback` |
+| Response Modality | `Item/Biological-item/Anatomical-item/Body-part` (`Hand`, `Foot`, `Mouth`, ...) |
+| Overt Response | `Action` (`Press`, `Saccade`, `Speak`, `Grasp`, `Write`, ...) |
+| Instructions | `Action/Think` and `Action/Perform` (`Detect`, `Discriminate`, `Recall`, `Read`, `Rest`, ...) |
 
 ```{include} ../_generated/cogpo_hed_line.md
 ```
@@ -31,13 +63,78 @@ reading is done. The vocabulary figures below are already current.
 ```{include} ../_generated/cogpo_dimension_coverage.md
 ```
 
-The value-by-value tables are on the [CogPO dimension mapping](dimension_mapping.md)
-page.
+The value-by-value tables, with the HED tag and a note on the fit for every value, are
+on the [CogPO dimension mapping](dimension_mapping.md) page.
 
 ## What HED has that CogPO does not
 
+**Time.** Every HED event has an onset, and may have a duration or an offset. CogPO has
+no temporal vocabulary at all: a condition is a set, not a sequence.
+
+**Structure.** HED's `Event` subtree distinguishes sensory events, agent actions, data
+features, experiment control and experiment structure; its organizational tags
+(`Experimental-trial`, `Time-block`, `Condition-variable`, `Control-variable`,
+`Definition`) let an annotator say which events belong to which trial, block and
+condition. CogPO's structure is the paradigm-condition-component hierarchy and nothing
+below it.
+
+**Richer roles.** CogPO has four stimulus roles, and those only on its wiki. HED's
+`Task-stimulus-role` has 22 (`Distractor`, `Cue`, `Oddball`, `Novel`, `Penalty`,
+`Go-signal`, `Stop-signal`, `Priming`, `Threat` and more) and `Task-event-role` adds
+`Cue`, `Feedback`, `Instructional`, `Participant-response`, `Warning`. The Catalog's
+facet vocabulary takes eight roles from HED that CogPO never had.
+
+**More actions.** HED's `Action/Think` has 21 verbs to CogPO's 17 instructions, and
+several the Catalog's tasks need: `Judge`, `Recognize`, `Predict`, `Plan`, `Learn`,
+`Identify`, `Switch-attention`. HED also names the agent (`Experiment-participant`,
+`Experimenter`) and the agent's state (`Eyes-closed`, `Resting`, `Passive`), which CogPO
+leaves implicit.
+
+**A grammar and tools.** HED tags combine into groups and definitions with a validator
+behind them; a HED string can be checked and searched. CogPO is an OWL file: it can be
+reasoned over, but nothing was built to annotate data with it.
+
 ## What CogPO has that HED does not
+
+**The paradigm layer.** CogPO names 83 paradigms and says, for each, which condition
+pattern makes an experiment an instance. HED has no paradigm vocabulary: a HED dataset
+says what happened, not which standard task it was. The Catalog exists to supply that
+layer for HED, and its [paradigm mapping](paradigm_mapping.md) to CogPO is where the two
+paradigm lists are compared.
+
+**A few items and presentations.** HED 8.4.0 has no interoceptive presentation, no item
+for a digit or number, for food, an odor, a puff of air or speech as a stimulus, and no
+tap, draw, drink or name action. CogPO has all of these, because BrainMap experiments
+used them.
+
+**"In at least one of the conditions."** CogPO's definitions are written for coding a
+whole experiment from a paper, so a class applies when any condition fits and overlapping
+classes are co-coded. HED has no equivalent coarse-grained coding of an experiment, by
+design: its unit is the event.
 
 ## Gaps worth closing in the HED schema
 
+Tagging CogPO's vocabulary found the following absent from HED 8.4.0. Each is a
+candidate proposal to [hed-schemas](https://github.com/hed-standard/hed-schemas); whether
+to raise them is a decision for the HED Working Group.
+
+- A presentation tag for interoception beside `Somatic-presentation` and
+  `Vestibular-presentation`.
+- Items: a digit or number, food, an odorant, speech as a stimulus distinct from the
+  `Speak` action, a checkerboard, a fixation point.
+- Actions: tap, draw, drink, name, choose or decide, rate.
+- Body parts: `Arm` and `Leg` as parents of the existing upper-arm, forearm, upper-leg
+  and lower-leg tags.
+
 ## The three resources together
+
+| Resource | Unit | Says |
+|---|---|---|
+| The Catalog | a task | what the participant was asked to do, and which processes that engages |
+| CogPO, and the Catalog's facets | a condition | what was shown, in which modality and role; what was done, with which body part; under what instruction |
+| HED | an event | what happened, when, to whom, in which role |
+
+A dataset tagged with a Catalog task, whose task carries facet values, whose events are
+annotated in HED, is described at all three levels with one vocabulary running through
+them: the facet value `words` is the HED tag `Word`, the facet value `button_press` is
+`Press`, and the task that has them is the one CogPO calls Stroop Task Paradigm.
