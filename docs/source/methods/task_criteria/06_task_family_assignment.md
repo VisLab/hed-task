@@ -8,7 +8,7 @@
 (task-criteria-6-1)=
 ## 6.1 What a family is
 
-A **paradigm family** groups tasks by what the participant does: conflict and
+A **task family** groups tasks by what the participant does: conflict and
 interference tasks, response inhibition tasks, recall and recognition tests, and so on.
 That is the same principle the inclusion test uses to decide whether two experiments are
 the same task ([section 3](03_the_task_inclusion_test.md)): procedure first. Which
@@ -17,7 +17,7 @@ so the two views cross-link rather than duplicate one another.
 
 A family is a browsing aid. It is not a claim about mechanism, and a task's family says
 nothing about which processes it engages. The families, with a scope statement for each,
-are listed on the [Tasks by paradigm family](../../tasks/tasks_by_paradigm_family.md) page
+are listed on the [Tasks by family](../../tasks/tasks_by_family.md) page
 and defined in `data/task_family_defs.tsv`.
 
 (task-criteria-6-2)=

@@ -15,12 +15,13 @@ Cognitive Atlas, and CogPO is the Cognitive Paradigm Ontology.
 ## What the Catalog is for
 
 Experiments in cognitive and behavioral neuroscience are built from a fairly small
-repertoire of standard tasks, but the datasets they produce rarely say which one was
-used in a way a machine can act on. A data repository knows what files a dataset
-contains but usually not what its participants did beyond a free-text label such as
-`task-flanker` or `task-rest`. The same paradigm goes by different names across
-laboratories, and related paradigms that engage the same process are not connected at
-all.
+repertoire of standard tasks, but the datasets they produce rarely say which task
+represented the "instructed behavior" of an experiment in a standardized way a
+machine can act on. A data repository knows what files a dataset
+contains but usually not what instructed behavior the participants did beyond
+a free-text label such as `task-flanker` or `task-rest`. The same paradigm goes
+by different names across laboratories, and related paradigms that engage the
+same cognitive processes are not connected at all.
 
 The Catalog is meant to supply the missing layer: a controlled vocabulary made of a list
 of tasks, a list of the cognitive processes those tasks engage, and the links between
@@ -32,7 +33,7 @@ them.
   locally.
 - **Commonalities across datasets.** Two datasets tagged with the same task can be
   compared directly. Two datasets tagged with different tasks that share a process can be
-  grouped for a question about that process.
+  grouped for a question about that cognitive process.
 - **Context for event annotation.** A task tag tells a reader of a HED-annotated events
   file what the trial structure was designed to do, which the event-level annotations
   alone do not.
@@ -112,9 +113,9 @@ The Catalog currently has {{ n_tasks }} tasks. Each task page carries:
   modern entry point;
 - where one exists, the corresponding **Cognitive Atlas** entry.
 
-### Paradigm families
+### Task families
 
-Tasks are filed under {{ n_families }} **paradigm families** by what the participant does:
+Tasks are filed under {{ n_families }} **task families** by what the participant does:
 conflict and interference tasks, response inhibition tasks, recall and recognition
 tests, economic games, and so on. The Stroop Color-Word Task is in the family
 *Conflict and interference tasks*. A family is a browsing aid, not a claim about mechanism; the
@@ -175,7 +176,7 @@ at sight:
 | Task variation | `hedvar_<task slug>__<variation slug>` | `hedvar_stroop_color_word__counting_stroop` |
 | Process | `hed_<slug>` | `hed_response_inhibition` |
 | Process category | `<slug>` | `inhibitory_control_and_conflict_monitoring` |
-| Paradigm family | `<slug>` | `conflict_and_interference` |
+| Task family | `<slug>` | `conflict_and_interference` |
 
 The `hed_` prefix on process identifiers is the Catalog's working prefix and is not a
 claim of HED schema membership. Identifiers are provisional while the Catalog is being
@@ -210,7 +211,7 @@ ideas should be posted as issues at <https://github.com/hed-standard/hed-task/is
 :link: tasks/index
 :link-type: doc
 
-{{ n_tasks }} tasks in {{ n_families }} paradigm families, each with its inclusion test,
+{{ n_tasks }} tasks in {{ n_families }} task families, each with its inclusion test,
 variations, processes and references.
 :::
 

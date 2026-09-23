@@ -8,7 +8,7 @@ Each task page gives the canonical name and aliases, a description, the inclusio
 test that decides whether an experiment is an instance of the task, its named
 variations, the cognitive processes it engages, and references.
 
-Tasks are filed under 19 **paradigm families** by what the participant does,
+Tasks are filed under 19 **task families** by what the participant does,
 not by which process the task is thought to measure. The Catalog's process list covers that
 other axis, and the two cross-link. Families are organizational, not a hierarchy. Every
 task has one **primary** family, where its page is filed, and may be cross-listed under
@@ -26,7 +26,7 @@ the alternative or the doubt. Comments go to the
 
 Two ways in:
 
-- [Tasks by paradigm family](tasks_by_paradigm_family.md) lists every task under its family, with the
+- [Tasks by family](tasks_by_family.md) lists every task under its family, with the
   family's scope statement.
 - [Tasks alphabetically](tasks_alphabetically.md) lists every task in name order, for when you
   know the name and not the family.
@@ -59,6 +59,6 @@ Two ways in:
 :hidden:
 :maxdepth: 3
 
-Tasks by paradigm family <tasks_by_paradigm_family>
+Tasks by family <tasks_by_family>
 Tasks alphabetically <tasks_alphabetically>
 ```

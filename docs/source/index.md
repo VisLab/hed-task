@@ -32,7 +32,7 @@ The Catalog is a work in progress and its curation is a continuing process, not 
 finished product. The task and process lists began from the
 [Cognitive Atlas](https://www.cognitiveatlas.org/), were narrowed to paradigms that produce event-structured
 data, and have been added to, merged and redefined since. Tasks, processes, categories
-and paradigm families will keep changing as the Catalog is used.
+and task families will keep changing as the Catalog is used.
 
 A second source for the Catalog is [CogPO](http://www.cogpo.org/), the Cognitive Paradigm
 Ontology, whose stimulus, response and instruction vocabularies are the candidate facets;

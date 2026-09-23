@@ -68,7 +68,7 @@ body:
   - type: dropdown
     id: family
     attributes:
-      label: Paradigm family
+      label: Task family
       description: Where the task should be filed. Families group tasks by what the participant does. Choose "Not sure" if none fits.
       options:
         - Not sure

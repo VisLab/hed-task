@@ -15,7 +15,7 @@ Three routes lead to a task page.
  definitions and variation names, so "CWIT", "Stroop" and "color-word interference"
  all reach the Stroop Color-Word Task.
 - **By what the participant does.** The [task index](tasks/index.md) groups the
- {{ n_tasks }} tasks into paradigm families such as conflict and interference tasks, span
+ {{ n_tasks }} tasks into task families such as conflict and interference tasks, span
  tasks and economic games. Each family has a scope sentence and a table of its tasks.
 - **By process.** Each entry on a [process category page](processes/index.md) lists the
  tasks that engage the process, and the [task-process links](task_process_links.md) page gives

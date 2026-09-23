@@ -1,6 +1,6 @@
-# Tasks by paradigm family
+# Tasks by family
 
-The 19 paradigm families, each with its scope statement and the tasks filed
+The 19 task families, each with its scope statement and the tasks filed
 under it. Every task is in exactly one family. The family pages repeat these entries
 and add the assignments marked for review. The [alphabetical list](tasks_alphabetically.md)
 has the same tasks in name order.
