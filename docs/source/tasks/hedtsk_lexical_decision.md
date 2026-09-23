@@ -35,7 +35,7 @@ least one of the listed variables, and it records at least one of the listed mea
   - - RT and accuracy
     - Frequency effect
     - Priming effect (primed − unprimed RT)
-    - D-prime
+    - d-prime
 ```
 
 ## Variations

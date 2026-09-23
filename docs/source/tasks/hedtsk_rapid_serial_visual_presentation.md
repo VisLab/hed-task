@@ -37,10 +37,10 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Measurements**
   - - Target detection accuracy (T1 and T2)
     - Attentional blink magnitude (T2 accuracy deficit at short lags, conditional on correct T1 detection)
-    - Lag-1 sparing
+    - lag-1 sparing
     - T1-T2 intrusion errors (order reversals)
     - P300 ERP amplitude for detected targets
-    - D-prime for target discrimination
+    - d-prime for target discrimination
 ```
 
 ## Variations

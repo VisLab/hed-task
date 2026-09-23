@@ -30,11 +30,11 @@ least one of the listed variables, and it records at least one of the listed mea
   - - CS+/CS− discrimination
     - Reinforcement schedule (partial vs. 100%)
     - Extinction timing
-    - Reinstatement/renewal context
+    - reinstatement/renewal context
 * - **Measurements**
   - - Differential SCR (CS+ > CS−)
     - Startle potentiation
-    - FMRI amygdala and vmPFC activation
+    - fMRI amygdala and vmPFC activation
     - Fear ratings
     - Extinction learning curve
 ```

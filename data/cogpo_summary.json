@@ -5,6 +5,7 @@
     "owl_url": "http://www.cogpo.org/ontologies/CogPOver1.owl",
     "owl_bytes": 209798,
     "owl_sha256": "09d8fd3e7c41437fc9e4094cfd12f8879e5eac68d1d2db101913d91f3c242255",
+    "owl_sha256_verified": true,
     "owl_identical_to": [
       "CogPOexternalVer1.owl"
     ],

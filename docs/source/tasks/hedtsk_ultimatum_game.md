@@ -34,7 +34,7 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Rejection rate as function of offer
     - Minimum acceptable offer
     - Proposer strategy (modal offer)
-    - FMRI anterior insula activation to unfair offers
+    - fMRI anterior insula activation to unfair offers
 ```
 
 ## Variations

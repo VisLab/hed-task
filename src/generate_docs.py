@@ -175,9 +175,12 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
                 problems.append(f"{t['hedtsk_id']}: procedure step must be a trimmed sentence ending in a period: {step!r}")
         for field in ("manipulations", "measurements"):
             for item in test.get(field) or []:
-                if item != item.strip() or item.endswith((";", ".")) or not item[:1].isupper() and not item[:1].isdigit():
+                # No capital-letter rule: an item may begin with an initialism (fMRI) or
+                # a conventionally lowercase term (d-prime).
+                if item != item.strip() or not item or item.endswith((";", ".")) or not (item[0].isalnum() or item[0] == "("):
                     problems.append(
-                        f"{t['hedtsk_id']}: {field} item must be trimmed, start with a capital and carry no final period or semicolon: {item!r}"
+                        f"{t['hedtsk_id']}: {field} item must be trimmed, begin with a letter, digit or parenthesis "
+                        f"and carry no final period or semicolon: {item!r}"
                     )
         # A task engages at least one process; a pseudo task (task criteria, "Pseudo tasks") engages none
         # by definition, so the two kinds are checked in opposite directions.

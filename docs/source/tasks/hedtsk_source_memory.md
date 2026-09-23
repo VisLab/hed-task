@@ -35,7 +35,7 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Source accuracy (proportion of recognized items with correct source attribution)
     - Source d' (signal detection)
     - Item-source conditional analysis
-    - Remember/know × source interaction
+    - remember/know × source interaction
     - Source attribution errors (systematic misattributions)
     - PFC and hippocampal activation differences
 ```

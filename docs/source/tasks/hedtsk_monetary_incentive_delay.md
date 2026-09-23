@@ -31,7 +31,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Target duration (titrated to ~66% hit rate)
 * - **Measurements**
   - - RT by cue condition
-    - FMRI activation in ventral striatum (anticipation) and medial PFC (outcome)
+    - fMRI activation in ventral striatum (anticipation) and medial PFC (outcome)
     - Hit rate
 ```
 

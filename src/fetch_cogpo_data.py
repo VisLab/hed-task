@@ -16,8 +16,13 @@ CogPO has two public faces and this archives both:
   the skin. The wiki carries a few terms and definitions the OWL does not (for example
   the Stimulus Role values), so the builder reports the two against each other.
 
-The wiki's TLS certificate is broken, so everything is fetched over plain http. Nothing
-here needs a certificate.
+Neither CogPO host serves https (`www.cogpo.org` refuses the connection; the wiki host
+answers https with its hosting company's certificate and a 404), so everything is fetched
+over plain http and the transfer cannot be trusted on its own. The OWL release is a
+static file whose SHA-256 is pinned in `src/build_cogpo_data.py`; this script warns when
+the downloaded file differs from that pin, and the builder refuses to use it. The wiki
+pages have no pin: they are supplementary, and their effect on the summary (a few extra
+terms, curation dates) is reviewable in the committed `data/cogpo_summary.json`.
 
     python src/fetch_cogpo_data.py                 # full archive, resumable
     python src/fetch_cogpo_data.py --limit 5       # smoke test: five wiki pages
@@ -62,6 +67,9 @@ _RDF_RESOURCE = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource"
 _TITLE_LINK = re.compile(r'href="/index\.php\?title=([^"&#]+)"')
 
 DEFAULT_OUT = Path(__file__).parent.parent / ".cog_data" / "cogpo"
+
+# The pinned hash lives with the builder, which is what enforces it.
+from build_cogpo_data import EXPECTED_OWL_SHA256  # noqa: E402
 
 
 def fetch(url: str, timeout: int = 60, retries: int = 4, pause: float = 2.0) -> tuple[bytes, int]:
@@ -176,6 +184,12 @@ def archive_owl(root: Path, manifest: dict, refresh: bool) -> None:
             dest.write_bytes(body)
             entry = record(url, body, status, dest, root)
             print(f"  {name}: {len(body)} bytes")
+        if entry["sha256"] != EXPECTED_OWL_SHA256:
+            print(
+                f"  WARNING: {name} has SHA-256 {entry['sha256']}, not the pinned value in "
+                "src/build_cogpo_data.py. The file was fetched over plain http; the builder will refuse it "
+                "until the pin is updated or --allow-unverified is given."
+            )
         manifest["owl"][name] = entry
 
         for target in owl_imports(body):

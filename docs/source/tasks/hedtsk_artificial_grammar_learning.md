@@ -31,7 +31,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Chunk strength
 * - **Measurements**
   - - Endorsement rate (proportion judged grammatical)
-    - D-prime separating grammatical from ungrammatical
+    - d-prime separating grammatical from ungrammatical
     - RT
 ```
 

@@ -30,9 +30,11 @@ least one of the listed variables, and it records at least one of the listed mea
     - Viewing instructions (passive, reappraise, suppress)
 * - **Measurements**
   - - Subjective valence and arousal ratings (SAM)
-    - Skin conductance, startle reflex magnitude, corrugator/zygomatic EMG
+    - Skin conductance
+    - Startle reflex magnitude
+    - Corrugator and zygomatic EMG
     - ERP components (LPP)
-    - FMRI amygdala/PFC activation
+    - fMRI amygdala/PFC activation
 ```
 
 ## Variations
