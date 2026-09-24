@@ -53,7 +53,7 @@ every process lists the tasks that engage it.
 ```{include} _generated/counts_table.md
 ```
 
-## Three resources, three granularities
+## 3 resources with distinct granularities
 
 Three resources on this site describe what happens in an experiment, at three levels of
 detail. The Catalog is the coarsest: a task label names the goal of a block of an
@@ -61,13 +61,13 @@ experiment, what the participant was asked to do, without saying how any trial u
 CogPO is intermediate: it labels the task and the steps within it, each condition with
 its stimuli, responses and instructions. The Catalog's counterparts at that level are the
 proposed facets, single attributes of a task such as stimulus modality or response kind
-drawn from closed vocabularies that CogPO supplies, and the pseudo tasks, which name the
-block-level steps such as rest, fixation and feedback. HED is the finest: it annotates what actually
+drawn from closed vocabularies that CogPO (or the HED equivalent) supplies, and the pseudo tasks, which name the
+block-level steps such as rest, fixation and feedback. HED annotates what actually
 happened, event by event, with a time for each.
 
 | Resource | Labels | Example, for a Stroop experiment |
 |---|---|---|
-| The Catalog | a task, the goal of a block | Stroop Color-Word Task |
+| The Catalog | a task, the goal in eliciting cognitive processes | Stroop Color-Word Task |
 | CogPO | a condition: stimulus, response, instruction | colored color words, key press, "name the ink color" |
 | HED | an event, with its time | the onset of the word RED printed in blue, 2.35 s into the run |
 
@@ -93,29 +93,29 @@ Catalog task facets, and CogPO Paradigms has not been finalized.
 
 The Catalog currently has {{ n_tasks }} tasks. Each task page carries:
 
-- a **canonical name** and its **aliases**, so that a search for "CWIT" or "Stroop" lands
-  on the Stroop Color-Word Task;
-- a **short definition** and a longer **description**;
-- an **inclusion test** in three lists: the steps of the *procedure* the participant
+- A **canonical name** and its **aliases**, so that a search for "CWIT" or "Stroop" lands
+  on the Stroop Color-Word Task.
+- A **short definition** and a longer **description**.
+- An **inclusion test** in three lists: the steps of the *procedure* the participant
   follows, the *manipulations* the experimenter varies, and the *measurements* recorded.
   An experiment is an instance of the task when its procedure matches, it manipulates at
   least one of the listed variables, and it records at least one of the listed measures. The
   procedure is decisive: two experiments with the same procedure are the same task even
-  if they target different constructs;
-- a list of **variations**, each with a description and a justification. A variation
+  if they target different constructs.
+- A list of **variations**, each with a description and a justification. A variation
   is a named version that changes what the participant experiences or does, so that the
   event structure of the recorded data differs. Changing the recording equipment, the
   analysis, the population or the stimulus set does not make a variation; changing the
   response modality, the stimulus-response mapping or the required actions does. There
-  are {{ n_variations }} variations across the Catalog;
-- the **cognitive processes** the task engages, linked to their definitions;
+  are {{ n_variations }} variations across the Catalog.
+- The **cognitive processes** the task engages, linked to their definitions;
 - **key references** that established the paradigm and **recent references** that give a
-  modern entry point;
-- where one exists, the corresponding **Cognitive Atlas** entry.
+  modern entry point.
+- Where one exists, the corresponding **Cognitive Atlas** entry.
 
-### Task families
+## Task families
 
-Tasks are filed under {{ n_families }} **task families** by what the participant does:
+Tasks are grouped under {{ n_families }} **task families** for ease of search by what the participant does:
 conflict and interference tasks, response inhibition tasks, recall and recognition
 tests, economic games, and so on. The Stroop Color-Word Task is in the family
 *Conflict and interference tasks*. A family is a browsing aid, not a claim about mechanism; the
@@ -160,7 +160,7 @@ stimulus modality (visual, auditory) or its response kind (button press, saccade
 that a repository can filter tasks by what the participant is shown, does and is told,
 not only by name. The idea and the candidate vocabularies come from
 [CogPO](cogpo/what_is_cogpo.md), the Cognitive Paradigm Ontology, which describes every
-paradigm by exactly those three things, and each value has the HED tag that expresses
+paradigm by exactly those three things, and each value has HED tags that express
 it, so that a facet would sit between a task name and the HED annotation of its events.
 The [dimension mapping](cogpo/dimension_mapping.md) page holds the vocabularies; whether
 and how the Catalog adopts facets is not yet decided, and no task record carries one.
@@ -189,7 +189,7 @@ of cognitive concepts and the paradigms that measure them. Its task list was nar
 paradigms that produce event-structured data, its concepts were reshaped into processes
 that pass the selection test above, and a gap analysis added paradigms the Atlas never
 registered. Every task and process here is mapped back to the Atlas entry by entry; the
-[Cognitive Atlas](atlas/what_is_the_cognitive_atlas.md) pages describe the Atlas on its own terms,
+[Cognitive Atlas](atlas/what_is_the_cognitive_atlas.md) pages describe the Atlas,
 the [relationship](atlas/the_catalog_vs_the_atlas.md) page says how the two resources differ, and
 the [Atlas mapping method](methods/atlas_mapping_method.md) page says how each correspondence was
 decided.

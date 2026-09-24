@@ -1,0 +1,44 @@
+{#
+  OSA chat widget on every page. Copied from hed-python's docs/_templates/base.html and
+  adapted: the config below is this site's; the widget script is the same one. Furo's
+  base.html is otherwise unchanged.
+#}
+{% extends "!base.html" %}
+
+{%- block scripts %}
+  {{ super() }}
+
+  <!-- OSA Chat Widget (HED Assistant)
+       Privacy Note: nothing is sent until the visitor submits a question. Each question
+       goes to the OSA service with the widgetInstructions below and, while the "Share
+       page URL to help answer questions" checkbox in the widget footer is ticked, the
+       current page's URL and title. Page text is not sent. The checkbox is shown whenever
+       allowPageContext is true, starts in the pageContextDefaultEnabled state, and the
+       visitor's choice is kept in localStorage.
+       Service: OSA Chat Widget (demo.osc.earth)
+  -->
+  <script>
+    // Define config before the widget script loads
+    window.osaChatConfig = {
+      communityId: 'hed',
+      title: 'HED Task Catalog Assistant',
+      initialMessage: 'Questions about the HED Task Catalog? Ask me!',
+      placeholder: 'Questions about tasks or cognitive processes?',
+      suggestedQuestions: [
+        'What is the HED Task Catalog?',
+        'Which tasks engage response inhibition?',
+        'What is the inclusion test for a task?',
+        'How does the Catalog relate to the Cognitive Atlas?'
+      ],
+      widgetInstructions: 'User is on the HED Task Catalog documentation, most likely looking up a task, a cognitive process, or how the Catalog is organized. Load documents that have hed-task in their URLs immediately.',
+      showExperimentalBadge: true,
+      allowPageContext: true,
+      pageContextDefaultEnabled: true
+    };
+  </script>
+  <script src="https://demo.osc.earth/osa-chat-widget.js"
+    crossorigin="anonymous"
+    defer
+    onload="window.OSAChatWidget && window.OSAChatWidget.setConfig(window.osaChatConfig)">
+  </script>
+{%- endblock scripts %}
