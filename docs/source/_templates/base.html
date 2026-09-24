@@ -1,0 +1,42 @@
+{#
+  OSA chat widget on every page. Copied from hed-python's docs/_templates/base.html and
+  adapted: the config below is this site's; the widget script is the same one. Furo's
+  base.html is otherwise unchanged.
+#}
+{% extends "!base.html" %}
+
+{%- block scripts %}
+  {{ super() }}
+
+  <!-- OSA Chat Widget (HED Assistant)
+       Privacy Note: This widget sends page content to an external AI service when
+       allowPageContext is enabled. The widget provides contextual help for the HED Task
+       Catalog documentation.
+       Data sent: Page text content, user questions
+       Service: OSA Chat Widget (osa-demo.pages.dev)
+  -->
+  <script>
+    // Define config before the widget script loads
+    window.osaChatConfig = {
+      communityId: 'hed',
+      title: 'HED Task Catalog Assistant',
+      initialMessage: 'Questions about the HED Task Catalog? Ask me!',
+      placeholder: 'Questions about tasks or cognitive processes?',
+      suggestedQuestions: [
+        'What is the HED Task Catalog?',
+        'Which tasks engage response inhibition?',
+        'What is the inclusion test for a task?',
+        'How does the Catalog relate to the Cognitive Atlas?'
+      ],
+      widgetInstructions: 'User is on the HED Task Catalog documentation, most likely looking up a task, a cognitive process, or how the Catalog is organized. Load documents that have hed-task in their URLs immediately.',
+      showExperimentalBadge: true,
+      allowPageContext: true,
+      pageContextDefaultEnabled: true
+    };
+  </script>
+  <script src="https://osa-demo.pages.dev/osa-chat-widget.js"
+    crossorigin="anonymous"
+    defer
+    onload="window.OSAChatWidget && window.OSAChatWidget.setConfig(window.osaChatConfig)">
+  </script>
+{%- endblock scripts %}
