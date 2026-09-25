@@ -19,9 +19,7 @@ The initial curation of the HED Task Catalog was done by Kay Robbins with the as
 recently, of Claude Fable 5. The Catalog is under review by the
 [HED Working Group](https://www.hedtags.org/hed-resources) and other interested parties. The
 next goal is to curate and augment the Catalog with respect to the datasets on
-[NEMAR](https://nemar.org). If you are interested in contributing to this curation effort, or
-have comments or suggestions, please post an issue on the
-[hed-task](https://github.com/hed-standard/hed-task) GitHub repository.
+[NEMAR](https://nemar.org).
 
 New to the Catalog? Start with the [Introduction](introduction.md), which explains what
 the Catalog contains and where to begin. Planning to tag a dataset or to read a task page
@@ -30,21 +28,8 @@ closely? See [How to use the Catalog](how_to_use_the_catalog.md).
 ## Status and how to contribute
 
 The Catalog is a work in progress and its curation is a continuing process, not a
-finished product. The task and process lists began from the
-[Cognitive Atlas](https://www.cognitiveatlas.org/), were narrowed to paradigms that produce event-structured
-data, and have been added to, merged and redefined since. Tasks, processes, categories
+finished product. Tasks, processes, categories
 and task families will keep changing as the Catalog is used.
-
-A second source for the Catalog is [CogPO](http://www.cogpo.org/), the Cognitive Paradigm
-Ontology, whose stimulus, response and instruction vocabularies are the candidate facets;
-see [The Catalog vs CogPO](cogpo/the_catalog_vs_cogpo.md). The first facets to be filled
-are the six CogPO-derived ones (stimulus modality, kind and role; response modality and
-kind; instructions), followed by the Catalog's own (trial structure, feedback, timing and
-primary measure). CogPO and HED share a history: early HED terminology drew partly on
-CogPO, and HED's plan to adopt CogPO's paradigm list was dropped in its third generation
-for want of a standardized task nomenclature, which is the gap the Catalog now fills. See
-[HED vs CogPO](cogpo/hed_vs_cogpo.md).
-
 Suggestions, corrections and ideas are welcome: please open an issue at
 <https://github.com/hed-standard/hed-task/issues/new/choose>, where a form for a new task,
 a new variation, a new process or a correction asks for what the Catalog needs. The

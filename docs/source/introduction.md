@@ -53,7 +53,7 @@ every process lists the tasks that engage it.
 ```{include} _generated/counts_table.md
 ```
 
-## 3 resources with distinct granularities
+## Resources at 3 granularities
 
 Three resources on this site describe what happens in an experiment, at three levels of
 detail. The Catalog is the coarsest: a task label names the goal of a block of an
@@ -145,7 +145,7 @@ the literature uses more than one name, fundamental and recent references, and t
 of tasks that engage it. Some processes are engaged by no task in the current Catalog;
 they are kept because they are real and the Catalog may grow a task for them.
 
-## Links between tasks and processes
+## Task-process links
 
 A task is linked to a process when the task's inclusion test engages that process: the
 paradigm-defining papers say so, a standard condition contrast isolates it, or a
@@ -194,13 +194,15 @@ the [relationship](atlas/the_catalog_vs_the_atlas.md) page says how the two reso
 the [Atlas mapping method](methods/atlas_mapping_method.md) page says how each correspondence was
 decided.
 
-## Status
-
-The Catalog is a work in progress. Its lists are not definitive, its identifiers are
-provisional, and its curation is a continuing process. Suggestions, corrections and
-ideas should be posted as issues at <https://github.com/hed-standard/hed-task/issues>; the repository's
-[contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the process, and
-[how to use the Catalog](how_to_use_the_catalog.md) says what a useful proposal contains.
+A second source for the Catalog is [CogPO](http://www.cogpo.org/), the Cognitive Paradigm
+Ontology, whose stimulus, response and instruction vocabularies are the candidate facets;
+see [The Catalog vs CogPO](cogpo/the_catalog_vs_cogpo.md). The first facets to be filled
+are the six CogPO-derived ones (stimulus modality, kind and role; response modality and
+kind; instructions), followed by the Catalog's own (trial structure, feedback, timing and
+primary measure). CogPO and HED share a history: early HED terminology drew partly on
+CogPO, and HED's plan to adopt CogPO's paradigm list was dropped in its third generation
+for want of a standardized task nomenclature, which is the gap the Catalog now fills. See
+[HED vs CogPO](cogpo/hed_vs_cogpo.md).
 
 ## Where to go next
 
