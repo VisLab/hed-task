@@ -4,7 +4,7 @@
 
 A curated catalog of standard cognitive and behavioral neuroscience tasks and the cognitive processes they engage, developed as part of the [HED (Hierarchical Event Descriptors)](https://www.hedtags.org/) standardization effort. Its purpose is to provide a controlled vocabulary for tagging datasets with what their participants were asked to do, so that repositories can be searched by task or by process and datasets can be compared across laboratories.
 
-The Catalog currently covers **103 tasks** in **19 task families**, **172 cognitive processes** in **19 categories**, and **486 task-process links**. Each task has a canonical definition, an inclusion test, named variations, verified references and a mapping to the Cognitive Atlas. The Catalog is a work in progress; suggestions, corrections and proposals are welcome as [GitHub issues](https://github.com/hed-standard/hed-task/issues).
+The Catalog covers standard tasks grouped into task families, the cognitive processes they engage grouped into categories, and the links between them; the current counts are on the site's [Introduction](https://www.hedtags.org/hed-task/introduction.html). Each task has a canonical definition, an inclusion test, named variations, verified references and a mapping to the Cognitive Atlas. The Catalog is a work in progress; suggestions, corrections and proposals are welcome as [GitHub issues](https://github.com/hed-standard/hed-task/issues).
 
 The Catalog is published as a searchable website at **<https://www.hedtags.org/hed-task/>**.
 
@@ -14,8 +14,8 @@ The Catalog is published as a searchable website at **<https://www.hedtags.org/h
 | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
 | [Introduction](https://www.hedtags.org/hed-task/introduction.html)                         | What the Catalog is made of, its identifiers, and where it came from                      |
 | [How to use the Catalog](https://www.hedtags.org/hed-task/how_to_use_the_catalog.html)     | Reading a task page, tagging a dataset, proposing a change                                |
-| [Tasks](https://www.hedtags.org/hed-task/tasks/index.html)                                 | 103 tasks in 19 task families, each with inclusion test, variations and process links     |
-| [Cognitive processes](https://www.hedtags.org/hed-task/processes/index.html)               | 172 processes in 19 categories, each with definition, references and linked tasks         |
+| [Tasks](https://www.hedtags.org/hed-task/tasks/index.html)                                 | Tasks grouped by task family, each with inclusion test, variations and process links      |
+| [Cognitive processes](https://www.hedtags.org/hed-task/processes/index.html)               | Processes grouped by category, each with definition, references and linked tasks          |
 | [Task-process links](https://www.hedtags.org/hed-task/task_process_links.html)             | The whole task-to-process matrix in both directions                                       |
 | [Methods](https://www.hedtags.org/hed-task/methods/task_criteria.html)                     | Task and process selection criteria; how the Cognitive Atlas mapping was built            |
 | [Cognitive Atlas](https://www.hedtags.org/hed-task/atlas/what_is_the_cognitive_atlas.html) | What the Atlas contains, how the Catalog relates to it, and the row-by-row mapping tables |
