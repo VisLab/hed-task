@@ -47,37 +47,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Evaluative Decision (Good/Bad)
 
     `hedvar_affective_priming__evaluative_decision_good_bad`
-  - Classify target as positive/negative after affective prime.
+  - A brief positive or negative prime (a word or picture) is followed by a target word, and the participant presses one key if the target is good or pleasant and another if it is bad or unpleasant. Responses are faster when prime and target share the same valence. This is the most common form of the task.
   - Participant makes explicit valence judgment; changes response task from standard LDT
 * - Pronunciation/Naming
 
     `hedvar_affective_priming__pronunciation_naming`
-  - Name target word after prime; RT indexes priming without explicit evaluation.
+  - After the prime, the participant reads the target word aloud as quickly as possible instead of judging it. Naming time is shorter when the prime and target have the same valence, so priming is measured without asking the participant to evaluate anything.
   - Vocal naming response instead of evaluative judgment; different output modality and response event
 * - Subliminal Priming
 
     `hedvar_affective_priming__subliminal_priming`
-  - Prime presented below awareness threshold.
+  - The prime is flashed so briefly (typically under 30 ms) and is immediately covered by a mask, so the participant cannot consciously see it. The participant then evaluates the visible target as usual. Any priming effect must arise from processing the participant is not aware of.
   - Prime below conscious threshold; changes stimulus timing structure and awareness conditions
 * - Picture-Word Priming
 
     `hedvar_affective_priming__picture_word_priming`
-  - Emotional images prime word targets.
+  - The prime is an emotional photograph rather than a word, and the target is a word to be evaluated. The participant sees a picture briefly, then a word, and judges the word as good or bad.
   - Visual picture prime instead of word; different stimulus type with distinct semantic processing
 * - Face-Face Priming
 
     `hedvar_affective_priming__face_face_priming`
-  - Emotional face primes emotional face targets.
+  - Both the prime and the target are faces with emotional expressions. The participant sees a brief face, then a second face, and judges the second face's expression (for example happy or angry).
   - Social/facial stimuli as both prime and target; structurally distinct from word-prime paradigm
 * - Cross-Modal Affective Priming
 
     `hedvar_affective_priming__cross_modal_affective_priming`
-  - Auditory affective primes with visual targets.
+  - The prime is heard rather than seen, for example a spoken word or an emotional sound, and the target is a visible word. The participant judges the written target while the prime arrives through headphones.
   - Auditory prime + visual target; cross-modal structure creates distinct event types
 * - Masked vs. Unmasked Priming
 
     `hedvar_affective_priming__masked_vs_unmasked_priming`
-  - Comparing automatic and strategic components.
+  - The same prime-target pairs are run in two conditions: one where the prime is clearly visible and one where it is masked and too brief to be seen. Comparing the two separates fast automatic priming from priming that depends on the participant noticing the prime and using it strategically.
   - Systematic masking manipulation changes prime visibility and conscious access to prime
 ```
 

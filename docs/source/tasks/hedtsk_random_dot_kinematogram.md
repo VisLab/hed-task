@@ -52,22 +52,22 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Two-Alternative Forced Choice (Standard)
 
     `hedvar_random_dot_kinematogram__two_alternative_forced_choice_standard`
-  - Leftward vs. rightward coherent motion; the canonical version used in monkey neurophysiology.
+  - A patch of moving dots is shown in which some fraction move together to the left or right while the rest move randomly. The participant reports the direction of the coherent motion with a key press or eye movement. The fraction of coherent dots sets the difficulty.
   - Canonical 2AFC motion direction discrimination
 * - Free Response vs. Interrogation Protocol
 
     `hedvar_random_dot_kinematogram__free_response_vs_interrogation_protocol`
-  - Participant-initiated response vs. experimenter-controlled viewing duration; separates speed-accuracy tradeoff from evidence quality.
+  - In the free-response version the dots keep moving until the participant answers, so they can take as long as they want. In the interrogation version the dots are shown for a fixed time chosen by the experimenter and the participant then answers.
   - Self-paced vs. fixed-duration decision; different temporal control
 * - Pulse Paradigm
 
     `hedvar_random_dot_kinematogram__pulse_paradigm`
-  - Brief motion pulses embedded in noise to measure the time course of evidence accumulation.
+  - Most of the display has zero or low coherence, and a brief burst of coherent motion of about 100 ms is inserted at a chosen moment. How much that burst sways the final decision shows when evidence is being weighed.
   - Brief coherence pulses instead of sustained motion; different stimulus structure
 * - Multi-Alternative Motion Discrimination
 
     `hedvar_random_dot_kinematogram__multi_alternative_motion_discrimination`
-  - Four or more possible directions; tests extensions of drift-diffusion to multi-choice scenarios.
+  - The coherent motion can be in one of four or more directions rather than just left or right, and the participant indicates which, for example by moving the eyes to one of several targets.
   - More than two motion directions; higher-order discrimination
 ```
 

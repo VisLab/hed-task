@@ -53,37 +53,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard WCST (128 Cards)
 
     `hedvar_wisconsin_card_sorting__standard_wcst_128_cards`
-  - Full version with 128 cards, sorting to four reference cards.
+  - Four reference cards differ in the color, shape and number of their symbols. The participant places each of 128 cards under one reference card, and is told only 'right' or 'wrong'. After ten correct placements the hidden rule (sort by color, shape or number) silently changes. Continuing to sort by the old rule is a perseverative error.
   - Canonical 128-card version with shifting sorting rules
 * - Short Form WCST (64 Cards)
 
     `hedvar_wisconsin_card_sorting__short_form_wcst_64_cards`
-  - Abbreviated version maintaining psychometric properties.
+  - Only the first 64 cards are used, halving the time while keeping the same rules and scoring.
   - 64-card abbreviated version; recognized efficient form
 * - Modified WCST with Explicit Cues
 
     `hedvar_wisconsin_card_sorting__modified_wcst_with_explicit_cues`
-  - Varying amounts of information about sorting rules to decompose set-shifting components.
+  - The participant is told when the rule changes, or told which rules are possible, or both. Comparing with the standard version separates difficulty in discovering the rule from difficulty in switching to it.
   - Explicit cues about sorting dimension; tests rule use vs. rule discovery
 * - Berg Card Sorting Test
 
     `hedvar_wisconsin_card_sorting__berg_card_sorting`
-  - Simplified version used in developmental research.
+  - A simpler version with fewer cards and clearly separated sorting features, used in early studies and as a freely available computerized form.
   - Simplified precursor with fewer cards and dimensions; named related instrument
 * - Intra-/Extra-Dimensional Set Shifting (IED)
 
     `hedvar_wisconsin_card_sorting__intra_extra_dimensional_set_shifting_ied`
-  - CANTAB version explicitly separating intra-dimensional (within-feature) from extra-dimensional (across-feature) shifts.
+  - A touchscreen test from the Cambridge Neuropsychological Test Automated Battery. The participant learns which of two shapes is correct through feedback. The rule changes in stages: first to a new pair of shapes with the same feature relevant, then to a different feature (line patterns superimposed on the shapes). The latter shift is the hard one.
   - CANTAB analog with distinct dimension-shifting structure; different stimuli and shift types
 * - Reversal-Only WCST
 
     `hedvar_wisconsin_card_sorting__reversal_only_wcst`
-  - Simplified two-rule version focusing on reversal learning component.
+  - Only two sorting rules are used and the rule simply switches between them, so the task measures reversal rather than discovery of a new rule among several.
   - Only reversal phase; isolates reversal from acquisition
 * - Probabilistic WCST
 
     `hedvar_wisconsin_card_sorting__probabilistic_wcst`
-  - Feedback is probabilistic rather than deterministic; increases learning difficulty.
+  - The feedback is wrong some of the time, for example 'wrong' on 20 percent of correct sorts, so the participant must decide whether a 'wrong' means the rule has changed or is just noise.
   - Sorting feedback probabilistic rather than deterministic; different uncertainty structure
 ```
 

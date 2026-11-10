@@ -50,27 +50,27 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Visual Sternberg
 
     `hedvar_sternberg_item_recognition__visual_sternberg`
-  - Letters/digits presented visually; visual probe comparison.
+  - A small set of letters or digits (one to six items) is shown, followed by a short delay and then a single probe item. The participant presses one key if the probe was in the set and another if not. Response time grows with the number of items in the set.
   - Canonical memory set presented visually; recognition probe after delay
 * - Auditory Sternberg
 
     `hedvar_sternberg_item_recognition__auditory_sternberg`
-  - Items presented acoustically; tests modality-specific memory.
+  - The memory set and probe are spoken through headphones rather than displayed, and the participant decides whether the spoken probe was among the spoken set.
   - Auditory memory set; different sensory modality
 * - Cross-Modal Sternberg
 
     `hedvar_sternberg_item_recognition__cross_modal_sternberg`
-  - Encoding in one modality, probe in another; tests amodal representation.
+  - The set is presented in one modality and the probe in another, for example letters shown on screen and a spoken probe, so the match must be made on identity rather than on how the item looked or sounded.
   - Study in one modality, test in another; cross-modal recognition
 * - Sternberg with Irrelevant Items
 
     `hedvar_sternberg_item_recognition__sternberg_with_irrelevant_items`
-  - Memory set includes to-be-ignored items; tests directed forgetting.
+  - The set includes items marked as not to be remembered, or extra items are shown during the delay, and the probe sometimes matches one of these. Slower rejection of such probes shows the irrelevant items still interfere.
   - Distractors added during retention; tests interference resistance
 * - Recent-Probes Sternberg
 
     `hedvar_sternberg_item_recognition__recent_probes_sternberg`
-  - Negative probes that were in the previous (but not current) set; measures proactive interference.
+  - Some probes that are not in the current set were in the set on the previous trial. Rejecting these familiar-but-wrong probes takes longer, which measures interference from recent memory.
   - Probes match previous trials; tests proactive interference
 ```
 

@@ -50,27 +50,27 @@ of a variation is `hedvar_<task>__<variation>`.
 * - DSST (Digit-to-Symbol; WAIS)
 
     `hedvar_digit_symbol_substitution__dsst_digit_to_symbol_wais`
-  - Write the symbol for each digit; pen-and-paper standard.
+  - A key at the top of the page pairs each digit 1 to 9 with a simple symbol. Below are rows of digits with empty boxes, and the participant writes the matching symbol under each digit as fast as possible for 90 or 120 seconds. The score is the number completed.
   - Canonical DSST: given digit, write corresponding symbol; pencil-and-paper version
 * - SDMT (Symbol-to-Digit; Smith)
 
     `hedvar_digit_symbol_substitution__sdmt_symbol_to_digit_smith`
-  - Write the digit for each symbol; oral version available.
+  - The direction is reversed: the rows show symbols, and the participant writes the digit that goes with each one, again using a key at the top of the page.
   - Given symbol, write digit; reverse lookup direction
 * - Oral SDMT
 
     `hedvar_digit_symbol_substitution__oral_sdmt`
-  - Participant says the digit aloud; eliminates motor writing demands for motor-impaired patients.
+  - The participant says each digit aloud instead of writing it, while the examiner records the answers. Used when writing is slow or impossible, for example with motor impairment.
   - Verbal response instead of written; different output modality
 * - Computerized DSST/SDMT
 
     `hedvar_digit_symbol_substitution__computerized_dsst_sdmt`
-  - Digital versions with precise RT measurement per item.
+  - Items appear one at a time on a screen and the participant presses a key or taps a symbol for each. The computer records the time taken on every item rather than just the total completed.
   - Button pressing vs. handwriting; per §5.6, changes fine motor skill
 * - Paired-Associate Variant
 
     `hedvar_digit_symbol_substitution__paired_associate_variant`
-  - After coding phase, recall which symbol goes with which digit.
+  - After the timed substitution, the key is removed and the participant is asked which symbol went with each digit. This adds an unannounced memory test for the pairings practiced during the task.
   - Symbol-digit pairs studied as paired associates; different explicit learning structure
 ```
 

@@ -53,42 +53,42 @@ of a variation is `hedvar_<task>__<variation>`.
 * - X-CPT (Simple)
 
     `hedvar_continuous_performance__x_cpt_simple`
-  - Respond to target letter "X" among non-target letters; measures basic sustained attention.
+  - Single letters appear one at a time for several minutes, and the participant presses a key only when the letter X appears, which is rare. Missed Xs and presses to other letters are the measures.
   - Respond to single target letter; canonical simple vigilance paradigm
 * - AX-CPT (Context Processing)
 
     `hedvar_continuous_performance__ax_cpt_context_processing`
-  - Respond to "X" only when preceded by "A"; probes context maintenance and proactive/reactive control.
+  - Letters appear in pairs. The participant presses the target key only when an X follows an A; an X after any other letter, or any other letter after an A, gets the non-target key. The participant has to remember the previous letter to respond correctly, and A-then-X pairs are made frequent so that the A creates a strong expectation.
   - Context-dependent target requires tracking A→X sequence; different working memory demand
 * - Identical Pairs CPT (IP-CPT)
 
     `hedvar_continuous_performance__identical_pairs_cpt_ip_cpt`
-  - Respond when two consecutive stimuli are identical; taps working memory updating.
+  - A stream of digits or shapes is shown, and the participant presses a key whenever an item is identical to the one just before it. Each item must be held briefly and compared with the next.
   - Respond when consecutive stimuli match; different stimulus-response rule
 * - Gradual-Onset CPT (gradCPT)
 
     `hedvar_continuous_performance__gradual_onset_cpt_gradcpt`
-  - Scene images fade in/out continuously; respond to one category, withhold to another; naturalistic sustained attention.
+  - Photographs of scenes fade continuously into one another with no blank gaps, about one every 800 ms. The participant presses a key for one category (for example cities) and withholds for the rare other category (mountains). The lack of abrupt onsets makes the task depend on steady attention rather than being prompted by each new stimulus.
   - Stimuli gradually transition instead of discrete flashes; different perceptual and decision dynamics
 * - Auditory CPT
 
     `hedvar_continuous_performance__auditory_cpt`
-  - Auditory stimulus stream; respond to target phoneme or tone.
+  - The stream of items is heard rather than seen, for example spoken letters or tones through headphones, and the participant responds only to the rare target sound.
   - Auditory stimulus stream instead of visual; different sensory modality
 * - Conners' CPT-3
 
     `hedvar_continuous_performance__conners_cpt_3`
-  - Standardized commercial version with norms for ADHD assessment.
+  - A commercial standardized version in which the participant presses the space bar for every letter except X, which is withheld. The 14-minute task varies the pace between blocks and provides age norms used in attention-deficit assessment.
   - Standardized commercial CPT with letter stimuli and specific timing; named published instrument
 * - TOVA (Test of Variables of Attention)
 
     `hedvar_continuous_performance__tova_test_of_variables_of_attention`
-  - Commercial CPT variant with specific timing parameters and normative data.
+  - A commercial version using a simple geometric shape that appears at the top or bottom of the screen. The participant presses a button for the target position only. Targets are rare in the first half and frequent in the second, and timing and norms are fixed by the instrument.
   - Geometric stimuli, fixed ISI; distinct named instrument with different timing parameters
 * - CPT with Emotional Distractors
 
     `hedvar_continuous_performance__cpt_with_emotional_distractors`
-  - Task-irrelevant emotional stimuli during sustained attention.
+  - Emotional pictures or faces appear in the background or between items while the participant performs the usual target detection, so sustained attention is measured in the presence of emotional distraction.
   - Emotional stimuli as distractors; retained per §5.1 (EMOT retired)
 ```
 

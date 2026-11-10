@@ -56,32 +56,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Non-Cumulative (Moving Window)
 
     `hedvar_self_paced_reading__non_cumulative_moving_window`
-  - Each word replaces the previous one; only the current word is visible. Dashes mark unrevealed positions. The standard variant; prevents regressions.
+  - A sentence is shown as a row of dashes. Each key press reveals the next word and turns the previous word back into dashes, so only one word is visible at a time. The time between presses is the reading time for each word.
   - Canonical word-by-word presentation without previous words visible
 * - Cumulative Self-Paced Reading
 
     `hedvar_self_paced_reading__cumulative_self_paced_reading`
-  - Each new word is added to the display; all previously read words remain visible. Allows re-reading of prior context; more natural but harder to control.
+  - Each key press reveals the next word and earlier words stay on screen, so the reader can look back at what came before. Reading times are less tightly tied to the current word.
   - Words accumulate on screen; different visual context during reading
 * - Phrase-by-Phrase Presentation
 
     `hedvar_self_paced_reading__phrase_by_phrase_presentation`
-  - Text revealed in multi-word chunks (syntactic constituents). Reduces noise from word-level variability; captures phrase-level processing.
+  - Each key press reveals a group of words, such as a noun phrase or a clause, rather than a single word, and reading time is measured for each group.
   - Phrases instead of words; different chunking of presentation
 * - Maze Task
 
     `hedvar_self_paced_reading__maze`
-  - At each position, participants choose between two words (the correct continuation and a distractor). Forced choice at each step; eliminates spillover artifacts. Boyce et al. (2020).
+  - At each position in the sentence two words are shown side by side, one that continues the sentence correctly and one that does not. The participant must pick the correct one to go on. Choice time at each position replaces reading time.
   - Word-by-word forced choice between correct and anomalous continuation; different response structure
 * - Cross-Modal Self-Paced Listening
 
     `hedvar_self_paced_reading__cross_modal_self_paced_listening`
-  - Auditory version: participants control the pace of listening to segments of spoken sentences. Less common than visual; used in speech processing research.
+  - The sentence is spoken rather than written, in segments, and each key press plays the next segment. Listening time per segment is measured.
   - Auditory presentation instead of visual; different sensory modality
 * - Passage-Level Self-Paced Reading
 
     `hedvar_self_paced_reading__passage_level_self_paced_reading`
-  - Multi-sentence passages rather than isolated sentences. Enables study of discourse coherence, bridging inferences, and situation model construction.
+  - The text is a passage of several sentences rather than an isolated sentence, revealed word by word or sentence by sentence, so that effects of earlier sentences on reading later ones can be measured.
   - Full passages instead of sentences; different text-level processing
 ```
 

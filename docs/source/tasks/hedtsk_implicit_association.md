@@ -49,47 +49,47 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Race IAT
 
     `hedvar_implicit_association__race_iat`
-  - Black/White faces paired with pleasant/unpleasant words; the most studied version.
+  - Faces of Black and White people and pleasant and unpleasant words appear one at a time, and the participant sorts each with a left or right key. In one block Black faces and pleasant words share a key; in another, White faces and pleasant words share a key. Faster sorting in one pairing than the other is taken as an implicit association.
   - Canonical IAT measuring race-valence associations
 * - Gender-Science IAT
 
     `hedvar_implicit_association__gender_science_iat`
-  - Male/female paired with science/liberal arts; measures implicit gender-career stereotypes.
+  - The categories are male and female names or faces paired with science words and liberal arts words. The participant sorts with shared keys as in the race version, and the speed difference between pairings measures the gender-science stereotype.
   - Gender-career associations; different conceptual domain
 * - Self-Esteem IAT
 
     `hedvar_implicit_association__self_esteem_iat`
-  - Self/other paired with pleasant/unpleasant; measures implicit self-evaluation.
+  - The categories are self words (I, me, mine) versus other words (they, them) paired with pleasant and unpleasant words, so that the speed difference measures how strongly the self is linked with positive evaluation.
   - Self-related vs. other category; different self-referential structure
 * - Single-Category IAT (SC-IAT)
 
     `hedvar_implicit_association__single_category_iat_sc_iat`
-  - Only one target category; measures absolute rather than relative associations.
+  - Only one target category is used (for example, just Black faces) along with pleasant and unpleasant words. One block pairs the category with pleasant, another with unpleasant. Gives an association for that category alone rather than relative to a contrasting category.
   - One target category instead of two; different design structure
 * - Brief IAT (BIAT)
 
     `hedvar_implicit_association__brief_iat_biat`
-  - Shortened version with fewer trials; suited for battery administration.
+  - A shorter version with fewer blocks and trials in which the participant focuses on only two of the four categories in each block, pressing one key for them and the other key for everything else.
   - Shorter version with different block structure; distinct published instrument
 * - Go/No-Go Association Task (GNAT)
 
     `hedvar_implicit_association__go_no_go_association_task_gnat`
-  - Related implicit measure using go/no-go responses rather than two-choice classification.
+  - The participant presses a key for items that belong to a target pairing (for example Black faces or pleasant words) and makes no response to everything else. Sensitivity in detecting the pairing replaces the key-sharing design.
   - Detection response instead of categorization; different response structure
 * - Recoding-Free IAT (IAT-RF)
 
     `hedvar_implicit_association__recoding_free_iat_iat_rf`
-  - Eliminates recoding confound by using four response keys.
+  - Four response keys are used, one per category, so no two categories ever share a key. The critical pairings are created by instructions about which keys are relevant on each trial, which prevents participants from simply recoding the task as one two-way sort.
   - Response keys don't change across blocks; removes recoding confound
 * - Personalized IAT (P-IAT)
 
     `hedvar_implicit_association__personalized_iat_p_iat`
-  - Uses "I like" / "I don't like" labels instead of "pleasant" / "unpleasant"; reduces normative responding.
+  - The attribute categories are labeled 'I like' and 'I don't like' rather than 'pleasant' and 'unpleasant', and the words are chosen to reflect personal preferences, so that the measure reflects the participant's own attitudes rather than knowledge of cultural stereotypes.
   - Self-relevant exemplars; different stimulus set and personal relevance
 * - Developmental / Child IAT
 
     `hedvar_implicit_association__developmental_child_iat`
-  - Simplified versions for children using pictures rather than words.
+  - A version for children in which all categories are pictures rather than words, instructions are spoken, there are fewer trials, and the sorting keys are large buttons or a touch screen.
   - Picture-based categories for children; procedure adapted per §5.3
 ```
 

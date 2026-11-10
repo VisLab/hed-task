@@ -51,27 +51,27 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Daw et al. (2011) Version
 
     `hedvar_two_stage_decision__standard_daw_et_al_2011_version`
-  - Two first-stage options, two second-stage states, each with two options; 70/30 transition probabilities.
+  - The participant chooses one of two symbols. Each symbol usually (70 percent) leads to one of two second-stage pairs and sometimes (30 percent) to the other. In the second stage they choose again and may win a reward, with each option's reward probability drifting slowly over the session. Whether the participant's next first-stage choice depends on the transition that occurred shows whether they are using a model of the task.
   - Canonical two-step Markov decision task; measures model-based vs. model-free
 * - Shortened/Simplified Versions
 
     `hedvar_two_stage_decision__shortened_simplified_versions`
-  - Fewer trials or simplified transition structure for clinical or developmental populations.
+  - Fewer trials, fewer options or a story (for example spaceships and planets) that makes the transition structure easier to understand, for use with children or patients.
   - Fewer trials or simplified state structure; recognized efficient version
 * - Enhanced Model-Based Version
 
     `hedvar_two_stage_decision__enhanced_model_based_version`
-  - More complex transition structures (three or more stages) to increase model-based demands.
+  - The task is extended with more stages or more states, or rewards that make planning more worthwhile, so that using a model of the structure makes a bigger difference to earnings.
   - Design features that enhance model-based learning; different incentive structure
 * - Devaluation Manipulation
 
     `hedvar_two_stage_decision__devaluation_manipulation`
-  - Changing reward magnitudes mid-task to test sensitivity to outcome value (model-based predicts rapid adjustment).
+  - After learning, the participant is told that the reward in one second-stage state is now worthless or has changed value. Whether their first-stage choices adjust immediately shows whether they are planning rather than repeating what worked.
   - Reward devalued after training; tests habitual vs. goal-directed control
 * - Two-Stage with Instructed Knowledge
 
     `hedvar_two_stage_decision__two_stage_with_instructed_knowledge`
-  - Explicitly teaching the transition structure before the task; tests whether model-based behavior increases with explicit knowledge.
+  - The participant is taught the transition probabilities explicitly before starting, instead of having to discover them from experience, to see whether explicit knowledge increases planned choice.
   - Transition structure explicitly taught; tests instructed vs. learned model
 ```
 

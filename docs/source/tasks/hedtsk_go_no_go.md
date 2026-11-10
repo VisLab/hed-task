@@ -52,47 +52,47 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Go/No-Go
 
     `hedvar_go_no_go__standard_go_no_go`
-  - Frequent go stimuli (75–80%), infrequent no-go stimuli (20–25%).
+  - Stimuli appear one at a time. The participant presses a key for the common type (go, about 75 to 80 percent of trials) and makes no response to the rare type (no-go). Pressing on a no-go trial is the main error measure.
   - Canonical: respond to go, withhold to no-go; measures response inhibition
 * - Emotional Go/No-Go
 
     `hedvar_go_no_go__emotional_go_no_go`
-  - Emotional faces or words as go/no-go stimuli; probes emotion-cognition interaction.
+  - The go and no-go stimuli are faces with different expressions or emotional words, for example respond to happy faces and withhold to fearful ones, with the assignment switched in other blocks.
   - Emotional stimuli as go/no-go signals; retained per §5.1 (EMOT retired)
 * - Reward/Punishment Go/No-Go
 
     `hedvar_go_no_go__reward_punishment_go_no_go`
-  - Pavlovian-instrumental transfer paradigm—reward biases go, punishment biases no-go.
+  - Each stimulus signals whether responding or withholding will be rewarded or will avoid a loss. The four combinations (go to win, no-go to win, go to avoid losing, no-go to avoid losing) reveal that people find it easier to act for reward and to hold back to avoid punishment.
   - Monetary outcomes for correct responses; motivation manipulation changes decision context
 * - Probabilistic Go/No-Go
 
     `hedvar_go_no_go__probabilistic_go_no_go`
-  - Varying go/no-go ratios (50/50 to 90/10) to manipulate prepotency.
+  - The proportion of go trials is varied between blocks, from 50 percent up to 90 percent. The more often the participant has to respond, the stronger the urge to respond becomes and the harder it is to withhold.
   - Probabilistic rather than deterministic stimulus-response rules; different learning structure
 * - Cued Go/No-Go
 
     `hedvar_go_no_go__cued_go_no_go`
-  - Pre-trial cues signal likely go or no-go, allowing proactive control.
+  - A cue before each stimulus indicates whether a go or a no-go stimulus is likely to follow. The participant can prepare to respond or to hold back, and errors are compared for correctly and incorrectly cued trials.
   - Preparatory cue precedes imperative signal; different temporal structure
 * - Flanked Go/No-Go
 
     `hedvar_go_no_go__flanked_go_no_go`
-  - Go/no-go stimuli flanked by distractors; combines inhibition and selective attention.
+  - The go or no-go stimulus is surrounded by distractor items that match or conflict with it, combining the need to withhold responses with the need to ignore the flankers.
   - Go/no-go signal surrounded by flanking distractors; adds conflict component
 * - Reversal Go/No-Go
 
     `hedvar_go_no_go__reversal_go_no_go`
-  - Mid-task contingency reversal; previously-go stimuli become no-go.
+  - Partway through the task, the stimuli switch roles: what was go becomes no-go and vice versa, with or without warning. The participant must unlearn the old mapping.
   - Go/no-go assignments reverse mid-task; tests reversal of inhibitory mappings
 * - Saccadic Go/No-Go
 
     `hedvar_go_no_go__saccadic_go_no_go`
-  - Eye movements as responses; oculomotor inhibition.
+  - The response is an eye movement to a target rather than a key press, and on no-go trials the participant must keep looking at the center. Eye position is tracked.
   - Eye movement response instead of button press; different response effector
 * - Multi-Stimulus Go/No-Go
 
     `hedvar_go_no_go__multi_stimulus_go_no_go`
-  - Multiple go stimuli and multiple no-go stimuli; more complex stimulus-response mapping.
+  - Several different stimuli are go signals and several others are no-go signals, so the participant must remember a larger set of rules rather than a single go stimulus and a single no-go stimulus.
   - Multiple stimulus categories with different go/no-go rules; more complex rule set
 ```
 

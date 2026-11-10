@@ -50,47 +50,47 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Frequency MMN
 
     `hedvar_mismatch_negativity__frequency_mmn`
-  - Deviant tone frequency differs from standard.
+  - A repeating tone is played about once a second while the participant reads or watches a silent film. Occasionally a tone of a different pitch is inserted. The brain response to the odd tone, minus the response to the common tone, is the mismatch negativity.
   - Frequency deviant in auditory stream; canonical MMN stimulus type
 * - Duration MMN
 
     `hedvar_mismatch_negativity__duration_mmn`
-  - Deviant tone duration differs from standard.
+  - The odd tones are the same pitch as the common tone but longer or shorter in duration.
   - Duration deviant; different acoustic dimension
 * - Intensity MMN
 
     `hedvar_mismatch_negativity__intensity_mmn`
-  - Deviant tone intensity differs from standard.
+  - The odd tones are louder or quieter than the common tone but otherwise identical.
   - Intensity deviant; tests loudness change detection
 * - Location/Spatial MMN
 
     `hedvar_mismatch_negativity__location_spatial_mmn`
-  - Deviant sound location differs from standard.
+  - The odd tones come from a different direction, for example the other ear or a different loudspeaker, while pitch, loudness and duration stay the same.
   - Spatial location change; different perceptual dimension
 * - Complex Pattern MMN
 
     `hedvar_mismatch_negativity__complex_pattern_mmn`
-  - Rule-violation deviants in patterned sequences.
+  - The regularity is a pattern rather than a single repeating tone, for example alternating high and low tones or a rising pair. The odd event breaks the pattern (two high tones in a row) even though each individual tone is familiar.
   - Pattern-level violation; higher-order regularity processing
 * - Multi-Feature MMN (Optimum)
 
     `hedvar_mismatch_negativity__multi_feature_mmn_optimum`
-  - Multiple deviant types within single paradigm; efficient clinical protocol.
+  - Several kinds of odd tones (pitch, duration, loudness, location, gap) are mixed into one sequence, alternating with the common tone, so that responses to all of them are collected in about 15 minutes.
   - Multiple deviants in single paradigm; different stimulus sequence
 * - Phoneme/Speech MMN
 
     `hedvar_mismatch_negativity__phoneme_speech_mmn`
-  - Vowel, consonant, or syllable deviants; language-specific processing.
+  - The sounds are speech syllables or vowels, for example a repeating 'ba' with an occasional 'da'. The response reflects the listener's language experience as well as the acoustic difference.
   - Phonemic contrast as deviant; linguistic processing
 * - Visual MMN (vMMN)
 
     `hedvar_mismatch_negativity__visual_mmn_vmmn`
-  - Deviant visual stimuli in sequences; tests predictive coding in vision.
+  - The repeating stream is visual, such as shapes, colors or faces shown at the edge of the screen while the participant does an unrelated task in the center, and the odd item differs in some visual feature.
   - Visual change detection; different sensory modality
 * - Roving Standard MMN
 
     `hedvar_mismatch_negativity__roving_standard_mmn`
-  - Standard identity changes after train of repetitions; connects to repetition suppression.
+  - A tone repeats several times and then changes to a new tone, which itself repeats and becomes the new standard. Every tone is the odd one when it first appears and a standard after it has repeated, so the response can be tracked as a function of how many repeats preceded the change.
   - Standard changes after each sequence; different stimulus history structure
 ```
 

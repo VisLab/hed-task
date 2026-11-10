@@ -56,42 +56,42 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Allergy Prediction Task
 
     `hedvar_causal_learning__allergy_prediction`
-  - Cover story: patients eat foods and develop (or don't develop) allergies. The most common contingency learning cover story. Naturalistic and intuitive framing.
+  - On each trial the participant sees which foods a fictional patient ate and then learns whether the patient had an allergic reaction. After many trials they rate how strongly each food causes the reaction. The most common framing for contingency learning.
   - Canonical food-allergy prediction: participant judges cause-effect contingencies
 * - Blocking Paradigm
 
     `hedvar_causal_learning__blocking_paradigm`
-  - Pre-train cause A → outcome, then present compound AB → outcome. Test causal rating for B. Blocking (low B ratings) demonstrates cue competition and supports associative models.
+  - First one cue (such as a food) is paired with the outcome on its own. Then that cue and a new cue are presented together with the outcome. The new cue receives low causal ratings because the outcome was already explained.
   - Pre-training on one cue blocks learning about second cue; distinct compound conditioning procedure
 * - Outcome Density Manipulation
 
     `hedvar_causal_learning__outcome_density_manipulation`
-  - Vary the base rate of the outcome (P(O|~C)). High outcome density inflates causal ratings even at zero contingency (outcome density bias).
+  - How often the outcome occurs overall is varied while the actual relationship between cue and outcome is held at zero. When the outcome is common, participants rate the cue as causal even though it makes no difference.
   - Systematically varies base rate of outcomes; changes the statistical environment
 * - Trial-by-Trial Prediction
 
     `hedvar_causal_learning__trial_by_trial_prediction`
-  - Participants predict the outcome on each trial before seeing it. Prediction error drives learning. Allows modeling of trial-by-trial associative strength updating.
+  - Before seeing each trial's outcome, the participant predicts whether it will occur. The sequence of predictions tracks learning as it happens, in addition to any rating at the end.
   - Participant predicts on each trial before feedback; different response requirement from summary judgment
 * - Summary vs. Sequential Presentation
 
     `hedvar_causal_learning__summary_vs_sequential_presentation`
-  - Summary: all contingency information presented simultaneously in a table. Sequential: one trial at a time. Different formats can produce different judgments (format effect).
+  - In the summary version the counts of all four combinations (cue present or absent, outcome present or absent) are shown at once in a table and the participant rates the causal link from it. In the sequential version the same information arrives one trial at a time.
   - Summary table vs. trial-by-trial presentation; changes information format and cognitive demand
 * - Multi-Cause (Relative Validity)
 
     `hedvar_causal_learning__multi_cause_relative_validity`
-  - Multiple candidate causes present; some perfectly predictive, others partially redundant. Tests relative validity and cue selection.
+  - Several candidate causes appear in different combinations, some of which predict the outcome perfectly while others predict it only partially. The partially predictive cue receives lower ratings when a perfect predictor is present than when it is not.
   - Multiple competing cues; relative validity procedure changes causal inference structure
 * - Causal Direction Manipulation
 
     `hedvar_causal_learning__causal_direction_manipulation`
-  - Predictive (cause → effect: given cause, judge effect likelihood) vs. diagnostic (effect → cause: given effect, judge cause likelihood). Tests asymmetry in causal reasoning.
+  - The same trials are presented but the participant is asked either to predict the effect from the cause (does this food cause the reaction?) or to diagnose the cause from the effect (given the reaction, which food was eaten?).
   - Manipulates whether participant judges cause→effect or effect→cause; different reasoning direction
 * - Backward Blocking / Retrospective Revaluation
 
     `hedvar_causal_learning__backward_blocking_retrospective_revaluation`
-  - Post-training information about one cause changes judgments about a previously trained compound partner. Tests whether causal knowledge is updated retrospectively.
+  - Two cues are first presented together with the outcome. Then one of them is presented alone with the outcome. Ratings for the other cue, which was never presented again, drop, showing that earlier learning was revised in the light of later information.
   - Post-training devaluation of compound changes prior learning; distinct temporal structure
 ```
 

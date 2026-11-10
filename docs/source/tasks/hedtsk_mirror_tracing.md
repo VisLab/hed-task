@@ -50,42 +50,42 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Star Tracing (Standard)
 
     `hedvar_mirror_tracing__star_tracing_standard`
-  - Trace a six-pointed star outline viewed in a mirror.
+  - A six-pointed star outline is placed behind a screen so the participant can see it only in a mirror. They trace between the double lines of the star with a pencil, and the number of times the pencil leaves the track and the time to finish are recorded over repeated attempts.
   - Canonical mirror tracing of star with visuomotor reversal
 * - Circle/Diamond/Complex Shapes
 
     `hedvar_mirror_tracing__circle_diamond_complex_shapes`
-  - Different contour shapes varying in difficulty.
+  - The figure to be traced is a circle, diamond, spiral or other shape instead of a star. Shapes with more corners and direction changes are harder to trace in the mirror.
   - Different shape complexity and curvature demands
 * - Computerized Mirror Tracing
 
     `hedvar_mirror_tracing__computerized_mirror_tracing`
-  - Mouse or stylus on tablet with software-reversed cursor; precise error and kinematic recording.
+  - The participant moves a mouse or stylus while the cursor on screen moves in the mirror-reversed direction. No physical mirror is used, and the cursor cannot be felt bumping the edge of the track.
   - Screen/stylus instead of physical mirror/pencil; per §5.6, loses haptic edge feedback
 * - Left-Right vs. Up-Down Reversal
 
     `hedvar_mirror_tracing__left_right_vs_up_down_reversal`
-  - Reversing only one axis vs. both to study adaptation components.
+  - The mirror or software reverses only the left-right axis, only the up-down axis, or both. Each reversal is a different remapping between what the hand does and what the eye sees.
   - Different mirror axis changes visuomotor mapping
 * - Rotation (Non-Mirror) Variants
 
     `hedvar_mirror_tracing__rotation_non_mirror_variants`
-  - Cursor rotated by varying degrees rather than reflected; parametric visuomotor adaptation.
+  - Instead of a mirror reversal, the seen cursor direction is rotated by a chosen angle (such as 30 or 90 degrees) from the hand's actual direction. The size of the rotation sets the difficulty.
   - Rotation rather than mirror reversal; different visuomotor transformation
 * - Prism Adaptation Analog
 
     `hedvar_mirror_tracing__prism_adaptation_analog`
-  - Wearing prism goggles that shift visual field; aftereffects measure adaptation.
+  - The participant wears goggles with prisms that shift the visual scene sideways and reaches or points at targets. Pointing errors shrink with practice and reappear in the opposite direction when the goggles are removed.
   - Prismatic displacement of visual field; different mechanism from mirror reversal
 * - Dual-Hand Mirror Tracing
 
     `hedvar_mirror_tracing__dual_hand_mirror_tracing`
-  - Both hands tracing simultaneously with mirrored feedback.
+  - Both hands trace at the same time, each with mirror-reversed feedback, either on two figures or on mirror-image halves of one figure.
   - Both hands trace simultaneously with mirrored feedback; bimanual coordination variant
 * - Mirror Tracing with Delay
 
     `hedvar_mirror_tracing__mirror_tracing_with_delay`
-  - Delayed visual feedback adds temporal decoupling challenge.
+  - Tracing is practiced in one session and tested again after a delay of hours or days, with no practice in between, to see how much of the adaptation is kept.
   - Delay between practice and test; tests retention of visuomotor adaptation
 ```
 

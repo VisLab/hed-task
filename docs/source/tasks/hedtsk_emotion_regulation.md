@@ -50,47 +50,47 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Reinterpretation/Reappraisal
 
     `hedvar_emotion_regulation__reinterpretation_reappraisal`
-  - Reinterpret emotional meaning of stimulus (core paradigm).
+  - Before an unpleasant picture, the participant is instructed to change what the picture means to them, for example by imagining that the injured person will recover or that the scene is staged. On other trials they simply watch. Ratings or physiological responses on reappraise trials are compared with watch trials.
   - Participant cognitively reframes stimulus meaning; changes cognitive strategy instructions
 * - Distancing/Detachment
 
     `hedvar_emotion_regulation__distancing_detachment`
-  - Adopt third-person or distant observer perspective.
+  - The participant is instructed to view the picture as a detached observer, for example as a scientist or from far away, without changing what the picture shows. The feeling is reduced by stepping back from it rather than by reinterpreting it.
   - Third-person perspective taking; distinct cognitive strategy
 * - Distraction/Attentional Deployment
 
     `hedvar_emotion_regulation__distraction_attentional_deployment`
-  - Redirect attention to non-emotional aspects.
+  - While the emotional picture is on screen, the participant is given something else to attend to, such as a mental arithmetic problem or a letter-memory task, so that attention is pulled away from the emotional content.
   - Attention redirected away from stimulus; different regulatory mechanism
 * - Expressive Suppression
 
     `hedvar_emotion_regulation__expressive_suppression`
-  - Inhibit behavioral expression of emotion.
+  - The participant is instructed to keep their face and body completely still so that an observer could not tell what they are feeling, while watching the emotional picture or film clip. The feeling itself is not targeted, only its outward expression.
   - Inhibit visible emotional response; behavioral output regulation
 * - Acceptance/Mindful Awareness
 
     `hedvar_emotion_regulation__acceptance_mindful_awareness`
-  - Observe emotion without attempting to change it.
+  - The participant is instructed to notice whatever feelings the picture produces and let them be, without trying to change, avoid or judge them.
   - Non-judgmental observation; different regulatory stance
 * - Situation Selection/Modification
 
     `hedvar_emotion_regulation__situation_selection_modification`
-  - Choose or alter emotion-eliciting situations (rare in lab).
+  - Rather than regulating a response to a picture already on screen, the participant chooses which of several pictures or situations to be exposed to, or can act to change the situation, for example by ending a clip early. Regulation happens through the choice.
   - Choice between stimuli or contexts; different task structure with decision component
 * - Up-Regulation
 
     `hedvar_emotion_regulation__up_regulation`
-  - Increase emotional response intensity (contrast with down-regulation).
+  - The participant is instructed to make the feeling stronger, for example by imagining the pictured event happening to a loved one or by immersing themselves in the scene, instead of weaker.
   - Amplify rather than down-regulate emotional response; opposite regulatory direction
 * - Regulation of Positive vs. Negative Emotions
 
     `hedvar_emotion_regulation__regulation_of_positive_vs_negative_emotions`
-  - Separate paradigms for savoring and dampening.
+  - The pictures are pleasant rather than unpleasant, and the participant is instructed to increase (savor) or decrease (dampen) the positive feeling. Tests whether regulating pleasant emotion works like regulating unpleasant emotion.
   - Valence manipulation changes emotional context of regulation
 * - Implicit Emotion Regulation
 
     `hedvar_emotion_regulation__implicit_emotion_regulation`
-  - Habitual/automatic regulation without instruction.
+  - No regulation instruction is given. Regulation is measured indirectly, for example from how responses to emotional pictures change after a task that primes the idea of self-control, or from spontaneous recovery after an emotional event.
   - No explicit instruction to regulate; tests implicit regulatory processes
 ```
 

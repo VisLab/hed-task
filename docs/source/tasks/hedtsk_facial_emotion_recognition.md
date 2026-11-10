@@ -51,42 +51,42 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Static Ekman Faces (6 basic emotions)
 
     `hedvar_facial_emotion_recognition__static_ekman_faces_6_basic_emotions`
-  - Standard categorization of anger, disgust, fear, happiness, sadness, surprise.
+  - Photographs of posed facial expressions are shown one at a time, and the participant chooses which of six labels fits: anger, disgust, fear, happiness, sadness or surprise (sometimes also neutral). Accuracy and response time are recorded for each emotion.
   - Canonical categorical recognition with posed expressions
 * - Morphed Intensity
 
     `hedvar_facial_emotion_recognition__morphed_intensity`
-  - Expressions blended at different intensities (20%, 40%, 60%, 80%, 100%).
+  - Each expression is blended with a neutral face to produce a range of intensities, from faint to full. The participant labels each face, and the intensity at which the emotion is first recognized is the measure.
   - Continuous emotion intensity gradient; participant categorizes or rates on morph scale
 * - Dynamic Expressions
 
     `hedvar_facial_emotion_recognition__dynamic_expressions`
-  - Video clips transitioning from neutral to full expression.
+  - Short video clips show a face moving from neutral to a full expression, rather than a still photograph. The participant names the emotion, often as soon as it can be identified.
   - Temporally unfolding expressions; different stimulus type with motion information
 * - Microexpression Detection
 
     `hedvar_facial_emotion_recognition__microexpression_detection`
-  - Brief (40–200 ms) expression flashes; tests rapid perception.
+  - A neutral face is shown, an expression is flashed for only 40 to 200 ms, and the neutral face returns. The participant names the brief expression. Tests recognition of expressions too fast to study.
   - Very brief (~40 ms) expressions; different detection difficulty and timing
 * - Emotion-in-Context
 
     `hedvar_facial_emotion_recognition__emotion_in_context`
-  - Faces presented with body posture and scene context.
+  - The face is shown together with a body posture or a background scene that fits or contradicts the expression. The participant labels the face's emotion, and the context's influence on the label is measured.
   - Body or scene context accompanies face; changes integration demands
 * - Expression Matching
 
     `hedvar_facial_emotion_recognition__expression_matching`
-  - Match expression to labeled emotion or to another face.
+  - Instead of naming an emotion, the participant decides whether two faces show the same expression, or picks the face that matches a target expression from a set.
   - Match-to-sample format; different response structure from labeling
 * - Compound Expressions
 
     `hedvar_facial_emotion_recognition__compound_expressions`
-  - Faces showing mixed emotions (happy-surprise, angry-disgust).
+  - The faces show two emotions at once, such as happily surprised or angrily disgusted, and the participant must identify the blend or its components.
   - Blended or simultaneous multi-emotion displays; different stimulus category
 * - Dimensional Ratings
 
     `hedvar_facial_emotion_recognition__dimensional_ratings`
-  - Rating faces on continuous valence and arousal rather than category.
+  - Rather than picking a category, the participant rates each face on scales such as how pleasant it looks and how aroused or intense it is.
   - Continuous valence/arousal ratings instead of categorical labels; different response type and scale
 ```
 

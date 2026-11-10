@@ -50,32 +50,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - TMT-A (Number Sequencing)
 
     `hedvar_trail_making__tmt_a_number_sequencing`
-  - Connect numbered circles in order; baseline speed measure.
+  - Twenty-five numbered circles are scattered on a page, and the participant draws a line from 1 to 2 to 3 and so on as fast as possible without lifting the pencil. Time to finish is the score.
   - Canonical: connect numbers in order; processing speed measure
 * - TMT-B (Number-Letter Alternation)
 
     `hedvar_trail_making__tmt_b_number_letter_alternation`
-  - Alternate numbers and letters in sequence; indexes switching.
+  - The circles contain both numbers and letters, and the participant connects them alternating between the two sequences: 1, A, 2, B, 3, C and so on. The extra time compared with the number-only version measures switching.
   - Alternating numbers and letters; adds cognitive flexibility demand
 * - Oral Trail Making Test
 
     `hedvar_trail_making__oral_trail_making`
-  - Verbal version for patients with motor impairments; say the sequence aloud.
+  - The participant says the alternating sequence aloud (1, A, 2, B...) without any page, so that drawing and visual search are not needed. For people who cannot write or see well.
   - Verbal response instead of pencil tracing; different response modality
 * - Color Trails Test
 
     `hedvar_trail_making__color_trails`
-  - Uses colored numbers instead of letters; suitable for cross-cultural/non-English speakers.
+  - The letters are replaced by a second set of numbers in a different color, and the participant alternates between pink and yellow circles (1 pink, 2 yellow, 3 pink...). Usable in any language.
   - Color-coded circles instead of letters; tests same construct in different format
 * - Comprehensive Trail Making Test (CTMT)
 
     `hedvar_trail_making__comprehensive_trail_making_test_ctmt`
-  - Five subtests of increasing complexity.
+  - A published battery of five trail-making subtests of increasing difficulty, adding distractor circles and switching between numbers and number words, with norms.
   - Extended standardized version with additional subtests; named published instrument
 * - D-KEFS Trail Making
 
     `hedvar_trail_making__d_kefs_trail_making`
-  - Part of the Delis-Kaplan Executive Function System with additional conditions (motor speed, visual scanning, number sequencing, letter sequencing, switching).
+  - The trail-making test from the Delis-Kaplan Executive Function System, with five conditions: scanning for a target, number sequencing, letter sequencing, number-letter switching and a motor speed condition, so that switching can be separated from the other components.
   - Delis-Kaplan version with additional conditions; named published instrument
 ```
 

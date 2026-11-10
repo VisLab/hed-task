@@ -51,57 +51,57 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Exogenous (Peripheral) Cueing
 
     `hedvar_posner_spatial_cueing__exogenous_peripheral_cueing`
-  - Abrupt-onset cue at potential target location; captures attention reflexively.
+  - The participant fixates the center while two boxes sit to the left and right. One box briefly brightens, and shortly afterwards a target appears in one of the boxes. The participant responds to the target as fast as possible. The flash pulls attention to that side automatically, so targets there are detected faster.
   - Peripheral onset cue drives automatic orienting; canonical exogenous attention
 * - Endogenous (Central) Cueing
 
     `hedvar_posner_spatial_cueing__endogenous_central_cueing`
-  - Central symbolic cue (arrow, letter) indicating likely target location; requires volitional orienting.
+  - The cue is an arrow or other symbol at fixation pointing to the side where the target is likely to appear. The participant must interpret the cue and shift attention deliberately, which takes longer than a flash.
   - Central arrow cue drives voluntary orienting; different mechanism
 * - Valid, Invalid, and Neutral Cue Conditions
 
     `hedvar_posner_spatial_cueing__valid_invalid_and_neutral_cue_conditions`
-  - Standard design decomposing attention effects into costs (invalid minus neutral) and benefits (neutral minus valid).
+  - Three kinds of trial are mixed: the cue correctly indicates the target side (valid), indicates the wrong side (invalid), or gives no side information (neutral). The benefit of a valid cue and the cost of an invalid one are measured against the neutral trials.
   - Three cue validity conditions test benefit and cost of orienting
 * - Inhibition of Return (IOR) Paradigm
 
     `hedvar_posner_spatial_cueing__inhibition_of_return_ior_paradigm`
-  - Long cue-target SOAs (>300 ms) with peripheral cues revealing inhibitory tagging of previously attended locations.
+  - A flash cue is used and the delay before the target is lengthened beyond about 300 ms. At these delays targets at the flashed location are detected more slowly, not faster, as attention has moved on and is reluctant to return.
   - Long SOA reverses validity benefit; distinct temporal structure
 * - Gap vs. Overlap Conditions
 
     `hedvar_posner_spatial_cueing__gap_vs_overlap_conditions`
-  - Fixation point disappears (gap) or remains (overlap) at cue onset; modulates saccade latency and disengagement.
+  - The fixation point either disappears shortly before the cue (gap) or stays on (overlap). Removing fixation makes it easier to disengage attention and speeds responses.
   - Fixation offset before/during cue changes alerting
 * - Double-Cue Paradigm
 
     `hedvar_posner_spatial_cueing__double_cue_paradigm`
-  - Two successive cues to examine dynamic reorienting.
+  - Both boxes flash at the same time, so the participant is alerted that a target is coming but gets no information about which side. Comparing with single flashes separates the alerting effect from the orienting effect.
   - Both locations cued simultaneously; tests alerting without orienting
 * - Predictive vs. Non-Predictive Cues
 
     `hedvar_posner_spatial_cueing__predictive_vs_non_predictive_cues`
-  - Cues with varying validity ratios (50%, 75%, 100%) to separate voluntary from reflexive orienting.
+  - The proportion of trials on which the cue correctly indicates the target side is varied, for example 50 percent (uninformative), 75 percent or 100 percent. Only informative cues encourage the participant to shift attention deliberately.
   - Cue validity changes attentional weight given to cue
 * - Feature-Based Cueing
 
     `hedvar_posner_spatial_cueing__feature_based_cueing`
-  - Cueing attention to a feature dimension (color, orientation) rather than a spatial location.
+  - The cue indicates a feature of the target, such as its color or orientation, rather than its location. Tests whether attention can be directed to a feature across the whole display.
   - Feature rather than location cued; tests feature-based attention
 * - Object-Based Cueing
 
     `hedvar_posner_spatial_cueing__object_based_cueing`
-  - Cueing within vs. between objects to study object-based attention.
+  - Two elongated objects are shown and the cue appears at one end of one object. Targets at the uncued end of the same object are detected faster than targets at an equally distant location on the other object.
   - Object defines cued location; tests object-based attention
 * - Cross-Modal Cueing
 
     `hedvar_posner_spatial_cueing__cross_modal_cueing`
-  - Auditory or tactile cues directing visual spatial attention.
+  - The cue is a sound from the left or right, or a touch on one hand, and the target is visual. Tests whether attention directed by one sense benefits another.
   - Auditory or tactile cue precedes visual target; cross-modal orienting
 * - Detection vs. Discrimination Targets
 
     `hedvar_posner_spatial_cueing__detection_vs_discrimination_targets`
-  - Simple detection tasks vs. discrimination (identity, orientation) at cued locations.
+  - In the detection version the participant presses one key as soon as any target appears. In the discrimination version the target has one of two forms and the participant reports which, for example its orientation or identity.
   - Simple detection vs. identity discrimination; different response task
 ```
 

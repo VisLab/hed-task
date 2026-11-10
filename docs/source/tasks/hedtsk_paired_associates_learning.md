@@ -50,47 +50,47 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Verbal Paired Associates (Cued Recall)
 
     `hedvar_paired_associates_learning__verbal_paired_associates_cued_recall`
-  - Word pairs; cue with first word, recall second.
+  - The participant studies pairs of words such as 'window - cheese'. At test the first word of each pair is shown and the participant must produce the second. The proportion correct is the measure.
   - Canonical word-word pairs with cued recall test
 * - Face-Name Paired Associates
 
     `hedvar_paired_associates_learning__face_name_paired_associates`
-  - Naturalistic variant; sensitive to aging and early AD.
+  - Each pair is a photograph of a face and a name. At test the face is shown and the participant must recall the name, or choose it from a list. Sensitive to age-related memory decline.
   - Face-name binding; social memory domain
 * - Object-Location Pairs
 
     `hedvar_paired_associates_learning__object_location_pairs`
-  - Associate objects with spatial locations; engages hippocampal binding.
+  - Each object is shown at a particular place on the screen or in a scene. At test the object is shown and the participant indicates where it was, or a location is shown and the participant names the object.
   - Object-location binding; spatial memory component
 * - CANTAB PAL
 
     `hedvar_paired_associates_learning__cantab_pal`
-  - Computerized abstract pattern-location associations; graded difficulty.
+  - A touchscreen test from the Cambridge Neuropsychological Test Automated Battery. Boxes on the screen open one by one to reveal abstract patterns; then each pattern is shown in the center and the participant touches the box it came from. The number of patterns increases across stages.
   - Touchscreen object-location paradigm; named computerized instrument
 * - Arbitrary vs. Semantically Related Pairs
 
     `hedvar_paired_associates_learning__arbitrary_vs_semantically_related_pairs`
-  - Unrelated pairs tax hippocampal binding; related pairs benefit from semantic support.
+  - Some pairs are related in meaning (baby - cries) and some are not (obey - inch). Related pairs are learned faster, and the difference shows how much the participant relies on existing knowledge.
   - Relatedness manipulation changes encoding strategy
 * - Cross-Modal Paired Associates
 
     `hedvar_paired_associates_learning__cross_modal_paired_associates`
-  - Pair across modalities (sound-image, word-location).
+  - The two members of a pair come through different senses or formats, for example a sound paired with a picture, or a spoken word paired with a screen location.
   - Pairs span sensory modalities; cross-modal binding demand
 * - Multi-Trial Learning Curves
 
     `hedvar_paired_associates_learning__multi_trial_learning_curves`
-  - Repeated study-test cycles; tracks acquisition rate.
+  - The same pairs are studied and tested several times in alternation, and the number correct on each test is plotted to give a learning curve.
   - Repeated study-test cycles; tests learning rate over trials
 * - Retroactive/Proactive Interference Variants
 
     `hedvar_paired_associates_learning__retroactive_proactive_interference_variants`
-  - Overlapping pairs (A-B, A-C) to study interference mechanisms.
+  - After learning one list of pairs (A-B), the participant learns a second list in which the same cue words are paired with new responses (A-C). Memory for the first list after the second (retroactive interference) or for the second given the first (proactive interference) is tested.
   - Competing pairs introduced; tests interference in associative memory
 * - Incidental vs. Intentional Encoding
 
     `hedvar_paired_associates_learning__incidental_vs_intentional_encoding`
-  - With or without awareness of upcoming test.
+  - In the intentional version the participant is told to learn the pairs for a later test. In the incidental version they do some other task with the pairs, such as rating how well the words go together, and the memory test is a surprise.
   - Encoding goal manipulation; tests depth and intentionality of encoding
 ```
 

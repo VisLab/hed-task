@@ -52,32 +52,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Overt Verb Generation
 
     `hedvar_verb_generation__standard_overt_verb_generation`
-  - See noun, say verb aloud; used in PET and behavioral studies.
+  - A noun such as 'hammer' is shown or spoken, and the participant says aloud a verb that goes with it ('hit'). Response time and the verb produced are recorded.
   - Canonical Petersen et al.: say verb aloud in response to noun
 * - Covert Verb Generation
 
     `hedvar_verb_generation__covert_verb_generation`
-  - Generate verb silently; preferred in fMRI to avoid motion artifacts.
+  - The participant thinks of the verb without saying it, usually pressing a key when a verb has come to mind. Used in brain imaging to avoid movement from speaking.
   - Internal silent generation; different response mode
 * - High vs. Low Selection Demand
 
     `hedvar_verb_generation__high_vs_low_selection_demand`
-  - Nouns with many competing verbs (high selection: "cat") vs. one dominant verb (low selection: "scissors"); manipulates executive demand.
+  - Nouns are chosen so that some have one obvious verb (scissors - cut) and others have many equally likely verbs (ball - throw, kick, bounce). Choosing among many candidates takes longer and engages selection processes.
   - Dominant vs. non-dominant verb associations; tests selection difficulty
 * - Verb Generation with Practice
 
     `hedvar_verb_generation__verb_generation_with_practice`
-  - Repeated presentation of same nouns; measuring automatization and practice-related prefrontal deactivation.
+  - The same nouns are presented repeatedly across blocks. Responses get faster and the brain activity associated with the task declines as the verb for each noun becomes automatic. A new noun list restores the effort.
   - Repeated generation reduces demand; tests automatization
 * - Noun Generation (Reverse)
 
     `hedvar_verb_generation__noun_generation_reverse`
-  - Given a verb, generate a noun; control condition.
+  - A verb is given and the participant produces a noun that goes with it ('cut' - 'paper'), used as a comparison for the standard direction.
   - Generate noun to verb cue; reversed direction
 * - Written Verb Generation
 
     `hedvar_verb_generation__written_verb_generation`
-  - Typed or handwritten responses; captures production pathway.
+  - The participant types or writes the verb instead of saying it, so that the response is a written word and no speech is involved.
   - Written response instead of vocal; different response modality
 ```
 

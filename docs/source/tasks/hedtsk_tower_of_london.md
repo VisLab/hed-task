@@ -52,32 +52,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Tower of London (3 pegs, 3 balls)
 
     `hedvar_tower_of_london__standard_tower_of_london_3_pegs_3_balls`
-  - Classic Shallice version; problems requiring 2–7 moves.
+  - Three colored balls sit on three pegs of different heights (holding one, two and three balls). The participant is shown a goal arrangement and must move the balls one at a time to reach it in the fewest moves, usually with the minimum number stated. Problems need two to seven moves.
   - Canonical Shallice ToL: rearrange colored balls across pegs
 * - Tower of Hanoi
 
     `hedvar_tower_of_london__tower_of_hanoi`
-  - Related but distinct; uses graduated-size disks with size-ordering constraint; more moves required.
+  - A related puzzle with disks of different sizes on three pegs. All disks must be moved to another peg, one at a time, without ever placing a larger disk on a smaller one. More moves are needed and the rule about sizes must be kept in mind.
   - Different rule structure (disk size constraint); distinct classic puzzle
 * - Tower of London – Drexel (TOL-DX)
 
     `hedvar_tower_of_london__tower_of_london_drexel_tol_dx`
-  - Standardized version with 10 problems and psychometric norms.
+  - A standardized clinical version with ten problems of increasing difficulty, fixed administration rules, and norms for scoring the number of moves, planning time and rule violations.
   - Standardized 10-item version with normative data; published clinical instrument
 * - Tower of London – Freiburg (TOL-F)
 
     `hedvar_tower_of_london__tower_of_london_freiburg_tol_f`
-  - Research-optimized version with controlled problem parameters.
+  - A computerized version whose problems are selected to control features that affect difficulty, such as the number of moves and whether intermediate steps are obvious, for research use.
   - Computer version with different item set and constraints
 * - Computerized vs. Physical Versions
 
     `hedvar_tower_of_london__computerized_vs_physical_versions`
-  - Digital drag-and-drop vs. manual manipulation of beads.
+  - The balls and pegs are shown on a screen and moved by dragging or clicking, rather than being real objects picked up by hand. Move times are recorded precisely but no physical handling is involved.
   - Per §5.6: grasping 3D beads vs. drag-and-drop changes motor activity
 * - Tower with Time Pressure
 
     `hedvar_tower_of_london__tower_with_time_pressure`
-  - Imposing deadlines to study speed-accuracy tradeoffs in planning.
+  - A time limit is set for each problem, or the participant is told to be fast, so that the trade-off between planning carefully and acting quickly can be studied.
   - Response deadline imposed; changes planning strategy
 ```
 

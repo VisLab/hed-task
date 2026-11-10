@@ -49,32 +49,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard ANT (Fan et al., 2002)
 
     `hedvar_attention_network__standard_ant_fan_et_al_2002`
-  - Flanker + cueing combined; three network scores.
+  - On each trial a cue (none, a central alerting cue, cues at both possible locations, or a cue at the target location) is followed by a row of five arrows above or below fixation. The participant reports the direction of the middle arrow. Comparing cue types gives alerting and orienting scores; comparing matching and mismatching flankers gives an executive score.
   - Canonical ANT with three cue types and flanker congruency; measures alerting, orienting, executive
 * - ANT-I (Callejas et al.)
 
     `hedvar_attention_network__ant_i_callejas_et_al`
-  - Measures inter-network interactions.
+  - Same arrows and flankers, but the alerting cue is a tone and the location cue is a separate visual cue, with each manipulated independently on every trial. This design lets the three network effects be tested for interactions with each other, which the original cannot do.
   - Revised cue design with interaction effects measure; different trial structure and network scoring
 * - ANT-R (Revised)
 
     `hedvar_attention_network__ant_r_revised`
-  - Improved reliability and additional conditions.
+  - A revised design with more cue conditions, including a cue that points to the wrong location, and longer and varied intervals between cue and target. It separates orienting into moving and disengaging attention and gives more reliable executive scores.
   - Revised version with separate conflict and inhibition measures; different trial protocol
 * - Lateralized ANT (LANT)
 
     `hedvar_attention_network__lateralized_ant_lant`
-  - Targets on horizontal axis; hemisphere-specific effects.
+  - The arrow rows appear to the left or right of fixation rather than above or below it, so each target is delivered first to one hemisphere of the brain. The participant still reports the middle arrow's direction.
   - Stimuli presented laterally to test hemispheric contributions; different spatial arrangement
 * - Child ANT
 
     `hedvar_attention_network__child_ant`
-  - Fish stimuli and simplified responses for developmental studies.
+  - Arrows are replaced by a row of cartoon fish, and the child presses a key for the direction the middle fish is swimming. Trials are slower, there is feedback, and the task is framed as feeding the fish.
   - Fish stimuli, simplified flanker; procedure genuinely adapted for children per §5.3
 * - ANT with Emotional Stimuli
 
     `hedvar_attention_network__ant_with_emotional_stimuli`
-  - Emotional flankers or targets.
+  - Emotional pictures or faces are used as cues, or emotional images replace the neutral flankers, so the participant must report the central target while emotional content competes for attention.
   - Emotional flanker content; retained per §5.1 (EMOT retired)
 ```
 

@@ -56,32 +56,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Immediate Judgment-of-Learning
 
     `hedvar_judgment_of_learning__immediate_judgment_of_learning`
-  - Judgment made immediately after studying each item. Tends to be poorly calibrated because it relies on short-term memory availability rather than long-term retrievability.
+  - The participant studies a word pair and, right after it, rates how likely they are to recall the second word when given the first on a later test. After all pairs, the recall test is given and ratings are compared with actual recall.
   - JOL made immediately after study; foresight-based monitoring
 * - Delayed Judgment-of-Learning
 
     `hedvar_judgment_of_learning__delayed_judgment_of_learning`
-  - Judgment made after a filled delay (e.g., several intervening items). Nelson and Dunlosky (1991) showed dramatic accuracy improvement. The cue-only delayed condition shows near-perfect resolution.
+  - The rating is made some time after studying the pair, typically after several other pairs have been studied, rather than right away. Delayed ratings predict later recall far better than immediate ones.
   - JOL made after delay; improves accuracy via delayed-JOL effect
 * - Aggregate vs. Item-by-Item Judgments
 
     `hedvar_judgment_of_learning__aggregate_vs_item_by_item_judgments`
-  - Global judgment for the entire list vs. item-level predictions. Aggregate judgments test calibration at the list level.
+  - Instead of (or in addition to) rating each item, the participant estimates how many of the whole list they will recall. The overall estimate is compared with the number actually recalled.
   - Global confidence vs. per-item monitoring; different judgment granularity
 * - Cue-Only vs. Cue-Target Delayed Judgment
 
     `hedvar_judgment_of_learning__cue_only_vs_cue_target_delayed_judgment`
-  - At delayed judgment, present just the cue (forces retrieval attempt) or cue + target (allows re-encoding assessment). Cue-only delayed judgments are the most accurate.
+  - When the delayed rating is made, either only the first word of the pair is shown, which forces the participant to try to retrieve the second word, or both words are shown. Ratings made from the cue alone are the most accurate.
   - JOL prompted by cue alone vs. cue+target; tests forward vs. backward recall fluency
 * - Self-Regulated Study Paradigm
 
     `hedvar_judgment_of_learning__self_regulated_study_paradigm`
-  - Participants make judgments and then choose which items to restudy. Tests whether judgments drive adaptive study-time allocation (discrepancy reduction model).
+  - After rating the items, the participant chooses which items to study again, or how long to spend on each. Whether they choose items they rated as poorly learned shows how the ratings are used to guide study.
   - Participant allocates study time based on JOL; adds metacognitive control component
 * - Pre-Study Judgment (Ease-of-Learning)
 
     `hedvar_judgment_of_learning__pre_study_judgment_ease_of_learning`
-  - Judgment made before studying (based on item preview). An ease-of-learning judgment rather than a true judgment of learning; tests a priori difficulty estimation.
+  - The participant sees each item briefly before studying it and rates how easy it will be to learn. These judgments are made before any learning and measure estimates of difficulty rather than of learning achieved.
   - Judgment made before study; different pre-learning prediction task
 ```
 

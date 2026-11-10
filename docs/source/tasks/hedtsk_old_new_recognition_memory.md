@@ -56,37 +56,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Old/New
 
     `hedvar_old_new_recognition_memory__standard_old_new`
-  - Binary old/new judgments to studied and unstudied items.
+  - The participant studies a list of words or pictures. Later the studied items are mixed with an equal number of new ones, and the participant says 'old' or 'new' to each. The hit rate for old items and the false alarm rate for new items are the measures.
   - Canonical yes/no recognition judgment
 * - Remember-Know (R/K)
 
     `hedvar_old_new_recognition_memory__remember_know_r_k`
-  - Subjective classification of old items as recollected or familiar.
+  - For each item judged old, the participant also says whether they actually recollect something about studying it (remember) or just find it familiar (know). Cataloged in its own right as the Remember/Know Task.
   - Participant distinguishes recollection from familiarity; different response scale
 * - Source Memory
 
     `hedvar_old_new_recognition_memory__source_memory`
-  - Report item + encoding context (which list, voice, location).
+  - Items are studied under different conditions, such as spoken by a male or female voice or shown on the left or right. At test the participant says not only whether an item is old but also which condition it was studied in. Cataloged in its own right as the Source Memory Task.
   - Identify source context of recognized item; adds contextual retrieval judgment
 * - Associative Recognition
 
     `hedvar_old_new_recognition_memory__associative_recognition`
-  - Test whether pairs were studied together; probes binding/relational memory.
+  - Items are studied in pairs. At test the participant sees intact pairs, pairs made by re-pairing studied items, and new pairs, and must say which pairs were studied together. Recognizing the individual words is not enough.
   - Judge intact vs. rearranged pairs; tests associative vs. item memory
 * - Forced-Choice Recognition
 
     `hedvar_old_new_recognition_memory__forced_choice_recognition`
-  - Choose which of two alternatives was studied; reduces criterion effects.
+  - Each test trial shows two (or more) items, one studied and one new, and the participant picks the studied one, rather than judging items one at a time.
   - Select target from foil array; different response structure
 * - Continuous Recognition
 
     `hedvar_old_new_recognition_memory__continuous_recognition`
-  - Items repeat within a long list at varying lags; combines encoding and retrieval.
+  - There is no separate study phase. Items appear in one long stream and some repeat after various numbers of intervening items. The participant judges every item as new or repeated as it appears.
   - Study and test interleaved in ongoing stream; different trial structure
 * - DRM (Deese-Roediger-McDermott) False Memory Variant
 
     `hedvar_old_new_recognition_memory__drm_deese_roediger_mcdermott_false_memory_variant`
-  - Includes highly associated lures that produce robust false recognition.
+  - The study lists are made of words all related to one unpresented word (bed, rest, awake, tired... for SLEEP). At test the unpresented related word is included, and participants often confidently call it old.
   - Semantically related lures elicit false recognition; distinct false memory paradigm
 ```
 

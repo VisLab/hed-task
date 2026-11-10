@@ -57,12 +57,12 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Computerized Questionnaire
 
     `hedvar_take_questionnaire__computerized_questionnaire`
-  - Items on screen, responses by key or mouse, item timing recorded.
+  - Each item appears on a screen and the participant answers by key press, mouse click or touch. The time at which each item was shown and answered is recorded.
   - Different response modality and one recorded event per item
 * - Interviewer-Administered Questionnaire
 
     `hedvar_take_questionnaire__interviewer_administered_questionnaire`
-  - Items read aloud by an interviewer and answered verbally.
+  - An interviewer reads each item aloud and the participant answers in speech, with the interviewer recording the answers.
   - Different sensory and response modality
 ```
 

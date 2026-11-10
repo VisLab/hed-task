@@ -52,47 +52,47 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Two-Armed Stationary Bandit
 
     `hedvar_multi_armed_bandit__two_armed_stationary_bandit`
-  - Simplest version; two options with fixed reward probabilities.
+  - On each trial the participant chooses one of two options (often shown as slot machines or colored boxes) and receives a reward with a fixed probability for that option. The probabilities do not change, so the participant can learn the better option and stick with it.
   - Canonical two-option stationary reward structure; stable payoff distributions
 * - Restless (Volatile) Bandit
 
     `hedvar_multi_armed_bandit__restless_volatile_bandit`
-  - Reward probabilities drift over time via Gaussian random walk; requires continuous updating.
+  - The reward probability or amount for each option drifts slowly and randomly over the session, so the best option changes. The participant must keep sampling options that seem worse to notice when they improve.
   - Reward probabilities drift over time; tests tracking of non-stationary environments
 * - Contextual Bandit
 
     `hedvar_multi_armed_bandit__contextual_bandit`
-  - Reward probabilities depend on observable context features; tests generalization across contexts.
+  - A cue shown on each trial, such as a background color or a feature of the options, predicts which option is better. The participant must learn the rule linking the cue to the right choice.
   - Context features predict optimal choice; adds feature-based learning
 * - Horizon Task (Wilson et al.)
 
     `hedvar_multi_armed_bandit__horizon_task_wilson_et_al`
-  - Short vs. long decision horizons to separately measure directed and random exploration.
+  - The participant is told how many choices remain in the current game, either one or several. After some forced choices that show outcomes, the free choices reveal how much more people explore when there are many choices left to benefit from the information.
   - Fixed horizon with exploration vs. exploitation trade-off manipulation
 * - Four-Armed Bandit with Reversal
 
     `hedvar_multi_armed_bandit__four_armed_bandit_with_reversal`
-  - Multiple arms with occasional reward-probability reversals; combines bandit with reversal-learning demands.
+  - Four options are available and, at unannounced points, their reward probabilities swap so the previously best option becomes worse. The participant must notice and switch.
   - Four arms with explicit reversal phase; tests reversal learning in bandit
 * - Informative vs. Non-Informative Exploration
 
     `hedvar_multi_armed_bandit__informative_vs_non_informative_exploration`
-  - Designs that separate information-seeking exploration from random exploration (e.g., observed vs. chosen options).
+  - The design controls whether choosing an untried option actually teaches the participant something, for example by sometimes showing the outcomes of unchosen options, so that choices made for information can be separated from choices made at random.
   - Exploration choices yield differential information; changes exploration value
 * - Social Bandit
 
     `hedvar_multi_armed_bandit__social_bandit`
-  - Observing another agent's choices and outcomes before making own decisions; adds social learning dimension.
+  - Before or alongside their own choices, the participant sees the choices or outcomes of another player, and can use that player's experience to guide their own picks.
   - Observe another's choices; social learning component
 * - Bandit with Effort Cost
 
     `hedvar_multi_armed_bandit__bandit_with_effort_cost`
-  - Incorporating physical or cognitive effort cost into exploration decisions.
+  - Choosing or sampling an option costs physical or mental effort, for example several key presses or a difficult task, so the participant must weigh the cost of exploring against the value of what might be learned.
   - Effort cost added to choices; combines effort discounting with learning
 * - Bandit with Partial Observability
 
     `hedvar_multi_armed_bandit__bandit_with_partial_observability`
-  - Only the chosen arm's outcome is observed (standard) vs. all arms' outcomes are observed; separates learning from exploration.
+  - In the usual task only the chosen option's outcome is shown. Here, in some conditions, the outcomes of all options are shown after each choice, so the participant can learn about options without choosing them and exploration is no longer needed for information.
   - Outcomes sometimes hidden; different information structure
 ```
 

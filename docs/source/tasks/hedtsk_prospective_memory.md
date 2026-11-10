@@ -54,32 +54,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Event-Based PM (Focal Cue)
 
     `hedvar_prospective_memory__event_based_pm_focal_cue`
-  - PM target is a specific item processed as part of the ongoing task (e.g., 'press Q when you see the word TIGER' during a lexical decision task). Supports relatively automatic, reflexive retrieval.
+  - The participant performs an ongoing task, such as deciding whether letter strings are words, and is also asked to press a special key whenever a particular word (such as 'tiger') appears. Because the ongoing task already requires reading each word, the cue is noticed with little extra effort.
   - PM cue is focal target of ongoing task; different resource demand from non-focal
 * - Event-Based PM (Non-Focal Cue)
 
     `hedvar_prospective_memory__event_based_pm_non_focal_cue`
-  - PM target requires monitoring a feature not processed by the ongoing task (e.g., 'press Q when a word contains the syllable TOR' during pleasantness rating). Demands strategic monitoring; shows greater ongoing-task cost.
+  - The special key must be pressed when a word has some feature the ongoing task does not require looking at, for example when a word contains the syllable 'tor' while the participant is rating words for pleasantness. The participant must keep checking for the feature, which slows the ongoing task.
   - PM cue is non-focal; requires additional monitoring attention
 * - Time-Based PM
 
     `hedvar_prospective_memory__time_based_pm`
-  - Execute PM action after a fixed time interval (e.g., press Q every 2 minutes). Requires self-initiated time monitoring (clock-checking). More dependent on executive resources than event-based PM.
+  - The special response must be made at set times, for example every two minutes, with no external reminder. A clock is available but must be checked deliberately, and how often the participant checks it is recorded.
   - Time check required at specified interval; different PM cue type
 * - Activity-Based PM
 
     `hedvar_prospective_memory__activity_based_pm`
-  - Execute PM action at a natural break point (e.g., after finishing a block of trials). Intermediate between event and time cues.
+  - The special response must be made when a particular activity ends, such as at the end of a block of trials or when a questionnaire is finished, rather than at a set time or on seeing a particular item.
   - PM intention linked to completing an activity; different cue type
 * - Multiple-Intention PM
 
     `hedvar_prospective_memory__multiple_intention_pm`
-  - Hold several PM intentions simultaneously (different cues trigger different actions). Tests capacity limits of intention maintenance.
+  - The participant holds several delayed intentions at once, each triggered by a different cue and requiring a different response, so that the limits on keeping several intentions in mind can be tested.
   - Several PM intentions simultaneously maintained; different load
 * - Naturalistic PM
 
     `hedvar_prospective_memory__naturalistic_pm`
-  - Real-world PM tasks (e.g., remember to mail a letter, call at a specified time). Ecological validity paradigms using experience sampling or virtual reality.
+  - The intended actions are everyday ones outside the laboratory, such as mailing a postcard on a given day, phoning at a set time, or completing errands in a virtual town, and whether they are done is recorded.
   - Real-world task context instead of lab; different ecological setting
 ```
 

@@ -49,32 +49,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Face Dot-Probe
 
     `hedvar_dot_probe__standard_face_dot_probe`
-  - Emotional vs. neutral face pairs; probe replaces one face.
+  - Two faces appear side by side for about half a second, one emotional (usually threatening) and one neutral. They disappear and a small probe (a dot or arrow) appears where one of them was. The participant indicates the probe's location or identity as fast as possible. Faster responses to probes behind emotional faces indicate attention was drawn there.
   - Canonical: face pair followed by probe; measures attentional bias to faces
 * - Word Dot-Probe
 
     `hedvar_dot_probe__word_dot_probe`
-  - Threat vs. neutral words paired horizontally or vertically.
+  - The pair consists of a threat-related word and a neutral word, one above the other or side by side, followed by the probe at one of the word locations.
   - Word stimuli instead of faces; different stimulus type
 * - Pictorial Dot-Probe
 
     `hedvar_dot_probe__pictorial_dot_probe`
-  - IAPS images or photographs as stimuli.
+  - The pair consists of emotional and neutral photographs of scenes or objects, such as pictures from the International Affective Picture System, rather than faces or words.
   - Scene/object pictures; different stimulus class
 * - Detection vs. Classification Probe
 
     `hedvar_dot_probe__detection_vs_classification_probe`
-  - Simple probe detection vs. probe identity classification.
+  - In the detection version the participant presses a single key as soon as the probe appears. In the classification version the probe has two possible forms (for example one or two dots, or an arrow pointing up or down) and the participant reports which it was.
   - Probe identity discrimination vs. simple detection; different response task
 * - Subliminal/Masked Dot-Probe
 
     `hedvar_dot_probe__subliminal_masked_dot_probe`
-  - Brief stimulus presentation with backward masks; tests preconscious bias.
+  - The face or word pair is shown for only about 15 to 20 ms and immediately covered by a mask, so the participant cannot consciously see which side the emotional item was on, before the probe appears.
   - Primes below threshold; changes conscious awareness of cue
 * - Positive Dot-Probe
 
     `hedvar_dot_probe__positive_dot_probe`
-  - Happy vs. neutral faces; measures bias toward positive stimuli.
+  - The emotional item in each pair is positive, such as a happy face or a pleasant picture, paired with a neutral item, to measure attention toward pleasant rather than threatening content.
   - Positive stimuli as cues; different emotional valence of attention capture stimuli
 ```
 

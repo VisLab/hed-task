@@ -50,42 +50,42 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard SST with Staircase SSD
 
     `hedvar_stop_signal__standard_sst_with_staircase_ssd`
-  - Dynamic SSD adjustment converging on 50% inhibition probability; yields SSRT via race model.
+  - The participant makes a quick left-or-right choice to each stimulus. On about a quarter of trials a beep or visual signal follows the stimulus and the participant must try not to respond. The delay before the signal is increased after successful stops and decreased after failures so that stopping succeeds about half the time, which allows the stopping speed to be estimated.
   - Canonical adaptive stop-signal delay tracking
 * - Fixed SSD Procedure
 
     `hedvar_stop_signal__fixed_ssd_procedure`
-  - Predetermined SSDs; simpler but less efficient for SSRT estimation.
+  - The stop signal comes at a few preset delays after the stimulus (for example 100, 200, 300 and 400 ms) rather than being adjusted to the participant. Stopping success is plotted against delay.
   - Non-adaptive fixed delays; different trial structure
 * - Stop-Change Task
 
     `hedvar_stop_signal__stop_change`
-  - Stop signal requires switching to alternative response rather than pure inhibition.
+  - Instead of simply withholding, the participant must cancel the planned response and make a different one, for example pressing a third key, when the signal occurs.
   - Stop signal replaced by change signal; different inhibition-and-substitute
 * - Selective Stop-Signal
 
     `hedvar_stop_signal__selective_stop_signal`
-  - Stop signal applies to only one of multiple possible responses; probes response-specific inhibition.
+  - Only one of the signals, or one of the responses, requires stopping. For example, a high tone means stop but a low tone means carry on, or stopping is needed only for left-hand responses. The participant must identify the signal before deciding whether to stop.
   - Stop signal applies to one response type only; selective inhibition
 * - Proactive vs. Reactive Inhibition Manipulation
 
     `hedvar_stop_signal__proactive_vs_reactive_inhibition_manipulation`
-  - Varying stop-signal probability across blocks to separate anticipatory from stimulus-triggered control.
+  - A cue or block instruction tells the participant how likely a stop signal is on coming trials (for example none, some, or many). Responses slow when stopping is likely, which shows the participant preparing to stop before any signal appears.
   - Pre-signal preparatory inhibition vs. post-signal reactive; different inhibition timing
 * - Stop-Signal in Reaching/Saccade Tasks
 
     `hedvar_stop_signal__stop_signal_in_reaching_saccade_tasks`
-  - Non-button-press responses; extends to oculomotor and reaching domains.
+  - The response to be stopped is an arm reach to a target or an eye movement to a target rather than a key press, and movement or eye position is recorded to see whether the action was cancelled.
   - Arm reaching or eye movement response; different motor effector
 * - Context-Dependent Stop-Signal
 
     `hedvar_stop_signal__context_dependent_stop_signal`
-  - Environmental context predicts stop-signal probability.
+  - Features of the display or environment, such as a background color, are associated with different stop-signal probabilities, and the participant learns to adjust their readiness to stop from these features.
   - Stop signal context varies; tests context-sensitive inhibition
 * - Conditional Stop-Signal
 
     `hedvar_stop_signal__conditional_stop_signal`
-  - Stop signal presented but inhibition required only under certain conditions (e.g., specific signal color).
+  - A stop signal always appears, but stopping is required only when it has a particular property, such as a specific color, and otherwise the response should go ahead.
   - Inhibit only under specific conditions; conditional stopping logic
 ```
 

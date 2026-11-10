@@ -53,12 +53,12 @@ of a variation is `hedvar_<task>__<variation>`.
 * - First-Person Shooter Task (Correll et al., 2002)
 
     `hedvar_weapons_identification__first_person_shooter_task_correll_et_al_2002`
-  - Participants "shoot" or "don't shoot" armed/unarmed targets in realistic scenes; the classic police-decision paradigm.
+  - Photographs of men in realistic settings, either holding a gun or holding a harmless object such as a phone, appear briefly. The participant presses 'shoot' for armed men and 'don't shoot' for unarmed men within a deadline. Errors and response times are compared by the race of the person shown.
   - Video-game format shooter task; different motor response and scenario structure
 * - Weapons Task in Virtual Reality
 
     `hedvar_weapons_identification__weapons_task_in_virtual_reality`
-  - Immersive VR versions increasing ecological validity for applied research.
+  - The scenes are presented in an immersive virtual environment, and the participant responds by aiming and pulling a trigger on a hand-held controller, so that the decision is made with the body in the scene rather than at a keyboard.
   - Immersive VR environment; full-body spatial and motor engagement
 ```
 

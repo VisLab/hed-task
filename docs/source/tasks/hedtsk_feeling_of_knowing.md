@@ -53,27 +53,27 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Episodic Feeling-of-Knowing
 
     `hedvar_feeling_of_knowing__episodic_feeling_of_knowing`
-  - Studied cue-target pairs; feeling-of-knowing judgments for newly learned episodic material. The standard laboratory paradigm.
+  - The participant studies word pairs. Later, given the first word, they try to recall the second. For each pair they cannot recall, they rate how likely they would be to recognize the answer if shown it. A recognition test follows, and the match between ratings and recognition is the measure.
   - FOK for episodic memories; unrecalled episode-specific items
 * - Semantic / General-Knowledge Feeling-of-Knowing
 
     `hedvar_feeling_of_knowing__semantic_general_knowledge_feeling_of_knowing`
-  - General-knowledge questions (e.g., 'What is the capital of Australia?'); feeling-of-knowing ratings for unrecalled answers. Tests pre-existing semantic memory monitoring.
+  - The questions are general-knowledge items such as 'What is the capital of Australia?' rather than studied pairs. For each answer the participant cannot recall, they rate the likelihood of recognizing it, and a multiple-choice test follows.
   - FOK for semantic facts; different memory system
 * - Cue-Only vs. Cue-Target Paradigm
 
     `hedvar_feeling_of_knowing__cue_only_vs_cue_target_paradigm`
-  - Cue-only: only the cue is presented at judgment time. Cue-target: the cue plus some target information is available. Manipulates the information basis of the judgment.
+  - At the time of the rating, either only the question or cue word is shown, or the cue is shown together with some partial information about the answer. Compares ratings based on the cue alone with ratings that can draw on fragments of the answer.
   - Study with or without target; tests whether target exposure affects FOK accuracy
 * - Tip-of-the-Tongue Variant
 
     `hedvar_feeling_of_knowing__tip_of_the_tongue_variant`
-  - Feeling-of-knowing specifically for items in a tip-of-the-tongue state (strong feeling of knowing with partial phonological retrieval). Bridges feeling-of-knowing and tip-of-the-tongue literatures.
+  - The participant indicates when they are in a tip-of-the-tongue state, feeling the answer is on the verge of coming, and may report partial information such as the first letter or number of syllables. These items are analyzed separately from ordinary failures to recall.
   - TOT state as extreme FOK; different phenomenology and partial information access
 * - Feeling-of-Knowing with Feedback
 
     `hedvar_feeling_of_knowing__feeling_of_knowing_with_feedback`
-  - Participants receive recognition outcomes and can update subsequent feeling-of-knowing judgments. Tests metacognitive learning and calibration improvement.
+  - After each recognition test the participant is told whether they were right, and the task continues with further items, to see whether the accuracy of their ratings improves with this information.
   - Accuracy feedback after recognition test; tests calibration learning
 ```
 

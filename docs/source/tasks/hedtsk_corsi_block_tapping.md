@@ -50,37 +50,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Forward Corsi Span
 
     `hedvar_corsi_block_tapping__forward_corsi_span`
-  - Reproduce sequences in the same order as presented.
+  - Nine identical blocks are fixed to a board in an irregular layout. The experimenter taps a sequence of blocks, and the participant taps the same blocks in the same order. Sequences get longer until the participant fails, and the longest correct length is the span.
   - Reproduce tapped sequence in same order; canonical visuospatial span
 * - Backward Corsi Span
 
     `hedvar_corsi_block_tapping__backward_corsi_span`
-  - Reproduce sequences in reverse order; adds executive manipulation.
+  - The experimenter taps a sequence and the participant taps the same blocks in reverse order, from last to first. This requires holding the sequence and reordering it before responding.
   - Reproduce sequence in reverse order; requires mental transformation
 * - Computerized (eCorsi)
 
     `hedvar_corsi_block_tapping__computerized_ecorsi`
-  - Tablet or screen-based with precise timing and spatial metrics.
+  - The blocks are squares on a touchscreen or monitor that light up in sequence, and the participant touches or clicks them in order. Timing of each touch is recorded, and the squares cannot be felt as physical objects.
   - Screen-based tapping vs. physical blocks; per §5.6 changes spatial/motor demands
 * - Supra-Span Corsi
 
     `hedvar_corsi_block_tapping__supra_span_corsi`
-  - Sequences exceeding span; number of trials to learn measures spatial learning.
+  - The same sequence, longer than the participant's span, is presented repeatedly until it can be reproduced correctly. The number of attempts needed measures how quickly a spatial sequence is learned.
   - Sequences exceed span; repeated learning-to-criterion procedure
 * - Walking Corsi (large-scale)
 
     `hedvar_corsi_block_tapping__walking_corsi_large_scale`
-  - Life-size version where participants walk between floor locations; ecological spatial memory.
+  - The blocks are replaced by tiles or markers on the floor of a room. The experimenter walks to a sequence of tiles, and the participant then walks the same route. Memory is tested for places reached by walking rather than by hand.
   - Full-body locomotion to large floor locations; different motor modality from finger tapping
 * - Sequential vs. Simultaneous Presentation
 
     `hedvar_corsi_block_tapping__sequential_vs_simultaneous_presentation`
-  - Blocks highlighted one at a time vs. subset highlighted together.
+  - In the simultaneous version the blocks of a set are highlighted all at once, with numbers or arrows showing the order, instead of being tapped one after another. The participant still reproduces them in order.
   - All blocks illuminated at once vs. sequentially; changes encoding demands
 * - Crossed/Uncrossed Paths
 
     `hedvar_corsi_block_tapping__crossed_uncrossed_paths`
-  - Sequences with vs. without path crossings to study spatial complexity.
+  - Sequences are chosen so that the path from block to block either crosses over itself or does not. Sequences whose path crosses are harder to remember even when the same number of blocks is tapped.
   - Spatial crossing of sequence paths tests motor programming constraints
 ```
 

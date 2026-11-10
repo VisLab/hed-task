@@ -54,37 +54,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - EEfRT (Physical Effort)
 
     `hedvar_effort_based_decision_making__eefrt_physical_effort`
-  - Treadway et al. (2009) paradigm: choose between easy (30 dominant-finger presses) and hard (100 pinky-finger presses) for variable reward and probability. The standard clinical paradigm for motivational anhedonia.
+  - On each trial the participant chooses between an easy task (about 30 presses with the index finger in 7 seconds for a small fixed reward) and a hard task (about 100 presses with the little finger in 21 seconds for a larger reward). The size of the larger reward and the probability of being paid vary across trials. How often the hard task is chosen measures willingness to work for reward.
   - Canonical effort-reward task: grips vs. reward levels
 * - Cognitive Effort Discounting
 
     `hedvar_effort_based_decision_making__cognitive_effort_discounting`
-  - Choose between easy (e.g., 1-back) and hard (e.g., 3-back) cognitive tasks for different rewards. Westbrook et al. (2013). Indexes cognitive effort avoidance specifically.
+  - The effort is mental rather than physical. After experiencing working-memory tasks of different difficulty (such as 1-back to 4-back), the participant repeatedly chooses between doing an easy level for a smaller amount or a harder level for a larger amount, with the amounts adjusted until they are indifferent.
   - Cognitive task difficulty vs. reward; different effort type
 * - Grip-Force Effort Task
 
     `hedvar_effort_based_decision_making__grip_force_effort`
-  - Choose between low and high grip-force requirements for varying rewards. Bonnelle et al. (2015). Continuous force measure enables parametric effort manipulation.
+  - The participant squeezes a hand-grip device. Offers pair a reward with a required squeeze force as a share of the participant's maximum, and the participant accepts or rejects each offer, or chooses between offers. Force can be varied finely.
   - Graded grip force as effort measure; different motor requirement
 * - Effort Discounting Titration
 
     `hedvar_effort_based_decision_making__effort_discounting_titration`
-  - Staircase procedure adjusting reward until the participant is indifferent between easy and hard options. Yields a precise effort indifference point. Botvinick et al. (2009).
+  - For each effort level, the reward for the easy option is raised or lowered after each choice until the participant is indifferent between the easy and hard options. The resulting reward difference is the subjective cost of that effort level.
   - Adaptive titration of effort-reward indifference points; different method
 * - Progressive Ratio Task
 
     `hedvar_effort_based_decision_making__progressive_ratio`
-  - The number of responses required for reward increases across trials. The breakpoint (trial at which the participant stops responding) indexes maximum effort willingness.
+  - Each successive reward requires more presses or squeezes than the one before. The participant may stop at any time, and the effort level at which they quit (the breakpoint) measures the most they are willing to do for the reward.
   - Escalating effort requirement for each reward; different effort schedule
 * - Demand Selection Task
 
     `hedvar_effort_based_decision_making__demand_selection`
-  - Free choice between low-demand and high-demand task versions (Kool et al., 2010). Binary choice without explicit reward manipulation; indexes intrinsic effort avoidance.
+  - Two decks or locations are offered that lead to the same kind of task, but one involves more frequent rule switches than the other. No reward depends on the choice. Participants are not told the difference, and a preference for the easier option shows avoidance of mental effort.
   - Freely choose between high/low demand tasks; choice behavior reveals effort avoidance
 * - Apple-Gathering Task
 
     `hedvar_effort_based_decision_making__apple_gathering`
-  - Foraging paradigm: decide how many apples to pick from each tree before traveling to the next (effort = key presses, diminishing returns). Indexes vigor and willingness to sustain effort.
+  - The participant picks apples from a virtual tree, where each press yields fewer apples than the last, and decides when to leave for the next tree, which costs travel time. When they leave shows how they weigh continued effort against diminishing returns.
   - Virtual navigation effort for rewards; different effort modality (locomotion)
 ```
 

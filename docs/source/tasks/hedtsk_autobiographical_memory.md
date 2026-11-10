@@ -54,32 +54,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Cue-Word Task (Galton-Crovitz)
 
     `hedvar_autobiographical_memory__cue_word_task_galton_crovitz`
-  - Single words as retrieval cues; participants generate a specific memory and date it. Simple, flexible, widely used. Measures specificity and retrieval latency.
+  - A single word such as 'river' or 'party' is presented, and the participant describes a specific personal memory it brings to mind and estimates when it happened. The time to find a memory and how specific it is are recorded.
   - Single word cues; participant freely generates memories in response
 * - Autobiographical Memory Test (Williams & Broadbent)
 
     `hedvar_autobiographical_memory__autobiographical_memory_test_williams_broadbent`
-  - Positive and negative cue words with instructions to retrieve specific episodes. Coded for specificity (specific, categoric, extended, semantic associate). The standard clinical measure of overgeneral memory.
+  - A standardized clinical version with positive and negative cue words (such as 'happy', 'sorry'). The participant must describe an event that happened on one particular day. Responses are scored as specific, general (repeated or extended events), or not a memory, with over-general memories being the clinical sign.
   - Cued recall with specificity scoring and suicidal ideation variant; named standardized instrument
 * - Autobiographical Memory Interview (Kopelman)
 
     `hedvar_autobiographical_memory__autobiographical_memory_interview_kopelman`
-  - Structured interview across life periods (childhood, early adult, recent). Separate scores for personal semantic and autobiographical incidents. Used in amnesia and dementia assessment.
+  - A structured interview covering childhood, early adulthood and recent years. For each period the participant answers factual questions about their life (such as school names) and describes specific incidents, scored separately for facts and incidents.
   - Structured interview with childhood, early adult, and recent life sections; different retrieval protocol
 * - Sentence-Cue Variant
 
     `hedvar_autobiographical_memory__sentence_cue_variant`
-  - Sentence stems as cues (e.g., 'A time when I felt proud was...'). More constrained than single words; can target specific emotional themes.
+  - The cue is a sentence stem such as 'A time when I felt proud was...' instead of a single word, which directs retrieval toward particular kinds of events or emotions.
   - Sentence-length cues instead of single words; richer cueing structure
 * - Odor-Cued Autobiographical Memory
 
     `hedvar_autobiographical_memory__odor_cued_autobiographical_memory`
-  - Odors as retrieval cues (Proust phenomenon). Odor-cued memories tend to be older, more emotional, and more vivid than word-cued memories.
+  - The cue is a smell presented in a jar or on a strip, such as coffee or cinnamon, and the participant describes the personal memory it evokes. Smell-cued memories tend to be older and more emotional than word-cued ones.
   - Olfactory cues evoke memories; different sensory modality and involuntary retrieval characteristics
 * - Future Episodic Simulation
 
     `hedvar_autobiographical_memory__future_episodic_simulation`
-  - Imagine specific future events in response to cues (Schacter & Addis, 2007). Tests the constructive episodic simulation hypothesis — that autobiographical memory supports future thinking.
+  - Given a cue word, the participant imagines and describes a specific event that might happen to them in the future, rather than recalling a past one. The descriptions are scored for detail in the same way as memories.
   - Participant imagines future events instead of recalling past; different cognitive operation (projection vs. retrieval)
 ```
 

@@ -50,27 +50,27 @@ of a variation is `hedvar_<task>__<variation>`.
 * - RMET Revised (36 items)
 
     `hedvar_reading_the_mind_in_the_eyes__rmet_revised_36_items`
-  - Standard adult version with four-choice forced response.
+  - Thirty-six black-and-white photographs of just the eye region of a face are shown one at a time, each with four mental-state words (such as 'nervous', 'playful', 'hostile', 'reflective'). The participant picks the word that best describes what the person is thinking or feeling. A glossary of the words is available.
   - Canonical Baron-Cohen RMET with 36-item set
 * - RMET Short Form (15–18 items)
 
     `hedvar_reading_the_mind_in_the_eyes__rmet_short_form_15_18_items`
-  - Abbreviated version for rapid screening.
+  - A subset of 15 to 18 of the items selected to give a score that correlates well with the full version in about half the time.
   - Abbreviated form; recognized efficient version
 * - RMET Child Version
 
     `hedvar_reading_the_mind_in_the_eyes__rmet_child_version`
-  - Adapted stimuli and response options for developmental assessment.
+  - A 28-item version for children in which the word choices are simpler (such as 'kind', 'cross', 'bored') and the photographs are chosen to suit a younger audience.
   - Simplified vocabulary and reduced items for children; adapted per §5.3
 * - Dynamic Eyes Task
 
     `hedvar_reading_the_mind_in_the_eyes__dynamic_eyes`
-  - Video clips of eye movements rather than static photographs.
+  - Short video clips of the eye region in motion replace the still photographs, so that blinks, gaze shifts and changes in the eyes are available as cues.
   - Moving eyes instead of static photographs; different stimulus type
 * - Full-Face vs. Eyes-Only
 
     `hedvar_reading_the_mind_in_the_eyes__full_face_vs_eyes_only`
-  - Comparing performance with isolated eyes vs. complete faces.
+  - The same mental-state choices are made for whole faces in one condition and for the eye region alone in another, to see how much is lost when only the eyes are visible.
   - Full face context vs. isolated eyes region; different stimulus scope
 ```
 

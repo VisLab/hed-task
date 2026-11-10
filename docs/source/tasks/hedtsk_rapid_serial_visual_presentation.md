@@ -58,67 +58,67 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Dual-Target Attentional Blink
 
     `hedvar_rapid_serial_visual_presentation__dual_target_attentional_blink`
-  - Two targets in a single stream; T2 accuracy at varying lags from T1. The canonical paradigm for studying the attentional blink. Raymond et al. (1992).
+  - Letters or pictures flash at one spot about ten per second. Two of them are targets, for example two letters among digits or a white letter among black ones. At the end the participant reports both targets. The second target is often missed when it comes 200 to 500 ms after the first.
   - Canonical AB: T2 missed when presented shortly after T1
 * - Single-Target RSVP
 
     `hedvar_rapid_serial_visual_presentation__single_target_rsvp`
-  - One target in the stream; measures basic temporal attention and target detection at rapid rates. Baseline for attentional blink studies.
+  - Only one target is placed in the stream, and the participant reports it at the end. Measures how well a single item can be picked out at high presentation rates and serves as a baseline.
   - Detect or identify one target in stream; no AB protocol
 * - Emotion-Induced Blindness
 
     `hedvar_rapid_serial_visual_presentation__emotion_induced_blindness`
-  - Emotionally arousing distractor (e.g., threat image) impairs detection of a subsequent neutral target. Emotional analogue of the attentional blink. Most et al. (2005).
+  - The stream is made of pictures, and an emotionally arousing picture (such as a violent or erotic scene) appears shortly before the target picture that must be reported. The emotional distractor makes the following target harder to see.
   - Emotional T1 causes blindness to T2; retained per §5.1 (EMOT retired)
 * - Rapid Scene Categorization
 
     `hedvar_rapid_serial_visual_presentation__rapid_scene_categorization`
-  - Natural scene images presented at high rates (20 ms per image); participants detect a target category (animal, vehicle). Demonstrates rapid perceptual gist extraction. Potter (1976).
+  - Photographs of natural scenes are shown at very high rates (down to about 20 ms per picture), and the participant reports whether a picture from a target category, such as an animal, appeared. Shows how quickly the gist of a scene is extracted.
   - Categorize natural scenes at rapid presentation rates; different stimulus class
 * - RSVP Image Triage (BCI)
 
     `hedvar_rapid_serial_visual_presentation__rsvp_image_triage_bci`
-  - Participants view rapid streams of images (e.g., satellite imagery, surveillance footage) while EEG detects P300 responses to target-category images. Used in brain-computer interface applications for rapid image screening.
+  - Images such as satellite photographs are shown in a rapid stream while electroencephalography is recorded, and the brain response to target images is used to flag them, without the participant pressing anything. Used in brain-computer interface research for screening large image sets.
   - Brain-computer interface using RSVP for rapid image tagging; different application and response structure
 * - Triple-RSVP (Multiple Streams)
 
     `hedvar_rapid_serial_visual_presentation__triple_rsvp_multiple_streams`
-  - Three concurrent RSVP streams; target can appear in any stream. Increases target detection rate for BCI applications; adds spatial competition to temporal attention demands.
+  - Three streams run at once at different positions on the screen, and a target may appear in any of them. The participant must monitor all three, which adds spatial demands to the rapid timing.
   - Three simultaneous streams; different attentional load structure
 * - Whole-Report RSVP
 
     `hedvar_rapid_serial_visual_presentation__whole_report_rsvp`
-  - Report all items from a short RSVP stream (4-8 items). Measures visual short-term memory capacity under rapid presentation conditions.
+  - A short stream of four to eight items is shown and the participant reports all of them, not just designated targets. Measures how many rapidly shown items can be captured and held.
   - Report all items seen; different response requirement
 * - RSVP with Task Switch
 
     `hedvar_rapid_serial_visual_presentation__rsvp_with_task_switch`
-  - T1 and T2 require different judgments (e.g., identify T1 letter, detect T2 presence). Task switch between targets amplifies the attentional blink.
+  - The two targets require different judgments, such as naming the first and reporting whether the second was present, so the participant must change what they are doing between the targets.
   - Task changes within or between streams; adds switching demand
 * - Detection vs. Identification
 
     `hedvar_rapid_serial_visual_presentation__detection_vs_identification`
-  - T2 requiring simple presence detection vs. full identity report; manipulates the depth of processing needed to reveal the blink.
+  - For the second target the participant either just reports whether it was there or has to say which item it was. The blink is measured with each kind of report.
   - Detect presence vs. identify identity; different judgment type
 * - Three-Target Variant
 
     `hedvar_rapid_serial_visual_presentation__three_target_variant`
-  - Third target added to probe extended temporal limits of attention beyond the standard T1-T2 paradigm.
+  - Three targets are placed in the stream rather than two, and the participant reports all three, to probe how attention recovers across a longer sequence of targets.
   - Three targets in stream; extends AB to three-target scenario
 * - Cross-Modal Attentional Blink
 
     `hedvar_rapid_serial_visual_presentation__cross_modal_attentional_blink`
-  - Targets in different modalities (e.g., auditory T1, visual T2); tests whether the attentional bottleneck is supramodal.
+  - The first target is in one sense and the second in another, for example a spoken target followed by a visual one, to test whether the blink occurs when the two targets use different senses.
   - T1 and T2 in different modalities; tests cross-modal attentional resources
 * - Emotional Attentional Blink
 
     `hedvar_rapid_serial_visual_presentation__emotional_attentional_blink`
-  - Emotional stimuli (faces, words) as T1 or T2; emotional targets modulate blink magnitude. Distinct from emotion-induced blindness (which uses emotional distractors).
+  - The targets themselves are emotional, such as emotional words or faces that must be reported, rather than emotional distractors. Emotional second targets are missed less often than neutral ones.
   - Emotional T2; retained per §5.1 (EMOT retired)
 * - Spatial Two-Stream RSVP
 
     `hedvar_rapid_serial_visual_presentation__spatial_two_stream_rsvp`
-  - Two concurrent RSVP streams at different locations; targets may appear in either stream, separating spatial and temporal attention limits.
+  - Two streams run at once at different positions, and the two targets may appear in the same stream or in different ones. Separates the costs of shifting attention in time from the costs of shifting it in space.
   - Two streams at different spatial locations; tests spatial attention in RSVP
 ```
 

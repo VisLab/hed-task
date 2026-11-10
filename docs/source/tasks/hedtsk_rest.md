@@ -58,12 +58,12 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Eyes-Open Rest
 
     `hedvar_rest__eyes_open_rest`
-  - Rest with eyes open, usually with a fixation cross or a blank screen.
+  - The participant sits or lies still for several minutes with eyes open, usually looking at a fixation cross or a blank screen, with nothing to do.
   - Eye state changes visual input and the EEG alpha rhythm; a different postural state for the whole block
 * - Eyes-Closed Rest
 
     `hedvar_rest__eyes_closed_rest`
-  - Rest with eyes closed.
+  - The participant sits or lies still for several minutes with eyes closed and nothing to do, while staying awake.
   - Eye state changes visual input and the EEG alpha rhythm; removes eye-movement artifact and raises the risk of drowsiness
 ```
 

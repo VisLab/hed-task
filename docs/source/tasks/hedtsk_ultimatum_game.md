@@ -52,47 +52,47 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Ultimatum
 
     `hedvar_ultimatum_game__standard_ultimatum`
-  - Two-player, single-shot; proposer offers, responder accepts/rejects.
+  - One player (the proposer) is given a sum and offers a split to a second player (the responder). If the responder accepts, both get the proposed amounts; if the responder rejects, neither gets anything. Responders typically reject offers much below a fair share even though rejecting costs them money.
   - Canonical: proposer offers split, responder accepts/rejects
 * - Strategy Method
 
     `hedvar_ultimatum_game__strategy_method`
-  - Responder specifies minimum acceptable offer for all possible offers.
+  - Instead of reacting to one actual offer, the responder states in advance the smallest offer they would accept, or gives an accept-or-reject answer for every possible offer. The proposer's actual offer is then matched against these answers.
   - Responder states acceptance threshold for all possible offers; different elicitation
 * - Multi-Round Ultimatum
 
     `hedvar_ultimatum_game__multi_round_ultimatum`
-  - Repeated interactions with same partner; reputation effects.
+  - The same two players repeat the game over several rounds, possibly swapping roles, so that offers and rejections can respond to what happened in earlier rounds.
   - Repeated rounds; tests learning and adaptation
 * - Third-Party Punishment
 
     `hedvar_ultimatum_game__third_party_punishment`
-  - Observer can punish unfair proposer at personal cost.
+  - An observer who is not part of the split can spend some of their own money to reduce the proposer's earnings after seeing an unfair offer. Measures willingness to punish unfairness that does not affect oneself.
   - Observer can punish unfair proposer; adds external enforcement
 * - Proposer Competition
 
     `hedvar_ultimatum_game__proposer_competition`
-  - Multiple proposers compete with offers to one responder.
+  - Several proposers each make an offer to a single responder, who can accept at most one. Competition pushes offers toward more generous splits.
   - Multiple proposers compete for responder; changes market structure
 * - Asymmetric Information
 
     `hedvar_ultimatum_game__asymmetric_information`
-  - Endowment size unknown to one party.
+  - The responder does not know the size of the sum being divided, or the proposer does not know what the responder knows, so offers can be judged only on their absolute size.
   - Responder does not know pie size; different information structure
 * - Stake Variation
 
     `hedvar_ultimatum_game__stake_variation`
-  - Varying endowment size from $1 to $100+.
+  - The sum to be divided is varied from a dollar or two up to large amounts (sometimes a month's wages in low-income settings), to see whether rejection of unfair offers persists when the cost of rejecting is high.
   - Systematically varies total pie size; tests stake sensitivity
 * - Anonymous vs. Identified Partners
 
     `hedvar_ultimatum_game__anonymous_vs_identified_partners`
-  - Varying social distance and information about partner.
+  - Players either remain anonymous or learn who their partner is, see a photo, or meet them, which changes how accountable each feels for their choices.
   - Social identification changes accountability
 * - Ultimatum with Earned vs. Windfall Endowment
 
     `hedvar_ultimatum_game__ultimatum_with_earned_vs_windfall_endowment`
-  - Effort-based vs. random allocation.
+  - Before the game the proposer either earns the sum by doing a task or is simply given it. Proposers who earned the money tend to offer less and responders tend to accept lower offers.
   - Endowment from effort vs. luck; changes perceived legitimacy
 ```
 

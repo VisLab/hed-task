@@ -53,27 +53,27 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Heartbeat Counting (Schandry)
 
     `hedvar_heartbeat_detection__heartbeat_counting_schandry`
-  - Count heartbeats silently during timed intervals. The most widely used variant. Criticized for confounding true perception with beliefs about heart rate.
+  - The participant sits quietly and, between a start and stop signal, silently counts their own heartbeats without feeling for a pulse. The count is compared with the number of beats recorded by an electrocardiogram over intervals of about 25 to 60 seconds.
   - Count heartbeats over interval; canonical interoception measure
 * - Heartbeat Discrimination (Whitehead)
 
     `hedvar_heartbeat_detection__heartbeat_discrimination_whitehead`
-  - Judge whether a tone is synchronous or asynchronous with the heartbeat. Signal-detection measure (d-prime). Less susceptible to belief confounds than counting.
+  - A series of tones is played, each triggered by a heartbeat either immediately or after a delay, so the tones are in time with the heart or slightly out of step. The participant judges whether the tones were synchronous with their heartbeat.
   - Judge whether tone is synchronous with heartbeat; different detection task
 * - Confidence-Accuracy Paradigm
 
     `hedvar_heartbeat_detection__confidence_accuracy_paradigm`
-  - Garfinkel et al. (2015) three-dimensional model: accuracy (objective performance), sensibility (self-report belief about interoceptive ability), and awareness (metacognitive correspondence between accuracy and sensibility).
+  - After each counting or discrimination trial the participant also rates how confident they are in their answer, and separately fills in a questionnaire about how aware of bodily sensations they generally are. The match between confidence and accuracy is a third measure alongside the two.
   - Sole confidence-rating exception per §5.5; Garfinkel et al. (2015) interoception model
 * - Interoceptive Attention Manipulation
 
     `hedvar_heartbeat_detection__interoceptive_attention_manipulation`
-  - Alternate between interoceptive focus (attend to heartbeat) and exteroceptive focus (attend to external stimuli). Compares directed vs. incidental cardiac processing.
+  - In some blocks the participant is told to attend to their heartbeat, and in others to attend to an external stimulus such as a tone or a visual display, while heartbeats and brain responses to them are recorded. Compares cardiac processing with and without attention on it.
   - Instructions to attend to vs. distract from heartbeat; changes attentional focus
 * - Respiratory Interoception Variant
 
     `hedvar_heartbeat_detection__respiratory_interoception_variant`
-  - Breathing resistance detection (inspiratory loading) as a complementary interoceptive channel. Tests whether interoceptive accuracy is domain-general or modality-specific.
+  - The participant breathes through a mouthpiece and on some breaths a small resistance is added. They report whether each breath was harder than normal, and the smallest resistance they can detect is the measure. Tests sensitivity to breathing rather than to the heart.
   - Respiratory signals instead of cardiac; different physiological channel
 ```
 

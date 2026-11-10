@@ -53,42 +53,42 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Verbal N-Back
 
     `hedvar_n_back__verbal_n_back`
-  - Letters, digits, or words as stimuli; engages phonological loop.
+  - Letters appear one at a time, about one every two seconds. The participant presses a key whenever the current letter is the same as the one shown n items earlier (for example two back). The level n sets the difficulty.
   - Letters or words; phonological working memory
 * - Spatial N-Back
 
     `hedvar_n_back__spatial_n_back`
-  - Stimulus position changes across locations; engages visuospatial sketchpad.
+  - A square appears at one of several positions in a grid, and the participant responds when the current position matches the position n items earlier. The identity of the stimulus does not matter, only where it was.
   - Locations instead of letters; visuospatial working memory
 * - Emotional N-Back
 
     `hedvar_n_back__emotional_n_back`
-  - Emotional faces or affective words; probes emotion-cognition interaction in WM.
+  - The items are faces with emotional expressions or emotional words, and the participant matches on identity or expression n items back, so that memory updating is measured with emotional content.
   - Emotional stimuli; retained per §5.1 (EMOT retired)
 * - Dual N-Back
 
     `hedvar_n_back__dual_n_back`
-  - Two independent streams (e.g., auditory + spatial) simultaneously; used in WM training.
+  - Two streams run at once: a square moving among grid positions and a spoken letter on each trial. The participant responds separately when the position matches n back and when the letter matches n back. Used mainly in working memory training studies.
   - Simultaneous visual and auditory streams; recognized named paradigm (Jaeggi et al., 2008)
 * - Fractal/Object N-Back
 
     `hedvar_n_back__fractal_object_n_back`
-  - Complex non-verbal stimuli (fractals, abstract patterns); reduces verbal coding strategies.
+  - The items are abstract patterns, fractals or unfamiliar shapes that have no easy name, so the participant cannot rehearse them verbally and must hold them as images.
   - Complex visual objects; different stimulus type
 * - Adaptive N-Back
 
     `hedvar_n_back__adaptive_n_back`
-  - Difficulty adjusts to performance; maintains ~80% accuracy across ability levels.
+  - The level n goes up after a block done well and down after a block done poorly, so each participant works at a level that keeps accuracy near a set target, typically around 80 percent.
   - N-level adjusts with performance; changes task difficulty trajectory
 * - N-Back with Lures
 
     `hedvar_n_back__n_back_with_lures`
-  - Include items matching at n±1 positions (lures) to increase interference and diagnostic sensitivity.
+  - The sequence is built to include items that match the one shown n-1 or n+1 items earlier, which feel familiar but are not targets. Rejecting these requires knowing exactly where in the sequence each item was.
   - Near-miss stimuli create high interference; changes task demand
 * - Auditory N-Back
 
     `hedvar_n_back__auditory_n_back`
-  - Tones, phonemes, or spoken words; auditory working memory.
+  - The items are heard rather than seen, for example tones of different pitch or spoken letters, and the participant responds when the current sound matches the one n items earlier.
   - Auditory tones or words; different sensory modality
 ```
 

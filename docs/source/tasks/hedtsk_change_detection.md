@@ -50,37 +50,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Color Change Detection
 
     `hedvar_change_detection__standard_color_change_detection`
-  - Colored squares; whole-array test (same/different judgment).
+  - A few colored squares appear briefly, the screen goes blank for about a second, and the squares reappear. On half the trials one square has changed color. The participant reports whether anything changed. Accuracy at different numbers of squares gives an estimate of how many items can be held in mind.
   - Canonical flicker paradigm: colored squares change across blank; whole/partial report
 * - Single-Probe Change Detection
 
     `hedvar_change_detection__single_probe_change_detection`
-  - Only one item presented at test; reduces spatial comparison demands.
+  - After the blank interval only one square reappears, at one of the original locations, and the participant reports whether that one square is the same or different. This removes the need to compare the whole display.
   - Post-array probe tests one item; different response structure from whole-display report
 * - Orientation Change Detection
 
     `hedvar_change_detection__orientation_change_detection`
-  - Oriented bars instead of colors; probes non-color feature binding.
+  - The items are tilted bars rather than colored squares, and a change is a bar rotating to a new angle. Everything else is as in the color version.
   - Orientation feature instead of color; different perceptual dimension
 * - Conjunction Change Detection
 
     `hedvar_change_detection__conjunction_change_detection`
-  - Stimuli defined by feature conjunctions (color+orientation); tests feature binding.
+  - Each item has two features, such as a color and an orientation, and a change can swap features between items or alter one feature. The participant must remember which color went with which orientation, not just which features were present.
   - Conjunctions of features can change; higher-order binding demand
 * - Change Detection with Filtering
 
     `hedvar_change_detection__change_detection_with_filtering`
-  - Irrelevant items present alongside targets; measures filtering efficiency.
+  - The display includes items the participant is told to ignore (for example, remember only the red bars, not the blue ones). Memory for the relevant items is then compared with a display that had no distractors, measuring how well the irrelevant items were kept out.
   - Some items task-relevant, others to be ignored; adds selective attention demand
 * - Continuous Report / Precision Task
 
     `hedvar_change_detection__continuous_report_precision`
-  - Report the feature value (color angle) of a probed item on a continuous scale; measures precision vs. capacity.
+  - Instead of a same-or-different answer, one location is probed and the participant reproduces the remembered feature exactly, for example by clicking the remembered color on a color wheel. The spread of errors measures how precise each memory is.
   - Participant reports exact remembered value on continuous wheel; different response format
 * - Sequential Presentation
 
     `hedvar_change_detection__sequential_presentation`
-  - Items encoded one at a time; changes encoding from parallel to serial.
+  - The items are shown one after another rather than all at the same time, and the test display follows the last item. Memory must be built up serially instead of from a single glance.
   - Items presented serially before test; different encoding structure
 ```
 

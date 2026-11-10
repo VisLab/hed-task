@@ -53,22 +53,22 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard 10-Minute PVT
 
     `hedvar_psychomotor_vigilance__standard_10_minute_pvt`
-  - 10 minutes with 2–10 second random ISI; gold-standard protocol.
+  - For ten minutes the participant watches a screen and presses a button as fast as possible whenever a counter or light appears, which happens at random intervals of two to ten seconds. Responses slower than 500 ms are counted as lapses and presses before the stimulus as false starts.
   - Canonical 10-min RT task with variable ISI
 * - Brief PVT (PVT-B)
 
     `hedvar_psychomotor_vigilance__brief_pvt_pvt_b`
-  - 3-minute version; validated against standard for most outcome metrics.
+  - A three-minute version with shorter waits between stimuli (one to four seconds) and a lapse threshold of 355 ms, designed for repeated testing when ten minutes is too long.
   - 3-min version; recognized published abbreviated instrument
 * - Palm PVT / Mobile PVT
 
     `hedvar_psychomotor_vigilance__palm_pvt_mobile_pvt`
-  - Handheld or smartphone implementations for field use.
+  - The task runs on a handheld device or smartphone, with a tap on the screen as the response, so it can be used outside the laboratory, for example in sleep studies at home or in the field.
   - Handheld or mobile device; different motor and environmental context
 * - Auditory PVT
 
     `hedvar_psychomotor_vigilance__auditory_pvt`
-  - Respond to auditory tones instead of visual stimuli.
+  - The stimulus is a tone through headphones rather than a visual signal, and the participant presses the button as soon as the tone is heard. Usable with eyes closed or in darkness.
   - Auditory tone instead of visual stimulus; different sensory modality
 ```
 

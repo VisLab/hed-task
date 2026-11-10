@@ -51,37 +51,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Arrow Flanker (Standard)
 
     `hedvar_eriksen_flanker__arrow_flanker_standard`
-  - Five horizontally arranged arrows; identify central arrow direction while ignoring flanking arrows.
+  - Five arrows appear in a row. The participant presses a left or right key for the direction of the middle arrow. The outer arrows point the same way (congruent) or the opposite way (incongruent), and responses are slower and less accurate when they conflict.
   - Canonical flanker: central arrow surrounded by congruent/incongruent arrows
 * - Letter Flanker
 
     `hedvar_eriksen_flanker__letter_flanker`
-  - Letters (e.g., 'H' among 'S' letters) rather than arrows; the original Eriksen format.
+  - The row consists of letters, and the participant presses one key for a central H and another for a central S (for example). The flanking letters belong to the same response as the center or to the other one. This is the original 1974 form of the task.
   - Letter stimuli instead of arrows; different S-R mapping and stimulus class
 * - Color Flanker
 
     `hedvar_eriksen_flanker__color_flanker`
-  - Respond to central stimulus color while ignoring flanking colors.
+  - The participant responds to the color of a central patch or item while the flanking items are the same or a different color linked to the other response.
   - Color response with flanking distractors; different response dimension
 * - Emotional Flanker
 
     `hedvar_eriksen_flanker__emotional_flanker`
-  - Emotional faces or images as flankers creating affective interference.
+  - The central item and the flankers are faces or pictures with emotional expressions. The participant classifies the central item's emotion while the flanking items show the same or a different emotion.
   - Emotional face flankers; retained per §5.1 (EMOT retired)
 * - Numerical Flanker
 
     `hedvar_eriksen_flanker__numerical_flanker`
-  - Digit stimuli where flanker magnitude creates conflict with target digit processing.
+  - The items are digits, and the participant judges the central digit, for example whether it is larger or smaller than 5, while flanking digits fall on the same or the other side of 5.
   - Number stimuli with magnitude response; different S-R domain
 * - Proportion-Congruent Flanker
 
     `hedvar_eriksen_flanker__proportion_congruent_flanker`
-  - Varying ratio of congruent to incongruent trials; modulates strategic control engagement.
+  - The share of conflicting trials is changed between blocks, for example 80 percent congruent in one block and 20 percent in another. Conflict effects shrink when conflict is common, because the participant learns to focus more narrowly.
   - Varies ratio of congruent to incongruent trials; changes conflict adaptation context per §5.2
 * - Combined Flanker + Go/No-Go
 
     `hedvar_eriksen_flanker__combined_flanker_go_no_go`
-  - Flanker conflict combined with response inhibition demands.
+  - On most trials the participant responds to the central item as usual, but on some trials a feature of the display (for example a particular color) signals that no response should be made. The task measures withholding a response under flanker conflict.
   - Integrated flanker-GNG design; targets response inhibition under conflict
 ```
 

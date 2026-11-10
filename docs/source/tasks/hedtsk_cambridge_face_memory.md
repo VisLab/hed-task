@@ -48,32 +48,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - CFMT-Original
 
     `hedvar_cambridge_face_memory__cfmt_original`
-  - Six Caucasian male faces; 72 trials across three difficulty phases.
+  - The participant learns six unfamiliar male faces, then picks each from sets of three in three stages: the same images, new images with different views and lighting, and new images degraded with visual noise. Seventy-two trials in all.
   - Canonical 72-item CFMT with novel face learning phases
 * - CFMT-Australian (CFMT+)
 
     `hedvar_cambridge_face_memory__cfmt_australian_cfmt`
-  - Extended version with additional difficult trials; better ceiling.
+  - The same procedure with a different set of faces and an added fourth stage of harder, noisier trials, which prevents the best performers from hitting the maximum score.
   - Australian race face set; assesses own-race advantage with matched procedure
 * - CFMT-Cars
 
     `hedvar_cambridge_face_memory__cfmt_cars`
-  - Vehicle stimuli replacing faces; controls for domain-general visual memory.
+  - The same learn-and-recognize procedure using images of cars instead of faces. Comparing it with the face version shows whether a person's difficulty is specific to faces or extends to visual memory in general.
   - Cars instead of faces; object recognition control condition with same task structure
 * - CFMT-Inverted
 
     `hedvar_cambridge_face_memory__cfmt_inverted`
-  - Upside-down faces to measure inversion effect as an index of holistic processing.
+  - All face images are shown upside down throughout learning and testing. Upside-down faces are much harder to recognize, and the size of the drop measures how much the participant relies on seeing the face as a whole.
   - Inverted face stimuli; disrupts configural processing; distinct task demand
 * - Cambridge Face Perception Test (CFPT)
 
     `hedvar_cambridge_face_memory__cambridge_face_perception_test_cfpt`
-  - Companion test measuring perceptual face processing (not memory).
+  - A companion task with no memory component. The participant sees a target face and six faces that have been morphed to resemble it to different degrees, and sorts the six by similarity to the target.
   - Morph-ordering perception task instead of recognition; different participant operation
 * - Short-Form CFMT
 
     `hedvar_cambridge_face_memory__short_form_cfmt`
-  - Abbreviated versions for screening.
+  - A shortened version with fewer trials for quick screening of face recognition ability, following the same learn-then-choose procedure.
   - Abbreviated item set for screening; recognized published short-form instrument
 ```
 

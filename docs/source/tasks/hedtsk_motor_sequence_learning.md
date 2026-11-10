@@ -52,42 +52,42 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Discrete Sequence Production (DSP)
 
     `hedvar_motor_sequence_learning__discrete_sequence_production_dsp`
-  - Execute learned sequences from memory as fast as possible.
+  - The participant is shown a short sequence of key presses (such as 4-1-3-2-4), memorizes it, and then types it from memory over and over as fast and accurately as possible. Improvement in speed across trials and sessions is the learning measure.
   - Canonical pre-learned sequence executed rapidly; measures chunking
 * - Serial Reaction Time Task variant
 
     `hedvar_motor_sequence_learning__serial_reaction_time_task_variant`
-  - Implicit sequence learning via stimulus-response mapping.
+  - Each key press is cued by a stimulus appearing at one of several positions, and unknown to the participant the positions follow a repeating sequence. Learning shows up as faster responses that slow again when the sequence is replaced by random positions. Cataloged in its own right as the Serial Reaction Time Task.
   - Implicit learning via RT advantages for repeating sequences
 * - Finger Opposition Task
 
     `hedvar_motor_sequence_learning__finger_opposition`
-  - Sequential thumb-to-finger tapping in fixed patterns.
+  - The participant touches the thumb to the other fingers of the same hand in a fixed order (for example index, ring, middle, little) repeatedly, without keys. Often used in brain imaging because it needs no equipment.
   - Thumb-to-finger opposition sequences; different finger movement type
 * - Bimanual Coordination
 
     `hedvar_motor_sequence_learning__bimanual_coordination`
-  - Both hands performing complementary or conflicting sequences.
+  - Both hands perform sequences at the same time, either the same sequence in mirror fashion or two different sequences, so that learning includes coordinating the hands.
   - Both hands performing sequences; interlimb coordination demands
 * - Explicit vs. Implicit Sequence Learning
 
     `hedvar_motor_sequence_learning__explicit_vs_implicit_sequence_learning`
-  - Participants aware vs. unaware of sequence structure.
+  - One group is shown the sequence and told to learn it; the other performs the same key presses without being told there is a sequence. Compares deliberate learning with learning that happens without awareness.
   - Aware vs. unaware of sequence structure; different instruction and learning mechanism
 * - Sequence Complexity Manipulation
 
     `hedvar_motor_sequence_learning__sequence_complexity_manipulation`
-  - Simple (4-element) to complex (12-element) sequences.
+  - Sequences of different lengths or structures are learned, from four elements up to twelve or more, to see how learning rate and the way the sequence is broken into chunks depend on complexity.
   - Varies sequence length and structure; tests learning as function of complexity
 * - Transfer Tests
 
     `hedvar_motor_sequence_learning__transfer_tests`
-  - Testing learned sequences with different effectors or in mirror configuration.
+  - After practice, the learned sequence is performed with the other hand, with different fingers, or in a mirror-reversed form. How much of the speed-up carries over shows whether what was learned is the order of the movements or the movements themselves.
   - Probe what was learned by testing with modified sequence; different test phase structure
 * - Continuous Tracking + Sequence
 
     `hedvar_motor_sequence_learning__continuous_tracking_sequence`
-  - Pursuit-tracking task with embedded repeating segments.
+  - The participant continuously follows a moving target with a joystick or mouse. Part of the target's path repeats on every trial without the participant being told, and tracking becomes more accurate on the repeated segment.
   - Sequence embedded in continuous tracking; tests incidental learning during ongoing task
 ```
 

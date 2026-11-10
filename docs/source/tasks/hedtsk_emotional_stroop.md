@@ -48,32 +48,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Threat-Related Emotional Stroop
 
     `hedvar_emotional_stroop__threat_related_emotional_stroop`
-  - Threat words (anxiety, death, danger) in different ink colors.
+  - Words printed in different ink colors are shown one at a time, and the participant names the ink color while ignoring the word. Some words are threatening (such as death, attack, failure) and others neutral. Slower color naming for threat words indicates the word's meaning captured attention.
   - Threat words produce interference; canonical emotional Stroop design
 * - Disorder-Specific Variants
 
     `hedvar_emotional_stroop__disorder_specific_variants`
-  - Tailored word sets for PTSD (trauma words), depression (loss words), addiction (substance words), eating disorders (body words).
+  - The emotional words are chosen to match a particular clinical concern, for example trauma words for post-traumatic stress disorder, body and food words for eating disorders, or alcohol words for drinking problems. The participant still names ink colors.
   - Stimulus set tailored to specific disorder (e.g., spider phobia words); different content domain
 * - Positive vs. Negative Emotional Stroop
 
     `hedvar_emotional_stroop__positive_vs_negative_emotional_stroop`
-  - Comparing interference from positive and negative words.
+  - Pleasant words are included alongside unpleasant and neutral words, so that slowing can be compared for positive and negative content.
   - Positive stimuli alongside negative; tests valence symmetry of interference
 * - Pictorial Emotional Stroop
 
     `hedvar_emotional_stroop__pictorial_emotional_stroop`
-  - Emotional images rather than words with color overlays.
+  - Emotional and neutral pictures are shown with a colored border, tint or overlay, and the participant names the color while ignoring the picture.
   - Emotional pictures instead of words; different stimulus modality
 * - Subliminal Emotional Stroop
 
     `hedvar_emotional_stroop__subliminal_emotional_stroop`
-  - Briefly masked emotional words to test unconscious processing.
+  - Each emotional or neutral word is flashed very briefly and then covered by a colored mask or letter string, and the participant names the color of the mask. The participant cannot consciously read the word.
   - Masked words below awareness; changes conscious access to emotional stimuli
 * - Face-Word Emotional Stroop
 
     `hedvar_emotional_stroop__face_word_emotional_stroop`
-  - Emotional faces with incongruent emotion labels.
+  - A face with an emotional expression is shown with an emotion word (such as HAPPY or ANGRY) written across it. The participant names the face's expression while ignoring the word, or reads the word while ignoring the face, and conflict between the two slows responses.
   - Emotional faces paired with color words; cross-domain emotional conflict
 ```
 

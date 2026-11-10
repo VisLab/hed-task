@@ -54,62 +54,62 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Delay Conditioning
 
     `hedvar_pavlovian_fear_conditioning__delay_conditioning`
-  - CS co-terminates with US; standard amygdala-dependent paradigm.
+  - A neutral cue such as a colored shape or tone is presented for several seconds, and a mild electric shock or loud noise arrives at the end of the cue while it is still on. After several pairings the cue alone produces a fear response such as increased skin conductance.
   - CS and US overlap; canonical associative fear learning
 * - Trace Conditioning
 
     `hedvar_pavlovian_fear_conditioning__trace_conditioning`
-  - Temporal gap between CS offset and US onset; hippocampus-dependent.
+  - The cue ends and there is a silent gap of a few seconds before the shock arrives, so the participant must bridge the gap in memory to link cue and shock. Harder to learn than the overlapping version.
   - Trace interval between CS offset and US onset; different temporal structure
 * - Contextual Conditioning
 
     `hedvar_pavlovian_fear_conditioning__contextual_conditioning`
-  - Context (room, background) becomes CS; hippocampus-dependent.
+  - No discrete cue predicts the shock. Instead shocks occur at unpredictable times in a particular setting, such as one of two virtual rooms or a background color, and fear becomes attached to the setting itself.
   - Context (environment) as CS; different stimulus type
 * - Differential Conditioning (CS+/CS−)
 
     `hedvar_pavlovian_fear_conditioning__differential_conditioning_cs_cs`
-  - Two CSs—one paired, one unpaired; standard design for specificity.
+  - Two cues are used: one is followed by the shock and the other never is. Fear to the paired cue minus fear to the safe cue shows that the participant learned the specific prediction, not just a general wariness.
   - Two CSs with different US contingencies; adds discrimination demand
 * - Extinction Training
 
     `hedvar_pavlovian_fear_conditioning__extinction_training`
-  - CS+ presented without US after acquisition; new inhibitory learning.
+  - After conditioning, the cue is presented many times without any shock. The fear response gradually fades as the participant learns that the cue no longer predicts the shock.
   - CS presented without US; tests extinction learning
 * - Extinction Recall
 
     `hedvar_pavlovian_fear_conditioning__extinction_recall`
-  - Testing extinction retention after delay (typically 24 hours); probes consolidation.
+  - A day or more after extinction, the cue is presented again without shock. Whether the fear stays low or returns measures how well the extinction learning was retained.
   - Test of extinguished fear after delay; different memory phase
 * - Renewal (Context Change)
 
     `hedvar_pavlovian_fear_conditioning__renewal_context_change`
-  - After extinction, return to acquisition context; fear returns.
+  - Conditioning takes place in one setting and extinction in another. The cue is then tested back in the original setting (or a new one), where the fear response typically returns, showing extinction is tied to where it happened.
   - Extinguished CS tested in new context; tests context-specificity of extinction
 * - Reinstatement
 
     `hedvar_pavlovian_fear_conditioning__reinstatement`
-  - Unsignaled US presentation after extinction; assesses fear recovery.
+  - After extinction, a few shocks are given with no cue present. When the cue is then tested, the fear response comes back even though the cue was never paired again.
   - Unsignaled US presentations revive extinguished fear; different recovery procedure
 * - Reconsolidation Paradigm
 
     `hedvar_pavlovian_fear_conditioning__reconsolidation_paradigm`
-  - Brief CS re-exposure during reconsolidation window followed by extinction; targets memory updating.
+  - A day after conditioning, the cue is presented once to reactivate the memory, and extinction training follows within a window of about ten minutes to a few hours. Extinction given in this window can prevent fear from returning later.
   - Reactivation + interference during reconsolidation; different intervention timing
 * - Generalization Gradient
 
     `hedvar_pavlovian_fear_conditioning__generalization_gradient`
-  - Testing stimuli that vary parametrically from CS+; maps fear generalization.
+  - After conditioning to one cue (for example a circle of a given size), cues that differ from it by increasing amounts are tested. Plotting fear against similarity shows how far fear spreads to similar things.
   - CS-similar stimuli tested; measures perceptual generalization
 * - Instructed vs. Uninstructed
 
     `hedvar_pavlovian_fear_conditioning__instructed_vs_uninstructed`
-  - Explicit information about CS-US contingency vs. learning through experience only.
+  - Some participants are told in advance which cue will be followed by shock; others find out only by experience. Compares fear learned through words with fear learned through direct experience.
   - Verbal instruction about CS-US relationship; tests instructed vs. experiential fear
 * - Compound CS Conditioning
 
     `hedvar_pavlovian_fear_conditioning__compound_cs_conditioning`
-  - Multiple cues paired with US; tests configural vs. elemental learning.
+  - Two or more cues are presented together (such as a light and a tone) before the shock. Later the cues are tested separately and together to see whether the participant learned about each element or about the combination.
   - CS compound with multiple elements; different stimulus structure
 ```
 

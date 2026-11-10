@@ -50,57 +50,57 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Sally-Anne / Change-of-Location
 
     `hedvar_false_belief__sally_anne_change_of_location`
-  - Classic location-change false belief.
+  - A story, usually acted with dolls or pictures: Sally puts a marble in her basket and leaves. Anne moves it to a box. Sally returns, and the child is asked where Sally will look for the marble. The correct answer is the basket, because Sally does not know it was moved.
   - Classic change-of-location false belief; canonical ToM paradigm
 * - Unexpected Contents (Smarties/Crayon Box)
 
     `hedvar_false_belief__unexpected_contents_smarties_crayon_box`
-  - Deceptive container contents; test belief prediction.
+  - The child is shown a familiar candy box and asked what is inside, then shown it actually contains pencils. The child is asked what a friend who has not looked inside will think it contains, and sometimes what they themselves first thought.
   - Container with unexpected content; different scenario structure
 * - Second-Order False Belief
 
     `hedvar_false_belief__second_order_false_belief`
-  - "She thinks that he thinks..." Multi-level recursion.
+  - The story involves one character's belief about another character's belief, for example 'Where does John think Mary will look for the ice-cream van?'. The participant must track a belief about a belief.
   - Belief about another's belief; higher-order recursive ToM
 * - Diverse Beliefs Task
 
     `hedvar_false_belief__diverse_beliefs`
-  - Multiple agents with different beliefs.
+  - A simpler task from the same series: two characters believe different things about the same object (for example where a cat is hiding), neither known to be true, and the child predicts how a character will act on their own belief.
   - Two agents with different beliefs about same object; tests belief diversity understanding
 * - Implicit False Belief (Looking Time)
 
     `hedvar_false_belief__implicit_false_belief_looking_time`
-  - Violation-of-expectation paradigms for preverbal infants.
+  - For infants who cannot answer questions. The infant watches a scene in which an actor searches either where they should believe an object is or where it really is, and looking time is recorded. Longer looking at the action inconsistent with the actor's belief indicates surprise.
   - Looking time measure of anticipation; no verbal response required
 * - Anticipatory Looking
 
     `hedvar_false_belief__anticipatory_looking`
-  - Eye-tracking measures of predictive belief processing.
+  - An eye tracker records where the participant looks just before a character acts. Looking toward the place where the character wrongly believes the object to be shows that the participant has predicted the character's belief, without any verbal answer.
   - Eye-tracking where agent will look; different response modality
 * - Animated Triangles (Heider-Simmel)
 
     `hedvar_false_belief__animated_triangles_heider_simmel`
-  - Social attribution from geometric motion.
+  - Short animations of simple geometric shapes moving in ways that suggest intentions, such as one shape coaxing or chasing another. The participant describes what happened, and the description is scored for how much it attributes mental states to the shapes.
   - Geometric shapes with attributed mental states; different stimulus and attribution task
 * - Cartoon/Story Vignette Tasks
 
     `hedvar_false_belief__cartoon_story_vignette_tasks`
-  - Belief reasoning from narrative contexts.
+  - False-belief situations are presented as written or spoken stories or cartoon strips rather than acted out with props, and the participant answers questions about what a character thinks or will do.
   - Story-based false belief; different presentation format
 * - Belief-Desire Reasoning
 
     `hedvar_false_belief__belief_desire_reasoning`
-  - Combining false beliefs with differing desires.
+  - The character has both a false belief and a particular desire, for example wanting to avoid something they wrongly think is in a certain place. The participant must combine what the character wants with what the character believes to predict the action.
   - Combines belief and desire attribution; more complex ToM reasoning
 * - Adult False Belief with Reaction Time
 
     `hedvar_false_belief__adult_false_belief_with_reaction_time`
-  - Adapted for adults using stories or videos with reaction-time dependent measures.
+  - Adults read or watch many short false-belief scenarios and answer quickly by key press. Because adults are at ceiling on accuracy, response time is the measure, often compared with matched scenarios that need no belief reasoning.
   - RT version for adults; measures implicit processing speed alongside accuracy
 * - Competitive False Belief (Deception)
 
     `hedvar_false_belief__competitive_false_belief_deception`
-  - Participant must deceive another agent by exploiting their false belief; tests active use of ToM.
+  - The participant plays against another person and can win by creating a false belief in them, for example by pointing to the wrong hiding place. Success requires using the other person's belief rather than just reporting it.
   - Strategic deception context; tests belief reasoning under competitive motivation
 ```
 

@@ -53,47 +53,47 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Hidden Platform (Allocentric)
 
     `hedvar_virtual_morris_water_maze__hidden_platform_allocentric`
-  - Navigate to invisible goal using distal landmarks; hippocampal-dependent.
+  - The participant moves through a virtual circular pool using a joystick or keys, looking for a platform hidden below the surface. Pictures or objects on the surrounding walls are the only guide. They start from different points on each trial and must learn where the platform is relative to the landmarks.
   - Canonical allocentric navigation to hidden platform using distal cues
 * - Visible Platform (Cue-Based)
 
     `hedvar_virtual_morris_water_maze__visible_platform_cue_based`
-  - Navigate to visible cue; striatal/response learning.
+  - The platform is marked with a visible flag or shown above the surface, so the participant can head straight for it without learning its position from the room. Serves as a control for moving and seeing.
   - Platform marked visibly; cue-based navigation without spatial learning
 * - Probe Trials
 
     `hedvar_virtual_morris_water_maze__probe_trials`
-  - Platform removed; time in target quadrant measures spatial memory.
+  - After learning, the platform is removed without telling the participant and they search for a fixed time. The share of time spent in the quarter of the pool where the platform used to be measures memory for its location.
   - Platform removed; tests memory for trained location
 * - Reversal
 
     `hedvar_virtual_morris_water_maze__reversal`
-  - Platform relocated; tests behavioral flexibility.
+  - After the platform's location has been learned, it is moved to a new place, usually the opposite side, and the participant must stop going to the old place and find the new one.
   - Platform moved to opposite quadrant; tests behavioral flexibility
 * - Dual-Solution Design
 
     `hedvar_virtual_morris_water_maze__dual_solution_design`
-  - Task solvable by allocentric or egocentric strategy; probe trials disambiguate.
+  - The pool is arranged so the platform can be found either by remembering its place relative to the room or by following a route or a nearby landmark. Later probe trials that separate the two cues reveal which strategy the participant used.
   - Landmark and allocentric routes both available; tests strategy preference
 * - Virtual Star Maze
 
     `hedvar_virtual_morris_water_maze__virtual_star_maze`
-  - Y-maze or T-maze alternatives for simpler allocentric/egocentric dissociation.
+  - A maze of corridors radiating from a central area, or a simple Y or T shaped maze, replaces the open pool. The participant learns which arm leads to the goal, and a probe from a new start arm shows whether they learned a place or a turn.
   - Star-shaped corridors in VR; different maze geometry
 * - Path Integration Tasks
 
     `hedvar_virtual_morris_water_maze__path_integration_tasks`
-  - Navigate to remembered location in darkness; tests dead reckoning.
+  - The landmarks are removed or the scene goes dark after the participant has moved along a path, and they must return to the start or point to it using only their sense of how they moved.
   - Navigation without visual landmarks; dead reckoning demand
 * - Large-Scale Virtual Cities
 
     `hedvar_virtual_morris_water_maze__large_scale_virtual_cities`
-  - Naturalistic navigation in complex environments (e.g., Tube map task, Sea Hero Quest).
+  - The environment is a virtual town or a game-like world with streets, buildings and multiple destinations, such as the Sea Hero Quest game, and the participant navigates to goals over longer distances.
   - City-scale environment; different scale and complexity
 * - Boundary-Based vs. Landmark-Based Navigation
 
     `hedvar_virtual_morris_water_maze__boundary_based_vs_landmark_based_navigation`
-  - Distinguishing geometric/boundary cues from feature/landmark cues.
+  - The environment provides either the shape of the enclosure (walls, boundaries) or discrete landmark objects, or both, and these are moved separately on test trials to see which the participant uses to find the goal.
   - Systematically varies cue type; tests geometric vs. landmark navigation
 ```
 

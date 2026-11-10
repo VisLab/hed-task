@@ -52,57 +52,57 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Navon (Blocked)
 
     `hedvar_navon__standard_navon_blocked`
-  - Attend to global or local level in separate blocks.
+  - A large letter made up of small letters is shown, for example a big H built from small Ss. In some blocks the participant identifies the big letter, in others the small letters. People are usually faster with the big letter and are slowed when the two levels disagree.
   - Canonical blocked global/local judgment of hierarchical figures
 * - Mixed/Cued Navon
 
     `hedvar_navon__mixed_cued_navon`
-  - Cue on each trial indicates which level to attend; measures switching between levels.
+  - Whether to report the big or the small letter is signaled by a cue on each trial rather than fixed for a block, so the participant must switch between levels from trial to trial.
   - Trial-by-trial cue indicates level; task-switching demand added
 * - Divided Attention Navon
 
     `hedvar_navon__divided_attention_navon`
-  - Report both global and local identities.
+  - The participant looks for a target letter that may appear at either level, or must report both the big and the small letter, so attention cannot be set to one level in advance.
   - Respond to both levels simultaneously; different attentional demand
 * - Consistent vs. Inconsistent Stimuli
 
     `hedvar_navon__consistent_vs_inconsistent_stimuli`
-  - Same letter at both levels vs. different; inconsistent trials produce interference.
+  - Trials in which the big and small letters are the same (a big H made of small Hs) are compared with trials where they differ (a big H made of small Ss). The slowdown on different-letter trials measures interference between levels.
   - Local and global levels same vs. different; conflict manipulation
 * - Sparse vs. Dense Local Elements
 
     `hedvar_navon__sparse_vs_dense_local_elements`
-  - Number and spacing of local elements varies; affects global percept coherence.
+  - The number and spacing of the small letters making up the big letter is varied. With fewer, more widely spaced elements the big letter is harder to see and the usual advantage for the big letter shrinks.
   - Number of local elements varies; tests density effect on global processing
 * - Emotional Navon
 
     `hedvar_navon__emotional_navon`
-  - Faces or emotional expressions as compound stimuli.
+  - The compound figure is built from faces or emotional pictures, for example a large happy face made of small sad faces, and the participant reports the emotion at the cued level.
   - Emotional faces at global/local level; retained per §5.1 (EMOT retired)
 * - Auditory Navon Analogs
 
     `hedvar_navon__auditory_navon_analogs`
-  - Hierarchically structured tone sequences; global melody vs. local intervals.
+  - The hierarchy is in sound: a short melody (the global level) is made up of smaller note patterns (the local level), and the participant judges either the overall contour or the local pattern.
   - Hierarchical auditory stimuli; different sensory modality
 * - Navon with Priming
 
     `hedvar_navon__navon_with_priming`
-  - Prior exposure to global or local level influences subsequent processing.
+  - A task that requires attending to the big or the small level is performed first, and its effect on a following task is measured. Attending to one level carries over and biases later processing toward that level.
   - Preceding prime influences level processing; temporal context manipulation
 * - Lateralized Presentation
 
     `hedvar_navon__lateralized_presentation`
-  - Stimuli in left vs. right visual field to examine hemispheric effects.
+  - The compound letter is flashed briefly to the left or right of fixation, so that it reaches one hemisphere of the brain first. The right hemisphere tends to favor the big letter and the left the small letters.
   - Stimuli presented to one visual field; tests hemispheric contributions
 * - Navon Figures with Shapes
 
     `hedvar_navon__navon_figures_with_shapes`
-  - Geometric shapes rather than letters; extends the paradigm beyond verbal stimuli.
+  - The compound figures are geometric shapes, such as a large square made of small triangles, rather than letters, so that reading is not involved.
   - Non-letter shapes at global/local level; different stimulus class
 * - Temporal Precedence (Brief Exposure)
 
     `hedvar_navon__temporal_precedence_brief_exposure`
-  - Very brief presentations (50–100 ms) to measure the time course of global vs. local availability.
+  - The compound figure is flashed for only 50 to 100 ms and sometimes masked. At such short exposures the big letter is usually identified more often than the small ones, which shows which level is available first.
   - Brief exposure tests which level is processed first
 ```
 

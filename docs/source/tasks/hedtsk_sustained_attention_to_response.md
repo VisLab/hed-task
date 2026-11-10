@@ -53,42 +53,42 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard SART (Fixed Sequence)
 
     `hedvar_sustained_attention_to_response__standard_sart_fixed_sequence`
-  - Digits 1-9 repeated in a fixed order; No-Go to "3."
+  - The digits 1 to 9 appear one at a time, about one per second, repeatedly in order. The participant presses a key for every digit except 3, to which they must withhold. Because the sequence is predictable, lapses of attention show up as presses to 3.
   - Canonical: respond to digits except 3; fixed pseudo-random sequence
 * - Random SART
 
     `hedvar_sustained_attention_to_response__random_sart`
-  - Digits presented in random order; eliminates predictability.
+  - The digits appear in random order rather than counting up, so the participant cannot predict when the no-go digit will come. Fewer errors are made than in the fixed version.
   - Random digit order; removes sequential predictability
 * - SART with Thought Probes
 
     `hedvar_sustained_attention_to_response__sart_with_thought_probes`
-  - Intermittent probes asking "Were you on-task or mind-wandering?"
+  - At unpredictable points the task pauses and asks the participant what they were just thinking about, for example whether they were focused on the task or thinking of something else. Reports are linked to performance just before the probe.
   - Mind-wandering probes inserted; adds metacognitive reporting
 * - Perceptual SART
 
     `hedvar_sustained_attention_to_response__perceptual_sart`
-  - Non-digit stimuli (shapes, colors) for populations where digit recognition varies.
+  - The items are shapes, colors or lines of different orientation instead of digits, with one of them as the rare withhold item, for participants for whom digits are unsuitable.
   - Perceptual variants (lines, shapes); different stimulus type
 * - Sustained Attention Task with Response Switching
 
     `hedvar_sustained_attention_to_response__sustained_attention_task_with_response_switching`
-  - Alternating response keys to add task-switching demands.
+  - The rule for which key to press changes periodically during the task, so the participant must keep track of the current rule as well as watch for the withhold item.
   - Response switches during task; adds rule-change demand
 * - SART with Multiple Targets
 
     `hedvar_sustained_attention_to_response__sart_with_multiple_targets`
-  - Two or more target digits to vary no-go probability.
+  - Two or more digits are withhold items rather than only the 3, which changes how often the participant must stop and how many rules must be kept in mind.
   - Multiple no-go digits instead of one; different inhibition load
 * - Sustained Attention with Clock Task
 
     `hedvar_sustained_attention_to_response__sustained_attention_with_clock`
-  - Mackworth Clock Test variant; watching a clock hand for occasional double jumps over extended periods.
+  - The participant watches a clock hand that moves in regular jumps and presses a key when it occasionally makes a double jump. The task continues for a long period and misses increase over time.
   - Clock face rather than digit sequence; different stimulus format
 * - Child-Adapted SART
 
     `hedvar_sustained_attention_to_response__child_adapted_sart`
-  - Pictorial stimuli (animals, objects) replacing digits for developmental populations.
+  - Pictures of animals or objects replace the digits, with one picture as the withhold item, and the pace is slowed to suit children.
   - Modified timing and stimuli for children; adapted per §5.3
 ```
 

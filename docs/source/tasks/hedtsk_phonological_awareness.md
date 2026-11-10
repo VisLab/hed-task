@@ -49,57 +49,57 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Rhyme Detection
 
     `hedvar_phonological_awareness__rhyme_detection`
-  - "Do CAT and HAT rhyme?" Binary judgment.
+  - Two spoken words are presented and the participant says whether they rhyme, for example 'cat' and 'hat' (yes) or 'cat' and 'cup' (no).
   - Participant judges whether words rhyme; canonical phonological awareness task
 * - Rhyme Oddity
 
     `hedvar_phonological_awareness__rhyme_oddity`
-  - "Which doesn't rhyme? CAT, HAT, BOOK." Select the non-rhyming item.
+  - Three or four spoken words are presented, all but one rhyming, and the participant picks the one that does not rhyme, such as 'book' from 'cat, hat, book'.
   - Identify non-rhyming word in set; different task structure from detection
 * - Rhyme Production
 
     `hedvar_phonological_awareness__rhyme_production`
-  - Generate words that rhyme with a target.
+  - A word is spoken and the participant produces one or more words that rhyme with it.
   - Generate rhyming words; different output requirement
 * - Onset Detection
 
     `hedvar_phonological_awareness__onset_detection`
-  - Identify initial sound of words.
+  - A word is spoken and the participant says its first sound, or judges whether two words begin with the same sound.
   - Judge initial consonant; different phonological unit (onset)
 * - Phoneme Deletion
 
     `hedvar_phonological_awareness__phoneme_deletion`
-  - "Say BOAT without the /b/." Tests phoneme manipulation.
+  - A word is spoken and the participant says what is left when a given sound is removed, for example 'boat' without the /b/ gives 'oat'.
   - Delete specified phoneme and report result; manipulation task
 * - Phoneme Substitution
 
     `hedvar_phonological_awareness__phoneme_substitution`
-  - Replace one phoneme with another.
+  - A word is spoken and the participant replaces one sound with another, for example changing the /k/ in 'cat' to /h/ to give 'hat'.
   - Replace phoneme in word; different manipulation operation
 * - Phoneme Segmentation
 
     `hedvar_phonological_awareness__phoneme_segmentation`
-  - Count or list individual phonemes in a word.
+  - A word is spoken and the participant says each of its sounds separately in order, or counts them, for example 'dog' has three sounds: /d/, /o/, /g/.
   - Segment word into constituent phonemes; decomposition task
 * - Blending
 
     `hedvar_phonological_awareness__blending`
-  - Combine individually presented phonemes into a word.
+  - The sounds of a word are spoken one at a time with gaps (/s/ ... /u/ ... /n/) and the participant says the word they make ('sun').
   - Combine phonemes to form word; synthesis operation
 * - Spoonerisms
 
     `hedvar_phonological_awareness__spoonerisms`
-  - Swap initial sounds of two words; high-level phonological manipulation.
+  - Two words are spoken and the participant swaps their first sounds, for example 'fed bull' becomes 'bed full'. Requires holding both words while rearranging them.
   - Transpose onset phonemes of two words; complex transposition manipulation
 * - Alliteration Detection
 
     `hedvar_phonological_awareness__alliteration_detection`
-  - Identify words sharing initial consonant.
+  - Two or more spoken words are presented and the participant says whether they begin with the same sound, or picks the one that does not.
   - Detect shared onset consonant; different phonological judgment
 * - Syllable Awareness Tasks
 
     `hedvar_phonological_awareness__syllable_awareness_tasks`
-  - Count, delete, or manipulate syllables within words.
+  - The units are syllables rather than single sounds: the participant counts the syllables in a word, taps them out, deletes one ('sunshine' without 'sun'), or blends syllables into a word. Easier than the sound-level tasks and used with younger children.
   - Syllable-level operations instead of phoneme-level; different linguistic unit
 ```
 

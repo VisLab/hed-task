@@ -51,47 +51,47 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard 8-Arm Radial Maze
 
     `hedvar_virtual_radial_arm_maze__standard_8_arm_radial_maze`
-  - All arms baited; working memory errors = revisits.
+  - The participant stands at the center of a virtual maze with eight corridors radiating outward, each with a reward at the far end. They visit arms to collect rewards; once an arm has been visited its reward is gone. Returning to an already emptied arm is a working-memory error.
   - Canonical 8-arm maze with bait at end of each arm
 * - Partially Baited Maze (4 of 8)
 
     `hedvar_virtual_radial_arm_maze__partially_baited_maze_4_of_8`
-  - Fixed subset baited; dissociates reference from working memory.
+  - Only four of the eight arms ever contain rewards, and it is always the same four across trials. Entering a never-rewarded arm is a reference-memory error (failing to learn the fixed rule), while re-entering an arm already emptied on this trial is a working-memory error.
   - Only subset of arms baited; tests working memory for visited arms
 * - 12-Arm or 16-Arm Versions
 
     `hedvar_virtual_radial_arm_maze__12_arm_or_16_arm_versions`
-  - More arms for greater difficulty and finer measurement.
+  - The maze has twelve or sixteen arms instead of eight, so more locations have to be kept in mind before the trial is complete.
   - Increased arm number; higher memory load
 * - Virtual Reality (Immersive VR)
 
     `hedvar_virtual_radial_arm_maze__virtual_reality_immersive_vr`
-  - Head-mounted display for ecologically valid navigation.
+  - The maze is presented in a head-mounted display that updates with the participant's head and body movement, so they turn and look around as they would in a real maze.
   - Head-mounted display VR; full immersive spatial navigation
 * - Desktop Virtual Maze
 
     `hedvar_virtual_radial_arm_maze__desktop_virtual_maze`
-  - First-person navigation on a computer screen.
+  - The maze is shown on an ordinary monitor from a first-person viewpoint and the participant moves with a keyboard, mouse or joystick.
   - Screen-based navigation; different motor control
 * - Maze with Landmarks
 
     `hedvar_virtual_radial_arm_maze__maze_with_landmarks`
-  - Distal and proximal cues to support allocentric navigation.
+  - Distinctive objects or pictures are placed around the maze, either on the walls of the room (far landmarks) or within the arms (near landmarks), so that arms can be told apart and remembered by what is near them.
   - Salient landmarks aid navigation; tests landmark use
 * - Cue-Removed Conditions
 
     `hedvar_virtual_radial_arm_maze__cue_removed_conditions`
-  - Removing landmarks to force egocentric strategies.
+  - After learning with landmarks, the landmarks are removed or the maze is rotated so that landmarks no longer help. The participant must rely on remembering their own movements.
   - Landmarks removed mid-experiment; tests spatial memory without cues
 * - Delay Variants
 
     `hedvar_virtual_radial_arm_maze__delay_variants`
-  - Imposed delay between arm visits to tax working memory.
+  - After visiting some of the arms, the participant is held at the center or taken out of the maze for a delay of minutes before being allowed to finish, so that the visited arms must be remembered across the delay.
   - Delay between choices tests retention
 * - Probabilistic Reward Maze
 
     `hedvar_virtual_radial_arm_maze__probabilistic_reward_maze`
-  - Arms rewarded probabilistically rather than deterministically.
+  - Each arm pays off only some of the time rather than always, so the participant must learn which arms are most often rewarded instead of simply avoiding arms already visited.
   - Arms probabilistically rather than deterministically rewarded
 ```
 

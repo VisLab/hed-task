@@ -53,32 +53,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard IGT
 
     `hedvar_iowa_gambling__standard_igt`
-  - 100 trials, 4 decks, fixed payoff schedules (A/B disadvantageous, C/D advantageous).
+  - Four decks of cards are on screen. Each card drawn wins play money and sometimes also loses some. Two decks give big wins but bigger occasional losses and are bad in the long run; two give smaller wins and smaller losses and come out ahead. The participant draws 100 cards from any decks and must discover which decks are good.
   - Canonical four-deck IGT with covert payoff structure
 * - Soochow Gambling Task (SGT)
 
     `hedvar_iowa_gambling__soochow_gambling_task_sgt`
-  - Modified payoff structure separating frequency from magnitude of losses.
+  - A redesign in which the decks that lose money overall deliver frequent small gains and rare large losses, while the decks that win overall deliver frequent small losses and rare large gains. Participants who follow how often they win end up choosing the bad decks, which separates sensitivity to frequency from sensitivity to amount.
   - Reversed long-run structure; tests frequency vs. magnitude sensitivity
 * - Child Versions
 
     `hedvar_iowa_gambling__child_versions`
-  - Hungry Donkey Task, Children's Gambling Task; age-appropriate formats.
+  - Versions such as the Hungry Donkey Task and the Children's Gambling Task, in which a cartoon character collects apples or candies from doors or decks with the same good and bad payoff structure, with fewer trials and simpler feedback.
   - Simplified decks and stimuli for children; procedure adapted per §5.3
 * - Extended IGT (150–200 trials)
 
     `hedvar_iowa_gambling__extended_igt_150_200_trials`
-  - More trials to examine later learning phases.
+  - The same four decks played for 150 to 200 draws instead of 100, to see whether deck preferences continue to change once the usual task would have ended.
   - Extended trial count; tests learning at longer timescales
 * - IGT with Explicit Probabilities
 
     `hedvar_iowa_gambling__igt_with_explicit_probabilities`
-  - Payoff information explicitly provided; separates learning from decision.
+  - The participant is told the win and loss amounts and probabilities of each deck before playing instead of having to discover them by experience. Removes the learning component and tests choice with full information.
   - Payoff probabilities stated explicitly; changes information structure
 * - Modified Payoff Variants
 
     `hedvar_iowa_gambling__modified_payoff_variants`
-  - Equated frequency, equated magnitude, or reversed deck structures.
+  - The payoff schedules are altered, for example so that all decks lose equally often, or so that the deck that was best becomes worst, to test which features of the payoffs drive deck choice.
   - Different win/loss schedules; tests sensitivity to schedule structure
 ```
 

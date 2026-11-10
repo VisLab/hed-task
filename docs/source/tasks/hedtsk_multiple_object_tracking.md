@@ -52,37 +52,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard MOT
 
     `hedvar_multiple_object_tracking__standard_mot`
-  - Track 1–5 targets among 8–16 total objects; measure accuracy by load.
+  - Eight or more identical dots appear and a few of them flash to mark them as targets. All dots then move around randomly for several seconds, and when they stop the participant indicates which ones were the targets. Accuracy is measured for different numbers of targets.
   - Canonical: track subset of identical moving dots
 * - Identity-MOT (MIT)
 
     `hedvar_multiple_object_tracking__identity_mot_mit`
-  - Each object has a unique identity; report which identity is at each location after tracking.
+  - Each moving object has its own identity, such as a different letter, picture or color, which is hidden during movement. At the end the participant must report not just where the targets are but which identity is at each position.
   - Track identity features of moving objects; adds identity memory demand
 * - 3D MOT (NeuroTracker)
 
     `hedvar_multiple_object_tracking__3d_mot_neurotracker`
-  - Objects moving in simulated 3D space; used in sports training and clinical assessment.
+  - The spheres move within a simulated three-dimensional volume shown with stereoscopic glasses or a 3D display, so they move in depth as well as across the screen. The speed is adjusted to find the fastest speed at which the participant can still track.
   - Three-dimensional display with depth; different spatial processing
 * - MOT with Occlusion
 
     `hedvar_multiple_object_tracking__mot_with_occlusion`
-  - Objects briefly disappear behind occluders; tests object persistence during tracking.
+  - Objects briefly pass behind visible barriers or disappear and reappear during movement, so the participant must keep track of them while they cannot be seen.
   - Objects temporarily hidden; requires inference of hidden trajectories
 * - Probe-Based MOT
 
     `hedvar_multiple_object_tracking__probe_based_mot`
-  - Probe appears on one object during tracking; participant judges target vs. distractor.
+  - Rather than selecting all targets at the end, a single object is highlighted during or after movement and the participant says whether it is a target or not.
   - Probe object after tracking to test spatial knowledge; different response method
 * - Hierarchical MOT
 
     `hedvar_multiple_object_tracking__hierarchical_mot`
-  - Targets embedded within groups; examines grouping effects on tracking.
+  - Objects move in groups, such as clusters that move together, and the targets may be whole groups or members within groups. Tests whether tracking can operate at more than one level at once.
   - Nested groups of objects tracked at multiple levels; different attentional structure
 * - Auditory MOT Analogs
 
     `hedvar_multiple_object_tracking__auditory_mot_analogs`
-  - Track sound sources moving in auditory space.
+  - The moving items are sounds that move around the listener in virtual auditory space, and the participant must keep track of the target sounds by ear.
   - Tracking moving sounds; different sensory modality
 ```
 

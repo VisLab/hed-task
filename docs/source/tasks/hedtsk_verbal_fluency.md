@@ -54,32 +54,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Phonemic / Letter Fluency (FAS)
 
     `hedvar_verbal_fluency__phonemic_letter_fluency_fas`
-  - Generate words beginning with a specified letter (typically F, A, S). Loads heavily on left inferior frontal (executive search) systems. The standard clinical measure.
+  - The participant says as many words as they can that begin with a given letter in one minute, excluding names and repeats of the same word with different endings. Usually three letters (F, A and S) are given in turn. The score is the total number of acceptable words.
   - Generate words by initial letter; canonical phonemic fluency
 * - Semantic / Category Fluency
 
     `hedvar_verbal_fluency__semantic_category_fluency`
-  - Generate exemplars of a semantic category (e.g., animals, fruits, supermarket items). Engages temporal-lobe semantic stores in addition to frontal search. Differentially impaired in Alzheimer's disease vs. frontal lesions.
+  - The participant names as many members of a category as they can in one minute, such as animals or things in a supermarket. Usually easier than letter fluency, and the two are impaired differently by different brain conditions.
   - Generate words from category; different retrieval strategy and structure
 * - Action / Verb Fluency
 
     `hedvar_verbal_fluency__action_verb_fluency`
-  - Generate verbs (things people can do). More sensitive to frontal-subcortical pathology than noun-based category fluency; emerging as a clinical complement.
+  - The participant names as many different things that people can do (verbs) as they can in one minute.
   - Generate verbs/actions; different grammatical category
 * - Switching Fluency
 
     `hedvar_verbal_fluency__switching_fluency`
-  - Alternate between two categories (e.g., fruit, furniture, fruit, ...) on each successive word. Adds an explicit set-shifting demand beyond simple generation.
+  - The participant alternates between two categories with each word, for example a fruit, then a piece of furniture, then a fruit, and so on, for one minute.
   - Alternate between two categories; adds cognitive flexibility demand
 * - Design Fluency
 
     `hedvar_verbal_fluency__design_fluency`
-  - Non-verbal analogue: generate novel designs by connecting dots in a grid. Tests figural/spatial fluency and right-hemisphere executive function.
+  - A non-verbal version in which the participant draws as many different designs as they can by connecting dots in a small grid with a fixed number of lines, within a minute.
   - Draw novel designs instead of words; different modality
 * - Excluded-Letter Fluency
 
     `hedvar_verbal_fluency__excluded_letter_fluency`
-  - Generate words that do NOT contain a specified letter. Adds an inhibitory constraint to the standard phonemic task.
+  - The participant says as many words as they can that do not contain a given letter (such as 'e'), which requires checking each candidate word against the constraint.
   - Generate words avoiding a letter; adds constraint that changes retrieval strategy
 ```
 

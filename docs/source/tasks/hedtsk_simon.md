@@ -51,52 +51,52 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Visual Simon Task (Standard)
 
     `hedvar_simon__visual_simon_task_standard`
-  - Colored stimuli at lateral screen positions; button-press responses.
+  - A colored shape appears to the left or right of center, and the participant presses a left key for one color and a right key for the other. Position is irrelevant, but responses are slower when the stimulus appears on the side opposite the required key.
   - Canonical: respond to color/shape despite irrelevant spatial position
 * - Auditory Simon Task
 
     `hedvar_simon__auditory_simon`
-  - Tones presented to left/right ear; key-press responses.
+  - A tone is played to the left or right ear and the participant presses a key based on its pitch. Responses are slower when the required key is on the opposite side from the ear that heard the tone.
   - Auditory stimulus location as irrelevant dimension; different sensory modality
 * - Vertical Simon Task
 
     `hedvar_simon__vertical_simon`
-  - Stimuli above/below fixation with top/bottom responses.
+  - The stimulus appears above or below center and the response keys are arranged one above the other, so the conflict is between up-down position and up-down response.
   - Vertical rather than horizontal spatial dimension; different axis of conflict
 * - Simon Task with Accessory Stimuli
 
     `hedvar_simon__simon_task_with_accessory_stimuli`
-  - Irrelevant tones accompanying visual stimuli to study cross-modal Simon effects.
+  - An irrelevant tone is played at the same time as the visual stimulus, from the same or opposite side, or centrally, to study how an extra event affects the position conflict.
   - Non-response-relevant accessory stimulus added; tests alerting-compatibility interaction
 * - Reversed Simon Task
 
     `hedvar_simon__reversed_simon`
-  - Instructions to respond opposite to stimulus location; studies intentional override.
+  - The participant is told to press the key opposite to where the stimulus appears, or practices such a mapping, before the standard task. This can reverse the usual effect.
   - Stimulus-response mapping reversed; opposite compatibility mapping
 * - Joint Simon Task
 
     `hedvar_simon__joint_simon`
-  - Two participants each handle one response key; social Simon effect emerges.
+  - Two people sit side by side and each is responsible for one response key and one color, so each has a simple go/no-go task. The position conflict reappears for each person as if they were doing the whole task alone.
   - Two participants share one Simon task; tests social simulation of co-actor's response
 * - Hybrid Simon-Flanker Task
 
     `hedvar_simon__hybrid_simon_flanker`
-  - Combines spatial correspondence with flanker interference.
+  - The lateral stimulus is also surrounded by flanker items that match or conflict with it, so that position conflict and flanker conflict are present in the same trial.
   - Integrates flanker conflict with Simon conflict; combined interference paradigm
 * - Emotional Simon Task
 
     `hedvar_simon__emotional_simon`
-  - Emotional stimuli presented at lateral locations.
+  - The stimuli are emotional faces or words shown to the left or right, with the response based on their emotion, or the response keys are labeled with positive and negative meanings so that the irrelevant emotional content can conflict with the response.
   - Emotional content as irrelevant dimension; retained per §5.1 (EMOT retired)
 * - Mouse-Tracking Simon
 
     `hedvar_simon__mouse_tracking_simon`
-  - Continuous mouse trajectories reveal temporal dynamics of conflict resolution.
+  - The participant responds by moving a mouse to a target in the upper left or right of the screen, and the whole path of the cursor is recorded. Curvature toward the wrong side shows the pull of the stimulus position.
   - Continuous mouse trajectory as response; different response modality
 * - Simon with Proportion-Congruent Manipulation
 
     `hedvar_simon__simon_with_proportion_congruent_manipulation`
-  - Varying congruent/incongruent ratios to study context-driven control.
+  - The share of trials on which position and response agree is varied between blocks, for example mostly agreeing in one block and mostly conflicting in another, to see how the effect changes when conflict is expected.
   - Varies conflict frequency; adaptation context manipulation per §5.2
 ```
 

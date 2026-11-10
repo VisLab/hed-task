@@ -51,37 +51,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Object MST
 
     `hedvar_mnemonic_similarity__standard_object_mst`
-  - Indoor and outdoor objects; old/similar/new judgments.
+  - The participant sees a series of pictures of everyday objects and judges each as indoor or outdoor. In a later test they see the same objects, new objects, and objects that are similar but not identical to studied ones, and label each as old, similar or new. Calling a similar item 'similar' rather than 'old' is the measure.
   - Canonical everyday objects with lure pairs for pattern separation
 * - Scene MST
 
     `hedvar_mnemonic_similarity__scene_mst`
-  - Indoor/outdoor scene photographs as stimuli; spatial pattern separation.
+  - The pictures are indoor and outdoor scenes rather than single objects, with similar lures being slightly different views or versions of the studied scenes.
   - Scene stimuli instead of objects; different stimulus class
 * - Continuous MST
 
     `hedvar_mnemonic_similarity__continuous_mst`
-  - Online recognition during a single continuous stream; no separate study/test phases.
+  - There are no separate study and test phases. Pictures appear in one long stream, and the participant judges each as old, similar or new as it appears, with repeats and lures occurring a few items after their first appearance.
   - Study and test interleaved; different trial structure
 * - Parametric Similarity Manipulation
 
     `hedvar_mnemonic_similarity__parametric_similarity_manipulation`
-  - Lures at graded levels of similarity (high, medium, low) to the studied items.
+  - The lure items are graded by how closely they resemble the studied object, from nearly identical to clearly different, so that discrimination can be plotted against similarity.
   - Graded lure similarity levels; tests pattern separation threshold
 * - MST for Faces
 
     `hedvar_mnemonic_similarity__mst_for_faces`
-  - Face stimuli to test pattern separation for social stimuli.
+  - The items are faces, with lures being similar faces or the same person with a changed feature, so that memory discrimination is measured for faces rather than objects.
   - Face stimuli; different recognition domain
 * - Spatial MST
 
     `hedvar_mnemonic_similarity__spatial_mst`
-  - Objects in spatial contexts; measures spatial vs. object pattern separation.
+  - Objects are shown at particular locations, and at test the same object appears at the same place, a slightly shifted place, or a clearly different place. The participant judges whether the location is the same, similar or new.
   - Location-based similarity; tests spatial pattern separation
 * - Short-Delay vs. Long-Delay MST
 
     `hedvar_mnemonic_similarity__short_delay_vs_long_delay_mst`
-  - Varying retention interval between encoding and test.
+  - The test is given immediately after study in one condition and after a delay of hours or a day in another, to see whether discrimination of similar items fades faster than recognition of repeats.
   - Retention interval manipulation tests forgetting of pattern separation
 ```
 

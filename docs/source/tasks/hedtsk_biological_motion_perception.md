@@ -49,57 +49,57 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Intact Biological Motion
 
     `hedvar_biological_motion_perception__intact_biological_motion`
-  - Standard point-light walkers with coherent body structure.
+  - The participant watches a display of about a dozen moving dots placed at the joints of a walking person. The dots alone are enough to see a walker, and the participant reports what is seen, for example whether a person is present or which way they are walking.
   - Standard point-light walker; canonical biological motion stimulus
 * - Scrambled Displays
 
     `hedvar_biological_motion_perception__scrambled_displays`
-  - Dot positions randomized; preserves local motion, disrupts configural structure.
+  - Each dot keeps its own movement pattern but is shifted to a random starting position, so the dots no longer line up as a body. The participant sees the same local motions without the overall figure, which serves as a control.
   - Spatially scrambled dots preserve local motion but destroy global form; control condition with different percept
 * - Inverted Displays
 
     `hedvar_biological_motion_perception__inverted_displays`
-  - Upside-down presentation; impairs perception, revealing orientation specificity.
+  - The point-light walker is shown upside down. Recognition becomes much harder, which shows that the visual system expects figures in their usual orientation.
   - Walker inverted; disrupts configural processing while preserving motion signals
 * - Reversed (Backward) Motion
 
     `hedvar_biological_motion_perception__reversed_backward_motion`
-  - Normal actions played in reverse.
+  - The walking animation is played in reverse, so the body shape is intact but the movements unfold in an unnatural order. The participant judges the display as usual.
   - Temporal reversal disrupts action identity while preserving form
 * - Action Recognition
 
     `hedvar_biological_motion_perception__action_recognition`
-  - Classify depicted actions (walk, run, jump, throw, kick).
+  - The point-light figure performs one of several actions, such as walking, running, jumping, throwing or kicking, and the participant names or chooses which action it was.
   - Participant identifies specific action (running, kicking); classification task beyond detection
 * - Detection in Noise
 
     `hedvar_biological_motion_perception__detection_in_noise`
-  - Biological motion figures embedded in scrambled dot noise masks.
+  - The walker's dots are hidden among extra randomly moving dots, and the participant reports whether a walker is present or where it is. The number of noise dots sets the difficulty.
   - Walker embedded in noise dots; detection task with varying signal-to-noise
 * - Gender/Identity Discrimination
 
     `hedvar_biological_motion_perception__gender_identity_discrimination`
-  - Judge walker's gender or identity from motion cues alone.
+  - The participant judges whether the point-light walker is male or female, or which of several known people it is, using only the way the dots move.
   - Discrimination of walker gender or identity; different judgment dimension
 * - Emotion from Body Motion
 
     `hedvar_biological_motion_perception__emotion_from_body_motion`
-  - Recognize emotional states from body/gait dynamics.
+  - The point-light figure moves in a way that expresses an emotion, such as angry, sad or happy walking, and the participant names the emotion from the movement alone.
   - Emotional state judged from body kinematics; different recognition task
 * - Partial/Occluded Displays
 
     `hedvar_biological_motion_perception__partial_occluded_displays`
-  - Subsets of body points visible.
+  - Only some of the joint dots are shown, or parts of the figure pass behind an invisible occluder, and the participant must still judge the figure from the incomplete display.
   - Subset of dots visible; tests perceptual completion of biological motion
 * - Comparison with Mechanical Motion
 
     `hedvar_biological_motion_perception__comparison_with_mechanical_motion`
-  - Biological vs. rigid/mechanical motion; tests specificity.
+  - Point-light displays of a person are mixed with displays of rigid or mechanical motion, such as a rotating object or a machine, and the participant decides which kind of motion each display shows.
   - Mechanical motion control alongside biological; category discrimination task
 * - Facing Direction Discrimination
 
     `hedvar_biological_motion_perception__facing_direction_discrimination`
-  - Determine whether the walker faces left or right; sensitive to viewpoint processing.
+  - The walker walks in place, and the participant reports whether it is facing left or right. Judging facing direction depends on recovering the body's shape from the moving dots.
   - Ambiguous facing direction judgment; different perceptual task
 ```
 

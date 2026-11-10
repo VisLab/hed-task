@@ -50,32 +50,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Automated OSPAN (AOSPAN)
 
     `hedvar_operation_span__automated_ospan_aospan`
-  - Computerized version with automated scoring and timing; most widely used form.
+  - The participant alternates between checking whether a simple arithmetic equation is correct and seeing a letter to remember. After three to seven such pairs they recall the letters in order by clicking them. The computer paces the arithmetic from the participant's own practice speed.
   - Canonical computerized OSPAN with math distractor
 * - Reading Span (RSPAN)
 
     `hedvar_operation_span__reading_span_rspan`
-  - Sentence verification replaces math; read and judge sentences, remember target words.
+  - The interleaved processing task is reading a sentence and judging whether it makes sense, instead of arithmetic. A word or letter to remember follows each sentence.
   - Sentence comprehension distractor; different processing demand
 * - Symmetry Span (SYMSPAN)
 
     `hedvar_operation_span__symmetry_span_symspan`
-  - Symmetry judgments paired with spatial memory (red-square locations in a matrix).
+  - The processing task is judging whether a pattern is symmetric about its vertical axis, and the items to remember are positions of red squares in a grid, recalled in order. A spatial version of the task.
   - Spatial symmetry judgment distractor; visuospatial storage component
 * - Counting Span
 
     `hedvar_operation_span__counting_span`
-  - Count target shapes in displays while remembering the counts.
+  - The participant counts the target shapes (for example dark circles among squares) in each display and says the total aloud, then after several displays recalls the totals in order.
   - Counting shapes distractor; different processing requirement
 * - Shortened OSPAN
 
     `hedvar_operation_span__shortened_ospan`
-  - Fewer sets for quicker administration; validated for equivalent reliability.
+  - A version with fewer sets and shorter maximum set sizes that takes around half the time but has been shown to give similar scores.
   - Abbreviated protocol; recognized efficient version for time-limited settings
 * - Adaptive OSPAN
 
     `hedvar_operation_span__adaptive_ospan`
-  - Set sizes adjusted based on performance; efficient estimation.
+  - The number of items in each set is increased after correct recall and decreased after errors, so the task spends most of its trials near the participant's limit rather than running a fixed series of set sizes.
   - Adaptive set sizes based on performance; different difficulty trajectory
 ```
 

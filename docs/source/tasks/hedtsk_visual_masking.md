@@ -51,52 +51,52 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Metacontrast Masking
 
     `hedvar_visual_masking__standard_metacontrast_masking`
-  - Target followed by annular mask at variable SOAs; measure detection/discrimination accuracy.
+  - A small shape (such as a disk) is flashed briefly, and after a short delay a ring that surrounds but does not touch its location is flashed. At delays of around 50 to 100 ms the disk becomes hard or impossible to see. The participant reports whether the disk was present or which shape it was.
   - Canonical metacontrast: annular mask suppresses disc
 * - Phosphene Detection at Threshold
 
     `hedvar_visual_masking__phosphene_detection_at_threshold`
-  - Near-threshold light flashes on uniform background; simplest version eliminating masking.
+  - A faint flash of light at the edge of visibility is presented on a plain background with no mask, and the participant reports whether they saw it. Used to study the moment-to-moment state of the visual system without any masking.
   - TMS-evoked phosphenes measured at perceptual threshold
 * - TMS-Evoked Phosphene Detection
 
     `hedvar_visual_masking__tms_evoked_phosphene_detection`
-  - Transcranial magnetic stimulation to visual cortex at varying alpha phases; causal test of oscillatory gating.
+  - A magnetic pulse applied to the back of the head produces a brief spot of light in the participant's vision, and they report whether they saw it. The pulse is timed relative to the phase of the participant's brain rhythms.
   - Visual cortex stimulation produces phosphene; different masking mechanism
 * - Object Substitution Masking
 
     `hedvar_visual_masking__object_substitution_masking`
-  - Four-dot mask surrounding target location; tests different masking mechanism than metacontrast.
+  - The target appears among other items surrounded by four small dots. If the dots remain on screen after the target and the other items have disappeared, the target is hard to report, even though the dots never touch it.
   - Four-dot surround mask replaces object representation; different mechanism
 * - Pattern Masking at Threshold
 
     `hedvar_visual_masking__pattern_masking_at_threshold`
-  - Random-dot or noise-pattern mask overlapping target spatially; distinguishes from metacontrast which is non-overlapping.
+  - The mask is a dense pattern of lines, letters or random dots that covers the same location as the target, presented just before or after it. The target is reported at reduced visibility.
   - Pattern mask overlapping in space and time; different mask type
 * - Continuous Flash Suppression Threshold
 
     `hedvar_visual_masking__continuous_flash_suppression_threshold`
-  - Mondrian-pattern masking to one eye while target presented to the other; binocular rivalry version.
+  - A rapidly changing colorful pattern is shown to one eye while a faint image is shown to the other. The flashing pattern dominates and the image stays invisible for seconds. The participant reports when the image finally breaks through or whether it was present.
   - Monocular suppression by rapidly alternating masks; binocular suppression paradigm
 * - Rhythmic Entrainment + Detection
 
     `hedvar_visual_masking__rhythmic_entrainment_detection`
-  - Presenting rhythmic visual streams before the target to entrain alpha and test whether entrained phase modulates detection.
+  - A regular series of flashes at a chosen rate is shown before the faint target, and whether the target is detected is measured as a function of when it falls relative to the rhythm.
   - Rhythmic stimulation before target; tests oscillatory effects on detection
 * - Masked Priming Variant
 
     `hedvar_visual_masking__masked_priming_variant`
-  - Masked stimuli serve as primes for subsequent visible targets; measures subliminal processing below the consciousness threshold.
+  - The masked item is not reported at all. Instead it serves as a prime for a later visible target, and its effect on the response to that target shows that the masked item was processed.
   - Masked prime before target; tests subliminal priming via masking
 * - Backward Masking with Attentional Manipulation
 
     `hedvar_visual_masking__backward_masking_with_attentional_manipulation`
-  - Combining masking with dual-task or attentional-blink paradigms to examine attention × consciousness interactions.
+  - The masked target is embedded in a situation where attention is limited, such as a second task or a rapid stream of items, to see how attention changes what the mask hides.
   - Attention directed during masking; tests attentional modulation of masking
 * - Auditory Backward Masking
 
     `hedvar_visual_masking__auditory_backward_masking`
-  - Analogous paradigm in auditory modality; tone detection masked by noise burst at variable SOAs.
+  - A brief tone is followed by a burst of noise after a variable delay, and the participant reports whether the tone was heard. The sound version of the masking task.
   - Auditory masking paradigm; different sensory modality
 ```
 

@@ -53,42 +53,42 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Classic Finger-Lift Paradigm (Brass et al.)
 
     `hedvar_imitation_inhibition__classic_finger_lift_paradigm_brass_et_al`
-  - Lift index or middle finger in response to a number cue while observing congruent or incongruent finger lifts. The foundational paradigm. Includes spatial compatibility controls.
+  - The participant rests their hand on a table and watches a video of another hand. A number appears (1 or 2) telling them to lift the index or middle finger, while the hand on screen lifts either the same finger or the other one. Responses are slower when the observed movement differs from the instructed one.
   - Canonical: respond to number cue, observe incongruent finger lift
 * - Kinematic Paradigm (Kilner Task)
 
     `hedvar_imitation_inhibition__kinematic_paradigm_kilner_task`
-  - Participants move their arm (e.g., horizontally) while watching a model move horizontally or vertically. Automatic imitation measured by increased trajectory variance when the model's movement is incompatible. Continuous rather than discrete measure.
+  - The participant makes repeated arm movements, for example side to side, while watching another person (or a robot) move their arm either in the same direction or up and down. The participant's movements become more variable when the observed movement conflicts with their own.
   - Perform arm movement while observing congruent/incongruent arm; different motor effector
 * - Hand Open/Close Variant
 
     `hedvar_imitation_inhibition__hand_open_close_variant`
-  - Open or close the hand in response to a cue while observing congruent or incongruent hand movements. Larger effector; may engage different motor representations than finger movements.
+  - The instructed action is to open or close the whole hand, and the observed hand opens or closes at the same time, so that the imitation effect is measured with a larger movement than a finger lift.
   - Open/close hand in response to/despite observed hand action
 * - Animacy Manipulation
 
     `hedvar_imitation_inhibition__animacy_manipulation`
-  - Compare automatic imitation of human hand, robotic hand, and non-biological (e.g., geometric) stimuli. Tests whether the mirror system is preferentially tuned to biological agents.
+  - The observed movement is performed by a human hand, a robotic hand, or a non-biological object such as a moving bar, to see whether the tendency to copy depends on seeing a living agent.
   - Animate vs. inanimate observed movement; tests social specificity of imitation
 * - Goal-Directed Imitation Variant
 
     `hedvar_imitation_inhibition__goal_directed_imitation_variant`
-  - Observe a model grasping an object; measure whether automatic imitation is driven by the movement kinematics or the action goal. Dissociates kinematic and goal-level motor representations.
+  - The observed hand grasps an object, and the design separates how the hand moved from what it was trying to do, for example by having the same movement achieve different goals. Shows whether the participant copies the movement or the goal.
   - Imitate goal vs. means; tests level of imitative representation
 * - Vocal Stimulus-Response Compatibility
 
     `hedvar_imitation_inhibition__vocal_stimulus_response_compatibility`
-  - Hear a speech sound (e.g., 'pa') while producing a different sound (e.g., 'ba'). Vocal analogue of the manual imitation-inhibition task. Tests automatic imitation in the speech domain.
+  - The participant hears a syllable such as 'pa' while being instructed to say either 'pa' or 'ba'. Saying a syllable that differs from the one heard is slower, the speech version of the finger task.
   - Vocal response to observed action; different response modality
 * - Controlled Imitation Task (Reverse)
 
     `hedvar_imitation_inhibition__controlled_imitation_task_reverse`
-  - Participants are cued to act but must mimic the observed action on a subset of trials. Reverses the standard task demands: measures the ability to prioritize imitation over instructed action.
+  - On some trials the participant is told to imitate the observed movement and on others to make the instructed movement regardless of what they see. Tests the ability to choose when to copy and when not to.
   - Instructed to imitate or not; tests explicit voluntary control
 * - Counter-Imitation Training
 
     `hedvar_imitation_inhibition__counter_imitation_training`
-  - Heyes et al. sensorimotor learning paradigm: train incompatible associations (see index lift, execute middle lift) to test whether automatic imitation is learned or innate. Automatic imitation is abolished or reversed after training, supporting associative sequence learning accounts.
+  - Before the test, the participant practices many trials of responding to an observed index-finger lift with a middle-finger lift and vice versa. After such training the usual tendency to copy is reduced or reversed.
   - Training to suppress imitation; tests plasticity of imitative tendencies
 ```
 

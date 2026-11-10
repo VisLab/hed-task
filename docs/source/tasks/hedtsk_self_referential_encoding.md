@@ -54,32 +54,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Trait Adjective Encoding
 
     `hedvar_self_referential_encoding__standard_trait_adjective_encoding`
-  - Self/other/semantic/structural encoding of trait adjectives followed by surprise recall. The Rogers et al. (1977) design. The foundational paradigm.
+  - Trait words such as 'honest' or 'lazy' are shown, each with a question: does this describe you (self), does it describe another person such as a public figure (other), does it mean the same as a given word (meaning), or is it printed in capitals (appearance). After all words, a surprise recall test follows. Words judged about the self are recalled best.
   - Canonical: judge whether adjective describes self; incidental encoding
 * - Positive/Negative Valence Split
 
     `hedvar_self_referential_encoding__positive_negative_valence_split`
-  - Separate analysis by adjective valence. Depression studies focus on the positive endorsement deficit and negative recall bias.
+  - The trait words are balanced between positive (kind) and negative (selfish), and endorsement and recall are analyzed separately for each. Depressed participants endorse and recall more negative words about themselves.
   - Valence-matched sets tested separately; tests self-relevance by valence
 * - Close vs. Distant Other-Reference
 
     `hedvar_self_referential_encoding__close_vs_distant_other_reference`
-  - Compare self-encoding with encoding relative to mother, best friend, celebrity, or stranger. Tests whether self-reference advantage is graded by social closeness.
+  - The 'other' person in the question is varied from someone very close (mother, best friend) to a celebrity or a stranger, to see whether the memory advantage for self-judged words shrinks as the other becomes closer.
   - Encoding with reference to close vs. distant others; tests reference specificity
 * - Incidental vs. Intentional Encoding
 
     `hedvar_self_referential_encoding__incidental_vs_intentional_encoding`
-  - Standard version uses incidental encoding (surprise memory test). Intentional encoding versions test whether self-reference benefit persists under deliberate memorization.
+  - In the usual version the participant does not know a memory test is coming. In the intentional version they are told to remember the words as well as answering the questions, to see whether the self-reference advantage holds when people are trying to learn.
   - Explicit memory instruction vs. incidental; changes encoding goal
 * - Endorsement-Only (No Memory Test)
 
     `hedvar_self_referential_encoding__endorsement_only_no_memory_test`
-  - Clinical use: just the self-endorsement phase. Patterns of positive and negative endorsement index self-concept content in depression.
+  - Only the self-judgment phase is run: the participant says yes or no to whether each trait word describes them, and the pattern of positive and negative endorsements is the measure. No recall test is given.
   - Task without memory test phase; tests self-referential processing in isolation
 * - Source Memory for Self-Encoded Items
 
     `hedvar_self_referential_encoding__source_memory_for_self_encoded_items`
-  - Combines self-referential encoding with source memory judgments. Tests whether self-reference enhances contextual recollection or just item familiarity.
+  - At test the participant must say not only whether a word was studied but which question it was studied with (self, other, meaning), to check whether self-reference improves memory for the context as well as for the word.
   - Retrieval includes source judgment for self vs. other items; adds source component
 ```
 

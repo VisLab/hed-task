@@ -50,32 +50,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Auditory-Visual PRP
 
     `hedvar_psychological_refractory_period__standard_auditory_visual_prp`
-  - S1 = tone (classify pitch), S2 = letter/digit (classify identity); the canonical design.
+  - On each trial a tone sounds and, a short and variable time later, a letter or digit appears. The participant responds to the tone (for example high or low pitch, with one hand) and then to the visual item (with the other hand). The shorter the gap between them, the slower the second response.
   - Canonical PRP: auditory then visual stimulus with variable SOA
 * - Visual-Visual PRP
 
     `hedvar_psychological_refractory_period__visual_visual_prp`
-  - Both stimuli are visual; requires spatial separation to avoid confusion.
+  - Both stimuli are visual, shown at different positions so they can be told apart, for example a colored patch followed by a letter. Tests whether the slowing of the second response depends on using two senses.
   - Both stimuli visual; tests modality effects on bottleneck
 * - Variable SOA Design
 
     `hedvar_psychological_refractory_period__variable_soa_design`
-  - SOAs ranging from 50 to 1000 ms to trace the full PRP function.
+  - The gap between the first and second stimulus is varied across a wide range, from about 50 ms up to a second, so that the second response time can be plotted against the gap.
   - Multiple SOAs parametrically varied; standard PRP SOA manipulation
 * - PRP with Practice
 
     `hedvar_psychological_refractory_period__prp_with_practice`
-  - Extensive training to test whether the bottleneck can be eliminated or reduced.
+  - Participants perform thousands of trials across several sessions, to see whether the slowing of the second response shrinks or disappears with extensive practice.
   - Extended practice changes PRP magnitude; tests dual-task automatization
 * - PRP with Ideomotor-Compatible Tasks
 
     `hedvar_psychological_refractory_period__prp_with_ideomotor_compatible_tasks`
-  - Tasks with strong S-R compatibility (e.g., say the word you see) to test whether compatible tasks bypass the bottleneck.
+  - The tasks are chosen so the response naturally matches the stimulus, such as saying 'A' when hearing 'A' or pressing a key under a finger that is touched. Such tasks produce little or no slowing of the second response.
   - Ideomotor-compatible S-R mappings eliminate bottleneck; tests structural bottleneck theory
 * - Triple-Task PRP
 
     `hedvar_psychological_refractory_period__triple_task_prp`
-  - Three overlapping tasks to further constrain models of central processing capacity.
+  - Three stimuli are presented in quick succession, each needing its own response, to test how the slowing builds up when more than two tasks overlap.
   - Three concurrent tasks; extends bottleneck theory to three tasks
 ```
 

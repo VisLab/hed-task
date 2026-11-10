@@ -51,27 +51,27 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard SID (Smiling Face Reward)
 
     `hedvar_social_incentive_delay__standard_sid_smiling_face_reward`
-  - Happy face/approval cue as social reward; frowning face as social punishment.
+  - A cue signals whether a fast enough response to the coming target will earn a smiling face with approving words, avoid an angry face, or produce nothing. The participant presses a button when the target flashes, and the face feedback follows.
   - Canonical SID with face as social incentive
 * - SID with Personalized Social Stimuli
 
     `hedvar_social_incentive_delay__sid_with_personalized_social_stimuli`
-  - Faces of familiar people (peers, family) as reward stimuli.
+  - The faces used as rewards are of people the participant knows, such as friends or family, photographed in advance, rather than strangers.
   - Stimuli customized to individual's social network; different stimulus content
 * - SID vs. MID within-Subjects
 
     `hedvar_social_incentive_delay__sid_vs_mid_within_subjects`
-  - Both social and monetary versions in the same scanning session for direct comparison.
+  - The participant performs both the social version and the monetary version in the same session, with the cues indicating which kind of reward is at stake, so the two kinds of anticipation can be compared directly.
   - Both social and monetary incentives in same session; direct contrast paradigm
 * - SID with Graded Social Reward
 
     `hedvar_social_incentive_delay__sid_with_graded_social_reward`
-  - Different intensities of social feedback (mild smile vs. enthusiastic approval).
+  - The cues signal different intensities of social reward, such as a faint smile versus a broad smile with strong praise, to see whether anticipation scales with the size of the social reward.
   - Multiple social reward magnitudes; tests social reward sensitivity
 * - SID with Real Social Interaction
 
     `hedvar_social_incentive_delay__sid_with_real_social_interaction`
-  - Social reward delivered by actual experimenters or confederates.
+  - The social reward is delivered by a real person, for example an experimenter or confederate who smiles and praises the participant through a video link, rather than by a stored photograph.
   - Actual social partner rather than photograph; different social context
 ```
 

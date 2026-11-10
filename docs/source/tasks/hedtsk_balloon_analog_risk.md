@@ -52,37 +52,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard BART (30 balloons)
 
     `hedvar_balloon_analog_risk__standard_bart_30_balloons`
-  - Pump button inflates balloon with increasing explosion probability.
+  - A balloon appears on screen. Each press of a pump key inflates it slightly and adds a small amount of money to a temporary bank. The participant can stop at any time and collect, but if the balloon pops the money for that balloon is lost. There are typically 30 balloons, each with a hidden random pop point.
   - Canonical BART: pump balloon for accumulating reward, risk of explosion
 * - BART-Y (Youth Version)
 
     `hedvar_balloon_analog_risk__bart_y_youth_version`
-  - Simplified point system for children/adolescents.
+  - A version for children and adolescents that uses points toward a prize rather than money, a simpler display, and a progress meter so the child can see what has been earned. The pump-or-collect decision is unchanged.
   - Modified pumping interface and simplified feedback for youth; procedure adapted per §5.3
 * - Variable Explosion Probability
 
     `hedvar_balloon_analog_risk__variable_explosion_probability`
-  - Different explosion point distributions (uniform, normal, skewed).
+  - Different balloons (often shown in different colors) pop according to different hidden rules, for example one color tends to pop early and another late. The participant can learn to pump more on the safer color.
   - Explicitly communicated explosion probabilities; changes decision-making structure
 * - High-Stakes vs. Low-Stakes
 
     `hedvar_balloon_analog_risk__high_stakes_vs_low_stakes`
-  - Varying reward amounts per pump.
+  - The amount of money earned per pump is varied, for example one cent versus 25 cents, in different blocks or balloon colors. Tests whether people take fewer risks when more money is on the line.
   - Reward magnitude manipulation changes risk-reward trade-off context
 * - Social Context BART
 
     `hedvar_balloon_analog_risk__social_context_bart`
-  - Playing in observed vs. private conditions.
+  - The participant plays while being watched by a peer or experimenter, or is shown how other people pumped, instead of playing alone. Measures whether an audience or peer information changes risk taking.
   - Observer or peer performance information present; changes social decision-making context
 * - Automatic BART
 
     `hedvar_balloon_analog_risk__automatic_bart`
-  - Participant selects desired number of pumps in advance; eliminates sequential decision-making.
+  - Before each balloon the participant types how many pumps they want, and the balloon then inflates by itself to that number (or pops first). This removes the moment-to-moment decision to keep going and captures only the planned level of risk.
   - Balloon pumps automatically; removes active pumping decision, isolates risk tolerance
 * - BART with Loss Domain
 
     `hedvar_balloon_analog_risk__bart_with_loss_domain`
-  - Starting with balloon value that decreases with each pump; loss-frame analog.
+  - Each balloon starts with money already in it, and every pump removes some of that money while raising the chance of a pop that would lose a larger amount. The participant decides how much loss to accept rather than how much gain to chase.
   - Losses instead of gains; loss framing changes motivational structure of decisions
 ```
 

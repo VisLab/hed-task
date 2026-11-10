@@ -49,52 +49,52 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Adjusting-Amount Method
 
     `hedvar_delay_discounting__adjusting_amount_method`
-  - Titration procedure finding indifference points across delays.
+  - For each delay (for example one week, one month, one year) the participant repeatedly chooses between a smaller amount now and a fixed larger amount later. The immediate amount is raised or lowered after each choice until the participant is indifferent. That amount is the present value of the delayed reward.
   - Adjusts smaller-sooner amount until indifferent; adaptive titration procedure
 * - Adjusting-Delay Method
 
     `hedvar_delay_discounting__adjusting_delay_method`
-  - Titrating delay rather than amount.
+  - The two amounts are fixed, and it is the waiting time for the larger amount that is adjusted after each choice until the participant is indifferent between the two options.
   - Adjusts delay until indifferent; different dimension titrated
 * - 5-Trial Adjusting Delay
 
     `hedvar_delay_discounting__5_trial_adjusting_delay`
-  - Ultra-rapid assessment (~1 minute).
+  - A very short version that finds the delay at which a reward loses half its value in just five choices, each halving the range of possible delays. It takes about a minute.
   - Rapid 5-trial protocol; distinct abbreviated titration method
 * - Fixed-Choice Discrete Trials
 
     `hedvar_delay_discounting__fixed_choice_discrete_trials`
-  - Predetermined choice pairs without titration.
+  - The participant answers a fixed list of now-versus-later questions, such as the 27-item Monetary Choice Questionnaire, with no adjustment based on earlier answers. The pattern of choices is fitted afterwards to estimate the discount rate.
   - Fixed set of choices without adaptation; different decision structure
 * - Magnitude Manipulation
 
     `hedvar_delay_discounting__magnitude_manipulation`
-  - Separate curves for small ($10), medium ($100), and large ($1000) rewards.
+  - The whole procedure is run separately for small, medium and large rewards (for example 10, 100 and 1000 dollars). Larger amounts are usually discounted less steeply.
   - Systematically varies reward magnitude; tests magnitude effect on discounting
 * - Real vs. Hypothetical Rewards
 
     `hedvar_delay_discounting__real_vs_hypothetical_rewards`
-  - Actual waiting and payment vs. hypothetical scenarios.
+  - In the real version one of the participant's choices is selected and paid for real, including the actual wait for a delayed reward. In the hypothetical version the participant imagines the choices and nothing is paid.
   - Real monetary payoff vs. hypothetical; changes incentive structure and motivation
 * - Experiential Discounting Task
 
     `hedvar_delay_discounting__experiential_discounting`
-  - Real delays experienced during the session.
+  - The delays are short (seconds to a minute) and are actually waited out during the session, with the reward delivered at the end of each wait, rather than being described in words and imagined.
   - Delays experienced in real time; different temporal structure from verbal/hypothetical
 * - Gain vs. Loss Framing
 
     `hedvar_delay_discounting__gain_vs_loss_framing`
-  - Separate discounting for delayed gains vs. delayed losses.
+  - Alongside the usual choices between gains, the participant chooses between paying a smaller amount now or a larger amount later. Delayed losses are usually discounted less steeply than delayed gains.
   - Loss domain discounting; different valence changes decision context
 * - Probabilistic Discounting
 
     `hedvar_delay_discounting__probabilistic_discounting`
-  - Combined delay and probability uncertainty.
+  - The larger reward is uncertain rather than delayed: the participant chooses between a smaller sure amount and a larger amount with some probability. The same adjusting procedures find the probability at which the two are equal.
   - Reward probability instead of delay; tests probability rather than temporal discounting
 * - Cross-Commodity Discounting
 
     `hedvar_delay_discounting__cross_commodity_discounting`
-  - Delays for money, food, drugs, social rewards.
+  - The rewards are something other than money, such as food, a drug of abuse, or time with friends, or the two options are in different commodities. Shows whether the discount rate depends on what is being delayed.
   - Non-monetary rewards (food, drugs); different commodity changes motivational basis
 ```
 

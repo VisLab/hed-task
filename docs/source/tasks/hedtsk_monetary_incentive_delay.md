@@ -50,32 +50,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard MID (Knutson)
 
     `hedvar_monetary_incentive_delay__standard_mid_knutson`
-  - Gain, loss-avoidance, and neutral cues; target duration titrated to ~66% accuracy.
+  - A cue shows whether the coming trial can win money, can lose money, or is neutral. After a short wait a target flashes briefly and the participant must press a button before it disappears. Fast enough presses win or avoid losing the money; the target duration is adjusted so this succeeds about two thirds of the time. Feedback follows each trial.
   - Canonical cue-anticipation-response structure with monetary reward/punishment
 * - Graded Reward MID
 
     `hedvar_monetary_incentive_delay__graded_reward_mid`
-  - Multiple reward magnitudes ($0.20, $1.00, $5.00) to parametrically modulate anticipatory activation.
+  - The cues signal several different amounts, for example 20 cents, 1 dollar or 5 dollars, so that the response to anticipating reward can be compared across amounts.
   - Multiple reward magnitude levels; tests reward sensitivity parametrically
 * - MID with Social Rewards
 
     `hedvar_monetary_incentive_delay__mid_with_social_rewards`
-  - Smiling faces or positive social feedback replace monetary outcomes (see also SID, Task 75).
+  - A fast response earns a smiling face or words of approval instead of money, with a neutral image for missed trials. This is the Social Incentive Delay Task, which the Catalog lists separately.
   - Social stimuli (faces) as rewards instead of money; different incentive type
 * - MID with Drug Cues
 
     `hedvar_monetary_incentive_delay__mid_with_drug_cues`
-  - Substance-related cues replacing monetary cues in addiction research.
+  - The cues or rewards are related to a substance such as alcohol, cigarettes or cocaine, for example a picture of the drug signaling the trial, used with people who use that substance.
   - Drug-associated cues as incentive stimuli; different cue content
 * - Passive MID
 
     `hedvar_monetary_incentive_delay__passive_mid`
-  - No motor response required; isolates anticipation without motor confounds.
+  - The cue and outcome are shown but the participant does not press anything; wins and losses are delivered according to a preset schedule. The brain response to anticipating gain or loss is measured without any motor preparation.
   - No response required; isolates anticipatory processing from motor preparation
 * - MID with Effort Component
 
     `hedvar_monetary_incentive_delay__mid_with_effort_component`
-  - Effortful responses (grip strength) to earn rewards; integrates motivation and effort.
+  - Instead of a quick button press, the participant must squeeze a hand grip hard enough or press a key many times to earn the cued reward, so that willingness to work for money is measured alongside anticipation.
   - Effort required to obtain reward; adds effort-discounting to incentive structure
 ```
 

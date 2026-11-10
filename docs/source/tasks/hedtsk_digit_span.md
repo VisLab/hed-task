@@ -51,57 +51,57 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Forward Digit Span
 
     `hedvar_digit_span__forward_digit_span`
-  - Repeat digits in presentation order; primarily measures phonological loop capacity.
+  - The experimenter reads a list of digits aloud at one per second, and the participant repeats them in the same order. Lists get longer until the participant fails, and the longest list repeated correctly is the span.
   - Reproduce digits in order; canonical phonological span measure
 * - Backward Digit Span
 
     `hedvar_digit_span__backward_digit_span`
-  - Repeat digits in reverse; adds manipulation and executive demand.
+  - The participant repeats the digits in reverse order, last digit first. The list must be held and reversed before it can be spoken.
   - Reproduce in reverse; requires mental transformation
 * - Digit Span Sequencing (WAIS-IV)
 
     `hedvar_digit_span__digit_span_sequencing_wais_iv`
-  - Reorder digits from lowest to highest; requires sequencing operations.
+  - The participant repeats the digits sorted from smallest to largest, regardless of the order heard. Part of the Wechsler intelligence scales.
   - Reorder digits from smallest to largest; different transformation requirement
 * - Letter-Number Sequencing
 
     `hedvar_digit_span__letter_number_sequencing`
-  - Mixed sequences of letters and digits; reorder numbers first, then letters alphabetically.
+  - The list mixes letters and digits (for example 7-B-3-K). The participant must say the digits first in ascending order, then the letters in alphabetical order.
   - Alternating letters and numbers reordered separately; dual sequencing demand
 * - Auditory vs. Visual Presentation
 
     `hedvar_digit_span__auditory_vs_visual_presentation`
-  - Digits spoken aloud vs. presented visually on screen; modality effects on span.
+  - The digits are shown one at a time on a screen instead of being spoken. The participant then says or types them back. Compares memory for seen and heard sequences.
   - Visual digit presentation vs. auditory; different input modality
 * - Adaptive Staircase Versions
 
     `hedvar_digit_span__adaptive_staircase_versions`
-  - Computerized versions adjusting sequence length based on accuracy; more precise span estimates.
+  - A computer sets the next list length from the participant's recent accuracy, making lists longer after correct responses and shorter after errors, and estimates the span from where performance settles.
   - Adaptive difficulty tracking; different trial-generation procedure
 * - Spatial Digit Span
 
     `hedvar_digit_span__spatial_digit_span`
-  - Digits presented at spatial locations; combines verbal and spatial demands.
+  - Each digit appears at a different position on the screen, and the participant must reproduce the digits in order, sometimes also indicating where each appeared.
   - Digits at spatial locations; adds spatial component
 * - Running Digit Span
 
     `hedvar_digit_span__running_digit_span`
-  - Unpredictable sequence lengths; recall the last N items; measures updating.
+  - Digits are read in lists of unpredictable length, and when the list stops the participant must report the last few digits (for example the last four). Because the end cannot be anticipated, the participant has to keep updating which digits to hold.
   - Recall last N digits of unknown-length list; different task structure
 * - Grouped/Chunked Presentation
 
     `hedvar_digit_span__grouped_chunked_presentation`
-  - Digits presented in rhythmic groups; examines effects of chunking.
+  - The digits are read with pauses that group them into clusters of two or three (like a phone number) instead of at an even pace. Grouping usually helps recall.
   - Digits presented in groups; tests chunking facilitation
 * - Matrix Span
 
     `hedvar_digit_span__matrix_span`
-  - Memory for spatial locations within a matrix; visuospatial analog.
+  - Instead of digits, a sequence of cells lights up in a grid, and the participant indicates the cells in the order shown. A spatial counterpart of digit span.
   - Spatial matrix locations instead of digits; different stimulus type
 * - Supra-Span Lists
 
     `hedvar_digit_span__supra_span_lists`
-  - Lists exceeding span; number of trials to criterion measures learning rate.
+  - A list longer than the participant's span is repeated until it can be recalled perfectly. The number of repetitions needed measures how fast a long sequence is learned.
   - Lists exceed span; tests learning over trials
 ```
 

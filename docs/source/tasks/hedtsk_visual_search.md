@@ -53,57 +53,57 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Feature Search (Pop-Out)
 
     `hedvar_visual_search__feature_search_pop_out`
-  - Target defined by single unique feature; flat set-size functions; parallel processing.
+  - The participant looks for a target that differs from all the distractors in one simple feature, such as a red item among green ones, and reports whether it is present. The target stands out at once and search time does not increase with more distractors.
   - Canonical preattentive pop-out; target defined by single feature
 * - Conjunction Search
 
     `hedvar_visual_search__conjunction_search`
-  - Target defined by feature combination; linear set-size functions; serial/guided search.
+  - The target shares one feature with some distractors and another with the rest, for example a red X among red Os and green Xs. The target does not stand out, and search time grows with the number of items.
   - Target defined by conjunction of features; requires serial search
 * - Spatial Configuration Search
 
     `hedvar_visual_search__spatial_configuration_search`
-  - Target defined by spatial arrangement of elements (e.g., rotated T among L's).
+  - The target and distractors are made of the same parts in different arrangements, such as a T among rotated Ls. Each item has to be inspected, making this one of the slowest kinds of search.
   - Learned spatial configuration guides search; contextual cueing component
 * - Absent Trials and Target-Present/Absent Ratio
 
     `hedvar_visual_search__absent_trials_and_target_present_absent_ratio`
-  - Manipulating target prevalence; low prevalence produces miss errors (prevalence effect).
+  - The share of trials on which a target is actually present is varied, for example 50 percent in one block and 2 percent in another. When targets are rare, participants miss far more of them.
   - Systematically varies target presence probability; changes decision criteria
 * - Multiple-Target Search (Foraging)
 
     `hedvar_visual_search__multiple_target_search_foraging`
-  - Finding multiple targets in a display; reveals satisfaction-of-search effects.
+  - A display contains several targets, and the participant collects as many as they can, or decides when to stop and move to a new display. Finding one target makes further targets more likely to be missed.
   - Multiple targets per display; foraging paradigm with different decision structure
 * - Real-World/Naturalistic Search
 
     `hedvar_visual_search__real_world_naturalistic_search`
-  - Searching photographs or 3D environments for objects in cluttered natural scenes.
+  - The participant searches for a named object in a photograph of a real scene, or in a 3D environment, rather than in an array of simple shapes.
   - Natural scenes as search arrays; different stimulus class and recognition demands
 * - Guided Search Variants
 
     `hedvar_visual_search__guided_search_variants`
-  - Manipulating top-down guidance via instruction or preview; tests guided search model predictions.
+  - Before the display, the participant is told or shown what the target looks like, or part of the display is shown in advance, so that knowledge of the target can guide attention to likely items.
   - Top-down feature guidance provides target template; changes attentional control
 * - Additional-Singleton Paradigm
 
     `hedvar_visual_search__additional_singleton_paradigm`
-  - Salient but irrelevant distractor captures attention; measures bottom-up capture vs. top-down control.
+  - On some trials one distractor is given a highly salient but irrelevant feature, such as a unique color, while the participant searches for a target defined by shape. The salient distractor slows search by drawing attention.
   - Color singleton distractor captures attention; distinct capture paradigm
 * - Preview Search
 
     `hedvar_visual_search__preview_search`
-  - Half of items presented early (preview); search operates over new items only (visual marking).
+  - Half the distractors are shown first and the rest of the display, including the target, is added about a second later. Search is efficient among the new items only, as if the old ones were marked and ignored.
   - Subset of items previewed before search display; different temporal structure
 * - Adaptive Choice Visual Search
 
     `hedvar_visual_search__adaptive_choice_visual_search`
-  - Participants choose which display region to search; models foraging decisions.
+  - Two targets are present, one defined by each of two colors, and the participant chooses which to search for. The numbers of each color change gradually, and whether the participant switches to the easier target measures how well they adjust their strategy.
   - Participant chooses between search types; tests cost-benefit of different strategies
 * - Hybrid Search (Visual + Memory)
 
     `hedvar_visual_search__hybrid_search_visual_memory`
-  - Searching displays for any of multiple targets held in memory; combines visual search and memory search.
+  - The participant memorizes a set of possible targets (from a few to a hundred) and then searches each display for any of them. Search time depends on both the number of items on screen and the number of targets in memory.
   - Memory set held while visual search proceeds; combined memory-search paradigm
 ```
 

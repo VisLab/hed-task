@@ -52,62 +52,62 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Classic Color-Word Stroop
 
     `hedvar_stroop_color_word__classic_color_word_stroop`
-  - Name ink color of incongruent color words; the canonical interference paradigm.
+  - Color words are printed in colored ink, for example RED printed in blue, and the participant names the ink color while ignoring the word. Naming is slower and more error-prone when the word and the ink disagree than when they agree or the item is a neutral string.
   - Canonical color naming of congruent/incongruent color words
 * - Manual (Button-Press) Stroop
 
     `hedvar_stroop_color_word__manual_button_press_stroop`
-  - Responses via key press rather than vocal naming; preferred in neuroimaging to reduce motion artifacts.
+  - The participant presses one of several keys, one per ink color, instead of saying the color aloud. Common in brain imaging where speaking would cause head movement.
   - Button press instead of vocal response; different response modality
 * - Vocal Response Stroop
 
     `hedvar_stroop_color_word__vocal_response_stroop`
-  - Original format with spoken color-naming responses; produces larger interference due to response-channel overlap with word reading.
+  - The participant says the ink color aloud, as in the original task, and voice onset is recorded with a microphone. Interference is larger than with key presses because reading and color naming both use speech.
   - Vocal naming; distinct from manual version
 * - Counting Stroop
 
     `hedvar_stroop_color_word__counting_stroop`
-  - Count the number of items displayed while ignoring the number word printed; used extensively in fMRI.
+  - A number word is printed one to four times (for example 'two' printed three times) and the participant reports how many words there are, ignoring what the word says. Neutral items use animal names.
   - Count number of words instead of naming color; different task dimension
 * - Spatial Stroop
 
     `hedvar_stroop_color_word__spatial_stroop`
-  - Conflict between stimulus location and directional word content (e.g., "LEFT" on right side).
+  - A direction word (such as LEFT or ABOVE) or an arrow appears at a position on the screen, and the participant reports either the word's meaning or its position while ignoring the other.
   - Spatial word/location conflict; different conflict dimension
 * - Numerical Stroop
 
     `hedvar_stroop_color_word__numerical_stroop`
-  - Conflict between numerical magnitude and physical size of digits.
+  - Two digits are shown in different physical sizes, and the participant chooses the one that is numerically larger (ignoring size) or physically larger (ignoring value). Responses slow when the larger number is printed smaller.
   - Number magnitude vs. physical size conflict; different domain
 * - Reverse Stroop
 
     `hedvar_stroop_color_word__reverse_stroop`
-  - Read the word while ignoring ink color; reverses the typical control demand.
+  - The participant reads the word and ignores the ink color. Interference from the ink is usually small, but it appears when the response is made by pointing to a color patch rather than speaking.
   - Name the word rather than the color; reversed task demand
 * - Proportion-Congruent Manipulation
 
     `hedvar_stroop_color_word__proportion_congruent_manipulation`
-  - Varying the ratio of congruent-to-incongruent trials to study context-driven control adjustments.
+  - The share of trials on which word and ink agree is varied between blocks or between particular words, for example mostly agreeing in one block and mostly conflicting in another. Interference is smaller when conflict is expected.
   - Conflict frequency variation; adaptation context per §5.2
 * - Face-Word Stroop
 
     `hedvar_stroop_color_word__face_word_stroop`
-  - Emotional face images paired with congruent/incongruent emotion labels.
+  - A face with an emotional expression has an emotion word written across it. The participant names the expression while ignoring the word, and responses slow when the word names a different emotion.
   - Face emotion vs. color word conflict; different stimulus domain
 * - Color-Shape Stroop
 
     `hedvar_stroop_color_word__color_shape_stroop`
-  - Shapes printed in colors that conflict with shape-color associations (e.g., a blue banana).
+  - Objects with a strongly associated color are shown in the wrong color, such as a blue banana, and the participant names the displayed color while the known color of the object interferes.
   - Color word/shape conflict instead of ink color; different conflict structure
 * - Priming Stroop
 
     `hedvar_stroop_color_word__priming_stroop`
-  - Preceded by neutral, congruent, or incongruent primes to study anticipatory control.
+  - Each color-word item is preceded by a prime, such as a word or cue that is neutral, matches or conflicts with the coming item, to study how advance information changes the interference.
   - Prime precedes Stroop item; temporal context manipulation
 * - Negative Priming Stroop
 
     `hedvar_stroop_color_word__negative_priming_stroop`
-  - Measures inhibitory aftereffects when a previously ignored color word becomes the target on the next trial.
+  - Trials are arranged so that the word to be ignored on one trial is the ink color to be named on the next (for example RED in green, then any word in red). Naming the previously ignored color is slower, which shows it was suppressed.
   - Previously ignored item becomes target; tests ignored repetition effect
 ```
 

@@ -55,37 +55,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Libet Clock Method (Standard)
 
     `hedvar_intentional_binding__libet_clock_method_standard`
-  - Haggard et al. (2002): report perceived position of a rotating clock hand at the moment of action or effect onset. The foundational paradigm. Separate action-binding and effect-binding blocks.
+  - A clock hand sweeps around a small clock face once every 2.5 seconds. The participant presses a key whenever they like, and a tone sounds 250 ms later. On some blocks they report where the hand was when they pressed; on others, where it was when the tone sounded. Compared with blocks with only a press or only a tone, the press is judged later and the tone earlier, as if the two were drawn together.
   - Canonical: estimate action or tone time on rotating clock
 * - Interval Estimation Method
 
     `hedvar_intentional_binding__interval_estimation_method`
-  - Participants estimate the duration of the action-effect interval directly (e.g., in milliseconds or by reproducing the interval). Simpler than the Libet clock; avoids clock-reading demands.
+  - No clock is used. After each press and tone the participant estimates in milliseconds how long the gap between them was, or reproduces it. Shorter estimates for voluntary actions than for passive ones indicate the same binding.
   - Estimate delay between action and outcome; different timing judgment task
 * - Involuntary Action Control (TMS)
 
     `hedvar_intentional_binding__involuntary_action_control_tms`
-  - Transcranial magnetic stimulation over motor cortex produces involuntary finger movements. Involuntary actions produce temporal repulsion rather than binding, confirming agency specificity.
+  - The finger movement is produced by a magnetic pulse to the motor cortex rather than by the participant's own decision. The involuntary movement and its tone are judged as further apart rather than closer together.
   - TMS-induced involuntary movement instead of voluntary action; different action type
 * - Outcome Probability Manipulation
 
     `hedvar_intentional_binding__outcome_probability_manipulation`
-  - Vary the probability that the action produces an effect (100%, 75%, 50%). Lower probability reduces binding, consistent with predictive (forward model) accounts.
+  - The tone follows the key press only some of the time, for example on 50 or 75 percent of trials, rather than always. The binding effect is weaker when the tone is less predictable.
   - Vary probability that action produces tone; tests contingency on binding
 * - Causal Belief Manipulation
 
     `hedvar_intentional_binding__causal_belief_manipulation`
-  - Participants are told their action does or does not cause the tone (while physical contingency is held constant). Tests top-down causal belief contributions to binding.
+  - The participant is told either that their press causes the tone or that the tone is produced independently, while the actual timing is the same in both cases. Tests whether believing one is the cause is enough to produce binding.
   - Instructions manipulate whether action causes outcome; tests belief on binding
 * - Social Intentional Binding
 
     `hedvar_intentional_binding__social_intentional_binding`
-  - One participant's action causes an effect experienced by another (joint action), or participants observe another person's action-effect pair. Tests vicarious and shared agency.
+  - Either another person presses the key and the participant judges the timing of that person's action and its tone, or two people act together so that one person's press produces an effect the other experiences.
   - Another person performs action; tests social extension of binding
 * - Outcome Valence Manipulation
 
     `hedvar_intentional_binding__outcome_valence_manipulation`
-  - Action produces positive (reward tone), negative (aversive tone), or neutral effects. Tests whether emotional significance of outcomes modulates binding. Relevant to moral agency research.
+  - The key press produces a pleasant, unpleasant or neutral sound, or wins or loses money, and the amount of binding is compared across outcomes.
   - Aversive vs. pleasant outcomes; tests valence effect on temporal binding
 ```
 

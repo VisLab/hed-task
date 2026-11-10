@@ -52,52 +52,52 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Simultaneous masking
 
     `hedvar_auditory_masking__simultaneous_masking`
-  - Target and masker overlap in time; measures frequency selectivity via notched-noise or band-reject paradigms.
+  - The target sound and the masking sound play at the same time. The participant reports whether the target was present, and its level is adjusted to find the quietest level still detectable in the masker. Used to measure how finely the ear separates frequencies.
   - Masker and target overlap in time; fundamental temporal configuration of masking
 * - Forward masking
 
     `hedvar_auditory_masking__forward_masking`
-  - Masker precedes target by a brief interval; probes temporal resolution and adaptation recovery.
+  - The masker plays first and stops, and the target sound follows after a short silent gap (a few to a few hundred milliseconds). The participant reports whether the target was heard. The closer the target follows the masker, the harder it is to hear.
   - Masker precedes target; different temporal relationship produces distinct masking mechanism
 * - Backward masking
 
     `hedvar_auditory_masking__backward_masking`
-  - Masker follows target; demonstrates retroactive interference in early auditory processing.
+  - The brief target sound plays first and the masker follows it. Even though the target comes first, a masker arriving soon enough afterwards makes it harder to detect.
   - Masker follows target; different temporal order from forward masking
 * - Energetic masking (peripheral)
 
     `hedvar_auditory_masking__energetic_masking_peripheral`
-  - Target and masker excite overlapping auditory filters; threshold shift predicted by excitation-pattern models.
+  - The masker is a noise or tone that overlaps the target in frequency, so the two sounds physically compete in the same region of the inner ear. Detection thresholds can be predicted from the acoustics alone.
   - Peripheral auditory overlap; mechanistically distinct from informational masking
 * - Informational masking (central)
 
     `hedvar_auditory_masking__informational_masking_central`
-  - Masker is spectrally remote but perceptually confusable; threshold shift exceeds energetic predictions.
+  - The masker does not overlap the target in frequency, but it is similar or unpredictable enough (for example random tone complexes or other speech) that the listener has trouble telling target from masker. The difficulty comes from confusion and attention rather than from the ear itself.
   - Central/cognitive masking mechanism; different stimulus and processing demands
 * - Comodulation masking release (CMR)
 
     `hedvar_auditory_masking__comodulation_masking_release_cmr`
-  - Coherent amplitude modulation across frequency bands releases target from masking; indexes across-channel grouping.
+  - The target tone is masked by a narrow band of noise, and additional noise bands are added at other frequencies. When those bands rise and fall in loudness together with the masker, the target becomes easier to hear; when they fluctuate independently, it does not.
   - Comodulated flanking bands release target from masking; unique stimulus configuration
 * - Speech-in-noise
 
     `hedvar_auditory_masking__speech_in_noise`
-  - Speech target masked by competing talkers, babble, or steady-state noise; measures speech reception threshold.
+  - The target is spoken words or sentences, and the masker is other talkers, babble or steady noise. The participant repeats or identifies what was said, and the signal-to-noise ratio at which half the words are correct is the measure.
   - Speech target in noise background; distinct task with different linguistic processing demands
 * - Tone-in-noise detection
 
     `hedvar_auditory_masking__tone_in_noise_detection`
-  - Pure-tone target in broadband or narrowband noise; foundational psychoacoustic paradigm for measuring auditory filter shape.
+  - The target is a pure tone and the masker is broadband or narrowband noise. The participant reports whether the tone was present in each noise burst, often choosing which of two intervals contained it. The basic version of the task.
   - Pure tone detection in wideband noise; different target type from speech or complex stimuli
 * - Modulation masking
 
     `hedvar_auditory_masking__modulation_masking`
-  - Amplitude-modulated masker reduces detection of amplitude modulation on a carrier; probes modulation filter bank.
+  - Rather than detecting a sound, the participant detects whether a sound's loudness is fluttering (amplitude modulated). A masker with its own loudness fluctuations at a nearby rate makes the target flutter harder to notice.
   - Masking of temporal amplitude modulation; different perceptual dimension
 * - Spatial release from masking
 
     `hedvar_auditory_masking__spatial_release_from_masking`
-  - Separating masker and target in space reduces masking; measures binaural and spatial processing.
+  - The target and masker are played from different directions, either from separate loudspeakers or with headphone cues that place them apart. The participant's detection threshold is compared with the same sounds played from the same location.
   - Spatial separation of target and masker; binaural processing distinguishes it from monaural variants
 ```
 

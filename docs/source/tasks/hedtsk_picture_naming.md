@@ -51,47 +51,47 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Single-Object Naming
 
     `hedvar_picture_naming__standard_single_object_naming`
-  - Name isolated objects as quickly as possible.
+  - Line drawings or photographs of objects appear one at a time and the participant says the name of each as quickly as possible. A microphone records the time from picture onset to the start of speech.
   - Canonical overt naming to pictured objects
 * - Blocked-Cyclic Naming
 
     `hedvar_picture_naming__blocked_cyclic_naming`
-  - Small sets named repeatedly in semantically homogeneous vs. heterogeneous blocks; measures semantic interference.
+  - A small set of pictures is named repeatedly in cycles. In some blocks all pictures in the set are from one category (all animals); in others they are mixed. Naming slows over cycles in the same-category blocks because related words compete.
   - Same items repeat in blocked cycles; cumulative interference paradigm
 * - Continuous Naming
 
     `hedvar_picture_naming__continuous_naming`
-  - Large sets with cumulative semantic interference across ordinal position within a category.
+  - A long list of pictures is named once each, with pictures from the same category scattered through the list. Each additional picture from a category is named a little more slowly than the one before, showing interference building up.
   - Rapid successive naming; tests sustained lexical access
 * - Picture-Word Interference (PWI)
 
     `hedvar_picture_naming__picture_word_interference_pwi`
-  - Simultaneous distractor word during naming; semantic vs. phonological distractors.
+  - A written or spoken word is presented with each picture, and the participant names the picture while ignoring the word. A word related in meaning (cat for a picture of a dog) slows naming; a word that sounds similar (doll) speeds it.
   - Distractor word accompanies picture; lexical competition paradigm
 * - Delayed Naming
 
     `hedvar_picture_naming__delayed_naming`
-  - See picture → delay → name; separates conceptual/lexical from articulatory processes.
+  - The picture is shown but the participant must wait for a signal, typically one to two seconds later, before saying the name. Because the name is ready before the signal, response time reflects only speech production.
   - Delay between picture onset and response signal; isolates planning from execution
 * - Object + Action Naming
 
     `hedvar_picture_naming__object_action_naming`
-  - Naming objects, actions, and attributes in separate or mixed blocks.
+  - Pictures show actions as well as objects, and the participant names the action with a verb ('running') or the object with a noun, in separate or mixed blocks.
   - Name actions as well as objects; different grammatical category
 * - Bilingual Picture Naming
 
     `hedvar_picture_naming__bilingual_picture_naming`
-  - Language switching paradigms with mixed-language naming blocks.
+  - A cue on each trial (such as a flag or color) tells a bilingual participant which language to name the picture in. Naming is slower just after a switch of language.
   - Language cue specifies response language; language control demand
 * - Tip-of-the-Tongue (TOT) Paradigm
 
     `hedvar_picture_naming__tip_of_the_tongue_tot_paradigm`
-  - Inducing retrieval failures via low-frequency items.
+  - Pictures of rarely named things or people (famous faces, unusual objects) are used to provoke states in which the participant knows the name but cannot produce it. The participant reports whether they know it, are in that state, or do not know, and may report partial information such as the first letter.
   - Naming under word-finding difficulty conditions; different metacognitive state
 * - Naming with Phonological/Semantic Cues
 
     `hedvar_picture_naming__naming_with_phonological_semantic_cues`
-  - Providing partial information to study facilitation.
+  - When the participant cannot name a picture, a hint is given, such as the first sound of the name or a description of its meaning, and whether the hint produces the name is recorded.
   - Partial cues provided after TOT; different cueing structure
 ```
 

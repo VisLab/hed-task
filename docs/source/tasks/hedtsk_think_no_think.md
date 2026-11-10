@@ -51,32 +51,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Think/No-Think (TNT)
 
     `hedvar_think_no_think__standard_think_no_think_tnt`
-  - Word-pair learning followed by think/no-think phase and final cued recall; the Anderson & Green (2001) version.
+  - The participant learns word pairs until they can give the second word for each first word. Then first words are shown in green (recall and think of the partner) or red (look at the word but keep the partner out of mind) many times. Finally all first words are given and the participant recalls every partner. Partners that were repeatedly kept out of mind are recalled less well than untrained pairs.
   - Canonical Anderson & Green: cue-directed recall suppression
 * - Independent Probe Test
 
     `hedvar_think_no_think__independent_probe`
-  - Testing suppressed items with novel, category cues rather than the learned cue; demonstrates cue-independent forgetting indicative of inhibition.
+  - In the final test, instead of the learned first word, a new cue is given, such as a category plus a first letter ('insect R___' for 'roach'). If suppressed words are still harder to recall from a new cue, the memory itself has been weakened, not just the link from the trained cue.
   - Test with novel cues not seen in TNT phase; isolates suppression from retrieval practice
 * - TNT with Intrusion Reporting
 
     `hedvar_think_no_think__tnt_with_intrusion_reporting`
-  - Participants report whether the target came to mind despite suppression attempts; tracks suppression success over repetitions.
+  - After each suppress trial the participant reports whether the partner word came to mind anyway. The share of trials with intrusions falls across repetitions, tracking how suppression improves.
   - Participant signals intrusions during no-think; adds metacognitive monitoring report
 * - Emotional TNT
 
     `hedvar_think_no_think__emotional_tnt`
-  - Negative or trauma-related word pairs or scene-face pairs; tests suppression of emotional memories.
+  - The items to be suppressed are negative or trauma-related, such as unpleasant words or pairs of faces with disturbing scenes, to test whether distressing memories can be suppressed.
   - Emotional paired associates; retained per §5.1 (EMOT retired)
 * - TNT with Thought Substitution
 
     `hedvar_think_no_think__tnt_with_thought_substitution`
-  - Instructing participants to replace the unwanted memory with an alternative thought; contrasts direct suppression with thought substitution.
+  - Instead of blocking the partner word directly, the participant is given a different word to think about whenever the red cue appears. Compares two strategies for keeping a memory out of mind.
   - Replace suppressed thought with substitute; different suppression strategy
 * - Dose-Response TNT
 
     `hedvar_think_no_think__dose_response_tnt`
-  - Varying the number of suppression attempts (0, 2, 4, 8, 12, 16) to trace the dose-response curve of suppression.
+  - Different pairs are given different numbers of suppress trials (such as 0, 2, 4, 8, 12 or 16), and final recall is plotted against the number of suppressions.
   - Varies number of suppression repetitions; tests suppression as function of dose
 ```
 

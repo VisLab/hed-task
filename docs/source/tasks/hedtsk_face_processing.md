@@ -50,42 +50,42 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Faces vs. Objects Block Design
 
     `hedvar_face_processing__faces_vs_objects_block_design`
-  - Alternating blocks; canonical localizer contrast.
+  - Pictures of faces and pictures of everyday objects are shown in alternating blocks of about 15 to 20 seconds each while brain activity is recorded. The participant usually just watches, or presses a key when a picture repeats to stay alert. Comparing face blocks with object blocks locates face-selective brain areas.
   - Localizer with objects as contrast; category-selective activation paradigm
 * - Faces vs. Scrambled Faces
 
     `hedvar_face_processing__faces_vs_scrambled_faces`
-  - Controls for low-level visual features.
+  - The comparison pictures are the same face images cut into pieces and rearranged so they no longer look like faces. This keeps the colors and contrast identical, so any difference is due to seeing a face rather than to low-level image properties.
   - Scrambled faces as control; tests configural vs. feature processing
 * - Faces vs. Houses
 
     `hedvar_face_processing__faces_vs_houses`
-  - Reliable contrast producing focused FFA activation.
+  - The comparison blocks show pictures of houses or buildings, another category with its own specialized brain response, giving a clean contrast for locating face areas.
   - Houses as non-face object category; standard FFA localizer contrast
 * - Dynamic Face Localizer
 
     `hedvar_face_processing__dynamic_face_localizer`
-  - Video clips of faces; higher sensitivity.
+  - Short video clips of moving faces (talking, changing expression) are used instead of still photographs, with moving objects as the comparison. Video gives stronger and more reliable responses in face areas.
   - Moving/dynamic faces; different temporal and motion processing demands
 * - Upright vs. Inverted Faces
 
     `hedvar_face_processing__upright_vs_inverted_faces`
-  - Probes holistic/configural processing.
+  - Faces are shown upright in some blocks and upside down in others. Inverted faces are harder to process as a whole, and the difference between the two isolates whole-face processing.
   - Face inversion disrupts configural processing; different perceptual experience
 * - Identity Adaptation
 
     `hedvar_face_processing__identity_adaptation`
-  - Repeated same-identity presentations to measure identity-specific responses.
+  - Faces are shown in pairs or short runs. Sometimes the same person's face repeats, sometimes a different person follows. The brain response is weaker to a repeated identity, so the drop measures sensitivity to who the face belongs to.
   - Adaptation paradigm with identity pairs; different temporal structure
 * - Face Parts (Eyes, Mouth)
 
     `hedvar_face_processing__face_parts_eyes_mouth`
-  - Isolated features vs. whole face.
+  - Only parts of faces are shown, such as the eyes alone or the mouth alone, in separate blocks from whole faces, to see whether face areas respond to features or need the whole face.
   - Isolated face regions; participant views different spatial configuration
 * - Familiar vs. Unfamiliar Faces
 
     `hedvar_face_processing__familiar_vs_unfamiliar_faces`
-  - Personal familiarity effects on face-selective regions.
+  - Some faces are of people the participant knows personally or famous people, and others are strangers. The participant views them (or judges familiarity), and responses to known and unknown faces are compared.
   - Familiarity manipulation changes recognition demand
 ```
 

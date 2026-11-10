@@ -52,37 +52,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Item-Method Directed Forgetting
 
     `hedvar_directed_forgetting__item_method_directed_forgetting`
-  - Remember/forget cue after each individual item; primarily affects encoding.
+  - Words are shown one at a time, and each is followed by an instruction to remember it or to forget it. A later memory test, which asks for all words including the to-be-forgotten ones, shows worse memory for the forget-cued words.
   - Forget cue follows each item; individual item suppression
 * - List-Method Directed Forgetting
 
     `hedvar_directed_forgetting__list_method_directed_forgetting`
-  - Single forget cue after the first list; affects both retrieval and encoding of second list.
+  - A whole list of words is studied, and only then is the participant told either to forget that list (it was practice) or to keep remembering it. A second list is then studied. The final test covers both lists.
   - Forget cue follows entire first list; list-level suppression
 * - Recognition vs. Recall Test
 
     `hedvar_directed_forgetting__recognition_vs_recall`
-  - Directed forgetting effects are typically larger in recall than recognition.
+  - The final memory test is a recognition test, in which studied words are mixed with new ones and the participant picks out the old ones, rather than free recall. The forgetting effect is usually weaker with recognition.
   - Different retrieval test changes what type of access is measured
 * - Directed Forgetting with Source Memory
 
     `hedvar_directed_forgetting__directed_forgetting_with_source_memory`
-  - Testing whether source information is forgotten alongside item information.
+  - At test the participant must also say which cue each remembered word received, or which list it came from, rather than just whether it was studied.
   - Retrieval includes source judgment; adds contextual memory component
 * - Emotional Directed Forgetting
 
     `hedvar_directed_forgetting__emotional_directed_forgetting`
-  - Emotional vs. neutral items; emotional items may resist directed forgetting.
+  - The studied items include emotional words or pictures as well as neutral ones. Tests whether emotional material can be forgotten on instruction as easily as neutral material.
   - Emotional to-be-forgotten material; retained per §5.1 (EMOT retired)
 * - Directed Forgetting of Actions (SPT)
 
     `hedvar_directed_forgetting__directed_forgetting_of_actions_spt`
-  - Forgetting subject-performed tasks; tests embodied memory control.
+  - The items are short action phrases such as 'fold the paper' that the participant physically performs during study, after which each is cued to be remembered or forgotten.
   - Subject-performed tasks as to-be-forgotten items; different encoding modality
 * - Cumulative Directed Forgetting
 
     `hedvar_directed_forgetting__cumulative_directed_forgetting`
-  - Multiple lists with forget cues; tests whether inhibition accumulates across lists.
+  - Several lists are studied in a row, each followed by a forget or remember instruction, so that forgetting instructions accumulate across the session before the final test.
   - Multiple forget cues accumulate across list; different suppression structure
 ```
 

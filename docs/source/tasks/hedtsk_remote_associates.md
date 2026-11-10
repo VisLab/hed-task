@@ -50,22 +50,22 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard RAT (Mednick)
 
     `hedvar_remote_associates__standard_rat_mednick`
-  - 30-item test with three cue words per item; timed at 15-40 seconds per item.
+  - Each item gives three words, such as 'cottage, swiss, cake', and the participant must find a fourth word that goes with all three ('cheese'). Thirty items are given with a time limit of 15 to 40 seconds each, and the number solved and time to solve are recorded.
   - Canonical three-word compound remote associate task
 * - Compound RAT (CRAT)
 
     `hedvar_remote_associates__compound_rat_crat`
-  - Solutions form compound words or phrases with each cue (e.g., "cottage cheese," "Swiss cheese," "cheesecake").
+  - The items are restricted to those where the answer forms a compound word or common phrase with each of the three cue words (cottage cheese, swiss cheese, cheesecake), rather than being related by meaning alone. The normed set by Bowden and Jung-Beeman is the usual source.
   - Compound word solutions instead of single words; different solution structure
 * - Timed vs. Untimed RAT
 
     `hedvar_remote_associates__timed_vs_untimed_rat`
-  - Strict time limits vs. self-paced to study incubation effects.
+  - Items are given either with a strict time limit per item or with no limit, sometimes with a break before unsolved items are retried, to study whether solutions arrive after a pause.
   - Time pressure changes solving strategy
 * - RAT with Hint/Priming
 
     `hedvar_remote_associates__rat_with_hint_priming`
-  - Subliminal or suprathreshold presentation of the answer or related words.
+  - Before or during an item, the answer or a related word is shown, either briefly and masked so it is not consciously seen, or openly as a hint. The effect on solving is measured.
   - Semantic prime precedes problem; changes solution accessibility
 ```
 

@@ -52,37 +52,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Weather Prediction (4 cues, binary outcome)
 
     `hedvar_probabilistic_classification_learning__standard_weather_prediction_4_cues_binary_outcome`
-  - Four cards with probabilistic associations to rain/sun.
+  - One to three cards from a set of four, each with a geometric pattern, are shown on each trial, and the participant predicts whether the weather will be rain or sunshine. Each card is linked to rain with its own probability, and feedback after each guess lets the participant gradually learn the odds.
   - Canonical probabilistic categorization with cue combinations
 * - Deterministic Version
 
     `hedvar_probabilistic_classification_learning__deterministic_version`
-  - 100% cue-outcome mappings; becomes explicit rule learning.
+  - Each combination of cards always predicts the same outcome, so a rule can be learned exactly rather than approximately. The task then measures explicit rule learning rather than gradual probabilistic learning.
   - Cues perfectly predict outcome; removes probabilistic uncertainty
 * - Varying Probability Levels
 
     `hedvar_probabilistic_classification_learning__varying_probability_levels`
-  - Different probabilistic strengths (60/40 to 90/10).
+  - The strength of the link between cards and outcome is varied, from barely better than chance (60/40) to nearly certain (90/10). Learning is faster and more complete with stronger links.
   - Cue-outcome reliability systematically manipulated; different learning statistics
 * - Information-Integration Category Learning
 
     `hedvar_probabilistic_classification_learning__information_integration_category_learning`
-  - Multi-dimensional continuous stimuli; optimal categorization requires integration across dimensions.
+  - The stimuli vary continuously on two or more dimensions (such as the length and tilt of a line), and the correct category depends on combining both dimensions in a way that cannot be stated as a simple rule. Learned gradually from feedback.
   - Categories defined by integration of dimensions; different decision rule
 * - Rule-Based Category Learning (comparison)
 
     `hedvar_probabilistic_classification_learning__rule_based_category_learning_comparison`
-  - Stimuli categorizable by single explicit rule; dissociates from implicit systems.
+  - The stimuli vary on several dimensions but the category is determined by one dimension alone (for example, long lines are category A), so the participant can find the rule by testing hypotheses. Used as a contrast with the integration version.
   - Explicit rule applicable; contrasts implicit vs. explicit learning systems
 * - Feedback vs. Observation Learning
 
     `hedvar_probabilistic_classification_learning__feedback_vs_observation_learning`
-  - Learning from trial-by-trial feedback vs. observing cue-outcome pairings.
+  - In the observation version, each set of cards is shown together with its outcome and the participant just watches, rather than guessing and being told right or wrong. Both versions are then tested without feedback.
   - Active feedback vs. observational learning; different learning mechanism
 * - Transfer Test Variants
 
     `hedvar_probabilistic_classification_learning__transfer_test_variants`
-  - New cue combinations or reversed contingencies after initial learning.
+  - After learning, the participant is tested on card combinations never seen during training, or on the same cards with the outcome links reversed, to see whether what was learned generalizes or can be updated.
   - Probe generalization with novel cue combinations; different test phase
 ```
 

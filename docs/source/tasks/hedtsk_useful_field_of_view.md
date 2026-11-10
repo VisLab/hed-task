@@ -49,22 +49,22 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Subtest 1: Central Processing Speed
 
     `hedvar_useful_field_of_view__subtest_1_central_processing_speed`
-  - Identify a central target (car or truck) at varying display durations.
+  - A picture of a car or a truck is flashed in the center of the screen for a variable time and then masked, and the participant reports which it was. The shortest exposure at which they are reliably correct is the score.
   - Central target discrimination; measures processing speed component
 * - Subtest 2: Divided Attention
 
     `hedvar_useful_field_of_view__subtest_2_divided_attention`
-  - Central identification plus localization of a peripheral target.
+  - While identifying the central car or truck, the participant must also report where a second car appeared at the edge of the display, which was shown at the same time. The exposure needed to do both is measured.
   - Central + peripheral target; divided attention component
 * - Subtest 3: Selective Attention
 
     `hedvar_useful_field_of_view__subtest_3_selective_attention`
-  - Subtest 2 with distracting triangles surrounding the peripheral target.
+  - As in the divided-attention subtest, but the display is filled with distracting triangles, so the peripheral car must be found among clutter while the central item is identified.
   - Peripheral target with distractors; selective attention component
 * - UFOV with Varying Eccentricities
 
     `hedvar_useful_field_of_view__ufov_with_varying_eccentricities`
-  - Peripheral targets at different distances from center.
+  - The peripheral target is placed at several distances from the center, and performance is measured at each to map how far out attention extends.
   - Peripheral target at different distances; tests eccentricity function
 ```
 

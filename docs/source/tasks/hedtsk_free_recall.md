@@ -52,42 +52,42 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Immediate Free Recall (IFR)
 
     `hedvar_free_recall__immediate_free_recall_ifr`
-  - Recall immediately after list presentation; shows primacy and recency.
+  - A list of words is presented one at a time, and as soon as it ends the participant writes or says as many as they can in any order. The first and last few words are recalled best.
   - Recall tested immediately after list; canonical free recall
 * - Delayed Free Recall (DFR)
 
     `hedvar_free_recall__delayed_free_recall_dfr`
-  - Distractor-filled delay before recall; eliminates recency effect.
+  - After the list ends, the participant does an unrelated task such as mental arithmetic for 15 to 30 seconds before recalling. The delay removes the advantage for the last few words.
   - Filled delay before recall; tests long-term retention
 * - Continual Distractor Free Recall (CDFR)
 
     `hedvar_free_recall__continual_distractor_free_recall_cdfr`
-  - Distractors between every item and after last item; dissociates short-term and long-term recency.
+  - A short arithmetic task is inserted after every word in the list as well as after the last one. The last words regain their recall advantage despite the delay, which shows that the advantage is not simply due to a short-term store.
   - Distractors between each item and at end; eliminates recency via distractor
 * - Final Free Recall
 
     `hedvar_free_recall__final_free_recall`
-  - Recall all items from all preceding lists; tests long-term retention.
+  - At the end of a session with many lists, the participant is unexpectedly asked to recall every word from every list. Measures long-term retention and how words from different lists are organized in memory.
   - Recall all lists at end of session; tests long-term retention and inter-list organization
 * - Categorized Free Recall
 
     `hedvar_free_recall__categorized_free_recall`
-  - Lists contain items from semantic categories; reveals category clustering.
+  - The list is built from several categories (such as animals, tools and fruits) presented in mixed order. Participants tend to recall items from the same category together, which measures how memory is organized.
   - Semantically categorized lists; tests organizational clustering
 * - Repeated Free Recall
 
     `hedvar_free_recall__repeated_free_recall`
-  - Same list recalled multiple times; shows hypermnesia (improvement across tests).
+  - The same list is recalled several times in a row without being studied again. Recall usually improves across attempts, and items recalled on one attempt but not another can be tracked.
   - Same list recalled multiple times; tests learning across trials
 * - Directed Forgetting in Free Recall
 
     `hedvar_free_recall__directed_forgetting_in_free_recall`
-  - Instructions to forget some items; reveals encoding and retrieval control.
+  - Partway through, or after a list, the participant is told to forget some of the words. The final recall test asks for all of them, and recall of the forget-cued words is compared with the others.
   - Forget instructions after list learning; suppression measured in free recall
 * - Externalized Free Recall
 
     `hedvar_free_recall__externalized_free_recall`
-  - Spoken recall recorded with precise timing for inter-response time analysis.
+  - The participant is asked to say every word that comes to mind during recall, including ones they think may be wrong, and to flag the ones they reject. This reveals words that were retrieved but would normally be withheld.
   - Participants report all retrievals including partial/uncertain; different response protocol
 ```
 

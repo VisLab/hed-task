@@ -48,22 +48,22 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Remember/Know
 
     `hedvar_remember_know__standard_remember_know`
-  - Binary R/K judgment on each recognized item; the canonical version.
+  - After studying a list, the participant sees old and new items. For each item they call old, they then say whether they 'remember' it, meaning they can recollect something specific about seeing it (what they thought, what came before), or just 'know' it was there without any such detail.
   - Canonical R/K: recollection vs. familiarity distinction
 * - Remember/Know/Guess (RKG)
 
     `hedvar_remember_know__remember_know_guess_rkg`
-  - Three-way classification adding "guess" to capture below-threshold familiarity.
+  - A third option, 'guess', is added for items called old without either recollection or a feeling of familiarity, so that 'know' responses are not contaminated by guesses.
   - Third Guess category added; different response scale
 * - Remember/Know with Source Memory
 
     `hedvar_remember_know__remember_know_with_source_memory`
-  - R/K judgment followed by a source question (e.g., which list, which voice, which location).
+  - After the remember or know judgment, the participant is asked a question about the study context of the item, such as which list it was in or which voice spoke it, to check whether 'remember' responses really come with retrievable detail.
   - Source judgment added to R/K; adds contextual memory component
 * - Associative Remember/Know
 
     `hedvar_remember_know__associative_remember_know`
-  - Applied to associative recognition (word pairs) rather than item recognition.
+  - Items are studied as pairs, and at test the participant judges pairs as intact or rearranged and gives remember or know judgments for the pairing, measuring recollection of the link between items.
   - R/K for associative pairs; tests recollection of binding
 ```
 

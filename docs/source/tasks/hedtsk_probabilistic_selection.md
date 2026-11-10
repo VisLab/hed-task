@@ -50,27 +50,27 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard PST (3 Stimulus Pairs)
 
     `hedvar_probabilistic_selection__standard_pst_3_stimulus_pairs`
-  - AB (80/20), CD (70/30), EF (60/40); training then transfer test.
+  - Three pairs of symbols are shown, one pair at a time, and the participant picks one symbol from each pair. Feedback is 'correct' or 'incorrect' but is only probabilistic: in pair AB, A is correct 80 percent of the time; in CD, 70 percent; in EF, 60 percent. After training, all symbols are recombined into new pairs with no feedback, and choosing A (learned from wins) is compared with avoiding B (learned from losses).
   - Canonical Frank et al. learn-then-test with choose/avoid pairs
 * - Extended Training Versions
 
     `hedvar_probabilistic_selection__extended_training_versions`
-  - More training trials to ensure asymptotic learning before test.
+  - More training trials are given, or training continues until the participant reaches a set accuracy on each pair, so that everyone is fully trained before the test phase.
   - More training trials; tests asymptotic learning
 * - 4-Pair Version
 
     `hedvar_probabilistic_selection__4_pair_version`
-  - Additional stimulus pairs for more reliable individual-difference estimates.
+  - A fourth pair of symbols with its own reward probability is added to the three standard pairs, giving more test combinations and more reliable scores for each participant.
   - Additional stimulus pairs; larger choice set
 * - Gain-Only and Loss-Only Variants
 
     `hedvar_probabilistic_selection__gain_only_and_loss_only_variants`
-  - Separating reward and punishment learning into distinct phases.
+  - In some blocks the feedback is winning money or nothing; in others it is losing money or nothing. This separates learning from rewards from learning from punishments more directly than the standard 'correct' and 'incorrect' feedback.
   - Separate gain vs. loss feedback conditions; isolates approach vs. avoidance learning
 * - PST with Volatility
 
     `hedvar_probabilistic_selection__pst_with_volatility`
-  - Changing reward contingencies to measure adaptation.
+  - The probabilities attached to the symbols change partway through training, so the participant must notice the change and adjust which symbol they prefer.
   - Contingencies shift over time; tests learning in non-stationary environment
 ```
 

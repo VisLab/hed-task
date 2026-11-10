@@ -50,37 +50,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Shepard-Metzler 3D Block Figures
 
     `hedvar_mental_rotation__shepard_metzler_3d_block_figures`
-  - Classic 3D object pairs; same vs. mirror-image judgments.
+  - Two drawings of a three-dimensional object made of cubes are shown side by side, one rotated relative to the other. The participant decides whether they are the same object or mirror images. Response time grows with the angle of rotation.
   - Canonical 3D block figure rotation; depth and perspective rotation
 * - 2D Shape Rotation
 
     `hedvar_mental_rotation__2d_shape_rotation`
-  - Letters, polygons, or abstract 2D shapes.
+  - The items are flat shapes such as letters, digits or polygons, rotated in the picture plane. The participant decides whether a rotated item is normal or mirror-reversed.
   - Flat 2D figures; different stimulus complexity and dimensionality
 * - Body Part Rotation (Hand Laterality)
 
     `hedvar_mental_rotation__body_part_rotation_hand_laterality`
-  - Judge left/right hand in rotated orientations.
+  - Pictures of a hand in various orientations are shown, and the participant decides whether each is a left or right hand. People tend to solve this by imagining moving their own hand into the position.
   - Hands judged as left/right; embodied rotation via motor imagery
 * - Mirror vs. Identical Discrimination
 
     `hedvar_mental_rotation__mirror_vs_identical_discrimination`
-  - Discriminating rotated identical from mirror-reflected objects.
+  - Each trial presents a rotated figure and the participant decides whether it is the standard figure or its mirror image, rather than comparing two figures shown together.
   - Distinguish mirrored from same-orientation figure; different judgment type
 * - Embodied/Motor-Assisted Rotation
 
     `hedvar_mental_rotation__embodied_motor_assisted_rotation`
-  - Physical rotation gestures during mental rotation.
+  - While judging the rotated figures, the participant turns a handle or makes a rotating gesture with the hand, in the same or the opposite direction as the mental rotation. Compatible movements speed the judgment.
   - Physical hand rotation accompanies mental rotation; different embodiment condition
 * - Virtual Reality Mental Rotation
 
     `hedvar_mental_rotation__virtual_reality_mental_rotation`
-  - Immersive 3D rotation with stereoscopic displays.
+  - The objects are shown in stereoscopic 3D through a head-mounted display and can sometimes be walked around or handled with controllers, instead of being flat drawings on a screen.
   - Immersive VR environment; full-body spatial context changes processing
 * - Egocentric vs. Allocentric Rotation
 
     `hedvar_mental_rotation__egocentric_vs_allocentric_rotation`
-  - Rotating self-perspective vs. rotating objects.
+  - In one condition the participant imagines turning themselves to a new viewpoint and reports what they would see; in the other they imagine the object turning while they stay still. The two kinds of imagined rotation behave differently.
   - Participant perspective vs. object-centered rotation; different reference frame
 ```
 

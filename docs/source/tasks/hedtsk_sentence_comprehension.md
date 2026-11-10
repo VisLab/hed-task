@@ -52,37 +52,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Self-Paced Reading (Word-by-Word)
 
     `hedvar_sentence_comprehension__self_paced_reading_word_by_word`
-  - Reader presses button to advance; reading times index difficulty.
+  - A sentence is revealed one word at a time, each key press showing the next word. The time spent on each word is recorded, and longer times at a particular word show where the reader had difficulty.
   - Canonical sentence processing paradigm with reading time measure
 * - Eye-Tracking Reading
 
     `hedvar_sentence_comprehension__eye_tracking_reading`
-  - Natural reading with first-pass, regression, and total time measures.
+  - The whole sentence is shown at once and an eye tracker records where the reader looks. Measures include how long the eyes first rest on a word, how often they go back to earlier words, and total time on each region.
   - Natural reading with eye-tracking; different response modality and richer time course
 * - Main Verb/Reduced Relative Ambiguity
 
     `hedvar_sentence_comprehension__main_verb_reduced_relative_ambiguity`
-  - "The horse raced past the barn fell."
+  - Sentences like 'The horse raced past the barn fell', where 'raced' is first read as the main verb and must be reinterpreted as a description of the horse when 'fell' arrives. Reading slows at the point where the first reading breaks down.
   - Syntactic ambiguity at main verb/relative clause; canonical garden path structure
 * - PP-Attachment Ambiguity
 
     `hedvar_sentence_comprehension__pp_attachment_ambiguity`
-  - "Put the book on the table in the box."
+  - Sentences like 'Put the book on the table in the box', where 'on the table' could say where to put the book or which book is meant. The ambiguity is resolved later in the sentence.
   - Prepositional phrase attachment ambiguity; different syntactic decision point
 * - NP/S Ambiguity
 
     `hedvar_sentence_comprehension__np_s_ambiguity`
-  - "The doctor told the patient that he was having trouble with..."
+  - Sentences like 'The doctor told the patient that he was having trouble with...', where 'that...' could be a description of the patient or the thing that was told. Readers slow when the less expected reading turns out to be correct.
   - Noun phrase vs. sentence ambiguity; different structural ambiguity type
 * - Temporarily Ambiguous vs. Unambiguous Controls
 
     `hedvar_sentence_comprehension__temporarily_ambiguous_vs_unambiguous_controls`
-  - Matched sentence pairs for isolating reanalysis costs.
+  - Each ambiguous sentence is paired with a version that says the same thing without the ambiguity (for example 'The horse that was raced past the barn fell'). The reading-time difference between them isolates the cost of the misreading.
   - Matched unambiguous controls; tests processing cost of ambiguity
 * - Speed-Accuracy Tradeoff (SAT) Studies
 
     `hedvar_sentence_comprehension__speed_accuracy_tradeoff_sat_studies`
-  - Response deadlines to map time course of sentence interpretation.
+  - The participant must judge whether each sentence is acceptable at a signal that comes at one of several delays after the sentence ends, from very early to late. Plotting accuracy against the delay shows how quickly an interpretation becomes available.
   - Response deadline method; different temporal measurement approach
 ```
 

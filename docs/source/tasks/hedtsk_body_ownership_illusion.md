@@ -56,42 +56,42 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Classic Rubber Hand Illusion
 
     `hedvar_body_ownership_illusion__classic_rubber_hand_illusion`
-  - Botvinick & Cohen (1998): synchronous vs. asynchronous visuotactile stroking of hidden real hand and visible rubber hand. The foundational paradigm. Measures proprioceptive drift and subjective ownership.
+  - The participant's real hand is hidden behind a screen and a rubber hand is placed in view where the real hand would be. The experimenter strokes both hands with brushes at the same time for a minute or two. Most people begin to feel the rubber hand is their own. When the strokes are out of time with each other, the feeling does not arise. Afterwards the participant points to where they feel their hand is and answers questions about the experience.
   - Synchronous brush strokes on rubber hand and hidden real hand; canonical embodiment paradigm
 * - Full Body Illusion (Body Swap)
 
     `hedvar_body_ownership_illusion__full_body_illusion_body_swap`
-  - Petkova & Ehrsson (2008): head-mounted display shows a mannequin's first-person perspective while synchronous stroking is applied. Induces illusory ownership of an entire artificial body.
+  - The participant wears a head-mounted display showing the view from cameras on a mannequin's head, so they see the mannequin's body where their own should be. The experimenter touches the participant's body and the mannequin's body at the same time, and the participant comes to feel the mannequin's body is theirs.
   - Full-body camera-to-HMD setup creates whole-body ownership; different from hand-only paradigm
 * - Virtual Hand / Virtual Body Illusion
 
     `hedvar_body_ownership_illusion__virtual_hand_virtual_body_illusion`
-  - Virtual reality implementation with a virtual hand or body that moves synchronously with the participant's real movements (visuomotor correlation). Allows parametric manipulation of appearance, delay, and spatial offset.
+  - A virtual hand or body is shown in virtual reality and moves when the participant moves, or is touched in time with touches to the real body. The appearance, delay and position of the virtual body can be changed at will.
   - Virtual avatar hand in VR; different sensory integration conditions
 * - Enfacement Illusion
 
     `hedvar_body_ownership_illusion__enfacement_illusion`
-  - Tsakiris (2008): synchronous touching of participant's face and a viewed face (live video or another person). Shifts self-face recognition toward the other face. Tests facial body ownership.
+  - The participant watches a video of another person's face being stroked with a brush while their own face is stroked in the same place at the same time. Afterwards they are more likely to judge faces morphed between their own and the other person's as their own.
   - Synchronous touch to face and rubber face; different body part and social dimension
 * - Somatosensory Rubber Hand Illusion
 
     `hedvar_body_ownership_illusion__somatosensory_rubber_hand_illusion`
-  - Participant touches the rubber hand with their hidden finger while their real hand is simultaneously stroked. Self-touch variant strengthens the ownership illusion through active tactile involvement.
+  - The participant is blindfolded. The experimenter guides the participant's one hand to stroke the rubber hand while stroking the participant's other, hidden hand in the same way. The illusion arises from touch and position sense alone, without vision.
   - Tactile stimulation without visual component; isolates tactile-proprioceptive integration
 * - Kinesthetic Mirror Illusion
 
     `hedvar_body_ownership_illusion__kinesthetic_mirror_illusion`
-  - Mirror placed at the body midline makes the reflection of one hand appear as the other. Active movement of the visible hand creates illusory movement of the hidden hand. Related to mirror therapy for phantom limb pain.
+  - A mirror is placed between the participant's hands so that the reflection of one hand appears where the other hand is. When the visible hand moves, the participant feels the hidden hand moving too, even if it is still.
   - Proprioceptive/kinesthetic basis without visual rubber hand; different sensory modality
 * - Threat Response Paradigm
 
     `hedvar_body_ownership_illusion__threat_response_paradigm`
-  - After inducing the illusion, a threatening stimulus (needle, knife, hammer) is directed at the rubber hand. Skin conductance response magnitude indexes the strength of embodiment.
+  - After the illusion has been induced, the experimenter suddenly stabs toward or bends back the rubber hand. The participant's skin conductance rise or brain response to the threat measures how much the rubber hand has been taken as their own.
   - Threatening stimulus applied to rubber hand; measures embodiment via threat response
 * - Incongruent Object Control
 
     `hedvar_body_ownership_illusion__incongruent_object_control`
-  - Replace the rubber hand with a non-hand object (wooden block, rubber ball). Tests whether anatomical plausibility is necessary for the illusion. Typically produces no ownership.
+  - A wooden block, a rubber ball or a rubber hand in an impossible position is used in place of the properly placed rubber hand, with the same synchronous stroking. The illusion normally fails, showing that the object must look like a hand in a plausible place.
   - Non-hand object used instead of rubber hand; tests specificity of body-form requirement
 ```
 

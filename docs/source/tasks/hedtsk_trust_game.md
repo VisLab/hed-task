@@ -53,37 +53,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Two-Stage Trust Game
 
     `hedvar_trust_game__standard_two_stage_trust_game`
-  - Investor sends, tripled, trustee returns portion.
+  - The first player (investor) is given money and chooses how much to send to a second player (trustee). The sent amount is tripled. The trustee then decides how much of the tripled amount to send back. The investor's transfer measures trust and the trustee's return measures trustworthiness.
   - Canonical Berg et al.: investor sends, trustee returns
 * - One-Shot vs. Repeated
 
     `hedvar_trust_game__one_shot_vs_repeated`
-  - Single interaction vs. multiple rounds with same partner.
+  - The exchange happens either once with a stranger or repeatedly with the same partner over several rounds, so that partners can build or lose trust based on earlier rounds.
   - Single vs. multiple rounds; repeated play enables reputation building
 * - Multiplier Variation
 
     `hedvar_trust_game__multiplier_variation`
-  - 2×, 3×, 4× multiplication factors.
+  - The amount sent is doubled, tripled or quadrupled, which changes how much there is to gain from trusting and how much the trustee could return.
   - Different multiplication factors; changes investment incentive
 * - Trust Game with Reputation
 
     `hedvar_trust_game__trust_game_with_reputation`
-  - Providing partner's history of returns.
+  - Before deciding how much to send, the investor is shown the trustee's record of returns in earlier games with other people.
   - Trustee reputation history visible; changes available social information
 * - Partner Selection Trust Game
 
     `hedvar_trust_game__partner_selection_trust_game`
-  - Choose which of several potential partners to trust.
+  - The investor first chooses which of several possible trustees to play with, based on information about them, and then plays the usual game with that person.
   - Participant selects partner before trust game; adds partner choice
 * - Anonymous vs. Face-to-Face
 
     `hedvar_trust_game__anonymous_vs_face_to_face`
-  - Varying social presence.
+  - Players either never see or learn anything about each other, or meet, see a photograph, or interact over video before playing, so the effect of knowing who the partner is can be measured.
   - Social identification manipulation changes accountability
 * - Social Identity Manipulation
 
     `hedvar_trust_game__social_identity_manipulation`
-  - In-group vs. out-group partners.
+  - The investor is told that the trustee belongs to the same group as them (such as the same university, nationality or team) or to a different group, and transfers to in-group and out-group partners are compared.
   - In-group vs. out-group trustee; tests trust as function of group membership
 ```
 

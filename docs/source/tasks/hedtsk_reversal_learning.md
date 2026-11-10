@@ -51,32 +51,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Deterministic Reversal
 
     `hedvar_reversal_learning__deterministic_reversal`
-  - 100% contingencies; clear-cut reward/punishment signals.
+  - Two stimuli are shown and the participant picks one. One is always rewarded and the other never. Once the participant reliably picks the rewarded one, the assignment is switched without warning, and the participant must learn to pick the other.
   - Contingency fully reverses; canonical reversal learning
 * - Probabilistic Reversal
 
     `hedvar_reversal_learning__probabilistic_reversal`
-  - 80/20 or 70/30 contingencies; requires integration over multiple trials.
+  - The better stimulus is rewarded only most of the time (for example 80 percent) and the worse one sometimes. The participant must decide whether a non-reward is just bad luck or a sign that the rule has switched.
   - Stochastic contingency reversal; different uncertainty structure
 * - Serial Reversal
 
     `hedvar_reversal_learning__serial_reversal`
-  - Multiple reversals within session; learning-to-learn effects.
+  - The assignment is switched several times within the session, each time after the participant has adapted. Later reversals are usually handled faster than the first.
   - Multiple reversals in sequence; tests reversal learning rate
 * - Stimulus-Outcome vs. Action-Outcome Reversal
 
     `hedvar_reversal_learning__stimulus_outcome_vs_action_outcome_reversal`
-  - Reversal of what (stimulus) vs. where (response location).
+  - In one version the rewarded thing is a particular stimulus wherever it appears; in the other it is a particular response (such as the left key) whatever stimulus is shown. The reversal switches the stimulus rule or the response rule.
   - Reversal of stimulus or action contingency; different associative structure
 * - Multi-Dimensional Reversal
 
     `hedvar_reversal_learning__multi_dimensional_reversal`
-  - Stimuli vary on multiple dimensions; only one dimension relevant for reversal.
+  - The stimuli differ in several features (such as shape, color and position) and only one feature predicts reward. A reversal can switch which value of that feature is rewarded, or switch to a different feature altogether.
   - Reversal involves change in relevant stimulus dimension; more complex
 * - Reward vs. Punishment Reversal
 
     `hedvar_reversal_learning__reward_vs_punishment_reversal`
-  - Asymmetric effects of positive vs. negative feedback on reversal.
+  - Feedback is winning versus not winning in some blocks and losing versus not losing in others, so that the speed of adapting after a reversal can be compared for reward-based and punishment-based learning.
   - Valence manipulation changes learning signal
 ```
 

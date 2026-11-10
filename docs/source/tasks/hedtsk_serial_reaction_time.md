@@ -52,37 +52,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Deterministic SRTT
 
     `hedvar_serial_reaction_time__deterministic_srtt`
-  - Fixed repeating sequence (e.g., 10-element) embedded in random blocks.
+  - A marker appears at one of four positions and the participant presses the matching key. Unknown to the participant, the positions follow a fixed repeating sequence of about ten to twelve items. Responses speed up over blocks and slow down when a random block is inserted.
   - Fixed repeating sequence; canonical implicit sequence learning
 * - Probabilistic SRTT
 
     `hedvar_serial_reaction_time__probabilistic_srtt`
-  - Transition probabilities rather than fixed sequences; tests statistical learning.
+  - Instead of a fixed sequence, each position is followed by a particular next position most of the time but not always, so the structure is statistical. Faster responses to the likely transitions show learning.
   - High-probability sequence structure; tests learning under uncertainty
 * - Alternating Serial Reaction Time (ASRT)
 
     `hedvar_serial_reaction_time__alternating_serial_reaction_time_asrt`
-  - Pattern and random elements alternate in fixed schedule.
+  - Fixed-sequence positions alternate with random positions (pattern, random, pattern, random...), so the regularity can only be picked up over every other item. Learning shows as faster responses to the predictable items.
   - Alternating random and patterned elements; tests learning of alternating structure
 * - SRTT with Awareness Assessment
 
     `hedvar_serial_reaction_time__srtt_with_awareness_assessment`
-  - Post-task sequence generation, recognition, or verbal report tests.
+  - After the main task the participant is asked whether they noticed a sequence, asked to reproduce it, or shown fragments to recognize, to find out how much of the learning was conscious.
   - Explicit sequence knowledge probed after implicit learning; adds awareness component
 * - Second-Order Conditional (SOC) Sequences
 
     `hedvar_serial_reaction_time__second_order_conditional_soc_sequences`
-  - Sequence structure based on triplet dependencies rather than simple transitions.
+  - The sequence is built so that no single position predicts the next; only the last two positions together do. This prevents learning simple pair associations and requires sensitivity to longer runs.
   - Each response depends on two preceding; different sequence order
 * - Arm-Reaching/Foot-Stepping SRTT
 
     `hedvar_serial_reaction_time__arm_reaching_foot_stepping_srtt`
-  - Non-finger responses to test effector-specific learning.
+  - The responses are reaches to targets on a table or steps onto floor pads rather than finger presses, to test whether the learned sequence depends on which body part performs it.
   - Full-limb movements instead of finger presses; different motor effector
 * - Cross-Modal SRTT
 
     `hedvar_serial_reaction_time__cross_modal_srtt`
-  - Stimuli in different modalities (visual positions, auditory tones) to test modality specificity.
+  - The cues are sounds (for example tones of four pitches, each mapped to a key) instead of visual positions, or the modality switches between learning and test.
   - Auditory sequence instead of visual; different sensory modality
 ```
 

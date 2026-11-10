@@ -50,47 +50,47 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Anti-Saccade
 
     `hedvar_anti_saccade__standard_anti_saccade`
-  - Look away from peripheral cue to mirror-image location.
+  - The participant fixates a central point. A cue flashes to the left or right, and the participant must look to the opposite side, at the same distance from center, as quickly as possible. Looking toward the cue by mistake is counted as an error.
   - Canonical paradigm: participant inhibits reflexive saccade and redirects gaze to mirror location
 * - Prosaccade (Control Condition)
 
     `hedvar_anti_saccade__prosaccade_control_condition`
-  - Look toward peripheral cue; establishes baseline oculomotor performance.
+  - The same display, but the participant is told to look toward the flashing cue rather than away from it. This is the reflexive, easy response and serves as a baseline for eye-movement speed and accuracy.
   - Opposite stimulus-response mapping (look toward cue); different response requirement from anti-saccade
 * - Interleaved Pro/Anti-Saccade
 
     `hedvar_anti_saccade__interleaved_pro_anti_saccade`
-  - Random mixing of pro- and anti-saccade trials; increases executive demands.
+  - Look-toward and look-away trials are mixed unpredictably within the same block, with a cue on each trial (often fixation color) saying which rule applies. The participant must switch rules from trial to trial.
   - Mixed trial types require on-trial task-set switching; distinct from blocked presentation
 * - Blocked Pro/Anti-Saccade
 
     `hedvar_anti_saccade__blocked_pro_anti_saccade`
-  - Separate blocks for each task type; lower executive demand.
+  - Look-toward trials and look-away trials are run in separate blocks, so the participant keeps the same rule throughout a block and never has to switch.
   - Separate blocks of pro- and anti-saccade trials; different cognitive context from interleaved
 * - Gap vs. Overlap Conditions
 
     `hedvar_anti_saccade__gap_vs_overlap_conditions`
-  - Fixation disappears before (gap) or remains during (overlap) cue; gap reduces saccade latency.
+  - Varies what happens to the central fixation point when the cue appears. In the gap condition it disappears about 200 ms before the cue, which speeds up eye movements and increases errors. In the overlap condition it stays on while the cue is shown.
   - Fixation offset timing changes saccade initiation dynamics and error rates
 * - Delayed Anti-Saccade
 
     `hedvar_anti_saccade__delayed_anti_saccade`
-  - Maintain fixation during delay after cue before generating antisaccade; increases memory/inhibition demands.
+  - The cue appears, but the participant must keep looking at the center and wait for a go signal (often the fixation point going off) before looking away from where the cue was. Holding the eyes still through the delay adds a waiting and memory demand.
   - Memory-guided response after delay period; adds working memory component
 * - Emotional Anti-Saccade
 
     `hedvar_anti_saccade__emotional_anti_saccade`
-  - Emotional faces as cues; measures emotion-driven capture of eye movements.
+  - The peripheral cue is a face with an emotional expression (or another emotional picture) instead of a plain dot. The participant still looks away from it; the question is whether emotional cues are harder to look away from.
   - Emotional stimuli as saccade targets; retained per §5.1 (EMOT retired)
 * - Memory-Guided Anti-Saccade
 
     `hedvar_anti_saccade__memory_guided_anti_saccade`
-  - Combine with spatial memory demands.
+  - The cue flashes and then disappears, and the participant must remember where it was during a delay before making the look-away eye movement to the opposite location on a later signal.
   - Target location must be retained in memory before response; distinct memory demand
 * - Double-Step Anti-Saccade
 
     `hedvar_anti_saccade__double_step_anti_saccade`
-  - Target location shifts after initial saccade; tests online correction.
+  - Two cues appear in quick succession, or the target jumps to a new place just as the eye movement starts. The participant has to correct an eye movement that is already planned or under way.
   - Two-step target displacement requires online motor reprogramming
 ```
 

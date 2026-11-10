@@ -51,32 +51,32 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Visual Search CC
 
     `hedvar_contextual_cueing__standard_visual_search_cc`
-  - T among L's with repeated vs. novel configurations; the Chun & Jiang (1998) version.
+  - The participant searches for a rotated T among rotated Ls and reports which way the T points. Unknown to the participant, half the displays repeat the same arrangement of items across blocks. Search gets faster on the repeated displays even though participants cannot tell them from new ones.
   - Canonical: repeated spatial configurations implicitly facilitate target detection
 * - Configuration-Based vs. Association-Based CC
 
     `hedvar_contextual_cueing__configuration_based_vs_association_based_cc`
-  - Manipulating whether the entire configuration or just target-distractor associations drive the effect.
+  - Repeated displays are built so that either the whole layout repeats, or only the pairing between the target's position and the positions of a few distractors repeats while the rest changes. Comparing the two shows what part of the context is being learned.
   - Separates global configuration from local target-distractor association; different learning conditions
 * - Semantic Contextual Cueing
 
     `hedvar_contextual_cueing__semantic_contextual_cueing`
-  - Meaningful scenes rather than letter arrays; contextual regularities in naturalistic visual environments.
+  - The search displays are photographs of real scenes with a target object placed somewhere in each. Scenes repeat across blocks, and the participant learns where the target is likely to be in a given scene.
   - Semantic scene content instead of arbitrary array; different memory system engaged
 * - Cross-Modal Contextual Cueing
 
     `hedvar_contextual_cueing__cross_modal_contextual_cueing`
-  - Auditory or tactile context associated with visual target locations.
+  - The repeated context is a sound or a touch pattern rather than a visual layout. A particular sound is paired with a particular target location, and search becomes faster when that sound plays.
   - Auditory context cues visual search; cross-modal learning paradigm
 * - Dynamic Contextual Cueing
 
     `hedvar_contextual_cueing__dynamic_contextual_cueing`
-  - Displays with moving elements; tests whether temporal-spatial regularities can be learned.
+  - The items in the search display move. What repeats is the pattern of motion and the target's eventual position rather than a fixed static layout, and the participant learns to find the target from the repeated motion pattern.
   - Moving-element arrays instead of static; different perceptual and memory demands
 * - Transfer of Contextual Cueing
 
     `hedvar_contextual_cueing__transfer_of_contextual_cueing`
-  - Changing distractor identities or adding/removing distractors to test what aspects of context are learned.
+  - After the usual learning blocks, the repeated displays are altered in a test phase: distractor identities are changed, distractors are added or removed, or the target is moved to a new place in a familiar layout. Whether the speed-up survives shows what was learned.
   - Tests whether learned context transfers to new target locations; different probe phase
 ```
 

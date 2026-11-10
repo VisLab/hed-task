@@ -52,47 +52,47 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Dictator Game
 
     `hedvar_dictator_game__standard_dictator_game`
-  - Unilateral allocation with no recipient power.
+  - The participant is given a sum of money and decides how much of it, if any, to give to another anonymous person who has no say and cannot respond. The amount given is the measure of generosity.
   - Canonical: unilateral allocation from fixed endowment to anonymous recipient
 * - Take Game
 
     `hedvar_dictator_game__take_game`
-  - Dictator can take from recipient's endowment.
+  - The other person starts with the money, and the participant decides how much to take from them rather than how much to give. The outcomes possible are the same, but the action is taking rather than giving.
   - Dictator can take from recipient; different action space
 * - Give-or-Take Game
 
     `hedvar_dictator_game__give_or_take_game`
-  - Option to give or take; reveals true preferences.
+  - Both people start with money, and the participant may either give some of their own to the other person or take some of the other person's money. Any split within the combined total is possible.
   - Both giving and taking possible; combined action space
 * - Double Dictator
 
     `hedvar_dictator_game__double_dictator`
-  - Both players simultaneously dictate allocations to each other.
+  - Both participants are given money and each decides at the same time how much to give the other, without knowing the other's decision. Each person is a giver and a recipient.
   - Both players act as dictators simultaneously; distinct social structure
 * - Earned vs. Windfall Endowment
 
     `hedvar_dictator_game__earned_vs_windfall_endowment`
-  - Working for the endowment vs. receiving it freely.
+  - Before the game, the participant either earns the money by doing a task (such as a quiz or typing job) or is simply handed it. People tend to give less when they earned the money themselves.
   - Endowment earned through effort vs. given randomly; changes perceived legitimacy
 * - Audience/Observation Effects
 
     `hedvar_dictator_game__audience_observation_effects`
-  - Dictating while observed vs. in private.
+  - The decision is made while the experimenter or another person can see it, or will learn of it, compared with a fully anonymous decision where nobody can link the giver to the amount.
   - Observer present or aware of allocation; changes social context
 * - N-Person Dictator
 
     `hedvar_dictator_game__n_person_dictator`
-  - Distributing to multiple recipients.
+  - The participant divides the money among several recipients rather than one, and may give different amounts to different people.
   - Multiple recipients; changes social structure and distribution decision
 * - Charitable Giving Dictator
 
     `hedvar_dictator_game__charitable_giving_dictator`
-  - Recipient is a charity rather than individual.
+  - The recipient is a named charity instead of an anonymous person. The participant decides how much of the money to donate.
   - Recipient is charity; different social/moral framing
 * - Exit Option
 
     `hedvar_dictator_game__exit_option`
-  - Participants can opt out of participation entirely.
+  - Before dividing the money, the participant may choose not to play at all and keep a slightly smaller amount, so that the recipient never learns a game existed. Taking the exit shows that giving in the standard game is partly driven by not wanting to be seen as unfair.
   - Option to leave game rather than allocate; adds outside option to choice set
 ```
 

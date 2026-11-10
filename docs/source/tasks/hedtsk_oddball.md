@@ -52,47 +52,47 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Two-Stimulus Auditory Oddball
 
     `hedvar_oddball__two_stimulus_auditory_oddball`
-  - Standard (80%) + target (20%) tones; classic P3b paradigm.
+  - Two tones of different pitch are played in random order, one common (about 80 percent) and one rare. The participant presses a key or counts whenever the rare tone occurs. The rare tone produces a large positive brain wave about 300 ms after it sounds.
   - Canonical: standard + deviant tones; P300 or MMN elicitation
 * - Three-Stimulus Novelty Oddball
 
     `hedvar_oddball__three_stimulus_novelty_oddball`
-  - Standard + target + novel environmental sounds; elicits P3a and P3b.
+  - A third kind of event is added: rare, unexpected and varied sounds such as a dog bark or a door slam that the participant should ignore. The rare target still gets a response. The novel sounds produce an earlier, more frontal brain response than the targets.
   - Novel distractors added to standard+deviant; different stimulus structure
 * - Visual Oddball
 
     `hedvar_oddball__visual_oddball`
-  - Geometric shapes or letter stimuli in oddball format.
+  - The common and rare events are visual, such as a circle versus a square, or one letter versus another, shown one at a time on a screen.
   - Visual stimuli; different sensory modality
 * - Passive Oddball
 
     `hedvar_oddball__passive_oddball`
-  - No overt response; still elicits P300 (smaller amplitude).
+  - The participant is not asked to respond or count, and may be reading or watching something else while the sounds play. The rare sound still produces a brain response, though a smaller one.
   - No response required; isolates automatic change detection
 * - Active Counting vs. Button-Press Response
 
     `hedvar_oddball__active_counting_vs_button_press_response`
-  - Count targets silently vs. press button.
+  - The participant keeps a silent running count of the rare events and reports the total at the end, instead of pressing a key to each one. Counting avoids movement during recording.
   - Silent count vs. button press; different response modality
 * - Duration Deviance Oddball
 
     `hedvar_oddball__duration_deviance_oddball`
-  - Deviants differ in duration rather than frequency.
+  - The rare tone is the same pitch as the common tone but longer or shorter, so the difference is in duration rather than pitch.
   - Duration-based deviant; different acoustic dimension from frequency
 * - Cross-Modal Oddball
 
     `hedvar_oddball__cross_modal_oddball`
-  - Combined auditory-visual deviants.
+  - Common and rare events come in different senses, for example a stream of tones with an occasional light flash, or a mixed stream in which the participant responds to rare events in either sense.
   - Deviant crosses sensory modality; different cross-modal attention
 * - Emotional Oddball
 
     `hedvar_oddball__emotional_oddball`
-  - Emotional stimuli as deviants; tests emotion-attention interaction.
+  - The rare events are emotional pictures or faces inserted into a stream of neutral ones, so that the response to rare events is measured for emotional content.
   - Emotional stimuli as deviants; retained per §5.1 (EMOT retired)
 * - Roving Paradigm
 
     `hedvar_oddball__roving_paradigm`
-  - Dynamic standard updating; tests predictive coding models.
+  - A tone repeats several times and is then replaced by a new tone, which repeats and becomes the new standard, and so on. Every tone starts as a rare event and becomes common, so the brain response can be tracked as it builds up over repetitions.
   - Standard changes after each presentation; different stimulus history structure
 ```
 

@@ -51,57 +51,57 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Fixed Ratio (FR)
 
     `hedvar_instrumental_conditioning__fixed_ratio_fr`
-  - Reinforcement after fixed number of responses.
+  - A reward (points, money or food) is delivered after every fixed number of responses, for example every tenth press. The participant learns how many presses each reward costs.
   - Reward after fixed number of responses; canonical ratio schedule
 * - Variable Ratio (VR)
 
     `hedvar_instrumental_conditioning__variable_ratio_vr`
-  - Reinforcement after variable number of responses (average specified).
+  - A reward is delivered after an unpredictable number of responses that average a set value, like a slot machine. Produces high steady rates of responding.
   - Reward after variable number of responses; different reinforcement statistics
 * - Fixed Interval (FI)
 
     `hedvar_instrumental_conditioning__fixed_interval_fi`
-  - Reinforcement for first response after fixed time period.
+  - A reward is available only after a fixed time has passed since the last reward, and the first response after that time earns it. Responses before the interval ends do nothing.
   - First response after fixed time rewarded; different temporal reinforcement structure
 * - Variable Interval (VI)
 
     `hedvar_instrumental_conditioning__variable_interval_vi`
-  - Reinforcement for first response after variable time period.
+  - Like the fixed interval schedule, but the waiting time before a reward becomes available varies unpredictably around an average.
   - Variable time intervals; different temporal unpredictability
 * - Progressive Ratio
 
     `hedvar_instrumental_conditioning__progressive_ratio`
-  - Ratio requirement increases progressively; breakpoint indexes motivation.
+  - The number of responses needed for each successive reward increases, for example 5, then 10, then 20. The point at which the participant stops responding (the breakpoint) measures how hard they are willing to work for the reward.
   - Ratio requirement escalates; measures motivational breakpoint
 * - Concurrent Choice
 
     `hedvar_instrumental_conditioning__concurrent_choice`
-  - Multiple response options with different reinforcement schedules; matching law studies.
+  - Two or more response options are available at the same time, each paying off on its own schedule. How the participant divides responses between them is compared with the relative rates of reward.
   - Two simultaneously available schedules; choice behavior reveals preference
 * - Two-Stage Decision Task (Daw)
 
     `hedvar_instrumental_conditioning__two_stage_decision_task_daw`
-  - Sequential choice task dissociating model-based (goal-directed) from model-free (habitual) learning.
+  - A choice between two options leads, with set probabilities, to one of two second-stage states, where another choice yields a reward with slowly changing probability. Whether a participant's choices reflect knowledge of the transition structure separates planning from habit. Cataloged in its own right as the Two-Stage Decision Task.
   - Two-step Markov decision; measures model-based vs. model-free learning
 * - Devaluation Paradigm
 
     `hedvar_instrumental_conditioning__devaluation_paradigm`
-  - Reward value changed after learning; goal-directed behavior adjusts, habitual does not.
+  - After learning that a response earns a particular reward, the reward is made less desirable, for example by feeding the participant that food to satiety or by telling them it is no longer worth points. A test follows without rewards. Responding that drops shows goal-directed control; responding that persists shows habit.
   - Outcome devaluation tests goal-directed vs. habitual control; different post-training procedure
 * - Contingency Degradation
 
     `hedvar_instrumental_conditioning__contingency_degradation`
-  - Weakening action-outcome relationship; tests sensitivity to causal structure.
+  - After learning, the reward begins to appear whether or not the participant responds, so the response no longer makes a difference. A drop in responding shows that the participant is tracking what their actions cause.
   - Action-outcome contingency degraded; tests action sensitivity
 * - Outcome-Specific Pavlovian-Instrumental Transfer (PIT)
 
     `hedvar_instrumental_conditioning__outcome_specific_pavlovian_instrumental_transfer_pit`
-  - Pavlovian cues bias instrumental responding.
+  - In separate phases the participant learns that certain cues predict certain rewards and that certain responses earn those same rewards. In a final test the cues are presented while the participant can respond freely, and a cue increases responding for the reward it predicts.
   - Pavlovian CS influences instrumental responding; different multi-phase design
 * - Avoidance Learning
 
     `hedvar_instrumental_conditioning__avoidance_learning`
-  - Responses prevent aversive outcomes; safety signal learning.
+  - Instead of earning a reward, a response prevents an unpleasant outcome such as a shock, loud noise or loss of money. The participant learns which response, or which response to which warning signal, keeps the outcome away.
   - Response prevents aversive outcome; different valence and contingency structure
 ```
 

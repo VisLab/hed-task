@@ -53,42 +53,42 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard Visual LDT
 
     `hedvar_lexical_decision__standard_visual_ldt`
-  - Classify letter strings as word/nonword via button press.
+  - Strings of letters appear one at a time on a screen. The participant presses one key if the string is a real word (such as TABLE) and another if it is not (such as TOBLE), as quickly as possible.
   - Canonical: word/nonword judgment to visually presented strings
 * - Auditory LDT
 
     `hedvar_lexical_decision__auditory_ldt`
-  - Spoken stimuli; word/nonword judgment.
+  - The items are spoken through headphones rather than shown, and the participant decides whether what they heard was a real word.
   - Auditory presentation; different sensory modality
 * - Masked Priming LDT
 
     `hedvar_lexical_decision__masked_priming_ldt`
-  - Briefly flashed masked prime before target; tests automatic lexical access.
+  - Immediately before each target, a prime word is flashed for about 50 ms between masking patterns so the participant does not consciously see it. The word decision on the target is faster when the hidden prime is related to it.
   - Brief masked prime before target; changes prime awareness
 * - Cross-Modal LDT
 
     `hedvar_lexical_decision__cross_modal_ldt`
-  - Auditory prime → visual target or vice versa.
+  - A prime is heard and the target is seen (or the reverse). The participant decides whether the visible target is a word while a spoken word or sentence is played just before or during it.
   - Prime in one modality, target in another; cross-modal priming structure
 * - LDT with Different Nonword Types
 
     `hedvar_lexical_decision__ldt_with_different_nonword_types`
-  - Pseudohomophones, transposed-letter nonwords, consonant-string nonwords.
+  - The non-words are chosen to be more or less word-like: strings that sound like real words when read aloud (BRANE), strings with two letters swapped (JUGDE), or unpronounceable consonant strings (TBLK). More word-like non-words make the decision harder.
   - Pseudowords, random letter strings, pseudohomophones; nonword type changes task difficulty
 * - Bilingual LDT
 
     `hedvar_lexical_decision__bilingual_ldt`
-  - Mixed-language presentations; tests cross-linguistic activation.
+  - Words from two languages the participant speaks are mixed in the same list, sometimes with words that exist in both languages, and the participant decides whether each is a word in either language or in a specified one.
   - Targets in two languages; different language switching demand
 * - LDT Megastudies
 
     `hedvar_lexical_decision__ldt_megastudies`
-  - Thousands of items per participant (English Lexicon Project, British Lexicon Project).
+  - Each participant responds to thousands of words over many sessions, as in the English Lexicon Project, so that response times are available for every word rather than for small chosen sets.
   - Large-scale normed stimulus sets enabling item-level analyses; different methodological scope
 * - Go/No-Go LDT
 
     `hedvar_lexical_decision__go_no_go_ldt`
-  - Respond only to words (or only to nonwords); reduces response competition.
+  - The participant presses a key only for words and makes no response to non-words (or the reverse), instead of having a separate key for each.
   - Respond to one word class, withhold to another; different response structure
 ```
 

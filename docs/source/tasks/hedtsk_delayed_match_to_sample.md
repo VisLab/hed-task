@@ -51,37 +51,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard DMTS
 
     `hedvar_delayed_match_to_sample__standard_dmts`
-  - Single sample → delay → two-choice test (match vs. non-match).
+  - A single picture or pattern (the sample) is shown, then disappears for a delay of a few seconds. Two items then appear, one identical to the sample and one new, and the participant picks the one that matches.
   - Canonical: sample presented, delay, then match from array
 * - Variable Delay DMTS
 
     `hedvar_delayed_match_to_sample__variable_delay_dmts`
-  - Delay ranging from 0 to 30 seconds; maps forgetting function.
+  - The blank interval between the sample and the choice display is varied from trial to trial, from no delay up to 30 seconds or more, so that accuracy can be plotted against how long the sample had to be held in memory.
   - Systematically varies delay length; tests forgetting function
 * - Multi-Choice DMTS
 
     `hedvar_delayed_match_to_sample__multi_choice_dmts`
-  - More than two choice alternatives; increases memory precision demands.
+  - The choice display contains three or more items instead of two, only one of which matches the sample. More alternatives means the memory must be more exact to rule out similar distractors.
   - More than two choices at test; increases decision complexity
 * - DMTS with Distraction During Delay
 
     `hedvar_delayed_match_to_sample__dmts_with_distraction_during_delay`
-  - Irrelevant stimuli during retention; measures interference resistance.
+  - Other pictures, sounds or a brief secondary task are presented while the participant is holding the sample in memory. Measures how well the memory withstands interference.
   - Interfering stimuli during retention interval; changes delay period structure
 * - Spatial DMTS
 
     `hedvar_delayed_match_to_sample__spatial_dmts`
-  - Location-based matching rather than object-based.
+  - What must be remembered is where the sample appeared, not what it looked like. After the delay the participant indicates the sample's location or chooses between locations.
   - Location rather than identity must be matched; different memory dimension
 * - DMTS with Object Complexity Manipulation
 
     `hedvar_delayed_match_to_sample__dmts_with_object_complexity_manipulation`
-  - Simple colors vs. complex patterns; manipulates encoding demands.
+  - Samples range from simple colored shapes to detailed, hard-to-name patterns. Comparing accuracy across levels shows how memory depends on how much there is to encode.
   - Varies object complexity; tests encoding difficulty directly
 * - Delayed Non-Match-to-Sample (DNMS)
 
     `hedvar_delayed_match_to_sample__delayed_non_match_to_sample_dnms`
-  - Select the novel stimulus; used extensively in primate lesion studies.
+  - The rule is reversed: after the delay the participant must choose the item that was not the sample, the new one. The display is the same as in the matching version.
   - Respond to non-matching item; opposite stimulus-response mapping
 ```
 

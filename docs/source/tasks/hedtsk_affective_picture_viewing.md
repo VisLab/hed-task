@@ -52,7 +52,7 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Category-Specific Selection
 
     `hedvar_affective_picture_viewing__category_specific_selection`
-  - Images selected for discrete emotions (fear, disgust, sadness).
+  - Instead of a mixed set of pleasant, unpleasant and neutral pictures, the images are chosen to evoke one specific emotion at a time, such as fear, disgust or sadness, and are usually shown in blocks of a single emotion. The participant still views them passively or rates them afterwards.
   - Restricts stimuli to specific emotional categories (e.g., fear, disgust), creating category-structured event blocks distinct from mixed viewing
 ```
 

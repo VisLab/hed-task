@@ -51,52 +51,52 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Cued Task-Switching
 
     `hedvar_task_switching__cued_task_switching`
-  - Explicit cue signals task on each trial; separates cue-processing from task-reconfiguration.
+  - Each trial starts with a cue, such as a word or a colored frame, telling the participant which of two tasks to do on the coming stimulus (for example, judge a digit as odd or even, or as bigger or smaller than 5). Responses are slower when the task differs from the previous trial.
   - Canonical cue specifies task each trial
 * - Alternating Runs (AABB)
 
     `hedvar_task_switching__alternating_runs_aabb`
-  - Predictable task sequences without explicit cues; switch costs reflect preparation failures.
+  - No cue is given; instead the tasks alternate in a fixed pattern, usually two trials of one then two of the other, often with the stimulus moving around a grid to mark position in the pattern. The participant must keep track of where they are.
   - Predictable alternation without explicit cue; different task structure
 * - Voluntary Task Switching
 
     `hedvar_task_switching__voluntary_task_switching`
-  - Participants freely choose which task to perform; reveals internal control biases.
+  - The participant decides on each trial which task to perform, with the instruction to do both about equally often in a random order. The choice is read from which response keys are used. How often people choose to switch is measured as well as the cost.
   - Participant chooses task; measures voluntary switching rates
 * - Mixing Cost Paradigm
 
     `hedvar_task_switching__mixing_cost_paradigm`
-  - Comparing single-task blocks to mixed-task blocks; indexes sustained task-set maintenance.
+  - Blocks in which only one task is done are compared with blocks in which the two tasks are mixed. Even trials in the mixed blocks that repeat the task are slower than single-task trials, a cost of keeping both tasks ready.
   - Compares mixed-block to pure-block performance; different block structure
 * - Cue-Stimulus Interval (CSI) Manipulation
 
     `hedvar_task_switching__cue_stimulus_interval_csi_manipulation`
-  - Varying preparation time between cue and target; preparation reduces switch costs.
+  - The time between the cue and the stimulus is varied, from almost none to a second or more. Longer preparation time reduces the switch cost but does not remove it.
   - Varies preparation time; tests proactive preparation
 * - Response-Stimulus Interval (RSI) Manipulation
 
     `hedvar_task_switching__response_stimulus_interval_rsi_manipulation`
-  - Varying intertrial interval; affects passive dissipation of prior task set.
+  - The time between one trial's response and the next trial's stimulus is varied, without changing the preparation time, to see how the previous task's influence fades on its own.
   - Varies post-response interval; tests backward inhibition decay
 * - Task Switching with N>2 Tasks
 
     `hedvar_task_switching__task_switching_with_n_2_tasks`
-  - Three or more tasks; reveals backward inhibition and n-2 repetition costs.
+  - Three or more tasks are cued. Returning to a task that was done two trials ago (A-B-A) is slower than coming to a task not done recently (C-B-A), which shows that a task is inhibited when it is abandoned.
   - Three or more tasks; different reconfiguration demands
 * - Univalent vs. Bivalent Stimuli
 
     `hedvar_task_switching__univalent_vs_bivalent_stimuli`
-  - Stimuli affording response under one task only vs. both tasks.
+  - Stimuli either allow only one of the tasks (for example letters for a letter task, digits for a digit task) or allow both (a letter and a digit together). Switch costs are larger when the stimulus could be used for either task.
   - Stimuli compatible with one vs. both tasks; different interference structure
 * - Predictable vs. Random Task Sequences
 
     `hedvar_task_switching__predictable_vs_random_task_sequences`
-  - Examining preparation and anticipation effects.
+  - The order of tasks is either known in advance (a fixed alternation) or random with a cue, to see how much knowing what comes next helps preparation.
   - Known vs. unknown switch sequence; tests preparation strategies
 * - Task Switching with Conflict
 
     `hedvar_task_switching__task_switching_with_conflict`
-  - Combining task switching with Stroop/flanker-type conflict.
+  - The stimuli are also designed to create response conflict, for example a Stroop or flanker item, so that the cost of switching tasks and the cost of resolving conflict can be studied together.
   - Bivalent stimuli with competing responses; combined switching and conflict
 ```
 

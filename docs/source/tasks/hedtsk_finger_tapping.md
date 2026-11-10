@@ -50,37 +50,37 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Self-Paced Tapping
 
     `hedvar_finger_tapping__self_paced_tapping`
-  - Internally generated rhythm; tests endogenous motor timing.
+  - The participant taps a key or pad repeatedly with one finger at a steady rate of their own choosing, with no external timing signal. The chosen tempo and its regularity are measured.
   - Participant taps at preferred rate; measures preferred motor tempo
 * - Auditorily-Paced Tapping
 
     `hedvar_finger_tapping__auditorily_paced_tapping`
-  - Synchronize to metronome; sensorimotor synchronization.
+  - A metronome click is played at a fixed rate, and the participant taps in time with it. The offset between each tap and the click, and the variability of that offset, are measured.
   - Synchronize to auditory metronome; different sensorimotor integration
 * - Visually-Paced Tapping
 
     `hedvar_finger_tapping__visually_paced_tapping`
-  - Synchronize to visual cues; cross-modal timing.
+  - The pacing signal is a flashing shape on a screen rather than a sound, and the participant taps in time with the flashes.
   - Synchronize to visual metronome; different sensory modality for pacing
 * - Unimanual vs. Bimanual
 
     `hedvar_finger_tapping__unimanual_vs_bimanual`
-  - Single hand vs. coordinated bilateral tapping.
+  - Tapping with both hands at once, either in unison or alternating, is compared with tapping with one hand. Coordinating the two hands adds its own difficulty.
   - One vs. two hands; bimanual coordination introduces interlimb constraints
 * - Sequential Multi-Finger
 
     `hedvar_finger_tapping__sequential_multi_finger`
-  - Thumb-to-finger sequences (1-2-3-4-5); motor sequence complexity.
+  - Rather than one finger repeating, the participant taps a fixed order of fingers (for example index, middle, ring, little) over and over, as fast or as regularly as possible.
   - Specific finger sequence rather than single finger; different motor programming
 * - Complex Rhythmic Patterns
 
     `hedvar_finger_tapping__complex_rhythmic_patterns`
-  - Non-isochronous rhythm reproduction; higher-order timing.
+  - The participant reproduces a rhythm with uneven gaps between taps, such as long-short-short, rather than tapping at an even beat.
   - Non-isochronous rhythm; changes temporal structure of tapping
 * - Continuation Paradigm
 
     `hedvar_finger_tapping__continuation_paradigm`
-  - Synchronize, then continue without pacing; tests internal clock.
+  - The participant first taps along with a metronome, then the metronome stops and they must keep tapping at the same rate without it. Drift and variability after the metronome stops show how well the rate is kept internally.
   - External pacing withdrawn mid-task; isolates internal vs. externally guided timing
 ```
 

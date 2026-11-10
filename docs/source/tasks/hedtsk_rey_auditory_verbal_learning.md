@@ -53,27 +53,27 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Standard RAVLT (List A × 5 + List B + Recall + Delayed Recall)
 
     `hedvar_rey_auditory_verbal_learning__standard_ravlt_list_a_5_list_b_recall_delayed_recall`
-  - Full protocol as described above.
+  - A list of 15 unrelated words is read aloud and the participant recalls as many as possible, five times in a row. A second 15-word list is then read and recalled once. The participant then recalls the first list again without hearing it, and once more after a delay of 20 to 30 minutes.
   - Canonical multi-trial verbal learning with interference and delayed recall
 * - Recognition Trial
 
     `hedvar_rey_auditory_verbal_learning__recognition_trial`
-  - Yes/no recognition of List A words among distractors after delayed recall.
+  - After the delayed recall, the participant hears or reads a longer list containing the first-list words mixed with second-list words and new words, and says yes or no to each. Separates failure to retrieve from failure to store.
   - Target list embedded in foil words for recognition test; different retrieval task
 * - Shortened RAVLT
 
     `hedvar_rey_auditory_verbal_learning__shortened_ravlt`
-  - Fewer learning trials or shorter lists for clinical populations with limited endurance.
+  - Fewer learning trials (such as three instead of five) or a shorter word list, for participants who tire easily or when testing time is limited.
   - Fewer study trials; recognized abbreviated protocol
 * - Proactive Interference Paradigm
 
     `hedvar_rey_auditory_verbal_learning__proactive_interference_paradigm`
-  - Present List B first; measure its effect on subsequent List A learning.
+  - The order is rearranged so that the second list is learned first, and the effect of that earlier learning on recall of the main list is measured, rather than the usual effect of the interference list on recall of what came before.
   - List B interference on List A recall; tests proactive interference effects
 * - Cued Recall Addition
 
     `hedvar_rey_auditory_verbal_learning__cued_recall_addition`
-  - Category cues provided during recall to separate retrieval failure from storage failure.
+  - After free recall, the participant is given category hints for words not recalled (for example 'one was a kind of animal'). Words produced with a hint were stored but could not be retrieved unaided.
   - Category cues added to recall phase; tests cueing benefit on verbal learning
 ```
 

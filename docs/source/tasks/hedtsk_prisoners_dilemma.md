@@ -52,62 +52,62 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Single-Shot (One-Round) PD
 
     `hedvar_prisoners_dilemma__single_shot_one_round_pd`
-  - One simultaneous decision; tests baseline cooperation rates.
+  - Two players each choose at the same time, without communicating, to cooperate or defect. Both cooperating pays each a moderate amount; both defecting pays each little; if one defects while the other cooperates, the defector gets the most and the cooperator the least. They play once with an anonymous partner.
   - Canonical one-round anonymous PD; no reputation effects
 * - Iterated PD (Repeated Games)
 
     `hedvar_prisoners_dilemma__iterated_pd_repeated_games`
-  - Multiple rounds with same partner; enables tit-for-tat strategies.
+  - The same two players make the cooperate-or-defect choice repeatedly, seeing each other's past choices, so that strategies such as responding in kind become possible.
   - Multiple rounds with same partner; reputation and strategy accumulate
 * - Sequential PD
 
     `hedvar_prisoners_dilemma__sequential_pd`
-  - One player decides first, then the other; introduces trust asymmetry.
+  - One player chooses first and the second player sees that choice before making their own. The second player's choice shows whether they reciprocate cooperation.
   - One player acts before observing other's choice; different temporal structure
 * - Multiplayer/Public Goods Version
 
     `hedvar_prisoners_dilemma__multiplayer_public_goods_version`
-  - N-player generalization; contribute to a common pool.
+  - Several players each decide how much of their money to put into a shared pool, which is multiplied and divided equally among everyone regardless of contribution. Contributing helps the group but each player does best by holding back.
   - More than two players; group dilemma structure
 * - PD with Communication
 
     `hedvar_prisoners_dilemma__pd_with_communication`
-  - Cheap talk or binding communication before decisions.
+  - The players can talk or exchange messages before choosing, either freely with no binding force, or with the option of making promises that are enforced.
   - Players communicate before deciding; cheap talk changes decision context
 * - PD with Punishment Option
 
     `hedvar_prisoners_dilemma__pd_with_punishment_option`
-  - Third-party or second-party punishment of defectors.
+  - After the choices are revealed, a player (or an observing third party) can pay some of their own money to reduce the earnings of a player who defected.
   - Third-party punishment available; adds enforcement mechanism
 * - PD with Varying Payoff Matrices
 
     `hedvar_prisoners_dilemma__pd_with_varying_payoff_matrices`
-  - Manipulating temptation-to-defect and cooperation incentives parametrically.
+  - The amounts in the payoff table are changed between games, for example making defection more or less tempting, to see how cooperation depends on the stakes.
   - Different temptation/sucker payoffs; tests sensitivity to game parameters
 * - PD against Computer Opponents
 
     `hedvar_prisoners_dilemma__pd_against_computer_opponents`
-  - Known strategies (always cooperate, always defect, tit-for-tat).
+  - The other player is a computer program following a known or unknown fixed strategy, such as always cooperating, always defecting, or copying the participant's last move. The participant may or may not be told it is a computer.
   - Computer opponent instead of human; per §5.6 structural change (deterministic vs. human partner)
 * - PD with Reputation Information
 
     `hedvar_prisoners_dilemma__pd_with_reputation_information`
-  - Partners' cooperation histories visible; tests reputation effects.
+  - Before choosing, the participant is shown how often their current partner cooperated in previous games with other people.
   - Partner's past cooperation history visible; changes social information available
 * - Continuous PD
 
     `hedvar_prisoners_dilemma__continuous_pd`
-  - Graded cooperation rather than binary cooperate/defect.
+  - Instead of a binary choice, each player chooses how much to cooperate on a scale, for example how much of an endowment to transfer to the partner, with payoffs that depend on both amounts.
   - Continuous contribution instead of binary; different action space
 * - Asymmetric Prisoner's Dilemma
 
     `hedvar_prisoners_dilemma__asymmetric_prisoners_dilemma`
-  - Payoffs do not mirror each other; one player gains more or loses less from defection, introducing inequity into the strategic calculus.
+  - The two players face different payoff tables, so that one stands to gain more from defecting or to lose more from being exploited than the other. Players may or may not know the other's payoffs.
   - Different payoff structures for each player; breaks symmetry of standard PD
 * - Optional Prisoner's Dilemma
 
     `hedvar_prisoners_dilemma__optional_prisoners_dilemma`
-  - Players can opt out of the interaction entirely, receiving a safe intermediate payoff; opt-out availability typically increases cooperation among those who choose to play.
+  - Each player has a third option: to not play, taking a guaranteed small payoff instead. Those who choose to play then face the usual cooperate-or-defect choice.
   - Third option to not participate; changes strategic choice set
 ```
 
