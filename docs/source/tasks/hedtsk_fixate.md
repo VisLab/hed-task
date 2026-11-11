@@ -23,7 +23,8 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participant maintains gaze on a fixation target for the block, with no other stimulus to process and no response to make.
+  - 1. Participant maintains gaze on a fixation target for the block, with no other stimulus to process and no response to make.
+    2. Or, participant holds gaze on the target throughout the trials of another task while performing that task.
 * - **Manipulations**
   - - Block duration
     - Target form and size
@@ -32,6 +33,7 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Measurements**
   - - Baseline neural activity for contrast with task blocks
     - Fixation stability (gaze dispersion, saccade and blink counts) when eye-tracked
+    - Fixation breaks during the other task's trials
 ```
 
 ## Cognitive processes

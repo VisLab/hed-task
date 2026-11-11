@@ -28633,7 +28633,8 @@
     "description": "A fixation target, usually a cross or dot at the centre of the screen, is shown and the participant is instructed to keep looking at it for the duration of the block. Nothing else is presented and no response is made. Fixation blocks serve as the implicit baseline in block-design fMRI, as the inter-block interval in many EEG designs, and as the control condition for localizers. Gaze may be monitored with an eye tracker, but that is a matter of measurement and does not make a different task. The distinction from an eyes-open Rest Task is the instruction: here fixation is the required activity, not a convenience. Fixation is also held throughout other tasks, as in spatial cueing, where attention moves to the cued location while the eyes stay on the cross; there it is a second job done alongside the main one. In both uses the participant keeps attention on the target and holds back the urge to look away.",
     "inclusion_test": {
       "procedure": [
-        "Participant maintains gaze on a fixation target for the block, with no other stimulus to process and no response to make."
+        "Participant maintains gaze on a fixation target for the block, with no other stimulus to process and no response to make.",
+        "Or, participant holds gaze on the target throughout the trials of another task while performing that task."
       ],
       "manipulations": [
         "Block duration",
@@ -28643,7 +28644,8 @@
       ],
       "measurements": [
         "Baseline neural activity for contrast with task blocks",
-        "Fixation stability (gaze dispersion, saccade and blink counts) when eye-tracked"
+        "Fixation stability (gaze dispersion, saccade and blink counts) when eye-tracked",
+        "Fixation breaks during the other task's trials"
       ]
     },
     "variations": [],
