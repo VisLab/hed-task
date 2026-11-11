@@ -54,11 +54,15 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Delay Conditioning
 
     `hedvar_pavlovian_fear_conditioning__delay_conditioning`
+
+    Cognitive Atlas: [delay conditioning](https://www.cognitiveatlas.org/task/id/trm_5023ef8eab626) (close match)
   - A neutral cue such as a colored shape or tone is presented for several seconds, and a mild electric shock or loud noise arrives at the end of the cue while it is still on. After several pairings the cue alone produces a fear response such as increased skin conductance.
   - CS and US overlap; canonical associative fear learning
 * - Trace Conditioning
 
     `hedvar_pavlovian_fear_conditioning__trace_conditioning`
+
+    Cognitive Atlas: [trace conditioning](https://www.cognitiveatlas.org/task/id/trm_4a3fd79d0b3d7) (close match)
   - The cue ends and there is a silent gap of a few seconds before the shock arrives, so the participant must bridge the gap in memory to link cue and shock. Harder to learn than the overlapping version.
   - Trace interval between CS offset and US onset; different temporal structure
 * - Contextual Conditioning

@@ -61,6 +61,7 @@ def generate(
     families: list[dict],
     atlas_map: dict[str, dict] | None = None,
     cogpo_map: dict[str, dict] | None = None,
+    atlas_variation_map: dict[str, list[dict]] | None = None,
 ) -> int:
     """Write the task index, the family pages, the alphabetical list and the task pages.
 
@@ -72,6 +73,8 @@ def generate(
         atlas_map: Rows of data/mappings/hed_task_to_atlas.tsv keyed by hedtsk_id.
         cogpo_map: Rows of data/mappings/hed_task_to_cogpo.tsv keyed by hedtsk_id, each
             with a `cogpo_wiki_title` added for the link target.
+        atlas_variation_map: Rows of data/mappings/atlas_task_to_hed.tsv matched exact or
+            close at the variation level, keyed by hed_variation_id.
 
     Returns the number of files written.
     """
@@ -97,7 +100,9 @@ def generate(
     count += _write_alphabetical(tasks_dir, sorted_tasks, family_by_id, processes_by_id)
     for task in sorted_tasks:
         fam = family_by_id[family_of[task["hedtsk_id"]]]
-        count += _write_task_page(tasks_dir, task, fam, family_by_id, processes_by_id, atlas_map or {}, cogpo_map or {})
+        count += _write_task_page(
+            tasks_dir, task, fam, family_by_id, processes_by_id, atlas_map or {}, cogpo_map or {}, atlas_variation_map or {}
+        )
     return count
 
 
@@ -452,6 +457,7 @@ def _write_task_page(
     processes_by_id: dict[str, dict],
     atlas_map: dict[str, dict],
     cogpo_map: dict[str, dict] | None = None,
+    atlas_variation_map: dict[str, list[dict]] | None = None,
 ) -> int:
     """Write an individual task page docs/tasks/{hedtsk_id}.md."""
     hedtsk_id = task["hedtsk_id"]
@@ -510,6 +516,14 @@ def _write_task_page(
             if var_id:
                 # A second paragraph inside the cell, so the id sits under the name.
                 parts.append(f"\n    `{var_id}`\n")
+            atlas_links = [
+                f"[{r['atlas_name']}]({ATLAS_TASK_URL}{r['atlas_id']})"
+                + (f" ({r['match_type']} match)" if r["match_type"] != "exact" else "")
+                for r in (atlas_variation_map or {}).get(var_id, [])
+            ]
+            if atlas_links:
+                # A further paragraph in the same cell, under the id.
+                parts.append(f"\n    Cognitive Atlas: {', '.join(atlas_links)}\n")
             parts.append(f"  - {var.get('description', '')}\n")
             parts.append(f"  - {var.get('justification', '')}\n")
         parts.append("```\n\n")

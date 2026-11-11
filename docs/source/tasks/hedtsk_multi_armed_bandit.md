@@ -62,6 +62,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Contextual Bandit
 
     `hedvar_multi_armed_bandit__contextual_bandit`
+
+    Cognitive Atlas: [contextual bandit](https://www.cognitiveatlas.org/task/id/tsk_3ICXMd8R3ekcb)
   - A cue shown on each trial, such as a background color or a feature of the options, predicts which option is better. The participant must learn the rule linking the cue to the right choice.
   - Context features predict optimal choice; adds feature-based learning
 * - Horizon Task (Wilson et al.)

@@ -79,6 +79,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Gender/Identity Discrimination
 
     `hedvar_biological_motion_perception__gender_identity_discrimination`
+
+    Cognitive Atlas: [gender discrimination task](https://www.cognitiveatlas.org/task/id/trm_4f241c8d4a75c) (close match)
   - The participant judges whether the point-light walker is male or female, or which of several known people it is, using only the way the dots move.
   - Discrimination of walker gender or identity; different judgment dimension
 * - Emotion from Body Motion

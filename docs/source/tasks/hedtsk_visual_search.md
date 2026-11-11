@@ -58,6 +58,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Conjunction Search
 
     `hedvar_visual_search__conjunction_search`
+
+    Cognitive Atlas: [conjunction search task](https://www.cognitiveatlas.org/task/id/trm_4f24194bce29f)
   - The target shares one feature with some distractors and another with the rest, for example a red X among red Os and green Xs. The target does not stand out, and search time grows with the number of items.
   - Target defined by conjunction of features; requires serial search
 * - Spatial Configuration Search

@@ -422,6 +422,13 @@ def main() -> None:
     # The curated mapping drives the Atlas link on each task page and is the only Atlas
     # cross-reference; task records carry no atlas_id of their own.
     atlas_map = {r["hedtsk_id"]: r for r in read_tsv(data_dir / "mappings" / "hed_task_to_atlas.tsv")}
+    # Atlas entries matched to a named variation (exact or close) are linked from that
+    # variation's row, so that a task with several Atlas entries shows all of them where
+    # each belongs.
+    atlas_variation_map: dict[str, list[dict]] = collections.defaultdict(list)
+    for row in read_tsv(data_dir / "mappings" / "atlas_task_to_hed.tsv"):
+        if row["match_level"] == "variation" and row["match_type"] in ("exact", "close"):
+            atlas_variation_map[row["hed_variation_id"]].append(row)
 
     # The CogPO mapping drives the CogPO link on each task page the same way. A class
     # links to its page on the CogPO wiki, whose title the summary records; the two
@@ -442,7 +449,7 @@ def main() -> None:
     total = 0
 
     print("Generating docs/source/tasks/ ...")
-    n = task_pages.generate(docs_dir, tasks, processes_by_id, families, atlas_map, cogpo_map)
+    n = task_pages.generate(docs_dir, tasks, processes_by_id, families, atlas_map, cogpo_map, atlas_variation_map)
     total += n
     print(
         f"  Wrote {n} task files (index, tasks_by_family, {len(families)} family pages, tasks_alphabetically, {len(tasks)} task pages)."

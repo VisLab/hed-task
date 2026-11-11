@@ -53,11 +53,15 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Verbal N-Back
 
     `hedvar_n_back__verbal_n_back`
+
+    Cognitive Atlas: [letter n-back task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949b1c) (close match)
   - Letters appear one at a time, about one every two seconds. The participant presses a key whenever the current letter is the same as the one shown n items earlier (for example two back). The level n sets the difficulty.
   - Letters or words; phonological working memory
 * - Spatial N-Back
 
     `hedvar_n_back__spatial_n_back`
+
+    Cognitive Atlas: [spatial n-back task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949df1)
   - A square appears at one of several positions in a grid, and the participant responds when the current position matches the position n items earlier. The identity of the stimulus does not matter, only where it was.
   - Locations instead of letters; visuospatial working memory
 * - Emotional N-Back
@@ -73,11 +77,15 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Fractal/Object N-Back
 
     `hedvar_n_back__fractal_object_n_back`
+
+    Cognitive Atlas: [object n-back](https://www.cognitiveatlas.org/task/id/trm_4ebd477ab5a11)
   - The items are abstract patterns, fractals or unfamiliar shapes that have no easy name, so the participant cannot rehearse them verbally and must hold them as images.
   - Complex visual objects; different stimulus type
 * - Adaptive N-Back
 
     `hedvar_n_back__adaptive_n_back`
+
+    Cognitive Atlas: [adaptive n-back task](https://www.cognitiveatlas.org/task/id/trm_56674133b666c)
   - The level n goes up after a block done well and down after a block done poorly, so each participant works at a level that keeps accuracy near a set target, typically around 80 percent.
   - N-level adjusts with performance; changes task difficulty trajectory
 * - N-Back with Lures

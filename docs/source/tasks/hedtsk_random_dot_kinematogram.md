@@ -67,6 +67,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Multi-Alternative Motion Discrimination
 
     `hedvar_random_dot_kinematogram__multi_alternative_motion_discrimination`
+
+    Cognitive Atlas: [motion discrimination task](https://www.cognitiveatlas.org/task/id/trm_553fc63a54ae6) (close match)
   - The coherent motion can be in one of four or more directions rather than just left or right, and the participant indicates which, for example by moving the eyes to one of several targets.
   - More than two motion directions; higher-order discrimination
 ```

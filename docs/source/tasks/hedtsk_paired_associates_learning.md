@@ -90,6 +90,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Incidental vs. Intentional Encoding
 
     `hedvar_paired_associates_learning__incidental_vs_intentional_encoding`
+
+    Cognitive Atlas: [Incidental encoding task](https://www.cognitiveatlas.org/task/id/trm_50df0dd9d0b6f) (close match)
   - In the intentional version the participant is told to learn the pairs for a later test. In the incidental version they do some other task with the pairs, such as rating how well the words go together, and the memory test is a surprise.
   - Encoding goal manipulation; tests depth and intentionality of encoding
 ```

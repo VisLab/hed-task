@@ -50,6 +50,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Reinterpretation/Reappraisal
 
     `hedvar_emotion_regulation__reinterpretation_reappraisal`
+
+    Cognitive Atlas: [reappraisal task](https://www.cognitiveatlas.org/task/id/trm_4f2420b042165)
   - Before an unpleasant picture, the participant is instructed to change what the picture means to them, for example by imagining that the injured person will recover or that the scene is staged. On other trials they simply watch. Ratings or physiological responses on reappraise trials are compared with watch trials.
   - Participant cognitively reframes stimulus meaning; changes cognitive strategy instructions
 * - Distancing/Detachment

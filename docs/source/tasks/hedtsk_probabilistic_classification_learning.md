@@ -57,6 +57,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Deterministic Version
 
     `hedvar_probabilistic_classification_learning__deterministic_version`
+
+    Cognitive Atlas: [deterministic classification](https://www.cognitiveatlas.org/task/id/trm_4e8dd3831f0cc) (close match)
   - Each combination of cards always predicts the same outcome, so a rule can be learned exactly rather than approximately. The task then measures explicit rule learning rather than gradual probabilistic learning.
   - Cues perfectly predict outcome; removes probabilistic uncertainty
 * - Varying Probability Levels

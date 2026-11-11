@@ -60,6 +60,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Stop-Change Task
 
     `hedvar_stop_signal__stop_change`
+
+    Cognitive Atlas: [stop-change task](https://www.cognitiveatlas.org/task/id/trm_4f2447dfa5947)
   - Instead of simply withholding, the participant must cancel the planned response and make a different one, for example pressing a third key, when the signal occurs.
   - Stop signal replaced by change signal; different inhibition-and-substitute
 * - Selective Stop-Signal

@@ -65,6 +65,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Color Trails Test
 
     `hedvar_trail_making__color_trails`
+
+    Cognitive Atlas: [Color Trails Test](https://www.cognitiveatlas.org/task/id/trm_4da633fe917c4)
   - The letters are replaced by a second set of numbers in a different color, and the participant alternates between pink and yellow circles (1 pink, 2 yellow, 3 pink...). Usable in any language.
   - Color-coded circles instead of letters; tests same construct in different format
 * - Comprehensive Trail Making Test (CTMT)

@@ -58,6 +58,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - AX-CPT (Context Processing)
 
     `hedvar_continuous_performance__ax_cpt_context_processing`
+
+    Cognitive Atlas: [AX-CPT task](https://www.cognitiveatlas.org/task/id/trm_4c40d2a93ea15), [AX-DPX](https://www.cognitiveatlas.org/task/id/trm_515495b718cd6) (close match), [Continuous Performance Test - AX version](https://www.cognitiveatlas.org/task/id/trm_551f0c294ce23)
   - Letters appear in pairs. The participant presses the target key only when an X follows an A; an X after any other letter, or any other letter after an A, gets the non-target key. The participant has to remember the previous letter to respond correctly, and A-then-X pairs are made frequent so that the A creates a strong expectation.
   - Context-dependent target requires tracking A->X sequence; different working memory demand
 * - Identical Pairs CPT (IP-CPT)
@@ -83,6 +85,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - TOVA (Test of Variables of Attention)
 
     `hedvar_continuous_performance__tova_test_of_variables_of_attention`
+
+    Cognitive Atlas: [test of variables of attention](https://www.cognitiveatlas.org/task/id/trm_4da86cdbd9eeb)
   - A commercial version using a simple geometric shape that appears at the top or bottom of the screen. The participant presses a button for the target position only. Targets are rare in the first half and frequent in the second, and timing and norms are fixed by the instrument.
   - Geometric stimuli, fixed ISI; distinct named instrument with different timing parameters
 * - CPT with Emotional Distractors

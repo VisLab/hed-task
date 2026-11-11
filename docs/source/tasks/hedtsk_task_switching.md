@@ -56,6 +56,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Alternating Runs (AABB)
 
     `hedvar_task_switching__alternating_runs_aabb`
+
+    Cognitive Atlas: [alternating runs paradigm](https://www.cognitiveatlas.org/task/id/trm_4da88b8b60ffb)
   - No cue is given; instead the tasks alternate in a fixed pattern, usually two trials of one then two of the other, often with the stimulus moving around a grid to mark position in the pattern. The participant must keep track of where they are.
   - Predictable alternation without explicit cue; different task structure
 * - Voluntary Task Switching

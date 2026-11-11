@@ -70,6 +70,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Recent-Probes Sternberg
 
     `hedvar_sternberg_item_recognition__recent_probes_sternberg`
+
+    Cognitive Atlas: [Sternberg Recent Probes](https://www.cognitiveatlas.org/task/id/trm_56674987c8f0c)
   - Some probes that are not in the current set were in the set on the previous trial. Rejecting these familiar-but-wrong probes takes longer, which measures interference from recent memory.
   - Probes match previous trials; tests proactive interference
 ```

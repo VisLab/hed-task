@@ -67,6 +67,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Bimanual Coordination
 
     `hedvar_motor_sequence_learning__bimanual_coordination`
+
+    Cognitive Atlas: [bimanual coordination task](https://www.cognitiveatlas.org/task/id/trm_4f244f997615c) (close match)
   - Both hands perform sequences at the same time, either the same sequence in mirror fashion or two different sequences, so that learning includes coordinating the hands.
   - Both hands performing sequences; interlimb coordination demands
 * - Explicit vs. Implicit Sequence Learning

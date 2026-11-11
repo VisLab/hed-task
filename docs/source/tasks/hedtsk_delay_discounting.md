@@ -59,6 +59,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - 5-Trial Adjusting Delay
 
     `hedvar_delay_discounting__5_trial_adjusting_delay`
+
+    Cognitive Atlas: [Five-Trial Adjusting Delay Discounting Task](https://www.cognitiveatlas.org/task/id/tsk_qBdQueJHSouuF)
   - A very short version that finds the delay at which a reward loses half its value in just five choices, each halving the range of possible delays. It takes about a minute.
   - Rapid 5-trial protocol; distinct abbreviated titration method
 * - Fixed-Choice Discrete Trials

@@ -51,11 +51,15 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Forward Digit Span
 
     `hedvar_digit_span__forward_digit_span`
+
+    Cognitive Atlas: [forward digit span task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949a85)
   - The experimenter reads a list of digits aloud at one per second, and the participant repeats them in the same order. Lists get longer until the participant fails, and the longest list repeated correctly is the span.
   - Reproduce digits in order; canonical phonological span measure
 * - Backward Digit Span
 
     `hedvar_digit_span__backward_digit_span`
+
+    Cognitive Atlas: [backward digit span task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb94989b)
   - The participant repeats the digits in reverse order, last digit first. The list must be held and reversed before it can be spoken.
   - Reproduce in reverse; requires mental transformation
 * - Digit Span Sequencing (WAIS-IV)
@@ -66,6 +70,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Letter-Number Sequencing
 
     `hedvar_digit_span__letter_number_sequencing`
+
+    Cognitive Atlas: [letter number sequencing](https://www.cognitiveatlas.org/task/id/trm_4c3e0a9576c3b)
   - The list mixes letters and digits (for example 7-B-3-K). The participant must say the digits first in ascending order, then the letters in alphabetical order.
   - Alternating letters and numbers reordered separately; dual sequencing demand
 * - Auditory vs. Visual Presentation
@@ -101,6 +107,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Supra-Span Lists
 
     `hedvar_digit_span__supra_span_lists`
+
+    Cognitive Atlas: [span/supra-span test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949de3) (close match)
   - A list longer than the participant's span is repeated until it can be recalled perfectly. The number of repetitions needed measures how fast a long sequence is learned.
   - Lists exceed span; tests learning over trials
 ```

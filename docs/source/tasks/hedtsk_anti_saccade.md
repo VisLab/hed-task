@@ -55,6 +55,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Prosaccade (Control Condition)
 
     `hedvar_anti_saccade__prosaccade_control_condition`
+
+    Cognitive Atlas: [visually guided saccade task](https://www.cognitiveatlas.org/task/id/trm_4f24108555294) (close match)
   - The same display, but the participant is told to look toward the flashing cue rather than away from it. This is the reflexive, easy response and serves as a baseline for eye-movement speed and accuracy.
   - Opposite stimulus-response mapping (look toward cue); different response requirement from anti-saccade
 * - Interleaved Pro/Anti-Saccade
@@ -85,6 +87,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Memory-Guided Anti-Saccade
 
     `hedvar_anti_saccade__memory_guided_anti_saccade`
+
+    Cognitive Atlas: [memory guided saccade task](https://www.cognitiveatlas.org/task/id/trm_4f2457d94fd93)
   - The cue flashes and then disappears, and the participant must remember where it was during a delay before making the look-away eye movement to the opposite location on a later signal.
   - Target location must be retained in memory before response; distinct memory demand
 * - Double-Step Anti-Saccade

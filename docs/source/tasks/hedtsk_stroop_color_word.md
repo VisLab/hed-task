@@ -67,6 +67,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Counting Stroop
 
     `hedvar_stroop_color_word__counting_stroop`
+
+    Cognitive Atlas: [counting Stroop task](https://www.cognitiveatlas.org/task/id/trm_4da631be60291)
   - A number word is printed one to four times (for example 'two' printed three times) and the participant reports how many words there are, ignoring what the word says. Neutral items use animal names.
   - Count number of words instead of naming color; different task dimension
 * - Spatial Stroop
@@ -107,6 +109,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Negative Priming Stroop
 
     `hedvar_stroop_color_word__negative_priming_stroop`
+
+    Cognitive Atlas: [negative priming task](https://www.cognitiveatlas.org/task/id/trm_4f244d64e45bc) (close match)
   - Trials are arranged so that the word to be ignored on one trial is the ink color to be named on the next (for example RED in green, then any word in red). Naming the previously ignored color is slower, which shows it was suppressed.
   - Previously ignored item becomes target; tests ignored repetition effect
 ```

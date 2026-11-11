@@ -55,6 +55,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Reading Span (RSPAN)
 
     `hedvar_operation_span__reading_span_rspan`
+
+    Cognitive Atlas: [reading span task](https://www.cognitiveatlas.org/task/id/trm_4c40d168898db)
   - The interleaved processing task is reading a sentence and judging whether it makes sense, instead of arithmetic. A word or letter to remember follows each sentence.
   - Sentence comprehension distractor; different processing demand
 * - Symmetry Span (SYMSPAN)

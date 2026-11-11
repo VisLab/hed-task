@@ -51,11 +51,15 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Eyes-Open Rest
 
     `hedvar_rest__eyes_open_rest`
+
+    Cognitive Atlas: [rest eyes open](https://www.cognitiveatlas.org/task/id/trm_4c8a834779883)
   - The participant sits or lies still for several minutes with eyes open, usually looking at a fixation cross or a blank screen, with nothing to do.
   - Eye state changes visual input and the EEG alpha rhythm; a different postural state for the whole block
 * - Eyes-Closed Rest
 
     `hedvar_rest__eyes_closed_rest`
+
+    Cognitive Atlas: [rest eyes closed](https://www.cognitiveatlas.org/task/id/trm_54e69c642d89b)
   - The participant sits or lies still for several minutes with eyes closed and nothing to do, while staying awake.
   - Eye state changes visual input and the EEG alpha rhythm; removes eye-movement artifact and raises the risk of drowsiness
 ```

@@ -54,11 +54,15 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Phonemic / Letter Fluency (FAS)
 
     `hedvar_verbal_fluency__phonemic_letter_fluency_fas`
+
+    Cognitive Atlas: [letter fluency test ](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949b0e), [phonemic fluency task](https://www.cognitiveatlas.org/task/id/trm_4f241be43458e) (close match)
   - The participant says as many words as they can that begin with a given letter in one minute, excluding names and repeats of the same word with different endings. Usually three letters (F, A and S) are given in turn. The score is the total number of acceptable words.
   - Generate words by initial letter; canonical phonemic fluency
 * - Semantic / Category Fluency
 
     `hedvar_verbal_fluency__semantic_category_fluency`
+
+    Cognitive Atlas: [category fluency test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949923), [semantic fluency task](https://www.cognitiveatlas.org/task/id/trm_4f241bd52b509) (close match)
   - The participant names as many members of a category as they can in one minute, such as animals or things in a supermarket. Usually easier than letter fluency, and the two are impaired differently by different brain conditions.
   - Generate words from category; different retrieval strategy and structure
 * - Action / Verb Fluency

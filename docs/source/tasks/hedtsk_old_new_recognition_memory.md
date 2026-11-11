@@ -81,6 +81,8 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Continuous Recognition
 
     `hedvar_old_new_recognition_memory__continuous_recognition`
+
+    Cognitive Atlas: [continuous recognition paradigm](https://www.cognitiveatlas.org/task/id/tsk_4a57abb9499c7)
   - There is no separate study phase. Items appear in one long stream and some repeat after various numbers of intervening items. The participant judges every item as new or repeated as it appears.
   - Study and test interleaved in ongoing stream; different trial structure
 * - DRM (Deese-Roediger-McDermott) False Memory Variant
