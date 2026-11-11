@@ -28374,7 +28374,7 @@
       "Baseline Rest"
     ],
     "short_definition": "Participant stays awake, still and unoccupied for a block of several minutes while spontaneous activity is recorded; the block is a baseline for task blocks or a resting-state recording in its own right.",
-    "description": "The participant is asked to remain awake and relaxed, to keep still, and to do nothing in particular while the recording runs, typically for three to ten minutes. No stimulus is presented for processing and no response is required. Rest blocks appear at the start or end of a session as a baseline, between task blocks as a recovery period, or as the whole recording in resting-state studies of spontaneous brain activity and functional connectivity. Eye state is the standard manipulation: eyes closed removes visual input and raises occipital alpha; eyes open is often paired with a fixation cross to limit eye movement. When a cross is merely provided and the instruction is to rest, the block is a Rest Task; when the instruction is to hold gaze on the target and gaze is monitored or required, it is a Fixate Task. With no task to direct it, thought wanders: participants report thinking about themselves, their own past and their plans, and recent experience is replayed in a way that supports later memory. These are the processes Rest is linked to; what the participant was thinking can be sampled afterwards by asking.",
+    "description": "The participant is asked to remain awake and relaxed, to keep still, and to do nothing in particular while the recording runs, typically for three to ten minutes. No stimulus is presented for processing and no response is required. Rest blocks appear at the start or end of a session as a baseline, between task blocks as a recovery period, or as the whole recording in resting-state studies of spontaneous brain activity and functional connectivity. Eye state is the standard manipulation: eyes closed removes visual input and raises occipital alpha; eyes open is often paired with a fixation cross to limit eye movement. When a cross is merely provided and the instruction is to rest, the block is a Rest Task; when the instruction is to hold gaze on the target and gaze is monitored or required, it is a Fixate Task. With no task to direct it, thought wanders: participants report thinking about themselves, their own past and their plans, and recent experience is replayed in a way that supports later memory. What the participant was thinking can be sampled afterwards by asking.",
     "inclusion_test": {
       "procedure": [
         "Participant remains awake, still and relaxed with no stimulus to process and no response to make, for a block typically lasting 3 to 10 minutes."
@@ -28389,7 +28389,7 @@
         "Spontaneous EEG or MEG spectra and microstates",
         "Resting-state fMRI connectivity",
         "Heart rate and respiration",
-        "Self-reported drowsiness or thought content after the block. No behavioral performance measure"
+        "Self-reported drowsiness or thought content after the block"
       ]
     },
     "variations": [
