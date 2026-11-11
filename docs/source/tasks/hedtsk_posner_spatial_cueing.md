@@ -32,7 +32,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Target task (detection vs. discrimination)
 * - **Measurements**
   - - RT difference between valid and invalid trials (attention effect)
-    - Costs (invalid − neutral) and benefits (neutral − valid)
+    - Costs (invalid - neutral) and benefits (neutral - valid)
     - IOR at long SOAs
 ```
 
@@ -123,9 +123,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Chica, A. B., Martín-Arévalo, E., Botta, F., & Lupiáñez, J. (2014). The Spatial Orienting paradigm: How to design and interpret spatial attention experiments. *Neuroscience & Biobehavioral Reviews*, 40, 35–51. ([DOI](https://doi.org/10.1016/j.neubiorev.2014.01.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24462751/))
-- Theeuwes, J. (2019). Goal-driven, stimulus-driven, and history-driven selection. *Current Opinion in Psychology*, 29, 97–101. ([DOI](https://doi.org/10.1016/j.copsyc.2018.12.024), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30711911/))
-- Petersen, S. E., & Posner, M. I. (2012). The attention system of the human brain: 20 years after. *Annual Review of Neuroscience*, 35, 73–89. ([DOI](https://doi.org/10.1146/annurev-neuro-062111-150525), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22524787/))
+- Chica, A. B., Martín-Arévalo, E., Botta, F., & Lupiáñez, J. (2014). The Spatial Orienting paradigm: How to design and interpret spatial attention experiments. *Neuroscience & Biobehavioral Reviews*, 40, 35-51. ([DOI](https://doi.org/10.1016/j.neubiorev.2014.01.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24462751/))
+- Theeuwes, J. (2019). Goal-driven, stimulus-driven, and history-driven selection. *Current Opinion in Psychology*, 29, 97-101. ([DOI](https://doi.org/10.1016/j.copsyc.2018.12.024), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30711911/))
+- Petersen, S. E., & Posner, M. I. (2012). The attention system of the human brain: 20 years after. *Annual Review of Neuroscience*, 35, 73-89. ([DOI](https://doi.org/10.1146/annurev-neuro-062111-150525), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22524787/))
 - Dugué, L., Merriam, E. P., Heeger, D. J., & Carrasco, M. (2020). Differential impact of endogenous and exogenous attention on activity in human visual cortex. *Scientific Reports*, 10, 21274. ([DOI](https://doi.org/10.1038/s41598-020-78172-x), [PubMed](https://pubmed.ncbi.nlm.nih.gov/33277552/))
 
 ## External links

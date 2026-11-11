@@ -11,7 +11,7 @@ Repeated choice among options with unknown or changing reward distributions; cho
 
 ## Description
 
-Participants choose among multiple options (the "arms" of a slot machine), each yielding rewards with unknown and often changing probabilities. The central challenge is the explore-exploit dilemma: whether to exploit the currently best-known option or explore alternatives that might yield higher returns. Reward probabilities may be stationary or volatile (drifting over time), with the volatile version (restless bandit) requiring continuous updating of value estimates. This paradigm is the dominant tool in computational psychiatry for studying reinforcement learning, and its computational tractability — fitting with Bayesian, Kalman-filter, or upper-confidence-bound models — has made it central to understanding decision-making deficits in addiction, schizophrenia, depression, and anxiety.
+Participants choose among multiple options (the "arms" of a slot machine), each yielding rewards with unknown and often changing probabilities. The central challenge is the explore-exploit dilemma: whether to exploit the currently best-known option or explore alternatives that might yield higher returns. Reward probabilities may be stationary or volatile (drifting over time), with the volatile version (restless bandit) requiring continuous updating of value estimates. This paradigm is the dominant tool in computational psychiatry for studying reinforcement learning, and its computational tractability - fitting with Bayesian, Kalman-filter, or upper-confidence-bound models - has made it central to understanding decision-making deficits in addiction, schizophrenia, depression, and anxiety.
 
 ## Inclusion test
 
@@ -108,13 +108,13 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Daw, N. D., O'Doherty, J. P., Dayan, P., Seymour, B., & Dolan, R. J. (2006). Cortical substrates for exploratory decisions in humans. *Nature*, 441, 876–879. ([DOI](https://doi.org/10.1038/nature04766), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16778890/))
+- Daw, N. D., O'Doherty, J. P., Dayan, P., Seymour, B., & Dolan, R. J. (2006). Cortical substrates for exploratory decisions in humans. *Nature*, 441, 876-879. ([DOI](https://doi.org/10.1038/nature04766), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16778890/))
 
 ## Further references
 
-- Gershman, S. J. (2018). Deconstructing the human algorithms for exploration. *Cognition*, 173, 34–42. ([DOI](https://doi.org/10.1016/j.cognition.2017.12.014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29289795/))
-- Schulz, E., & Gershman, S. J. (2019). The algorithmic architecture of exploration in the human brain. *Current Opinion in Neurobiology*, 55, 7–14. ([DOI](https://doi.org/10.1016/j.conb.2018.11.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30529148/))
-- Cogliati Dezza, I., Yu, A. J., Cleeremans, A., & Alexander, W. (2017). Learning the value of information and reward over time when solving exploration–exploitation problems. *Scientific Reports*, 7, 16919. ([DOI](https://doi.org/10.1038/s41598-017-17237-w), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29209058/))
+- Gershman, S. J. (2018). Deconstructing the human algorithms for exploration. *Cognition*, 173, 34-42. ([DOI](https://doi.org/10.1016/j.cognition.2017.12.014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29289795/))
+- Schulz, E., & Gershman, S. J. (2019). The algorithmic architecture of exploration in the human brain. *Current Opinion in Neurobiology*, 55, 7-14. ([DOI](https://doi.org/10.1016/j.conb.2018.11.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30529148/))
+- Cogliati Dezza, I., Yu, A. J., Cleeremans, A., & Alexander, W. (2017). Learning the value of information and reward over time when solving exploration-exploitation problems. *Scientific Reports*, 7, 16919. ([DOI](https://doi.org/10.1038/s41598-017-17237-w), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29209058/))
 - Chakroun, K., Mathar, D., Wiehler, A., Ganzer, F., & Peters, J. (2020). Dopaminergic modulation of the exploration/exploitation trade-off in human decision-making. *eLife*, 9, e51260. ([DOI](https://doi.org/10.7554/elife.51260), [PubMed](https://pubmed.ncbi.nlm.nih.gov/32484779/))
 
 ## External links

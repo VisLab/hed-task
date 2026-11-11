@@ -11,7 +11,7 @@ Participants track a subset of identical moving objects among distractors for se
 
 ## Description
 
-In the Multiple Object Tracking task, participants view a set of identical objects (typically 8–16 circles), a subset of which are briefly designated as targets (by flashing or color). All objects then move independently and randomly for several seconds, and participants must track the targets among distractors. After movement stops, participants identify which objects were the original targets. Performance is measured as tracking accuracy as a function of target load (typically 1–5 targets). The task provides a direct index of how many individual objects can be simultaneously tracked—a measure of visual attention capacity, estimated at approximately 4 objects.
+In the Multiple Object Tracking task, participants view a set of identical objects (typically 8-16 circles), a subset of which are briefly designated as targets (by flashing or color). All objects then move independently and randomly for several seconds, and participants must track the targets among distractors. After movement stops, participants identify which objects were the original targets. Performance is measured as tracking accuracy as a function of target load (typically 1-5 targets). The task provides a direct index of how many individual objects can be simultaneously tracked - a measure of visual attention capacity, estimated at approximately 4 objects.
 
 ## Inclusion test
 
@@ -33,7 +33,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Tracking duration
 * - **Measurements**
   - - Tracking accuracy (proportion correct)
-    - Capacity estimate (Pylyshyn's 4±1)
+    - Capacity estimate (Pylyshyn's 4+/-1)
     - Effects of load on accuracy
 ```
 
@@ -98,15 +98,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Pylyshyn, Z. W., & Storm, R. W. (1988). Tracking multiple independent targets: Evidence for a parallel tracking mechanism. *Spatial Vision*, 3(3), 179–197. ([DOI](https://doi.org/10.1163/156856888x00122), [PubMed](https://pubmed.ncbi.nlm.nih.gov/3153671/))
-- Cavanagh, P., & Alvarez, G. A. (2005). Tracking multiple targets with multifocal attention. *Trends in Cognitive Sciences*, 9(7), 349–354. ([DOI](https://doi.org/10.1016/j.tics.2005.05.009), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15953754/))
+- Pylyshyn, Z. W., & Storm, R. W. (1988). Tracking multiple independent targets: Evidence for a parallel tracking mechanism. *Spatial Vision*, 3(3), 179-197. ([DOI](https://doi.org/10.1163/156856888x00122), [PubMed](https://pubmed.ncbi.nlm.nih.gov/3153671/))
+- Cavanagh, P., & Alvarez, G. A. (2005). Tracking multiple targets with multifocal attention. *Trends in Cognitive Sciences*, 9(7), 349-354. ([DOI](https://doi.org/10.1016/j.tics.2005.05.009), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15953754/))
 
 ## Further references
 
-- Meyerhoff, H. S., Papenmeier, F., & Huff, M. (2017). Studying visual attention using the multiple object tracking paradigm: A tutorial review. *Attention, Perception, & Psychophysics*, 79(5), 1255–1274. ([DOI](https://doi.org/10.3758/s13414-017-1338-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28584953/))
-- Oksama, L., & Hyönä, J. (2016). Position tracking and identity tracking are separate systems: Evidence from eye movements. *Cognition*, 146, 393–409. ([DOI](https://doi.org/10.1016/j.cognition.2015.10.016), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26529194/))
+- Meyerhoff, H. S., Papenmeier, F., & Huff, M. (2017). Studying visual attention using the multiple object tracking paradigm: A tutorial review. *Attention, Perception, & Psychophysics*, 79(5), 1255-1274. ([DOI](https://doi.org/10.3758/s13414-017-1338-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28584953/))
+- Oksama, L., & Hyönä, J. (2016). Position tracking and identity tracking are separate systems: Evidence from eye movements. *Cognition*, 146, 393-409. ([DOI](https://doi.org/10.1016/j.cognition.2015.10.016), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26529194/))
 - Alvarez, G. A., & Franconeri, S. L. (2007). How many objects can you track? Evidence for a resource-limited attentive tracking mechanism. *Journal of Vision*, 7(13), 14. ([DOI](https://doi.org/10.1167/7.13.14), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17997642/))
-- Drew, T., & Vogel, E. K. (2008). Neural measures of individual differences in selecting and tracking multiple moving objects. *Journal of Neuroscience*, 28(16), 4183–4191. ([DOI](https://doi.org/10.1523/jneurosci.0556-08.2008), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18417697/))
+- Drew, T., & Vogel, E. K. (2008). Neural measures of individual differences in selecting and tracking multiple moving objects. *Journal of Neuroscience*, 28(16), 4183-4191. ([DOI](https://doi.org/10.1523/jneurosci.0556-08.2008), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18417697/))
 
 ## External links
 

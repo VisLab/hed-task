@@ -11,7 +11,7 @@ Experimenter taps a sequence on spatially arranged blocks; participant reproduce
 
 ## Description
 
-The Corsi Block-Tapping Task measures visuospatial short-term and working memory. Nine blocks are arranged irregularly on a board (or screen). The examiner taps a sequence of blocks, and the participant reproduces the sequence. Sequence length increases from 2 blocks upward until the participant fails two consecutive sequences at a given length. The maximum reliably reproduced length defines the Corsi span, typically around 5–6 for healthy adults. The backward version requires reproducing sequences in reverse order, adding executive demands. The task is the spatial counterpart of Digit Span and is critical for understanding the visuospatial sketchpad component of working memory.
+The Corsi Block-Tapping Task measures visuospatial short-term and working memory. Nine blocks are arranged irregularly on a board (or screen). The examiner taps a sequence of blocks, and the participant reproduces the sequence. Sequence length increases from 2 blocks upward until the participant fails two consecutive sequences at a given length. The maximum reliably reproduced length defines the Corsi span, typically around 5-6 for healthy adults. The backward version requires reproducing sequences in reverse order, adding executive demands. The task is the spatial counterpart of Digit Span and is critical for understanding the visuospatial sketchpad component of working memory.
 
 ## Inclusion test
 
@@ -61,7 +61,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_corsi_block_tapping__computerized_ecorsi`
   - The blocks are squares on a touchscreen or monitor that light up in sequence, and the participant touches or clicks them in order. Timing of each touch is recorded, and the squares cannot be felt as physical objects.
-  - Screen-based tapping vs. physical blocks; per §5.6 changes spatial/motor demands
+  - Screen-based tapping vs. physical blocks; per section 5.6 changes spatial/motor demands
 * - Supra-Span Corsi
 
     `hedvar_corsi_block_tapping__supra_span_corsi`
@@ -96,11 +96,11 @@ This task is designed to engage the following processes:
 ## Key references
 
 - Corsi, P. M. (1972). *Human memory and the medial temporal region of the brain*. Unpublished doctoral dissertation, McGill University.
-- Milner, B. (1971). Interhemispheric differences in the localization of psychological processes in man. *British Medical Bulletin*, 27(3), 272–277. ([DOI](https://doi.org/10.1093/oxfordjournals.bmb.a070866), [PubMed](https://pubmed.ncbi.nlm.nih.gov/4937273/))
+- Milner, B. (1971). Interhemispheric differences in the localization of psychological processes in man. *British Medical Bulletin*, 27(3), 272-277. ([DOI](https://doi.org/10.1093/oxfordjournals.bmb.a070866), [PubMed](https://pubmed.ncbi.nlm.nih.gov/4937273/))
 
 ## Further references
 
-- Pagulayan, K. F., Busch, R. M., Medina, K. L., Bartok, J. A., & Krikorian, R. (2006). Developmental normative data for the Corsi Block-Tapping Task. *Journal of Clinical and Experimental Neuropsychology*, 28(6), 1043–1052. ([DOI](https://doi.org/10.1080/13803390500350977), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16822742/))
+- Pagulayan, K. F., Busch, R. M., Medina, K. L., Bartok, J. A., & Krikorian, R. (2006). Developmental normative data for the Corsi Block-Tapping Task. *Journal of Clinical and Experimental Neuropsychology*, 28(6), 1043-1052. ([DOI](https://doi.org/10.1080/13803390500350977), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16822742/))
 - Brunetti, R., Del Gatto, C., & Delogu, F. (2014). eCorsi: Implementation and testing of the Corsi Block-Tapping Task for digital tablets. *Frontiers in Psychology*, 5, 939. ([DOI](https://doi.org/10.3389/fpsyg.2014.00939), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25228888/))
 
 ## External links

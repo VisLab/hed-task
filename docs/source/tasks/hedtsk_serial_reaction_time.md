@@ -104,9 +104,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Janacsek, K., & Nemeth, D. (2012). Predicting the future: From implicit learning to consolidation. *International Journal of Psychophysiology*, 83(2), 213–221. ([DOI](https://doi.org/10.1016/j.ijpsycho.2011.11.012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22154521/))
-- Abrahamse, E. L., Jiménez, L., Verwey, W. B., & Clegg, B. A. (2010). Representing serial action and perception. *Psychonomic Bulletin & Review*, 17(5), 603–623. ([DOI](https://doi.org/10.3758/pbr.17.5.603), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21037157/))
-- Siegert, R. J., Taylor, K. D., Weatherall, M., & Abernethy, D. A. (2006). Is implicit sequence learning impaired in Parkinson's disease? A meta-analysis. *Neuropsychology*, 20(4), 490–495. [Updated: Clark, G. M., Lum, J. A., & Ullman, M. T. (2014). A meta-analysis and meta-regression of serial reaction time task performance in Parkinson's disease. *Neuropsychology*, 28(6), 945–958.] ([DOI](https://doi.org/10.1037/0894-4105.20.4.490), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16846267/))
+- Janacsek, K., & Nemeth, D. (2012). Predicting the future: From implicit learning to consolidation. *International Journal of Psychophysiology*, 83(2), 213-221. ([DOI](https://doi.org/10.1016/j.ijpsycho.2011.11.012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22154521/))
+- Abrahamse, E. L., Jiménez, L., Verwey, W. B., & Clegg, B. A. (2010). Representing serial action and perception. *Psychonomic Bulletin & Review*, 17(5), 603-623. ([DOI](https://doi.org/10.3758/pbr.17.5.603), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21037157/))
+- Siegert, R. J., Taylor, K. D., Weatherall, M., & Abernethy, D. A. (2006). Is implicit sequence learning impaired in Parkinson's disease? A meta-analysis. *Neuropsychology*, 20(4), 490-495. [Updated: Clark, G. M., Lum, J. A., & Ullman, M. T. (2014). A meta-analysis and meta-regression of serial reaction time task performance in Parkinson's disease. *Neuropsychology*, 28(6), 945-958.] ([DOI](https://doi.org/10.1037/0894-4105.20.4.490), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16846267/))
 
 ## External links
 

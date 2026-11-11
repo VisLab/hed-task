@@ -23,9 +23,9 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants memorize a small set of items (1–6 digits or letters), then a probe appears and they indicate whether it was in the memory set.
+  - Participants memorize a small set of items (1-6 digits or letters), then a probe appears and they indicate whether it was in the memory set.
 * - **Manipulations**
-  - - Set size (1–6)
+  - - Set size (1-6)
     - Probe type (positive/present vs. negative/absent)
     - Degraded probes
     - Varied vs. fixed set across trials
@@ -91,9 +91,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Donkin, C., & Nosofsky, R. M. (2012). A power-law model of psychological memory strength in short-term and long-term recognition. *Psychological Science*, 23(6), 625–634. ([DOI](https://doi.org/10.1177/0956797611430961), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22527527/))
-- Van Vugt, M. K., Schulze-Bonhage, A., Litt, B., Brandt, A., & Kahana, M. J. (2010). Hippocampal gamma oscillations increase with memory load. *Journal of Neuroscience*, 30(7), 2694–2699. ([DOI](https://doi.org/10.1523/jneurosci.0567-09.2010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20164353/))
-- Oberauer, K., Lewandowsky, S., Awh, E., Brown, G. D., Conway, A., et al. (2018). Benchmarks for models of short-term and working memory. *Psychological Bulletin*, 144(9), 885–958. ([DOI](https://doi.org/10.1037/bul0000153), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30148379/))
+- Donkin, C., & Nosofsky, R. M. (2012). A power-law model of psychological memory strength in short-term and long-term recognition. *Psychological Science*, 23(6), 625-634. ([DOI](https://doi.org/10.1177/0956797611430961), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22527527/))
+- Van Vugt, M. K., Schulze-Bonhage, A., Litt, B., Brandt, A., & Kahana, M. J. (2010). Hippocampal gamma oscillations increase with memory load. *Journal of Neuroscience*, 30(7), 2694-2699. ([DOI](https://doi.org/10.1523/jneurosci.0567-09.2010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20164353/))
+- Oberauer, K., Lewandowsky, S., Awh, E., Brown, G. D., Conway, A., et al. (2018). Benchmarks for models of short-term and working memory. *Psychological Bulletin*, 144(9), 885-958. ([DOI](https://doi.org/10.1037/bul0000153), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30148379/))
 
 ## External links
 

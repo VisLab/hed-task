@@ -26,7 +26,7 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. A sequence of frequent standard stimuli is occasionally interrupted by rare target (and sometimes novel) stimuli.
     2. Participants count or respond to targets.
 * - **Manipulations**
-  - - Target probability (typically 10–20%)
+  - - Target probability (typically 10-20%)
     - Stimulus modality (auditory, visual)
     - Inclusion of novel non-target deviants
     - ISI
@@ -88,7 +88,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_oddball__emotional_oddball`
   - The rare events are emotional pictures or faces inserted into a stream of neutral ones, so that the response to rare events is measured for emotional content.
-  - Emotional stimuli as deviants; retained per §5.1 (EMOT retired)
+  - Emotional stimuli as deviants; retained per section 5.1 (EMOT retired)
 * - Roving Paradigm
 
     `hedvar_oddball__roving_paradigm`
@@ -114,9 +114,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Linden, D. E. J. (2005). The P300: Where in the brain is it produced and what does it tell us? *Neuroscientist*, 11(6), 563–576. [Updated: Bledowski, C., et al. (2004). Localizing P300 generators in visual target and distractor processing: A combined event-related potential and functional magnetic resonance imaging study. *Journal of Neuroscience*, 24(42), 9353–9360.] ([DOI](https://doi.org/10.1177/1073858405280524), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16282597/))
-- Twomey, D. M., Murphy, P. R., Kelly, S. P., & O'Connell, R. G. (2015). The classic P300 encodes a build-to-threshold decision variable. *European Journal of Neuroscience*, 42(1), 1636–1643. ([DOI](https://doi.org/10.1111/ejn.12936), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25925534/))
-- Kelly, S. P., & O'Connell, R. G. (2013). Internal and external influences on the rate of sensory evidence accumulation in the human brain. *Journal of Neuroscience*, 33(50), 19434–19441. ([DOI](https://doi.org/10.1523/jneurosci.3355-13.2013), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24336710/))
+- Linden, D. E. J. (2005). The P300: Where in the brain is it produced and what does it tell us? *Neuroscientist*, 11(6), 563-576. [Updated: Bledowski, C., et al. (2004). Localizing P300 generators in visual target and distractor processing: A combined event-related potential and functional magnetic resonance imaging study. *Journal of Neuroscience*, 24(42), 9353-9360.] ([DOI](https://doi.org/10.1177/1073858405280524), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16282597/))
+- Twomey, D. M., Murphy, P. R., Kelly, S. P., & O'Connell, R. G. (2015). The classic P300 encodes a build-to-threshold decision variable. *European Journal of Neuroscience*, 42(1), 1636-1643. ([DOI](https://doi.org/10.1111/ejn.12936), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25925534/))
+- Kelly, S. P., & O'Connell, R. G. (2013). Internal and external influences on the rate of sensory evidence accumulation in the human brain. *Journal of Neuroscience*, 33(50), 19434-19441. ([DOI](https://doi.org/10.1523/jneurosci.3355-13.2013), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24336710/))
 
 ## External links
 

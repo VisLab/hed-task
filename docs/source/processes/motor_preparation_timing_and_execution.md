@@ -22,11 +22,11 @@ Triggering of an action after planning is complete.
 
 **Fundamental references**
 
-- Libet, Gleason, Wright & Pearl (1983) *Brain* 106:623–642 ([DOI](https://doi.org/10.1093/brain/106.3.623))
+- Libet, Gleason, Wright & Pearl (1983) *Brain* 106:623-642 ([DOI](https://doi.org/10.1093/brain/106.3.623))
 
 **Further references**
 
-- Haggard (2008) *Nature Reviews Neuroscience* 9:934–946 ([DOI](https://doi.org/10.1038/nrn2497), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19020512/))
+- Haggard (2008) *Nature Reviews Neuroscience* 9:934-946 ([DOI](https://doi.org/10.1038/nrn2497), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19020512/))
 
 (hed-antisaccade)=
 ## Antisaccade
@@ -41,11 +41,11 @@ Voluntary eye movement away from a peripheral stimulus, requiring inhibition of 
 
 **Fundamental references**
 
-- Hallett (1978) *Vision Research* 18:1279–1296 ([DOI](https://doi.org/10.1016/0042-6989(78)90218-3))
+- Hallett (1978) *Vision Research* 18:1279-1296 ([DOI](https://doi.org/10.1016/0042-6989(78)90218-3))
 
 **Further references**
 
-- Munoz & Everling (2004) *Nature Reviews Neuroscience* 5:218–228 ([DOI](https://doi.org/10.1038/nrn1345), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14976521/))
+- Munoz & Everling (2004) *Nature Reviews Neuroscience* 5:218-228 ([DOI](https://doi.org/10.1038/nrn1345), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14976521/))
 
 (hed-fine-motor-control)=
 ## Fine motor control
@@ -67,7 +67,7 @@ Shaping and closure of the hand around an object.
 
 **Further references**
 
-- Castiello (2005) *Nature Reviews Neuroscience* 6:726–736 ([DOI](https://doi.org/10.1038/nrn1744), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16100518/))
+- Castiello (2005) *Nature Reviews Neuroscience* 6:726-736 ([DOI](https://doi.org/10.1038/nrn1744), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16100518/))
 
 (hed-motor-memory)=
 ## Motor memory
@@ -80,7 +80,7 @@ Long-term retention of motor skills and procedures.
 
 **Fundamental references**
 
-- Karni, Meyer, Rey-Hipolito, Jezzard, Adams, Turner & Ungerleider (1998) *PNAS* 95:861–868 ([DOI](https://doi.org/10.1073/pnas.95.3.861))
+- Karni, Meyer, Rey-Hipolito, Jezzard, Adams, Turner & Ungerleider (1998) *PNAS* 95:861-868 ([DOI](https://doi.org/10.1073/pnas.95.3.861))
 
 (hed-motor-planning)=
 ## Motor planning
@@ -95,7 +95,7 @@ Specification of movement parameters before execution.
 
 **Fundamental references**
 
-- Keele (1968) *Psychological Bulletin* 70:387–403 ([DOI](https://doi.org/10.1037/h0026739))
+- Keele (1968) *Psychological Bulletin* 70:387-403 ([DOI](https://doi.org/10.1037/h0026739))
 
 (hed-motor-preparation)=
 ## Motor preparation
@@ -110,11 +110,11 @@ Neural readiness state preceding movement, indexed by the readiness potential an
 
 **Fundamental references**
 
-- Kornhuber & Deecke (1965) *Pflügers Archiv* 284:1–17 ([DOI](https://doi.org/10.1007/bf00412364), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14341490/))
+- Kornhuber & Deecke (1965) *Pflügers Archiv* 284:1-17 ([DOI](https://doi.org/10.1007/bf00412364), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14341490/))
 
 **Further references**
 
-- Shibasaki & Hallett (2006) *Clinical Neurophysiology* 117:2341–2356 ([DOI](https://doi.org/10.1016/j.clinph.2006.04.025), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16876476/))
+- Shibasaki & Hallett (2006) *Clinical Neurophysiology* 117:2341-2356 ([DOI](https://doi.org/10.1016/j.clinph.2006.04.025), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16876476/))
 
 (hed-motor-sequence-learning)=
 ## Motor sequence learning
@@ -127,11 +127,11 @@ Acquisition of a skilled sequence of movements through repetition.
 
 **Fundamental references**
 
-- Nissen & Bullemer (1987) *Cognitive Psychology* 19:1–32 ([DOI](https://doi.org/10.1016/0010-0285(87)90002-8))
+- Nissen & Bullemer (1987) *Cognitive Psychology* 19:1-32 ([DOI](https://doi.org/10.1016/0010-0285(87)90002-8))
 
 **Further references**
 
-- Doyon, Bellec, Amsel, Penhune, Monchi, Carrier, Lehéricy & Benali (2009) *Behavioural Brain Research* 199:61–75 ([DOI](https://doi.org/10.1016/j.bbr.2008.11.012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19061920/))
+- Doyon, Bellec, Amsel, Penhune, Monchi, Carrier, Lehéricy & Benali (2009) *Behavioural Brain Research* 199:61-75 ([DOI](https://doi.org/10.1016/j.bbr.2008.11.012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19061920/))
 
 (hed-motor-timing)=
 ## Motor timing
@@ -144,11 +144,11 @@ Production or estimation of temporal intervals in motor output.
 
 **Fundamental references**
 
-- Wing & Kristofferson (1973) *Perception & Psychophysics* 14:5–12 ([DOI](https://doi.org/10.3758/bf03198607))
+- Wing & Kristofferson (1973) *Perception & Psychophysics* 14:5-12 ([DOI](https://doi.org/10.3758/bf03198607))
 
 **Further references**
 
-- Merchant, Harrington & Meck (2013) *Annual Review of Neuroscience* 36:313–336 ([DOI](https://doi.org/10.1146/annurev-neuro-062012-170349))
+- Merchant, Harrington & Meck (2013) *Annual Review of Neuroscience* 36:313-336 ([DOI](https://doi.org/10.1146/annurev-neuro-062012-170349))
 
 (hed-proprioception)=
 ## Proprioception
@@ -178,7 +178,7 @@ Goal-directed arm movement toward a spatial target.
 
 **Further references**
 
-- Shadmehr, Smith & Krakauer (2010) *Annual Review of Neuroscience* 33:89–108 ([DOI](https://doi.org/10.1146/annurev-neuro-060909-153135))
+- Shadmehr, Smith & Krakauer (2010) *Annual Review of Neuroscience* 33:89-108 ([DOI](https://doi.org/10.1146/annurev-neuro-060909-153135))
 
 (hed-response-execution)=
 ## Response execution
@@ -212,7 +212,7 @@ Choice of an action from a set of alternatives.
 
 **Further references**
 
-- Cisek & Kalaska (2010) *Annual Review of Neuroscience* 33:269–298 ([DOI](https://doi.org/10.1146/annurev.neuro.051508.135409))
+- Cisek & Kalaska (2010) *Annual Review of Neuroscience* 33:269-298 ([DOI](https://doi.org/10.1146/annurev.neuro.051508.135409))
 
 (hed-saccade)=
 ## Saccade
@@ -231,7 +231,7 @@ Rapid ballistic eye movement between points of fixation.
 
 **Further references**
 
-- Sparks (2002) *Nature Reviews Neuroscience* 3:952–964 ([DOI](https://doi.org/10.1038/nrn986), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12461552/))
+- Sparks (2002) *Nature Reviews Neuroscience* 3:952-964 ([DOI](https://doi.org/10.1038/nrn986), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12461552/))
 
 (hed-visuomotor-adaptation)=
 ## Visuomotor adaptation
@@ -257,9 +257,9 @@ Control of the articulators for speech production and vocalization.
 
 **Fundamental references**
 
-- Guenther (1995) *Psychological Review* 102:594–621 ([DOI](https://doi.org/10.1037/0033-295x.102.3.594))
+- Guenther (1995) *Psychological Review* 102:594-621 ([DOI](https://doi.org/10.1037/0033-295x.102.3.594))
 
 **Further references**
 
-- Hickok (2012) *Nature Reviews Neuroscience* 13:135–145 ([DOI](https://doi.org/10.1038/nrn3158), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22218206/))
+- Hickok (2012) *Nature Reviews Neuroscience* 13:135-145 ([DOI](https://doi.org/10.1038/nrn3158), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22218206/))
 

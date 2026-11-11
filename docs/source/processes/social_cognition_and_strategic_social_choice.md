@@ -22,7 +22,7 @@ Action in conflict with another agent's interests for a contested resource.
 
 **Further references**
 
-- Declerck, Boone & Emonds (2013) *Brain and Cognition* 81:95–117 ([DOI](https://doi.org/10.1016/j.bandc.2012.09.009), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23174433/))
+- Declerck, Boone & Emonds (2013) *Brain and Cognition* 81:95-117 ([DOI](https://doi.org/10.1016/j.bandc.2012.09.009), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23174433/))
 
 (hed-cooperation)=
 ## Cooperation
@@ -35,7 +35,7 @@ Coordinated action among agents for mutual benefit, often at individual cost.
 
 **Further references**
 
-- Rand & Nowak (2013) *Trends in Cognitive Sciences* 17:413–425 ([DOI](https://doi.org/10.1016/j.tics.2013.06.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23856025/))
+- Rand & Nowak (2013) *Trends in Cognitive Sciences* 17:413-425 ([DOI](https://doi.org/10.1016/j.tics.2013.06.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23856025/))
 
 (hed-imitation)=
 ## Imitation
@@ -48,11 +48,11 @@ Reproduction of observed actions or behaviors.
 
 **Fundamental references**
 
-- Meltzoff & Moore (1977) *Science* 198:75–78 ([DOI](https://doi.org/10.1126/science.198.4312.75))
+- Meltzoff & Moore (1977) *Science* 198:75-78 ([DOI](https://doi.org/10.1126/science.198.4312.75))
 
 **Further references**
 
-- Heyes (2011) *Psychological Bulletin* 137:463–483 ([DOI](https://doi.org/10.1037/a0022288))
+- Heyes (2011) *Psychological Bulletin* 137:463-483 ([DOI](https://doi.org/10.1037/a0022288))
 
 (hed-in-group-out-group-processing)=
 ## In-group/out-group processing
@@ -67,7 +67,7 @@ Differential processing of members of one's own group versus other groups.
 
 **Further references**
 
-- Molenberghs (2013) *Neuroscience & Biobehavioral Reviews* 37:1530–1536 ([DOI](https://doi.org/10.1016/j.neubiorev.2013.06.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23769813/))
+- Molenberghs (2013) *Neuroscience & Biobehavioral Reviews* 37:1530-1536 ([DOI](https://doi.org/10.1016/j.neubiorev.2013.06.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23769813/))
 
 (hed-joint-attention)=
 ## Joint attention
@@ -80,11 +80,11 @@ Coordinated focus by two or more agents on the same object or event, involving s
 
 **Fundamental references**
 
-- Bruner (1975) *Journal of Child Language* 2:1–19 ([DOI](https://doi.org/10.1017/s0305000900000866))
+- Bruner (1975) *Journal of Child Language* 2:1-19 ([DOI](https://doi.org/10.1017/s0305000900000866))
 
 **Further references**
 
-- Mundy (2018) *European Journal of Neuroscience* 47:497–514 ([DOI](https://doi.org/10.1111/ejn.13720), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28922520/))
+- Mundy (2018) *European Journal of Neuroscience* 47:497-514 ([DOI](https://doi.org/10.1111/ejn.13720), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28922520/))
 
 (hed-perspective-taking)=
 ## Perspective taking
@@ -99,7 +99,7 @@ Representation of another's viewpoint, visual or cognitive.
 
 **Further references**
 
-- Tamir & Mitchell (2013) *Cerebral Cortex* 23:2375–2382
+- Tamir & Mitchell (2013) *Cerebral Cortex* 23:2375-2382
 
 (hed-reciprocity)=
 ## Reciprocity
@@ -112,7 +112,7 @@ Contingent positive or negative responses to another's prior behavior.
 
 **Further references**
 
-- Fehr & Camerer (2007) *Trends in Cognitive Sciences* 11:419–427 ([DOI](https://doi.org/10.1016/j.tics.2007.09.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17913566/))
+- Fehr & Camerer (2007) *Trends in Cognitive Sciences* 11:419-427 ([DOI](https://doi.org/10.1016/j.tics.2007.09.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17913566/))
 
 (hed-self-other-distinction)=
 ## Self-other distinction
@@ -125,11 +125,11 @@ Discrimination between self-generated and other-generated states or actions.
 
 **Fundamental references**
 
-- Gallagher (2000) *Trends in Cognitive Sciences* 4:14–21 ([DOI](https://doi.org/10.1016/s1364-6613(99)01417-5), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10637618/))
+- Gallagher (2000) *Trends in Cognitive Sciences* 4:14-21 ([DOI](https://doi.org/10.1016/s1364-6613(99)01417-5), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10637618/))
 
 **Further references**
 
-- Decety & Sommerville (2003) *Trends in Cognitive Sciences* 7:527–533 ([DOI](https://doi.org/10.1016/j.tics.2003.10.004), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14643368/))
+- Decety & Sommerville (2003) *Trends in Cognitive Sciences* 7:527-533 ([DOI](https://doi.org/10.1016/j.tics.2003.10.004), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14643368/))
 
 (hed-social-decision-making)=
 ## Social decision making
@@ -142,11 +142,11 @@ Choice involving other agents and their preferences, often in strategic settings
 
 **Fundamental references**
 
-- Sanfey (2007) *Science* 318:598–602 ([DOI](https://doi.org/10.1126/science.1142996))
+- Sanfey (2007) *Science* 318:598-602 ([DOI](https://doi.org/10.1126/science.1142996))
 
 **Further references**
 
-- Ruff & Fehr (2014) *Nature Reviews Neuroscience* 15:549–562 ([DOI](https://doi.org/10.1038/nrn3776), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24986556/))
+- Ruff & Fehr (2014) *Nature Reviews Neuroscience* 15:549-562 ([DOI](https://doi.org/10.1038/nrn3776), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24986556/))
 
 (hed-social-perception)=
 ## Social perception
@@ -159,11 +159,11 @@ Visual perception of socially relevant stimuli, including faces, bodies, and act
 
 **Fundamental references**
 
-- Allison, Puce & McCarthy (2000) *Trends in Cognitive Sciences* 4:267–278 ([DOI](https://doi.org/10.1016/s1364-6613(00)01501-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10859571/))
+- Allison, Puce & McCarthy (2000) *Trends in Cognitive Sciences* 4:267-278 ([DOI](https://doi.org/10.1016/s1364-6613(00)01501-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10859571/))
 
 **Further references**
 
-- Pitcher & Ungerleider (2021) *Trends in Cognitive Sciences* 25:100–110 ([DOI](https://doi.org/10.1016/j.tics.2020.11.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/33334693/))
+- Pitcher & Ungerleider (2021) *Trends in Cognitive Sciences* 25:100-110 ([DOI](https://doi.org/10.1016/j.tics.2020.11.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/33334693/))
 
 (hed-stereotyping)=
 ## Stereotyping
@@ -176,5 +176,5 @@ Attribution of attributes to individuals based on social category membership.
 
 **Further references**
 
-- Amodio (2014) *Nature Reviews Neuroscience* 15:670–682 ([DOI](https://doi.org/10.1038/nrn3800), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25186236/))
+- Amodio (2014) *Nature Reviews Neuroscience* 15:670-682 ([DOI](https://doi.org/10.1038/nrn3800), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25186236/))
 

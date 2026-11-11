@@ -115,9 +115,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Bickel, W. K., Koffarnus, M. N., Moody, L., & Wilson, A. G. (2014). The behavioral- and neuro-economic process of temporal discounting: A candidate behavioral marker of addiction. *Neuropharmacology*, 76, 518–527. ([DOI](https://doi.org/10.1016/j.neuropharm.2013.06.013), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23806805/))
-- Kable, J. W. (2014). Valuation, intertemporal choice, and self-control. In *Neuroeconomics* (2nd ed., pp. 173–192). Academic Press. ([DOI](https://doi.org/10.1016/b978-0-12-416008-8.00010-3))
-- Peters, J., & Büchel, C. (2011). The neural mechanisms of inter-temporal decision-making: Understanding variability. *Trends in Cognitive Sciences*, 15(5), 227–239. ([DOI](https://doi.org/10.1016/j.tics.2011.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21497544/))
+- Bickel, W. K., Koffarnus, M. N., Moody, L., & Wilson, A. G. (2014). The behavioral- and neuro-economic process of temporal discounting: A candidate behavioral marker of addiction. *Neuropharmacology*, 76, 518-527. ([DOI](https://doi.org/10.1016/j.neuropharm.2013.06.013), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23806805/))
+- Kable, J. W. (2014). Valuation, intertemporal choice, and self-control. In *Neuroeconomics* (2nd ed., pp. 173-192). Academic Press. ([DOI](https://doi.org/10.1016/b978-0-12-416008-8.00010-3))
+- Peters, J., & Büchel, C. (2011). The neural mechanisms of inter-temporal decision-making: Understanding variability. *Trends in Cognitive Sciences*, 15(5), 227-239. ([DOI](https://doi.org/10.1016/j.tics.2011.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21497544/))
 
 ## External links
 

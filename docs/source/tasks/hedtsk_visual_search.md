@@ -32,7 +32,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Target prevalence
     - Display duration
 * - **Measurements**
-  - - RT × set size slope (search efficiency)
+  - - RT x set size slope (search efficiency)
     - Intercept
     - Accuracy
     - Miss rate at low target prevalence
@@ -124,9 +124,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Wolfe, J. M. (2021). Guided Search 6.0: An updated model of visual search. *Psychonomic Bulletin & Review*, 28, 1060–1092. ([DOI](https://doi.org/10.3758/s13423-020-01859-9), [PubMed](https://pubmed.ncbi.nlm.nih.gov/33547630/))
+- Wolfe, J. M. (2021). Guided Search 6.0: An updated model of visual search. *Psychonomic Bulletin & Review*, 28, 1060-1092. ([DOI](https://doi.org/10.3758/s13423-020-01859-9), [PubMed](https://pubmed.ncbi.nlm.nih.gov/33547630/))
 - Eckstein, M. P. (2011). Visual search: A retrospective. *Journal of Vision*, 11(5), 14. ([DOI](https://doi.org/10.1167/11.5.14), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22209816/))
-- Luck, S. J., & Ford, M. A. (1998). On the role of selective attention in visual perception. *Proceedings of the National Academy of Sciences*, 95(3), 825–830. [Updated by: Liesefeld, H. R., & Müller, H. J. (2019). Distractor handling via dimension weighting. *Current Opinion in Psychology*, 29, 160–167.] ([DOI](https://doi.org/10.1073/pnas.95.3.825), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9448247/))
+- Luck, S. J., & Ford, M. A. (1998). On the role of selective attention in visual perception. *Proceedings of the National Academy of Sciences*, 95(3), 825-830. [Updated by: Liesefeld, H. R., & Müller, H. J. (2019). Distractor handling via dimension weighting. *Current Opinion in Psychology*, 29, 160-167.] ([DOI](https://doi.org/10.1073/pnas.95.3.825), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9448247/))
 - Wolfe, J. M., & Horowitz, T. S. (2017). Five factors that guide attention in visual search. *Nature Human Behaviour*, 1, 0058. ([DOI](https://doi.org/10.1038/s41562-017-0058), [PubMed](https://pubmed.ncbi.nlm.nih.gov/36711068/))
 
 ## External links

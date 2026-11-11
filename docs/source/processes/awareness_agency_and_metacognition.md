@@ -22,7 +22,7 @@ Awareness of the current focus and content of attention.
 
 **Fundamental references**
 
-- Koch & Tsuchiya (2007) *Trends in Cognitive Sciences* 11:16–22 ([DOI](https://doi.org/10.1016/j.tics.2006.10.012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17129748/))
+- Koch & Tsuchiya (2007) *Trends in Cognitive Sciences* 11:16-22 ([DOI](https://doi.org/10.1016/j.tics.2006.10.012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17129748/))
 
 (hed-body-ownership)=
 ## Body ownership
@@ -84,7 +84,7 @@ Prediction of future memory performance made during or after encoding.
 
 **Fundamental references**
 
-- Arbuckle & Cuddy (1969) *Journal of Verbal Learning and Verbal Behavior* 8:126–131
+- Arbuckle & Cuddy (1969) *Journal of Verbal Learning and Verbal Behavior* 8:126-131
 
 (hed-masking)=
 ## Masking
@@ -98,7 +98,7 @@ Reduction in visibility or detectability of a target stimulus by a temporally or
 **Fundamental references**
 
 - Breitmeyer (1984) *Visual Masking: An Integrative Approach* Clarendon Press
-- Enns & Di Lollo (2000) *Trends in Cognitive Sciences* 4:345–352 ([DOI](https://doi.org/10.1016/s1364-6613(00)01520-5), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10962616/))
+- Enns & Di Lollo (2000) *Trends in Cognitive Sciences* 4:345-352 ([DOI](https://doi.org/10.1016/s1364-6613(00)01520-5), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10962616/))
 
 (hed-metacognitive-control)=
 ## Metacognitive control
@@ -151,11 +151,11 @@ Task-unrelated thought that arises during an ongoing task.
 
 **Fundamental references**
 
-- Smallwood & Schooler (2006) *Psychological Bulletin* 132:946–958 ([DOI](https://doi.org/10.1037/0033-2909.132.6.946))
+- Smallwood & Schooler (2006) *Psychological Bulletin* 132:946-958 ([DOI](https://doi.org/10.1037/0033-2909.132.6.946))
 
 **Further references**
 
-- Christoff, Irving, Fox, Spreng & Andrews-Hanna (2016) *Nature Reviews Neuroscience* 17:718–731 ([DOI](https://doi.org/10.1038/nrn.2016.113), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27654862/))
+- Christoff, Irving, Fox, Spreng & Andrews-Hanna (2016) *Nature Reviews Neuroscience* 17:718-731 ([DOI](https://doi.org/10.1038/nrn.2016.113), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27654862/))
 
 (hed-perceptual-awareness)=
 ## Perceptual awareness
@@ -171,7 +171,7 @@ Conscious access to perceptual content.
 **Fundamental references**
 
 - Baars (1988) *A Cognitive Theory of Consciousness* Cambridge University Press
-- Dehaene, Changeux, Naccache, Sackur & Sergent (2006) *Trends in Cognitive Sciences* 10:204–211 ([DOI](https://doi.org/10.1016/j.tics.2006.03.007))
+- Dehaene, Changeux, Naccache, Sackur & Sergent (2006) *Trends in Cognitive Sciences* 10:204-211 ([DOI](https://doi.org/10.1016/j.tics.2006.03.007))
 
 **Further references**
 

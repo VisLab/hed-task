@@ -189,6 +189,43 @@ def read_tsv(path: Path) -> dict[str, dict]:
         return {row[key_field]: row for row in reader if row.get(key_field)}
 
 
+# Atlas names whose ASCII form is chosen by hand rather than by the rules in to_ascii().
+ASCII_OVERRIDES = {
+    "Angling Risk Task \u2013 Always Sunny": "Angling Risk Task (Always Sunny)",
+}
+
+
+def to_ascii(value: str) -> str:
+    """Return an Atlas text as ASCII, as every table in data/ must be.
+
+    The Atlas returns some names with an en dash, a curly apostrophe, or the three
+    characters left by a double-encoded apostrophe ("Penn" + U+00E2 U+0080 U+0099 + "s").
+    Exits if a character remains that no rule covers, so a new one is seen, not copied.
+
+    Parameters:
+        value: The text as the Atlas archive holds it.
+
+    Returns:
+        The text with only ASCII characters.
+    """
+    if value in ASCII_OVERRIDES:
+        return ASCII_OVERRIDES[value]
+    if re.search("[\u00c2-\u00f4][\u0080-\u00bf]", value):
+        try:
+            value = value.encode("latin-1").decode("utf-8")  # undo a double encoding
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            pass
+    value = re.sub("[\u2010-\u2015\u2212]", "-", value)
+    value = re.sub("[\u2018\u2019]", "'", value)
+    value = re.sub("[\u201c\u201d]", '"', value)
+    value = re.sub("[\u00a0\u2002-\u200a]", " ", value)
+    leftover = sorted({c for c in value if ord(c) > 127})
+    if leftover:
+        chars = ", ".join(f"U+{ord(c):04X}" for c in leftover)
+        raise SystemExit(f"to_ascii: no rule for {chars} in {value!r}; add one or an ASCII_OVERRIDES entry")
+    return value
+
+
 def write_tsv(path: Path, fieldnames: list[str], rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
@@ -196,7 +233,7 @@ def write_tsv(path: Path, fieldnames: list[str], rows: list[dict]) -> None:
         writer.writeheader()
         for row in rows:
             for field in fieldnames:
-                value = str(row.get(field, "") or "")
+                value = to_ascii(str(row.get(field, "") or ""))
                 if "\t" in value or "\n" in value or "\r" in value:
                     raise SystemExit(f"{path.name}: field {field!r} contains a tab or newline: {value!r}")
                 row[field] = value

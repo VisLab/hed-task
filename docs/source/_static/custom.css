@@ -148,7 +148,7 @@ body[data-theme="dark"] .sidebar-quicklinks {
 
 /* External link icon for quick links */
 .sidebar-quicklinks a[target="_blank"]::after {
-    content: " ↗";
+    content: " \2197";
     font-size: 0.7em;
     opacity: 0.6;
 }

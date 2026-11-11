@@ -26,7 +26,7 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. Three pegs hold colored discs in a start configuration.
     2. Participants move discs one at a time to reach a goal configuration in the minimum number of moves.
 * - **Manipulations**
-  - - Problem difficulty (minimum moves: 2–7)
+  - - Problem difficulty (minimum moves: 2-7)
     - Number of discs
     - Time constraints
     - One-touch (planning only) vs. execution versions
@@ -59,12 +59,12 @@ of a variation is `hedvar_<task>__<variation>`.
     `hedvar_tower_of_london__tower_of_hanoi`
   - A related puzzle with disks of different sizes on three pegs. All disks must be moved to another peg, one at a time, without ever placing a larger disk on a smaller one. More moves are needed and the rule about sizes must be kept in mind.
   - Different rule structure (disk size constraint); distinct classic puzzle
-* - Tower of London – Drexel (TOL-DX)
+* - Tower of London - Drexel (TOL-DX)
 
     `hedvar_tower_of_london__tower_of_london_drexel_tol_dx`
   - A standardized clinical version with ten problems of increasing difficulty, fixed administration rules, and norms for scoring the number of moves, planning time and rule violations.
   - Standardized 10-item version with normative data; published clinical instrument
-* - Tower of London – Freiburg (TOL-F)
+* - Tower of London - Freiburg (TOL-F)
 
     `hedvar_tower_of_london__tower_of_london_freiburg_tol_f`
   - A computerized version whose problems are selected to control features that affect difficulty, such as the number of moves and whether intermediate steps are obvious, for research use.
@@ -73,7 +73,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_tower_of_london__computerized_vs_physical_versions`
   - The balls and pegs are shown on a screen and moved by dragging or clicking, rather than being real objects picked up by hand. Move times are recorded precisely but no physical handling is involved.
-  - Per §5.6: grasping 3D beads vs. drag-and-drop changes motor activity
+  - Per section 5.6: grasping 3D beads vs. drag-and-drop changes motor activity
 * - Tower with Time Pressure
 
     `hedvar_tower_of_london__tower_with_time_pressure`
@@ -99,10 +99,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Kaller, C. P., Rahm, B., Spreer, J., Weiller, C., & Unterrainer, J. M. (2011). Dissociable contributions of left and right dorsolateral prefrontal cortex in planning. *Cerebral Cortex*, 21(2), 307–317. ([DOI](https://doi.org/10.1093/cercor/bhq096))
-- Andrés, P. (2003). Frontal cortex as the central executive of working memory: Time to revise our view. *Cortex*, 39(4-5), 871–895. [Updated context: Newman, L. M., et al. (2021). Planning and tower tasks: A systematic review and meta-analysis of structural neuroimaging. *NeuroImage: Clinical*, 30, 102662.] ([DOI](https://doi.org/10.1016/s0010-9452(08)70868-2))
-- Köstering, L., Nitschke, K., Schumacher, F. K., et al. (2015). Assessment of planning performance in clinical samples: Reliability and validity of the Tower of London task (TOL-F). *Neuropsychologia*, 75, 646–655. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2015.07.017), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26197091/))
-- Unterrainer, J. M., Rahm, B., Kaller, C. P., et al. (2004). Planning abilities and the Tower of London: Is this task measuring a discrete cognitive function? *Journal of Clinical and Experimental Neuropsychology*, 26(6), 846–856. [Updated: Ward, G., & Morris, R. (2005). Introduction to the psychology of planning. In *The Cognitive Psychology of Planning* (pp. 1–34). Psychology Press.] ([DOI](https://doi.org/10.1080/13803390490509574), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15370380/))
+- Kaller, C. P., Rahm, B., Spreer, J., Weiller, C., & Unterrainer, J. M. (2011). Dissociable contributions of left and right dorsolateral prefrontal cortex in planning. *Cerebral Cortex*, 21(2), 307-317. ([DOI](https://doi.org/10.1093/cercor/bhq096))
+- Andrés, P. (2003). Frontal cortex as the central executive of working memory: Time to revise our view. *Cortex*, 39(4-5), 871-895. [Updated context: Newman, L. M., et al. (2021). Planning and tower tasks: A systematic review and meta-analysis of structural neuroimaging. *NeuroImage: Clinical*, 30, 102662.] ([DOI](https://doi.org/10.1016/s0010-9452(08)70868-2))
+- Köstering, L., Nitschke, K., Schumacher, F. K., et al. (2015). Assessment of planning performance in clinical samples: Reliability and validity of the Tower of London task (TOL-F). *Neuropsychologia*, 75, 646-655. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2015.07.017), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26197091/))
+- Unterrainer, J. M., Rahm, B., Kaller, C. P., et al. (2004). Planning abilities and the Tower of London: Is this task measuring a discrete cognitive function? *Journal of Clinical and Experimental Neuropsychology*, 26(6), 846-856. [Updated: Ward, G., & Morris, R. (2005). Introduction to the psychology of planning. In *The Cognitive Psychology of Planning* (pp. 1-34). Psychology Press.] ([DOI](https://doi.org/10.1080/13803390490509574), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15370380/))
 
 ## External links
 

@@ -33,7 +33,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Deck position
     - Variant payoff structures
 * - **Measurements**
-  - - Net score (advantageous − disadvantageous deck selections)
+  - - Net score (advantageous - disadvantageous deck selections)
     - Learning curve across blocks
     - Anticipatory SCR before deck selection
 ```
@@ -64,8 +64,8 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_iowa_gambling__child_versions`
   - Versions such as the Hungry Donkey Task and the Children's Gambling Task, in which a cartoon character collects apples or candies from doors or decks with the same good and bad payoff structure, with fewer trials and simpler feedback.
-  - Simplified decks and stimuli for children; procedure adapted per §5.3
-* - Extended IGT (150–200 trials)
+  - Simplified decks and stimuli for children; procedure adapted per section 5.3
+* - Extended IGT (150-200 trials)
 
     `hedvar_iowa_gambling__extended_igt_150_200_trials`
   - The same four decks played for 150 to 200 draws instead of 100, to see whether deck preferences continue to change once the usual task would have ended.
@@ -101,10 +101,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Steingroever, H., Wetzels, R., Horstmann, A., Neumann, J., & Wagenmakers, E. J. (2013). Performance of healthy participants on the Iowa Gambling Task. *Psychological Assessment*, 25(1), 180–193. ([DOI](https://doi.org/10.1037/a0029929), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22984804/))
-- Haines, N., Vassileva, J., & Ahn, W. Y. (2018). The Outcome-Representation Learning Model: A novel reinforcement learning model of the Iowa Gambling Task. *Cognitive Science*, 42(Suppl 3), 1098–1122. ([DOI](https://doi.org/10.1111/cogs.12688), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30289167/))
-- Buelow, M. T., & Suhr, J. A. (2009). Construct validity of the Iowa Gambling Task. *Neuropsychology Review*, 19(1), 102–114. ([DOI](https://doi.org/10.1007/s11065-009-9083-4), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19194801/))
-- Ahn, W. Y., Busemeyer, J. R., Wagenmakers, E. J., & Stout, J. C. (2008). Comparison of decision learning models using the generalization criterion method. *Cognitive Science*, 32(8), 1376–1402. ([DOI](https://doi.org/10.1080/03640210802352992), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21585458/))
+- Steingroever, H., Wetzels, R., Horstmann, A., Neumann, J., & Wagenmakers, E. J. (2013). Performance of healthy participants on the Iowa Gambling Task. *Psychological Assessment*, 25(1), 180-193. ([DOI](https://doi.org/10.1037/a0029929), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22984804/))
+- Haines, N., Vassileva, J., & Ahn, W. Y. (2018). The Outcome-Representation Learning Model: A novel reinforcement learning model of the Iowa Gambling Task. *Cognitive Science*, 42(Suppl 3), 1098-1122. ([DOI](https://doi.org/10.1111/cogs.12688), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30289167/))
+- Buelow, M. T., & Suhr, J. A. (2009). Construct validity of the Iowa Gambling Task. *Neuropsychology Review*, 19(1), 102-114. ([DOI](https://doi.org/10.1007/s11065-009-9083-4), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19194801/))
+- Ahn, W. Y., Busemeyer, J. R., Wagenmakers, E. J., & Stout, J. C. (2008). Comparison of decision learning models using the generalization criterion method. *Cognitive Science*, 32(8), 1376-1402. ([DOI](https://doi.org/10.1080/03640210802352992), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21585458/))
 - Decision-making and performance in the Iowa Gambling Task: recent ERP findings and clinical implications. (2025). *Frontiers in Psychology*, 16, 1492471. doi:10.3389/fpsyg.2025.1492471 ([DOI](https://doi.org/10.3389/fpsyg.2025.1492471), [PubMed](https://pubmed.ncbi.nlm.nih.gov/40177039/))
 
 ## External links

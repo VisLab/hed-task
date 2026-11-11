@@ -26,7 +26,7 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. Two figures (3-D block shapes, letters, or hands) are presented at different orientations.
     2. Participants judge whether they are the same or mirror-reversed.
 * - **Manipulations**
-  - - Angular disparity between the two figures (0°–180°)
+  - - Angular disparity between the two figures (0-180 degrees)
     - Stimulus complexity
     - Dimensionality (2D vs. 3D)
 * - **Measurements**

@@ -52,7 +52,7 @@ of a variation is `hedvar_<task>__<variation>`.
     `hedvar_reading_the_mind_in_the_eyes__rmet_revised_36_items`
   - Thirty-six black-and-white photographs of just the eye region of a face are shown one at a time, each with four mental-state words (such as 'nervous', 'playful', 'hostile', 'reflective'). The participant picks the word that best describes what the person is thinking or feeling. A glossary of the words is available.
   - Canonical Baron-Cohen RMET with 36-item set
-* - RMET Short Form (15–18 items)
+* - RMET Short Form (15-18 items)
 
     `hedvar_reading_the_mind_in_the_eyes__rmet_short_form_15_18_items`
   - A subset of 15 to 18 of the items selected to give a score that correlates well with the full version in about half the time.
@@ -61,7 +61,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_reading_the_mind_in_the_eyes__rmet_child_version`
   - A 28-item version for children in which the word choices are simpler (such as 'kind', 'cross', 'bored') and the photographs are chosen to suit a younger audience.
-  - Simplified vocabulary and reduced items for children; adapted per §5.3
+  - Simplified vocabulary and reduced items for children; adapted per section 5.3
 * - Dynamic Eyes Task
 
     `hedvar_reading_the_mind_in_the_eyes__dynamic_eyes`
@@ -92,8 +92,8 @@ This task is designed to engage the following processes:
 ## Further references
 
 - Olderbak, S., Wilhelm, O., Olaru, G., et al. (2015). A psychometric analysis of the Reading the Mind in the Eyes test: Toward a brief form. *Frontiers in Psychology*, 6, 1503. ([DOI](https://doi.org/10.3389/fpsyg.2015.01503), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26500578/))
-- Warrier, V., Grasby, K. L., Uzefovsky, F., et al. (2018). Genome-wide meta-analysis of cognitive empathy: Heritability and correlates with sex, neuropsychiatric conditions and cognition. *Molecular Psychiatry*, 23(6), 1402–1409. ([DOI](https://doi.org/10.1038/mp.2017.122))
-- Vellante, M., Baron-Cohen, S., Melis, M., et al. (2013). The "Reading the Mind in the Eyes" test: Systematic review of psychometric properties and a validation study in Italy. *Cognitive Neuropsychiatry*, 18(4), 326–354. ([DOI](https://doi.org/10.1080/13546805.2012.721728), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23106125/))
+- Warrier, V., Grasby, K. L., Uzefovsky, F., et al. (2018). Genome-wide meta-analysis of cognitive empathy: Heritability and correlates with sex, neuropsychiatric conditions and cognition. *Molecular Psychiatry*, 23(6), 1402-1409. ([DOI](https://doi.org/10.1038/mp.2017.122))
+- Vellante, M., Baron-Cohen, S., Melis, M., et al. (2013). The "Reading the Mind in the Eyes" test: Systematic review of psychometric properties and a validation study in Italy. *Cognitive Neuropsychiatry*, 18(4), 326-354. ([DOI](https://doi.org/10.1080/13546805.2012.721728), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23106125/))
 
 ## External links
 

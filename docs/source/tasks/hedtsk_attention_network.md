@@ -70,12 +70,12 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_attention_network__child_ant`
   - Arrows are replaced by a row of cartoon fish, and the child presses a key for the direction the middle fish is swimming. Trials are slower, there is feedback, and the task is framed as feeding the fish.
-  - Fish stimuli, simplified flanker; procedure genuinely adapted for children per §5.3
+  - Fish stimuli, simplified flanker; procedure genuinely adapted for children per section 5.3
 * - ANT with Emotional Stimuli
 
     `hedvar_attention_network__ant_with_emotional_stimuli`
   - Emotional pictures or faces are used as cues, or emotional images replace the neutral flankers, so the participant must report the central target while emotional content competes for attention.
-  - Emotional flanker content; retained per §5.1 (EMOT retired)
+  - Emotional flanker content; retained per section 5.1 (EMOT retired)
 ```
 
 ## Cognitive processes
@@ -97,9 +97,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- MacLeod, J. W., Lawrence, M. A., McConnell, M. M., Eskes, G. A., Klein, R. M., & Shore, D. I. (2010). Appraising the ANT: Psychometric and theoretical considerations of the Attention Network Test. *Neuropsychology*, 24(5), 637–651. ([DOI](https://doi.org/10.1037/a0019803), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20804252/))
+- MacLeod, J. W., Lawrence, M. A., McConnell, M. M., Eskes, G. A., Klein, R. M., & Shore, D. I. (2010). Appraising the ANT: Psychometric and theoretical considerations of the Attention Network Test. *Neuropsychology*, 24(5), 637-651. ([DOI](https://doi.org/10.1037/a0019803), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20804252/))
 - Arora, S., Lawrence, M. A., & Klein, R. M. (2020). The Attention Network Test database: ADHD and cross-cultural applications. *Frontiers in Psychology*, 11, 388. ([DOI](https://doi.org/10.3389/fpsyg.2020.00388), [PubMed](https://pubmed.ncbi.nlm.nih.gov/32292363/))
-- Ishigami, Y., & Klein, R. M. (2010). Repeated measurement of the components of attention using two versions of the Attention Network Test (ANT): Stability, isolability, robustness, and reliability. *Journal of Neuroscience Methods*, 190(1), 117–128. ([DOI](https://doi.org/10.1016/j.jneumeth.2010.04.019), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20435062/))
+- Ishigami, Y., & Klein, R. M. (2010). Repeated measurement of the components of attention using two versions of the Attention Network Test (ANT): Stability, isolability, robustness, and reliability. *Journal of Neuroscience Methods*, 190(1), 117-128. ([DOI](https://doi.org/10.1016/j.jneumeth.2010.04.019), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20435062/))
 
 ## External links
 

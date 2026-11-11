@@ -95,9 +95,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Phaf, R. H., & Kan, K. J. (2007). The automaticity of emotional Stroop: A meta-analysis. *Journal of Behavior Therapy and Experimental Psychiatry*, 38(2), 184–199. ([DOI](https://doi.org/10.1016/j.jbtep.2006.10.008), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17112461/))
-- Cisler, J. M., & Koster, E. H. (2010). Mechanisms of attentional biases toward threat in anxiety disorders. *Clinical Psychology Review*, 30(2), 203–216. ([DOI](https://doi.org/10.1016/j.cpr.2009.11.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20005616/))
-- Algom, D., Chajut, E., & Lev, S. (2004). A rational look at the emotional Stroop phenomenon: A generic slowdown, not a Stroop effect. *Journal of Experimental Psychology: General*, 133(3), 323–338. [Updated: Dalgleish, T. (2005). Putting some feeling into it—the conceptual and empirical relationships between the classic and emotional Stroop tasks: Comment on Algom et al. *Journal of Experimental Psychology: General*, 134(4), 585–591.] ([DOI](https://doi.org/10.1037/0096-3445.133.3.323), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15355142/))
+- Phaf, R. H., & Kan, K. J. (2007). The automaticity of emotional Stroop: A meta-analysis. *Journal of Behavior Therapy and Experimental Psychiatry*, 38(2), 184-199. ([DOI](https://doi.org/10.1016/j.jbtep.2006.10.008), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17112461/))
+- Cisler, J. M., & Koster, E. H. (2010). Mechanisms of attentional biases toward threat in anxiety disorders. *Clinical Psychology Review*, 30(2), 203-216. ([DOI](https://doi.org/10.1016/j.cpr.2009.11.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20005616/))
+- Algom, D., Chajut, E., & Lev, S. (2004). A rational look at the emotional Stroop phenomenon: A generic slowdown, not a Stroop effect. *Journal of Experimental Psychology: General*, 133(3), 323-338. [Updated: Dalgleish, T. (2005). Putting some feeling into it - the conceptual and empirical relationships between the classic and emotional Stroop tasks: Comment on Algom et al. *Journal of Experimental Psychology: General*, 134(4), 585-591.] ([DOI](https://doi.org/10.1037/0096-3445.133.3.323), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15355142/))
 
 ## External links
 

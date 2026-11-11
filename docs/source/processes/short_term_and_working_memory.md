@@ -6,7 +6,7 @@
 **Out of scope:** Working memory **load** (task parameter, not process); working memory **capacity** (individual difference); long-term memory; bare "maintenance" (the canonical row is `hed_active_maintenance`).
 
 :::{note}
-**Open issues:** Working-memory SPLIT (umbrella item 3 from the earlier decisions log) still pending — whether `hed_working_memory` should be retained as an umbrella alongside the component rows, or whether pages should link only to the components.
+**Open issues:** Working-memory SPLIT (umbrella item 3 from the earlier decisions log) still pending - whether `hed_working_memory` should be retained as an umbrella alongside the component rows, or whether pages should link only to the components.
 :::
 
 This category contains 9 processes.
@@ -22,12 +22,12 @@ Holding information active over a delay without manipulation, through volitional
 
 **Fundamental references**
 
-- Goldman-Rakic (1995) *Neuron* 14:477–485 ([DOI](https://doi.org/10.1016/0896-6273(95)90304-6), [PubMed](https://pubmed.ncbi.nlm.nih.gov/7695894/))
-- Cohen, Perlstein, Braver, Nystrom, Noll, Jonides & Smith (1997) *Nature* 386:604–608 ([DOI](https://doi.org/10.1038/386604a0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9121583/))
+- Goldman-Rakic (1995) *Neuron* 14:477-485 ([DOI](https://doi.org/10.1016/0896-6273(95)90304-6), [PubMed](https://pubmed.ncbi.nlm.nih.gov/7695894/))
+- Cohen, Perlstein, Braver, Nystrom, Noll, Jonides & Smith (1997) *Nature* 386:604-608 ([DOI](https://doi.org/10.1038/386604a0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9121583/))
 
 **Further references**
 
-- D'Esposito & Postle (2015) *Annual Review of Psychology* 66:115–142 ([DOI](https://doi.org/10.1146/annurev-psych-010814-015031))
+- D'Esposito & Postle (2015) *Annual Review of Psychology* 66:115-142 ([DOI](https://doi.org/10.1146/annurev-psych-010814-015031))
 
 (hed-chunking)=
 ## Chunking
@@ -40,11 +40,11 @@ Binding of multiple items into a single unit in memory to expand effective capac
 
 **Fundamental references**
 
-- Miller (1956) *Psychological Review* 63:81–97 ([DOI](https://doi.org/10.1037/h0043158))
+- Miller (1956) *Psychological Review* 63:81-97 ([DOI](https://doi.org/10.1037/h0043158))
 
 **Further references**
 
-- Thalmann, Souza & Oberauer (2019) *JEP: Learning, Memory, and Cognition* 45:37–55 ([DOI](https://doi.org/10.1037/xlm0000578))
+- Thalmann, Souza & Oberauer (2019) *JEP: Learning, Memory, and Cognition* 45:37-55 ([DOI](https://doi.org/10.1037/xlm0000578))
 
 (hed-manipulation)=
 ## Manipulation
@@ -57,11 +57,11 @@ Transformation of information held in working memory (reordering, reversing, com
 
 **Fundamental references**
 
-- D'Esposito, Postle, Ballard & Lease (1999) *Brain and Cognition* 41:66–86 ([DOI](https://doi.org/10.1006/brcg.1999.1096), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10536086/))
+- D'Esposito, Postle, Ballard & Lease (1999) *Brain and Cognition* 41:66-86 ([DOI](https://doi.org/10.1006/brcg.1999.1096), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10536086/))
 
 **Further references**
 
-- Nee, Brown, Askren, Berman, Demiralp, Krawitz & Jonides (2013) *Cerebral Cortex* 23:264–282 ([DOI](https://doi.org/10.1093/cercor/bhs007))
+- Nee, Brown, Askren, Berman, Demiralp, Krawitz & Jonides (2013) *Cerebral Cortex* 23:264-282 ([DOI](https://doi.org/10.1093/cercor/bhs007))
 
 (hed-rehearsal)=
 ## Rehearsal
@@ -74,11 +74,11 @@ Covert repetition of material to refresh its representation in short-term memory
 
 **Fundamental references**
 
-- Baddeley, Thomson & Buchanan (1975) *Journal of Verbal Learning and Verbal Behavior* 14:575–589 ([DOI](https://doi.org/10.1016/s0022-5371(75)80045-4))
+- Baddeley, Thomson & Buchanan (1975) *Journal of Verbal Learning and Verbal Behavior* 14:575-589 ([DOI](https://doi.org/10.1016/s0022-5371(75)80045-4))
 
 **Further references**
 
-- Camos, Lagner & Barrouillet (2009) *Journal of Memory and Language* 61:457–469 ([DOI](https://doi.org/10.1016/j.jml.2009.06.002))
+- Camos, Lagner & Barrouillet (2009) *Journal of Memory and Language* 61:457-469 ([DOI](https://doi.org/10.1016/j.jml.2009.06.002))
 
 (hed-spatial-working-memory)=
 ## Spatial working memory
@@ -91,11 +91,11 @@ Short-term storage of spatial locations and spatial relations.
 
 **Fundamental references**
 
-- Smith & Jonides (1997) *Cognitive Psychology* 33:5–42 ([DOI](https://doi.org/10.1006/cogp.1997.0658), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9212720/))
+- Smith & Jonides (1997) *Cognitive Psychology* 33:5-42 ([DOI](https://doi.org/10.1006/cogp.1997.0658), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9212720/))
 
 **Further references**
 
-- Zimmermann & Eschen (2021) *Current Opinion in Psychology* 38:84–89
+- Zimmermann & Eschen (2021) *Current Opinion in Psychology* 38:84-89
 
 (hed-verbal-working-memory)=
 ## Verbal working memory
@@ -111,28 +111,28 @@ Short-term storage of phonological/verbal information, historically "phonologica
 **Fundamental references**
 
 - Baddeley (1986) *Working Memory*
-- Paulesu, Frith & Frackowiak (1993) *Nature* 362:342–345 ([DOI](https://doi.org/10.1038/362342a0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8455719/))
+- Paulesu, Frith & Frackowiak (1993) *Nature* 362:342-345 ([DOI](https://doi.org/10.1038/362342a0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/8455719/))
 
 **Further references**
 
-- Acheson, Hamidi, Binder & Postle (2011) *Journal of Cognitive Neuroscience* 23:1358–1367 ([DOI](https://doi.org/10.1162/jocn.2010.21519))
+- Acheson, Hamidi, Binder & Postle (2011) *Journal of Cognitive Neuroscience* 23:1358-1367 ([DOI](https://doi.org/10.1162/jocn.2010.21519))
 
 (hed-visual-working-memory)=
 ## Visual working memory
 
 **Process ID:** `hed_visual_working_memory`
 
-Short-term storage and manipulation of visual information; capacity limited to ~3–4 items.
+Short-term storage and manipulation of visual information; capacity limited to ~3-4 items.
 
 **Tasks that engage this process:** [Change Detection Task](../tasks/hedtsk_change_detection.md), [Delayed Match-to-Sample Task](../tasks/hedtsk_delayed_match_to_sample.md), [Multiple Object Tracking Task](../tasks/hedtsk_multiple_object_tracking.md)
 
 **Fundamental references**
 
-- Luck & Vogel (1997) *Nature* 390:279–281 ([DOI](https://doi.org/10.1038/36846), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9384378/))
+- Luck & Vogel (1997) *Nature* 390:279-281 ([DOI](https://doi.org/10.1038/36846), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9384378/))
 
 **Further references**
 
-- Ma, Husain & Bays (2014) *Nature Neuroscience* 17:347–356 ([DOI](https://doi.org/10.1038/nn.3655), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24569831/))
+- Ma, Husain & Bays (2014) *Nature Neuroscience* 17:347-356 ([DOI](https://doi.org/10.1038/nn.3655), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24569831/))
 
 (hed-working-memory)=
 ## Working memory
@@ -146,11 +146,11 @@ System for the short-term maintenance, updating, and manipulation of task-releva
 **Fundamental references**
 
 - Baddeley & Hitch (1974) in *Psychology of Learning and Motivation* ([DOI](https://doi.org/10.1016/s0079-7421(08)60452-1))
-- Baddeley (2003) *Nature Reviews Neuroscience* 4:829–839 ([DOI](https://doi.org/10.1038/nrn1201), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14523382/))
+- Baddeley (2003) *Nature Reviews Neuroscience* 4:829-839 ([DOI](https://doi.org/10.1038/nrn1201), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14523382/))
 
 **Further references**
 
-- Oberauer, Lewandowsky, Awh, Brown, Conway et al. (2018) *Psychological Bulletin* 144:885–958 ([DOI](https://doi.org/10.1037/bul0000153))
+- Oberauer, Lewandowsky, Awh, Brown, Conway et al. (2018) *Psychological Bulletin* 144:885-958 ([DOI](https://doi.org/10.1037/bul0000153))
 
 (hed-working-memory-updating)=
 ## Working memory updating
@@ -165,11 +165,11 @@ Replacement or revision of information currently held active in working memory w
 
 **Fundamental references**
 
-- Miyake, Friedman, Emerson, Witzki, Howerter & Wager (2000) *Cognitive Psychology* 41:49–100 ([DOI](https://doi.org/10.1006/cogp.1999.0734), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10945922/))
+- Miyake, Friedman, Emerson, Witzki, Howerter & Wager (2000) *Cognitive Psychology* 41:49-100 ([DOI](https://doi.org/10.1006/cogp.1999.0734), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10945922/))
 
 **Further references**
 
-- Ecker, Lewandowsky, Oberauer & Chee (2010) *Journal of Experimental Psychology: Learning, Memory, and Cognition* 36:170–189 ([DOI](https://doi.org/10.1037/a0017891))
-- Frank, Loughry & O'Reilly (2001) *Cognitive, Affective, & Behavioral Neuroscience* 1:137–160 ([DOI](https://doi.org/10.3758/cabn.1.2.137), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12467110/))
-- Wahlheim & Zacks (2025) *Trends in Cognitive Sciences* 29(4):380–392 — situates working-memory updating within the broader event-segmentation account of memory updating at event boundaries ([DOI](https://doi.org/10.1016/j.tics.2024.11.008), [PubMed](https://pubmed.ncbi.nlm.nih.gov/39668061/))
+- Ecker, Lewandowsky, Oberauer & Chee (2010) *Journal of Experimental Psychology: Learning, Memory, and Cognition* 36:170-189 ([DOI](https://doi.org/10.1037/a0017891))
+- Frank, Loughry & O'Reilly (2001) *Cognitive, Affective, & Behavioral Neuroscience* 1:137-160 ([DOI](https://doi.org/10.3758/cabn.1.2.137), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12467110/))
+- Wahlheim & Zacks (2025) *Trends in Cognitive Sciences* 29(4):380-392 - situates working-memory updating within the broader event-segmentation account of memory updating at event boundaries ([DOI](https://doi.org/10.1016/j.tics.2024.11.008), [PubMed](https://pubmed.ncbi.nlm.nih.gov/39668061/))
 

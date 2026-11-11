@@ -81,7 +81,7 @@ Assignment of instances to categories according to their features. Filed under [
 
 ## [Causal reasoning](reasoning_and_problem_solving.md#hed-causal-reasoning)
 
-Inference about cause–effect relations from observation and intervention. Filed under [Reasoning and Problem-Solving](reasoning_and_problem_solving.md). Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_causal_learning.html">Causal Learning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>causal inference</span></span></span>.
+Inference about cause-effect relations from observation and intervention. Filed under [Reasoning and Problem-Solving](reasoning_and_problem_solving.md). Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_causal_learning.html">Causal Learning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>causal inference</span></span></span>.
 
 ## [Choice commitment](value_based_decision_making_under_risk_and_uncertainty.md#hed-choice-commitment)
 
@@ -213,7 +213,7 @@ Active holding of task goals, rules, or sub-goals in a form that biases ongoing 
 
 ## [Goal-directed behavior](associative_learning_and_reinforcement.md#hed-goal-directed-behavior)
 
-Behavior that is sensitive to current outcome value, characteristic of action–outcome learning. Filed under [Associative Learning and Reinforcement](associative_learning_and_reinforcement.md). Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_instrumental_conditioning.html">Instrumental Conditioning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>goal-directed action</span></span></span>.
+Behavior that is sensitive to current outcome value, characteristic of action-outcome learning. Filed under [Associative Learning and Reinforcement](associative_learning_and_reinforcement.md). Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_instrumental_conditioning.html">Instrumental Conditioning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>goal-directed action</span></span></span>.
 
 ## [Grasping](motor_preparation_timing_and_execution.md#hed-grasping)
 
@@ -225,7 +225,7 @@ Perception of taste qualities (sweet, sour, salty, bitter, umami). Filed under [
 
 ## [Habit](associative_learning_and_reinforcement.md#hed-habit)
 
-Behavior that is insensitive to the current value of its outcome, characteristic of stimulus–response learning. Filed under [Associative Learning and Reinforcement](associative_learning_and_reinforcement.md). Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_instrumental_conditioning.html">Instrumental Conditioning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>habit learning</span></span></span>.
+Behavior that is insensitive to the current value of its outcome, characteristic of stimulus-response learning. Filed under [Associative Learning and Reinforcement](associative_learning_and_reinforcement.md). Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_instrumental_conditioning.html">Instrumental Conditioning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>habit learning</span></span></span>.
 
 ## [Hypothesis testing](reasoning_and_problem_solving.md#hed-hypothesis-testing)
 
@@ -257,7 +257,7 @@ Sudden restructuring of a problem representation yielding a solution that was pr
 
 ## [Instrumental conditioning](associative_learning_and_reinforcement.md#hed-instrumental-conditioning)
 
-Learning that an action produces an outcome; also called operant conditioning. Encompasses both goal-directed (action–outcome) and habitual (stimulus–response) control, studied via reinforcement schedules and outcome-devaluation procedures. Filed under [Associative Learning and Reinforcement](associative_learning_and_reinforcement.md). Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_instrumental_conditioning.html">Instrumental Conditioning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>Operant conditioning</span></span></span>.
+Learning that an action produces an outcome; also called operant conditioning. Encompasses both goal-directed (action-outcome) and habitual (stimulus-response) control, studied via reinforcement schedules and outcome-devaluation procedures. Filed under [Associative Learning and Reinforcement](associative_learning_and_reinforcement.md). Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_instrumental_conditioning.html">Instrumental Conditioning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>Operant conditioning</span></span></span>.
 
 ## [Interference control](inhibitory_control_and_conflict_monitoring.md#hed-interference-control)
 
@@ -553,7 +553,7 @@ Long-term store of facts, concepts, and word meanings. Filed under [Language Com
 
 ## [Semantic memory](long_term_memory.md#hed-semantic-memory)
 
-Long-term store of general knowledge about the world — facts, concepts, and word meanings — dissociable from episodic memory and supported by distributed cortical representations. Filed under [Long-Term Memory](long_term_memory.md). Engaged by no task in the current Catalog. No aliases.
+Long-term store of general knowledge about the world - facts, concepts, and word meanings - dissociable from episodic memory and supported by distributed cortical representations. Filed under [Long-Term Memory](long_term_memory.md). Engaged by no task in the current Catalog. No aliases.
 
 ## [Semantic processing](language_comprehension_and_production.md#hed-semantic-processing)
 
@@ -669,7 +669,7 @@ Perception of visual information; includes form, motion, depth, color, and spati
 
 ## [Visual working memory](short_term_and_working_memory.md#hed-visual-working-memory)
 
-Short-term storage and manipulation of visual information; capacity limited to ~3–4 items. Filed under [Short-Term and Working Memory](short_term_and_working_memory.md). Engaged by <span class="pop" tabindex="0">3 tasks<span class="pop-card"><span><a href="../tasks/hedtsk_change_detection.html">Change Detection Task</a></span><span><a href="../tasks/hedtsk_delayed_match_to_sample.html">Delayed Match-to-Sample Task</a></span><span><a href="../tasks/hedtsk_multiple_object_tracking.html">Multiple Object Tracking Task</a></span></span></span>. No aliases.
+Short-term storage and manipulation of visual information; capacity limited to ~3-4 items. Filed under [Short-Term and Working Memory](short_term_and_working_memory.md). Engaged by <span class="pop" tabindex="0">3 tasks<span class="pop-card"><span><a href="../tasks/hedtsk_change_detection.html">Change Detection Task</a></span><span><a href="../tasks/hedtsk_delayed_match_to_sample.html">Delayed Match-to-Sample Task</a></span><span><a href="../tasks/hedtsk_multiple_object_tracking.html">Multiple Object Tracking Task</a></span></span></span>. No aliases.
 
 ## [Visuomotor adaptation](motor_preparation_timing_and_execution.md#hed-visuomotor-adaptation)
 

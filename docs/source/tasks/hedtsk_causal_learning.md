@@ -87,7 +87,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_causal_learning__causal_direction_manipulation`
   - The same trials are presented but the participant is asked either to predict the effect from the cause (does this food cause the reaction?) or to diagnose the cause from the effect (given the reaction, which food was eaten?).
-  - Manipulates whether participant judges cause→effect or effect→cause; different reasoning direction
+  - Manipulates whether participant judges cause->effect or effect->cause; different reasoning direction
 * - Backward Blocking / Retrospective Revaluation
 
     `hedvar_causal_learning__backward_blocking_retrospective_revaluation`

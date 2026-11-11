@@ -113,8 +113,8 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Gabay, A. S., Radua, J., Kempton, M. J., & Mehta, M. A. (2014). The Ultimatum Game and the brain: A meta-analysis of neuroimaging studies. *Neuroscience & Biobehavioral Reviews*, 47, 549–558. ([DOI](https://doi.org/10.1016/j.neubiorev.2014.10.014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25454357/))
-- Henrich, J., Boyd, R., Bowles, S., et al. (2005). "Economic man" in cross-cultural perspective: Behavioral experiments in 15 small-scale societies. *Behavioral and Brain Sciences*, 28(6), 795–815. ([DOI](https://doi.org/10.1017/s0140525x05000142), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16372952/))
+- Gabay, A. S., Radua, J., Kempton, M. J., & Mehta, M. A. (2014). The Ultimatum Game and the brain: A meta-analysis of neuroimaging studies. *Neuroscience & Biobehavioral Reviews*, 47, 549-558. ([DOI](https://doi.org/10.1016/j.neubiorev.2014.10.014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25454357/))
+- Henrich, J., Boyd, R., Bowles, S., et al. (2005). "Economic man" in cross-cultural perspective: Behavioral experiments in 15 small-scale societies. *Behavioral and Brain Sciences*, 28(6), 795-815. ([DOI](https://doi.org/10.1017/s0140525x05000142), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16372952/))
 
 ## External links
 

@@ -31,8 +31,8 @@ least one of the listed variables, and it records at least one of the listed mea
     - Number of tasks
     - Cue transparency
 * - **Measurements**
-  - - Switch cost (switch − repeat RT and accuracy)
-    - Mixing cost (mixed block − pure block)
+  - - Switch cost (switch - repeat RT and accuracy)
+    - Mixing cost (mixed block - pure block)
     - Preparation effect (switch cost reduction with longer CSI)
 ```
 
@@ -117,10 +117,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Kiesel, A., Steinhauser, M., Wendt, M., Falkenstein, M., Jost, K., Philipp, A. M., & Koch, I. (2010). Control and interference in task switching—A review. *Psychological Bulletin*, 136(5), 849–874. ([DOI](https://doi.org/10.1037/a0019842), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20804238/))
-- Vandierendonck, A., Liefooghe, B., & Verbruggen, F. (2010). Task switching: Interplay of reconfiguration and interference control. *Psychological Bulletin*, 136(4), 601–626. ([DOI](https://doi.org/10.1037/a0019791), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20565170/))
-- Grange, J. A., & Houghton, G. (2014). Models of cognitive control in task switching. In *Task Switching and Cognitive Control* (pp. 160–199). Oxford University Press. ([DOI](https://doi.org/10.1093/acprof:osobl/9780199921959.003.0008))
-- Braem, S., & Egner, T. (2018). Getting a grip on cognitive flexibility. *Current Directions in Psychological Science*, 27(6), 470–476. ([DOI](https://doi.org/10.1177/0963721418787475), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30555214/))
+- Kiesel, A., Steinhauser, M., Wendt, M., Falkenstein, M., Jost, K., Philipp, A. M., & Koch, I. (2010). Control and interference in task switching - A review. *Psychological Bulletin*, 136(5), 849-874. ([DOI](https://doi.org/10.1037/a0019842), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20804238/))
+- Vandierendonck, A., Liefooghe, B., & Verbruggen, F. (2010). Task switching: Interplay of reconfiguration and interference control. *Psychological Bulletin*, 136(4), 601-626. ([DOI](https://doi.org/10.1037/a0019791), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20565170/))
+- Grange, J. A., & Houghton, G. (2014). Models of cognitive control in task switching. In *Task Switching and Cognitive Control* (pp. 160-199). Oxford University Press. ([DOI](https://doi.org/10.1093/acprof:osobl/9780199921959.003.0008))
+- Braem, S., & Egner, T. (2018). Getting a grip on cognitive flexibility. *Current Directions in Psychological Science*, 27(6), 470-476. ([DOI](https://doi.org/10.1177/0963721418787475), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30555214/))
 
 ## External links
 

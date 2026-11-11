@@ -31,7 +31,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Response deadline
 * - **Measurements**
   - - RT and accuracy
-    - Congruency effect (incongruent − congruent RT)
+    - Congruency effect (incongruent - congruent RT)
     - Delta plots (interference across RT distribution)
     - Conflict adaptation (Gratton effect)
 ```
@@ -67,7 +67,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_eriksen_flanker__emotional_flanker`
   - The central item and the flankers are faces or pictures with emotional expressions. The participant classifies the central item's emotion while the flanking items show the same or a different emotion.
-  - Emotional face flankers; retained per §5.1 (EMOT retired)
+  - Emotional face flankers; retained per section 5.1 (EMOT retired)
 * - Numerical Flanker
 
     `hedvar_eriksen_flanker__numerical_flanker`
@@ -77,7 +77,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_eriksen_flanker__proportion_congruent_flanker`
   - The share of conflicting trials is changed between blocks, for example 80 percent congruent in one block and 20 percent in another. Conflict effects shrink when conflict is common, because the participant learns to focus more narrowly.
-  - Varies ratio of congruent to incongruent trials; changes conflict adaptation context per §5.2
+  - Varies ratio of congruent to incongruent trials; changes conflict adaptation context per section 5.2
 * - Combined Flanker + Go/No-Go
 
     `hedvar_eriksen_flanker__combined_flanker_go_no_go`
@@ -103,10 +103,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- White, C. N., Servant, M., & Logan, G. D. (2018). Testing the validity of conflict drift-diffusion models for use in estimating cognitive processes: A parameter-recovery study. *Psychonomic Bulletin & Review*, 25(1), 323–330. ([DOI](https://doi.org/10.3758/s13423-017-1271-2))
-- Ulrich, R., Schröter, H., Leuthold, H., & Birngruber, D. (2015). Automatic and controlled stimulus processing in conflict tasks: Superimposed diffusion processes and delta functions. *Cognitive Psychology*, 78, 148–174. ([DOI](https://doi.org/10.1016/j.cogpsych.2015.02.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25909766/))
-- Servant, M., & Logan, G. D. (2019). Dynamics of attentional focusing in the Eriksen flanker task. *Attention, Perception, & Psychophysics*, 81, 2710–2721. ([DOI](https://doi.org/10.3758/s13414-019-01796-3), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31250363/))
-- Donner, T. H., Siegel, M., Fries, P., & Engel, A. K. (2009). Buildup of choice-predictive activity in human motor cortex during perceptual decision making. *Current Biology*, 19(18), 1581–1585. ([DOI](https://doi.org/10.1016/j.cub.2009.07.066), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19747828/))
+- White, C. N., Servant, M., & Logan, G. D. (2018). Testing the validity of conflict drift-diffusion models for use in estimating cognitive processes: A parameter-recovery study. *Psychonomic Bulletin & Review*, 25(1), 323-330. ([DOI](https://doi.org/10.3758/s13423-017-1271-2))
+- Ulrich, R., Schröter, H., Leuthold, H., & Birngruber, D. (2015). Automatic and controlled stimulus processing in conflict tasks: Superimposed diffusion processes and delta functions. *Cognitive Psychology*, 78, 148-174. ([DOI](https://doi.org/10.1016/j.cogpsych.2015.02.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25909766/))
+- Servant, M., & Logan, G. D. (2019). Dynamics of attentional focusing in the Eriksen flanker task. *Attention, Perception, & Psychophysics*, 81, 2710-2721. ([DOI](https://doi.org/10.3758/s13414-019-01796-3), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31250363/))
+- Donner, T. H., Siegel, M., Fries, P., & Engel, A. K. (2009). Buildup of choice-predictive activity in human motor cortex during perceptual decision making. *Current Biology*, 19(18), 1581-1585. ([DOI](https://doi.org/10.1016/j.cub.2009.07.066), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19747828/))
 
 ## External links
 

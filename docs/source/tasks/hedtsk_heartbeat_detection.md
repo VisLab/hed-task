@@ -11,7 +11,7 @@ Participants count or discriminate their own heartbeats without external feedbac
 
 ## Description
 
-The Heartbeat Detection Task is the standard paradigm for measuring interoceptive accuracy — the ability to perceive internal physiological signals. In the Schandry (1981) heartbeat counting variant, participants silently count their heartbeats during timed intervals (e.g., 25, 35, 45 seconds) without taking their pulse; an interoceptive accuracy score is computed from the discrepancy between counted and actual heartbeats (recorded via ECG or pulse oximetry). In the Whitehead heartbeat discrimination variant, participants judge whether an external stimulus (tone or light) is presented synchronously or asynchronously with their heartbeat; d-prime indexes perceptual sensitivity. Interoceptive accuracy is central to theories of emotion (the somatic marker hypothesis; Damasio, 1994), anxiety (interoceptive hypersensitivity models), and embodied cognition (predictive interoception). Individual differences in heartbeat detection correlate with emotional intensity, anxiety sensitivity, and decision-making quality. The paradigm has generated substantial methodological debate: the counting variant may partially reflect beliefs about heart rate rather than true perception, motivating the discrimination variant and newer alternatives.
+The Heartbeat Detection Task is the standard paradigm for measuring interoceptive accuracy - the ability to perceive internal physiological signals. In the Schandry (1981) heartbeat counting variant, participants silently count their heartbeats during timed intervals (e.g., 25, 35, 45 seconds) without taking their pulse; an interoceptive accuracy score is computed from the discrepancy between counted and actual heartbeats (recorded via ECG or pulse oximetry). In the Whitehead heartbeat discrimination variant, participants judge whether an external stimulus (tone or light) is presented synchronously or asynchronously with their heartbeat; d-prime indexes perceptual sensitivity. Interoceptive accuracy is central to theories of emotion (the somatic marker hypothesis; Damasio, 1994), anxiety (interoceptive hypersensitivity models), and embodied cognition (predictive interoception). Individual differences in heartbeat detection correlate with emotional intensity, anxiety sensitivity, and decision-making quality. The paradigm has generated substantial methodological debate: the counting variant may partially reflect beliefs about heart rate rather than true perception, motivating the discrimination variant and newer alternatives.
 
 ## Inclusion test
 
@@ -23,7 +23,7 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants perceive their own heartbeats — either counting them during timed intervals (counting variant) or judging synchrony between external stimuli and cardiac events (discrimination variant) — while actual heartbeats are recorded physiologically.
+  - Participants perceive their own heartbeats - either counting them during timed intervals (counting variant) or judging synchrony between external stimuli and cardiac events (discrimination variant) - while actual heartbeats are recorded physiologically.
 * - **Manipulations**
   - - Task variant (counting vs. discrimination)
     - Interval duration
@@ -64,7 +64,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_heartbeat_detection__confidence_accuracy_paradigm`
   - After each counting or discrimination trial the participant also rates how confident they are in their answer, and separately fills in a questionnaire about how aware of bodily sensations they generally are. The match between confidence and accuracy is a third measure alongside the two.
-  - Sole confidence-rating exception per §5.5; Garfinkel et al. (2015) interoception model
+  - Sole confidence-rating exception per section 5.5; Garfinkel et al. (2015) interoception model
 * - Interoceptive Attention Manipulation
 
     `hedvar_heartbeat_detection__interoceptive_attention_manipulation`

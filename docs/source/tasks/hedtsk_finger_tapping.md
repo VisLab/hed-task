@@ -101,7 +101,7 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Haaland, K. Y., Elsinger, C. L., Mayer, A. R., Durgerian, S., & Rao, S. M. (2004). Motor sequence complexity and performing hand produce differential patterns of hemispheric lateralization. *Journal of Cognitive Neuroscience*, 16(4), 621–636. ([DOI](https://doi.org/10.1162/089892904323057344), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15165352/))
+- Haaland, K. Y., Elsinger, C. L., Mayer, A. R., Durgerian, S., & Rao, S. M. (2004). Motor sequence complexity and performing hand produce differential patterns of hemispheric lateralization. *Journal of Cognitive Neuroscience*, 16(4), 621-636. ([DOI](https://doi.org/10.1162/089892904323057344), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15165352/))
 
 ## External links
 

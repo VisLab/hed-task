@@ -24,7 +24,7 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - 1. Participants learn to choose the rewarded stimulus over an unrewarded one.
-    2. After reaching criterion, contingencies reverse — the previously correct stimulus becomes incorrect and vice versa.
+    2. After reaching criterion, contingencies reverse - the previously correct stimulus becomes incorrect and vice versa.
 * - **Manipulations**
   - - Number of reversals
     - Deterministic vs. probabilistic feedback
@@ -96,10 +96,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Izquierdo, A., Brigman, J. L., Bhatt, D. K., et al. (2017). The neural basis of reversal learning: An updated perspective. *Neuroscience*, 345, 12–26. ([DOI](https://doi.org/10.1016/j.neuroscience.2016.03.021), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26979052/))
-- den Ouden, H. E. M., Daw, N. D., Fernandez, G., et al. (2013). Dissociable effects of dopamine and serotonin on reversal learning. *Neuron*, 80(4), 1090–1100. ([DOI](https://doi.org/10.1016/j.neuron.2013.08.030), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24267657/))
-- Schlagenhauf, F., Huys, Q. J. M., Deserno, L., Rapp, M. A., Beck, A., Heinze, H. J., Dolan, R., & Heinz, A. (2014). Striatal dysfunction during reversal learning in unmedicated schizophrenia patients. *NeuroImage*, 89, 171–180. ([DOI](https://doi.org/10.1016/j.neuroimage.2013.11.034), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24291614/))
-- Costa, V. D., Tran, V. L., Turchi, J., & Averbeck, B. B. (2015). Reversal learning and dopamine: A Bayesian perspective. *Journal of Neuroscience*, 35(6), 2407–2416. ([DOI](https://doi.org/10.1523/jneurosci.1989-14.2015), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25673835/))
+- Izquierdo, A., Brigman, J. L., Bhatt, D. K., et al. (2017). The neural basis of reversal learning: An updated perspective. *Neuroscience*, 345, 12-26. ([DOI](https://doi.org/10.1016/j.neuroscience.2016.03.021), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26979052/))
+- den Ouden, H. E. M., Daw, N. D., Fernandez, G., et al. (2013). Dissociable effects of dopamine and serotonin on reversal learning. *Neuron*, 80(4), 1090-1100. ([DOI](https://doi.org/10.1016/j.neuron.2013.08.030), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24267657/))
+- Schlagenhauf, F., Huys, Q. J. M., Deserno, L., Rapp, M. A., Beck, A., Heinze, H. J., Dolan, R., & Heinz, A. (2014). Striatal dysfunction during reversal learning in unmedicated schizophrenia patients. *NeuroImage*, 89, 171-180. ([DOI](https://doi.org/10.1016/j.neuroimage.2013.11.034), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24291614/))
+- Costa, V. D., Tran, V. L., Turchi, J., & Averbeck, B. B. (2015). Reversal learning and dopamine: A Bayesian perspective. *Journal of Neuroscience*, 35(6), 2407-2416. ([DOI](https://doi.org/10.1523/jneurosci.1989-14.2015), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25673835/))
 
 ## External links
 

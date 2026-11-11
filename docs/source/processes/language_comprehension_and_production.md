@@ -22,11 +22,11 @@ Integration of sentences into coherent representations of extended text or conve
 
 **Fundamental references**
 
-- Kintsch (1988) *Psychological Review* 95:163–182 ([DOI](https://doi.org/10.1037/0033-295x.95.2.163))
+- Kintsch (1988) *Psychological Review* 95:163-182 ([DOI](https://doi.org/10.1037/0033-295x.95.2.163))
 
 **Further references**
 
-- Ferstl, Neumann, Bogler & von Cramon (2008) *Human Brain Mapping* 29:581–593 ([DOI](https://doi.org/10.1002/hbm.20422), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17557297/))
+- Ferstl, Neumann, Bogler & von Cramon (2008) *Human Brain Mapping* 29:581-593 ([DOI](https://doi.org/10.1002/hbm.20422), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17557297/))
 
 (hed-language-comprehension)=
 ## Language comprehension
@@ -39,7 +39,7 @@ Extraction of meaning from linguistic input (spoken, written, or signed).
 
 **Fundamental references**
 
-- Kintsch (1988) *Psychological Review* 95:163–182 ([DOI](https://doi.org/10.1037/0033-295x.95.2.163))
+- Kintsch (1988) *Psychological Review* 95:163-182 ([DOI](https://doi.org/10.1037/0033-295x.95.2.163))
 
 **Further references**
 
@@ -71,7 +71,7 @@ Retrieval of word-level representations (form and meaning) from memory.
 
 **Fundamental references**
 
-- Morton (1969) *Psychological Review* 76:165–178 ([DOI](https://doi.org/10.1037/h0027366))
+- Morton (1969) *Psychological Review* 76:165-178 ([DOI](https://doi.org/10.1037/h0027366))
 
 (hed-naming)=
 ## Naming
@@ -84,11 +84,11 @@ Production of a word label for a presented stimulus (e.g., picture naming).
 
 **Fundamental references**
 
-- Oldfield & Wingfield (1965) *Quarterly Journal of Experimental Psychology* 17:273–281 ([DOI](https://doi.org/10.1080/17470216508416445))
+- Oldfield & Wingfield (1965) *Quarterly Journal of Experimental Psychology* 17:273-281 ([DOI](https://doi.org/10.1080/17470216508416445))
 
 **Further references**
 
-- Indefrey & Levelt (2004) *Cognition* 92:101–144 ([DOI](https://doi.org/10.1016/j.cognition.2002.06.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15037128/))
+- Indefrey & Levelt (2004) *Cognition* 92:101-144 ([DOI](https://doi.org/10.1016/j.cognition.2002.06.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15037128/))
 
 (hed-phonological-awareness)=
 ## Phonological awareness
@@ -101,11 +101,11 @@ Explicit awareness of the sound structure of spoken words (onsets, rimes, phonem
 
 **Fundamental references**
 
-- Liberman, Shankweiler, Fischer & Carter (1974) *Journal of Experimental Child Psychology* 18:201–212 ([DOI](https://doi.org/10.1016/0022-0965(74)90101-5))
+- Liberman, Shankweiler, Fischer & Carter (1974) *Journal of Experimental Child Psychology* 18:201-212 ([DOI](https://doi.org/10.1016/0022-0965(74)90101-5))
 
 **Further references**
 
-- Melby-Lervåg, Lyster & Hulme (2012) *Psychological Bulletin* 138:322–352 ([DOI](https://doi.org/10.1037/a0026744))
+- Melby-Lervåg, Lyster & Hulme (2012) *Psychological Bulletin* 138:322-352 ([DOI](https://doi.org/10.1037/a0026744))
 
 (hed-phonological-encoding)=
 ## Phonological encoding
@@ -118,7 +118,7 @@ Assembly of phonological representations during language production.
 
 **Fundamental references**
 
-- Levelt, Roelofs & Meyer (1999) *Behavioral and Brain Sciences* 22:1–75 ([DOI](https://doi.org/10.1017/s0140525x99001776))
+- Levelt, Roelofs & Meyer (1999) *Behavioral and Brain Sciences* 22:1-75 ([DOI](https://doi.org/10.1017/s0140525x99001776))
 
 **Further references**
 
@@ -135,11 +135,11 @@ Visual processing of written text, integrating orthography, phonology, and meani
 
 **Fundamental references**
 
-- Coltheart, Rastle, Perry, Langdon & Ziegler (2001) *Psychological Review* 108:204–256 ([DOI](https://doi.org/10.1037/0033-295x.108.1.204))
+- Coltheart, Rastle, Perry, Langdon & Ziegler (2001) *Psychological Review* 108:204-256 ([DOI](https://doi.org/10.1037/0033-295x.108.1.204))
 
 **Further references**
 
-- Dehaene, Cohen, Morais & Kolinsky (2015) *Nature Reviews Neuroscience* 16:234–244 ([DOI](https://doi.org/10.1038/nrn3924), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25783611/))
+- Dehaene, Cohen, Morais & Kolinsky (2015) *Nature Reviews Neuroscience* 16:234-244 ([DOI](https://doi.org/10.1038/nrn3924), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25783611/))
 
 (hed-semantic-knowledge)=
 ## Semantic knowledge
@@ -156,7 +156,7 @@ Long-term store of facts, concepts, and word meanings.
 
 **Further references**
 
-- Ralph, Jefferies, Patterson & Rogers (2017) *Nature Reviews Neuroscience* 18:42–55
+- Ralph, Jefferies, Patterson & Rogers (2017) *Nature Reviews Neuroscience* 18:42-55
 
 (hed-semantic-processing)=
 ## Semantic processing
@@ -169,11 +169,11 @@ Access and integration of word and phrase meaning, indexed by the N400.
 
 **Fundamental references**
 
-- Kutas & Hillyard (1980) *Science* 207:203–205 ([DOI](https://doi.org/10.1126/science.7350657))
+- Kutas & Hillyard (1980) *Science* 207:203-205 ([DOI](https://doi.org/10.1126/science.7350657))
 
 **Further references**
 
-- Kutas & Federmeier (2011) *Annual Review of Psychology* 62:621–647 ([DOI](https://doi.org/10.1146/annurev.psych.093008.131123))
+- Kutas & Federmeier (2011) *Annual Review of Psychology* 62:621-647 ([DOI](https://doi.org/10.1146/annurev.psych.093008.131123))
 
 (hed-sentence-comprehension)=
 ## Sentence comprehension
@@ -188,11 +188,11 @@ Integration of lexical, syntactic, and semantic information to derive sentence m
 
 **Fundamental references**
 
-- Garrett, Bever & Fodor (1966) *Perception & Psychophysics* 1:30–32 ([DOI](https://doi.org/10.3758/bf03207817))
+- Garrett, Bever & Fodor (1966) *Perception & Psychophysics* 1:30-32 ([DOI](https://doi.org/10.3758/bf03207817))
 
 **Further references**
 
-- Hagoort & Indefrey (2014) *Annual Review of Neuroscience* 37:347–362 ([DOI](https://doi.org/10.1146/annurev-neuro-071013-013847))
+- Hagoort & Indefrey (2014) *Annual Review of Neuroscience* 37:347-362 ([DOI](https://doi.org/10.1146/annurev-neuro-071013-013847))
 
 (hed-speech-perception)=
 ## Speech perception
@@ -205,11 +205,11 @@ Extraction of linguistic content from the acoustic speech signal, including phon
 
 **Fundamental references**
 
-- Liberman, Cooper, Shankweiler & Studdert-Kennedy (1967) *Psychological Review* 74:431–461 ([DOI](https://doi.org/10.1037/h0020279))
+- Liberman, Cooper, Shankweiler & Studdert-Kennedy (1967) *Psychological Review* 74:431-461 ([DOI](https://doi.org/10.1037/h0020279))
 
 **Further references**
 
-- Diehl, Lotto & Holt (2004) *Annual Review of Psychology* 55:149–179 ([DOI](https://doi.org/10.1146/annurev.psych.55.090902.142028))
+- Diehl, Lotto & Holt (2004) *Annual Review of Psychology* 55:149-179 ([DOI](https://doi.org/10.1146/annurev.psych.55.090902.142028))
 
 (hed-speech-production)=
 ## Speech production
@@ -222,7 +222,7 @@ Planning and articulation of spoken output; the motor component of articulation 
 
 **Fundamental references**
 
-- Levelt, Roelofs & Meyer (1999) *Behavioral and Brain Sciences* 22:1–75 ([DOI](https://doi.org/10.1017/s0140525x99001776))
+- Levelt, Roelofs & Meyer (1999) *Behavioral and Brain Sciences* 22:1-75 ([DOI](https://doi.org/10.1017/s0140525x99001776))
 
 **Further references**
 
@@ -241,7 +241,7 @@ Assignment of hierarchical grammatical structure to a linguistic input.
 
 **Fundamental references**
 
-- Frazier & Rayner (1982) *Cognitive Psychology* 14:178–210 ([DOI](https://doi.org/10.1016/0010-0285(82)90008-1))
+- Frazier & Rayner (1982) *Cognitive Psychology* 14:178-210 ([DOI](https://doi.org/10.1016/0010-0285(82)90008-1))
 
 (hed-verbal-fluency)=
 ## Verbal fluency
@@ -254,7 +254,7 @@ Rapid generation of words under a semantic or phonemic constraint.
 
 **Fundamental references**
 
-- Benton (1968) *Neuropsychologia* 6:53–60 ([DOI](https://doi.org/10.1016/0028-3932(68)90038-9))
+- Benton (1968) *Neuropsychologia* 6:53-60 ([DOI](https://doi.org/10.1016/0028-3932(68)90038-9))
 
 **Further references**
 
@@ -273,5 +273,5 @@ Identification of a word as a lexical item from its perceptual input.
 
 **Fundamental references**
 
-- Morton (1969) *Psychological Review* 76:165–178 ([DOI](https://doi.org/10.1037/h0027366))
+- Morton (1969) *Psychological Review* 76:165-178 ([DOI](https://doi.org/10.1037/h0027366))
 

@@ -31,8 +31,8 @@ least one of the listed variables, and it records at least one of the listed mea
     - Response modality (vocal, manual)
     - Stimulus type (classic, spatial, numerical)
 * - **Measurements**
-  - - Stroop interference effect (incongruent − congruent RT)
-    - Facilitation (neutral − congruent)
+  - - Stroop interference effect (incongruent - congruent RT)
+    - Facilitation (neutral - congruent)
     - Error rate
     - Conflict adaptation (Gratton effect)
 ```
@@ -88,7 +88,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_stroop_color_word__proportion_congruent_manipulation`
   - The share of trials on which word and ink agree is varied between blocks or between particular words, for example mostly agreeing in one block and mostly conflicting in another. Interference is smaller when conflict is expected.
-  - Conflict frequency variation; adaptation context per §5.2
+  - Conflict frequency variation; adaptation context per section 5.2
 * - Face-Word Stroop
 
     `hedvar_stroop_color_word__face_word_stroop`
@@ -130,10 +130,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Egetemeyer, J., Rehme, A. K., Liebhaber, N., Eickhoff, S. B., & Grefkes, C. (2024). Not all Stroop-type tasks are alike: Assessing the impact of stimulus material, task design, and cognitive demand via meta-analyses across neuroimaging studies. *Neuropsychology Review*, 34, 687–714. ([DOI](https://doi.org/10.1007/s11065-024-09647-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/39264479/))
-- Servant, M., Montagnini, A., & Burle, B. (2014). Conflict tasks and the diffusion framework: Insight in model constraints based on psychological laws. *Cognitive Psychology*, 72, 162–195. ([DOI](https://doi.org/10.1016/j.cogpsych.2014.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24762975/))
+- Egetemeyer, J., Rehme, A. K., Liebhaber, N., Eickhoff, S. B., & Grefkes, C. (2024). Not all Stroop-type tasks are alike: Assessing the impact of stimulus material, task design, and cognitive demand via meta-analyses across neuroimaging studies. *Neuropsychology Review*, 34, 687-714. ([DOI](https://doi.org/10.1007/s11065-024-09647-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/39264479/))
+- Servant, M., Montagnini, A., & Burle, B. (2014). Conflict tasks and the diffusion framework: Insight in model constraints based on psychological laws. *Cognitive Psychology*, 72, 162-195. ([DOI](https://doi.org/10.1016/j.cogpsych.2014.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24762975/))
 - Algom, D., & Chajut, E. (2019). Reclaiming the Stroop effect back from control to input-driven attention and perception. *Frontiers in Psychology*, 10, 1683. ([DOI](https://doi.org/10.3389/fpsyg.2019.01683), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31428008/))
-- Neumann, J., Lohmann, G., Derrfuss, J., & von Cramon, D. Y. (2005). Meta-analysis of functional imaging data using replicator dynamics. *Human Brain Mapping*, 25(1), 165–173. [Stroop neuroimaging meta-analysis] ([DOI](https://doi.org/10.1002/hbm.20133), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15846812/))
+- Neumann, J., Lohmann, G., Derrfuss, J., & von Cramon, D. Y. (2005). Meta-analysis of functional imaging data using replicator dynamics. *Human Brain Mapping*, 25(1), 165-173. [Stroop neuroimaging meta-analysis] ([DOI](https://doi.org/10.1002/hbm.20133), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15846812/))
 
 ## External links
 

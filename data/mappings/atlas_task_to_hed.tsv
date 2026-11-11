@@ -24,7 +24,7 @@ trm_502abd109f255	ambiguous figure task	128	3	paradigm	none						Experimental pa
 trm_5798fa39b4315	American National Adult Reading Test	309	2	paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
 trm_4f244f0286947	analogical reasoning task	120	1	paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
 trm_5667488d52ccc	Angling Risk Task	761	2	paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
-tsk_zhAW4G31jTPrw	Angling Risk Task – Always Sunny	637	2	paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
+tsk_zhAW4G31jTPrw	Angling Risk Task (Always Sunny)	637	2	paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
 trm_4da88bd4412da	animal naming task	89	2	paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
 trm_551f0857e1db8	ANT task	596	1	paradigm	exact	task	hedtsk_attention_network	Attention Network Task			Duplicate of trm_4da6304c9aa23
 tsk_4a57abb949869	antisaccade/prosaccade task	173	2	paradigm	exact	task	hedtsk_anti_saccade	Anti-Saccade Task			Primary match from hed_task_to_atlas.tsv
@@ -335,7 +335,7 @@ trm_4eb1f3a8ec119	intermodal preferential looking paradigm	320	1	paradigm	none		
 tsk_3KF7rOdrBGivs	Internal menu choice task	469		paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
 tsk_nHhIFQgl91Nkc	Internal Self-Efficacy Task	755	1	paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
 tsk_4a57abb949aca	International Affective Picture System	51	1	paradigm	close	task	hedtsk_affective_picture_viewing	Affective Picture Viewing Task			Primary match from hed_task_to_atlas.tsv
-tsk_QlXQe5gup7UFj	International Physical Activity Questionnaire – Short Form (IPAQ-SF)	440	1	questionnaire	none						Self-report instrument, outside the catalog's scope
+tsk_QlXQe5gup7UFj	International Physical Activity Questionnaire - Short Form (IPAQ-SF)	440	1	questionnaire	none						Self-report instrument, outside the catalog's scope
 tsk_Rpfz9hVRPtUcq	Interoceptive Attentiveness fMRI Task	812	1	imaging_protocol	none						Imaging protocol label, not an experimental paradigm
 tsk_YShVp2KOuWrSS	Interval Estimation Task	447		paradigm	related	task	hedtsk_intentional_binding	Intentional Binding Task			Primary match from hed_task_to_atlas.tsv
 tsk_4a57abb949ad7	intradimensional shift task	346	3	paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
@@ -548,7 +548,7 @@ trm_56a2a6ad6edee	Penn Visual Object Learning Test	1126		battery	none						Stand
 trm_56a2a98785453	Penn Visual Object Learning Test Delayed Memory	935		battery	none						Standardized test battery, outside the catalog's scope
 trm_5696e10fcd36a	Penn Vocabulary Test	47		battery	none						Standardized test battery, outside the catalog's scope
 trm_50f998dcbfcc8	Penn Word Memory Test	394	2	battery	none						Standardized test battery, outside the catalog's scope
-trm_56a2a7750ffd0	Pennâs Logical Reasoning Test	549		paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
+trm_56a2a7750ffd0	Penn's Logical Reasoning Test	549		paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
 trm_551b05e03be48	perceptual closure task	173	1	paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
 trm_553ebfc390256	perceptual discrimination task	286	1	paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
 trm_551b0e6b88363	perceptual organization	4	1	paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
@@ -598,7 +598,7 @@ trm_4b86dbcd8ff78	rapid serial object transformation	291	3	paradigm	none						Ex
 tsk_4a57abb949879	rapid serial visual presentation task	203	3	paradigm	exact	task	hedtsk_rapid_serial_visual_presentation	Rapid Serial Visual Presentation Task			Primary match from hed_task_to_atlas.tsv
 trm_50f8516279419	Rapid Visual Information Processing	663	1	paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
 trm_4f24211a03b07	Raven's Advanced Progressive Matrices	4		paradigm	close	task	hedtsk_ravens_progressive_matrices	Raven's Progressive Matrices Task			Advanced form; definition absent
-tsk_SJ4Q7gOYfy25Y	Raven’s Progressive Matrices Test	492	1	paradigm	exact	task	hedtsk_ravens_progressive_matrices	Raven's Progressive Matrices Task			Primary match from hed_task_to_atlas.tsv
+tsk_SJ4Q7gOYfy25Y	Raven's Progressive Matrices Test	492	1	paradigm	exact	task	hedtsk_ravens_progressive_matrices	Raven's Progressive Matrices Task			Primary match from hed_task_to_atlas.tsv
 trm_551efd39a74dd	Re-entrant processing	4	1	paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
 trm_50f84e8ab7af8	Reaction Time	585	1	paradigm	none						Generic reaction time entry
 trm_4c8a82ba8a538	reading (covert)	99		paradigm	none						Covert reading, not a span task
@@ -712,7 +712,7 @@ tsk_4a57abb949dfe	Spielberger's State-Trait Anxiety Questionnaire	169		questionn
 trm_5873cd1c9d4c4	standard localizer fMRI task paradigm	650		imaging_protocol	none						Imaging protocol label, not an experimental paradigm
 trm_56bbe12994926	Stanford Leisure-Time Activity Categorical Item	187		paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
 trm_526af65b16c82	Stanford-Binet Intelligence Scales	516	5	paradigm	none						Experimental paradigm with no counterpart in the 103-task catalog
-tsk_FV3SD73LtdfUc	State-Trait Anger Expression Inventory–2 (STAXI-2)	453		questionnaire	none						Self-report instrument, outside the catalog's scope
+tsk_FV3SD73LtdfUc	State-Trait Anger Expression Inventory-2 (STAXI-2)	453		questionnaire	none						Self-report instrument, outside the catalog's scope
 tsk_4a57abb949e0c	Sternberg delayed recognition task	160	3	paradigm	close	task	hedtsk_sternberg_item_recognition	Sternberg Item Recognition Task			Delayed recognition form
 trm_56674c7c2fa4f	Sternberg Directed Forgetting	447		paradigm	close	task	hedtsk_directed_forgetting	Directed Forgetting Task			Sternberg directed forgetting
 trm_551f0a8b5ba2c	Sternberg Item Recognition Task	278	3	paradigm	exact	task	hedtsk_sternberg_item_recognition	Sternberg Item Recognition Task			Primary match from hed_task_to_atlas.tsv

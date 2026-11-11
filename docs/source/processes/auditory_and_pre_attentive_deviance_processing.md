@@ -20,7 +20,7 @@ Low-level analysis of sound, including frequency, intensity, and temporal struct
 
 **Fundamental references**
 
-- Fletcher (1940) *Reviews of Modern Physics* 12:47–65 ([DOI](https://doi.org/10.1103/revmodphys.12.47))
+- Fletcher (1940) *Reviews of Modern Physics* 12:47-65 ([DOI](https://doi.org/10.1103/revmodphys.12.47))
 
 (hed-auditory-perception)=
 ## Auditory perception
@@ -63,5 +63,5 @@ Perception of the highness or lowness of a sound, related to fundamental frequen
 
 **Further references**
 
-- Oxenham (2012) *Journal of Neuroscience* 32:13335–13338 ([DOI](https://doi.org/10.1523/JNEUROSCI.3815-12.2012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23015422/))
+- Oxenham (2012) *Journal of Neuroscience* 32:13335-13338 ([DOI](https://doi.org/10.1523/JNEUROSCI.3815-12.2012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23015422/))
 

@@ -4,7 +4,7 @@
 **Scope:** Integration of noisy sensory evidence to a decision criterion.
 
 :::{note}
-**Open issues:** Singleton row. Overlaps with Perceptual Awareness on confidence and with Value-Based Decision-Making on accumulation-model machinery — but the evidence source (perceptual vs. value) is the category boundary. If the Catalog ever adds distinct rows for decision boundary, drift rate, confidence formation, and speed-accuracy tradeoff as processes (rather than task-level parameters), they belong here.
+**Open issues:** Singleton row. Overlaps with Perceptual Awareness on confidence and with Value-Based Decision-Making on accumulation-model machinery - but the evidence source (perceptual vs. value) is the category boundary. If the Catalog ever adds distinct rows for decision boundary, drift rate, confidence formation, and speed-accuracy tradeoff as processes (rather than task-level parameters), they belong here.
 :::
 
 This category contains 1 processes.
@@ -20,9 +20,9 @@ Integration of noisy sensory evidence toward a decision criterion, modeled by se
 
 **Fundamental references**
 
-- Ratcliff (1978) *Psychological Review* 85:59–108 ([DOI](https://doi.org/10.1037/0033-295x.85.2.59))
+- Ratcliff (1978) *Psychological Review* 85:59-108 ([DOI](https://doi.org/10.1037/0033-295x.85.2.59))
 
 **Further references**
 
-- Gold & Shadlen (2007) *Annual Review of Neuroscience* 30:535–574 ([DOI](https://doi.org/10.1146/annurev.neuro.29.051605.113038))
+- Gold & Shadlen (2007) *Annual Review of Neuroscience* 30:535-574 ([DOI](https://doi.org/10.1146/annurev.neuro.29.051605.113038))
 

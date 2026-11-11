@@ -11,7 +11,7 @@ Repeated presentation of a 15-word list with immediate free recall over five tri
 
 ## Description
 
-The RAVLT is a comprehensive measure of verbal episodic memory. A list of 15 unrelated words (List A) is read aloud five times, with free recall tested after each presentation, yielding a learning curve. After the fifth trial, an interference list (List B) is presented once and recalled, followed by immediate recall of List A without re-presentation (retroactive interference). After a 20–30 minute delay, delayed recall and recognition of List A are tested. The RAVLT provides a rich profile of memory processes including acquisition rate, learning plateau, susceptibility to interference, retention over delay, and recognition discrimination.
+The RAVLT is a comprehensive measure of verbal episodic memory. A list of 15 unrelated words (List A) is read aloud five times, with free recall tested after each presentation, yielding a learning curve. After the fifth trial, an interference list (List B) is presented once and recalled, followed by immediate recall of List A without re-presentation (retroactive interference). After a 20-30 minute delay, delayed recall and recognition of List A are tested. The RAVLT provides a rich profile of memory processes including acquisition rate, learning plateau, susceptibility to interference, retention over delay, and recognition discrimination.
 
 ## Inclusion test
 
@@ -32,8 +32,8 @@ least one of the listed variables, and it records at least one of the listed mea
     - Delay before delayed recall
     - Recognition list composition
 * - **Measurements**
-  - - Total learning (sum of trials 1–5)
-    - Retroactive interference (trial 5 − post-interference recall)
+  - - Total learning (sum of trials 1-5)
+    - Retroactive interference (trial 5 - post-interference recall)
     - Delayed recall
     - Recognition hits and false alarms
 ```
@@ -50,7 +50,7 @@ of a variation is `hedvar_<task>__<variation>`.
 * - Variation
   - Description
   - Justification
-* - Standard RAVLT (List A × 5 + List B + Recall + Delayed Recall)
+* - Standard RAVLT (List A * 5 + List B + Recall + Delayed Recall)
 
     `hedvar_rey_auditory_verbal_learning__standard_ravlt_list_a_5_list_b_recall_delayed_recall`
   - A list of 15 unrelated words is read aloud and the participant recalls as many as possible, five times in a row. A second 15-word list is then read and recalled once. The participant then recalls the first list again without hearing it, and once more after a delay of 20 to 30 minutes.
@@ -95,9 +95,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Schoenberg, M. R., Dawson, K. A., Duff, K., Patton, D., Scott, J. G., & Adams, R. L. (2006). Test performance and classification statistics for the Rey Auditory Verbal Learning Test in selected clinical samples. *Archives of Clinical Neuropsychology*, 21(7), 693–703. ([DOI](https://doi.org/10.1016/j.acn.2006.06.010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16987634/))
-- Moradi, A. R., Doost, H. T. N., Taghavi, M. R., Yule, W., & Dalgleish, T. (1999). Everyday memory deficits in children and adolescents with PTSD: Performance on the Rivermead Behavioural Memory Test. *Journal of Child Psychology and Psychiatry*, 40(3), 357–361. ([DOI](https://doi.org/10.1111/1469-7610.00453), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10190337/))
-- Tierney, M. C., Nores, A., Snow, W. G., Fisher, R. H., Zorzitto, M. L., & Reid, D. W. (1994). Use of the Rey Auditory Verbal Learning Test in differentiating normal aging from Alzheimer's and Parkinson's dementia. *Psychological Assessment*, 6(2), 129–134. ([DOI](https://doi.org/10.1037/1040-3590.6.2.129))
+- Schoenberg, M. R., Dawson, K. A., Duff, K., Patton, D., Scott, J. G., & Adams, R. L. (2006). Test performance and classification statistics for the Rey Auditory Verbal Learning Test in selected clinical samples. *Archives of Clinical Neuropsychology*, 21(7), 693-703. ([DOI](https://doi.org/10.1016/j.acn.2006.06.010), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16987634/))
+- Moradi, A. R., Doost, H. T. N., Taghavi, M. R., Yule, W., & Dalgleish, T. (1999). Everyday memory deficits in children and adolescents with PTSD: Performance on the Rivermead Behavioural Memory Test. *Journal of Child Psychology and Psychiatry*, 40(3), 357-361. ([DOI](https://doi.org/10.1111/1469-7610.00453), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10190337/))
+- Tierney, M. C., Nores, A., Snow, W. G., Fisher, R. H., Zorzitto, M. L., & Reid, D. W. (1994). Use of the Rey Auditory Verbal Learning Test in differentiating normal aging from Alzheimer's and Parkinson's dementia. *Psychological Assessment*, 6(2), 129-134. ([DOI](https://doi.org/10.1037/1040-3590.6.2.129))
 
 ## External links
 

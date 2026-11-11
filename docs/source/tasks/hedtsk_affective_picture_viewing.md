@@ -74,7 +74,7 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Lindquist, K. A., Wager, T. D., Kober, H., Bliss-Moreau, E., & Barrett, L. F. (2012). The brain basis of emotion: A meta-analytic review. *Behavioral and Brain Sciences*, 35(3), 121–143. ([DOI](https://doi.org/10.1017/s0140525x11000446), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22617651/))
+- Lindquist, K. A., Wager, T. D., Kober, H., Bliss-Moreau, E., & Barrett, L. F. (2012). The brain basis of emotion: A meta-analytic review. *Behavioral and Brain Sciences*, 35(3), 121-143. ([DOI](https://doi.org/10.1017/s0140525x11000446), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22617651/))
 - Wager, T. D., Kang, J., Johnson, T. D., Nichols, T. E., Satpute, A. B., & Barrett, L. F. (2015). A Bayesian model of category-specific emotional brain responses. *PLoS Computational Biology*, 11(4), e1004066. ([DOI](https://doi.org/10.1371/journal.pcbi.1004066), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25853490/))
 
 ## External links

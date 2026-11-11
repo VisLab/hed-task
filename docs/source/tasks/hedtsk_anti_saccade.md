@@ -81,7 +81,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_anti_saccade__emotional_anti_saccade`
   - The peripheral cue is a face with an emotional expression (or another emotional picture) instead of a plain dot. The participant still looks away from it; the question is whether emotional cues are harder to look away from.
-  - Emotional stimuli as saccade targets; retained per §5.1 (EMOT retired)
+  - Emotional stimuli as saccade targets; retained per section 5.1 (EMOT retired)
 * - Memory-Guided Anti-Saccade
 
     `hedvar_anti_saccade__memory_guided_anti_saccade`
@@ -113,10 +113,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Hutton, S. B., & Ettinger, U. (2006). The antisaccade task as a research tool in psychopathology: A critical review. *Psychophysiology*, 43(3), 302–313. [Updated: Amador, S. C., Hood, A. J., Schiess, M. C., Izor, R., & Sereno, A. B. (2006). Dissociating cognitive deficits involved in voluntary eye movement dysfunctions in Parkinson's disease patients. *Neuropsychologia*, 44(8), 1475–1482.] ([DOI](https://doi.org/10.1111/j.1469-8986.2006.00403.x), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16805870/))
-- Antoniades, C. A., Ettinger, U., Gaymard, B., et al. (2013). An internationally standardised antisaccade protocol. *Vision Research*, 84, 1–5. ([DOI](https://doi.org/10.1016/j.visres.2013.02.007), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23474300/))
-- Crawford, T. J., Higham, S., Renvoize, T., Patel, J., Dale, M., Surber, A., & Smeeton, R. (2005). Inhibitory control of saccadic eye movements and cognitive impairment in Alzheimer's disease. *Biological Psychiatry*, 57(9), 1052–1060. [Updated context: Kaufman, L. D., Pratt, J., Levine, B., & Black, S. E. (2012). Executive deficits detected in mild Alzheimer's disease patients using the antisaccade task. *Brain and Behavior*, 2(1), 15–21.] ([DOI](https://doi.org/10.1016/j.biopsych.2005.01.017), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15860346/))
-- Munoz, D. P., Armstrong, I. T., Hampton, K. A., & Moore, K. D. (2003). Altered control of visual fixation and saccadic eye movements in attention-deficit hyperactivity disorder. *Journal of Neurophysiology*, 90(1), 503–514. [Updated: Wiecki, T. V., Antoniades, C. A., Golla, A., et al. (2016). A computational cognitive biomarker for early-stage Huntington's disease. *PLoS ONE*, 11(2), e0148409.] ([DOI](https://doi.org/10.1152/jn.00192.2003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12672781/))
+- Hutton, S. B., & Ettinger, U. (2006). The antisaccade task as a research tool in psychopathology: A critical review. *Psychophysiology*, 43(3), 302-313. [Updated: Amador, S. C., Hood, A. J., Schiess, M. C., Izor, R., & Sereno, A. B. (2006). Dissociating cognitive deficits involved in voluntary eye movement dysfunctions in Parkinson's disease patients. *Neuropsychologia*, 44(8), 1475-1482.] ([DOI](https://doi.org/10.1111/j.1469-8986.2006.00403.x), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16805870/))
+- Antoniades, C. A., Ettinger, U., Gaymard, B., et al. (2013). An internationally standardised antisaccade protocol. *Vision Research*, 84, 1-5. ([DOI](https://doi.org/10.1016/j.visres.2013.02.007), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23474300/))
+- Crawford, T. J., Higham, S., Renvoize, T., Patel, J., Dale, M., Surber, A., & Smeeton, R. (2005). Inhibitory control of saccadic eye movements and cognitive impairment in Alzheimer's disease. *Biological Psychiatry*, 57(9), 1052-1060. [Updated context: Kaufman, L. D., Pratt, J., Levine, B., & Black, S. E. (2012). Executive deficits detected in mild Alzheimer's disease patients using the antisaccade task. *Brain and Behavior*, 2(1), 15-21.] ([DOI](https://doi.org/10.1016/j.biopsych.2005.01.017), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15860346/))
+- Munoz, D. P., Armstrong, I. T., Hampton, K. A., & Moore, K. D. (2003). Altered control of visual fixation and saccadic eye movements in attention-deficit hyperactivity disorder. *Journal of Neurophysiology*, 90(1), 503-514. [Updated: Wiecki, T. V., Antoniades, C. A., Golla, A., et al. (2016). A computational cognitive biomarker for early-stage Huntington's disease. *PLoS ONE*, 11(2), e0148409.] ([DOI](https://doi.org/10.1152/jn.00192.2003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12672781/))
 
 ## External links
 

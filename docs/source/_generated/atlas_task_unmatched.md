@@ -15,7 +15,7 @@
 | [American National Adult Reading Test](https://www.cognitiveatlas.org/task/id/trm_5798fa39b4315) | 309 | 2 |
 | [analogical reasoning task](https://www.cognitiveatlas.org/task/id/trm_4f244f0286947) | 120 | 1 |
 | [Angling Risk Task](https://www.cognitiveatlas.org/task/id/trm_5667488d52ccc) | 761 | 2 |
-| [Angling Risk Task – Always Sunny](https://www.cognitiveatlas.org/task/id/tsk_zhAW4G31jTPrw) | 637 | 2 |
+| [Angling Risk Task (Always Sunny)](https://www.cognitiveatlas.org/task/id/tsk_zhAW4G31jTPrw) | 637 | 2 |
 | [animal naming task](https://www.cognitiveatlas.org/task/id/trm_4da88bd4412da) | 89 | 2 |
 | [apparent verticality judgment](https://www.cognitiveatlas.org/task/id/trm_502ad907e3299) | 107 | 2 |
 | [articulatory suppression task](https://www.cognitiveatlas.org/task/id/trm_50f5822624e53) | 117 | 1 |
@@ -296,7 +296,7 @@
 | [passive listening](https://www.cognitiveatlas.org/task/id/trm_4c8991fadfe01) | 221 | 2 |
 | [pattern comparison task](https://www.cognitiveatlas.org/task/id/trm_4da86cb034ff6) | 382 | 1 |
 | [Peabody Picture Vocabulary Test](https://www.cognitiveatlas.org/task/id/trm_5266bebe14d2e) | 128 | 1 |
-| [Pennâs Logical Reasoning Test](https://www.cognitiveatlas.org/task/id/trm_56a2a7750ffd0) | 549 | - |
+| [Penn's Logical Reasoning Test](https://www.cognitiveatlas.org/task/id/trm_56a2a7750ffd0) | 549 | - |
 | [perceptual closure task](https://www.cognitiveatlas.org/task/id/trm_551b05e03be48) | 173 | 1 |
 | [perceptual discrimination task](https://www.cognitiveatlas.org/task/id/trm_553ebfc390256) | 286 | 1 |
 | [perceptual organization](https://www.cognitiveatlas.org/task/id/trm_551b0e6b88363) | 4 | 1 |
@@ -521,7 +521,7 @@
 | [Immersive Virtual Reality Assay for Target: Regulation of Cognition (Behavioral and Self-Report)](https://www.cognitiveatlas.org/task/id/tsk_H2hu4WmHYl8Tu) | 672 | 1 |
 | [Immersive Virtual Reality Assay for Target: Regulation of Emotion (Behavioral and Self-Report)](https://www.cognitiveatlas.org/task/id/tsk_Sgb6i1nFqMVjQ) | 803 | 1 |
 | [Immersive Virtual Reality Assay for Target: Regulation of Self-Reflection (Behavioral and Self-Report)](https://www.cognitiveatlas.org/task/id/tsk_ZaJZLqgqcXCLq) | 622 | 1 |
-| [International Physical Activity Questionnaire – Short Form (IPAQ-SF)](https://www.cognitiveatlas.org/task/id/tsk_QlXQe5gup7UFj) | 440 | 1 |
+| [International Physical Activity Questionnaire - Short Form (IPAQ-SF)](https://www.cognitiveatlas.org/task/id/tsk_QlXQe5gup7UFj) | 440 | 1 |
 | [Kessler Psychological Distress Scale (K6+)](https://www.cognitiveatlas.org/task/id/tsk_OA90UJX5qwTyc) | 596 | 1 |
 | [Leiter International Performance Scale](https://www.cognitiveatlas.org/task/id/trm_5262cb3d852c0) | 1266 | 10 |
 | [Loneliness Rating Scale](https://www.cognitiveatlas.org/task/id/trm_529d087705bfa) | 140 | 1 |
@@ -558,7 +558,7 @@
 | [Social Competence Questionnaire](https://www.cognitiveatlas.org/task/id/trm_525c4a78089ad) | 56 | 1 |
 | [Social Responsiveness Scale](https://www.cognitiveatlas.org/task/id/trm_5208fe678c652) | 703 | 5 |
 | [Spielberger's State-Trait Anxiety Questionnaire](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949dfe) | 169 | - |
-| [State-Trait Anger Expression Inventory–2 (STAXI-2)](https://www.cognitiveatlas.org/task/id/tsk_FV3SD73LtdfUc) | 453 | - |
+| [State-Trait Anger Expression Inventory-2 (STAXI-2)](https://www.cognitiveatlas.org/task/id/tsk_FV3SD73LtdfUc) | 453 | - |
 | [Symptom Checklist-90-Revised](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e5b) | 274 | 1 |
 | [Temperament and Character Inventory](https://www.cognitiveatlas.org/task/id/trm_55a6cb4f951ea) | 437 | - |
 | [ten item personality questionnaire](https://www.cognitiveatlas.org/task/id/trm_56a919a478935) | 408 | - |

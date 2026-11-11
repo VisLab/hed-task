@@ -69,7 +69,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_rapid_serial_visual_presentation__emotion_induced_blindness`
   - The stream is made of pictures, and an emotionally arousing picture (such as a violent or erotic scene) appears shortly before the target picture that must be reported. The emotional distractor makes the following target harder to see.
-  - Emotional T1 causes blindness to T2; retained per §5.1 (EMOT retired)
+  - Emotional T1 causes blindness to T2; retained per section 5.1 (EMOT retired)
 * - Rapid Scene Categorization
 
     `hedvar_rapid_serial_visual_presentation__rapid_scene_categorization`
@@ -114,7 +114,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_rapid_serial_visual_presentation__emotional_attentional_blink`
   - The targets themselves are emotional, such as emotional words or faces that must be reported, rather than emotional distractors. Emotional second targets are missed less often than neutral ones.
-  - Emotional T2; retained per §5.1 (EMOT retired)
+  - Emotional T2; retained per section 5.1 (EMOT retired)
 * - Spatial Two-Stream RSVP
 
     `hedvar_rapid_serial_visual_presentation__spatial_two_stream_rsvp`

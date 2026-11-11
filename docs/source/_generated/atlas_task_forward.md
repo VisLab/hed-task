@@ -68,7 +68,7 @@
 | [Psychomotor Vigilance Task](../tasks/hedtsk_psychomotor_vigilance.md) | `close` | [PEBL Perceptual Vigilance Task](https://www.cognitiveatlas.org/task/id/trm_50b55d8a6da00) | Atlas entry is the PEBL software implementation, not the generic PVT |
 | [Random Dot Kinematogram Task](../tasks/hedtsk_random_dot_kinematogram.md) | `exact` | [dot motion task](https://www.cognitiveatlas.org/task/id/trm_4f244ad7dcde7) | - |
 | [Rapid Serial Visual Presentation Task](../tasks/hedtsk_rapid_serial_visual_presentation.md) | `exact` | [rapid serial visual presentation task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949879) | Attentional blink is a separate Atlas entry trm_551f06a08dcc4 |
-| [Raven's Progressive Matrices Task](../tasks/hedtsk_ravens_progressive_matrices.md) | `exact` | [Raven’s Progressive Matrices Test](https://www.cognitiveatlas.org/task/id/tsk_SJ4Q7gOYfy25Y) | Missed by the 2025 harvest, which dropped entries with non-ASCII names |
+| [Raven's Progressive Matrices Task](../tasks/hedtsk_ravens_progressive_matrices.md) | `exact` | [Raven's Progressive Matrices Test](https://www.cognitiveatlas.org/task/id/tsk_SJ4Q7gOYfy25Y) | Missed by the 2025 harvest, which dropped entries with non-ASCII names |
 | [Reading the Mind in the Eyes Task](../tasks/hedtsk_reading_the_mind_in_the_eyes.md) | `none` | - | No RMET entry |
 | [Remember/Know Task](../tasks/hedtsk_remember_know.md) | `exact` | [remember/know task](https://www.cognitiveatlas.org/task/id/trm_4da63146f12d7) | 28-char definition, zero concepts |
 | [Remote Associates Task](../tasks/hedtsk_remote_associates.md) | `exact` | [Remote Associates Test](https://www.cognitiveatlas.org/task/id/tsk_ZMTNk4Oce5b2j) | 843-char definition but zero concepts |

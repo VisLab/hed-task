@@ -103,9 +103,9 @@ This task is designed to engage the following processes:
 ## Further references
 
 - Lara, A. H., & Wallis, J. D. (2015). The role of prefrontal cortex in working memory: A mini review. *Frontiers in Systems Neuroscience*, 9, 173. ([DOI](https://doi.org/10.3389/fnsys.2015.00173), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26733825/))
-- Constantinidis, C., Funahashi, S., Lee, D., Murray, J. D., Qi, X. L., Wang, M., & Arnsten, A. F. T. (2018). Persistent spiking activity underlies working memory. *Journal of Neuroscience*, 38(32), 7020–7028. ([DOI](https://doi.org/10.1523/jneurosci.2486-17.2018), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30089641/))
-- Lundqvist, M., Herman, P., & Miller, E. K. (2018). Working memory: Delay activity, yes! Persistent activity? Maybe not. *Journal of Neuroscience*, 38(32), 7013–7019. ([DOI](https://doi.org/10.1523/jneurosci.2485-17.2018), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30089640/))
-- Stokes, M. G. (2015). 'Activity-silent' working memory in prefrontal cortex: A dynamic coding framework. *Trends in Cognitive Sciences*, 19(7), 394–405. ([DOI](https://doi.org/10.1016/j.tics.2015.05.004), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26051384/))
+- Constantinidis, C., Funahashi, S., Lee, D., Murray, J. D., Qi, X. L., Wang, M., & Arnsten, A. F. T. (2018). Persistent spiking activity underlies working memory. *Journal of Neuroscience*, 38(32), 7020-7028. ([DOI](https://doi.org/10.1523/jneurosci.2486-17.2018), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30089641/))
+- Lundqvist, M., Herman, P., & Miller, E. K. (2018). Working memory: Delay activity, yes! Persistent activity? Maybe not. *Journal of Neuroscience*, 38(32), 7013-7019. ([DOI](https://doi.org/10.1523/jneurosci.2485-17.2018), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30089640/))
+- Stokes, M. G. (2015). 'Activity-silent' working memory in prefrontal cortex: A dynamic coding framework. *Trends in Cognitive Sciences*, 19(7), 394-405. ([DOI](https://doi.org/10.1016/j.tics.2015.05.004), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26051384/))
 
 ## External links
 

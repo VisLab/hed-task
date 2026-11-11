@@ -67,7 +67,7 @@ hedtsk_psychological_refractory_period	Psychological Refractory Period Task	exac
 hedtsk_psychomotor_vigilance	Psychomotor Vigilance Task	close	trm_50b55d8a6da00	PEBL Perceptual Vigilance Task	340	1	2	Atlas entry is the PEBL software implementation, not the generic PVT
 hedtsk_random_dot_kinematogram	Random Dot Kinematogram Task	exact	trm_4f244ad7dcde7	dot motion task	131	4	2	
 hedtsk_rapid_serial_visual_presentation	Rapid Serial Visual Presentation Task	exact	tsk_4a57abb949879	rapid serial visual presentation task	203	3	3	Attentional blink is a separate Atlas entry trm_551f06a08dcc4
-hedtsk_ravens_progressive_matrices	Raven's Progressive Matrices Task	exact	tsk_SJ4Q7gOYfy25Y	Raven’s Progressive Matrices Test	492	1	2	Missed by the 2025 harvest, which dropped entries with non-ASCII names
+hedtsk_ravens_progressive_matrices	Raven's Progressive Matrices Task	exact	tsk_SJ4Q7gOYfy25Y	Raven's Progressive Matrices Test	492	1	2	Missed by the 2025 harvest, which dropped entries with non-ASCII names
 hedtsk_reading_the_mind_in_the_eyes	Reading the Mind in the Eyes Task	none						No RMET entry
 hedtsk_remember_know	Remember/Know Task	exact	trm_4da63146f12d7	remember/know task	28		1	28-char definition, zero concepts
 hedtsk_remote_associates	Remote Associates Task	exact	tsk_ZMTNk4Oce5b2j	Remote Associates Test	843		1	843-char definition but zero concepts

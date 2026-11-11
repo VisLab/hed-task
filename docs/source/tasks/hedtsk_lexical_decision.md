@@ -34,7 +34,7 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Measurements**
   - - RT and accuracy
     - Frequency effect
-    - Priming effect (primed − unprimed RT)
+    - Priming effect (primed - unprimed RT)
     - d-prime
 ```
 
@@ -110,10 +110,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Keuleers, E., & Brysbaert, M. (2010). Wuggy: A multilingual pseudoword generator. *Behavior Research Methods*, 42(3), 627–633. [Updated: Keuleers, E., Lacey, P., Rastle, K., & Brysbaert, M. (2012). The British Lexicon Project. *Quarterly Journal of Experimental Psychology*, 65(8), 1441–1469.] ([DOI](https://doi.org/10.3758/brm.42.3.627), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20805584/))
-- Taylor, J. S. H., Rastle, K., & Davis, M. H. (2013). Can cognitive models explain brain activation during word and pseudoword reading? A meta-analysis of 36 neuroimaging studies. *Psychological Bulletin*, 139(4), 766–791. ([DOI](https://doi.org/10.1037/a0030266), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23046391/))
-- Balota, D. A., Yap, M. J., Hutchison, K. A., et al. (2007). The English Lexicon Project. *Behavior Research Methods*, 39(3), 445–459. [Megastudy approach] ([DOI](https://doi.org/10.3758/bf03193014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17958156/))
-- Ratcliff, R., Gomez, P., & McKoon, G. (2004). A diffusion model account of the lexical decision task. *Psychological Review*, 111(1), 159–182. ([DOI](https://doi.org/10.1037/0033-295x.111.1.159), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14756592/))
+- Keuleers, E., & Brysbaert, M. (2010). Wuggy: A multilingual pseudoword generator. *Behavior Research Methods*, 42(3), 627-633. [Updated: Keuleers, E., Lacey, P., Rastle, K., & Brysbaert, M. (2012). The British Lexicon Project. *Quarterly Journal of Experimental Psychology*, 65(8), 1441-1469.] ([DOI](https://doi.org/10.3758/brm.42.3.627), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20805584/))
+- Taylor, J. S. H., Rastle, K., & Davis, M. H. (2013). Can cognitive models explain brain activation during word and pseudoword reading? A meta-analysis of 36 neuroimaging studies. *Psychological Bulletin*, 139(4), 766-791. ([DOI](https://doi.org/10.1037/a0030266), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23046391/))
+- Balota, D. A., Yap, M. J., Hutchison, K. A., et al. (2007). The English Lexicon Project. *Behavior Research Methods*, 39(3), 445-459. [Megastudy approach] ([DOI](https://doi.org/10.3758/bf03193014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17958156/))
+- Ratcliff, R., Gomez, P., & McKoon, G. (2004). A diffusion model account of the lexical decision task. *Psychological Review*, 111(1), 159-182. ([DOI](https://doi.org/10.1037/0033-295x.111.1.159), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14756592/))
 - Ball, L. V., Brusini, P., & Bannard, C. (2025). Revisiting novel word semantic priming: The role of strategic priming mechanisms. *Quarterly Journal of Experimental Psychology*, 78. doi:10.1177/17470218241306747
 
 ## External links

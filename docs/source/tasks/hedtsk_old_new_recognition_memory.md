@@ -109,9 +109,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Wixted, J. T. (2007). Dual-process theory and signal-detection theory of recognition memory. *Psychological Review*, 114(1), 152–176. ([DOI](https://doi.org/10.1037/0033-295x.114.1.152), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17227185/))
-- Rugg, M. D., & Vilberg, K. L. (2013). Brain networks underlying episodic memory retrieval. *Current Opinion in Neurobiology*, 23(2), 255–260. ([DOI](https://doi.org/10.1016/j.conb.2012.11.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23206590/))
-- Wixted, J. T., & Mickes, L. (2014). A signal-detection-based diagnostic-feature-detection model of eyewitness identification. *Psychological Review*, 121(4), 588–607. ([DOI](https://doi.org/10.1037/a0035940), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24730600/))
+- Wixted, J. T. (2007). Dual-process theory and signal-detection theory of recognition memory. *Psychological Review*, 114(1), 152-176. ([DOI](https://doi.org/10.1037/0033-295x.114.1.152), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17227185/))
+- Rugg, M. D., & Vilberg, K. L. (2013). Brain networks underlying episodic memory retrieval. *Current Opinion in Neurobiology*, 23(2), 255-260. ([DOI](https://doi.org/10.1016/j.conb.2012.11.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23206590/))
+- Wixted, J. T., & Mickes, L. (2014). A signal-detection-based diagnostic-feature-detection model of eyewitness identification. *Psychological Review*, 121(4), 588-607. ([DOI](https://doi.org/10.1037/a0035940), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24730600/))
 
 ## External links
 

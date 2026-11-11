@@ -130,6 +130,36 @@ def _check_memberships(records: list[dict], field: str, id_key: str, known: set[
                 problems.append(f"{label} {m.get(id_key)}: a secondary or review membership needs a rationale")
 
 
+# Reference fields that hold author names and published titles. A letter outside ASCII
+# (Jolicoeur written with its ligature, a German umlaut) is genuine data there and stays;
+# everywhere else, and for every symbol, the data is ASCII only.
+_REFERENCE_TEXT_FIELDS = {"authors", "title", "journal", "venue", "pages", "citation_string"}
+
+
+def _check_ascii(label: str, value, problems: list[str], path: str = "", in_reference: bool = False) -> None:
+    """Report every non-ASCII character in a JSON value, except letters in reference text.
+
+    Parameters:
+        label: The file name, for messages.
+        value: A JSON value (dict, list, string or scalar).
+        problems: The list to append messages to.
+        path: Where `value` sits in the file, for messages.
+        in_reference: True inside a reference record.
+    """
+    if isinstance(value, dict):
+        for key, item in value.items():
+            allowed = in_reference and key in _REFERENCE_TEXT_FIELDS
+            _check_ascii(label, item, problems, f"{path}/{key}", allowed or (key == "references"))
+    elif isinstance(value, list):
+        for i, item in enumerate(value):
+            _check_ascii(label, item, problems, f"{path}/{i}", in_reference)
+    elif isinstance(value, str):
+        bad = sorted({c for c in value if ord(c) > 127 and not (in_reference and c.isalpha())})
+        if bad:
+            chars = ", ".join(f"U+{ord(c):04X}" for c in bad)
+            problems.append(f"{label} at {path}: non-ASCII {chars} in {value[:80]!r}")
+
+
 def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None:
     """Check the two catalog files against their schemas and against each other.
 
@@ -253,6 +283,18 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
             if expected_id in seen_var:
                 problems.append(f"{t['hedtsk_id']}: duplicate variation id {expected_id!r}")
             seen_var.add(expected_id)
+
+    # ASCII only, apart from letters in author names and published titles. The TSV
+    # tables have no such fields, so they are ASCII throughout; the Atlas tables are
+    # cleaned when src/build_atlas_maps.py writes them.
+    _check_ascii("task_details.json", tasks, problems)
+    _check_ascii("process_details.json", proc_data, problems)
+    for tsv in sorted(data_dir.rglob("*.tsv")):
+        for n, line in enumerate(tsv.read_text(encoding="utf-8").splitlines(), 1):
+            bad = sorted({c for c in line if ord(c) > 127})
+            if bad:
+                chars = ", ".join(f"U+{ord(c):04X}" for c in bad)
+                problems.append(f"{tsv.relative_to(data_dir).as_posix()}:{n}: non-ASCII {chars}")
 
     if problems:
         sys.exit(f"Catalog data is inconsistent ({len(problems)} problems); nothing written.\n  " + "\n  ".join(problems))

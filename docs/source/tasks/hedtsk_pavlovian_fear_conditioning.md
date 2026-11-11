@@ -24,15 +24,15 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - 1. Participants view a neutral stimulus (CS+) paired with an aversive unconditioned stimulus (US, typically mild shock or loud noise).
-    2. Another stimulus (CS−) is never paired.
+    2. Another stimulus (CS-) is never paired.
     3. Acquisition is followed by extinction (CS+ presented without US).
 * - **Manipulations**
-  - - CS+/CS− discrimination
+  - - CS+/CS- discrimination
     - Reinforcement schedule (partial vs. 100%)
     - Extinction timing
     - reinstatement/renewal context
 * - **Measurements**
-  - - Differential SCR (CS+ > CS−)
+  - - Differential SCR (CS+ > CS-)
     - Startle potentiation
     - fMRI amygdala and vmPFC activation
     - Fear ratings
@@ -66,7 +66,7 @@ of a variation is `hedvar_<task>__<variation>`.
     `hedvar_pavlovian_fear_conditioning__contextual_conditioning`
   - No discrete cue predicts the shock. Instead shocks occur at unpredictable times in a particular setting, such as one of two virtual rooms or a background color, and fear becomes attached to the setting itself.
   - Context (environment) as CS; different stimulus type
-* - Differential Conditioning (CS+/CS−)
+* - Differential Conditioning (CS+/CS-)
 
     `hedvar_pavlovian_fear_conditioning__differential_conditioning_cs_cs`
   - Two cues are used: one is followed by the shock and the other never is. Fear to the paired cue minus fear to the safe cue shows that the participant learned the specific prediction, not just a general wariness.
@@ -131,9 +131,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Fullana, M. A., Harrison, B. J., Soriano-Mas, C., et al. (2016). Neural signatures of human fear conditioning: An updated and extended meta-analysis of fMRI studies. *Molecular Psychiatry*, 21(4), 500–508. ([DOI](https://doi.org/10.1038/mp.2015.88))
-- Lonsdorf, T. B., Menz, M. M., Andreatta, M., et al. (2017). Don't fear 'fear conditioning': Methodological considerations for the design and analysis of studies on human fear acquisition, extinction, and return of fear. *Neuroscience & Biobehavioral Reviews*, 77, 247–285. ([DOI](https://doi.org/10.1016/j.neubiorev.2017.02.026), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28263758/))
-- Duits, P., Cath, D. C., Lissek, S., et al. (2015). Updated meta-analysis of classical fear conditioning in the anxiety disorders. *Depression and Anxiety*, 32(4), 239–253. ([DOI](https://doi.org/10.1002/da.22353), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25703487/))
+- Fullana, M. A., Harrison, B. J., Soriano-Mas, C., et al. (2016). Neural signatures of human fear conditioning: An updated and extended meta-analysis of fMRI studies. *Molecular Psychiatry*, 21(4), 500-508. ([DOI](https://doi.org/10.1038/mp.2015.88))
+- Lonsdorf, T. B., Menz, M. M., Andreatta, M., et al. (2017). Don't fear 'fear conditioning': Methodological considerations for the design and analysis of studies on human fear acquisition, extinction, and return of fear. *Neuroscience & Biobehavioral Reviews*, 77, 247-285. ([DOI](https://doi.org/10.1016/j.neubiorev.2017.02.026), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28263758/))
+- Duits, P., Cath, D. C., Lissek, S., et al. (2015). Updated meta-analysis of classical fear conditioning in the anxiety disorders. *Depression and Anxiety*, 32(4), 239-253. ([DOI](https://doi.org/10.1002/da.22353), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25703487/))
 - Radua, J., Savage, H. S., Vilajosana, E., et al. (2025). Neural correlates of human fear conditioning and sources of variability in 2199 individuals. *Nature Communications*, 16(1), 7869.
 - López-Blanco, A., et al. (2025). Pharmacological enhancement of fear extinction. *Trends in Cognitive Sciences*, 29(2). doi:10.1016/j.tics.2025.xxx ([DOI](https://doi.org/10.1016/j.tics.2025.xxx))
 

@@ -22,7 +22,7 @@ Mapping of relational structure from a source domain to a target domain.
 
 **Fundamental references**
 
-- Gentner (1983) *Cognitive Science* 7:155–170 ([DOI](https://doi.org/10.1207/s15516709cog0702_3))
+- Gentner (1983) *Cognitive Science* 7:155-170 ([DOI](https://doi.org/10.1207/s15516709cog0702_3))
 
 (hed-categorization)=
 ## Categorization
@@ -35,11 +35,11 @@ Assignment of instances to categories according to their features.
 
 **Fundamental references**
 
-- Rosch (1973) *Cognitive Psychology* 4:328–350 ([DOI](https://doi.org/10.1016/0010-0285(73)90017-0))
+- Rosch (1973) *Cognitive Psychology* 4:328-350 ([DOI](https://doi.org/10.1016/0010-0285(73)90017-0))
 
 **Further references**
 
-- Seger & Miller (2010) *Annual Review of Neuroscience* 33:203–219 ([DOI](https://doi.org/10.1146/annurev.neuro.051508.135546))
+- Seger & Miller (2010) *Annual Review of Neuroscience* 33:203-219 ([DOI](https://doi.org/10.1146/annurev.neuro.051508.135546))
 
 (hed-causal-reasoning)=
 ## Causal reasoning
@@ -48,13 +48,13 @@ Assignment of instances to categories according to their features.
 
 **Also known as:** causal inference
 
-Inference about cause–effect relations from observation and intervention.
+Inference about cause-effect relations from observation and intervention.
 
 **Tasks that engage this process:** [Causal Learning Task](../tasks/hedtsk_causal_learning.md)
 
 **Fundamental references**
 
-- Cheng (1997) *Psychological Review* 104:367–405 ([DOI](https://doi.org/10.1037/0033-295x.104.2.367))
+- Cheng (1997) *Psychological Review* 104:367-405 ([DOI](https://doi.org/10.1037/0033-295x.104.2.367))
 
 (hed-deductive-reasoning)=
 ## Deductive reasoning
@@ -69,11 +69,11 @@ Inference in which the conclusion follows necessarily from the premises.
 
 **Fundamental references**
 
-- Wason (1968) *Quarterly Journal of Experimental Psychology* 20:273–281 ([DOI](https://doi.org/10.1080/14640746808400161))
+- Wason (1968) *Quarterly Journal of Experimental Psychology* 20:273-281 ([DOI](https://doi.org/10.1080/14640746808400161))
 
 **Further references**
 
-- Goel (2007) *Trends in Cognitive Sciences* 11:435–441 ([DOI](https://doi.org/10.1016/j.tics.2007.09.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17913567/))
+- Goel (2007) *Trends in Cognitive Sciences* 11:435-441 ([DOI](https://doi.org/10.1016/j.tics.2007.09.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17913567/))
 
 (hed-hypothesis-testing)=
 ## Hypothesis testing
@@ -86,7 +86,7 @@ Generation and evaluation of alternative explanations against evidence.
 
 **Further references**
 
-- Klayman (1995) *Psychology of Learning and Motivation* 32:385–418 ([DOI](https://doi.org/10.1016/s0079-7421(08)60315-1))
+- Klayman (1995) *Psychology of Learning and Motivation* 32:385-418 ([DOI](https://doi.org/10.1016/s0079-7421(08)60315-1))
 
 (hed-inductive-reasoning)=
 ## Inductive reasoning
@@ -99,11 +99,11 @@ Inference from specific instances to general principles; probabilistic rather th
 
 **Fundamental references**
 
-- Rips (1975) *Journal of Verbal Learning and Verbal Behavior* 14:665–681 ([DOI](https://doi.org/10.1016/s0022-5371(75)80055-7))
+- Rips (1975) *Journal of Verbal Learning and Verbal Behavior* 14:665-681 ([DOI](https://doi.org/10.1016/s0022-5371(75)80055-7))
 
 **Further references**
 
-- Kemp & Tenenbaum (2009) *Psychological Review* 116:20–58 ([DOI](https://doi.org/10.1037/a0014282))
+- Kemp & Tenenbaum (2009) *Psychological Review* 116:20-58 ([DOI](https://doi.org/10.1037/a0014282))
 
 (hed-insight)=
 ## Insight
@@ -138,7 +138,7 @@ Manipulation of numerical and algebraic quantities and relations.
 
 **Further references**
 
-- Amalric & Dehaene (2016) *PNAS* 113:4909–4917 ([DOI](https://doi.org/10.1073/pnas.1603205113))
+- Amalric & Dehaene (2016) *PNAS* 113:4909-4917 ([DOI](https://doi.org/10.1073/pnas.1603205113))
 
 (hed-means-ends-analysis)=
 ## Means-ends analysis
@@ -169,7 +169,7 @@ Mental formulation of a sequence of actions toward a goal before execution.
 
 **Fundamental references**
 
-- Shallice (1982) *Philosophical Transactions B* 298:199–209 (Tower of London) ([DOI](https://doi.org/10.1098/rstb.1982.0082))
+- Shallice (1982) *Philosophical Transactions B* 298:199-209 (Tower of London) ([DOI](https://doi.org/10.1098/rstb.1982.0082))
 
 (hed-subgoaling)=
 ## Subgoaling

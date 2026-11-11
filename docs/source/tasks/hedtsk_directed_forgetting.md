@@ -73,7 +73,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_directed_forgetting__emotional_directed_forgetting`
   - The studied items include emotional words or pictures as well as neutral ones. Tests whether emotional material can be forgotten on instruction as easily as neutral material.
-  - Emotional to-be-forgotten material; retained per §5.1 (EMOT retired)
+  - Emotional to-be-forgotten material; retained per section 5.1 (EMOT retired)
 * - Directed Forgetting of Actions (SPT)
 
     `hedvar_directed_forgetting__directed_forgetting_of_actions_spt`
@@ -98,14 +98,14 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Bjork, R. A. (1970). Positive forgetting: The noninterference of items intentionally forgotten. *Journal of Verbal Learning and Verbal Behavior*, 9(3), 255–268. ([DOI](https://doi.org/10.1016/s0022-5371(70)80059-7))
+- Bjork, R. A. (1970). Positive forgetting: The noninterference of items intentionally forgotten. *Journal of Verbal Learning and Verbal Behavior*, 9(3), 255-268. ([DOI](https://doi.org/10.1016/s0022-5371(70)80059-7))
 
 ## Further references
 
-- Anderson, M. C., & Hanslmayr, S. (2014). Neural mechanisms of motivated forgetting. *Trends in Cognitive Sciences*, 18(6), 279–292. ([DOI](https://doi.org/10.1016/j.tics.2014.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24747000/))
-- Pastötter, B., & Bäuml, K.-H. T. (2014). Distinct slow and fast cortical theta dynamics in episodic memory retrieval. *NeuroImage*, 94, 155–161. ([DOI](https://doi.org/10.1016/j.neuroimage.2014.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24632089/))
-- Sahakyan, L., Delaney, P. F., Foster, N. L., & Abushanab, B. (2013). List-method directed forgetting in cognitive and clinical research: A theoretical and methodological review. *Psychology of Learning and Motivation*, 59, 131–189. ([DOI](https://doi.org/10.1016/b978-0-12-407187-2.00004-6))
-- Fellner, M.-C., Waldhauser, G. T., & Axmacher, N. (2020). Tracking selective rehearsal and active inhibition of memory traces in directed forgetting. *Current Biology*, 30(13), 2638–2644. ([DOI](https://doi.org/10.1016/j.cub.2020.04.091), [PubMed](https://pubmed.ncbi.nlm.nih.gov/32442462/))
+- Anderson, M. C., & Hanslmayr, S. (2014). Neural mechanisms of motivated forgetting. *Trends in Cognitive Sciences*, 18(6), 279-292. ([DOI](https://doi.org/10.1016/j.tics.2014.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24747000/))
+- Pastötter, B., & Bäuml, K.-H. T. (2014). Distinct slow and fast cortical theta dynamics in episodic memory retrieval. *NeuroImage*, 94, 155-161. ([DOI](https://doi.org/10.1016/j.neuroimage.2014.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24632089/))
+- Sahakyan, L., Delaney, P. F., Foster, N. L., & Abushanab, B. (2013). List-method directed forgetting in cognitive and clinical research: A theoretical and methodological review. *Psychology of Learning and Motivation*, 59, 131-189. ([DOI](https://doi.org/10.1016/b978-0-12-407187-2.00004-6))
+- Fellner, M.-C., Waldhauser, G. T., & Axmacher, N. (2020). Tracking selective rehearsal and active inhibition of memory traces in directed forgetting. *Current Biology*, 30(13), 2638-2644. ([DOI](https://doi.org/10.1016/j.cub.2020.04.091), [PubMed](https://pubmed.ncbi.nlm.nih.gov/32442462/))
 
 ## External links
 

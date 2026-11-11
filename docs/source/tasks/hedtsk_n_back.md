@@ -28,7 +28,7 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Manipulations**
   - - Load level (N = 0, 1, 2, 3)
     - Stimulus type (letters, locations, faces)
-    - Lure trials (N±1 matches)
+    - Lure trials (N+/-1 matches)
     - Dual N-back (two simultaneous streams)
 * - **Measurements**
   - - Hit rate
@@ -64,7 +64,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_n_back__emotional_n_back`
   - The items are faces with emotional expressions or emotional words, and the participant matches on identity or expression n items back, so that memory updating is measured with emotional content.
-  - Emotional stimuli; retained per §5.1 (EMOT retired)
+  - Emotional stimuli; retained per section 5.1 (EMOT retired)
 * - Dual N-Back
 
     `hedvar_n_back__dual_n_back`
@@ -109,10 +109,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Redick, T. S., & Lindsey, D. R. B. (2013). Complex span and n-back measures of working memory: A meta-analysis. *Psychonomic Bulletin & Review*, 20(6), 1102–1113. ([DOI](https://doi.org/10.3758/s13423-013-0453-9), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23733330/))
-- Jaeggi, S. M., Buschkuehl, M., Perrig, W. J., & Meier, B. (2010). The concurrent validity of the N-back task as a working memory measure. *Memory*, 18(4), 394–412. ([DOI](https://doi.org/10.1080/09658211003702171), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20408039/))
-- Chatham, C. H., Herd, S. A., Brant, A. M., Hazy, T. E., Miyake, A., O'Reilly, R., & Friedman, N. P. (2011). From an executive network to executive control: A computational model of the n-back task. *Journal of Cognitive Neuroscience*, 23(11), 3598–3619. ([DOI](https://doi.org/10.1162/jocn_a_00047), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21563882/))
-- Soveri, A., Antfolk, J., Karlsson, L., Salo, B., & Laine, M. (2017). Working memory training revisited: A multi-level meta-analysis of n-back training studies. *Psychonomic Bulletin & Review*, 24(4), 1077–1096. ([DOI](https://doi.org/10.3758/s13423-016-1217-0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28116702/))
+- Redick, T. S., & Lindsey, D. R. B. (2013). Complex span and n-back measures of working memory: A meta-analysis. *Psychonomic Bulletin & Review*, 20(6), 1102-1113. ([DOI](https://doi.org/10.3758/s13423-013-0453-9), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23733330/))
+- Jaeggi, S. M., Buschkuehl, M., Perrig, W. J., & Meier, B. (2010). The concurrent validity of the N-back task as a working memory measure. *Memory*, 18(4), 394-412. ([DOI](https://doi.org/10.1080/09658211003702171), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20408039/))
+- Chatham, C. H., Herd, S. A., Brant, A. M., Hazy, T. E., Miyake, A., O'Reilly, R., & Friedman, N. P. (2011). From an executive network to executive control: A computational model of the n-back task. *Journal of Cognitive Neuroscience*, 23(11), 3598-3619. ([DOI](https://doi.org/10.1162/jocn_a_00047), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21563882/))
+- Soveri, A., Antfolk, J., Karlsson, L., Salo, B., & Laine, M. (2017). Working memory training revisited: A multi-level meta-analysis of n-back training studies. *Psychonomic Bulletin & Review*, 24(4), 1077-1096. ([DOI](https://doi.org/10.3758/s13423-016-1217-0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28116702/))
 - Exploring the n-back task: insights, applications, and future directions. (2025). *Frontiers in Human Neuroscience*, 19, 1721330. doi:10.3389/fnhum.2025.1721330 ([DOI](https://doi.org/10.3389/fnhum.2025.1721330), [PubMed](https://pubmed.ncbi.nlm.nih.gov/41426299/))
 
 ## External links

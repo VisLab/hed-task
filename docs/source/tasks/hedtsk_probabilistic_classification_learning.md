@@ -104,10 +104,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Knowlton, B. J., & Patterson, T. K. (2018). Habit formation and the striatum. *Current Topics in Behavioral Neurosciences*, 37, 275–295. ([DOI](https://doi.org/10.1007/7854_2016_451))
-- Meeter, M., Myers, C. E., Shohamy, D., Hopkins, R. O., & Gluck, M. A. (2006). Strategies in probabilistic categorization: Results from a new way of analyzing performance. *Learning & Memory*, 13(2), 230–239. ([DOI](https://doi.org/10.1101/lm.43006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16547162/))
-- Price, A. L. (2009). Distinguishing the contributions of implicit and explicit processes to performance of the weather prediction task. *Memory & Cognition*, 37(2), 210–222. ([DOI](https://doi.org/10.3758/mc.37.2.210), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19223570/))
-- Foerde, K., Knowlton, B. J., & Poldrack, R. A. (2006). Modulation of competing memory systems by distraction. *Proceedings of the National Academy of Sciences*, 103(31), 11778–11783. ([DOI](https://doi.org/10.1073/pnas.0602659103), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16868087/))
+- Knowlton, B. J., & Patterson, T. K. (2018). Habit formation and the striatum. *Current Topics in Behavioral Neurosciences*, 37, 275-295. ([DOI](https://doi.org/10.1007/7854_2016_451))
+- Meeter, M., Myers, C. E., Shohamy, D., Hopkins, R. O., & Gluck, M. A. (2006). Strategies in probabilistic categorization: Results from a new way of analyzing performance. *Learning & Memory*, 13(2), 230-239. ([DOI](https://doi.org/10.1101/lm.43006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16547162/))
+- Price, A. L. (2009). Distinguishing the contributions of implicit and explicit processes to performance of the weather prediction task. *Memory & Cognition*, 37(2), 210-222. ([DOI](https://doi.org/10.3758/mc.37.2.210), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19223570/))
+- Foerde, K., Knowlton, B. J., & Poldrack, R. A. (2006). Modulation of competing memory systems by distraction. *Proceedings of the National Academy of Sciences*, 103(31), 11778-11783. ([DOI](https://doi.org/10.1073/pnas.0602659103), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16868087/))
 
 ## External links
 

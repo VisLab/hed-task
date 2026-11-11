@@ -11,7 +11,7 @@ Speeded categorization of stimuli belonging to two target concepts and two evalu
 
 ## Description
 
-Participants rapidly classify stimuli from four categories using two response keys. Two categories are target concepts (e.g., "flowers" vs. "insects") and two are evaluative attributes (e.g., "pleasant" vs. "unpleasant"). In the critical comparison, one block pairs congruent categories on the same key (flowers + pleasant) and another pairs incongruent categories (flowers + unpleasant). The IAT effect — faster responding in the congruent block — is interpreted as reflecting the strength of automatic associations between the concepts and attributes. Greenwald et al. (1998) introduced the IAT as a measure of implicit attitudes, and it has become one of the most widely administered psychological tests, with applications spanning racial bias, self-esteem, clinical anxiety, consumer preferences, and political attitudes.
+Participants rapidly classify stimuli from four categories using two response keys. Two categories are target concepts (e.g., "flowers" vs. "insects") and two are evaluative attributes (e.g., "pleasant" vs. "unpleasant"). In the critical comparison, one block pairs congruent categories on the same key (flowers + pleasant) and another pairs incongruent categories (flowers + unpleasant). The IAT effect - faster responding in the congruent block - is interpreted as reflecting the strength of automatic associations between the concepts and attributes. Greenwald et al. (1998) introduced the IAT as a measure of implicit attitudes, and it has become one of the most widely administered psychological tests, with applications spanning racial bias, self-esteem, clinical anxiety, consumer preferences, and political attitudes.
 
 ## Inclusion test
 
@@ -90,7 +90,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_implicit_association__developmental_child_iat`
   - A version for children in which all categories are pictures rather than words, instructions are spoken, there are fewer trials, and the sorting keys are large buttons or a touch screen.
-  - Picture-based categories for children; procedure adapted per §5.3
+  - Picture-based categories for children; procedure adapted per section 5.3
 ```
 
 ## Cognitive processes
@@ -106,16 +106,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Greenwald, A. G., McGhee, D. E., & Schwartz, J. L. K. (1998). Measuring individual differences in implicit cognition: The Implicit Association Test. *Journal of Personality and Social Psychology*, 74(6), 1464–1480. ([DOI](https://doi.org/10.1037/0022-3514.74.6.1464), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9654756/))
-- Greenwald, A. G., Nosek, B. A., & Banaji, M. R. (2003). Understanding and using the Implicit Association Test: I. An improved scoring algorithm. *Journal of Personality and Social Psychology*, 85(2), 197–216. ([DOI](https://doi.org/10.1037/0022-3514.85.2.197), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12916565/))
-- Nosek, B. A., Greenwald, A. G., & Banaji, M. R. (2005). Understanding and using the Implicit Association Test: II. Method variables and construct validity. *Personality and Social Psychology Bulletin*, 31(2), 166–180. ([DOI](https://doi.org/10.1177/0146167204271418), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15619590/))
+- Greenwald, A. G., McGhee, D. E., & Schwartz, J. L. K. (1998). Measuring individual differences in implicit cognition: The Implicit Association Test. *Journal of Personality and Social Psychology*, 74(6), 1464-1480. ([DOI](https://doi.org/10.1037/0022-3514.74.6.1464), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9654756/))
+- Greenwald, A. G., Nosek, B. A., & Banaji, M. R. (2003). Understanding and using the Implicit Association Test: I. An improved scoring algorithm. *Journal of Personality and Social Psychology*, 85(2), 197-216. ([DOI](https://doi.org/10.1037/0022-3514.85.2.197), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12916565/))
+- Nosek, B. A., Greenwald, A. G., & Banaji, M. R. (2005). Understanding and using the Implicit Association Test: II. Method variables and construct validity. *Personality and Social Psychology Bulletin*, 31(2), 166-180. ([DOI](https://doi.org/10.1177/0146167204271418), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15619590/))
 
 ## Further references
 
-- Greenwald, A. G., Banaji, M. R., & Nosek, B. A. (2015). Statistically small effects of the Implicit Association Test can have societally large effects. *Journal of Personality and Social Psychology*, 108(4), 553–561. ([DOI](https://doi.org/10.1037/pspa0000016), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25402677/))
-- Kurdi, B., Seitchik, A. E., Axt, J. R., Carroll, T. J., Karapetyan, A., Kaushik, N., ... & Banaji, M. R. (2019). Relationship between the Implicit Association Test and intergroup behavior: A meta-analysis. *American Psychologist*, 74(5), 569–586. ([DOI](https://doi.org/10.1037/amp0000364), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30550298/))
+- Greenwald, A. G., Banaji, M. R., & Nosek, B. A. (2015). Statistically small effects of the Implicit Association Test can have societally large effects. *Journal of Personality and Social Psychology*, 108(4), 553-561. ([DOI](https://doi.org/10.1037/pspa0000016), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25402677/))
+- Kurdi, B., Seitchik, A. E., Axt, J. R., Carroll, T. J., Karapetyan, A., Kaushik, N., ... & Banaji, M. R. (2019). Relationship between the Implicit Association Test and intergroup behavior: A meta-analysis. *American Psychologist*, 74(5), 569-586. ([DOI](https://doi.org/10.1037/amp0000364), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30550298/))
 - Meissner, F., Grigutsch, L. A., Koranyi, N., Müller, F., & Rothermund, K. (2019). Predicting behavior with implicit measures: Disillusioning findings, reasonable explanations, and sophisticated solutions. *Frontiers in Psychology*, 10, 2483. ([DOI](https://doi.org/10.3389/fpsyg.2019.02483), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31787912/))
-- Charlesworth, T. E. S., & Banaji, M. R. (2019). Patterns of implicit and explicit attitudes: I. Long-term change and stability from 2007 to 2016. *Psychological Science*, 30(2), 174–192. ([DOI](https://doi.org/10.1177/0956797618813087), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30605364/))
+- Charlesworth, T. E. S., & Banaji, M. R. (2019). Patterns of implicit and explicit attitudes: I. Long-term change and stability from 2007 to 2016. *Psychological Science*, 30(2), 174-192. ([DOI](https://doi.org/10.1177/0956797618813087), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30605364/))
 
 ## External links
 

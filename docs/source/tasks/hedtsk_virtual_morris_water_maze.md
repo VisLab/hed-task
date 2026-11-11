@@ -115,10 +115,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Epstein, R. A., Patai, E. Z., Julian, J. B., & Spiers, H. J. (2017). The cognitive map in humans: Spatial navigation and beyond. *Nature Neuroscience*, 20(11), 1504–1513. ([DOI](https://doi.org/10.1038/nn.4656), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29073650/))
-- Ekstrom, A. D., & Isham, E. A. (2017). Human spatial navigation: Representations across dimensions and scales. *Current Opinion in Behavioral Sciences*, 17, 84–89. ([DOI](https://doi.org/10.1016/j.cobeha.2017.06.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29130062/))
-- Coughlan, G., Laczó, J., Hort, J., Minihane, A. M., & Hornberger, M. (2018). Spatial navigation deficits—overlooked cognitive marker for preclinical Alzheimer disease? *Nature Reviews Neurology*, 14(8), 496–506. ([DOI](https://doi.org/10.1038/s41582-018-0031-x), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29980763/))
-- Spiers, H. J., & Barry, C. (2015). Neural systems supporting navigation. *Current Opinion in Behavioral Sciences*, 1, 47–55. ([DOI](https://doi.org/10.1016/j.cobeha.2014.08.005))
+- Epstein, R. A., Patai, E. Z., Julian, J. B., & Spiers, H. J. (2017). The cognitive map in humans: Spatial navigation and beyond. *Nature Neuroscience*, 20(11), 1504-1513. ([DOI](https://doi.org/10.1038/nn.4656), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29073650/))
+- Ekstrom, A. D., & Isham, E. A. (2017). Human spatial navigation: Representations across dimensions and scales. *Current Opinion in Behavioral Sciences*, 17, 84-89. ([DOI](https://doi.org/10.1016/j.cobeha.2017.06.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29130062/))
+- Coughlan, G., Laczó, J., Hort, J., Minihane, A. M., & Hornberger, M. (2018). Spatial navigation deficits - overlooked cognitive marker for preclinical Alzheimer disease? *Nature Reviews Neurology*, 14(8), 496-506. ([DOI](https://doi.org/10.1038/s41582-018-0031-x), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29980763/))
+- Spiers, H. J., & Barry, C. (2015). Neural systems supporting navigation. *Current Opinion in Behavioral Sciences*, 1, 47-55. ([DOI](https://doi.org/10.1016/j.cobeha.2014.08.005))
 
 ## External links
 

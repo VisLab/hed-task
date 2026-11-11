@@ -23,7 +23,7 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants view a 3×3 matrix of geometric patterns with one cell missing and select the pattern that completes the matrix from a set of alternatives.
+  - Participants view a 3x3 matrix of geometric patterns with one cell missing and select the pattern that completes the matrix from a set of alternatives.
 * - **Manipulations**
   - - Number of relational rules to integrate
     - Rule types (distribution of values, quantitative progression, figure addition)
@@ -65,7 +65,7 @@ of a variation is `hedvar_<task>__<variation>`.
 
     `hedvar_ravens_progressive_matrices__computerized_adaptive_version`
   - Items are presented on a computer, and which item comes next is chosen from the participant's answers so far, giving harder items after correct answers and easier ones after errors. Fewer items are needed for a precise score.
-  - Per §5.6: adaptive algorithm changes which items presented; procedural change beyond interface
+  - Per section 5.6: adaptive algorithm changes which items presented; procedural change beyond interface
 * - Matrix Reasoning (WAIS subtest)
 
     `hedvar_ravens_progressive_matrices__matrix_reasoning_wais_subtest`
@@ -100,17 +100,17 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Carpenter, P. A., Just, M. A., & Shell, P. (1990). What one intelligence test measures: A theoretical account of the processing in the Raven Progressive Matrices Test. *Psychological Review*, 97(3), 404–431. ([DOI](https://doi.org/10.1037/0033-295x.97.3.404), [PubMed](https://pubmed.ncbi.nlm.nih.gov/2381998/))
-- Gray, J. R., Chabris, C. F., & Braver, T. S. (2003). Neural mechanisms of general fluid intelligence. *Nature Neuroscience*, 6(3), 316–322. ([DOI](https://doi.org/10.1038/nn1014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12592404/))
+- Carpenter, P. A., Just, M. A., & Shell, P. (1990). What one intelligence test measures: A theoretical account of the processing in the Raven Progressive Matrices Test. *Psychological Review*, 97(3), 404-431. ([DOI](https://doi.org/10.1037/0033-295x.97.3.404), [PubMed](https://pubmed.ncbi.nlm.nih.gov/2381998/))
+- Gray, J. R., Chabris, C. F., & Braver, T. S. (2003). Neural mechanisms of general fluid intelligence. *Nature Neuroscience*, 6(3), 316-322. ([DOI](https://doi.org/10.1038/nn1014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12592404/))
 
 ## Further references
 
-- Prabhakaran, V., Smith, J. A. L., Desmond, J. E., Glover, G. H., & Gabrieli, J. D. E. (1997). Neural substrates of fluid reasoning: An fMRI study of neocortical activation during performance of the Raven's Progressive Matrices test. *Cognitive Psychology*, 33(1), 43–63. ([DOI](https://doi.org/10.1006/cogp.1997.0659), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9212721/))
-- Kievit, R. A., Davis, S. W., Griffiths, J., Correia, M. M., Cam-CAN, & Henson, R. N. (2016). A watershed model of individual differences in fluid intelligence. *Neuropsychologia*, 91, 186–198. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2016.08.008), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27520470/))
-- Matzen, L. E., Benz, Z. O., Dixon, K. R., Posey, J., Kroger, J. K., & Speed, A. E. (2010). Recreating Raven's: Software for systematically generating large numbers of Raven-like matrix problems with normed properties. *Behavior Research Methods*, 42(2), 525–541. ([DOI](https://doi.org/10.3758/brm.42.2.525), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20479184/))
-- Hayes, T. R., Petrov, A. A., & Sederberg, P. B. (2015). Do we really become smarter when our fluid-intelligence test scores improve? *Intelligence*, 48, 1–14. ([DOI](https://doi.org/10.1016/j.intell.2014.10.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25395695/))
+- Prabhakaran, V., Smith, J. A. L., Desmond, J. E., Glover, G. H., & Gabrieli, J. D. E. (1997). Neural substrates of fluid reasoning: An fMRI study of neocortical activation during performance of the Raven's Progressive Matrices test. *Cognitive Psychology*, 33(1), 43-63. ([DOI](https://doi.org/10.1006/cogp.1997.0659), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9212721/))
+- Kievit, R. A., Davis, S. W., Griffiths, J., Correia, M. M., Cam-CAN, & Henson, R. N. (2016). A watershed model of individual differences in fluid intelligence. *Neuropsychologia*, 91, 186-198. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2016.08.008), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27520470/))
+- Matzen, L. E., Benz, Z. O., Dixon, K. R., Posey, J., Kroger, J. K., & Speed, A. E. (2010). Recreating Raven's: Software for systematically generating large numbers of Raven-like matrix problems with normed properties. *Behavior Research Methods*, 42(2), 525-541. ([DOI](https://doi.org/10.3758/brm.42.2.525), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20479184/))
+- Hayes, T. R., Petrov, A. A., & Sederberg, P. B. (2015). Do we really become smarter when our fluid-intelligence test scores improve? *Intelligence*, 48, 1-14. ([DOI](https://doi.org/10.1016/j.intell.2014.10.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25395695/))
 
 ## External links
 
-- Cognitive Atlas: [Raven’s Progressive Matrices Test](https://www.cognitiveatlas.org/task/id/tsk_SJ4Q7gOYfy25Y)
+- Cognitive Atlas: [Raven's Progressive Matrices Test](https://www.cognitiveatlas.org/task/id/tsk_SJ4Q7gOYfy25Y)
 

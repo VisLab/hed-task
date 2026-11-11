@@ -24,15 +24,15 @@ Decrease in a previously reinforced response when reinforcement is withheld; a f
 
 ### [Goal-directed behavior](associative_learning_and_reinforcement.md#hed-goal-directed-behavior)
 
-Behavior that is sensitive to current outcome value, characteristic of action–outcome learning. Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_instrumental_conditioning.html">Instrumental Conditioning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>goal-directed action</span></span></span>.
+Behavior that is sensitive to current outcome value, characteristic of action-outcome learning. Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_instrumental_conditioning.html">Instrumental Conditioning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>goal-directed action</span></span></span>.
 
 ### [Habit](associative_learning_and_reinforcement.md#hed-habit)
 
-Behavior that is insensitive to the current value of its outcome, characteristic of stimulus–response learning. Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_instrumental_conditioning.html">Instrumental Conditioning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>habit learning</span></span></span>.
+Behavior that is insensitive to the current value of its outcome, characteristic of stimulus-response learning. Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_instrumental_conditioning.html">Instrumental Conditioning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>habit learning</span></span></span>.
 
 ### [Instrumental conditioning](associative_learning_and_reinforcement.md#hed-instrumental-conditioning)
 
-Learning that an action produces an outcome; also called operant conditioning. Encompasses both goal-directed (action–outcome) and habitual (stimulus–response) control, studied via reinforcement schedules and outcome-devaluation procedures. Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_instrumental_conditioning.html">Instrumental Conditioning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>Operant conditioning</span></span></span>.
+Learning that an action produces an outcome; also called operant conditioning. Encompasses both goal-directed (action-outcome) and habitual (stimulus-response) control, studied via reinforcement schedules and outcome-devaluation procedures. Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_instrumental_conditioning.html">Instrumental Conditioning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>Operant conditioning</span></span></span>.
 
 ### [Model-based learning](associative_learning_and_reinforcement.md#hed-model-based-learning)
 
@@ -236,7 +236,7 @@ Perception of visual information; includes form, motion, depth, color, and spati
 
 ## [Implicit and Statistical Learning](implicit_and_statistical_learning.md)
 
-Acquisition of structure without explicit instruction: implicit memory, procedural memory. Paradigm-level coverage includes artificial grammar learning, serial reaction time, statistical word-segmentation, perceptual category learning — these live in `task_details.json`, not as separate process rows.
+Acquisition of structure without explicit instruction: implicit memory, procedural memory. Paradigm-level coverage includes artificial grammar learning, serial reaction time, statistical word-segmentation, perceptual category learning - these live in `task_details.json`, not as separate process rows.
 
 ### [Implicit memory](implicit_and_statistical_learning.md#hed-implicit-memory)
 
@@ -432,7 +432,7 @@ Disruption of older memories by newly learned material. Engaged by <span class="
 
 ### [Semantic memory](long_term_memory.md#hed-semantic-memory)
 
-Long-term store of general knowledge about the world — facts, concepts, and word meanings — dissociable from episodic memory and supported by distributed cortical representations. Engaged by no task in the current Catalog. No aliases.
+Long-term store of general knowledge about the world - facts, concepts, and word meanings - dissociable from episodic memory and supported by distributed cortical representations. Engaged by no task in the current Catalog. No aliases.
 
 ### [Source memory](long_term_memory.md#hed-source-memory)
 
@@ -532,7 +532,7 @@ Assignment of instances to categories according to their features. Engaged by <s
 
 ### [Causal reasoning](reasoning_and_problem_solving.md#hed-causal-reasoning)
 
-Inference about cause–effect relations from observation and intervention. Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_causal_learning.html">Causal Learning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>causal inference</span></span></span>.
+Inference about cause-effect relations from observation and intervention. Engaged by <span class="pop" tabindex="0">1 task<span class="pop-card"><span><a href="../tasks/hedtsk_causal_learning.html">Causal Learning Task</a></span></span></span>. <span class="pop" tabindex="0">1 alias<span class="pop-card"><span>causal inference</span></span></span>.
 
 ### [Deductive reasoning](reasoning_and_problem_solving.md#hed-deductive-reasoning)
 
@@ -672,7 +672,7 @@ Short-term storage of phonological/verbal information, historically "phonologica
 
 ### [Visual working memory](short_term_and_working_memory.md#hed-visual-working-memory)
 
-Short-term storage and manipulation of visual information; capacity limited to ~3–4 items. Engaged by <span class="pop" tabindex="0">3 tasks<span class="pop-card"><span><a href="../tasks/hedtsk_change_detection.html">Change Detection Task</a></span><span><a href="../tasks/hedtsk_delayed_match_to_sample.html">Delayed Match-to-Sample Task</a></span><span><a href="../tasks/hedtsk_multiple_object_tracking.html">Multiple Object Tracking Task</a></span></span></span>. No aliases.
+Short-term storage and manipulation of visual information; capacity limited to ~3-4 items. Engaged by <span class="pop" tabindex="0">3 tasks<span class="pop-card"><span><a href="../tasks/hedtsk_change_detection.html">Change Detection Task</a></span><span><a href="../tasks/hedtsk_delayed_match_to_sample.html">Delayed Match-to-Sample Task</a></span><span><a href="../tasks/hedtsk_multiple_object_tracking.html">Multiple Object Tracking Task</a></span></span></span>. No aliases.
 
 ### [Working memory](short_term_and_working_memory.md#hed-working-memory)
 

@@ -6,7 +6,7 @@
 **Out of scope:** Fluid intelligence (an individual-difference construct, not a process); working-memory updating (in Short-Term and Working Memory); "cognitive flexibility" as a capacity-level umbrella (alias on `hed_set_shifting`).
 
 :::{note}
-**Open issues:** The user has earlier flagged that **attentional flexibility** and **mental flexibility** should perhaps be separate sub-processes — deferred.
+**Open issues:** The user has earlier flagged that **attentional flexibility** and **mental flexibility** should perhaps be separate sub-processes - deferred.
 :::
 
 This category contains 3 processes.
@@ -22,11 +22,11 @@ Active holding of task goals, rules, or sub-goals in a form that biases ongoing 
 
 **Fundamental references**
 
-- Miller & Cohen (2001) *Annual Review of Neuroscience* 24:167–202 ([DOI](https://doi.org/10.1146/annurev.neuro.24.1.167))
+- Miller & Cohen (2001) *Annual Review of Neuroscience* 24:167-202 ([DOI](https://doi.org/10.1146/annurev.neuro.24.1.167))
 
 **Further references**
 
-- Kane & Engle (2003) *JEP: General* 132:47–70 ([DOI](https://doi.org/10.1037/0096-3445.132.1.47))
+- Kane & Engle (2003) *JEP: General* 132:47-70 ([DOI](https://doi.org/10.1037/0096-3445.132.1.47))
 
 (hed-set-shifting)=
 ## Set shifting
@@ -41,13 +41,13 @@ Flexible reconfiguration of the task set in response to a change in task demands
 
 **Fundamental references**
 
-- Monsell (2003) *Trends in Cognitive Sciences* 7:134–140 ([DOI](https://doi.org/10.1016/s1364-6613(03)00028-7), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12639695/))
-- Diamond (2013) *Annual Review of Psychology* 64:135–168 ([DOI](https://doi.org/10.1146/annurev-psych-113011-143750))
+- Monsell (2003) *Trends in Cognitive Sciences* 7:134-140 ([DOI](https://doi.org/10.1016/s1364-6613(03)00028-7), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12639695/))
+- Diamond (2013) *Annual Review of Psychology* 64:135-168 ([DOI](https://doi.org/10.1146/annurev-psych-113011-143750))
 
 **Further references**
 
-- Kiesel, Steinhauser, Wendt, Falkenstein, Jost, Philipp & Koch (2010) *Psychological Bulletin* 136:849–874 ([DOI](https://doi.org/10.1037/a0019842))
-- Dajani & Uddin (2015) *Trends in Neurosciences* 38:571–578 ([DOI](https://doi.org/10.1016/j.tins.2015.07.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26343956/))
+- Kiesel, Steinhauser, Wendt, Falkenstein, Jost, Philipp & Koch (2010) *Psychological Bulletin* 136:849-874 ([DOI](https://doi.org/10.1037/a0019842))
+- Dajani & Uddin (2015) *Trends in Neurosciences* 38:571-578 ([DOI](https://doi.org/10.1016/j.tins.2015.07.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26343956/))
 
 (hed-strategy-use)=
 ## Strategy use
@@ -60,5 +60,5 @@ Selection and implementation of a cognitive procedure chosen to improve performa
 
 **Fundamental references**
 
-- Siegler (1987) *JEP: General* 116:250–264 ([DOI](https://doi.org/10.1037/0096-3445.116.3.250))
+- Siegler (1987) *JEP: General* 116:250-264 ([DOI](https://doi.org/10.1037/0096-3445.116.3.250))
 
