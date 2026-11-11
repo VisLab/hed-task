@@ -47,12 +47,7 @@ def generate(
         "counts_table.md": table(
             ["What", "Count", "Where"],
             [
-                ["Tasks", sum(1 for t in tasks if t.get("task_kind", "task") != "pseudo_task"), "[Tasks](tasks/index.md)"],
-                [
-                    "Pseudo tasks (rest, fixation, questionnaire and feedback blocks)",
-                    sum(1 for t in tasks if t.get("task_kind") == "pseudo_task"),
-                    "[Tasks](tasks/families/pseudo_tasks.md)",
-                ],
+                ["Tasks", len(tasks), "[Tasks](tasks/index.md)"],
                 ["Task families the tasks are filed under", len(families), "[Tasks](tasks/index.md)"],
                 ["Named task variations", sum(len(t.get("variations", [])) for t in tasks), "on each task page"],
                 ["Cognitive processes", len(processes), "[Cognitive processes](processes/index.md)"],

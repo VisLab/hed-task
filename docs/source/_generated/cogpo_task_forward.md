@@ -32,7 +32,7 @@
 | [False Belief Task](../tasks/hedtsk_false_belief.md) | close | [Theory of Mind Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Theory_of_Mind_Task_Paradigm) | Theory of Mind Task Paradigm is the class; False Belief is its standard instance. |
 | [Feeling-of-Knowing Task](../tasks/hedtsk_feeling_of_knowing.md) | none | - | No metacognition class in CogPO. |
 | [Finger Tapping Task](../tasks/hedtsk_finger_tapping.md) | exact | [Finger Tapping Paradigm](http://www.wiki.cogpo.org/index.php?title=Finger_Tapping_Paradigm) | Same paradigm. |
-| [Fixate Task](../tasks/hedtsk_fixate.md) | exact | [Fixation Paradigm](http://www.wiki.cogpo.org/index.php?title=Fixation_Paradigm) | Same pseudo task. |
+| [Fixate Task](../tasks/hedtsk_fixate.md) | exact | [Fixation Paradigm](http://www.wiki.cogpo.org/index.php?title=Fixation_Paradigm) | Same paradigm. |
 | [Free Recall Task](../tasks/hedtsk_free_recall.md) | exact | [Free Word List Recall Paradigm](http://www.wiki.cogpo.org/index.php?title=Free_Word_List_Recall_Paradigm) | Same paradigm. |
 | [Go/No-Go Task](../tasks/hedtsk_go_no_go.md) | exact | [Go/No-Go Paradigm](http://www.wiki.cogpo.org/index.php?title=Go%2FNo-Go_Paradigm) | Same paradigm. |
 | [Heartbeat Detection Task](../tasks/hedtsk_heartbeat_detection.md) | none | - | CogPO has an Interoceptive Modality but no interoception paradigm. |
@@ -71,10 +71,9 @@
 | [Rapid Serial Visual Presentation Task](../tasks/hedtsk_rapid_serial_visual_presentation.md) | related | [Visual Distractor/Visual Attention Paradigm](http://www.wiki.cogpo.org/index.php?title=Visual_Distractor_or_Visual_Attention_Paradigm) | Target detection in a rapid stream falls in Visual Distractor/Visual Attention. |
 | [Raven's Progressive Matrices Task](../tasks/hedtsk_ravens_progressive_matrices.md) | related | [Deductive Reasoning Paradigm](http://www.wiki.cogpo.org/index.php?title=Deductive_Reasoning_Paradigm) | Deductive Reasoning is defined loosely enough to admit matrix reasoning, which is inductive. |
 | [Reading the Mind in the Eyes Task](../tasks/hedtsk_reading_the_mind_in_the_eyes.md) | close | [Theory of Mind Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Theory_of_Mind_Task_Paradigm) | A theory-of-mind task; False Belief is the class's primary Catalog match. |
-| [Receive Feedback Task](../tasks/hedtsk_receive_feedback.md) | none | - | Feedback is a stimulus role on the CogPO wiki, not a paradigm. |
 | [Remember/Know Task](../tasks/hedtsk_remember_know.md) | related | [Cued Explicit Recognition Paradigm](http://www.wiki.cogpo.org/index.php?title=Cued_Explicit_Recognition_Paradigm) | A recognition test with a phenomenological judgement; Cued Explicit Recognition is the nearest class. |
 | [Remote Associates Task](../tasks/hedtsk_remote_associates.md) | none | - | No insight or creativity class in CogPO. |
-| [Rest Task](../tasks/hedtsk_rest.md) | exact | [Rest Paradigm](http://www.wiki.cogpo.org/index.php?title=Rest_Paradigm) | Same pseudo task. |
+| [Rest Task](../tasks/hedtsk_rest.md) | exact | [Rest Paradigm](http://www.wiki.cogpo.org/index.php?title=Rest_Paradigm) | Same paradigm. |
 | [Reversal Learning Task](../tasks/hedtsk_reversal_learning.md) | related | [Reward Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Reward_Task_Paradigm) | Falls in the Reward Task class; no reversal paradigm in CogPO. |
 | [Rey Auditory Verbal Learning Task](../tasks/hedtsk_rey_auditory_verbal_learning.md) | close | [Free Word List Recall Paradigm](http://www.wiki.cogpo.org/index.php?title=Free_Word_List_Recall_Paradigm) | Multi-trial free recall of a word list; Free Word List Recall is the class. |
 | [Self-Paced Reading Task](../tasks/hedtsk_self_paced_reading.md) | close | [Reading (Covert) Paradigm](http://www.wiki.cogpo.org/index.php?title=Reading_%28Covert%29_Paradigm) | Silent reading; Reading (Covert) is the class. |

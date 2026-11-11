@@ -58,9 +58,8 @@ With 86 classes, every unmatched class was read against its definition and given
 kind by hand, unlike the rule-derived `scope_class` on the Atlas tables. The kinds are
 `paradigm` (a task-shaped paradigm the Catalog does not list), `broad_class` (a family
 of tasks), `physiological` (stimulation, consumption, breath holding, sleep),
-`motor_act` (grasping, pointing, writing and the like), `imaging_protocol` (the flashing
-checkerboard) and `pseudo_task` (rest and fixation, which match the Catalog's pseudo
-tasks). The Catalog's [task criteria](task_criteria/index.md) exclude the physiological,
+`motor_act` (grasping, pointing, writing and the like) and `imaging_protocol` (the
+flashing checkerboard). The Catalog's [task criteria](task_criteria/index.md) exclude the physiological,
 motor and imaging-protocol groups deliberately; the `paradigm` group is the list of
 candidates for addition.
 

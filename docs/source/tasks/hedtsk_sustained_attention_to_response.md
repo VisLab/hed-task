@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_sustained_attention_to_response`
 
-**Family:** [Response inhibition and stopping tasks](families/response_inhibition.md) (also [Oddball, vigilance and continuous performance tasks](families/oddball_and_vigilance.md))
+**Family:** [Response inhibition and stopping tasks](families/response_inhibition.md) (also [Oddball, vigilance and continuous performance tasks](families/oddball_and_vigilance.md), [Spontaneous thought tasks](families/spontaneous_thought.md))
 
 **Also known as:** SART, Sustained Attention to Response
 
@@ -98,7 +98,7 @@ This task is designed to engage the following processes:
 
 - [Sustained attention](../processes/selective_and_sustained_attention.md#hed-sustained-attention)
 - [Response inhibition](../processes/inhibitory_control_and_conflict_monitoring.md#hed-response-inhibition)
-- [Mind wandering](../processes/awareness_agency_and_metacognition.md#hed-mind-wandering)
+- [Spontaneous thought](../processes/awareness_agency_and_metacognition.md#hed-mind-wandering)
 - [Self-monitoring](../processes/awareness_agency_and_metacognition.md#hed-self-monitoring)
 - [Metacognitive monitoring](../processes/awareness_agency_and_metacognition.md#hed-metacognitive-monitoring)
 

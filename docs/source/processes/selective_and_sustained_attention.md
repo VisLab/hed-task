@@ -6,7 +6,7 @@
 **Out of scope:** Attention as an umbrella; alertness as a trait; arousal as a physiological state.
 
 :::{note}
-**Open issues:** Sustained attention = vigilance when operationalized as a continuous-performance measure; treated as synonymous in the current row definition. If vigilance-as-trait ever needs representation, it would live outside this category.
+**Open issues:** Vigilance, sustained attention to a stream in which targets are rare, is the best-studied form of sustained attention and is covered by that row; the row also covers holding attention on a fixation target. If vigilance-as-trait ever needs representation, it would live outside this category.
 :::
 
 This category contains 11 processes.
@@ -171,9 +171,9 @@ Selection of a location in space for preferential sensory processing, measurable
 
 **Also known as:** **Vigilance** - Synonymous when operationalized as a continuous-performance measure.; **Vigilant attention** - Robertson et al. tradition; emphasizes attention maintenance during monotonous, low-stimulation tasks.
 
-Maintenance of attentional engagement over extended intervals during which targets are rare or responses are repetitive; synonymous with vigilance.
+Maintenance of attentional engagement on a target or task over an extended interval, as when holding attention on a fixation target or monitoring for rare targets; vigilance is its best-studied form.
 
-**Tasks that engage this process:** [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md), [Go/No-Go Task](../tasks/hedtsk_go_no_go.md), [Multiple Object Tracking Task](../tasks/hedtsk_multiple_object_tracking.md), [Oddball Task](../tasks/hedtsk_oddball.md), [Psychomotor Vigilance Task](../tasks/hedtsk_psychomotor_vigilance.md), [Rapid Serial Visual Presentation Task](../tasks/hedtsk_rapid_serial_visual_presentation.md), [Sustained Attention to Response Task](../tasks/hedtsk_sustained_attention_to_response.md), [Useful Field of View Task](../tasks/hedtsk_useful_field_of_view.md)
+**Tasks that engage this process:** [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md), [Fixate Task](../tasks/hedtsk_fixate.md), [Go/No-Go Task](../tasks/hedtsk_go_no_go.md), [Multiple Object Tracking Task](../tasks/hedtsk_multiple_object_tracking.md), [Oddball Task](../tasks/hedtsk_oddball.md), [Psychomotor Vigilance Task](../tasks/hedtsk_psychomotor_vigilance.md), [Rapid Serial Visual Presentation Task](../tasks/hedtsk_rapid_serial_visual_presentation.md), [Sustained Attention to Response Task](../tasks/hedtsk_sustained_attention_to_response.md), [Useful Field of View Task](../tasks/hedtsk_useful_field_of_view.md)
 
 **Fundamental references**
 

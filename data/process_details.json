@@ -6,7 +6,7 @@
   "total_categories": 19,
   "total_processes": 172,
   "total_processes_used_by_tasks": 152,
-  "total_tasks": 107,
+  "total_tasks": 106,
   "categories": [
     {
       "category_id": "associative_learning_and_reinforcement",
@@ -128,7 +128,7 @@
       "name": "Selective and Sustained Attention",
       "scope": "Attention networks (alerting, orienting, executive attention); selective attention; sustained attention; attention shifting; attentional capture; divided attention; feature-based attention; object-based attention; spatial attention; temporal attention.",
       "out_of_scope": "Attention as an umbrella; alertness as a trait; arousal as a physiological state.",
-      "issues": "Sustained attention = vigilance when operationalized as a continuous-performance measure; treated as synonymous in the current row definition. If vigilance-as-trait ever needs representation, it would live outside this category.",
+      "issues": "Vigilance, sustained attention to a stream in which targets are rare, is the best-studied form of sustained attention and is covered by that row; the row also covers holding attention on a fixation target. If vigilance-as-trait ever needs representation, it would live outside this category.",
       "process_count": 11
     },
     {
@@ -2096,7 +2096,7 @@
     },
     {
       "process_id": "hed_mind_wandering",
-      "process_name": "Mind wandering",
+      "process_name": "Spontaneous thought",
       "categories": [
         {
           "category_id": "awareness_agency_and_metacognition",
@@ -2104,7 +2104,7 @@
           "confidence": "high"
         }
       ],
-      "definition": "Task-unrelated thought that arises during an ongoing task.",
+      "definition": "Thought that arises spontaneously rather than being directed by a task, whether during an ongoing task or when no task is set, as at rest.",
       "tasks": [
         {
           "hedtsk_id": "hedtsk_continuous_performance",
@@ -2115,11 +2115,15 @@
           "canonical_name": "Psychomotor Vigilance Task"
         },
         {
+          "hedtsk_id": "hedtsk_rest",
+          "canonical_name": "Rest Task"
+        },
+        {
           "hedtsk_id": "hedtsk_sustained_attention_to_response",
           "canonical_name": "Sustained Attention to Response Task"
         }
       ],
-      "task_count": 3,
+      "task_count": 4,
       "references": [
         {
           "title": "The restless mind.",
@@ -2183,7 +2187,8 @@
           "name": "task-unrelated thought"
         },
         {
-          "name": "mind-wandering"
+          "name": "Mind wandering",
+          "note": "Former name of this process; spontaneous thought that drifts away from an ongoing task."
         }
       ]
     },
@@ -2392,11 +2397,19 @@
           "canonical_name": "Body Ownership Illusion Task"
         },
         {
+          "hedtsk_id": "hedtsk_rest",
+          "canonical_name": "Rest Task"
+        },
+        {
           "hedtsk_id": "hedtsk_self_referential_encoding",
           "canonical_name": "Self-Referential Encoding Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_take_questionnaire",
+          "canonical_name": "Take Questionnaire Task"
         }
       ],
-      "task_count": 3,
+      "task_count": 5,
       "references": [
         {
           "title": "Self-reference and the encoding of personal information.",
@@ -2664,11 +2677,15 @@
       "definition": "Active holding of task goals, rules, or sub-goals in a form that biases ongoing processing.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_fixate",
+          "canonical_name": "Fixate Task"
+        },
+        {
           "hedtsk_id": "hedtsk_task_switching",
           "canonical_name": "Task Switching Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": "An Integrative Theory of Prefrontal Cortex Function",
@@ -5184,6 +5201,10 @@
           "canonical_name": "Directed Forgetting Task"
         },
         {
+          "hedtsk_id": "hedtsk_fixate",
+          "canonical_name": "Fixate Task"
+        },
+        {
           "hedtsk_id": "hedtsk_go_no_go",
           "canonical_name": "Go/No-Go Task"
         },
@@ -5208,7 +5229,7 @@
           "canonical_name": "Think/No-Think Task"
         }
       ],
-      "task_count": 11,
+      "task_count": 12,
       "references": [
         {
           "title": "On the ability to inhibit thought and action: A theory of an act of control.",
@@ -6087,9 +6108,13 @@
         {
           "hedtsk_id": "hedtsk_sentence_comprehension",
           "canonical_name": "Sentence Comprehension Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_take_questionnaire",
+          "canonical_name": "Take Questionnaire Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": "The active use of grammar in speech perception",
@@ -6521,9 +6546,17 @@
         {
           "hedtsk_id": "hedtsk_autobiographical_memory",
           "canonical_name": "Autobiographical Memory Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_rest",
+          "canonical_name": "Rest Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_take_questionnaire",
+          "canonical_name": "Take Questionnaire Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 3,
       "references": [
         {
           "title": "The construction of autobiographical memories in the self-memory system.",
@@ -6598,9 +6631,13 @@
         {
           "hedtsk_id": "hedtsk_motor_sequence_learning",
           "canonical_name": "Motor Sequence Learning Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_rest",
+          "canonical_name": "Rest Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": "Memory--a Century of Consolidation",
@@ -7797,6 +7834,10 @@
           "canonical_name": "Sternberg Item Recognition Task"
         },
         {
+          "hedtsk_id": "hedtsk_take_questionnaire",
+          "canonical_name": "Take Questionnaire Task"
+        },
+        {
           "hedtsk_id": "hedtsk_think_no_think",
           "canonical_name": "Think/No-Think Task"
         },
@@ -7809,7 +7850,7 @@
           "canonical_name": "Virtual Radial Arm Maze Task"
         }
       ],
-      "task_count": 14,
+      "task_count": 15,
       "references": [
         {
           "title": "Availability versus accessibility of information in memory for words",
@@ -9022,6 +9063,10 @@
           "canonical_name": "Sternberg Item Recognition Task"
         },
         {
+          "hedtsk_id": "hedtsk_take_questionnaire",
+          "canonical_name": "Take Questionnaire Task"
+        },
+        {
           "hedtsk_id": "hedtsk_task_switching",
           "canonical_name": "Task Switching Task"
         },
@@ -9030,7 +9075,7 @@
           "canonical_name": "Verb Generation Task"
         }
       ],
-      "task_count": 11,
+      "task_count": 12,
       "references": [
         {
           "title": "Neural Mechanisms for Interacting with a World Full of Action Choices",
@@ -11642,11 +11687,15 @@
           "confidence": "high"
         }
       ],
-      "definition": "Maintenance of attentional engagement over extended intervals during which targets are rare or responses are repetitive; synonymous with vigilance.",
+      "definition": "Maintenance of attentional engagement on a target or task over an extended interval, as when holding attention on a fixation target or monitoring for rare targets; vigilance is its best-studied form.",
       "tasks": [
         {
           "hedtsk_id": "hedtsk_continuous_performance",
           "canonical_name": "Continuous Performance Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_fixate",
+          "canonical_name": "Fixate Task"
         },
         {
           "hedtsk_id": "hedtsk_go_no_go",
@@ -11677,7 +11726,7 @@
           "canonical_name": "Useful Field of View Task"
         }
       ],
-      "task_count": 8,
+      "task_count": 9,
       "references": [
         {
           "title": "The Breakdown of Vigilance during Prolonged Visual Search",

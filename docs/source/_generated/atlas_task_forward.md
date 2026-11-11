@@ -32,6 +32,7 @@
 | [False Belief Task](../tasks/hedtsk_false_belief.md) | `exact` | [false belief task](https://www.cognitiveatlas.org/task/id/trm_4f2456027809f) | Duplicated in the Atlas as trm_5845a809e30d5 |
 | [Feeling-of-Knowing Task](../tasks/hedtsk_feeling_of_knowing.md) | `none` | - | No feeling-of-knowing entry |
 | [Finger Tapping Task](../tasks/hedtsk_finger_tapping.md) | `exact` | [finger tapping task](https://www.cognitiveatlas.org/task/id/trm_4c898f079d05e) | - |
+| [Fixate Task](../tasks/hedtsk_fixate.md) | `exact` | [fixation task](https://www.cognitiveatlas.org/task/id/trm_4c898f72228f3) | - |
 | [Free Recall Task](../tasks/hedtsk_free_recall.md) | `close` | [recall test](https://www.cognitiveatlas.org/task/id/trm_4f2411c91ae5e) | Atlas recall test is generic, not free recall specifically |
 | [Go/No-Go Task](../tasks/hedtsk_go_no_go.md) | `exact` | [go/no-go task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949a93) | - |
 | [Heartbeat Detection Task](../tasks/hedtsk_heartbeat_detection.md) | `none` | - | No heartbeat detection entry; Atlas interoception entries are an fMRI task and a questionnaire |
@@ -72,6 +73,7 @@
 | [Reading the Mind in the Eyes Task](../tasks/hedtsk_reading_the_mind_in_the_eyes.md) | `none` | - | No RMET entry |
 | [Remember/Know Task](../tasks/hedtsk_remember_know.md) | `exact` | [remember/know task](https://www.cognitiveatlas.org/task/id/trm_4da63146f12d7) | 28-char definition, zero concepts |
 | [Remote Associates Task](../tasks/hedtsk_remote_associates.md) | `exact` | [Remote Associates Test](https://www.cognitiveatlas.org/task/id/tsk_ZMTNk4Oce5b2j) | 843-char definition but zero concepts |
+| [Rest Task](../tasks/hedtsk_rest.md) | `close` | [rest eyes open](https://www.cognitiveatlas.org/task/id/trm_4c8a834779883) | Atlas splits rest by eye state; rest eyes closed trm_54e69c642d89b is the second entry, and each is narrower than the Rest Task |
 | [Reversal Learning Task](../tasks/hedtsk_reversal_learning.md) | `exact` | [reversal learning task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949d4e) | - |
 | [Rey Auditory Verbal Learning Task](../tasks/hedtsk_rey_auditory_verbal_learning.md) | `exact` | [Rey Auditory Verbal Learning Task](https://www.cognitiveatlas.org/task/id/trm_4da88ae0f2952) | - |
 | [Self-Paced Reading Task](../tasks/hedtsk_self_paced_reading.md) | `none` | - | No self-paced or moving-window reading entry |
@@ -86,6 +88,7 @@
 | [Stop-Signal Task](../tasks/hedtsk_stop_signal.md) | `exact` | [stop signal task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e1a) | Eight stop-signal entries exist |
 | [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md) | `exact` | [color-word stroop task](https://www.cognitiveatlas.org/task/id/trm_4b1968619b00b) | Generic Stroop task tsk_4a57abb949e27 also exists |
 | [Sustained Attention to Response Task](../tasks/hedtsk_sustained_attention_to_response.md) | `exact` | [sustained attention to response task](https://www.cognitiveatlas.org/task/id/trm_4da86cfe8cf1b) | - |
+| [Take Questionnaire Task](../tasks/hedtsk_take_questionnaire.md) | `close` | - | Atlas lists self-report instruments, not the act of answering one; each instrument is narrower than the task |
 | [Task Switching Task](../tasks/hedtsk_task_switching.md) | `exact` | [task-switching](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e8a) | Set-shifting and alternating-runs exist as separate entries |
 | [Think/No-Think Task](../tasks/hedtsk_think_no_think.md) | `exact` | [think/no-think task](https://www.cognitiveatlas.org/task/id/trm_54f93101b2fd8) | Zero concepts |
 | [Tower of London Task](../tasks/hedtsk_tower_of_london.md) | `exact` | [Tower of London](https://www.cognitiveatlas.org/task/id/trm_4da87e439c411) | - |

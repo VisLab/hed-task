@@ -18,7 +18,7 @@ This category contains 21 processes.
 
 Memory for personally experienced events across the lifespan, integrating episodic and semantic components.
 
-**Tasks that engage this process:** [Autobiographical Memory Task](../tasks/hedtsk_autobiographical_memory.md)
+**Tasks that engage this process:** [Autobiographical Memory Task](../tasks/hedtsk_autobiographical_memory.md), [Rest Task](../tasks/hedtsk_rest.md), [Take Questionnaire Task](../tasks/hedtsk_take_questionnaire.md)
 
 **Fundamental references**
 
@@ -37,7 +37,7 @@ Memory for personally experienced events across the lifespan, integrating episod
 
 Post-encoding stabilization of memory traces, dependent on time and often on sleep; includes synaptic and systems consolidation.
 
-**Tasks that engage this process:** [Motor Sequence Learning Task](../tasks/hedtsk_motor_sequence_learning.md)
+**Tasks that engage this process:** [Motor Sequence Learning Task](../tasks/hedtsk_motor_sequence_learning.md), [Rest Task](../tasks/hedtsk_rest.md)
 
 **Fundamental references**
 
@@ -279,7 +279,7 @@ Destabilization and re-stabilization of a memory upon retrieval, creating a wind
 
 Reactivation of a stored memory representation; dissociable into cue-driven and strategic retrieval.
 
-**Tasks that engage this process:** [Autobiographical Memory Task](../tasks/hedtsk_autobiographical_memory.md), [Directed Forgetting Task](../tasks/hedtsk_directed_forgetting.md), [Feeling-of-Knowing Task](../tasks/hedtsk_feeling_of_knowing.md), [Free Recall Task](../tasks/hedtsk_free_recall.md), [Old/New Recognition Memory Task](../tasks/hedtsk_old_new_recognition_memory.md), [Paired Associates Learning Task](../tasks/hedtsk_paired_associates_learning.md), [Prospective Memory Task](../tasks/hedtsk_prospective_memory.md), [Rey Auditory Verbal Learning Task](../tasks/hedtsk_rey_auditory_verbal_learning.md), [Self-Referential Encoding Task](../tasks/hedtsk_self_referential_encoding.md), [Source Memory Task](../tasks/hedtsk_source_memory.md), [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md), [Think/No-Think Task](../tasks/hedtsk_think_no_think.md), [Virtual Morris Water Maze Task](../tasks/hedtsk_virtual_morris_water_maze.md), [Virtual Radial Arm Maze Task](../tasks/hedtsk_virtual_radial_arm_maze.md)
+**Tasks that engage this process:** [Autobiographical Memory Task](../tasks/hedtsk_autobiographical_memory.md), [Directed Forgetting Task](../tasks/hedtsk_directed_forgetting.md), [Feeling-of-Knowing Task](../tasks/hedtsk_feeling_of_knowing.md), [Free Recall Task](../tasks/hedtsk_free_recall.md), [Old/New Recognition Memory Task](../tasks/hedtsk_old_new_recognition_memory.md), [Paired Associates Learning Task](../tasks/hedtsk_paired_associates_learning.md), [Prospective Memory Task](../tasks/hedtsk_prospective_memory.md), [Rey Auditory Verbal Learning Task](../tasks/hedtsk_rey_auditory_verbal_learning.md), [Self-Referential Encoding Task](../tasks/hedtsk_self_referential_encoding.md), [Source Memory Task](../tasks/hedtsk_source_memory.md), [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md), [Take Questionnaire Task](../tasks/hedtsk_take_questionnaire.md), [Think/No-Think Task](../tasks/hedtsk_think_no_think.md), [Virtual Morris Water Maze Task](../tasks/hedtsk_virtual_morris_water_maze.md), [Virtual Radial Arm Maze Task](../tasks/hedtsk_virtual_radial_arm_maze.md)
 
 **Fundamental references**
 

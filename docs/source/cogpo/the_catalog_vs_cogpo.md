@@ -40,7 +40,7 @@ are curated lists rather than open contributions.
 
 |  | The Catalog | CogPO |
 |---|---|---|
-| Experimental paradigms | 103 tasks and 4 pseudo tasks | 83 classes (84 on the wiki) |
+| Experimental paradigms | 106 tasks | 83 classes (84 on the wiki) |
 | Cognitive processes | 172 | not modelled |
 | Named variations | {{ n_variations }} | not modelled |
 | Stimulus, response and instruction vocabularies | facets, seeded from CogPO | 6 vocabularies, about 100 values |
@@ -108,7 +108,7 @@ are motor acts (grasping, pointing, drawing, writing, whistling, flexion or exte
 three are broad perceptual classes and one is the flashing checkerboard. The Catalog's
 task criteria exclude the last four groups deliberately.
 
-In the other direction, 35 of the Catalog's 107 tasks have no CogPO class at all and 26
+In the other direction, 34 of the Catalog's 106 tasks have no CogPO class at all and 26
 more fall only under a broad class such as Reward Task or Visual Attention. CogPO has no
 economic games, no metacognition, no priming, no spatial navigation, no implicit
 learning, no complex span, no stop-signal and no questionnaire.

@@ -79,7 +79,7 @@ This task is designed to engage the following processes:
 - [Sustained attention](../processes/selective_and_sustained_attention.md#hed-sustained-attention)
 - [Alerting](../processes/selective_and_sustained_attention.md#hed-alerting)
 - [Response execution](../processes/motor_preparation_timing_and_execution.md#hed-response-execution)
-- [Mind wandering](../processes/awareness_agency_and_metacognition.md#hed-mind-wandering)
+- [Spontaneous thought](../processes/awareness_agency_and_metacognition.md#hed-mind-wandering)
 
 ## Key references
 

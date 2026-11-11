@@ -31,7 +31,7 @@ hedtsk_facial_emotion_recognition	Facial Emotion Recognition Task	close	COGPO_00
 hedtsk_false_belief	False Belief Task	close	COGPO_00104	Theory of Mind Task Paradigm	owl	248	1	Theory of Mind Task Paradigm is the class; False Belief is its standard instance.
 hedtsk_feeling_of_knowing	Feeling-of-Knowing Task	none						No metacognition class in CogPO.
 hedtsk_finger_tapping	Finger Tapping Task	exact	COGPO_00056	Finger Tapping Paradigm	owl	150	1	Same paradigm.
-hedtsk_fixate	Fixate Task	exact	COGPO_00053	Fixation Paradigm	owl	115	1	Same pseudo task.
+hedtsk_fixate	Fixate Task	exact	COGPO_00053	Fixation Paradigm	owl	115	1	Same paradigm.
 hedtsk_free_recall	Free Recall Task	exact	COGPO_00061	Free Word List Recall Paradigm	owl	175	2	Same paradigm.
 hedtsk_go_no_go	Go/No-Go Task	exact	COGPO_00054	Go/No-Go Paradigm	owl	295	1	Same paradigm.
 hedtsk_heartbeat_detection	Heartbeat Detection Task	none						CogPO has an Interoceptive Modality but no interoception paradigm.
@@ -70,10 +70,9 @@ hedtsk_random_dot_kinematogram	Random Dot Kinematogram Task	none						Random Dot
 hedtsk_rapid_serial_visual_presentation	Rapid Serial Visual Presentation Task	related	COGPO_00099	Visual Distractor/Visual Attention Paradigm	owl	396		Target detection in a rapid stream falls in Visual Distractor/Visual Attention.
 hedtsk_ravens_progressive_matrices	Raven's Progressive Matrices Task	related	COGPO_00038	Deductive Reasoning Paradigm	owl	226		Deductive Reasoning is defined loosely enough to admit matrix reasoning, which is inductive.
 hedtsk_reading_the_mind_in_the_eyes	Reading the Mind in the Eyes Task	close	COGPO_00104	Theory of Mind Task Paradigm	owl	248		A theory-of-mind task; False Belief is the class's primary Catalog match.
-hedtsk_receive_feedback	Receive Feedback Task	none						Feedback is a stimulus role on the CogPO wiki, not a paradigm.
 hedtsk_remember_know	Remember/Know Task	related	COGPO_00035	Cued Explicit Recognition Paradigm	owl	280		A recognition test with a phenomenological judgement; Cued Explicit Recognition is the nearest class.
 hedtsk_remote_associates	Remote Associates Task	none						No insight or creativity class in CogPO.
-hedtsk_rest	Rest Task	exact	COGPO_00086	Rest Paradigm	owl	135	1	Same pseudo task.
+hedtsk_rest	Rest Task	exact	COGPO_00086	Rest Paradigm	owl	135	1	Same paradigm.
 hedtsk_reversal_learning	Reversal Learning Task	related	COGPO_00081	Reward Task Paradigm	owl	182		Falls in the Reward Task class; no reversal paradigm in CogPO.
 hedtsk_rey_auditory_verbal_learning	Rey Auditory Verbal Learning Task	close	COGPO_00061	Free Word List Recall Paradigm	owl	175		Multi-trial free recall of a word list; Free Word List Recall is the class.
 hedtsk_self_paced_reading	Self-Paced Reading Task	close	Reading_(Covert)_Paradigm	Reading (Covert) Paradigm	owl	178	1	Silent reading; Reading (Covert) is the class.

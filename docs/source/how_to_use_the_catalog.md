@@ -89,10 +89,11 @@ expressed in HED annotations and dataset metadata is still being decided. For a 
 4. If the experiment is a task the Catalog does not have, or a variation a task page
  does not list, propose it (next section) rather than forcing a fit.
 
-Resting runs, fixation blocks and questionnaire blocks are tagged the same way, with the
-identifier of the matching [pseudo task](tasks/families/pseudo_tasks.md): `hedtsk_rest` with the
-eyes-open or eyes-closed variation, `hedtsk_fixate`, or `hedtsk_take_questionnaire`. A pseudo task
-carries no process identifiers, so there is nothing to record for step 3.
+Resting runs, fixation blocks and questionnaire blocks are tagged the same way:
+`hedtsk_rest` with the eyes-open or eyes-closed variation, `hedtsk_fixate`, or
+`hedtsk_take_questionnaire`, with the processes their pages list. Feedback has no task
+identifier of its own; it is an event of the task it belongs to, tagged
+`Task-event-role/Feedback`.
 
 ## Proposing a change
 

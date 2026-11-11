@@ -61,8 +61,7 @@ experiment, what the participant was asked to do, without saying how any trial u
 CogPO is intermediate: it labels the task and the steps within it, each condition with
 its stimuli, responses and instructions. The Catalog's counterparts at that level are the
 proposed facets, single attributes of a task such as stimulus modality or response kind
-drawn from closed vocabularies that CogPO (or the HED equivalent) supplies, and the pseudo tasks, which name the
-block-level steps such as rest, fixation and feedback. HED annotates what actually
+drawn from closed vocabularies that CogPO (or the HED equivalent) supplies. HED annotates what actually
 happened, event by event, with a time for each.
 
 | Resource | Labels | Example, for a Stroop experiment |
@@ -82,14 +81,12 @@ the N-Back Task, the Iowa Gambling Task. Particular questionnaires, clinical
 screening instruments, generic labels such as "memory task", and one-off designs are
 excluded. The full rules are in the [Task selection criteria](methods/task_criteria/index.md).
 
-The Catalog also has {{ n_pseudo_tasks }} **pseudo tasks**, which are not tasks in the sense
-above: the Rest Task, the Fixate Task, the Take Questionnaire Task and the Receive Feedback Task. A pseudo task is a block that sets up or holds a brain state,
-collects a self-report or delivers feedback, rather than eliciting a process through trials. Such blocks appear in
-most experiments and datasets need to label them. The Catalog includes them for that reason,
-marks them on their pages, and has not yet linked them to processes. The [Pseudo tasks section](methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3) of the task criteria
-explains what qualifies as a pseudo task. The pseudo tasks are closely related to CogPO Paradigms
-and to aspects of tasks that we currently are calling facets. The relationship between Catalog tasks,
-Catalog task facets, and CogPO Paradigms has not been finalized.
+Rest, fixation and answering a questionnaire are tasks too: the Rest Task, the Fixate Task
+and the Take Questionnaire Task. Each gives the participant a job and is linked to the
+processes it engages. Feedback is not a task: it is an event within the task it belongs
+to. [Section 1.3](methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3)
+of the task criteria explains both. The relationship between Catalog tasks, Catalog task
+facets, and CogPO Paradigms has not been finalized.
 
 The Catalog currently has {{ n_tasks }} tasks. Each task page carries:
 

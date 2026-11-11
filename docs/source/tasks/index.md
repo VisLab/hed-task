@@ -1,18 +1,15 @@
 # Tasks
 
-The Catalog defines 103 standard cognitive and behavioral neuroscience tasks, and
-4 pseudo tasks (rest, fixation, questionnaire and feedback blocks) that serve the experiment
-around them, as a baseline, a reset, a set-up or an exchange of information, rather than eliciting a
-process.
+The Catalog defines 106 standard cognitive and behavioral neuroscience tasks.
 Each task page gives the canonical name and aliases, a description, the inclusion
 test that decides whether an experiment is an instance of the task, its named
 variations, the cognitive processes it engages, and references.
 
-Tasks are filed under 19 **task families** by what the participant does,
+Tasks are filed under 20 **task families** by what the participant does,
 not by which process the task is thought to measure. The Catalog's process list covers that
 other axis, and the two cross-link. Families are organizational, not a hierarchy. Every
 task has one **primary** family, where its page is filed, and may be cross-listed under
-others as a **secondary** member; 12 tasks are cross-listed at present. The
+others as a **secondary** member; 15 tasks are cross-listed at present. The
 assignments are curation decisions and are expected to change as the Catalog grows;
 15 memberships are marked `review`. The
 [task family assignment rules](../methods/task_criteria/06_task_family_assignment.md)
@@ -36,9 +33,9 @@ Two ways in:
 | Family | Tasks filed | Cross-listed |
 |---|---|---|
 | [Conflict and interference tasks](families/conflict_and_interference.md) | 8 | 2 |
-| [Response inhibition and stopping tasks](families/response_inhibition.md) | 4 | - |
-| [Attentional cueing and orienting tasks](families/attentional_cueing.md) | 3 | - |
-| [Visual search and tracking tasks](families/visual_search_and_tracking.md) | 4 | 1 |
+| [Response inhibition and stopping tasks](families/response_inhibition.md) | 5 | - |
+| [Attentional cueing and orienting tasks](families/attentional_cueing.md) | 3 | 1 |
+| [Visual search and tracking tasks](families/visual_search_and_tracking.md) | 4 | 2 |
 | [Oddball, vigilance and continuous performance tasks](families/oddball_and_vigilance.md) | 5 | 1 |
 | [Perceptual judgment and psychophysics tasks](families/perceptual_judgment.md) | 5 | 3 |
 | [Short-term and working memory tasks](families/working_memory_span.md) | 7 | - |
@@ -53,7 +50,8 @@ Two ways in:
 | [Emotion elicitation and regulation tasks](families/emotion.md) | 4 | - |
 | [Language comprehension and production tasks](families/language.md) | 8 | 1 |
 | [Spatial cognition and navigation tasks](families/spatial_navigation.md) | 3 | - |
-| [Pseudo tasks: rest, fixation, self-report and feedback blocks](families/pseudo_tasks.md) | 4 | - |
+| [Spontaneous thought tasks](families/spontaneous_thought.md) | 1 | 1 |
+| [Self-report tasks](families/self_report.md) | 1 | 2 |
 
 ```{toctree}
 :hidden:

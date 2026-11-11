@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_autobiographical_memory`
 
-**Family:** [Recall and recognition memory tests](families/recall_and_recognition.md)
+**Family:** [Recall and recognition memory tests](families/recall_and_recognition.md) (also [Self-report tasks](families/self_report.md))
 
 **Also known as:** Autobiographical Memory Interview, AMI, Cue-Word Autobiographical Memory Task, Galton-Crovitz Task, Autobiographical Memory Test
 

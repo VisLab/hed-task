@@ -3,7 +3,7 @@
 
 A target must be found among, or followed through, a field of distractors; search slopes, detection accuracy or tracking capacity are the measures.
 
-This family contains 4 tasks and cross-lists 1 more.
+This family contains 4 tasks and cross-lists 2 more.
 
 ## [Contextual Cueing](../hedtsk_contextual_cueing.md)
 
@@ -27,6 +27,7 @@ These tasks are filed under another family and cross-listed here; the note says 
 
 | Task | Filed under | Note |
 |---|---|---|
+| [Fixate](../hedtsk_fixate.md) | [Response inhibition and stopping tasks](response_inhibition.md) | Held throughout tracking tasks so that items are followed by attention, not by gaze |
 | [Rapid Serial Visual Presentation](../hedtsk_rapid_serial_visual_presentation.md) | [Oddball, vigilance and continuous performance tasks](oddball_and_vigilance.md) | Targets in a rapid stream; the attentional blink could argue for visual search and tracking |
 
 ## Marked for review

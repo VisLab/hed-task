@@ -31,6 +31,7 @@ hedtsk_facial_emotion_recognition	Facial Emotion Recognition Task	close	trm_50f7
 hedtsk_false_belief	False Belief Task	exact	trm_4f2456027809f	false belief task	625	1	3	Duplicated in the Atlas as trm_5845a809e30d5
 hedtsk_feeling_of_knowing	Feeling-of-Knowing Task	none						No feeling-of-knowing entry
 hedtsk_finger_tapping	Finger Tapping Task	exact	trm_4c898f079d05e	finger tapping task	70	3	3	
+hedtsk_fixate	Fixate Task	exact	trm_4c898f72228f3	fixation task	35	5	1	
 hedtsk_free_recall	Free Recall Task	close	trm_4f2411c91ae5e	recall test	83	1	4	Atlas recall test is generic, not free recall specifically
 hedtsk_go_no_go	Go/No-Go Task	exact	tsk_4a57abb949a93	go/no-go task	389	3	3	
 hedtsk_heartbeat_detection	Heartbeat Detection Task	none						No heartbeat detection entry; Atlas interoception entries are an fMRI task and a questionnaire
@@ -71,6 +72,7 @@ hedtsk_ravens_progressive_matrices	Raven's Progressive Matrices Task	exact	tsk_S
 hedtsk_reading_the_mind_in_the_eyes	Reading the Mind in the Eyes Task	none						No RMET entry
 hedtsk_remember_know	Remember/Know Task	exact	trm_4da63146f12d7	remember/know task	28		1	28-char definition, zero concepts
 hedtsk_remote_associates	Remote Associates Task	exact	tsk_ZMTNk4Oce5b2j	Remote Associates Test	843		1	843-char definition but zero concepts
+hedtsk_rest	Rest Task	close	trm_4c8a834779883	rest eyes open	102		2	Atlas splits rest by eye state; rest eyes closed trm_54e69c642d89b is the second entry, and each is narrower than the Rest Task
 hedtsk_reversal_learning	Reversal Learning Task	exact	tsk_4a57abb949d4e	reversal learning task	337	2	2	
 hedtsk_rey_auditory_verbal_learning	Rey Auditory Verbal Learning Task	exact	trm_4da88ae0f2952	Rey Auditory Verbal Learning Task	591	1	3	
 hedtsk_self_paced_reading	Self-Paced Reading Task	none					1	No self-paced or moving-window reading entry
@@ -85,6 +87,7 @@ hedtsk_sternberg_item_recognition	Sternberg Item Recognition Task	exact	trm_551f
 hedtsk_stop_signal	Stop-Signal Task	exact	tsk_4a57abb949e1a	stop signal task	369	8	6	Eight stop-signal entries exist
 hedtsk_stroop_color_word	Stroop Color-Word Task	exact	trm_4b1968619b00b	color-word stroop task	269	2	6	Generic Stroop task tsk_4a57abb949e27 also exists
 hedtsk_sustained_attention_to_response	Sustained Attention to Response Task	exact	trm_4da86cfe8cf1b	sustained attention to response task	118	3	1	
+hedtsk_take_questionnaire	Take Questionnaire Task	close					107	Atlas lists self-report instruments, not the act of answering one; each instrument is narrower than the task
 hedtsk_task_switching	Task Switching Task	exact	tsk_4a57abb949e8a	task-switching 	172	2	5	Set-shifting and alternating-runs exist as separate entries
 hedtsk_think_no_think	Think/No-Think Task	exact	trm_54f93101b2fd8	think/no-think task	131		1	Zero concepts
 hedtsk_tower_of_london	Tower of London Task	exact	trm_4da87e439c411	Tower of London	138	2	3	

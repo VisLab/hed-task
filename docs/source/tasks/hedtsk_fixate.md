@@ -3,22 +3,15 @@
 
 **HED task ID:** `hedtsk_fixate`
 
-**Family:** [Pseudo tasks: rest, fixation, self-report and feedback blocks](families/pseudo_tasks.md)
-
-:::{note}
-**Pseudo task.** A block that establishes or holds a state, collects a self-report or
-delivers feedback, rather than eliciting a cognitive process through a trial structure. It is in the Catalog
-so that such blocks can be labelled with the same vocabulary as the tasks around them.
-See [Pseudo tasks](../methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3) in the task criteria.
-:::
+**Family:** [Response inhibition and stopping tasks](families/response_inhibition.md) (also [Attentional cueing and orienting tasks](families/attentional_cueing.md), [Visual search and tracking tasks](families/visual_search_and_tracking.md))
 
 **Also known as:** Fixation Block, Fixation Baseline, Central Fixation
 
-Participant holds gaze on a fixation target for a block with nothing else to process or do; used as a baseline or control block and to limit eye movement.
+Participant holds gaze on a fixation target. It is used in two ways: as a block of its own with nothing else to do, as a baseline or control, and as a job held throughout another task so that the eyes stay still while that task is performed.
 
 ## Description
 
-A fixation target, usually a cross or dot at the centre of the screen, is shown and the participant is instructed to keep looking at it for the duration of the block. Nothing else is presented and no response is made. Fixation blocks serve as the implicit baseline in block-design fMRI, as the inter-block interval in many EEG designs, and as the control condition for localizers. Gaze may be monitored with an eye tracker, but that is a matter of measurement and does not make a different task. The distinction from an eyes-open Rest Task is the instruction: here fixation is the required activity, not a convenience. Fixate is a pseudo task: it holds a state rather than eliciting a process, so it carries no process links.
+A fixation target, usually a cross or dot at the centre of the screen, is shown and the participant is instructed to keep looking at it for the duration of the block. Nothing else is presented and no response is made. Fixation blocks serve as the implicit baseline in block-design fMRI, as the inter-block interval in many EEG designs, and as the control condition for localizers. Gaze may be monitored with an eye tracker, but that is a matter of measurement and does not make a different task. The distinction from an eyes-open Rest Task is the instruction: here fixation is the required activity, not a convenience. Fixation is also held throughout other tasks, as in spatial cueing, where attention moves to the cued location while the eyes stay on the cross; there it is a second job done alongside the main one. In both uses the participant keeps attention on the target and holds back the urge to look away.
 
 ## Inclusion test
 
@@ -43,15 +36,19 @@ least one of the listed variables, and it records at least one of the listed mea
 
 ## Cognitive processes
 
-No process links have been recorded for this pseudo task. That is a gap in the Catalog, not a
-claim that the block engages no process: a pseudo task is not run to probe a process, and the
-processes it does engage have not yet been linked.
+This task is designed to engage the following processes:
+
+- [Sustained attention](../processes/selective_and_sustained_attention.md#hed-sustained-attention)
+- [Goal maintenance](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-goal-maintenance)
+- [Response inhibition](../processes/inhibitory_control_and_conflict_monitoring.md#hed-response-inhibition)
 
 ## Further references
 
 - Stark, C. E. L., & Squire, L. R. (2001). When zero is not zero: The problem of ambiguous baseline conditions in fMRI. *Proceedings of the National Academy of Sciences*, 98(22), 12760-12766. ([DOI](https://doi.org/10.1073/pnas.221462998))
 
 ## External links
+
+- Cognitive Atlas: [fixation task](https://www.cognitiveatlas.org/task/id/trm_4c898f72228f3)
 
 - CogPO: [Fixation Paradigm](http://www.wiki.cogpo.org/index.php?title=Fixation_Paradigm)
 

@@ -29,14 +29,6 @@
           "type": "string",
           "minLength": 1
         },
-        "task_kind": {
-          "type": "string",
-          "enum": [
-            "task",
-            "pseudo_task"
-          ],
-          "description": "Omitted means 'task'. A pseudo task is a block-level activity that serves the experiment around it rather than eliciting a process through a trial structure: it provides a baseline or a reset (rest), sets up a physical state (fixation), collects a self-report (questionnaire) or delivers feedback on performance (task criteria, section 'Pseudo tasks'). It may have an empty hed_process_ids (no links recorded yet, which is not a claim that no process is engaged) and must be filed under the pseudo_tasks family."
-        },
         "aliases": {
           "type": "array",
           "items": {
@@ -78,7 +70,7 @@
           "items": {
             "$ref": "#/definitions/family_membership"
           },
-          "description": "The task families this task belongs to: exactly one primary (where it is filed) and any number of secondary cross-listings. A pseudo task's primary is pseudo_tasks."
+          "description": "The task families this task belongs to: exactly one primary (where it is filed) and any number of secondary cross-listings."
         },
         "hed_process_ids": {
           "type": "array",
@@ -86,7 +78,8 @@
             "type": "string",
             "pattern": "^hed_[a-z][a-z0-9_]*$"
           },
-          "description": "Process IDs implicated by this task; each must resolve to a process in process_details.json. Non-empty except for pseudo tasks (both cross-checks run in src/generate_docs.py)."
+          "description": "Process IDs implicated by this task; each must resolve to a process in process_details.json. Every task has at least one (checked in src/generate_docs.py).",
+          "minItems": 1
         },
         "references": {
           "type": "array",

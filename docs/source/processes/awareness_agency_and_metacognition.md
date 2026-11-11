@@ -138,25 +138,6 @@ Second-order evaluation of ongoing first-order cognition - how confident one is 
 
 - Maniscalco B & Lau H (2012) *Consciousness and Cognition* 21:422-430 ([DOI](https://doi.org/10.1016/j.concog.2011.09.021), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22071269/))
 
-(hed-mind-wandering)=
-## Mind wandering
-
-**Process ID:** `hed_mind_wandering`
-
-**Also known as:** task-unrelated thought; mind-wandering
-
-Task-unrelated thought that arises during an ongoing task.
-
-**Tasks that engage this process:** [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md), [Psychomotor Vigilance Task](../tasks/hedtsk_psychomotor_vigilance.md), [Sustained Attention to Response Task](../tasks/hedtsk_sustained_attention_to_response.md)
-
-**Fundamental references**
-
-- Smallwood & Schooler (2006) *Psychological Bulletin* 132:946-958 ([DOI](https://doi.org/10.1037/0033-2909.132.6.946))
-
-**Further references**
-
-- Christoff, Irving, Fox, Spreng & Andrews-Hanna (2016) *Nature Reviews Neuroscience* 17:718-731 ([DOI](https://doi.org/10.1038/nrn.2016.113), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27654862/))
-
 (hed-perceptual-awareness)=
 ## Perceptual awareness
 
@@ -199,7 +180,7 @@ Ongoing evaluation of one's own performance against task goals and expected outc
 
 Processing of information in relation to the self, yielding enhanced encoding for self-relevant material and characteristic engagement of cortical midline structures (mPFC, PCC).
 
-**Tasks that engage this process:** [Autobiographical Memory Task](../tasks/hedtsk_autobiographical_memory.md), [Body Ownership Illusion Task](../tasks/hedtsk_body_ownership_illusion.md), [Self-Referential Encoding Task](../tasks/hedtsk_self_referential_encoding.md)
+**Tasks that engage this process:** [Autobiographical Memory Task](../tasks/hedtsk_autobiographical_memory.md), [Body Ownership Illusion Task](../tasks/hedtsk_body_ownership_illusion.md), [Rest Task](../tasks/hedtsk_rest.md), [Self-Referential Encoding Task](../tasks/hedtsk_self_referential_encoding.md), [Take Questionnaire Task](../tasks/hedtsk_take_questionnaire.md)
 
 **Fundamental references**
 
@@ -229,4 +210,23 @@ The experience of being the cause of one's own actions and their sensory consequ
 
 - Haggard P (2017) *Nature Reviews Neuroscience* 18:196-207 ([DOI](https://doi.org/10.1038/nrn.2017.14), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28251993/))
 - Moore JW & Obhi SS (2012) *Consciousness and Cognition* 21:546-561 ([DOI](https://doi.org/10.1016/j.concog.2011.12.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22240158/))
+
+(hed-mind-wandering)=
+## Spontaneous thought
+
+**Process ID:** `hed_mind_wandering`
+
+**Also known as:** task-unrelated thought; **Mind wandering** - Former name of this process; spontaneous thought that drifts away from an ongoing task.
+
+Thought that arises spontaneously rather than being directed by a task, whether during an ongoing task or when no task is set, as at rest.
+
+**Tasks that engage this process:** [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md), [Psychomotor Vigilance Task](../tasks/hedtsk_psychomotor_vigilance.md), [Rest Task](../tasks/hedtsk_rest.md), [Sustained Attention to Response Task](../tasks/hedtsk_sustained_attention_to_response.md)
+
+**Fundamental references**
+
+- Smallwood & Schooler (2006) *Psychological Bulletin* 132:946-958 ([DOI](https://doi.org/10.1037/0033-2909.132.6.946))
+
+**Further references**
+
+- Christoff, Irving, Fox, Spreng & Andrews-Hanna (2016) *Nature Reviews Neuroscience* 17:718-731 ([DOI](https://doi.org/10.1038/nrn.2016.113), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27654862/))
 

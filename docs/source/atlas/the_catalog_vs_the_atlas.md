@@ -29,9 +29,9 @@ The difference in scale follows from the difference in purpose.
 
 |  | The Catalog | Cognitive Atlas |
 |---|---|---|
-| Experimental paradigms | 103 | 857 |
+| Experimental paradigms | 106 | 857 |
 | Cognitive processes or concepts | 172 | 918 |
-| Links between the two | 486 | 1422 |
+| Links between the two | 498 | 1422 |
 | Mean processes or concepts per paradigm | 4.72 | 1.66 |
 | Named variations | {{ n_variations }} | not modelled |
 | Mean named variations per paradigm | 7.5 | not modelled |
@@ -117,7 +117,7 @@ them was checked. Inclusion tests and variations have no Atlas equivalent at all
 The traffic runs both ways, and the Atlas holds several things worth keeping in view.
 
 - **Breadth.** 857 task entries and 918 concepts against
-  103 and 172 here. For a construct the Catalog does not cover, the
+  106 and 172 here. For a construct the Catalog does not cover, the
   Atlas usually has something.
 - **A concept relation graph.** 1398 `KINDOF` and `PARTOF` edges between
   concepts. The Catalog groups processes into categories but asserts no relations

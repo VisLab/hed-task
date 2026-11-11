@@ -184,7 +184,7 @@ Access and integration of word and phrase meaning, indexed by the N400.
 
 Integration of lexical, syntactic, and semantic information to derive sentence meaning.
 
-**Tasks that engage this process:** [Sentence Comprehension Task](../tasks/hedtsk_sentence_comprehension.md)
+**Tasks that engage this process:** [Sentence Comprehension Task](../tasks/hedtsk_sentence_comprehension.md), [Take Questionnaire Task](../tasks/hedtsk_take_questionnaire.md)
 
 **Fundamental references**
 

@@ -112,7 +112,7 @@ def _short_name(name: str) -> str:
     The short form drops a trailing " Task" (canonical task names), " tasks" or
     " tests" (family names). It is used for sidebar labels and for the headings of the
     task listings, where the page already says these are tasks. A
-    name that ends some other way ("Pseudo tasks: ...") is left alone. Page titles,
+    name that ends some other way is left alone. Page titles,
     aliases and prose always use the full canonical name.
 
     Parameters:
@@ -167,11 +167,7 @@ def _entry_details(
         else:
             href = f"{link_prefix}../processes/{primary_category(proc)}.html#{process_anchor(pid)}"
             proc_items.append(f'<a href="{href}">{html.escape(proc["process_name"])}</a>')
-    engages = (
-        "no linked processes yet (pseudo task)"
-        if not proc_ids
-        else pop_card(count_phrase(len(proc_ids), "process", "processes"), proc_items)
-    )
+    engages = pop_card(count_phrase(len(proc_ids), "process", "processes"), proc_items)
 
     aliases = task.get("aliases", [])
     alias_part = (
@@ -238,16 +234,12 @@ def _write_task_index(
 ) -> int:
     """Write docs/tasks/index.md."""
     all_tasks = [t for v in tasks_by_family.values() for t in v]
-    n_pseudo = sum(1 for t in all_tasks if t.get("task_kind") == "pseudo_task")
-    n_tasks = len(all_tasks) - n_pseudo
+    n_tasks = len(all_tasks)
     n_also = len({t["hedtsk_id"] for pairs in also_by_family.values() for t, _ in pairs})
 
     parts: list[str] = [
         "# Tasks\n\n",
-        f"The Catalog defines {n_tasks} standard cognitive and behavioral neuroscience tasks, and\n"
-        f"{n_pseudo} pseudo tasks (rest, fixation, questionnaire and feedback blocks) that serve the experiment\n"
-        "around them, as a baseline, a reset, a set-up or an exchange of information, rather than eliciting a\n"
-        "process.\n"
+        f"The Catalog defines {n_tasks} standard cognitive and behavioral neuroscience tasks.\n"
         "Each task page gives the canonical name and aliases, a description, the inclusion\n"
         "test that decides whether an experiment is an instance of the task, its named\n"
         "variations, the cognitive processes it engages, and references.\n\n",
@@ -468,7 +460,6 @@ def _write_task_page(
     inclusion = task.get("inclusion_test", {})
     variations = task.get("variations", [])
     hed_process_ids = task.get("hed_process_ids", [])
-    is_pseudo = task.get("task_kind") == "pseudo_task"
 
     # The curated mapping in data/mappings/ is the only Atlas cross-reference. Task
     # records no longer carry an atlas_id of their own; that field produced dead links
@@ -487,15 +478,6 @@ def _write_task_page(
     if also:
         family_line += " (also " + ", ".join(f"[{f['name']}](families/{f['family_id']}.md)" for f in also) + ")"
     parts.append(family_line + "\n\n")
-    if is_pseudo:
-        parts.append(
-            ":::{note}\n"
-            "**Pseudo task.** A block that establishes or holds a state, collects a self-report or\n"
-            "delivers feedback, rather than eliciting a cognitive process through a trial structure. It is in the Catalog\n"
-            "so that such blocks can be labelled with the same vocabulary as the tasks around them.\n"
-            "See [Pseudo tasks](../methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3) in the task criteria.\n"
-            ":::\n\n"
-        )
     if aliases:
         parts.append(f"**Also known as:** {', '.join(aliases)}\n\n")
     parts.append(f"{task.get('short_definition', '')}\n\n")
@@ -532,13 +514,6 @@ def _write_task_page(
             parts.append(f"  - {var.get('justification', '')}\n")
         parts.append("```\n\n")
 
-    if is_pseudo and not hed_process_ids:
-        parts.append("## Cognitive processes\n\n")
-        parts.append(
-            "No process links have been recorded for this pseudo task. That is a gap in the Catalog, not a\n"
-            "claim that the block engages no process: a pseudo task is not run to probe a process, and the\n"
-            "processes it does engage have not yet been linked.\n\n"
-        )
     if hed_process_ids:
         parts.append("## Cognitive processes\n\n")
         parts.append("This task is designed to engage the following processes:\n\n")

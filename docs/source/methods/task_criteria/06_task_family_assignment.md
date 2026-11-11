@@ -42,9 +42,7 @@ one. Both statements are true; the filing picks one as the home.
 
 The membership is the `families` list on the task record in `data/task_details.json`.
 Each entry names the family, its role (`primary` or `secondary`), a confidence mark
-(section 6.3) and, for a secondary or a `review` entry, the rationale. A pseudo task
-([section 1.3](01_task_selection_criteria.md#task-criteria-1-3)) belongs to the pseudo
-task family only.
+(section 6.3) and, for a secondary or a `review` entry, the rationale.
 
 (task-criteria-6-3)=
 ## 6.3 The review mark

@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_self_referential_encoding`
 
-**Family:** [Memory control and prospective memory tasks](families/memory_control.md)
+**Family:** [Memory control and prospective memory tasks](families/memory_control.md) (also [Self-report tasks](families/self_report.md))
 
 **Also known as:** SRET, Self-Reference Effect Paradigm, Self-Referential Processing Task, Trait Adjective Endorsement Task
 

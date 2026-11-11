@@ -21,13 +21,9 @@ The two JSON files began as an export from the research workspace that found the
 2. Run `python src/generate_docs.py`. It validates before writing: schema shape, unique identifiers, every `hed_process_ids` entry resolving to a process, every process's `tasks` list agreeing with the tasks that name it, `task_count` and the header counts, reference `roles` from the allowed vocabulary, and every variation carrying its derived `variation_id`. A failure names the record and writes nothing.
 3. Commit the data and the regenerated pages together. CI regenerates and fails the PR if they disagree.
 
-### Pseudo tasks
-
-A record with `"task_kind": "pseudo_task"` is a block that serves the experiment around it rather than eliciting a process through trials: a baseline or reset (rest), a physical set-up (fixation), a self-report (questionnaire) or feedback on performance (task criteria, section "Pseudo tasks"). It may have an empty `hed_process_ids`, which means no links have been recorded, not that no process is engaged, and it must be filed under the `pseudo_tasks` family; the validator checks both. Ordinary tasks omit `task_kind`.
-
 ### Linking a task to a process
 
-Add the process id to the task's `hed_process_ids`, and add the task to the process's `tasks` list (`{"hedtsk_id": ..., "canonical_name": ...}`) and bump its `task_count`. The validator checks that both sides agree.
+Every task is linked to at least one process. Add the process id to the task's `hed_process_ids`, and add the task to the process's `tasks` list (`{"hedtsk_id": ..., "canonical_name": ...}`) and bump its `task_count`. The validator checks that both sides agree.
 
 ### Adding a variation
 
@@ -55,7 +51,7 @@ Families and categories are organizational, not a hierarchy (GitHub issue 28). A
 - `confidence` - `high` (the default when omitted) or `review`. A `review` mark flags a judgement call for a second opinion: on the primary, "not sure this is the right home"; on a secondary, "not sure this belongs here at all". Review entries are listed under "Marked for review" on the family or category page.
 - `rationale` - one line saying why; required on a secondary and on any `review` entry, naming the alternative or the doubt
 
-A pseudo task belongs to the `pseudo_tasks` family only. The site documents the same rules in the [task family assignment](https://www.hedtags.org/hed-task/methods/task_criteria/06_task_family_assignment.html) and [process category rules](https://www.hedtags.org/hed-task/methods/process_criteria/04_process_category_rules.html) pages.
+The site documents the same rules in the [task family assignment](https://www.hedtags.org/hed-task/methods/task_criteria/06_task_family_assignment.html) and [process category rules](https://www.hedtags.org/hed-task/methods/process_criteria/04_process_category_rules.html) pages.
 
 `task_family_defs.tsv`
 

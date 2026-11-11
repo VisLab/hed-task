@@ -1,6 +1,6 @@
 | Match type | Atlas entries | Share |
 |---|---|---|
-| exact | 99 | 12% |
-| close | 79 | 9% |
+| exact | 100 | 12% |
+| close | 186 | 22% |
 | related | 25 | 3% |
-| none | 654 | 76% |
+| none | 546 | 64% |

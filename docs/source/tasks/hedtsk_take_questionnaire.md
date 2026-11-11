@@ -3,14 +3,7 @@
 
 **HED task ID:** `hedtsk_take_questionnaire`
 
-**Family:** [Pseudo tasks: rest, fixation, self-report and feedback blocks](families/pseudo_tasks.md)
-
-:::{note}
-**Pseudo task.** A block that establishes or holds a state, collects a self-report or
-delivers feedback, rather than eliciting a cognitive process through a trial structure. It is in the Catalog
-so that such blocks can be labelled with the same vocabulary as the tasks around them.
-See [Pseudo tasks](../methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3) in the task criteria.
-:::
+**Family:** [Self-report tasks](families/self_report.md)
 
 **Also known as:** Questionnaire Block, Questionnaire Administration, Self-Report Block, Survey
 
@@ -18,7 +11,7 @@ Participant reads or hears a series of questionnaire items and records a respons
 
 ## Description
 
-A self-report instrument is administered as a block of the session, before, between or after task blocks. Items are presented on paper, on screen or read aloud, and the participant answers each in the instrument's response format. There is no time pressure and no stimulus other than the items themselves. The Catalog does not list instruments as tasks; it records the administration as a block so that the time spent on it, and any physiology recorded during it, can be labelled, and it records which instrument was used as a parameter of the block. Take Questionnaire is a pseudo task: it collects a self-report rather than eliciting a process, so it carries no process links.
+A self-report instrument is administered as a block of the session, before, between or after task blocks. Items are presented on paper, on screen or read aloud, and the participant answers each in the instrument's response format. There is no time pressure and no stimulus other than the items themselves. The Catalog does not list instruments as tasks; answering one is this task, and which instrument was used is a parameter of it. Each item is a stimulus and each answer a response, but no answer is correct. To answer, the participant reads and understands the item, recalls what is relevant from their own experience, judges how it applies to them, and picks the response option that fits. A computerized administration records when each item was shown and answered.
 
 ## Inclusion test
 
@@ -68,11 +61,16 @@ of a variation is `hedvar_<task>__<variation>`.
 
 ## Cognitive processes
 
-No process links have been recorded for this pseudo task. That is a gap in the Catalog, not a
-claim that the block engages no process: a pseudo task is not run to probe a process, and the
-processes it does engage have not yet been linked.
+This task is designed to engage the following processes:
+
+- [Sentence comprehension](../processes/language_comprehension_and_production.md#hed-sentence-comprehension)
+- [Retrieval](../processes/long_term_memory.md#hed-retrieval)
+- [Autobiographical memory](../processes/long_term_memory.md#hed-autobiographical-memory)
+- [Self-referential processing](../processes/awareness_agency_and_metacognition.md#hed-self-referential-processing)
+- [Response selection](../processes/motor_preparation_timing_and_execution.md#hed-response-selection)
 
 ## Further references
 
 - Bowling, A. (2005). Mode of questionnaire administration can have serious effects on data quality. *Journal of Public Health*, 27(3), 281-291. ([DOI](https://doi.org/10.1093/pubmed/fdi031))
+- Tourangeau, R., Rips, L. J., & Rasinski, K. (2000). *The psychology of survey response*. Cambridge University Press. ([DOI](https://doi.org/10.1017/CBO9780511819322))
 

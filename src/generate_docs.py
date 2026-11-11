@@ -66,9 +66,6 @@ GENERATED_PATHS = [
 
 _VALID_CONFIDENCE = {"high", "review"}
 
-# The one family a pseudo task (task_kind == "pseudo_task") may belong to.
-PSEUDO_FAMILY = "pseudo_tasks"
-
 
 # ---------------------------------------------------------------------------
 # Validation
@@ -212,15 +209,9 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
                         f"{t['hedtsk_id']}: {field} item must be trimmed, begin with a letter, digit or parenthesis "
                         f"and carry no final period or semicolon: {item!r}"
                     )
-        # A task engages at least one process; a pseudo task (task criteria, "Pseudo tasks") engages none
-        # by definition, so the two kinds are checked in opposite directions.
-        is_pseudo = t.get("task_kind", "task") == "pseudo_task"
-        if not t.get("hed_process_ids") and not is_pseudo:
-            problems.append(f"{t['hedtsk_id']}: hed_process_ids is empty but task_kind is not pseudo_task")
-        if t.get("hed_process_ids") and is_pseudo:
-            problems.append(
-                f"{t['hedtsk_id']}: a pseudo task carries no process links, but hed_process_ids is {t['hed_process_ids']}"
-            )
+        # Every task engages at least one process.
+        if not t.get("hed_process_ids"):
+            problems.append(f"{t['hedtsk_id']}: hed_process_ids is empty; every task is linked to at least one process")
     _check_memberships(processes, "categories", "category_id", category_ids, "process_id", problems)
     primary_cats = {primary_category(p) for p in processes if any(m.get("role") == "primary" for m in p.get("categories", []))}
     for cid in sorted(category_ids - primary_cats):
@@ -323,16 +314,6 @@ def load_families(data_dir: Path, tasks: list[dict]) -> list[dict]:
     used = {primary_family(t) for t in with_primary}
     for fid in sorted(known - used):
         problems.append(f"task_family_defs.tsv: no task is filed under family {fid}")
-
-    # Pseudo tasks and the pseudo-task family belong together, in both directions, and a
-    # pseudo task is not cross-listed elsewhere.
-    for t in with_primary:
-        kind = t.get("task_kind", "task")
-        listed = {m["family_id"] for m in t["families"]}
-        if kind == "pseudo_task" and (primary_family(t) != PSEUDO_FAMILY or listed != {PSEUDO_FAMILY}):
-            problems.append(f"{t['hedtsk_id']}: a pseudo task belongs to {PSEUDO_FAMILY!r} only")
-        if kind != "pseudo_task" and PSEUDO_FAMILY in listed:
-            problems.append(f"{t['hedtsk_id']}: is in {PSEUDO_FAMILY!r} but its task_kind is not pseudo_task")
 
     if problems:
         sys.exit("Family data is inconsistent; nothing written.\n  " + "\n  ".join(problems))

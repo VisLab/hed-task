@@ -18,7 +18,7 @@ This category contains 3 processes.
 
 Active holding of task goals, rules, or sub-goals in a form that biases ongoing processing.
 
-**Tasks that engage this process:** [Task Switching Task](../tasks/hedtsk_task_switching.md)
+**Tasks that engage this process:** [Fixate Task](../tasks/hedtsk_fixate.md), [Task Switching Task](../tasks/hedtsk_task_switching.md)
 
 **Fundamental references**
 

@@ -1,4 +1,4 @@
-### Experimental paradigms not in the Catalog (461)
+### Experimental paradigms not in the Catalog (460)
 
 | Atlas entry | Definition chars | Concepts |
 |---|---|---|
@@ -146,7 +146,6 @@
 | [figure ground task](https://www.cognitiveatlas.org/task/id/trm_551b0d687ee33) | 75 | - |
 | [film viewing](https://www.cognitiveatlas.org/task/id/trm_4c898da401420) | 107 | - |
 | [Fitts task](https://www.cognitiveatlas.org/task/id/trm_4f24226fa2903) | 201 | 1 |
-| [fixation task](https://www.cognitiveatlas.org/task/id/trm_4c898f72228f3) | 35 | 5 |
 | [flexion/extension](https://www.cognitiveatlas.org/task/id/trm_4c898fad429ed) | 81 | 1 |
 | [following commands](https://www.cognitiveatlas.org/task/id/trm_5798cb6027f28) | 231 | 3 |
 | [Food viewing (passive)](https://www.cognitiveatlas.org/task/id/tsk_rjSJbUa5Jk2Mb) | 129 | 1 |
@@ -463,118 +462,6 @@
 | [writing task](https://www.cognitiveatlas.org/task/id/trm_4c8a85c5c75eb) | 68 | 4 |
 | [Yellow Light Game](https://www.cognitiveatlas.org/task/id/trm_59668f09db813) | 2481 | - |
 | [zoo map test](https://www.cognitiveatlas.org/task/id/trm_4da89089ce0af) | 190 | - |
-
-### Rating scales, questionnaires and inventories (107)
-
-| Atlas entry | Definition chars | Concepts |
-|---|---|---|
-| [aberrant behavior checklist - community](https://www.cognitiveatlas.org/task/id/trm_523c7a0a73cf5) | 594 | 5 |
-| [adolescent symptom inventory](https://www.cognitiveatlas.org/task/id/trm_523df616da8a6) | 253 | 11 |
-| [Adult ADHD Clinical Diagnostic Scale](https://www.cognitiveatlas.org/task/id/trm_5586ff878155d) | 419 | 6 |
-| [Adult ADHD Self-Report Scale](https://www.cognitiveatlas.org/task/id/trm_55a6a79b55c8b) | 199 | - |
-| [adult behavior checklist](https://www.cognitiveatlas.org/task/id/trm_523ca67b786d5) | 210 | 2 |
-| [Aesthetic Experience Questionnaire (AEQ)](https://www.cognitiveatlas.org/task/id/tsk_STbROQuOk0Qo5) | 389 | - |
-| [Anxiety Sensitivity Index - 3 (ASI-3)](https://www.cognitiveatlas.org/task/id/tsk_L1akyyjEGdiUs) | 459 | 2 |
-| [Barratt Impulsiveness Scale](https://www.cognitiveatlas.org/task/id/trm_55a6a8e81b7f4) | 406 | 3 |
-| [battelle developmental inventory](https://www.cognitiveatlas.org/task/id/trm_523e10cad0ce6) | 248 | 1 |
-| [behavioral rating inventory of executive function](https://www.cognitiveatlas.org/task/id/tsk_4a57abb9498ab) | 529 | 7 |
-| [big five questionnaire](https://www.cognitiveatlas.org/task/id/trm_523f5c17d7edb) | 267 | 5 |
-| [Brief Psychiatric Rating Scale](https://www.cognitiveatlas.org/task/id/trm_55a6a52537c2b) | 482 | - |
-| [Brief Risk-Resilience Index for Screening (BRISC)](https://www.cognitiveatlas.org/task/id/tsk_NrSniDhXY2NKm) | 760 | 2 |
-| [brief self control scale](https://www.cognitiveatlas.org/task/id/trm_56a915461cd91) | 142 | 1 |
-| [brief symptom inventory](https://www.cognitiveatlas.org/task/id/trm_52405b6f7ebe9) | 281 | 9 |
-| [broad autism phenotype questionnaire](https://www.cognitiveatlas.org/task/id/trm_523dfd5b7a9f1) | 394 | 3 |
-| [broader phenotype autism symptom scale](https://www.cognitiveatlas.org/task/id/trm_524055ac4fecf) | 263 | 4 |
-| [Center for Epidemiologic Studies Depression Scale](https://www.cognitiveatlas.org/task/id/trm_5258346e72223) | 198 | 8 |
-| [Chapman Infrequency Scale](https://www.cognitiveatlas.org/task/id/trm_57c0c015b603c) | 4 | - |
-| [Chapman Magical Ideation Scale](https://www.cognitiveatlas.org/task/id/trm_57c0c570473d3) | 259 | - |
-| [Chapman Perceptual Aberration Scale](https://www.cognitiveatlas.org/task/id/trm_57c0c146e0019) | 259 | - |
-| [Chapman Physical Anhedonia Scale](https://www.cognitiveatlas.org/task/id/trm_57c0c1af018a5) | 291 | - |
-| [Chapman Social Anhedonia Scale](https://www.cognitiveatlas.org/task/id/trm_57c0c186b07d4) | 300 | - |
-| [Child Behavior Checklist](https://www.cognitiveatlas.org/task/id/trm_524b4a402c87e) | 396 | 11 |
-| [Children's Communication Checklist](https://www.cognitiveatlas.org/task/id/trm_5255c99be1e53) | 233 | 11 |
-| [Children's Memory Scale](https://www.cognitiveatlas.org/task/id/trm_52167db323438) | 433 | 6 |
-| [Children's Psychiatric Rating Scale](https://www.cognitiveatlas.org/task/id/trm_525c56680c13c) | 648 | 8 |
-| [Children's Yale-Brown Obsessive Compulsive Scale](https://www.cognitiveatlas.org/task/id/trm_52602c143d3a9) | 87 | 1 |
-| [Consideration of Future Consequences Scale](https://www.cognitiveatlas.org/task/id/tsk_LURJ93Bk1echa) | 241 | 1 |
-| [Couple Coercion Scale](https://www.cognitiveatlas.org/task/id/tsk_QEgcdL3G9d3fp) | 195 | 1 |
-| [Daily Inventory of Stressful Events (DISE)](https://www.cognitiveatlas.org/task/id/tsk_eDDTJCIrL19Qj) | 674 | 1 |
-| [Dickman Impulsivity Inventory](https://www.cognitiveatlas.org/task/id/trm_55a6a95f66508) | 571 | 1 |
-| [duckworth's short grit scale](https://www.cognitiveatlas.org/task/id/trm_56a9166421494) | 213 | 1 |
-| [Early Childhood Behavioral Questionnaire](https://www.cognitiveatlas.org/task/id/trm_5298e7a465b41) | 363 | 11 |
-| [Eating questionnaire](https://www.cognitiveatlas.org/task/id/trm_56aac5f6e4702) | 103 | 1 |
-| [Eckblad and Chapman's Hypomanic Personality Scale](https://www.cognitiveatlas.org/task/id/trm_57c0bf6b14b90) | 4 | - |
-| [Edinburgh Handedness Inventory](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949a41) | 486 | 1 |
-| [Emotion Regulation Questionnaire](https://www.cognitiveatlas.org/task/id/trm_56bbead1a7ed4) | 250 | 1 |
-| [Emotion Regulation Strategies Scale](https://www.cognitiveatlas.org/task/id/tsk_EeJGKBAbpHkIm) | 471 | - |
-| [Eysenck Personality Questionnaire](https://www.cognitiveatlas.org/task/id/trm_55a6ae8f44ac3) | 314 | - |
-| [Five Facet Mindfulness Questionnaire](https://www.cognitiveatlas.org/task/id/trm_56ab12e0f1a61) | 105 | 1 |
-| [Future Orientation Scale of the Time Perspective Survey (child version)](https://www.cognitiveatlas.org/task/id/tsk_gskvlEiCHg899) | 623 | 2 |
-| [future time perspective questionnaire](https://www.cognitiveatlas.org/task/id/trm_56a915fe77945) | 342 | 1 |
-| [Generalized Self-Efficacy Scale](https://www.cognitiveatlas.org/task/id/tsk_p7cabUkVvQPBS) | 525 | 1 |
-| [Glasgow Coma Scale](https://www.cognitiveatlas.org/task/id/trm_4da890f978492) | 392 | - |
-| [Godin Leisure-Time Exercise Questionnaire](https://www.cognitiveatlas.org/task/id/tsk_7f8coV4TPvTeZ) | 512 | - |
-| [Hamilton Psychiatric Rating Scale for Depression](https://www.cognitiveatlas.org/task/id/trm_559e2af1cc0ce) | 563 | - |
-| [Hopkins Symptom Checklist](https://www.cognitiveatlas.org/task/id/trm_55a6a860a7088) | 364 | - |
-| [Hypomanic Personality Scale](https://www.cognitiveatlas.org/task/id/trm_55a6c92db12b0) | 166 | - |
-| [I7 impulsiveness and venturesomeness questionnaire](https://www.cognitiveatlas.org/task/id/trm_56a91e3e982f9) | 279 | 3 |
-| [Immersive Virtual Reality Assay for Target: Regulation of Cognition (Behavioral and Self-Report)](https://www.cognitiveatlas.org/task/id/tsk_H2hu4WmHYl8Tu) | 672 | 1 |
-| [Immersive Virtual Reality Assay for Target: Regulation of Emotion (Behavioral and Self-Report)](https://www.cognitiveatlas.org/task/id/tsk_Sgb6i1nFqMVjQ) | 803 | 1 |
-| [Immersive Virtual Reality Assay for Target: Regulation of Self-Reflection (Behavioral and Self-Report)](https://www.cognitiveatlas.org/task/id/tsk_ZaJZLqgqcXCLq) | 622 | 1 |
-| [International Physical Activity Questionnaire - Short Form (IPAQ-SF)](https://www.cognitiveatlas.org/task/id/tsk_QlXQe5gup7UFj) | 440 | 1 |
-| [Kessler Psychological Distress Scale (K6+)](https://www.cognitiveatlas.org/task/id/tsk_OA90UJX5qwTyc) | 596 | 1 |
-| [Leiter International Performance Scale](https://www.cognitiveatlas.org/task/id/trm_5262cb3d852c0) | 1266 | 10 |
-| [Loneliness Rating Scale](https://www.cognitiveatlas.org/task/id/trm_529d087705bfa) | 140 | 1 |
-| [Maudsley Obsessive Compulsive Inventory](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949b54) | 234 | 2 |
-| [Mindful Attention and Awareness Scale](https://www.cognitiveatlas.org/task/id/trm_56abcba3df89b) | 129 | 3 |
-| [Minnesota Multiphasic Personality Inventory](https://www.cognitiveatlas.org/task/id/trm_55a6c80b2c1d6) | 555 | - |
-| [modified Erickson Scale of Communication Attitudes](https://www.cognitiveatlas.org/task/id/trm_4da891d43240c) | 114 | - |
-| [Multidimensional Personality Questionnaire](https://www.cognitiveatlas.org/task/id/trm_55a6aa62c54f8) | 281 | - |
-| [Multidimensional Personality Questionnaire: Control vs. Impulsivity Scale](https://www.cognitiveatlas.org/task/id/tsk_tp1574mCRYbWD) | 577 | 2 |
-| [NIH Self-Efficacy Scale](https://www.cognitiveatlas.org/task/id/tsk_UwGwPHdQkMJqi) | 481 | 1 |
-| [NIH Toolbox General Life Satisfaction Survey](https://www.cognitiveatlas.org/task/id/trm_50f3c003327c4) | 531 | 1 |
-| [NIH Toolbox Hearing Handicap Inventory](https://www.cognitiveatlas.org/task/id/trm_50f37767e2958) | 559 | 1 |
-| [NIH Toolbox Meaning and Purpose Survey](https://www.cognitiveatlas.org/task/id/trm_50f5bfef58abb) | 371 | 1 |
-| [NIH Toolbox Pain Intensity Survey](https://www.cognitiveatlas.org/task/id/trm_50f385a8269ce) | 308 | - |
-| [NIH Toolbox Pain Interference Survey](https://www.cognitiveatlas.org/task/id/trm_50f3862422509) | 399 | - |
-| [NIH Toolbox Positive Affect Survey](https://www.cognitiveatlas.org/task/id/trm_50f3bc06cae36) | 468 | 1 |
-| [NIH Toolbox Vision-Related Quality of Life Survey](https://www.cognitiveatlas.org/task/id/trm_50f37f231aa4c) | 480 | 1 |
-| [Parent Cognition Scale](https://www.cognitiveatlas.org/task/id/tsk_dwOdvcER9RnBx) | 439 | 1 |
-| [Parent-Child Coercion Scale](https://www.cognitiveatlas.org/task/id/tsk_alz5hjlUXp4WY) | 132 | 1 |
-| [Parent-Rated Stress (NIH Perceived Stress Scale)](https://www.cognitiveatlas.org/task/id/tsk_m9ORBitZNadcZ) | 347 | 1 |
-| [Parrott Scale](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949ce9) | 110 | - |
-| [Patient health questionnaire (PHQ-9)](https://www.cognitiveatlas.org/task/id/tsk_Y0LwjRqYtJSQO) | 19 | - |
-| [PDD Behavior Inventory](https://www.cognitiveatlas.org/task/id/trm_5262d903ae91d) | 653 | 8 |
-| [Pearlin Mastery Scale](https://www.cognitiveatlas.org/task/id/tsk_osfnJ7DNe8DB0) | 402 | 2 |
-| [Pittsburgh Sleep Quality Index](https://www.cognitiveatlas.org/task/id/trm_5585c83d15fad) | 494 | 1 |
-| [Positive and Negative Affect Scale](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949d09) | 742 | 3 |
-| [Preschool Language Scale](https://www.cognitiveatlas.org/task/id/trm_5266bc6473fd8) | 190 | 2 |
-| [Scale for the Assessment of Negative Symptoms](https://www.cognitiveatlas.org/task/id/trm_55a6a36d9c3f9) | 520 | - |
-| [Scale for the Assessment of Positive Symptoms](https://www.cognitiveatlas.org/task/id/trm_55a6cffbcb5f7) | 517 | - |
-| [Selection-Optimization-Compensation (SOC) questionnaire](https://www.cognitiveatlas.org/task/id/trm_56ac06bac9334) | 431 | 3 |
-| [self regulation questionnaire](https://www.cognitiveatlas.org/task/id/trm_56a91ed5f1ccc) | 563 | - |
-| [SIDES Affect Dysregulation Scale (Child-Reported)](https://www.cognitiveatlas.org/task/id/tsk_HfEOU5RLqcxAD) | 385 | 1 |
-| [Social Communication Questionnaire](https://www.cognitiveatlas.org/task/id/trm_521687032f822) | 886 | 3 |
-| [Social Competence Questionnaire](https://www.cognitiveatlas.org/task/id/trm_525c4a78089ad) | 56 | 1 |
-| [Social Responsiveness Scale](https://www.cognitiveatlas.org/task/id/trm_5208fe678c652) | 703 | 5 |
-| [Spielberger's State-Trait Anxiety Questionnaire](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949dfe) | 169 | - |
-| [State-Trait Anger Expression Inventory-2 (STAXI-2)](https://www.cognitiveatlas.org/task/id/tsk_FV3SD73LtdfUc) | 453 | - |
-| [Symptom Checklist-90-Revised](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e5b) | 274 | 1 |
-| [Temperament and Character Inventory](https://www.cognitiveatlas.org/task/id/trm_55a6cb4f951ea) | 437 | - |
-| [ten item personality questionnaire](https://www.cognitiveatlas.org/task/id/trm_56a919a478935) | 408 | - |
-| [theories of willpower scale](https://www.cognitiveatlas.org/task/id/trm_56a91a3082c31) | 338 | - |
-| [Tobacco Craving Questionnaire](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949eb3) | 690 | - |
-| [treatment self-regulation questionnaire](https://www.cognitiveatlas.org/task/id/trm_56aa9833c4be2) | 517 | - |
-| [Unified Parkinson's Disease Rating Scale](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949ece) | 413 | - |
-| [UPPS-P Impulsivity Scale](https://www.cognitiveatlas.org/task/id/trm_56a91a92043bc) | 270 | 1 |
-| [Wechsler Abbreviated Scale of Intelligence](https://www.cognitiveatlas.org/task/id/trm_4b94affc43245) | 481 | 7 |
-| [Wechsler Adult Intelligence Scale - Revised](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949f12) | 239 | 6 |
-| [Wechsler Adult Intelligence Scale-Revised](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949f04) | 379 | - |
-| [Wechsler Intelligence Scale for Children - Revised](https://www.cognitiveatlas.org/task/id/trm_4da6338803ed2) | 143 | - |
-| [Wechsler Memory Scale Fourth Edition](https://www.cognitiveatlas.org/task/id/trm_4b94b12bf0eb2) | 2000 | 5 |
-| [Young Mania Rating Scale](https://www.cognitiveatlas.org/task/id/trm_558702243da12) | 669 | - |
-| [zimbardo time perspective inventory](https://www.cognitiveatlas.org/task/id/trm_56a91e92eab46) | 270 | 4 |
-| [Zuckerman Sensation Seeking Scale](https://www.cognitiveatlas.org/task/id/trm_56abebfe9aaa3) | 423 | - |
 
 ### Standardized tests and batteries (41)
 

@@ -52,7 +52,6 @@ SCOPE_LABELS = [
     ("physiological", "Physiological procedures and interventions"),
     ("motor_act", "Motor acts"),
     ("imaging_protocol", "Imaging protocol"),
-    ("pseudo_task", "Pseudo tasks"),
 ]
 
 FACETS = [
@@ -244,11 +243,7 @@ def generate(docs_dir: Path, data_dir: Path) -> int:
         "mapping_cogpo_reverse.md": _share_table(reverse, "CogPO classes"),
         "mapping_cogpo_reverse_scope.md": _table(
             ["What the class is", "CogPO classes"],
-            [
-                [label, sum(1 for r in unmatched if r["scope_class"] == scope)]
-                for scope, label in SCOPE_LABELS
-                if scope != "pseudo_task"
-            ],
+            [[label, sum(1 for r in unmatched if r["scope_class"] == scope)] for scope, label in SCOPE_LABELS],
         ),
         "mapping_cogpo_level.md": _table(
             ["Mapped to", "CogPO classes"],

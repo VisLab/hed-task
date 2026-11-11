@@ -27,7 +27,7 @@ describes for a condition, and the same things HED tags on the events.
 
 CogPO's six dimensions are the natural first six facets, which is why their values are
 kept here with a HED tag each. Whether the Catalog adopts facets, in this form or another,
-and how they relate to CogPO's paradigm classes and to the pseudo tasks, is not settled.
+and how they relate to CogPO's paradigm classes, is not settled.
 No task record carries facet values, and nothing on the site depends on them; this page
 stands on its own as a CogPO-to-HED mapping.
 

@@ -3,7 +3,7 @@
 
 A cue precedes a target and predicts its location or identity with some validity; the benefit of valid over invalid cues is the measure.
 
-This family contains 3 tasks.
+This family contains 3 tasks and cross-lists 1 more.
 
 ## [Attention Network](../hedtsk_attention_network.md)
 
@@ -16,6 +16,14 @@ A pair of cues (often threat/neutral) is followed by a probe at one cue location
 ## [Posner Spatial Cueing](../hedtsk_posner_spatial_cueing.md)
 
 A central or peripheral cue indicates the likely target location; RT differences between valid, neutral, and invalid cues index covert spatial orienting. Engages <span class="pop" tabindex="0">5 processes<span class="pop-card"><span><a href="../../processes/selective_and_sustained_attention.html#hed-spatial-attention">Spatial attention</a></span><span><a href="../../processes/selective_and_sustained_attention.html#hed-orienting">Orienting</a></span><span><a href="../../processes/selective_and_sustained_attention.html#hed-attentional-capture">Attentional capture</a></span><span><a href="../../processes/selective_and_sustained_attention.html#hed-attention-shifting">Attention shifting</a></span><span><a href="../../processes/selective_and_sustained_attention.html#hed-selective-attention">Selective attention</a></span></span></span>. <span class="pop" tabindex="0">2 aliases<span class="pop-card"><span>Posner Task</span><span>Spatial Cueing Task</span></span></span>, <span class="pop" tabindex="0">11 variations<span class="pop-card"><span><a href="../hedtsk_posner_spatial_cueing.html#variations">Exogenous (Peripheral) Cueing</a></span><span><a href="../hedtsk_posner_spatial_cueing.html#variations">Endogenous (Central) Cueing</a></span><span><a href="../hedtsk_posner_spatial_cueing.html#variations">Valid, Invalid, and Neutral Cue Conditions</a></span><span><a href="../hedtsk_posner_spatial_cueing.html#variations">Inhibition of Return (IOR) Paradigm</a></span><span><a href="../hedtsk_posner_spatial_cueing.html#variations">Gap vs. Overlap Conditions</a></span><span><a href="../hedtsk_posner_spatial_cueing.html#variations">Double-Cue Paradigm</a></span><span><a href="../hedtsk_posner_spatial_cueing.html#variations">Predictive vs. Non-Predictive Cues</a></span><span><a href="../hedtsk_posner_spatial_cueing.html#variations">Feature-Based Cueing</a></span><span><a href="../hedtsk_posner_spatial_cueing.html#variations">Object-Based Cueing</a></span><span><a href="../hedtsk_posner_spatial_cueing.html#variations">Cross-Modal Cueing</a></span><span><a href="../hedtsk_posner_spatial_cueing.html#variations">Detection vs. Discrimination Targets</a></span></span></span>.
+
+## Also filed here
+
+These tasks are filed under another family and cross-listed here; the note says why.
+
+| Task | Filed under | Note |
+|---|---|---|
+| [Fixate](../hedtsk_fixate.md) | [Response inhibition and stopping tasks](response_inhibition.md) | Held throughout cueing tasks so that attention moves while the eyes stay still |
 
 ```{toctree}
 :hidden:
