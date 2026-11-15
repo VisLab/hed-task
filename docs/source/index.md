@@ -83,5 +83,4 @@ cogpo/what_is_cogpo
 cogpo/the_catalog_vs_cogpo
 cogpo/hed_vs_cogpo
 Task mapping (CogPO) <cogpo/task_mapping>
-Dimension mapping (CogPO) <cogpo/dimension_mapping>
 ```

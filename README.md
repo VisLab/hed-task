@@ -19,7 +19,7 @@ The Catalog is published as a searchable website at **<https://www.hedtags.org/h
 | [Task-process links](https://www.hedtags.org/hed-task/task_process_links.html)             | The whole task-to-process matrix in both directions                                       |
 | [Methods](https://www.hedtags.org/hed-task/methods/task_criteria.html)                     | Task and process selection criteria; how the Cognitive Atlas mapping was built            |
 | [Cognitive Atlas](https://www.hedtags.org/hed-task/atlas/what_is_the_cognitive_atlas.html) | What the Atlas contains, how the Catalog relates to it, and the row-by-row mapping tables |
-| [CogPO](https://www.hedtags.org/hed-task/cogpo/what_is_cogpo.html)                         | What CogPO contains, how the Catalog and HED relate to it, and its dimension vocabularies |
+| [CogPO](https://www.hedtags.org/hed-task/cogpo/what_is_cogpo.html)                         | What CogPO contains, how the Catalog and HED relate to it |
 
 ## Repository structure
 

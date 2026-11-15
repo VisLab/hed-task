@@ -107,8 +107,7 @@ parts (hand, foot, mouth, face, arm, leg, shoulder, pelvis). *Stimulus Role* has
 values on the wiki (target, non-target, feedback, reward) and none in the OWL.
 
 Every value has a definition, most of them dictionary definitions with the source
-cited, and 75 classes cite a BrainMap paper as the use that motivated the term. The
-[dimension mapping](dimension_mapping.md) page lists all of them.
+cited, and 75 classes cite a BrainMap paper as the use that motivated the term.
 
 ## Curation state
 

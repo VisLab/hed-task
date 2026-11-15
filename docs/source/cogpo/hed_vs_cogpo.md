@@ -95,8 +95,7 @@ instructed", are ordinary HED annotations: an `Omitted-action`, an extra
 
 ## Where the vocabularies meet
 
-CogPO's six dimension vocabularies each land in one HED subtree, which is why the
-Catalog could adopt them as facets and pair every value with a tag:
+CogPO's six dimension vocabularies each land in one HED subtree:
 
 | CogPO dimension | HED 8.4.0 subtree |
 |---|---|
@@ -107,14 +106,7 @@ Catalog could adopt them as facets and pair every value with a tag:
 | Overt Response | `Action` (`Press`, `Saccade`, `Speak`, `Grasp`, `Write`, ...) |
 | Instructions | `Action/Think` and `Action/Perform` (`Detect`, `Discriminate`, `Recall`, `Read`, `Rest`, ...) |
 
-```{include} ../_generated/cogpo_hed_line.md
-```
-
-```{include} ../_generated/cogpo_dimension_coverage.md
-```
-
-The value-by-value tables, with the HED tag and a note on the fit for every value, are
-on the [dimension mapping](dimension_mapping.md) page. The fit is close for a
+The fit is close for a
 reason: Turner and Laird expected exactly this, writing that "tones are not really a
 stimulus type, but instead they are a kind of sound" and that CogPO would one day refer
 to "ontologies of sounds, shapes, food, actions etc." HED's `Item` and `Action` trees are
@@ -141,8 +133,7 @@ made, or not made, and its `Task-action-type` tags (`Correct-action`, `Incorrect
 **Richer roles.** CogPO has four stimulus roles, and those only on its wiki. HED's
 `Task-stimulus-role` has 22 (`Distractor`, `Cue`, `Oddball`, `Novel`, `Penalty`,
 `Go-signal`, `Stop-signal`, `Priming`, `Threat` and more) and `Task-event-role` adds
-`Cue`, `Feedback`, `Instructional`, `Participant-response`, `Warning`. The Catalog's
-facet vocabulary takes eight roles from HED that CogPO never had.
+`Cue`, `Feedback`, `Instructional`, `Participant-response`, `Warning`.
 
 **More actions.** HED's `Action/Think` has 21 verbs to CogPO's 17 instructions, and
 several the Catalog's tasks need: `Judge`, `Recognize`, `Predict`, `Plan`, `Learn`,
@@ -194,7 +185,7 @@ to raise them is a decision for the HED Working Group.
 | Resource | Unit | Says |
 |---|---|---|
 | The Catalog | a task | what the participant was asked to do, and which processes that engages |
-| CogPO, and the Catalog's facets | a condition | what was shown, in which modality and role; what was done, with which body part; under what instruction |
+| CogPO | a condition | what was shown, in which modality and role; what was done, with which body part; under what instruction |
 | HED | an event | what happened, when, to whom, in which role |
 
 Turner and Laird kept cognitive processes out of CogPO on purpose, because "if these
@@ -206,5 +197,5 @@ grounds task identity in procedure, which is the part CogPO showed does not shif
 
 A dataset tagged with a Catalog task, whose task carries facet values, whose events are
 annotated in HED, is described at all three levels with one vocabulary running through
-them: the facet value `words` is the HED tag `Word`, the facet value `button_press` is
-`Press`, and the task that has them is the one CogPO calls Stroop Task Paradigm.
+them: the facet value `words` is the HED tag `Word`, and the task that has them is the one
+CogPO calls Stroop Task Paradigm.

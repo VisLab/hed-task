@@ -159,8 +159,7 @@ not only by name. The idea and the candidate vocabularies come from
 [CogPO](cogpo/what_is_cogpo.md), the Cognitive Paradigm Ontology, which describes every
 paradigm by exactly those three things, and each value has HED tags that express
 it, so that a facet would sit between a task name and the HED annotation of its events.
-The [dimension mapping](cogpo/dimension_mapping.md) page holds the vocabularies; whether
-and how the Catalog adopts facets is not yet decided, and no task record carries one.
+Whether and how the Catalog adopts facets is not yet decided, and no task record carries one.
 
 ## Identifiers
 
@@ -192,11 +191,9 @@ the [Atlas mapping method](methods/atlas_mapping_method.md) page says how each c
 decided.
 
 A second source for the Catalog is [CogPO](http://www.cogpo.org/), the Cognitive Paradigm
-Ontology, whose stimulus, response and instruction vocabularies are the candidate facets;
-see [The Catalog vs CogPO](cogpo/the_catalog_vs_cogpo.md). The first facets to be filled
-are the six CogPO-derived ones (stimulus modality, kind and role; response modality and
-kind; instructions), followed by the Catalog's own (trial structure, feedback, timing and
-primary measure). CogPO and HED share a history: early HED terminology drew partly on
+Ontology, whose stimulus, response and instruction vocabularies were the starting point
+when facets were first planned; the facets are now anchored on HED tags. See
+[The Catalog vs CogPO](cogpo/the_catalog_vs_cogpo.md). CogPO and HED share a history: early HED terminology drew partly on
 CogPO, and HED's plan to adopt CogPO's paradigm list was dropped in its third generation
 for want of a standardized task nomenclature, which is the gap the Catalog now fills. See
 [HED vs CogPO](cogpo/hed_vs_cogpo.md).
