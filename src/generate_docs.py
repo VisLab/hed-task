@@ -6,7 +6,10 @@ Inputs, all under data/ and all edited in this repository by pull request:
     process_details.json     the processes and their categories
     mappings/*.tsv           the curated correspondence with the Cognitive Atlas
     task_family_defs.tsv     the task families (membership is on each task record)
-    schemas/*.schema.json    JSON Schemas for the two catalog files
+    task_facet_defs.json     the facet vocabulary
+    task_game_defs.json      game types, rules, motivation, phases, settings, combinations
+    vocabulary_candidates.json  the register of candidate vocabulary
+    schemas/*.schema.json    JSON Schemas for the catalog and vocabulary files
 
 Two kinds of page live under docs/source/. This script writes only the catalog pages,
 which are tabular views of the data:
@@ -156,6 +159,228 @@ def _check_ascii(label: str, value, problems: list[str], path: str = "", in_refe
             problems.append(f"{label} at {path}: non-ASCII {chars} in {value[:80]!r}")
 
 
+# ---------------------------------------------------------------------------
+# Vocabulary: facets, games, and the candidate register
+# ---------------------------------------------------------------------------
+
+# The task-record keys that belong to the game model. A record that carries none of them
+# has not been migrated yet and is not checked against the vocabulary.
+_GAME_MODEL_KEYS = (
+    "game_type",
+    "rules",
+    "motivation",
+    "task_facets",
+    "settings",
+    "material",
+    "phases",
+    "combined_with",
+    "candidates",
+    "variants",
+)
+_VOCABULARY_FILES = ("task_facet_defs", "task_game_defs", "vocabulary_candidates")
+
+
+def load_vocabularies(data_dir: Path, problems: list[str]) -> dict:
+    """Load the three vocabulary files, each validated against its schema.
+
+    Parameters:
+        data_dir: The data/ directory.
+        problems: The list to append messages to.
+
+    Returns:
+        A dict of lookup tables: `facets` (facet -> set of values), `game_types` (game type
+        -> {rule -> (default, set of values)}), `motivation` (question -> set of values),
+        `required_motivation` (questions a task must answer), `phases`, `settings`, `how`
+        and `candidates` (sets of names).
+    """
+    raw = {}
+    for name in _VOCABULARY_FILES:
+        raw[name] = load_json(data_dir / f"{name}.json")
+        _schema_check(raw[name], data_dir / "schemas" / f"{name}.schema.json", f"{name}.json", problems)
+        _check_ascii(f"{name}.json", raw[name], problems)
+
+    facets = {f["facet"]: {v["value"] for v in f["values"]} for f in raw["task_facet_defs"]["facets"]}
+    games = raw["task_game_defs"]
+    game_types: dict[str, dict[str, tuple[str, set[str]]]] = {}
+    for g in games["game_types"]:
+        rules = {}
+        for r in g.get("rules", []):
+            values = {v["value"] for v in r["values"]}
+            if r["default"] not in values:
+                problems.append(
+                    f"task_game_defs.json: rule {g['game_type']}.{r['rule']} default {r['default']!r} is not one of its values"
+                )
+            rules[r["rule"]] = (r["default"], values)
+        game_types[g["game_type"]] = rules
+    vocab = {
+        "facets": facets,
+        "game_types": game_types,
+        "motivation": {m["key"]: {v["value"] for v in m["values"]} for m in games["motivation"]},
+        "required_motivation": {m["key"] for m in games["motivation"] if m.get("required")},
+        "phases": {p["phase"] for p in games["phases"]},
+        "settings": {s["setting"] for s in games["settings"]},
+        "how": {c["how"] for c in games["combinations"]},
+        "candidates": {c["candidate_id"] for c in raw["vocabulary_candidates"]["candidates"]},
+    }
+    for label, items, key in (
+        ("facet", raw["task_facet_defs"]["facets"], "facet"),
+        ("game type", games["game_types"], "game_type"),
+        ("candidate", raw["vocabulary_candidates"]["candidates"], "candidate_id"),
+    ):
+        for value, n in collections.Counter(i[key] for i in items).items():
+            if n > 1:
+                problems.append(f"vocabulary: {label} {value!r} appears {n} times")
+    return vocab
+
+
+def _check_game_layer(
+    label: str, rec: dict, game_type: str | None, vocab: dict, ctx: dict, problems: list[str], standard: dict | None = None
+) -> None:
+    """Check the game-model keys that a task and a variant share.
+
+    Parameters:
+        label: The record's name in messages (task id, or task id and variant id).
+        rec: The task or variant record.
+        game_type: The task's game type; None when it is missing or unknown, in which case
+            the rules are not checked.
+        vocab: The tables from `load_vocabularies`.
+        ctx: `task_ids` and `process_ids`, the known identifiers.
+        problems: The list to append messages to.
+        standard: For a variant, the standard form (the task record). A task may not state a
+            rule with its default; a variant may (to undo a standard-form answer), but may
+            not repeat the standard form's answer. A variant may not repeat the standard
+            form's list for a facet or its answer to a motivation question, and may give an
+            empty facet list only for a facet the standard form carries (the facet does not
+            apply to this form).
+    """
+    std_facets = (standard or {}).get("task_facets") or {}
+    std_motivation = (standard or {}).get("motivation") or {}
+    for facet, values in (rec.get("task_facets") or {}).items():
+        if facet not in vocab["facets"]:
+            problems.append(f"{label}: task_facets names unknown facet {facet!r}")
+            continue
+        for v in values:
+            if v not in vocab["facets"][facet]:
+                problems.append(f"{label}: task_facets {facet} has unknown value {v!r}")
+        if standard is not None:
+            if not values and facet not in std_facets:
+                problems.append(
+                    f"{label}: task_facets {facet} is empty, but the standard form does not carry the facet; leave it out"
+                )
+            elif values and facet in std_facets and set(values) == set(std_facets[facet]):
+                problems.append(f"{label}: task_facets {facet} repeats the standard form's list {values}; leave it out")
+
+    std_rules = (standard or {}).get("rules") or {}
+    rules = rec.get("rules") or {}
+    if rules and game_type is not None:
+        known_rules = vocab["game_types"][game_type]
+        if not known_rules:
+            problems.append(f"{label}: game type {game_type!r} has no rules, but the record states {sorted(rules)}")
+        else:
+            for rule, value in rules.items():
+                if rule not in known_rules:
+                    problems.append(f"{label}: rule {rule!r} does not belong to game type {game_type!r}")
+                    continue
+                default, values = known_rules[rule]
+                if value not in values:
+                    problems.append(f"{label}: rule {rule} has unknown value {value!r}")
+                elif standard is None and value == default:
+                    problems.append(f"{label}: rule {rule} is stated with its default {value!r}; leave it out")
+                elif standard is not None and value == std_rules.get(rule, default):
+                    problems.append(f"{label}: rule {rule} repeats the standard form's answer {value!r}; leave it out")
+
+    for question, answer in (rec.get("motivation") or {}).items():
+        if question not in vocab["motivation"]:
+            problems.append(f"{label}: motivation names unknown question {question!r}")
+            continue
+        for v in answer if isinstance(answer, list) else [answer]:
+            if v not in vocab["motivation"][question]:
+                problems.append(f"{label}: motivation {question} has unknown value {v!r}")
+        if question in std_motivation and set(answer if isinstance(answer, list) else [answer]) == set(
+            std_motivation[question] if isinstance(std_motivation[question], list) else [std_motivation[question]]
+        ):
+            problems.append(f"{label}: motivation {question} repeats the standard form's answer {answer!r}; leave it out")
+
+    for phase in rec.get("phases") or []:
+        if phase not in vocab["phases"]:
+            problems.append(f"{label}: unknown phase {phase!r}")
+    for setting in rec.get("settings") or []:
+        if setting not in vocab["settings"]:
+            problems.append(f"{label}: unknown setting {setting!r}")
+    for i, c in enumerate(rec.get("combined_with") or []):
+        if c.get("how") not in vocab["how"]:
+            problems.append(f"{label}: combined_with {i} has unknown how {c.get('how')!r}")
+        if "game_type" in c and c["game_type"] not in vocab["game_types"]:
+            problems.append(f"{label}: combined_with {i} names unknown game type {c['game_type']!r}")
+        if "task" in c and c["task"] not in ctx["task_ids"]:
+            problems.append(f"{label}: combined_with {i} names unknown task {c['task']!r}")
+    for cand in rec.get("candidates") or []:
+        if cand not in vocab["candidates"]:
+            problems.append(f"{label}: candidate {cand!r} is not in vocabulary_candidates.json")
+
+
+def check_game_records(tasks: list[dict], vocab: dict, process_ids: set[str], problems: list[str]) -> dict[str, list[str]]:
+    """Check the game-model keys of every task that carries them, and of its variants.
+
+    Records with none of the keys in `_GAME_MODEL_KEYS` are skipped: they have not been
+    migrated. On a migrated record `game_type` and `motivation.drive` are required.
+
+    Parameters:
+        tasks: The task records.
+        vocab: The tables from `load_vocabularies`.
+        process_ids: The known process ids.
+        problems: The list to append messages to.
+
+    Returns:
+        Candidate id -> the tasks (standard form or a variant) that cite it, for every
+        candidate cited by two or more tasks. This is a report, not a failure.
+    """
+    ctx = {"task_ids": {t["hedtsk_id"] for t in tasks}, "process_ids": process_ids}
+    seen_variant_ids: set[str] = set()
+    cited_by: dict[str, set[str]] = collections.defaultdict(set)
+    for t in tasks:
+        if not any(key in t for key in _GAME_MODEL_KEYS):
+            continue
+        tid = t["hedtsk_id"]
+        game_type = t.get("game_type")
+        if game_type is None:
+            problems.append(f"{tid}: game_type is missing")
+        elif game_type not in vocab["game_types"]:
+            problems.append(f"{tid}: unknown game type {game_type!r}")
+            game_type = None
+        motivation = t.get("motivation")
+        if motivation is None:
+            problems.append(f"{tid}: motivation is missing")
+        else:
+            for question in sorted(vocab["required_motivation"] - set(motivation)):
+                problems.append(f"{tid}: motivation {question} is missing")
+        if "task_facets" not in t:
+            problems.append(f"{tid}: task_facets is missing")
+        _check_game_layer(tid, t, game_type, vocab, ctx, problems)
+        for cand in t.get("candidates") or []:
+            cited_by[cand].add(tid)
+
+        slug_prefix = "hedvar_" + tid.removeprefix("hedtsk_") + "__"
+        for v in t.get("variants") or []:
+            vid = v.get("variant_id", "")
+            label = f"{tid}: variant {vid or v.get('name')!r}"
+            rest = vid.removeprefix(slug_prefix)
+            if not vid.startswith(slug_prefix) or not rest or not all(c.islower() or c.isdigit() or c == "_" for c in rest):
+                problems.append(f"{label}: variant_id must be {slug_prefix}<slug> (lowercase letters, digits, underscores)")
+            if vid in seen_variant_ids:
+                problems.append(f"{label}: duplicate variant_id")
+            seen_variant_ids.add(vid)
+            _check_game_layer(label, v, game_type, vocab, ctx, problems, standard=t)
+            for pid in v.get("hed_process_ids") or []:
+                if pid not in process_ids:
+                    problems.append(f"{label}: hed_process_ids names unknown process {pid!r}")
+                elif pid in (t.get("hed_process_ids") or []):
+                    problems.append(f"{label}: hed_process_ids repeats {pid!r}, already on the task; leave it out")
+            for cand in v.get("candidates") or []:
+                cited_by[cand].add(tid)
+    return {c: sorted(ts) for c, ts in sorted(cited_by.items()) if len(ts) > 1}
+
+
 def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None:
     """Check the two catalog files against their schemas and against each other.
 
@@ -273,6 +498,13 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
             if expected_id in seen_var:
                 problems.append(f"{t['hedtsk_id']}: duplicate variation id {expected_id!r}")
             seen_var.add(expected_id)
+
+    # The game model: game type, rules, motivation, facets, phases, settings, combined
+    # games, candidates and variants, against the three vocabulary files.
+    vocab = load_vocabularies(data_dir, problems)
+    shared = check_game_records(tasks, vocab, process_ids, problems)
+    for cand, task_list in shared.items():
+        print(f"  note: candidate {cand} is cited by {len(task_list)} tasks ({', '.join(task_list)}); consider promoting it")
 
     # ASCII only, apart from letters in author names and published titles. The TSV
     # tables have no such fields, so they are ASCII throughout; the Atlas tables are

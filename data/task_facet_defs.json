@@ -1,0 +1,782 @@
+{
+  "facets": [
+    {
+      "facet": "stimulus_modality",
+      "question": "Which sense does the stimulus reach?",
+      "description": "Which sense the stimulus reaches. One value per sense. A task that presents in two senses at once (a sound and a picture) lists both. The values are the seven children of the HED Sensory-presentation tag.",
+      "values": [
+        {
+          "value": "visual",
+          "definition": "Seen with the eyes.",
+          "hed_tags": [
+            "Visual-presentation"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "auditory",
+          "definition": "Heard with the ears.",
+          "hed_tags": [
+            "Auditory-presentation"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "tactile",
+          "definition": "Felt through the skin by touch.",
+          "hed_tags": [
+            "Tactile-presentation"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "somatic",
+          "definition": "Felt through the body's nervous system other than by touch: pain, heat, electrical stimulation, and signals from inside the body such as the heartbeat.",
+          "hed_tags": [
+            "Somatic-presentation"
+          ],
+          "hed_note": "Exact tag; HED's definition is 'the nervous system is used in the presentation'."
+        },
+        {
+          "value": "vestibular",
+          "definition": "Felt as balance or body motion (tilting, rotating the participant).",
+          "hed_tags": [
+            "Vestibular-presentation"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "olfactory",
+          "definition": "Smelled.",
+          "hed_tags": [
+            "Olfactory-presentation"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "gustatory",
+          "definition": "Tasted.",
+          "hed_tags": [
+            "Gustatory-presentation"
+          ],
+          "hed_note": "Exact tag."
+        }
+      ]
+    },
+    {
+      "facet": "stimulus_type",
+      "question": "What is the stimulus made of?",
+      "description": "What kind of thing is shown, played or delivered: words, faces, tones, pictures, shapes, and so on. This is about what the stimulus is, not which sense it reaches (that is stimulus_modality), though the two overlap in practice: a tone is always auditory.",
+      "values": [
+        {
+          "value": "words",
+          "definition": "Real words, printed or spoken.",
+          "hed_tags": [
+            "Word"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "letters",
+          "definition": "Single letters of an alphabet.",
+          "hed_tags": [
+            "Character"
+          ],
+          "hed_note": "Nearest tag; HED's Letter means a piece of correspondence."
+        },
+        {
+          "value": "digits",
+          "definition": "Single digits 0 to 9.",
+          "hed_tags": [
+            "Character"
+          ],
+          "hed_note": "Nearest tag; HED has no digit item."
+        },
+        {
+          "value": "syllables",
+          "definition": "Single spoken syllables.",
+          "hed_tags": [
+            "Syllable"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "pseudowords",
+          "definition": "Made-up pronounceable non-words.",
+          "hed_tags": [
+            "Pseudoword"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "text",
+          "definition": "Language longer than a single word - a phrase, a sentence or a passage of any length, written or spoken; stimulus_modality says which.",
+          "hed_tags": [
+            "Sentence",
+            "Textblock"
+          ],
+          "hed_note": "Sentence for one sentence, Textblock for longer text (both exact)."
+        },
+        {
+          "value": "asian_characters",
+          "definition": "Chinese, Japanese or Korean characters.",
+          "hed_tags": [
+            "Character"
+          ],
+          "hed_note": "Nearest tag; no script distinction."
+        },
+        {
+          "value": "false_fonts",
+          "definition": "Letter-like shapes that are not letters.",
+          "hed_tags": [
+            "Glyph"
+          ],
+          "hed_note": "Nearest tag."
+        },
+        {
+          "value": "symbols",
+          "definition": "Signs such as arrows, plus signs, asterisks.",
+          "hed_tags": [
+            "Glyph",
+            "Arrow"
+          ],
+          "hed_note": "Glyph in general; Arrow for arrows (exact)."
+        },
+        {
+          "value": "shapes",
+          "definition": "Simple outlines: circles, squares, triangles.",
+          "hed_tags": [
+            "2D-shape"
+          ],
+          "hed_note": "Exact tag; its children name the shapes."
+        },
+        {
+          "value": "abstract_patterns",
+          "definition": "Complex geometric patterns with no meaning.",
+          "hed_tags": [
+            "Pattern"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "pictures",
+          "definition": "Drawings, paintings or photographs of things.",
+          "hed_tags": [
+            "Image"
+          ],
+          "hed_note": "Exact tag; Photograph, Drawing, Painting and Cartoon are its children."
+        },
+        {
+          "value": "scenes",
+          "definition": "Photographs or renderings of a place.",
+          "hed_tags": [
+            "Photograph"
+          ],
+          "hed_note": "Nearest tag; HED has no scene item."
+        },
+        {
+          "value": "faces",
+          "definition": "Human faces.",
+          "hed_tags": [
+            "Face"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "film_clips",
+          "definition": "Short videos.",
+          "hed_tags": [
+            "Video-clip"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "real_objects",
+          "definition": "Real objects given to the participant to hold or handle.",
+          "hed_tags": [
+            "3D-shape"
+          ],
+          "hed_note": "Nearest tag; HED means a geometric solid."
+        },
+        {
+          "value": "points_of_light",
+          "definition": "Dots placed on a moving body to show motion without form.",
+          "hed_tags": [
+            "Point-light-visualization",
+            "Dots"
+          ],
+          "hed_note": "Point-light-visualization is exact for biological motion; Dots otherwise."
+        },
+        {
+          "value": "random_dots",
+          "definition": "Fields of many dots, often moving.",
+          "hed_tags": [
+            "Dots"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "fractals",
+          "definition": "Self-similar patterns.",
+          "hed_tags": [
+            "Pattern"
+          ],
+          "hed_note": "Nearest tag."
+        },
+        {
+          "value": "flashing_checkerboard",
+          "definition": "A checkerboard whose squares swap color at a set rate.",
+          "hed_tags": [
+            "Pattern"
+          ],
+          "hed_note": "Nearest tag."
+        },
+        {
+          "value": "game_objects",
+          "definition": "Cards, dice, tokens, pegs, blocks, discs or boards used to play a game or puzzle, real or on a screen. Covers Wisconsin Card Sorting, Iowa Gambling, Wason Selection, Weather Prediction cards, Tower of London and Hanoi, Corsi blocks.",
+          "hed_tags": [
+            "Game-object"
+          ],
+          "hed_note": "Proposed for HED 8.6.0 (agreed 2026-11-06, Kay to add)."
+        },
+        {
+          "value": "value_amounts",
+          "definition": "An amount of money, points, tokens or other worth, shown as a number, a score, coins or bills; offered, won or lost.",
+          "hed_tags": [
+            "Quantity/# dollar",
+            "Quantity/# euro",
+            "Quantity/# point"
+          ],
+          "hed_note": "Quantity takes any unit, and the worth units are dollar, euro and point. The role is Reward or Penalty. No new tag needed."
+        },
+        {
+          "value": "food",
+          "definition": "Something to eat or drink.",
+          "hed_tags": [
+            "Ingestible-object"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "tones",
+          "definition": "Pure tones of one frequency.",
+          "hed_tags": [
+            "Tone"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "clicks",
+          "definition": "Brief ticks.",
+          "hed_tags": [
+            "Click"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "chord_sequences",
+          "definition": "Musical chords.",
+          "hed_tags": [
+            "Musical-sound"
+          ],
+          "hed_note": "Nearest tag."
+        },
+        {
+          "value": "music",
+          "definition": "Music.",
+          "hed_tags": [
+            "Musical-sound"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "noise",
+          "definition": "Broadband noise.",
+          "hed_tags": [
+            "Signal-noise"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "nonverbal_vocal_sounds",
+          "definition": "Laughs, cries, screams, sighs.",
+          "hed_tags": [
+            "Vocalized-sound"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "nonvocal_sounds",
+          "definition": "Sounds of animals, machines, nature.",
+          "hed_tags": [
+            "Environmental-sound"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "reversed_speech",
+          "definition": "Speech played backwards.",
+          "hed_tags": [
+            "Vocalized-sound"
+          ],
+          "hed_note": "Nearest tag."
+        },
+        {
+          "value": "odor",
+          "definition": "A smell.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "braille_dots",
+          "definition": "Braille read by touch.",
+          "hed_tags": [
+            "Braille"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "thermal",
+          "definition": "Heat or cold applied to the skin.",
+          "hed_tags": [
+            "Tactile-temperature"
+          ],
+          "hed_note": "Exact tag, with Hot or Cold as the level."
+        },
+        {
+          "value": "vibration",
+          "definition": "Vibration applied to the skin.",
+          "hed_tags": [
+            "Tactile-vibration"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "pressure",
+          "definition": "Touch or pressure on the skin, including an air puff.",
+          "hed_tags": [
+            "Tactile-pressure"
+          ],
+          "hed_note": "Exact tag, with High or Low as the level."
+        },
+        {
+          "value": "texture",
+          "definition": "A surface felt for roughness or pattern.",
+          "hed_tags": [
+            "Tactile-texture"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "electrical",
+          "definition": "An electric current applied to the skin.",
+          "hed_tags": [
+            "Tactile-electrical"
+          ],
+          "hed_note": "Proposed for HED 8.6.0 (agreed 2026-11-06, Kay to add); intensity is High or Low, a painful shock adds Pain."
+        },
+        {
+          "value": "pain",
+          "definition": "A stimulus delivered to hurt, whatever produces it.",
+          "hed_tags": [
+            "Pain"
+          ],
+          "hed_note": "Exact tag, under Somatic-attribute."
+        }
+      ]
+    },
+    {
+      "facet": "emotional_aspect",
+      "question": "How is emotion built into the experiment?",
+      "description": "How emotion is built into the experiment, if it is. The facet says that an emotional aspect is present and in what form, at the design level. Which emotion is involved is not a value: HED has the tags for that (Agent-emotional-state children, and Threat), and they go on the events.",
+      "values": [
+        {
+          "value": "emotional_stimuli",
+          "definition": "The stimuli themselves carry emotion: faces, words, pictures, film clips chosen for their emotional content.",
+          "hed_tags": [],
+          "hed_note": "No standard tag for the design; the emotion goes on the event (Agent-emotional-state child, Threat). Catalog only."
+        },
+        {
+          "value": "emotion_induction",
+          "definition": "A mood or state is induced before or during the task: a film, music, autobiographical recall, a stress procedure, threat of shock.",
+          "hed_tags": [],
+          "hed_note": "No standard tag for the design; the induced state goes on the participant. Catalog only."
+        },
+        {
+          "value": "explicit_emotion_task",
+          "definition": "The participant's job is about the emotion, as against the implicit version where the same emotional stimuli are judged for something else (gender, color).",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "regulation_instruction",
+          "definition": "The participant is told to change their emotional response: reappraise, suppress, distance.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        }
+      ]
+    },
+    {
+      "facet": "social_aspect",
+      "question": "How are other people built into the experiment?",
+      "description": "How other people are built into the experiment, if they are. As with emotion, the facet says the aspect is present and in what form; who the people are and what they do goes on the events.",
+      "values": [
+        {
+          "value": "social_stimuli",
+          "definition": "The stimuli depict people as people: faces, bodies, interactions, eyes to read.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "social_interaction",
+          "definition": "A real or simulated other person takes part: a partner or opponent, a confederate, a computer agent presented as a person.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "being_observed",
+          "definition": "The participant is watched or judged while doing the task: an audience, an observer, being recorded.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "explicit_social_task",
+          "definition": "The participant's job is about the people: judge trustworthiness, infer what someone thinks or feels, rate attractiveness. The implicit version judges the same stimuli for something else (age, gender).",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        }
+      ]
+    },
+    {
+      "facet": "task_io_device",
+      "question": "What equipment delivers the task and collects the response?",
+      "description": "The equipment the task is delivered on and the response is collected through: the screen and keyboard of a computer task, a button box, a touchscreen tablet, a microphone for spoken answers, an eye tracker, a pen and paper. A task lists every device it has been run with. Values come from HED's IO-device tree plus Writing-device.",
+      "values": [
+        {
+          "value": "keyboard",
+          "definition": "A full computer keyboard.",
+          "hed_tags": [
+            "Keyboard"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "keypad",
+          "definition": "A small block of keys.",
+          "hed_tags": [
+            "Keypad"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "button_box",
+          "definition": "A response box with one or more buttons.",
+          "hed_tags": [
+            "Push-button"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "mouse",
+          "definition": "A computer mouse.",
+          "hed_tags": [
+            "Computer-mouse"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "touchscreen",
+          "definition": "A touch-sensitive screen, including phones and tablets.",
+          "hed_tags": [
+            "Touchscreen"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "joystick",
+          "definition": "A joystick or similar handle.",
+          "hed_tags": [
+            "Joystick"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "pedal",
+          "definition": "A foot pedal or foot switch.",
+          "hed_tags": [
+            "Pedal"
+          ],
+          "hed_note": "Proposed for HED 8.6.0 under Input-device."
+        },
+        {
+          "value": "stylus",
+          "definition": "A pen-like pointer on a tablet or digitizer.",
+          "hed_tags": [
+            "Stylus"
+          ],
+          "hed_note": "Proposed for HED 8.6.0 under Input-device."
+        },
+        {
+          "value": "writing_device",
+          "definition": "A pen or pencil on paper.",
+          "hed_tags": [
+            "Writing-device"
+          ],
+          "hed_note": "Exact tag; Pen and Pencil are its children."
+        },
+        {
+          "value": "microphone",
+          "definition": "Records spoken answers.",
+          "hed_tags": [
+            "Microphone"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "eye_tracker",
+          "definition": "Records gaze position.",
+          "hed_tags": [
+            "Eye-tracker"
+          ],
+          "hed_note": "Proposed for HED 8.6.0 under Recording-device."
+        },
+        {
+          "value": "motion_capture",
+          "definition": "Records limb or body movement.",
+          "hed_tags": [
+            "Motion-capture"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "computer_screen",
+          "definition": "A monitor or laptop screen.",
+          "hed_tags": [
+            "Computer-screen"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "head_mounted_display",
+          "definition": "A headset display, as in virtual reality.",
+          "hed_tags": [
+            "Head-mounted-display"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "headphones",
+          "definition": "Sound through headphones.",
+          "hed_tags": [
+            "Headphones"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "loudspeaker",
+          "definition": "Sound through a speaker.",
+          "hed_tags": [
+            "Loudspeaker"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "examiner",
+          "definition": "A person presents the items and records the answers, with no equipment between examiner and participant.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "handheld_controller",
+          "definition": "A hand-held game or virtual-reality controller.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "brain_stimulator",
+          "definition": "A device that stimulates the brain directly, such as a transcranial magnetic stimulation coil.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "stereoscopic_display",
+          "definition": "A display that shows each eye its own image, such as a stereoscope or shutter glasses.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "grip_force_device",
+          "definition": "A hand grip that measures how hard the participant squeezes.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        }
+      ]
+    },
+    {
+      "facet": "trial_structure",
+      "question": "How is the run of trials delivered?",
+      "description": "How the run of trials is delivered to the participant: one trial after another at a set pace, or when the participant is ready, or as an unbroken stream; conditions kept apart in blocks or mixed together; difficulty fixed or tracking performance. A task lists every form the literature reports.",
+      "values": [
+        {
+          "value": "continuous_recording",
+          "definition": "No trial boundaries: a stream of stimuli or a continuous task, with responses recorded throughout.",
+          "hed_tags": [
+            "Continuous"
+          ],
+          "hed_note": "Temporal attribute."
+        },
+        {
+          "value": "fixed_time_trials",
+          "definition": "Trials come at a set pace with fixed timing, whatever the participant does.",
+          "hed_tags": [
+            "Discrete"
+          ],
+          "hed_note": "Nearest tag; Discrete is a temporal attribute."
+        },
+        {
+          "value": "self_paced_trials",
+          "definition": "The participant starts each trial when ready.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "blocked_trials",
+          "definition": "Each condition is run in its own block of trials.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only (Time-block and Condition-variable mark runs in a dataset)."
+        },
+        {
+          "value": "interleaved_trials",
+          "definition": "Conditions are mixed trial by trial within a block.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "adaptive_trials",
+          "definition": "Difficulty changes with the participant's performance, as in a staircase.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        }
+      ]
+    },
+    {
+      "facet": "feedback",
+      "question": "Does the participant learn how they did, and when?",
+      "description": "Whether the participant finds out how they did, and when. A task that gives no feedback has no value here. Some say right or wrong after every trial; some show a score at the end of a block.",
+      "values": [
+        {
+          "value": "trial_feedback",
+          "definition": "Right or wrong after each trial.",
+          "hed_tags": [
+            "Feedback",
+            "Correct-action",
+            "Incorrect-action"
+          ],
+          "hed_note": "Exact tags: Feedback with Correct-action or Incorrect-action."
+        },
+        {
+          "value": "block_feedback",
+          "definition": "A score or summary at the end of a run.",
+          "hed_tags": [
+            "Feedback"
+          ],
+          "hed_note": "Exact tag; HED has no tag for the timing."
+        }
+      ]
+    },
+    {
+      "facet": "experimental_environment",
+      "question": "Where is the participant while doing the task?",
+      "description": "Where the participant is while doing the task. The ordinary lab setting is the default and gets no value. The values come from HED's Environmental-property list.",
+      "values": [
+        {
+          "value": "virtual_world",
+          "definition": "An immersive computer-generated scene, usually through a headset.",
+          "hed_tags": [
+            "Virtual-world"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "augmented_reality",
+          "definition": "Digital overlays on the real surroundings.",
+          "hed_tags": [
+            "Augmented-reality"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "real_world",
+          "definition": "Carried out in daily life under realistic conditions: an errand, a phone call to make.",
+          "hed_tags": [
+            "Real-world"
+          ],
+          "hed_note": "Exact tag."
+        },
+        {
+          "value": "outdoors",
+          "definition": "Outside a building, as in walking or navigation versions.",
+          "hed_tags": [
+            "Outdoors"
+          ],
+          "hed_note": "Exact tag."
+        }
+      ]
+    },
+    {
+      "facet": "population",
+      "question": "Who is there a version for?",
+      "description": "Who the task has a version for. This facet records that such a version exists, not who was tested in any dataset. The standard young-adult form is stated in the positive, so every task carries at least one value. Age ranges are approximate because papers draw the lines differently.",
+      "values": [
+        {
+          "value": "infants",
+          "definition": "A version for infants, under about 2 years, usually measured by looking time.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "children",
+          "definition": "A version for children, about 2 to 12 years: simpler instructions, fewer trials, child-friendly stimuli.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "adolescents",
+          "definition": "A version for adolescents, about 13 to 17 years.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "young_adults",
+          "definition": "The standard form, about 18 to 30 years, typically college-age participants.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "adults",
+          "definition": "A version for adults of about 31 to 59 years.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "older_adults",
+          "definition": "A version for older adults, about 60 years and over.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        },
+        {
+          "value": "patients",
+          "definition": "A version adapted for a clinical group of any age, such as shortened or simplified for patients.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only (Sick is a state, not an adaptation)."
+        },
+        {
+          "value": "bilinguals",
+          "definition": "A version for people who use two languages.",
+          "hed_tags": [],
+          "hed_note": "No standard tag; catalog only."
+        }
+      ]
+    }
+  ]
+}
