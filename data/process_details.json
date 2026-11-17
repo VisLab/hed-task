@@ -6,7 +6,7 @@
   "total_categories": 19,
   "total_processes": 172,
   "total_processes_used_by_tasks": 152,
-  "total_tasks": 106,
+  "total_tasks": 110,
   "categories": [
     {
       "category_id": "associative_learning_and_reinforcement",
@@ -2107,6 +2107,10 @@
       "definition": "Thought that arises spontaneously rather than being directed by a task, whether during an ongoing task or when no task is set, as at rest.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
+        {
           "hedtsk_id": "hedtsk_continuous_performance",
           "canonical_name": "Continuous Performance Task"
         },
@@ -2123,7 +2127,7 @@
           "canonical_name": "Sustained Attention to Response Task"
         }
       ],
-      "task_count": 4,
+      "task_count": 5,
       "references": [
         {
           "title": "The restless mind.",
@@ -2677,6 +2681,10 @@
       "definition": "Active holding of task goals, rules, or sub-goals in a form that biases ongoing processing.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
+        {
           "hedtsk_id": "hedtsk_fixate",
           "canonical_name": "Fixate Task"
         },
@@ -2685,7 +2693,7 @@
           "canonical_name": "Task Switching Task"
         }
       ],
-      "task_count": 2,
+      "task_count": 3,
       "references": [
         {
           "title": "An Integrative Theory of Prefrontal Cortex Function",
@@ -2931,6 +2939,10 @@
           "canonical_name": "Probabilistic Classification Learning Task"
         },
         {
+          "hedtsk_id": "hedtsk_tower_of_hanoi",
+          "canonical_name": "Tower of Hanoi Task"
+        },
+        {
           "hedtsk_id": "hedtsk_tower_of_london",
           "canonical_name": "Tower of London Task"
         },
@@ -2943,7 +2955,7 @@
           "canonical_name": "Wisconsin Card Sorting Task"
         }
       ],
-      "task_count": 6,
+      "task_count": 7,
       "references": [
         {
           "title": "The perils of averaging data over strategies: An example from children's addition.",
@@ -4080,11 +4092,15 @@
           "canonical_name": "Picture Naming Task"
         },
         {
+          "hedtsk_id": "hedtsk_picture_word_interference",
+          "canonical_name": "Picture-Word Interference Task"
+        },
+        {
           "hedtsk_id": "hedtsk_weapons_identification",
           "canonical_name": "Weapons Identification Task"
         }
       ],
-      "task_count": 3,
+      "task_count": 4,
       "references": [
         {
           "title": "How Does the Brain Solve Visual Object Recognition?",
@@ -4816,6 +4832,10 @@
           "canonical_name": "Attention Network Task"
         },
         {
+          "hedtsk_id": "hedtsk_dual_n_back",
+          "canonical_name": "Dual N-Back Task"
+        },
+        {
           "hedtsk_id": "hedtsk_emotional_stroop",
           "canonical_name": "Emotional Stroop Task"
         },
@@ -4840,6 +4860,10 @@
           "canonical_name": "Operation Span Task"
         },
         {
+          "hedtsk_id": "hedtsk_picture_word_interference",
+          "canonical_name": "Picture-Word Interference Task"
+        },
+        {
           "hedtsk_id": "hedtsk_simon",
           "canonical_name": "Simon Task"
         },
@@ -4848,7 +4872,7 @@
           "canonical_name": "Stroop Color-Word Task"
         }
       ],
-      "task_count": 9,
+      "task_count": 11,
       "references": [
         {
           "title": "Effects of noise letters upon the identification of a target letter in a nonsearch task",
@@ -4926,11 +4950,15 @@
       "definition": "Sustained, anticipatory maintenance of task goals that biases processing in preparation for an expected demand.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
+        {
           "hedtsk_id": "hedtsk_task_switching",
           "canonical_name": "Task Switching Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": "The Dual Mechanisms of Cognitive Control Project",
@@ -5181,6 +5209,10 @@
       "definition": "Suppression of a prepotent or already-initiated response when it becomes inappropriate, indexed behaviorally by stop-signal reaction time or commission errors.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
+        {
           "hedtsk_id": "hedtsk_anti_saccade",
           "canonical_name": "Anti-Saccade Task"
         },
@@ -5229,7 +5261,7 @@
           "canonical_name": "Think/No-Think Task"
         }
       ],
-      "task_count": 12,
+      "task_count": 13,
       "references": [
         {
           "title": "On the ability to inhibit thought and action: A theory of an act of control.",
@@ -5473,11 +5505,15 @@
           "canonical_name": "Picture Naming Task"
         },
         {
+          "hedtsk_id": "hedtsk_picture_word_interference",
+          "canonical_name": "Picture-Word Interference Task"
+        },
+        {
           "hedtsk_id": "hedtsk_verb_generation",
           "canonical_name": "Verb Generation Task"
         }
       ],
-      "task_count": 2,
+      "task_count": 3,
       "references": [
         {
           "title": "The spatial and temporal signatures of word production components: a critical update",
@@ -5530,6 +5566,10 @@
           "canonical_name": "Picture Naming Task"
         },
         {
+          "hedtsk_id": "hedtsk_picture_word_interference",
+          "canonical_name": "Picture-Word Interference Task"
+        },
+        {
           "hedtsk_id": "hedtsk_remote_associates",
           "canonical_name": "Remote Associates Task"
         },
@@ -5550,7 +5590,7 @@
           "canonical_name": "Verbal Fluency Task"
         }
       ],
-      "task_count": 7,
+      "task_count": 8,
       "references": [
         {
           "title": "Interaction of information in word recognition.",
@@ -5602,9 +5642,13 @@
         {
           "hedtsk_id": "hedtsk_picture_naming",
           "canonical_name": "Picture Naming Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_picture_word_interference",
+          "canonical_name": "Picture-Word Interference Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": "Response Latencies in Naming Objects",
@@ -6017,6 +6061,10 @@
           "canonical_name": "Picture Naming Task"
         },
         {
+          "hedtsk_id": "hedtsk_picture_word_interference",
+          "canonical_name": "Picture-Word Interference Task"
+        },
+        {
           "hedtsk_id": "hedtsk_remote_associates",
           "canonical_name": "Remote Associates Task"
         },
@@ -6033,7 +6081,7 @@
           "canonical_name": "Verb Generation Task"
         }
       ],
-      "task_count": 8,
+      "task_count": 9,
       "references": [
         {
           "title": "Reading Senseless Sentences: Brain Potentials Reflect Semantic Incongruity",
@@ -6273,11 +6321,15 @@
           "canonical_name": "Picture Naming Task"
         },
         {
+          "hedtsk_id": "hedtsk_picture_word_interference",
+          "canonical_name": "Picture-Word Interference Task"
+        },
+        {
           "hedtsk_id": "hedtsk_verb_generation",
           "canonical_name": "Verb Generation Task"
         }
       ],
-      "task_count": 2,
+      "task_count": 3,
       "references": [
         {
           "title": "A theory of lexical access in speech production",
@@ -9031,6 +9083,10 @@
           "canonical_name": "Affective Priming Task"
         },
         {
+          "hedtsk_id": "hedtsk_dual_n_back",
+          "canonical_name": "Dual N-Back Task"
+        },
+        {
           "hedtsk_id": "hedtsk_eriksen_flanker",
           "canonical_name": "Eriksen Flanker Task"
         },
@@ -9075,7 +9131,7 @@
           "canonical_name": "Verb Generation Task"
         }
       ],
-      "task_count": 12,
+      "task_count": 13,
       "references": [
         {
           "title": "Neural Mechanisms for Interacting with a World Full of Action Choices",
@@ -9994,11 +10050,15 @@
       "notes": "(new 2026-04-15)",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_tower_of_hanoi",
+          "canonical_name": "Tower of Hanoi Task"
+        },
+        {
           "hedtsk_id": "hedtsk_tower_of_london",
           "canonical_name": "Tower of London Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": null,
@@ -10099,11 +10159,15 @@
       "definition": "Mental formulation of a sequence of actions toward a goal before execution.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_tower_of_hanoi",
+          "canonical_name": "Tower of Hanoi Task"
+        },
+        {
           "hedtsk_id": "hedtsk_tower_of_london",
           "canonical_name": "Tower of London Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": "Specific impairments of planning",
@@ -10149,11 +10213,15 @@
       "notes": "(new 2026-04-15)",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_tower_of_hanoi",
+          "canonical_name": "Tower of Hanoi Task"
+        },
+        {
           "hedtsk_id": "hedtsk_tower_of_london",
           "canonical_name": "Tower of London Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": null,
@@ -10759,6 +10827,10 @@
       "definition": "Achieving and maintaining a state of readiness to respond, whether tonic or phasic; one of Posner's three attentional networks.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
+        {
           "hedtsk_id": "hedtsk_attention_network",
           "canonical_name": "Attention Network Task"
         },
@@ -10771,7 +10843,7 @@
           "canonical_name": "Psychomotor Vigilance Task"
         }
       ],
-      "task_count": 3,
+      "task_count": 4,
       "references": [
         {
           "title": "Components of attention.",
@@ -11066,6 +11138,10 @@
       "definition": "Concurrent processing of two or more streams of information or two tasks, typically yielding dual-task interference.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_dual_n_back",
+          "canonical_name": "Dual N-Back Task"
+        },
+        {
           "hedtsk_id": "hedtsk_multiple_object_tracking",
           "canonical_name": "Multiple Object Tracking Task"
         },
@@ -11082,7 +11158,7 @@
           "canonical_name": "Useful Field of View Task"
         }
       ],
-      "task_count": 4,
+      "task_count": 5,
       "references": [
         {
           "title": "Dual-task interference in simple tasks: Data and theory.",
@@ -11398,6 +11474,10 @@
       "definition": "Prioritized processing of a task-relevant subset of stimuli (a location, feature, object, or modality) with suppression of irrelevant stimuli.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
+        {
           "hedtsk_id": "hedtsk_affective_picture_viewing",
           "canonical_name": "Affective Picture Viewing Task"
         },
@@ -11486,7 +11566,7 @@
           "canonical_name": "Visual Search Task"
         }
       ],
-      "task_count": 22,
+      "task_count": 23,
       "references": [
         {
           "title": "Strategies and models of selective attention.",
@@ -11690,6 +11770,10 @@
       "definition": "Maintenance of attentional engagement on a target or task over an extended interval, as when holding attention on a fixation target or monitoring for rare targets; vigilance is its best-studied form.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
+        {
           "hedtsk_id": "hedtsk_continuous_performance",
           "canonical_name": "Continuous Performance Task"
         },
@@ -11726,7 +11810,7 @@
           "canonical_name": "Useful Field of View Task"
         }
       ],
-      "task_count": 9,
+      "task_count": 10,
       "references": [
         {
           "title": "The Breakdown of Vigilance during Prolonged Visual Search",
@@ -11937,6 +12021,10 @@
       "definition": "Holding information active over a delay without manipulation, through volitional, attention-demanding processes; a core subprocess of working memory.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
+        {
           "hedtsk_id": "hedtsk_change_detection",
           "canonical_name": "Change Detection Task"
         },
@@ -11953,6 +12041,10 @@
           "canonical_name": "Digit Span Task"
         },
         {
+          "hedtsk_id": "hedtsk_dual_n_back",
+          "canonical_name": "Dual N-Back Task"
+        },
+        {
           "hedtsk_id": "hedtsk_n_back",
           "canonical_name": "N-Back Task"
         },
@@ -11965,7 +12057,7 @@
           "canonical_name": "Sternberg Item Recognition Task"
         }
       ],
-      "task_count": 7,
+      "task_count": 9,
       "references": [
         {
           "title": "Cellular basis of working memory",
@@ -12598,6 +12690,10 @@
           "canonical_name": "Digit Symbol Substitution Task"
         },
         {
+          "hedtsk_id": "hedtsk_dual_n_back",
+          "canonical_name": "Dual N-Back Task"
+        },
+        {
           "hedtsk_id": "hedtsk_n_back",
           "canonical_name": "N-Back Task"
         },
@@ -12614,6 +12710,10 @@
           "canonical_name": "Sternberg Item Recognition Task"
         },
         {
+          "hedtsk_id": "hedtsk_tower_of_hanoi",
+          "canonical_name": "Tower of Hanoi Task"
+        },
+        {
           "hedtsk_id": "hedtsk_tower_of_london",
           "canonical_name": "Tower of London Task"
         },
@@ -12622,7 +12722,7 @@
           "canonical_name": "Trail Making Task"
         }
       ],
-      "task_count": 7,
+      "task_count": 9,
       "references": [
         {
           "title": "Working Memory",
@@ -12730,6 +12830,10 @@
       "notes": "Renamed 2026-04-17 from `hed_updating` (+ merged duplicate `hed_updating_wm`) for specificity - plain \"Updating\" is memory-context-underspecified.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_dual_n_back",
+          "canonical_name": "Dual N-Back Task"
+        },
+        {
           "hedtsk_id": "hedtsk_n_back",
           "canonical_name": "N-Back Task"
         },
@@ -12742,7 +12846,7 @@
           "canonical_name": "Rapid Serial Visual Presentation Task"
         }
       ],
-      "task_count": 3,
+      "task_count": 4,
       "references": [
         {
           "title": "The Unity and Diversity of Executive Functions and Their Contributions to Complex \"Frontal Lobe\" Tasks: A Latent Variable Analysis",
