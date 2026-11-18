@@ -104,7 +104,7 @@ The Catalog currently has {{ n_tasks }} tasks. Each task page carries:
   event structure of the recorded data differs. Changing the recording equipment, the
   analysis, the population or the stimulus set does not make a variation; changing the
   response modality, the stimulus-response mapping or the required actions does. There
-  are {{ n_variations }} variations across the Catalog.
+  are {{ n_variants }} variations across the Catalog.
 - The **cognitive processes** the task engages, linked to their definitions;
 - **key references** that established the paradigm and **recent references** that give a
   modern entry point.

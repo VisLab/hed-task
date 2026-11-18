@@ -129,7 +129,7 @@ def _catalog_counts() -> dict[str, int]:
         "n_processes": len(processes),
         "n_categories": len(proc_data["categories"]),
         "n_families": len(families),
-        "n_variations": sum(len(t.get("variations", [])) for t in tasks),
+        "n_variants": sum(len(t.get("variants", [])) for t in tasks),
         "n_links": sum(len(t.get("hed_process_ids", [])) for t in tasks),
         "n_linked": sum(1 for p in processes if p["process_id"] in linked),
     }

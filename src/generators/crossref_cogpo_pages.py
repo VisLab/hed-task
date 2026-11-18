@@ -14,7 +14,7 @@ Fragments written (each one Markdown table, one run of headed tables, or one sen
 - mapping_cogpo_forward.md       tasks by match type of their CogPO class
 - mapping_cogpo_reverse.md       CogPO classes by match type of their counterpart
 - mapping_cogpo_reverse_scope.md unmatched CogPO classes by kind
-- mapping_cogpo_level.md         matched CogPO classes resolved to a task or a variation
+- mapping_cogpo_level.md         matched CogPO classes resolved to a task or a variant
 - cogpo_matched_line.md          one sentence with the matched-class counts
 
 Rows are rendered in full rather than summarized, so that a reader can look up any
@@ -92,8 +92,8 @@ def _matched_table(matched: list[dict], wiki_titles: dict[str, str]) -> str:
     rows = []
     for r in sorted(matched, key=_match_sort):
         target = _task_link(r)
-        if r["hed_variation_id"]:
-            target += f" (variation: {_cell(r['hed_variation_name'])})"
+        if r["hed_variant_id"]:
+            target += f" (variant: {_cell(r['hed_variant_name'])})"
         rows.append(
             [
                 _cogpo_link(r["cogpo_id"], r["cogpo_label"], wiki_titles),
@@ -146,7 +146,7 @@ def generate(docs_dir: Path, data_dir: Path) -> int:
     matched = [r for r in reverse if r["match_type"] in ("exact", "close", "related")]
     unmatched = [r for r in reverse if r["match_type"] == "none"]
     counts = collections.Counter(r["match_type"] for r in reverse)
-    variation_rows = sum(1 for r in matched if r["match_level"] == "variation")
+    variant_rows = sum(1 for r in matched if r["match_level"] == "variant")
 
     fragments = {
         "cogpo_task_forward.md": _forward_table(forward, wiki_titles),
@@ -162,13 +162,13 @@ def generate(docs_dir: Path, data_dir: Path) -> int:
             ["Mapped to", "CogPO classes"],
             [
                 ["A Catalog task", sum(1 for r in matched if r["match_level"] == "task")],
-                ["A named variation of a Catalog task", variation_rows],
+                ["A variant of a Catalog task", variant_rows],
             ],
         ),
         "cogpo_matched_line.md": (
             f"Of the {len(reverse)} CogPO paradigm classes, {len(matched)} have a counterpart in the Catalog "
             f"({counts['exact']} exact, {counts['close']} close, {counts['related']} related) and "
-            f"{counts['none']} have none; {variation_rows} of the matched classes resolve to a named variation "
+            f"{counts['none']} have none; {variant_rows} of the matched classes resolve to a variant "
             f"rather than a task."
         ),
     }

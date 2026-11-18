@@ -9,7 +9,11 @@ Files written:
 - docs/tasks/families/<id>.md    one page per family, whose toctree nests its tasks
 - docs/tasks/tasks_alphabetically.md   every task in name order; its toctree lists every
                                  task
-- docs/tasks/hedtsk_*.md         one page per task
+- docs/tasks/hedtsk_*.md         one page per task: an "At a glance" block for the
+                                 standard form, the inclusion test, and the variants
+
+The vocabulary page and the by-game-type and by-facet listings under docs/tasks/ are
+written by vocabulary_pages.py; the task index's toctree lists them.
 
 The document tree is Tasks > Tasks by family > family > task, and Tasks >
 Tasks alphabetically > task. Each task page sits in two toctrees, which Sphinx allows
@@ -36,6 +40,7 @@ from generators.utils import (
     cell,
     citation_line,
     count_phrase,
+    facet_label,
     pop_card,
     primary_category,
     primary_family,
@@ -45,6 +50,9 @@ from generators.utils import (
     secondary_memberships,
     split_references,
     table,
+    vocab_anchor,
+    vocab_label,
+    vocab_link,
     write_page,
 )
 
@@ -61,7 +69,8 @@ def generate(
     families: list[dict],
     atlas_map: dict[str, dict] | None = None,
     cogpo_map: dict[str, dict] | None = None,
-    atlas_variation_map: dict[str, list[dict]] | None = None,
+    atlas_variant_map: dict[str, list[dict]] | None = None,
+    game_defs: dict | None = None,
 ) -> int:
     """Write the task index, the family pages, the alphabetical list and the task pages.
 
@@ -73,8 +82,10 @@ def generate(
         atlas_map: Rows of data/mappings/hed_task_to_atlas.tsv keyed by hedtsk_id.
         cogpo_map: Rows of data/mappings/hed_task_to_cogpo.tsv keyed by hedtsk_id, each
             with a `cogpo_wiki_title` added for the link target.
-        atlas_variation_map: Rows of data/mappings/atlas_task_to_hed.tsv matched exact or
-            close at the variation level, keyed by hed_variation_id.
+        atlas_variant_map: Rows of data/mappings/atlas_task_to_hed.tsv matched exact or
+            close at the variant level, keyed by hed_variant_id.
+        game_defs: data/task_game_defs.json, for the questions the "At a glance" block
+            and the Variants table ask.
 
     Returns the number of files written.
     """
@@ -90,6 +101,7 @@ def generate(
         for member in secondary_memberships(task, "families"):
             also_by_family[member["family_id"]].append((task, member))
     n_review = sum(1 for t in tasks for m in t["families"] if m.get("confidence") == "review")
+    task_names = {t["hedtsk_id"]: t["canonical_name"] for t in tasks}
 
     count = 0
     count += _write_task_index(tasks_dir, families, tasks_by_family, also_by_family, n_review)
@@ -101,7 +113,16 @@ def generate(
     for task in sorted_tasks:
         fam = family_by_id[family_of[task["hedtsk_id"]]]
         count += _write_task_page(
-            tasks_dir, task, fam, family_by_id, processes_by_id, atlas_map or {}, cogpo_map or {}, atlas_variation_map or {}
+            tasks_dir,
+            task,
+            fam,
+            family_by_id,
+            processes_by_id,
+            atlas_map or {},
+            cogpo_map or {},
+            atlas_variant_map or {},
+            game_defs or {},
+            task_names,
         )
     return count
 
@@ -151,9 +172,9 @@ def _entry_details(
 ) -> str:
     """Return the one-sentence detail line of a listing entry, with pop-up counts.
 
-    "Engages N processes. N aliases, N variations, also filed under N other families."
+    "Engages N processes. N aliases, N variants, also filed under N other families."
     Each count opens a card listing the items: processes and families as links, aliases
-    as text, variations as links to the task page's Variations section.
+    as text, variants as links to the task page's Variants section.
 
     Parameters:
         task: The task record.
@@ -180,9 +201,9 @@ def _entry_details(
         if aliases
         else "no aliases"
     )
-    variations = task.get("variations", [])
-    var_items = [f'<a href="{link_prefix}{tid}.html#variations">{html.escape(v["name"])}</a>' for v in variations]
-    var_part = pop_card(count_phrase(len(variations), "variation"), var_items) if variations else "no variations"
+    variants = task.get("variants", [])
+    var_items = [f'<a href="{link_prefix}{tid}.html#variants">{html.escape(v["name"])}</a>' for v in variants]
+    var_part = pop_card(count_phrase(len(variants), "variant"), var_items) if variants else "no variants"
     also_items = [
         f'<a href="{link_prefix}families/{m["family_id"]}.html">{html.escape(family_by_id[m["family_id"]]["name"])}</a>'
         for m in secondary_memberships(task, "families")
@@ -246,8 +267,9 @@ def _write_task_index(
         "# Tasks\n\n",
         f"The Catalog defines {n_tasks} standard cognitive and behavioral neuroscience tasks.\n"
         "Each task page gives the canonical name and aliases, a description, the inclusion\n"
-        "test that decides whether an experiment is an instance of the task, its named\n"
-        "variations, the cognitive processes it engages, and references.\n\n",
+        "test that decides whether an experiment is an instance of the task, an at-a-glance\n"
+        "summary of its standard form in the terms of the [task vocabulary](vocabulary.md), its\n"
+        "variants, the cognitive processes it engages, and references.\n\n",
         f"Tasks are filed under {len(families)} **task families** by what the participant does,\n"
         "not by which process the task is thought to measure. The Catalog's process list covers that\n"
         "other axis, and the two cross-link. Families are organizational, not a hierarchy. Every\n"
@@ -258,10 +280,14 @@ def _write_task_index(
         "[task family assignment rules](../methods/task_criteria/06_task_family_assignment.md)\n"
         "say how families are assigned.\n\n",
         REVIEW_NOTE.format(unit="family") + "\n",
-        "Two ways in:\n\n",
+        "Ways in:\n\n",
         "- [Tasks by family](tasks_by_family.md) lists every task under its family, with the\n  family's scope statement.\n",
         "- [Tasks alphabetically](tasks_alphabetically.md) lists every task in name order, for when you\n"
-        "  know the name and not the family.\n\n",
+        "  know the name and not the family.\n",
+        "- [Tasks by game type](by_game_type.md) lists the tasks under the game their standard form is.\n",
+        "- [Tasks by facet](by_facet.md) lists, for each facet value, the tasks and variants that carry it.\n",
+        "- The [task vocabulary](vocabulary.md) defines every game type, rule, motivation answer, phase,\n"
+        "  setting, way of combining and facet value used on the task pages.\n\n",
         "## Families at a glance\n\n",
     ]
 
@@ -275,7 +301,18 @@ def _write_task_index(
     ]
     parts.append(table(["Family", "Tasks filed", "Cross-listed"], rows))
     parts.append("\n\n")
-    parts.append(_toctree([("Tasks by family", "tasks_by_family"), ("Tasks alphabetically", "tasks_alphabetically")], 3))
+    parts.append(
+        _toctree(
+            [
+                ("Tasks by family", "tasks_by_family"),
+                ("Tasks alphabetically", "tasks_alphabetically"),
+                ("Tasks by game type", "by_game_type"),
+                ("Tasks by facet", "by_facet"),
+                ("Task vocabulary", "vocabulary"),
+            ],
+            3,
+        )
+    )
 
     write_page(tasks_dir / "index.md", "".join(parts))
     return 1
@@ -449,6 +486,113 @@ def _items_cell(items: list[str] | None, ordered: bool = False) -> str:
     return "\n    ".join(lines)
 
 
+class _Questions:
+    """The questions of data/task_game_defs.json, looked up by key.
+
+    Parameters:
+        game_defs: The loaded data/task_game_defs.json.
+    """
+
+    def __init__(self, game_defs: dict) -> None:
+        self.rules = {
+            (g["game_type"], r["rule"]): r["question"] for g in game_defs.get("game_types", []) for r in g.get("rules", [])
+        }
+        self.motivation = {m["key"]: m["question"] for m in game_defs.get("motivation", [])}
+
+
+def _values(values, anchor_of) -> str:
+    """Return vocabulary values as comma-separated links to the vocabulary page.
+
+    Parameters:
+        values: One value or a list of values.
+        anchor_of: A function from a value to its anchor (see `vocab_anchor`).
+    """
+    values = values if isinstance(values, list) else [values]
+    return ", ".join(vocab_link(v, anchor_of(v)) for v in values)
+
+
+def _combined_line(c: dict, task_names: dict[str, str]) -> str:
+    """Return one combined game as "<how>, <game type or linked task>", then its note.
+
+    Parameters:
+        c: One entry of `combined_with`.
+        task_names: Task id -> canonical name, for an entry that names a task.
+    """
+    how = vocab_link(c["how"], vocab_anchor("how", c["how"]))
+    if "task" in c:
+        other = f"[{task_names.get(c['task'], c['task'])}]({c['task']}.md)"
+    else:
+        other = vocab_link(c.get("game_type", ""), vocab_anchor("game", c.get("game_type", "")))
+    note = f" ({c['note'].rstrip('.')})" if c.get("note") else ""
+    return f"{how}, {other}{note}"
+
+
+def _at_a_glance(task: dict, questions: _Questions, task_names: dict[str, str]) -> str:
+    """Return the "At a glance" block: the standard form in the terms of the vocabulary.
+
+    One line for each thing the record states, in a fixed order: game type, the rules it
+    states (question and answer), motivation, one line per facet, settings, material,
+    phases, combined games. A line the record has nothing for is left out. `candidates`
+    are a working register and are never shown.
+
+    Parameters:
+        task: The task record.
+        questions: The rule and motivation questions.
+        task_names: Task id -> canonical name, for combined games that name a task.
+    """
+    gt = task["game_type"]
+    lines = [f"- **Game type:** {vocab_link(gt, vocab_anchor('game', gt))}"]
+    for rule, value in (task.get("rules") or {}).items():
+        question = questions.rules.get((gt, rule), vocab_label(rule))
+        lines.append(f"- **{question}** {_values(value, lambda v, r=rule: vocab_anchor('rule', gt, r, v))}")
+    for key, answer in (task.get("motivation") or {}).items():
+        question = questions.motivation.get(key, vocab_label(key))
+        lines.append(f"- **{question}** {_values(answer, lambda v, k=key: vocab_anchor('motivation', k, v))}")
+    for facet, values in (task.get("task_facets") or {}).items():
+        lines.append(f"- **{facet_label(facet)}:** {_values(values, lambda v, f=facet: vocab_anchor('facet', f, v))}")
+    if task.get("settings"):
+        lines.append(f"- **Settings:** {_values(task['settings'], lambda v: vocab_anchor('setting', v))}")
+    if task.get("material"):
+        lines.append(f"- **Material:** {task['material']}")
+    if task.get("phases"):
+        lines.append(f"- **Phases:** {_values(task['phases'], lambda v: vocab_anchor('phase', v))}")
+    for c in task.get("combined_with") or []:
+        lines.append(f"- **Combined with:** {_combined_line(c, task_names)}")
+    return (
+        "## At a glance\n\n"
+        "The standard form of the task, the one the inclusion test defines, in the terms of the\n"
+        "[task vocabulary](vocabulary.md). A variant states only what it changes.\n\n" + "\n".join(lines) + "\n\n"
+    )
+
+
+def _what_differs(variant: dict, game_type: str, task_names: dict[str, str]) -> str:
+    """Return the "What differs" cell of a variant: one short phrase per key it states.
+
+    Built from the variant's own `task_facets`, `rules`, `motivation`, `phases` and
+    `combined_with`; an empty facet list reads "<facet>: none" (the facet does not apply
+    to this form). A variant that states none of them is a named form.
+
+    Parameters:
+        variant: The variant record.
+        game_type: The task's game type, for the rule anchors.
+        task_names: Task id -> canonical name, for combined games that name a task.
+    """
+    phrases = []
+    for facet, values in (variant.get("task_facets") or {}).items():
+        label = facet_label(facet).lower().replace("i/o", "I/O")
+        shown = _values(values, lambda v, f=facet: vocab_anchor("facet", f, v)) if values else "none"
+        phrases.append(f"{label}: {shown}")
+    for rule, value in (variant.get("rules") or {}).items():
+        phrases.append(f"{vocab_label(rule)}: {_values(value, lambda v, r=rule: vocab_anchor('rule', game_type, r, v))}")
+    for key, answer in (variant.get("motivation") or {}).items():
+        phrases.append(f"{vocab_label(key)}: {_values(answer, lambda v, k=key: vocab_anchor('motivation', k, v))}")
+    if variant.get("phases"):
+        phrases.append(f"phases: {_values(variant['phases'], lambda v: vocab_anchor('phase', v))}")
+    for c in variant.get("combined_with") or []:
+        phrases.append(f"combined with: {_combined_line(c, task_names)}")
+    return "; ".join(phrases) if phrases else "named form"
+
+
 def _write_task_page(
     tasks_dir: Path,
     task: dict,
@@ -457,15 +601,18 @@ def _write_task_page(
     processes_by_id: dict[str, dict],
     atlas_map: dict[str, dict],
     cogpo_map: dict[str, dict] | None = None,
-    atlas_variation_map: dict[str, list[dict]] | None = None,
+    atlas_variant_map: dict[str, list[dict]] | None = None,
+    game_defs: dict | None = None,
+    task_names: dict[str, str] | None = None,
 ) -> int:
     """Write an individual task page docs/tasks/{hedtsk_id}.md."""
     hedtsk_id = task["hedtsk_id"]
     canonical_name = task["canonical_name"]
     aliases = task.get("aliases", [])
     inclusion = task.get("inclusion_test", {})
-    variations = task.get("variations", [])
+    variants = task.get("variants", [])
     hed_process_ids = task.get("hed_process_ids", [])
+    questions = _Questions(game_defs or {})
 
     # The curated mapping in data/mappings/ is the only Atlas cross-reference. Task
     # records no longer carry an atlas_id of their own; that field produced dead links
@@ -491,6 +638,8 @@ def _write_task_page(
     parts.append("## Description\n\n")
     parts.append(f"{task.get('description', '')}\n\n")
 
+    parts.append(_at_a_glance(task, questions, task_names or {}))
+
     parts.append("## Inclusion test\n\n")
     parts.append(
         "An experiment is an instance of this task when its procedure matches, it manipulates at\n"
@@ -502,30 +651,33 @@ def _write_task_page(
     parts.append(f"* - **Measurements**\n  - {_items_cell(inclusion.get('measurements'))}\n")
     parts.append("```\n\n")
 
-    if variations:
-        parts.append("## Variations\n\n")
+    if variants:
+        parts.append("## Variants\n\n")
         parts.append(
-            "Named versions that change what the participant experiences or does. The identifier\n"
-            "of a variation is `hedvar_<task>__<variation>`.\n\n"
+            "Attested forms of the task. Each states only what differs from the standard form\n"
+            "above and inherits the rest; a named form differs in name only. The identifier of a\n"
+            "variant is `hedvar_<task>__<variant>`.\n\n"
         )
-        parts.append("```{list-table}\n:widths: 25 40 35\n:header-rows: 1\n\n")
-        parts.append("* - Variation\n  - Description\n  - Justification\n")
-        for var in variations:
-            var_id = var.get("variation_id", "")
-            parts.append(f"* - {var.get('name', '')}\n")
-            if var_id:
-                # A second paragraph inside the cell, so the id sits under the name.
-                parts.append(f"\n    `{var_id}`\n")
+        parts.append("```{list-table}\n:widths: 22 33 15 30\n:header-rows: 1\n\n")
+        parts.append("* - Variant\n  - What differs\n  - Processes added\n  - Note\n")
+        for var in variants:
+            var_id = var["variant_id"]
+            # The id and any Atlas entries are further paragraphs in the name's cell.
+            parts.append(f"* - {var['name']}\n\n    `{var_id}`\n")
             atlas_links = [
                 f"[{r['atlas_name']}]({ATLAS_TASK_URL}{r['atlas_id']})"
                 + (f" ({r['match_type']} match)" if r["match_type"] != "exact" else "")
-                for r in (atlas_variation_map or {}).get(var_id, [])
+                for r in (atlas_variant_map or {}).get(var_id, [])
             ]
             if atlas_links:
-                # A further paragraph in the same cell, under the id.
                 parts.append(f"\n    Cognitive Atlas: {', '.join(atlas_links)}\n")
-            parts.append(f"  - {var.get('description', '')}\n")
-            parts.append(f"  - {var.get('justification', '')}\n")
+            parts.append(f"  - {_what_differs(var, task['game_type'], task_names or {})}\n")
+            added = []
+            for pid in var.get("hed_process_ids") or []:
+                proc = processes_by_id.get(pid)
+                added.append(process_link(pid, proc["process_name"], primary_category(proc), "tasks") if proc else f"`{pid}`")
+            parts.append(f"  - {', '.join(added) if added else '-'}\n")
+            parts.append(f"  - {var.get('note', '')}\n")
         parts.append("```\n\n")
 
     if hed_process_ids:

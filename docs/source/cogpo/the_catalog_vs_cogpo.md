@@ -40,7 +40,7 @@ are curated lists rather than open contributions.
 |---|---|---|
 | Experimental paradigms | 106 tasks | 83 classes (84 on the wiki) |
 | Cognitive processes | 172 | not modelled |
-| Named variations | {{ n_variations }} | not modelled |
+| Named variations | {{ n_variants }} | not modelled |
 | Stimulus, response and instruction vocabularies | facets, anchored on HED tags | 6 vocabularies, about 100 values |
 | References per paradigm | curated, with roles | occasional BrainMap citation on a definition |
 | Last curated | ongoing | 2011 |

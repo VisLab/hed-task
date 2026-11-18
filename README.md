@@ -103,7 +103,7 @@ After a change to a toctree (the sidebar), build clean with `-E -a` or delete `d
 
 Then open `docs/_build/html/index.html` in a browser to preview. A clean build emits no warnings.
 
-Narrative pages can use a few live counts from the data, written as `{{ n_tasks }}`, `{{ n_processes }}`, `{{ n_categories }}`, `{{ n_families }}`, `{{ n_variations }}`, `{{ n_links }}` or `{{ n_linked }}`; `docs/source/conf.py` defines them at build time. A table that follows the data is pulled in from `docs/source/_generated/` with an include directive.
+Narrative pages can use a few live counts from the data, written as `{{ n_tasks }}`, `{{ n_processes }}`, `{{ n_categories }}`, `{{ n_families }}`, `{{ n_variants }}`, `{{ n_links }}` or `{{ n_linked }}`; `docs/source/conf.py` defines them at build time. A table that follows the data is pulled in from `docs/source/_generated/` with an include directive.
 
 Do not run `mdformat` over `docs/source/`. It rewrites the generated MyST directives into a form Sphinx cannot parse. The `mdformat` CI check is scoped to the hand-written Markdown at the repository root for that reason:
 

@@ -49,7 +49,7 @@ def generate(
             [
                 ["Tasks", len(tasks), "[Tasks](tasks/index.md)"],
                 ["Task families the tasks are filed under", len(families), "[Tasks](tasks/index.md)"],
-                ["Named task variations", sum(len(t.get("variations", [])) for t in tasks), "on each task page"],
+                ["Task variants", sum(len(t.get("variants", [])) for t in tasks), "on each task page"],
                 ["Cognitive processes", len(processes), "[Cognitive processes](processes/index.md)"],
                 ["Process categories", len(categories), "[Cognitive processes](processes/index.md)"],
                 [
@@ -68,7 +68,7 @@ def generate(
             ["Mapped to", "Atlas entries"],
             [
                 ["A HED task", sum(1 for r in reverse if r["match_level"] == "task")],
-                ["A named variation of a HED task", sum(1 for r in reverse if r["match_level"] == "variation")],
+                ["A variant of a HED task", sum(1 for r in reverse if r["match_level"] == "variant")],
             ],
         ),
         "mapping_task_forward.md": _share_table(forward, "Tasks"),

@@ -43,7 +43,7 @@ _HERE = Path(__file__).parent
 if str(_HERE) not in sys.path:
     sys.path.insert(0, str(_HERE))
 
-from add_variation_ids import variation_id  # noqa: E402
+# add_variation_ids was retired on 2026-11-17; variant ids are now stored in data/task_details.json.
 
 REPO_ROOT = _HERE.parent
 DATA = REPO_ROOT / "data"
@@ -90,7 +90,7 @@ def _project_tasks(tasks: list[dict]) -> tuple[list[dict], collections.Counter]:
         t["references"] = [_project_reference(r) for r in task.get("references", [])]
         stats["references"] += len(t["references"])
         for var in t.get("variations", []):
-            new_id = variation_id(task["hedtsk_id"], var["name"])
+            new_id = variation_id(task["hedtsk_id"], var["name"])  # noqa: F821 (retired; see the comment at the imports)
             existing = var.get("variation_id")
             if existing and existing != new_id:
                 sys.exit(f"{task['hedtsk_id']}: variation {var['name']!r} carries id {existing!r}, not the derived {new_id!r}")

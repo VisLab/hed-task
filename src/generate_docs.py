@@ -14,7 +14,9 @@ Inputs, all under data/ and all edited in this repository by pull request:
 Two kinds of page live under docs/source/. This script writes only the catalog pages,
 which are tabular views of the data:
 
-    tasks/**                     task index, family pages, alphabetical list, task pages
+    tasks/**                     task index, family pages, alphabetical list, task pages,
+                                 the vocabulary page and the by-game-type and by-facet
+                                 listings
     processes/**                 process index, category pages
     task_process_links.md        task-process links
     _generated/*.md              table fragments that narrative pages include, among
@@ -31,11 +33,15 @@ roles from the allowed vocabulary, and every task filed under a family. A failur
 the record, so a pull request that edits the data gets a precise message from CI.
 
 Usage (from repo root, with venv active):
-    python src/generate_docs.py
+    python src/generate_docs.py [--docs-dir DIR]
+
+`--docs-dir` writes into another Sphinx source directory (a copy of docs/source) instead
+of the repository's, for trying a change without touching the committed pages.
 """
 
 from __future__ import annotations
 
+import argparse
 import collections
 import shutil
 import sys
@@ -46,7 +52,6 @@ _HERE = Path(__file__).parent
 if str(_HERE) not in sys.path:
     sys.path.insert(0, str(_HERE))
 
-from add_variation_ids import variation_id  # noqa: E402
 from generators import (  # noqa: E402
     crossref_atlas_pages,
     crossref_cogpo_pages,
@@ -54,6 +59,7 @@ from generators import (  # noqa: E402
     fragments,
     process_pages,
     task_pages,
+    vocabulary_pages,
 )
 from generators.utils import load_json, primary_category, primary_family, read_tsv  # noqa: E402
 
@@ -163,20 +169,6 @@ def _check_ascii(label: str, value, problems: list[str], path: str = "", in_refe
 # Vocabulary: facets, games, and the candidate register
 # ---------------------------------------------------------------------------
 
-# The task-record keys that belong to the game model. A record that carries none of them
-# has not been migrated yet and is not checked against the vocabulary.
-_GAME_MODEL_KEYS = (
-    "game_type",
-    "rules",
-    "motivation",
-    "task_facets",
-    "settings",
-    "material",
-    "phases",
-    "combined_with",
-    "candidates",
-    "variants",
-)
 _VOCABULARY_FILES = ("task_facet_defs", "task_game_defs", "vocabulary_candidates")
 
 
@@ -320,10 +312,11 @@ def _check_game_layer(
 
 
 def check_game_records(tasks: list[dict], vocab: dict, process_ids: set[str], problems: list[str]) -> dict[str, list[str]]:
-    """Check the game-model keys of every task that carries them, and of its variants.
+    """Check the game-model keys of every task and of its variants.
 
-    Records with none of the keys in `_GAME_MODEL_KEYS` are skipped: they have not been
-    migrated. On a migrated record `game_type` and `motivation.drive` are required.
+    Every task must state `game_type`, `motivation` (with every required question) and
+    `task_facets`. The JSON Schema requires the three keys too; the checks here give a
+    message per task.
 
     Parameters:
         tasks: The task records.
@@ -339,8 +332,6 @@ def check_game_records(tasks: list[dict], vocab: dict, process_ids: set[str], pr
     seen_variant_ids: set[str] = set()
     cited_by: dict[str, set[str]] = collections.defaultdict(set)
     for t in tasks:
-        if not any(key in t for key in _GAME_MODEL_KEYS):
-            continue
         tid = t["hedtsk_id"]
         game_type = t.get("game_type")
         if game_type is None:
@@ -486,21 +477,9 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
                 if bad:
                     problems.append(f"{r[idf]}: reference {i} has roles {bad} not in {sorted(roles)}")
 
-    # Variation ids are derived from the parent id and the name; they must match.
-    seen_var: set[str] = set()
-    for t in tasks:
-        for v in t.get("variations", []):
-            expected_id = variation_id(t["hedtsk_id"], v["name"])
-            if v.get("variation_id") != expected_id:
-                problems.append(
-                    f"{t['hedtsk_id']}: variation {v['name']!r} has id {v.get('variation_id')!r}, expected {expected_id!r}"
-                )
-            if expected_id in seen_var:
-                problems.append(f"{t['hedtsk_id']}: duplicate variation id {expected_id!r}")
-            seen_var.add(expected_id)
-
     # The game model: game type, rules, motivation, facets, phases, settings, combined
-    # games, candidates and variants, against the three vocabulary files.
+    # games, candidates and variants, against the three vocabulary files. Variant ids are
+    # stored; check_game_records checks their form and that they are unique.
     vocab = load_vocabularies(data_dir, problems)
     shared = check_game_records(tasks, vocab, process_ids, problems)
     for cand, task_list in shared.items():
@@ -574,8 +553,16 @@ def clear_generated(docs_dir: Path) -> int:
 
 def main() -> None:
     repo_root = _HERE.parent
+    parser = argparse.ArgumentParser(description="Validate the catalog and generate the catalog pages.")
+    parser.add_argument(
+        "--docs-dir",
+        type=Path,
+        default=repo_root / "docs" / "source",
+        help="The Sphinx source directory to write into (default: docs/source). Use a copy to try a change.",
+    )
+    args = parser.parse_args()
     data_dir = repo_root / "data"
-    docs_dir = repo_root / "docs" / "source"
+    docs_dir = args.docs_dir.resolve()
 
     print("Loading data/task_details.json and data/process_details.json ...")
     tasks: list[dict] = load_json(data_dir / "task_details.json")
@@ -593,13 +580,12 @@ def main() -> None:
     # The curated mapping drives the Atlas link on each task page and is the only Atlas
     # cross-reference; task records carry no atlas_id of their own.
     atlas_map = {r["hedtsk_id"]: r for r in read_tsv(data_dir / "mappings" / "hed_task_to_atlas.tsv")}
-    # Atlas entries matched to a named variation (exact or close) are linked from that
-    # variation's row, so that a task with several Atlas entries shows all of them where
-    # each belongs.
-    atlas_variation_map: dict[str, list[dict]] = collections.defaultdict(list)
+    # Atlas entries matched to a variant (exact or close) are linked from that variant's
+    # row, so that a task with several Atlas entries shows all of them where each belongs.
+    atlas_variant_map: dict[str, list[dict]] = collections.defaultdict(list)
     for row in read_tsv(data_dir / "mappings" / "atlas_task_to_hed.tsv"):
-        if row["match_level"] == "variation" and row["match_type"] in ("exact", "close"):
-            atlas_variation_map[row["hed_variation_id"]].append(row)
+        if row["match_level"] == "variant" and row["match_type"] in ("exact", "close"):
+            atlas_variant_map[row["hed_variant_id"]].append(row)
 
     # The CogPO mapping drives the CogPO link on each task page the same way. A class
     # links to its page on the CogPO wiki, whose title the summary records; the two
@@ -620,11 +606,15 @@ def main() -> None:
     total = 0
 
     print("Generating docs/source/tasks/ ...")
-    n = task_pages.generate(docs_dir, tasks, processes_by_id, families, atlas_map, cogpo_map, atlas_variation_map)
+    game_defs = load_json(data_dir / "task_game_defs.json")
+    n = task_pages.generate(docs_dir, tasks, processes_by_id, families, atlas_map, cogpo_map, atlas_variant_map, game_defs)
     total += n
     print(
         f"  Wrote {n} task files (index, tasks_by_family, {len(families)} family pages, tasks_alphabetically, {len(tasks)} task pages)."
     )
+    n = vocabulary_pages.generate(docs_dir, data_dir, tasks)
+    total += n
+    print(f"  Wrote {n} vocabulary files (vocabulary, by_game_type, by_facet).")
 
     print("Generating docs/source/processes/ ...")
     n = process_pages.generate(docs_dir, processes, categories, tasks_by_id)

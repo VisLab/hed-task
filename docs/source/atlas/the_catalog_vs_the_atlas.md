@@ -33,7 +33,7 @@ The difference in scale follows from the difference in purpose.
 | Cognitive processes or concepts | 172 | 918 |
 | Links between the two | 498 | 1422 |
 | Mean processes or concepts per paradigm | 4.72 | 1.66 |
-| Named variations | {{ n_variations }} | not modelled |
+| Named variations | {{ n_variants }} | not modelled |
 | Mean named variations per paradigm | 7.5 | not modelled |
 
 The Catalog links each paradigm to 4.7 processes on average against the
@@ -70,7 +70,7 @@ The Atlas often registers a specific implementation as an entry of its own, wher
 Catalog records it as a named variation of a task. Such entries are matched at the
 variation level:
 
-```{include} ../_generated/mapping_variation_line.md
+```{include} ../_generated/mapping_variant_line.md
 ```
 
 ```{include} ../_generated/mapping_level.md
