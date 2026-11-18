@@ -13,6 +13,23 @@ Multi-cue probabilistic prediction of a binary outcome with trial-by-trial feedb
 
 The Weather Prediction Task presents 1-3 cues from a set of 4 possible cards; participants predict a binary outcome (rain/sunshine). Each cue is probabilistically associated with outcomes (e.g., 75%/25%), requiring participants to learn from statistical patterns. Feedback is provided after each prediction. Critically, amnesic patients with medial temporal lobe damage show intact learning despite impaired conscious awareness of the task structure, implicating basal ganglia and striatal systems in implicit probabilistic learning.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **Where does the rule come from?** <a href="vocabulary.html#rule-respond-to-rule-rule-source-learned-from-feedback">learned from feedback</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-feedback-reliability">feedback reliability</a>, <a href="vocabulary.html#setting-set-size">set size</a>
+- **Material:** Four cue cards, one to three shown per trial, each linked with a fixed probability to rain or sunshine.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -25,11 +42,13 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Procedure**
   - 1. Participants predict an outcome (e.g., rain/sun) based on combinations of cues (cards), where each cue is probabilistically (not deterministically) related to outcomes.
     2. Learning is incremental across hundreds of trials.
+    3. Optional: After learning a test phase uses novel card combinations or reversed outcome links.
 * - **Manipulations**
   - - Cue-outcome probability structure
     - Number of cues per trial
     - Feedback type (corrective, observational)
     - Concurrent vs. single task
+    - Category structure (rule-based vs. information-integration)
 * - **Measurements**
   - - Accuracy learning curve
     - Optimal response rate
@@ -37,55 +56,44 @@ least one of the listed variables, and it records at least one of the listed mea
     - Comparison to Parkinson patients (basal ganglia involvement)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Weather Prediction (4 cues, binary outcome)
-
-    `hedvar_probabilistic_classification_learning__standard_weather_prediction_4_cues_binary_outcome`
-  - One to three cards from a set of four, each with a geometric pattern, are shown on each trial, and the participant predicts whether the weather will be rain or sunshine. Each card is linked to rain with its own probability, and feedback after each guess lets the participant gradually learn the odds.
-  - Canonical probabilistic categorization with cue combinations
-* - Deterministic Version
-
-    `hedvar_probabilistic_classification_learning__deterministic_version`
-
-    Cognitive Atlas: [deterministic classification](https://www.cognitiveatlas.org/task/id/trm_4e8dd3831f0cc) (close match)
-  - Each combination of cards always predicts the same outcome, so a rule can be learned exactly rather than approximately. The task then measures explicit rule learning rather than gradual probabilistic learning.
-  - Cues perfectly predict outcome; removes probabilistic uncertainty
-* - Varying Probability Levels
-
-    `hedvar_probabilistic_classification_learning__varying_probability_levels`
-  - The strength of the link between cards and outcome is varied, from barely better than chance (60/40) to nearly certain (90/10). Learning is faster and more complete with stronger links.
-  - Cue-outcome reliability systematically manipulated; different learning statistics
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Information-Integration Category Learning
 
     `hedvar_probabilistic_classification_learning__information_integration_category_learning`
-  - The stimuli vary continuously on two or more dimensions (such as the length and tilt of a line), and the correct category depends on combining both dimensions in a way that cannot be stated as a simple rule. Learned gradually from feedback.
-  - Categories defined by integration of dimensions; different decision rule
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+  - -
+  - The stimuli become shapes varying continuously on two or more dimensions and the category depends on combining the dimensions in a way that cannot be stated as a rule.
 * - Rule-Based Category Learning (comparison)
 
     `hedvar_probabilistic_classification_learning__rule_based_category_learning_comparison`
-  - The stimuli vary on several dimensions but the category is determined by one dimension alone (for example, long lines are category A), so the participant can find the rule by testing hypotheses. Used as a contrast with the integration version.
-  - Explicit rule applicable; contrasts implicit vs. explicit learning systems
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+  - [Hypothesis testing](../processes/reasoning_and_problem_solving.md#hed-hypothesis-testing)
+  - The stimuli become shapes varying on several continuous dimensions, with the category fixed by one dimension alone so the rule can be found by hypothesis testing.
 * - Feedback vs. Observation Learning
 
     `hedvar_probabilistic_classification_learning__feedback_vs_observation_learning`
-  - In the observation version, each set of cards is shown together with its outcome and the participant just watches, rather than guessing and being told right or wrong. Both versions are then tested without feedback.
-  - Active feedback vs. observational learning; different learning mechanism
+  - feedback: none
+  - -
+  - In the observation version each card set is shown with its outcome and the participant only watches; both versions are then tested without feedback.
 * - Transfer Test Variants
 
     `hedvar_probabilistic_classification_learning__transfer_test_variants`
-  - After learning, the participant is tested on card combinations never seen during training, or on the same cards with the outcome links reversed, to see whether what was learned generalizes or can be updated.
-  - Probe generalization with novel cue combinations; different test phase
+  - phases: <a href="vocabulary.html#phase-acquisition">acquisition</a>, <a href="vocabulary.html#phase-transfer">transfer</a>
+  - -
+  - After learning, a test phase uses card combinations never seen in training, or the trained cards with their outcome links reversed.
 ```
 
 ## Cognitive processes

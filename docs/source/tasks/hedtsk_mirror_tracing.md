@@ -13,6 +13,21 @@ Tracing of a figure viewed only in a mirror; error and completion time across tr
 
 The Mirror Tracing Task measures procedural motor learning and sensorimotor adaptation. Participants trace a shape (typically a star outline) while viewing their hand only through a mirror, which reverses the visual feedback left-right. This creates a conflict between visual and proprioceptive information that must be resolved through practice. Performance improves across trials as participants learn to adapt their motor commands to the reversed visual input. Measures include tracing time, number of errors (deviations from the path), and the rate of improvement across trials. The task is a classic demonstration that procedural/implicit memory is preserved in amnesia (H.M. could learn this task despite profound declarative memory loss).
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-produce-movement">produce movement</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-trials">number of trials</a>
+- **Material:** A path to trace, such as a star outline or a maze, with the hand seen only in a mirror.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -25,68 +40,57 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Procedure**
   - 1. Participants trace a path (star, maze) while viewing their hand only through a mirror, which reverses visual-motor mapping.
     2. They must stay within path boundaries.
+    3. Optional: Tracing is practiced in one session and retested hours or days later with no practice between.
 * - **Manipulations**
   - - Path complexity
     - Practice blocks
     - Dominant vs. non-dominant hand
+    - Visuomotor mapping (left-right mirror, up-down or two-axis mirror, rotation)
+    - Visual field shift (prism goggles; reach to targets)
 * - **Measurements**
   - - Tracing time
     - Number of boundary errors
     - Improvement across trials (learning curve)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Star Tracing (Standard)
-
-    `hedvar_mirror_tracing__star_tracing_standard`
-  - A six-pointed star outline is placed behind a screen so the participant can see it only in a mirror. They trace between the double lines of the star with a pencil, and the number of times the pencil leaves the track and the time to finish are recorded over repeated attempts.
-  - Canonical mirror tracing of star with visuomotor reversal
-* - Circle/Diamond/Complex Shapes
-
-    `hedvar_mirror_tracing__circle_diamond_complex_shapes`
-  - The figure to be traced is a circle, diamond, spiral or other shape instead of a star. Shapes with more corners and direction changes are harder to trace in the mirror.
-  - Different shape complexity and curvature demands
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Computerized Mirror Tracing
 
     `hedvar_mirror_tracing__computerized_mirror_tracing`
-  - The participant moves a mouse or stylus while the cursor on screen moves in the mirror-reversed direction. No physical mirror is used, and the cursor cannot be felt bumping the edge of the track.
-  - Screen/stylus instead of physical mirror/pencil; per section 5.6, loses haptic edge feedback
-* - Left-Right vs. Up-Down Reversal
-
-    `hedvar_mirror_tracing__left_right_vs_up_down_reversal`
-  - The mirror or software reverses only the left-right axis, only the up-down axis, or both. Each reversal is a different remapping between what the hand does and what the eye sees.
-  - Different mirror axis changes visuomotor mapping
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>, <a href="vocabulary.html#facet-task-io-device-stylus">stylus</a>
+  - -
+  - The reversal is done in software with a mouse or stylus, with no physical mirror and no felt contact with the track edge.
 * - Rotation (Non-Mirror) Variants
 
     `hedvar_mirror_tracing__rotation_non_mirror_variants`
-  - Instead of a mirror reversal, the seen cursor direction is rotated by a chosen angle (such as 30 or 90 degrees) from the hand's actual direction. The size of the rotation sets the difficulty.
-  - Rotation rather than mirror reversal; different visuomotor transformation
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>, <a href="vocabulary.html#facet-task-io-device-stylus">stylus</a>
+  - -
+  - The cursor moves in a direction rotated by a fixed angle from the hand's movement instead of mirrored. This is the visuomotor rotation paradigm, which could stand as a task of its own.
 * - Prism Adaptation Analog
 
     `hedvar_mirror_tracing__prism_adaptation_analog`
-  - The participant wears goggles with prisms that shift the visual scene sideways and reaches or points at targets. Pointing errors shrink with practice and reappear in the opposite direction when the goggles are removed.
-  - Prismatic displacement of visual field; different mechanism from mirror reversal
+  - task I/O device: none
+  - [Reaching](../processes/motor_preparation_timing_and_execution.md#hed-reaching)
+  - The participant wears prism goggles that shift the scene sideways and reaches to targets instead of tracing a shape. This is prism adaptation, which could stand as a task of its own.
 * - Dual-Hand Mirror Tracing
 
     `hedvar_mirror_tracing__dual_hand_mirror_tracing`
-  - Both hands trace at the same time, each with mirror-reversed feedback, either on two figures or on mirror-image halves of one figure.
-  - Both hands trace simultaneously with mirrored feedback; bimanual coordination variant
-* - Mirror Tracing with Delay
-
-    `hedvar_mirror_tracing__mirror_tracing_with_delay`
-  - Tracing is practiced in one session and tested again after a delay of hours or days, with no practice in between, to see how much of the adaptation is kept.
-  - Delay between practice and test; tests retention of visuomotor adaptation
+  - named form
+  - -
+  - Both hands trace at once, each with mirror-reversed feedback.
 ```
 
 ## Cognitive processes

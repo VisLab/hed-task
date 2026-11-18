@@ -13,6 +13,22 @@ Non-spatial feature (e.g. color) dictates a left/right response while task-irrel
 
 The Simon Task measures the effect of spatial stimulus-response correspondence on performance. Participants respond to a non-spatial stimulus attribute (e.g., color: press left for red, right for blue) while the stimulus appears on either the left or right side of the screen. When stimulus location corresponds with the assigned response side (congruent), responses are faster and more accurate than when they do not correspond (incongruent). The Simon effect reflects automatic activation of a spatially corresponding response that must be overridden when incongruent. The task is a foundational paradigm for studying stimulus-response compatibility and dimensional overlap.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-irrelevant-dimension">irrelevant dimension</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-eccentricity">eccentricity</a>, <a href="vocabulary.html#setting-proportion-congruent">proportion congruent</a>
+- **Material:** Stimuli that differ in color or shape and appear on the left or the right of the screen.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,74 +46,68 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Spatial congruency (stimulus side matches or conflicts with response side)
     - Stimulus eccentricity
     - Proportion congruent
+    - Stimulus and response axis (vertical vs. horizontal)
+    - Accessory tone (same side, opposite side, center)
+    - Prior stimulus-response mapping (reversed training or instruction)
+    - Number of participants (joint vs. individual)
+    - Added flankers around the lateral stimulus
+    - Stimulus type (emotional faces or words)
 * - **Measurements**
   - - Simon effect (RT difference: incongruent - congruent)
     - Accuracy
     - Delta-plot analysis of time-course of interference
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Visual Simon Task (Standard)
-
-    `hedvar_simon__visual_simon_task_standard`
-  - A colored shape appears to the left or right of center, and the participant presses a left key for one color and a right key for the other. Position is irrelevant, but responses are slower when the stimulus appears on the side opposite the required key.
-  - Canonical: respond to color/shape despite irrelevant spatial position
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Auditory Simon Task
 
     `hedvar_simon__auditory_simon`
-  - A tone is played to the left or right ear and the participant presses a key based on its pitch. Responses are slower when the required key is on the opposite side from the ear that heard the tone.
-  - Auditory stimulus location as irrelevant dimension; different sensory modality
-* - Vertical Simon Task
-
-    `hedvar_simon__vertical_simon`
-  - The stimulus appears above or below center and the response keys are arranged one above the other, so the conflict is between up-down position and up-down response.
-  - Vertical rather than horizontal spatial dimension; different axis of conflict
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - A tone in the left or right ear is classified by pitch, so the irrelevant location is the ear of presentation.
 * - Simon Task with Accessory Stimuli
 
     `hedvar_simon__simon_task_with_accessory_stimuli`
-  - An irrelevant tone is played at the same time as the visual stimulus, from the same or opposite side, or centrally, to study how an extra event affects the position conflict.
-  - Non-response-relevant accessory stimulus added; tests alerting-compatibility interaction
-* - Reversed Simon Task
-
-    `hedvar_simon__reversed_simon`
-  - The participant is told to press the key opposite to where the stimulus appears, or practices such a mapping, before the standard task. This can reverse the usual effect.
-  - Stimulus-response mapping reversed; opposite compatibility mapping
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>; cue: <a href="vocabulary.html#rule-respond-to-rule-cue-alerting-cue">alerting cue</a>
+  - [Alerting](../processes/selective_and_sustained_attention.md#hed-alerting), [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - An irrelevant tone sounds together with the visual stimulus from the same side, the opposite side or the center, acting as an alerting event (simultaneous, not in advance).
 * - Joint Simon Task
 
     `hedvar_simon__joint_simon`
-  - Two people sit side by side and each is responsible for one response key and one color, so each has a simple go/no-go task. The position conflict reappears for each person as if they were doing the whole task alone.
-  - Two participants share one Simon task; tests social simulation of co-actor's response
+  - social aspect: <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>; response demand: <a href="vocabulary.html#rule-respond-to-rule-response-demand-withhold-on-some">withhold on some</a>
+  - [Self-other distinction](../processes/social_cognition_and_strategic_social_choice.md#hed-self-other-distinction), [Response inhibition](../processes/inhibitory_control_and_conflict_monitoring.md#hed-response-inhibition)
+  - Two people sit side by side, each owning one key and one color, so each performs a go/no-go task while the position conflict reappears.
 * - Hybrid Simon-Flanker Task
 
     `hedvar_simon__hybrid_simon_flanker`
-  - The lateral stimulus is also surrounded by flanker items that match or conflict with it, so that position conflict and flanker conflict are present in the same trial.
-  - Integrates flanker conflict with Simon conflict; combined interference paradigm
+  - competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-neighbouring-items">neighbouring items</a>
+  - -
+  - The lateral stimulus is also surrounded by flankers, so its irrelevant location and the neighbouring items both compete with the response on the same trial.
 * - Emotional Simon Task
 
     `hedvar_simon__emotional_simon`
-  - The stimuli are emotional faces or words shown to the left or right, with the response based on their emotion, or the response keys are labeled with positive and negative meanings so that the irrelevant emotional content can conflict with the response.
-  - Emotional content as irrelevant dimension; retained per section 5.1 (EMOT retired)
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>; emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>, <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - [Emotion recognition](../processes/emotion_perception_and_regulation.md#hed-emotion-recognition)
+  - Emotional faces or words appear left or right and the response is based on their emotion, or the keys carry positive and negative meanings so emotional content conflicts with the response.
 * - Mouse-Tracking Simon
 
     `hedvar_simon__mouse_tracking_simon`
-  - The participant responds by moving a mouse to a target in the upper left or right of the screen, and the whole path of the cursor is recorded. Curvature toward the wrong side shows the pull of the stimulus position.
-  - Continuous mouse trajectory as response; different response modality
-* - Simon with Proportion-Congruent Manipulation
-
-    `hedvar_simon__simon_with_proportion_congruent_manipulation`
-  - The share of trials on which position and response agree is varied between blocks, for example mostly agreeing in one block and mostly conflicting in another, to see how the effect changes when conflict is expected.
-  - Varies conflict frequency; adaptation context manipulation per section 5.2
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>
+  - -
+  - The response is a mouse movement to an upper-left or upper-right target and the cursor path is the measure; the trial design is unchanged.
 ```
 
 ## Cognitive processes

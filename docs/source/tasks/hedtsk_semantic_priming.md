@@ -13,6 +13,22 @@ Lexical or semantic decision on targets preceded by semantically related or unre
 
 Word pairs are presented in sequence: a prime word followed by a target. Prime-target relationships are manipulated (semantically related, unrelated, or neutral). Participants typically make lexical decisions on the target. Semantic priming is measured as faster RT to related versus unrelated pairs, reflecting automatic spreading activation through semantic memory networks. SOA manipulation distinguishes automatic (short SOA) from strategic (long SOA) priming.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-preceding-prime">preceding prime</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pseudowords">pseudowords</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-proportion-congruent">proportion congruent</a>, <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
+- **Material:** A prime word followed by a target word or nonword, the pair related by association or category or unrelated.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,84 +46,46 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Prime-target relatedness (associated, categorical, unrelated)
     - SOA (short for automatic priming, long for strategic)
     - Prime type (word, sentence context)
+    - Proportion of related trials (75% vs. 25%)
+    - Prime and target type (picture vs. word)
 * - **Measurements**
   - - Priming effect (RT difference: unrelated - related)
     - Accuracy
     - N400 ERP amplitude reduction for related pairs
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Short SOA (< 250 ms)
-
-    `hedvar_semantic_priming__short_soa_250_ms`
-  - The prime word is followed by the target word within a quarter of a second, too soon for the participant to form an expectation about what the target will be. Faster responses to related targets reflect automatic activation of related meanings.
-  - Brief prime-target interval; automatic spreading activation
-* - Long SOA (> 500 ms)
-
-    `hedvar_semantic_priming__long_soa_500_ms`
-  - Half a second or more passes between prime and target, giving the participant time to anticipate likely targets. Priming can then include deliberate expectation as well as automatic activation.
-  - Long interval; strategic processing contributes
-* - Masked Priming
-
-    `hedvar_semantic_priming__masked_priming`
-  - The prime is shown for about 50 ms between masking patterns so it is not consciously seen, and the target follows immediately. Priming that survives masking is taken to be automatic.
-  - Prime below awareness; unconscious semantic activation
-* - Relatedness Proportion Manipulation
-
-    `hedvar_semantic_priming__relatedness_proportion_manipulation`
-  - The share of trials on which prime and target are related is set high (such as 75 percent) in one condition and low (25 percent) in another. When related pairs are common, participants use the prime to predict the target and priming is larger.
-  - Varies proportion of related pairs; changes strategic context
-* - Semantic Relation Types
-
-    `hedvar_semantic_priming__semantic_relation_types`
-  - The prime and target are related in different ways on different trials: by association (bread - butter), by category (cat - dog), by situation (broom - floor) or by function (hammer - nail). Priming is compared across relation types.
-  - Taxonomic vs. thematic vs. associative relations; different prime-target relationships
-* - Mediated Priming
-
-    `hedvar_semantic_priming__mediated_priming`
-  - The prime and target are not directly related but share a common link, for example 'lion' and 'stripes' through 'tiger'. Priming between them shows that activation spreads beyond immediate associates.
-  - Prime activates mediator that activates target; tests spread of activation
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Cross-Modal Priming
 
     `hedvar_semantic_priming__cross_modal_priming`
-  - The prime is spoken through headphones and the target is written on the screen, or vice versa, so that priming must cross from one sense to the other.
-  - Auditory prime + visual target; cross-modal semantic activation
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - [Speech perception](../processes/language_comprehension_and_production.md#hed-speech-perception)
+  - The prime is spoken and the target printed, or the reverse; the decision is unchanged.
 * - Sentence Context Priming
 
     `hedvar_semantic_priming__sentence_context_priming`
-  - The prime is a sentence frame rather than a single word, and the target word either fits the sentence or does not. Measures how a whole context prepares the reader for a word.
-  - Sentence prime instead of single word; higher-level context
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-pseudowords">pseudowords</a>, <a href="vocabulary.html#facet-stimulus-type-text">text</a>
+  - -
+  - The prime is a sentence frame rather than a word and the target either fits it or not; a level of the prime-type manipulation.
 * - Picture-Word Priming
 
     `hedvar_semantic_priming__picture_word_priming`
-  - The prime is a picture and the target a word (or the reverse), so that the relationship is in meaning rather than in the words themselves.
-  - Picture prime for word target; conceptual rather than lexical priming
-* - Morphological Priming
-
-    `hedvar_semantic_priming__morphological_priming`
-  - The prime and target share a word stem, such as 'teach' and 'teacher', or a prefix. Priming from shared structure is compared with priming from shared meaning or shared spelling to see whether words are broken into parts during reading.
-  - Morphologically related prime; tests morphological representation
-* - Phonological Priming
-
-    `hedvar_semantic_priming__phonological_priming`
-  - The prime and target sound alike, for example they rhyme (cat - hat) or share a first sound (cat - cup), without being related in meaning. Measures the role of sound in recognizing words.
-  - Phonologically similar prime; tests phonological overlap effects
-* - Orthographic Priming
-
-    `hedvar_semantic_priming__orthographic_priming`
-  - The prime and target share letters but nothing else, for example 'corner' and 'corn'. Usually a control condition for morphological priming, showing how much priming comes from spelling overlap alone.
-  - Orthographically similar prime; tests spelling overlap effects
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-pseudowords">pseudowords</a>, <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
+  - [Visual object recognition](../processes/face_and_object_perception.md#hed-visual-object-recognition)
+  - The prime is a picture and the target a word, or the reverse, so the relation is conceptual rather than lexical.
 ```
 
 ## Cognitive processes

@@ -13,6 +13,26 @@ A pair of cues (often threat/neutral) is followed by a probe at one cue location
 
 The Dot-Probe Task measures attentional bias toward or away from emotionally salient stimuli. On each trial, a pair of stimuli (e.g., one threatening face and one neutral face) appears briefly (typically 500 ms), followed by a probe (dot or arrow) at the location of one stimulus. Participants respond to the probe (detect or classify it). Attentional bias is inferred from faster responses to probes replacing the emotional stimulus (vigilance toward threat) versus slower responses (avoidance). The task is a cornerstone of research on anxiety-related attentional biases and has been central to Attentional Bias Modification (ABM) treatments.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>
+- **Does a cue come before the target?** <a href="vocabulary.html#rule-respond-to-rule-cue-location-cue">location cue</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>
+- **Emotional aspect:** <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-presentation-duration">presentation duration</a>
+- **Material:** Pairs of stimuli, typically a threatening and a neutral face (threat, positive or neutral), followed by a dot or arrow probe at the location of one of them.
+- **Combined with:** <a href="vocabulary.html#how-throughout">throughout</a>, [Fixate Task](hedtsk_fixate.md) (Gaze is held on the fixation target while the main game is played)
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,53 +49,44 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Stimulus valence (threat, positive, neutral)
     - Stimulus duration
     - Probe location (congruent with threat vs. incongruent)
+    - Stimulus type (faces, words, scenes or objects)
 * - **Measurements**
   - - RT difference between congruent and incongruent probe trials (attentional bias score)
     - Vigilance vs. avoidance patterns
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Face Dot-Probe
-
-    `hedvar_dot_probe__standard_face_dot_probe`
-  - Two faces appear side by side for about half a second, one emotional (usually threatening) and one neutral. They disappear and a small probe (a dot or arrow) appears where one of them was. The participant indicates the probe's location or identity as fast as possible. Faster responses to probes behind emotional faces indicate attention was drawn there.
-  - Canonical: face pair followed by probe; measures attentional bias to faces
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Word Dot-Probe
 
     `hedvar_dot_probe__word_dot_probe`
-  - The pair consists of a threat-related word and a neutral word, one above the other or side by side, followed by the probe at one of the word locations.
-  - Word stimuli instead of faces; different stimulus type
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>; social aspect: none
+  - -
+  - A threat word and a neutral word form the pair instead of faces.
 * - Pictorial Dot-Probe
 
     `hedvar_dot_probe__pictorial_dot_probe`
-  - The pair consists of emotional and neutral photographs of scenes or objects, such as pictures from the International Affective Picture System, rather than faces or words.
-  - Scene/object pictures; different stimulus class
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-scenes">scenes</a>, <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>; social aspect: none
+  - -
+  - Emotional and neutral photographs of scenes or objects form the pair instead of faces or words.
 * - Detection vs. Classification Probe
 
     `hedvar_dot_probe__detection_vs_classification_probe`
-  - In the detection version the participant presses a single key as soon as the probe appears. In the classification version the probe has two possible forms (for example one or two dots, or an arrow pointing up or down) and the participant reports which it was.
-  - Probe identity discrimination vs. simple detection; different response task
-* - Subliminal/Masked Dot-Probe
-
-    `hedvar_dot_probe__subliminal_masked_dot_probe`
-  - The face or word pair is shown for only about 15 to 20 ms and immediately covered by a mask, so the participant cannot consciously see which side the emotional item was on, before the probe appears.
-  - Primes below threshold; changes conscious awareness of cue
-* - Positive Dot-Probe
-
-    `hedvar_dot_probe__positive_dot_probe`
-  - The emotional item in each pair is positive, such as a happy face or a pleasant picture, paired with a neutral item, to measure attention toward pleasant rather than threatening content.
-  - Positive stimuli as cues; different emotional valence of attention capture stimuli
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+  - -
+  - The probe job is either a single press when the probe appears (detect) or a report of which of two probe forms appeared (classify), replacing the standard localization.
 ```
 
 ## Cognitive processes

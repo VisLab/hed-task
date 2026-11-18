@@ -13,6 +13,21 @@ Matrix completion items requiring induction of a rule from a 3x3 array of figure
 
 Participants view a matrix pattern with a missing element and select the correct completion from a set of alternatives. The patterns involve systematic variations in features such as shape, size, color, orientation, and number, governed by rules that increase in complexity across test items. Solving each item requires extracting the governing rules and applying them to predict the missing element. Raven's Progressive Matrices is the most widely used culture-reduced measure of fluid intelligence (Gf) and abstract relational reasoning, and is among the most extensively studied psychometric instruments in all of psychology. It has been central to debates about the neural basis of general intelligence, g-loading, and the structure of reasoning.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-solve-problem">solve problem</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-abstract-patterns">abstract patterns</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>, <a href="vocabulary.html#setting-number-of-rules">number of rules</a>, <a href="vocabulary.html#setting-response-deadline">response deadline</a>
+- **Material:** 3x3 matrices of geometric patterns that vary in shape, size, color, orientation and number, with one cell missing and a set of candidate completions.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -28,64 +43,64 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Number of relational rules to integrate
     - Rule types (distribution of values, quantitative progression, figure addition)
     - Number of response options
+    - Administration format (computerized adaptive vs. fixed item order)
+    - Time limit (strict overall limit vs. untimed)
 * - **Measurements**
   - - Number correct (raw score, often converted to IQ-scale)
     - Accuracy by item difficulty
     - Response time
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Progressive Matrices (SPM)
-
-    `hedvar_ravens_progressive_matrices__standard_progressive_matrices_spm`
-  - Sixty items, each a grid of abstract patterns with one cell missing. The participant chooses the piece that completes the pattern from six or eight options. Items are arranged in five sets that get harder. The score is the number correct.
-  - Canonical general ability measure
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Advanced Progressive Matrices (APM)
 
     `hedvar_ravens_progressive_matrices__advanced_progressive_matrices_apm`
-  - A set of 36 harder matrix items intended for adults of above-average ability, so that the test still distinguishes people at the top of the range.
-  - Harder item set for higher ability; different item difficulty range
+  - named form
+  - -
+  - A named 36-item instrument restricted to harder items for high-ability adults.
 * - Colored Progressive Matrices (CPM)
 
     `hedvar_ravens_progressive_matrices__colored_progressive_matrices_cpm`
-  - An easier 36-item set with colored backgrounds, designed for young children, older adults and people with impairments. The first items are simple pattern completion.
-  - Colored figures, simpler items for children/elderly; different stimulus format
+  - population: <a href="vocabulary.html#facet-population-children">children</a>, <a href="vocabulary.html#facet-population-older-adults">older adults</a>, <a href="vocabulary.html#facet-population-patients">patients</a>
+  - -
+  - A named easier 36-item instrument with colored backgrounds for children, older adults and patients.
 * - Computerized Adaptive Version
 
     `hedvar_ravens_progressive_matrices__computerized_adaptive_version`
-  - Items are presented on a computer, and which item comes next is chosen from the participant's answers so far, giving harder items after correct answers and easier ones after errors. Fewer items are needed for a precise score.
-  - Per section 5.6: adaptive algorithm changes which items presented; procedural change beyond interface
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+  - -
+  - The items are given on a computer and the next item is picked from the answers so far, so fewer items are needed.
 * - Matrix Reasoning (WAIS subtest)
 
     `hedvar_ravens_progressive_matrices__matrix_reasoning_wais_subtest`
-  - The matrix reasoning subtest of the Wechsler intelligence scales, with 26 items of the same kind administered as part of the full scale, with its own norms.
-  - Standardized 26-item version with WAIS norms; named published instrument
+  - named form
+  - -
+  - The same kind of item given as a 26-item subtest of the Wechsler scales with its own norms.
 * - Sandia Matrices
 
     `hedvar_ravens_progressive_matrices__sandia_matrices`
-  - A freely available set of matrix items generated by software so that the number and type of rules in each item are known and controlled, allowing new items of chosen difficulty to be made for experiments.
-  - Open-source item set with verified psychometrics; distinct published test
-* - Time-Limited vs. Untimed Administration
-
-    `hedvar_ravens_progressive_matrices__time_limited_vs_untimed_administration`
-  - The test is given either with a strict overall time limit (such as 20 minutes) or with as much time as the participant wants. Under time pressure the score depends partly on speed rather than only on reasoning ability.
-  - Time pressure changes response strategy and performance profile
+  - named form
+  - -
+  - A named open item set generated by software so the rule count and type of each item are known.
 * - Shortened Versions (15-Item)
 
     `hedvar_ravens_progressive_matrices__shortened_versions_15_item`
-  - A selection of 15 items from the full test chosen to give a reasonable estimate of the full score in a few minutes, used when a quick screen is needed.
-  - Abbreviated protocols validated for efficiency; recognized published short form
+  - named form
+  - -
+  - A named 15-item selection used as a quick screen.
 ```
 
 ## Cognitive processes

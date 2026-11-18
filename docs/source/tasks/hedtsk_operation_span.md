@@ -13,6 +13,26 @@ Alternating arithmetic verification and word/letter memory items; complex-span s
 
 The Operation Span Task is a complex span measure of working memory capacity. Participants alternate between a processing task (verifying simple math equations, e.g., "Is (2 x 3) + 1 = 8?") and a memory task (remembering letters or words presented after each equation). After a set of 3-7 equation-letter pairs, participants recall the letters in order. The OSPAN score reflects the ability to maintain memory representations while engaging in concurrent processing - a hallmark of working memory capacity (WMC). OSPAN scores are strong predictors of fluid intelligence, reading comprehension, and general executive function.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **What is studied?** <a href="vocabulary.html#rule-study-then-test-studied-material-sequence-order">sequence order</a>
+- **How long is it held?** <a href="vocabulary.html#rule-study-then-test-retention-interval-seconds">seconds</a>
+- **What fills the interval?** <a href="vocabulary.html#rule-study-then-test-interval-filler-distraction">distraction</a>
+- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-serial-recall">serial recall</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-set-size">set size</a>
+- **Material:** Simple math equations to verify (such as (2 x 3) + 1 = 8), each followed by a letter or word to remember.
+- **Combined with:** <a href="vocabulary.html#how-interleaved">interleaved</a>, <a href="vocabulary.html#game-respond-to-rule">respond to rule</a> (An equation is verified between each item to be remembered)
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -35,50 +55,52 @@ least one of the listed variables, and it records at least one of the listed mea
     - Processing accuracy (to verify engagement with distractor task)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Automated OSPAN (AOSPAN)
-
-    `hedvar_operation_span__automated_ospan_aospan`
-  - The participant alternates between checking whether a simple arithmetic equation is correct and seeing a letter to remember. After three to seven such pairs they recall the letters in order by clicking them. The computer paces the arithmetic from the participant's own practice speed.
-  - Canonical computerized OSPAN with math distractor
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Reading Span (RSPAN)
 
     `hedvar_operation_span__reading_span_rspan`
 
     Cognitive Atlas: [reading span task](https://www.cognitiveatlas.org/task/id/trm_4c40d168898db)
-  - The interleaved processing task is reading a sentence and judging whether it makes sense, instead of arithmetic. A word or letter to remember follows each sentence.
-  - Sentence comprehension distractor; different processing demand
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-text">text</a>
+  - [Sentence comprehension](../processes/language_comprehension_and_production.md#hed-sentence-comprehension)
+  - The interleaved processing task is judging whether a sentence makes sense instead of verifying an equation, with a word or letter to remember after each sentence.
 * - Symmetry Span (SYMSPAN)
 
     `hedvar_operation_span__symmetry_span_symspan`
-  - The processing task is judging whether a pattern is symmetric about its vertical axis, and the items to remember are positions of red squares in a grid, recalled in order. A spatial version of the task.
-  - Spatial symmetry judgment distractor; visuospatial storage component
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-abstract-patterns">abstract patterns</a>, <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+  - [Spatial working memory](../processes/short_term_and_working_memory.md#hed-spatial-working-memory)
+  - The processing task is a symmetry judgment and the memoranda are grid positions recalled in order, a spatial version of the same structure.
 * - Counting Span
 
     `hedvar_operation_span__counting_span`
-  - The participant counts the target shapes (for example dark circles among squares) in each display and says the total aloud, then after several displays recalls the totals in order.
-  - Counting shapes distractor; different processing requirement
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+  - -
+  - The participant counts target shapes in each display and says the total, then recalls the totals in order, so the memoranda are the answers produced by the processing task rather than items presented separately.
 * - Shortened OSPAN
 
     `hedvar_operation_span__shortened_ospan`
-  - A version with fewer sets and shorter maximum set sizes that takes around half the time but has been shown to give similar scores.
-  - Abbreviated protocol; recognized efficient version for time-limited settings
+  - named form
+  - -
+  - A named shorter protocol with fewer sets and smaller maximum set sizes that gives similar scores in about half the time.
 * - Adaptive OSPAN
 
     `hedvar_operation_span__adaptive_ospan`
-  - The number of items in each set is increased after correct recall and decreased after errors, so the task spends most of its trials near the participant's limit rather than running a fixed series of set sizes.
-  - Adaptive set sizes based on performance; different difficulty trajectory
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+  - -
+  - Set size rises after correct recall and falls after errors so that most trials fall near the participant's limit instead of running a fixed series.
 ```
 
 ## Cognitive processes

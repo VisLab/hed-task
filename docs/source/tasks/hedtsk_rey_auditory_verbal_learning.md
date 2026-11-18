@@ -13,6 +13,23 @@ Repeated presentation of a 15-word list with immediate free recall over five tri
 
 The RAVLT is a comprehensive measure of verbal episodic memory. A list of 15 unrelated words (List A) is read aloud five times, with free recall tested after each presentation, yielding a learning curve. After the fifth trial, an interference list (List B) is presented once and recalled, followed by immediate recall of List A without re-presentation (retroactive interference). After a 20-30 minute delay, delayed recall and recognition of List A are tested. The RAVLT provides a rich profile of memory processes including acquisition rate, learning plateau, susceptibility to interference, retention over delay, and recognition discrimination.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **What fills the interval?** <a href="vocabulary.html#rule-study-then-test-interval-filler-interference-list">interference list</a>
+- **How many study-test rounds?** <a href="vocabulary.html#rule-study-then-test-cycles-repeated-lists">repeated lists</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-repetitions">number of repetitions</a>, <a href="vocabulary.html#setting-retention-interval">retention interval</a>
+- **Material:** A list of 15 unrelated words read aloud (List A), a second interference list (List B), and a recognition list mixing List A words with others.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -26,6 +43,8 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. A 15-word list (List A) is read aloud five times with free recall after each.
     2. A single interference list (List B) is then read once and recalled.
     3. Immediate and delayed recall of List A follow, plus a recognition test.
+    4. Optional: The interference list is learned before the main list instead of after it.
+    5. Optional: After each free recall the examiner gives category hints for unrecalled words.
 * - **Manipulations**
   - - Number of learning trials
     - Interference list
@@ -38,43 +57,38 @@ least one of the listed variables, and it records at least one of the listed mea
     - Recognition hits and false alarms
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard RAVLT (List A * 5 + List B + Recall + Delayed Recall)
-
-    `hedvar_rey_auditory_verbal_learning__standard_ravlt_list_a_5_list_b_recall_delayed_recall`
-  - A list of 15 unrelated words is read aloud and the participant recalls as many as possible, five times in a row. A second 15-word list is then read and recalled once. The participant then recalls the first list again without hearing it, and once more after a delay of 20 to 30 minutes.
-  - Canonical multi-trial verbal learning with interference and delayed recall
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Recognition Trial
 
     `hedvar_rey_auditory_verbal_learning__recognition_trial`
-  - After the delayed recall, the participant hears or reads a longer list containing the first-list words mixed with second-list words and new words, and says yes or no to each. Separates failure to retrieve from failure to store.
-  - Target list embedded in foil words for recognition test; different retrieval task
+  - named form
+  - [Recognition](../processes/long_term_memory.md#hed-recognition)
+  - A yes/no recognition list mixing List A, List B and new words is given after delayed recall.
 * - Shortened RAVLT
 
     `hedvar_rey_auditory_verbal_learning__shortened_ravlt`
-  - Fewer learning trials (such as three instead of five) or a shorter word list, for participants who tire easily or when testing time is limited.
-  - Fewer study trials; recognized abbreviated protocol
+  - named form
+  - -
+  - A named short form with fewer learning trials or a shorter list.
 * - Proactive Interference Paradigm
 
     `hedvar_rey_auditory_verbal_learning__proactive_interference_paradigm`
-  - The order is rearranged so that the second list is learned first, and the effect of that earlier learning on recall of the main list is measured, rather than the usual effect of the interference list on recall of what came before.
-  - List B interference on List A recall; tests proactive interference effects
-* - Cued Recall Addition
-
-    `hedvar_rey_auditory_verbal_learning__cued_recall_addition`
-  - After free recall, the participant is given category hints for words not recalled (for example 'one was a kind of animal'). Words produced with a hint were stored but could not be retrieved unaided.
-  - Category cues added to recall phase; tests cueing benefit on verbal learning
+  - interval filler: <a href="vocabulary.html#rule-study-then-test-interval-filler-nothing">nothing</a>
+  - -
+  - The interference list is learned before the main list instead of after it, so earlier learning's effect on later recall is measured.
 ```
 
 ## Cognitive processes

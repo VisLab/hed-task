@@ -13,6 +13,20 @@ Rearrange colored beads on pegs to match a goal state in the minimum number of m
 
 The Tower of London Task is a planning and problem-solving task. Participants are presented with two configurations of colored beads on pegs: a start state and a goal state. They must plan and execute a sequence of moves to transform the start state into the goal state in the minimum number of moves, following movement constraints (one bead at a time, peg capacity limits). Problem difficulty is manipulated by the minimum number of moves required (2-7). Performance is measured by moves to solution, planning time, and accuracy. The task is a key measure of prefrontal executive function, particularly planning and look-ahead.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-solve-problem">solve problem</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-set-size">set size</a>
+- **Material:** Colored beads on three pegs, in a start configuration and a goal configuration.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -37,48 +51,44 @@ least one of the listed variables, and it records at least one of the listed mea
     - Total solution time
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Tower of London (3 pegs, 3 balls)
-
-    `hedvar_tower_of_london__standard_tower_of_london_3_pegs_3_balls`
-  - Three colored balls sit on three pegs of different heights (holding one, two and three balls). The participant is shown a goal arrangement and must move the balls one at a time to reach it in the fewest moves, usually with the minimum number stated. Problems need two to seven moves.
-  - Canonical Shallice ToL: rearrange colored balls across pegs
-* - Tower of Hanoi
-
-    `hedvar_tower_of_london__tower_of_hanoi`
-  - A related puzzle with disks of different sizes on three pegs. All disks must be moved to another peg, one at a time, without ever placing a larger disk on a smaller one. More moves are needed and the rule about sizes must be kept in mind.
-  - Different rule structure (disk size constraint); distinct classic puzzle
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Tower of London - Drexel (TOL-DX)
 
     `hedvar_tower_of_london__tower_of_london_drexel_tol_dx`
-  - A standardized clinical version with ten problems of increasing difficulty, fixed administration rules, and norms for scoring the number of moves, planning time and rule violations.
-  - Standardized 10-item version with normative data; published clinical instrument
+  - named form
+  - -
+  - A named clinical instrument with ten standard problems and norms.
 * - Tower of London - Freiburg (TOL-F)
 
     `hedvar_tower_of_london__tower_of_london_freiburg_tol_f`
-  - A computerized version whose problems are selected to control features that affect difficulty, such as the number of moves and whether intermediate steps are obvious, for research use.
-  - Computer version with different item set and constraints
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>
+  - -
+  - A named computerized research version with problems selected to control difficulty features.
 * - Computerized vs. Physical Versions
 
     `hedvar_tower_of_london__computerized_vs_physical_versions`
-  - The balls and pegs are shown on a screen and moved by dragging or clicking, rather than being real objects picked up by hand. Move times are recorded precisely but no physical handling is involved.
-  - Per section 5.6: grasping 3D beads vs. drag-and-drop changes motor activity
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>
+  - -
+  - The balls and pegs are shown on a screen and moved by mouse rather than being handled; the problem itself is unchanged.
 * - Tower with Time Pressure
 
     `hedvar_tower_of_london__tower_with_time_pressure`
-  - A time limit is set for each problem, or the participant is told to be fast, so that the trade-off between planning carefully and acting quickly can be studied.
-  - Response deadline imposed; changes planning strategy
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - -
+  - A time limit per problem or an instruction to be fast is added on top of the requirement to use the fewest moves.
 ```
 
 ## Cognitive processes

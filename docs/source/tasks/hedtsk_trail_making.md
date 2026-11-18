@@ -13,6 +13,24 @@ Paper-and-pencil sequencing: connect numbered circles (Part A) or alternate numb
 
 The Trail Making Test is a widely used neuropsychological assessment consisting of two parts. In Part A, participants draw lines connecting consecutively numbered circles (1->2->3->...) as quickly as possible, measuring visual scanning and psychomotor speed. In Part B, participants alternate between numbers and letters (1->A->2->B->3->C->...), adding demands for cognitive flexibility and task-switching. The derived score (B-A) isolates the switching cost from baseline motor and visual search speed. The TMT is among the most sensitive measures of general brain dysfunction and is included in virtually every neuropsychological test battery. Digital tablet versions now capture rich kinematic data (velocity, pressure, pauses).
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>
+- **How do the stimuli arrive?** <a href="vocabulary.html#rule-respond-to-rule-stream-continuous">continuous</a>
+- **Is something held in mind to compare against?** <a href="vocabulary.html#rule-respond-to-rule-reference-held-in-mind">held in mind</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructed-emphasis">instructed emphasis</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-targets">number of targets</a>
+- **Material:** Circles numbered from 1 (Part A), or numbered and lettered circles to connect alternately (Part B), on paper or a tablet.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -35,50 +53,46 @@ least one of the listed variables, and it records at least one of the listed mea
     - Errors
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - TMT-A (Number Sequencing)
-
-    `hedvar_trail_making__tmt_a_number_sequencing`
-  - Twenty-five numbered circles are scattered on a page, and the participant draws a line from 1 to 2 to 3 and so on as fast as possible without lifting the pencil. Time to finish is the score.
-  - Canonical: connect numbers in order; processing speed measure
-* - TMT-B (Number-Letter Alternation)
-
-    `hedvar_trail_making__tmt_b_number_letter_alternation`
-  - The circles contain both numbers and letters, and the participant connects them alternating between the two sequences: 1, A, 2, B, 3, C and so on. The extra time compared with the number-only version measures switching.
-  - Alternating numbers and letters; adds cognitive flexibility demand
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Oral Trail Making Test
 
     `hedvar_trail_making__oral_trail_making`
-  - The participant says the alternating sequence aloud (1, A, 2, B...) without any page, so that drawing and visual search are not needed. For people who cannot write or see well.
-  - Verbal response instead of pencil tracing; different response modality
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: none; task I/O device: <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+  - [Speech production](../processes/language_comprehension_and_production.md#hed-speech-production), [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - The alternating sequence is said aloud with no page, so the answer is spoken rather than drawn and there is no visual search.
 * - Color Trails Test
 
     `hedvar_trail_making__color_trails`
 
     Cognitive Atlas: [Color Trails Test](https://www.cognitiveatlas.org/task/id/trm_4da633fe917c4)
-  - The letters are replaced by a second set of numbers in a different color, and the participant alternates between pink and yellow circles (1 pink, 2 yellow, 3 pink...). Usable in any language.
-  - Color-coded circles instead of letters; tests same construct in different format
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>
+  - -
+  - A named instrument in which letters are replaced by a second colored number set so the test is language-free.
 * - Comprehensive Trail Making Test (CTMT)
 
     `hedvar_trail_making__comprehensive_trail_making_test_ctmt`
-  - A published battery of five trail-making subtests of increasing difficulty, adding distractor circles and switching between numbers and number words, with norms.
-  - Extended standardized version with additional subtests; named published instrument
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - -
+  - A named five-subtest battery that adds distractor circles and number-word switching.
 * - D-KEFS Trail Making
 
     `hedvar_trail_making__d_kefs_trail_making`
-  - The trail-making test from the Delis-Kaplan Executive Function System, with five conditions: scanning for a target, number sequencing, letter sequencing, number-letter switching and a motor speed condition, so that switching can be separated from the other components.
-  - Delis-Kaplan version with additional conditions; named published instrument
+  - named form
+  - -
+  - A named five-condition instrument that separates scanning, sequencing, switching and motor speed.
 ```
 
 ## Cognitive processes

@@ -13,6 +13,23 @@ Study-phase cues instruct participants to remember or forget specific items or l
 
 Participants study items (typically words) under instructions that each item should either be remembered or forgotten. In the item method, a remember or forget cue follows each individual item. In the list method, a single cue midway through the study phase instructs participants to forget everything studied so far. On a subsequent memory test, recall and recognition of forget-cued items is impaired relative to remember-cued items. The paradigm provides the primary laboratory tool for studying intentional forgetting and memory control, with theoretical implications for understanding inhibitory control over memory, context change, and selective rehearsal.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **What is the player told to remember?** <a href="vocabulary.html#rule-study-then-test-study-instruction-remember-or-forget-by-cue">remember or forget by cue</a>
+- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-free-recall">free recall</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-retention-interval">retention interval</a>
+- **Material:** Lists of words, each word (or the list) followed by a cue to remember or to forget it.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -26,64 +43,70 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. Items are presented one at a time or in lists.
     2. After each item (item method) or after a full list (list method), a cue instructs the participant to remember or forget it.
     3. A final test probes all items.
+    4. Optional: The final test is old/new recognition among new words rather than free recall.
+    5. Optional: At test the participant also says which cue each recognized word received or which list it came from.
 * - **Manipulations**
   - - Remember vs. forget cues
     - Item vs. list method
     - Retention interval
     - Item type (words, pictures, emotional content)
+    - Study task (performing the action vs. reading the phrase)
 * - **Measurements**
   - - Recall/recognition accuracy for remember-cued vs. forget-cued items
     - Directed forgetting effect (remember advantage)
     - Intrusion of forget items
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Item-Method Directed Forgetting
-
-    `hedvar_directed_forgetting__item_method_directed_forgetting`
-  - Words are shown one at a time, and each is followed by an instruction to remember it or to forget it. A later memory test, which asks for all words including the to-be-forgotten ones, shows worse memory for the forget-cued words.
-  - Forget cue follows each item; individual item suppression
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - List-Method Directed Forgetting
 
     `hedvar_directed_forgetting__list_method_directed_forgetting`
-  - A whole list of words is studied, and only then is the participant told either to forget that list (it was practice) or to keep remembering it. A second list is then studied. The final test covers both lists.
-  - Forget cue follows entire first list; list-level suppression
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - -
+  - The cue comes once after a whole first list instead of after each item, a second list is studied, and the final test covers both lists.
 * - Recognition vs. Recall Test
 
     `hedvar_directed_forgetting__recognition_vs_recall`
-  - The final memory test is a recognition test, in which studied words are mixed with new ones and the participant picks out the old ones, rather than free recall. The forgetting effect is usually weaker with recognition.
-  - Different retrieval test changes what type of access is measured
+  - test form: <a href="vocabulary.html#rule-study-then-test-test-form-old-new">old new</a>
+  - [Recognition](../processes/long_term_memory.md#hed-recognition)
+  - The final test is old/new recognition among new words rather than free recall.
 * - Directed Forgetting with Source Memory
 
     `hedvar_directed_forgetting__directed_forgetting_with_source_memory`
-  - At test the participant must also say which cue each remembered word received, or which list it came from, rather than just whether it was studied.
-  - Retrieval includes source judgment; adds contextual memory component
+  - test form: <a href="vocabulary.html#rule-study-then-test-test-form-source-attribution">source attribution</a>
+  - [Source memory](../processes/long_term_memory.md#hed-source-memory)
+  - At test the participant also says which cue each recognized word received or which list it came from, so the test is a source judgment rather than plain recall.
 * - Emotional Directed Forgetting
 
     `hedvar_directed_forgetting__emotional_directed_forgetting`
-  - The studied items include emotional words or pictures as well as neutral ones. Tests whether emotional material can be forgotten on instruction as easily as neutral material.
-  - Emotional to-be-forgotten material; retained per section 5.1 (EMOT retired)
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>; emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+  - -
+  - Emotional words or pictures are studied alongside neutral ones and the forgetting effect is compared across valence.
 * - Directed Forgetting of Actions (SPT)
 
     `hedvar_directed_forgetting__directed_forgetting_of_actions_spt`
-  - The items are short action phrases such as 'fold the paper' that the participant physically performs during study, after which each is cued to be remembered or forgotten.
-  - Subject-performed tasks as to-be-forgotten items; different encoding modality
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-text">text</a>, <a href="vocabulary.html#facet-stimulus-type-real-objects">real objects</a>
+  - -
+  - The items are action phrases that the participant performs with real objects at study, before each is cued to be remembered or forgotten, instead of only reading them.
 * - Cumulative Directed Forgetting
 
     `hedvar_directed_forgetting__cumulative_directed_forgetting`
-  - Several lists are studied in a row, each followed by a forget or remember instruction, so that forgetting instructions accumulate across the session before the final test.
-  - Multiple forget cues accumulate across list; different suppression structure
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - -
+  - Several lists are studied in a row, each followed by its own remember or forget cue, before one final test.
 ```
 
 ## Cognitive processes

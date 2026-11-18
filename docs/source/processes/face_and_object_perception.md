@@ -192,7 +192,7 @@ Assignment of visual input to a shape category prior to semantic identification.
 
 Identification of objects from visual input, invariant over viewpoint, size, and lighting.
 
-**Tasks that engage this process:** [Face Processing Task](../tasks/hedtsk_face_processing.md), [Picture Naming Task](../tasks/hedtsk_picture_naming.md), [Weapons Identification Task](../tasks/hedtsk_weapons_identification.md)
+**Tasks that engage this process:** [Face Processing Task](../tasks/hedtsk_face_processing.md), [Picture Naming Task](../tasks/hedtsk_picture_naming.md), [Picture-Word Interference Task](../tasks/hedtsk_picture_word_interference.md), [Weapons Identification Task](../tasks/hedtsk_weapons_identification.md)
 
 **Further references**
 

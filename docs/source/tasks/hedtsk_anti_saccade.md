@@ -13,6 +13,24 @@ Participants must suppress a prepotent saccade toward a peripheral cue and gener
 
 The Anti-Saccade Task measures voluntary control over reflexive eye movements. Participants fixate centrally while a peripheral stimulus suddenly appears in the left or right visual field. Instead of looking toward the stimulus (the reflexive prosaccade), participants must look in the opposite direction (antisaccade). This requires inhibiting the automatic orienting response and generating a volitional saccade. Performance is measured by antisaccade accuracy, latency, and the rate of prosaccadic intrusions (errors). The task indexes voluntary oculomotor control and prefrontal inhibitory function.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>
+- **Must the player ever hold back?** <a href="vocabulary.html#rule-respond-to-rule-response-demand-respond-opposite">respond opposite</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-eye-tracker">eye tracker</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-eccentricity">eccentricity</a>, <a href="vocabulary.html#setting-retention-interval">retention interval</a>
+- **Material:** A central fixation point and a stimulus that appears suddenly in the left or right periphery.
+- **Combined with:** <a href="vocabulary.html#how-chained">chained</a>, [Fixate Task](hedtsk_fixate.md) (Gaze is held on the fixation target until the peripheral target appears)
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,73 +47,70 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Prosaccade vs. antisaccade blocks or interleaved trials
     - Cue eccentricity
     - Gap vs. overlap conditions
+    - Response release (delayed go signal vs. immediate)
+    - Cue type (emotional face or picture vs. dot)
+    - Memory delay before the saccade (memory-guided vs. visually guided)
+    - Second cue or target jump during saccade planning (double step)
 * - **Measurements**
   - - Saccade direction errors (% erroneous prosaccades on antisaccade trials)
     - Saccade latency
     - Corrective saccade latency
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Anti-Saccade
-
-    `hedvar_anti_saccade__standard_anti_saccade`
-  - The participant fixates a central point. A cue flashes to the left or right, and the participant must look to the opposite side, at the same distance from center, as quickly as possible. Looking toward the cue by mistake is counted as an error.
-  - Canonical paradigm: participant inhibits reflexive saccade and redirects gaze to mirror location
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Prosaccade (Control Condition)
 
     `hedvar_anti_saccade__prosaccade_control_condition`
 
     Cognitive Atlas: [visually guided saccade task](https://www.cognitiveatlas.org/task/id/trm_4f24108555294) (close match)
-  - The same display, but the participant is told to look toward the flashing cue rather than away from it. This is the reflexive, easy response and serves as a baseline for eye-movement speed and accuracy.
-  - Opposite stimulus-response mapping (look toward cue); different response requirement from anti-saccade
+  - response demand: <a href="vocabulary.html#rule-respond-to-rule-response-demand-always-respond">always respond</a>
+  - -
+  - The same display but the participant looks toward the cue, so the opposite-response demand is dropped.
 * - Interleaved Pro/Anti-Saccade
 
     `hedvar_anti_saccade__interleaved_pro_anti_saccade`
-  - Look-toward and look-away trials are mixed unpredictably within the same block, with a cue on each trial (often fixation color) saying which rule applies. The participant must switch rules from trial to trial.
-  - Mixed trial types require on-trial task-set switching; distinct from blocked presentation
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>; rule stability: <a href="vocabulary.html#rule-respond-to-rule-rule-stability-switches-on-cue">switches on cue</a>; cue: <a href="vocabulary.html#rule-respond-to-rule-cue-rule-cue">rule cue</a>
+  - [Set shifting](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-set-shifting)
+  - Look-toward and look-away trials are mixed in one block and a per-trial cue (often fixation color) says which rule applies.
 * - Blocked Pro/Anti-Saccade
 
     `hedvar_anti_saccade__blocked_pro_anti_saccade`
-  - Look-toward trials and look-away trials are run in separate blocks, so the participant keeps the same rule throughout a block and never has to switch.
-  - Separate blocks of pro- and anti-saccade trials; different cognitive context from interleaved
-* - Gap vs. Overlap Conditions
-
-    `hedvar_anti_saccade__gap_vs_overlap_conditions`
-  - Varies what happens to the central fixation point when the cue appears. In the gap condition it disappears about 200 ms before the cue, which speeds up eye movements and increases errors. In the overlap condition it stays on while the cue is shown.
-  - Fixation offset timing changes saccade initiation dynamics and error rates
-* - Delayed Anti-Saccade
-
-    `hedvar_anti_saccade__delayed_anti_saccade`
-  - The cue appears, but the participant must keep looking at the center and wait for a go signal (often the fixation point going off) before looking away from where the cue was. Holding the eyes still through the delay adds a waiting and memory demand.
-  - Memory-guided response after delay period; adds working memory component
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - -
+  - Prosaccade and antisaccade trials are run in separate blocks, so within each block the rule is fixed and the task alternates between the standard form and the prosaccade control.
 * - Emotional Anti-Saccade
 
     `hedvar_anti_saccade__emotional_anti_saccade`
-  - The peripheral cue is a face with an emotional expression (or another emotional picture) instead of a plain dot. The participant still looks away from it; the question is whether emotional cues are harder to look away from.
-  - Emotional stimuli as saccade targets; retained per section 5.1 (EMOT retired)
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
+  - [Attentional capture](../processes/selective_and_sustained_attention.md#hed-attentional-capture)
+  - The peripheral cue is an emotional face or picture instead of a dot; the look-away rule is unchanged.
 * - Memory-Guided Anti-Saccade
 
     `hedvar_anti_saccade__memory_guided_anti_saccade`
 
     Cognitive Atlas: [memory guided saccade task](https://www.cognitiveatlas.org/task/id/trm_4f2457d94fd93)
-  - The cue flashes and then disappears, and the participant must remember where it was during a delay before making the look-away eye movement to the opposite location on a later signal.
-  - Target location must be retained in memory before response; distinct memory demand
+  - reference: <a href="vocabulary.html#rule-respond-to-rule-reference-held-in-mind">held in mind</a>
+  - [Spatial working memory](../processes/short_term_and_working_memory.md#hed-spatial-working-memory)
+  - The cue disappears, its location is held in memory through a delay, and the look-away saccade is made to the remembered mirror location on a later signal.
 * - Double-Step Anti-Saccade
 
     `hedvar_anti_saccade__double_step_anti_saccade`
-  - Two cues appear in quick succession, or the target jumps to a new place just as the eye movement starts. The participant has to correct an eye movement that is already planned or under way.
-  - Two-step target displacement requires online motor reprogramming
+  - named form
+  - [Motor planning](../processes/motor_preparation_timing_and_execution.md#hed-motor-planning)
+  - A second cue arrives, or the target jumps, while the first saccade is being planned or executed, so the participant must re-program a response already under way.
 ```
 
 ## Cognitive processes

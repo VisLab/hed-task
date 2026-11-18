@@ -13,6 +13,23 @@ Speeded responses to frequent non-targets with withholding on rare targets; comm
 
 The Sustained Attention to Response Task is a Go/No-Go variant specifically designed to measure sustained attention failures and mind-wandering. Participants respond (button press) to every digit presented (1-9) except for one designated target digit (typically "3"), to which they must withhold their response. Digits are presented at a fixed rate (e.g., every 1150 ms), and the high frequency of Go responses (89%) creates a monotonous, routinized response pattern that promotes attentional lapses. Errors of commission (responding to the No-Go target) serve as the primary index of attention failure. The SART has become the standard behavioral measure for studying mind-wandering, task-unrelated thought, and attentional lapses.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **Must the player ever hold back?** <a href="vocabulary.html#rule-respond-to-rule-response-demand-withhold-on-some">withhold on some</a>
+- **How often is there a target?** <a href="vocabulary.html#rule-respond-to-rule-target-rate-rare-target">rare target</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-interstimulus-interval">interstimulus interval</a>, <a href="vocabulary.html#setting-number-of-targets">number of targets</a>, <a href="vocabulary.html#setting-session-duration">session duration</a>
+- **Material:** Single digits 1-9 shown one at a time at a fixed rate, one of them (typically 3) the no-go target.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -31,6 +48,10 @@ least one of the listed variables, and it records at least one of the listed mea
     - Fixed vs. random digit sequences
     - ISI
     - Session duration
+    - Added thought probes during the task
+    - Stimulus type (shapes, colors or oriented lines vs. digits)
+    - Response rule (switching during the run vs. fixed)
+    - Number of withhold items (multiple targets vs. one)
 * - **Measurements**
   - - Commission errors (responses to the no-go target)
     - Omission errors
@@ -38,58 +59,50 @@ least one of the listed variables, and it records at least one of the listed mea
     - Thought-probe responses (mind wandering frequency)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard SART (Fixed Sequence)
-
-    `hedvar_sustained_attention_to_response__standard_sart_fixed_sequence`
-  - The digits 1 to 9 appear one at a time, about one per second, repeatedly in order. The participant presses a key for every digit except 3, to which they must withhold. Because the sequence is predictable, lapses of attention show up as presses to 3.
-  - Canonical: respond to digits except 3; fixed pseudo-random sequence
-* - Random SART
-
-    `hedvar_sustained_attention_to_response__random_sart`
-  - The digits appear in random order rather than counting up, so the participant cannot predict when the no-go digit will come. Fewer errors are made than in the fixed version.
-  - Random digit order; removes sequential predictability
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - SART with Thought Probes
 
     `hedvar_sustained_attention_to_response__sart_with_thought_probes`
-  - At unpredictable points the task pauses and asks the participant what they were just thinking about, for example whether they were focused on the task or thinking of something else. Reports are linked to performance just before the probe.
-  - Mind-wandering probes inserted; adds metacognitive reporting
+  - combined with: <a href="vocabulary.html#how-inserted">inserted</a>, <a href="vocabulary.html#game-report-on-self">report on self</a> (A thought probe interrupts the stream)
+  - -
+  - At unpredictable points the stream pauses and the participant reports what they were just thinking, inserting a self-report into the ongoing task.
 * - Perceptual SART
 
     `hedvar_sustained_attention_to_response__perceptual_sart`
-  - The items are shapes, colors or lines of different orientation instead of digits, with one of them as the rare withhold item, for participants for whom digits are unsuitable.
-  - Perceptual variants (lines, shapes); different stimulus type
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+  - -
+  - Shapes, colors or oriented lines replace the digits, with one of them as the withhold item.
 * - Sustained Attention Task with Response Switching
 
     `hedvar_sustained_attention_to_response__sustained_attention_task_with_response_switching`
-  - The rule for which key to press changes periodically during the task, so the participant must keep track of the current rule as well as watch for the withhold item.
-  - Response switches during task; adds rule-change demand
-* - SART with Multiple Targets
-
-    `hedvar_sustained_attention_to_response__sart_with_multiple_targets`
-  - Two or more digits are withhold items rather than only the 3, which changes how often the participant must stop and how many rules must be kept in mind.
-  - Multiple no-go digits instead of one; different inhibition load
+  - rule stability: <a href="vocabulary.html#rule-respond-to-rule-rule-stability-switches-on-cue">switches on cue</a>
+  - [Set shifting](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-set-shifting)
+  - The key-press rule changes periodically during the run, so the participant tracks the current rule while still withholding on the rare item.
 * - Sustained Attention with Clock Task
 
     `hedvar_sustained_attention_to_response__sustained_attention_with_clock`
-  - The participant watches a clock hand that moves in regular jumps and presses a key when it occasionally makes a double jump. The task continues for a long period and misses increase over time.
-  - Clock face rather than digit sequence; different stimulus format
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>; response demand: <a href="vocabulary.html#rule-respond-to-rule-response-demand-always-respond">always respond</a>; stream: <a href="vocabulary.html#rule-respond-to-rule-stream-continuous">continuous</a>
+  - -
+  - A clock hand advances in regular jumps and the participant presses only when it double-jumps, a continuous detection task with a rare target rather than a go/no-go stream (this is the Mackworth Clock, arguably a different task listed as a variation).
 * - Child-Adapted SART
 
     `hedvar_sustained_attention_to_response__child_adapted_sart`
-  - Pictures of animals or objects replace the digits, with one picture as the withhold item, and the pace is slowed to suit children.
-  - Modified timing and stimuli for children; adapted per section 5.3
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>; population: <a href="vocabulary.html#facet-population-children">children</a>
+  - -
+  - Pictures of animals or objects replace the digits and the pace is slowed for children.
 ```
 
 ## Cognitive processes

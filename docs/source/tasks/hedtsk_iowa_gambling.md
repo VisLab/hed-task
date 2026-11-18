@@ -13,6 +13,26 @@ Repeated choices among four decks with hidden reward and loss distributions; pre
 
 Participants choose cards from four decks to maximize winnings. Two decks (A, B) have high wins but higher losses (net loss); two decks (C, D) have smaller wins but minimal losses (net gain). Over 100 trials, healthy participants gradually learn to prefer advantageous decks. The IGT is particularly sensitive to ventromedial prefrontal cortex damage; vmPFC patients fail to develop a preference for advantageous decks despite normal intellectual functioning. The task operationalizes the Somatic Marker Hypothesis.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-both">both</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>, <a href="vocabulary.html#motivation-real-hypothetical">hypothetical</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-trials">number of trials</a>, <a href="vocabulary.html#setting-reward-probability">reward probability</a>
+- **Material:** Four decks of cards, each draw showing a money win and sometimes a loss, two decks with large wins and larger losses and two with small wins and small losses.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -32,54 +52,45 @@ least one of the listed variables, and it records at least one of the listed mea
     - Number of trials
     - Deck position
     - Variant payoff structures
+    - Outcome information (stated probabilities vs. discovered by experience)
 * - **Measurements**
   - - Net score (advantageous - disadvantageous deck selections)
     - Learning curve across blocks
     - Anticipatory SCR before deck selection
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard IGT
-
-    `hedvar_iowa_gambling__standard_igt`
-  - Four decks of cards are on screen. Each card drawn wins play money and sometimes also loses some. Two decks give big wins but bigger occasional losses and are bad in the long run; two give smaller wins and smaller losses and come out ahead. The participant draws 100 cards from any decks and must discover which decks are good.
-  - Canonical four-deck IGT with covert payoff structure
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Soochow Gambling Task (SGT)
 
     `hedvar_iowa_gambling__soochow_gambling_task_sgt`
-  - A redesign in which the decks that lose money overall deliver frequent small gains and rare large losses, while the decks that win overall deliver frequent small losses and rare large gains. Participants who follow how often they win end up choosing the bad decks, which separates sensitivity to frequency from sensitivity to amount.
-  - Reversed long-run structure; tests frequency vs. magnitude sensitivity
+  - named form
+  - -
+  - A named redesign whose only change is a payoff schedule that pits win frequency against win amount.
 * - Child Versions
 
     `hedvar_iowa_gambling__child_versions`
-  - Versions such as the Hungry Donkey Task and the Children's Gambling Task, in which a cartoon character collects apples or candies from doors or decks with the same good and bad payoff structure, with fewer trials and simpler feedback.
-  - Simplified decks and stimuli for children; procedure adapted per section 5.3
-* - Extended IGT (150-200 trials)
-
-    `hedvar_iowa_gambling__extended_igt_150_200_trials`
-  - The same four decks played for 150 to 200 draws instead of 100, to see whether deck preferences continue to change once the usual task would have ended.
-  - Extended trial count; tests learning at longer timescales
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>, <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>; population: <a href="vocabulary.html#facet-population-children">children</a>
+  - -
+  - Named children's instruments (Hungry Donkey, Children's Gambling Task) with a cartoon character, fewer trials and simpler feedback on the same payoff structure.
 * - IGT with Explicit Probabilities
 
     `hedvar_iowa_gambling__igt_with_explicit_probabilities`
-  - The participant is told the win and loss amounts and probabilities of each deck before playing instead of having to discover them by experience. Removes the learning component and tests choice with full information.
-  - Payoff probabilities stated explicitly; changes information structure
-* - Modified Payoff Variants
-
-    `hedvar_iowa_gambling__modified_payoff_variants`
-  - The payoff schedules are altered, for example so that all decks lose equally often, or so that the deck that was best becomes worst, to test which features of the payoffs drive deck choice.
-  - Different win/loss schedules; tests sensitivity to schedule structure
+  - outcome knowledge: <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-described">described</a>
+  - -
+  - The win and loss amounts and probabilities of each deck are stated before play, so the options are described rather than discovered.
 ```
 
 ## Cognitive processes

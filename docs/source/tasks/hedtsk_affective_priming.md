@@ -13,6 +13,23 @@ Target evaluation (good/bad) preceded by a briefly presented affective prime; re
 
 Participants categorize target stimuli (e.g., judge words as "good" or "bad") that are immediately preceded by briefly presented prime stimuli (words, faces, or images) of matching or mismatching emotional valence. The affective priming effect (faster RT for congruent vs. incongruent prime-target pairs) reflects automatic activation of evaluative representations. Subliminal variants (very brief prime exposure) provide evidence for unconscious emotional processing.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-preceding-prime">preceding prime</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Emotional aspect:** <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>, <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
+- **Material:** A briefly shown prime (a word, face or image of positive or negative valence) followed by a target word to be judged good or bad.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -27,58 +44,50 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Manipulations**
   - - Congruence between prime valence and target valence
     - Prime duration and SOA
+    - Prime and target type (words, emotional pictures, emotional faces)
 * - **Measurements**
   - - RT and accuracy for target evaluation
     - Congruency effect (faster on congruent trials) indexes automatic affective evaluation
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Evaluative Decision (Good/Bad)
-
-    `hedvar_affective_priming__evaluative_decision_good_bad`
-  - A brief positive or negative prime (a word or picture) is followed by a target word, and the participant presses one key if the target is good or pleasant and another if it is bad or unpleasant. Responses are faster when prime and target share the same valence. This is the most common form of the task.
-  - Participant makes explicit valence judgment; changes response task from standard LDT
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Pronunciation/Naming
 
     `hedvar_affective_priming__pronunciation_naming`
-  - After the prime, the participant reads the target word aloud as quickly as possible instead of judging it. Naming time is shorter when the prime and target have the same valence, so priming is measured without asking the participant to evaluate anything.
-  - Vocal naming response instead of evaluative judgment; different output modality and response event
-* - Subliminal Priming
-
-    `hedvar_affective_priming__subliminal_priming`
-  - The prime is flashed so briefly (typically under 30 ms) and is immediately covered by a mask, so the participant cannot consciously see it. The participant then evaluates the visible target as usual. Any priming effect must arise from processing the participant is not aware of.
-  - Prime below conscious threshold; changes stimulus timing structure and awareness conditions
+  - emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-identify">identify</a>
+  - [Speech production](../processes/language_comprehension_and_production.md#hed-speech-production)
+  - The participant reads the target word aloud instead of judging its valence, so the response names the word itself rather than its category.
 * - Picture-Word Priming
 
     `hedvar_affective_priming__picture_word_priming`
-  - The prime is an emotional photograph rather than a word, and the target is a word to be evaluated. The participant sees a picture briefly, then a word, and judges the word as good or bad.
-  - Visual picture prime instead of word; different stimulus type with distinct semantic processing
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - -
+  - The prime is an emotional photograph instead of a word; the target word is still judged good or bad.
 * - Face-Face Priming
 
     `hedvar_affective_priming__face_face_priming`
-  - Both the prime and the target are faces with emotional expressions. The participant sees a brief face, then a second face, and judges the second face's expression (for example happy or angry).
-  - Social/facial stimuli as both prime and target; structurally distinct from word-prime paradigm
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - [Face perception](../processes/face_and_object_perception.md#hed-face-perception)
+  - Both prime and target are emotional faces and the target's expression is classified (happy or angry) instead of a word being judged good or bad.
 * - Cross-Modal Affective Priming
 
     `hedvar_affective_priming__cross_modal_affective_priming`
-  - The prime is heard rather than seen, for example a spoken word or an emotional sound, and the target is a visible word. The participant judges the written target while the prime arrives through headphones.
-  - Auditory prime + visual target; cross-modal structure creates distinct event types
-* - Masked vs. Unmasked Priming
-
-    `hedvar_affective_priming__masked_vs_unmasked_priming`
-  - The same prime-target pairs are run in two conditions: one where the prime is clearly visible and one where it is masked and too brief to be seen. Comparing the two separates fast automatic priming from priming that depends on the participant noticing the prime and using it strategically.
-  - Systematic masking manipulation changes prime visibility and conscious access to prime
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>, <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - [Speech perception](../processes/language_comprehension_and_production.md#hed-speech-perception)
+  - The prime is heard through headphones while the target is a written word; the judgment is unchanged.
 ```
 
 ## Cognitive processes

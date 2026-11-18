@@ -13,6 +13,23 @@ A field of moving dots in which a variable fraction move coherently; direction j
 
 The random dot kinematogram presents a field of moving dots in which a variable proportion move coherently in one direction while the remainder move randomly. Participants judge the direction of coherent motion, and the proportion of coherently moving dots parametrically controls task difficulty. This paradigm is the foundational tool for studying perceptual decision-making and has been central to establishing the neural basis of evidence accumulation, linking single-neuron recordings in area MT/V5 and LIP to drift-diffusion models of choice. It bridges sensory processing and decision-making in a way no other paradigm does as cleanly.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-noise-or-mask">noise or mask</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-random-dots">random dots</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>, <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>, <a href="vocabulary.html#setting-stimulus-intensity">stimulus intensity</a>
+- **Material:** A field of moving dots, a variable proportion moving coherently in one direction and the rest randomly.
+- **Combined with:** <a href="vocabulary.html#how-throughout">throughout</a>, [Fixate Task](hedtsk_fixate.md) (Gaze is held on the fixation target while the main game is played)
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -31,46 +48,41 @@ least one of the listed variables, and it records at least one of the listed mea
     - Speed-accuracy instructions
     - Number of alternatives
     - Reward asymmetry
+    - Stimulus duration (free response vs. fixed-duration interrogation)
 * - **Measurements**
   - - Accuracy and RT as functions of coherence
     - Psychometric and chronometric functions
     - Drift rate and threshold parameters from diffusion model fits
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Two-Alternative Forced Choice (Standard)
-
-    `hedvar_random_dot_kinematogram__two_alternative_forced_choice_standard`
-  - A patch of moving dots is shown in which some fraction move together to the left or right while the rest move randomly. The participant reports the direction of the coherent motion with a key press or eye movement. The fraction of coherent dots sets the difficulty.
-  - Canonical 2AFC motion direction discrimination
-* - Free Response vs. Interrogation Protocol
-
-    `hedvar_random_dot_kinematogram__free_response_vs_interrogation_protocol`
-  - In the free-response version the dots keep moving until the participant answers, so they can take as long as they want. In the interrogation version the dots are shown for a fixed time chosen by the experimenter and the participant then answers.
-  - Self-paced vs. fixed-duration decision; different temporal control
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Pulse Paradigm
 
     `hedvar_random_dot_kinematogram__pulse_paradigm`
-  - Most of the display has zero or low coherence, and a brief burst of coherent motion of about 100 ms is inserted at a chosen moment. How much that burst sways the final decision shows when evidence is being weighed.
-  - Brief coherence pulses instead of sustained motion; different stimulus structure
+  - named form
+  - -
+  - The display stays at zero or low coherence and a brief 100 ms burst of coherent motion is inserted at a chosen moment.
 * - Multi-Alternative Motion Discrimination
 
     `hedvar_random_dot_kinematogram__multi_alternative_motion_discrimination`
 
     Cognitive Atlas: [motion discrimination task](https://www.cognitiveatlas.org/task/id/trm_553fc63a54ae6) (close match)
-  - The coherent motion can be in one of four or more directions rather than just left or right, and the participant indicates which, for example by moving the eyes to one of several targets.
-  - More than two motion directions; higher-order discrimination
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-eye-tracker">eye tracker</a>
+  - -
+  - The coherent motion can be in one of four or more directions and the participant indicates which, often with an eye movement.
 ```
 
 ## Cognitive processes

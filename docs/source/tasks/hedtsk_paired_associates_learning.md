@@ -13,6 +13,22 @@ Study of cue-target pairs followed by cued recall; proportion recalled indexes a
 
 Participants learn arbitrary associations between stimuli and their locations (or between word pairs). In a typical computerized version (CANTAB PAL), abstract patterns appear in boxes around the screen during the study phase, and during test, patterns are presented centrally and participants must identify the correct box location. Difficulty increases across stages from 1-2 to 6-8 pairs. Performance is measured by patterns correctly learned and errors made. The PAL task is particularly sensitive to hippocampal function and shows early sensitivity to amyloid-beta pathology in preclinical Alzheimer's disease.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **What is studied?** <a href="vocabulary.html#rule-study-then-test-studied-material-pairs">pairs</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-list-length">list length</a>, <a href="vocabulary.html#setting-number-of-repetitions">number of repetitions</a>
+- **Material:** Pairs of items - related or unrelated word pairs, face-name pairs, or (in CANTAB PAL) abstract patterns in boxes around the screen.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -23,77 +39,80 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants study pairs of items (word-word, face-name, object-location) and are later cued with one member to recall the other.
+  - 1. Participants study pairs of items (word-word, face-name, object-location) and are later cued with one member to recall the other.
+    2. Optional: The same pairs are studied and tested in alternation several times and accuracy per cycle gives a learning curve.
+    3. Optional: A second list re-pairs the same cues with new responses, and memory for the first list after the second, or the second given the first, is tested.
 * - **Manipulations**
   - - Pair relatedness (semantic, unrelated)
     - Number of pairs
     - Study-test cycles
     - Cue type
+    - Pair type (word-word, face-name, object-location)
+    - Encoding instruction (incidental vs. intentional)
 * - **Measurements**
   - - Cued recall accuracy
     - Number of cycles to criterion
     - Intrusion errors
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Verbal Paired Associates (Cued Recall)
-
-    `hedvar_paired_associates_learning__verbal_paired_associates_cued_recall`
-  - The participant studies pairs of words such as 'window - cheese'. At test the first word of each pair is shown and the participant must produce the second. The proportion correct is the measure.
-  - Canonical word-word pairs with cued recall test
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Face-Name Paired Associates
 
     `hedvar_paired_associates_learning__face_name_paired_associates`
-  - Each pair is a photograph of a face and a name. At test the face is shown and the participant must recall the name, or choose it from a list. Sensitive to age-related memory decline.
-  - Face-name binding; social memory domain
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - [Face perception](../processes/face_and_object_perception.md#hed-face-perception)
+  - Each pair is a face photograph and a name, with the face as cue and the name recalled (or chosen from a list).
 * - Object-Location Pairs
 
     `hedvar_paired_associates_learning__object_location_pairs`
-  - Each object is shown at a particular place on the screen or in a scene. At test the object is shown and the participant indicates where it was, or a location is shown and the participant names the object.
-  - Object-location binding; spatial memory component
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
+  - [Spatial memory](../processes/spatial_cognition_and_navigation.md#hed-spatial-memory)
+  - Each pair is an object and a screen or scene location, with either member able to cue the other.
 * - CANTAB PAL
 
     `hedvar_paired_associates_learning__cantab_pal`
-  - A touchscreen test from the Cambridge Neuropsychological Test Automated Battery. Boxes on the screen open one by one to reveal abstract patterns; then each pattern is shown in the center and the participant touches the box it came from. The number of patterns increases across stages.
-  - Touchscreen object-location paradigm; named computerized instrument
-* - Arbitrary vs. Semantically Related Pairs
-
-    `hedvar_paired_associates_learning__arbitrary_vs_semantically_related_pairs`
-  - Some pairs are related in meaning (baby - cries) and some are not (obey - inch). Related pairs are learned faster, and the difference shows how much the participant relies on existing knowledge.
-  - Relatedness manipulation changes encoding strategy
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-abstract-patterns">abstract patterns</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-touchscreen">touchscreen</a>
+  - -
+  - A named touchscreen instrument of the object-location form with the number of patterns rising across stages.
 * - Cross-Modal Paired Associates
 
     `hedvar_paired_associates_learning__cross_modal_paired_associates`
-  - The two members of a pair come through different senses or formats, for example a sound paired with a picture, or a spoken word paired with a screen location.
-  - Pairs span sensory modalities; cross-modal binding demand
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-nonvocal-sounds">nonvocal sounds</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - [Speech perception](../processes/language_comprehension_and_production.md#hed-speech-perception)
+  - The two members of a pair arrive through different senses or formats, such as a sound with a picture.
 * - Multi-Trial Learning Curves
 
     `hedvar_paired_associates_learning__multi_trial_learning_curves`
-  - The same pairs are studied and tested several times in alternation, and the number correct on each test is plotted to give a learning curve.
-  - Repeated study-test cycles; tests learning rate over trials
+  - cycles: <a href="vocabulary.html#rule-study-then-test-cycles-repeated-lists">repeated lists</a>
+  - -
+  - The same pairs are studied and tested in alternation several times and accuracy per cycle gives a learning curve.
 * - Retroactive/Proactive Interference Variants
 
     `hedvar_paired_associates_learning__retroactive_proactive_interference_variants`
-  - After learning one list of pairs (A-B), the participant learns a second list in which the same cue words are paired with new responses (A-C). Memory for the first list after the second (retroactive interference) or for the second given the first (proactive interference) is tested.
-  - Competing pairs introduced; tests interference in associative memory
+  - interval filler: <a href="vocabulary.html#rule-study-then-test-interval-filler-interference-list">interference list</a>; cycles: <a href="vocabulary.html#rule-study-then-test-cycles-repeated-lists">repeated lists</a>
+  - [Proactive interference](../processes/long_term_memory.md#hed-proactive-interference), [Retroactive interference](../processes/long_term_memory.md#hed-retroactive-interference)
+  - A second list re-pairs the same cues with new responses, and memory for the first list after the second (or the second given the first) is tested.
 * - Incidental vs. Intentional Encoding
 
     `hedvar_paired_associates_learning__incidental_vs_intentional_encoding`
 
     Cognitive Atlas: [Incidental encoding task](https://www.cognitiveatlas.org/task/id/trm_50df0dd9d0b6f) (close match)
-  - In the intentional version the participant is told to learn the pairs for a later test. In the incidental version they do some other task with the pairs, such as rating how well the words go together, and the memory test is a surprise.
-  - Encoding goal manipulation; tests depth and intentionality of encoding
+  - study job: <a href="vocabulary.html#rule-study-then-test-study-job-incidental-judgment">incidental judgment</a>; retention interval: <a href="vocabulary.html#rule-study-then-test-retention-interval-surprise">surprise</a>
+  - -
+  - In the incidental condition the participant performs a cover judgment on the pairs (rating fit) and the memory test is a surprise.
 ```
 
 ## Cognitive processes

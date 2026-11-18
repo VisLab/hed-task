@@ -13,6 +13,23 @@ Sample stimulus followed by a delay and then a probe or choice array; response i
 
 The Delayed Match-to-Sample (DMTS) task consists of three phases: sample, delay, and choice. During the sample phase, a stimulus is presented. Following a delay period (0-30 seconds), the participant must identify which of several test stimuli matches the original sample. Memory demands are manipulated by varying delay duration or the number of choice alternatives. The task has been fundamental in primate neuroscience for identifying the neural substrates of working memory, particularly delay-period persistent activity in prefrontal cortex.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **How long is it held?** <a href="vocabulary.html#rule-study-then-test-retention-interval-seconds">seconds</a>
+- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-forced-choice">forced choice</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-abstract-patterns">abstract patterns</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>, <a href="vocabulary.html#setting-retention-interval">retention interval</a>
+- **Material:** A sample stimulus followed after a delay by test stimuli, one of which matches it.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,59 +47,46 @@ least one of the listed variables, and it records at least one of the listed mea
     - Sample complexity
     - Number of test alternatives
     - Interference during delay
+    - Remembered attribute (location vs. identity)
+    - Test rule (choose the non-match vs. the match)
 * - **Measurements**
   - - Accuracy (proportion correct)
     - RT
     - Decay function across delay intervals
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard DMTS
-
-    `hedvar_delayed_match_to_sample__standard_dmts`
-  - A single picture or pattern (the sample) is shown, then disappears for a delay of a few seconds. Two items then appear, one identical to the sample and one new, and the participant picks the one that matches.
-  - Canonical: sample presented, delay, then match from array
-* - Variable Delay DMTS
-
-    `hedvar_delayed_match_to_sample__variable_delay_dmts`
-  - The blank interval between the sample and the choice display is varied from trial to trial, from no delay up to 30 seconds or more, so that accuracy can be plotted against how long the sample had to be held in memory.
-  - Systematically varies delay length; tests forgetting function
-* - Multi-Choice DMTS
-
-    `hedvar_delayed_match_to_sample__multi_choice_dmts`
-  - The choice display contains three or more items instead of two, only one of which matches the sample. More alternatives means the memory must be more exact to rule out similar distractors.
-  - More than two choices at test; increases decision complexity
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - DMTS with Distraction During Delay
 
     `hedvar_delayed_match_to_sample__dmts_with_distraction_during_delay`
-  - Other pictures, sounds or a brief secondary task are presented while the participant is holding the sample in memory. Measures how well the memory withstands interference.
-  - Interfering stimuli during retention interval; changes delay period structure
+  - interval filler: <a href="vocabulary.html#rule-study-then-test-interval-filler-distraction">distraction</a>
+  - -
+  - Other pictures, sounds, or a brief secondary task fill the retention interval to test how well the memory withstands interference.
 * - Spatial DMTS
 
     `hedvar_delayed_match_to_sample__spatial_dmts`
-  - What must be remembered is where the sample appeared, not what it looked like. After the delay the participant indicates the sample's location or chooses between locations.
-  - Location rather than identity must be matched; different memory dimension
+  - named form
+  - [Spatial working memory](../processes/short_term_and_working_memory.md#hed-spatial-working-memory)
+  - The sample's location rather than its identity is remembered, and after the delay the participant indicates where it was or chooses between locations.
 * - DMTS with Object Complexity Manipulation
 
     `hedvar_delayed_match_to_sample__dmts_with_object_complexity_manipulation`
-  - Samples range from simple colored shapes to detailed, hard-to-name patterns. Comparing accuracy across levels shows how memory depends on how much there is to encode.
-  - Varies object complexity; tests encoding difficulty directly
-* - Delayed Non-Match-to-Sample (DNMS)
-
-    `hedvar_delayed_match_to_sample__delayed_non_match_to_sample_dnms`
-  - The rule is reversed: after the delay the participant must choose the item that was not the sample, the new one. The display is the same as in the matching version.
-  - Respond to non-matching item; opposite stimulus-response mapping
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-abstract-patterns">abstract patterns</a>
+  - -
+  - Samples range from simple colored shapes to detailed hard-to-name patterns and accuracy is compared across complexity levels.
 ```
 
 ## Cognitive processes

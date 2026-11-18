@@ -13,6 +13,23 @@ Identification of an emotion category from a face image; accuracy and RT per emo
 
 Participants view photographs of facial expressions (typically from the Ekman and Friesen Pictures of Facial Affect or similar validated sets) and identify the emotion portrayed. The standard set includes six basic emotions (anger, disgust, fear, happiness, sadness, surprise) plus neutral. Accuracy and RT are measured across emotion categories. The task engages a network including the amygdala (particularly for fear), fusiform face area, superior temporal sulcus, and prefrontal cortex. It is widely used in clinical research on schizophrenia, autism, and mood disorders.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>
+- **Emotional aspect:** <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>, <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-presentation-duration">presentation duration</a>, <a href="vocabulary.html#setting-stimulus-intensity">stimulus intensity</a>
+- **Material:** Photographs of faces of varying race and gender showing one of six basic emotions or a neutral expression, from validated sets such as Ekman and Friesen's.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,6 +46,8 @@ least one of the listed variables, and it records at least one of the listed mea
     - Expression intensity (morphed continua)
     - Presentation duration
     - Face race/gender
+    - Stimulus format (dynamic video vs. still photograph)
+    - Context cue (congruent or conflicting body posture or scene)
 * - **Measurements**
   - - Accuracy per emotion
     - Confusion matrices
@@ -36,58 +55,44 @@ least one of the listed variables, and it records at least one of the listed mea
     - RT
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Static Ekman Faces (6 basic emotions)
-
-    `hedvar_facial_emotion_recognition__static_ekman_faces_6_basic_emotions`
-  - Photographs of posed facial expressions are shown one at a time, and the participant chooses which of six labels fits: anger, disgust, fear, happiness, sadness or surprise (sometimes also neutral). Accuracy and response time are recorded for each emotion.
-  - Canonical categorical recognition with posed expressions
-* - Morphed Intensity
-
-    `hedvar_facial_emotion_recognition__morphed_intensity`
-  - Each expression is blended with a neutral face to produce a range of intensities, from faint to full. The participant labels each face, and the intensity at which the emotion is first recognized is the measure.
-  - Continuous emotion intensity gradient; participant categorizes or rates on morph scale
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Dynamic Expressions
 
     `hedvar_facial_emotion_recognition__dynamic_expressions`
-  - Short video clips show a face moving from neutral to a full expression, rather than a still photograph. The participant names the emotion, often as soon as it can be identified.
-  - Temporally unfolding expressions; different stimulus type with motion information
-* - Microexpression Detection
-
-    `hedvar_facial_emotion_recognition__microexpression_detection`
-  - A neutral face is shown, an expression is flashed for only 40 to 200 ms, and the neutral face returns. The participant names the brief expression. Tests recognition of expressions too fast to study.
-  - Very brief (~40 ms) expressions; different detection difficulty and timing
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>
+  - -
+  - The face is a short video unfolding from neutral to full expression instead of a still photograph.
 * - Emotion-in-Context
 
     `hedvar_facial_emotion_recognition__emotion_in_context`
-  - The face is shown together with a body posture or a background scene that fits or contradicts the expression. The participant labels the face's emotion, and the context's influence on the label is measured.
-  - Body or scene context accompanies face; changes integration demands
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-scenes">scenes</a>, <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>; competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-neighbouring-items">neighbouring items</a>
+  - [Interference control](../processes/inhibitory_control_and_conflict_monitoring.md#hed-interference-control)
+  - A body posture or scene that agrees or conflicts with the expression accompanies the face, so there is now a neighbouring item to disregard while labelling the face.
 * - Expression Matching
 
     `hedvar_facial_emotion_recognition__expression_matching`
-  - Instead of naming an emotion, the participant decides whether two faces show the same expression, or picks the face that matches a target expression from a set.
-  - Match-to-sample format; different response structure from labeling
-* - Compound Expressions
-
-    `hedvar_facial_emotion_recognition__compound_expressions`
-  - The faces show two emotions at once, such as happily surprised or angrily disgusted, and the participant must identify the blend or its components.
-  - Blended or simultaneous multi-emotion displays; different stimulus category
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-compare">compare</a>
+  - -
+  - The participant decides whether two faces show the same expression, or picks the match to a target face, instead of naming a category.
 * - Dimensional Ratings
 
     `hedvar_facial_emotion_recognition__dimensional_ratings`
-  - Rather than picking a category, the participant rates each face on scales such as how pleasant it looks and how aroused or intense it is.
-  - Continuous valence/arousal ratings instead of categorical labels; different response type and scale
+  - named form
+  - -
+  - The participant places each face on continuous scales (pleasantness, arousal) instead of choosing an emotion category.
 ```
 
 ## Cognitive processes

@@ -1,6 +1,6 @@
 | Match type | Tasks | Share |
 |---|---|---|
-| exact | 71 | 67% |
-| close | 13 | 12% |
+| exact | 73 | 66% |
+| close | 14 | 13% |
 | related | 4 | 4% |
-| none | 18 | 17% |
+| none | 19 | 17% |

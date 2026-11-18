@@ -13,6 +13,22 @@ Studied items mixed with new lures at test; hit and false-alarm rates yield d' a
 
 Participants study a list of stimuli (words, pictures, or faces) during an encoding phase. In the test phase, they view a mixture of studied (old) and unstudied (new) items and make binary old/new recognition judgments. Performance is analyzed using signal detection measures (hits, false alarms, d') and can be further decomposed into familiarity-based (rapid, automatic) and recollection-based (slower, effortful) processes using confidence ratings or remember/know judgments. Neuroimaging consistently implicates the hippocampus, angular gyrus, and default mode network in successful recognition.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-old-new">old new</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-list-length">list length</a>, <a href="vocabulary.html#setting-response-deadline">response deadline</a>, <a href="vocabulary.html#setting-retention-interval">retention interval</a>
+- **Material:** A studied list of words (or pictures or faces), and at test the studied items mixed with new ones.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -23,13 +39,15 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants study a list of items, then view a test list containing studied (old) items and unstudied (new) items and classify each as old or new.
+  - 1. Participants study a list of items, then view a test list containing studied (old) items and unstudied (new) items and classify each as old or new.
+    2. Optional: Items are studied in pairs and the old/new judgment is made on pairs, with rearranged pairs of studied items as lures.
 * - **Manipulations**
   - - Study list length
     - Encoding depth (levels of processing)
     - Retention interval
     - Confidence judgment
     - Response deadline
+    - Study and test structure (continuous vs. separate lists)
 * - **Measurements**
   - - Hit rate
     - False alarm rate
@@ -41,55 +59,46 @@ least one of the listed variables, and it records at least one of the listed mea
     - RT
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Old/New
-
-    `hedvar_old_new_recognition_memory__standard_old_new`
-  - The participant studies a list of words or pictures. Later the studied items are mixed with an equal number of new ones, and the participant says 'old' or 'new' to each. The hit rate for old items and the false alarm rate for new items are the measures.
-  - Canonical yes/no recognition judgment
-* - Remember-Know (R/K)
-
-    `hedvar_old_new_recognition_memory__remember_know_r_k`
-  - For each item judged old, the participant also says whether they actually recollect something about studying it (remember) or just find it familiar (know). Cataloged in its own right as the Remember/Know Task.
-  - Participant distinguishes recollection from familiarity; different response scale
-* - Source Memory
-
-    `hedvar_old_new_recognition_memory__source_memory`
-  - Items are studied under different conditions, such as spoken by a male or female voice or shown on the left or right. At test the participant says not only whether an item is old but also which condition it was studied in. Cataloged in its own right as the Source Memory Task.
-  - Identify source context of recognized item; adds contextual retrieval judgment
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Associative Recognition
 
     `hedvar_old_new_recognition_memory__associative_recognition`
-  - Items are studied in pairs. At test the participant sees intact pairs, pairs made by re-pairing studied items, and new pairs, and must say which pairs were studied together. Recognizing the individual words is not enough.
-  - Judge intact vs. rearranged pairs; tests associative vs. item memory
+  - studied material: <a href="vocabulary.html#rule-study-then-test-studied-material-pairs">pairs</a>
+  - -
+  - Items are studied in pairs and the old/new judgment is made on pairs, with rearranged pairs of studied items as lures.
 * - Forced-Choice Recognition
 
     `hedvar_old_new_recognition_memory__forced_choice_recognition`
-  - Each test trial shows two (or more) items, one studied and one new, and the participant picks the studied one, rather than judging items one at a time.
-  - Select target from foil array; different response structure
+  - test form: <a href="vocabulary.html#rule-study-then-test-test-form-forced-choice">forced choice</a>
+  - -
+  - Each test trial shows a studied item beside one or more new items and the participant picks the studied one.
 * - Continuous Recognition
 
     `hedvar_old_new_recognition_memory__continuous_recognition`
 
     Cognitive Atlas: [continuous recognition paradigm](https://www.cognitiveatlas.org/task/id/tsk_4a57abb9499c7)
-  - There is no separate study phase. Items appear in one long stream and some repeat after various numbers of intervening items. The participant judges every item as new or repeated as it appears.
-  - Study and test interleaved in ongoing stream; different trial structure
+  - study and test: <a href="vocabulary.html#rule-study-then-test-study-and-test-merged">merged</a>; retention interval: <a href="vocabulary.html#rule-study-then-test-retention-interval-seconds">seconds</a>
+  - -
+  - Study and test are merged into one stream in which every item is judged new or repeated, and an item may repeat again later.
 * - DRM (Deese-Roediger-McDermott) False Memory Variant
 
     `hedvar_old_new_recognition_memory__drm_deese_roediger_mcdermott_false_memory_variant`
-  - The study lists are made of words all related to one unpresented word (bed, rest, awake, tired... for SLEEP). At test the unpresented related word is included, and participants often confidently call it old.
-  - Semantically related lures elicit false recognition; distinct false memory paradigm
+  - named form
+  - -
+  - Each study list is built from associates of one unpresented word, and that word is placed among the test items so its false-alarm rate can be measured.
 ```
 
 ## Cognitive processes

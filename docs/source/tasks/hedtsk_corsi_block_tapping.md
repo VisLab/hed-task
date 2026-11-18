@@ -13,6 +13,24 @@ Experimenter taps a sequence on spatially arranged blocks; participant reproduce
 
 The Corsi Block-Tapping Task measures visuospatial short-term and working memory. Nine blocks are arranged irregularly on a board (or screen). The examiner taps a sequence of blocks, and the participant reproduces the sequence. Sequence length increases from 2 blocks upward until the participant fails two consecutive sequences at a given length. The maximum reliably reproduced length defines the Corsi span, typically around 5-6 for healthy adults. The backward version requires reproducing sequences in reverse order, adding executive demands. The task is the spatial counterpart of Digit Span and is critical for understanding the visuospatial sketchpad component of working memory.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **What is studied?** <a href="vocabulary.html#rule-study-then-test-studied-material-sequence-order">sequence order</a>
+- **How long is it held?** <a href="vocabulary.html#rule-study-then-test-retention-interval-seconds">seconds</a>
+- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-serial-recall">serial recall</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-list-length">list length</a>
+- **Material:** Nine blocks arranged irregularly on a board or screen, tapped in sequences of increasing length.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -35,53 +53,44 @@ least one of the listed variables, and it records at least one of the listed mea
     - Total score across trials
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Forward Corsi Span
-
-    `hedvar_corsi_block_tapping__forward_corsi_span`
-  - Nine identical blocks are fixed to a board in an irregular layout. The experimenter taps a sequence of blocks, and the participant taps the same blocks in the same order. Sequences get longer until the participant fails, and the longest correct length is the span.
-  - Reproduce tapped sequence in same order; canonical visuospatial span
-* - Backward Corsi Span
-
-    `hedvar_corsi_block_tapping__backward_corsi_span`
-  - The experimenter taps a sequence and the participant taps the same blocks in reverse order, from last to first. This requires holding the sequence and reordering it before responding.
-  - Reproduce sequence in reverse order; requires mental transformation
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Computerized (eCorsi)
 
     `hedvar_corsi_block_tapping__computerized_ecorsi`
-  - The blocks are squares on a touchscreen or monitor that light up in sequence, and the participant touches or clicks them in order. Timing of each touch is recorded, and the squares cannot be felt as physical objects.
-  - Screen-based tapping vs. physical blocks; per section 5.6 changes spatial/motor demands
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-touchscreen">touchscreen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>
+  - -
+  - Squares on a screen light up in sequence and are touched or clicked in order, with each touch timed.
 * - Supra-Span Corsi
 
     `hedvar_corsi_block_tapping__supra_span_corsi`
-  - The same sequence, longer than the participant's span, is presented repeatedly until it can be reproduced correctly. The number of attempts needed measures how quickly a spatial sequence is learned.
-  - Sequences exceed span; repeated learning-to-criterion procedure
+  - cycles: <a href="vocabulary.html#rule-study-then-test-cycles-learn-to-criterion">learn to criterion</a>
+  - -
+  - One sequence longer than span is presented repeatedly until it is reproduced correctly, and the number of attempts is the score.
 * - Walking Corsi (large-scale)
 
     `hedvar_corsi_block_tapping__walking_corsi_large_scale`
-  - The blocks are replaced by tiles or markers on the floor of a room. The experimenter walks to a sequence of tiles, and the participant then walks the same route. Memory is tested for places reached by walking rather than by hand.
-  - Full-body locomotion to large floor locations; different motor modality from finger tapping
+  - named form
+  - -
+  - The blocks become tiles on the floor of a room, the examiner walks a route over them and the participant walks the same route.
 * - Sequential vs. Simultaneous Presentation
 
     `hedvar_corsi_block_tapping__sequential_vs_simultaneous_presentation`
-  - In the simultaneous version the blocks of a set are highlighted all at once, with numbers or arrows showing the order, instead of being tapped one after another. The participant still reproduces them in order.
-  - All blocks illuminated at once vs. sequentially; changes encoding demands
-* - Crossed/Uncrossed Paths
-
-    `hedvar_corsi_block_tapping__crossed_uncrossed_paths`
-  - Sequences are chosen so that the path from block to block either crosses over itself or does not. Sequences whose path crosses are harder to remember even when the same number of blocks is tapped.
-  - Spatial crossing of sequence paths tests motor programming constraints
+  - named form
+  - -
+  - In the simultaneous condition all blocks of a set are highlighted at once with numbers or arrows giving the order, instead of being tapped one after another, and the participant still reproduces them in order.
 ```
 
 ## Cognitive processes

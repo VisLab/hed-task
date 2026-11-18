@@ -1,1 +1,1 @@
-311 Atlas entries correspond to something in the Catalog, covering 91 of its 106 tasks; 40 of them resolve to a named variation rather than to the task itself, which is how the Atlas's habit of registering each implementation separately is absorbed.
+311 Atlas entries correspond to something in the Catalog, covering 94 of its 110 tasks; 22 of them resolve to a variant rather than to the task itself, which is how the Atlas's habit of registering each implementation separately is absorbed.

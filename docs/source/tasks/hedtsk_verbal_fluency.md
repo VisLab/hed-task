@@ -13,6 +13,21 @@ Generate as many words as possible within a time limit matching a phonemic (lett
 
 Participants produce as many unique words as possible in a fixed interval (typically 60 seconds) that satisfy a constraint: a starting letter (phonemic/letter fluency, e.g., F, A, S) or a semantic category (e.g., animals, fruits). Phonemic fluency loads heavily on left frontal executive systems involved in strategic search and self-monitoring, while semantic fluency additionally engages temporal-lobe semantic stores. Beyond raw word count, temporal analyses of clustering (runs of semantically or phonemically similar words) and switching (transitions between clusters) dissociate automatic retrieval from effortful executive search. Verbal fluency is one of the most widely administered neuropsychological tasks, sensitive to frontal-lobe lesions, neurodegenerative disease (especially Alzheimer's vs. frontotemporal dementia), schizophrenia, and normal aging. Its brevity, minimal equipment needs, and robust normative data make it a cornerstone of clinical assessment batteries.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-solve-problem">solve problem</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructed-emphasis">instructed emphasis</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>
+- **Material:** A starting letter (such as F, A or S) or a semantic category (such as animals) given by the examiner.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -31,6 +46,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Category breadth (animals vs. tools)
     - Time interval (30 s, 60 s, 90 s)
     - Switching vs. free-generation instructions
+    - Response type (drawing designs vs. saying words)
 * - **Measurements**
   - - Total correct words
     - Number of perseverations and rule violations
@@ -39,52 +55,46 @@ least one of the listed variables, and it records at least one of the listed mea
     - Temporal production curve (words per 15-s quartile)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Phonemic / Letter Fluency (FAS)
-
-    `hedvar_verbal_fluency__phonemic_letter_fluency_fas`
-
-    Cognitive Atlas: [letter fluency test ](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949b0e), [phonemic fluency task](https://www.cognitiveatlas.org/task/id/trm_4f241be43458e) (close match)
-  - The participant says as many words as they can that begin with a given letter in one minute, excluding names and repeats of the same word with different endings. Usually three letters (F, A and S) are given in turn. The score is the total number of acceptable words.
-  - Generate words by initial letter; canonical phonemic fluency
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Semantic / Category Fluency
 
     `hedvar_verbal_fluency__semantic_category_fluency`
 
     Cognitive Atlas: [category fluency test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949923), [semantic fluency task](https://www.cognitiveatlas.org/task/id/trm_4f241bd52b509) (close match)
-  - The participant names as many members of a category as they can in one minute, such as animals or things in a supermarket. Usually easier than letter fluency, and the two are impaired differently by different brain conditions.
-  - Generate words from category; different retrieval strategy and structure
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - -
+  - The constraint is a semantic category such as animals instead of a starting letter.
 * - Action / Verb Fluency
 
     `hedvar_verbal_fluency__action_verb_fluency`
-  - The participant names as many different things that people can do (verbs) as they can in one minute.
-  - Generate verbs/actions; different grammatical category
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - -
+  - The constraint is a grammatical class, verbs for things people can do, a third constraint type beside letter and category.
 * - Switching Fluency
 
     `hedvar_verbal_fluency__switching_fluency`
-  - The participant alternates between two categories with each word, for example a fruit, then a piece of furniture, then a fruit, and so on, for one minute.
-  - Alternate between two categories; adds cognitive flexibility demand
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - [Set shifting](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-set-shifting)
+  - The participant alternates between two categories word by word for one minute.
 * - Design Fluency
 
     `hedvar_verbal_fluency__design_fluency`
-  - A non-verbal version in which the participant draws as many different designs as they can by connecting dots in a small grid with a fixed number of lines, within a minute.
-  - Draw novel designs instead of words; different modality
-* - Excluded-Letter Fluency
-
-    `hedvar_verbal_fluency__excluded_letter_fluency`
-  - The participant says as many words as they can that do not contain a given letter (such as 'e'), which requires checking each candidate word against the constraint.
-  - Generate words avoiding a letter; adds constraint that changes retrieval strategy
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+  - [Visual perception](../processes/face_and_object_perception.md#hed-visual-perception)
+  - The participant draws as many different designs as possible on a grid of dots, joining dots with a fixed number of lines, instead of saying words.
 ```
 
 ## Cognitive processes

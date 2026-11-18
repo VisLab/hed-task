@@ -1,0 +1,1 @@
+Of the 450 variants in the Catalog, 21 have an Atlas entry of their own, belonging to 17 tasks; 22 Atlas entries resolve to a variant rather than to a task, and are counted among the matched entries above.

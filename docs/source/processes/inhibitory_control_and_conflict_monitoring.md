@@ -86,7 +86,7 @@ Resolution of conflict among thoughts, feelings, and responses; one of Posner's 
 
 Resistance to interference from task-irrelevant stimuli or competing response representations, measured by Stroop, Flanker, and Simon effects.
 
-**Tasks that engage this process:** [Attention Network Task](../tasks/hedtsk_attention_network.md), [Emotional Stroop Task](../tasks/hedtsk_emotional_stroop.md), [Eriksen Flanker Task](../tasks/hedtsk_eriksen_flanker.md), [Implicit Association Task](../tasks/hedtsk_implicit_association.md), [N-Back Task](../tasks/hedtsk_n_back.md), [Navon Task](../tasks/hedtsk_navon.md), [Operation Span Task](../tasks/hedtsk_operation_span.md), [Simon Task](../tasks/hedtsk_simon.md), [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md)
+**Tasks that engage this process:** [Attention Network Task](../tasks/hedtsk_attention_network.md), [Dual N-Back Task](../tasks/hedtsk_dual_n_back.md), [Emotional Stroop Task](../tasks/hedtsk_emotional_stroop.md), [Eriksen Flanker Task](../tasks/hedtsk_eriksen_flanker.md), [Implicit Association Task](../tasks/hedtsk_implicit_association.md), [N-Back Task](../tasks/hedtsk_n_back.md), [Navon Task](../tasks/hedtsk_navon.md), [Operation Span Task](../tasks/hedtsk_operation_span.md), [Picture-Word Interference Task](../tasks/hedtsk_picture_word_interference.md), [Simon Task](../tasks/hedtsk_simon.md), [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md)
 
 **Fundamental references**
 
@@ -103,7 +103,7 @@ Resistance to interference from task-irrelevant stimuli or competing response re
 
 Sustained, anticipatory maintenance of task goals that biases processing in preparation for an expected demand.
 
-**Tasks that engage this process:** [Task Switching Task](../tasks/hedtsk_task_switching.md)
+**Tasks that engage this process:** [AX Continuous Performance Task](../tasks/hedtsk_ax_continuous_performance.md), [Task Switching Task](../tasks/hedtsk_task_switching.md)
 
 **Fundamental references**
 
@@ -150,7 +150,7 @@ Competing activation of two or more response representations on a single trial, 
 
 Suppression of a prepotent or already-initiated response when it becomes inappropriate, indexed behaviorally by stop-signal reaction time or commission errors.
 
-**Tasks that engage this process:** [Anti-Saccade Task](../tasks/hedtsk_anti_saccade.md), [Balloon Analog Risk Task](../tasks/hedtsk_balloon_analog_risk.md), [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md), [Delay Discounting Task](../tasks/hedtsk_delay_discounting.md), [Directed Forgetting Task](../tasks/hedtsk_directed_forgetting.md), [Fixate Task](../tasks/hedtsk_fixate.md), [Go/No-Go Task](../tasks/hedtsk_go_no_go.md), [Imitation-Inhibition Task](../tasks/hedtsk_imitation_inhibition.md), [Stop-Signal Task](../tasks/hedtsk_stop_signal.md), [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md), [Sustained Attention to Response Task](../tasks/hedtsk_sustained_attention_to_response.md), [Think/No-Think Task](../tasks/hedtsk_think_no_think.md)
+**Tasks that engage this process:** [AX Continuous Performance Task](../tasks/hedtsk_ax_continuous_performance.md), [Anti-Saccade Task](../tasks/hedtsk_anti_saccade.md), [Balloon Analog Risk Task](../tasks/hedtsk_balloon_analog_risk.md), [Continuous Performance Task](../tasks/hedtsk_continuous_performance.md), [Delay Discounting Task](../tasks/hedtsk_delay_discounting.md), [Directed Forgetting Task](../tasks/hedtsk_directed_forgetting.md), [Fixate Task](../tasks/hedtsk_fixate.md), [Go/No-Go Task](../tasks/hedtsk_go_no_go.md), [Imitation-Inhibition Task](../tasks/hedtsk_imitation_inhibition.md), [Stop-Signal Task](../tasks/hedtsk_stop_signal.md), [Stroop Color-Word Task](../tasks/hedtsk_stroop_color_word.md), [Sustained Attention to Response Task](../tasks/hedtsk_sustained_attention_to_response.md), [Think/No-Think Task](../tasks/hedtsk_think_no_think.md)
 
 **Fundamental references**
 

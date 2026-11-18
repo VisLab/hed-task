@@ -147,7 +147,7 @@ Manipulation of numerical and algebraic quantities and relations.
 
 Iterative problem-solving strategy in which the distance between the current state and the goal state is reduced by selecting operators that diminish the largest remaining difference.
 
-**Tasks that engage this process:** [Tower of London Task](../tasks/hedtsk_tower_of_london.md)
+**Tasks that engage this process:** [Tower of Hanoi Task](../tasks/hedtsk_tower_of_hanoi.md), [Tower of London Task](../tasks/hedtsk_tower_of_london.md)
 
 **Fundamental references**
 
@@ -165,7 +165,7 @@ Iterative problem-solving strategy in which the distance between the current sta
 
 Mental formulation of a sequence of actions toward a goal before execution.
 
-**Tasks that engage this process:** [Tower of London Task](../tasks/hedtsk_tower_of_london.md)
+**Tasks that engage this process:** [Tower of Hanoi Task](../tasks/hedtsk_tower_of_hanoi.md), [Tower of London Task](../tasks/hedtsk_tower_of_london.md)
 
 **Fundamental references**
 
@@ -178,7 +178,7 @@ Mental formulation of a sequence of actions toward a goal before execution.
 
 Decomposition of a goal into an ordered sequence of subgoals whose satisfaction advances the overall task; dissociable from means-ends search and often studied through hierarchical task analysis.
 
-**Tasks that engage this process:** [Tower of London Task](../tasks/hedtsk_tower_of_london.md)
+**Tasks that engage this process:** [Tower of Hanoi Task](../tasks/hedtsk_tower_of_hanoi.md), [Tower of London Task](../tasks/hedtsk_tower_of_london.md)
 
 **Fundamental references**
 

@@ -13,6 +13,23 @@ After studying each item, participants predict the likelihood they will recall i
 
 The Judgment-of-Learning task measures the accuracy of metacognitive predictions made during or shortly after encoding. In the standard Nelson and Dunlosky (1991) paradigm, participants study word pairs and, after each pair (immediate) or after a delay (delayed), rate the likelihood (0-100%) that they will recall the target when given the cue on a later test. A cued recall test follows, and prediction accuracy is assessed through resolution (gamma correlation between judgments and recall) and calibration (mean judgment vs. mean recall). A landmark finding is the delayed-judgment-of-learning effect: predictions made after a brief delay are far more accurate than immediate ones, because delayed judgments rely on retrieval fluency (a valid cue) rather than short-term memory availability (a poor cue). Judgment-of-Learning research connects to self-regulated learning: learners use these judgments to allocate study time, select items for restudy, and decide when to terminate study. The paradigm is foundational in metamemory research and dissociates from Feeling-of-Knowing tasks in timing (post-encoding vs. post-retrieval-failure), prediction target (recall vs. recognition), and underlying basis (encoding fluency vs. partial retrieval).
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **What is studied?** <a href="vocabulary.html#rule-study-then-test-studied-material-pairs">pairs</a>
+- **Is a judgment about one's own memory added?** <a href="vocabulary.html#rule-study-then-test-inserted-judgment-at-study">at study</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-repetitions">number of repetitions</a>
+- **Material:** Cue-target word pairs, related or unrelated, each followed by a prompt to rate the chance of later recall.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -26,7 +43,7 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. Participants study items (typically word pairs), then predict the likelihood of recalling each item on a future test.
     2. a subsequent recall test assesses prediction accuracy.
 * - **Manipulations**
-  - - Judgment timing (immediate vs. delayed)
+  - - Judgment timing (before study, immediate, delayed)
     - Item difficulty (related vs. unrelated pairs)
     - Encoding conditions (number of presentations, elaborative vs. rote)
     - Cue type (cue-only vs. cue-target at judgment)
@@ -41,48 +58,32 @@ least one of the listed variables, and it records at least one of the listed mea
     - Study-time allocation as a behavioral consequence of judgments
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Immediate Judgment-of-Learning
-
-    `hedvar_judgment_of_learning__immediate_judgment_of_learning`
-  - The participant studies a word pair and, right after it, rates how likely they are to recall the second word when given the first on a later test. After all pairs, the recall test is given and ratings are compared with actual recall.
-  - JOL made immediately after study; foresight-based monitoring
-* - Delayed Judgment-of-Learning
-
-    `hedvar_judgment_of_learning__delayed_judgment_of_learning`
-  - The rating is made some time after studying the pair, typically after several other pairs have been studied, rather than right away. Delayed ratings predict later recall far better than immediate ones.
-  - JOL made after delay; improves accuracy via delayed-JOL effect
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Aggregate vs. Item-by-Item Judgments
 
     `hedvar_judgment_of_learning__aggregate_vs_item_by_item_judgments`
-  - Instead of (or in addition to) rating each item, the participant estimates how many of the whole list they will recall. The overall estimate is compared with the number actually recalled.
-  - Global confidence vs. per-item monitoring; different judgment granularity
-* - Cue-Only vs. Cue-Target Delayed Judgment
-
-    `hedvar_judgment_of_learning__cue_only_vs_cue_target_delayed_judgment`
-  - When the delayed rating is made, either only the first word of the pair is shown, which forces the participant to try to retrieve the second word, or both words are shown. Ratings made from the cue alone are the most accurate.
-  - JOL prompted by cue alone vs. cue+target; tests forward vs. backward recall fluency
+  - named form
+  - -
+  - Instead of, or as well as, rating each pair, the participant estimates how many items of the whole list they will recall.
 * - Self-Regulated Study Paradigm
 
     `hedvar_judgment_of_learning__self_regulated_study_paradigm`
-  - After rating the items, the participant chooses which items to study again, or how long to spend on each. Whether they choose items they rated as poorly learned shows how the ratings are used to guide study.
-  - Participant allocates study time based on JOL; adds metacognitive control component
-* - Pre-Study Judgment (Ease-of-Learning)
-
-    `hedvar_judgment_of_learning__pre_study_judgment_ease_of_learning`
-  - The participant sees each item briefly before studying it and rates how easy it will be to learn. These judgments are made before any learning and measure estimates of difficulty rather than of learning achieved.
-  - Judgment made before study; different pre-learning prediction task
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - -
+  - After rating the items the participant chooses which to study again or how long to spend on each, adding a participant-controlled restudy phase.
 ```
 
 ## Cognitive processes

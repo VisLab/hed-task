@@ -13,6 +13,23 @@ Passive auditory oddball in which rare deviant sounds elicit a negative ERP arou
 
 Participants are passively exposed to repetitive acoustic stimuli (standard tones, 80%) occasionally interrupted by deviant tones (20%) differing in pitch, duration, or location. The MMN can be elicited without active attention. Recorded via EEG, the MMN appears as a negative deflection peaking at 100-250 ms after deviance onset at frontocentral sites. It reflects automatic, pre-attentive comparison between incoming input and a neural representation of the standard stimulus stored in sensory (echoic) memory. MMN is used as a biomarker of auditory processing capacity and has clinical applications in schizophrenia, coma prognosis, and language development research.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-undergo-stream">undergo stream</a>
+- **What is the player told to do while it runs?** <a href="vocabulary.html#rule-undergo-stream-instruction-none">none</a>
+- **Is anything asked afterwards?** <a href="vocabulary.html#rule-undergo-stream-report-after-none">none</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-interstimulus-interval">interstimulus interval</a>, <a href="vocabulary.html#setting-stimulus-similarity">stimulus similarity</a>, <a href="vocabulary.html#setting-target-probability">target probability</a>
+- **Material:** A repeated standard tone occasionally replaced by a deviant tone differing in pitch, duration, intensity or location.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -26,72 +43,60 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. A repetitive standard tone is occasionally replaced by a deviant tone differing in frequency, duration, or intensity.
     2. Participants typically ignore the sounds while reading or watching a silent video.
 * - **Manipulations**
-  - - Deviant type (frequency, duration, intensity, phoneme)
+  - - Deviant type (frequency, duration, intensity, phoneme, location; one or several per stream)
     - Deviant probability
     - Magnitude of deviance
     - ISI
+    - Standard tone sequence (roving vs. fixed standard)
 * - **Measurements**
   - - MMN amplitude and latency (deviant-minus-standard difference wave, peaking 100-250 ms)
     - Scalp topography
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Frequency MMN
-
-    `hedvar_mismatch_negativity__frequency_mmn`
-  - A repeating tone is played about once a second while the participant reads or watches a silent film. Occasionally a tone of a different pitch is inserted. The brain response to the odd tone, minus the response to the common tone, is the mismatch negativity.
-  - Frequency deviant in auditory stream; canonical MMN stimulus type
-* - Duration MMN
-
-    `hedvar_mismatch_negativity__duration_mmn`
-  - The odd tones are the same pitch as the common tone but longer or shorter in duration.
-  - Duration deviant; different acoustic dimension
-* - Intensity MMN
-
-    `hedvar_mismatch_negativity__intensity_mmn`
-  - The odd tones are louder or quieter than the common tone but otherwise identical.
-  - Intensity deviant; tests loudness change detection
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Location/Spatial MMN
 
     `hedvar_mismatch_negativity__location_spatial_mmn`
-  - The odd tones come from a different direction, for example the other ear or a different loudspeaker, while pitch, loudness and duration stay the same.
-  - Spatial location change; different perceptual dimension
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-loudspeaker">loudspeaker</a>
+  - -
+  - The deviant comes from a different direction, which may mean loudspeakers instead of headphones.
 * - Complex Pattern MMN
 
     `hedvar_mismatch_negativity__complex_pattern_mmn`
-  - The regularity is a pattern rather than a single repeating tone, for example alternating high and low tones or a rising pair. The odd event breaks the pattern (two high tones in a row) even though each individual tone is familiar.
-  - Pattern-level violation; higher-order regularity processing
+  - named form
+  - -
+  - The regularity is a multi-tone pattern (alternation, rising pair) and the deviant breaks the pattern although every individual tone is familiar.
 * - Multi-Feature MMN (Optimum)
 
     `hedvar_mismatch_negativity__multi_feature_mmn_optimum`
-  - Several kinds of odd tones (pitch, duration, loudness, location, gap) are mixed into one sequence, alternating with the common tone, so that responses to all of them are collected in about 15 minutes.
-  - Multiple deviants in single paradigm; different stimulus sequence
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+  - -
+  - Several deviant types alternate with the standard in one sequence so that all are collected in one short run.
 * - Phoneme/Speech MMN
 
     `hedvar_mismatch_negativity__phoneme_speech_mmn`
-  - The sounds are speech syllables or vowels, for example a repeating 'ba' with an occasional 'da'. The response reflects the listener's language experience as well as the acoustic difference.
-  - Phonemic contrast as deviant; linguistic processing
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-syllables">syllables</a>
+  - [Speech perception](../processes/language_comprehension_and_production.md#hed-speech-perception)
+  - The standard and deviant are speech syllables rather than tones.
 * - Visual MMN (vMMN)
 
     `hedvar_mismatch_negativity__visual_mmn_vmmn`
-  - The repeating stream is visual, such as shapes, colors or faces shown at the edge of the screen while the participant does an unrelated task in the center, and the odd item differs in some visual feature.
-  - Visual change detection; different sensory modality
-* - Roving Standard MMN
-
-    `hedvar_mismatch_negativity__roving_standard_mmn`
-  - A tone repeats several times and then changes to a new tone, which itself repeats and becomes the new standard. Every tone is the odd one when it first appears and a standard after it has repeated, so the response can be tracked as a function of how many repeats preceded the change.
-  - Standard changes after each sequence; different stimulus history structure
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - [Visual perception](../processes/face_and_object_perception.md#hed-visual-perception)
+  - The ignored stream is visual, shown at the edge of the screen while an unrelated central task occupies the participant.
 ```
 
 ## Cognitive processes

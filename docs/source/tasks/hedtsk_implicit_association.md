@@ -13,6 +13,23 @@ Speeded categorization of stimuli belonging to two target concepts and two evalu
 
 Participants rapidly classify stimuli from four categories using two response keys. Two categories are target concepts (e.g., "flowers" vs. "insects") and two are evaluative attributes (e.g., "pleasant" vs. "unpleasant"). In the critical comparison, one block pairs congruent categories on the same key (flowers + pleasant) and another pairs incongruent categories (flowers + unpleasant). The IAT effect - faster responding in the congruent block - is interpreted as reflecting the strength of automatic associations between the concepts and attributes. Greenwald et al. (1998) introduced the IAT as a measure of implicit attitudes, and it has become one of the most widely administered psychological tests, with applications spanning racial bias, self-esteem, clinical anxiety, consumer preferences, and political attitudes.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>
+- **Emotional aspect:** <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-trials">number of trials</a>
+- **Material:** Exemplars of two target categories (such as flowers and insects, or Black and White faces) and two attribute categories (pleasant and unpleasant words).
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,68 +46,65 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Target-attribute pairing (compatible vs. incompatible blocks)
     - Category exemplars
     - Number of practice and test trials
+    - Target categories (social groups, gender-science, self-other)
+    - Number of target categories (single-category vs. two-category)
+    - Response format (go/no-go vs. two-key sort)
+    - Response mapping (four keys, cued per trial vs. fixed per block)
 * - **Measurements**
   - - IAT D-score (standardized RT difference between incompatible and compatible blocks)
     - Error rates
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Race IAT
-
-    `hedvar_implicit_association__race_iat`
-  - Faces of Black and White people and pleasant and unpleasant words appear one at a time, and the participant sorts each with a left or right key. In one block Black faces and pleasant words share a key; in another, White faces and pleasant words share a key. Faster sorting in one pairing than the other is taken as an implicit association.
-  - Canonical IAT measuring race-valence associations
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Gender-Science IAT
 
     `hedvar_implicit_association__gender_science_iat`
-  - The categories are male and female names or faces paired with science words and liberal arts words. The participant sorts with shared keys as in the race version, and the speed difference between pairings measures the gender-science stereotype.
-  - Gender-career associations; different conceptual domain
+  - emotional aspect: none
+  - -
+  - Male and female names or faces are paired with science and liberal-arts words, so the contrast measures a gender-field stereotype rather than valence.
 * - Self-Esteem IAT
 
     `hedvar_implicit_association__self_esteem_iat`
-  - The categories are self words (I, me, mine) versus other words (they, them) paired with pleasant and unpleasant words, so that the speed difference measures how strongly the self is linked with positive evaluation.
-  - Self-related vs. other category; different self-referential structure
-* - Single-Category IAT (SC-IAT)
-
-    `hedvar_implicit_association__single_category_iat_sc_iat`
-  - Only one target category is used (for example, just Black faces) along with pleasant and unpleasant words. One block pairs the category with pleasant, another with unpleasant. Gives an association for that category alone rather than relative to a contrasting category.
-  - One target category instead of two; different design structure
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>; social aspect: none
+  - [Self-referential processing](../processes/awareness_agency_and_metacognition.md#hed-self-referential-processing)
+  - Self and other pronouns replace the social target categories, paired with pleasant and unpleasant words.
 * - Brief IAT (BIAT)
 
     `hedvar_implicit_association__brief_iat_biat`
-  - A shorter version with fewer blocks and trials in which the participant focuses on only two of the four categories in each block, pressing one key for them and the other key for everything else.
-  - Shorter version with different block structure; distinct published instrument
+  - named form
+  - -
+  - A named shorter instrument in which each block has two focal categories on one key and everything else on the other.
 * - Go/No-Go Association Task (GNAT)
 
     `hedvar_implicit_association__go_no_go_association_task_gnat`
-  - The participant presses a key for items that belong to a target pairing (for example Black faces or pleasant words) and makes no response to everything else. Sensitivity in detecting the pairing replaces the key-sharing design.
-  - Detection response instead of categorization; different response structure
+  - response demand: <a href="vocabulary.html#rule-respond-to-rule-response-demand-withhold-on-some">withhold on some</a>
+  - [Response inhibition](../processes/inhibitory_control_and_conflict_monitoring.md#hed-response-inhibition)
+  - The participant presses one key for items in the target pairing and withholds for everything else, so detection sensitivity replaces the two-key sort.
 * - Recoding-Free IAT (IAT-RF)
 
     `hedvar_implicit_association__recoding_free_iat_iat_rf`
-  - Four response keys are used, one per category, so no two categories ever share a key. The critical pairings are created by instructions about which keys are relevant on each trial, which prevents participants from simply recoding the task as one two-way sort.
-  - Response keys don't change across blocks; removes recoding confound
-* - Personalized IAT (P-IAT)
-
-    `hedvar_implicit_association__personalized_iat_p_iat`
-  - The attribute categories are labeled 'I like' and 'I don't like' rather than 'pleasant' and 'unpleasant', and the words are chosen to reflect personal preferences, so that the measure reflects the participant's own attitudes rather than knowledge of cultural stereotypes.
-  - Self-relevant exemplars; different stimulus set and personal relevance
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-rule-cue">rule cue</a>; rule stability: <a href="vocabulary.html#rule-respond-to-rule-rule-stability-switches-on-cue">switches on cue</a>
+  - [Set shifting](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-set-shifting)
+  - Four keys, one per category, and a per-trial instruction says which keys are relevant, so the mapping is cued trial by trial instead of fixed for a block.
 * - Developmental / Child IAT
 
     `hedvar_implicit_association__developmental_child_iat`
-  - A version for children in which all categories are pictures rather than words, instructions are spoken, there are fewer trials, and the sorting keys are large buttons or a touch screen.
-  - Picture-based categories for children; procedure adapted per section 5.3
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-touchscreen">touchscreen</a>; population: <a href="vocabulary.html#facet-population-children">children</a>
+  - -
+  - All categories are pictures, instructions are spoken, there are fewer trials, and children sort on large buttons or a touch screen.
 ```
 
 ## Cognitive processes

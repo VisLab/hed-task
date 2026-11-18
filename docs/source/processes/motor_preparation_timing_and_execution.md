@@ -208,7 +208,7 @@ Overt production of a selected response in accordance with task demands.
 
 Choice of an action from a set of alternatives.
 
-**Tasks that engage this process:** [Affective Priming Task](../tasks/hedtsk_affective_priming.md), [Eriksen Flanker Task](../tasks/hedtsk_eriksen_flanker.md), [Go/No-Go Task](../tasks/hedtsk_go_no_go.md), [Mental Rotation Task](../tasks/hedtsk_mental_rotation.md), [N-Back Task](../tasks/hedtsk_n_back.md), [Psychological Refractory Period Task](../tasks/hedtsk_psychological_refractory_period.md), [Random Dot Kinematogram Task](../tasks/hedtsk_random_dot_kinematogram.md), [Simon Task](../tasks/hedtsk_simon.md), [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md), [Take Questionnaire Task](../tasks/hedtsk_take_questionnaire.md), [Task Switching Task](../tasks/hedtsk_task_switching.md), [Verb Generation Task](../tasks/hedtsk_verb_generation.md)
+**Tasks that engage this process:** [Affective Priming Task](../tasks/hedtsk_affective_priming.md), [Dual N-Back Task](../tasks/hedtsk_dual_n_back.md), [Eriksen Flanker Task](../tasks/hedtsk_eriksen_flanker.md), [Go/No-Go Task](../tasks/hedtsk_go_no_go.md), [Mental Rotation Task](../tasks/hedtsk_mental_rotation.md), [N-Back Task](../tasks/hedtsk_n_back.md), [Psychological Refractory Period Task](../tasks/hedtsk_psychological_refractory_period.md), [Random Dot Kinematogram Task](../tasks/hedtsk_random_dot_kinematogram.md), [Simon Task](../tasks/hedtsk_simon.md), [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md), [Take Questionnaire Task](../tasks/hedtsk_take_questionnaire.md), [Task Switching Task](../tasks/hedtsk_task_switching.md), [Verb Generation Task](../tasks/hedtsk_verb_generation.md)
 
 **Further references**
 

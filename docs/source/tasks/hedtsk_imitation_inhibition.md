@@ -13,6 +13,21 @@ Execute an instructed finger movement while observing a congruent or incongruent
 
 The Imitation-Inhibition Task (Brass, Bekkering, Wohlschlager, & Prinz, 2000) measures the involuntary tendency to copy observed actions and the executive cost of suppressing that tendency. Participants are cued to perform a simple action (e.g., lift the index finger when a number '1' appears) while simultaneously viewing a task-irrelevant video of another person's hand performing either the same action (congruent), a different action (incongruent, e.g., lifting the middle finger), or no action (neutral/static hand). The congruency effect -- faster and more accurate responses on congruent than incongruent trials -- indexes automatic imitation, while the interference effect (incongruent minus neutral) specifically indexes the inhibitory cost of suppressing the observed action. The paradigm is grounded in common-coding / ideomotor theory (Prinz, 1997): perceiving an action activates the same motor representations as executing it, creating response conflict when the observed and instructed actions differ. The task has become a standard probe of the human mirror system and self-other distinction. The automatic imitation effect is modulated by animacy (stronger for human than robotic agents), social context (in-group vs. out-group models), empathy, and developmental stage (weaker in young children, inverted-U trajectory). Clinical applications include autism spectrum conditions (mixed findings on reduced automatic imitation) and schizophrenia (impaired self-other distinction).
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Material:** A digit cue (such as 1) naming the finger to lift, shown over a video of another person's hand lifting the same or a different finger or staying still.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -23,13 +38,16 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants perform an instructed action (e.g., finger lift) in response to a symbolic cue while simultaneously observing a task-irrelevant video or animation of another agent performing a congruent, incongruent, or neutral action.
+  - 1. Participants perform an instructed action (e.g., finger lift) in response to a symbolic cue while simultaneously observing a task-irrelevant video or animation of another agent performing a congruent, incongruent, or neutral action.
+    2. Optional: A training phase before the test pairs an observed index-finger lift with a middle-finger response and the reverse.
 * - **Manipulations**
   - - Congruency (observed action matches vs. mismatches instructed action)
     - Agent type (human hand, robotic hand, non-biological stimulus)
     - Social context (in-group vs. out-group model)
     - Action type (finger lift, hand open/close, whole-arm movement)
     - Spatial compatibility control (orthogonal spatial arrangement to dissociate imitative from spatial compatibility)
+    - Goal of the observed action (movement vs. goal dissociated)
+    - Task instruction (imitate vs. move regardless, cued per trial)
 * - **Measurements**
   - - Congruency effect (RT and error rate difference: incongruent minus congruent)
     - Interference effect (incongruent minus neutral)
@@ -38,58 +56,38 @@ least one of the listed variables, and it records at least one of the listed mea
     - EEG mu-suppression as neural index of motor simulation
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Classic Finger-Lift Paradigm (Brass et al.)
-
-    `hedvar_imitation_inhibition__classic_finger_lift_paradigm_brass_et_al`
-  - The participant rests their hand on a table and watches a video of another hand. A number appears (1 or 2) telling them to lift the index or middle finger, while the hand on screen lifts either the same finger or the other one. Responses are slower when the observed movement differs from the instructed one.
-  - Canonical: respond to number cue, observe incongruent finger lift
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Kinematic Paradigm (Kilner Task)
 
     `hedvar_imitation_inhibition__kinematic_paradigm_kilner_task`
-  - The participant makes repeated arm movements, for example side to side, while watching another person (or a robot) move their arm either in the same direction or up and down. The participant's movements become more variable when the observed movement conflicts with their own.
-  - Perform arm movement while observing congruent/incongruent arm; different motor effector
-* - Hand Open/Close Variant
-
-    `hedvar_imitation_inhibition__hand_open_close_variant`
-  - The instructed action is to open or close the whole hand, and the observed hand opens or closes at the same time, so that the imitation effect is measured with a larger movement than a finger lift.
-  - Open/close hand in response to/despite observed hand action
-* - Animacy Manipulation
-
-    `hedvar_imitation_inhibition__animacy_manipulation`
-  - The observed movement is performed by a human hand, a robotic hand, or a non-biological object such as a moving bar, to see whether the tendency to copy depends on seeing a living agent.
-  - Animate vs. inanimate observed movement; tests social specificity of imitation
-* - Goal-Directed Imitation Variant
-
-    `hedvar_imitation_inhibition__goal_directed_imitation_variant`
-  - The observed hand grasps an object, and the design separates how the hand moved from what it was trying to do, for example by having the same movement achieve different goals. Shows whether the participant copies the movement or the goal.
-  - Imitate goal vs. means; tests level of imitative representation
+  - stimulus type: none; task I/O device: <a href="vocabulary.html#facet-task-io-device-motion-capture">motion capture</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>; stream: <a href="vocabulary.html#rule-respond-to-rule-stream-continuous">continuous</a>; combined with: <a href="vocabulary.html#how-throughout">throughout</a>, <a href="vocabulary.html#game-produce-movement">produce movement</a> (Continuous self-paced arm movements replace the cued finger lifts)
+  - -
+  - The participant makes continuous, repeated arm movements while watching a person or a robot move in the same or a perpendicular direction, and the variability of the participant's movement is the measure.
 * - Vocal Stimulus-Response Compatibility
 
     `hedvar_imitation_inhibition__vocal_stimulus_response_compatibility`
-  - The participant hears a syllable such as 'pa' while being instructed to say either 'pa' or 'ba'. Saying a syllable that differs from the one heard is slower, the speech version of the finger task.
-  - Vocal response to observed action; different response modality
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-syllables">syllables</a>; social aspect: none; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+  - [Speech perception](../processes/language_comprehension_and_production.md#hed-speech-perception)
+  - The participant hears a syllable while instructed to say the same or a different syllable; the heard syllable is the observed action.
 * - Controlled Imitation Task (Reverse)
 
     `hedvar_imitation_inhibition__controlled_imitation_task_reverse`
-  - On some trials the participant is told to imitate the observed movement and on others to make the instructed movement regardless of what they see. Tests the ability to choose when to copy and when not to.
-  - Instructed to imitate or not; tests explicit voluntary control
-* - Counter-Imitation Training
-
-    `hedvar_imitation_inhibition__counter_imitation_training`
-  - Before the test, the participant practices many trials of responding to an observed index-finger lift with a middle-finger lift and vice versa. After such training the usual tendency to copy is reduced or reversed.
-  - Training to suppress imitation; tests plasticity of imitative tendencies
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-rule-cue">rule cue</a>; rule stability: <a href="vocabulary.html#rule-respond-to-rule-rule-stability-switches-on-cue">switches on cue</a>
+  - [Set shifting](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-set-shifting)
+  - Trial by trial the participant is told either to imitate the observed movement or to make the instructed movement regardless, so the rule is cued and switches across trials.
 ```
 
 ## Cognitive processes

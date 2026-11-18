@@ -13,6 +13,28 @@ Cue predicts potential monetary gain or loss; speeded target response determines
 
 The Monetary Incentive Delay Task is the dominant paradigm for neuroimaging studies of reward anticipation and consumption. On each trial, a cue signals the potential outcome: reward (gain), loss avoidance, or neutral. After a variable delay period, participants respond to a briefly presented target; successful responses earn the reward (or avoid the loss). The critical contrast is neural activity during the anticipation period (cue-to-target), which robustly activates the ventral striatum/nucleus accumbens, versus the outcome period (after response), which more strongly engages ventromedial prefrontal cortex. The MID has been widely adopted in clinical neuroimaging of addiction, depression, and schizophrenia.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+- **Does a cue come before the target?** <a href="vocabulary.html#rule-respond-to-rule-cue-incentive-cue">incentive cue</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-stake">reward stake</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-both">both</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-performance">performance</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-presentation-duration">presentation duration</a>
+- **Material:** A cue signalling a possible money gain, a possible loss or nothing, a briefly shown target, and the outcome of the trial.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,54 +51,46 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Manipulations**
   - - Cue type (reward magnitude, loss magnitude, neutral)
     - Target duration (titrated to ~66% hit rate)
+    - Cue content (drug-related vs. neutral)
+    - Response effort (grip force or repeated presses vs. single press)
 * - **Measurements**
   - - RT by cue condition
     - fMRI activation in ventral striatum (anticipation) and medial PFC (outcome)
     - Hit rate
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard MID (Knutson)
-
-    `hedvar_monetary_incentive_delay__standard_mid_knutson`
-  - A cue shows whether the coming trial can win money, can lose money, or is neutral. After a short wait a target flashes briefly and the participant must press a button before it disappears. Fast enough presses win or avoid losing the money; the target duration is adjusted so this succeeds about two thirds of the time. Feedback follows each trial.
-  - Canonical cue-anticipation-response structure with monetary reward/punishment
-* - Graded Reward MID
-
-    `hedvar_monetary_incentive_delay__graded_reward_mid`
-  - The cues signal several different amounts, for example 20 cents, 1 dollar or 5 dollars, so that the response to anticipating reward can be compared across amounts.
-  - Multiple reward magnitude levels; tests reward sensitivity parametrically
-* - MID with Social Rewards
-
-    `hedvar_monetary_incentive_delay__mid_with_social_rewards`
-  - A fast response earns a smiling face or words of approval instead of money, with a neutral image for missed trials. This is the Social Incentive Delay Task, which the Catalog lists separately.
-  - Social stimuli (faces) as rewards instead of money; different incentive type
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - MID with Drug Cues
 
     `hedvar_monetary_incentive_delay__mid_with_drug_cues`
-  - The cues or rewards are related to a substance such as alcohol, cigarettes or cocaine, for example a picture of the drug signaling the trial, used with people who use that substance.
-  - Drug-associated cues as incentive stimuli; different cue content
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>; population: <a href="vocabulary.html#facet-population-patients">patients</a>
+  - -
+  - The cues or rewards are pictures of a substance and the task is run with people who use that substance.
 * - Passive MID
 
     `hedvar_monetary_incentive_delay__passive_mid`
-  - The cue and outcome are shown but the participant does not press anything; wins and losses are delivered according to a preset schedule. The brain response to anticipating gain or loss is measured without any motor preparation.
-  - No response required; isolates anticipatory processing from motor preparation
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - -
+  - The cue and outcome are shown but the participant presses nothing, with wins and losses following a preset schedule.
 * - MID with Effort Component
 
     `hedvar_monetary_incentive_delay__mid_with_effort_component`
-  - Instead of a quick button press, the participant must squeeze a hand grip hard enough or press a key many times to earn the cued reward, so that willingness to work for money is measured alongside anticipation.
-  - Effort required to obtain reward; adds effort-discounting to incentive structure
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-grip-force-device">grip force device</a>
+  - [Effort allocation](../processes/reward_anticipation_and_motivation.md#hed-effort-allocation)
+  - Instead of one quick press the participant must squeeze a hand grip hard enough or press a key many times to earn the cued reward.
 ```
 
 ## Cognitive processes

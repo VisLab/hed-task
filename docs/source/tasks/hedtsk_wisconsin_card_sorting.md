@@ -13,6 +13,24 @@ Sort cards by a hidden rule (color, form, or number) using only correct/incorrec
 
 The WCST tests cognitive flexibility, set-shifting, and learning from feedback. Participants match cards displaying varying numbers of colored symbols to four reference cards according to an unannounced sorting rule (color, shape, or number). After 10 consecutive correct sorts, the rule changes without warning. Feedback ("correct"/"incorrect") is provided after each sort. The test measures categories completed, perseverative errors (continued use of the previous rule), non-perseverative errors, and the ability to maintain set. It is the gold-standard clinical test of prefrontal executive function.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-previous-rule">previous rule</a>
+- **Where does the rule come from?** <a href="vocabulary.html#rule-respond-to-rule-rule-source-learned-from-feedback">learned from feedback</a>
+- **Does the rule change during play?** <a href="vocabulary.html#rule-respond-to-rule-rule-stability-shifts-unsignalled">shifts unsignalled</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>
+- **Material:** Cards that vary in the color, shape and number of their symbols, some ambiguous, sorted against four reference cards.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -31,6 +49,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Number of consecutive correct before shift
     - Ambiguous cards
     - Computerized vs. manual administration
+    - Rule-change signaling (explicit cue vs. silent change)
 * - **Measurements**
   - - Categories completed
     - Perseverative errors (continuing to sort by old rule)
@@ -38,53 +57,56 @@ least one of the listed variables, and it records at least one of the listed mea
     - Trials to first category
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard WCST (128 Cards)
-
-    `hedvar_wisconsin_card_sorting__standard_wcst_128_cards`
-  - Four reference cards differ in the color, shape and number of their symbols. The participant places each of 128 cards under one reference card, and is told only 'right' or 'wrong'. After ten correct placements the hidden rule (sort by color, shape or number) silently changes. Continuing to sort by the old rule is a perseverative error.
-  - Canonical 128-card version with shifting sorting rules
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Short Form WCST (64 Cards)
 
     `hedvar_wisconsin_card_sorting__short_form_wcst_64_cards`
-  - Only the first 64 cards are used, halving the time while keeping the same rules and scoring.
-  - 64-card abbreviated version; recognized efficient form
+  - named form
+  - -
+  - A named instrument using only the first 64 cards with the same rules and scoring.
 * - Modified WCST with Explicit Cues
 
     `hedvar_wisconsin_card_sorting__modified_wcst_with_explicit_cues`
-  - The participant is told when the rule changes, or told which rules are possible, or both. Comparing with the standard version separates difficulty in discovering the rule from difficulty in switching to it.
-  - Explicit cues about sorting dimension; tests rule use vs. rule discovery
+  - rule stability: <a href="vocabulary.html#rule-respond-to-rule-rule-stability-switches-on-cue">switches on cue</a>
+  - -
+  - The participant is told when the rule changes (and sometimes which rules are possible), so the rule change is signalled instead of silent while the rule itself is still found from feedback.
 * - Berg Card Sorting Test
 
     `hedvar_wisconsin_card_sorting__berg_card_sorting`
-  - A simpler version with fewer cards and clearly separated sorting features, used in early studies and as a freely available computerized form.
-  - Simplified precursor with fewer cards and dimensions; named related instrument
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - -
+  - A named simplified precursor with fewer cards and clearly separated sorting features, available as a computerized form.
 * - Intra-/Extra-Dimensional Set Shifting (IED)
 
     `hedvar_wisconsin_card_sorting__intra_extra_dimensional_set_shifting_ied`
-  - A touchscreen test from the Cambridge Neuropsychological Test Automated Battery. The participant learns which of two shapes is correct through feedback. The rule changes in stages: first to a new pair of shapes with the same feature relevant, then to a different feature (line patterns superimposed on the shapes). The latter shift is the hard one.
-  - CANTAB analog with distinct dimension-shifting structure; different stimuli and shift types
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-abstract-patterns">abstract patterns</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-touchscreen">touchscreen</a>
+  - -
+  - A named CANTAB instrument in which the participant learns by feedback which of two shapes is correct and the rule shifts in stages, first within the same feature and then to a different feature.
 * - Reversal-Only WCST
 
     `hedvar_wisconsin_card_sorting__reversal_only_wcst`
-  - Only two sorting rules are used and the rule simply switches between them, so the task measures reversal rather than discovery of a new rule among several.
-  - Only reversal phase; isolates reversal from acquisition
+  - named form
+  - [Reversal learning](../processes/associative_learning_and_reinforcement.md#hed-reversal-learning)
+  - Only two sorting rules are used, so every silent rule change is a reversal to the other rule rather than discovery of a new rule among three.
 * - Probabilistic WCST
 
     `hedvar_wisconsin_card_sorting__probabilistic_wcst`
-  - The feedback is wrong some of the time, for example 'wrong' on 20 percent of correct sorts, so the participant must decide whether a 'wrong' means the rule has changed or is just noise.
-  - Sorting feedback probabilistic rather than deterministic; different uncertainty structure
+  - named form
+  - -
+  - The feedback is wrong on a proportion of trials, so a "wrong" may be noise rather than a rule change.
 ```
 
 ## Cognitive processes

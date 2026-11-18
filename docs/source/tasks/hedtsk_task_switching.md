@@ -13,6 +13,24 @@ Alternation between two or more simple tasks on cue; switch-cost RT and errors i
 
 Task Switching paradigms measure cognitive flexibility by requiring participants to alternate between two or more classification tasks. Participants view stimuli (e.g., bivalent alphanumeric characters like "G3") and perform different classifications depending on a task cue (letter: vowel/consonant; digit: odd/even). Tasks alternate in predictable sequences (e.g., AABB) or are cued on each trial. The primary measures are switch costs (increased RT and errors when switching tasks vs. repeating the same task) and mixing costs (increased RT in mixed-task blocks vs. single-task blocks). Switch costs reflect the time for task-set reconfiguration.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-previous-rule">previous rule</a>
+- **Does a cue come before the target?** <a href="vocabulary.html#rule-respond-to-rule-cue-rule-cue">rule cue</a>
+- **Does the rule change during play?** <a href="vocabulary.html#rule-respond-to-rule-rule-stability-switches-on-cue">switches on cue</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
+- **Material:** Bivalent characters such as a letter-digit pair (G3), classified by the letter (vowel or consonant) or the digit (odd or even) as the cue directs.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,76 +48,69 @@ least one of the listed variables, and it records at least one of the listed mea
     - Task difficulty
     - Number of tasks
     - Cue transparency
+    - Task sequence (random cued, predictable alternating runs, voluntary choice)
+    - Block type (pure vs. mixed)
+    - Response-stimulus interval
+    - Stimulus type (univalent vs. bivalent)
+    - Added conflict from an irrelevant stimulus dimension
 * - **Measurements**
   - - Switch cost (switch - repeat RT and accuracy)
     - Mixing cost (mixed block - pure block)
     - Preparation effect (switch cost reduction with longer CSI)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Cued Task-Switching
-
-    `hedvar_task_switching__cued_task_switching`
-  - Each trial starts with a cue, such as a word or a colored frame, telling the participant which of two tasks to do on the coming stimulus (for example, judge a digit as odd or even, or as bigger or smaller than 5). Responses are slower when the task differs from the previous trial.
-  - Canonical cue specifies task each trial
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Alternating Runs (AABB)
 
     `hedvar_task_switching__alternating_runs_aabb`
 
     Cognitive Atlas: [alternating runs paradigm](https://www.cognitiveatlas.org/task/id/trm_4da88b8b60ffb)
-  - No cue is given; instead the tasks alternate in a fixed pattern, usually two trials of one then two of the other, often with the stimulus moving around a grid to mark position in the pattern. The participant must keep track of where they are.
-  - Predictable alternation without explicit cue; different task structure
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-none">none</a>
+  - -
+  - No cue is given; the task changes on a fixed, known schedule (two trials of each), often marked by the stimulus stepping around a grid, and the participant must keep track.
 * - Voluntary Task Switching
 
     `hedvar_task_switching__voluntary_task_switching`
-  - The participant decides on each trial which task to perform, with the instruction to do both about equally often in a random order. The choice is read from which response keys are used. How often people choose to switch is measured as well as the cost.
-  - Participant chooses task; measures voluntary switching rates
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-none">none</a>
+  - -
+  - The participant chooses which task to do on each trial, with no cue, and is asked to use both about equally often and in a random order.
 * - Mixing Cost Paradigm
 
     `hedvar_task_switching__mixing_cost_paradigm`
-  - Blocks in which only one task is done are compared with blocks in which the two tasks are mixed. Even trials in the mixed blocks that repeat the task are slower than single-task trials, a cost of keeping both tasks ready.
-  - Compares mixed-block to pure-block performance; different block structure
-* - Cue-Stimulus Interval (CSI) Manipulation
-
-    `hedvar_task_switching__cue_stimulus_interval_csi_manipulation`
-  - The time between the cue and the stimulus is varied, from almost none to a second or more. Longer preparation time reduces the switch cost but does not remove it.
-  - Varies preparation time; tests proactive preparation
-* - Response-Stimulus Interval (RSI) Manipulation
-
-    `hedvar_task_switching__response_stimulus_interval_rsi_manipulation`
-  - The time between one trial's response and the next trial's stimulus is varied, without changing the preparation time, to see how the previous task's influence fades on its own.
-  - Varies post-response interval; tests backward inhibition decay
-* - Task Switching with N>2 Tasks
-
-    `hedvar_task_switching__task_switching_with_n_2_tasks`
-  - Three or more tasks are cued. Returning to a task that was done two trials ago (A-B-A) is slower than coming to a task not done recently (C-B-A), which shows that a task is inhibited when it is abandoned.
-  - Three or more tasks; different reconfiguration demands
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>; rule stability: <a href="vocabulary.html#rule-respond-to-rule-rule-stability-fixed">fixed</a>
+  - -
+  - Pure blocks in which the rule never changes are added and compared with the mixed blocks of the standard form.
 * - Univalent vs. Bivalent Stimuli
 
     `hedvar_task_switching__univalent_vs_bivalent_stimuli`
-  - Stimuli either allow only one of the tasks (for example letters for a letter task, digits for a digit task) or allow both (a letter and a digit together). Switch costs are larger when the stimulus could be used for either task.
-  - Stimuli compatible with one vs. both tasks; different interference structure
+  - competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-none">none</a>
+  - -
+  - Stimuli that afford only one of the rules (letters only, digits only) are compared with the standard bivalent stimuli that afford both, which removes the previous rule as a competitor in the univalent condition.
 * - Predictable vs. Random Task Sequences
 
     `hedvar_task_switching__predictable_vs_random_task_sequences`
-  - The order of tasks is either known in advance (a fixed alternation) or random with a cue, to see how much knowing what comes next helps preparation.
-  - Known vs. unknown switch sequence; tests preparation strategies
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-none">none</a>
+  - -
+  - A fixed, known order of tasks with no cue is compared with the standard random, cued order.
 * - Task Switching with Conflict
 
     `hedvar_task_switching__task_switching_with_conflict`
-  - The stimuli are also designed to create response conflict, for example a Stroop or flanker item, so that the cost of switching tasks and the cost of resolving conflict can be studied together.
-  - Bivalent stimuli with competing responses; combined switching and conflict
+  - competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-irrelevant-dimension">irrelevant dimension</a>
+  - [Interference control](../processes/inhibitory_control_and_conflict_monitoring.md#hed-interference-control)
+  - The stimuli are built as Stroop or flanker items, so an irrelevant dimension competes with the response as well as the previous task's rule.
 ```
 
 ## Cognitive processes

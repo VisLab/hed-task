@@ -13,6 +13,30 @@ Participants choose between a low-effort/low-reward option and a high-effort/hig
 
 Effort-based decision-making tasks measure the willingness to exert physical or cognitive effort in exchange for reward. In the Effort Expenditure for Rewards Task (EEfRT; Treadway et al., 2009), participants on each trial choose between an easy task (e.g., pressing a button with the dominant index finger 30 times in 7 seconds for a small reward) and a hard task (pressing with the non-dominant pinky finger 100 times in 21 seconds for a larger, variable reward). Reward magnitude and probability are manipulated across trials to map the effort-reward tradeoff. The proportion of hard-task choices is the primary measure, indexing motivational drive. Effort discounting variants (Botvinick, Huffstetler, & McGuire, 2009) use a titration procedure to find the reward value at which effortful and easy options are equally preferred (the indifference point). The paradigm has become central to research on motivational anhedonia - the reduced willingness to exert effort for reward that characterizes depression, schizophrenia, and Parkinson's disease. Computational models decompose behavior into effort sensitivity, reward sensitivity, and probability weighting parameters. The framework connects to dopaminergic theories of motivation: effort willingness is modulated by dopamine function in the ventral striatum and anterior cingulate cortex.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
+- **What are the options?** <a href="vocabulary.html#rule-choose-for-outcomes-option-set-two-described">two described</a>
+- **How does the player learn what pays?** <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-described">described</a>
+- **What is traded against what?** <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-amount-vs-effort">amount vs effort</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>, <a href="vocabulary.html#motivation-what-effort-cost">effort cost</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>, <a href="vocabulary.html#setting-reward-probability">reward probability</a>
+- **Material:** Pairs of offers, an easy task for a small reward against a hard task (such as 100 button presses) for a larger reward of stated probability.
+- **Combined with:** <a href="vocabulary.html#how-chained">chained</a>, <a href="vocabulary.html#game-produce-movement">produce movement</a> (The effort task chosen is carried out after each choice)
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -31,6 +55,9 @@ least one of the listed variables, and it records at least one of the listed mea
     - Effort demand level (physical vs. cognitive; graded difficulty)
     - Effort type (button pressing, grip force, N-back)
     - Block structure (fixed vs. adaptive staircase)
+    - Effort schedule (progressive ratio vs. two-offer choice)
+    - Reward (none vs. paid)
+    - Choice structure (patch leaving with diminishing returns)
 * - **Measurements**
   - - Proportion of high-effort choices
     - Effort indifference point (reward at which hard and easy options are equally chosen)
@@ -39,53 +66,56 @@ least one of the listed variables, and it records at least one of the listed mea
     - Computational model parameters (effort sensitivity, reward sensitivity, probability weighting)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - EEfRT (Physical Effort)
-
-    `hedvar_effort_based_decision_making__eefrt_physical_effort`
-  - On each trial the participant chooses between an easy task (about 30 presses with the index finger in 7 seconds for a small fixed reward) and a hard task (about 100 presses with the little finger in 21 seconds for a larger reward). The size of the larger reward and the probability of being paid vary across trials. How often the hard task is chosen measures willingness to work for reward.
-  - Canonical effort-reward task: grips vs. reward levels
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Cognitive Effort Discounting
 
     `hedvar_effort_based_decision_making__cognitive_effort_discounting`
-  - The effort is mental rather than physical. After experiencing working-memory tasks of different difficulty (such as 1-back to 4-back), the participant repeatedly chooses between doing an easy level for a smaller amount or a harder level for a larger amount, with the amounts adjusted until they are indifferent.
-  - Cognitive task difficulty vs. reward; different effort type
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+  - [Working memory](../processes/short_term_and_working_memory.md#hed-working-memory)
+  - The effort is a level of the n-back task, experienced beforehand, rather than a bout of button pressing, and the amount offered for the easy option is adjusted until the participant is indifferent.
 * - Grip-Force Effort Task
 
     `hedvar_effort_based_decision_making__grip_force_effort`
-  - The participant squeezes a hand-grip device. Offers pair a reward with a required squeeze force as a share of the participant's maximum, and the participant accepts or rejects each offer, or chooses between offers. Force can be varied finely.
-  - Graded grip force as effort measure; different motor requirement
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-grip-force-device">grip force device</a>
+  - -
+  - The effort is a hand-grip squeeze at a stated share of the participant's maximum, accepted or rejected offer by offer or chosen between offers.
 * - Effort Discounting Titration
 
     `hedvar_effort_based_decision_making__effort_discounting_titration`
-  - For each effort level, the reward for the easy option is raised or lowered after each choice until the participant is indifferent between the easy and hard options. The resulting reward difference is the subjective cost of that effort level.
-  - Adaptive titration of effort-reward indifference points; different method
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+  - -
+  - For each effort level the easy-option reward is adjusted after each choice until the participant is indifferent.
 * - Progressive Ratio Task
 
     `hedvar_effort_based_decision_making__progressive_ratio`
-  - Each successive reward requires more presses or squeezes than the one before. The participant may stop at any time, and the effort level at which they quit (the breakpoint) measures the most they are willing to do for the reward.
-  - Escalating effort requirement for each reward; different effort schedule
+  - option set: <a href="vocabulary.html#rule-choose-for-outcomes-option-set-one-option-with-stop">one option with stop</a>
+  - -
+  - The two-offer choice is replaced by a single escalating response requirement that the participant may abandon at any time; the breakpoint is the measure.
 * - Demand Selection Task
 
     `hedvar_effort_based_decision_making__demand_selection`
-  - Two decks or locations are offered that lead to the same kind of task, but one involves more frequent rule switches than the other. No reward depends on the choice. Participants are not told the difference, and a preference for the easier option shows avoidance of mental effort.
-  - Freely choose between high/low demand tasks; choice behavior reveals effort avoidance
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>; option set: <a href="vocabulary.html#rule-choose-for-outcomes-option-set-k-hidden-outcome">k hidden outcome</a>; outcome knowledge: <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-experienced">experienced</a>; sign: <a href="vocabulary.html#motivation-sign-loss">loss</a>; what: <a href="vocabulary.html#motivation-what-effort-cost">effort cost</a>; drive: <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+  - -
+  - Two unlabeled options lead to the same kind of task, differing only in how often the task switches; nothing is paid and the difference is learned by experience, so the choice weighs effort alone.
 * - Apple-Gathering Task
 
     `hedvar_effort_based_decision_making__apple_gathering`
-  - The participant picks apples from a virtual tree, where each press yields fewer apples than the last, and decides when to leave for the next tree, which costs travel time. When they leave shows how they weigh continued effort against diminishing returns.
-  - Virtual navigation effort for rewards; different effort modality (locomotion)
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>; option set: <a href="vocabulary.html#rule-choose-for-outcomes-option-set-one-option-with-stop">one option with stop</a>; outcome knowledge: <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-experienced">experienced</a>
+  - -
+  - A foraging structure in which each press on a tree yields fewer apples than the last and the participant decides when to leave for the next tree at a travel-time cost, so the choice is stay-or-leave with experienced diminishing returns.
 ```
 
 ## Cognitive processes

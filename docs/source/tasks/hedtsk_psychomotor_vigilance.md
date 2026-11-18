@@ -13,6 +13,23 @@ Simple reaction to visual or auditory stimuli appearing at random intervals over
 
 The Psychomotor Vigilance Task is a sustained-attention reaction time task widely used in sleep research and fatigue monitoring. Participants monitor a display and respond as quickly as possible to a visual stimulus (typically a millisecond counter) that appears at random inter-stimulus intervals (2-10 seconds) over a 5-10 minute period. The primary measure is the number of lapses (responses >500 ms), reflecting momentary failures of sustained attention. The PVT is considered the gold-standard behavioral measure of vigilance and sleepiness because it is simple, has minimal learning effects, and is highly sensitive to sleep deprivation, circadian misalignment, and time-on-task.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructed-emphasis">instructed emphasis</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>, <a href="vocabulary.html#setting-interstimulus-interval">interstimulus interval</a>
+- **Material:** A millisecond counter (or a light) that appears at random intervals of 2-10 seconds.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -38,38 +55,38 @@ least one of the listed variables, and it records at least one of the listed mea
     - Reciprocal RT transformation
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard 10-Minute PVT
-
-    `hedvar_psychomotor_vigilance__standard_10_minute_pvt`
-  - For ten minutes the participant watches a screen and presses a button as fast as possible whenever a counter or light appears, which happens at random intervals of two to ten seconds. Responses slower than 500 ms are counted as lapses and presses before the stimulus as false starts.
-  - Canonical 10-min RT task with variable ISI
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Brief PVT (PVT-B)
 
     `hedvar_psychomotor_vigilance__brief_pvt_pvt_b`
-  - A three-minute version with shorter waits between stimuli (one to four seconds) and a lapse threshold of 355 ms, designed for repeated testing when ten minutes is too long.
-  - 3-min version; recognized published abbreviated instrument
+  - named form
+  - -
+  - A named three-minute instrument with shorter intervals and a lower lapse threshold; settings of the duration and interval-range manipulations.
 * - Palm PVT / Mobile PVT
 
     `hedvar_psychomotor_vigilance__palm_pvt_mobile_pvt`
-  - The task runs on a handheld device or smartphone, with a tap on the screen as the response, so it can be used outside the laboratory, for example in sleep studies at home or in the field.
-  - Handheld or mobile device; different motor and environmental context
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-touchscreen">touchscreen</a>; experimental environment: <a href="vocabulary.html#facet-experimental-environment-real-world">real world</a>
+  - -
+  - The same task on a handheld device with a screen tap as the response, usable outside the laboratory.
 * - Auditory PVT
 
     `hedvar_psychomotor_vigilance__auditory_pvt`
-  - The stimulus is a tone through headphones rather than a visual signal, and the participant presses the button as soon as the tone is heard. Usable with eyes closed or in darkness.
-  - Auditory tone instead of visual stimulus; different sensory modality
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - A tone through headphones replaces the visual signal; the participant presses as soon as it is heard.
 ```
 
 ## Cognitive processes

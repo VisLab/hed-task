@@ -7,6 +7,7 @@
 | [Attention Network Task](../tasks/hedtsk_attention_network.md) | `exact` | [attention networks test](https://www.cognitiveatlas.org/task/id/trm_4da6304c9aa23) | Second entry ANT task trm_551f0857e1db8 duplicates this |
 | [Auditory Masking Task](../tasks/hedtsk_auditory_masking.md) | `exact` | [auditory masking task](https://www.cognitiveatlas.org/task/id/trm_551b1b6f6a262) | - |
 | [Autobiographical Memory Task](../tasks/hedtsk_autobiographical_memory.md) | `exact` | [autobiographical memory task](https://www.cognitiveatlas.org/task/id/trm_4f244d2a54e27) | - |
+| [AX Continuous Performance Task](../tasks/hedtsk_ax_continuous_performance.md) | `exact` | [AX-CPT task](https://www.cognitiveatlas.org/task/id/trm_4c40d2a93ea15) | Two more AX entries: Continuous Performance Test - AX version (exact) and AX-DPX (close) |
 | [Balloon Analog Risk Task](../tasks/hedtsk_balloon_analog_risk.md) | `exact` | [balloon analogue risk task](https://www.cognitiveatlas.org/task/id/trm_4d559bcd67c18) | Best-annotated Atlas task entry: 12 concepts |
 | [Biological Motion Perception Task](../tasks/hedtsk_biological_motion_perception.md) | `exact` | [biological motion task](https://www.cognitiveatlas.org/task/id/trm_4f245326e2eaf) | Canonical entry; trm_58a5d31f5c72d is a passive-viewing variant |
 | [Body Ownership Illusion Task](../tasks/hedtsk_body_ownership_illusion.md) | `close` | [rubber hand illusion](https://www.cognitiveatlas.org/task/id/trm_4e5bb14d814a8) | Atlas covers the rubber hand illusion only, not the wider family |
@@ -23,6 +24,7 @@
 | [Digit Symbol Substitution Task](../tasks/hedtsk_digit_symbol_substitution.md) | `exact` | [symbol-digit substitution](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e44) | Atlas name is symbol-digit substitution |
 | [Directed Forgetting Task](../tasks/hedtsk_directed_forgetting.md) | `exact` | [directed forgetting task](https://www.cognitiveatlas.org/task/id/trm_4da87f383435b) | - |
 | [Dot-Probe Task](../tasks/hedtsk_dot_probe.md) | `close` | [attention bias](https://www.cognitiveatlas.org/task/id/trm_50df0d8dc717b) | Atlas names the construct (attention bias) with dot-probe as an alias |
+| [Dual N-Back Task](../tasks/hedtsk_dual_n_back.md) | `none` | - | No Atlas entry names the dual n-back |
 | [Effort-Based Decision-Making Task](../tasks/hedtsk_effort_based_decision_making.md) | `none` | - | No effort-based entry; value-based decision making is a different construct |
 | [Emotion Regulation Task](../tasks/hedtsk_emotion_regulation.md) | `exact` | [Emotion Regulation Task](https://www.cognitiveatlas.org/task/id/trm_56bbea82c12bb) | 510-char definition but zero concepts |
 | [Emotional Stroop Task](../tasks/hedtsk_emotional_stroop.md) | `related` | [Stroop task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e27) | Atlas has eight Stroop entries but no emotional or affective Stroop |
@@ -60,6 +62,7 @@
 | [Pavlovian Fear Conditioning Task](../tasks/hedtsk_pavlovian_fear_conditioning.md) | `close` | [pavlovian conditioning task](https://www.cognitiveatlas.org/task/id/trm_4c898acd1f28e) | Atlas entry is Pavlovian conditioning generally, not fear conditioning |
 | [Phonological Awareness Task](../tasks/hedtsk_phonological_awareness.md) | `related` | [rhyme verification task](https://www.cognitiveatlas.org/task/id/trm_4d949c5b0e380) | Rhyme verification is one component; no general phonological awareness entry |
 | [Picture Naming Task](../tasks/hedtsk_picture_naming.md) | `exact` | [picture naming task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949cfb) | - |
+| [Picture-Word Interference Task](../tasks/hedtsk_picture_word_interference.md) | `close` | [picture-word Stroop test](https://www.cognitiveatlas.org/task/id/trm_4dadbfd771a54) | Line drawings paired with congruent or incongruent names; the Atlas definition does not say what is named |
 | [Posner Spatial Cueing Task](../tasks/hedtsk_posner_spatial_cueing.md) | `exact` | [Posner cueing task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949d17) | - |
 | [Prisoner's Dilemma Task](../tasks/hedtsk_prisoners_dilemma.md) | `exact` | [prisoner's dilemma (PD)](https://www.cognitiveatlas.org/task/id/tsk_KRl3zbyaJcKWM) | 1366-char definition but zero concepts |
 | [Probabilistic Classification Learning Task](../tasks/hedtsk_probabilistic_classification_learning.md) | `exact` | [Probabilistic classification task](https://www.cognitiveatlas.org/task/id/trm_4cacf22a22d80) | Three weather-prediction variants exist separately |
@@ -91,6 +94,7 @@
 | [Take Questionnaire Task](../tasks/hedtsk_take_questionnaire.md) | `close` | - | Atlas lists self-report instruments, not the act of answering one; each instrument is narrower than the task |
 | [Task Switching Task](../tasks/hedtsk_task_switching.md) | `exact` | [task-switching](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949e8a) | Set-shifting and alternating-runs exist as separate entries |
 | [Think/No-Think Task](../tasks/hedtsk_think_no_think.md) | `exact` | [think/no-think task](https://www.cognitiveatlas.org/task/id/trm_54f93101b2fd8) | Zero concepts |
+| [Tower of Hanoi Task](../tasks/hedtsk_tower_of_hanoi.md) | `exact` | [Tower of Hanoi](https://www.cognitiveatlas.org/task/id/trm_4da87e7282f92) | - |
 | [Tower of London Task](../tasks/hedtsk_tower_of_london.md) | `exact` | [Tower of London](https://www.cognitiveatlas.org/task/id/trm_4da87e439c411) | - |
 | [Trail Making Task](../tasks/hedtsk_trail_making.md) | `exact` | [Trail Making Test A and B](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949ec0) | - |
 | [Trust Game Task](../tasks/hedtsk_trust_game.md) | `exact` | [Trust game (TG)](https://www.cognitiveatlas.org/task/id/tsk_uzol7erTzr9Ix) | 1497-char definition but zero concepts |

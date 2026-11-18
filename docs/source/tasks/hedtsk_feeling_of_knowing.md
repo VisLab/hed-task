@@ -13,6 +13,23 @@ After failing to recall a studied item, participants rate the likelihood they co
 
 The Feeling-of-Knowing task measures the accuracy of metacognitive judgments about information that cannot currently be recalled. In the standard Hart (1965) paradigm, participants study cue-target pairs, attempt cued recall, and then - for items they failed to recall - rate their confidence that they would recognize the correct answer among alternatives. A subsequent recognition test determines the accuracy of these predictions. The key dependent measure is resolution - the correspondence between feeling-of-knowing magnitude and recognition performance, typically quantified by the Goodman-Kruskal gamma correlation. Feeling-of-knowing judgments are thought to rely on partial retrieval of target attributes, cue familiarity, and accessibility of related information, rather than direct access to trace strength. The paradigm dissociates from Judgment-of-Learning tasks in timing (post-retrieval-failure vs. post-encoding), prediction target (recognition vs. recall), and cognitive basis (partial retrieval and cue familiarity vs. encoding fluency). Feeling-of-knowing accuracy is sensitive to frontal lobe damage, aging, Alzheimer's disease, and schizophrenia, and is more closely tied to executive functioning than Judgment-of-Learning accuracy.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **What is studied?** <a href="vocabulary.html#rule-study-then-test-studied-material-pairs">pairs</a>
+- **Is a judgment about one's own memory added?** <a href="vocabulary.html#rule-study-then-test-inserted-judgment-after-failed-recall">after failed recall</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>, <a href="vocabulary.html#setting-retention-interval">retention interval</a>
+- **Material:** Cue-target word pairs or general-knowledge questions, and a recognition test with several alternatives.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -25,12 +42,14 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Procedure**
   - 1. Participants study cue-target pairs, attempt cued recall, and for each unrecalled item rate their feeling of knowing (likelihood of future recognition).
     2. a subsequent recognition test assesses prediction accuracy.
+    3. Optional: After each recognition test the participant is told whether they were right and the task continues with more items.
 * - **Manipulations**
   - - Cue familiarity (high vs. low)
     - Target accessibility (related vs. unrelated cues)
     - Number of recognition alternatives
     - Delay between judgment and recognition test
     - Domain (episodic vs. semantic general knowledge)
+    - Information at the time of rating (cue only vs. cue with partial target information)
 * - **Measurements**
   - - Feeling-of-knowing magnitude (mean rating)
     - Resolution (gamma correlation between ratings and recognition accuracy)
@@ -38,43 +57,38 @@ least one of the listed variables, and it records at least one of the listed mea
     - Response latency for feeling-of-knowing judgments
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Episodic Feeling-of-Knowing
-
-    `hedvar_feeling_of_knowing__episodic_feeling_of_knowing`
-  - The participant studies word pairs. Later, given the first word, they try to recall the second. For each pair they cannot recall, they rate how likely they would be to recognize the answer if shown it. A recognition test follows, and the match between ratings and recognition is the measure.
-  - FOK for episodic memories; unrecalled episode-specific items
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Semantic / General-Knowledge Feeling-of-Knowing
 
     `hedvar_feeling_of_knowing__semantic_general_knowledge_feeling_of_knowing`
-  - The questions are general-knowledge items such as 'What is the capital of Australia?' rather than studied pairs. For each answer the participant cannot recall, they rate the likelihood of recognizing it, and a multiple-choice test follows.
-  - FOK for semantic facts; different memory system
-* - Cue-Only vs. Cue-Target Paradigm
-
-    `hedvar_feeling_of_knowing__cue_only_vs_cue_target_paradigm`
-  - At the time of the rating, either only the question or cue word is shown, or the cue is shown together with some partial information about the answer. Compares ratings based on the cue alone with ratings that can draw on fragments of the answer.
-  - Study with or without target; tests whether target exposure affects FOK accuracy
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-text">text</a>
+  - -
+  - General-knowledge questions replace studied pairs, so there is no study phase and the items not recalled are long-held facts.
 * - Tip-of-the-Tongue Variant
 
     `hedvar_feeling_of_knowing__tip_of_the_tongue_variant`
-  - The participant indicates when they are in a tip-of-the-tongue state, feeling the answer is on the verge of coming, and may report partial information such as the first letter or number of syllables. These items are analyzed separately from ordinary failures to recall.
-  - TOT state as extreme FOK; different phenomenology and partial information access
+  - named form
+  - -
+  - The participant also flags items on which they are in a tip-of-the-tongue state and reports partial information such as the first letter.
 * - Feeling-of-Knowing with Feedback
 
     `hedvar_feeling_of_knowing__feeling_of_knowing_with_feedback`
-  - After each recognition test the participant is told whether they were right, and the task continues with further items, to see whether the accuracy of their ratings improves with this information.
-  - Accuracy feedback after recognition test; tests calibration learning
+  - feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+  - -
+  - After each recognition test the participant is told whether they were right and the task continues with more items.
 ```
 
 ## Cognitive processes

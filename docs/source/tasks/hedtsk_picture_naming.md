@@ -13,6 +13,21 @@ Naming of pictured objects; RT and errors index lexical retrieval and are sensit
 
 Participants view photographs or line drawings of common objects, animals, or scenes and name each item aloud as quickly and accurately as possible. Naming latency (RT from stimulus onset to vocal response onset) is the primary measure. The task engages multiple stages of language production: conceptual identification, lemma retrieval, phonological encoding, and articulation. fMRI reveals activation in left inferior frontal regions (Broca's area) and temporal cortex. The task is widely used in aphasia research and studies of language production.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-identify">identify</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Material:** Line drawings or photographs of common objects and animals, varying in object frequency, name agreement and visual complexity.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,70 +44,61 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Object frequency
     - Name agreement
     - Visual complexity
-    - Phonological or semantic context (blocked naming, picture-word interference)
+    - Phonological or semantic context (blocked naming)
+    - Response release (delayed go signal vs. immediate naming)
+    - Naming language (cued per trial; switch vs. repeat)
+    - Retrieval report (know, tip-of-the-tongue, do not know) with partial information
+    - Hint after failed naming (first sound or meaning)
 * - **Measurements**
   - - Naming latency
     - Error type (semantic, phonological)
     - Frequency and agreement effects
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Single-Object Naming
-
-    `hedvar_picture_naming__standard_single_object_naming`
-  - Line drawings or photographs of objects appear one at a time and the participant says the name of each as quickly as possible. A microphone records the time from picture onset to the start of speech.
-  - Canonical overt naming to pictured objects
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Blocked-Cyclic Naming
 
     `hedvar_picture_naming__blocked_cyclic_naming`
-  - A small set of pictures is named repeatedly in cycles. In some blocks all pictures in the set are from one category (all animals); in others they are mixed. Naming slows over cycles in the same-category blocks because related words compete.
-  - Same items repeat in blocked cycles; cumulative interference paradigm
-* - Continuous Naming
-
-    `hedvar_picture_naming__continuous_naming`
-  - A long list of pictures is named once each, with pictures from the same category scattered through the list. Each additional picture from a category is named a little more slowly than the one before, showing interference building up.
-  - Rapid successive naming; tests sustained lexical access
-* - Picture-Word Interference (PWI)
-
-    `hedvar_picture_naming__picture_word_interference_pwi`
-  - A written or spoken word is presented with each picture, and the participant names the picture while ignoring the word. A word related in meaning (cat for a picture of a dog) slows naming; a word that sounds similar (doll) speeds it.
-  - Distractor word accompanies picture; lexical competition paradigm
-* - Delayed Naming
-
-    `hedvar_picture_naming__delayed_naming`
-  - The picture is shown but the participant must wait for a signal, typically one to two seconds later, before saying the name. Because the name is ready before the signal, response time reflects only speech production.
-  - Delay between picture onset and response signal; isolates planning from execution
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - -
+  - A small picture set is named repeatedly in cycles, in blocks that are all one category or mixed, so that related names compete across trials.
 * - Object + Action Naming
 
     `hedvar_picture_naming__object_action_naming`
-  - Pictures show actions as well as objects, and the participant names the action with a verb ('running') or the object with a noun, in separate or mixed blocks.
-  - Name actions as well as objects; different grammatical category
+  - named form
+  - -
+  - Pictures of actions are added and the participant names the action with a verb or the object with a noun, in separate or mixed blocks.
 * - Bilingual Picture Naming
 
     `hedvar_picture_naming__bilingual_picture_naming`
-  - A cue on each trial (such as a flag or color) tells a bilingual participant which language to name the picture in. Naming is slower just after a switch of language.
-  - Language cue specifies response language; language control demand
+  - population: <a href="vocabulary.html#facet-population-bilinguals">bilinguals</a>; cue: <a href="vocabulary.html#rule-respond-to-rule-cue-rule-cue">rule cue</a>; rule stability: <a href="vocabulary.html#rule-respond-to-rule-rule-stability-switches-on-cue">switches on cue</a>
+  - [Set shifting](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-set-shifting)
+  - A cue on each trial tells a bilingual participant which language to name the picture in, and trials where the language switches are compared with repeats.
 * - Tip-of-the-Tongue (TOT) Paradigm
 
     `hedvar_picture_naming__tip_of_the_tongue_tot_paradigm`
-  - Pictures of rarely named things or people (famous faces, unusual objects) are used to provoke states in which the participant knows the name but cannot produce it. The participant reports whether they know it, are in that state, or do not know, and may report partial information such as the first letter.
-  - Naming under word-finding difficulty conditions; different metacognitive state
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>; combined with: <a href="vocabulary.html#how-inserted">inserted</a>, <a href="vocabulary.html#game-report-on-self">report on self</a> (When naming fails, the player reports their retrieval state and what they partly know)
+  - [Feeling of knowing](../processes/awareness_agency_and_metacognition.md#hed-feeling-of-knowing), [Metacognitive monitoring](../processes/awareness_agency_and_metacognition.md#hed-metacognitive-monitoring)
+  - Rarely named items and famous faces provoke states where the name is known but cannot be produced, and the participant reports know / tip-of-the-tongue / do not know plus any partial information, adding a report on their own retrieval state to the naming job.
 * - Naming with Phonological/Semantic Cues
 
     `hedvar_picture_naming__naming_with_phonological_semantic_cues`
-  - When the participant cannot name a picture, a hint is given, such as the first sound of the name or a description of its meaning, and whether the hint produces the name is recorded.
-  - Partial cues provided after TOT; different cueing structure
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-feature-cue">feature cue</a>
+  - -
+  - When naming fails a hint is given (the first sound, or a description of the meaning), and whether the hint brings out the name is recorded.
 ```
 
 ## Cognitive processes

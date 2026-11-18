@@ -11,7 +11,30 @@ After initial stimulus-reward learning, the contingencies switch; perseveration 
 
 ## Description
 
-Participants learn a stimulus-outcome association (e.g., stimulus A is rewarded, B is not), then contingencies are reversed. Participants must flexibly adapt their behavior to the new associations. Performance measures include trials to criterion and perseverative errors (continued selection of the previously rewarded stimulus). The task can use deterministic or probabilistic contingencies. Neuroimaging consistently implicates the orbitofrontal cortex and ventrolateral prefrontal cortex in reversal learning, particularly for updating stimulus-outcome associations based on feedback.
+Participants learn a stimulus-outcome association (e.g., stimulus A is rewarded, B is not), then contingencies are reversed. Participants must flexibly adapt their behavior to the new associations. Performance measures include trials to criterion and perseverative errors (continued selection of the previously rewarded stimulus). The task can use deterministic or probabilistic contingencies. Neuroimaging consistently implicates the orbitofrontal cortex and ventrolateral prefrontal cortex in reversal learning, particularly for updating stimulus-outcome associations based on feedback. Some forms take points away for a wrong choice rather than merely withholding a win.
+
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
+- **What are the options?** <a href="vocabulary.html#rule-choose-for-outcomes-option-set-stimulus-pairs">stimulus pairs</a>
+- **What is traded against what?** <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-probability-learning">probability learning</a>
+- **Does what pays change?** <a href="vocabulary.html#rule-choose-for-outcomes-contingency-stability-reversal">reversal</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-points">points</a>, <a href="vocabulary.html#motivation-what-money">money</a>, <a href="vocabulary.html#motivation-what-signal-only">signal only</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-feedback-reliability">feedback reliability</a>, <a href="vocabulary.html#setting-stimulus-similarity">stimulus similarity</a>
+- **Material:** Two stimuli, one rewarded and one not, whose assignment reverses once the participant reaches criterion.
 
 ## Inclusion test
 
@@ -30,54 +53,39 @@ least one of the listed variables, and it records at least one of the listed mea
     - Deterministic vs. probabilistic feedback
     - Stimulus discriminability
     - Serial vs. spatial reversals
+    - Feedback type (reward vs. punishment reversal)
 * - **Measurements**
   - - Errors to criterion on initial discrimination and on reversals
     - Perseverative errors (continuing to choose previously correct stimulus)
     - Reversal cost
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Deterministic Reversal
-
-    `hedvar_reversal_learning__deterministic_reversal`
-  - Two stimuli are shown and the participant picks one. One is always rewarded and the other never. Once the participant reliably picks the rewarded one, the assignment is switched without warning, and the participant must learn to pick the other.
-  - Contingency fully reverses; canonical reversal learning
-* - Probabilistic Reversal
-
-    `hedvar_reversal_learning__probabilistic_reversal`
-  - The better stimulus is rewarded only most of the time (for example 80 percent) and the worse one sometimes. The participant must decide whether a non-reward is just bad luck or a sign that the rule has switched.
-  - Stochastic contingency reversal; different uncertainty structure
-* - Serial Reversal
-
-    `hedvar_reversal_learning__serial_reversal`
-  - The assignment is switched several times within the session, each time after the participant has adapted. Later reversals are usually handled faster than the first.
-  - Multiple reversals in sequence; tests reversal learning rate
-* - Stimulus-Outcome vs. Action-Outcome Reversal
-
-    `hedvar_reversal_learning__stimulus_outcome_vs_action_outcome_reversal`
-  - In one version the rewarded thing is a particular stimulus wherever it appears; in the other it is a particular response (such as the left key) whatever stimulus is shown. The reversal switches the stimulus rule or the response rule.
-  - Reversal of stimulus or action contingency; different associative structure
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Multi-Dimensional Reversal
 
     `hedvar_reversal_learning__multi_dimensional_reversal`
-  - The stimuli differ in several features (such as shape, color and position) and only one feature predicts reward. A reversal can switch which value of that feature is rewarded, or switch to a different feature altogether.
-  - Reversal involves change in relevant stimulus dimension; more complex
+  - named form
+  - -
+  - Stimuli differ on several features of which only one predicts reward, and a reversal can switch the rewarded value within that feature or move to a different feature altogether.
 * - Reward vs. Punishment Reversal
 
     `hedvar_reversal_learning__reward_vs_punishment_reversal`
-  - Feedback is winning versus not winning in some blocks and losing versus not losing in others, so that the speed of adapting after a reversal can be compared for reward-based and punishment-based learning.
-  - Valence manipulation changes learning signal
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>; sign: <a href="vocabulary.html#motivation-sign-both">both</a>
+  - -
+  - Feedback is win-versus-no-win in some blocks and lose-versus-no-lose in others.
 ```
 
 ## Cognitive processes

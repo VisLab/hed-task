@@ -13,6 +13,21 @@ Four cards with letters and numbers under a conditional rule; participants choos
 
 The Wason Selection Task is the classic test of conditional reasoning. Participants see four cards, each showing information on both sides. A conditional rule is stated (e.g., "If a card has an A on one side, then it has a 2 on the other"). Cards show one side each (e.g., A, B, 2, 7), and participants must select which cards need to be turned over to test the rule. The correct answer is the card showing A (potentially confirming) and the card showing 7 (potentially falsifying), but most participants incorrectly select A and 2 (confirmation bias). When the rule is reframed in terms of social contracts (e.g., "If you drink alcohol, you must be over 21"), performance dramatically improves, supporting evolutionary theories of cheater-detection modules.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-solve-problem">solve problem</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>, <a href="vocabulary.html#facet-stimulus-type-text">text</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-rules">number of rules</a>
+- **Material:** Four cards showing one side each (such as A, B, 2, 7) and a conditional rule, abstract or framed as a social contract.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,64 +45,39 @@ least one of the listed variables, and it records at least one of the listed mea
     - Rule polarity
     - Number of rules
     - Thematic context
+    - Task type (rule discovery by proposing triples)
 * - **Measurements**
   - - Proportion selecting logically correct cards (P and not-Q)
     - Error patterns
     - Facilitation from social-contract framing
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Abstract Wason Task (Standard)
-
-    `hedvar_wason_selection__abstract_wason_task_standard`
-  - Four cards show, for example, A, D, 4 and 7, with the rule 'if a card has a vowel on one side it has an even number on the other'. The participant chooses which cards must be turned over to check the rule. Most people fail to choose the 7, which could reveal a violation.
-  - Canonical abstract conditional reasoning; select cards to test rule
-* - Thematic/Concrete Versions
-
-    `hedvar_wason_selection__thematic_concrete_versions`
-  - The same logical structure is dressed in a familiar situation, for example cards showing drinks and ages with the rule 'if a person is drinking beer, they must be over 18'. People choose the correct cards far more often.
-  - Concrete familiar content; tests facilitation of abstract reasoning
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Social Contract Versions
 
     `hedvar_wason_selection__social_contract_versions`
-  - The rule is framed as a social exchange in which a benefit must be paid for ('if you take the benefit, you must meet the requirement'), and the participant looks for cheaters. These versions reliably produce correct selections.
-  - Cheater-detection framing; different evolutionary content domain
-* - Precaution Rules
-
-    `hedvar_wason_selection__precaution_rules`
-  - The rule is a safety precaution, such as 'if you work with toxic chemicals, you must wear gloves', and the participant checks for people who are in danger because they broke it.
-  - Safety precaution framing; different pragmatic rule type
-* - Deontic vs. Indicative Rules
-
-    `hedvar_wason_selection__deontic_vs_indicative_rules`
-  - The task is run with rules about what people must or may do (deontic) and with rules describing how things are (indicative), using matched content, to compare how the two kinds of rule are tested.
-  - Permission/obligation vs. descriptive conditional; different rule semantics
-* - Negated Rules
-
-    `hedvar_wason_selection__negated_rules`
-  - The rule contains a negation in one of its parts, such as 'if a card has an A, it does not have a 3'. Negations change which cards are logically relevant and make the task considerably harder.
-  - Negation in conditional changes logical structure
-* - Probabilistic Selection Task
-
-    `hedvar_wason_selection__probabilistic_selection`
-  - The rule is treated as a claim that is probably rather than certainly true, and the participant chooses which cards would be most informative for deciding whether to believe it, rather than which could prove it false.
-  - Probabilistic card selection instead of binary; different decision format
+  - social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - -
+  - The rule is a benefit-for-requirement exchange and the participant looks for cheaters.
 * - Wason 2-4-6 Task (Related)
 
     `hedvar_wason_selection__wason_2_4_6_task_related`
-  - A different rule-discovery task by the same author. The participant is told that the triple 2-4-6 fits a hidden rule and proposes their own triples, learning whether each fits, until they are ready to state the rule. People tend to test only triples that confirm their guess.
-  - Hypothesis-testing number sequence task; related reasoning paradigm
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>; feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+  - [Inductive reasoning](../processes/reasoning_and_problem_solving.md#hed-inductive-reasoning)
+  - A different rule-discovery task: the participant proposes number triples, is told whether each fits a hidden rule, and finally states the rule.
 ```
 
 ## Cognitive processes

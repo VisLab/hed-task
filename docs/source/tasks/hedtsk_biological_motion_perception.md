@@ -13,6 +13,22 @@ Judgment of human action or identity from sparse point-light displays attached t
 
 Participants view point-light display stimuli, animations created by placing markers on the joints of a person performing actions and capturing only the light points. The resulting stimuli (12-15 dots representing joints) convey complex human actions (walking, running, dancing) from minimal motion cues. Participants may recognize actions, judge coherence (upright vs. inverted), or discriminate biological from scrambled motion. The task measures perception of complex human movement and activates the posterior superior temporal sulcus, a region specialized for biological motion processing.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-points-of-light">points of light</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-stimulus-intensity">stimulus intensity</a>, <a href="vocabulary.html#setting-viewpoint-angle">viewpoint angle</a>
+- **Material:** Point-light animations of 12-15 dots at the joints of a person walking, running or dancing, shown intact, scrambled or inverted.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -25,84 +41,62 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Procedure**
   - Participants view point-light displays (dots at major joints) and identify actions, discriminate facing direction, or detect biological motion embedded in noise dots.
 * - **Manipulations**
-  - - Display type (intact vs. scrambled vs. inverted)
+  - - Display type (intact, scrambled, inverted, reversed playback)
     - Noise dot density
     - Action category
     - Viewpoint angle
+    - Comparison motion (mechanical vs. biological point-light motion)
 * - **Measurements**
   - - Accuracy and RT for action identification, direction discrimination, or detection
     - Noise-dot threshold for biological motion detection
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Intact Biological Motion
-
-    `hedvar_biological_motion_perception__intact_biological_motion`
-  - The participant watches a display of about a dozen moving dots placed at the joints of a walking person. The dots alone are enough to see a walker, and the participant reports what is seen, for example whether a person is present or which way they are walking.
-  - Standard point-light walker; canonical biological motion stimulus
-* - Scrambled Displays
-
-    `hedvar_biological_motion_perception__scrambled_displays`
-  - Each dot keeps its own movement pattern but is shifted to a random starting position, so the dots no longer line up as a body. The participant sees the same local motions without the overall figure, which serves as a control.
-  - Spatially scrambled dots preserve local motion but destroy global form; control condition with different percept
-* - Inverted Displays
-
-    `hedvar_biological_motion_perception__inverted_displays`
-  - The point-light walker is shown upside down. Recognition becomes much harder, which shows that the visual system expects figures in their usual orientation.
-  - Walker inverted; disrupts configural processing while preserving motion signals
-* - Reversed (Backward) Motion
-
-    `hedvar_biological_motion_perception__reversed_backward_motion`
-  - The walking animation is played in reverse, so the body shape is intact but the movements unfold in an unnatural order. The participant judges the display as usual.
-  - Temporal reversal disrupts action identity while preserving form
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Action Recognition
 
     `hedvar_biological_motion_perception__action_recognition`
-  - The point-light figure performs one of several actions, such as walking, running, jumping, throwing or kicking, and the participant names or chooses which action it was.
-  - Participant identifies specific action (running, kicking); classification task beyond detection
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-identify">identify</a>
+  - -
+  - The figure performs one of several actions and the participant names or chooses which.
 * - Detection in Noise
 
     `hedvar_biological_motion_perception__detection_in_noise`
-  - The walker's dots are hidden among extra randomly moving dots, and the participant reports whether a walker is present or where it is. The number of noise dots sets the difficulty.
-  - Walker embedded in noise dots; detection task with varying signal-to-noise
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-points-of-light">points of light</a>, <a href="vocabulary.html#facet-stimulus-type-random-dots">random dots</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>; competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-noise-or-mask">noise or mask</a>
+  - -
+  - The walker's dots are hidden among extra random dots and the participant reports whether or where a walker is present.
 * - Gender/Identity Discrimination
 
     `hedvar_biological_motion_perception__gender_identity_discrimination`
 
     Cognitive Atlas: [gender discrimination task](https://www.cognitiveatlas.org/task/id/trm_4f241c8d4a75c) (close match)
-  - The participant judges whether the point-light walker is male or female, or which of several known people it is, using only the way the dots move.
-  - Discrimination of walker gender or identity; different judgment dimension
+  - social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>, <a href="vocabulary.html#facet-social-aspect-explicit-social-task">explicit social task</a>
+  - -
+  - The participant judges from the motion alone either the walker's gender, as in the standard form, or which known person it is.
 * - Emotion from Body Motion
 
     `hedvar_biological_motion_perception__emotion_from_body_motion`
-  - The point-light figure moves in a way that expresses an emotion, such as angry, sad or happy walking, and the participant names the emotion from the movement alone.
-  - Emotional state judged from body kinematics; different recognition task
+  - emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>, <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>, <a href="vocabulary.html#facet-social-aspect-explicit-social-task">explicit social task</a>
+  - [Emotion recognition](../processes/emotion_perception_and_regulation.md#hed-emotion-recognition)
+  - The figure moves in an emotional style and the participant names the emotion from the movement alone.
 * - Partial/Occluded Displays
 
     `hedvar_biological_motion_perception__partial_occluded_displays`
-  - Only some of the joint dots are shown, or parts of the figure pass behind an invisible occluder, and the participant must still judge the figure from the incomplete display.
-  - Subset of dots visible; tests perceptual completion of biological motion
-* - Comparison with Mechanical Motion
-
-    `hedvar_biological_motion_perception__comparison_with_mechanical_motion`
-  - Point-light displays of a person are mixed with displays of rigid or mechanical motion, such as a rotating object or a machine, and the participant decides which kind of motion each display shows.
-  - Mechanical motion control alongside biological; category discrimination task
-* - Facing Direction Discrimination
-
-    `hedvar_biological_motion_perception__facing_direction_discrimination`
-  - The walker walks in place, and the participant reports whether it is facing left or right. Judging facing direction depends on recovering the body's shape from the moving dots.
-  - Ambiguous facing direction judgment; different perceptual task
+  - named form
+  - -
+  - Only some joint dots are shown, or parts of the figure pass behind an invisible occluder, and the participant judges the incomplete display.
 ```
 
 ## Cognitive processes

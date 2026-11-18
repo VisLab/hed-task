@@ -13,6 +13,23 @@ Choice of the best-matching mental-state word for a photograph of the eye region
 
 Participants view photographs showing only the eye and eyebrow region of actors and select which of four mental state descriptors best describes the person's thoughts or feelings. The revised version contains 36 photographs, each with four choices ranging from basic emotions to complex cognitive states (e.g., "sarcastic," "despondent"). The task indexes affective theory of mind and shows deficits in autism spectrum conditions. Performance correlates with amygdala and left inferior frontal gyrus activity.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>
+- **Emotional aspect:** <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>, <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-explicit-social-task">explicit social task</a>, <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>, <a href="vocabulary.html#setting-number-of-trials">number of trials</a>, <a href="vocabulary.html#setting-presentation-duration">presentation duration</a>
+- **Material:** Photographs of the eye region of actors' faces, each with four mental-state words ranging from basic emotions to complex states.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,49 +46,51 @@ least one of the listed variables, and it records at least one of the listed mea
     - Response options
     - Presentation duration
     - Basic vs. complex mental states
+    - Stimulus format (dynamic video vs. still photograph)
 * - **Measurements**
   - - Total correct
     - Comparison to normative data
     - Errors by emotion category
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - RMET Revised (36 items)
-
-    `hedvar_reading_the_mind_in_the_eyes__rmet_revised_36_items`
-  - Thirty-six black-and-white photographs of just the eye region of a face are shown one at a time, each with four mental-state words (such as 'nervous', 'playful', 'hostile', 'reflective'). The participant picks the word that best describes what the person is thinking or feeling. A glossary of the words is available.
-  - Canonical Baron-Cohen RMET with 36-item set
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - RMET Short Form (15-18 items)
 
     `hedvar_reading_the_mind_in_the_eyes__rmet_short_form_15_18_items`
-  - A subset of 15 to 18 of the items selected to give a score that correlates well with the full version in about half the time.
-  - Abbreviated form; recognized efficient version
+  - named form
+  - -
+  - A named short instrument of 15 to 18 of the same items; no design change.
 * - RMET Child Version
 
     `hedvar_reading_the_mind_in_the_eyes__rmet_child_version`
-  - A 28-item version for children in which the word choices are simpler (such as 'kind', 'cross', 'bored') and the photographs are chosen to suit a younger audience.
-  - Simplified vocabulary and reduced items for children; adapted per section 5.3
+  - population: <a href="vocabulary.html#facet-population-children">children</a>
+  - -
+  - A named 28-item instrument with simpler words and photographs chosen for children; no design change.
 * - Dynamic Eyes Task
 
     `hedvar_reading_the_mind_in_the_eyes__dynamic_eyes`
-  - Short video clips of the eye region in motion replace the still photographs, so that blinks, gaze shifts and changes in the eyes are available as cues.
-  - Moving eyes instead of static photographs; different stimulus type
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - -
+  - Short video clips of the eye region in motion replace the still photographs; the four-word choice is unchanged.
 * - Full-Face vs. Eyes-Only
 
     `hedvar_reading_the_mind_in_the_eyes__full_face_vs_eyes_only`
-  - The same mental-state choices are made for whole faces in one condition and for the eye region alone in another, to see how much is lost when only the eyes are visible.
-  - Full face context vs. isolated eyes region; different stimulus scope
+  - named form
+  - -
+  - The same choices are made for whole faces in one condition and the eye region alone in another, to measure what is lost when only the eyes are visible.
 ```
 
 ## Cognitive processes

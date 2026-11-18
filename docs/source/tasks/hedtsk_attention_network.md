@@ -13,6 +13,24 @@ Identify the direction of a central arrow flanked by congruent or incongruent ar
 
 The Attention Network Test (ANT) combines elements of the Posner cueing paradigm and the Eriksen flanker task to provide separate measures of three attention networks in a single task. Participants respond to the direction of a central arrow flanked by congruent or incongruent flankers, with the target preceded by no cue, a center cue, a double cue, or a spatial cue. The ANT yields three independent efficiency scores: alerting (double cue benefit over no cue), orienting (spatial cue benefit over center cue), and executive control (incongruent flanker cost). The task operationalizes Posner's attention network model.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-neighbouring-items">neighbouring items</a>
+- **Does a cue come before the target?** <a href="vocabulary.html#rule-respond-to-rule-cue-location-cue">location cue</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-proportion-congruent">proportion congruent</a>, <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
+- **Material:** A central arrow between flanking arrows that point the same or the opposite way, preceded by no cue, a center cue, a double cue or a spatial cue.
+- **Combined with:** <a href="vocabulary.html#how-throughout">throughout</a>, [Fixate Task](hedtsk_fixate.md) (Gaze is held on the fixation target while the main game is played)
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -28,54 +46,48 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Manipulations**
   - - Cue type (no cue, center cue, double cue, spatial cue)
     - Flanker congruency (congruent, incongruent)
+    - Cue validity and cue-target interval (invalid spatial cues; varied interval)
+    - Display position (lateralized left or right vs. above and below fixation)
+    - Stimulus type (cartoon fish vs. arrows)
+    - Emotional stimuli as cues or flankers
 * - **Measurements**
   - - Alerting network score (double-cue minus no-cue RT)
     - Orienting network score (center-cue minus spatial-cue RT)
     - Executive network score (incongruent minus congruent RT)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard ANT (Fan et al., 2002)
-
-    `hedvar_attention_network__standard_ant_fan_et_al_2002`
-  - On each trial a cue (none, a central alerting cue, cues at both possible locations, or a cue at the target location) is followed by a row of five arrows above or below fixation. The participant reports the direction of the middle arrow. Comparing cue types gives alerting and orienting scores; comparing matching and mismatching flankers gives an executive score.
-  - Canonical ANT with three cue types and flanker congruency; measures alerting, orienting, executive
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - ANT-I (Callejas et al.)
 
     `hedvar_attention_network__ant_i_callejas_et_al`
-  - Same arrows and flankers, but the alerting cue is a tone and the location cue is a separate visual cue, with each manipulated independently on every trial. This design lets the three network effects be tested for interactions with each other, which the original cannot do.
-  - Revised cue design with interaction effects measure; different trial structure and network scoring
-* - ANT-R (Revised)
-
-    `hedvar_attention_network__ant_r_revised`
-  - A revised design with more cue conditions, including a cue that points to the wrong location, and longer and varied intervals between cue and target. It separates orienting into moving and disengaging attention and gives more reliable executive scores.
-  - Revised version with separate conflict and inhibition measures; different trial protocol
-* - Lateralized ANT (LANT)
-
-    `hedvar_attention_network__lateralized_ant_lant`
-  - The arrow rows appear to the left or right of fixation rather than above or below it, so each target is delivered first to one hemisphere of the brain. The participant still reports the middle arrow's direction.
-  - Stimuli presented laterally to test hemispheric contributions; different spatial arrangement
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>, <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - The alerting cue becomes a tone and the location cue a separate visual cue, varied independently on every trial so the network effects can interact; the cue types are the same as the standard, only factorially crossed and partly auditory.
 * - Child ANT
 
     `hedvar_attention_network__child_ant`
-  - Arrows are replaced by a row of cartoon fish, and the child presses a key for the direction the middle fish is swimming. Trials are slower, there is feedback, and the task is framed as feeding the fish.
-  - Fish stimuli, simplified flanker; procedure genuinely adapted for children per section 5.3
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>; feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>; population: <a href="vocabulary.html#facet-population-children">children</a>
+  - -
+  - Cartoon fish replace the arrows, trials are slower, feedback is given and the task is framed as feeding the fish.
 * - ANT with Emotional Stimuli
 
     `hedvar_attention_network__ant_with_emotional_stimuli`
-  - Emotional pictures or faces are used as cues, or emotional images replace the neutral flankers, so the participant must report the central target while emotional content competes for attention.
-  - Emotional flanker content; retained per section 5.1 (EMOT retired)
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>, <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>; emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - [Attentional capture](../processes/selective_and_sustained_attention.md#hed-attentional-capture)
+  - Emotional pictures or faces serve as cues or replace the neutral flankers; the task is unchanged.
 ```
 
 ## Cognitive processes

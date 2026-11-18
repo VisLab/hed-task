@@ -13,6 +13,22 @@ Judgment of whether two rotated objects are identical or mirror images; RT scale
 
 Participants view pairs of 3D objects (block figures, letters, or geometric forms) and determine whether they are identical (one is a rotated version of the other) or mirror images. Objects are rotated at angles ranging from 0 to 180 degrees relative to each other. The well-established finding is that RT increases linearly with angular disparity, suggesting an analog mental rotation process. The task measures spatial visualization ability, mental imagery, and visuospatial working memory. Sex differences in mental rotation are among the most reliable cognitive sex differences.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-compare">compare</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-viewpoint-angle">viewpoint angle</a>
+- **Material:** Pairs of 2D or 3D figures (block figures, letters or hands) rotated relative to each other, identical or mirror-reversed.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,59 +45,65 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Angular disparity between the two figures (0-180 degrees)
     - Stimulus complexity
     - Dimensionality (2D vs. 3D)
+    - Task rule (hand laterality judgment vs. same-or-mirror comparison)
+    - Concurrent movement (hand rotation congruent or incongruent with the imagined rotation)
+    - Rotation frame (self-rotation vs. object rotation)
 * - **Measurements**
   - - RT as a function of angular disparity (linear slope = rotation rate)
     - Accuracy
     - The RT-angle linear function
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Shepard-Metzler 3D Block Figures
-
-    `hedvar_mental_rotation__shepard_metzler_3d_block_figures`
-  - Two drawings of a three-dimensional object made of cubes are shown side by side, one rotated relative to the other. The participant decides whether they are the same object or mirror images. Response time grows with the angle of rotation.
-  - Canonical 3D block figure rotation; depth and perspective rotation
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - 2D Shape Rotation
 
     `hedvar_mental_rotation__2d_shape_rotation`
-  - The items are flat shapes such as letters, digits or polygons, rotated in the picture plane. The participant decides whether a rotated item is normal or mirror-reversed.
-  - Flat 2D figures; different stimulus complexity and dimensionality
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>, <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>; reference: <a href="vocabulary.html#rule-respond-to-rule-reference-held-in-mind">held in mind</a>
+  - -
+  - Flat letters, digits or polygons are rotated in the picture plane and a single rotated item is judged normal or mirror-reversed against its remembered canonical form, instead of being compared with a partner on screen.
 * - Body Part Rotation (Hand Laterality)
 
     `hedvar_mental_rotation__body_part_rotation_hand_laterality`
-  - Pictures of a hand in various orientations are shown, and the participant decides whether each is a left or right hand. People tend to solve this by imagining moving their own hand into the position.
-  - Hands judged as left/right; embodied rotation via motor imagery
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-classify">classify</a>
+  - -
+  - A single picture of a hand in some orientation is classified as left or right, instead of two pictures being compared as same or mirrored.
 * - Mirror vs. Identical Discrimination
 
     `hedvar_mental_rotation__mirror_vs_identical_discrimination`
-  - Each trial presents a rotated figure and the participant decides whether it is the standard figure or its mirror image, rather than comparing two figures shown together.
-  - Distinguish mirrored from same-orientation figure; different judgment type
+  - reference: <a href="vocabulary.html#rule-respond-to-rule-reference-held-in-mind">held in mind</a>
+  - -
+  - One rotated figure is shown per trial and judged as the standard or its mirror image, so the comparison is against a figure held in memory.
 * - Embodied/Motor-Assisted Rotation
 
     `hedvar_mental_rotation__embodied_motor_assisted_rotation`
-  - While judging the rotated figures, the participant turns a handle or makes a rotating gesture with the hand, in the same or the opposite direction as the mental rotation. Compatible movements speed the judgment.
-  - Physical hand rotation accompanies mental rotation; different embodiment condition
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-joystick">joystick</a>; combined with: <a href="vocabulary.html#how-throughout">throughout</a>, <a href="vocabulary.html#game-produce-movement">produce movement</a> (A hand movement is made while the rotation judgment is formed)
+  - -
+  - While judging, the participant turns a handle or rotates the hand in the same or the opposite direction as the imagined rotation; whether the two directions agree is the factor of interest.
 * - Virtual Reality Mental Rotation
 
     `hedvar_mental_rotation__virtual_reality_mental_rotation`
-  - The objects are shown in stereoscopic 3D through a head-mounted display and can sometimes be walked around or handled with controllers, instead of being flat drawings on a screen.
-  - Immersive VR environment; full-body spatial context changes processing
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-head-mounted-display">head mounted display</a>, <a href="vocabulary.html#facet-task-io-device-handheld-controller">handheld controller</a>; experimental environment: <a href="vocabulary.html#facet-experimental-environment-virtual-world">virtual world</a>
+  - -
+  - The objects are rendered in stereoscopic 3D through a head-mounted display and may be walked around or handled; the same-or-mirror judgment is unchanged.
 * - Egocentric vs. Allocentric Rotation
 
     `hedvar_mental_rotation__egocentric_vs_allocentric_rotation`
-  - In one condition the participant imagines turning themselves to a new viewpoint and reports what they would see; in the other they imagine the object turning while they stay still. The two kinds of imagined rotation behave differently.
-  - Participant perspective vs. object-centered rotation; different reference frame
+  - named form
+  - [Perspective taking](../processes/social_cognition_and_strategic_social_choice.md#hed-perspective-taking)
+  - In one condition the participant imagines turning themselves to a new viewpoint and reports what they would see; in the other they imagine the object turning while staying still.
 ```
 
 ## Cognitive processes

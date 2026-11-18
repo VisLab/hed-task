@@ -13,6 +13,23 @@ Speeded categorization of tools vs weapons primed by faces of varying race; cong
 
 Participants view face primes (typically Black and White faces, presented briefly) followed by target objects that are either weapons (guns, knives) or non-threatening objects (tools, household items). Participants must rapidly classify the target object while ignoring the face prime. The paradigm measures implicit racial bias through two routes: behavioral errors (misclassifying tools as weapons more often after Black face primes) and EEG markers of error monitoring (enhanced ERN on racially biased error trials). The ERN enhancement on bias-consistent errors indicates that the anterior cingulate cortex detects the conflict between egalitarian goals and automatic stereotype-driven responses, with ERN amplitude predicting subsequent behavioral correction. This paradigm bridges social psychology, implicit cognition, and cognitive neuroscience by providing a neural signature of bias detection.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-preceding-prime">preceding prime</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-presentation-duration">presentation duration</a>, <a href="vocabulary.html#setting-response-deadline">response deadline</a>
+- **Material:** A briefly shown Black or White face followed by a picture of a weapon (gun, knife) or a tool.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -38,28 +55,32 @@ least one of the listed variables, and it records at least one of the listed mea
     - Shooter bias (shoot/don't-shoot variants)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - First-Person Shooter Task (Correll et al., 2002)
 
     `hedvar_weapons_identification__first_person_shooter_task_correll_et_al_2002`
-  - Photographs of men in realistic settings, either holding a gun or holding a harmless object such as a phone, appear briefly. The participant presses 'shoot' for armed men and 'don't shoot' for unarmed men within a deadline. Errors and response times are compared by the race of the person shown.
-  - Video-game format shooter task; different motor response and scenario structure
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>; competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-irrelevant-dimension">irrelevant dimension</a>
+  - -
+  - Face and object are combined in one photograph of a man holding a gun or a harmless object, so the race competitor is an irrelevant dimension of the judged picture rather than a preceding prime, and the shoot/don't-shoot response is made within a deadline.
 * - Weapons Task in Virtual Reality
 
     `hedvar_weapons_identification__weapons_task_in_virtual_reality`
-  - The scenes are presented in an immersive virtual environment, and the participant responds by aiming and pulling a trigger on a hand-held controller, so that the decision is made with the body in the scene rather than at a keyboard.
-  - Immersive VR environment; full-body spatial and motor engagement
+  - experimental environment: <a href="vocabulary.html#facet-experimental-environment-virtual-world">virtual world</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-head-mounted-display">head mounted display</a>, <a href="vocabulary.html#facet-task-io-device-handheld-controller">handheld controller</a>
+  - -
+  - The shooter scenes are presented in an immersive virtual environment and the participant aims and pulls a trigger on a hand-held controller.
 ```
 
 ## Cognitive processes

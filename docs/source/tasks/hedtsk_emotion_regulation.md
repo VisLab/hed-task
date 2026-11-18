@@ -13,6 +13,22 @@ View affective images under instructions to reappraise or passively view; self-r
 
 Participants view emotionally evocative stimuli (typically IAPS images) and are instructed to either passively view them ("look" condition) or regulate their emotional response using cognitive reappraisal (e.g., reinterpreting a car accident as a movie scene). After each trial, participants rate their emotional experience. Reappraisal successfully reduces subjective negative affect and modulates neural activity: it increases dorsolateral and ventrolateral PFC activation while decreasing amygdala activation, demonstrating top-down prefrontal regulation of emotion generation systems.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-undergo-stream">undergo stream</a>
+- **What is the player told to do while it runs?** <a href="vocabulary.html#rule-undergo-stream-instruction-regulate">regulate</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
+- **Emotional aspect:** <a href="vocabulary.html#facet-emotional-aspect-regulation-instruction">regulation instruction</a>, <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>, <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Material:** Emotionally evocative photographs, typically from the IAPS, of negative or positive valence.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -25,9 +41,11 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Procedure**
   - Participants view emotionally evocative images and are instructed to regulate their emotional response using a specified strategy (e.g., cognitive reappraisal, suppression, or distraction) or to simply attend.
 * - **Manipulations**
-  - - Regulation strategy (reappraise, suppress, distract, attend)
+  - - Regulation strategy (reappraise, distance, suppress, distract, accept, attend)
     - Image valence (negative, positive)
     - Regulation timing (before vs. during viewing)
+    - Exposure control (choice or early termination vs. assigned exposure)
+    - Regulation instruction (none vs. explicit)
 * - **Measurements**
   - - Self-reported affect (valence, arousal)
     - Physiological responses (SCR, corrugator EMG, startle)
@@ -35,65 +53,50 @@ least one of the listed variables, and it records at least one of the listed mea
     - ERP (LPP reduction)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Reinterpretation/Reappraisal
-
-    `hedvar_emotion_regulation__reinterpretation_reappraisal`
-
-    Cognitive Atlas: [reappraisal task](https://www.cognitiveatlas.org/task/id/trm_4f2420b042165)
-  - Before an unpleasant picture, the participant is instructed to change what the picture means to them, for example by imagining that the injured person will recover or that the scene is staged. On other trials they simply watch. Ratings or physiological responses on reappraise trials are compared with watch trials.
-  - Participant cognitively reframes stimulus meaning; changes cognitive strategy instructions
-* - Distancing/Detachment
-
-    `hedvar_emotion_regulation__distancing_detachment`
-  - The participant is instructed to view the picture as a detached observer, for example as a scientist or from far away, without changing what the picture shows. The feeling is reduced by stepping back from it rather than by reinterpreting it.
-  - Third-person perspective taking; distinct cognitive strategy
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Distraction/Attentional Deployment
 
     `hedvar_emotion_regulation__distraction_attentional_deployment`
-  - While the emotional picture is on screen, the participant is given something else to attend to, such as a mental arithmetic problem or a letter-memory task, so that attention is pulled away from the emotional content.
-  - Attention redirected away from stimulus; different regulatory mechanism
+  - combined with: <a href="vocabulary.html#how-throughout">throughout</a>, <a href="vocabulary.html#game-respond-to-rule">respond to rule</a> (An arithmetic or letter task is done during viewing)
+  - [Divided attention](../processes/selective_and_sustained_attention.md#hed-divided-attention)
+  - A second task (mental arithmetic or letter memory) runs while the picture is on screen, so regulation works through the competing task rather than an instruction about the picture.
 * - Expressive Suppression
 
     `hedvar_emotion_regulation__expressive_suppression`
-  - The participant is instructed to keep their face and body completely still so that an observer could not tell what they are feeling, while watching the emotional picture or film clip. The feeling itself is not targeted, only its outward expression.
-  - Inhibit visible emotional response; behavioral output regulation
-* - Acceptance/Mindful Awareness
-
-    `hedvar_emotion_regulation__acceptance_mindful_awareness`
-  - The participant is instructed to notice whatever feelings the picture produces and let them be, without trying to change, avoid or judge them.
-  - Non-judgmental observation; different regulatory stance
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>
+  - -
+  - The instruction is to keep face and body still while viewing a picture or film clip.
 * - Situation Selection/Modification
 
     `hedvar_emotion_regulation__situation_selection_modification`
-  - Rather than regulating a response to a picture already on screen, the participant chooses which of several pictures or situations to be exposed to, or can act to change the situation, for example by ending a clip early. Regulation happens through the choice.
-  - Choice between stimuli or contexts; different task structure with decision component
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>
+  - -
+  - The participant chooses which picture or clip to be exposed to or ends a clip early, so regulation happens through choice over exposure rather than through a stance toward a stimulus already present.
 * - Up-Regulation
 
     `hedvar_emotion_regulation__up_regulation`
-  - The participant is instructed to make the feeling stronger, for example by imagining the pictured event happening to a loved one or by immersing themselves in the scene, instead of weaker.
-  - Amplify rather than down-regulate emotional response; opposite regulatory direction
-* - Regulation of Positive vs. Negative Emotions
-
-    `hedvar_emotion_regulation__regulation_of_positive_vs_negative_emotions`
-  - The pictures are pleasant rather than unpleasant, and the participant is instructed to increase (savor) or decrease (dampen) the positive feeling. Tests whether regulating pleasant emotion works like regulating unpleasant emotion.
-  - Valence manipulation changes emotional context of regulation
+  - named form
+  - -
+  - The participant is told to make the feeling stronger rather than weaker.
 * - Implicit Emotion Regulation
 
     `hedvar_emotion_regulation__implicit_emotion_regulation`
-  - No regulation instruction is given. Regulation is measured indirectly, for example from how responses to emotional pictures change after a task that primes the idea of self-control, or from spontaneous recovery after an emotional event.
-  - No explicit instruction to regulate; tests implicit regulatory processes
+  - emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>, <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>; instruction: <a href="vocabulary.html#rule-undergo-stream-instruction-none">none</a>
+  - -
+  - No regulation instruction is given; regulation is inferred from responses after a self-control prime or from spontaneous recovery.
 ```
 
 ## Cognitive processes

@@ -52,7 +52,7 @@ Extraction of meaning from linguistic input (spoken, written, or signed).
 
 Generation of spoken, written, or signed linguistic output, from message to articulation.
 
-**Tasks that engage this process:** [Picture Naming Task](../tasks/hedtsk_picture_naming.md), [Verb Generation Task](../tasks/hedtsk_verb_generation.md)
+**Tasks that engage this process:** [Picture Naming Task](../tasks/hedtsk_picture_naming.md), [Picture-Word Interference Task](../tasks/hedtsk_picture_word_interference.md), [Verb Generation Task](../tasks/hedtsk_verb_generation.md)
 
 **Further references**
 
@@ -67,7 +67,7 @@ Generation of spoken, written, or signed linguistic output, from message to arti
 
 Retrieval of word-level representations (form and meaning) from memory.
 
-**Tasks that engage this process:** [Lexical Decision Task](../tasks/hedtsk_lexical_decision.md), [Picture Naming Task](../tasks/hedtsk_picture_naming.md), [Remote Associates Task](../tasks/hedtsk_remote_associates.md), [Self-Paced Reading Task](../tasks/hedtsk_self_paced_reading.md), [Semantic Priming Task](../tasks/hedtsk_semantic_priming.md), [Verb Generation Task](../tasks/hedtsk_verb_generation.md), [Verbal Fluency Task](../tasks/hedtsk_verbal_fluency.md)
+**Tasks that engage this process:** [Lexical Decision Task](../tasks/hedtsk_lexical_decision.md), [Picture Naming Task](../tasks/hedtsk_picture_naming.md), [Picture-Word Interference Task](../tasks/hedtsk_picture_word_interference.md), [Remote Associates Task](../tasks/hedtsk_remote_associates.md), [Self-Paced Reading Task](../tasks/hedtsk_self_paced_reading.md), [Semantic Priming Task](../tasks/hedtsk_semantic_priming.md), [Verb Generation Task](../tasks/hedtsk_verb_generation.md), [Verbal Fluency Task](../tasks/hedtsk_verbal_fluency.md)
 
 **Fundamental references**
 
@@ -80,7 +80,7 @@ Retrieval of word-level representations (form and meaning) from memory.
 
 Production of a word label for a presented stimulus (e.g., picture naming).
 
-**Tasks that engage this process:** [Picture Naming Task](../tasks/hedtsk_picture_naming.md)
+**Tasks that engage this process:** [Picture Naming Task](../tasks/hedtsk_picture_naming.md), [Picture-Word Interference Task](../tasks/hedtsk_picture_word_interference.md)
 
 **Fundamental references**
 
@@ -165,7 +165,7 @@ Long-term store of facts, concepts, and word meanings.
 
 Access and integration of word and phrase meaning, indexed by the N400.
 
-**Tasks that engage this process:** [Affective Priming Task](../tasks/hedtsk_affective_priming.md), [Free Recall Task](../tasks/hedtsk_free_recall.md), [Lexical Decision Task](../tasks/hedtsk_lexical_decision.md), [Picture Naming Task](../tasks/hedtsk_picture_naming.md), [Remote Associates Task](../tasks/hedtsk_remote_associates.md), [Self-Paced Reading Task](../tasks/hedtsk_self_paced_reading.md), [Semantic Priming Task](../tasks/hedtsk_semantic_priming.md), [Verb Generation Task](../tasks/hedtsk_verb_generation.md)
+**Tasks that engage this process:** [Affective Priming Task](../tasks/hedtsk_affective_priming.md), [Free Recall Task](../tasks/hedtsk_free_recall.md), [Lexical Decision Task](../tasks/hedtsk_lexical_decision.md), [Picture Naming Task](../tasks/hedtsk_picture_naming.md), [Picture-Word Interference Task](../tasks/hedtsk_picture_word_interference.md), [Remote Associates Task](../tasks/hedtsk_remote_associates.md), [Self-Paced Reading Task](../tasks/hedtsk_self_paced_reading.md), [Semantic Priming Task](../tasks/hedtsk_semantic_priming.md), [Verb Generation Task](../tasks/hedtsk_verb_generation.md)
 
 **Fundamental references**
 
@@ -218,7 +218,7 @@ Extraction of linguistic content from the acoustic speech signal, including phon
 
 Planning and articulation of spoken output; the motor component of articulation is covered under vocal-motor control in Motor Preparation, Timing, and Execution.
 
-**Tasks that engage this process:** [Picture Naming Task](../tasks/hedtsk_picture_naming.md), [Verb Generation Task](../tasks/hedtsk_verb_generation.md)
+**Tasks that engage this process:** [Picture Naming Task](../tasks/hedtsk_picture_naming.md), [Picture-Word Interference Task](../tasks/hedtsk_picture_word_interference.md), [Verb Generation Task](../tasks/hedtsk_verb_generation.md)
 
 **Fundamental references**
 

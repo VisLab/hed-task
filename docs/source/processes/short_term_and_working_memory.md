@@ -18,7 +18,7 @@ This category contains 9 processes.
 
 Holding information active over a delay without manipulation, through volitional, attention-demanding processes; a core subprocess of working memory.
 
-**Tasks that engage this process:** [Change Detection Task](../tasks/hedtsk_change_detection.md), [Corsi Block-Tapping Task](../tasks/hedtsk_corsi_block_tapping.md), [Delayed Match-to-Sample Task](../tasks/hedtsk_delayed_match_to_sample.md), [Digit Span Task](../tasks/hedtsk_digit_span.md), [N-Back Task](../tasks/hedtsk_n_back.md), [Operation Span Task](../tasks/hedtsk_operation_span.md), [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md)
+**Tasks that engage this process:** [AX Continuous Performance Task](../tasks/hedtsk_ax_continuous_performance.md), [Change Detection Task](../tasks/hedtsk_change_detection.md), [Corsi Block-Tapping Task](../tasks/hedtsk_corsi_block_tapping.md), [Delayed Match-to-Sample Task](../tasks/hedtsk_delayed_match_to_sample.md), [Digit Span Task](../tasks/hedtsk_digit_span.md), [Dual N-Back Task](../tasks/hedtsk_dual_n_back.md), [N-Back Task](../tasks/hedtsk_n_back.md), [Operation Span Task](../tasks/hedtsk_operation_span.md), [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md)
 
 **Fundamental references**
 
@@ -141,7 +141,7 @@ Short-term storage and manipulation of visual information; capacity limited to ~
 
 System for the short-term maintenance, updating, and manipulation of task-relevant information over delays of seconds.
 
-**Tasks that engage this process:** [Digit Symbol Substitution Task](../tasks/hedtsk_digit_symbol_substitution.md), [N-Back Task](../tasks/hedtsk_n_back.md), [Operation Span Task](../tasks/hedtsk_operation_span.md), [Raven's Progressive Matrices Task](../tasks/hedtsk_ravens_progressive_matrices.md), [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md), [Tower of London Task](../tasks/hedtsk_tower_of_london.md), [Trail Making Task](../tasks/hedtsk_trail_making.md)
+**Tasks that engage this process:** [Digit Symbol Substitution Task](../tasks/hedtsk_digit_symbol_substitution.md), [Dual N-Back Task](../tasks/hedtsk_dual_n_back.md), [N-Back Task](../tasks/hedtsk_n_back.md), [Operation Span Task](../tasks/hedtsk_operation_span.md), [Raven's Progressive Matrices Task](../tasks/hedtsk_ravens_progressive_matrices.md), [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md), [Tower of Hanoi Task](../tasks/hedtsk_tower_of_hanoi.md), [Tower of London Task](../tasks/hedtsk_tower_of_london.md), [Trail Making Task](../tasks/hedtsk_trail_making.md)
 
 **Fundamental references**
 
@@ -161,7 +161,7 @@ System for the short-term maintenance, updating, and manipulation of task-releva
 
 Replacement or revision of information currently held active in working memory with newly task-relevant content. One of three core executive functions in the Miyake et al. unity/diversity framework; decomposable into retrieval, transformation, and substitution subcomponents (Ecker et al.); implemented by a cortico-striatal gating mechanism that opens to admit new content and closes to protect maintenance. Distinct from long-term-memory reconsolidation (which occurs when retrieval triggers a prediction error and targets stored representations rather than the focus of attention). Indexed behaviorally by N-Back, running-span, and keep-track performance.
 
-**Tasks that engage this process:** [N-Back Task](../tasks/hedtsk_n_back.md), [Oddball Task](../tasks/hedtsk_oddball.md), [Rapid Serial Visual Presentation Task](../tasks/hedtsk_rapid_serial_visual_presentation.md)
+**Tasks that engage this process:** [Dual N-Back Task](../tasks/hedtsk_dual_n_back.md), [N-Back Task](../tasks/hedtsk_n_back.md), [Oddball Task](../tasks/hedtsk_oddball.md), [Rapid Serial Visual Presentation Task](../tasks/hedtsk_rapid_serial_visual_presentation.md)
 
 **Fundamental references**
 

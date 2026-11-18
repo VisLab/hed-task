@@ -13,6 +13,23 @@ A brief target is rendered invisible or reduced in visibility by a preceding or 
 
 Participants attempt to detect or discriminate brief, near-threshold visual stimuli that are rendered difficult to see through low contrast, brief duration, or metacontrast masking (a spatially adjacent, temporally trailing mask that suppresses visibility of the target without overlapping it spatially). The key dependent variable is not only accuracy but the relationship between trial-by-trial detection success and prestimulus brain states - particularly the phase and power of ongoing alpha (~10 Hz) and theta (~7 Hz) oscillations recorded via EEG. This paradigm demonstrates that conscious visual perception is not a passive, deterministic process but is gated by rhythmic fluctuations in cortical excitability, supporting pulsed-inhibition and perceptual-sampling theories.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-noise-or-mask">noise or mask</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-spatial-separation">spatial separation</a>, <a href="vocabulary.html#setting-stimulus-intensity">stimulus intensity</a>, <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
+- **Material:** A brief, near-threshold target with a mask before or after it (metacontrast, pattern and other mask types).
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -26,78 +43,82 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. A brief target stimulus is rendered invisible or reduced in visibility by a temporally adjacent mask.
     2. Participants detect, identify, or discriminate the target.
 * - **Manipulations**
-  - - Mask type (metacontrast, pattern, backward, forward, common-onset, object-substitution)
+  - - Mask type (metacontrast, pattern, backward, forward, common-onset, object-substitution, dichoptic suppression)
     - SOA/ISA between target and mask
     - Target-mask spatial relationship
     - Mask energy
+    - Mask presence (no mask vs. masked target)
+    - Stimulus origin (TMS-evoked vs. visual flash)
+    - Preceding rhythmic flash train (target phase within the rhythm)
+    - Masked prime for a visible target
 * - **Measurements**
   - - Target detection/identification accuracy or d-prime as a function of SOA (U-shaped or monotonic masking functions)
     - Subjective visibility ratings
     - Priming effects from unseen targets
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Metacontrast Masking
-
-    `hedvar_visual_masking__standard_metacontrast_masking`
-  - A small shape (such as a disk) is flashed briefly, and after a short delay a ring that surrounds but does not touch its location is flashed. At delays of around 50 to 100 ms the disk becomes hard or impossible to see. The participant reports whether the disk was present or which shape it was.
-  - Canonical metacontrast: annular mask suppresses disc
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Phosphene Detection at Threshold
 
     `hedvar_visual_masking__phosphene_detection_at_threshold`
-  - A faint flash of light at the edge of visibility is presented on a plain background with no mask, and the participant reports whether they saw it. Used to study the moment-to-moment state of the visual system without any masking.
-  - TMS-evoked phosphenes measured at perceptual threshold
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>; competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-none">none</a>
+  - -
+  - A faint flash at threshold on a plain background with no mask at all; the participant reports whether it was seen.
 * - TMS-Evoked Phosphene Detection
 
     `hedvar_visual_masking__tms_evoked_phosphene_detection`
-  - A magnetic pulse applied to the back of the head produces a brief spot of light in the participant's vision, and they report whether they saw it. The pulse is timed relative to the phase of the participant's brain rhythms.
-  - Visual cortex stimulation produces phosphene; different masking mechanism
-* - Object Substitution Masking
-
-    `hedvar_visual_masking__object_substitution_masking`
-  - The target appears among other items surrounded by four small dots. If the dots remain on screen after the target and the other items have disappeared, the target is hard to report, even though the dots never touch it.
-  - Four-dot surround mask replaces object representation; different mechanism
+  - stimulus type: none; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-brain-stimulator">brain stimulator</a>; competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-none">none</a>
+  - -
+  - A magnetic pulse over the occipital cortex produces the spot of light, with no stimulus at the eye and no mask, and the participant reports whether it was seen.
 * - Pattern Masking at Threshold
 
     `hedvar_visual_masking__pattern_masking_at_threshold`
-  - The mask is a dense pattern of lines, letters or random dots that covers the same location as the target, presented just before or after it. The target is reported at reduced visibility.
-  - Pattern mask overlapping in space and time; different mask type
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>, <a href="vocabulary.html#facet-stimulus-type-random-dots">random dots</a>, <a href="vocabulary.html#facet-stimulus-type-abstract-patterns">abstract patterns</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+  - -
+  - The mask is a dense pattern covering the target's own location, presented just before or after it.
 * - Continuous Flash Suppression Threshold
 
     `hedvar_visual_masking__continuous_flash_suppression_threshold`
-  - A rapidly changing colorful pattern is shown to one eye while a faint image is shown to the other. The flashing pattern dominates and the image stays invisible for seconds. The participant reports when the image finally breaks through or whether it was present.
-  - Monocular suppression by rapidly alternating masks; binocular suppression paradigm
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-abstract-patterns">abstract patterns</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-stereoscopic-display">stereoscopic display</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+  - -
+  - A flashing pattern to one eye suppresses a faint image to the other for seconds, and the participant reports when it breaks through or whether it was present.
 * - Rhythmic Entrainment + Detection
 
     `hedvar_visual_masking__rhythmic_entrainment_detection`
-  - A regular series of flashes at a chosen rate is shown before the faint target, and whether the target is detected is measured as a function of when it falls relative to the rhythm.
-  - Rhythmic stimulation before target; tests oscillatory effects on detection
+  - competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-none">none</a>; cue: <a href="vocabulary.html#rule-respond-to-rule-cue-alerting-cue">alerting cue</a>
+  - -
+  - A regular train of flashes precedes a faint unmasked target and detection is measured against where the target falls in the rhythm; the train is coded as an alerting cue because it carries no information about the target.
 * - Masked Priming Variant
 
     `hedvar_visual_masking__masked_priming_variant`
-  - The masked item is not reported at all. Instead it serves as a prime for a later visible target, and its effect on the response to that target shows that the masked item was processed.
-  - Masked prime before target; tests subliminal priming via masking
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-classify">classify</a>; competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-preceding-prime">preceding prime</a>
+  - -
+  - The masked item is never reported but primes the response to a later visible target that is classified.
 * - Backward Masking with Attentional Manipulation
 
     `hedvar_visual_masking__backward_masking_with_attentional_manipulation`
-  - The masked target is embedded in a situation where attention is limited, such as a second task or a rapid stream of items, to see how attention changes what the mask hides.
-  - Attention directed during masking; tests attentional modulation of masking
+  - combined with: <a href="vocabulary.html#how-in-quick-succession">in quick succession</a>, <a href="vocabulary.html#game-respond-to-rule">respond to rule</a> (A second job draws attention away from the masked target)
+  - [Divided attention](../processes/selective_and_sustained_attention.md#hed-divided-attention)
+  - The masked target is embedded in a concurrent second task or a rapid stream so that attention is limited when it appears.
 * - Auditory Backward Masking
 
     `hedvar_visual_masking__auditory_backward_masking`
-  - A brief tone is followed by a burst of noise after a variable delay, and the participant reports whether the tone was heard. The sound version of the masking task.
-  - Auditory masking paradigm; different sensory modality
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>, <a href="vocabulary.html#facet-stimulus-type-noise">noise</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - A brief tone followed by a noise burst after a variable delay, presence reported.
 ```
 
 ## Cognitive processes

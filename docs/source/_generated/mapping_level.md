@@ -1,4 +1,4 @@
 | Mapped to | Atlas entries |
 |---|---|
-| A HED task | 271 |
-| A named variation of a HED task | 40 |
+| A HED task | 289 |
+| A variant of a HED task | 22 |

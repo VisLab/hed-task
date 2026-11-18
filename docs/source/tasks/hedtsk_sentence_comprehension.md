@@ -13,6 +13,21 @@ Reading or listening to locally ambiguous sentences; reading-time disruptions an
 
 Participants read sentences containing temporary syntactic ambiguities (garden-path sentences) that initially lead to an incorrect parse before disambiguating information forces reanalysis. Classic example: "The horse raced past the barn fell." Sentences may be presented word-by-word (self-paced reading) or while eye movements are tracked. Comprehension is assessed via subsequent questions. Neuroimaging reveals left inferior frontal and temporal activation during syntactic reanalysis. The task probes how the parser uses syntactic, semantic, and probabilistic cues in real-time language processing.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-undergo-stream">undergo stream</a>
+- **Is anything asked afterwards?** <a href="vocabulary.html#rule-undergo-stream-report-after-comprehension-question">comprehension question</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-text">text</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Material:** Written sentences with a temporary syntactic ambiguity (garden-path sentences such as The horse raced past the barn fell), varying in ambiguity type, disambiguation point, plausibility and preceding context.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,6 +45,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Disambiguation point
     - Plausibility
     - Context sentences
+    - Response signal lag after the sentence
 * - **Measurements**
   - - Reading time at disambiguating region (self-paced reading, eye tracking)
     - Regression probability
@@ -37,53 +53,32 @@ least one of the listed variables, and it records at least one of the listed mea
     - Comprehension question accuracy
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Self-Paced Reading (Word-by-Word)
-
-    `hedvar_sentence_comprehension__self_paced_reading_word_by_word`
-  - A sentence is revealed one word at a time, each key press showing the next word. The time spent on each word is recorded, and longer times at a particular word show where the reader had difficulty.
-  - Canonical sentence processing paradigm with reading time measure
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Eye-Tracking Reading
 
     `hedvar_sentence_comprehension__eye_tracking_reading`
-  - The whole sentence is shown at once and an eye tracker records where the reader looks. Measures include how long the eyes first rest on a word, how often they go back to earlier words, and total time on each region.
-  - Natural reading with eye-tracking; different response modality and richer time course
-* - Main Verb/Reduced Relative Ambiguity
-
-    `hedvar_sentence_comprehension__main_verb_reduced_relative_ambiguity`
-  - Sentences like 'The horse raced past the barn fell', where 'raced' is first read as the main verb and must be reinterpreted as a description of the horse when 'fell' arrives. Reading slows at the point where the first reading breaks down.
-  - Syntactic ambiguity at main verb/relative clause; canonical garden path structure
-* - PP-Attachment Ambiguity
-
-    `hedvar_sentence_comprehension__pp_attachment_ambiguity`
-  - Sentences like 'Put the book on the table in the box', where 'on the table' could say where to put the book or which book is meant. The ambiguity is resolved later in the sentence.
-  - Prepositional phrase attachment ambiguity; different syntactic decision point
-* - NP/S Ambiguity
-
-    `hedvar_sentence_comprehension__np_s_ambiguity`
-  - Sentences like 'The doctor told the patient that he was having trouble with...', where 'that...' could be a description of the patient or the thing that was told. Readers slow when the less expected reading turns out to be correct.
-  - Noun phrase vs. sentence ambiguity; different structural ambiguity type
-* - Temporarily Ambiguous vs. Unambiguous Controls
-
-    `hedvar_sentence_comprehension__temporarily_ambiguous_vs_unambiguous_controls`
-  - Each ambiguous sentence is paired with a version that says the same thing without the ambiguity (for example 'The horse that was raced past the barn fell'). The reading-time difference between them isolates the cost of the misreading.
-  - Matched unambiguous controls; tests processing cost of ambiguity
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-eye-tracker">eye tracker</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - -
+  - The whole sentence is shown at once and gaze is recorded instead of key-press reading times.
 * - Speed-Accuracy Tradeoff (SAT) Studies
 
     `hedvar_sentence_comprehension__speed_accuracy_tradeoff_sat_studies`
-  - The participant must judge whether each sentence is acceptable at a signal that comes at one of several delays after the sentence ends, from very early to late. Plotting accuracy against the delay shows how quickly an interpretation becomes available.
-  - Response deadline method; different temporal measurement approach
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>; report after: <a href="vocabulary.html#rule-undergo-stream-report-after-judgment">judgment</a>
+  - -
+  - The participant judges each sentence's acceptability at a response signal that comes at one of several delays after the sentence ends.
 ```
 
 ## Cognitive processes

@@ -13,6 +13,26 @@ Virtual multi-arm maze in which participants retrieve rewards from each arm once
 
 The Virtual Radial Arm Maze is a spatial memory task adapted from the rodent paradigm. Participants navigate a central platform connected to 8 (or more) radial arms, some of which contain rewards. They must visit all rewarded arms while avoiding revisits (working memory errors) and unbaited arms (reference memory errors). The task dissociates reference memory (knowing which arms are baited across trials) from working memory (remembering which arms have been visited within a trial). Virtual versions rendered on computer screens or in VR maintain the spatial navigation demands while enabling human testing with precise measurement. The task engages hippocampal spatial memory systems and has been used extensively in pharmacological and developmental research.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-navigate">navigate</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-stake">reward stake</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-performance">performance</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-points">points</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-hypothetical">hypothetical</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-scenes">scenes</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-joystick">joystick</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Experimental environment:** <a href="vocabulary.html#facet-experimental-environment-virtual-world">virtual world</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>, <a href="vocabulary.html#setting-number-of-targets">number of targets</a>, <a href="vocabulary.html#setting-retention-interval">retention interval</a>
+- **Material:** A virtual maze of eight or more arms radiating from a central platform, some baited with rewards, with cues inside or outside the maze.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,69 +50,51 @@ least one of the listed variables, and it records at least one of the listed mea
     - Number of baited arms
     - Intra-maze vs. extra-maze cues
     - Delay between visits
+    - Reward schedule (probabilistic vs. deterministic arm baiting)
 * - **Measurements**
   - - Reference memory errors (entering never-baited arms)
     - Working memory errors (re-entering already-visited baited arms)
     - Total errors to criterion
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard 8-Arm Radial Maze
-
-    `hedvar_virtual_radial_arm_maze__standard_8_arm_radial_maze`
-  - The participant stands at the center of a virtual maze with eight corridors radiating outward, each with a reward at the far end. They visit arms to collect rewards; once an arm has been visited its reward is gone. Returning to an already emptied arm is a working-memory error.
-  - Canonical 8-arm maze with bait at end of each arm
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Partially Baited Maze (4 of 8)
 
     `hedvar_virtual_radial_arm_maze__partially_baited_maze_4_of_8`
-  - Only four of the eight arms ever contain rewards, and it is always the same four across trials. Entering a never-rewarded arm is a reference-memory error (failing to learn the fixed rule), while re-entering an arm already emptied on this trial is a working-memory error.
-  - Only subset of arms baited; tests working memory for visited arms
-* - 12-Arm or 16-Arm Versions
-
-    `hedvar_virtual_radial_arm_maze__12_arm_or_16_arm_versions`
-  - The maze has twelve or sixteen arms instead of eight, so more locations have to be kept in mind before the trial is complete.
-  - Increased arm number; higher memory load
+  - named form
+  - -
+  - Only the same four arms are ever baited, so the participant must also learn across trials which arms are worth entering, on top of remembering which arms were already visited in the trial.
 * - Virtual Reality (Immersive VR)
 
     `hedvar_virtual_radial_arm_maze__virtual_reality_immersive_vr`
-  - The maze is presented in a head-mounted display that updates with the participant's head and body movement, so they turn and look around as they would in a real maze.
-  - Head-mounted display VR; full immersive spatial navigation
-* - Desktop Virtual Maze
-
-    `hedvar_virtual_radial_arm_maze__desktop_virtual_maze`
-  - The maze is shown on an ordinary monitor from a first-person viewpoint and the participant moves with a keyboard, mouse or joystick.
-  - Screen-based navigation; different motor control
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-head-mounted-display">head mounted display</a>, <a href="vocabulary.html#facet-task-io-device-motion-capture">motion capture</a>
+  - -
+  - The maze is shown in a head-mounted display that tracks head and body movement instead of on a monitor steered by joystick.
 * - Maze with Landmarks
 
     `hedvar_virtual_radial_arm_maze__maze_with_landmarks`
-  - Distinctive objects or pictures are placed around the maze, either on the walls of the room (far landmarks) or within the arms (near landmarks), so that arms can be told apart and remembered by what is near them.
-  - Salient landmarks aid navigation; tests landmark use
-* - Cue-Removed Conditions
-
-    `hedvar_virtual_radial_arm_maze__cue_removed_conditions`
-  - After learning with landmarks, the landmarks are removed or the maze is rotated so that landmarks no longer help. The participant must rely on remembering their own movements.
-  - Landmarks removed mid-experiment; tests spatial memory without cues
-* - Delay Variants
-
-    `hedvar_virtual_radial_arm_maze__delay_variants`
-  - After visiting some of the arms, the participant is held at the center or taken out of the maze for a delay of minutes before being allowed to finish, so that the visited arms must be remembered across the delay.
-  - Delay between choices tests retention
+  - named form
+  - -
+  - Distinctive objects are placed on the room walls (far) or inside the arms (near), so arms can be told apart by both distal and proximal cues.
 * - Probabilistic Reward Maze
 
     `hedvar_virtual_radial_arm_maze__probabilistic_reward_maze`
-  - Each arm pays off only some of the time rather than always, so the participant must learn which arms are most often rewarded instead of simply avoiding arms already visited.
-  - Arms probabilistically rather than deterministically rewarded
+  - named form
+  - [Reinforcement learning](../processes/associative_learning_and_reinforcement.md#hed-reinforcement-learning)
+  - Each arm pays off only some of the time, so the participant learns across trials which arms are most often rewarded rather than avoiding arms already emptied.
 ```
 
 ## Cognitive processes

@@ -13,6 +13,22 @@ Hierarchical letters in which large letters are composed of small ones; RT diffe
 
 The Navon Task investigates hierarchical processing in vision using compound stimuli - large (global) letters composed of smaller (local) letters (e.g., a large "H" made of small "S" letters). Participants identify either the global or local letter depending on instruction. The robust finding of global precedence shows faster identification of global than local forms, with global-to-local interference exceeding local-to-global interference. The task dissociates dorsal/ventral visual stream contributions and is sensitive to hemispheric specialization (left hemisphere for local, right for global processing).
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-irrelevant-dimension">irrelevant dimension</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-presentation-duration">presentation duration</a>
+- **Material:** Large letters made of small letters (such as an H made of S's), the same or a different letter at the two levels.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -26,10 +42,13 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. A large letter (global) composed of small letters (local) is presented.
     2. Participants identify the letter at the designated level (global or local).
 * - **Manipulations**
-  - - Target level (global vs. local)
+  - - Target level (global, local, divided across both)
     - Congruency (same vs. different letter at two levels)
     - Exposure duration
     - Visual field
+    - Level cue (cued per trial vs. fixed per block)
+    - Stimulus type (letters, geometric shapes, emotional faces)
+    - Preceding Navon task and its carry-over to a following task
 * - **Measurements**
   - - RT and accuracy
     - Global precedence effect (faster global)
@@ -37,73 +56,56 @@ least one of the listed variables, and it records at least one of the listed mea
     - Congruency effect
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Navon (Blocked)
-
-    `hedvar_navon__standard_navon_blocked`
-  - A large letter made up of small letters is shown, for example a big H built from small Ss. In some blocks the participant identifies the big letter, in others the small letters. People are usually faster with the big letter and are slowed when the two levels disagree.
-  - Canonical blocked global/local judgment of hierarchical figures
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Mixed/Cued Navon
 
     `hedvar_navon__mixed_cued_navon`
-  - Whether to report the big or the small letter is signaled by a cue on each trial rather than fixed for a block, so the participant must switch between levels from trial to trial.
-  - Trial-by-trial cue indicates level; task-switching demand added
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>; cue: <a href="vocabulary.html#rule-respond-to-rule-cue-rule-cue">rule cue</a>; rule stability: <a href="vocabulary.html#rule-respond-to-rule-rule-stability-switches-on-cue">switches on cue</a>
+  - [Set shifting](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-set-shifting)
+  - A cue on each trial says which level to report, so the level switches trial by trial instead of being fixed per block.
 * - Divided Attention Navon
 
     `hedvar_navon__divided_attention_navon`
-  - The participant looks for a target letter that may appear at either level, or must report both the big and the small letter, so attention cannot be set to one level in advance.
-  - Respond to both levels simultaneously; different attentional demand
-* - Consistent vs. Inconsistent Stimuli
-
-    `hedvar_navon__consistent_vs_inconsistent_stimuli`
-  - Trials in which the big and small letters are the same (a big H made of small Hs) are compared with trials where they differ (a big H made of small Ss). The slowdown on different-letter trials measures interference between levels.
-  - Local and global levels same vs. different; conflict manipulation
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>; combined with: <a href="vocabulary.html#how-throughout">throughout</a>, <a href="vocabulary.html#game-respond-to-rule">respond to rule</a> (The target may be at the global or the local level, and both are monitored)
+  - [Divided attention](../processes/selective_and_sustained_attention.md#hed-divided-attention)
+  - The target may appear at either level, or both levels must be reported, so attention is divided across both levels instead of set to one.
 * - Sparse vs. Dense Local Elements
 
     `hedvar_navon__sparse_vs_dense_local_elements`
-  - The number and spacing of the small letters making up the big letter is varied. With fewer, more widely spaced elements the big letter is harder to see and the usual advantage for the big letter shrinks.
-  - Number of local elements varies; tests density effect on global processing
+  - named form
+  - -
+  - The number and spacing of the small letters is varied, which weakens the global advantage when elements are sparse.
 * - Emotional Navon
 
     `hedvar_navon__emotional_navon`
-  - The compound figure is built from faces or emotional pictures, for example a large happy face made of small sad faces, and the participant reports the emotion at the cued level.
-  - Emotional faces at global/local level; retained per section 5.1 (EMOT retired)
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>; emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>, <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - [Emotion recognition](../processes/emotion_perception_and_regulation.md#hed-emotion-recognition)
+  - The compound figure is a large expressive face built from small expressive faces and the participant reports the emotion at the cued level.
 * - Auditory Navon Analogs
 
     `hedvar_navon__auditory_navon_analogs`
-  - The hierarchy is in sound: a short melody (the global level) is made up of smaller note patterns (the local level), and the participant judges either the overall contour or the local pattern.
-  - Hierarchical auditory stimuli; different sensory modality
-* - Navon with Priming
-
-    `hedvar_navon__navon_with_priming`
-  - A task that requires attending to the big or the small level is performed first, and its effect on a following task is measured. Attending to one level carries over and biases later processing toward that level.
-  - Preceding prime influences level processing; temporal context manipulation
-* - Lateralized Presentation
-
-    `hedvar_navon__lateralized_presentation`
-  - The compound letter is flashed briefly to the left or right of fixation, so that it reaches one hemisphere of the brain first. The right hemisphere tends to favor the big letter and the left the small letters.
-  - Stimuli presented to one visual field; tests hemispheric contributions
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-music">music</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - The hierarchy is a melody built from short note patterns and the participant judges either the contour or the local pattern.
 * - Navon Figures with Shapes
 
     `hedvar_navon__navon_figures_with_shapes`
-  - The compound figures are geometric shapes, such as a large square made of small triangles, rather than letters, so that reading is not involved.
-  - Non-letter shapes at global/local level; different stimulus class
-* - Temporal Precedence (Brief Exposure)
-
-    `hedvar_navon__temporal_precedence_brief_exposure`
-  - The compound figure is flashed for only 50 to 100 ms and sometimes masked. At such short exposures the big letter is usually identified more often than the small ones, which shows which level is available first.
-  - Brief exposure tests which level is processed first
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+  - -
+  - Geometric shapes replace letters at both levels so reading plays no part.
 ```
 
 ## Cognitive processes

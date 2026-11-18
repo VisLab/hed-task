@@ -13,6 +13,21 @@ Three cue words linked to a single fourth word; solution rate and solution time 
 
 The Remote Associates Test measures creative thinking through convergent semantic association. On each trial, participants are given three seemingly unrelated words (e.g., "cottage," "Swiss," "cake") and must find a single word that connects all three (answer: "cheese"). The task requires searching semantic memory broadly, suppressing dominant but incorrect associations, and recognizing the linking concept. RAT performance correlates with measures of creativity, insight problem-solving, and divergent thinking. The task has also been used to study the "Aha!" moment - the subjective experience of sudden insight - and its neural correlates in the right anterior superior temporal gyrus.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-solve-problem">solve problem</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-trials">number of trials</a>, <a href="vocabulary.html#setting-response-deadline">response deadline</a>
+- **Material:** Sets of three words (such as cottage, Swiss, cake) that each form a compound or phrase with one solution word, of varying associative strength.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,44 +44,39 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Item difficulty (associative strength of solution to each cue)
     - Number of items
     - Time limit
+    - Hint or masked prime before the item
 * - **Measurements**
   - - Number correct
     - RT to solution
     - Solution probability as a function of associative strength
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard RAT (Mednick)
-
-    `hedvar_remote_associates__standard_rat_mednick`
-  - Each item gives three words, such as 'cottage, swiss, cake', and the participant must find a fourth word that goes with all three ('cheese'). Thirty items are given with a time limit of 15 to 40 seconds each, and the number solved and time to solve are recorded.
-  - Canonical three-word compound remote associate task
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Compound RAT (CRAT)
 
     `hedvar_remote_associates__compound_rat_crat`
-  - The items are restricted to those where the answer forms a compound word or common phrase with each of the three cue words (cottage cheese, swiss cheese, cheesecake), rather than being related by meaning alone. The normed set by Bowden and Jung-Beeman is the usual source.
-  - Compound word solutions instead of single words; different solution structure
+  - named form
+  - -
+  - Items are restricted to those whose answer forms a compound word or phrase with each cue, rather than being related by meaning alone.
 * - Timed vs. Untimed RAT
 
     `hedvar_remote_associates__timed_vs_untimed_rat`
-  - Items are given either with a strict time limit per item or with no limit, sometimes with a break before unsolved items are retried, to study whether solutions arrive after a pause.
-  - Time pressure changes solving strategy
-* - RAT with Hint/Priming
-
-    `hedvar_remote_associates__rat_with_hint_priming`
-  - Before or during an item, the answer or a related word is shown, either briefly and masked so it is not consciously seen, or openly as a hint. The effect on solving is measured.
-  - Semantic prime precedes problem; changes solution accessibility
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - -
+  - Items are given with no time limit in one arm, sometimes with a break before unsolved items are retried, so the time-limit constraint is removed.
 ```
 
 ## Cognitive processes

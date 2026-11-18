@@ -13,6 +13,19 @@ Repetitive single-finger or sequence tapping at fastest or paced rates; taps-per
 
 Participants tap their fingers (typically index finger) in a repetitive manner at a self-paced or externally paced rate. Self-paced tapping is typically at 2-3 Hz; externally paced versions use an auditory or visual metronome. The task consists of tapping blocks (20-40 seconds) alternating with rest periods. Performance metrics include tapping frequency, inter-tap interval variability, and accuracy. It is the most commonly used simple motor paradigm for motor cortex mapping, clinical motor assessment, and studying motor control. Contralateral primary motor cortex and supplementary motor area are consistently activated.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-produce-movement">produce movement</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructed-emphasis">instructed emphasis</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>, <a href="vocabulary.html#setting-presentation-rate">presentation rate</a>
+- **Material:** A metronome beat (a tone or a light) to tap in time with, in the paced form; the self-paced form presents nothing.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,59 +42,63 @@ least one of the listed variables, and it records at least one of the listed mea
     - Pacing rate
     - Tapping duration
     - Sequence complexity (single finger vs. sequence)
+    - Tapping pattern (unequal rhythm vs. even beat)
 * - **Measurements**
   - - Tapping rate (taps/sec)
     - Inter-tap interval variability
     - Synchronization error and drift in paced conditions
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Self-Paced Tapping
-
-    `hedvar_finger_tapping__self_paced_tapping`
-  - The participant taps a key or pad repeatedly with one finger at a steady rate of their own choosing, with no external timing signal. The chosen tempo and its regularity are measured.
-  - Participant taps at preferred rate; measures preferred motor tempo
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Auditorily-Paced Tapping
 
     `hedvar_finger_tapping__auditorily_paced_tapping`
-  - A metronome click is played at a fixed rate, and the participant taps in time with it. The offset between each tap and the click, and the variability of that offset, are measured.
-  - Synchronize to auditory metronome; different sensorimotor integration
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-clicks">clicks</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - The participant taps in time with a metronome click, so pacing is external.
 * - Visually-Paced Tapping
 
     `hedvar_finger_tapping__visually_paced_tapping`
-  - The pacing signal is a flashing shape on a screen rather than a sound, and the participant taps in time with the flashes.
-  - Synchronize to visual metronome; different sensory modality for pacing
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>
+  - [Visual perception](../processes/face_and_object_perception.md#hed-visual-perception)
+  - The pacing signal is a flashing shape on a screen instead of a sound.
 * - Unimanual vs. Bimanual
 
     `hedvar_finger_tapping__unimanual_vs_bimanual`
-  - Tapping with both hands at once, either in unison or alternating, is compared with tapping with one hand. Coordinating the two hands adds its own difficulty.
-  - One vs. two hands; bimanual coordination introduces interlimb constraints
+  - named form
+  - -
+  - Both hands tap at once, in unison or alternating, instead of one hand.
 * - Sequential Multi-Finger
 
     `hedvar_finger_tapping__sequential_multi_finger`
-  - Rather than one finger repeating, the participant taps a fixed order of fingers (for example index, middle, ring, little) over and over, as fast or as regularly as possible.
-  - Specific finger sequence rather than single finger; different motor programming
+  - named form
+  - [Motor sequence learning](../processes/motor_preparation_timing_and_execution.md#hed-motor-sequence-learning)
+  - A fixed order of fingers is tapped over and over instead of one finger repeating.
 * - Complex Rhythmic Patterns
 
     `hedvar_finger_tapping__complex_rhythmic_patterns`
-  - The participant reproduces a rhythm with uneven gaps between taps, such as long-short-short, rather than tapping at an even beat.
-  - Non-isochronous rhythm; changes temporal structure of tapping
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-clicks">clicks</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - One finger reproduces a rhythm with unequal intervals (long-short-short) rather than tapping an even beat.
 * - Continuation Paradigm
 
     `hedvar_finger_tapping__continuation_paradigm`
-  - The participant first taps along with a metronome, then the metronome stops and they must keep tapping at the same rate without it. Drift and variability after the metronome stops show how well the rate is kept internally.
-  - External pacing withdrawn mid-task; isolates internal vs. externally guided timing
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-clicks">clicks</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - The participant taps along with a metronome, then keeps the same rate unaided after it stops.
 ```
 
 ## Cognitive processes

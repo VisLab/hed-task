@@ -13,6 +13,17 @@ Participant stays awake, still and unoccupied for a block of several minutes whi
 
 The participant is asked to remain awake and relaxed, to keep still, and to do nothing in particular while the recording runs, typically for three to ten minutes. No stimulus is presented for processing and no response is required. Rest blocks appear at the start or end of a session as a baseline, between task blocks as a recovery period, or as the whole recording in resting-state studies of spontaneous brain activity and functional connectivity. Eye state is the standard manipulation: eyes closed removes visual input and raises occipital alpha; eyes open is often paired with a fixation cross to limit eye movement. When a cross is merely provided and the instruction is to rest, the block is a Rest Task; when the instruction is to hold gaze on the target and gaze is monitored or required, it is a Fixate Task. With no task to direct it, thought wanders: participants report thinking about themselves, their own past and their plans, and recent experience is replayed in a way that supports later memory. What the participant was thinking can be sampled afterwards by asking.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-hold-state">hold state</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -34,34 +45,6 @@ least one of the listed variables, and it records at least one of the listed mea
     - Resting-state fMRI connectivity
     - Heart rate and respiration
     - Self-reported drowsiness or thought content after the block
-```
-
-## Variations
-
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
-
-```{list-table}
-:widths: 25 40 35
-:header-rows: 1
-
-* - Variation
-  - Description
-  - Justification
-* - Eyes-Open Rest
-
-    `hedvar_rest__eyes_open_rest`
-
-    Cognitive Atlas: [rest eyes open](https://www.cognitiveatlas.org/task/id/trm_4c8a834779883)
-  - The participant sits or lies still for several minutes with eyes open, usually looking at a fixation cross or a blank screen, with nothing to do.
-  - Eye state changes visual input and the EEG alpha rhythm; a different postural state for the whole block
-* - Eyes-Closed Rest
-
-    `hedvar_rest__eyes_closed_rest`
-
-    Cognitive Atlas: [rest eyes closed](https://www.cognitiveatlas.org/task/id/trm_54e69c642d89b)
-  - The participant sits or lies still for several minutes with eyes closed and nothing to do, while staying awake.
-  - Eye state changes visual input and the EEG alpha rhythm; removes eye-movement artifact and raises the risk of drowsiness
 ```
 
 ## Cognitive processes

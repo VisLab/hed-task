@@ -18,7 +18,7 @@ This category contains 3 processes.
 
 Active holding of task goals, rules, or sub-goals in a form that biases ongoing processing.
 
-**Tasks that engage this process:** [Fixate Task](../tasks/hedtsk_fixate.md), [Task Switching Task](../tasks/hedtsk_task_switching.md)
+**Tasks that engage this process:** [AX Continuous Performance Task](../tasks/hedtsk_ax_continuous_performance.md), [Fixate Task](../tasks/hedtsk_fixate.md), [Task Switching Task](../tasks/hedtsk_task_switching.md)
 
 **Fundamental references**
 
@@ -56,7 +56,7 @@ Flexible reconfiguration of the task set in response to a change in task demands
 
 Selection and implementation of a cognitive procedure chosen to improve performance on a task.
 
-**Tasks that engage this process:** [Multi-Armed Bandit Task](../tasks/hedtsk_multi_armed_bandit.md), [Prisoner's Dilemma Task](../tasks/hedtsk_prisoners_dilemma.md), [Probabilistic Classification Learning Task](../tasks/hedtsk_probabilistic_classification_learning.md), [Tower of London Task](../tasks/hedtsk_tower_of_london.md), [Virtual Morris Water Maze Task](../tasks/hedtsk_virtual_morris_water_maze.md), [Wisconsin Card Sorting Task](../tasks/hedtsk_wisconsin_card_sorting.md)
+**Tasks that engage this process:** [Multi-Armed Bandit Task](../tasks/hedtsk_multi_armed_bandit.md), [Prisoner's Dilemma Task](../tasks/hedtsk_prisoners_dilemma.md), [Probabilistic Classification Learning Task](../tasks/hedtsk_probabilistic_classification_learning.md), [Tower of Hanoi Task](../tasks/hedtsk_tower_of_hanoi.md), [Tower of London Task](../tasks/hedtsk_tower_of_london.md), [Virtual Morris Water Maze Task](../tasks/hedtsk_virtual_morris_water_maze.md), [Wisconsin Card Sorting Task](../tasks/hedtsk_wisconsin_card_sorting.md)
 
 **Fundamental references**
 

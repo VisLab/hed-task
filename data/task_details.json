@@ -34269,14 +34269,14 @@
       "Self-Report Block",
       "Survey"
     ],
-    "short_definition": "Participant reads or hears a series of questionnaire items and records a response to each; the instrument administered is a parameter of the block, not a variation.",
+    "short_definition": "Participant reads or hears a series of questionnaire items and records a response to each; the instrument administered is a parameter of the block, not a variant.",
     "description": "A self-report instrument is administered as a block of the session, before, between or after task blocks. Items are presented on paper, on screen or read aloud, and the participant answers each in the instrument's response format. There is no time pressure and no stimulus other than the items themselves. The Catalog does not list instruments as tasks; answering one is this task, and which instrument was used is a parameter of it. Each item is a stimulus and each answer a response, but no answer is correct. To answer, the participant reads and understands the item, recalls what is relevant from their own experience, judges how it applies to them, and picks the response option that fits. A computerized administration records when each item was shown and answered.",
     "inclusion_test": {
       "procedure": [
         "Participant reads or hears each item of a questionnaire and records a response to it, in the instrument's format, with no time pressure."
       ],
       "manipulations": [
-        "The instrument administered (a parameter, not a variation)",
+        "The instrument administered (a parameter, not a variant)",
         "Administration mode (paper, computerized, interviewer-read)",
         "Response format (Likert, forced choice, free text)",
         "Position relative to task blocks"

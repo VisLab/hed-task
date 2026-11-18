@@ -13,6 +13,23 @@ Detection of a target in a display of distractors; search slopes across set size
 
 Visual Search Tasks present participants with a display containing multiple items among which they must locate a target. In feature search, the target is defined by a single distinctive feature (e.g., a red item among blue) and "pops out" preattentively, with search time independent of set size. In conjunction search, the target is defined by a combination of features (e.g., a red square among red triangles and green squares) requiring serial, attention-dependent search with RT increasing linearly with set size. The task measures search efficiency, reaction time slopes, and accuracy, providing insights into parallel versus serial attentional processing.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-neighbouring-items">neighbouring items</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-targets">number of targets</a>, <a href="vocabulary.html#setting-presentation-duration">presentation duration</a>, <a href="vocabulary.html#setting-set-size">set size</a>, <a href="vocabulary.html#setting-stimulus-similarity">stimulus similarity</a>, <a href="vocabulary.html#setting-target-probability">target probability</a>
+- **Material:** An array of items with a target defined by one feature or by a conjunction of features among distractors (such as a red square among red triangles and green squares).
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -31,6 +48,12 @@ least one of the listed variables, and it records at least one of the listed mea
     - Feature vs. conjunction target
     - Target prevalence
     - Display duration
+    - Number of targets per display (multiple targets, with patch leaving)
+    - Display type (real-world scene vs. simple array)
+    - Target information before the display (feature cue or preview)
+    - Irrelevant singleton distractor (color singleton vs. none)
+    - Display onset (preview of half the distractors vs. simultaneous)
+    - Memory set size (hybrid search through a memorized set)
 * - **Measurements**
   - - RT x set size slope (search efficiency)
     - Intercept
@@ -38,75 +61,62 @@ least one of the listed variables, and it records at least one of the listed mea
     - Miss rate at low target prevalence
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Feature Search (Pop-Out)
-
-    `hedvar_visual_search__feature_search_pop_out`
-  - The participant looks for a target that differs from all the distractors in one simple feature, such as a red item among green ones, and reports whether it is present. The target stands out at once and search time does not increase with more distractors.
-  - Canonical preattentive pop-out; target defined by single feature
-* - Conjunction Search
-
-    `hedvar_visual_search__conjunction_search`
-
-    Cognitive Atlas: [conjunction search task](https://www.cognitiveatlas.org/task/id/trm_4f24194bce29f)
-  - The target shares one feature with some distractors and another with the rest, for example a red X among red Os and green Xs. The target does not stand out, and search time grows with the number of items.
-  - Target defined by conjunction of features; requires serial search
-* - Spatial Configuration Search
-
-    `hedvar_visual_search__spatial_configuration_search`
-  - The target and distractors are made of the same parts in different arrangements, such as a T among rotated Ls. Each item has to be inspected, making this one of the slowest kinds of search.
-  - Learned spatial configuration guides search; contextual cueing component
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Absent Trials and Target-Present/Absent Ratio
 
     `hedvar_visual_search__absent_trials_and_target_present_absent_ratio`
-  - The share of trials on which a target is actually present is varied, for example 50 percent in one block and 2 percent in another. When targets are rare, participants miss far more of them.
-  - Systematically varies target presence probability; changes decision criteria
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - -
+  - Target prevalence is set per block, from 50 percent down to 2 percent.
 * - Multiple-Target Search (Foraging)
 
     `hedvar_visual_search__multiple_target_search_foraging`
-  - A display contains several targets, and the participant collects as many as they can, or decides when to stop and move to a new display. Finding one target makes further targets more likely to be missed.
-  - Multiple targets per display; foraging paradigm with different decision structure
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>; combined with: <a href="vocabulary.html#how-throughout">throughout</a>, <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a> (The player decides when to leave the display)
+  - [Value-based decision making](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-value-based-decision-making)
+  - Each display holds several targets that the participant collects by clicking, deciding when to quit the display for a new one, so the job becomes localizing targets with a patch-leaving choice layered on top.
 * - Real-World/Naturalistic Search
 
     `hedvar_visual_search__real_world_naturalistic_search`
-  - The participant searches for a named object in a photograph of a real scene, or in a 3D environment, rather than in an array of simple shapes.
-  - Natural scenes as search arrays; different stimulus class and recognition demands
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-scenes">scenes</a>
+  - [Visual object recognition](../processes/face_and_object_perception.md#hed-visual-object-recognition)
+  - The participant searches a photograph of a real scene (or a 3D environment) for a named object instead of an array of simple items.
 * - Guided Search Variants
 
     `hedvar_visual_search__guided_search_variants`
-  - Before the display, the participant is told or shown what the target looks like, or part of the display is shown in advance, so that knowledge of the target can guide attention to likely items.
-  - Top-down feature guidance provides target template; changes attentional control
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-feature-cue">feature cue</a>
+  - -
+  - Before the display the participant is told or shown what the target looks like, or sees part of the display in advance, so a feature cue precedes the search.
 * - Additional-Singleton Paradigm
 
     `hedvar_visual_search__additional_singleton_paradigm`
-  - On some trials one distractor is given a highly salient but irrelevant feature, such as a unique color, while the participant searches for a target defined by shape. The salient distractor slows search by drawing attention.
-  - Color singleton distractor captures attention; distinct capture paradigm
-* - Preview Search
-
-    `hedvar_visual_search__preview_search`
-  - Half the distractors are shown first and the rest of the display, including the target, is added about a second later. Search is efficient among the new items only, as if the old ones were marked and ignored.
-  - Subset of items previewed before search display; different temporal structure
+  - competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-irrelevant-dimension">irrelevant dimension</a>
+  - [Attentional capture](../processes/selective_and_sustained_attention.md#hed-attentional-capture)
+  - On some trials one distractor is unique on an irrelevant dimension (color) while the target is defined by shape, so the competitor is a salient irrelevant dimension carried by a neighbouring item.
 * - Adaptive Choice Visual Search
 
     `hedvar_visual_search__adaptive_choice_visual_search`
-  - Two targets are present, one defined by each of two colors, and the participant chooses which to search for. The numbers of each color change gradually, and whether the participant switches to the easier target measures how well they adjust their strategy.
-  - Participant chooses between search types; tests cost-benefit of different strategies
+  - named form
+  - -
+  - Two targets are always present, one per color, and the participant chooses which to look for while the color proportions drift; whether they switch to the easier target is the measure.
 * - Hybrid Search (Visual + Memory)
 
     `hedvar_visual_search__hybrid_search_visual_memory`
-  - The participant memorizes a set of possible targets (from a few to a hundred) and then searches each display for any of them. Search time depends on both the number of items on screen and the number of targets in memory.
-  - Memory set held while visual search proceeds; combined memory-search paradigm
+  - reference: <a href="vocabulary.html#rule-respond-to-rule-reference-held-in-mind">held in mind</a>
+  - [Working memory](../processes/short_term_and_working_memory.md#hed-working-memory), [Recognition](../processes/long_term_memory.md#hed-recognition)
+  - The participant first memorizes a set of possible targets (from a few to a hundred) and then searches each display for any of them.
 ```
 
 ## Cognitive processes

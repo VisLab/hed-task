@@ -13,6 +13,22 @@ Responses required to frequent "go" stimuli must be withheld on rare "no-go" sti
 
 The Go/No-Go Task measures response inhibition by requiring participants to respond quickly to frequent "go" stimuli while withholding responses to infrequent "no-go" stimuli. The typical ratio is 70-80% go and 20-30% no-go trials, creating a strong prepotent tendency to respond. Performance is measured by go-trial RT (engagement), go-trial accuracy (compliance), and no-go accuracy / false alarm rate (inhibitory control). The task is simpler than the Stop-Signal task as it measures the ability to withhold (rather than cancel) a response.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **Must the player ever hold back?** <a href="vocabulary.html#rule-respond-to-rule-response-demand-withhold-on-some">withhold on some</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-interstimulus-interval">interstimulus interval</a>, <a href="vocabulary.html#setting-response-deadline">response deadline</a>, <a href="vocabulary.html#setting-target-probability">target probability</a>
+- **Material:** A series of single stimuli, typically letters, of which 70-80% are go items and the rest no-go items.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,6 +46,11 @@ least one of the listed variables, and it records at least one of the listed mea
     - ISI
     - Stimulus type
     - Response deadline
+    - Incentive cue and outcome (win vs. avoid loss, by action)
+    - Cue before each stimulus (predicting go or no-go)
+    - Flankers around the go or no-go item
+    - Reversal of go and no-go roles (signaled vs. unsignaled)
+    - Number of go and no-go stimuli (mapping size)
 * - **Measurements**
   - - Commission errors (false alarms to No-Go)
     - Omission errors
@@ -37,63 +58,62 @@ least one of the listed variables, and it records at least one of the listed mea
     - No-Go N2 and P3 ERP components
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Go/No-Go
-
-    `hedvar_go_no_go__standard_go_no_go`
-  - Stimuli appear one at a time. The participant presses a key for the common type (go, about 75 to 80 percent of trials) and makes no response to the rare type (no-go). Pressing on a no-go trial is the main error measure.
-  - Canonical: respond to go, withhold to no-go; measures response inhibition
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Emotional Go/No-Go
 
     `hedvar_go_no_go__emotional_go_no_go`
-  - The go and no-go stimuli are faces with different expressions or emotional words, for example respond to happy faces and withhold to fearful ones, with the assignment switched in other blocks.
-  - Emotional stimuli as go/no-go signals; retained per section 5.1 (EMOT retired)
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - [Emotion recognition](../processes/emotion_perception_and_regulation.md#hed-emotion-recognition)
+  - Go and no-go are defined by facial expression or emotional word, with the assignment reversed in other blocks; the structure is unchanged.
 * - Reward/Punishment Go/No-Go
 
     `hedvar_go_no_go__reward_punishment_go_no_go`
-  - Each stimulus signals whether responding or withholding will be rewarded or will avoid a loss. The four combinations (go to win, no-go to win, go to avoid losing, no-go to avoid losing) reveal that people find it easier to act for reward and to hold back to avoid punishment.
-  - Monetary outcomes for correct responses; motivation manipulation changes decision context
+  - feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>; cue: <a href="vocabulary.html#rule-respond-to-rule-cue-incentive-cue">incentive cue</a>; drive: <a href="vocabulary.html#motivation-drive-reward-stake">reward stake</a>; sign: <a href="vocabulary.html#motivation-sign-both">both</a>; earned by: <a href="vocabulary.html#motivation-earned-by-performance">performance</a>; what: <a href="vocabulary.html#motivation-what-money">money</a>; real: <a href="vocabulary.html#motivation-real-paid">paid</a>
+  - [Reward anticipation](../processes/reward_anticipation_and_motivation.md#hed-reward-anticipation), [Avoidance motivation](../processes/reward_anticipation_and_motivation.md#hed-avoidance-motivation)
+  - Each stimulus signals which of four action-by-outcome cells applies (go or no-go, to win or to avoid loss), so the stimulus carries an incentive cue and outcomes are paid per trial.
 * - Probabilistic Go/No-Go
 
     `hedvar_go_no_go__probabilistic_go_no_go`
-  - The proportion of go trials is varied between blocks, from 50 percent up to 90 percent. The more often the participant has to respond, the stronger the urge to respond becomes and the harder it is to withhold.
-  - Probabilistic rather than deterministic stimulus-response rules; different learning structure
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - -
+  - The go proportion is set per block from 50 to 90 percent; this is the ratio manipulation run in blocks.
 * - Cued Go/No-Go
 
     `hedvar_go_no_go__cued_go_no_go`
-  - A cue before each stimulus indicates whether a go or a no-go stimulus is likely to follow. The participant can prepare to respond or to hold back, and errors are compared for correctly and incorrectly cued trials.
-  - Preparatory cue precedes imperative signal; different temporal structure
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-demand-probability-cue">demand probability cue</a>
+  - [Proactive control](../processes/inhibitory_control_and_conflict_monitoring.md#hed-proactive-control)
+  - A cue before each stimulus says whether a go or a no-go stimulus is likely.
 * - Flanked Go/No-Go
 
     `hedvar_go_no_go__flanked_go_no_go`
-  - The go or no-go stimulus is surrounded by distractor items that match or conflict with it, combining the need to withhold responses with the need to ignore the flankers.
-  - Go/no-go signal surrounded by flanking distractors; adds conflict component
+  - competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-neighbouring-items">neighbouring items</a>
+  - [Interference control](../processes/inhibitory_control_and_conflict_monitoring.md#hed-interference-control)
+  - The go or no-go item is surrounded by congruent or incongruent flankers, adding neighbouring items as a competitor.
 * - Reversal Go/No-Go
 
     `hedvar_go_no_go__reversal_go_no_go`
-  - Partway through the task, the stimuli switch roles: what was go becomes no-go and vice versa, with or without warning. The participant must unlearn the old mapping.
-  - Go/no-go assignments reverse mid-task; tests reversal of inhibitory mappings
+  - rule stability: <a href="vocabulary.html#rule-respond-to-rule-rule-stability-shifts-unsignalled">shifts unsignalled</a>
+  - [Reversal learning](../processes/associative_learning_and_reinforcement.md#hed-reversal-learning)
+  - Partway through, go and no-go stimuli swap roles, with or without warning; coded as an unsignalled shift, but switches_on_cue applies when the swap is announced.
 * - Saccadic Go/No-Go
 
     `hedvar_go_no_go__saccadic_go_no_go`
-  - The response is an eye movement to a target rather than a key press, and on no-go trials the participant must keep looking at the center. Eye position is tracked.
-  - Eye movement response instead of button press; different response effector
-* - Multi-Stimulus Go/No-Go
-
-    `hedvar_go_no_go__multi_stimulus_go_no_go`
-  - Several different stimuli are go signals and several others are no-go signals, so the participant must remember a larger set of rules rather than a single go stimulus and a single no-go stimulus.
-  - Multiple stimulus categories with different go/no-go rules; more complex rule set
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-eye-tracker">eye tracker</a>
+  - [Saccade](../processes/motor_preparation_timing_and_execution.md#hed-saccade)
+  - The go response is an eye movement to the target and no-go means holding fixation; only the effector and recording device change.
 ```
 
 ## Cognitive processes

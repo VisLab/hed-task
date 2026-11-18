@@ -13,6 +13,24 @@ Blocked or event-related presentation of faces vs. objects (or scrambled faces) 
 
 The FFA Localizer presents alternating blocks of faces and non-face objects (houses, cars, scrambled images) while participants perform passive viewing or a simple task (one-back matching, gender judgment). The contrast of faces > objects identifies face-selective regions, particularly the fusiform face area (FFA) in ventral temporal cortex. The task provides an individually-defined localizer for face-selective cortex and has been fundamental to understanding the neural basis of face perception and the question of domain-specific processing modules.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-undergo-stream">undergo stream</a>
+- **What is the player told to do while it runs?** <a href="vocabulary.html#rule-undergo-stream-instruction-incidental-judgment">incidental judgment</a>
+- **Is anything asked afterwards?** <a href="vocabulary.html#rule-undergo-stream-report-after-none">none</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>
+- **Material:** Blocks of face photographs alternating with blocks of non-face objects such as houses, cars or scrambled images.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -26,67 +44,50 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. Blocks of faces alternate with blocks of non-face objects (houses, scrambled images) while participants perform a simple repetition-detection task.
     2. The contrast localizes face-selective cortex.
 * - **Manipulations**
-  - - Stimulus category (faces vs. objects vs. scrambled vs. scenes)
+  - - Stimulus category (faces, objects, scrambled, scenes, inverted faces, face parts)
     - Block duration
     - Task (1-back, passive viewing)
+    - Stimulus format (dynamic video vs. still photograph)
+    - Identity repetition between faces (adaptation)
+    - Face familiarity (known or famous vs. unknown)
 * - **Measurements**
   - - fMRI contrast (faces > objects) identifying FFA, OFA, STS
     - Extent and magnitude of face-selective activation
     - Lateralization index
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Faces vs. Objects Block Design
-
-    `hedvar_face_processing__faces_vs_objects_block_design`
-  - Pictures of faces and pictures of everyday objects are shown in alternating blocks of about 15 to 20 seconds each while brain activity is recorded. The participant usually just watches, or presses a key when a picture repeats to stay alert. Comparing face blocks with object blocks locates face-selective brain areas.
-  - Localizer with objects as contrast; category-selective activation paradigm
-* - Faces vs. Scrambled Faces
-
-    `hedvar_face_processing__faces_vs_scrambled_faces`
-  - The comparison pictures are the same face images cut into pieces and rearranged so they no longer look like faces. This keeps the colors and contrast identical, so any difference is due to seeing a face rather than to low-level image properties.
-  - Scrambled faces as control; tests configural vs. feature processing
-* - Faces vs. Houses
-
-    `hedvar_face_processing__faces_vs_houses`
-  - The comparison blocks show pictures of houses or buildings, another category with its own specialized brain response, giving a clean contrast for locating face areas.
-  - Houses as non-face object category; standard FFA localizer contrast
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Dynamic Face Localizer
 
     `hedvar_face_processing__dynamic_face_localizer`
-  - Short video clips of moving faces (talking, changing expression) are used instead of still photographs, with moving objects as the comparison. Video gives stronger and more reliable responses in face areas.
-  - Moving/dynamic faces; different temporal and motion processing demands
-* - Upright vs. Inverted Faces
-
-    `hedvar_face_processing__upright_vs_inverted_faces`
-  - Faces are shown upright in some blocks and upside down in others. Inverted faces are harder to process as a whole, and the difference between the two isolates whole-face processing.
-  - Face inversion disrupts configural processing; different perceptual experience
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>
+  - -
+  - Short video clips of moving faces and moving objects replace still photographs.
 * - Identity Adaptation
 
     `hedvar_face_processing__identity_adaptation`
-  - Faces are shown in pairs or short runs. Sometimes the same person's face repeats, sometimes a different person follows. The brain response is weaker to a repeated identity, so the drop measures sensitivity to who the face belongs to.
-  - Adaptation paradigm with identity pairs; different temporal structure
-* - Face Parts (Eyes, Mouth)
-
-    `hedvar_face_processing__face_parts_eyes_mouth`
-  - Only parts of faces are shown, such as the eyes alone or the mouth alone, in separate blocks from whole faces, to see whether face areas respond to features or need the whole face.
-  - Isolated face regions; participant views different spatial configuration
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+  - [Face identity recognition](../processes/face_and_object_perception.md#hed-face-identity-recognition)
+  - Faces are shown in pairs or short runs in which identity repeats or changes trial by trial, and the response reduction to a repeat is the measure instead of a block contrast.
 * - Familiar vs. Unfamiliar Faces
 
     `hedvar_face_processing__familiar_vs_unfamiliar_faces`
-  - Some faces are of people the participant knows personally or famous people, and others are strangers. The participant views them (or judges familiarity), and responses to known and unknown faces are compared.
-  - Familiarity manipulation changes recognition demand
+  - named form
+  - [Face identity recognition](../processes/face_and_object_perception.md#hed-face-identity-recognition)
+  - Some faces belong to people the participant knows or to famous people, and responses to known and unknown faces are compared.
 ```
 
 ## Cognitive processes

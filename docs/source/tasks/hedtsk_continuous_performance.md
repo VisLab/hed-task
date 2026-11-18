@@ -5,13 +5,31 @@
 
 **Family:** [Oddball, vigilance and continuous performance tasks](families/oddball_and_vigilance.md)
 
-**Also known as:** CPT, CPT-II, AX-CPT variant also separate entry, Continuous Performance
+**Also known as:** CPT, CPT-II, Continuous Performance
 
 Extended stream of stimuli in which a rare target requires a response; omission and commission errors index sustained attention and response control.
 
 ## Description
 
-The Continuous Performance Task requires participants to continuously monitor a stream of stimuli and respond selectively to infrequent target stimuli while withholding responses to non-targets over an extended period (5-15 minutes). The standard version involves responding when the letter "X" appears; the AX-CPT variant requires responding only when "A" is immediately followed by "X." Target frequency is typically 5-25% of trials. Performance measures include hit rate, false alarm rate, d' (sensitivity), and vigilance decrement over time. The task is widely used in ADHD research and clinical neuropsychology.
+The Continuous Performance Task requires participants to continuously monitor a stream of stimuli and respond selectively to infrequent target stimuli while withholding responses to non-targets over an extended period (5-15 minutes). The standard version involves responding when the letter "X" appears; the AX Continuous Performance Task, a separate task, requires responding only when "A" is immediately followed by "X." Target frequency is typically 5-25% of trials. Performance measures include hit rate, false alarm rate, d' (sensitivity), and vigilance decrement over time. The task is widely used in ADHD research and clinical neuropsychology.
+
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+- **Must the player ever hold back?** <a href="vocabulary.html#rule-respond-to-rule-response-demand-withhold-on-some">withhold on some</a>
+- **How often is there a target?** <a href="vocabulary.html#rule-respond-to-rule-target-rate-rare-target">rare target</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-presentation-rate">presentation rate</a>, <a href="vocabulary.html#setting-session-duration">session duration</a>, <a href="vocabulary.html#setting-target-probability">target probability</a>
+- **Material:** A stream of single letters (or digits or tones) in which one item, usually the letter X, is the rare target.
 
 ## Inclusion test
 
@@ -30,6 +48,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Stimulus presentation rate (ISI)
     - Session duration
     - Signal type (letters, digits, tones)
+    - Emotional distractors during detection
 * - **Measurements**
   - - Hit rate
     - False alarm rate
@@ -38,62 +57,58 @@ least one of the listed variables, and it records at least one of the listed mea
     - Omission and commission errors
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - X-CPT (Simple)
-
-    `hedvar_continuous_performance__x_cpt_simple`
-  - Single letters appear one at a time for several minutes, and the participant presses a key only when the letter X appears, which is rare. Missed Xs and presses to other letters are the measures.
-  - Respond to single target letter; canonical simple vigilance paradigm
-* - AX-CPT (Context Processing)
-
-    `hedvar_continuous_performance__ax_cpt_context_processing`
-
-    Cognitive Atlas: [AX-CPT task](https://www.cognitiveatlas.org/task/id/trm_4c40d2a93ea15), [AX-DPX](https://www.cognitiveatlas.org/task/id/trm_515495b718cd6) (close match), [Continuous Performance Test - AX version](https://www.cognitiveatlas.org/task/id/trm_551f0c294ce23)
-  - Letters appear in pairs. The participant presses the target key only when an X follows an A; an X after any other letter, or any other letter after an A, gets the non-target key. The participant has to remember the previous letter to respond correctly, and A-then-X pairs are made frequent so that the A creates a strong expectation.
-  - Context-dependent target requires tracking A->X sequence; different working memory demand
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Identical Pairs CPT (IP-CPT)
 
     `hedvar_continuous_performance__identical_pairs_cpt_ip_cpt`
-  - A stream of digits or shapes is shown, and the participant presses a key whenever an item is identical to the one just before it. Each item must be held briefly and compared with the next.
-  - Respond when consecutive stimuli match; different stimulus-response rule
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-compare">compare</a>; reference: <a href="vocabulary.html#rule-respond-to-rule-reference-held-in-mind">held in mind</a>
+  - [Working memory updating](../processes/short_term_and_working_memory.md#hed-working-memory-updating)
+  - The target is any item identical to the one just before it, so each item is compared with the previous one instead of with a fixed letter.
 * - Gradual-Onset CPT (gradCPT)
 
     `hedvar_continuous_performance__gradual_onset_cpt_gradcpt`
-  - Photographs of scenes fade continuously into one another with no blank gaps, about one every 800 ms. The participant presses a key for one category (for example cities) and withholds for the rare other category (mountains). The lack of abrupt onsets makes the task depend on steady attention rather than being prompted by each new stimulus.
-  - Stimuli gradually transition instead of discrete flashes; different perceptual and decision dynamics
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-scenes">scenes</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-classify">classify</a>; stream: <a href="vocabulary.html#rule-respond-to-rule-stream-continuous">continuous</a>
+  - -
+  - Scenes fade into one another with no gaps; the participant classifies each as city or mountain, pressing for the frequent category and withholding for the rare one.
 * - Auditory CPT
 
     `hedvar_continuous_performance__auditory_cpt`
-  - The stream of items is heard rather than seen, for example spoken letters or tones through headphones, and the participant responds only to the rare target sound.
-  - Auditory stimulus stream instead of visual; different sensory modality
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>, <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - The same rare-target detection with spoken letters or tones through headphones instead of letters on a screen.
 * - Conners' CPT-3
 
     `hedvar_continuous_performance__conners_cpt_3`
-  - A commercial standardized version in which the participant presses the space bar for every letter except X, which is withheld. The 14-minute task varies the pace between blocks and provides age norms used in attention-deficit assessment.
-  - Standardized commercial CPT with letter stimuli and specific timing; named published instrument
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - -
+  - A commercial instrument that reverses the usual go rate (press for every letter except X, withhold for X) and varies the pace between blocks.
 * - TOVA (Test of Variables of Attention)
 
     `hedvar_continuous_performance__tova_test_of_variables_of_attention`
 
     Cognitive Atlas: [test of variables of attention](https://www.cognitiveatlas.org/task/id/trm_4da86cdbd9eeb)
-  - A commercial version using a simple geometric shape that appears at the top or bottom of the screen. The participant presses a button for the target position only. Targets are rare in the first half and frequent in the second, and timing and norms are fixed by the instrument.
-  - Geometric stimuli, fixed ISI; distinct named instrument with different timing parameters
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - -
+  - A commercial instrument with a position-defined shape target and a rare-then-frequent target probability across halves; a named form.
 * - CPT with Emotional Distractors
 
     `hedvar_continuous_performance__cpt_with_emotional_distractors`
-  - Emotional pictures or faces appear in the background or between items while the participant performs the usual target detection, so sustained attention is measured in the presence of emotional distraction.
-  - Emotional stimuli as distractors; retained per section 5.1 (EMOT retired)
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>, <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>; emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>; competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-neighbouring-items">neighbouring items</a>
+  - [Attentional capture](../processes/selective_and_sustained_attention.md#hed-attentional-capture)
+  - Emotional pictures or faces appear in the background or between items as distractors while the usual rare-target detection continues.
 ```
 
 ## Cognitive processes

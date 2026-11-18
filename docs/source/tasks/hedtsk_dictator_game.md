@@ -13,6 +13,26 @@ One-shot allocation task in which a proposer unilaterally divides an endowment b
 
 One player (dictator) unilaterally decides how much of an endowment to give to an anonymous recipient, who has no power to reject. Despite having complete power, many dictators give 20-30% of their endowment, reflecting intrinsic fairness concerns. fMRI shows generous allocations activate reward regions (ventral striatum, OFC) and empathy regions (anterior insula, ACC), suggesting altruistic choices engage similar neural systems as personal reward.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-interact-with-agent">interact with agent</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>, <a href="vocabulary.html#motivation-real-hypothetical">hypothetical</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>
+- **Material:** An endowment of money, of which the participant gives any share to an anonymous recipient.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -31,69 +51,65 @@ least one of the listed variables, and it records at least one of the listed mea
     - Social distance
     - Framing (give vs. take)
     - Group identity
+    - Role structure (both players give and receive vs. one giver)
+    - Number of recipients (several vs. one)
+    - Exit option (opt out for a fixed payoff vs. none)
 * - **Measurements**
   - - Amount allocated to recipient
     - Proportion of fair (50-50) splits
     - Distribution of allocations across participants
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Dictator Game
-
-    `hedvar_dictator_game__standard_dictator_game`
-  - The participant is given a sum of money and decides how much of it, if any, to give to another anonymous person who has no say and cannot respond. The amount given is the measure of generosity.
-  - Canonical: unilateral allocation from fixed endowment to anonymous recipient
-* - Take Game
-
-    `hedvar_dictator_game__take_game`
-  - The other person starts with the money, and the participant decides how much to take from them rather than how much to give. The outcomes possible are the same, but the action is taking rather than giving.
-  - Dictator can take from recipient; different action space
-* - Give-or-Take Game
-
-    `hedvar_dictator_game__give_or_take_game`
-  - Both people start with money, and the participant may either give some of their own to the other person or take some of the other person's money. Any split within the combined total is possible.
-  - Both giving and taking possible; combined action space
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Double Dictator
 
     `hedvar_dictator_game__double_dictator`
-  - Both participants are given money and each decides at the same time how much to give the other, without knowing the other's decision. Each person is a giver and a recipient.
-  - Both players act as dictators simultaneously; distinct social structure
+  - move order: <a href="vocabulary.html#rule-interact-with-agent-move-order-simultaneous">simultaneous</a>
+  - -
+  - Both players are endowed and each decides at the same time how much to give the other, so every participant is both giver and recipient.
 * - Earned vs. Windfall Endowment
 
     `hedvar_dictator_game__earned_vs_windfall_endowment`
-  - Before the game, the participant either earns the money by doing a task (such as a quiz or typing job) or is simply handed it. People tend to give less when they earned the money themselves.
-  - Endowment earned through effort vs. given randomly; changes perceived legitimacy
+  - named form
+  - -
+  - The participant either earns the endowment in a prior task or is simply handed it before making the same allocation.
 * - Audience/Observation Effects
 
     `hedvar_dictator_game__audience_observation_effects`
-  - The decision is made while the experimenter or another person can see it, or will learn of it, compared with a fully anonymous decision where nobody can link the giver to the amount.
-  - Observer present or aware of allocation; changes social context
+  - social aspect: <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>, <a href="vocabulary.html#facet-social-aspect-being-observed">being observed</a>
+  - -
+  - The allocation is made where the experimenter or another person can see or will learn of it instead of under full anonymity.
 * - N-Person Dictator
 
     `hedvar_dictator_game__n_person_dictator`
-  - The participant divides the money among several recipients rather than one, and may give different amounts to different people.
-  - Multiple recipients; changes social structure and distribution decision
+  - partner: <a href="vocabulary.html#rule-interact-with-agent-partner-group">group</a>
+  - -
+  - The money is divided among several recipients rather than one, possibly in different amounts.
 * - Charitable Giving Dictator
 
     `hedvar_dictator_game__charitable_giving_dictator`
-  - The recipient is a named charity instead of an anonymous person. The participant decides how much of the money to donate.
-  - Recipient is charity; different social/moral framing
+  - named form
+  - -
+  - The recipient is a named charity rather than an anonymous person, so the other party is an organization.
 * - Exit Option
 
     `hedvar_dictator_game__exit_option`
-  - Before dividing the money, the participant may choose not to play at all and keep a slightly smaller amount, so that the recipient never learns a game existed. Taking the exit shows that giving in the standard game is partly driven by not wanting to be seen as unfair.
-  - Option to leave game rather than allocate; adds outside option to choice set
+  - exit option: <a href="vocabulary.html#rule-interact-with-agent-exit-option-available">available</a>
+  - -
+  - Before allocating, the participant may decline to play and keep a slightly smaller sum, and the recipient never learns that a game existed.
 ```
 
 ## Cognitive processes

@@ -13,6 +13,23 @@ Brief sample array followed after a blank delay by a probe array; participant re
 
 The Change Detection Task, developed by Luck and Vogel (1997), is the standard paradigm for measuring visual working memory capacity. Participants briefly view a memory array of colored squares (typically 100-500 ms), followed by a blank retention interval (~900 ms), then a test array. On half the trials, one item changes color; participants report whether a change occurred. Performance is converted to a capacity estimate (K) using Cowan's formula: K = set size x (hit rate - false alarm rate). The task established that visual WM capacity is approximately 3-4 items in healthy adults and has been instrumental in research linking WM capacity to attention, intelligence, and neural oscillations.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **How long is it held?** <a href="vocabulary.html#rule-study-then-test-retention-interval-seconds">seconds</a>
+- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-same-changed">same changed</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-retention-interval">retention interval</a>, <a href="vocabulary.html#setting-set-size">set size</a>
+- **Material:** Arrays of colored squares (or oriented bars) in which one item may change color between the memory array and the test array.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,58 +47,44 @@ least one of the listed variables, and it records at least one of the listed mea
     - Retention interval
     - Number of changes
     - Feature complexity
+    - Presentation format (sequential vs. simultaneous)
 * - **Measurements**
   - - Accuracy converted to capacity estimate K (Cowan's K or Pashler's K)
     - RT
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Color Change Detection
-
-    `hedvar_change_detection__standard_color_change_detection`
-  - A few colored squares appear briefly, the screen goes blank for about a second, and the squares reappear. On half the trials one square has changed color. The participant reports whether anything changed. Accuracy at different numbers of squares gives an estimate of how many items can be held in mind.
-  - Canonical flicker paradigm: colored squares change across blank; whole/partial report
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Single-Probe Change Detection
 
     `hedvar_change_detection__single_probe_change_detection`
-  - After the blank interval only one square reappears, at one of the original locations, and the participant reports whether that one square is the same or different. This removes the need to compare the whole display.
-  - Post-array probe tests one item; different response structure from whole-display report
-* - Orientation Change Detection
-
-    `hedvar_change_detection__orientation_change_detection`
-  - The items are tilted bars rather than colored squares, and a change is a bar rotating to a new angle. Everything else is as in the color version.
-  - Orientation feature instead of color; different perceptual dimension
-* - Conjunction Change Detection
-
-    `hedvar_change_detection__conjunction_change_detection`
-  - Each item has two features, such as a color and an orientation, and a change can swap features between items or alter one feature. The participant must remember which color went with which orientation, not just which features were present.
-  - Conjunctions of features can change; higher-order binding demand
+  - named form
+  - -
+  - Only one square reappears at one of the original locations and the same/different judgment is about that item alone rather than the whole array.
 * - Change Detection with Filtering
 
     `hedvar_change_detection__change_detection_with_filtering`
-  - The display includes items the participant is told to ignore (for example, remember only the red bars, not the blue ones). Memory for the relevant items is then compared with a display that had no distractors, measuring how well the irrelevant items were kept out.
-  - Some items task-relevant, others to be ignored; adds selective attention demand
+  - study instruction: <a href="vocabulary.html#rule-study-then-test-study-instruction-remember-or-forget-by-cue">remember or forget by cue</a>
+  - -
+  - The array includes items the participant is told by a feature cue to ignore (remember the red bars, not the blue), so the study instruction selects a cued subset of the array.
 * - Continuous Report / Precision Task
 
     `hedvar_change_detection__continuous_report_precision`
-  - Instead of a same-or-different answer, one location is probed and the participant reproduces the remembered feature exactly, for example by clicking the remembered color on a color wheel. The spread of errors measures how precise each memory is.
-  - Participant reports exact remembered value on continuous wheel; different response format
-* - Sequential Presentation
-
-    `hedvar_change_detection__sequential_presentation`
-  - The items are shown one after another rather than all at the same time, and the test display follows the last item. Memory must be built up serially instead of from a single glance.
-  - Items presented serially before test; different encoding structure
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>
+  - -
+  - One location is probed and the participant reproduces the remembered feature on a continuous scale such as a color wheel, instead of judging whether it changed; the spread of the errors measures memory precision.
 ```
 
 ## Cognitive processes

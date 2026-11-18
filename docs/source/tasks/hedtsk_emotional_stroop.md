@@ -13,6 +13,22 @@ Color-naming of emotionally valenced words; RT slowing on threat-related words i
 
 A variant of the classic Stroop in which participants name the ink color of words that vary in emotional valence (threat-related, positive, neutral). Emotional interference is measured as the slowing of color naming for emotional relative to neutral words, indexing the degree to which emotional content captures attentional resources. The task is widely used in anxiety and PTSD research, where threat-related words produce disproportionate interference. The emotional interference effect reflects automatic processing of affectively significant information.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-irrelevant-dimension">irrelevant dimension</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Emotional aspect:** <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Material:** Emotionally valenced or threat-related words (disorder-specific, general threat or neutral) printed in colored ink.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -26,55 +42,53 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. Color words are replaced by emotionally valenced or threat-related words.
     2. Participants name the ink color while ignoring word meaning.
 * - **Manipulations**
-  - - Word valence/threat relevance (disorder-specific, general threat, neutral)
+  - - Word valence/threat relevance (disorder-specific, general threat, positive, neutral)
     - Blocked vs. mixed presentation
+    - Stimulus type (words, pictures, face-word compounds)
+    - Awareness of the emotional word (subliminal masked prime vs. visible)
 * - **Measurements**
   - - RT slowing for threat/emotional words relative to neutral (emotional Stroop interference)
     - Accuracy
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Threat-Related Emotional Stroop
-
-    `hedvar_emotional_stroop__threat_related_emotional_stroop`
-  - Words printed in different ink colors are shown one at a time, and the participant names the ink color while ignoring the word. Some words are threatening (such as death, attack, failure) and others neutral. Slower color naming for threat words indicates the word's meaning captured attention.
-  - Threat words produce interference; canonical emotional Stroop design
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Disorder-Specific Variants
 
     `hedvar_emotional_stroop__disorder_specific_variants`
-  - The emotional words are chosen to match a particular clinical concern, for example trauma words for post-traumatic stress disorder, body and food words for eating disorders, or alcohol words for drinking problems. The participant still names ink colors.
-  - Stimulus set tailored to specific disorder (e.g., spider phobia words); different content domain
-* - Positive vs. Negative Emotional Stroop
-
-    `hedvar_emotional_stroop__positive_vs_negative_emotional_stroop`
-  - Pleasant words are included alongside unpleasant and neutral words, so that slowing can be compared for positive and negative content.
-  - Positive stimuli alongside negative; tests valence symmetry of interference
+  - population: <a href="vocabulary.html#facet-population-patients">patients</a>
+  - -
+  - The emotional word set is matched to the clinical concern of a patient group; the color-naming procedure is unchanged.
 * - Pictorial Emotional Stroop
 
     `hedvar_emotional_stroop__pictorial_emotional_stroop`
-  - Emotional and neutral pictures are shown with a colored border, tint or overlay, and the participant names the color while ignoring the picture.
-  - Emotional pictures instead of words; different stimulus modality
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
+  - -
+  - Emotional and neutral pictures carry a colored border or tint and the participant names that color while ignoring the picture.
 * - Subliminal Emotional Stroop
 
     `hedvar_emotional_stroop__subliminal_emotional_stroop`
-  - Each emotional or neutral word is flashed very briefly and then covered by a colored mask or letter string, and the participant names the color of the mask. The participant cannot consciously read the word.
-  - Masked words below awareness; changes conscious access to emotional stimuli
+  - competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-preceding-prime">preceding prime</a>
+  - -
+  - The word is flashed below awareness and then covered by a colored mask whose color is named, so the emotional word acts as a masked prime before the judged item rather than as part of it.
 * - Face-Word Emotional Stroop
 
     `hedvar_emotional_stroop__face_word_emotional_stroop`
-  - A face with an emotional expression is shown with an emotion word (such as HAPPY or ANGRY) written across it. The participant names the face's expression while ignoring the word, or reads the word while ignoring the face, and conflict between the two slows responses.
-  - Emotional faces paired with color words; cross-domain emotional conflict
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>; emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>, <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - -
+  - An emotion word is written across an expressive face and the participant names the expression while ignoring the word (or the reverse), so the competitor is now response-mapped as in the color-word Stroop.
 ```
 
 ## Cognitive processes

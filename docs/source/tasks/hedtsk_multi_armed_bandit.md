@@ -13,6 +13,27 @@ Repeated choice among options with unknown or changing reward distributions; cho
 
 Participants choose among multiple options (the "arms" of a slot machine), each yielding rewards with unknown and often changing probabilities. The central challenge is the explore-exploit dilemma: whether to exploit the currently best-known option or explore alternatives that might yield higher returns. Reward probabilities may be stationary or volatile (drifting over time), with the volatile version (restless bandit) requiring continuous updating of value estimates. This paradigm is the dominant tool in computational psychiatry for studying reinforcement learning, and its computational tractability - fitting with Bayesian, Kalman-filter, or upper-confidence-bound models - has made it central to understanding decision-making deficits in addiction, schizophrenia, depression, and anxiety.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
+- **What is traded against what?** <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-explore-vs-exploit">explore vs exploit</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-points">points</a>, <a href="vocabulary.html#motivation-what-money">money</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>, <a href="vocabulary.html#setting-number-of-trials">number of trials</a>
+- **Material:** Several options, the arms of a slot machine, each paying out rewards with unknown probabilities that are stationary or drifting.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,6 +51,8 @@ least one of the listed variables, and it records at least one of the listed mea
     - Reward distributions (stationary vs. drifting)
     - Horizon length
     - Information asymmetry
+    - Cue before each trial (contextual vs. none)
+    - Effort cost of sampling an option
 * - **Measurements**
   - - Total reward earned
     - Exploration-exploitation ratio
@@ -37,65 +60,52 @@ least one of the listed variables, and it records at least one of the listed mea
     - Regret
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Two-Armed Stationary Bandit
-
-    `hedvar_multi_armed_bandit__two_armed_stationary_bandit`
-  - On each trial the participant chooses one of two options (often shown as slot machines or colored boxes) and receives a reward with a fixed probability for that option. The probabilities do not change, so the participant can learn the better option and stick with it.
-  - Canonical two-option stationary reward structure; stable payoff distributions
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Restless (Volatile) Bandit
 
     `hedvar_multi_armed_bandit__restless_volatile_bandit`
-  - The reward probability or amount for each option drifts slowly and randomly over the session, so the best option changes. The participant must keep sampling options that seem worse to notice when they improve.
-  - Reward probabilities drift over time; tests tracking of non-stationary environments
+  - contingency stability: <a href="vocabulary.html#rule-choose-for-outcomes-contingency-stability-drifting">drifting</a>
+  - -
+  - Each option's reward probability or amount drifts slowly and randomly over the session, so the best option changes.
 * - Contextual Bandit
 
     `hedvar_multi_armed_bandit__contextual_bandit`
 
     Cognitive Atlas: [contextual bandit](https://www.cognitiveatlas.org/task/id/tsk_3ICXMd8R3ekcb)
-  - A cue shown on each trial, such as a background color or a feature of the options, predicts which option is better. The participant must learn the rule linking the cue to the right choice.
-  - Context features predict optimal choice; adds feature-based learning
-* - Horizon Task (Wilson et al.)
-
-    `hedvar_multi_armed_bandit__horizon_task_wilson_et_al`
-  - The participant is told how many choices remain in the current game, either one or several. After some forced choices that show outcomes, the free choices reveal how much more people explore when there are many choices left to benefit from the information.
-  - Fixed horizon with exploration vs. exploitation trade-off manipulation
+  - contingency cue: <a href="vocabulary.html#rule-choose-for-outcomes-contingency-cue-per-trial-cue">per trial cue</a>
+  - [Associative learning](../processes/associative_learning_and_reinforcement.md#hed-associative-learning)
+  - A cue shown on each trial predicts which option is better, so the participant learns which choice goes with which cue.
 * - Four-Armed Bandit with Reversal
 
     `hedvar_multi_armed_bandit__four_armed_bandit_with_reversal`
-  - Four options are available and, at unannounced points, their reward probabilities swap so the previously best option becomes worse. The participant must notice and switch.
-  - Four arms with explicit reversal phase; tests reversal learning in bandit
-* - Informative vs. Non-Informative Exploration
-
-    `hedvar_multi_armed_bandit__informative_vs_non_informative_exploration`
-  - The design controls whether choosing an untried option actually teaches the participant something, for example by sometimes showing the outcomes of unchosen options, so that choices made for information can be separated from choices made at random.
-  - Exploration choices yield differential information; changes exploration value
+  - contingency stability: <a href="vocabulary.html#rule-choose-for-outcomes-contingency-stability-reversal">reversal</a>
+  - [Reversal learning](../processes/associative_learning_and_reinforcement.md#hed-reversal-learning)
+  - Four options whose reward probabilities swap at unannounced points.
 * - Social Bandit
 
     `hedvar_multi_armed_bandit__social_bandit`
-  - Before or alongside their own choices, the participant sees the choices or outcomes of another player, and can use that player's experience to guide their own picks.
-  - Observe another's choices; social learning component
+  - social aspect: <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>
+  - [Social decision making](../processes/social_cognition_and_strategic_social_choice.md#hed-social-decision-making)
+  - The choices or outcomes of another player are shown before or alongside the participant's own.
 * - Bandit with Effort Cost
 
     `hedvar_multi_armed_bandit__bandit_with_effort_cost`
-  - Choosing or sampling an option costs physical or mental effort, for example several key presses or a difficult task, so the participant must weigh the cost of exploring against the value of what might be learned.
-  - Effort cost added to choices; combines effort discounting with learning
-* - Bandit with Partial Observability
-
-    `hedvar_multi_armed_bandit__bandit_with_partial_observability`
-  - In the usual task only the chosen option's outcome is shown. Here, in some conditions, the outcomes of all options are shown after each choice, so the participant can learn about options without choosing them and exploration is no longer needed for information.
-  - Outcomes sometimes hidden; different information structure
+  - sign: <a href="vocabulary.html#motivation-sign-both">both</a>; what: <a href="vocabulary.html#motivation-what-points">points</a>, <a href="vocabulary.html#motivation-what-money">money</a>, <a href="vocabulary.html#motivation-what-effort-cost">effort cost</a>
+  - [Effort allocation](../processes/reward_anticipation_and_motivation.md#hed-effort-allocation)
+  - Choosing or sampling an option costs key presses or a hard task, so exploration carries an effort cost on top of the usual tradeoff.
 ```
 
 ## Cognitive processes

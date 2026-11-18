@@ -13,6 +13,27 @@ Two-player one-shot or iterated game with cooperate/defect choices and asymmetri
 
 The Prisoner's Dilemma is a canonical game theory paradigm for studying cooperation and defection under strategic interdependence. Two players simultaneously choose to cooperate or defect. Mutual cooperation yields moderate rewards for both; mutual defection yields low rewards for both; but if one defects while the other cooperates, the defector receives the highest reward and the cooperator receives nothing (or a penalty). The dominant strategy in single-shot play is to defect, yet human participants frequently cooperate, particularly in iterated versions. The task is central to research on trust, reciprocity, altruism, and the neural substrates of social decision-making.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-interact-with-agent">interact with agent</a>
+- **In what order?** <a href="vocabulary.html#rule-interact-with-agent-move-order-simultaneous">simultaneous</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-joint-moves">joint moves</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>, <a href="vocabulary.html#motivation-real-hypothetical">hypothetical</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>
+- **Material:** A payoff matrix of money amounts for each combination of the two players' choices to cooperate or defect.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,6 +51,10 @@ least one of the listed variables, and it records at least one of the listed mea
     - One-shot vs. iterated
     - Partner identity (human, computer, in-group)
     - Communication allowed or not
+    - Move order (sequential vs. simultaneous)
+    - Number of players and move granularity (public goods contribution)
+    - Punishment option after choices are revealed
+    - Exit option (opt out for a guaranteed small payoff vs. none)
 * - **Measurements**
   - - Cooperation rate
     - Payoff earned
@@ -37,78 +62,68 @@ least one of the listed variables, and it records at least one of the listed mea
     - First-move cooperation
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Single-Shot (One-Round) PD
-
-    `hedvar_prisoners_dilemma__single_shot_one_round_pd`
-  - Two players each choose at the same time, without communicating, to cooperate or defect. Both cooperating pays each a moderate amount; both defecting pays each little; if one defects while the other cooperates, the defector gets the most and the cooperator the least. They play once with an anonymous partner.
-  - Canonical one-round anonymous PD; no reputation effects
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Iterated PD (Repeated Games)
 
     `hedvar_prisoners_dilemma__iterated_pd_repeated_games`
-  - The same two players make the cooperate-or-defect choice repeatedly, seeing each other's past choices, so that strategies such as responding in kind become possible.
-  - Multiple rounds with same partner; reputation and strategy accumulate
+  - feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>; repetition: <a href="vocabulary.html#rule-interact-with-agent-repetition-iterated">iterated</a>
+  - -
+  - The same two players choose repeatedly and see each other's past choices after every round, so conditional strategies become possible.
 * - Sequential PD
 
     `hedvar_prisoners_dilemma__sequential_pd`
-  - One player chooses first and the second player sees that choice before making their own. The second player's choice shows whether they reciprocate cooperation.
-  - One player acts before observing other's choice; different temporal structure
+  - move order: <a href="vocabulary.html#rule-interact-with-agent-move-order-sequential">sequential</a>
+  - -
+  - One player chooses first and the second sees that choice before choosing.
 * - Multiplayer/Public Goods Version
 
     `hedvar_prisoners_dilemma__multiplayer_public_goods_version`
-  - Several players each decide how much of their money to put into a shared pool, which is multiplied and divided equally among everyone regardless of contribution. Contributing helps the group but each player does best by holding back.
-  - More than two players; group dilemma structure
-* - PD with Communication
-
-    `hedvar_prisoners_dilemma__pd_with_communication`
-  - The players can talk or exchange messages before choosing, either freely with no binding force, or with the option of making promises that are enforced.
-  - Players communicate before deciding; cheap talk changes decision context
+  - players acting: <a href="vocabulary.html#rule-interact-with-agent-players-acting-several">several</a>; partner: <a href="vocabulary.html#rule-interact-with-agent-partner-group">group</a>; transfer transformation: <a href="vocabulary.html#rule-interact-with-agent-transfer-transformation-multiplied">multiplied</a>
+  - -
+  - Several players each contribute an amount to a shared pool that is multiplied and divided equally among all, so there are many players and each chooses an amount rather than simply cooperating or defecting.
 * - PD with Punishment Option
 
     `hedvar_prisoners_dilemma__pd_with_punishment_option`
-  - After the choices are revealed, a player (or an observing third party) can pay some of their own money to reduce the earnings of a player who defected.
-  - Third-party punishment available; adds enforcement mechanism
-* - PD with Varying Payoff Matrices
-
-    `hedvar_prisoners_dilemma__pd_with_varying_payoff_matrices`
-  - The amounts in the payoff table are changed between games, for example making defection more or less tempting, to see how cooperation depends on the stakes.
-  - Different temptation/sucker payoffs; tests sensitivity to game parameters
+  - sign: <a href="vocabulary.html#motivation-sign-both">both</a>
+  - -
+  - After the choices are revealed, a player or an observing third party can pay from their own money to reduce a defector's earnings.
 * - PD against Computer Opponents
 
     `hedvar_prisoners_dilemma__pd_against_computer_opponents`
-  - The other player is a computer program following a known or unknown fixed strategy, such as always cooperating, always defecting, or copying the participant's last move. The participant may or may not be told it is a computer.
-  - Computer opponent instead of human; per section 5.6 structural change (deterministic vs. human partner)
+  - partner: <a href="vocabulary.html#rule-interact-with-agent-partner-computer">computer</a>
+  - -
+  - The other player is a program following a fixed strategy such as always cooperate, always defect or tit-for-tat, and the participant may or may not be told.
 * - PD with Reputation Information
 
     `hedvar_prisoners_dilemma__pd_with_reputation_information`
-  - Before choosing, the participant is shown how often their current partner cooperated in previous games with other people.
-  - Partner's past cooperation history visible; changes social information available
+  - named form
+  - -
+  - Before choosing, the participant is shown how often the current partner cooperated in earlier games with other people.
 * - Continuous PD
 
     `hedvar_prisoners_dilemma__continuous_pd`
-  - Instead of a binary choice, each player chooses how much to cooperate on a scale, for example how much of an endowment to transfer to the partner, with payoffs that depend on both amounts.
-  - Continuous contribution instead of binary; different action space
-* - Asymmetric Prisoner's Dilemma
-
-    `hedvar_prisoners_dilemma__asymmetric_prisoners_dilemma`
-  - The two players face different payoff tables, so that one stands to gain more from defecting or to lose more from being exploited than the other. Players may or may not know the other's payoffs.
-  - Different payoff structures for each player; breaks symmetry of standard PD
+  - named form
+  - -
+  - Each player chooses how much to cooperate on a scale, for example how much of an endowment to transfer to the partner, rather than making a yes-or-no choice.
 * - Optional Prisoner's Dilemma
 
     `hedvar_prisoners_dilemma__optional_prisoners_dilemma`
-  - Each player has a third option: to not play, taking a guaranteed small payoff instead. Those who choose to play then face the usual cooperate-or-defect choice.
-  - Third option to not participate; changes strategic choice set
+  - exit option: <a href="vocabulary.html#rule-interact-with-agent-exit-option-available">available</a>
+  - -
+  - Each player may opt out for a guaranteed small payoff, and those who play face the usual choice.
 ```
 
 ## Cognitive processes

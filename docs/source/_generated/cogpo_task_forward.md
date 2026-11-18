@@ -7,6 +7,7 @@
 | [Attention Network Task](../tasks/hedtsk_attention_network.md) | related | [Flanker Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Flanker_Task_Paradigm) | ANT is a cued flanker task; CogPO has Flanker Task and Posner Task but not their combination. |
 | [Auditory Masking Task](../tasks/hedtsk_auditory_masking.md) | related | [Tone Monitor/Discrimination Paradigm](http://www.wiki.cogpo.org/index.php?title=Tone_Monitor_or_Discrimination_Paradigm) | Tone Monitor/Discrimination is the nearest class; masking thresholds are not a CogPO paradigm. |
 | [Autobiographical Memory Task](../tasks/hedtsk_autobiographical_memory.md) | close | [Episodic Recall Paradigm](http://www.wiki.cogpo.org/index.php?title=Episodic_Recall_Paradigm) | Episodic Recall names autobiographical recall as its typical case. |
+| [AX Continuous Performance Task](../tasks/hedtsk_ax_continuous_performance.md) | none | - | No CogPO class names this task. |
 | [Balloon Analog Risk Task](../tasks/hedtsk_balloon_analog_risk.md) | related | [Reward Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Reward_Task_Paradigm) | Falls in the Reward Task class; no risk-taking paradigm in CogPO. |
 | [Biological Motion Perception Task](../tasks/hedtsk_biological_motion_perception.md) | related | [Action Observation Paradigm](http://www.wiki.cogpo.org/index.php?title=Action_Observation_Paradigm) | Point-light displays are viewed moving body parts; Action Observation is broader. |
 | [Body Ownership Illusion Task](../tasks/hedtsk_body_ownership_illusion.md) | none | - | No body-representation class; Tactile Monitor/Discrimination is a stimulus class, not this paradigm. |
@@ -23,6 +24,7 @@
 | [Digit Symbol Substitution Task](../tasks/hedtsk_digit_symbol_substitution.md) | none | - | No processing-speed class in CogPO. |
 | [Directed Forgetting Task](../tasks/hedtsk_directed_forgetting.md) | none | - | No intentional-forgetting class; Encoding Paradigm is the nearest phase. |
 | [Dot-Probe Task](../tasks/hedtsk_dot_probe.md) | none | - | No attentional-bias class in CogPO. |
+| [Dual N-Back Task](../tasks/hedtsk_dual_n_back.md) | none | - | No CogPO class names this task. |
 | [Effort-Based Decision-Making Task](../tasks/hedtsk_effort_based_decision_making.md) | related | [Reward Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Reward_Task_Paradigm) | Falls in the Reward Task class; no effort paradigm in CogPO. |
 | [Emotion Regulation Task](../tasks/hedtsk_emotion_regulation.md) | none | - | No emotion-regulation class in CogPO. |
 | [Emotional Stroop Task](../tasks/hedtsk_emotional_stroop.md) | close | [Stroop Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Stroop_Task_Paradigm) | CogPO folds Emotional Stroop into Stroop Task Paradigm. |
@@ -60,6 +62,7 @@
 | [Pavlovian Fear Conditioning Task](../tasks/hedtsk_pavlovian_fear_conditioning.md) | close | [Classical Conditioning Paradigm](http://www.wiki.cogpo.org/index.php?title=Classical_Conditioning_Paradigm) | Classical Conditioning Paradigm is the class; fear conditioning is one member. |
 | [Phonological Awareness Task](../tasks/hedtsk_phonological_awareness.md) | exact | [Phonological Discrimination Paradigm](http://www.wiki.cogpo.org/index.php?title=Phonological_Discrimination_Paradigm) | Phonological Discrimination lists rhyming, syllable counting and homophones. |
 | [Picture Naming Task](../tasks/hedtsk_picture_naming.md) | exact | [Naming (Overt) Paradigm](http://www.wiki.cogpo.org/index.php?title=Naming_%28Overt%29_Paradigm) | Naming (Overt); CogPO also has a covert class the Catalog does not split off. |
+| [Picture-Word Interference Task](../tasks/hedtsk_picture_word_interference.md) | none | - | No CogPO class names this task. |
 | [Posner Spatial Cueing Task](../tasks/hedtsk_posner_spatial_cueing.md) | exact | [Posner Task Paradigm](http://www.wiki.cogpo.org/index.php?title=Posner_Task_Paradigm) | Same paradigm. |
 | [Prisoner's Dilemma Task](../tasks/hedtsk_prisoners_dilemma.md) | none | - | No economic-game class in CogPO. |
 | [Probabilistic Classification Learning Task](../tasks/hedtsk_probabilistic_classification_learning.md) | none | - | No category-learning class in CogPO. |
@@ -91,6 +94,7 @@
 | [Take Questionnaire Task](../tasks/hedtsk_take_questionnaire.md) | none | - | CogPO has no questionnaire class. |
 | [Task Switching Task](../tasks/hedtsk_task_switching.md) | exact | [Task Switching Paradigm](http://www.wiki.cogpo.org/index.php?title=Task_Switching_Paradigm) | Same paradigm. |
 | [Think/No-Think Task](../tasks/hedtsk_think_no_think.md) | none | - | No memory-suppression class in CogPO. |
+| [Tower of Hanoi Task](../tasks/hedtsk_tower_of_hanoi.md) | none | - | No CogPO class names this task. |
 | [Tower of London Task](../tasks/hedtsk_tower_of_london.md) | exact | [Tower of London Paradigm](http://www.wiki.cogpo.org/index.php?title=Tower_of_London_Paradigm) | On the CogPO wiki only. |
 | [Trail Making Task](../tasks/hedtsk_trail_making.md) | none | - | No visuomotor-sequencing class in CogPO. |
 | [Trust Game Task](../tasks/hedtsk_trust_game.md) | none | - | No economic-game class in CogPO. |

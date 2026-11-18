@@ -13,6 +13,21 @@ Passive or instructed viewing of emotionally valenced images (IAPS, GAPED, NAPS,
 
 Participants passively view color photographs from the International Affective Picture System (IAPS), a validated database of 1,182 images varying in emotional valence (pleasant, unpleasant, neutral) and arousal (calm to exciting). Images are presented for 3-5 seconds each without requiring an overt response. Post-viewing, participants rate valence and arousal on 9-point scales. The task serves as a standardized emotion elicitation tool in neuroimaging, consistently activating amygdala (for high-arousal images), visual cortex (enhanced processing of emotional stimuli), and prefrontal regions.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-undergo-stream">undergo stream</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
+- **Emotional aspect:** <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>, <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Material:** Color photographs from a validated set such as the International Affective Picture System, varying in emotional valence (pleasant, unpleasant, neutral) and arousal.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -28,6 +43,7 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Manipulations**
   - - Emotional valence (positive, negative, neutral) and arousal level of the images
     - Viewing instructions (passive, reappraise, suppress)
+    - Picture selection (single discrete emotion per block vs. mixed valence and arousal)
 * - **Measurements**
   - - Subjective valence and arousal ratings (SAM)
     - Skin conductance
@@ -37,23 +53,26 @@ least one of the listed variables, and it records at least one of the listed mea
     - fMRI amygdala/PFC activation
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Category-Specific Selection
 
     `hedvar_affective_picture_viewing__category_specific_selection`
-  - Instead of a mixed set of pleasant, unpleasant and neutral pictures, the images are chosen to evoke one specific emotion at a time, such as fear, disgust or sadness, and are usually shown in blocks of a single emotion. The participant still views them passively or rates them afterwards.
-  - Restricts stimuli to specific emotional categories (e.g., fear, disgust), creating category-structured event blocks distinct from mixed viewing
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - -
+  - Pictures are chosen to evoke one discrete emotion at a time and shown in blocks of a single emotion instead of a mixed valence-by-arousal set.
 ```
 
 ## Cognitive processes

@@ -13,6 +13,28 @@ Repeated choices between smaller-sooner and larger-later rewards at varying dela
 
 Participants make repeated choices between a smaller immediate reward and a larger delayed reward (e.g., "$10 now or $25 in 1 week"). The immediate amount or delay is systematically varied to estimate indifference points, yielding a discount rate reflecting how steeply the subjective value of rewards declines with delay. Steeper discounting reflects greater impulsivity. fMRI reveals differential activation of ventromedial PFC and nucleus accumbens (immediate preference) versus dorsolateral PFC and posterior parietal cortex (delayed preference), supporting dual-system valuation models.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
+- **What are the options?** <a href="vocabulary.html#rule-choose-for-outcomes-option-set-two-described">two described</a>
+- **How does the player learn what pays?** <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-described">described</a>
+- **What is traded against what?** <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-amount-vs-delay">amount vs delay</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>, <a href="vocabulary.html#motivation-real-hypothetical">hypothetical</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>, <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-delay-to-outcome">delay to outcome</a>, <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>
+- **Material:** Pairs of money offers, a smaller amount now against a larger amount after a delay (such as $10 now or $25 in 1 week).
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -28,76 +50,76 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Reward magnitude
     - Delay duration
     - Ascending vs. descending adjustment procedures
+    - Choice procedure (adjusting amount, adjusting delay, fixed list)
+    - Real vs. hypothetical rewards
+    - Delay type (experienced, waited out vs. described)
+    - Outcome domain (gain vs. loss framing)
+    - Reward uncertainty (probability vs. delay)
+    - Reward type (money vs. other commodities)
 * - **Measurements**
   - - Indifference point at each delay
     - Discount rate k (hyperbolic model)
     - Area under the discount curve (AUC)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Adjusting-Amount Method
-
-    `hedvar_delay_discounting__adjusting_amount_method`
-  - For each delay (for example one week, one month, one year) the participant repeatedly chooses between a smaller amount now and a fixed larger amount later. The immediate amount is raised or lowered after each choice until the participant is indifferent. That amount is the present value of the delayed reward.
-  - Adjusts smaller-sooner amount until indifferent; adaptive titration procedure
-* - Adjusting-Delay Method
-
-    `hedvar_delay_discounting__adjusting_delay_method`
-  - The two amounts are fixed, and it is the waiting time for the larger amount that is adjusted after each choice until the participant is indifferent between the two options.
-  - Adjusts delay until indifferent; different dimension titrated
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - 5-Trial Adjusting Delay
 
     `hedvar_delay_discounting__5_trial_adjusting_delay`
 
     Cognitive Atlas: [Five-Trial Adjusting Delay Discounting Task](https://www.cognitiveatlas.org/task/id/tsk_qBdQueJHSouuF)
-  - A very short version that finds the delay at which a reward loses half its value in just five choices, each halving the range of possible delays. It takes about a minute.
-  - Rapid 5-trial protocol; distinct abbreviated titration method
+  - named form
+  - -
+  - A named one-minute instrument that bisects the delay range in five fixed choices.
 * - Fixed-Choice Discrete Trials
 
     `hedvar_delay_discounting__fixed_choice_discrete_trials`
-  - The participant answers a fixed list of now-versus-later questions, such as the 27-item Monetary Choice Questionnaire, with no adjustment based on earlier answers. The pattern of choices is fitted afterwards to estimate the discount rate.
-  - Fixed set of choices without adaptation; different decision structure
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - -
+  - A fixed list of now-versus-later questions (for example the 27-item Monetary Choice Questionnaire) with no adjustment based on earlier answers.
 * - Magnitude Manipulation
 
     `hedvar_delay_discounting__magnitude_manipulation`
-  - The whole procedure is run separately for small, medium and large rewards (for example 10, 100 and 1000 dollars). Larger amounts are usually discounted less steeply.
-  - Systematically varies reward magnitude; tests magnitude effect on discounting
-* - Real vs. Hypothetical Rewards
-
-    `hedvar_delay_discounting__real_vs_hypothetical_rewards`
-  - In the real version one of the participant's choices is selected and paid for real, including the actual wait for a delayed reward. In the hypothetical version the participant imagines the choices and nothing is paid.
-  - Real monetary payoff vs. hypothetical; changes incentive structure and motivation
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - -
+  - The whole procedure is run in separate blocks for small, medium and large reward magnitudes.
 * - Experiential Discounting Task
 
     `hedvar_delay_discounting__experiential_discounting`
-  - The delays are short (seconds to a minute) and are actually waited out during the session, with the reward delivered at the end of each wait, rather than being described in words and imagined.
-  - Delays experienced in real time; different temporal structure from verbal/hypothetical
+  - feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>; outcome knowledge: <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-experienced">experienced</a>
+  - -
+  - Delays are seconds to a minute and are actually waited out, with the reward delivered after each wait, so outcomes are experienced rather than only described.
 * - Gain vs. Loss Framing
 
     `hedvar_delay_discounting__gain_vs_loss_framing`
-  - Alongside the usual choices between gains, the participant chooses between paying a smaller amount now or a larger amount later. Delayed losses are usually discounted less steeply than delayed gains.
-  - Loss domain discounting; different valence changes decision context
+  - sign: <a href="vocabulary.html#motivation-sign-both">both</a>
+  - -
+  - Choices between paying a smaller amount now or a larger amount later are added alongside the usual gain choices.
 * - Probabilistic Discounting
 
     `hedvar_delay_discounting__probabilistic_discounting`
-  - The larger reward is uncertain rather than delayed: the participant chooses between a smaller sure amount and a larger amount with some probability. The same adjusting procedures find the probability at which the two are equal.
-  - Reward probability instead of delay; tests probability rather than temporal discounting
+  - tradeoff: <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-amount-vs-risk">amount vs risk</a>
+  - [Risk processing](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-risk-processing)
+  - The larger reward is uncertain rather than delayed, so the choice trades amount against probability instead of against delay.
 * - Cross-Commodity Discounting
 
     `hedvar_delay_discounting__cross_commodity_discounting`
-  - The rewards are something other than money, such as food, a drug of abuse, or time with friends, or the two options are in different commodities. Shows whether the discount rate depends on what is being delayed.
-  - Non-monetary rewards (food, drugs); different commodity changes motivational basis
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - -
+  - The rewards are something other than money, or the two options are in different commodities, described in words.
 ```
 
 ## Cognitive processes

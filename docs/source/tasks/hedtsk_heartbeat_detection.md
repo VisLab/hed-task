@@ -13,6 +13,20 @@ Participants count or discriminate their own heartbeats without external feedbac
 
 The Heartbeat Detection Task is the standard paradigm for measuring interoceptive accuracy - the ability to perceive internal physiological signals. In the Schandry (1981) heartbeat counting variant, participants silently count their heartbeats during timed intervals (e.g., 25, 35, 45 seconds) without taking their pulse; an interoceptive accuracy score is computed from the discrepancy between counted and actual heartbeats (recorded via ECG or pulse oximetry). In the Whitehead heartbeat discrimination variant, participants judge whether an external stimulus (tone or light) is presented synchronously or asynchronously with their heartbeat; d-prime indexes perceptual sensitivity. Interoceptive accuracy is central to theories of emotion (the somatic marker hypothesis; Damasio, 1994), anxiety (interoceptive hypersensitivity models), and embodied cognition (predictive interoception). Individual differences in heartbeat detection correlate with emotional intensity, anxiety sensitivity, and decision-making quality. The paradigm has generated substantial methodological debate: the counting variant may partially reflect beliefs about heart rate rather than true perception, motivating the discrimination variant and newer alternatives.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-report-on-self">report on self</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-somatic">somatic</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>, <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
+- **Material:** The participant's own heartbeat and, in the discrimination form, a tone or light presented in or out of time with it.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,6 +44,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Stimulus timing relative to R-wave (synchronous vs. delayed)
     - Attention condition (interoceptive focus vs. exteroceptive distraction)
     - Pharmacological manipulation (beta-blockers, isoproterenol)
+    - Interoceptive signal (breathing resistance vs. heartbeat)
 * - **Measurements**
   - - Interoceptive accuracy score (1 - |counted - actual| / actual)
     - Heartbeat discrimination d-prime
@@ -38,43 +53,44 @@ least one of the listed variables, and it records at least one of the listed mea
     - Heartbeat-evoked potential (HEP) amplitude as a neural index
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Heartbeat Counting (Schandry)
-
-    `hedvar_heartbeat_detection__heartbeat_counting_schandry`
-  - The participant sits quietly and, between a start and stop signal, silently counts their own heartbeats without feeling for a pulse. The count is compared with the number of beats recorded by an electrocardiogram over intervals of about 25 to 60 seconds.
-  - Count heartbeats over interval; canonical interoception measure
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Heartbeat Discrimination (Whitehead)
 
     `hedvar_heartbeat_detection__heartbeat_discrimination_whitehead`
-  - A series of tones is played, each triggered by a heartbeat either immediately or after a delay, so the tones are in time with the heart or slightly out of step. The participant judges whether the tones were synchronous with their heartbeat.
-  - Judge whether tone is synchronous with heartbeat; different detection task
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-somatic">somatic</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - A train of tones locked to each heartbeat, either immediate or delayed, is played and the participant judges whether it was in time with their heart, instead of counting heartbeats.
 * - Confidence-Accuracy Paradigm
 
     `hedvar_heartbeat_detection__confidence_accuracy_paradigm`
-  - After each counting or discrimination trial the participant also rates how confident they are in their answer, and separately fills in a questionnaire about how aware of bodily sensations they generally are. The match between confidence and accuracy is a third measure alongside the two.
-  - Sole confidence-rating exception per section 5.5; Garfinkel et al. (2015) interoception model
+  - named form
+  - -
+  - After each trial the participant also rates confidence in the answer.
 * - Interoceptive Attention Manipulation
 
     `hedvar_heartbeat_detection__interoceptive_attention_manipulation`
-  - In some blocks the participant is told to attend to their heartbeat, and in others to attend to an external stimulus such as a tone or a visual display, while heartbeats and brain responses to them are recorded. Compares cardiac processing with and without attention on it.
-  - Instructions to attend to vs. distract from heartbeat; changes attentional focus
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-somatic">somatic</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>, <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception), [Visual perception](../processes/face_and_object_perception.md#hed-visual-perception)
+  - In alternating blocks the participant attends to the heartbeat or to an external tone or display while heart and brain responses are recorded, the listed attention-condition manipulation delivered with added stimuli and blocked trials.
 * - Respiratory Interoception Variant
 
     `hedvar_heartbeat_detection__respiratory_interoception_variant`
-  - The participant breathes through a mouthpiece and on some breaths a small resistance is added. They report whether each breath was harder than normal, and the smallest resistance they can detect is the measure. Tests sensitivity to breathing rather than to the heart.
-  - Respiratory signals instead of cardiac; different physiological channel
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+  - -
+  - The participant breathes through a mouthpiece and reports on each breath whether an added resistance made it harder, the smallest detectable load being the measure.
 ```
 
 ## Cognitive processes

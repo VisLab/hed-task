@@ -13,6 +13,22 @@ Naming the ink color of color words while ignoring word meaning; RT and error co
 
 The Stroop Color-Word Task is a classic measure of selective attention and cognitive control that requires participants to identify the ink color of printed words while ignoring the semantic content. In the standard version, participants view color names (e.g., "RED," "BLUE") printed in incongruent ink colors and must respond with the ink color rather than reading the word. The task measures reaction time and accuracy across congruent trials (word and color match), incongruent trials (word and color conflict), and neutral trials. Performance reflects the ability to overcome automatic word-reading processes and requires engagement of executive control mechanisms. The Stroop interference effect (slowed RT on incongruent trials) is one of the most robust findings in cognitive psychology.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-irrelevant-dimension">irrelevant dimension</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-proportion-congruent">proportion congruent</a>
+- **Material:** Color words (RED, BLUE) printed in ink of a matching or a different color.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,7 +45,11 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Congruency (congruent, incongruent, neutral)
     - Proportion congruent
     - Response modality (vocal, manual)
-    - Stimulus type (classic, spatial, numerical)
+    - Stimulus type (classic, spatial, numerical, face-word)
+    - Task rule (name the ink color, read the word, count the words)
+    - Object color (typical vs. atypical)
+    - Prime type (neutral, matching, conflicting)
+    - Trial sequence (ignored word becomes next trial's ink color)
 * - **Measurements**
   - - Stroop interference effect (incongruent - congruent RT)
     - Facilitation (neutral - congruent)
@@ -37,82 +57,64 @@ least one of the listed variables, and it records at least one of the listed mea
     - Conflict adaptation (Gratton effect)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Classic Color-Word Stroop
-
-    `hedvar_stroop_color_word__classic_color_word_stroop`
-  - Color words are printed in colored ink, for example RED printed in blue, and the participant names the ink color while ignoring the word. Naming is slower and more error-prone when the word and the ink disagree than when they agree or the item is a neutral string.
-  - Canonical color naming of congruent/incongruent color words
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Manual (Button-Press) Stroop
 
     `hedvar_stroop_color_word__manual_button_press_stroop`
-  - The participant presses one of several keys, one per ink color, instead of saying the color aloud. Common in brain imaging where speaking would cause head movement.
-  - Button press instead of vocal response; different response modality
-* - Vocal Response Stroop
-
-    `hedvar_stroop_color_word__vocal_response_stroop`
-  - The participant says the ink color aloud, as in the original task, and voice onset is recorded with a microphone. Interference is larger than with key presses because reading and color naming both use speech.
-  - Vocal naming; distinct from manual version
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - -
+  - The ink color is reported by key press, one key per color, instead of aloud.
 * - Counting Stroop
 
     `hedvar_stroop_color_word__counting_stroop`
 
     Cognitive Atlas: [counting Stroop task](https://www.cognitiveatlas.org/task/id/trm_4da631be60291)
-  - A number word is printed one to four times (for example 'two' printed three times) and the participant reports how many words there are, ignoring what the word says. Neutral items use animal names.
-  - Count number of words instead of naming color; different task dimension
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-count">count</a>
+  - -
+  - A number word is printed one to four times and the participant reports how many words there are while ignoring the number named.
 * - Spatial Stroop
 
     `hedvar_stroop_color_word__spatial_stroop`
-  - A direction word (such as LEFT or ABOVE) or an arrow appears at a position on the screen, and the participant reports either the word's meaning or its position while ignoring the other.
-  - Spatial word/location conflict; different conflict dimension
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>
+  - [Spatial attention](../processes/selective_and_sustained_attention.md#hed-spatial-attention)
+  - A direction word or arrow appears at a screen position and the participant reports its position while ignoring its meaning; some versions instead report the meaning while ignoring the position.
 * - Numerical Stroop
 
     `hedvar_stroop_color_word__numerical_stroop`
-  - Two digits are shown in different physical sizes, and the participant chooses the one that is numerically larger (ignoring size) or physically larger (ignoring value). Responses slow when the larger number is printed smaller.
-  - Number magnitude vs. physical size conflict; different domain
-* - Reverse Stroop
-
-    `hedvar_stroop_color_word__reverse_stroop`
-  - The participant reads the word and ignores the ink color. Interference from the ink is usually small, but it appears when the response is made by pointing to a color patch rather than speaking.
-  - Name the word rather than the color; reversed task demand
-* - Proportion-Congruent Manipulation
-
-    `hedvar_stroop_color_word__proportion_congruent_manipulation`
-  - The share of trials on which word and ink agree is varied between blocks or between particular words, for example mostly agreeing in one block and mostly conflicting in another. Interference is smaller when conflict is expected.
-  - Conflict frequency variation; adaptation context per section 5.2
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-compare">compare</a>
+  - -
+  - Two digits of different physical sizes are shown and the participant picks the numerically larger (ignoring size) or physically larger (ignoring value), a comparison between two simultaneous items.
 * - Face-Word Stroop
 
     `hedvar_stroop_color_word__face_word_stroop`
-  - A face with an emotional expression has an emotion word written across it. The participant names the expression while ignoring the word, and responses slow when the word names a different emotion.
-  - Face emotion vs. color word conflict; different stimulus domain
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>; emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>, <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - [Emotion recognition](../processes/emotion_perception_and_regulation.md#hed-emotion-recognition), [Face perception](../processes/face_and_object_perception.md#hed-face-perception)
+  - An emotion word is written across an expressive face and the participant names the expression while ignoring the word.
 * - Color-Shape Stroop
 
     `hedvar_stroop_color_word__color_shape_stroop`
-  - Objects with a strongly associated color are shown in the wrong color, such as a blue banana, and the participant names the displayed color while the known color of the object interferes.
-  - Color word/shape conflict instead of ink color; different conflict structure
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
+  - -
+  - Objects with a strongly associated color are shown in the wrong color and the participant names the displayed color while the known color interferes.
 * - Priming Stroop
 
     `hedvar_stroop_color_word__priming_stroop`
-  - Each color-word item is preceded by a prime, such as a word or cue that is neutral, matches or conflicts with the coming item, to study how advance information changes the interference.
-  - Prime precedes Stroop item; temporal context manipulation
-* - Negative Priming Stroop
-
-    `hedvar_stroop_color_word__negative_priming_stroop`
-
-    Cognitive Atlas: [negative priming task](https://www.cognitiveatlas.org/task/id/trm_4f244d64e45bc) (close match)
-  - Trials are arranged so that the word to be ignored on one trial is the ink color to be named on the next (for example RED in green, then any word in red). Naming the previously ignored color is slower, which shows it was suppressed.
-  - Previously ignored item becomes target; tests ignored repetition effect
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-feature-cue">feature cue</a>
+  - -
+  - Each item is preceded by a prime that is neutral, matches or conflicts with it, giving advance feature information that may be valid or invalid.
 ```
 
 ## Cognitive processes

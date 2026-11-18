@@ -13,6 +13,22 @@ Synchronous multisensory stimulation of a participant's hidden body part and a v
 
 Body ownership illusion tasks exploit multisensory integration to induce the experience that an artificial body part (or whole body) belongs to the participant. In the classic Rubber Hand Illusion (Botvinick & Cohen, 1998), a participant's real hand is hidden behind a screen while a realistic rubber hand is placed in an anatomically plausible position. Synchronous stroking of both hands with paintbrushes for 1-2 minutes typically produces a vivid sense of ownership over the rubber hand, accompanied by a proprioceptive shift (pointing error toward the rubber hand) and autonomic responses to threats directed at the rubber hand (elevated skin conductance). Asynchronous stroking serves as the critical control condition. The paradigm demonstrates that body ownership is a dynamic, multisensory construction rather than a fixed perceptual given. The illusion depends on spatial, temporal, and anatomical congruence of visual, tactile, and proprioceptive signals, and is modulated by top-down factors (body schema, visual realism, postural plausibility). Computational accounts frame the illusion as Bayesian causal inference over multisensory signals (Samad, Chung, & Shams, 2015). The paradigm has been extended to the whole body (Petkova & Ehrsson, 2008), to faces (enfacement illusion; Tsakiris, 2008), and to virtual reality environments (Slater et al., 2008). Clinical applications include phantom limb pain treatment, eating disorder body image interventions, and assessment of body representation disturbances in schizophrenia and depersonalization.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-undergo-stream">undergo stream</a>
+- **What is the player told to do while it runs?** <a href="vocabulary.html#rule-undergo-stream-instruction-none">none</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-tactile">tactile</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pressure">pressure</a>, <a href="vocabulary.html#facet-stimulus-type-real-objects">real objects</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
+- **Material:** An artificial hand (rubber, wooden or virtual) in view while the participant's hidden hand is stroked with a paintbrush in or out of time with it.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -25,6 +41,7 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Procedure**
   - 1. A participant's real body part is hidden while a visible artificial (rubber, virtual, or video-displayed) counterpart is placed in a plausible position.
     2. Synchronous multisensory stimulation (typically visuotactile stroking) is applied to both the real and artificial body parts, with asynchronous stimulation as a control.
+    3. Optional: After the illusion is induced the experimenter threatens the rubber hand and the response to the threat is recorded.
 * - **Manipulations**
   - - Synchrony (synchronous vs. asynchronous stroking)
     - Modality of stimulation (visuotactile, visuomotor, visuoproprioceptive)
@@ -41,58 +58,56 @@ least one of the listed variables, and it records at least one of the listed mea
     - Grip force or other motor measures
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Classic Rubber Hand Illusion
-
-    `hedvar_body_ownership_illusion__classic_rubber_hand_illusion`
-  - The participant's real hand is hidden behind a screen and a rubber hand is placed in view where the real hand would be. The experimenter strokes both hands with brushes at the same time for a minute or two. Most people begin to feel the rubber hand is their own. When the strokes are out of time with each other, the feeling does not arise. Afterwards the participant points to where they feel their hand is and answers questions about the experience.
-  - Synchronous brush strokes on rubber hand and hidden real hand; canonical embodiment paradigm
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Full Body Illusion (Body Swap)
 
     `hedvar_body_ownership_illusion__full_body_illusion_body_swap`
-  - The participant wears a head-mounted display showing the view from cameras on a mannequin's head, so they see the mannequin's body where their own should be. The experimenter touches the participant's body and the mannequin's body at the same time, and the participant comes to feel the mannequin's body is theirs.
-  - Full-body camera-to-HMD setup creates whole-body ownership; different from hand-only paradigm
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-head-mounted-display">head mounted display</a>, <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+  - -
+  - The whole body replaces the hand, seen through a head-mounted display fed by cameras on a mannequin.
 * - Virtual Hand / Virtual Body Illusion
 
     `hedvar_body_ownership_illusion__virtual_hand_virtual_body_illusion`
-  - A virtual hand or body is shown in virtual reality and moves when the participant moves, or is touched in time with touches to the real body. The appearance, delay and position of the virtual body can be changed at will.
-  - Virtual avatar hand in VR; different sensory integration conditions
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-head-mounted-display">head mounted display</a>, <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>; experimental environment: <a href="vocabulary.html#facet-experimental-environment-virtual-world">virtual world</a>
+  - -
+  - A virtual hand or body in virtual reality moves with the participant or is touched in time with the real body.
 * - Enfacement Illusion
 
     `hedvar_body_ownership_illusion__enfacement_illusion`
-  - The participant watches a video of another person's face being stroked with a brush while their own face is stroked in the same place at the same time. Afterwards they are more likely to judge faces morphed between their own and the other person's as their own.
-  - Synchronous touch to face and rubber face; different body part and social dimension
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>, <a href="vocabulary.html#facet-stimulus-type-pressure">pressure</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>; report after: <a href="vocabulary.html#rule-undergo-stream-report-after-judgment">judgment</a>
+  - [Face perception](../processes/face_and_object_perception.md#hed-face-perception), [Self-other distinction](../processes/social_cognition_and_strategic_social_choice.md#hed-self-other-distinction)
+  - The participant's face is stroked in time with a video of another person's face being stroked, and afterwards they judge morphed faces as self or other, a judgment replacing the questionnaire rating.
 * - Somatosensory Rubber Hand Illusion
 
     `hedvar_body_ownership_illusion__somatosensory_rubber_hand_illusion`
-  - The participant is blindfolded. The experimenter guides the participant's one hand to stroke the rubber hand while stroking the participant's other, hidden hand in the same way. The illusion arises from touch and position sense alone, without vision.
-  - Tactile stimulation without visual component; isolates tactile-proprioceptive integration
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-tactile">tactile</a>
+  - [Somatosensory perception](../processes/face_and_object_perception.md#hed-somatosensory-perception)
+  - The participant is blindfolded and one of their hands is guided to stroke the rubber hand while the hidden hand is stroked the same way, so the illusion is induced without vision.
 * - Kinesthetic Mirror Illusion
 
     `hedvar_body_ownership_illusion__kinesthetic_mirror_illusion`
-  - A mirror is placed between the participant's hands so that the reflection of one hand appears where the other hand is. When the visible hand moves, the participant feels the hidden hand moving too, even if it is still.
-  - Proprioceptive/kinesthetic basis without visual rubber hand; different sensory modality
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-somatic">somatic</a>
+  - [Proprioception](../processes/motor_preparation_timing_and_execution.md#hed-proprioception), [Somatosensory perception](../processes/face_and_object_perception.md#hed-somatosensory-perception)
+  - A mirror between the hands puts the reflection of the moving hand where the still hand is, and the participant feels the hidden hand move; there is no stroking and no artificial hand.
 * - Threat Response Paradigm
 
     `hedvar_body_ownership_illusion__threat_response_paradigm`
-  - After the illusion has been induced, the experimenter suddenly stabs toward or bends back the rubber hand. The participant's skin conductance rise or brain response to the threat measures how much the rubber hand has been taken as their own.
-  - Threatening stimulus applied to rubber hand; measures embodiment via threat response
-* - Incongruent Object Control
-
-    `hedvar_body_ownership_illusion__incongruent_object_control`
-  - A wooden block, a rubber ball or a rubber hand in an impossible position is used in place of the properly placed rubber hand, with the same synchronous stroking. The illusion normally fails, showing that the object must look like a hand in a plausible place.
-  - Non-hand object used instead of rubber hand; tests specificity of body-form requirement
+  - emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotion-induction">emotion induction</a>
+  - -
+  - After the illusion is induced the experimenter threatens the rubber hand, and the skin conductance or brain response to the threat is the measure.
 ```
 
 ## Cognitive processes

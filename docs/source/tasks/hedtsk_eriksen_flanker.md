@@ -13,6 +13,22 @@ A central target flanked by congruent or incongruent distractors; RT and error d
 
 The Eriksen Flanker Task measures selective attention and the ability to inhibit responses to irrelevant flanking stimuli. Participants view a brief display of five items arranged horizontally, with a central target flanked by two non-target items on each side. The central target requires a specific response, while flanking items may be congruent (same response), incongruent (opposite response), or neutral. Participants respond via speeded button press while ignoring flankers. The flanker compatibility effect (slowed RT and increased errors on incongruent trials) indexes the degree of response competition and the efficiency of attentional filtering.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-neighbouring-items">neighbouring items</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-proportion-congruent">proportion congruent</a>, <a href="vocabulary.html#setting-response-deadline">response deadline</a>, <a href="vocabulary.html#setting-spatial-separation">spatial separation</a>
+- **Material:** A row of five items, a central arrow or letter between flankers that call for the same response, the opposite response or neither.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,6 +45,8 @@ least one of the listed variables, and it records at least one of the listed mea
     - Flanker-target distance
     - Proportion congruent
     - Response deadline
+    - Stimulus type (arrows, letters, color patches, digits, emotional faces or pictures)
+    - Added no-go signal on a minority of trials
 * - **Measurements**
   - - RT and accuracy
     - Congruency effect (incongruent - congruent RT)
@@ -36,53 +54,50 @@ least one of the listed variables, and it records at least one of the listed mea
     - Conflict adaptation (Gratton effect)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Arrow Flanker (Standard)
-
-    `hedvar_eriksen_flanker__arrow_flanker_standard`
-  - Five arrows appear in a row. The participant presses a left or right key for the direction of the middle arrow. The outer arrows point the same way (congruent) or the opposite way (incongruent), and responses are slower and less accurate when they conflict.
-  - Canonical flanker: central arrow surrounded by congruent/incongruent arrows
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Letter Flanker
 
     `hedvar_eriksen_flanker__letter_flanker`
-  - The row consists of letters, and the participant presses one key for a central H and another for a central S (for example). The flanking letters belong to the same response as the center or to the other one. This is the original 1974 form of the task.
-  - Letter stimuli instead of arrows; different S-R mapping and stimulus class
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+  - -
+  - Letters replace arrows with an arbitrary letter-to-key mapping; the original 1974 form.
 * - Color Flanker
 
     `hedvar_eriksen_flanker__color_flanker`
-  - The participant responds to the color of a central patch or item while the flanking items are the same or a different color linked to the other response.
-  - Color response with flanking distractors; different response dimension
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+  - -
+  - The response is to the color of a central patch while flanking patches share the color or carry the other response's color.
 * - Emotional Flanker
 
     `hedvar_eriksen_flanker__emotional_flanker`
-  - The central item and the flankers are faces or pictures with emotional expressions. The participant classifies the central item's emotion while the flanking items show the same or a different emotion.
-  - Emotional face flankers; retained per section 5.1 (EMOT retired)
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>; emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>, <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - [Emotion recognition](../processes/emotion_perception_and_regulation.md#hed-emotion-recognition)
+  - The central item and flankers are expressive faces or pictures and the participant classifies the central emotion.
 * - Numerical Flanker
 
     `hedvar_eriksen_flanker__numerical_flanker`
-  - The items are digits, and the participant judges the central digit, for example whether it is larger or smaller than 5, while flanking digits fall on the same or the other side of 5.
-  - Number stimuli with magnitude response; different S-R domain
-* - Proportion-Congruent Flanker
-
-    `hedvar_eriksen_flanker__proportion_congruent_flanker`
-  - The share of conflicting trials is changed between blocks, for example 80 percent congruent in one block and 20 percent in another. Conflict effects shrink when conflict is common, because the participant learns to focus more narrowly.
-  - Varies ratio of congruent to incongruent trials; changes conflict adaptation context per section 5.2
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>
+  - -
+  - Digits replace arrows and the participant classifies the central digit against a boundary (larger or smaller than 5) while flanking digits fall on the same or the other side.
 * - Combined Flanker + Go/No-Go
 
     `hedvar_eriksen_flanker__combined_flanker_go_no_go`
-  - On most trials the participant responds to the central item as usual, but on some trials a feature of the display (for example a particular color) signals that no response should be made. The task measures withholding a response under flanker conflict.
-  - Integrated flanker-GNG design; targets response inhibition under conflict
+  - response demand: <a href="vocabulary.html#rule-respond-to-rule-response-demand-withhold-on-some">withhold on some</a>
+  - [Response inhibition](../processes/inhibitory_control_and_conflict_monitoring.md#hed-response-inhibition)
+  - On a minority of trials a display feature signals that no response should be made, so responding is withheld under flanker conflict.
 ```
 
 ## Cognitive processes

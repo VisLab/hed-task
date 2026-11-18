@@ -13,6 +13,25 @@ Actions are reinforced by contingent outcomes under defined schedules; response 
 
 In instrumental conditioning, voluntary actions are associated with rewarding or punishing consequences through repeated experience. Laboratory implementations present discrete choice options where specific responses are followed by desirable outcomes (food, money, points) or undesirable outcomes (loss, punishment). Common schedules include fixed-ratio, variable-ratio, fixed-interval, and variable-interval. Performance measures include response rates, choice patterns, and reaction times. The ventral striatum, dopamine system, and orbitofrontal cortex are critical for representing value predictions and learning from outcomes.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
+- **What is traded against what?** <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-amount-vs-effort">amount vs effort</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-food">food</a>, <a href="vocabulary.html#motivation-what-money">money</a>, <a href="vocabulary.html#motivation-what-points">points</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-food">food</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Material:** Choice options whose responses are followed, on a reinforcement schedule, by rewards (food, money, points) or losses.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -23,12 +42,14 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants perform actions (button presses, lever responses) that produce contingent outcomes (rewards or punishments) according to defined reinforcement schedules.
+  - 1. Participants perform actions (button presses, lever responses) that produce contingent outcomes (rewards or punishments) according to defined reinforcement schedules.
+    2. Optional: After training, the earned outcome is made less desirable and responding is tested without reward.
 * - **Manipulations**
-  - - Reinforcement schedule (fixed ratio, variable ratio, fixed interval, variable interval)
+  - - Reinforcement schedule (fixed ratio, variable ratio, fixed interval, variable interval, progressive ratio)
     - Outcome valence
     - Contingency degradation
     - Pavlovian-instrumental transfer
+    - Number of concurrent options (concurrent schedules)
 * - **Measurements**
   - - Response rate
     - Choice probability
@@ -36,73 +57,56 @@ least one of the listed variables, and it records at least one of the listed mea
     - Transfer effects between Pavlovian cues and instrumental actions
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Fixed Ratio (FR)
-
-    `hedvar_instrumental_conditioning__fixed_ratio_fr`
-  - A reward (points, money or food) is delivered after every fixed number of responses, for example every tenth press. The participant learns how many presses each reward costs.
-  - Reward after fixed number of responses; canonical ratio schedule
-* - Variable Ratio (VR)
-
-    `hedvar_instrumental_conditioning__variable_ratio_vr`
-  - A reward is delivered after an unpredictable number of responses that average a set value, like a slot machine. Produces high steady rates of responding.
-  - Reward after variable number of responses; different reinforcement statistics
-* - Fixed Interval (FI)
-
-    `hedvar_instrumental_conditioning__fixed_interval_fi`
-  - A reward is available only after a fixed time has passed since the last reward, and the first response after that time earns it. Responses before the interval ends do nothing.
-  - First response after fixed time rewarded; different temporal reinforcement structure
-* - Variable Interval (VI)
-
-    `hedvar_instrumental_conditioning__variable_interval_vi`
-  - Like the fixed interval schedule, but the waiting time before a reward becomes available varies unpredictably around an average.
-  - Variable time intervals; different temporal unpredictability
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Progressive Ratio
 
     `hedvar_instrumental_conditioning__progressive_ratio`
-  - The number of responses needed for each successive reward increases, for example 5, then 10, then 20. The point at which the participant stops responding (the breakpoint) measures how hard they are willing to work for the reward.
-  - Ratio requirement escalates; measures motivational breakpoint
+  - option set: <a href="vocabulary.html#rule-choose-for-outcomes-option-set-one-option-with-stop">one option with stop</a>
+  - [Effort allocation](../processes/reward_anticipation_and_motivation.md#hed-effort-allocation)
+  - The response requirement rises after each reward and the participant may quit at any time, so the schedule becomes a single escalating option with a stop decision; progressive ratio is not among the listed schedule levels.
 * - Concurrent Choice
 
     `hedvar_instrumental_conditioning__concurrent_choice`
-  - Two or more response options are available at the same time, each paying off on its own schedule. How the participant divides responses between them is compared with the relative rates of reward.
-  - Two simultaneously available schedules; choice behavior reveals preference
-* - Two-Stage Decision Task (Daw)
-
-    `hedvar_instrumental_conditioning__two_stage_decision_task_daw`
-  - A choice between two options leads, with set probabilities, to one of two second-stage states, where another choice yields a reward with slowly changing probability. Whether a participant's choices reflect knowledge of the transition structure separates planning from habit. Cataloged in its own right as the Two-Stage Decision Task.
-  - Two-step Markov decision; measures model-based vs. model-free learning
+  - named form
+  - [Value-based decision making](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-value-based-decision-making)
+  - Two or more response options are available at once, each on its own schedule, so the participant allocates responses among options with hidden payoff rates.
 * - Devaluation Paradigm
 
     `hedvar_instrumental_conditioning__devaluation_paradigm`
-  - After learning that a response earns a particular reward, the reward is made less desirable, for example by feeding the participant that food to satiety or by telling them it is no longer worth points. A test follows without rewards. Responding that drops shows goal-directed control; responding that persists shows habit.
-  - Outcome devaluation tests goal-directed vs. habitual control; different post-training procedure
+  - phases: <a href="vocabulary.html#phase-acquisition">acquisition</a>, <a href="vocabulary.html#phase-devaluation">devaluation</a>, <a href="vocabulary.html#phase-test">test</a>
+  - -
+  - After training, the earned outcome is made less desirable and responding is tested without reward.
 * - Contingency Degradation
 
     `hedvar_instrumental_conditioning__contingency_degradation`
-  - After learning, the reward begins to appear whether or not the participant responds, so the response no longer makes a difference. A drop in responding shows that the participant is tracking what their actions cause.
-  - Action-outcome contingency degraded; tests action sensitivity
+  - phases: <a href="vocabulary.html#phase-acquisition">acquisition</a>
+  - -
+  - After training, the reward is delivered whether or not the participant responds.
 * - Outcome-Specific Pavlovian-Instrumental Transfer (PIT)
 
     `hedvar_instrumental_conditioning__outcome_specific_pavlovian_instrumental_transfer_pit`
-  - In separate phases the participant learns that certain cues predict certain rewards and that certain responses earn those same rewards. In a final test the cues are presented while the participant can respond freely, and a cue increases responding for the reward it predicts.
-  - Pavlovian CS influences instrumental responding; different multi-phase design
+  - phases: <a href="vocabulary.html#phase-acquisition">acquisition</a>, <a href="vocabulary.html#phase-transfer">transfer</a>
+  - [Pavlovian conditioning](../processes/associative_learning_and_reinforcement.md#hed-pavlovian-conditioning)
+  - A separate Pavlovian phase of cue-outcome pairings is added, and a final transfer test presents the cues during free responding.
 * - Avoidance Learning
 
     `hedvar_instrumental_conditioning__avoidance_learning`
-  - Instead of earning a reward, a response prevents an unpleasant outcome such as a shock, loud noise or loss of money. The participant learns which response, or which response to which warning signal, keeps the outcome away.
-  - Response prevents aversive outcome; different valence and contingency structure
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>, <a href="vocabulary.html#facet-stimulus-modality-somatic">somatic</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-noise">noise</a>, <a href="vocabulary.html#facet-stimulus-type-electrical">electrical</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>; sign: <a href="vocabulary.html#motivation-sign-loss">loss</a>; what: <a href="vocabulary.html#motivation-what-aversive">aversive</a>
+  - [Avoidance motivation](../processes/reward_anticipation_and_motivation.md#hed-avoidance-motivation), [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception), [Somatosensory perception](../processes/face_and_object_perception.md#hed-somatosensory-perception)
+  - The response prevents an unpleasant outcome (shock, noise, loss of money) instead of earning a reward.
 ```
 
 ## Cognitive processes

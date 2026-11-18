@@ -13,6 +13,24 @@ Auditory or visual digit sequences reproduced in forward or backward order; long
 
 The Digit Span task measures verbal short-term and working memory capacity. In the Forward condition, participants listen to sequences of digits presented at a rate of one per second and immediately repeat them in the same order; sequence length increases until recall fails. In the Backward condition, participants repeat digits in reverse order, adding a manipulation component. The Sequencing condition (from WAIS-IV) requires reordering digits numerically. Digit Span is one of the oldest and most widely administered neuropsychological measures, embedded in the Wechsler intelligence and memory scales. Forward span primarily indexes the phonological loop, while backward span engages central executive processes.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **What is studied?** <a href="vocabulary.html#rule-study-then-test-studied-material-sequence-order">sequence order</a>
+- **How long is it held?** <a href="vocabulary.html#rule-study-then-test-retention-interval-seconds">seconds</a>
+- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-serial-recall">serial recall</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-list-length">list length</a>
+- **Material:** Spoken sequences of digits, one per second, growing longer until recall fails.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,87 +48,75 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Direction (forward, backward, sequencing)
     - Sequence length
     - Presentation modality (auditory vs. visual)
+    - Task instruction (keep only the most recent items vs. report all)
+    - List presentation (grouped by pauses vs. even pace)
+    - Stimulus type (spatial grid sequence vs. digits)
 * - **Measurements**
   - - Span (longest correct sequence)
     - Total score
     - Forward-backward difference as index of executive load
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Forward Digit Span
-
-    `hedvar_digit_span__forward_digit_span`
-
-    Cognitive Atlas: [forward digit span task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949a85)
-  - The experimenter reads a list of digits aloud at one per second, and the participant repeats them in the same order. Lists get longer until the participant fails, and the longest list repeated correctly is the span.
-  - Reproduce digits in order; canonical phonological span measure
-* - Backward Digit Span
-
-    `hedvar_digit_span__backward_digit_span`
-
-    Cognitive Atlas: [backward digit span task](https://www.cognitiveatlas.org/task/id/tsk_4a57abb94989b)
-  - The participant repeats the digits in reverse order, last digit first. The list must be held and reversed before it can be spoken.
-  - Reproduce in reverse; requires mental transformation
-* - Digit Span Sequencing (WAIS-IV)
-
-    `hedvar_digit_span__digit_span_sequencing_wais_iv`
-  - The participant repeats the digits sorted from smallest to largest, regardless of the order heard. Part of the Wechsler intelligence scales.
-  - Reorder digits from smallest to largest; different transformation requirement
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Letter-Number Sequencing
 
     `hedvar_digit_span__letter_number_sequencing`
 
     Cognitive Atlas: [letter number sequencing](https://www.cognitiveatlas.org/task/id/trm_4c3e0a9576c3b)
-  - The list mixes letters and digits (for example 7-B-3-K). The participant must say the digits first in ascending order, then the letters in alphabetical order.
-  - Alternating letters and numbers reordered separately; dual sequencing demand
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+  - -
+  - The list mixes letters and digits and the participant reports the digits in ascending order then the letters in alphabetical order, the sequencing direction applied twice to one list.
 * - Auditory vs. Visual Presentation
 
     `hedvar_digit_span__auditory_vs_visual_presentation`
-  - The digits are shown one at a time on a screen instead of being spoken. The participant then says or types them back. Compares memory for seen and heard sequences.
-  - Visual digit presentation vs. auditory; different input modality
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+  - [Visual perception](../processes/face_and_object_perception.md#hed-visual-perception)
+  - The digits are shown one at a time on a screen instead of being spoken, and are said or typed back.
 * - Adaptive Staircase Versions
 
     `hedvar_digit_span__adaptive_staircase_versions`
-  - A computer sets the next list length from the participant's recent accuracy, making lists longer after correct responses and shorter after errors, and estimates the span from where performance settles.
-  - Adaptive difficulty tracking; different trial-generation procedure
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+  - -
+  - A computer sets each list length from recent accuracy instead of running the fixed ascending series, and span is read from where performance settles.
 * - Spatial Digit Span
 
     `hedvar_digit_span__spatial_digit_span`
-  - Each digit appears at a different position on the screen, and the participant must reproduce the digits in order, sometimes also indicating where each appeared.
-  - Digits at spatial locations; adds spatial component
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>; studied material: <a href="vocabulary.html#rule-study-then-test-studied-material-items-with-context">items with context</a>
+  - [Spatial working memory](../processes/short_term_and_working_memory.md#hed-spatial-working-memory), [Visual perception](../processes/face_and_object_perception.md#hed-visual-perception)
+  - Each digit appears at a different screen position and the participant reproduces the digits in order, sometimes also reporting where each one appeared, which binds a location to each item.
 * - Running Digit Span
 
     `hedvar_digit_span__running_digit_span`
-  - Digits are read in lists of unpredictable length, and when the list stops the participant must report the last few digits (for example the last four). Because the end cannot be anticipated, the participant has to keep updating which digits to hold.
-  - Recall last N digits of unknown-length list; different task structure
-* - Grouped/Chunked Presentation
-
-    `hedvar_digit_span__grouped_chunked_presentation`
-  - The digits are read with pauses that group them into clusters of two or three (like a phone number) instead of at an even pace. Grouping usually helps recall.
-  - Digits presented in groups; tests chunking facilitation
+  - named form
+  - [Working memory updating](../processes/short_term_and_working_memory.md#hed-working-memory-updating)
+  - Lists stop at an unpredictable point and only the last few digits are reported, so the participant keeps only the most recent items and drops older ones as new ones arrive.
 * - Matrix Span
 
     `hedvar_digit_span__matrix_span`
-  - Instead of digits, a sequence of cells lights up in a grid, and the participant indicates the cells in the order shown. A spatial counterpart of digit span.
-  - Spatial matrix locations instead of digits; different stimulus type
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>
+  - [Spatial working memory](../processes/short_term_and_working_memory.md#hed-spatial-working-memory), [Visual perception](../processes/face_and_object_perception.md#hed-visual-perception)
+  - A sequence of cells lights up in a grid and the participant indicates the cells in the order shown, a spatial counterpart of digit span.
 * - Supra-Span Lists
 
     `hedvar_digit_span__supra_span_lists`
 
     Cognitive Atlas: [span/supra-span test](https://www.cognitiveatlas.org/task/id/tsk_4a57abb949de3) (close match)
-  - A list longer than the participant's span is repeated until it can be recalled perfectly. The number of repetitions needed measures how fast a long sequence is learned.
-  - Lists exceed span; tests learning over trials
+  - cycles: <a href="vocabulary.html#rule-study-then-test-cycles-learn-to-criterion">learn to criterion</a>
+  - -
+  - One list longer than span is repeated until recalled perfectly, so the study-test cycle repeats to a criterion and the number of repetitions is the score.
 ```
 
 ## Cognitive processes

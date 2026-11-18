@@ -13,6 +13,21 @@ Wimmer & Perner-style narrative in which a protagonist holds a belief the partic
 
 The False Belief Task assesses the ability to attribute mental states to others that differ from reality. In the classic Sally-Anne version, Sally places an object in location A and leaves; Anne moves the object to location B. Participants are asked where Sally will look for the object. Correct performance (location A) requires representing Sally's false belief rather than the true state of the world. Adult neuroimaging versions use animated vignettes requiring belief reasoning. fMRI consistently activates medial prefrontal cortex, precuneus, and right temporoparietal junction.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-solve-problem">solve problem</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-text">text</a>, <a href="vocabulary.html#facet-stimulus-type-real-objects">real objects</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-explicit-social-task">explicit social task</a>, <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-children">children</a>
+- **Material:** Short stories, told, read or acted out with pictures or objects, in which a character believes an object is where it no longer is (the Sally-Anne scenario).
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,79 +44,67 @@ least one of the listed variables, and it records at least one of the listed mea
     - First-order vs. second-order belief attribution
     - Verbal vs. nonverbal response
     - Story complexity
+    - Story type (unexpected contents vs. moved object)
+    - Belief structure (two differing beliefs, neither false)
+    - Task type (animated shapes described vs. false belief question)
+    - Story format (text, speech or cartoon vs. acted with props)
+    - Competition (planting a false belief against an opponent)
 * - **Measurements**
   - - Accuracy on false-belief vs. true-belief questions
     - RT
     - pass/fail classification in developmental studies
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Sally-Anne / Change-of-Location
-
-    `hedvar_false_belief__sally_anne_change_of_location`
-  - A story, usually acted with dolls or pictures: Sally puts a marble in her basket and leaves. Anne moves it to a box. Sally returns, and the child is asked where Sally will look for the marble. The correct answer is the basket, because Sally does not know it was moved.
-  - Classic change-of-location false belief; canonical ToM paradigm
-* - Unexpected Contents (Smarties/Crayon Box)
-
-    `hedvar_false_belief__unexpected_contents_smarties_crayon_box`
-  - The child is shown a familiar candy box and asked what is inside, then shown it actually contains pencils. The child is asked what a friend who has not looked inside will think it contains, and sometimes what they themselves first thought.
-  - Container with unexpected content; different scenario structure
-* - Second-Order False Belief
-
-    `hedvar_false_belief__second_order_false_belief`
-  - The story involves one character's belief about another character's belief, for example 'Where does John think Mary will look for the ice-cream van?'. The participant must track a belief about a belief.
-  - Belief about another's belief; higher-order recursive ToM
-* - Diverse Beliefs Task
-
-    `hedvar_false_belief__diverse_beliefs`
-  - A simpler task from the same series: two characters believe different things about the same object (for example where a cat is hiding), neither known to be true, and the child predicts how a character will act on their own belief.
-  - Two agents with different beliefs about same object; tests belief diversity understanding
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Implicit False Belief (Looking Time)
 
     `hedvar_false_belief__implicit_false_belief_looking_time`
-  - For infants who cannot answer questions. The infant watches a scene in which an actor searches either where they should believe an object is or where it really is, and looking time is recorded. Longer looking at the action inconsistent with the actor's belief indicates surprise.
-  - Looking time measure of anticipation; no verbal response required
+  - population: <a href="vocabulary.html#facet-population-infants">infants</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-eye-tracker">eye tracker</a>
+  - -
+  - Infants watch an actor search where the actor should believe the object is or where it really is, and looking time is recorded; no question is asked.
 * - Anticipatory Looking
 
     `hedvar_false_belief__anticipatory_looking`
-  - An eye tracker records where the participant looks just before a character acts. Looking toward the place where the character wrongly believes the object to be shows that the participant has predicted the character's belief, without any verbal answer.
-  - Eye-tracking where agent will look; different response modality
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-eye-tracker">eye tracker</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>
+  - -
+  - The answer is where the participant looks just before the character acts, recorded by an eye tracker, instead of a spoken answer.
 * - Animated Triangles (Heider-Simmel)
 
     `hedvar_false_belief__animated_triangles_heider_simmel`
-  - Short animations of simple geometric shapes moving in ways that suggest intentions, such as one shape coaxing or chasing another. The participant describes what happened, and the description is scored for how much it attributes mental states to the shapes.
-  - Geometric shapes with attributed mental states; different stimulus and attribution task
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>, <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-explicit-social-task">explicit social task</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+  - -
+  - The participant watches shapes move as if with intentions and describes what happened, scored for mental-state language; there is no false belief and no correct answer.
 * - Cartoon/Story Vignette Tasks
 
     `hedvar_false_belief__cartoon_story_vignette_tasks`
-  - False-belief situations are presented as written or spoken stories or cartoon strips rather than acted out with props, and the participant answers questions about what a character thinks or will do.
-  - Story-based false belief; different presentation format
-* - Belief-Desire Reasoning
-
-    `hedvar_false_belief__belief_desire_reasoning`
-  - The character has both a false belief and a particular desire, for example wanting to avoid something they wrongly think is in a certain place. The participant must combine what the character wants with what the character believes to predict the action.
-  - Combines belief and desire attribution; more complex ToM reasoning
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-text">text</a>, <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
+  - -
+  - The false-belief story is given as text, speech or a cartoon strip rather than acted with props.
 * - Adult False Belief with Reaction Time
 
     `hedvar_false_belief__adult_false_belief_with_reaction_time`
-  - Adults read or watch many short false-belief scenarios and answer quickly by key press. Because adults are at ceiling on accuracy, response time is the measure, often compared with matched scenarios that need no belief reasoning.
-  - RT version for adults; measures implicit processing speed alongside accuracy
+  - population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-text">text</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - -
+  - Adults answer many short scenarios by speeded key press, so the answer is a choice among keys and response time is the measure.
 * - Competitive False Belief (Deception)
 
     `hedvar_false_belief__competitive_false_belief_deception`
-  - The participant plays against another person and can win by creating a false belief in them, for example by pointing to the wrong hiding place. Success requires using the other person's belief rather than just reporting it.
-  - Strategic deception context; tests belief reasoning under competitive motivation
+  - social aspect: <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>, <a href="vocabulary.html#facet-social-aspect-explicit-social-task">explicit social task</a>; drive: <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>; sign: <a href="vocabulary.html#motivation-sign-gain">gain</a>; earned by: <a href="vocabulary.html#motivation-earned-by-joint-moves">joint moves</a>; combined with: <a href="vocabulary.html#how-chained">chained</a>, <a href="vocabulary.html#game-interact-with-agent">interact with agent</a> (The belief worked out decides the move against an opponent)
+  - [Competition](../processes/social_cognition_and_strategic_social_choice.md#hed-competition)
+  - The participant plays against a real opponent and wins by planting a false belief, for example by pointing to the wrong hiding place, so the answer becomes a move in a game rather than a report.
 ```
 
 ## Cognitive processes

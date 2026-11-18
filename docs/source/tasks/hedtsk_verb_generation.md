@@ -13,6 +13,21 @@ Produce a verb associated with each presented noun; indexes lexical-semantic ret
 
 The Verb Generation Task is a semantic retrieval and language production paradigm. Participants see or hear a concrete noun (e.g., "hammer") and must generate an associated verb (e.g., "hit" or "pound"). The task requires accessing semantic knowledge, selecting among competing responses, and executing a language production response. It robustly activates left inferior frontal gyrus (Broca's area) and anterior cingulate cortex, and is one of the most frequently used language tasks in neuroimaging. Performance is measured by response latency, accuracy, and the specificity/typicality of verb selections.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-generate">generate</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Material:** Concrete nouns (such as hammer), seen or heard, varying in imageability, frequency and number of competing verb associates.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -25,11 +40,13 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Procedure**
   - 1. A concrete noun is presented (e.g., HAMMER).
     2. Participants generate an associated verb (e.g., 'hit' or 'pound') as quickly as possible.
+    3. Optional: The same noun list is repeated across blocks until responses become automatic, then a new list is introduced.
 * - **Manipulations**
   - - Noun imageability and frequency
     - Number of competing verb associates
     - Repetition (novel vs. repeated nouns)
     - Overt vs. covert generation
+    - Task direction (generate a noun for a verb vs. a verb for a noun)
 * - **Measurements**
   - - Response latency
     - Competition effect (slower for nouns with many associates)
@@ -37,48 +54,32 @@ least one of the listed variables, and it records at least one of the listed mea
     - fMRI left IFG (Broca's area) activation
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Overt Verb Generation
-
-    `hedvar_verb_generation__standard_overt_verb_generation`
-  - A noun such as 'hammer' is shown or spoken, and the participant says aloud a verb that goes with it ('hit'). Response time and the verb produced are recorded.
-  - Canonical Petersen et al.: say verb aloud in response to noun
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Covert Verb Generation
 
     `hedvar_verb_generation__covert_verb_generation`
-  - The participant thinks of the verb without saying it, usually pressing a key when a verb has come to mind. Used in brain imaging to avoid movement from speaking.
-  - Internal silent generation; different response mode
-* - High vs. Low Selection Demand
-
-    `hedvar_verb_generation__high_vs_low_selection_demand`
-  - Nouns are chosen so that some have one obvious verb (scissors - cut) and others have many equally likely verbs (ball - throw, kick, bounce). Choosing among many candidates takes longer and engages selection processes.
-  - Dominant vs. non-dominant verb associations; tests selection difficulty
-* - Verb Generation with Practice
-
-    `hedvar_verb_generation__verb_generation_with_practice`
-  - The same nouns are presented repeatedly across blocks. Responses get faster and the brain activity associated with the task declines as the verb for each noun becomes automatic. A new noun list restores the effort.
-  - Repeated generation reduces demand; tests automatization
-* - Noun Generation (Reverse)
-
-    `hedvar_verb_generation__noun_generation_reverse`
-  - A verb is given and the participant produces a noun that goes with it ('cut' - 'paper'), used as a comparison for the standard direction.
-  - Generate noun to verb cue; reversed direction
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - -
+  - The verb is thought but not spoken and a key press marks when it has come to mind, to avoid speech movement in the scanner.
 * - Written Verb Generation
 
     `hedvar_verb_generation__written_verb_generation`
-  - The participant types or writes the verb instead of saying it, so that the response is a written word and no speech is involved.
-  - Written response instead of vocal; different response modality
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - -
+  - The verb is typed or written instead of spoken.
 ```
 
 ## Cognitive processes

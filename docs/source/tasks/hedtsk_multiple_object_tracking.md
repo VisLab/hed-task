@@ -13,6 +13,24 @@ Participants track a subset of identical moving objects among distractors for se
 
 In the Multiple Object Tracking task, participants view a set of identical objects (typically 8-16 circles), a subset of which are briefly designated as targets (by flashing or color). All objects then move independently and randomly for several seconds, and participants must track the targets among distractors. After movement stops, participants identify which objects were the original targets. Performance is measured as tracking accuracy as a function of target load (typically 1-5 targets). The task provides a direct index of how many individual objects can be simultaneously tracked - a measure of visual attention capacity, estimated at approximately 4 objects.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **How long is it held?** <a href="vocabulary.html#rule-study-then-test-retention-interval-seconds">seconds</a>
+- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-forced-choice">forced choice</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-distractors">number of distractors</a>, <a href="vocabulary.html#setting-number-of-targets">number of targets</a>, <a href="vocabulary.html#setting-presentation-duration">presentation duration</a>
+- **Material:** 8-16 identical circles, a few briefly flashed or colored as targets, that then move independently and randomly.
+- **Combined with:** <a href="vocabulary.html#how-throughout">throughout</a>, [Fixate Task](hedtsk_fixate.md) (Gaze is held on the fixation target while the main game is played)
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -31,59 +49,53 @@ least one of the listed variables, and it records at least one of the listed mea
     - Number of distractors
     - Speed of motion
     - Tracking duration
+    - Added identity report for tracked objects
+    - Occlusion during tracking (barriers or vanishing)
+    - Grouping of tracked objects (clusters vs. independent)
 * - **Measurements**
   - - Tracking accuracy (proportion correct)
     - Capacity estimate (Pylyshyn's 4+/-1)
     - Effects of load on accuracy
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard MOT
-
-    `hedvar_multiple_object_tracking__standard_mot`
-  - Eight or more identical dots appear and a few of them flash to mark them as targets. All dots then move around randomly for several seconds, and when they stop the participant indicates which ones were the targets. Accuracy is measured for different numbers of targets.
-  - Canonical: track subset of identical moving dots
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Identity-MOT (MIT)
 
     `hedvar_multiple_object_tracking__identity_mot_mit`
-  - Each moving object has its own identity, such as a different letter, picture or color, which is hidden during movement. At the end the participant must report not just where the targets are but which identity is at each position.
-  - Track identity features of moving objects; adds identity memory demand
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>, <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>; studied material: <a href="vocabulary.html#rule-study-then-test-studied-material-items-with-context">items with context</a>; test form: <a href="vocabulary.html#rule-study-then-test-test-form-cued-recall">cued recall</a>
+  - -
+  - Each object carries a hidden identity (letter, picture, or color) and at the end the participant reports which identity is at each target position, so identities bound to tracked positions are studied and recalled to a position cue.
 * - 3D MOT (NeuroTracker)
 
     `hedvar_multiple_object_tracking__3d_mot_neurotracker`
-  - The spheres move within a simulated three-dimensional volume shown with stereoscopic glasses or a 3D display, so they move in depth as well as across the screen. The speed is adjusted to find the fastest speed at which the participant can still track.
-  - Three-dimensional display with depth; different spatial processing
-* - MOT with Occlusion
-
-    `hedvar_multiple_object_tracking__mot_with_occlusion`
-  - Objects briefly pass behind visible barriers or disappear and reappear during movement, so the participant must keep track of them while they cannot be seen.
-  - Objects temporarily hidden; requires inference of hidden trajectories
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>, <a href="vocabulary.html#facet-task-io-device-stereoscopic-display">stereoscopic display</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+  - -
+  - The spheres move in a simulated three-dimensional volume seen through a stereoscopic display and a staircase adjusts speed to find the fastest trackable rate.
 * - Probe-Based MOT
 
     `hedvar_multiple_object_tracking__probe_based_mot`
-  - Rather than selecting all targets at the end, a single object is highlighted during or after movement and the participant says whether it is a target or not.
-  - Probe object after tracking to test spatial knowledge; different response method
-* - Hierarchical MOT
-
-    `hedvar_multiple_object_tracking__hierarchical_mot`
-  - Objects move in groups, such as clusters that move together, and the targets may be whole groups or members within groups. Tests whether tracking can operate at more than one level at once.
-  - Nested groups of objects tracked at multiple levels; different attentional structure
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>; test form: <a href="vocabulary.html#rule-study-then-test-test-form-old-new">old new</a>
+  - -
+  - One object is highlighted during or after movement and the participant answers yes or no to whether it is a target, a single old/new judgment instead of selecting all targets.
 * - Auditory MOT Analogs
 
     `hedvar_multiple_object_tracking__auditory_mot_analogs`
-  - The moving items are sounds that move around the listener in virtual auditory space, and the participant must keep track of the target sounds by ear.
-  - Tracking moving sounds; different sensory modality
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - The moving items are sounds that move around the listener in virtual auditory space and the target sounds are tracked by ear.
 ```
 
 ## Cognitive processes

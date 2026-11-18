@@ -13,6 +13,30 @@ MID variant in which cues predict potential social (smiling/frowning face) rathe
 
 The Social Incentive Delay Task is a variant of the Monetary Incentive Delay Task (Task 63) that replaces monetary outcomes with social rewards and punishments. Cues signal the potential for positive social feedback (e.g., a smiling face with a thumbs-up), negative social feedback (e.g., a frowning face with a thumbs-down), or neutral outcomes. Participants then respond to a target stimulus, and outcome delivery depends on response speed. The SID was developed to compare the neural substrates of social versus non-social reward anticipation and consumption, testing whether social rewards engage the same striatal dopaminergic circuitry as monetary rewards. The task has been particularly impactful in autism spectrum disorder research, where reduced social reward sensitivity is hypothesized.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+- **Does a cue come before the target?** <a href="vocabulary.html#rule-respond-to-rule-cue-incentive-cue">incentive cue</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-stake">reward stake</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-both">both</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-performance">performance</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-social">social</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>
+- **Emotional aspect:** <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-presentation-duration">presentation duration</a>, <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>
+- **Material:** A cue (a smiling face, a neutral face or a geometric shape), a target, and feedback faces such as a smiling face with a thumbs-up or a frowning face with a thumbs-down.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,49 +54,45 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Cue type (social reward, social non-reward, non-social control)
     - Target duration (titrated)
     - Reward magnitude
+    - Reward type within session (social vs. monetary, cued per trial)
 * - **Measurements**
   - - RT by cue type
     - fMRI ventral striatum activation
     - Comparison of social vs. monetary reward anticipation signals
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard SID (Smiling Face Reward)
-
-    `hedvar_social_incentive_delay__standard_sid_smiling_face_reward`
-  - A cue signals whether a fast enough response to the coming target will earn a smiling face with approving words, avoid an angry face, or produce nothing. The participant presses a button when the target flashes, and the face feedback follows.
-  - Canonical SID with face as social incentive
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - SID with Personalized Social Stimuli
 
     `hedvar_social_incentive_delay__sid_with_personalized_social_stimuli`
-  - The faces used as rewards are of people the participant knows, such as friends or family, photographed in advance, rather than strangers.
-  - Stimuli customized to individual's social network; different stimulus content
+  - named form
+  - -
+  - The reward faces are photographs of people the participant knows rather than strangers.
 * - SID vs. MID within-Subjects
 
     `hedvar_social_incentive_delay__sid_vs_mid_within_subjects`
-  - The participant performs both the social version and the monetary version in the same session, with the cues indicating which kind of reward is at stake, so the two kinds of anticipation can be compared directly.
-  - Both social and monetary incentives in same session; direct contrast paradigm
-* - SID with Graded Social Reward
-
-    `hedvar_social_incentive_delay__sid_with_graded_social_reward`
-  - The cues signal different intensities of social reward, such as a faint smile versus a broad smile with strong praise, to see whether anticipation scales with the size of the social reward.
-  - Multiple social reward magnitudes; tests social reward sensitivity
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+  - -
+  - Social and monetary trials are run in the same session with the cue saying which kind of reward is at stake.
 * - SID with Real Social Interaction
 
     `hedvar_social_incentive_delay__sid_with_real_social_interaction`
-  - The social reward is delivered by a real person, for example an experimenter or confederate who smiles and praises the participant through a video link, rather than by a stored photograph.
-  - Actual social partner rather than photograph; different social context
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>, <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-loudspeaker">loudspeaker</a>
+  - [Speech perception](../processes/language_comprehension_and_production.md#hed-speech-perception)
+  - The social reward is delivered live by an experimenter or confederate over a video link instead of by a stored photograph.
 ```
 
 ## Cognitive processes
