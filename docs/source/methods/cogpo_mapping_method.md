@@ -67,7 +67,7 @@ candidates for addition.
 
 Candidate rows came from the same normalized name and alias matching as the Atlas
 tables, run against the CogPO labels, with a task-name match taking precedence over a
-variation-name match. On this data the automated pass found 26 of the 72 forward
+variant-name match. On this data the automated pass found 26 of the 72 forward
 matches and 30 of the 50 reverse ones, and missed classes as plain as Anti-Saccades
 (plural) and Sternberg Task (no alias hit). Every row of both tables was then decided by
 hand against the CogPO definition, and every row carries a note saying why.

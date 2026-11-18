@@ -29,7 +29,7 @@ imaging study might do had to be codable.
 The Catalog was built for HED annotation of event-structured data. Its job is to give a
 dataset a task name that carries a stable meaning: a procedure that can be recognized, a
 set of processes that a reader can expect the events to bear on, and a list of the
-variations that keep the name. Hence the inclusion tests, the variation rules, the
+variants that keep the name. Hence the inclusion tests, the variant rules, the
 references and the process axis, and the exclusion of procedures with no trial
 structure.
 
@@ -40,7 +40,7 @@ are curated lists rather than open contributions.
 |---|---|---|
 | Experimental paradigms | 106 tasks | 83 classes (84 on the wiki) |
 | Cognitive processes | 172 | not modelled |
-| Named variations | {{ n_variants }} | not modelled |
+| Variants | {{ n_variants }} | not modelled |
 | Stimulus, response and instruction vocabularies | facets, anchored on HED tags | 6 vocabularies, about 100 values |
 | References per paradigm | curated, with roles | occasional BrainMap citation on a definition |
 | Last curated | ongoing | 2011 |
@@ -68,8 +68,7 @@ can be read one by one):
 ```
 
 Where CogPO registers a specific case as a class of its own, the Catalog often records
-it as a named variation: Auditory Oddball and Visual Oddball, Delayed Non Match To
-Sample, the prosaccade, covert verb generation.
+it as a variant: Visual Oddball, the prosaccade, covert verb generation.
 
 ```{include} ../_generated/mapping_cogpo_level.md
 ```
@@ -86,7 +85,7 @@ Both split the paradigm from its response modality only when the field does. Cog
 overt and covert classes for naming, reading, repetition, word generation and word stem
 completion, because in an fMRI scanner the difference between saying a word and thinking
 it is the difference between two experiments; the Catalog treats the response as a
-variation. Neither treats the response modality as making a new task anywhere else.
+variant. Neither treats the response modality as making a new task anywhere else.
 
 ## Where they differ
 
@@ -118,7 +117,7 @@ their kin. Nine Catalog reward tasks fall under Reward Task Paradigm alone. Wher
 Catalog has a specific task inside such a class, the row is `close`; where it has only
 neighbours, `related`.
 
-**Variations, inclusion tests, references.** CogPO has none of the three.
+**Variants, inclusion tests, references.** CogPO has none of the three.
 
 ## What CogPO adds
 
@@ -143,6 +142,6 @@ omissions: most describe imaging-era block designs (film viewing, overt reading,
 recitation) whose event structure is thin.
 
 For a reader of CogPO, the Catalog supplies what CogPO left out: a process layer,
-variations, inclusion tests and references for the 50 classes the two share, and, for
+variants, inclusion tests and references for the 50 classes the two share, and, for
 the classes CogPO never populated, the paradigm-to-dimension assignments that its design
 called for and its curation never reached.

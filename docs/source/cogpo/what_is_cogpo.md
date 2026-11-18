@@ -131,7 +131,7 @@ Neither source carries a license statement.
 ## What CogPO does not have
 
 CogPO has no layer for cognitive processes: nothing says what a paradigm measures or
-which mental function it engages. It has no named variations, no inclusion tests and no
+which mental function it engages. It has no variants, no inclusion tests and no
 references per paradigm beyond the occasional BrainMap citation on a definition. And the
 decomposition into conditions, which is its central design, is populated for exactly
 one example task. The dimension vocabularies exist; the paradigm-to-dimension

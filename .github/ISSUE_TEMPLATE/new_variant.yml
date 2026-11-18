@@ -1,0 +1,60 @@
+name: Propose a new variant
+description: Propose a variant of a task that is already in the Catalog.
+title: "New variant: "
+labels: ["new-variant"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A variant is another form of a task that whole studies use. It states only how it differs from the task's standard form (the form shown under "At a glance" on the task page): a facet value, a rule, the motivation, a phase, a combined game or an added process; or it is a named published instrument. A factor that studies compare within one experiment is a manipulation, and changing the recording equipment, the analysis, the population alone or the stimulus set for an equivalent one does not make a variant. See [task facets and variants](https://www.hedtags.org/hed-task/methods/task_criteria/04_task_facets_and_variants.html) and the [task vocabulary](https://www.hedtags.org/hed-task/tasks/vocabulary.html).
+  - type: input
+    id: variant_name
+    attributes:
+      label: Proposed variant name
+      placeholder: Auditory N-Back
+    validations:
+      required: true
+  - type: input
+    id: parent_task
+    attributes:
+      label: Parent task
+      description: The canonical name or hedtsk identifier of the task this is a form of.
+      placeholder: N-Back Task (hedtsk_n_back)
+    validations:
+      required: true
+  - type: textarea
+    id: differs
+    attributes:
+      label: How it differs from the standard form
+      description: Which facet, rule or motivation changes, and to what. Use the terms of the task vocabulary where you can; plain words are fine where you cannot. State only what differs.
+      placeholder: |
+        Stimulus modality: auditory instead of visual (spoken letters through headphones)
+    validations:
+      required: true
+  - type: textarea
+    id: processes
+    attributes:
+      label: Processes it adds
+      description: Processes this form engages beyond the parent task's, from the [process list](https://www.hedtags.org/hed-task/processes/processes_alphabetically.html), one per line. Leave empty if none.
+  - type: textarea
+    id: note
+    attributes:
+      label: Note
+      description: One sentence in plain language saying what the participant sees or does differently.
+      placeholder: Letters are spoken through headphones instead of shown on a screen.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Published source
+      description: One or two papers that use this form, each with a DOI or PubMed id.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before filing
+      options:
+        - label: I checked the parent task's page and this variant is not already listed.
+          required: true

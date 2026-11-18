@@ -26,7 +26,7 @@ An **alias** is an alternative name for the same task. Aliases are:
 - Common shortened forms (e.g., "Antisaccade" for Anti-Saccade Task)
 - Instrument-specific names (e.g., "IAPS Viewing" for Affective Picture Viewing Task)
 
-Aliases are **not** variations. An alias refers to the same procedure with a different name. A variation refers to a different procedure under the same task umbrella.
+Aliases are **not** variants. An alias refers to the same procedure with a different name. A variant is another form of the same task, which states how it differs from the standard form.
 
 (task-criteria-2-3)=
 ## 2.3 Identifier formats

@@ -42,29 +42,29 @@ search will turn up neighbours only.
 
 The Atlas frequently registers a specific implementation as its own entry rather than
 recording it under the parent paradigm: eight separate Stroop entries, eight n-back,
-six fluency. Many of those correspond not to a task in the Catalog but to a *named
-variation* of one.
+six fluency. Many of those correspond not to a task in the Catalog but to a *variant*
+of one.
 
-Each mapping row therefore records whether it resolves to a task or to a variation.
+Each mapping row therefore records whether it resolves to a task or to a variant.
 
 ```{include} ../_generated/mapping_level.md
 ```
 
-Variations are addressed by a stable identifier of the form
-`hedvar_<parent slug>__<variation slug>`, for example
+Variants are addressed by a stable identifier of the form
+`hedvar_<parent slug>__<variant slug>`, for example
 `hedvar_stroop_color_word__counting_stroop`. The prefix types the identifier the same
 way `hedtsk_` marks a task and `hed_` marks a process. The identifier is what makes a
-variation referenceable: without one, a reference would have to name the variation, and
+variant referenceable: without one, a reference would have to name the variant, and
 would break silently if that name were edited. The generator fails if a mapping row
-names a variation that does not exist, or one whose parent task disagrees with the row.
+names a variant that does not exist, or one whose parent task disagrees with the row.
 
 (atlas-method-4)=
 ## How the tables were built
 
 Candidate matches come from normalized name and alias comparison, with an exact
-task-name match taking precedence over a variation-name match. That precedence is not
+task-name match taking precedence over a variant-name match. That precedence is not
 cosmetic: the Atlas entry `2-stage decision task` matches the Two-Stage Decision Task
-by name while also matching a variation listed under another task, and only the first
+by name while also matching a variant listed under another task, and only the first
 reading is correct.
 
 **Automated matching decides nothing on its own.** On this data it produces false

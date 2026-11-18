@@ -93,18 +93,23 @@ The Catalog currently has {{ n_tasks }} tasks. Each task page carries:
 - A **canonical name** and its **aliases**, so that a search for "CWIT" or "Stroop" lands
   on the Stroop Color-Word Task.
 - A **short definition** and a longer **description**.
+- An **at a glance** block: the task's standard form in the terms of the
+  [task vocabulary](tasks/vocabulary.md), that is its game type, the rules it states,
+  why the participant tries, its facets, settings and material. Two listings are built
+  on the vocabulary, [tasks by game type](tasks/by_game_type.md) and
+  [tasks by facet](tasks/by_facet.md).
 - An **inclusion test** in three lists: the steps of the *procedure* the participant
   follows, the *manipulations* the experimenter varies, and the *measurements* recorded.
   An experiment is an instance of the task when its procedure matches, it manipulates at
   least one of the listed variables, and it records at least one of the listed measures. The
   procedure is decisive: two experiments with the same procedure are the same task even
   if they target different constructs.
-- A list of **variations**, each with a description and a justification. A variation
-  is a named version that changes what the participant experiences or does, so that the
-  event structure of the recorded data differs. Changing the recording equipment, the
-  analysis, the population or the stimulus set does not make a variation; changing the
-  response modality, the stimulus-response mapping or the required actions does. There
-  are {{ n_variants }} variations across the Catalog.
+- A list of **variants**, the other forms of the task that studies use. Each states
+  only what differs from the standard form and the processes it adds, with a note.
+  Changing the recording equipment, the analysis, the population or the stimulus set
+  does not make a variant; changing the response modality, the stimulus-response
+  mapping or the required actions does. There are {{ n_variants }} variants across the
+  Catalog.
 - The **cognitive processes** the task engages, linked to their definitions;
 - **key references** that established the paradigm and **recent references** that give a
   modern entry point.
@@ -169,7 +174,7 @@ at sight:
 | Kind | Form | Example |
 | --- | --- | --- |
 | Task | `hedtsk_<slug>` | `hedtsk_stroop_color_word` |
-| Task variation | `hedvar_<task slug>__<variation slug>` | `hedvar_stroop_color_word__counting_stroop` |
+| Task variant | `hedvar_<task slug>__<variant slug>` | `hedvar_stroop_color_word__counting_stroop` |
 | Process | `hed_<slug>` | `hed_response_inhibition` |
 | Process category | `<slug>` | `inhibitory_control_and_conflict_monitoring` |
 | Task family | `<slug>` | `conflict_and_interference` |
@@ -208,7 +213,7 @@ for want of a standardized task nomenclature, which is the gap the Catalog now f
 :link-type: doc
 
 {{ n_tasks }} tasks in {{ n_families }} task families, each with its inclusion test,
-variations, processes and references.
+variants, processes and references.
 :::
 
 :::{grid-item-card} Browse the cognitive processes
@@ -224,7 +229,7 @@ and the tasks that engage it.
 :link-type: doc
 
 The selection criteria, naming rules, inclusion test and the rules that decide what
-counts as a variation.
+counts as a variant.
 :::
 
 :::{grid-item-card} Compare with related ontologies

@@ -5,18 +5,20 @@
 (task-criteria)=
 # Task criteria
 
-**Purpose:** Reference document specifying how the HED Task Catalog's 103 tasks were scoped, how tasks were selected, and the rules for classifying variations vs. aliases vs. non-variations.
+**Purpose:** Reference document specifying how the HED Task Catalog's {{ n_tasks }} tasks were scoped, how tasks were selected, and the rules for classifying variants vs. aliases vs. manipulations.
 
 Companion to the [process criteria](../process_criteria/index.md).
 
 Sections are numbered so that they can be cited; a citation such as "task criteria 2.1" means subsection 1 of section 2 of this document.
 
-1. [Task selection criteria](01_task_selection_criteria.md)
-2. [Task naming rules](02_task_naming_rules.md)
-3. [The task inclusion test](03_the_task_inclusion_test.md)
-4. [Variation criteria](04_variation_criteria.md)
-5. [Borderline case policy](05_borderline_case_policy.md)
-6. [Task family assignment](06_task_family_assignment.md)
+- 1 [Task selection criteria](01_task_selection_criteria.md)
+- 2 [Task naming rules](02_task_naming_rules.md)
+- 3 [The task inclusion test](03_the_task_inclusion_test.md)
+- 4 [Task facets and variants](04_task_facets_and_variants.md)
+- 6 [Task family assignment](06_task_family_assignment.md)
+
+There is no section 5: the borderline case policy that was section 5 is now part of
+section 4, as [4.5](04_task_facets_and_variants.md#task-criteria-4-5).
 
 ```{toctree}
 :hidden:
@@ -25,7 +27,6 @@ Sections are numbered so that they can be cited; a citation such as "task criter
 01_task_selection_criteria
 02_task_naming_rules
 03_the_task_inclusion_test
-04_variation_criteria
-05_borderline_case_policy
+04_task_facets_and_variants
 06_task_family_assignment
 ```

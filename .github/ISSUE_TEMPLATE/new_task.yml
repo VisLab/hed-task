@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for proposing a task. The Catalog admits paradigms that produce event-structured data, have a reproducible procedure, are widely used and engage identifiable processes; see the [task selection criteria](https://www.hedtags.org/hed-task/methods/task_criteria/01_task_selection_criteria.html). Before filing, please search the [task list](https://www.hedtags.org/hed-task/tasks/tasks_alphabetically.html) for the name and its aliases: the paradigm may already be a task or a variation of one.
+        Thank you for proposing a task. The Catalog admits paradigms that produce event-structured data, have a reproducible procedure, are widely used and engage identifiable processes; see the [task selection criteria](https://www.hedtags.org/hed-task/methods/task_criteria/01_task_selection_criteria.html). Before filing, please search the [task list](https://www.hedtags.org/hed-task/tasks/tasks_alphabetically.html) for the name and its aliases: the paradigm may already be a task or a variant of one.
   - type: input
     id: canonical_name
     attributes:
@@ -59,12 +59,12 @@ body:
     validations:
       required: true
   - type: textarea
-    id: variations
+    id: variants
     attributes:
-      label: Named variations
-      description: Versions that change what the participant experiences or does, one per line, each with why it counts as a variation rather than a separate task. Leave empty if none.
+      label: Variants
+      description: Other forms of the task that whole studies use, one per line. For each give a name and how it differs from the standard form (which facet, rule or motivation), any processes it adds, and a published source. Leave empty if none.
       placeholder: |
-        Auditory version - the same procedure with spoken items; changes the stimulus modality
+        Auditory version - stimulus modality auditory instead of visual (spoken items); Author (2001) doi:10.1000/example
   - type: dropdown
     id: family
     attributes:
@@ -114,9 +114,9 @@ body:
       label: Evidence of broad adoption
       description: Laboratories or fields that use the paradigm, review articles, shared datasets. A paradigm used in one study is not yet a task.
   - type: textarea
-    id: not_a_variation
+    id: not_a_variant
     attributes:
-      label: Why this is not a variation of an existing task
+      label: Why this is not a variant of an existing task
       description: Name the nearest existing task and say what differs in the procedure.
     validations:
       required: true

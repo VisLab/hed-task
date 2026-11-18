@@ -48,12 +48,12 @@ eyes stay on the cross. The Fixate Task covers both.
 
 The exclusion of self-report instruments stands. What the Catalog admits is the act of
 answering the questionnaire; the instrument is a parameter of that task, as a stimulus
-set is a parameter of any task, and is not a variation.
+set is a parameter of any task, and is not a variant.
 
 Feedback is not a task. Where a task is built on feedback, as in reinforcement
 learning, reversal learning, gambling and conditioning, the feedback is part of that
 task's procedure, and adding it to a task that lacks it is a
-[variation](04_variation_criteria.md#task-criteria-4-2). Where feedback
+[variant](04_task_facets_and_variants.md#task-criteria-4-2). Where feedback
 merely accompanies a task that would be the same task without it, it is an event of
 that task, tagged `Task-event-role/Feedback`, not a task of its own.
 
