@@ -266,7 +266,7 @@
       {
         "variant_id": "hedvar_affective_priming__pronunciation_naming",
         "name": "Pronunciation/Naming",
-        "note": "The participant reads the target word aloud instead of judging its valence, so the rule asks for the word's identity rather than its category.",
+        "note": "The participant reads the target word aloud instead of judging its valence, so the response names the word itself rather than its category.",
         "task_facets": {
           "emotional_aspect": [
             "emotional_stimuli"
@@ -956,7 +956,7 @@
       {
         "variant_id": "hedvar_artificial_grammar_learning__production",
         "name": "Production Task",
-        "note": "After training the participant writes or types new strings they believe follow the rules instead of judging strings (NEW:test_form:generate_exemplars, produce novel items that obey the studied structure).",
+        "note": "After training the participant writes or types new strings they believe follow the grammar, instead of judging whether given strings follow it.",
         "task_facets": {
           "task_io_device": [
             "computer_screen",
@@ -971,7 +971,7 @@
       {
         "variant_id": "hedvar_artificial_grammar_learning__sequential_agl",
         "name": "Sequential AGL",
-        "note": "Each string arrives one letter at a time at a set pace and the participant may be asked to predict or respond to each next letter, so the study job becomes predicting the next element as it arrives (NEW:study_job:predict_next) and the task turns into learning what follows what.",
+        "note": "Each string arrives one letter at a time at a set pace, and the participant may be asked to predict or respond to each next letter, so the task becomes learning what follows what.",
         "task_facets": {
           "trial_structure": [
             "fixed_time_trials"
@@ -1794,7 +1794,7 @@
       {
         "variant_id": "hedvar_balloon_analog_risk__variable_explosion_probability",
         "name": "Variable Explosion Probability",
-        "note": "Balloon color signals which hidden pop rule applies, so the participant learns a cue-to-risk mapping within the session; no rule of this form records a per-trial cue that predicts the contingency, so a new rule is proposed.",
+        "note": "Balloon color signals which hidden pop schedule applies, so the participant learns within the session which colors are risky.",
         "rules": {
           "contingency_cue": "per_trial_cue"
         },
@@ -2099,7 +2099,7 @@
       {
         "variant_id": "hedvar_biological_motion_perception__gender_identity_discrimination",
         "name": "Gender/Identity Discrimination",
-        "note": "The participant judges the walker's gender (classify, as in the standard form) or which known person it is (which would be rule_asks identify) from the motion alone.",
+        "note": "The participant judges from the motion alone either the walker's gender, as in the standard form, or which known person it is.",
         "task_facets": {
           "social_aspect": [
             "social_stimuli",
@@ -2509,7 +2509,7 @@
       {
         "variant_id": "hedvar_cambridge_face_memory__cfmt_cars",
         "name": "CFMT-Cars",
-        "note": "Images of cars replace faces in the same learn-then-choose procedure, as a non-face control; the structure is unchanged, and the only reason a rule looks affected is that the value faces_across_views names the stimulus type.",
+        "note": "Images of cars replace faces in the same learn-then-choose procedure, as a non-face control; the procedure is otherwise unchanged.",
         "task_facets": {
           "stimulus_type": [
             "pictures"
@@ -2832,7 +2832,7 @@
       {
         "variant_id": "hedvar_change_detection__continuous_report_precision",
         "name": "Continuous Report / Precision Task",
-        "note": "One location is probed and the participant reproduces the remembered feature on a continuous scale such as a color wheel (NEW:test_form:continuous_reproduction, reproduce the feature value rather than judge same/changed), so the error spread measures precision.",
+        "note": "One location is probed and the participant reproduces the remembered feature on a continuous scale such as a color wheel, instead of judging whether it changed; the spread of the errors measures memory precision.",
         "task_facets": {
           "task_io_device": [
             "computer_screen",
@@ -3183,7 +3183,7 @@
       {
         "variant_id": "hedvar_contextual_cueing__transfer_of_contextual_cueing",
         "name": "Transfer of Contextual Cueing",
-        "note": "After the learning blocks a test phase alters the repeated displays (distractor identities, number, or target position) to see whether the speed-up survives; respond_to_rule has no phases rule, so the choose_for_outcomes value is borrowed.",
+        "note": "After the learning blocks a test phase alters the repeated displays (the distractor identities, their number, or the target position) to see whether the speed-up survives.",
         "phases": [
           "acquisition",
           "transfer"
@@ -3499,7 +3499,7 @@
       {
         "variant_id": "hedvar_continuous_performance__gradual_onset_cpt_gradcpt",
         "name": "Gradual-Onset CPT (gradCPT)",
-        "note": "Scenes fade into one another with no gaps, the participant classifies each as city or mountain, and responds to the frequent category while withholding for the rare one; NEW:target_rate:frequent_target means the response-requiring item is the majority and the withhold item is rare.",
+        "note": "Scenes fade into one another with no gaps; the participant classifies each as city or mountain, pressing for the frequent category and withholding for the rare one.",
         "task_facets": {
           "stimulus_type": [
             "scenes"
@@ -3540,7 +3540,7 @@
       {
         "variant_id": "hedvar_continuous_performance__conners_cpt_3",
         "name": "Conners' CPT-3",
-        "note": "A commercial instrument that reverses the go rate (press for every letter except X, withhold for X) and varies pacing between blocks; a named form, though the reversal would be target_rate -> NEW:target_rate:frequent_target.",
+        "note": "A commercial instrument that reverses the usual go rate (press for every letter except X, withhold for X) and varies the pace between blocks.",
         "task_facets": {
           "trial_structure": [
             "fixed_time_trials",
@@ -4877,7 +4877,7 @@
       {
         "variant_id": "hedvar_dictator_game__charitable_giving_dictator",
         "name": "Charitable Giving Dictator",
-        "note": "The recipient is a named charity rather than an anonymous person, so the counterpart is an organization (NEW:partner:organization = the other party is an institution, not a person or group of players).",
+        "note": "The recipient is a named charity rather than an anonymous person, so the other party is an organization.",
         "candidates": [
           "cand_interact_with_agent__partner__organization"
         ]
@@ -4885,7 +4885,7 @@
       {
         "variant_id": "hedvar_dictator_game__exit_option",
         "name": "Exit Option",
-        "note": "Before allocating, the participant may decline to play and keep a slightly smaller sum with the recipient never learning a game existed (NEWRULE:exit_option = whether a player may opt out of the game for a fixed payoff; the standard form has none).",
+        "note": "Before allocating, the participant may decline to play and keep a slightly smaller sum, and the recipient never learns that a game existed.",
         "rules": {
           "exit_option": "available"
         }
@@ -5178,7 +5178,7 @@
       {
         "variant_id": "hedvar_digit_span__running_digit_span",
         "name": "Running Digit Span",
-        "note": "Lists stop at an unpredictable point and only the last few digits are reported, so the instruction is to keep only the most recent n items and drop older ones as new ones arrive (NEW:study_instruction:keep_last_n).",
+        "note": "Lists stop at an unpredictable point and only the last few digits are reported, so the participant keeps only the most recent items and drops older ones as new ones arrive.",
         "candidates": [
           "cand_study_then_test__study_instruction__keep_last_n"
         ],
@@ -5678,7 +5678,7 @@
       {
         "variant_id": "hedvar_directed_forgetting__directed_forgetting_of_actions_spt",
         "name": "Directed Forgetting of Actions (SPT)",
-        "note": "The items are action phrases that the participant physically performs with real objects at study before each is cued, so the study job is enactment rather than viewing (NEW:study_job:enact = perform the action each item describes).",
+        "note": "The items are action phrases that the participant performs with real objects at study, before each is cued to be remembered or forgotten, instead of only reading them.",
         "task_facets": {
           "stimulus_type": [
             "text",
@@ -6611,7 +6611,7 @@
       {
         "variant_id": "hedvar_emotional_stroop__subliminal_emotional_stroop",
         "name": "Subliminal Emotional Stroop",
-        "note": "The word is flashed below awareness and then covered by a colored mask whose color is named, so the emotional content is a preceding masked prime rather than a dimension of the item being judged; the below-awareness exposure itself is recorded by no rule, facet or listed manipulation.",
+        "note": "The word is flashed below awareness and then covered by a colored mask whose color is named, so the emotional word acts as a masked prime before the judged item rather than as part of it.",
         "rules": {
           "competitor": "preceding_prime"
         }
@@ -7568,7 +7568,7 @@
       {
         "variant_id": "hedvar_facial_emotion_recognition__dimensional_ratings",
         "name": "Dimensional Ratings",
-        "note": "The participant places each face on continuous scales (pleasantness, arousal) instead of choosing a category; NEW:rule_asks:rate means locate the stimulus on a continuous scale.",
+        "note": "The participant places each face on continuous scales (pleasantness, arousal) instead of choosing an emotion category.",
         "candidates": [
           "cand_respond_to_rule__rule_asks__rate"
         ]
@@ -7849,7 +7849,7 @@
       {
         "variant_id": "hedvar_false_belief__anticipatory_looking",
         "name": "Anticipatory Looking",
-        "note": "The answer is where the eyes go just before the character acts, recorded by eye tracker instead of being spoken; the NEW answer_form means a spontaneous gaze that counts as the prediction.",
+        "note": "The answer is where the participant looks just before the character acts, recorded by an eye tracker, instead of a spoken answer.",
         "task_facets": {
           "task_io_device": [
             "computer_screen",
@@ -7925,7 +7925,7 @@
       {
         "variant_id": "hedvar_false_belief__competitive_false_belief_deception",
         "name": "Competitive False Belief (Deception)",
-        "note": "The participant plays against a real opponent and wins by planting a false belief, for example pointing to the wrong hiding place, so an interact_with_agent game is added and the answer becomes a move rather than a report.",
+        "note": "The participant plays against a real opponent and wins by planting a false belief, for example by pointing to the wrong hiding place, so the answer becomes a move in a game rather than a report.",
         "task_facets": {
           "social_aspect": [
             "social_interaction",
@@ -8357,7 +8357,7 @@
       {
         "variant_id": "hedvar_finger_tapping__complex_rhythmic_patterns",
         "name": "Complex Rhythmic Patterns",
-        "note": "One finger reproduces a rhythm with unequal gaps (long-short-short) rather than an even beat; the NEW movement value means a temporal pattern of taps, which is neither a single repeated tap nor a finger-order sequence.",
+        "note": "One finger reproduces a rhythm with unequal intervals (long-short-short) rather than tapping an even beat.",
         "task_facets": {
           "stimulus_modality": [
             "auditory"
@@ -8381,7 +8381,7 @@
       {
         "variant_id": "hedvar_finger_tapping__continuation_paradigm",
         "name": "Continuation Paradigm",
-        "note": "The participant taps with a metronome, then keeps the rate after it stops; the NEW pacing value means external pacing that is withdrawn part way through so the participant continues unaided.",
+        "note": "The participant taps along with a metronome, then keeps the same rate unaided after it stops.",
         "task_facets": {
           "stimulus_modality": [
             "auditory"
@@ -8621,7 +8621,7 @@
       {
         "variant_id": "hedvar_free_recall__externalized_free_recall",
         "name": "Externalized Free Recall",
-        "note": "The participant reports every word that comes to mind, including ones believed wrong, and flags the rejected ones; NEW:test_form:externalized_free_recall means free recall with mandatory output of all candidates plus an accept/reject flag on each.",
+        "note": "The participant says every word that comes to mind, including ones they believe are wrong, and flags each one they reject.",
         "candidates": [
           "cand_study_then_test__test_form__externalized_free_recall"
         ]
@@ -8943,7 +8943,7 @@
       {
         "variant_id": "hedvar_go_no_go__cued_go_no_go",
         "name": "Cued Go/No-Go",
-        "note": "A cue before each stimulus predicts whether a go or a no-go stimulus is likely, a cue type the vocabulary lacks (it announces the probability of the withhold demand rather than a location, rule, feature or incentive).",
+        "note": "A cue before each stimulus says whether a go or a no-go stimulus is likely.",
         "rules": {
           "cue": "demand_probability_cue"
         },
@@ -9655,7 +9655,7 @@
       {
         "variant_id": "hedvar_instrumental_conditioning__devaluation_paradigm",
         "name": "Devaluation Paradigm",
-        "note": "After training, the earned outcome is made less desirable and responding is tested without reward (NEW phase value, shared with the Two-Stage Devaluation Manipulation).",
+        "note": "After training, the earned outcome is made less desirable and responding is tested without reward.",
         "phases": [
           "acquisition",
           "devaluation",
@@ -9665,7 +9665,7 @@
       {
         "variant_id": "hedvar_instrumental_conditioning__contingency_degradation",
         "name": "Contingency Degradation",
-        "note": "After training, the reward is delivered whether or not the participant responds (NEW phase value: a phase in which the outcome is delivered non-contingently after acquisition).",
+        "note": "After training, the reward is delivered whether or not the participant responds.",
         "phases": [
           "acquisition"
         ],
@@ -10726,7 +10726,7 @@
       {
         "variant_id": "hedvar_mental_rotation__body_part_rotation_hand_laterality",
         "name": "Body Part Rotation (Hand Laterality)",
-        "note": "A single picture of a hand in some orientation is classified as left or right, so the rule asks for a category rather than a same-or-mirror comparison.",
+        "note": "A single picture of a hand in some orientation is classified as left or right, instead of two pictures being compared as same or mirrored.",
         "rules": {
           "rule_asks": "classify"
         }
@@ -10742,7 +10742,7 @@
       {
         "variant_id": "hedvar_mental_rotation__embodied_motor_assisted_rotation",
         "name": "Embodied/Motor-Assisted Rotation",
-        "note": "While judging, the participant turns a handle or rotates the hand in the same or the opposite direction as the imagined rotation, adding a concurrent movement whose congruence with the rotation is the factor of interest (the congruence itself is not recorded by any rule).",
+        "note": "While judging, the participant turns a handle or rotates the hand in the same or the opposite direction as the imagined rotation; whether the two directions agree is the factor of interest.",
         "task_facets": {
           "task_io_device": [
             "computer_screen",
@@ -10972,7 +10972,7 @@
       {
         "variant_id": "hedvar_mirror_tracing__rotation_non_mirror_variants",
         "name": "Rotation (Non-Mirror) Variants",
-        "note": "The seen cursor direction is rotated by a fixed angle from the hand's direction rather than mirrored; the NEW guidance value means a rotated visual-motor mapping, which is the visuomotor rotation paradigm and would stand as its own task.",
+        "note": "The cursor moves in a direction rotated by a fixed angle from the hand's movement instead of mirrored. This is the visuomotor rotation paradigm, which could stand as a task of its own.",
         "task_facets": {
           "task_io_device": [
             "computer_screen",
@@ -10987,7 +10987,7 @@
       {
         "variant_id": "hedvar_mirror_tracing__prism_adaptation_analog",
         "name": "Prism Adaptation Analog",
-        "note": "The participant wears prism goggles that shift the scene sideways and reaches to targets, so the movement is a reach rather than a trace and the guidance is a lateral shift; the NEW values mean a point-to-target movement and a prism-displaced view, and this is prism adaptation, a task in its own right.",
+        "note": "The participant wears prism goggles that shift the scene sideways and reaches to targets instead of tracing a shape. This is prism adaptation, which could stand as a task of its own.",
         "task_facets": {
           "task_io_device": []
         },
@@ -11597,7 +11597,7 @@
       {
         "variant_id": "hedvar_mnemonic_similarity__continuous_mst",
         "name": "Continuous MST",
-        "note": "Study and test are merged into one stream in which each picture is judged old, similar or new as it appears; NEWRULE:phases records whether study and test are separate or merged, the same change the earlier pass flagged as a missing facet.",
+        "note": "Study and test are merged into one stream in which each picture is judged old, similar or new as it appears.",
         "rules": {
           "study_and_test": "merged",
           "retention_interval": "seconds"
@@ -12249,7 +12249,7 @@
       {
         "variant_id": "hedvar_motor_sequence_learning__transfer_tests",
         "name": "Transfer Tests",
-        "note": "After practice the sequence is performed with the other hand, other fingers or mirror-reversed; produce_movement has no phases rule, so a NEWRULE phases is added, with the value meaning a practice phase followed by a transfer test on a changed effector or mapping (choose_for_outcomes already has acquisition_plus_transfer).",
+        "note": "After practice the sequence is performed with the other hand, with other fingers, or mirror-reversed.",
         "phases": [
           "transfer"
         ]
@@ -12257,7 +12257,7 @@
       {
         "variant_id": "hedvar_motor_sequence_learning__continuous_tracking_sequence",
         "name": "Continuous Tracking + Sequence",
-        "note": "The participant follows a moving target with a joystick, so the movement is a continuous trace paced by the target, and part of the path secretly repeats; the hidden repetition has no produce_movement rule.",
+        "note": "The participant follows a moving target with a joystick, and part of the target's path secretly repeats.",
         "task_facets": {
           "stimulus_type": [
             "shapes"
@@ -12555,7 +12555,7 @@
       {
         "variant_id": "hedvar_multi_armed_bandit__contextual_bandit",
         "name": "Contextual Bandit",
-        "note": "A cue shown on each trial predicts which option is better, so the participant learns a cue-to-choice mapping; no rule of this form records a per-trial cue that predicts the contingency, so the same new rule as for the Variable Explosion BART is proposed.",
+        "note": "A cue shown on each trial predicts which option is better, so the participant learns which choice goes with which cue.",
         "rules": {
           "contingency_cue": "per_trial_cue"
         },
@@ -14442,7 +14442,7 @@
       {
         "variant_id": "hedvar_old_new_recognition_memory__continuous_recognition",
         "name": "Continuous Recognition",
-        "note": "Study and test are merged into one stream in which every item is judged new or repeated and may itself repeat later; NEWRULE:phases records whether study and test are separate or merged, which is the same change the earlier pass flagged as a missing facet.",
+        "note": "Study and test are merged into one stream in which every item is judged new or repeated, and an item may repeat again later.",
         "rules": {
           "study_and_test": "merged",
           "retention_interval": "seconds"
@@ -15796,7 +15796,7 @@
       {
         "variant_id": "hedvar_phonological_awareness__rhyme_oddity",
         "name": "Rhyme Oddity",
-        "note": "Three or four words are heard and the participant picks the one that does not rhyme, so the rule asks which one rather than same-or-not on a pair.",
+        "note": "Three or four words are heard and the participant picks the one that does not rhyme, instead of judging whether a pair rhymes.",
         "rules": {
           "rule_asks": "identify"
         }
@@ -15845,7 +15845,7 @@
       {
         "variant_id": "hedvar_phonological_awareness__phoneme_segmentation",
         "name": "Phoneme Segmentation",
-        "note": "The participant says each sound of a word separately in order (or counts them, which would be rule_asks count) instead of judging a pair.",
+        "note": "The participant says each sound of a word separately and in order (in some versions counts them) instead of judging a pair.",
         "rules": {
           "rule_asks": "generate"
         },
@@ -16163,7 +16163,7 @@
       {
         "variant_id": "hedvar_picture_naming__bilingual_picture_naming",
         "name": "Bilingual Picture Naming",
-        "note": "A cue on each trial tells a bilingual participant which language to name in, so the naming rule switches on cue and switch trials are compared with repeats.",
+        "note": "A cue on each trial tells a bilingual participant which language to name the picture in, and trials where the language switches are compared with repeats.",
         "task_facets": {
           "population": [
             "bilinguals"
@@ -16202,7 +16202,7 @@
       {
         "variant_id": "hedvar_picture_naming__naming_with_phonological_semantic_cues",
         "name": "Naming with Phonological/Semantic Cues",
-        "note": "When naming fails a hint is given (first sound or a description of meaning) and whether it yields the name is recorded; the cue is contingent on failure, which the cue rule does not record.",
+        "note": "When naming fails a hint is given (the first sound, or a description of the meaning), and whether the hint brings out the name is recorded.",
         "rules": {
           "cue": "feature_cue"
         }
@@ -16607,7 +16607,7 @@
       {
         "variant_id": "hedvar_posner_spatial_cueing__detection_vs_discrimination_targets",
         "name": "Detection vs. Discrimination Targets",
-        "note": "The target job is either a single press for any target (the standard detect) or a report of which of two target forms appeared (classify); this is the listed target-task manipulation, but it changes a rule.",
+        "note": "The target job is either a single press for any target, as in the standard form, or a report of which of two target forms appeared.",
         "rules": {
           "rule_asks": "classify"
         }
@@ -16935,7 +16935,7 @@
       {
         "variant_id": "hedvar_prisoners_dilemma__multiplayer_public_goods_version",
         "name": "Multiplayer/Public Goods Version",
-        "note": "Several players each contribute an amount to a shared pool that is multiplied and divided equally among all, so the game has many players, a graded rather than binary move, and a multiplied transfer (NEWRULE:move_granularity = whether each acting player chooses a binary cooperate/defect or an amount; the standard form is binary).",
+        "note": "Several players each contribute an amount to a shared pool that is multiplied and divided equally among all, so there are many players and each chooses an amount rather than simply cooperating or defecting.",
         "rules": {
           "players_acting": "several",
           "partner": "group",
@@ -16948,7 +16948,7 @@
       {
         "variant_id": "hedvar_prisoners_dilemma__pd_with_punishment_option",
         "name": "PD with Punishment Option",
-        "note": "After choices are revealed, a player or an observing third party can pay from their own money to reduce a defector's earnings (NEWRULE:punishment_option = whether someone can pay to reduce another player's earnings after the moves; the standard form has none).",
+        "note": "After the choices are revealed, a player or an observing third party can pay from their own money to reduce a defector's earnings.",
         "motivation": {
           "sign": "both"
         },
@@ -16975,7 +16975,7 @@
       {
         "variant_id": "hedvar_prisoners_dilemma__continuous_pd",
         "name": "Continuous PD",
-        "note": "Each player chooses how much to cooperate on a scale, for example how much of an endowment to transfer to the partner, rather than making a binary choice (NEWRULE:move_granularity = whether each acting player chooses a binary cooperate/defect or an amount; the standard form is binary).",
+        "note": "Each player chooses how much to cooperate on a scale, for example how much of an endowment to transfer to the partner, rather than making a yes-or-no choice.",
         "candidates": [
           "cand_interact_with_agent__move_granularity__amount"
         ]
@@ -16983,7 +16983,7 @@
       {
         "variant_id": "hedvar_prisoners_dilemma__optional_prisoners_dilemma",
         "name": "Optional Prisoner's Dilemma",
-        "note": "Each player has a third option of not playing for a guaranteed small payoff, and those who play face the usual choice (NEWRULE:exit_option = whether a player may opt out of the game for a fixed payoff; the standard form has none).",
+        "note": "Each player may opt out for a guaranteed small payoff, and those who play face the usual choice.",
         "rules": {
           "exit_option": "available"
         }
@@ -17279,7 +17279,7 @@
       {
         "variant_id": "hedvar_probabilistic_classification_learning__feedback_vs_observation_learning",
         "name": "Feedback vs. Observation Learning",
-        "note": "In the observation version each card set is shown together with its outcome and the participant only watches, then both versions are tested without feedback; NEW:rule_source:learned_from_observation means the mapping is learned by viewing cue-outcome pairings without responding.",
+        "note": "In the observation version each card set is shown with its outcome and the participant only watches; both versions are then tested without feedback.",
         "task_facets": {
           "feedback": []
         },
@@ -17290,7 +17290,7 @@
       {
         "variant_id": "hedvar_probabilistic_classification_learning__transfer_test_variants",
         "name": "Transfer Test Variants",
-        "note": "After learning, a test phase uses card combinations never seen in training, or the trained cards with their outcome links reversed; respond_to_rule has no phases rule, so NEWRULE:phases borrows the choose_for_outcomes values acquisition_plus_transfer and acquisition_plus_reversal.",
+        "note": "After learning, a test phase uses card combinations never seen in training, or the trained cards with their outcome links reversed.",
         "phases": [
           "acquisition",
           "transfer"
@@ -17966,7 +17966,7 @@
       {
         "variant_id": "hedvar_psychological_refractory_period__triple_task_prp",
         "name": "Triple-Task PRP",
-        "note": "Three stimuli arrive in quick succession, each needing its own response; NEW:concurrency:three_jobs_overlapped means three jobs whose stimuli overlap within one trial.",
+        "note": "Three stimuli arrive in quick succession within one trial, and each needs its own response, so three responses overlap instead of two.",
         "combined_with": [
           {
             "game_type": "respond_to_rule",
@@ -18545,7 +18545,7 @@
       {
         "variant_id": "hedvar_virtual_radial_arm_maze__partially_baited_maze_4_of_8",
         "name": "Partially Baited Maze (4 of 8)",
-        "note": "Only the same four arms are ever baited, so the participant must also learn across trials which arms are worth entering, adding a reference-memory demand to the within-trial one (NEW value = both demands at once).",
+        "note": "Only the same four arms are ever baited, so the participant must also learn across trials which arms are worth entering, on top of remembering which arms were already visited in the trial.",
         "candidates": [
           "cand_navigate__memory_demand__within_and_across_trials"
         ]
@@ -18572,7 +18572,7 @@
       {
         "variant_id": "hedvar_virtual_radial_arm_maze__probabilistic_reward_maze",
         "name": "Probabilistic Reward Maze",
-        "note": "Each arm pays off only some of the time, so the game becomes learning across trials which arms are most often rewarded rather than avoiding arms already emptied; this adds a choose_for_outcomes layer (arms as hidden-outcome options, probability learning, experienced outcomes).",
+        "note": "Each arm pays off only some of the time, so the participant learns across trials which arms are most often rewarded rather than avoiding arms already emptied.",
         "candidates": [
           "cand_navigate__memory_demand__across_trials"
         ],
@@ -19760,7 +19760,7 @@
       {
         "variant_id": "hedvar_remember_know__remember_know_with_source_memory",
         "name": "Remember/Know with Source Memory",
-        "note": "After the remember or know judgment the participant also answers a source question (which list, which voice) about the item; NEW:test_form:remember_know_then_source means old/new, then remember/know, then a source attribution for the same item.",
+        "note": "After the remember or know judgment the participant also answers a source question about the item, such as which list or which voice.",
         "candidates": [
           "cand_study_then_test__test_form__remember_know_then_source"
         ],
@@ -21224,7 +21224,7 @@
       {
         "variant_id": "hedvar_sentence_comprehension__speed_accuracy_tradeoff_sat_studies",
         "name": "Speed-Accuracy Tradeoff (SAT) Studies",
-        "note": "The participant judges each sentence's acceptability at a response signal that comes at one of several lags after the sentence ends; the lag itself is a timing manipulation no rule records.",
+        "note": "The participant judges each sentence's acceptability at a response signal that comes at one of several delays after the sentence ends.",
         "task_facets": {
           "trial_structure": [
             "fixed_time_trials"
@@ -21865,7 +21865,7 @@
       {
         "variant_id": "hedvar_simon__hybrid_simon_flanker",
         "name": "Hybrid Simon-Flanker Task",
-        "note": "The lateral stimulus is also surrounded by flankers, so irrelevant location and neighbouring items compete on the same trial (two competitors at once, which the single-valued competitor rule does not express).",
+        "note": "The lateral stimulus is also surrounded by flankers, so its irrelevant location and the neighbouring items both compete with the response on the same trial.",
         "rules": {
           "competitor": "neighbouring_items"
         }
@@ -22790,7 +22790,7 @@
       {
         "variant_id": "hedvar_stop_signal__fixed_ssd_procedure",
         "name": "Fixed SSD Procedure",
-        "note": "The stop signal comes at a few preset delays instead of a staircased one, so the adaptive facet is dropped.",
+        "note": "The stop signal comes at a few preset delays instead of a delay adjusted to the participant's performance.",
         "task_facets": {
           "trial_structure": [
             "fixed_time_trials"
@@ -22834,7 +22834,7 @@
       {
         "variant_id": "hedvar_stop_signal__context_dependent_stop_signal",
         "name": "Context-Dependent Stop-Signal",
-        "note": "A display feature such as background color is paired with a stop probability and the participant learns the pairing; coded as the demand-probability cue, with the caveat that the cue's meaning is learned rather than instructed, which the cue rule cannot say.",
+        "note": "A display feature such as background color is paired with a stop probability, and the participant learns the pairing rather than being told it.",
         "rules": {
           "cue": "demand_probability_cue"
         },
@@ -23148,7 +23148,7 @@
       {
         "variant_id": "hedvar_stroop_color_word__spatial_stroop",
         "name": "Spatial Stroop",
-        "note": "A direction word or arrow appears at a screen position and the participant reports its position while ignoring its meaning (the alternative of reporting meaning while ignoring position keeps rule_asks at classify).",
+        "note": "A direction word or arrow appears at a screen position and the participant reports its position while ignoring its meaning; some versions instead report the meaning while ignoring the position.",
         "task_facets": {
           "stimulus_type": [
             "words",
@@ -23957,7 +23957,7 @@
       {
         "variant_id": "hedvar_task_switching__alternating_runs_aabb",
         "name": "Alternating Runs (AABB)",
-        "note": "No cue is given; the rule changes on a fixed known schedule (two trials of each) that the participant must track, often marked by the stimulus stepping around a grid; NEW:rule_stability:switches_on_schedule means the rule changes at known points in a fixed order without a per-trial cue.",
+        "note": "No cue is given; the task changes on a fixed, known schedule (two trials of each), often marked by the stimulus stepping around a grid, and the participant must keep track.",
         "rules": {
           "cue": "none"
         },
@@ -23968,7 +23968,7 @@
       {
         "variant_id": "hedvar_task_switching__voluntary_task_switching",
         "name": "Voluntary Task Switching",
-        "note": "The participant picks which rule to apply on each trial, with no cue and the instruction to use both about equally in a random order; NEW:rule_stability:switches_by_choice means the rule changes when the participant decides to change it.",
+        "note": "The participant chooses which task to do on each trial, with no cue, and is asked to use both about equally often and in a random order.",
         "rules": {
           "cue": "none"
         },
@@ -24008,7 +24008,7 @@
       {
         "variant_id": "hedvar_task_switching__predictable_vs_random_task_sequences",
         "name": "Predictable vs. Random Task Sequences",
-        "note": "A fixed known alternation of rules (no cue needed) is compared with the standard random cued order; NEW:rule_stability:switches_on_schedule means the rule changes at known points in a fixed order without a per-trial cue.",
+        "note": "A fixed, known order of tasks with no cue is compared with the standard random, cued order.",
         "rules": {
           "cue": "none"
         },
@@ -24019,7 +24019,7 @@
       {
         "variant_id": "hedvar_task_switching__task_switching_with_conflict",
         "name": "Task Switching with Conflict",
-        "note": "The stimuli are built as Stroop or flanker items so that an irrelevant dimension competes with the response as well as the previous rule; competitor takes two values here, which the single-valued vocabulary cannot express.",
+        "note": "The stimuli are built as Stroop or flanker items, so an irrelevant dimension competes with the response as well as the previous task's rule.",
         "rules": {
           "competitor": "irrelevant_dimension"
         },
@@ -24314,7 +24314,7 @@
       {
         "variant_id": "hedvar_think_no_think__tnt_with_intrusion_reporting",
         "name": "TNT with Intrusion Reporting",
-        "note": "After each no-think trial the participant reports whether the partner word came to mind anyway, which inserts a judgment into the practice phase (NEW:inserted_judgment:during_interval = a report made after each trial of the interval filler).",
+        "note": "After each no-think trial the participant reports whether the partner word came to mind anyway.",
         "candidates": [
           "cand_study_then_test__inserted_judgment__during_interval"
         ],
@@ -24651,7 +24651,7 @@
       {
         "variant_id": "hedvar_tower_of_london__tower_with_time_pressure",
         "name": "Tower with Time Pressure",
-        "note": "A time limit per problem or a speed instruction is added on top of the minimum-moves requirement; the NEW value means both constraints apply at once, which the single-valued constraint rule cannot otherwise say.",
+        "note": "A time limit per problem or an instruction to be fast is added on top of the requirement to use the fewest moves.",
         "task_facets": {
           "trial_structure": [
             "fixed_time_trials"
@@ -25659,7 +25659,7 @@
       {
         "variant_id": "hedvar_two_stage_decision__devaluation_manipulation",
         "name": "Devaluation Manipulation",
-        "note": "After learning, the reward in one second-stage state is declared worthless and first-stage choice is retested (NEW phase value: a devaluation of one outcome followed by a choice test).",
+        "note": "After learning, the reward in one second-stage state is declared worthless and the first-stage choice is tested again.",
         "phases": [
           "acquisition",
           "devaluation",
@@ -25672,7 +25672,7 @@
       {
         "variant_id": "hedvar_two_stage_decision__two_stage_with_instructed_knowledge",
         "name": "Two-Stage with Instructed Knowledge",
-        "note": "The transition probabilities are taught explicitly before the task while the second-stage reward probabilities are still learned by experience (NEW value: structure described, rewards experienced).",
+        "note": "The transition probabilities are taught before the task, while the second-stage reward probabilities are still learned by experience.",
         "candidates": [
           "cand_choose_for_outcomes__outcome_knowledge__mixed"
         ]
@@ -25997,7 +25997,7 @@
       {
         "variant_id": "hedvar_ultimatum_game__third_party_punishment",
         "name": "Third-Party Punishment",
-        "note": "A third player who is not part of the split can pay from their own money to reduce the proposer's earnings after an unfair offer, and that observer is usually the participant of interest (NEWRULE:punishment_option = whether someone can pay to reduce another player's earnings after the moves; the standard form has none).",
+        "note": "A third player who is not part of the split can pay from their own money to reduce the proposer's earnings after an unfair offer; this observer is usually the participant of interest.",
         "rules": {
           "players_acting": "several"
         },
@@ -26270,7 +26270,7 @@
       {
         "variant_id": "hedvar_useful_field_of_view__subtest_2_divided_attention",
         "name": "Subtest 2: Divided Attention",
-        "note": "A simultaneous peripheral car must also be localized while the central item is identified, turning one job into two divided jobs (the second job's rule_asks is localize, which the single-valued rule cannot state).",
+        "note": "A peripheral car appears at the same time and must also be located while the central item is identified, so two jobs are done at once.",
         "combined_with": [
           {
             "game_type": "respond_to_rule",
@@ -26826,7 +26826,7 @@
       {
         "variant_id": "hedvar_virtual_morris_water_maze__path_integration_tasks",
         "name": "Path Integration Tasks",
-        "note": "After moving along a path the landmarks vanish or the scene goes dark and the participant must return to or point to the start from self-motion alone, so there are no spatial cues (NEW), the goal is the start point (NEW) and the memory is of this trial's own path.",
+        "note": "After moving along a path the landmarks vanish or the scene goes dark, and the participant must return to or point to the start using self-motion alone, remembering the path just taken.",
         "candidates": [
           "cand_navigate__goal__return_to_start",
           "cand_navigate__memory_demand__within_trial"
@@ -26835,7 +26835,7 @@
       {
         "variant_id": "hedvar_virtual_morris_water_maze__boundary_based_vs_landmark_based_navigation",
         "name": "Boundary-Based vs. Landmark-Based Navigation",
-        "note": "The environment supplies the enclosure's shape, discrete landmark objects, or both, and the two are moved separately at test to see which guides the participant (NEW value = boundary geometry as a cue class distinct from proximal and distal landmarks).",
+        "note": "The environment provides the enclosure's shape, separate landmark objects, or both, and the two are moved independently at test to see which guides the participant.",
         "candidates": [
           "cand_navigate__cues__boundary_and_landmark"
         ]
@@ -27735,7 +27735,7 @@
       {
         "variant_id": "hedvar_visual_search__absent_trials_and_target_present_absent_ratio",
         "name": "Absent Trials and Target-Present/Absent Ratio",
-        "note": "Target prevalence is set per block from 50 percent down to 2 percent; at the low level the target_rate rule would read rare_target, but this is the listed prevalence manipulation run in blocks.",
+        "note": "Target prevalence is set per block, from 50 percent down to 2 percent.",
         "task_facets": {
           "trial_structure": [
             "fixed_time_trials",
@@ -27814,7 +27814,7 @@
       {
         "variant_id": "hedvar_visual_search__hybrid_search_visual_memory",
         "name": "Hybrid Search (Visual + Memory)",
-        "note": "The participant first memorizes a set of possible targets (a few to a hundred) and then searches each display for any of them, so the rule compares each item to a set held in memory.",
+        "note": "The participant first memorizes a set of possible targets (from a few to a hundred) and then searches each display for any of them.",
         "rules": {
           "reference": "held_in_mind"
         },
@@ -28087,7 +28087,7 @@
       {
         "variant_id": "hedvar_wason_selection__wason_2_4_6_task_related",
         "name": "Wason 2-4-6 Task (Related)",
-        "note": "A different rule-discovery task in which the participant proposes number triples, is told whether each fits a hidden rule, and then states the rule; the NEW answer_form means an iterated propose-and-get-feedback cycle ending in a stated rule, which no listed answer_form covers.",
+        "note": "A different rule-discovery task: the participant proposes number triples, is told whether each fits a hidden rule, and finally states the rule.",
         "task_facets": {
           "stimulus_type": [
             "digits"
@@ -28999,7 +28999,7 @@
       {
         "variant_id": "hedvar_verbal_fluency__design_fluency",
         "name": "Design Fluency",
-        "note": "The participant draws as many different dot-grid designs as possible instead of saying words; the NEW representation means a small grid of dots joined by a fixed number of lines, which no listed representation covers.",
+        "note": "The participant draws as many different designs as possible on a grid of dots, joining dots with a fixed number of lines, instead of saying words.",
         "task_facets": {
           "stimulus_modality": [
             "visual"
@@ -29580,7 +29580,7 @@
       {
         "variant_id": "hedvar_source_memory__reality_monitoring",
         "name": "Reality Monitoring",
-        "note": "Some items are perceived and others are generated by the participant (for example completed from a stem), and the test asks which; NEW:study_job:perceive_or_generate means the study job differs between the two item sets and that difference is the source.",
+        "note": "Some items are perceived and others are generated by the participant (for example completed from a word stem), and the test asks which was which.",
         "candidates": [
           "cand_study_then_test__study_job__perceive_or_generate"
         ]
@@ -29588,7 +29588,7 @@
       {
         "variant_id": "hedvar_source_memory__internal_source_monitoring",
         "name": "Internal Source Monitoring",
-        "note": "All items are generated by the participant in one of two ways (said aloud vs. thought, written vs. imagined) and the test asks which way; NEW:study_job:generate means the participant produces every item rather than viewing it.",
+        "note": "All items are generated by the participant in one of two ways (said aloud or only thought, written or only imagined), and the test asks which way each was produced.",
         "candidates": [
           "cand_study_then_test__study_job__generate"
         ]
@@ -29913,7 +29913,7 @@
       {
         "variant_id": "hedvar_effort_based_decision_making__cognitive_effort_discounting",
         "name": "Cognitive Effort Discounting",
-        "note": "The effort is an N-back level experienced beforehand rather than a button-pressing bout, and the easy-option amount is titrated to indifference; the executed task becomes a respond_to_rule job rather than a movement.",
+        "note": "The effort is a level of the n-back task, experienced beforehand, rather than a bout of button pressing, and the amount offered for the easy option is adjusted until the participant is indifferent.",
         "task_facets": {
           "trial_structure": [
             "self_paced_trials",
@@ -29957,7 +29957,7 @@
       {
         "variant_id": "hedvar_effort_based_decision_making__demand_selection",
         "name": "Demand Selection Task",
-        "note": "Two unlabeled options lead to the same kind of task differing only in how often the rule switches, nothing is paid and the difference is discovered by experience, so the choice trades effort against nothing (NEW tradeoff value: options differ only in effort demand, with no reward on either side).",
+        "note": "Two unlabeled options lead to the same kind of task, differing only in how often the task switches; nothing is paid and the difference is learned by experience, so the choice weighs effort alone.",
         "task_facets": {
           "stimulus_type": [
             "game_objects"
@@ -30280,7 +30280,7 @@
       {
         "variant_id": "hedvar_feeling_of_knowing__semantic_general_knowledge_feeling_of_knowing",
         "name": "Semantic / General-Knowledge Feeling-of-Knowing",
-        "note": "General-knowledge questions replace studied pairs, so there is no study phase and the unrecalled items are long-held facts (NEW:studied_material:prior_knowledge = nothing is studied; the test probes what the participant already knows).",
+        "note": "General-knowledge questions replace studied pairs, so there is no study phase and the items not recalled are long-held facts.",
         "task_facets": {
           "stimulus_type": [
             "text"
@@ -30894,7 +30894,7 @@
       {
         "variant_id": "hedvar_heartbeat_detection__heartbeat_discrimination_whitehead",
         "name": "Heartbeat Discrimination (Whitehead)",
-        "note": "A train of tones locked to each heartbeat, at once or delayed, is played and the participant judges whether it was synchronous with the heart, so a prompt stimulus is added (NEW value = a heartbeat-locked tone train whose synchrony is judged) and the report becomes a comparison rather than a count.",
+        "note": "A train of tones locked to each heartbeat, either immediate or delayed, is played and the participant judges whether it was in time with their heart, instead of counting heartbeats.",
         "task_facets": {
           "stimulus_modality": [
             "somatic",
@@ -30921,7 +30921,7 @@
       {
         "variant_id": "hedvar_heartbeat_detection__confidence_accuracy_paradigm",
         "name": "Confidence-Accuracy Paradigm",
-        "note": "After each trial the participant also rates confidence in the answer, so a confidence judgment is inserted at test; report_on_self has no such rule, so the study_then_test rule is borrowed.",
+        "note": "After each trial the participant also rates confidence in the answer.",
         "candidates": [
           "cand_report_on_self__inserted_judgment__confidence_at_test"
         ]
@@ -31603,7 +31603,7 @@
       {
         "variant_id": "hedvar_autobiographical_memory__future_episodic_simulation",
         "name": "Future Episodic Simulation",
-        "note": "Given the cue word the participant imagines and describes a specific plausible future event instead of recalling a past one (NEW value = an imagined future episode rather than a memory).",
+        "note": "Given the cue word, the participant imagines and describes a specific, plausible future event instead of recalling a past one.",
         "candidates": [
           "cand_report_on_self__report_of__imagined_future_event"
         ]
@@ -31926,7 +31926,7 @@
       {
         "variant_id": "hedvar_causal_learning__summary_vs_sequential_presentation",
         "name": "Summary vs. Sequential Presentation",
-        "note": "In the summary version the four cell counts are shown at once in a table and rated, so there is no trial stream at all and the task arguably leaves undergo_stream.",
+        "note": "In the summary version the four cell counts are shown at once in a table and rated, so there is no stream of trials.",
         "task_facets": {
           "trial_structure": [
             "self_paced_trials"
@@ -32580,7 +32580,7 @@
       {
         "variant_id": "hedvar_imitation_inhibition__kinematic_paradigm_kilner_task",
         "name": "Kinematic Paradigm (Kilner Task)",
-        "note": "The participant makes continuous repeated arm movements while watching a person or robot move in the same or an orthogonal direction, and movement variability is the measure; this is closer to produce_movement with an observed-action competitor than to cued discrete trials.",
+        "note": "The participant makes continuous, repeated arm movements while watching a person or a robot move in the same or a perpendicular direction, and the variability of the participant's movement is the measure.",
         "task_facets": {
           "stimulus_type": [],
           "task_io_device": [
@@ -32895,7 +32895,7 @@
       {
         "variant_id": "hedvar_intentional_binding__interval_estimation_method",
         "name": "Interval Estimation Method",
-        "note": "No clock is shown; after each press and tone the participant estimates or reproduces the gap between them, so the prompt is dropped and the report is of an interval rather than a time point (NEW value = the judged action-effect interval).",
+        "note": "No clock is shown; after each key press and tone the participant estimates or reproduces the interval between them, instead of reporting a time point.",
         "task_facets": {
           "stimulus_modality": [
             "auditory"
@@ -32927,7 +32927,7 @@
       {
         "variant_id": "hedvar_intentional_binding__social_intentional_binding",
         "name": "Social Intentional Binding",
-        "note": "Another person presses the key and the participant judges the timing of that person's action and its tone, or two people act jointly, so the reported event is an observed action rather than one's own (NEW value) and the setting becomes social.",
+        "note": "Another person presses the key and the participant judges the timing of that person's action and its tone, or two people act together, so the reported event is someone else's action rather than one's own.",
         "task_facets": {
           "social_aspect": [
             "social_interaction"
@@ -33228,7 +33228,7 @@
       {
         "variant_id": "hedvar_self_paced_reading__maze",
         "name": "Maze Task",
-        "note": "At every position two words are shown and the participant must choose the correct continuation to go on, so a two-alternative judgment is made at each word and choice time replaces reading time; arguably the whole task becomes respond_to_rule.",
+        "note": "At every position two words are shown and the participant chooses the one that continues the sentence correctly, so choice time replaces reading time.",
         "combined_with": [
           {
             "game_type": "respond_to_rule",
@@ -33554,7 +33554,7 @@
       {
         "variant_id": "hedvar_rapid_serial_visual_presentation__rsvp_image_triage_bci",
         "name": "RSVP Image Triage (BCI)",
-        "note": "The participant looks for target images but never presses anything; the EEG response flags targets, so NEW:response_demand:no_overt_response means the job is done but no overt response is ever made.",
+        "note": "The participant looks for target images but never presses anything; their EEG response marks which images were targets.",
         "task_facets": {
           "stimulus_type": [
             "pictures",
