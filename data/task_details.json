@@ -13537,7 +13537,36 @@
       "hed_response_selection",
       "hed_divided_attention"
     ],
-    "references": []
+    "references": [
+      {
+        "title": "Improving fluid intelligence with training on working memory",
+        "authors": "Jaeggi, S. M., Buschkuehl, M., Jonides, J., & Perrig, W. J.",
+        "year": 2008,
+        "journal": "Proceedings of the National Academy of Sciences",
+        "venue": "Proceedings of the National Academy of Sciences",
+        "venue_type": "journal",
+        "volume": "105",
+        "issue": "19",
+        "pages": "6829-6833",
+        "ids": {
+          "doi": "10.1073/pnas.0801268105",
+          "openalex_id": null,
+          "pmid": null,
+          "pmcid": null,
+          "s2_id": null,
+          "arxiv_id": null
+        },
+        "url": "https://doi.org/10.1073/pnas.0801268105",
+        "oa_status": "unknown",
+        "citation_string": "Jaeggi, S. M., Buschkuehl, M., Jonides, J., & Perrig, W. J. (2008). Improving fluid intelligence with training on working memory. *Proceedings of the National Academy of Sciences*, 105(19), 6829-6833.",
+        "source": "crossref",
+        "confidence": "high",
+        "verified_on": "2026-11-19",
+        "roles": [
+          "historical"
+        ]
+      }
+    ]
   },
   {
     "hedtsk_id": "hedtsk_navon",
@@ -16471,7 +16500,36 @@
       "hed_speech_production",
       "hed_interference_control"
     ],
-    "references": []
+    "references": [
+      {
+        "title": "Exploring the time course of lexical access in language production: Picture-word interference studies",
+        "authors": "Schriefers, H., Meyer, A. S., & Levelt, W. J. M.",
+        "year": 1990,
+        "journal": "Journal of Memory and Language",
+        "venue": "Journal of Memory and Language",
+        "venue_type": "journal",
+        "volume": "29",
+        "issue": "1",
+        "pages": "86-102",
+        "ids": {
+          "doi": "10.1016/0749-596x(90)90011-n",
+          "openalex_id": null,
+          "pmid": null,
+          "pmcid": null,
+          "s2_id": null,
+          "arxiv_id": null
+        },
+        "url": "https://doi.org/10.1016/0749-596x(90)90011-n",
+        "oa_status": "unknown",
+        "citation_string": "Schriefers, H., Meyer, A. S., & Levelt, W. J. M. (1990). Exploring the time course of lexical access in language production: Picture-word interference studies. *Journal of Memory and Language*, 29(1), 86-102.",
+        "source": "crossref",
+        "confidence": "high",
+        "verified_on": "2026-11-19",
+        "roles": [
+          "historical"
+        ]
+      }
+    ]
   },
   {
     "hedtsk_id": "hedtsk_posner_spatial_cueing",
@@ -24945,7 +25003,36 @@
       "hed_working_memory",
       "hed_strategy_use"
     ],
-    "references": []
+    "references": [
+      {
+        "title": "The functional equivalence of problem solving skills",
+        "authors": "Simon, H. A.",
+        "year": 1975,
+        "journal": "Cognitive Psychology",
+        "venue": "Cognitive Psychology",
+        "venue_type": "journal",
+        "volume": "7",
+        "issue": "2",
+        "pages": "268-288",
+        "ids": {
+          "doi": "10.1016/0010-0285(75)90012-2",
+          "openalex_id": null,
+          "pmid": null,
+          "pmcid": null,
+          "s2_id": null,
+          "arxiv_id": null
+        },
+        "url": "https://doi.org/10.1016/0010-0285(75)90012-2",
+        "oa_status": "unknown",
+        "citation_string": "Simon, H. A. (1975). The functional equivalence of problem solving skills. *Cognitive Psychology*, 7(2), 268-288.",
+        "source": "crossref",
+        "confidence": "high",
+        "verified_on": "2026-11-19",
+        "roles": [
+          "historical"
+        ]
+      }
+    ]
   },
   {
     "hedtsk_id": "hedtsk_trail_making",
