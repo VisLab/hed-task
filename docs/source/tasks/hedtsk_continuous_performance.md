@@ -5,13 +5,31 @@
 
 **Family:** [Oddball, vigilance and continuous performance tasks](families/oddball_and_vigilance.md)
 
-**Also known as:** CPT, CPT-II, AX-CPT variant also separate entry, Continuous Performance
+**Also known as:** CPT, CPT-II, Continuous Performance
 
 Extended stream of stimuli in which a rare target requires a response; omission and commission errors index sustained attention and response control.
 
 ## Description
 
-The Continuous Performance Task requires participants to continuously monitor a stream of stimuli and respond selectively to infrequent target stimuli while withholding responses to non-targets over an extended period (5-15 minutes). The standard version involves responding when the letter "X" appears; the AX-CPT variant requires responding only when "A" is immediately followed by "X." Target frequency is typically 5-25% of trials. Performance measures include hit rate, false alarm rate, d' (sensitivity), and vigilance decrement over time. The task is widely used in ADHD research and clinical neuropsychology.
+The Continuous Performance Task requires participants to continuously monitor a stream of stimuli and respond selectively to infrequent target stimuli while withholding responses to non-targets over an extended period (5-15 minutes). The standard version involves responding when the letter "X" appears; the AX Continuous Performance Task, a separate task, requires responding only when "A" is immediately followed by "X." Target frequency is typically 5-25% of trials. Performance measures include hit rate, false alarm rate, d' (sensitivity), and vigilance decrement over time. The task is widely used in ADHD research and clinical neuropsychology.
+
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+- **Must the player ever hold back?** <a href="vocabulary.html#rule-respond-to-rule-response-demand-withhold-on-some">withhold on some</a>
+- **How often is there a target?** <a href="vocabulary.html#rule-respond-to-rule-target-rate-rare-target">rare target</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-presentation-rate">presentation rate</a>, <a href="vocabulary.html#setting-session-duration">session duration</a>, <a href="vocabulary.html#setting-target-probability">target probability</a>
+- **Material:** A stream of single letters (or digits or tones) in which one item, usually the letter X, is the rare target.
 
 ## Inclusion test
 
@@ -24,12 +42,13 @@ least one of the listed variables, and it records at least one of the listed mea
 
 * - **Procedure**
   - 1. A rapid sequence of stimuli is presented.
-    2. Participants respond to infrequent target stimuli and withhold responses to non-targets over a prolonged session (10–20 min).
+    2. Participants respond to infrequent target stimuli and withhold responses to non-targets over a prolonged session (10-20 min).
 * - **Manipulations**
   - - Target probability
     - Stimulus presentation rate (ISI)
     - Session duration
     - Signal type (letters, digits, tones)
+    - Emotional distractors during detection
 * - **Measurements**
   - - Hit rate
     - False alarm rate
@@ -38,58 +57,58 @@ least one of the listed variables, and it records at least one of the listed mea
     - Omission and commission errors
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - X-CPT (Simple)
-
-    `hedvar_continuous_performance__x_cpt_simple`
-  - Respond to target letter "X" among non-target letters; measures basic sustained attention.
-  - Respond to single target letter; canonical simple vigilance paradigm
-* - AX-CPT (Context Processing)
-
-    `hedvar_continuous_performance__ax_cpt_context_processing`
-  - Respond to "X" only when preceded by "A"; probes context maintenance and proactive/reactive control.
-  - Context-dependent target requires tracking A→X sequence; different working memory demand
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Identical Pairs CPT (IP-CPT)
 
     `hedvar_continuous_performance__identical_pairs_cpt_ip_cpt`
-  - Respond when two consecutive stimuli are identical; taps working memory updating.
-  - Respond when consecutive stimuli match; different stimulus-response rule
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-compare">compare</a>; reference: <a href="vocabulary.html#rule-respond-to-rule-reference-held-in-mind">held in mind</a>
+  - [Working memory updating](../processes/short_term_and_working_memory.md#hed-working-memory-updating)
+  - The target is any item identical to the one just before it, so each item is compared with the previous one instead of with a fixed letter.
 * - Gradual-Onset CPT (gradCPT)
 
     `hedvar_continuous_performance__gradual_onset_cpt_gradcpt`
-  - Scene images fade in/out continuously; respond to one category, withhold to another; naturalistic sustained attention.
-  - Stimuli gradually transition instead of discrete flashes; different perceptual and decision dynamics
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-scenes">scenes</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-classify">classify</a>; stream: <a href="vocabulary.html#rule-respond-to-rule-stream-continuous">continuous</a>
+  - -
+  - Scenes fade into one another with no gaps; the participant classifies each as city or mountain, pressing for the frequent category and withholding for the rare one.
 * - Auditory CPT
 
     `hedvar_continuous_performance__auditory_cpt`
-  - Auditory stimulus stream; respond to target phoneme or tone.
-  - Auditory stimulus stream instead of visual; different sensory modality
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>, <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - The same rare-target detection with spoken letters or tones through headphones instead of letters on a screen.
 * - Conners' CPT-3
 
     `hedvar_continuous_performance__conners_cpt_3`
-  - Standardized commercial version with norms for ADHD assessment.
-  - Standardized commercial CPT with letter stimuli and specific timing; named published instrument
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - -
+  - A commercial instrument that reverses the usual go rate (press for every letter except X, withhold for X) and varies the pace between blocks.
 * - TOVA (Test of Variables of Attention)
 
     `hedvar_continuous_performance__tova_test_of_variables_of_attention`
-  - Commercial CPT variant with specific timing parameters and normative data.
-  - Geometric stimuli, fixed ISI; distinct named instrument with different timing parameters
+
+    Cognitive Atlas: [test of variables of attention](https://www.cognitiveatlas.org/task/id/trm_4da86cdbd9eeb)
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - -
+  - A commercial instrument with a position-defined shape target and a rare-then-frequent target probability across halves; a named form.
 * - CPT with Emotional Distractors
 
     `hedvar_continuous_performance__cpt_with_emotional_distractors`
-  - Task-irrelevant emotional stimuli during sustained attention.
-  - Emotional stimuli as distractors; retained per §5.1 (EMOT retired)
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>, <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>; emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>; competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-neighbouring-items">neighbouring items</a>
+  - [Attentional capture](../processes/selective_and_sustained_attention.md#hed-attentional-capture)
+  - Emotional pictures or faces appear in the background or between items as distractors while the usual rare-target detection continues.
 ```
 
 ## Cognitive processes
@@ -100,7 +119,7 @@ This task is designed to engage the following processes:
 - [Alerting](../processes/selective_and_sustained_attention.md#hed-alerting)
 - [Response inhibition](../processes/inhibitory_control_and_conflict_monitoring.md#hed-response-inhibition)
 - [Selective attention](../processes/selective_and_sustained_attention.md#hed-selective-attention)
-- [Mind wandering](../processes/awareness_agency_and_metacognition.md#hed-mind-wandering)
+- [Spontaneous thought](../processes/awareness_agency_and_metacognition.md#hed-mind-wandering)
 
 ## Key references
 
@@ -110,10 +129,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Huang-Pollock, C. L., Karalunas, S. L., Tam, H., & Moore, A. N. (2012). Evaluating vigilance deficits in ADHD: A meta-analysis of CPT performance. *Journal of Abnormal Psychology*, 121(2), 360–371. ([DOI](https://doi.org/10.1037/a0027205), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22428793/))
-- Esterman, M., Noonan, S. K., Rosenberg, M., & DeGutis, J. (2013). In the zone or zoning out? Tracking behavioral and neural fluctuations during sustained attention. *Cerebral Cortex*, 23(11), 2712–2723. ([DOI](https://doi.org/10.1093/cercor/bhs261))
-- Fortenbaugh, F. C., DeGutis, J., & Esterman, M. (2017). Recent theoretical, neural, and clinical advances in sustained attention research. *Annals of the New York Academy of Sciences*, 1396(1), 70–91. ([DOI](https://doi.org/10.1111/nyas.13318), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28260249/))
-- Weigard, A., & Huang-Pollock, C. (2017). The role of speed in ADHD-related working memory deficits: A time-based resource-sharing and diffusion model account. *Clinical Psychological Science*, 5(2), 195–211.
+- Huang-Pollock, C. L., Karalunas, S. L., Tam, H., & Moore, A. N. (2012). Evaluating vigilance deficits in ADHD: A meta-analysis of CPT performance. *Journal of Abnormal Psychology*, 121(2), 360-371. ([DOI](https://doi.org/10.1037/a0027205), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22428793/))
+- Esterman, M., Noonan, S. K., Rosenberg, M., & DeGutis, J. (2013). In the zone or zoning out? Tracking behavioral and neural fluctuations during sustained attention. *Cerebral Cortex*, 23(11), 2712-2723. ([DOI](https://doi.org/10.1093/cercor/bhs261))
+- Fortenbaugh, F. C., DeGutis, J., & Esterman, M. (2017). Recent theoretical, neural, and clinical advances in sustained attention research. *Annals of the New York Academy of Sciences*, 1396(1), 70-91. ([DOI](https://doi.org/10.1111/nyas.13318), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28260249/))
+- Weigard, A., & Huang-Pollock, C. (2017). The role of speed in ADHD-related working memory deficits: A time-based resource-sharing and diffusion model account. *Clinical Psychological Science*, 5(2), 195-211.
 
 ## External links
 

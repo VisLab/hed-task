@@ -6,14 +6,14 @@
   "total_categories": 19,
   "total_processes": 172,
   "total_processes_used_by_tasks": 152,
-  "total_tasks": 107,
+  "total_tasks": 110,
   "categories": [
     {
       "category_id": "associative_learning_and_reinforcement",
       "name": "Associative Learning and Reinforcement",
       "scope": "Learning of stimulus-stimulus, stimulus-response, and action-outcome contingencies under reinforcement; Pavlovian and instrumental conditioning; extinction; reversal; model-based and model-free reinforcement learning; reward prediction error.",
       "out_of_scope": "Structure learning without scalar reinforcement (that is Implicit and Statistical Learning).",
-      "issues": "Instrumental ≡ Operant conditioning resolved 2026-04-18: collapsed to single `hed_instrumental_conditioning` entry. Operant conditioning absorbed as synonym.",
+      "issues": "Instrumental = Operant conditioning resolved 2026-04-18: collapsed to single `hed_instrumental_conditioning` entry. Operant conditioning absorbed as synonym.",
       "process_count": 13
     },
     {
@@ -37,30 +37,30 @@
       "name": "Cognitive Flexibility and Higher-Order Executive Function",
       "scope": "Task-set reconfiguration (set shifting), rule updating, strategy selection, goal maintenance. Current inhabitants: goal maintenance, set shifting, strategy use.",
       "out_of_scope": "Fluid intelligence (an individual-difference construct, not a process); working-memory updating (in Short-Term and Working Memory); \"cognitive flexibility\" as a capacity-level umbrella (dropped 2026-04-19; alias on `hed_set_shifting`).",
-      "issues": "The user has earlier flagged that **attentional flexibility** and **mental flexibility** should perhaps be separate sub-processes — deferred.",
-      "history": "`hed_cognitive_flexibility` dropped 2026-04-19 — broader construct (capacity-level) that fails the single-answer inclusion test; set shifting is its primary operationalization. References absorbed into `hed_set_shifting`; 'Cognitive flexibility' added as alias.",
+      "issues": "The user has earlier flagged that **attentional flexibility** and **mental flexibility** should perhaps be separate sub-processes - deferred.",
+      "history": "`hed_cognitive_flexibility` dropped 2026-04-19 - broader construct (capacity-level) that fails the single-answer inclusion test; set shifting is its primary operationalization. References absorbed into `hed_set_shifting`; 'Cognitive flexibility' added as alias.",
       "process_count": 3
     },
     {
       "category_id": "emotion_perception_and_regulation",
       "name": "Emotion Perception and Regulation",
       "scope": "Recognition of emotional signals (face, voice, body), affective priming, cognitive reappraisal, expressive suppression, emotion regulation strategies.",
-      "out_of_scope": "Specific emotions as states (fear, happiness, disgust, anger, sadness — HED handles these as stimulus/state labels); affect as a trait; mood.",
-      "issues": "This category had heavy non-process pollution in the pre-reframe list (16 of 21 entries were specific emotions, valence, arousal, mood, or empathy-as-trait). Current 5-row count reflects the cleaned process-only version. Coverage of appraisal-stage processes is thin — expected to grow if we add paradigms that specifically target appraisal.",
+      "out_of_scope": "Specific emotions as states (fear, happiness, disgust, anger, sadness - HED handles these as stimulus/state labels); affect as a trait; mood.",
+      "issues": "This category had heavy non-process pollution in the pre-reframe list (16 of 21 entries were specific emotions, valence, arousal, mood, or empathy-as-trait). Current 5-row count reflects the cleaned process-only version. Coverage of appraisal-stage processes is thin - expected to grow if we add paradigms that specifically target appraisal.",
       "process_count": 5
     },
     {
       "category_id": "face_and_object_perception",
       "name": "Face and Object Perception",
       "scope": "Processes that recover identity, category, or structure from sensory form: face identity, face perception, visual object recognition, visual form recognition, visual perception, pattern recognition, motion perception (including biological motion), depth perception; plus the non-visual object-perception rows (somatosensory, gustatory, olfactory, proprioceptive) that have no better home.",
-      "out_of_scope": "Faces and objects as *stimulus categories* — HED handles those on the stimulus axis.",
+      "out_of_scope": "Faces and objects as *stimulus categories* - HED handles those on the stimulus axis.",
       "issues": "The non-visual perceptual rows (gustatory, olfactory, somatosensory) are grouped here pragmatically rather than because they belong with faces and objects. If a separate \"Non-visual perception\" category is ever needed, it would pull them out. For now the grouping reflects \"perception of form across modalities\".",
       "process_count": 12
     },
     {
       "category_id": "implicit_and_statistical_learning",
       "name": "Implicit and Statistical Learning",
-      "scope": "Acquisition of structure without explicit instruction: implicit memory, procedural memory. Paradigm-level coverage includes artificial grammar learning, serial reaction time, statistical word-segmentation, perceptual category learning — these live in `task_details.json`, not as separate process rows.",
+      "scope": "Acquisition of structure without explicit instruction: implicit memory, procedural memory. Paradigm-level coverage includes artificial grammar learning, serial reaction time, statistical word-segmentation, perceptual category learning - these live in `task_details.json`, not as separate process rows.",
       "out_of_scope": "Reinforcement-driven associative learning (Associative Learning and Reinforcement).",
       "issues": "The category is intentionally lean at the process level because most of the work happens at the task level. If sequence-structure learning becomes distinct enough to need its own process row, it should live here.",
       "process_count": 2
@@ -78,7 +78,7 @@
       "name": "Language Comprehension and Production",
       "scope": "Mapping sound or text to meaning and meaning to articulation: lexical access, word recognition, reading, phonological processes, syntactic parsing, sentence comprehension, discourse processing, semantic processing, semantic knowledge, naming, verbal fluency, speech perception, speech production, language comprehension, language production.",
       "out_of_scope": "\"Language\" as a faculty; linguistic representations themselves; motor aspects of articulation (those live in Motor Preparation, Timing, and Execution as vocal-motor control, with a pointer from here).",
-      "issues": "Visual word recognition ≡ word recognition — merged during the reframe (canonical: `hed_word_recognition`). Reading as a process vs. reading as a behavior is still somewhat conflated in `hed_reading` — an open question.",
+      "issues": "Visual word recognition = word recognition - merged during the reframe (canonical: `hed_word_recognition`). Reading as a process vs. reading as a behavior is still somewhat conflated in `hed_reading` - an open question.",
       "process_count": 16
     },
     {
@@ -102,7 +102,7 @@
       "category_id": "perceptual_decision_making_evidence_accumulation",
       "name": "Perceptual Decision-Making (Evidence Accumulation)",
       "scope": "Integration of noisy sensory evidence to a decision criterion.",
-      "issues": "Singleton row. Overlaps with Perceptual Awareness on confidence and with Value-Based Decision-Making on accumulation-model machinery — but the evidence source (perceptual vs. value) is the category boundary. If the Catalog ever adds distinct rows for decision boundary, drift rate, confidence formation, and speed-accuracy tradeoff as processes (rather than task-level parameters), they belong here.",
+      "issues": "Singleton row. Overlaps with Perceptual Awareness on confidence and with Value-Based Decision-Making on accumulation-model machinery - but the evidence source (perceptual vs. value) is the category boundary. If the Catalog ever adds distinct rows for decision boundary, drift rate, confidence formation, and speed-accuracy tradeoff as processes (rather than task-level parameters), they belong here.",
       "process_count": 1
     },
     {
@@ -111,7 +111,7 @@
       "scope": "Deductive, inductive, causal, analogical, mathematical reasoning; hypothesis testing; categorization; insight; means-ends analysis; planning; subgoaling.",
       "out_of_scope": "\"Reasoning\" as umbrella; \"logical reasoning\" as umbrella over deductive + inductive; fluid intelligence as an individual-difference construct.",
       "issues": "None open.",
-      "history": "Four problem-solving rows added during 2026-04-15: Insight, Means-ends analysis, Planning, Subgoaling. (`hed_planning` had been accidentally duplicated in `process_list.md` and was de-duplicated on 2026-04-17.) `hed_logical_reasoning` dropped 2026-04-19 — umbrella over deductive + inductive; alias added to `hed_deductive_reasoning`.",
+      "history": "Four problem-solving rows added during 2026-04-15: Insight, Means-ends analysis, Planning, Subgoaling. (`hed_planning` had been accidentally duplicated in `process_list.md` and was de-duplicated on 2026-04-17.) `hed_logical_reasoning` dropped 2026-04-19 - umbrella over deductive + inductive; alias added to `hed_deductive_reasoning`.",
       "process_count": 11
     },
     {
@@ -128,7 +128,7 @@
       "name": "Selective and Sustained Attention",
       "scope": "Attention networks (alerting, orienting, executive attention); selective attention; sustained attention; attention shifting; attentional capture; divided attention; feature-based attention; object-based attention; spatial attention; temporal attention.",
       "out_of_scope": "Attention as an umbrella; alertness as a trait; arousal as a physiological state.",
-      "issues": "Sustained attention ≡ vigilance when operationalized as a continuous-performance measure; treated as synonymous in the current row definition. If vigilance-as-trait ever needs representation, it would live outside this category.",
+      "issues": "Vigilance, sustained attention to a stream in which targets are rare, is the best-studied form of sustained attention and is covered by that row; the row also covers holding attention on a fixation target. If vigilance-as-trait ever needs representation, it would live outside this category.",
       "process_count": 11
     },
     {
@@ -136,8 +136,8 @@
       "name": "Short-Term and Working Memory",
       "scope": "Active maintenance, manipulation, working-memory updating, rehearsal, chunking; visual working memory; verbal working memory; spatial working memory; umbrella `hed_working_memory`.",
       "out_of_scope": "Working memory **load** (task parameter, not process); working memory **capacity** (individual difference); long-term memory; bare \"maintenance\" (merged into `hed_active_maintenance`).",
-      "issues": "Working-memory SPLIT (umbrella item 3 from the earlier decisions log) still pending — whether `hed_working_memory` should be retained as an umbrella alongside the component rows, or whether pages should link only to the components.",
-      "history": "The duplicate `hed_updating` / `hed_updating_wm` pair (pre-reframe residue from when Updating was split across the executive-function and working-memory categories) was consolidated on 2026-04-17 into a single `hed_working_memory_updating` row. The renaming also improves specificity — plain \"Updating\" was memory-context-underspecified. `hed_maintenance` merged into `hed_active_maintenance` 2026-04-19 — \"active maintenance\" is the preferred term; Goldman-Rakic (1995) reference absorbed; \"Maintenance\" added as alias.",
+      "issues": "Working-memory SPLIT (umbrella item 3 from the earlier decisions log) still pending - whether `hed_working_memory` should be retained as an umbrella alongside the component rows, or whether pages should link only to the components.",
+      "history": "The duplicate `hed_updating` / `hed_updating_wm` pair (pre-reframe residue from when Updating was split across the executive-function and working-memory categories) was consolidated on 2026-04-17 into a single `hed_working_memory_updating` row. The renaming also improves specificity - plain \"Updating\" was memory-context-underspecified. `hed_maintenance` merged into `hed_active_maintenance` 2026-04-19 - \"active maintenance\" is the preferred term; Goldman-Rakic (1995) reference absorbed; \"Maintenance\" added as alias.",
       "process_count": 9
     },
     {
@@ -229,7 +229,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Shanks (2010) *Annual Review of Psychology* 61:273–301",
+          "citation_string": "Shanks (2010) *Annual Review of Psychology* 61:273-301",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -306,7 +306,7 @@
           },
           "url": "https://doi.org/10.1101/lm.78804",
           "oa_status": "diamond",
-          "citation_string": "Bouton (2004) *Learning & Memory* 11:485–494",
+          "citation_string": "Bouton (2004) *Learning & Memory* 11:485-494",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -334,7 +334,7 @@
           },
           "url": "https://doi.org/10.1016/j.neuron.2015.09.028",
           "oa_status": "green",
-          "citation_string": "Dunsmoor, Niv, Daw & Phelps (2015) *Neuron* 88:47–63",
+          "citation_string": "Dunsmoor, Niv, Daw & Phelps (2015) *Neuron* 88:47-63",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -359,7 +359,7 @@
           "confidence": "high"
         }
       ],
-      "definition": "Behavior that is sensitive to current outcome value, characteristic of action–outcome learning.",
+      "definition": "Behavior that is sensitive to current outcome value, characteristic of action-outcome learning.",
       "tasks": [
         {
           "hedtsk_id": "hedtsk_instrumental_conditioning",
@@ -388,7 +388,7 @@
           },
           "url": "https://doi.org/10.3758/bf03199951",
           "oa_status": "bronze",
-          "citation_string": "Dickinson & Balleine (1994) *Animal Learning & Behavior* 22:1–18",
+          "citation_string": "Dickinson & Balleine (1994) *Animal Learning & Behavior* 22:1-18",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -416,7 +416,7 @@
           },
           "url": "https://doi.org/10.1038/npp.2009.131",
           "oa_status": "bronze",
-          "citation_string": "Balleine & O'Doherty (2010) *Neuropsychopharmacology* 35:48–69",
+          "citation_string": "Balleine & O'Doherty (2010) *Neuropsychopharmacology* 35:48-69",
           "source": "manual",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -441,7 +441,7 @@
           "confidence": "high"
         }
       ],
-      "definition": "Behavior that is insensitive to the current value of its outcome, characteristic of stimulus–response learning.",
+      "definition": "Behavior that is insensitive to the current value of its outcome, characteristic of stimulus-response learning.",
       "tasks": [
         {
           "hedtsk_id": "hedtsk_instrumental_conditioning",
@@ -470,7 +470,7 @@
           },
           "url": "https://doi.org/10.1038/npp.2009.131",
           "oa_status": "bronze",
-          "citation_string": "Balleine & O'Doherty (2010) *Neuropsychopharmacology* 35:48–69",
+          "citation_string": "Balleine & O'Doherty (2010) *Neuropsychopharmacology* 35:48-69",
           "source": "manual",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -501,7 +501,7 @@
           "confidence": "high"
         }
       ],
-      "definition": "Learning that an action produces an outcome; also called operant conditioning. Encompasses both goal-directed (action–outcome) and habitual (stimulus–response) control, studied via reinforcement schedules and outcome-devaluation procedures.",
+      "definition": "Learning that an action produces an outcome; also called operant conditioning. Encompasses both goal-directed (action-outcome) and habitual (stimulus-response) control, studied via reinforcement schedules and outcome-devaluation procedures.",
       "tasks": [
         {
           "hedtsk_id": "hedtsk_instrumental_conditioning",
@@ -530,7 +530,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Staddon & Cerutti (2003) *Annual Review of Psychology* 54:115–144",
+          "citation_string": "Staddon & Cerutti (2003) *Annual Review of Psychology* 54:115-144",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -579,7 +579,7 @@
           },
           "url": "https://doi.org/10.1038/nn1560",
           "oa_status": "closed",
-          "citation_string": "Daw, Niv & Dayan (2005) *Nature Neuroscience* 8:1704–1711",
+          "citation_string": "Daw, Niv & Dayan (2005) *Nature Neuroscience* 8:1704-1711",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -607,7 +607,7 @@
           },
           "url": "https://doi.org/10.1016/j.neuron.2011.02.027",
           "oa_status": "hybrid",
-          "citation_string": "Daw, Gershman, Seymour, Dayan & Dolan (2011) *Neuron* 69:1204–1215",
+          "citation_string": "Daw, Gershman, Seymour, Dayan & Dolan (2011) *Neuron* 69:1204-1215",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -661,7 +661,7 @@
           },
           "url": "https://doi.org/10.1038/nn1560",
           "oa_status": "closed",
-          "citation_string": "Daw, Niv & Dayan (2005) *Nature Neuroscience* 8:1704–1711",
+          "citation_string": "Daw, Niv & Dayan (2005) *Nature Neuroscience* 8:1704-1711",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -743,7 +743,7 @@
           },
           "url": null,
           "oa_status": "bronze",
-          "citation_string": "LeDoux (2014) *PNAS* 111:2871–2878",
+          "citation_string": "LeDoux (2014) *PNAS* 111:2871-2878",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -839,7 +839,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Schultz, Dayan & Montague (1997) *Science* 275:1593–1599",
+          "citation_string": "Schultz, Dayan & Montague (1997) *Science* 275:1593-1599",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -867,7 +867,7 @@
           },
           "url": "https://doi.org/10.1016/j.jmp.2008.12.005",
           "oa_status": "closed",
-          "citation_string": "Niv (2009) *Journal of Mathematical Psychology* 53:139–154",
+          "citation_string": "Niv (2009) *Journal of Mathematical Psychology* 53:139-154",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -916,7 +916,7 @@
           },
           "url": "https://doi.org/10.1007/bf00237911",
           "oa_status": "closed",
-          "citation_string": "Iversen & Mishkin (1970) *Experimental Brain Research* 11:376–386",
+          "citation_string": "Iversen & Mishkin (1970) *Experimental Brain Research* 11:376-386",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -944,7 +944,7 @@
           },
           "url": "https://doi.org/10.1016/j.neuroscience.2016.03.021",
           "oa_status": "closed",
-          "citation_string": "Izquierdo, Brigman, Radke, Rudebeck & Holmes (2017) *Neuroscience* 345:12–26",
+          "citation_string": "Izquierdo, Brigman, Radke, Rudebeck & Holmes (2017) *Neuroscience* 345:12-26",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -1017,7 +1017,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Schultz, Dayan & Montague (1997) *Science* 275:1593–1599",
+          "citation_string": "Schultz, Dayan & Montague (1997) *Science* 275:1593-1599",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -1045,7 +1045,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Glimcher (2011) *PNAS* 108(Suppl 3):15647–15654",
+          "citation_string": "Glimcher (2011) *PNAS* 108(Suppl 3):15647-15654",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -1098,7 +1098,7 @@
           },
           "url": "https://doi.org/10.1038/nrn2357",
           "oa_status": "closed",
-          "citation_string": "Rangel, Camerer & Montague (2008) *Nature Reviews Neuroscience* 9:545–556",
+          "citation_string": "Rangel, Camerer & Montague (2008) *Nature Reviews Neuroscience* 9:545-556",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -1147,7 +1147,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Fletcher (1940) *Reviews of Modern Physics* 12:47–65",
+          "citation_string": "Fletcher (1940) *Reviews of Modern Physics* 12:47-65",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -1303,7 +1303,7 @@
           },
           "url": "https://doi.org/10.1523/JNEUROSCI.3815-12.2012",
           "oa_status": "bronze",
-          "citation_string": "Oxenham (2012) *Journal of Neuroscience* 32:13335–13338",
+          "citation_string": "Oxenham (2012) *Journal of Neuroscience* 32:13335-13338",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-23",
@@ -1361,7 +1361,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2006.10.012",
           "oa_status": "closed",
-          "citation_string": "Koch & Tsuchiya (2007) *Trends in Cognitive Sciences* 11:16–22",
+          "citation_string": "Koch & Tsuchiya (2007) *Trends in Cognitive Sciences* 11:16-22",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -1392,7 +1392,7 @@
       "task_count": 1,
       "references": [
         {
-          "title": "Rubber hands ‘feel’ touch that eyes see",
+          "title": "Rubber hands 'feel' touch that eyes see",
           "authors": "Botvinick, M., & Cohen, J.",
           "year": 1998,
           "journal": "Nature",
@@ -1707,7 +1707,7 @@
           },
           "url": null,
           "oa_status": "unknown",
-          "citation_string": "Arbuckle & Cuddy (1969) *Journal of Verbal Learning and Verbal Behavior* 8:126–131",
+          "citation_string": "Arbuckle & Cuddy (1969) *Journal of Verbal Learning and Verbal Behavior* 8:126-131",
           "source": "unresolved",
           "confidence": "none",
           "verified_on": "2026-04-20",
@@ -1769,7 +1769,7 @@
           ]
         },
         {
-          "title": "What’s new in visual masking?",
+          "title": "What's new in visual masking?",
           "authors": "Enns, J. T., & Di Lollo, V.",
           "year": 2000,
           "journal": "Trends in Cognitive Sciences",
@@ -1788,7 +1788,7 @@
           },
           "url": "https://doi.org/10.1016/s1364-6613(00)01520-5",
           "oa_status": "closed",
-          "citation_string": "Enns & Di Lollo (2000) *Trends in Cognitive Sciences* 4:345–352",
+          "citation_string": "Enns & Di Lollo (2000) *Trends in Cognitive Sciences* 4:345-352",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -2096,7 +2096,7 @@
     },
     {
       "process_id": "hed_mind_wandering",
-      "process_name": "Mind wandering",
+      "process_name": "Spontaneous thought",
       "categories": [
         {
           "category_id": "awareness_agency_and_metacognition",
@@ -2104,8 +2104,12 @@
           "confidence": "high"
         }
       ],
-      "definition": "Task-unrelated thought that arises during an ongoing task.",
+      "definition": "Thought that arises spontaneously rather than being directed by a task, whether during an ongoing task or when no task is set, as at rest.",
       "tasks": [
+        {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
         {
           "hedtsk_id": "hedtsk_continuous_performance",
           "canonical_name": "Continuous Performance Task"
@@ -2115,11 +2119,15 @@
           "canonical_name": "Psychomotor Vigilance Task"
         },
         {
+          "hedtsk_id": "hedtsk_rest",
+          "canonical_name": "Rest Task"
+        },
+        {
           "hedtsk_id": "hedtsk_sustained_attention_to_response",
           "canonical_name": "Sustained Attention to Response Task"
         }
       ],
-      "task_count": 3,
+      "task_count": 5,
       "references": [
         {
           "title": "The restless mind.",
@@ -2141,7 +2149,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Smallwood & Schooler (2006) *Psychological Bulletin* 132:946–958",
+          "citation_string": "Smallwood & Schooler (2006) *Psychological Bulletin* 132:946-958",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -2169,7 +2177,7 @@
           },
           "url": "https://doi.org/10.1038/nrn.2016.113",
           "oa_status": "closed",
-          "citation_string": "Christoff, Irving, Fox, Spreng & Andrews-Hanna (2016) *Nature Reviews Neuroscience* 17:718–731",
+          "citation_string": "Christoff, Irving, Fox, Spreng & Andrews-Hanna (2016) *Nature Reviews Neuroscience* 17:718-731",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -2183,7 +2191,8 @@
           "name": "task-unrelated thought"
         },
         {
-          "name": "mind-wandering"
+          "name": "Mind wandering",
+          "note": "Former name of this process; spontaneous thought that drifts away from an ongoing task."
         }
       ]
     },
@@ -2258,7 +2267,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Dehaene, Changeux, Naccache, Sackur & Sergent (2006) *Trends in Cognitive Sciences* 10:204–211",
+          "citation_string": "Dehaene, Changeux, Naccache, Sackur & Sergent (2006) *Trends in Cognitive Sciences* 10:204-211",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -2392,11 +2401,19 @@
           "canonical_name": "Body Ownership Illusion Task"
         },
         {
+          "hedtsk_id": "hedtsk_rest",
+          "canonical_name": "Rest Task"
+        },
+        {
           "hedtsk_id": "hedtsk_self_referential_encoding",
           "canonical_name": "Self-Referential Encoding Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_take_questionnaire",
+          "canonical_name": "Take Questionnaire Task"
         }
       ],
-      "task_count": 3,
+      "task_count": 5,
       "references": [
         {
           "title": "Self-reference and the encoding of personal information.",
@@ -2455,7 +2472,7 @@
           ]
         },
         {
-          "title": "Self-referential processing in our brain—A meta-analysis of imaging studies on the self",
+          "title": "Self-referential processing in our brain - A meta-analysis of imaging studies on the self",
           "authors": "Northoff, G., Heinzel, A., de Greck, M., Bermpohl, F., Dobrowolny, H., & Panksepp, J.",
           "year": 2006,
           "journal": "NeuroImage",
@@ -2664,11 +2681,19 @@
       "definition": "Active holding of task goals, rules, or sub-goals in a form that biases ongoing processing.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_fixate",
+          "canonical_name": "Fixate Task"
+        },
+        {
           "hedtsk_id": "hedtsk_task_switching",
           "canonical_name": "Task Switching Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 3,
       "references": [
         {
           "title": "An Integrative Theory of Prefrontal Cortex Function",
@@ -2690,7 +2715,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Miller & Cohen (2001) *Annual Review of Neuroscience* 24:167–202",
+          "citation_string": "Miller & Cohen (2001) *Annual Review of Neuroscience* 24:167-202",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -2718,7 +2743,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Kane & Engle (2003) *JEP: General* 132:47–70",
+          "citation_string": "Kane & Engle (2003) *JEP: General* 132:47-70",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -2795,7 +2820,7 @@
           },
           "url": "https://doi.org/10.1016/s1364-6613(03)00028-7",
           "oa_status": "closed",
-          "citation_string": "Monsell (2003) *Trends in Cognitive Sciences* 7:134–140",
+          "citation_string": "Monsell (2003) *Trends in Cognitive Sciences* 7:134-140",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -2823,7 +2848,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Diamond (2013) *Annual Review of Psychology* 64:135–168",
+          "citation_string": "Diamond (2013) *Annual Review of Psychology* 64:135-168",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -2832,7 +2857,7 @@
           ]
         },
         {
-          "title": "Control and interference in task switching—A review.",
+          "title": "Control and interference in task switching - A review.",
           "authors": "Kiesel, A., Steinhauser, M., Wendt, M., Falkenstein, M., Jost, K., Philipp, A. M., & Koch, I.",
           "year": 2010,
           "journal": "Psychological Bulletin",
@@ -2851,7 +2876,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Kiesel, Steinhauser, Wendt, Falkenstein, Jost, Philipp & Koch (2010) *Psychological Bulletin* 136:849–874",
+          "citation_string": "Kiesel, Steinhauser, Wendt, Falkenstein, Jost, Philipp & Koch (2010) *Psychological Bulletin* 136:849-874",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -2879,7 +2904,7 @@
           },
           "url": "https://doi.org/10.1016/j.tins.2015.07.003",
           "oa_status": "green",
-          "citation_string": "Dajani & Uddin (2015) *Trends in Neurosciences* 38:571–578",
+          "citation_string": "Dajani & Uddin (2015) *Trends in Neurosciences* 38:571-578",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -2914,6 +2939,10 @@
           "canonical_name": "Probabilistic Classification Learning Task"
         },
         {
+          "hedtsk_id": "hedtsk_tower_of_hanoi",
+          "canonical_name": "Tower of Hanoi Task"
+        },
+        {
           "hedtsk_id": "hedtsk_tower_of_london",
           "canonical_name": "Tower of London Task"
         },
@@ -2926,7 +2955,7 @@
           "canonical_name": "Wisconsin Card Sorting Task"
         }
       ],
-      "task_count": 6,
+      "task_count": 7,
       "references": [
         {
           "title": "The perils of averaging data over strategies: An example from children's addition.",
@@ -2948,7 +2977,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Siegler (1987) *JEP: General* 116:250–264",
+          "citation_string": "Siegler (1987) *JEP: General* 116:250-264",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -2997,7 +3026,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Fazio, Sanbonmatsu, Powell & Kardes (1986) *Journal of Personality and Social Psychology* 50:229–238",
+          "citation_string": "Fazio, Sanbonmatsu, Powell & Kardes (1986) *Journal of Personality and Social Psychology* 50:229-238",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3025,7 +3054,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Herring, White, Jabeen, Hinojos, Terrell, Reyes, Schubert & Crites (2013) *Psychological Bulletin* 139:1062–1089",
+          "citation_string": "Herring, White, Jabeen, Hinojos, Terrell, Reyes, Schubert & Crites (2013) *Psychological Bulletin* 139:1062-1089",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3079,7 +3108,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Gross (1998) *Journal of Personality and Social Psychology* 74:224–237",
+          "citation_string": "Gross (1998) *Journal of Personality and Social Psychology* 74:224-237",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3107,7 +3136,7 @@
           },
           "url": "https://doi.org/10.1093/cercor/bht154",
           "oa_status": "unknown",
-          "citation_string": "Buhle, Silvers, Wager, Lopez, Onyemekwu, Kober, Weber & Ochsner (2014) *Cerebral Cortex* 24:2981–2990",
+          "citation_string": "Buhle, Silvers, Wager, Lopez, Onyemekwu, Kober, Weber & Ochsner (2014) *Cerebral Cortex* 24:2981-2990",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-09-19",
@@ -3256,7 +3285,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Gross (1998) *Review of General Psychology* 2:271–299",
+          "citation_string": "Gross (1998) *Review of General Psychology* 2:271-299",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3305,7 +3334,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Gross & Levenson (1993) *Journal of Personality and Social Psychology* 64:970–986",
+          "citation_string": "Gross & Levenson (1993) *Journal of Personality and Social Psychology* 64:970-986",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3354,7 +3383,7 @@
           },
           "url": "https://doi.org/10.3758/bf03212378",
           "oa_status": "bronze",
-          "citation_string": "Johansson (1973) *Perception & Psychophysics* 14:201–211",
+          "citation_string": "Johansson (1973) *Perception & Psychophysics* 14:201-211",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3382,7 +3411,7 @@
           },
           "url": null,
           "oa_status": "unknown",
-          "citation_string": "Pavlova (2012) *Cerebral Cortex* 22:981–995",
+          "citation_string": "Pavlova (2012) *Cerebral Cortex* 22:981-995",
           "source": "unresolved",
           "confidence": "none",
           "verified_on": "2026-04-20",
@@ -3460,7 +3489,7 @@
           },
           "url": "https://doi.org/10.1038/nrn2131",
           "oa_status": "closed",
-          "citation_string": "Parker (2007) *Nature Reviews Neuroscience* 8:379–391",
+          "citation_string": "Parker (2007) *Nature Reviews Neuroscience* 8:379-391",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3509,7 +3538,7 @@
           },
           "url": null,
           "oa_status": "bronze",
-          "citation_string": "Bruce & Young (1986) *British Journal of Psychology* 77:305–327",
+          "citation_string": "Bruce & Young (1986) *British Journal of Psychology* 77:305-327",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3537,7 +3566,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Duchaine & Yovel (2015) *Annual Review of Vision Science* 1:393–416",
+          "citation_string": "Duchaine & Yovel (2015) *Annual Review of Vision Science* 1:393-416",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3607,7 +3636,7 @@
           },
           "url": null,
           "oa_status": "bronze",
-          "citation_string": "Kanwisher, McDermott & Chun (1997) *Journal of Neuroscience* 17:4302–4311",
+          "citation_string": "Kanwisher, McDermott & Chun (1997) *Journal of Neuroscience* 17:4302-4311",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3635,7 +3664,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Tsao & Livingstone (2008) *Annual Review of Neuroscience* 31:411–437",
+          "citation_string": "Tsao & Livingstone (2008) *Annual Review of Neuroscience* 31:411-437",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3690,7 +3719,7 @@
           },
           "url": "https://doi.org/10.1038/nature05401",
           "oa_status": "closed",
-          "citation_string": "Chandrashekar, Hoon, Ryba & Zuker (2006) *Nature* 444:288–294",
+          "citation_string": "Chandrashekar, Hoon, Ryba & Zuker (2006) *Nature* 444:288-294",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3743,7 +3772,7 @@
           },
           "url": null,
           "oa_status": "bronze",
-          "citation_string": "Newsome & Paré (1988) *Journal of Neuroscience* 8:2201–2211",
+          "citation_string": "Newsome & Paré (1988) *Journal of Neuroscience* 8:2201-2211",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3771,7 +3800,7 @@
           },
           "url": null,
           "oa_status": "unknown",
-          "citation_string": "Nishida (2011) *Vision Research* 51:645–673",
+          "citation_string": "Nishida (2011) *Vision Research* 51:645-673",
           "source": "crossref",
           "confidence": "low",
           "verified_on": "2026-09-19",
@@ -3815,7 +3844,7 @@
           },
           "url": "https://doi.org/10.1016/0092-8674(91)90418-x",
           "oa_status": "bronze",
-          "citation_string": "Buck & Axel (1991) *Cell* 65:175–187",
+          "citation_string": "Buck & Axel (1991) *Cell* 65:175-187",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3843,7 +3872,7 @@
           },
           "url": "https://doi.org/10.1016/j.neuron.2011.10.027",
           "oa_status": "bronze",
-          "citation_string": "Wilson & Sullivan (2011) *Neuron* 72:506–519",
+          "citation_string": "Wilson & Sullivan (2011) *Neuron* 72:506-519",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3905,7 +3934,7 @@
           },
           "url": "https://doi.org/10.1016/j.neuron.2012.01.010",
           "oa_status": "bronze",
-          "citation_string": "DiCarlo, Zoccolan & Rust (2012) *Neuron* 73:415–434",
+          "citation_string": "DiCarlo, Zoccolan & Rust (2012) *Neuron* 73:415-434",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3955,7 +3984,7 @@
           },
           "url": "https://doi.org/10.1016/j.neuron.2013.07.051",
           "oa_status": "bronze",
-          "citation_string": "Abraira & Ginty (2013) *Neuron* 79:618–639",
+          "citation_string": "Abraira & Ginty (2013) *Neuron* 79:618-639",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -3999,7 +4028,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Biederman (1987) *Psychological Review* 94:115–147",
+          "citation_string": "Biederman (1987) *Psychological Review* 94:115-147",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4027,7 +4056,7 @@
           },
           "url": "https://doi.org/10.1016/j.neuron.2012.01.010",
           "oa_status": "bronze",
-          "citation_string": "DiCarlo, Zoccolan & Rust (2012) *Neuron* 73:415–434",
+          "citation_string": "DiCarlo, Zoccolan & Rust (2012) *Neuron* 73:415-434",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4063,11 +4092,15 @@
           "canonical_name": "Picture Naming Task"
         },
         {
+          "hedtsk_id": "hedtsk_picture_word_interference",
+          "canonical_name": "Picture-Word Interference Task"
+        },
+        {
           "hedtsk_id": "hedtsk_weapons_identification",
           "canonical_name": "Weapons Identification Task"
         }
       ],
-      "task_count": 3,
+      "task_count": 4,
       "references": [
         {
           "title": "How Does the Brain Solve Visual Object Recognition?",
@@ -4089,7 +4122,7 @@
           },
           "url": "https://doi.org/10.1016/j.neuron.2012.01.010",
           "oa_status": "bronze",
-          "citation_string": "DiCarlo, Zoccolan & Rust (2012) *Neuron* 73:415–434",
+          "citation_string": "DiCarlo, Zoccolan & Rust (2012) *Neuron* 73:415-434",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4187,7 +4220,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Hubel & Wiesel (1962) *Journal of Physiology* 160:106–154",
+          "citation_string": "Hubel & Wiesel (1962) *Journal of Physiology* 160:106-154",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4215,7 +4248,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2012.10.011",
           "oa_status": "green",
-          "citation_string": "Kravitz, Saleem, Baker, Ungerleider & Mishkin (2013) *Trends in Cognitive Sciences* 17:26–49",
+          "citation_string": "Kravitz, Saleem, Baker, Ungerleider & Mishkin (2013) *Trends in Cognitive Sciences* 17:26-49",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4272,7 +4305,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Graf & Schacter (1985) *JEP: Learning, Memory, and Cognition* 11:501–518",
+          "citation_string": "Graf & Schacter (1985) *JEP: Learning, Memory, and Cognition* 11:501-518",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4300,7 +4333,7 @@
           },
           "url": "https://doi.org/10.1016/j.conb.2007.02.001",
           "oa_status": "closed",
-          "citation_string": "Schacter, Wig & Stevens (2007) *Current Opinion in Neurobiology* 17:171–176",
+          "citation_string": "Schacter, Wig & Stevens (2007) *Current Opinion in Neurobiology* 17:171-176",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4365,7 +4398,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Cohen & Squire (1980) *Science* 210:207–210",
+          "citation_string": "Cohen & Squire (1980) *Science* 210:207-210",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4393,7 +4426,7 @@
           },
           "url": "https://doi.org/10.1016/j.cobeha.2017.11.012",
           "oa_status": "closed",
-          "citation_string": "Doyon, Gabitov, Vahdat, Lungu & Boutin (2018) *Current Opinion in Behavioral Sciences* 153:1–12",
+          "citation_string": "Doyon, Gabitov, Vahdat, Lungu & Boutin (2018) *Current Opinion in Behavioral Sciences* 153:1-12",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-09-19",
@@ -4474,7 +4507,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Botvinick, Braver, Barch, Carter & Cohen (2001) *Psychological Review* 108:624–652",
+          "citation_string": "Botvinick, Braver, Barch, Carter & Cohen (2001) *Psychological Review* 108:624-652",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4502,7 +4535,7 @@
           },
           "url": "https://doi.org/10.1016/j.neuron.2013.07.007",
           "oa_status": "bronze",
-          "citation_string": "Shenhav, Botvinick & Cohen (2013) *Neuron* 79:217–240",
+          "citation_string": "Shenhav, Botvinick & Cohen (2013) *Neuron* 79:217-240",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4574,7 +4607,7 @@
           },
           "url": "https://doi.org/10.1016/0001-6918(79)90026-x",
           "oa_status": "closed",
-          "citation_string": "Laming (1979) *Acta Psychologica* 43:199–224",
+          "citation_string": "Laming (1979) *Acta Psychologica* 43:199-224",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4659,7 +4692,7 @@
           },
           "url": "https://doi.org/10.1016/0013-4694(91)90062-9",
           "oa_status": "closed",
-          "citation_string": "Falkenstein, Hohnsbein, Hoormann & Blanke (1991) *EEG & Clinical Neurophysiology* 78:447–455",
+          "citation_string": "Falkenstein, Hohnsbein, Hoormann & Blanke (1991) *EEG & Clinical Neurophysiology* 78:447-455",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4687,7 +4720,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Gehring, Goss, Coles, Meyer & Donchin (1993) *Psychological Science* 4:385–390",
+          "citation_string": "Gehring, Goss, Coles, Meyer & Donchin (1993) *Psychological Science* 4:385-390",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4744,7 +4777,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Fan, McCandliss, Sommer, Raz & Posner (2002) *Journal of Cognitive Neuroscience* 14:340–347",
+          "citation_string": "Fan, McCandliss, Sommer, Raz & Posner (2002) *Journal of Cognitive Neuroscience* 14:340-347",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4772,7 +4805,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Petersen & Posner (2012) *Annual Review of Neuroscience* 35:73–89",
+          "citation_string": "Petersen & Posner (2012) *Annual Review of Neuroscience* 35:73-89",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4799,6 +4832,10 @@
           "canonical_name": "Attention Network Task"
         },
         {
+          "hedtsk_id": "hedtsk_dual_n_back",
+          "canonical_name": "Dual N-Back Task"
+        },
+        {
           "hedtsk_id": "hedtsk_emotional_stroop",
           "canonical_name": "Emotional Stroop Task"
         },
@@ -4823,6 +4860,10 @@
           "canonical_name": "Operation Span Task"
         },
         {
+          "hedtsk_id": "hedtsk_picture_word_interference",
+          "canonical_name": "Picture-Word Interference Task"
+        },
+        {
           "hedtsk_id": "hedtsk_simon",
           "canonical_name": "Simon Task"
         },
@@ -4831,7 +4872,7 @@
           "canonical_name": "Stroop Color-Word Task"
         }
       ],
-      "task_count": 9,
+      "task_count": 11,
       "references": [
         {
           "title": "Effects of noise letters upon the identification of a target letter in a nonsearch task",
@@ -4853,7 +4894,7 @@
           },
           "url": "https://doi.org/10.3758/bf03203267",
           "oa_status": "bronze",
-          "citation_string": "Eriksen & Eriksen (1974) *Perception & Psychophysics* 16:143–149",
+          "citation_string": "Eriksen & Eriksen (1974) *Perception & Psychophysics* 16:143-149",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -4881,7 +4922,7 @@
           },
           "url": "https://doi.org/10.1111/jcpp.12675",
           "oa_status": "green",
-          "citation_string": "Nigg (2017) *Journal of Child Psychology and Psychiatry* 58:361–383",
+          "citation_string": "Nigg (2017) *Journal of Child Psychology and Psychiatry* 58:361-383",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-23",
@@ -4909,11 +4950,15 @@
       "definition": "Sustained, anticipatory maintenance of task goals that biases processing in preparation for an expected demand.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
+        {
           "hedtsk_id": "hedtsk_task_switching",
           "canonical_name": "Task Switching Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": "The Dual Mechanisms of Cognitive Control Project",
@@ -4963,7 +5008,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2011.12.010",
           "oa_status": "green",
-          "citation_string": "Braver (2012) *Trends in Cognitive Sciences* 16:106–113",
+          "citation_string": "Braver (2012) *Trends in Cognitive Sciences* 16:106-113",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5040,7 +5085,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2011.12.010",
           "oa_status": "green",
-          "citation_string": "Braver (2012) *Trends in Cognitive Sciences* 16:106–113",
+          "citation_string": "Braver (2012) *Trends in Cognitive Sciences* 16:106-113",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5113,7 +5158,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Cohen, Dunbar & McClelland (1990) *Psychological Review* 97:332–361",
+          "citation_string": "Cohen, Dunbar & McClelland (1990) *Psychological Review* 97:332-361",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5141,7 +5186,7 @@
           },
           "url": "https://doi.org/10.3758/cabn.7.4.356",
           "oa_status": "bronze",
-          "citation_string": "Botvinick (2007) *Cognitive, Affective, & Behavioral Neuroscience* 7:356–366",
+          "citation_string": "Botvinick (2007) *Cognitive, Affective, & Behavioral Neuroscience* 7:356-366",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5164,6 +5209,10 @@
       "definition": "Suppression of a prepotent or already-initiated response when it becomes inappropriate, indexed behaviorally by stop-signal reaction time or commission errors.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
+        {
           "hedtsk_id": "hedtsk_anti_saccade",
           "canonical_name": "Anti-Saccade Task"
         },
@@ -5182,6 +5231,10 @@
         {
           "hedtsk_id": "hedtsk_directed_forgetting",
           "canonical_name": "Directed Forgetting Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_fixate",
+          "canonical_name": "Fixate Task"
         },
         {
           "hedtsk_id": "hedtsk_go_no_go",
@@ -5208,7 +5261,7 @@
           "canonical_name": "Think/No-Think Task"
         }
       ],
-      "task_count": 11,
+      "task_count": 13,
       "references": [
         {
           "title": "On the ability to inhibit thought and action: A theory of an act of control.",
@@ -5230,7 +5283,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Logan & Cowan (1984) *Psychological Review* 91:295–327",
+          "citation_string": "Logan & Cowan (1984) *Psychological Review* 91:295-327",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5258,7 +5311,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2013.12.003",
           "oa_status": "closed",
-          "citation_string": "Aron, Robbins & Poldrack (2014) *Trends in Cognitive Sciences* 18:177–185",
+          "citation_string": "Aron, Robbins & Poldrack (2014) *Trends in Cognitive Sciences* 18:177-185",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5316,7 +5369,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Kintsch (1988) *Psychological Review* 95:163–182",
+          "citation_string": "Kintsch (1988) *Psychological Review* 95:163-182",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5344,7 +5397,7 @@
           },
           "url": "https://doi.org/10.1002/hbm.20422",
           "oa_status": "green",
-          "citation_string": "Ferstl, Neumann, Bogler & von Cramon (2008) *Human Brain Mapping* 29:581–593",
+          "citation_string": "Ferstl, Neumann, Bogler & von Cramon (2008) *Human Brain Mapping* 29:581-593",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-23",
@@ -5397,7 +5450,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Kintsch (1988) *Psychological Review* 95:163–182",
+          "citation_string": "Kintsch (1988) *Psychological Review* 95:163-182",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5452,11 +5505,15 @@
           "canonical_name": "Picture Naming Task"
         },
         {
+          "hedtsk_id": "hedtsk_picture_word_interference",
+          "canonical_name": "Picture-Word Interference Task"
+        },
+        {
           "hedtsk_id": "hedtsk_verb_generation",
           "canonical_name": "Verb Generation Task"
         }
       ],
-      "task_count": 2,
+      "task_count": 3,
       "references": [
         {
           "title": "The spatial and temporal signatures of word production components: a critical update",
@@ -5509,6 +5566,10 @@
           "canonical_name": "Picture Naming Task"
         },
         {
+          "hedtsk_id": "hedtsk_picture_word_interference",
+          "canonical_name": "Picture-Word Interference Task"
+        },
+        {
           "hedtsk_id": "hedtsk_remote_associates",
           "canonical_name": "Remote Associates Task"
         },
@@ -5529,7 +5590,7 @@
           "canonical_name": "Verbal Fluency Task"
         }
       ],
-      "task_count": 7,
+      "task_count": 8,
       "references": [
         {
           "title": "Interaction of information in word recognition.",
@@ -5551,7 +5612,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Morton (1969) *Psychological Review* 76:165–178",
+          "citation_string": "Morton (1969) *Psychological Review* 76:165-178",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5581,9 +5642,13 @@
         {
           "hedtsk_id": "hedtsk_picture_naming",
           "canonical_name": "Picture Naming Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_picture_word_interference",
+          "canonical_name": "Picture-Word Interference Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": "Response Latencies in Naming Objects",
@@ -5605,7 +5670,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Oldfield & Wingfield (1965) *Quarterly Journal of Experimental Psychology* 17:273–281",
+          "citation_string": "Oldfield & Wingfield (1965) *Quarterly Journal of Experimental Psychology* 17:273-281",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5633,7 +5698,7 @@
           },
           "url": "https://doi.org/10.1016/j.cognition.2002.06.001",
           "oa_status": "green",
-          "citation_string": "Indefrey & Levelt (2004) *Cognition* 92:101–144",
+          "citation_string": "Indefrey & Levelt (2004) *Cognition* 92:101-144",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5682,7 +5747,7 @@
           },
           "url": "https://doi.org/10.1016/0022-0965(74)90101-5",
           "oa_status": "closed",
-          "citation_string": "Liberman, Shankweiler, Fischer & Carter (1974) *Journal of Experimental Child Psychology* 18:201–212",
+          "citation_string": "Liberman, Shankweiler, Fischer & Carter (1974) *Journal of Experimental Child Psychology* 18:201-212",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5710,7 +5775,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Melby-Lervåg, Lyster & Hulme (2012) *Psychological Bulletin* 138:322–352",
+          "citation_string": "Melby-Lervåg, Lyster & Hulme (2012) *Psychological Bulletin* 138:322-352",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5759,7 +5824,7 @@
           },
           "url": "https://doi.org/10.1017/s0140525x99001776",
           "oa_status": "unknown",
-          "citation_string": "Levelt, Roelofs & Meyer (1999) *Behavioral and Brain Sciences* 22:1–75",
+          "citation_string": "Levelt, Roelofs & Meyer (1999) *Behavioral and Brain Sciences* 22:1-75",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-09-19",
@@ -5844,7 +5909,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Coltheart, Rastle, Perry, Langdon & Ziegler (2001) *Psychological Review* 108:204–256",
+          "citation_string": "Coltheart, Rastle, Perry, Langdon & Ziegler (2001) *Psychological Review* 108:204-256",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5872,7 +5937,7 @@
           },
           "url": "https://doi.org/10.1038/nrn3924",
           "oa_status": "closed",
-          "citation_string": "Dehaene, Cohen, Morais & Kolinsky (2015) *Nature Reviews Neuroscience* 16:234–244",
+          "citation_string": "Dehaene, Cohen, Morais & Kolinsky (2015) *Nature Reviews Neuroscience* 16:234-244",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5957,7 +6022,7 @@
           },
           "url": "https://openalex.org/W2607250613",
           "oa_status": "unknown",
-          "citation_string": "Ralph, Jefferies, Patterson & Rogers (2017) *Nature Reviews Neuroscience* 18:42–55",
+          "citation_string": "Ralph, Jefferies, Patterson & Rogers (2017) *Nature Reviews Neuroscience* 18:42-55",
           "source": "openalex",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -5996,6 +6061,10 @@
           "canonical_name": "Picture Naming Task"
         },
         {
+          "hedtsk_id": "hedtsk_picture_word_interference",
+          "canonical_name": "Picture-Word Interference Task"
+        },
+        {
           "hedtsk_id": "hedtsk_remote_associates",
           "canonical_name": "Remote Associates Task"
         },
@@ -6012,7 +6081,7 @@
           "canonical_name": "Verb Generation Task"
         }
       ],
-      "task_count": 8,
+      "task_count": 9,
       "references": [
         {
           "title": "Reading Senseless Sentences: Brain Potentials Reflect Semantic Incongruity",
@@ -6034,7 +6103,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Kutas & Hillyard (1980) *Science* 207:203–205",
+          "citation_string": "Kutas & Hillyard (1980) *Science* 207:203-205",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6062,7 +6131,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Kutas & Federmeier (2011) *Annual Review of Psychology* 62:621–647",
+          "citation_string": "Kutas & Federmeier (2011) *Annual Review of Psychology* 62:621-647",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6087,9 +6156,13 @@
         {
           "hedtsk_id": "hedtsk_sentence_comprehension",
           "canonical_name": "Sentence Comprehension Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_take_questionnaire",
+          "canonical_name": "Take Questionnaire Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": "The active use of grammar in speech perception",
@@ -6111,7 +6184,7 @@
           },
           "url": "https://doi.org/10.3758/bf03207817",
           "oa_status": "bronze",
-          "citation_string": "Garrett, Bever & Fodor (1966) *Perception & Psychophysics* 1:30–32",
+          "citation_string": "Garrett, Bever & Fodor (1966) *Perception & Psychophysics* 1:30-32",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6139,7 +6212,7 @@
           },
           "url": null,
           "oa_status": "bronze",
-          "citation_string": "Hagoort & Indefrey (2014) *Annual Review of Neuroscience* 37:347–362",
+          "citation_string": "Hagoort & Indefrey (2014) *Annual Review of Neuroscience* 37:347-362",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6193,7 +6266,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Liberman, Cooper, Shankweiler & Studdert-Kennedy (1967) *Psychological Review* 74:431–461",
+          "citation_string": "Liberman, Cooper, Shankweiler & Studdert-Kennedy (1967) *Psychological Review* 74:431-461",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6221,7 +6294,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Diehl, Lotto & Holt (2004) *Annual Review of Psychology* 55:149–179",
+          "citation_string": "Diehl, Lotto & Holt (2004) *Annual Review of Psychology* 55:149-179",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6248,11 +6321,15 @@
           "canonical_name": "Picture Naming Task"
         },
         {
+          "hedtsk_id": "hedtsk_picture_word_interference",
+          "canonical_name": "Picture-Word Interference Task"
+        },
+        {
           "hedtsk_id": "hedtsk_verb_generation",
           "canonical_name": "Verb Generation Task"
         }
       ],
-      "task_count": 2,
+      "task_count": 3,
       "references": [
         {
           "title": "A theory of lexical access in speech production",
@@ -6274,7 +6351,7 @@
           },
           "url": "https://doi.org/10.1017/s0140525x99001776",
           "oa_status": "unknown",
-          "citation_string": "Levelt, Roelofs & Meyer (1999) *Behavioral and Brain Sciences* 22:1–75",
+          "citation_string": "Levelt, Roelofs & Meyer (1999) *Behavioral and Brain Sciences* 22:1-75",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-09-19",
@@ -6351,7 +6428,7 @@
           },
           "url": "https://doi.org/10.1016/0010-0285(82)90008-1",
           "oa_status": "closed",
-          "citation_string": "Frazier & Rayner (1982) *Cognitive Psychology* 14:178–210",
+          "citation_string": "Frazier & Rayner (1982) *Cognitive Psychology* 14:178-210",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6405,7 +6482,7 @@
           },
           "url": "https://doi.org/10.1016/0028-3932(68)90038-9",
           "oa_status": "closed",
-          "citation_string": "Benton (1968) *Neuropsychologia* 6:53–60",
+          "citation_string": "Benton (1968) *Neuropsychologia* 6:53-60",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6496,7 +6573,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Morton (1969) *Psychological Review* 76:165–178",
+          "citation_string": "Morton (1969) *Psychological Review* 76:165-178",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6521,9 +6598,17 @@
         {
           "hedtsk_id": "hedtsk_autobiographical_memory",
           "canonical_name": "Autobiographical Memory Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_rest",
+          "canonical_name": "Rest Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_take_questionnaire",
+          "canonical_name": "Take Questionnaire Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 3,
       "references": [
         {
           "title": "The construction of autobiographical memories in the self-memory system.",
@@ -6545,7 +6630,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Conway & Pleydell-Pearce (2000) *Psychological Review* 107:261–288",
+          "citation_string": "Conway & Pleydell-Pearce (2000) *Psychological Review* 107:261-288",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6573,7 +6658,7 @@
           },
           "url": "https://doi.org/10.1016/j.neuropsychologia.2009.02.003",
           "oa_status": "closed",
-          "citation_string": "Conway (2009) *Neuropsychologia* 47:2305–2313",
+          "citation_string": "Conway (2009) *Neuropsychologia* 47:2305-2313",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6598,9 +6683,13 @@
         {
           "hedtsk_id": "hedtsk_motor_sequence_learning",
           "canonical_name": "Motor Sequence Learning Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_rest",
+          "canonical_name": "Rest Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": "Memory--a Century of Consolidation",
@@ -6622,7 +6711,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "McGaugh (2000) *Science* 287:248–251",
+          "citation_string": "McGaugh (2000) *Science* 287:248-251",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6650,7 +6739,7 @@
           },
           "url": "https://doi.org/10.1016/j.neuron.2015.09.004",
           "oa_status": "bronze",
-          "citation_string": "Dudai, Karni & Born (2015) *Neuron* 88:20–32",
+          "citation_string": "Dudai, Karni & Born (2015) *Neuron* 88:20-32",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6704,7 +6793,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Squire & Zola-Morgan (1991) *Science* 253:1380–1386",
+          "citation_string": "Squire & Zola-Morgan (1991) *Science* 253:1380-1386",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6732,7 +6821,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Squire & Wixted (2011) *Annual Review of Neuroscience* 34:259–288",
+          "citation_string": "Squire & Wixted (2011) *Annual Review of Neuroscience* 34:259-288",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6790,7 +6879,7 @@
           },
           "url": null,
           "oa_status": "unknown",
-          "citation_string": "Bjork (1970) *Acta Psychologica* 33:288–296",
+          "citation_string": "Bjork (1970) *Acta Psychologica* 33:288-296",
           "source": "unresolved",
           "confidence": "none",
           "verified_on": "2026-04-20",
@@ -6818,7 +6907,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2014.03.002",
           "oa_status": "hybrid",
-          "citation_string": "Anderson & Hanslmayr (2014) *Trends in Cognitive Sciences* 18:279–292",
+          "citation_string": "Anderson & Hanslmayr (2014) *Trends in Cognitive Sciences* 18:279-292",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6915,7 +7004,7 @@
           },
           "url": "https://doi.org/10.1016/s0022-5371(72)80001-x",
           "oa_status": "closed",
-          "citation_string": "Craik & Lockhart (1972) *Journal of Verbal Learning and Verbal Behavior* 11:671–684",
+          "citation_string": "Craik & Lockhart (1972) *Journal of Verbal Learning and Verbal Behavior* 11:671-684",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -6943,7 +7032,7 @@
           },
           "url": "https://doi.org/10.1016/s1364-6613(00)01845-3",
           "oa_status": "closed",
-          "citation_string": "Paller & Wagner (2002) *Trends in Cognitive Sciences* 6:93–102",
+          "citation_string": "Paller & Wagner (2002) *Trends in Cognitive Sciences* 6:93-102",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7045,7 +7134,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Tulving (2002) *Annual Review of Psychology* 53:1–25",
+          "citation_string": "Tulving (2002) *Annual Review of Psychology* 53:1-25",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7073,7 +7162,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Moscovitch, Cabeza, Winocur & Nadel (2016) *Annual Review of Psychology* 67:105–134",
+          "citation_string": "Moscovitch, Cabeza, Winocur & Nadel (2016) *Annual Review of Psychology* 67:105-134",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7138,7 +7227,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Mandler (1980) *Psychological Review* 87:252–271",
+          "citation_string": "Mandler (1980) *Psychological Review* 87:252-271",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7210,7 +7299,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2013.01.001",
           "oa_status": "closed",
-          "citation_string": "Hardt, Nader & Nadel (2013) *Trends in Cognitive Sciences* 17:111–120",
+          "citation_string": "Hardt, Nader & Nadel (2013) *Trends in Cognitive Sciences* 17:111-120",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7259,7 +7348,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Marr (1971) *Philosophical Transactions B* 262:23–81",
+          "citation_string": "Marr (1971) *Philosophical Transactions B* 262:23-81",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7336,7 +7425,7 @@
           },
           "url": "https://doi.org/10.1016/j.tins.2011.06.006",
           "oa_status": "green",
-          "citation_string": "Yassa & Stark (2011) *Trends in Neurosciences* 34:515–525",
+          "citation_string": "Yassa & Stark (2011) *Trends in Neurosciences* 34:515-525",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7385,7 +7474,7 @@
           },
           "url": "https://doi.org/10.1016/j.neuroscience.2005.06.042",
           "oa_status": "closed",
-          "citation_string": "Jonides & Nee (2006) *Neuroscience* 139:181–193",
+          "citation_string": "Jonides & Nee (2006) *Neuroscience* 139:181-193",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7434,7 +7523,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Einstein & McDaniel (1990) *JEP: Learning, Memory, and Cognition* 16:717–726",
+          "citation_string": "Einstein & McDaniel (1990) *JEP: Learning, Memory, and Cognition* 16:717-726",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7462,7 +7551,7 @@
           },
           "url": "https://doi.org/10.3389/fnhum.2015.00392",
           "oa_status": "unknown",
-          "citation_string": "McDaniel, Umanath, Einstein & Waldum (2015) *Frontiers in Human Neuroscience* 9:392–279",
+          "citation_string": "McDaniel, Umanath, Einstein & Waldum (2015) *Frontiers in Human Neuroscience* 9:392-279",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-09-19",
@@ -7555,7 +7644,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Mandler (1980) *Psychological Review* 87:252–271",
+          "citation_string": "Mandler (1980) *Psychological Review* 87:252-271",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7625,7 +7714,7 @@
           },
           "url": "https://doi.org/10.1016/0749-596x(91)90025-f",
           "oa_status": "closed",
-          "citation_string": "Jacoby (1991) *Journal of Memory and Language* 30:513–541",
+          "citation_string": "Jacoby (1991) *Journal of Memory and Language* 30:513-541",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7653,7 +7742,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Diana, Yonelinas & Ranganath (2007) *Trends in Cognitive Sciences* 11:379–386",
+          "citation_string": "Diana, Yonelinas & Ranganath (2007) *Trends in Cognitive Sciences* 11:379-386",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7697,7 +7786,7 @@
           },
           "url": "https://doi.org/10.1038/35021052",
           "oa_status": "closed",
-          "citation_string": "Nader, Schafe & LeDoux (2000) *Nature* 406:722–726",
+          "citation_string": "Nader, Schafe & LeDoux (2000) *Nature* 406:722-726",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7725,7 +7814,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Elsey, Van Ast & Kindt (2018) *Psychological Bulletin* 144:797–848",
+          "citation_string": "Elsey, Van Ast & Kindt (2018) *Psychological Bulletin* 144:797-848",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7797,6 +7886,10 @@
           "canonical_name": "Sternberg Item Recognition Task"
         },
         {
+          "hedtsk_id": "hedtsk_take_questionnaire",
+          "canonical_name": "Take Questionnaire Task"
+        },
+        {
           "hedtsk_id": "hedtsk_think_no_think",
           "canonical_name": "Think/No-Think Task"
         },
@@ -7809,7 +7902,7 @@
           "canonical_name": "Virtual Radial Arm Maze Task"
         }
       ],
-      "task_count": 14,
+      "task_count": 15,
       "references": [
         {
           "title": "Availability versus accessibility of information in memory for words",
@@ -7831,7 +7924,7 @@
           },
           "url": "https://doi.org/10.1016/s0022-5371(66)80048-8",
           "oa_status": "closed",
-          "citation_string": "Tulving & Pearlstone (1966) *Journal of Verbal Learning and Verbal Behavior* 5:381–391",
+          "citation_string": "Tulving & Pearlstone (1966) *Journal of Verbal Learning and Verbal Behavior* 5:381-391",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7859,7 +7952,7 @@
           },
           "url": "https://doi.org/10.1016/j.conb.2012.11.005",
           "oa_status": "green",
-          "citation_string": "Rugg & Vilberg (2013) *Current Opinion in Neurobiology* 23:255–260",
+          "citation_string": "Rugg & Vilberg (2013) *Current Opinion in Neurobiology* 23:255-260",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7913,7 +8006,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Wixted (2004) *Annual Review of Psychology* 55:235–269",
+          "citation_string": "Wixted (2004) *Annual Review of Psychology* 55:235-269",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -7933,7 +8026,7 @@
           "confidence": "high"
         }
       ],
-      "definition": "Long-term store of general knowledge about the world — facts, concepts, and word meanings — dissociable from episodic memory and supported by distributed cortical representations.",
+      "definition": "Long-term store of general knowledge about the world - facts, concepts, and word meanings - dissociable from episodic memory and supported by distributed cortical representations.",
       "tasks": [],
       "task_count": 0,
       "references": [
@@ -7985,7 +8078,7 @@
           },
           "url": "https://doi.org/10.1016/s0022-5371(69)80069-1",
           "oa_status": "closed",
-          "citation_string": "Collins & Quillian (1969) *Journal of Verbal Learning and Verbal Behavior* 8:240–247",
+          "citation_string": "Collins & Quillian (1969) *Journal of Verbal Learning and Verbal Behavior* 8:240-247",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8013,7 +8106,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2011.10.001",
           "oa_status": "green",
-          "citation_string": "Binder & Desai (2011) *Trends in Cognitive Sciences* 15:527–536",
+          "citation_string": "Binder & Desai (2011) *Trends in Cognitive Sciences* 15:527-536",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8062,7 +8155,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Johnson, Hashtroudi & Lindsay (1993) *Psychological Bulletin* 114:3–28",
+          "citation_string": "Johnson, Hashtroudi & Lindsay (1993) *Psychological Bulletin* 114:3-28",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8090,7 +8183,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Mitchell & Johnson (2009) *Psychological Bulletin* 135:638–677",
+          "citation_string": "Mitchell & Johnson (2009) *Psychological Bulletin* 135:638-677",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8189,7 +8282,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Libet, Gleason, Wright & Pearl (1983) *Brain* 106:623–642",
+          "citation_string": "Libet, Gleason, Wright & Pearl (1983) *Brain* 106:623-642",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8217,7 +8310,7 @@
           },
           "url": "https://doi.org/10.1038/nrn2497",
           "oa_status": "closed",
-          "citation_string": "Haggard (2008) *Nature Reviews Neuroscience* 9:934–946",
+          "citation_string": "Haggard (2008) *Nature Reviews Neuroscience* 9:934-946",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8266,7 +8359,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Hallett (1978) *Vision Research* 18:1279–1296",
+          "citation_string": "Hallett (1978) *Vision Research* 18:1279-1296",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8294,7 +8387,7 @@
           },
           "url": "https://doi.org/10.1038/nrn1345",
           "oa_status": "closed",
-          "citation_string": "Munoz & Everling (2004) *Nature Reviews Neuroscience* 5:218–228",
+          "citation_string": "Munoz & Everling (2004) *Nature Reviews Neuroscience* 5:218-228",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8371,7 +8464,7 @@
           },
           "url": "https://doi.org/10.1038/nrn1744",
           "oa_status": "closed",
-          "citation_string": "Castiello (2005) *Nature Reviews Neuroscience* 6:726–736",
+          "citation_string": "Castiello (2005) *Nature Reviews Neuroscience* 6:726-736",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8396,7 +8489,7 @@
       "task_count": 0,
       "references": [
         {
-          "title": "The acquisition of skilled motor performance: Fast and slow experience-driven changes in primary motor cortex",
+          "title": "The acquisition of skilled motor performance: Fast and slow experience-driven changes in primary motor cortex",
           "authors": "Karni, A., Meyer, G., Rey-Hipolito, C., Jezzard, P., Adams, M. M., Turner, R., & Ungerleider, L. G.",
           "year": 1998,
           "journal": "PNAS",
@@ -8415,7 +8508,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Karni, Meyer, Rey-Hipolito, Jezzard, Adams, Turner & Ungerleider (1998) *PNAS* 95:861–868",
+          "citation_string": "Karni, Meyer, Rey-Hipolito, Jezzard, Adams, Turner & Ungerleider (1998) *PNAS* 95:861-868",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8476,7 +8569,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Keele (1968) *Psychological Bulletin* 70:387–403",
+          "citation_string": "Keele (1968) *Psychological Bulletin* 70:387-403",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8527,11 +8620,11 @@
       "task_count": 5,
       "references": [
         {
-          "title": "Hirnpotential�nderungen bei Willk�rbewegungen und passiven Bewegungen des Menschen: Bereitschaftspotential und reafferente Potentiale",
+          "title": "Hirnpotentialänderungen bei Willkürbewegungen und passiven Bewegungen des Menschen: Bereitschaftspotential und reafferente Potentiale",
           "authors": "Kornhuber, H. H., & Deecke, L.",
           "year": 1965,
           "journal": "Pflügers Archiv",
-          "venue": "Pfl�gers Archiv f�r die Gesamte Physiologie des Menschen und der Tiere",
+          "venue": "Pflügers Archiv für die Gesamte Physiologie des Menschen und der Tiere",
           "venue_type": "journal",
           "volume": "284",
           "issue": "1",
@@ -8546,7 +8639,7 @@
           },
           "url": "https://doi.org/10.1007/bf00412364",
           "oa_status": "closed",
-          "citation_string": "Kornhuber & Deecke (1965) *Pflügers Archiv* 284:1–17",
+          "citation_string": "Kornhuber & Deecke (1965) *Pflügers Archiv* 284:1-17",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8574,7 +8667,7 @@
           },
           "url": "https://doi.org/10.1016/j.clinph.2006.04.025",
           "oa_status": "closed",
-          "citation_string": "Shibasaki & Hallett (2006) *Clinical Neurophysiology* 117:2341–2356",
+          "citation_string": "Shibasaki & Hallett (2006) *Clinical Neurophysiology* 117:2341-2356",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8632,7 +8725,7 @@
           },
           "url": "https://doi.org/10.1016/0010-0285(87)90002-8",
           "oa_status": "closed",
-          "citation_string": "Nissen & Bullemer (1987) *Cognitive Psychology* 19:1–32",
+          "citation_string": "Nissen & Bullemer (1987) *Cognitive Psychology* 19:1-32",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8660,7 +8753,7 @@
           },
           "url": "https://doi.org/10.1016/j.bbr.2008.11.012",
           "oa_status": "closed",
-          "citation_string": "Doyon, Bellec, Amsel, Penhune, Monchi, Carrier, Lehéricy & Benali (2009) *Behavioural Brain Research* 199:61–75",
+          "citation_string": "Doyon, Bellec, Amsel, Penhune, Monchi, Carrier, Lehéricy & Benali (2009) *Behavioural Brain Research* 199:61-75",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8709,7 +8802,7 @@
           },
           "url": "https://doi.org/10.3758/bf03198607",
           "oa_status": "bronze",
-          "citation_string": "Wing & Kristofferson (1973) *Perception & Psychophysics* 14:5–12",
+          "citation_string": "Wing & Kristofferson (1973) *Perception & Psychophysics* 14:5-12",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8737,7 +8830,7 @@
           },
           "url": null,
           "oa_status": "gold",
-          "citation_string": "Merchant, Harrington & Meck (2013) *Annual Review of Neuroscience* 36:313–336",
+          "citation_string": "Merchant, Harrington & Meck (2013) *Annual Review of Neuroscience* 36:313-336",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8853,7 +8946,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Shadmehr, Smith & Krakauer (2010) *Annual Review of Neuroscience* 33:89–108",
+          "citation_string": "Shadmehr, Smith & Krakauer (2010) *Annual Review of Neuroscience* 33:89-108",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -8990,6 +9083,10 @@
           "canonical_name": "Affective Priming Task"
         },
         {
+          "hedtsk_id": "hedtsk_dual_n_back",
+          "canonical_name": "Dual N-Back Task"
+        },
+        {
           "hedtsk_id": "hedtsk_eriksen_flanker",
           "canonical_name": "Eriksen Flanker Task"
         },
@@ -9022,6 +9119,10 @@
           "canonical_name": "Sternberg Item Recognition Task"
         },
         {
+          "hedtsk_id": "hedtsk_take_questionnaire",
+          "canonical_name": "Take Questionnaire Task"
+        },
+        {
           "hedtsk_id": "hedtsk_task_switching",
           "canonical_name": "Task Switching Task"
         },
@@ -9030,7 +9131,7 @@
           "canonical_name": "Verb Generation Task"
         }
       ],
-      "task_count": 11,
+      "task_count": 13,
       "references": [
         {
           "title": "Neural Mechanisms for Interacting with a World Full of Action Choices",
@@ -9052,7 +9153,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Cisek & Kalaska (2010) *Annual Review of Neuroscience* 33:269–298",
+          "citation_string": "Cisek & Kalaska (2010) *Annual Review of Neuroscience* 33:269-298",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9134,7 +9235,7 @@
           },
           "url": "https://doi.org/10.1038/nrn986",
           "oa_status": "closed",
-          "citation_string": "Sparks (2002) *Nature Reviews Neuroscience* 3:952–964",
+          "citation_string": "Sparks (2002) *Nature Reviews Neuroscience* 3:952-964",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9208,7 +9309,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Guenther (1995) *Psychological Review* 102:594–621",
+          "citation_string": "Guenther (1995) *Psychological Review* 102:594-621",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9236,7 +9337,7 @@
           },
           "url": "https://doi.org/10.1038/nrn3158",
           "oa_status": "closed",
-          "citation_string": "Hickok (2012) *Nature Reviews Neuroscience* 13:135–145",
+          "citation_string": "Hickok (2012) *Nature Reviews Neuroscience* 13:135-145",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9298,7 +9399,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Ratcliff (1978) *Psychological Review* 85:59–108",
+          "citation_string": "Ratcliff (1978) *Psychological Review* 85:59-108",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9326,7 +9427,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Gold & Shadlen (2007) *Annual Review of Neuroscience* 30:535–574",
+          "citation_string": "Gold & Shadlen (2007) *Annual Review of Neuroscience* 30:535-574",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9375,7 +9476,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Gentner (1983) *Cognitive Science* 7:155–170",
+          "citation_string": "Gentner (1983) *Cognitive Science* 7:155-170",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9452,7 +9553,7 @@
           },
           "url": "https://doi.org/10.1016/0010-0285(73)90017-0",
           "oa_status": "closed",
-          "citation_string": "Rosch (1973) *Cognitive Psychology* 4:328–350",
+          "citation_string": "Rosch (1973) *Cognitive Psychology* 4:328-350",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9480,7 +9581,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Seger & Miller (2010) *Annual Review of Neuroscience* 33:203–219",
+          "citation_string": "Seger & Miller (2010) *Annual Review of Neuroscience* 33:203-219",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9500,7 +9601,7 @@
           "confidence": "high"
         }
       ],
-      "definition": "Inference about cause–effect relations from observation and intervention.",
+      "definition": "Inference about cause-effect relations from observation and intervention.",
       "tasks": [
         {
           "hedtsk_id": "hedtsk_causal_learning",
@@ -9529,7 +9630,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Cheng (1997) *Psychological Review* 104:367–405",
+          "citation_string": "Cheng (1997) *Psychological Review* 104:367-405",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9589,7 +9690,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Wason (1968) *Quarterly Journal of Experimental Psychology* 20:273–281",
+          "citation_string": "Wason (1968) *Quarterly Journal of Experimental Psychology* 20:273-281",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9617,7 +9718,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2007.09.003",
           "oa_status": "closed",
-          "citation_string": "Goel (2007) *Trends in Cognitive Sciences* 11:435–441",
+          "citation_string": "Goel (2007) *Trends in Cognitive Sciences* 11:435-441",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9670,7 +9771,7 @@
           },
           "url": "https://doi.org/10.1016/s0079-7421(08)60315-1",
           "oa_status": "closed",
-          "citation_string": "Klayman (1995) *Psychology of Learning and Motivation* 32:385–418",
+          "citation_string": "Klayman (1995) *Psychology of Learning and Motivation* 32:385-418",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9719,7 +9820,7 @@
           },
           "url": "https://doi.org/10.1016/s0022-5371(75)80055-7",
           "oa_status": "unknown",
-          "citation_string": "Rips (1975) *Journal of Verbal Learning and Verbal Behavior* 14:665–681",
+          "citation_string": "Rips (1975) *Journal of Verbal Learning and Verbal Behavior* 14:665-681",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-09-19",
@@ -9747,7 +9848,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Kemp & Tenenbaum (2009) *Psychological Review* 116:20–58",
+          "citation_string": "Kemp & Tenenbaum (2009) *Psychological Review* 116:20-58",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9925,7 +10026,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Amalric & Dehaene (2016) *PNAS* 113:4909–4917",
+          "citation_string": "Amalric & Dehaene (2016) *PNAS* 113:4909-4917",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -9949,11 +10050,15 @@
       "notes": "(new 2026-04-15)",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_tower_of_hanoi",
+          "canonical_name": "Tower of Hanoi Task"
+        },
+        {
           "hedtsk_id": "hedtsk_tower_of_london",
           "canonical_name": "Tower of London Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": null,
@@ -10054,11 +10159,15 @@
       "definition": "Mental formulation of a sequence of actions toward a goal before execution.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_tower_of_hanoi",
+          "canonical_name": "Tower of Hanoi Task"
+        },
+        {
           "hedtsk_id": "hedtsk_tower_of_london",
           "canonical_name": "Tower of London Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": "Specific impairments of planning",
@@ -10080,7 +10189,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Shallice (1982) *Philosophical Transactions B* 298:199–209 (Tower of London)",
+          "citation_string": "Shallice (1982) *Philosophical Transactions B* 298:199-209 (Tower of London)",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10104,11 +10213,15 @@
       "notes": "(new 2026-04-15)",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_tower_of_hanoi",
+          "canonical_name": "Tower of Hanoi Task"
+        },
+        {
           "hedtsk_id": "hedtsk_tower_of_london",
           "canonical_name": "Tower of London Task"
         }
       ],
-      "task_count": 1,
+      "task_count": 2,
       "references": [
         {
           "title": null,
@@ -10315,7 +10428,7 @@
           },
           "url": "https://doi.org/10.1007/s11031-006-9028-7",
           "oa_status": "closed",
-          "citation_string": "Elliot (2006) *Motivation and Emotion* 30:111–116",
+          "citation_string": "Elliot (2006) *Motivation and Emotion* 30:111-116",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10400,7 +10513,7 @@
           },
           "url": "https://doi.org/10.1007/s11031-006-9028-7",
           "oa_status": "closed",
-          "citation_string": "Elliot (2006) *Motivation and Emotion* 30:111–116",
+          "citation_string": "Elliot (2006) *Motivation and Emotion* 30:111-116",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10449,7 +10562,7 @@
           },
           "url": "https://doi.org/10.1007/s00213-006-0668-9",
           "oa_status": "green",
-          "citation_string": "Salamone, Correa, Farrar & Mingote (2007) *Psychopharmacology* 191:461–482",
+          "citation_string": "Salamone, Correa, Farrar & Mingote (2007) *Psychopharmacology* 191:461-482",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10477,7 +10590,7 @@
           },
           "url": "https://doi.org/10.3758/s13415-015-0334-y",
           "oa_status": "bronze",
-          "citation_string": "Westbrook & Braver (2015) *Cognitive, Affective, & Behavioral Neuroscience* 15:395–415",
+          "citation_string": "Westbrook & Braver (2015) *Cognitive, Affective, & Behavioral Neuroscience* 15:395-415",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10530,7 +10643,7 @@
           },
           "url": "https://doi.org/10.1016/s0165-0173(98)00019-8",
           "oa_status": "closed",
-          "citation_string": "Berridge & Robinson (1998) *Brain Research Reviews* 28:309–369",
+          "citation_string": "Berridge & Robinson (1998) *Brain Research Reviews* 28:309-369",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10600,7 +10713,7 @@
           ]
         },
         {
-          "title": "The anticipation and outcome phases of reward and loss processing: A neuroimaging meta‐analysis of the monetary incentive delay task",
+          "title": "The anticipation and outcome phases of reward and loss processing: A neuroimaging meta-analysis of the monetary incentive delay task",
           "authors": "Oldham, S., Murawski, C., Fornito, A., Youssef, G., Yücel, M., & Lorenzetti, V.",
           "year": 2018,
           "journal": "Human Brain Mapping",
@@ -10619,7 +10732,7 @@
           },
           "url": null,
           "oa_status": "bronze",
-          "citation_string": "Oldham, Murawski, Fornito, Youssef, Yücel & Lorenzetti (2018) *Human Brain Mapping* 39:3398–3418",
+          "citation_string": "Oldham, Murawski, Fornito, Youssef, Yücel & Lorenzetti (2018) *Human Brain Mapping* 39:3398-3418",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10663,7 +10776,7 @@
           },
           "url": "https://doi.org/10.1007/s00213-008-1099-6",
           "oa_status": "bronze",
-          "citation_string": "Berridge & Kringelbach (2008) *Psychopharmacology* 199:457–480",
+          "citation_string": "Berridge & Kringelbach (2008) *Psychopharmacology* 199:457-480",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10691,7 +10804,7 @@
           },
           "url": "https://doi.org/10.1016/j.neuron.2015.02.018",
           "oa_status": "bronze",
-          "citation_string": "Berridge & Kringelbach (2015) *Neuron* 86:646–664",
+          "citation_string": "Berridge & Kringelbach (2015) *Neuron* 86:646-664",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10714,6 +10827,10 @@
       "definition": "Achieving and maintaining a state of readiness to respond, whether tonic or phasic; one of Posner's three attentional networks.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
+        {
           "hedtsk_id": "hedtsk_attention_network",
           "canonical_name": "Attention Network Task"
         },
@@ -10726,7 +10843,7 @@
           "canonical_name": "Psychomotor Vigilance Task"
         }
       ],
-      "task_count": 3,
+      "task_count": 4,
       "references": [
         {
           "title": "Components of attention.",
@@ -10748,7 +10865,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Posner & Boies (1971) *Psychological Review* 78:391–408",
+          "citation_string": "Posner & Boies (1971) *Psychological Review* 78:391-408",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10776,7 +10893,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Fan, McCandliss, Sommer, Raz & Posner (2002) *Journal of Cognitive Neuroscience* 14:340–347",
+          "citation_string": "Fan, McCandliss, Sommer, Raz & Posner (2002) *Journal of Cognitive Neuroscience* 14:340-347",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10804,7 +10921,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Petersen & Posner (2012) *Annual Review of Neuroscience* 35:73–89",
+          "citation_string": "Petersen & Posner (2012) *Annual Review of Neuroscience* 35:73-89",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10853,7 +10970,7 @@
           },
           "url": null,
           "oa_status": "bronze",
-          "citation_string": "Posner, Walker, Friedrich & Rafal (1984) *Journal of Neuroscience* 4:1863–1874",
+          "citation_string": "Posner, Walker, Friedrich & Rafal (1984) *Journal of Neuroscience* 4:1863-1874",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10881,7 +10998,7 @@
           },
           "url": "https://doi.org/10.1016/j.neuron.2008.04.017",
           "oa_status": "bronze",
-          "citation_string": "Corbetta, Patel & Shulman (2008) *Neuron* 58:306–324",
+          "citation_string": "Corbetta, Patel & Shulman (2008) *Neuron* 58:306-324",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10942,7 +11059,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Yantis & Jonides (1984) *JEP: Human Perception and Performance* 10:601–621",
+          "citation_string": "Yantis & Jonides (1984) *JEP: Human Perception and Performance* 10:601-621",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10970,7 +11087,7 @@
           },
           "url": "https://doi.org/10.3758/bf03211656",
           "oa_status": "bronze",
-          "citation_string": "Theeuwes (1992) *Perception & Psychophysics* 51:599–606",
+          "citation_string": "Theeuwes (1992) *Perception & Psychophysics* 51:599-606",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -10979,7 +11096,7 @@
           ]
         },
         {
-          "title": "Top–down and bottom–up control of visual selection",
+          "title": "Top-down and bottom-up control of visual selection",
           "authors": "Theeuwes, J.",
           "year": 2010,
           "journal": "Acta Psychologica",
@@ -10998,7 +11115,7 @@
           },
           "url": "https://doi.org/10.1016/j.actpsy.2010.02.006",
           "oa_status": "hybrid",
-          "citation_string": "Theeuwes (2010) *Acta Psychologica* 135:77–99",
+          "citation_string": "Theeuwes (2010) *Acta Psychologica* 135:77-99",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11021,6 +11138,10 @@
       "definition": "Concurrent processing of two or more streams of information or two tasks, typically yielding dual-task interference.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_dual_n_back",
+          "canonical_name": "Dual N-Back Task"
+        },
+        {
           "hedtsk_id": "hedtsk_multiple_object_tracking",
           "canonical_name": "Multiple Object Tracking Task"
         },
@@ -11037,7 +11158,7 @@
           "canonical_name": "Useful Field of View Task"
         }
       ],
-      "task_count": 4,
+      "task_count": 5,
       "references": [
         {
           "title": "Dual-task interference in simple tasks: Data and theory.",
@@ -11059,7 +11180,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Pashler (1994) *Psychological Bulletin* 116:220–244",
+          "citation_string": "Pashler (1994) *Psychological Bulletin* 116:220-244",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11087,7 +11208,7 @@
           },
           "url": "https://doi.org/10.1007/s00426-014-0563-7",
           "oa_status": "closed",
-          "citation_string": "Strobach, Salminen, Karbach & Schubert (2014) *Psychological Research* 78:836–851",
+          "citation_string": "Strobach, Salminen, Karbach & Schubert (2014) *Psychological Research* 78:836-851",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11136,7 +11257,7 @@
           },
           "url": "https://doi.org/10.1016/0010-0285(80)90005-5",
           "oa_status": "closed",
-          "citation_string": "Treisman & Gelade (1980) *Cognitive Psychology* 12:97–136",
+          "citation_string": "Treisman & Gelade (1980) *Cognitive Psychology* 12:97-136",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11164,7 +11285,7 @@
           },
           "url": "https://doi.org/10.1016/j.tins.2006.04.001",
           "oa_status": "green",
-          "citation_string": "Maunsell & Treue (2006) *Trends in Neurosciences* 29:317–322",
+          "citation_string": "Maunsell & Treue (2006) *Trends in Neurosciences* 29:317-322",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11217,7 +11338,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Duncan (1984) *Journal of Experimental Psychology: General* 113:501–517",
+          "citation_string": "Duncan (1984) *Journal of Experimental Psychology: General* 113:501-517",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11245,7 +11366,7 @@
           },
           "url": "https://doi.org/10.3758/s13414-012-0322-z",
           "oa_status": "bronze",
-          "citation_string": "Chen (2012) *Attention, Perception & Psychophysics* 74:784–802",
+          "citation_string": "Chen (2012) *Attention, Perception & Psychophysics* 74:784-802",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11302,7 +11423,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Posner (1980) *Quarterly Journal of Experimental Psychology* 32:3–25",
+          "citation_string": "Posner (1980) *Quarterly Journal of Experimental Psychology* 32:3-25",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11330,7 +11451,7 @@
           },
           "url": "https://doi.org/10.1038/nrn755",
           "oa_status": "closed",
-          "citation_string": "Corbetta & Shulman (2002) *Nature Reviews Neuroscience* 3:201–215",
+          "citation_string": "Corbetta & Shulman (2002) *Nature Reviews Neuroscience* 3:201-215",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11352,6 +11473,10 @@
       ],
       "definition": "Prioritized processing of a task-relevant subset of stimuli (a location, feature, object, or modality) with suppression of irrelevant stimuli.",
       "tasks": [
+        {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
         {
           "hedtsk_id": "hedtsk_affective_picture_viewing",
           "canonical_name": "Affective Picture Viewing Task"
@@ -11441,7 +11566,7 @@
           "canonical_name": "Visual Search Task"
         }
       ],
-      "task_count": 22,
+      "task_count": 23,
       "references": [
         {
           "title": "Strategies and models of selective attention.",
@@ -11463,7 +11588,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Treisman (1969) *Psychological Review* 76:282–299",
+          "citation_string": "Treisman (1969) *Psychological Review* 76:282-299",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11491,7 +11616,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Chun, Golomb & Turk-Browne (2011) *Annual Review of Psychology* 62:73–101",
+          "citation_string": "Chun, Golomb & Turk-Browne (2011) *Annual Review of Psychology* 62:73-101",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11556,7 +11681,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Posner (1980) *Quarterly Journal of Experimental Psychology* 32:3–25",
+          "citation_string": "Posner (1980) *Quarterly Journal of Experimental Psychology* 32:3-25",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11584,7 +11709,7 @@
           },
           "url": "https://doi.org/10.3758/bf03211502",
           "oa_status": "bronze",
-          "citation_string": "Eriksen & St. James (1986) *Perception & Psychophysics* 40:225–240",
+          "citation_string": "Eriksen & St. James (1986) *Perception & Psychophysics* 40:225-240",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11612,7 +11737,7 @@
           },
           "url": "https://doi.org/10.1016/j.visres.2011.04.012",
           "oa_status": "closed",
-          "citation_string": "Carrasco (2011) *Vision Research* 51:1484–1525",
+          "citation_string": "Carrasco (2011) *Vision Research* 51:1484-1525",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11642,11 +11767,19 @@
           "confidence": "high"
         }
       ],
-      "definition": "Maintenance of attentional engagement over extended intervals during which targets are rare or responses are repetitive; synonymous with vigilance.",
+      "definition": "Maintenance of attentional engagement on a target or task over an extended interval, as when holding attention on a fixation target or monitoring for rare targets; vigilance is its best-studied form.",
       "tasks": [
+        {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
         {
           "hedtsk_id": "hedtsk_continuous_performance",
           "canonical_name": "Continuous Performance Task"
+        },
+        {
+          "hedtsk_id": "hedtsk_fixate",
+          "canonical_name": "Fixate Task"
         },
         {
           "hedtsk_id": "hedtsk_go_no_go",
@@ -11677,7 +11810,7 @@
           "canonical_name": "Useful Field of View Task"
         }
       ],
-      "task_count": 8,
+      "task_count": 10,
       "references": [
         {
           "title": "The Breakdown of Vigilance during Prolonged Visual Search",
@@ -11699,7 +11832,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Mackworth (1948) *Quarterly Journal of Experimental Psychology* 1:6–21",
+          "citation_string": "Mackworth (1948) *Quarterly Journal of Experimental Psychology* 1:6-21",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11727,7 +11860,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Parasuraman (1979) *Science* 205:924–927",
+          "citation_string": "Parasuraman (1979) *Science* 205:924-927",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11755,7 +11888,7 @@
           },
           "url": "https://doi.org/10.1016/j.copsyc.2019.03.005",
           "oa_status": "closed",
-          "citation_string": "Esterman & Rothlein (2019) *Current Opinion in Psychology* 29:174–180",
+          "citation_string": "Esterman & Rothlein (2019) *Current Opinion in Psychology* 29:174-180",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11808,7 +11941,7 @@
           },
           "url": "https://doi.org/10.1016/s0028-3932(01)00120-8",
           "oa_status": "closed",
-          "citation_string": "Nobre (2001) *Neuropsychologia* 39:1317–1328",
+          "citation_string": "Nobre (2001) *Neuropsychologia* 39:1317-1328",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11836,7 +11969,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Raymond, Shapiro & Arnell (1992) *JEP: Human Perception and Performance* 18:849–860",
+          "citation_string": "Raymond, Shapiro & Arnell (1992) *JEP: Human Perception and Performance* 18:849-860",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11864,7 +11997,7 @@
           },
           "url": "https://doi.org/10.1038/nrn.2017.141",
           "oa_status": "unknown",
-          "citation_string": "Nobre & van Ede (2018) *Nature Reviews Neuroscience* 19:34–48",
+          "citation_string": "Nobre & van Ede (2018) *Nature Reviews Neuroscience* 19:34-48",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-09-19",
@@ -11888,6 +12021,10 @@
       "definition": "Holding information active over a delay without manipulation, through volitional, attention-demanding processes; a core subprocess of working memory.",
       "tasks": [
         {
+          "hedtsk_id": "hedtsk_ax_continuous_performance",
+          "canonical_name": "AX Continuous Performance Task"
+        },
+        {
           "hedtsk_id": "hedtsk_change_detection",
           "canonical_name": "Change Detection Task"
         },
@@ -11904,6 +12041,10 @@
           "canonical_name": "Digit Span Task"
         },
         {
+          "hedtsk_id": "hedtsk_dual_n_back",
+          "canonical_name": "Dual N-Back Task"
+        },
+        {
           "hedtsk_id": "hedtsk_n_back",
           "canonical_name": "N-Back Task"
         },
@@ -11916,7 +12057,7 @@
           "canonical_name": "Sternberg Item Recognition Task"
         }
       ],
-      "task_count": 7,
+      "task_count": 9,
       "references": [
         {
           "title": "Cellular basis of working memory",
@@ -11938,7 +12079,7 @@
           },
           "url": "https://doi.org/10.1016/0896-6273(95)90304-6",
           "oa_status": "bronze",
-          "citation_string": "Goldman-Rakic (1995) *Neuron* 14:477–485",
+          "citation_string": "Goldman-Rakic (1995) *Neuron* 14:477-485",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11966,7 +12107,7 @@
           },
           "url": "https://doi.org/10.1038/386604a0",
           "oa_status": "green",
-          "citation_string": "Cohen, Perlstein, Braver, Nystrom, Noll, Jonides & Smith (1997) *Nature* 386:604–608",
+          "citation_string": "Cohen, Perlstein, Braver, Nystrom, Noll, Jonides & Smith (1997) *Nature* 386:604-608",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -11994,7 +12135,7 @@
           },
           "url": null,
           "oa_status": "gold",
-          "citation_string": "D'Esposito & Postle (2015) *Annual Review of Psychology* 66:115–142",
+          "citation_string": "D'Esposito & Postle (2015) *Annual Review of Psychology* 66:115-142",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12043,7 +12184,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Miller (1956) *Psychological Review* 63:81–97",
+          "citation_string": "Miller (1956) *Psychological Review* 63:81-97",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12071,7 +12212,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Thalmann, Souza & Oberauer (2019) *JEP: Learning, Memory, and Cognition* 45:37–55",
+          "citation_string": "Thalmann, Souza & Oberauer (2019) *JEP: Learning, Memory, and Cognition* 45:37-55",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12124,7 +12265,7 @@
           },
           "url": "https://doi.org/10.1006/brcg.1999.1096",
           "oa_status": "hybrid",
-          "citation_string": "D'Esposito, Postle, Ballard & Lease (1999) *Brain and Cognition* 41:66–86",
+          "citation_string": "D'Esposito, Postle, Ballard & Lease (1999) *Brain and Cognition* 41:66-86",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12152,7 +12293,7 @@
           },
           "url": "https://doi.org/10.1093/cercor/bhs007",
           "oa_status": "unknown",
-          "citation_string": "Nee, Brown, Askren, Berman, Demiralp, Krawitz & Jonides (2013) *Cerebral Cortex* 23:264–282",
+          "citation_string": "Nee, Brown, Askren, Berman, Demiralp, Krawitz & Jonides (2013) *Cerebral Cortex* 23:264-282",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-09-19",
@@ -12205,7 +12346,7 @@
           },
           "url": "https://doi.org/10.1016/s0022-5371(75)80045-4",
           "oa_status": "closed",
-          "citation_string": "Baddeley, Thomson & Buchanan (1975) *Journal of Verbal Learning and Verbal Behavior* 14:575–589",
+          "citation_string": "Baddeley, Thomson & Buchanan (1975) *Journal of Verbal Learning and Verbal Behavior* 14:575-589",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12233,7 +12374,7 @@
           },
           "url": "https://doi.org/10.1016/j.jml.2009.06.002",
           "oa_status": "bronze",
-          "citation_string": "Camos, Lagner & Barrouillet (2009) *Journal of Memory and Language* 61:457–469",
+          "citation_string": "Camos, Lagner & Barrouillet (2009) *Journal of Memory and Language* 61:457-469",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12290,7 +12431,7 @@
           },
           "url": "https://doi.org/10.1006/cogp.1997.0658",
           "oa_status": "closed",
-          "citation_string": "Smith & Jonides (1997) *Cognitive Psychology* 33:5–42",
+          "citation_string": "Smith & Jonides (1997) *Cognitive Psychology* 33:5-42",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12318,7 +12459,7 @@
           },
           "url": null,
           "oa_status": "unknown",
-          "citation_string": "Zimmermann & Eschen (2021) *Current Opinion in Psychology* 38:84–89",
+          "citation_string": "Zimmermann & Eschen (2021) *Current Opinion in Psychology* 38:84-89",
           "source": "unresolved",
           "confidence": "none",
           "verified_on": "2026-04-20",
@@ -12403,7 +12544,7 @@
           },
           "url": "https://doi.org/10.1038/362342a0",
           "oa_status": "closed",
-          "citation_string": "Paulesu, Frith & Frackowiak (1993) *Nature* 362:342–345",
+          "citation_string": "Paulesu, Frith & Frackowiak (1993) *Nature* 362:342-345",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12431,7 +12572,7 @@
           },
           "url": null,
           "oa_status": "bronze",
-          "citation_string": "Acheson, Hamidi, Binder & Postle (2011) *Journal of Cognitive Neuroscience* 23:1358–1367",
+          "citation_string": "Acheson, Hamidi, Binder & Postle (2011) *Journal of Cognitive Neuroscience* 23:1358-1367",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12457,7 +12598,7 @@
           "confidence": "high"
         }
       ],
-      "definition": "Short-term storage and manipulation of visual information; capacity limited to ~3–4 items.",
+      "definition": "Short-term storage and manipulation of visual information; capacity limited to ~3-4 items.",
       "tasks": [
         {
           "hedtsk_id": "hedtsk_change_detection",
@@ -12494,7 +12635,7 @@
           },
           "url": "https://doi.org/10.1038/36846",
           "oa_status": "closed",
-          "citation_string": "Luck & Vogel (1997) *Nature* 390:279–281",
+          "citation_string": "Luck & Vogel (1997) *Nature* 390:279-281",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12522,7 +12663,7 @@
           },
           "url": "https://doi.org/10.1038/nn.3655",
           "oa_status": "green",
-          "citation_string": "Ma, Husain & Bays (2014) *Nature Neuroscience* 17:347–356",
+          "citation_string": "Ma, Husain & Bays (2014) *Nature Neuroscience* 17:347-356",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12549,6 +12690,10 @@
           "canonical_name": "Digit Symbol Substitution Task"
         },
         {
+          "hedtsk_id": "hedtsk_dual_n_back",
+          "canonical_name": "Dual N-Back Task"
+        },
+        {
           "hedtsk_id": "hedtsk_n_back",
           "canonical_name": "N-Back Task"
         },
@@ -12565,6 +12710,10 @@
           "canonical_name": "Sternberg Item Recognition Task"
         },
         {
+          "hedtsk_id": "hedtsk_tower_of_hanoi",
+          "canonical_name": "Tower of Hanoi Task"
+        },
+        {
           "hedtsk_id": "hedtsk_tower_of_london",
           "canonical_name": "Tower of London Task"
         },
@@ -12573,7 +12722,7 @@
           "canonical_name": "Trail Making Task"
         }
       ],
-      "task_count": 7,
+      "task_count": 9,
       "references": [
         {
           "title": "Working Memory",
@@ -12623,7 +12772,7 @@
           },
           "url": "https://doi.org/10.1038/nrn1201",
           "oa_status": "closed",
-          "citation_string": "Baddeley (2003) *Nature Reviews Neuroscience* 4:829–839",
+          "citation_string": "Baddeley (2003) *Nature Reviews Neuroscience* 4:829-839",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12651,7 +12800,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Oberauer, Lewandowsky, Awh, Brown, Conway et al. (2018) *Psychological Bulletin* 144:885–958",
+          "citation_string": "Oberauer, Lewandowsky, Awh, Brown, Conway et al. (2018) *Psychological Bulletin* 144:885-958",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12678,8 +12827,12 @@
         }
       ],
       "definition": "Replacement or revision of information currently held active in working memory with newly task-relevant content. One of three core executive functions in the Miyake et al. unity/diversity framework; decomposable into retrieval, transformation, and substitution subcomponents (Ecker et al.); implemented by a cortico-striatal gating mechanism that opens to admit new content and closes to protect maintenance. Distinct from long-term-memory reconsolidation (which occurs when retrieval triggers a prediction error and targets stored representations rather than the focus of attention). Indexed behaviorally by N-Back, running-span, and keep-track performance.",
-      "notes": "Renamed 2026-04-17 from `hed_updating` (+ merged duplicate `hed_updating_wm`) for specificity — plain \"Updating\" is memory-context-underspecified.",
+      "notes": "Renamed 2026-04-17 from `hed_updating` (+ merged duplicate `hed_updating_wm`) for specificity - plain \"Updating\" is memory-context-underspecified.",
       "tasks": [
+        {
+          "hedtsk_id": "hedtsk_dual_n_back",
+          "canonical_name": "Dual N-Back Task"
+        },
         {
           "hedtsk_id": "hedtsk_n_back",
           "canonical_name": "N-Back Task"
@@ -12693,10 +12846,10 @@
           "canonical_name": "Rapid Serial Visual Presentation Task"
         }
       ],
-      "task_count": 3,
+      "task_count": 4,
       "references": [
         {
-          "title": "The Unity and Diversity of Executive Functions and Their Contributions to Complex “Frontal Lobe” Tasks: A Latent Variable Analysis",
+          "title": "The Unity and Diversity of Executive Functions and Their Contributions to Complex \"Frontal Lobe\" Tasks: A Latent Variable Analysis",
           "authors": "Miyake, A., Friedman, N. P., Emerson, M. J., Witzki, A. H., Howerter, A., & Wager, T. D.",
           "year": 2000,
           "journal": "Cognitive Psychology",
@@ -12715,7 +12868,7 @@
           },
           "url": "https://doi.org/10.1006/cogp.1999.0734",
           "oa_status": "closed",
-          "citation_string": "Miyake, Friedman, Emerson, Witzki, Howerter & Wager (2000) *Cognitive Psychology* 41:49–100",
+          "citation_string": "Miyake, Friedman, Emerson, Witzki, Howerter & Wager (2000) *Cognitive Psychology* 41:49-100",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12743,7 +12896,7 @@
           },
           "url": null,
           "oa_status": "green",
-          "citation_string": "Ecker, Lewandowsky, Oberauer & Chee (2010) *Journal of Experimental Psychology: Learning, Memory, and Cognition* 36:170–189",
+          "citation_string": "Ecker, Lewandowsky, Oberauer & Chee (2010) *Journal of Experimental Psychology: Learning, Memory, and Cognition* 36:170-189",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12771,7 +12924,7 @@
           },
           "url": "https://doi.org/10.3758/cabn.1.2.137",
           "oa_status": "bronze",
-          "citation_string": "Frank, Loughry & O'Reilly (2001) *Cognitive, Affective, & Behavioral Neuroscience* 1:137–160",
+          "citation_string": "Frank, Loughry & O'Reilly (2001) *Cognitive, Affective, & Behavioral Neuroscience* 1:137-160",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12799,7 +12952,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2024.11.008",
           "oa_status": "hybrid",
-          "citation_string": "Wahlheim & Zacks (2025) *Trends in Cognitive Sciences* 29(4):380–392 — situates working-memory updating within the broader event-segmentation account of memory updating at event boundaries",
+          "citation_string": "Wahlheim & Zacks (2025) *Trends in Cognitive Sciences* 29(4):380-392 - situates working-memory updating within the broader event-segmentation account of memory updating at event boundaries",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12848,7 +13001,7 @@
           },
           "url": "https://doi.org/10.1016/j.bandc.2012.09.009",
           "oa_status": "closed",
-          "citation_string": "Declerck, Boone & Emonds (2013) *Brain and Cognition* 81:95–117",
+          "citation_string": "Declerck, Boone & Emonds (2013) *Brain and Cognition* 81:95-117",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12901,7 +13054,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2013.06.003",
           "oa_status": "closed",
-          "citation_string": "Rand & Nowak (2013) *Trends in Cognitive Sciences* 17:413–425",
+          "citation_string": "Rand & Nowak (2013) *Trends in Cognitive Sciences* 17:413-425",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12950,7 +13103,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Meltzoff & Moore (1977) *Science* 198:75–78",
+          "citation_string": "Meltzoff & Moore (1977) *Science* 198:75-78",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -12978,7 +13131,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Heyes (2011) *Psychological Bulletin* 137:463–483",
+          "citation_string": "Heyes (2011) *Psychological Bulletin* 137:463-483",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13031,7 +13184,7 @@
           },
           "url": "https://doi.org/10.1016/j.neubiorev.2013.06.002",
           "oa_status": "closed",
-          "citation_string": "Molenberghs (2013) *Neuroscience & Biobehavioral Reviews* 37:1530–1536",
+          "citation_string": "Molenberghs (2013) *Neuroscience & Biobehavioral Reviews* 37:1530-1536",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13080,7 +13233,7 @@
           },
           "url": "https://doi.org/10.1017/s0305000900000866",
           "oa_status": "closed",
-          "citation_string": "Bruner (1975) *Journal of Child Language* 2:1–19",
+          "citation_string": "Bruner (1975) *Journal of Child Language* 2:1-19",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13108,7 +13261,7 @@
           },
           "url": "https://doi.org/10.1111/ejn.13720",
           "oa_status": "bronze",
-          "citation_string": "Mundy (2018) *European Journal of Neuroscience* 47:497–514",
+          "citation_string": "Mundy (2018) *European Journal of Neuroscience* 47:497-514",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-23",
@@ -13183,7 +13336,7 @@
           },
           "url": null,
           "oa_status": "unknown",
-          "citation_string": "Tamir & Mitchell (2013) *Cerebral Cortex* 23:2375–2382",
+          "citation_string": "Tamir & Mitchell (2013) *Cerebral Cortex* 23:2375-2382",
           "source": "unresolved",
           "confidence": "none",
           "verified_on": "2026-04-20",
@@ -13244,7 +13397,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2007.09.002",
           "oa_status": "green",
-          "citation_string": "Fehr & Camerer (2007) *Trends in Cognitive Sciences* 11:419–427",
+          "citation_string": "Fehr & Camerer (2007) *Trends in Cognitive Sciences* 11:419-427",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13293,7 +13446,7 @@
           },
           "url": "https://doi.org/10.1016/s1364-6613(99)01417-5",
           "oa_status": "closed",
-          "citation_string": "Gallagher (2000) *Trends in Cognitive Sciences* 4:14–21",
+          "citation_string": "Gallagher (2000) *Trends in Cognitive Sciences* 4:14-21",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13321,7 +13474,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2003.10.004",
           "oa_status": "closed",
-          "citation_string": "Decety & Sommerville (2003) *Trends in Cognitive Sciences* 7:527–533",
+          "citation_string": "Decety & Sommerville (2003) *Trends in Cognitive Sciences* 7:527-533",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13382,7 +13535,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Sanfey (2007) *Science* 318:598–602",
+          "citation_string": "Sanfey (2007) *Science* 318:598-602",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13410,7 +13563,7 @@
           },
           "url": "https://doi.org/10.1038/nrn3776",
           "oa_status": "green",
-          "citation_string": "Ruff & Fehr (2014) *Nature Reviews Neuroscience* 15:549–562",
+          "citation_string": "Ruff & Fehr (2014) *Nature Reviews Neuroscience* 15:549-562",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13479,7 +13632,7 @@
           },
           "url": "https://doi.org/10.1016/s1364-6613(00)01501-1",
           "oa_status": "closed",
-          "citation_string": "Allison, Puce & McCarthy (2000) *Trends in Cognitive Sciences* 4:267–278",
+          "citation_string": "Allison, Puce & McCarthy (2000) *Trends in Cognitive Sciences* 4:267-278",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13507,7 +13660,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2020.11.006",
           "oa_status": "green",
-          "citation_string": "Pitcher & Ungerleider (2021) *Trends in Cognitive Sciences* 25:100–110",
+          "citation_string": "Pitcher & Ungerleider (2021) *Trends in Cognitive Sciences* 25:100-110",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13560,7 +13713,7 @@
           },
           "url": "https://doi.org/10.1038/nrn3800",
           "oa_status": "closed",
-          "citation_string": "Amodio (2014) *Nature Reviews Neuroscience* 15:670–682",
+          "citation_string": "Amodio (2014) *Nature Reviews Neuroscience* 15:670-682",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13609,7 +13762,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Shepard & Metzler (1971) *Science* 171:701–703",
+          "citation_string": "Shepard & Metzler (1971) *Science* 171:701-703",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13637,7 +13790,7 @@
           },
           "url": "https://doi.org/10.1162/jocn.2008.20.1.1",
           "oa_status": "green",
-          "citation_string": "Zacks (2008) *Journal of Cognitive Neuroscience* 20:1–19",
+          "citation_string": "Zacks (2008) *Journal of Cognitive Neuroscience* 20:1-19",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-09-19",
@@ -13847,7 +14000,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2011.03.002",
           "oa_status": "closed",
-          "citation_string": "Peters & Büchel (2011) *Trends in Cognitive Sciences* 15:227–239",
+          "citation_string": "Peters & Büchel (2011) *Trends in Cognitive Sciences* 15:227-239",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13901,7 +14054,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Ainslie (1975) *Psychological Bulletin* 82:463–496",
+          "citation_string": "Ainslie (1975) *Psychological Bulletin* 82:463-496",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13929,7 +14082,7 @@
           },
           "url": "https://doi.org/10.1016/j.tics.2011.03.002",
           "oa_status": "closed",
-          "citation_string": "Peters & Büchel (2011) *Trends in Cognitive Sciences* 15:227–239",
+          "citation_string": "Peters & Büchel (2011) *Trends in Cognitive Sciences* 15:227-239",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -13983,7 +14136,7 @@
           },
           "url": null,
           "oa_status": "closed",
-          "citation_string": "Tversky & Kahneman (1974) *Science* 185:1124–1131",
+          "citation_string": "Tversky & Kahneman (1974) *Science* 185:1124-1131",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -14079,7 +14232,7 @@
           },
           "url": null,
           "oa_status": "bronze",
-          "citation_string": "Mohr, Biele & Heekeren (2010) *Journal of Neuroscience* 30:6613–6619",
+          "citation_string": "Mohr, Biele & Heekeren (2010) *Journal of Neuroscience* 30:6613-6619",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -14238,7 +14391,7 @@
           },
           "url": "https://doi.org/10.1038/nrn2357",
           "oa_status": "closed",
-          "citation_string": "Rangel, Camerer & Montague (2008) *Nature Reviews Neuroscience* 9:545–556",
+          "citation_string": "Rangel, Camerer & Montague (2008) *Nature Reviews Neuroscience* 9:545-556",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -14266,7 +14419,7 @@
           },
           "url": "https://doi.org/10.1016/j.conb.2012.06.001",
           "oa_status": "closed",
-          "citation_string": "Levy DJ & Glimcher PW (2012) *Current Opinion in Neurobiology* 22:1027–1038",
+          "citation_string": "Levy DJ & Glimcher PW (2012) *Current Opinion in Neurobiology* 22:1027-1038",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",
@@ -14294,7 +14447,7 @@
           },
           "url": "https://doi.org/10.1038/nn.2635",
           "oa_status": "closed",
-          "citation_string": "Krajbich, Armel & Rangel (2010) *Nature Neuroscience* 13:1292–1298",
+          "citation_string": "Krajbich, Armel & Rangel (2010) *Nature Neuroscience* 13:1292-1298",
           "source": "crossref",
           "confidence": "high",
           "verified_on": "2026-04-20",

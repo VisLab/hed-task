@@ -7,11 +7,29 @@
 
 **Also known as:** Trail Making Test, TMT, Trails A/B, Trail Making
 
-Paper-and-pencil sequencing: connect numbered circles (Part A) or alternate numbers and letters (Part B) as fast as possible. B−A difference indexes set switching.
+Paper-and-pencil sequencing: connect numbered circles (Part A) or alternate numbers and letters (Part B) as fast as possible. B-A difference indexes set switching.
 
 ## Description
 
-The Trail Making Test is a widely used neuropsychological assessment consisting of two parts. In Part A, participants draw lines connecting consecutively numbered circles (1→2→3→...) as quickly as possible, measuring visual scanning and psychomotor speed. In Part B, participants alternate between numbers and letters (1→A→2→B→3→C→...), adding demands for cognitive flexibility and task-switching. The derived score (B–A) isolates the switching cost from baseline motor and visual search speed. The TMT is among the most sensitive measures of general brain dysfunction and is included in virtually every neuropsychological test battery. Digital tablet versions now capture rich kinematic data (velocity, pressure, pauses).
+The Trail Making Test is a widely used neuropsychological assessment consisting of two parts. In Part A, participants draw lines connecting consecutively numbered circles (1->2->3->...) as quickly as possible, measuring visual scanning and psychomotor speed. In Part B, participants alternate between numbers and letters (1->A->2->B->3->C->...), adding demands for cognitive flexibility and task-switching. The derived score (B-A) isolates the switching cost from baseline motor and visual search speed. The TMT is among the most sensitive measures of general brain dysfunction and is included in virtually every neuropsychological test battery. Digital tablet versions now capture rich kinematic data (velocity, pressure, pauses).
+
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>
+- **How do the stimuli arrive?** <a href="vocabulary.html#rule-respond-to-rule-stream-continuous">continuous</a>
+- **Is something held in mind to compare against?** <a href="vocabulary.html#rule-respond-to-rule-reference-held-in-mind">held in mind</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructed-emphasis">instructed emphasis</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-targets">number of targets</a>
+- **Material:** Circles numbered from 1 (Part A), or numbered and lettered circles to connect alternately (Part B), on paper or a tablet.
 
 ## Inclusion test
 
@@ -35,48 +53,46 @@ least one of the listed variables, and it records at least one of the listed mea
     - Errors
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - TMT-A (Number Sequencing)
-
-    `hedvar_trail_making__tmt_a_number_sequencing`
-  - Connect numbered circles in order; baseline speed measure.
-  - Canonical: connect numbers in order; processing speed measure
-* - TMT-B (Number-Letter Alternation)
-
-    `hedvar_trail_making__tmt_b_number_letter_alternation`
-  - Alternate numbers and letters in sequence; indexes switching.
-  - Alternating numbers and letters; adds cognitive flexibility demand
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Oral Trail Making Test
 
     `hedvar_trail_making__oral_trail_making`
-  - Verbal version for patients with motor impairments; say the sequence aloud.
-  - Verbal response instead of pencil tracing; different response modality
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: none; task I/O device: <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+  - [Speech production](../processes/language_comprehension_and_production.md#hed-speech-production), [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - The alternating sequence is said aloud with no page, so the answer is spoken rather than drawn and there is no visual search.
 * - Color Trails Test
 
     `hedvar_trail_making__color_trails`
-  - Uses colored numbers instead of letters; suitable for cross-cultural/non-English speakers.
-  - Color-coded circles instead of letters; tests same construct in different format
+
+    Cognitive Atlas: [Color Trails Test](https://www.cognitiveatlas.org/task/id/trm_4da633fe917c4)
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>
+  - -
+  - A named instrument in which letters are replaced by a second colored number set so the test is language-free.
 * - Comprehensive Trail Making Test (CTMT)
 
     `hedvar_trail_making__comprehensive_trail_making_test_ctmt`
-  - Five subtests of increasing complexity.
-  - Extended standardized version with additional subtests; named published instrument
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - -
+  - A named five-subtest battery that adds distractor circles and number-word switching.
 * - D-KEFS Trail Making
 
     `hedvar_trail_making__d_kefs_trail_making`
-  - Part of the Delis-Kaplan Executive Function System with additional conditions (motor speed, visual scanning, number sequencing, letter sequencing, switching).
-  - Delis-Kaplan version with additional conditions; named published instrument
+  - named form
+  - -
+  - A named five-condition instrument that separates scanning, sequencing, switching and motor speed.
 ```
 
 ## Cognitive processes
@@ -91,14 +107,14 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Reitan, R. M. (1958). Validity of the Trail Making Test as an indicator of organic brain damage. *Perceptual and Motor Skills*, 8(3), 271–276. ([DOI](https://doi.org/10.2466/pms.1958.8.3.271))
-- Bowie, C. R., & Harvey, P. D. (2006). Administration and interpretation of the Trail Making Test. *Nature Protocols*, 1(5), 2277–2281. ([DOI](https://doi.org/10.1038/nprot.2006.390), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17406468/))
+- Reitan, R. M. (1958). Validity of the Trail Making Test as an indicator of organic brain damage. *Perceptual and Motor Skills*, 8(3), 271-276. ([DOI](https://doi.org/10.2466/pms.1958.8.3.271))
+- Bowie, C. R., & Harvey, P. D. (2006). Administration and interpretation of the Trail Making Test. *Nature Protocols*, 1(5), 2277-2281. ([DOI](https://doi.org/10.1038/nprot.2006.390), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17406468/))
 
 ## Further references
 
-- Salthouse, T. A. (2011). What cognitive abilities are involved in trail-making performance? *Intelligence*, 39(4), 222–232. ([DOI](https://doi.org/10.1016/j.intell.2011.03.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21789028/))
-- Sánchez-Cubillo, I., Periáñez, J. A., Adrover-Roig, D., Rodríguez-Sánchez, J. M., Ríos-Lago, M., Tirapu, J., & Barceló, F. (2009). Construct validity of the Trail Making Test: Role of task-switching, working memory, inhibition/interference control, and visuomotor abilities. *Journal of the International Neuropsychological Society*, 15(3), 438–450. ([DOI](https://doi.org/10.1017/s1355617709090626), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19402930/))
-- Cangoz, B., Karakoc, E., & Selekler, K. (2009). Trail Making Test: Normative data for Turkish elderly population by age, sex, and education. *Journal of the Neurological Sciences*, 283(1-2), 73–78. ([DOI](https://doi.org/10.1016/j.jns.2009.02.313), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19264326/))
+- Salthouse, T. A. (2011). What cognitive abilities are involved in trail-making performance? *Intelligence*, 39(4), 222-232. ([DOI](https://doi.org/10.1016/j.intell.2011.03.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21789028/))
+- Sánchez-Cubillo, I., Periáñez, J. A., Adrover-Roig, D., Rodríguez-Sánchez, J. M., Ríos-Lago, M., Tirapu, J., & Barceló, F. (2009). Construct validity of the Trail Making Test: Role of task-switching, working memory, inhibition/interference control, and visuomotor abilities. *Journal of the International Neuropsychological Society*, 15(3), 438-450. ([DOI](https://doi.org/10.1017/s1355617709090626), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19402930/))
+- Cangoz, B., Karakoc, E., & Selekler, K. (2009). Trail Making Test: Normative data for Turkish elderly population by age, sex, and education. *Journal of the Neurological Sciences*, 283(1-2), 73-78. ([DOI](https://doi.org/10.1016/j.jns.2009.02.313), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19264326/))
 
 ## External links
 

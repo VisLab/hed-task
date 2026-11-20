@@ -13,6 +13,24 @@ Identify the direction of a central arrow flanked by congruent or incongruent ar
 
 The Attention Network Test (ANT) combines elements of the Posner cueing paradigm and the Eriksen flanker task to provide separate measures of three attention networks in a single task. Participants respond to the direction of a central arrow flanked by congruent or incongruent flankers, with the target preceded by no cue, a center cue, a double cue, or a spatial cue. The ANT yields three independent efficiency scores: alerting (double cue benefit over no cue), orienting (spatial cue benefit over center cue), and executive control (incongruent flanker cost). The task operationalizes Posner's attention network model.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-neighbouring-items">neighbouring items</a>
+- **Does a cue come before the target?** <a href="vocabulary.html#rule-respond-to-rule-cue-location-cue">location cue</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-proportion-congruent">proportion congruent</a>, <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
+- **Material:** A central arrow between flanking arrows that point the same or the opposite way, preceded by no cue, a center cue, a double cue or a spatial cue.
+- **Combined with:** <a href="vocabulary.html#how-throughout">throughout</a>, [Fixate Task](hedtsk_fixate.md) (Gaze is held on the fixation target while the main game is played)
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -28,54 +46,48 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Manipulations**
   - - Cue type (no cue, center cue, double cue, spatial cue)
     - Flanker congruency (congruent, incongruent)
+    - Cue validity and cue-target interval (invalid spatial cues; varied interval)
+    - Display position (lateralized left or right vs. above and below fixation)
+    - Stimulus type (cartoon fish vs. arrows)
+    - Emotional stimuli as cues or flankers
 * - **Measurements**
   - - Alerting network score (double-cue minus no-cue RT)
     - Orienting network score (center-cue minus spatial-cue RT)
     - Executive network score (incongruent minus congruent RT)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard ANT (Fan et al., 2002)
-
-    `hedvar_attention_network__standard_ant_fan_et_al_2002`
-  - Flanker + cueing combined; three network scores.
-  - Canonical ANT with three cue types and flanker congruency; measures alerting, orienting, executive
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - ANT-I (Callejas et al.)
 
     `hedvar_attention_network__ant_i_callejas_et_al`
-  - Measures inter-network interactions.
-  - Revised cue design with interaction effects measure; different trial structure and network scoring
-* - ANT-R (Revised)
-
-    `hedvar_attention_network__ant_r_revised`
-  - Improved reliability and additional conditions.
-  - Revised version with separate conflict and inhibition measures; different trial protocol
-* - Lateralized ANT (LANT)
-
-    `hedvar_attention_network__lateralized_ant_lant`
-  - Targets on horizontal axis; hemisphere-specific effects.
-  - Stimuli presented laterally to test hemispheric contributions; different spatial arrangement
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>, <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - The alerting cue becomes a tone and the location cue a separate visual cue, varied independently on every trial so the network effects can interact; the cue types are the same as the standard, only factorially crossed and partly auditory.
 * - Child ANT
 
     `hedvar_attention_network__child_ant`
-  - Fish stimuli and simplified responses for developmental studies.
-  - Fish stimuli, simplified flanker; procedure genuinely adapted for children per §5.3
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>; feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>; population: <a href="vocabulary.html#facet-population-children">children</a>
+  - -
+  - Cartoon fish replace the arrows, trials are slower, feedback is given and the task is framed as feeding the fish.
 * - ANT with Emotional Stimuli
 
     `hedvar_attention_network__ant_with_emotional_stimuli`
-  - Emotional flankers or targets.
-  - Emotional flanker content; retained per §5.1 (EMOT retired)
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>, <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>; emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - [Attentional capture](../processes/selective_and_sustained_attention.md#hed-attentional-capture)
+  - Emotional pictures or faces serve as cues or replace the neutral flankers; the task is unchanged.
 ```
 
 ## Cognitive processes
@@ -97,9 +109,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- MacLeod, J. W., Lawrence, M. A., McConnell, M. M., Eskes, G. A., Klein, R. M., & Shore, D. I. (2010). Appraising the ANT: Psychometric and theoretical considerations of the Attention Network Test. *Neuropsychology*, 24(5), 637–651. ([DOI](https://doi.org/10.1037/a0019803), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20804252/))
+- MacLeod, J. W., Lawrence, M. A., McConnell, M. M., Eskes, G. A., Klein, R. M., & Shore, D. I. (2010). Appraising the ANT: Psychometric and theoretical considerations of the Attention Network Test. *Neuropsychology*, 24(5), 637-651. ([DOI](https://doi.org/10.1037/a0019803), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20804252/))
 - Arora, S., Lawrence, M. A., & Klein, R. M. (2020). The Attention Network Test database: ADHD and cross-cultural applications. *Frontiers in Psychology*, 11, 388. ([DOI](https://doi.org/10.3389/fpsyg.2020.00388), [PubMed](https://pubmed.ncbi.nlm.nih.gov/32292363/))
-- Ishigami, Y., & Klein, R. M. (2010). Repeated measurement of the components of attention using two versions of the Attention Network Test (ANT): Stability, isolability, robustness, and reliability. *Journal of Neuroscience Methods*, 190(1), 117–128. ([DOI](https://doi.org/10.1016/j.jneumeth.2010.04.019), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20435062/))
+- Ishigami, Y., & Klein, R. M. (2010). Repeated measurement of the components of attention using two versions of the Attention Network Test (ANT): Stability, isolability, robustness, and reliability. *Journal of Neuroscience Methods*, 190(1), 117-128. ([DOI](https://doi.org/10.1016/j.jneumeth.2010.04.019), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20435062/))
 
 ## External links
 

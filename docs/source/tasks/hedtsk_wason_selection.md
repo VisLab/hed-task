@@ -13,6 +13,21 @@ Four cards with letters and numbers under a conditional rule; participants choos
 
 The Wason Selection Task is the classic test of conditional reasoning. Participants see four cards, each showing information on both sides. A conditional rule is stated (e.g., "If a card has an A on one side, then it has a 2 on the other"). Cards show one side each (e.g., A, B, 2, 7), and participants must select which cards need to be turned over to test the rule. The correct answer is the card showing A (potentially confirming) and the card showing 7 (potentially falsifying), but most participants incorrectly select A and 2 (confirmation bias). When the rule is reframed in terms of social contracts (e.g., "If you drink alcohol, you must be over 21"), performance dramatically improves, supporting evolutionary theories of cheater-detection modules.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-solve-problem">solve problem</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>, <a href="vocabulary.html#facet-stimulus-type-text">text</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-rules">number of rules</a>
+- **Material:** Four cards showing one side each (such as A, B, 2, 7) and a conditional rule, abstract or framed as a social contract.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,64 +45,39 @@ least one of the listed variables, and it records at least one of the listed mea
     - Rule polarity
     - Number of rules
     - Thematic context
+    - Task type (rule discovery by proposing triples)
 * - **Measurements**
   - - Proportion selecting logically correct cards (P and not-Q)
     - Error patterns
     - Facilitation from social-contract framing
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Abstract Wason Task (Standard)
-
-    `hedvar_wason_selection__abstract_wason_task_standard`
-  - Letters and numbers; tests pure conditional reasoning.
-  - Canonical abstract conditional reasoning; select cards to test rule
-* - Thematic/Concrete Versions
-
-    `hedvar_wason_selection__thematic_concrete_versions`
-  - Meaningful content (e.g., "drinking age" rule); facilitates correct selection.
-  - Concrete familiar content; tests facilitation of abstract reasoning
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Social Contract Versions
 
     `hedvar_wason_selection__social_contract_versions`
-  - Rules framed as social exchanges with costs and benefits; tests cheater detection.
-  - Cheater-detection framing; different evolutionary content domain
-* - Precaution Rules
-
-    `hedvar_wason_selection__precaution_rules`
-  - "If X is hazardous, take precaution Y"; tests hazard management reasoning.
-  - Safety precaution framing; different pragmatic rule type
-* - Deontic vs. Indicative Rules
-
-    `hedvar_wason_selection__deontic_vs_indicative_rules`
-  - Permission/obligation rules vs. factual conditional statements.
-  - Permission/obligation vs. descriptive conditional; different rule semantics
-* - Negated Rules
-
-    `hedvar_wason_selection__negated_rules`
-  - Rules with negation ("If not A, then B"); increases difficulty dramatically.
-  - Negation in conditional changes logical structure
-* - Probabilistic Selection Task
-
-    `hedvar_wason_selection__probabilistic_selection`
-  - Probabilistic rather than deterministic rule testing.
-  - Probabilistic card selection instead of binary; different decision format
+  - social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - -
+  - The rule is a benefit-for-requirement exchange and the participant looks for cheaters.
 * - Wason 2-4-6 Task (Related)
 
     `hedvar_wason_selection__wason_2_4_6_task_related`
-  - Discover the rule generating number triples; tests hypothesis formation and confirmation bias.
-  - Hypothesis-testing number sequence task; related reasoning paradigm
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>; feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+  - [Inductive reasoning](../processes/reasoning_and_problem_solving.md#hed-inductive-reasoning)
+  - A different rule-discovery task: the participant proposes number triples, is told whether each fits a hidden rule, and finally states the rule.
 ```
 
 ## Cognitive processes
@@ -100,15 +90,15 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Wason, P. C. (1966). Reasoning. In B. M. Foss (Ed.), *New Horizons in Psychology* (pp. 135–151). Penguin.
-- Cosmides, L. (1989). The logic of social exchange: Has natural selection shaped how humans reason? Studies with the Wason selection task. *Cognition*, 31(3), 187–276. ([DOI](https://doi.org/10.1016/0010-0277(89)90023-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/2743748/))
-- Griggs, R. A., & Cox, J. R. (1982). The elusive thematic-materials effect in Wason's selection task. *British Journal of Psychology*, 73(3), 407–420. ([DOI](https://doi.org/10.1111/j.2044-8295.1982.tb01823.x))
+- Wason, P. C. (1966). Reasoning. In B. M. Foss (Ed.), *New Horizons in Psychology* (pp. 135-151). Penguin.
+- Cosmides, L. (1989). The logic of social exchange: Has natural selection shaped how humans reason? Studies with the Wason selection task. *Cognition*, 31(3), 187-276. ([DOI](https://doi.org/10.1016/0010-0277(89)90023-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/2743748/))
+- Griggs, R. A., & Cox, J. R. (1982). The elusive thematic-materials effect in Wason's selection task. *British Journal of Psychology*, 73(3), 407-420. ([DOI](https://doi.org/10.1111/j.2044-8295.1982.tb01823.x))
 
 ## Further references
 
-- Sperber, D., Cara, F., & Girotto, V. (1995). Relevance theory explains the selection task. *Cognition*, 57(1), 31–95. ([DOI](https://doi.org/10.1016/0010-0277(95)00666-m), [PubMed](https://pubmed.ncbi.nlm.nih.gov/7587018/))
+- Sperber, D., Cara, F., & Girotto, V. (1995). Relevance theory explains the selection task. *Cognition*, 57(1), 31-95. ([DOI](https://doi.org/10.1016/0010-0277(95)00666-m), [PubMed](https://pubmed.ncbi.nlm.nih.gov/7587018/))
 - Ragni, M., & Johnson-Laird, P. N. (2020). Reasoning about epistemic possibilities. *Acta Psychologica*, 208, 103081. ([DOI](https://doi.org/10.1016/j.actpsy.2020.103081), [PubMed](https://pubmed.ncbi.nlm.nih.gov/32497740/))
-- Oaksford, M., & Chater, N. (1994). A rational analysis of the selection task as optimal data selection. *Psychological Review*, 101(4), 608–631. ([DOI](https://doi.org/10.1037/0033-295x.101.4.608))
+- Oaksford, M., & Chater, N. (1994). A rational analysis of the selection task as optimal data selection. *Psychological Review*, 101(4), 608-631. ([DOI](https://doi.org/10.1037/0033-295x.101.4.608))
 
 ## External links
 

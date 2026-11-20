@@ -13,6 +13,21 @@ Reading or listening to locally ambiguous sentences; reading-time disruptions an
 
 Participants read sentences containing temporary syntactic ambiguities (garden-path sentences) that initially lead to an incorrect parse before disambiguating information forces reanalysis. Classic example: "The horse raced past the barn fell." Sentences may be presented word-by-word (self-paced reading) or while eye movements are tracked. Comprehension is assessed via subsequent questions. Neuroimaging reveals left inferior frontal and temporal activation during syntactic reanalysis. The task probes how the parser uses syntactic, semantic, and probabilistic cues in real-time language processing.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-undergo-stream">undergo stream</a>
+- **Is anything asked afterwards?** <a href="vocabulary.html#rule-undergo-stream-report-after-comprehension-question">comprehension question</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-text">text</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Material:** Written sentences with a temporary syntactic ambiguity (garden-path sentences such as The horse raced past the barn fell), varying in ambiguity type, disambiguation point, plausibility and preceding context.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,6 +45,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Disambiguation point
     - Plausibility
     - Context sentences
+    - Response signal lag after the sentence
 * - **Measurements**
   - - Reading time at disambiguating region (self-paced reading, eye tracking)
     - Regression probability
@@ -37,53 +53,32 @@ least one of the listed variables, and it records at least one of the listed mea
     - Comprehension question accuracy
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Self-Paced Reading (Word-by-Word)
-
-    `hedvar_sentence_comprehension__self_paced_reading_word_by_word`
-  - Reader presses button to advance; reading times index difficulty.
-  - Canonical sentence processing paradigm with reading time measure
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Eye-Tracking Reading
 
     `hedvar_sentence_comprehension__eye_tracking_reading`
-  - Natural reading with first-pass, regression, and total time measures.
-  - Natural reading with eye-tracking; different response modality and richer time course
-* - Main Verb/Reduced Relative Ambiguity
-
-    `hedvar_sentence_comprehension__main_verb_reduced_relative_ambiguity`
-  - "The horse raced past the barn fell."
-  - Syntactic ambiguity at main verb/relative clause; canonical garden path structure
-* - PP-Attachment Ambiguity
-
-    `hedvar_sentence_comprehension__pp_attachment_ambiguity`
-  - "Put the book on the table in the box."
-  - Prepositional phrase attachment ambiguity; different syntactic decision point
-* - NP/S Ambiguity
-
-    `hedvar_sentence_comprehension__np_s_ambiguity`
-  - "The doctor told the patient that he was having trouble with..."
-  - Noun phrase vs. sentence ambiguity; different structural ambiguity type
-* - Temporarily Ambiguous vs. Unambiguous Controls
-
-    `hedvar_sentence_comprehension__temporarily_ambiguous_vs_unambiguous_controls`
-  - Matched sentence pairs for isolating reanalysis costs.
-  - Matched unambiguous controls; tests processing cost of ambiguity
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-eye-tracker">eye tracker</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - -
+  - The whole sentence is shown at once and gaze is recorded instead of key-press reading times.
 * - Speed-Accuracy Tradeoff (SAT) Studies
 
     `hedvar_sentence_comprehension__speed_accuracy_tradeoff_sat_studies`
-  - Response deadlines to map time course of sentence interpretation.
-  - Response deadline method; different temporal measurement approach
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>; report after: <a href="vocabulary.html#rule-undergo-stream-report-after-judgment">judgment</a>
+  - -
+  - The participant judges each sentence's acceptability at a response signal that comes at one of several delays after the sentence ends.
 ```
 
 ## Cognitive processes
@@ -105,9 +100,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Levy, R. (2008). Expectation-based syntactic comprehension. *Cognition*, 106(3), 1126–1177. ([DOI](https://doi.org/10.1016/j.cognition.2007.05.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17662975/))
-- Fedorenko, E., & Thompson-Schill, S. L. (2014). Reworking the language network. *Trends in Cognitive Sciences*, 18(3), 120–126. ([DOI](https://doi.org/10.1016/j.tics.2013.12.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24440115/))
-- Staub, A. (2015). The effect of lexical predictability on eye movements in reading: Critical review and theoretical interpretation. *Language and Linguistics Compass*, 9(8), 311–327. ([DOI](https://doi.org/10.1111/lnc3.12151))
+- Levy, R. (2008). Expectation-based syntactic comprehension. *Cognition*, 106(3), 1126-1177. ([DOI](https://doi.org/10.1016/j.cognition.2007.05.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17662975/))
+- Fedorenko, E., & Thompson-Schill, S. L. (2014). Reworking the language network. *Trends in Cognitive Sciences*, 18(3), 120-126. ([DOI](https://doi.org/10.1016/j.tics.2013.12.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24440115/))
+- Staub, A. (2015). The effect of lexical predictability on eye movements in reading: Critical review and theoretical interpretation. *Language and Linguistics Compass*, 9(8), 311-327. ([DOI](https://doi.org/10.1111/lnc3.12151))
 
 ## External links
 

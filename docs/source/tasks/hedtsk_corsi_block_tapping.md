@@ -11,7 +11,25 @@ Experimenter taps a sequence on spatially arranged blocks; participant reproduce
 
 ## Description
 
-The Corsi Block-Tapping Task measures visuospatial short-term and working memory. Nine blocks are arranged irregularly on a board (or screen). The examiner taps a sequence of blocks, and the participant reproduces the sequence. Sequence length increases from 2 blocks upward until the participant fails two consecutive sequences at a given length. The maximum reliably reproduced length defines the Corsi span, typically around 5–6 for healthy adults. The backward version requires reproducing sequences in reverse order, adding executive demands. The task is the spatial counterpart of Digit Span and is critical for understanding the visuospatial sketchpad component of working memory.
+The Corsi Block-Tapping Task measures visuospatial short-term and working memory. Nine blocks are arranged irregularly on a board (or screen). The examiner taps a sequence of blocks, and the participant reproduces the sequence. Sequence length increases from 2 blocks upward until the participant fails two consecutive sequences at a given length. The maximum reliably reproduced length defines the Corsi span, typically around 5-6 for healthy adults. The backward version requires reproducing sequences in reverse order, adding executive demands. The task is the spatial counterpart of Digit Span and is critical for understanding the visuospatial sketchpad component of working memory.
+
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **What is studied?** <a href="vocabulary.html#rule-study-then-test-studied-material-sequence-order">sequence order</a>
+- **How long is it held?** <a href="vocabulary.html#rule-study-then-test-retention-interval-seconds">seconds</a>
+- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-serial-recall">serial recall</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-list-length">list length</a>
+- **Material:** Nine blocks arranged irregularly on a board or screen, tapped in sequences of increasing length.
 
 ## Inclusion test
 
@@ -35,53 +53,44 @@ least one of the listed variables, and it records at least one of the listed mea
     - Total score across trials
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Forward Corsi Span
-
-    `hedvar_corsi_block_tapping__forward_corsi_span`
-  - Reproduce sequences in the same order as presented.
-  - Reproduce tapped sequence in same order; canonical visuospatial span
-* - Backward Corsi Span
-
-    `hedvar_corsi_block_tapping__backward_corsi_span`
-  - Reproduce sequences in reverse order; adds executive manipulation.
-  - Reproduce sequence in reverse order; requires mental transformation
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Computerized (eCorsi)
 
     `hedvar_corsi_block_tapping__computerized_ecorsi`
-  - Tablet or screen-based with precise timing and spatial metrics.
-  - Screen-based tapping vs. physical blocks; per §5.6 changes spatial/motor demands
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-touchscreen">touchscreen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>
+  - -
+  - Squares on a screen light up in sequence and are touched or clicked in order, with each touch timed.
 * - Supra-Span Corsi
 
     `hedvar_corsi_block_tapping__supra_span_corsi`
-  - Sequences exceeding span; number of trials to learn measures spatial learning.
-  - Sequences exceed span; repeated learning-to-criterion procedure
+  - cycles: <a href="vocabulary.html#rule-study-then-test-cycles-learn-to-criterion">learn to criterion</a>
+  - -
+  - One sequence longer than span is presented repeatedly until it is reproduced correctly, and the number of attempts is the score.
 * - Walking Corsi (large-scale)
 
     `hedvar_corsi_block_tapping__walking_corsi_large_scale`
-  - Life-size version where participants walk between floor locations; ecological spatial memory.
-  - Full-body locomotion to large floor locations; different motor modality from finger tapping
+  - named form
+  - -
+  - The blocks become tiles on the floor of a room, the examiner walks a route over them and the participant walks the same route.
 * - Sequential vs. Simultaneous Presentation
 
     `hedvar_corsi_block_tapping__sequential_vs_simultaneous_presentation`
-  - Blocks highlighted one at a time vs. subset highlighted together.
-  - All blocks illuminated at once vs. sequentially; changes encoding demands
-* - Crossed/Uncrossed Paths
-
-    `hedvar_corsi_block_tapping__crossed_uncrossed_paths`
-  - Sequences with vs. without path crossings to study spatial complexity.
-  - Spatial crossing of sequence paths tests motor programming constraints
+  - named form
+  - -
+  - In the simultaneous condition all blocks of a set are highlighted at once with numbers or arrows giving the order, instead of being tapped one after another, and the participant still reproduces them in order.
 ```
 
 ## Cognitive processes
@@ -96,11 +105,11 @@ This task is designed to engage the following processes:
 ## Key references
 
 - Corsi, P. M. (1972). *Human memory and the medial temporal region of the brain*. Unpublished doctoral dissertation, McGill University.
-- Milner, B. (1971). Interhemispheric differences in the localization of psychological processes in man. *British Medical Bulletin*, 27(3), 272–277. ([DOI](https://doi.org/10.1093/oxfordjournals.bmb.a070866), [PubMed](https://pubmed.ncbi.nlm.nih.gov/4937273/))
+- Milner, B. (1971). Interhemispheric differences in the localization of psychological processes in man. *British Medical Bulletin*, 27(3), 272-277. ([DOI](https://doi.org/10.1093/oxfordjournals.bmb.a070866), [PubMed](https://pubmed.ncbi.nlm.nih.gov/4937273/))
 
 ## Further references
 
-- Pagulayan, K. F., Busch, R. M., Medina, K. L., Bartok, J. A., & Krikorian, R. (2006). Developmental normative data for the Corsi Block-Tapping Task. *Journal of Clinical and Experimental Neuropsychology*, 28(6), 1043–1052. ([DOI](https://doi.org/10.1080/13803390500350977), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16822742/))
+- Pagulayan, K. F., Busch, R. M., Medina, K. L., Bartok, J. A., & Krikorian, R. (2006). Developmental normative data for the Corsi Block-Tapping Task. *Journal of Clinical and Experimental Neuropsychology*, 28(6), 1043-1052. ([DOI](https://doi.org/10.1080/13803390500350977), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16822742/))
 - Brunetti, R., Del Gatto, C., & Delogu, F. (2014). eCorsi: Implementation and testing of the Corsi Block-Tapping Task for digital tablets. *Frontiers in Psychology*, 5, 939. ([DOI](https://doi.org/10.3389/fpsyg.2014.00939), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25228888/))
 
 ## External links

@@ -13,6 +13,23 @@ Sequential key-press responses to cued locations; RT speedup on repeating vs ran
 
 The SRTT measures implicit motor sequence learning. Visual stimuli appear sequentially at different spatial locations, each corresponding to a response button. Participants respond as quickly as possible, unaware that stimuli follow a repeating sequence interspersed with random blocks. Learning is inferred from decreasing RT for the repeating sequence relative to random sequences. The dissociation between improved performance and lack of conscious awareness of the sequence structure is a hallmark of implicit learning and provides evidence for procedural memory systems.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>
+- **Where does the rule come from?** <a href="vocabulary.html#rule-respond-to-rule-rule-source-hidden-regularity">hidden regularity</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-list-length">list length</a>
+- **Material:** A stimulus at one of several screen locations, each mapped to a key, following a repeating sequence or a random order.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -26,64 +43,51 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. Stimuli appear at one of several spatial locations in a repeating (but covert) sequence.
     2. Participants respond to each location with a spatially mapped keypress.
     3. Sequence awareness is typically not disclosed.
+    4. Optional: After the main task the participant is asked whether a sequence was noticed, asked to reproduce it, or shown fragments to recognize.
 * - **Manipulations**
   - - Sequence length and complexity
     - Sequence vs. random blocks
     - Explicit vs. implicit instruction
     - Secondary task (dual-task interference)
+    - Sequence structure (probabilistic vs. deterministic)
 * - **Measurements**
   - - RT slowing when sequence is replaced by random order (sequence learning effect)
     - Explicit sequence knowledge (generation task, recognition)
     - Offline consolidation gains
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Deterministic SRTT
-
-    `hedvar_serial_reaction_time__deterministic_srtt`
-  - Fixed repeating sequence (e.g., 10-element) embedded in random blocks.
-  - Fixed repeating sequence; canonical implicit sequence learning
-* - Probabilistic SRTT
-
-    `hedvar_serial_reaction_time__probabilistic_srtt`
-  - Transition probabilities rather than fixed sequences; tests statistical learning.
-  - High-probability sequence structure; tests learning under uncertainty
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Alternating Serial Reaction Time (ASRT)
 
     `hedvar_serial_reaction_time__alternating_serial_reaction_time_asrt`
-  - Pattern and random elements alternate in fixed schedule.
-  - Alternating random and patterned elements; tests learning of alternating structure
-* - SRTT with Awareness Assessment
-
-    `hedvar_serial_reaction_time__srtt_with_awareness_assessment`
-  - Post-task sequence generation, recognition, or verbal report tests.
-  - Explicit sequence knowledge probed after implicit learning; adds awareness component
-* - Second-Order Conditional (SOC) Sequences
-
-    `hedvar_serial_reaction_time__second_order_conditional_soc_sequences`
-  - Sequence structure based on triplet dependencies rather than simple transitions.
-  - Each response depends on two preceding; different sequence order
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+  - -
+  - Fixed-sequence positions alternate item by item with random positions, so the regularity spans every other element.
 * - Arm-Reaching/Foot-Stepping SRTT
 
     `hedvar_serial_reaction_time__arm_reaching_foot_stepping_srtt`
-  - Non-finger responses to test effector-specific learning.
-  - Full-limb movements instead of finger presses; different motor effector
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-motion-capture">motion capture</a>, <a href="vocabulary.html#facet-task-io-device-pedal">pedal</a>
+  - -
+  - The responses are reaches to targets or steps onto floor pads instead of finger presses.
 * - Cross-Modal SRTT
 
     `hedvar_serial_reaction_time__cross_modal_srtt`
-  - Stimuli in different modalities (visual positions, auditory tones) to test modality specificity.
-  - Auditory sequence instead of visual; different sensory modality
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - The cues are tones of different pitches mapped to keys instead of visual positions, or the modality switches between learning and test.
 ```
 
 ## Cognitive processes
@@ -104,9 +108,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Janacsek, K., & Nemeth, D. (2012). Predicting the future: From implicit learning to consolidation. *International Journal of Psychophysiology*, 83(2), 213–221. ([DOI](https://doi.org/10.1016/j.ijpsycho.2011.11.012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22154521/))
-- Abrahamse, E. L., Jiménez, L., Verwey, W. B., & Clegg, B. A. (2010). Representing serial action and perception. *Psychonomic Bulletin & Review*, 17(5), 603–623. ([DOI](https://doi.org/10.3758/pbr.17.5.603), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21037157/))
-- Siegert, R. J., Taylor, K. D., Weatherall, M., & Abernethy, D. A. (2006). Is implicit sequence learning impaired in Parkinson's disease? A meta-analysis. *Neuropsychology*, 20(4), 490–495. [Updated: Clark, G. M., Lum, J. A., & Ullman, M. T. (2014). A meta-analysis and meta-regression of serial reaction time task performance in Parkinson's disease. *Neuropsychology*, 28(6), 945–958.] ([DOI](https://doi.org/10.1037/0894-4105.20.4.490), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16846267/))
+- Janacsek, K., & Nemeth, D. (2012). Predicting the future: From implicit learning to consolidation. *International Journal of Psychophysiology*, 83(2), 213-221. ([DOI](https://doi.org/10.1016/j.ijpsycho.2011.11.012), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22154521/))
+- Abrahamse, E. L., Jiménez, L., Verwey, W. B., & Clegg, B. A. (2010). Representing serial action and perception. *Psychonomic Bulletin & Review*, 17(5), 603-623. ([DOI](https://doi.org/10.3758/pbr.17.5.603), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21037157/))
+- Siegert, R. J., Taylor, K. D., Weatherall, M., & Abernethy, D. A. (2006). Is implicit sequence learning impaired in Parkinson's disease? A meta-analysis. *Neuropsychology*, 20(4), 490-495. [Updated: Clark, G. M., Lum, J. A., & Ullman, M. T. (2014). A meta-analysis and meta-regression of serial reaction time task performance in Parkinson's disease. *Neuropsychology*, 28(6), 945-958.] ([DOI](https://doi.org/10.1037/0894-4105.20.4.490), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16846267/))
 
 ## External links
 

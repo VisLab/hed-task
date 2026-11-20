@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Vocabulary candidates",
+  "description": "The register of every value, rule, setting or assignment that was considered for the task vocabulary and held back, so that recurrence in new tasks and datasets can be noticed.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "candidates"
+  ],
+  "properties": {
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "candidate_id",
+          "kind",
+          "definition",
+          "status",
+          "issue",
+          "discussion",
+          "seen_in",
+          "promote_when"
+        ],
+        "properties": {
+          "candidate_id": {
+            "type": "string",
+            "pattern": "^cand_[a-z0-9_]+$"
+          },
+          "kind": {
+            "enum": [
+              "rule_value",
+              "rule",
+              "setting",
+              "phase",
+              "facet_value",
+              "motivation_value",
+              "game_type_assignment",
+              "uncaptured_difference"
+            ]
+          },
+          "definition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "candidate",
+              "promoted",
+              "rejected"
+            ]
+          },
+          "issue": {
+            "enum": [
+              "single use",
+              "compound",
+              "duplicates a facet or setting",
+              "small game type",
+              "unclear boundary"
+            ]
+          },
+          "discussion": {
+            "type": "string"
+          },
+          "seen_in": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": "Tasks, variants (task :: variant), datasets or papers where it was seen."
+          },
+          "promote_when": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

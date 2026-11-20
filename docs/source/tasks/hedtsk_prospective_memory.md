@@ -13,6 +13,22 @@ Participants perform an ongoing task while remembering to execute a deferred int
 
 Prospective memory (PM) is the ability to remember to carry out an intended action in the future. In the standard Einstein-McDaniel paradigm, participants perform a continuous ongoing task (e.g., pleasantness rating, lexical decision) while simultaneously holding the intention to execute a secondary action when a specific cue appears (event-based PM: e.g., press a key when an animal word appears) or after a fixed time interval (time-based PM: e.g., press a key every 2 minutes). The critical measure is whether the participant detects the PM cue and executes the intended action. PM is theoretically distinct from retrospective memory: the challenge is not remembering the content of the intention but spontaneously retrieving it at the right moment without an external prompt. The multiprocess framework (McDaniel & Einstein, 2000) proposes that PM retrieval can be supported by automatic, reflexive-associative processes or by resource-demanding strategic monitoring, depending on cue focality, ongoing-task absorption, and individual differences. PM failures are a leading cause of real-world memory complaints and are sensitive to aging, traumatic brain injury, ADHD, and schizophrenia.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-targets">number of targets</a>, <a href="vocabulary.html#setting-retention-interval">retention interval</a>, <a href="vocabulary.html#setting-target-probability">target probability</a>
+- **Material:** The items of an ongoing task (such as words to rate or to classify), among which a designated cue (such as an animal word) occasionally appears.
+- **Combined with:** <a href="vocabulary.html#how-throughout">throughout</a>, <a href="vocabulary.html#game-respond-to-rule">respond to rule</a> (The ongoing task (lexical decision, pleasantness rating) in which the cues for the intended action are embedded)
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -39,48 +55,26 @@ least one of the listed variables, and it records at least one of the listed mea
     - False alarms to lure items
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Event-Based PM (Focal Cue)
-
-    `hedvar_prospective_memory__event_based_pm_focal_cue`
-  - PM target is a specific item processed as part of the ongoing task (e.g., 'press Q when you see the word TIGER' during a lexical decision task). Supports relatively automatic, reflexive retrieval.
-  - PM cue is focal target of ongoing task; different resource demand from non-focal
-* - Event-Based PM (Non-Focal Cue)
-
-    `hedvar_prospective_memory__event_based_pm_non_focal_cue`
-  - PM target requires monitoring a feature not processed by the ongoing task (e.g., 'press Q when a word contains the syllable TOR' during pleasantness rating). Demands strategic monitoring; shows greater ongoing-task cost.
-  - PM cue is non-focal; requires additional monitoring attention
-* - Time-Based PM
-
-    `hedvar_prospective_memory__time_based_pm`
-  - Execute PM action after a fixed time interval (e.g., press Q every 2 minutes). Requires self-initiated time monitoring (clock-checking). More dependent on executive resources than event-based PM.
-  - Time check required at specified interval; different PM cue type
-* - Activity-Based PM
-
-    `hedvar_prospective_memory__activity_based_pm`
-  - Execute PM action at a natural break point (e.g., after finishing a block of trials). Intermediate between event and time cues.
-  - PM intention linked to completing an activity; different cue type
-* - Multiple-Intention PM
-
-    `hedvar_prospective_memory__multiple_intention_pm`
-  - Hold several PM intentions simultaneously (different cues trigger different actions). Tests capacity limits of intention maintenance.
-  - Several PM intentions simultaneously maintained; different load
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Naturalistic PM
 
     `hedvar_prospective_memory__naturalistic_pm`
-  - Real-world PM tasks (e.g., remember to mail a letter, call at a specified time). Ecological validity paradigms using experience sampling or virtual reality.
-  - Real-world task context instead of lab; different ecological setting
+  - experimental environment: <a href="vocabulary.html#facet-experimental-environment-real-world">real world</a>, <a href="vocabulary.html#facet-experimental-environment-virtual-world">virtual world</a>; retention interval: <a href="vocabulary.html#rule-study-then-test-retention-interval-hours-or-days">hours or days</a>
+  - -
+  - The intention is an everyday action done outside the laboratory or in a virtual town over hours or days, with daily life as the ongoing activity in place of the composed laboratory task.
 ```
 
 ## Cognitive processes

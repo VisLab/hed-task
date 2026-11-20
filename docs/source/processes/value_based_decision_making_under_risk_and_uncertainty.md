@@ -43,7 +43,7 @@ Devaluation of a reward as a function of the delay to its receipt, typically hyp
 
 **Further references**
 
-- Peters & Büchel (2011) *Trends in Cognitive Sciences* 15:227–239 ([DOI](https://doi.org/10.1016/j.tics.2011.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21497544/))
+- Peters & Büchel (2011) *Trends in Cognitive Sciences* 15:227-239 ([DOI](https://doi.org/10.1016/j.tics.2011.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21497544/))
 
 (hed-intertemporal-choice)=
 ## Intertemporal choice
@@ -58,11 +58,11 @@ Choice among options that differ in timing of outcomes; choice between smaller-s
 
 **Fundamental references**
 
-- Ainslie (1975) *Psychological Bulletin* 82:463–496 ([DOI](https://doi.org/10.1037/h0076860))
+- Ainslie (1975) *Psychological Bulletin* 82:463-496 ([DOI](https://doi.org/10.1037/h0076860))
 
 **Further references**
 
-- Peters & Büchel (2011) *Trends in Cognitive Sciences* 15:227–239 ([DOI](https://doi.org/10.1016/j.tics.2011.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21497544/))
+- Peters & Büchel (2011) *Trends in Cognitive Sciences* 15:227-239 ([DOI](https://doi.org/10.1016/j.tics.2011.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21497544/))
 
 (hed-probability-judgment)=
 ## Probability judgment
@@ -77,7 +77,7 @@ Estimation of likelihoods of events, often deviating from normative Bayes.
 
 **Fundamental references**
 
-- Tversky & Kahneman (1974) *Science* 185:1124–1131 ([DOI](https://doi.org/10.1126/science.185.4157.1124))
+- Tversky & Kahneman (1974) *Science* 185:1124-1131 ([DOI](https://doi.org/10.1126/science.185.4157.1124))
 
 (hed-risk-processing)=
 ## Risk processing
@@ -96,7 +96,7 @@ Neural and behavioral evaluation of outcome uncertainty.
 
 **Further references**
 
-- Mohr, Biele & Heekeren (2010) *Journal of Neuroscience* 30:6613–6619 ([DOI](https://doi.org/10.1523/jneurosci.0003-10.2010))
+- Mohr, Biele & Heekeren (2010) *Journal of Neuroscience* 30:6613-6619 ([DOI](https://doi.org/10.1523/jneurosci.0003-10.2010))
 
 (hed-valuation)=
 ## Valuation
@@ -125,10 +125,10 @@ Choice among options that differ in subjective value, computed across attributes
 
 **Fundamental references**
 
-- Rangel, Camerer & Montague (2008) *Nature Reviews Neuroscience* 9:545–556 ([DOI](https://doi.org/10.1038/nrn2357), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18545266/))
+- Rangel, Camerer & Montague (2008) *Nature Reviews Neuroscience* 9:545-556 ([DOI](https://doi.org/10.1038/nrn2357), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18545266/))
 
 **Further references**
 
-- Levy DJ & Glimcher PW (2012) *Current Opinion in Neurobiology* 22:1027–1038 ([DOI](https://doi.org/10.1016/j.conb.2012.06.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22766486/))
-- Krajbich, Armel & Rangel (2010) *Nature Neuroscience* 13:1292–1298 ([DOI](https://doi.org/10.1038/nn.2635), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20835253/))
+- Levy DJ & Glimcher PW (2012) *Current Opinion in Neurobiology* 22:1027-1038 ([DOI](https://doi.org/10.1016/j.conb.2012.06.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22766486/))
+- Krajbich, Armel & Rangel (2010) *Nature Neuroscience* 13:1292-1298 ([DOI](https://doi.org/10.1038/nn.2635), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20835253/))
 

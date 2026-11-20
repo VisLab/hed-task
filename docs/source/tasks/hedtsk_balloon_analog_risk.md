@@ -13,6 +13,27 @@ Sequential pumping of a virtual balloon for monetary reward with stochastic popp
 
 Participants inflate a virtual balloon by clicking a pump button, earning money with each pump. The balloon may explode at any point, causing loss of all accumulated earnings for that trial. Participants can cash out at any time to save their earnings. The average number of pumps before cashing out indexes risk-taking propensity. BART risk-taking correlates with real-world risky behaviors. fMRI reveals activation in ventromedial PFC, anterior insula, and striatal regions during risk assessment.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
+- **What are the options?** <a href="vocabulary.html#rule-choose-for-outcomes-option-set-one-option-with-stop">one option with stop</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-both">both</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>, <a href="vocabulary.html#motivation-real-hypothetical">hypothetical</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-trials">number of trials</a>, <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>, <a href="vocabulary.html#setting-reward-probability">reward probability</a>
+- **Material:** A virtual balloon that grows with each pump and may pop, with the money earned on the trial shown.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,6 +51,8 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Explosion probability function (risk schedule)
     - Reward per pump
     - Number of trials
+    - Pump decision (committed in advance vs. during inflation)
+    - Outcome domain (loss vs. gain)
 * - **Measurements**
   - - Adjusted average pumps on un-popped balloons (risk-taking index)
     - Total earnings
@@ -37,53 +60,44 @@ least one of the listed variables, and it records at least one of the listed mea
     - Response rate across trial segments
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard BART (30 balloons)
-
-    `hedvar_balloon_analog_risk__standard_bart_30_balloons`
-  - Pump button inflates balloon with increasing explosion probability.
-  - Canonical BART: pump balloon for accumulating reward, risk of explosion
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - BART-Y (Youth Version)
 
     `hedvar_balloon_analog_risk__bart_y_youth_version`
-  - Simplified point system for children/adolescents.
-  - Modified pumping interface and simplified feedback for youth; procedure adapted per §5.3
+  - population: <a href="vocabulary.html#facet-population-children">children</a>, <a href="vocabulary.html#facet-population-adolescents">adolescents</a>
+  - -
+  - A named children's instrument with points toward a prize, a simpler display and a progress meter; the pump-or-collect decision is unchanged.
 * - Variable Explosion Probability
 
     `hedvar_balloon_analog_risk__variable_explosion_probability`
-  - Different explosion point distributions (uniform, normal, skewed).
-  - Explicitly communicated explosion probabilities; changes decision-making structure
-* - High-Stakes vs. Low-Stakes
-
-    `hedvar_balloon_analog_risk__high_stakes_vs_low_stakes`
-  - Varying reward amounts per pump.
-  - Reward magnitude manipulation changes risk-reward trade-off context
+  - contingency cue: <a href="vocabulary.html#rule-choose-for-outcomes-contingency-cue-per-trial-cue">per trial cue</a>
+  - [Associative learning](../processes/associative_learning_and_reinforcement.md#hed-associative-learning)
+  - Balloon color signals which hidden pop schedule applies, so the participant learns within the session which colors are risky.
 * - Social Context BART
 
     `hedvar_balloon_analog_risk__social_context_bart`
-  - Playing in observed vs. private conditions.
-  - Observer or peer performance information present; changes social decision-making context
-* - Automatic BART
-
-    `hedvar_balloon_analog_risk__automatic_bart`
-  - Participant selects desired number of pumps in advance; eliminates sequential decision-making.
-  - Balloon pumps automatically; removes active pumping decision, isolates risk tolerance
+  - social aspect: <a href="vocabulary.html#facet-social-aspect-being-observed">being observed</a>
+  - -
+  - The participant plays while observed, or sees how other people pumped, instead of playing alone.
 * - BART with Loss Domain
 
     `hedvar_balloon_analog_risk__bart_with_loss_domain`
-  - Starting with balloon value that decreases with each pump; loss-frame analog.
-  - Losses instead of gains; loss framing changes motivational structure of decisions
+  - sign: <a href="vocabulary.html#motivation-sign-loss">loss</a>
+  - [Avoidance motivation](../processes/reward_anticipation_and_motivation.md#hed-avoidance-motivation)
+  - Each balloon starts full of money and every pump removes some while raising the chance of a larger loss, so the same pump-or-stop structure is framed as accepting loss rather than chasing gain.
 ```
 
 ## Cognitive processes
@@ -104,9 +118,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Pleskac, T. J. (2008). Decision making and learning while taking sequential risks. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 34(1), 167–185. ([DOI](https://doi.org/10.1037/0278-7393.34.1.167), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18194061/))
-- Wallsten, T. S., Pleskac, T. J., & Lejuez, C. W. (2005). Modeling behavior in a clinically diagnostic sequential risk-taking task. *Psychological Review*, 112(4), 862–880. ([DOI](https://doi.org/10.1037/0033-295x.112.4.862), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16262471/))
-- Hunt, M. K., Hopko, D. R., Bare, R., Lejuez, C. W., & Robinson, E. V. (2005). Construct validity of the Balloon Analog Risk Task (BART). *Assessment*, 12(4), 416–428. ([DOI](https://doi.org/10.1177/1073191105278740), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16244122/))
+- Pleskac, T. J. (2008). Decision making and learning while taking sequential risks. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 34(1), 167-185. ([DOI](https://doi.org/10.1037/0278-7393.34.1.167), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18194061/))
+- Wallsten, T. S., Pleskac, T. J., & Lejuez, C. W. (2005). Modeling behavior in a clinically diagnostic sequential risk-taking task. *Psychological Review*, 112(4), 862-880. ([DOI](https://doi.org/10.1037/0033-295x.112.4.862), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16262471/))
+- Hunt, M. K., Hopko, D. R., Bare, R., Lejuez, C. W., & Robinson, E. V. (2005). Construct validity of the Balloon Analog Risk Task (BART). *Assessment*, 12(4), 416-428. ([DOI](https://doi.org/10.1177/1073191105278740), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16244122/))
 
 ## External links
 

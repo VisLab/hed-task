@@ -13,6 +13,24 @@ Sort cards by a hidden rule (color, form, or number) using only correct/incorrec
 
 The WCST tests cognitive flexibility, set-shifting, and learning from feedback. Participants match cards displaying varying numbers of colored symbols to four reference cards according to an unannounced sorting rule (color, shape, or number). After 10 consecutive correct sorts, the rule changes without warning. Feedback ("correct"/"incorrect") is provided after each sort. The test measures categories completed, perseverative errors (continued use of the previous rule), non-perseverative errors, and the ability to maintain set. It is the gold-standard clinical test of prefrontal executive function.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-previous-rule">previous rule</a>
+- **Where does the rule come from?** <a href="vocabulary.html#rule-respond-to-rule-rule-source-learned-from-feedback">learned from feedback</a>
+- **Does the rule change during play?** <a href="vocabulary.html#rule-respond-to-rule-rule-stability-shifts-unsignalled">shifts unsignalled</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>
+- **Material:** Cards that vary in the color, shape and number of their symbols, some ambiguous, sorted against four reference cards.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -31,6 +49,7 @@ least one of the listed variables, and it records at least one of the listed mea
     - Number of consecutive correct before shift
     - Ambiguous cards
     - Computerized vs. manual administration
+    - Rule-change signaling (explicit cue vs. silent change)
 * - **Measurements**
   - - Categories completed
     - Perseverative errors (continuing to sort by old rule)
@@ -38,53 +57,56 @@ least one of the listed variables, and it records at least one of the listed mea
     - Trials to first category
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard WCST (128 Cards)
-
-    `hedvar_wisconsin_card_sorting__standard_wcst_128_cards`
-  - Full version with 128 cards, sorting to four reference cards.
-  - Canonical 128-card version with shifting sorting rules
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Short Form WCST (64 Cards)
 
     `hedvar_wisconsin_card_sorting__short_form_wcst_64_cards`
-  - Abbreviated version maintaining psychometric properties.
-  - 64-card abbreviated version; recognized efficient form
+  - named form
+  - -
+  - A named instrument using only the first 64 cards with the same rules and scoring.
 * - Modified WCST with Explicit Cues
 
     `hedvar_wisconsin_card_sorting__modified_wcst_with_explicit_cues`
-  - Varying amounts of information about sorting rules to decompose set-shifting components.
-  - Explicit cues about sorting dimension; tests rule use vs. rule discovery
+  - rule stability: <a href="vocabulary.html#rule-respond-to-rule-rule-stability-switches-on-cue">switches on cue</a>
+  - -
+  - The participant is told when the rule changes (and sometimes which rules are possible), so the rule change is signalled instead of silent while the rule itself is still found from feedback.
 * - Berg Card Sorting Test
 
     `hedvar_wisconsin_card_sorting__berg_card_sorting`
-  - Simplified version used in developmental research.
-  - Simplified precursor with fewer cards and dimensions; named related instrument
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - -
+  - A named simplified precursor with fewer cards and clearly separated sorting features, available as a computerized form.
 * - Intra-/Extra-Dimensional Set Shifting (IED)
 
     `hedvar_wisconsin_card_sorting__intra_extra_dimensional_set_shifting_ied`
-  - CANTAB version explicitly separating intra-dimensional (within-feature) from extra-dimensional (across-feature) shifts.
-  - CANTAB analog with distinct dimension-shifting structure; different stimuli and shift types
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-abstract-patterns">abstract patterns</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-touchscreen">touchscreen</a>
+  - -
+  - A named CANTAB instrument in which the participant learns by feedback which of two shapes is correct and the rule shifts in stages, first within the same feature and then to a different feature.
 * - Reversal-Only WCST
 
     `hedvar_wisconsin_card_sorting__reversal_only_wcst`
-  - Simplified two-rule version focusing on reversal learning component.
-  - Only reversal phase; isolates reversal from acquisition
+  - named form
+  - [Reversal learning](../processes/associative_learning_and_reinforcement.md#hed-reversal-learning)
+  - Only two sorting rules are used, so every silent rule change is a reversal to the other rule rather than discovery of a new rule among three.
 * - Probabilistic WCST
 
     `hedvar_wisconsin_card_sorting__probabilistic_wcst`
-  - Feedback is probabilistic rather than deterministic; increases learning difficulty.
-  - Sorting feedback probabilistic rather than deterministic; different uncertainty structure
+  - named form
+  - -
+  - The feedback is wrong on a proportion of trials, so a "wrong" may be noise rather than a rule change.
 ```
 
 ## Cognitive processes
@@ -103,8 +125,8 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Lange, F., Seer, C., & Kopp, B. (2017). Cognitive flexibility in neurological disorders: Cognitive components and event-related potentials. *Neuroscience & Biobehavioral Reviews*, 83, 496–507. ([DOI](https://doi.org/10.1016/j.neubiorev.2017.09.011), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28903059/))
-- Bishara, A. J., Kruschke, J. K., Stout, J. C., Bechara, A., McCabe, D. P., & Busemeyer, J. R. (2010). Sequential learning models for the Wisconsin Card Sorting Task: Assessing processes in substance dependent individuals. *Journal of Mathematical Psychology*, 54(1), 5–13. ([DOI](https://doi.org/10.1016/j.jmp.2008.10.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20495607/))
+- Lange, F., Seer, C., & Kopp, B. (2017). Cognitive flexibility in neurological disorders: Cognitive components and event-related potentials. *Neuroscience & Biobehavioral Reviews*, 83, 496-507. ([DOI](https://doi.org/10.1016/j.neubiorev.2017.09.011), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28903059/))
+- Bishara, A. J., Kruschke, J. K., Stout, J. C., Bechara, A., McCabe, D. P., & Busemeyer, J. R. (2010). Sequential learning models for the Wisconsin Card Sorting Task: Assessing processes in substance dependent individuals. *Journal of Mathematical Psychology*, 54(1), 5-13. ([DOI](https://doi.org/10.1016/j.jmp.2008.10.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20495607/))
 - Figueroa-Vargas, A., Cárcamo, C., Henríquez-Ch, R., et al. (2020). Frontoparietal connectivity correlates with cognitive flexibility during the Wisconsin Card Sorting Test. *NeuroImage*, 218, 116938.
 - Kopp, B., Steinke, A., & Visalli, A. (2020). Cognitive flexibility and N2/P3 event-related brain potentials. *Scientific Reports*, 10, 9859. ([DOI](https://doi.org/10.1038/s41598-020-66781-5), [PubMed](https://pubmed.ncbi.nlm.nih.gov/32555267/))
 

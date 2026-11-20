@@ -13,6 +13,21 @@ Rhyme judgment, phoneme deletion, or phoneme blending tasks index sensitivity to
 
 Participants view or hear pairs of words and judge whether they rhyme. The task requires analysis of the sound structure of words, comparison of phonological representations, and a binary decision. Control conditions involve matching for orthographic similarity or judging word identity. fMRI reveals activation in left inferior frontal regions (pars opercularis), left temporoparietal areas, and left superior temporal cortex. The task is widely used in reading research and dyslexia studies, as phonological awareness is a strong predictor of reading ability.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-compare">compare</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Material:** Spoken words (or nonwords) of varying complexity, judged for rhyme, onset, blending or the sounds left when a phoneme is deleted.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -34,73 +49,74 @@ least one of the listed variables, and it records at least one of the listed mea
     - Correlation with reading ability in developmental populations
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Rhyme Detection
-
-    `hedvar_phonological_awareness__rhyme_detection`
-  - "Do CAT and HAT rhyme?" Binary judgment.
-  - Participant judges whether words rhyme; canonical phonological awareness task
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Rhyme Oddity
 
     `hedvar_phonological_awareness__rhyme_oddity`
-  - "Which doesn't rhyme? CAT, HAT, BOOK." Select the non-rhyming item.
-  - Identify non-rhyming word in set; different task structure from detection
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-identify">identify</a>
+  - -
+  - Three or four words are heard and the participant picks the one that does not rhyme, instead of judging whether a pair rhymes.
 * - Rhyme Production
 
     `hedvar_phonological_awareness__rhyme_production`
-  - Generate words that rhyme with a target.
-  - Generate rhyming words; different output requirement
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-generate">generate</a>
+  - [Speech production](../processes/language_comprehension_and_production.md#hed-speech-production)
+  - One word is heard and the participant produces words that rhyme with it instead of judging a given pair.
 * - Onset Detection
 
     `hedvar_phonological_awareness__onset_detection`
-  - Identify initial sound of words.
-  - Judge initial consonant; different phonological unit (onset)
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-identify">identify</a>
+  - -
+  - The participant names the first sound of a spoken word (or, in a second form, judges whether two words share an onset, which keeps compare); the unit is the onset rather than the rhyme.
 * - Phoneme Deletion
 
     `hedvar_phonological_awareness__phoneme_deletion`
-  - "Say BOAT without the /b/." Tests phoneme manipulation.
-  - Delete specified phoneme and report result; manipulation task
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-generate">generate</a>
+  - [Speech production](../processes/language_comprehension_and_production.md#hed-speech-production)
+  - The participant removes a named sound from a spoken word and says what is left, producing a new item rather than judging one.
 * - Phoneme Substitution
 
     `hedvar_phonological_awareness__phoneme_substitution`
-  - Replace one phoneme with another.
-  - Replace phoneme in word; different manipulation operation
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-generate">generate</a>
+  - [Speech production](../processes/language_comprehension_and_production.md#hed-speech-production)
+  - The participant replaces one sound in a spoken word with another and says the new word; a task type not enumerated in the list.
 * - Phoneme Segmentation
 
     `hedvar_phonological_awareness__phoneme_segmentation`
-  - Count or list individual phonemes in a word.
-  - Segment word into constituent phonemes; decomposition task
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-generate">generate</a>
+  - [Speech production](../processes/language_comprehension_and_production.md#hed-speech-production)
+  - The participant says each sound of a word separately and in order (in some versions counts them) instead of judging a pair.
 * - Blending
 
     `hedvar_phonological_awareness__blending`
-  - Combine individually presented phonemes into a word.
-  - Combine phonemes to form word; synthesis operation
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-generate">generate</a>
+  - [Speech production](../processes/language_comprehension_and_production.md#hed-speech-production)
+  - The sounds of a word are played one at a time and the participant says the word they make, so the input is phonemes and the output a generated word.
 * - Spoonerisms
 
     `hedvar_phonological_awareness__spoonerisms`
-  - Swap initial sounds of two words; high-level phonological manipulation.
-  - Transpose onset phonemes of two words; complex transposition manipulation
-* - Alliteration Detection
-
-    `hedvar_phonological_awareness__alliteration_detection`
-  - Identify words sharing initial consonant.
-  - Detect shared onset consonant; different phonological judgment
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-generate">generate</a>
+  - [Speech production](../processes/language_comprehension_and_production.md#hed-speech-production), [Verbal working memory](../processes/short_term_and_working_memory.md#hed-verbal-working-memory)
+  - Two words are heard and the participant swaps their first sounds and says the result, generating two new words while holding both in mind; a task type not enumerated in the list.
 * - Syllable Awareness Tasks
 
     `hedvar_phonological_awareness__syllable_awareness_tasks`
-  - Count, delete, or manipulate syllables within words.
-  - Syllable-level operations instead of phoneme-level; different linguistic unit
+  - population: <a href="vocabulary.html#facet-population-children">children</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-count">count</a>
+  - -
+  - The unit is the syllable rather than the phoneme and children count or tap them (the deletion and blending forms would be generate); an easier form for younger children.
 ```
 
 ## Cognitive processes
@@ -120,9 +136,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Melby-Lervåg, M., Lyster, S. A. H., & Hulme, C. (2012). Phonological skills and their role in learning to read: A meta-analytic review. *Psychological Bulletin*, 138(2), 322–352. ([DOI](https://doi.org/10.1037/a0026744), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22250824/))
-- Anthony, J. L., & Francis, D. J. (2005). Development of phonological awareness. *Current Directions in Psychological Science*, 14(5), 255–259. ([DOI](https://doi.org/10.1111/j.0963-7214.2005.00376.x))
-- Boets, B., Op de Beeck, H. P., Vandermosten, M., et al. (2013). Intact but less accessible phonetic representations in adults with dyslexia. *Science*, 342(6163), 1251–1254. ([DOI](https://doi.org/10.1126/science.1244333), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24311693/))
+- Melby-Lervåg, M., Lyster, S. A. H., & Hulme, C. (2012). Phonological skills and their role in learning to read: A meta-analytic review. *Psychological Bulletin*, 138(2), 322-352. ([DOI](https://doi.org/10.1037/a0026744), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22250824/))
+- Anthony, J. L., & Francis, D. J. (2005). Development of phonological awareness. *Current Directions in Psychological Science*, 14(5), 255-259. ([DOI](https://doi.org/10.1111/j.0963-7214.2005.00376.x))
+- Boets, B., Op de Beeck, H. P., Vandermosten, M., et al. (2013). Intact but less accessible phonetic representations in adults with dyslexia. *Science*, 342(6163), 1251-1254. ([DOI](https://doi.org/10.1126/science.1244333), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24311693/))
 
 ## External links
 

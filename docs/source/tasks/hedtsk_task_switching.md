@@ -13,6 +13,24 @@ Alternation between two or more simple tasks on cue; switch-cost RT and errors i
 
 Task Switching paradigms measure cognitive flexibility by requiring participants to alternate between two or more classification tasks. Participants view stimuli (e.g., bivalent alphanumeric characters like "G3") and perform different classifications depending on a task cue (letter: vowel/consonant; digit: odd/even). Tasks alternate in predictable sequences (e.g., AABB) or are cued on each trial. The primary measures are switch costs (increased RT and errors when switching tasks vs. repeating the same task) and mixing costs (increased RT in mixed-task blocks vs. single-task blocks). Switch costs reflect the time for task-set reconfiguration.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-previous-rule">previous rule</a>
+- **Does a cue come before the target?** <a href="vocabulary.html#rule-respond-to-rule-cue-rule-cue">rule cue</a>
+- **Does the rule change during play?** <a href="vocabulary.html#rule-respond-to-rule-rule-stability-switches-on-cue">switches on cue</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
+- **Material:** Bivalent characters such as a letter-digit pair (G3), classified by the letter (vowel or consonant) or the digit (odd or even) as the cue directs.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,74 +48,69 @@ least one of the listed variables, and it records at least one of the listed mea
     - Task difficulty
     - Number of tasks
     - Cue transparency
+    - Task sequence (random cued, predictable alternating runs, voluntary choice)
+    - Block type (pure vs. mixed)
+    - Response-stimulus interval
+    - Stimulus type (univalent vs. bivalent)
+    - Added conflict from an irrelevant stimulus dimension
 * - **Measurements**
-  - - Switch cost (switch − repeat RT and accuracy)
-    - Mixing cost (mixed block − pure block)
+  - - Switch cost (switch - repeat RT and accuracy)
+    - Mixing cost (mixed block - pure block)
     - Preparation effect (switch cost reduction with longer CSI)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Cued Task-Switching
-
-    `hedvar_task_switching__cued_task_switching`
-  - Explicit cue signals task on each trial; separates cue-processing from task-reconfiguration.
-  - Canonical cue specifies task each trial
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Alternating Runs (AABB)
 
     `hedvar_task_switching__alternating_runs_aabb`
-  - Predictable task sequences without explicit cues; switch costs reflect preparation failures.
-  - Predictable alternation without explicit cue; different task structure
+
+    Cognitive Atlas: [alternating runs paradigm](https://www.cognitiveatlas.org/task/id/trm_4da88b8b60ffb)
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-none">none</a>
+  - -
+  - No cue is given; the task changes on a fixed, known schedule (two trials of each), often marked by the stimulus stepping around a grid, and the participant must keep track.
 * - Voluntary Task Switching
 
     `hedvar_task_switching__voluntary_task_switching`
-  - Participants freely choose which task to perform; reveals internal control biases.
-  - Participant chooses task; measures voluntary switching rates
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-none">none</a>
+  - -
+  - The participant chooses which task to do on each trial, with no cue, and is asked to use both about equally often and in a random order.
 * - Mixing Cost Paradigm
 
     `hedvar_task_switching__mixing_cost_paradigm`
-  - Comparing single-task blocks to mixed-task blocks; indexes sustained task-set maintenance.
-  - Compares mixed-block to pure-block performance; different block structure
-* - Cue-Stimulus Interval (CSI) Manipulation
-
-    `hedvar_task_switching__cue_stimulus_interval_csi_manipulation`
-  - Varying preparation time between cue and target; preparation reduces switch costs.
-  - Varies preparation time; tests proactive preparation
-* - Response-Stimulus Interval (RSI) Manipulation
-
-    `hedvar_task_switching__response_stimulus_interval_rsi_manipulation`
-  - Varying intertrial interval; affects passive dissipation of prior task set.
-  - Varies post-response interval; tests backward inhibition decay
-* - Task Switching with N>2 Tasks
-
-    `hedvar_task_switching__task_switching_with_n_2_tasks`
-  - Three or more tasks; reveals backward inhibition and n-2 repetition costs.
-  - Three or more tasks; different reconfiguration demands
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>; rule stability: <a href="vocabulary.html#rule-respond-to-rule-rule-stability-fixed">fixed</a>
+  - -
+  - Pure blocks in which the rule never changes are added and compared with the mixed blocks of the standard form.
 * - Univalent vs. Bivalent Stimuli
 
     `hedvar_task_switching__univalent_vs_bivalent_stimuli`
-  - Stimuli affording response under one task only vs. both tasks.
-  - Stimuli compatible with one vs. both tasks; different interference structure
+  - competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-none">none</a>
+  - -
+  - Stimuli that afford only one of the rules (letters only, digits only) are compared with the standard bivalent stimuli that afford both, which removes the previous rule as a competitor in the univalent condition.
 * - Predictable vs. Random Task Sequences
 
     `hedvar_task_switching__predictable_vs_random_task_sequences`
-  - Examining preparation and anticipation effects.
-  - Known vs. unknown switch sequence; tests preparation strategies
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-none">none</a>
+  - -
+  - A fixed, known order of tasks with no cue is compared with the standard random, cued order.
 * - Task Switching with Conflict
 
     `hedvar_task_switching__task_switching_with_conflict`
-  - Combining task switching with Stroop/flanker-type conflict.
-  - Bivalent stimuli with competing responses; combined switching and conflict
+  - competitor: <a href="vocabulary.html#rule-respond-to-rule-competitor-irrelevant-dimension">irrelevant dimension</a>
+  - [Interference control](../processes/inhibitory_control_and_conflict_monitoring.md#hed-interference-control)
+  - The stimuli are built as Stroop or flanker items, so an irrelevant dimension competes with the response as well as the previous task's rule.
 ```
 
 ## Cognitive processes
@@ -117,10 +130,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Kiesel, A., Steinhauser, M., Wendt, M., Falkenstein, M., Jost, K., Philipp, A. M., & Koch, I. (2010). Control and interference in task switching—A review. *Psychological Bulletin*, 136(5), 849–874. ([DOI](https://doi.org/10.1037/a0019842), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20804238/))
-- Vandierendonck, A., Liefooghe, B., & Verbruggen, F. (2010). Task switching: Interplay of reconfiguration and interference control. *Psychological Bulletin*, 136(4), 601–626. ([DOI](https://doi.org/10.1037/a0019791), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20565170/))
-- Grange, J. A., & Houghton, G. (2014). Models of cognitive control in task switching. In *Task Switching and Cognitive Control* (pp. 160–199). Oxford University Press. ([DOI](https://doi.org/10.1093/acprof:osobl/9780199921959.003.0008))
-- Braem, S., & Egner, T. (2018). Getting a grip on cognitive flexibility. *Current Directions in Psychological Science*, 27(6), 470–476. ([DOI](https://doi.org/10.1177/0963721418787475), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30555214/))
+- Kiesel, A., Steinhauser, M., Wendt, M., Falkenstein, M., Jost, K., Philipp, A. M., & Koch, I. (2010). Control and interference in task switching - A review. *Psychological Bulletin*, 136(5), 849-874. ([DOI](https://doi.org/10.1037/a0019842), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20804238/))
+- Vandierendonck, A., Liefooghe, B., & Verbruggen, F. (2010). Task switching: Interplay of reconfiguration and interference control. *Psychological Bulletin*, 136(4), 601-626. ([DOI](https://doi.org/10.1037/a0019791), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20565170/))
+- Grange, J. A., & Houghton, G. (2014). Models of cognitive control in task switching. In *Task Switching and Cognitive Control* (pp. 160-199). Oxford University Press. ([DOI](https://doi.org/10.1093/acprof:osobl/9780199921959.003.0008))
+- Braem, S., & Egner, T. (2018). Getting a grip on cognitive flexibility. *Current Directions in Psychological Science*, 27(6), 470-476. ([DOI](https://doi.org/10.1177/0963721418787475), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30555214/))
 
 ## External links
 

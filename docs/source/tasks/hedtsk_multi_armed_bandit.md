@@ -11,7 +11,28 @@ Repeated choice among options with unknown or changing reward distributions; cho
 
 ## Description
 
-Participants choose among multiple options (the "arms" of a slot machine), each yielding rewards with unknown and often changing probabilities. The central challenge is the explore-exploit dilemma: whether to exploit the currently best-known option or explore alternatives that might yield higher returns. Reward probabilities may be stationary or volatile (drifting over time), with the volatile version (restless bandit) requiring continuous updating of value estimates. This paradigm is the dominant tool in computational psychiatry for studying reinforcement learning, and its computational tractability — fitting with Bayesian, Kalman-filter, or upper-confidence-bound models — has made it central to understanding decision-making deficits in addiction, schizophrenia, depression, and anxiety.
+Participants choose among multiple options (the "arms" of a slot machine), each yielding rewards with unknown and often changing probabilities. The central challenge is the explore-exploit dilemma: whether to exploit the currently best-known option or explore alternatives that might yield higher returns. Reward probabilities may be stationary or volatile (drifting over time), with the volatile version (restless bandit) requiring continuous updating of value estimates. This paradigm is the dominant tool in computational psychiatry for studying reinforcement learning, and its computational tractability - fitting with Bayesian, Kalman-filter, or upper-confidence-bound models - has made it central to understanding decision-making deficits in addiction, schizophrenia, depression, and anxiety.
+
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
+- **What is traded against what?** <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-explore-vs-exploit">explore vs exploit</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-points">points</a>, <a href="vocabulary.html#motivation-what-money">money</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>, <a href="vocabulary.html#setting-number-of-trials">number of trials</a>
+- **Material:** Several options, the arms of a slot machine, each paying out rewards with unknown probabilities that are stationary or drifting.
 
 ## Inclusion test
 
@@ -30,6 +51,8 @@ least one of the listed variables, and it records at least one of the listed mea
     - Reward distributions (stationary vs. drifting)
     - Horizon length
     - Information asymmetry
+    - Cue before each trial (contextual vs. none)
+    - Effort cost of sampling an option
 * - **Measurements**
   - - Total reward earned
     - Exploration-exploitation ratio
@@ -37,63 +60,52 @@ least one of the listed variables, and it records at least one of the listed mea
     - Regret
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Two-Armed Stationary Bandit
-
-    `hedvar_multi_armed_bandit__two_armed_stationary_bandit`
-  - Simplest version; two options with fixed reward probabilities.
-  - Canonical two-option stationary reward structure; stable payoff distributions
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Restless (Volatile) Bandit
 
     `hedvar_multi_armed_bandit__restless_volatile_bandit`
-  - Reward probabilities drift over time via Gaussian random walk; requires continuous updating.
-  - Reward probabilities drift over time; tests tracking of non-stationary environments
+  - contingency stability: <a href="vocabulary.html#rule-choose-for-outcomes-contingency-stability-drifting">drifting</a>
+  - -
+  - Each option's reward probability or amount drifts slowly and randomly over the session, so the best option changes.
 * - Contextual Bandit
 
     `hedvar_multi_armed_bandit__contextual_bandit`
-  - Reward probabilities depend on observable context features; tests generalization across contexts.
-  - Context features predict optimal choice; adds feature-based learning
-* - Horizon Task (Wilson et al.)
 
-    `hedvar_multi_armed_bandit__horizon_task_wilson_et_al`
-  - Short vs. long decision horizons to separately measure directed and random exploration.
-  - Fixed horizon with exploration vs. exploitation trade-off manipulation
+    Cognitive Atlas: [contextual bandit](https://www.cognitiveatlas.org/task/id/tsk_3ICXMd8R3ekcb)
+  - contingency cue: <a href="vocabulary.html#rule-choose-for-outcomes-contingency-cue-per-trial-cue">per trial cue</a>
+  - [Associative learning](../processes/associative_learning_and_reinforcement.md#hed-associative-learning)
+  - A cue shown on each trial predicts which option is better, so the participant learns which choice goes with which cue.
 * - Four-Armed Bandit with Reversal
 
     `hedvar_multi_armed_bandit__four_armed_bandit_with_reversal`
-  - Multiple arms with occasional reward-probability reversals; combines bandit with reversal-learning demands.
-  - Four arms with explicit reversal phase; tests reversal learning in bandit
-* - Informative vs. Non-Informative Exploration
-
-    `hedvar_multi_armed_bandit__informative_vs_non_informative_exploration`
-  - Designs that separate information-seeking exploration from random exploration (e.g., observed vs. chosen options).
-  - Exploration choices yield differential information; changes exploration value
+  - contingency stability: <a href="vocabulary.html#rule-choose-for-outcomes-contingency-stability-reversal">reversal</a>
+  - [Reversal learning](../processes/associative_learning_and_reinforcement.md#hed-reversal-learning)
+  - Four options whose reward probabilities swap at unannounced points.
 * - Social Bandit
 
     `hedvar_multi_armed_bandit__social_bandit`
-  - Observing another agent's choices and outcomes before making own decisions; adds social learning dimension.
-  - Observe another's choices; social learning component
+  - social aspect: <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>
+  - [Social decision making](../processes/social_cognition_and_strategic_social_choice.md#hed-social-decision-making)
+  - The choices or outcomes of another player are shown before or alongside the participant's own.
 * - Bandit with Effort Cost
 
     `hedvar_multi_armed_bandit__bandit_with_effort_cost`
-  - Incorporating physical or cognitive effort cost into exploration decisions.
-  - Effort cost added to choices; combines effort discounting with learning
-* - Bandit with Partial Observability
-
-    `hedvar_multi_armed_bandit__bandit_with_partial_observability`
-  - Only the chosen arm's outcome is observed (standard) vs. all arms' outcomes are observed; separates learning from exploration.
-  - Outcomes sometimes hidden; different information structure
+  - sign: <a href="vocabulary.html#motivation-sign-both">both</a>; what: <a href="vocabulary.html#motivation-what-points">points</a>, <a href="vocabulary.html#motivation-what-money">money</a>, <a href="vocabulary.html#motivation-what-effort-cost">effort cost</a>
+  - [Effort allocation](../processes/reward_anticipation_and_motivation.md#hed-effort-allocation)
+  - Choosing or sampling an option costs key presses or a hard task, so exploration carries an effort cost on top of the usual tradeoff.
 ```
 
 ## Cognitive processes
@@ -108,13 +120,13 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Daw, N. D., O'Doherty, J. P., Dayan, P., Seymour, B., & Dolan, R. J. (2006). Cortical substrates for exploratory decisions in humans. *Nature*, 441, 876–879. ([DOI](https://doi.org/10.1038/nature04766), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16778890/))
+- Daw, N. D., O'Doherty, J. P., Dayan, P., Seymour, B., & Dolan, R. J. (2006). Cortical substrates for exploratory decisions in humans. *Nature*, 441, 876-879. ([DOI](https://doi.org/10.1038/nature04766), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16778890/))
 
 ## Further references
 
-- Gershman, S. J. (2018). Deconstructing the human algorithms for exploration. *Cognition*, 173, 34–42. ([DOI](https://doi.org/10.1016/j.cognition.2017.12.014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29289795/))
-- Schulz, E., & Gershman, S. J. (2019). The algorithmic architecture of exploration in the human brain. *Current Opinion in Neurobiology*, 55, 7–14. ([DOI](https://doi.org/10.1016/j.conb.2018.11.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30529148/))
-- Cogliati Dezza, I., Yu, A. J., Cleeremans, A., & Alexander, W. (2017). Learning the value of information and reward over time when solving exploration–exploitation problems. *Scientific Reports*, 7, 16919. ([DOI](https://doi.org/10.1038/s41598-017-17237-w), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29209058/))
+- Gershman, S. J. (2018). Deconstructing the human algorithms for exploration. *Cognition*, 173, 34-42. ([DOI](https://doi.org/10.1016/j.cognition.2017.12.014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29289795/))
+- Schulz, E., & Gershman, S. J. (2019). The algorithmic architecture of exploration in the human brain. *Current Opinion in Neurobiology*, 55, 7-14. ([DOI](https://doi.org/10.1016/j.conb.2018.11.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30529148/))
+- Cogliati Dezza, I., Yu, A. J., Cleeremans, A., & Alexander, W. (2017). Learning the value of information and reward over time when solving exploration-exploitation problems. *Scientific Reports*, 7, 16919. ([DOI](https://doi.org/10.1038/s41598-017-17237-w), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29209058/))
 - Chakroun, K., Mathar, D., Wiehler, A., Ganzer, F., & Peters, J. (2020). Dopaminergic modulation of the exploration/exploitation trade-off in human decision-making. *eLife*, 9, e51260. ([DOI](https://doi.org/10.7554/elife.51260), [PubMed](https://pubmed.ncbi.nlm.nih.gov/32484779/))
 
 ## External links

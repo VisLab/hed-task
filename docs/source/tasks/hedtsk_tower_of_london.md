@@ -13,6 +13,20 @@ Rearrange colored beads on pegs to match a goal state in the minimum number of m
 
 The Tower of London Task is a planning and problem-solving task. Participants are presented with two configurations of colored beads on pegs: a start state and a goal state. They must plan and execute a sequence of moves to transform the start state into the goal state in the minimum number of moves, following movement constraints (one bead at a time, peg capacity limits). Problem difficulty is manipulated by the minimum number of moves required (2-7). Performance is measured by moves to solution, planning time, and accuracy. The task is a key measure of prefrontal executive function, particularly planning and look-ahead.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-solve-problem">solve problem</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-set-size">set size</a>
+- **Material:** Colored beads on three pegs, in a start configuration and a goal configuration.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -26,7 +40,7 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. Three pegs hold colored discs in a start configuration.
     2. Participants move discs one at a time to reach a goal configuration in the minimum number of moves.
 * - **Manipulations**
-  - - Problem difficulty (minimum moves: 2–7)
+  - - Problem difficulty (minimum moves: 2-7)
     - Number of discs
     - Time constraints
     - One-touch (planning only) vs. execution versions
@@ -37,48 +51,44 @@ least one of the listed variables, and it records at least one of the listed mea
     - Total solution time
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Tower of London (3 pegs, 3 balls)
-
-    `hedvar_tower_of_london__standard_tower_of_london_3_pegs_3_balls`
-  - Classic Shallice version; problems requiring 2–7 moves.
-  - Canonical Shallice ToL: rearrange colored balls across pegs
-* - Tower of Hanoi
-
-    `hedvar_tower_of_london__tower_of_hanoi`
-  - Related but distinct; uses graduated-size disks with size-ordering constraint; more moves required.
-  - Different rule structure (disk size constraint); distinct classic puzzle
-* - Tower of London – Drexel (TOL-DX)
+* - Variant
+  - What differs
+  - Processes added
+  - Note
+* - Tower of London - Drexel (TOL-DX)
 
     `hedvar_tower_of_london__tower_of_london_drexel_tol_dx`
-  - Standardized version with 10 problems and psychometric norms.
-  - Standardized 10-item version with normative data; published clinical instrument
-* - Tower of London – Freiburg (TOL-F)
+  - named form
+  - -
+  - A named clinical instrument with ten standard problems and norms.
+* - Tower of London - Freiburg (TOL-F)
 
     `hedvar_tower_of_london__tower_of_london_freiburg_tol_f`
-  - Research-optimized version with controlled problem parameters.
-  - Computer version with different item set and constraints
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>
+  - -
+  - A named computerized research version with problems selected to control difficulty features.
 * - Computerized vs. Physical Versions
 
     `hedvar_tower_of_london__computerized_vs_physical_versions`
-  - Digital drag-and-drop vs. manual manipulation of beads.
-  - Per §5.6: grasping 3D beads vs. drag-and-drop changes motor activity
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>
+  - -
+  - The balls and pegs are shown on a screen and moved by mouse rather than being handled; the problem itself is unchanged.
 * - Tower with Time Pressure
 
     `hedvar_tower_of_london__tower_with_time_pressure`
-  - Imposing deadlines to study speed-accuracy tradeoffs in planning.
-  - Response deadline imposed; changes planning strategy
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - -
+  - A time limit per problem or an instruction to be fast is added on top of the requirement to use the fewest moves.
 ```
 
 ## Cognitive processes
@@ -99,10 +109,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Kaller, C. P., Rahm, B., Spreer, J., Weiller, C., & Unterrainer, J. M. (2011). Dissociable contributions of left and right dorsolateral prefrontal cortex in planning. *Cerebral Cortex*, 21(2), 307–317. ([DOI](https://doi.org/10.1093/cercor/bhq096))
-- Andrés, P. (2003). Frontal cortex as the central executive of working memory: Time to revise our view. *Cortex*, 39(4-5), 871–895. [Updated context: Newman, L. M., et al. (2021). Planning and tower tasks: A systematic review and meta-analysis of structural neuroimaging. *NeuroImage: Clinical*, 30, 102662.] ([DOI](https://doi.org/10.1016/s0010-9452(08)70868-2))
-- Köstering, L., Nitschke, K., Schumacher, F. K., et al. (2015). Assessment of planning performance in clinical samples: Reliability and validity of the Tower of London task (TOL-F). *Neuropsychologia*, 75, 646–655. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2015.07.017), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26197091/))
-- Unterrainer, J. M., Rahm, B., Kaller, C. P., et al. (2004). Planning abilities and the Tower of London: Is this task measuring a discrete cognitive function? *Journal of Clinical and Experimental Neuropsychology*, 26(6), 846–856. [Updated: Ward, G., & Morris, R. (2005). Introduction to the psychology of planning. In *The Cognitive Psychology of Planning* (pp. 1–34). Psychology Press.] ([DOI](https://doi.org/10.1080/13803390490509574), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15370380/))
+- Kaller, C. P., Rahm, B., Spreer, J., Weiller, C., & Unterrainer, J. M. (2011). Dissociable contributions of left and right dorsolateral prefrontal cortex in planning. *Cerebral Cortex*, 21(2), 307-317. ([DOI](https://doi.org/10.1093/cercor/bhq096))
+- Andrés, P. (2003). Frontal cortex as the central executive of working memory: Time to revise our view. *Cortex*, 39(4-5), 871-895. [Updated context: Newman, L. M., et al. (2021). Planning and tower tasks: A systematic review and meta-analysis of structural neuroimaging. *NeuroImage: Clinical*, 30, 102662.] ([DOI](https://doi.org/10.1016/s0010-9452(08)70868-2))
+- Köstering, L., Nitschke, K., Schumacher, F. K., et al. (2015). Assessment of planning performance in clinical samples: Reliability and validity of the Tower of London task (TOL-F). *Neuropsychologia*, 75, 646-655. ([DOI](https://doi.org/10.1016/j.neuropsychologia.2015.07.017), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26197091/))
+- Unterrainer, J. M., Rahm, B., Kaller, C. P., et al. (2004). Planning abilities and the Tower of London: Is this task measuring a discrete cognitive function? *Journal of Clinical and Experimental Neuropsychology*, 26(6), 846-856. [Updated: Ward, G., & Morris, R. (2005). Introduction to the psychology of planning. In *The Cognitive Psychology of Planning* (pp. 1-34). Psychology Press.] ([DOI](https://doi.org/10.1080/13803390490509574), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15370380/))
 
 ## External links
 

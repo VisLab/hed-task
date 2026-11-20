@@ -13,6 +13,23 @@ Participants observe cue-outcome pairings across trials and judge the causal str
 
 Causal learning tasks measure how people acquire and represent causal relationships from observed co-occurrences. In the standard contingency judgment paradigm, participants observe a series of trials in which a candidate cause (e.g., a food, a medicine, a button press) is either present or absent and an outcome (e.g., an allergic reaction, a health improvement, a light turning on) either occurs or does not. After observing multiple trials, participants rate the causal strength of the relationship (typically -100 to +100 or 0 to 100). The normative benchmark is delta-P (P(outcome|cause) - P(outcome|no cause)), but human judgments systematically deviate: they are sensitive to outcome density, show cue competition effects (blocking, overshadowing), and are influenced by prior causal beliefs. Associative models (Rescorla-Wagner) and statistical models (causal power; Cheng, 1997) compete to explain these patterns. The paradigm bridges associative learning, causal reasoning, and Bayesian inference literatures. It is the human analogue of animal conditioning studies and is foundational for understanding how people learn cause-effect relationships in medicine, engineering, and everyday reasoning.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
+- **What is studied?** <a href="vocabulary.html#rule-study-then-test-studied-material-pairs">pairs</a>
+- **How long is it held?** <a href="vocabulary.html#rule-study-then-test-retention-interval-seconds">seconds</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-delay-to-outcome">delay to outcome</a>, <a href="vocabulary.html#setting-number-of-trials">number of trials</a>, <a href="vocabulary.html#setting-set-size">set size</a>, <a href="vocabulary.html#setting-target-probability">target probability</a>
+- **Material:** Trials showing whether a candidate cause (a food, a medicine, a button press) is present and whether an outcome (an allergic reaction, a light turning on) follows.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -27,7 +44,7 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Manipulations**
   - - Contingency (delta-P value: positive, zero, negative)
     - Outcome base rate (common vs. rare outcomes)
-    - Cue competition (blocking, overshadowing, relative validity)
+    - Cue competition (blocking, backward blocking, overshadowing, relative validity)
     - Number of trials
     - Trial-by-trial vs. summary presentation
     - Number of candidate causes
@@ -41,58 +58,38 @@ least one of the listed variables, and it records at least one of the listed mea
     - Correspondence between judgments and normative models (delta-P, causal power, Rescorla-Wagner)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Allergy Prediction Task
-
-    `hedvar_causal_learning__allergy_prediction`
-  - Cover story: patients eat foods and develop (or don't develop) allergies. The most common contingency learning cover story. Naturalistic and intuitive framing.
-  - Canonical food-allergy prediction: participant judges cause-effect contingencies
-* - Blocking Paradigm
-
-    `hedvar_causal_learning__blocking_paradigm`
-  - Pre-train cause A → outcome, then present compound AB → outcome. Test causal rating for B. Blocking (low B ratings) demonstrates cue competition and supports associative models.
-  - Pre-training on one cue blocks learning about second cue; distinct compound conditioning procedure
-* - Outcome Density Manipulation
-
-    `hedvar_causal_learning__outcome_density_manipulation`
-  - Vary the base rate of the outcome (P(O|~C)). High outcome density inflates causal ratings even at zero contingency (outcome density bias).
-  - Systematically varies base rate of outcomes; changes the statistical environment
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Trial-by-Trial Prediction
 
     `hedvar_causal_learning__trial_by_trial_prediction`
-  - Participants predict the outcome on each trial before seeing it. Prediction error drives learning. Allows modeling of trial-by-trial associative strength updating.
-  - Participant predicts on each trial before feedback; different response requirement from summary judgment
+  - feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>; combined with: <a href="vocabulary.html#how-interleaved">interleaved</a>, <a href="vocabulary.html#game-respond-to-rule">respond to rule</a> (The outcome is predicted on each trial before it is shown)
+  - -
+  - Before each outcome the participant predicts whether it will occur, adding a per-trial response with feedback to the stream.
 * - Summary vs. Sequential Presentation
 
     `hedvar_causal_learning__summary_vs_sequential_presentation`
-  - Summary: all contingency information presented simultaneously in a table. Sequential: one trial at a time. Different formats can produce different judgments (format effect).
-  - Summary table vs. trial-by-trial presentation; changes information format and cognitive demand
-* - Multi-Cause (Relative Validity)
-
-    `hedvar_causal_learning__multi_cause_relative_validity`
-  - Multiple candidate causes present; some perfectly predictive, others partially redundant. Tests relative validity and cue selection.
-  - Multiple competing cues; relative validity procedure changes causal inference structure
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - -
+  - In the summary version the four cell counts are shown at once in a table and rated, so there is no stream of trials.
 * - Causal Direction Manipulation
 
     `hedvar_causal_learning__causal_direction_manipulation`
-  - Predictive (cause → effect: given cause, judge effect likelihood) vs. diagnostic (effect → cause: given effect, judge cause likelihood). Tests asymmetry in causal reasoning.
-  - Manipulates whether participant judges cause→effect or effect→cause; different reasoning direction
-* - Backward Blocking / Retrospective Revaluation
-
-    `hedvar_causal_learning__backward_blocking_retrospective_revaluation`
-  - Post-training information about one cause changes judgments about a previously trained compound partner. Tests whether causal knowledge is updated retrospectively.
-  - Post-training devaluation of compound changes prior learning; distinct temporal structure
+  - named form
+  - -
+  - The same trials are judged predictively (does the cause produce the effect) or diagnostically (given the effect, which cause).
 ```
 
 ## Cognitive processes

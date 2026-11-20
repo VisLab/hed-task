@@ -3,7 +3,7 @@
 
 **Scope:** Recognition of emotional signals (face, voice, body), affective priming, cognitive reappraisal, expressive suppression, emotion regulation strategies.
 
-**Out of scope:** Specific emotions as states (fear, happiness, disgust, anger, sadness — HED handles these as stimulus/state labels); affect as a trait; mood.
+**Out of scope:** Specific emotions as states (fear, happiness, disgust, anger, sadness - HED handles these as stimulus/state labels); affect as a trait; mood.
 
 :::{note}
 **Open issues:** Coverage of appraisal-stage processes is thin - expected to grow if paradigms that specifically target appraisal are added.
@@ -24,11 +24,11 @@ Facilitation or interference in evaluating a target by a valence-related prime.
 
 **Fundamental references**
 
-- Fazio, Sanbonmatsu, Powell & Kardes (1986) *Journal of Personality and Social Psychology* 50:229–238 ([DOI](https://doi.org/10.1037/0022-3514.50.2.229))
+- Fazio, Sanbonmatsu, Powell & Kardes (1986) *Journal of Personality and Social Psychology* 50:229-238 ([DOI](https://doi.org/10.1037/0022-3514.50.2.229))
 
 **Further references**
 
-- Herring, White, Jabeen, Hinojos, Terrell, Reyes, Schubert & Crites (2013) *Psychological Bulletin* 139:1062–1089 ([DOI](https://doi.org/10.1037/a0031309))
+- Herring, White, Jabeen, Hinojos, Terrell, Reyes, Schubert & Crites (2013) *Psychological Bulletin* 139:1062-1089 ([DOI](https://doi.org/10.1037/a0031309))
 
 (hed-cognitive-reappraisal)=
 ## Cognitive reappraisal
@@ -43,11 +43,11 @@ Reinterpretation of an emotional stimulus to change its affective impact.
 
 **Fundamental references**
 
-- Gross (1998) *Journal of Personality and Social Psychology* 74:224–237 ([DOI](https://doi.org/10.1037/0022-3514.74.1.224))
+- Gross (1998) *Journal of Personality and Social Psychology* 74:224-237 ([DOI](https://doi.org/10.1037/0022-3514.74.1.224))
 
 **Further references**
 
-- Buhle, Silvers, Wager, Lopez, Onyemekwu, Kober, Weber & Ochsner (2014) *Cerebral Cortex* 24:2981–2990 ([DOI](https://doi.org/10.1093/cercor/bht154))
+- Buhle, Silvers, Wager, Lopez, Onyemekwu, Kober, Weber & Ochsner (2014) *Cerebral Cortex* 24:2981-2990 ([DOI](https://doi.org/10.1093/cercor/bht154))
 
 (hed-emotion-recognition)=
 ## Emotion recognition
@@ -75,7 +75,7 @@ Processes by which individuals influence which emotions they have, when, and how
 
 **Fundamental references**
 
-- Gross (1998) *Review of General Psychology* 2:271–299 ([DOI](https://doi.org/10.1037/1089-2680.2.3.271))
+- Gross (1998) *Review of General Psychology* 2:271-299 ([DOI](https://doi.org/10.1037/1089-2680.2.3.271))
 
 (hed-expressive-suppression)=
 ## Expressive suppression
@@ -88,5 +88,5 @@ Inhibition of outward behavioral expression of emotion.
 
 **Fundamental references**
 
-- Gross & Levenson (1993) *Journal of Personality and Social Psychology* 64:970–986 ([DOI](https://doi.org/10.1037/0022-3514.64.6.970))
+- Gross & Levenson (1993) *Journal of Personality and Social Psychology* 64:970-986 ([DOI](https://doi.org/10.1037/0022-3514.64.6.970))
 

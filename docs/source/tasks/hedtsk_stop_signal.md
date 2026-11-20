@@ -13,6 +13,22 @@ Choice RT task in which an occasional stop signal requires response cancellation
 
 The Stop-Signal Task measures the ability to inhibit a prepotent motor response after it has been initiated. Participants perform a primary go task (button press to go signals) but on a subset of trials, a stop signal (auditory tone or visual cue) appears after a variable delay (stop-signal delay, SSD), instructing them to cancel their response. SSD is adjusted dynamically using a staircase procedure converging on 50% inhibition probability. The key measure is stop-signal reaction time (SSRT), estimated using the race model framework, which indexes the latency of the internal inhibitory process.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **Must the player ever hold back?** <a href="vocabulary.html#rule-respond-to-rule-response-demand-cancel-on-signal">cancel on signal</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>, <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>, <a href="vocabulary.html#setting-target-probability">target probability</a>
+- **Material:** A go stimulus on every trial and, on a minority of trials, a stop signal (a tone or a visual cue) after a variable delay.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,64 +45,61 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Stop-signal delay (SSD, adjusted by staircase)
     - Proportion of stop trials (typically 25%)
     - Go stimulus type
+    - Response on signal trials (change to a different response vs. cancel)
+    - Stop-signal relevance (every signal vs. only signals or responses of one kind)
+    - Context cue paired with stop probability (background color)
 * - **Measurements**
   - - Stop-signal reaction time (SSRT, estimated via race model)
     - Go RT
     - Probability of stopping at each SSD
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard SST with Staircase SSD
-
-    `hedvar_stop_signal__standard_sst_with_staircase_ssd`
-  - Dynamic SSD adjustment converging on 50% inhibition probability; yields SSRT via race model.
-  - Canonical adaptive stop-signal delay tracking
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Fixed SSD Procedure
 
     `hedvar_stop_signal__fixed_ssd_procedure`
-  - Predetermined SSDs; simpler but less efficient for SSRT estimation.
-  - Non-adaptive fixed delays; different trial structure
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - -
+  - The stop signal comes at a few preset delays instead of a delay adjusted to the participant's performance.
 * - Stop-Change Task
 
     `hedvar_stop_signal__stop_change`
-  - Stop signal requires switching to alternative response rather than pure inhibition.
-  - Stop signal replaced by change signal; different inhibition-and-substitute
-* - Selective Stop-Signal
 
-    `hedvar_stop_signal__selective_stop_signal`
-  - Stop signal applies to only one of multiple possible responses; probes response-specific inhibition.
-  - Stop signal applies to one response type only; selective inhibition
+    Cognitive Atlas: [stop-change task](https://www.cognitiveatlas.org/task/id/trm_4f2447dfa5947)
+  - named form
+  - [Response selection](../processes/motor_preparation_timing_and_execution.md#hed-response-selection)
+  - On signal trials the planned response is cancelled and a different one made instead, a response demand the vocabulary lacks (cancel and replace rather than cancel).
 * - Proactive vs. Reactive Inhibition Manipulation
 
     `hedvar_stop_signal__proactive_vs_reactive_inhibition_manipulation`
-  - Varying stop-signal probability across blocks to separate anticipatory from stimulus-triggered control.
-  - Pre-signal preparatory inhibition vs. post-signal reactive; different inhibition timing
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-demand-probability-cue">demand probability cue</a>
+  - [Proactive control](../processes/inhibitory_control_and_conflict_monitoring.md#hed-proactive-control)
+  - A cue or block instruction announces how likely a stop signal is on coming trials, the same demand-probability cue proposed for Cued Go/No-Go.
 * - Stop-Signal in Reaching/Saccade Tasks
 
     `hedvar_stop_signal__stop_signal_in_reaching_saccade_tasks`
-  - Non-button-press responses; extends to oculomotor and reaching domains.
-  - Arm reaching or eye movement response; different motor effector
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-eye-tracker">eye tracker</a>
+  - -
+  - The response to be cancelled is an arm reach or a saccade rather than a key press; only effector and recording change.
 * - Context-Dependent Stop-Signal
 
     `hedvar_stop_signal__context_dependent_stop_signal`
-  - Environmental context predicts stop-signal probability.
-  - Stop signal context varies; tests context-sensitive inhibition
-* - Conditional Stop-Signal
-
-    `hedvar_stop_signal__conditional_stop_signal`
-  - Stop signal presented but inhibition required only under certain conditions (e.g., specific signal color).
-  - Inhibit only under specific conditions; conditional stopping logic
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-demand-probability-cue">demand probability cue</a>
+  - [Proactive control](../processes/inhibitory_control_and_conflict_monitoring.md#hed-proactive-control), [Associative learning](../processes/associative_learning_and_reinforcement.md#hed-associative-learning)
+  - A display feature such as background color is paired with a stop probability, and the participant learns the pairing rather than being told it.
 ```
 
 ## Cognitive processes
@@ -108,8 +121,8 @@ This task is designed to engage the following processes:
 ## Further references
 
 - Verbruggen, F., Aron, A. R., Band, G. P., Beste, C., et al. (2019). A consensus guide to capturing the ability to inhibit actions and impulsive behaviors in the stop-signal task. *eLife*, 8, e46323. ([DOI](https://doi.org/10.7554/elife.46323), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31033438/))
-- Matzke, D., Curley, S., Gong, Q., & Heathcote, A. (2019). Bayesian modeling of stop-signal reaction time distributions. *Psychological Review*, 126(5), 663–722.
-- Skippen, P., Matzke, D., Heathcote, A., Fulham, W. R., Michie, P., & Karayanidis, F. (2019). Reliability of triggering inhibitory process is a better predictor of impulsivity than SSRT. *Acta Psychologica*, 192, 104–117. ([DOI](https://doi.org/10.1016/j.actpsy.2018.10.016), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30469044/))
+- Matzke, D., Curley, S., Gong, Q., & Heathcote, A. (2019). Bayesian modeling of stop-signal reaction time distributions. *Psychological Review*, 126(5), 663-722.
+- Skippen, P., Matzke, D., Heathcote, A., Fulham, W. R., Michie, P., & Karayanidis, F. (2019). Reliability of triggering inhibitory process is a better predictor of impulsivity than SSRT. *Acta Psychologica*, 192, 104-117. ([DOI](https://doi.org/10.1016/j.actpsy.2018.10.016), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30469044/))
 - Bissett, P. G., Hagen, M. P., Jones, H. M., & Poldrack, R. A. (2021). Design issues and solutions for stop-signal data from the Adolescent Brain Cognitive Development (ABCD) study. *eLife*, 10, e60185. ([DOI](https://doi.org/10.7554/elife.60185), [PubMed](https://pubmed.ncbi.nlm.nih.gov/33661097/))
 
 ## External links

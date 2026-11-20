@@ -13,6 +13,27 @@ Two-player one-shot or iterated game with cooperate/defect choices and asymmetri
 
 The Prisoner's Dilemma is a canonical game theory paradigm for studying cooperation and defection under strategic interdependence. Two players simultaneously choose to cooperate or defect. Mutual cooperation yields moderate rewards for both; mutual defection yields low rewards for both; but if one defects while the other cooperates, the defector receives the highest reward and the cooperator receives nothing (or a penalty). The dominant strategy in single-shot play is to defect, yet human participants frequently cooperate, particularly in iterated versions. The task is central to research on trust, reciprocity, altruism, and the neural substrates of social decision-making.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-interact-with-agent">interact with agent</a>
+- **In what order?** <a href="vocabulary.html#rule-interact-with-agent-move-order-simultaneous">simultaneous</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-joint-moves">joint moves</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>, <a href="vocabulary.html#motivation-real-hypothetical">hypothetical</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>
+- **Material:** A payoff matrix of money amounts for each combination of the two players' choices to cooperate or defect.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -30,6 +51,10 @@ least one of the listed variables, and it records at least one of the listed mea
     - One-shot vs. iterated
     - Partner identity (human, computer, in-group)
     - Communication allowed or not
+    - Move order (sequential vs. simultaneous)
+    - Number of players and move granularity (public goods contribution)
+    - Punishment option after choices are revealed
+    - Exit option (opt out for a guaranteed small payoff vs. none)
 * - **Measurements**
   - - Cooperation rate
     - Payoff earned
@@ -37,78 +62,68 @@ least one of the listed variables, and it records at least one of the listed mea
     - First-move cooperation
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Single-Shot (One-Round) PD
-
-    `hedvar_prisoners_dilemma__single_shot_one_round_pd`
-  - One simultaneous decision; tests baseline cooperation rates.
-  - Canonical one-round anonymous PD; no reputation effects
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Iterated PD (Repeated Games)
 
     `hedvar_prisoners_dilemma__iterated_pd_repeated_games`
-  - Multiple rounds with same partner; enables tit-for-tat strategies.
-  - Multiple rounds with same partner; reputation and strategy accumulate
+  - feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>; repetition: <a href="vocabulary.html#rule-interact-with-agent-repetition-iterated">iterated</a>
+  - -
+  - The same two players choose repeatedly and see each other's past choices after every round, so conditional strategies become possible.
 * - Sequential PD
 
     `hedvar_prisoners_dilemma__sequential_pd`
-  - One player decides first, then the other; introduces trust asymmetry.
-  - One player acts before observing other's choice; different temporal structure
+  - move order: <a href="vocabulary.html#rule-interact-with-agent-move-order-sequential">sequential</a>
+  - -
+  - One player chooses first and the second sees that choice before choosing.
 * - Multiplayer/Public Goods Version
 
     `hedvar_prisoners_dilemma__multiplayer_public_goods_version`
-  - N-player generalization; contribute to a common pool.
-  - More than two players; group dilemma structure
-* - PD with Communication
-
-    `hedvar_prisoners_dilemma__pd_with_communication`
-  - Cheap talk or binding communication before decisions.
-  - Players communicate before deciding; cheap talk changes decision context
+  - players acting: <a href="vocabulary.html#rule-interact-with-agent-players-acting-several">several</a>; partner: <a href="vocabulary.html#rule-interact-with-agent-partner-group">group</a>; transfer transformation: <a href="vocabulary.html#rule-interact-with-agent-transfer-transformation-multiplied">multiplied</a>
+  - -
+  - Several players each contribute an amount to a shared pool that is multiplied and divided equally among all, so there are many players and each chooses an amount rather than simply cooperating or defecting.
 * - PD with Punishment Option
 
     `hedvar_prisoners_dilemma__pd_with_punishment_option`
-  - Third-party or second-party punishment of defectors.
-  - Third-party punishment available; adds enforcement mechanism
-* - PD with Varying Payoff Matrices
-
-    `hedvar_prisoners_dilemma__pd_with_varying_payoff_matrices`
-  - Manipulating temptation-to-defect and cooperation incentives parametrically.
-  - Different temptation/sucker payoffs; tests sensitivity to game parameters
+  - sign: <a href="vocabulary.html#motivation-sign-both">both</a>
+  - -
+  - After the choices are revealed, a player or an observing third party can pay from their own money to reduce a defector's earnings.
 * - PD against Computer Opponents
 
     `hedvar_prisoners_dilemma__pd_against_computer_opponents`
-  - Known strategies (always cooperate, always defect, tit-for-tat).
-  - Computer opponent instead of human; per §5.6 structural change (deterministic vs. human partner)
+  - partner: <a href="vocabulary.html#rule-interact-with-agent-partner-computer">computer</a>
+  - -
+  - The other player is a program following a fixed strategy such as always cooperate, always defect or tit-for-tat, and the participant may or may not be told.
 * - PD with Reputation Information
 
     `hedvar_prisoners_dilemma__pd_with_reputation_information`
-  - Partners' cooperation histories visible; tests reputation effects.
-  - Partner's past cooperation history visible; changes social information available
+  - named form
+  - -
+  - Before choosing, the participant is shown how often the current partner cooperated in earlier games with other people.
 * - Continuous PD
 
     `hedvar_prisoners_dilemma__continuous_pd`
-  - Graded cooperation rather than binary cooperate/defect.
-  - Continuous contribution instead of binary; different action space
-* - Asymmetric Prisoner's Dilemma
-
-    `hedvar_prisoners_dilemma__asymmetric_prisoners_dilemma`
-  - Payoffs do not mirror each other; one player gains more or loses less from defection, introducing inequity into the strategic calculus.
-  - Different payoff structures for each player; breaks symmetry of standard PD
+  - named form
+  - -
+  - Each player chooses how much to cooperate on a scale, for example how much of an endowment to transfer to the partner, rather than making a yes-or-no choice.
 * - Optional Prisoner's Dilemma
 
     `hedvar_prisoners_dilemma__optional_prisoners_dilemma`
-  - Players can opt out of the interaction entirely, receiving a safe intermediate payoff; opt-out availability typically increases cooperation among those who choose to play.
-  - Third option to not participate; changes strategic choice set
+  - exit option: <a href="vocabulary.html#rule-interact-with-agent-exit-option-available">available</a>
+  - -
+  - Each player may opt out for a guaranteed small payoff, and those who play face the usual choice.
 ```
 
 ## Cognitive processes
@@ -124,14 +139,14 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Rilling, J. K., Gutman, D. A., Zeh, T. R., Pagnoni, G., Berns, G. S., & Kilts, C. D. (2002). A neural basis for social cooperation. *Neuron*, 35(2), 395–405. ([DOI](https://doi.org/10.1016/s0896-6273(02)00755-9), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12160756/))
-- Fehr, E., & Fischbacher, U. (2003). The nature of human altruism. *Nature*, 425(6960), 785–791. ([DOI](https://doi.org/10.1038/nature02043), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14574401/))
+- Rilling, J. K., Gutman, D. A., Zeh, T. R., Pagnoni, G., Berns, G. S., & Kilts, C. D. (2002). A neural basis for social cooperation. *Neuron*, 35(2), 395-405. ([DOI](https://doi.org/10.1016/s0896-6273(02)00755-9), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12160756/))
+- Fehr, E., & Fischbacher, U. (2003). The nature of human altruism. *Nature*, 425(6960), 785-791. ([DOI](https://doi.org/10.1038/nature02043), [PubMed](https://pubmed.ncbi.nlm.nih.gov/14574401/))
 
 ## Further references
 
-- Rand, D. G., & Nowak, M. A. (2013). Human cooperation. *Trends in Cognitive Sciences*, 17(8), 413–425. ([DOI](https://doi.org/10.1016/j.tics.2013.06.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23856025/))
-- Engel, C., & Zhurakhovska, L. (2016). When is the risk of cooperation worth taking? The prisoner's dilemma as a game of multiple motives. *Applied Economics Letters*, 23(16), 1157–1161. ([DOI](https://doi.org/10.1080/13504851.2016.1139672))
-- Declerck, C. H., Boone, C., & Emonds, G. (2013). When do people cooperate? The neuroeconomics of prosocial decision making. *Brain and Cognition*, 81(1), 95–117. ([DOI](https://doi.org/10.1016/j.bandc.2012.09.009), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23174433/))
+- Rand, D. G., & Nowak, M. A. (2013). Human cooperation. *Trends in Cognitive Sciences*, 17(8), 413-425. ([DOI](https://doi.org/10.1016/j.tics.2013.06.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23856025/))
+- Engel, C., & Zhurakhovska, L. (2016). When is the risk of cooperation worth taking? The prisoner's dilemma as a game of multiple motives. *Applied Economics Letters*, 23(16), 1157-1161. ([DOI](https://doi.org/10.1080/13504851.2016.1139672))
+- Declerck, C. H., Boone, C., & Emonds, G. (2013). When do people cooperate? The neuroeconomics of prosocial decision making. *Brain and Cognition*, 81(1), 95-117. ([DOI](https://doi.org/10.1016/j.bandc.2012.09.009), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23174433/))
 - Peysakhovich, A., Nowak, M. A., & Rand, D. G. (2014). Humans display a 'cooperative phenotype' that is domain general and temporally stable. *Nature Communications*, 5, 4939. ([DOI](https://doi.org/10.1038/ncomms5939), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25225950/))
 
 ## External links

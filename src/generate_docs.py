@@ -6,12 +6,17 @@ Inputs, all under data/ and all edited in this repository by pull request:
     process_details.json     the processes and their categories
     mappings/*.tsv           the curated correspondence with the Cognitive Atlas
     task_family_defs.tsv     the task families (membership is on each task record)
-    schemas/*.schema.json    JSON Schemas for the two catalog files
+    task_facet_defs.json     the facet vocabulary
+    task_game_defs.json      game types, rules, motivation, phases, settings, combinations
+    vocabulary_candidates.json  the register of candidate vocabulary
+    schemas/*.schema.json    JSON Schemas for the catalog and vocabulary files
 
 Two kinds of page live under docs/source/. This script writes only the catalog pages,
 which are tabular views of the data:
 
-    tasks/**                     task index, family pages, alphabetical list, task pages
+    tasks/**                     task index, family pages, alphabetical list, task pages,
+                                 the vocabulary page and the by-game-type and by-facet
+                                 listings
     processes/**                 process index, category pages
     task_process_links.md        task-process links
     _generated/*.md              table fragments that narrative pages include, among
@@ -28,13 +33,16 @@ roles from the allowed vocabulary, and every task filed under a family. A failur
 the record, so a pull request that edits the data gets a precise message from CI.
 
 Usage (from repo root, with venv active):
-    python src/generate_docs.py
+    python src/generate_docs.py [--docs-dir DIR]
+
+`--docs-dir` writes into another Sphinx source directory (a copy of docs/source) instead
+of the repository's, for trying a change without touching the committed pages.
 """
 
 from __future__ import annotations
 
+import argparse
 import collections
-import re
 import shutil
 import sys
 from pathlib import Path
@@ -44,7 +52,6 @@ _HERE = Path(__file__).parent
 if str(_HERE) not in sys.path:
     sys.path.insert(0, str(_HERE))
 
-from add_variation_ids import variation_id  # noqa: E402
 from generators import (  # noqa: E402
     crossref_atlas_pages,
     crossref_cogpo_pages,
@@ -52,6 +59,7 @@ from generators import (  # noqa: E402
     fragments,
     process_pages,
     task_pages,
+    vocabulary_pages,
 )
 from generators.utils import load_json, primary_category, primary_family, read_tsv  # noqa: E402
 
@@ -65,9 +73,6 @@ GENERATED_PATHS = [
 ]
 
 _VALID_CONFIDENCE = {"high", "review"}
-
-# The one family a pseudo task (task_kind == "pseudo_task") may belong to.
-PSEUDO_FAMILY = "pseudo_tasks"
 
 
 # ---------------------------------------------------------------------------
@@ -130,6 +135,243 @@ def _check_memberships(records: list[dict], field: str, id_key: str, known: set[
                 problems.append(f"{label} {m.get(id_key)}: a secondary or review membership needs a rationale")
 
 
+# Reference fields that hold author names and published titles. A letter outside ASCII
+# (Jolicoeur written with its ligature, a German umlaut) is genuine data there and stays;
+# everywhere else, and for every symbol, the data is ASCII only.
+_REFERENCE_TEXT_FIELDS = {"authors", "title", "journal", "venue", "pages", "citation_string"}
+
+
+def _check_ascii(label: str, value, problems: list[str], path: str = "", in_reference: bool = False) -> None:
+    """Report every non-ASCII character in a JSON value, except letters in reference text.
+
+    Parameters:
+        label: The file name, for messages.
+        value: A JSON value (dict, list, string or scalar).
+        problems: The list to append messages to.
+        path: Where `value` sits in the file, for messages.
+        in_reference: True inside a reference record.
+    """
+    if isinstance(value, dict):
+        for key, item in value.items():
+            allowed = in_reference and key in _REFERENCE_TEXT_FIELDS
+            _check_ascii(label, item, problems, f"{path}/{key}", allowed or (key == "references"))
+    elif isinstance(value, list):
+        for i, item in enumerate(value):
+            _check_ascii(label, item, problems, f"{path}/{i}", in_reference)
+    elif isinstance(value, str):
+        bad = sorted({c for c in value if ord(c) > 127 and not (in_reference and c.isalpha())})
+        if bad:
+            chars = ", ".join(f"U+{ord(c):04X}" for c in bad)
+            problems.append(f"{label} at {path}: non-ASCII {chars} in {value[:80]!r}")
+
+
+# ---------------------------------------------------------------------------
+# Vocabulary: facets, games, and the candidate register
+# ---------------------------------------------------------------------------
+
+_VOCABULARY_FILES = ("task_facet_defs", "task_game_defs", "vocabulary_candidates")
+
+
+def load_vocabularies(data_dir: Path, problems: list[str]) -> dict:
+    """Load the three vocabulary files, each validated against its schema.
+
+    Parameters:
+        data_dir: The data/ directory.
+        problems: The list to append messages to.
+
+    Returns:
+        A dict of lookup tables: `facets` (facet -> set of values), `game_types` (game type
+        -> {rule -> (default, set of values)}), `motivation` (question -> set of values),
+        `required_motivation` (questions a task must answer), `phases`, `settings`, `how`
+        and `candidates` (sets of names).
+    """
+    raw = {}
+    for name in _VOCABULARY_FILES:
+        raw[name] = load_json(data_dir / f"{name}.json")
+        _schema_check(raw[name], data_dir / "schemas" / f"{name}.schema.json", f"{name}.json", problems)
+        _check_ascii(f"{name}.json", raw[name], problems)
+
+    facets = {f["facet"]: {v["value"] for v in f["values"]} for f in raw["task_facet_defs"]["facets"]}
+    games = raw["task_game_defs"]
+    game_types: dict[str, dict[str, tuple[str, set[str]]]] = {}
+    for g in games["game_types"]:
+        rules = {}
+        for r in g.get("rules", []):
+            values = {v["value"] for v in r["values"]}
+            if r["default"] not in values:
+                problems.append(
+                    f"task_game_defs.json: rule {g['game_type']}.{r['rule']} default {r['default']!r} is not one of its values"
+                )
+            rules[r["rule"]] = (r["default"], values)
+        game_types[g["game_type"]] = rules
+    vocab = {
+        "facets": facets,
+        "game_types": game_types,
+        "motivation": {m["key"]: {v["value"] for v in m["values"]} for m in games["motivation"]},
+        "required_motivation": {m["key"] for m in games["motivation"] if m.get("required")},
+        "phases": {p["phase"] for p in games["phases"]},
+        "settings": {s["setting"] for s in games["settings"]},
+        "how": {c["how"] for c in games["combinations"]},
+        "candidates": {c["candidate_id"] for c in raw["vocabulary_candidates"]["candidates"]},
+    }
+    for label, items, key in (
+        ("facet", raw["task_facet_defs"]["facets"], "facet"),
+        ("game type", games["game_types"], "game_type"),
+        ("candidate", raw["vocabulary_candidates"]["candidates"], "candidate_id"),
+    ):
+        for value, n in collections.Counter(i[key] for i in items).items():
+            if n > 1:
+                problems.append(f"vocabulary: {label} {value!r} appears {n} times")
+    return vocab
+
+
+def _check_game_layer(
+    label: str, rec: dict, game_type: str | None, vocab: dict, ctx: dict, problems: list[str], standard: dict | None = None
+) -> None:
+    """Check the game-model keys that a task and a variant share.
+
+    Parameters:
+        label: The record's name in messages (task id, or task id and variant id).
+        rec: The task or variant record.
+        game_type: The task's game type; None when it is missing or unknown, in which case
+            the rules are not checked.
+        vocab: The tables from `load_vocabularies`.
+        ctx: `task_ids` and `process_ids`, the known identifiers.
+        problems: The list to append messages to.
+        standard: For a variant, the standard form (the task record). A task may not state a
+            rule with its default; a variant may (to undo a standard-form answer), but may
+            not repeat the standard form's answer. A variant may not repeat the standard
+            form's list for a facet or its answer to a motivation question, and may give an
+            empty facet list only for a facet the standard form carries (the facet does not
+            apply to this form).
+    """
+    std_facets = (standard or {}).get("task_facets") or {}
+    std_motivation = (standard or {}).get("motivation") or {}
+    for facet, values in (rec.get("task_facets") or {}).items():
+        if facet not in vocab["facets"]:
+            problems.append(f"{label}: task_facets names unknown facet {facet!r}")
+            continue
+        for v in values:
+            if v not in vocab["facets"][facet]:
+                problems.append(f"{label}: task_facets {facet} has unknown value {v!r}")
+        if standard is not None:
+            if not values and facet not in std_facets:
+                problems.append(
+                    f"{label}: task_facets {facet} is empty, but the standard form does not carry the facet; leave it out"
+                )
+            elif values and facet in std_facets and set(values) == set(std_facets[facet]):
+                problems.append(f"{label}: task_facets {facet} repeats the standard form's list {values}; leave it out")
+
+    std_rules = (standard or {}).get("rules") or {}
+    rules = rec.get("rules") or {}
+    if rules and game_type is not None:
+        known_rules = vocab["game_types"][game_type]
+        if not known_rules:
+            problems.append(f"{label}: game type {game_type!r} has no rules, but the record states {sorted(rules)}")
+        else:
+            for rule, value in rules.items():
+                if rule not in known_rules:
+                    problems.append(f"{label}: rule {rule!r} does not belong to game type {game_type!r}")
+                    continue
+                default, values = known_rules[rule]
+                if value not in values:
+                    problems.append(f"{label}: rule {rule} has unknown value {value!r}")
+                elif standard is None and value == default:
+                    problems.append(f"{label}: rule {rule} is stated with its default {value!r}; leave it out")
+                elif standard is not None and value == std_rules.get(rule, default):
+                    problems.append(f"{label}: rule {rule} repeats the standard form's answer {value!r}; leave it out")
+
+    for question, answer in (rec.get("motivation") or {}).items():
+        if question not in vocab["motivation"]:
+            problems.append(f"{label}: motivation names unknown question {question!r}")
+            continue
+        for v in answer if isinstance(answer, list) else [answer]:
+            if v not in vocab["motivation"][question]:
+                problems.append(f"{label}: motivation {question} has unknown value {v!r}")
+        if question in std_motivation and set(answer if isinstance(answer, list) else [answer]) == set(
+            std_motivation[question] if isinstance(std_motivation[question], list) else [std_motivation[question]]
+        ):
+            problems.append(f"{label}: motivation {question} repeats the standard form's answer {answer!r}; leave it out")
+
+    for phase in rec.get("phases") or []:
+        if phase not in vocab["phases"]:
+            problems.append(f"{label}: unknown phase {phase!r}")
+    for setting in rec.get("settings") or []:
+        if setting not in vocab["settings"]:
+            problems.append(f"{label}: unknown setting {setting!r}")
+    for i, c in enumerate(rec.get("combined_with") or []):
+        if c.get("how") not in vocab["how"]:
+            problems.append(f"{label}: combined_with {i} has unknown how {c.get('how')!r}")
+        if "game_type" in c and c["game_type"] not in vocab["game_types"]:
+            problems.append(f"{label}: combined_with {i} names unknown game type {c['game_type']!r}")
+        if "task" in c and c["task"] not in ctx["task_ids"]:
+            problems.append(f"{label}: combined_with {i} names unknown task {c['task']!r}")
+    for cand in rec.get("candidates") or []:
+        if cand not in vocab["candidates"]:
+            problems.append(f"{label}: candidate {cand!r} is not in vocabulary_candidates.json")
+
+
+def check_game_records(tasks: list[dict], vocab: dict, process_ids: set[str], problems: list[str]) -> dict[str, list[str]]:
+    """Check the game-model keys of every task and of its variants.
+
+    Every task must state `game_type`, `motivation` (with every required question) and
+    `task_facets`. The JSON Schema requires the three keys too; the checks here give a
+    message per task.
+
+    Parameters:
+        tasks: The task records.
+        vocab: The tables from `load_vocabularies`.
+        process_ids: The known process ids.
+        problems: The list to append messages to.
+
+    Returns:
+        Candidate id -> the tasks (standard form or a variant) that cite it, for every
+        candidate cited by two or more tasks. This is a report, not a failure.
+    """
+    ctx = {"task_ids": {t["hedtsk_id"] for t in tasks}, "process_ids": process_ids}
+    seen_variant_ids: set[str] = set()
+    cited_by: dict[str, set[str]] = collections.defaultdict(set)
+    for t in tasks:
+        tid = t["hedtsk_id"]
+        game_type = t.get("game_type")
+        if game_type is None:
+            problems.append(f"{tid}: game_type is missing")
+        elif game_type not in vocab["game_types"]:
+            problems.append(f"{tid}: unknown game type {game_type!r}")
+            game_type = None
+        motivation = t.get("motivation")
+        if motivation is None:
+            problems.append(f"{tid}: motivation is missing")
+        else:
+            for question in sorted(vocab["required_motivation"] - set(motivation)):
+                problems.append(f"{tid}: motivation {question} is missing")
+        if "task_facets" not in t:
+            problems.append(f"{tid}: task_facets is missing")
+        _check_game_layer(tid, t, game_type, vocab, ctx, problems)
+        for cand in t.get("candidates") or []:
+            cited_by[cand].add(tid)
+
+        slug_prefix = "hedvar_" + tid.removeprefix("hedtsk_") + "__"
+        for v in t.get("variants") or []:
+            vid = v.get("variant_id", "")
+            label = f"{tid}: variant {vid or v.get('name')!r}"
+            rest = vid.removeprefix(slug_prefix)
+            if not vid.startswith(slug_prefix) or not rest or not all(c.islower() or c.isdigit() or c == "_" for c in rest):
+                problems.append(f"{label}: variant_id must be {slug_prefix}<slug> (lowercase letters, digits, underscores)")
+            if vid in seen_variant_ids:
+                problems.append(f"{label}: duplicate variant_id")
+            seen_variant_ids.add(vid)
+            _check_game_layer(label, v, game_type, vocab, ctx, problems, standard=t)
+            for pid in v.get("hed_process_ids") or []:
+                if pid not in process_ids:
+                    problems.append(f"{label}: hed_process_ids names unknown process {pid!r}")
+                elif pid in (t.get("hed_process_ids") or []):
+                    problems.append(f"{label}: hed_process_ids repeats {pid!r}, already on the task; leave it out")
+            for cand in v.get("candidates") or []:
+                cited_by[cand].add(tid)
+    return {c: sorted(ts) for c, ts in sorted(cited_by.items()) if len(ts) > 1}
+
+
 def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None:
     """Check the two catalog files against their schemas and against each other.
 
@@ -182,15 +424,9 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
                         f"{t['hedtsk_id']}: {field} item must be trimmed, begin with a letter, digit or parenthesis "
                         f"and carry no final period or semicolon: {item!r}"
                     )
-        # A task engages at least one process; a pseudo task (task criteria, "Pseudo tasks") engages none
-        # by definition, so the two kinds are checked in opposite directions.
-        is_pseudo = t.get("task_kind", "task") == "pseudo_task"
-        if not t.get("hed_process_ids") and not is_pseudo:
-            problems.append(f"{t['hedtsk_id']}: hed_process_ids is empty but task_kind is not pseudo_task")
-        if t.get("hed_process_ids") and is_pseudo:
-            problems.append(
-                f"{t['hedtsk_id']}: a pseudo task carries no process links, but hed_process_ids is {t['hed_process_ids']}"
-            )
+        # Every task engages at least one process.
+        if not t.get("hed_process_ids"):
+            problems.append(f"{t['hedtsk_id']}: hed_process_ids is empty; every task is linked to at least one process")
     _check_memberships(processes, "categories", "category_id", category_ids, "process_id", problems)
     primary_cats = {primary_category(p) for p in processes if any(m.get("role") == "primary" for m in p.get("categories", []))}
     for cid in sorted(category_ids - primary_cats):
@@ -241,18 +477,25 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
                 if bad:
                     problems.append(f"{r[idf]}: reference {i} has roles {bad} not in {sorted(roles)}")
 
-    # Variation ids are derived from the parent id and the name; they must match.
-    seen_var: set[str] = set()
-    for t in tasks:
-        for v in t.get("variations", []):
-            expected_id = variation_id(t["hedtsk_id"], v["name"])
-            if v.get("variation_id") != expected_id:
-                problems.append(
-                    f"{t['hedtsk_id']}: variation {v['name']!r} has id {v.get('variation_id')!r}, expected {expected_id!r}"
-                )
-            if expected_id in seen_var:
-                problems.append(f"{t['hedtsk_id']}: duplicate variation id {expected_id!r}")
-            seen_var.add(expected_id)
+    # The game model: game type, rules, motivation, facets, phases, settings, combined
+    # games, candidates and variants, against the three vocabulary files. Variant ids are
+    # stored; check_game_records checks their form and that they are unique.
+    vocab = load_vocabularies(data_dir, problems)
+    shared = check_game_records(tasks, vocab, process_ids, problems)
+    for cand, task_list in shared.items():
+        print(f"  note: candidate {cand} is cited by {len(task_list)} tasks ({', '.join(task_list)}); consider promoting it")
+
+    # ASCII only, apart from letters in author names and published titles. The TSV
+    # tables have no such fields, so they are ASCII throughout; the Atlas tables are
+    # cleaned when src/build_atlas_maps.py writes them.
+    _check_ascii("task_details.json", tasks, problems)
+    _check_ascii("process_details.json", proc_data, problems)
+    for tsv in sorted(data_dir.rglob("*.tsv")):
+        for n, line in enumerate(tsv.read_text(encoding="utf-8").splitlines(), 1):
+            bad = sorted({c for c in line if ord(c) > 127})
+            if bad:
+                chars = ", ".join(f"U+{ord(c):04X}" for c in bad)
+                problems.append(f"{tsv.relative_to(data_dir).as_posix()}:{n}: non-ASCII {chars}")
 
     if problems:
         sys.exit(f"Catalog data is inconsistent ({len(problems)} problems); nothing written.\n  " + "\n  ".join(problems))
@@ -282,79 +525,11 @@ def load_families(data_dir: Path, tasks: list[dict]) -> list[dict]:
     for fid in sorted(known - used):
         problems.append(f"task_family_defs.tsv: no task is filed under family {fid}")
 
-    # Pseudo tasks and the pseudo-task family belong together, in both directions, and a
-    # pseudo task is not cross-listed elsewhere.
-    for t in with_primary:
-        kind = t.get("task_kind", "task")
-        listed = {m["family_id"] for m in t["families"]}
-        if kind == "pseudo_task" and (primary_family(t) != PSEUDO_FAMILY or listed != {PSEUDO_FAMILY}):
-            problems.append(f"{t['hedtsk_id']}: a pseudo task belongs to {PSEUDO_FAMILY!r} only")
-        if kind != "pseudo_task" and PSEUDO_FAMILY in listed:
-            problems.append(f"{t['hedtsk_id']}: is in {PSEUDO_FAMILY!r} but its task_kind is not pseudo_task")
-
     if problems:
         sys.exit("Family data is inconsistent; nothing written.\n  " + "\n  ".join(problems))
 
     defs.sort(key=lambda d: int(d["order"]))
     return defs
-
-
-# The facet vocabulary in data/facet_defs.tsv. Nothing on a task record uses it yet; it
-# is validated here so that an edit to the vocabulary is caught before the pages that
-# render it are written.
-FACETS = ("stimulus_modality", "stimulus_kind", "stimulus_role", "response_modality", "response_kind", "instructions")
-FACET_SOURCES = ("cogpo", "cogpo_wiki", "hed", "catalog")
-FACET_COLUMNS = ("facet", "value", "label", "definition", "source", "cogpo_id", "hed_tags", "hed_note")
-_FACET_VALUE = re.compile(r"^[a-z][a-z0-9_]*$")
-
-
-def load_facet_defs(data_dir: Path) -> list[dict]:
-    """Read and validate data/facet_defs.tsv. Exits, naming the row, on any problem.
-
-    A `cogpo` row must name a dimension value that exists in data/cogpo_summary.json. A
-    `cogpo_wiki` row names a wiki page title, which the summary does not list when the
-    page has no term template (the body parts), so only its presence is checked.
-    """
-    path = data_dir / "facet_defs.tsv"
-    rows = read_tsv(path)
-    problems: list[str] = []
-    if not rows:
-        sys.exit("data/facet_defs.tsv is missing or empty; nothing written.")
-    missing = [c for c in FACET_COLUMNS if c not in rows[0]]
-    if missing:
-        sys.exit(f"data/facet_defs.tsv lacks columns {missing}; nothing written.")
-
-    summary = load_json(data_dir / "cogpo_summary.json")
-    owl_ids = {v["id"] for d in summary["dimensions"].values() for v in d["values"]}
-
-    seen: set[tuple[str, str]] = set()
-    for row in rows:
-        label = f"facet_defs.tsv {row['facet']}/{row['value']}"
-        if row["facet"] not in FACETS:
-            problems.append(f"{label}: facet not in {FACETS}")
-        if not _FACET_VALUE.match(row["value"]):
-            problems.append(f"{label}: value must be lowercase snake_case")
-        if (row["facet"], row["value"]) in seen:
-            problems.append(f"{label}: duplicate value")
-        seen.add((row["facet"], row["value"]))
-        if row["source"] not in FACET_SOURCES:
-            problems.append(f"{label}: source {row['source']!r} not in {FACET_SOURCES}")
-        if row["source"] == "cogpo" and row["cogpo_id"] not in owl_ids:
-            problems.append(f"{label}: cogpo_id {row['cogpo_id']!r} is not a CogPO dimension value in cogpo_summary.json")
-        if row["source"] == "cogpo_wiki" and not row["cogpo_id"]:
-            problems.append(f"{label}: a cogpo_wiki row needs the wiki page title in cogpo_id")
-        if row["source"] in ("hed", "catalog") and row["cogpo_id"]:
-            problems.append(f"{label}: a {row['source']} row must not carry a cogpo_id")
-        if row["source"] == "hed" and not row["hed_tags"].strip():
-            problems.append(f"{label}: a hed row needs hed_tags")
-        if not row["label"].strip() or not row["definition"].strip():
-            problems.append(f"{label}: label and definition are required")
-        if any(ord(ch) > 127 for ch in "\t".join(row.values())):
-            problems.append(f"{label}: non-ASCII character")
-
-    if problems:
-        sys.exit("Facet vocabulary is inconsistent; nothing written.\n  " + "\n  ".join(problems))
-    return rows
 
 
 # ---------------------------------------------------------------------------
@@ -378,8 +553,16 @@ def clear_generated(docs_dir: Path) -> int:
 
 def main() -> None:
     repo_root = _HERE.parent
+    parser = argparse.ArgumentParser(description="Validate the catalog and generate the catalog pages.")
+    parser.add_argument(
+        "--docs-dir",
+        type=Path,
+        default=repo_root / "docs" / "source",
+        help="The Sphinx source directory to write into (default: docs/source). Use a copy to try a change.",
+    )
+    args = parser.parse_args()
     data_dir = repo_root / "data"
-    docs_dir = repo_root / "docs" / "source"
+    docs_dir = args.docs_dir.resolve()
 
     print("Loading data/task_details.json and data/process_details.json ...")
     tasks: list[dict] = load_json(data_dir / "task_details.json")
@@ -393,12 +576,16 @@ def main() -> None:
     print(
         f"  {len(tasks)} tasks, {len(processes)} processes, {len(categories)} categories, {len(families)} families: consistent"
     )
-    facet_defs = load_facet_defs(data_dir)
-    print(f"  {len(facet_defs)} facet values in {len({r['facet'] for r in facet_defs})} facets: consistent")
 
     # The curated mapping drives the Atlas link on each task page and is the only Atlas
     # cross-reference; task records carry no atlas_id of their own.
     atlas_map = {r["hedtsk_id"]: r for r in read_tsv(data_dir / "mappings" / "hed_task_to_atlas.tsv")}
+    # Atlas entries matched to a variant (exact or close) are linked from that variant's
+    # row, so that a task with several Atlas entries shows all of them where each belongs.
+    atlas_variant_map: dict[str, list[dict]] = collections.defaultdict(list)
+    for row in read_tsv(data_dir / "mappings" / "atlas_task_to_hed.tsv"):
+        if row["match_level"] == "variant" and row["match_type"] in ("exact", "close"):
+            atlas_variant_map[row["hed_variant_id"]].append(row)
 
     # The CogPO mapping drives the CogPO link on each task page the same way. A class
     # links to its page on the CogPO wiki, whose title the summary records; the two
@@ -419,11 +606,15 @@ def main() -> None:
     total = 0
 
     print("Generating docs/source/tasks/ ...")
-    n = task_pages.generate(docs_dir, tasks, processes_by_id, families, atlas_map, cogpo_map)
+    game_defs = load_json(data_dir / "task_game_defs.json")
+    n = task_pages.generate(docs_dir, tasks, processes_by_id, families, atlas_map, cogpo_map, atlas_variant_map, game_defs)
     total += n
     print(
         f"  Wrote {n} task files (index, tasks_by_family, {len(families)} family pages, tasks_alphabetically, {len(tasks)} task pages)."
     )
+    n = vocabulary_pages.generate(docs_dir, data_dir, tasks)
+    total += n
+    print(f"  Wrote {n} vocabulary files (vocabulary, by_game_type, by_facet).")
 
     print("Generating docs/source/processes/ ...")
     n = process_pages.generate(docs_dir, processes, categories, tasks_by_id)

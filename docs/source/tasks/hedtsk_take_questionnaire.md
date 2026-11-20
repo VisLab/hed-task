@@ -3,22 +3,29 @@
 
 **HED task ID:** `hedtsk_take_questionnaire`
 
-**Family:** [Pseudo tasks: rest, fixation, self-report and feedback blocks](families/pseudo_tasks.md)
-
-:::{note}
-**Pseudo task.** A block that establishes or holds a state, collects a self-report or
-delivers feedback, rather than eliciting a cognitive process through a trial structure. It is in the Catalog
-so that such blocks can be labelled with the same vocabulary as the tasks around them.
-See [Pseudo tasks](../methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3) in the task criteria.
-:::
+**Family:** [Self-report tasks](families/self_report.md)
 
 **Also known as:** Questionnaire Block, Questionnaire Administration, Self-Report Block, Survey
 
-Participant reads or hears a series of questionnaire items and records a response to each; the instrument administered is a parameter of the block, not a variation.
+Participant reads or hears a series of questionnaire items and records a response to each; the instrument administered is a parameter of the block, not a variant.
 
 ## Description
 
-A self-report instrument is administered as a block of the session, before, between or after task blocks. Items are presented on paper, on screen or read aloud, and the participant answers each in the instrument's response format. There is no time pressure and no stimulus other than the items themselves. The Catalog does not list instruments as tasks; it records the administration as a block so that the time spent on it, and any physiology recorded during it, can be labelled, and it records which instrument was used as a parameter of the block. Take Questionnaire is a pseudo task: it collects a self-report rather than eliciting a process, so it carries no process links.
+A self-report instrument is administered as a block of the session, before, between or after task blocks. Items are presented on paper, on screen or read aloud, and the participant answers each in the instrument's response format. There is no time pressure and no stimulus other than the items themselves. The Catalog does not list instruments as tasks; answering one is this task, and which instrument was used is a parameter of it. Each item is a stimulus and each answer a response, but no answer is correct. To answer, the participant reads and understands the item, recalls what is relevant from their own experience, judges how it applies to them, and picks the response option that fits. A computerized administration records when each item was shown and answered.
+
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-report-on-self">report on self</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-text">text</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Material:** The items of a self-report instrument, on paper, on screen or read aloud, with the instrument's response options.
 
 ## Inclusion test
 
@@ -32,7 +39,7 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Procedure**
   - Participant reads or hears each item of a questionnaire and records a response to it, in the instrument's format, with no time pressure.
 * - **Manipulations**
-  - - The instrument administered (a parameter, not a variation)
+  - - The instrument administered (a parameter, not a variant)
     - Administration mode (paper, computerized, interviewer-read)
     - Response format (Likert, forced choice, free text)
     - Position relative to task blocks
@@ -42,37 +49,40 @@ least one of the listed variables, and it records at least one of the listed mea
     - Physiological recording during completion is incidental
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Computerized Questionnaire
-
-    `hedvar_take_questionnaire__computerized_questionnaire`
-  - Items on screen, responses by key or mouse, item timing recorded.
-  - Different response modality and one recorded event per item
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Interviewer-Administered Questionnaire
 
     `hedvar_take_questionnaire__interviewer_administered_questionnaire`
-  - Items read aloud by an interviewer and answered verbally.
-  - Different sensory and response modality
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
+  - [Speech perception](../processes/language_comprehension_and_production.md#hed-speech-perception)
+  - An interviewer reads each item aloud and the participant answers in speech, the interviewer recording the answers.
 ```
 
 ## Cognitive processes
 
-No process links have been recorded for this pseudo task. That is a gap in the Catalog, not a
-claim that the block engages no process: a pseudo task is not run to probe a process, and the
-processes it does engage have not yet been linked.
+This task is designed to engage the following processes:
+
+- [Sentence comprehension](../processes/language_comprehension_and_production.md#hed-sentence-comprehension)
+- [Retrieval](../processes/long_term_memory.md#hed-retrieval)
+- [Autobiographical memory](../processes/long_term_memory.md#hed-autobiographical-memory)
+- [Self-referential processing](../processes/awareness_agency_and_metacognition.md#hed-self-referential-processing)
+- [Response selection](../processes/motor_preparation_timing_and_execution.md#hed-response-selection)
 
 ## Further references
 
 - Bowling, A. (2005). Mode of questionnaire administration can have serious effects on data quality. *Journal of Public Health*, 27(3), 281-291. ([DOI](https://doi.org/10.1093/pubmed/fdi031))
+- Tourangeau, R., Rips, L. J., & Rasinski, K. (2000). *The psychology of survey response*. Cambridge University Press. ([DOI](https://doi.org/10.1017/CBO9780511819322))
 

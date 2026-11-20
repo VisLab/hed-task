@@ -13,6 +13,21 @@ Repeated execution of a fixed finger sequence; within- and across-session speed 
 
 Participants are trained to execute finger sequences (e.g., pressing buttons in a specific order: 4-1-3-2-4) either continuously or in discrete blocks. Learning is indexed by decreasing RT, reduced movement duration, and decreased errors. Neuroimaging shows early learning engages cerebellum and prefrontal cortex, while consolidated sequences show greater striatal and reduced cerebellar engagement, reflecting a shift from explicit, attention-demanding processes to implicit, automatic execution. Sleep promotes offline consolidation of motor sequences.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-produce-movement">produce movement</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-list-length">list length</a>, <a href="vocabulary.html#setting-number-of-repetitions">number of repetitions</a>, <a href="vocabulary.html#setting-retention-interval">retention interval</a>
+- **Material:** Spatial cues or a digit sequence (such as 4-1-3-2-4) naming the fingers to press in order.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -25,11 +40,14 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Procedure**
   - 1. Participants repeatedly perform a fixed sequence of finger movements (e.g., 4-1-3-2-4) in response to spatial cues.
     2. Over practice, performance speeds up and becomes more automatic.
+    3. Optional: After practice the sequence is performed with the other hand, other fingers or mirror-reversed.
 * - **Manipulations**
   - - Sequence length and complexity
     - Explicit vs. implicit instruction
     - Amount of practice
     - Sleep consolidation intervals
+    - Number of hands (bimanual vs. unimanual)
+    - Movement type (continuous tracking with hidden repeating path)
 * - **Measurements**
   - - Sequence execution time
     - Error rate
@@ -37,58 +55,38 @@ least one of the listed variables, and it records at least one of the listed mea
     - Transfer to new sequences
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Discrete Sequence Production (DSP)
-
-    `hedvar_motor_sequence_learning__discrete_sequence_production_dsp`
-  - Execute learned sequences from memory as fast as possible.
-  - Canonical pre-learned sequence executed rapidly; measures chunking
-* - Serial Reaction Time Task variant
-
-    `hedvar_motor_sequence_learning__serial_reaction_time_task_variant`
-  - Implicit sequence learning via stimulus-response mapping.
-  - Implicit learning via RT advantages for repeating sequences
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Finger Opposition Task
 
     `hedvar_motor_sequence_learning__finger_opposition`
-  - Sequential thumb-to-finger tapping in fixed patterns.
-  - Thumb-to-finger opposition sequences; different finger movement type
-* - Bimanual Coordination
-
-    `hedvar_motor_sequence_learning__bimanual_coordination`
-  - Both hands performing complementary or conflicting sequences.
-  - Both hands performing sequences; interlimb coordination demands
-* - Explicit vs. Implicit Sequence Learning
-
-    `hedvar_motor_sequence_learning__explicit_vs_implicit_sequence_learning`
-  - Participants aware vs. unaware of sequence structure.
-  - Aware vs. unaware of sequence structure; different instruction and learning mechanism
-* - Sequence Complexity Manipulation
-
-    `hedvar_motor_sequence_learning__sequence_complexity_manipulation`
-  - Simple (4-element) to complex (12-element) sequences.
-  - Varies sequence length and structure; tests learning as function of complexity
+  - task I/O device: none
+  - -
+  - The thumb touches the other fingers in a fixed order with no keys or screen; the sequence is given by instruction.
 * - Transfer Tests
 
     `hedvar_motor_sequence_learning__transfer_tests`
-  - Testing learned sequences with different effectors or in mirror configuration.
-  - Probe what was learned by testing with modified sequence; different test phase structure
+  - phases: <a href="vocabulary.html#phase-transfer">transfer</a>
+  - -
+  - After practice the sequence is performed with the other hand, with other fingers, or mirror-reversed.
 * - Continuous Tracking + Sequence
 
     `hedvar_motor_sequence_learning__continuous_tracking_sequence`
-  - Pursuit-tracking task with embedded repeating segments.
-  - Sequence embedded in continuous tracking; tests incidental learning during ongoing task
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-joystick">joystick</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
+  - -
+  - The participant follows a moving target with a joystick, and part of the target's path secretly repeats.
 ```
 
 ## Cognitive processes
@@ -109,9 +107,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- King, B. R., Hoedlmoser, K., Hirschauer, F., Dolfen, N., & Albouy, G. (2017). Sleeping on the motor engram: The multifaceted nature of sleep-related motor memory consolidation. *Neuroscience & Biobehavioral Reviews*, 80, 1–22. ([DOI](https://doi.org/10.1016/j.neubiorev.2017.04.026), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28465166/))
-- Hikosaka, O., Nakamura, K., Sakai, K., & Nakahara, H. (2002). Central mechanisms of motor skill learning. *Current Opinion in Neurobiology*, 12(2), 217–222. [Updated: Diedrichsen, J., & Kornysheva, K. (2015). Motor skill learning between selection and execution. *Trends in Cognitive Sciences*, 19(4), 227–233.] ([DOI](https://doi.org/10.1016/s0959-4388(02)00307-0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12015240/))
-- Verwey, W. B., Shea, C. H., & Wright, D. L. (2015). A cognitive framework for explaining serial processing and sequence execution strategies. *Psychonomic Bulletin & Review*, 22(1), 54–77. ([DOI](https://doi.org/10.3758/s13423-014-0773-4))
+- King, B. R., Hoedlmoser, K., Hirschauer, F., Dolfen, N., & Albouy, G. (2017). Sleeping on the motor engram: The multifaceted nature of sleep-related motor memory consolidation. *Neuroscience & Biobehavioral Reviews*, 80, 1-22. ([DOI](https://doi.org/10.1016/j.neubiorev.2017.04.026), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28465166/))
+- Hikosaka, O., Nakamura, K., Sakai, K., & Nakahara, H. (2002). Central mechanisms of motor skill learning. *Current Opinion in Neurobiology*, 12(2), 217-222. [Updated: Diedrichsen, J., & Kornysheva, K. (2015). Motor skill learning between selection and execution. *Trends in Cognitive Sciences*, 19(4), 227-233.] ([DOI](https://doi.org/10.1016/s0959-4388(02)00307-0), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12015240/))
+- Verwey, W. B., Shea, C. H., & Wright, D. L. (2015). A cognitive framework for explaining serial processing and sequence execution strategies. *Psychonomic Bulletin & Review*, 22(1), 54-77. ([DOI](https://doi.org/10.3758/s13423-014-0773-4))
 
 ## External links
 

@@ -26,7 +26,7 @@ Tendency to engage with stimuli associated with positive outcomes.
 
 **Further references**
 
-- Elliot (2006) *Motivation and Emotion* 30:111–116 ([DOI](https://doi.org/10.1007/s11031-006-9028-7))
+- Elliot (2006) *Motivation and Emotion* 30:111-116 ([DOI](https://doi.org/10.1007/s11031-006-9028-7))
 
 (hed-avoidance-motivation)=
 ## Avoidance motivation
@@ -43,7 +43,7 @@ Tendency to disengage from stimuli associated with negative outcomes.
 
 **Further references**
 
-- Elliot (2006) *Motivation and Emotion* 30:111–116 ([DOI](https://doi.org/10.1007/s11031-006-9028-7))
+- Elliot (2006) *Motivation and Emotion* 30:111-116 ([DOI](https://doi.org/10.1007/s11031-006-9028-7))
 
 (hed-effort-allocation)=
 ## Effort allocation
@@ -56,11 +56,11 @@ Decision to expend physical or cognitive effort as a function of expected reward
 
 **Fundamental references**
 
-- Salamone, Correa, Farrar & Mingote (2007) *Psychopharmacology* 191:461–482 ([DOI](https://doi.org/10.1007/s00213-006-0668-9), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17225164/))
+- Salamone, Correa, Farrar & Mingote (2007) *Psychopharmacology* 191:461-482 ([DOI](https://doi.org/10.1007/s00213-006-0668-9), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17225164/))
 
 **Further references**
 
-- Westbrook & Braver (2015) *Cognitive, Affective, & Behavioral Neuroscience* 15:395–415 ([DOI](https://doi.org/10.3758/s13415-015-0334-y), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25673005/))
+- Westbrook & Braver (2015) *Cognitive, Affective, & Behavioral Neuroscience* 15:395-415 ([DOI](https://doi.org/10.3758/s13415-015-0334-y), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25673005/))
 
 (hed-incentive-salience)=
 ## Incentive salience
@@ -73,7 +73,7 @@ Decision to expend physical or cognitive effort as a function of expected reward
 
 **Fundamental references**
 
-- Berridge & Robinson (1998) *Brain Research Reviews* 28:309–369 ([DOI](https://doi.org/10.1016/s0165-0173(98)00019-8), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9858756/))
+- Berridge & Robinson (1998) *Brain Research Reviews* 28:309-369 ([DOI](https://doi.org/10.1016/s0165-0173(98)00019-8), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9858756/))
 
 (hed-reward-anticipation)=
 ## Reward anticipation
@@ -90,7 +90,7 @@ Affective and neural response to cues predicting upcoming reward.
 
 **Further references**
 
-- Oldham, Murawski, Fornito, Youssef, Yücel & Lorenzetti (2018) *Human Brain Mapping* 39:3398–3418 ([DOI](https://doi.org/10.1002/hbm.24184))
+- Oldham, Murawski, Fornito, Youssef, Yücel & Lorenzetti (2018) *Human Brain Mapping* 39:3398-3418 ([DOI](https://doi.org/10.1002/hbm.24184))
 
 (hed-reward-consumption)=
 ## Reward consumption
@@ -103,9 +103,9 @@ Affective and neural response to receipt of reward.
 
 **Fundamental references**
 
-- Berridge & Kringelbach (2008) *Psychopharmacology* 199:457–480 ([DOI](https://doi.org/10.1007/s00213-008-1099-6), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18311558/))
+- Berridge & Kringelbach (2008) *Psychopharmacology* 199:457-480 ([DOI](https://doi.org/10.1007/s00213-008-1099-6), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18311558/))
 
 **Further references**
 
-- Berridge & Kringelbach (2015) *Neuron* 86:646–664 ([DOI](https://doi.org/10.1016/j.neuron.2015.02.018), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25950633/))
+- Berridge & Kringelbach (2015) *Neuron* 86:646-664 ([DOI](https://doi.org/10.1016/j.neuron.2015.02.018), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25950633/))
 

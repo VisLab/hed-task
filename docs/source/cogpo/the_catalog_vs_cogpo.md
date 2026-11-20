@@ -13,9 +13,7 @@ with a granularity finer than that defined by the Catalog. Each has what the oth
 
 [What is CogPO?](what_is_cogpo.md) provides an overview of CogPO. The
 [task mapping](task_mapping.md) page gives the correspondence between the two
-paradigm lists row by row, the [dimension mapping](dimension_mapping.md) page sets
-CogPO's stimulus, response and instruction vocabularies beside the Catalog's facets and
-the HED schema, and the [CogPO mapping method](../methods/cogpo_mapping_method.md) page
+paradigm lists row by row, and the [CogPO mapping method](../methods/cogpo_mapping_method.md) page
 explains how each row was decided. This page says what it adds up to.
 
 ## Two resources doing different jobs
@@ -31,7 +29,7 @@ imaging study might do had to be codable.
 The Catalog was built for HED annotation of event-structured data. Its job is to give a
 dataset a task name that carries a stable meaning: a procedure that can be recognized, a
 set of processes that a reader can expect the events to bear on, and a list of the
-variations that keep the name. Hence the inclusion tests, the variation rules, the
+variants that keep the name. Hence the inclusion tests, the variant rules, the
 references and the process axis, and the exclusion of procedures with no trial
 structure.
 
@@ -40,10 +38,10 @@ are curated lists rather than open contributions.
 
 |  | The Catalog | CogPO |
 |---|---|---|
-| Experimental paradigms | 103 tasks and 4 pseudo tasks | 83 classes (84 on the wiki) |
+| Experimental paradigms | 106 tasks | 83 classes (84 on the wiki) |
 | Cognitive processes | 172 | not modelled |
-| Named variations | {{ n_variations }} | not modelled |
-| Stimulus, response and instruction vocabularies | facets, seeded from CogPO | 6 vocabularies, about 100 values |
+| Variants | {{ n_variants }} | not modelled |
+| Stimulus, response and instruction vocabularies | facets, anchored on HED tags | 6 vocabularies, about 100 values |
 | References per paradigm | curated, with roles | occasional BrainMap citation on a definition |
 | Last curated | ongoing | 2011 |
 
@@ -70,8 +68,7 @@ can be read one by one):
 ```
 
 Where CogPO registers a specific case as a class of its own, the Catalog often records
-it as a named variation: Auditory Oddball and Visual Oddball, Delayed Non Match To
-Sample, the prosaccade, covert verb generation.
+it as a variant: Visual Oddball, the prosaccade, covert verb generation.
 
 ```{include} ../_generated/mapping_cogpo_level.md
 ```
@@ -88,7 +85,7 @@ Both split the paradigm from its response modality only when the field does. Cog
 overt and covert classes for naming, reading, repetition, word generation and word stem
 completion, because in an fMRI scanner the difference between saying a word and thinking
 it is the difference between two experiments; the Catalog treats the response as a
-variation. Neither treats the response modality as making a new task anywhere else.
+variant. Neither treats the response modality as making a new task anywhere else.
 
 ## Where they differ
 
@@ -108,7 +105,7 @@ are motor acts (grasping, pointing, drawing, writing, whistling, flexion or exte
 three are broad perceptual classes and one is the flashing checkerboard. The Catalog's
 task criteria exclude the last four groups deliberately.
 
-In the other direction, 35 of the Catalog's 107 tasks have no CogPO class at all and 26
+In the other direction, 34 of the Catalog's 106 tasks have no CogPO class at all and 26
 more fall only under a broad class such as Reward Task or Visual Attention. CogPO has no
 economic games, no metacognition, no priming, no spatial navigation, no implicit
 learning, no complex span, no stop-signal and no questionnaire.
@@ -120,25 +117,20 @@ their kin. Nine Catalog reward tasks fall under Reward Task Paradigm alone. Wher
 Catalog has a specific task inside such a class, the row is `close`; where it has only
 neighbours, `related`.
 
-**Variations, inclusion tests, references.** CogPO has none of the three.
+**Variants, inclusion tests, references.** CogPO has none of the three.
 
 ## What CogPO adds
 
 The dimension vocabularies. CogPO is the only one of the resources compared on this site
 that says, in a closed vocabulary, what a participant is shown, what they do with which
-body part, and what they are told to do. The Catalog has needed exactly this since its
-facets were first planned, and it adopts CogPO's six vocabularies as the starting point
-for its stimulus, response and instruction facets, crediting every value to CogPO in
-`data/facet_defs.tsv` and marking every addition. The
-[dimension mapping](dimension_mapping.md) page lists the values, the additions and the
-few values dropped as out of scope.
+body part, and what they are told to do. CogPO's vocabularies were the starting point
+when the Catalog's facets were first planned; the facets are now anchored on HED tags,
+and no CogPO value is recorded on them.
 
 ## CogPO and the HED schema
 
 CogPO's dimensions are close kin to the HED schema: each of the six lands in one HED
-subtree, and 88 of the 102 CogPO values have a HED 8.4.0 tag. That kinship is why the
-Catalog can adopt CogPO's vocabularies as facets without inventing a parallel one, and
-why a facet value on a task can become a tag on the dataset's events.
+subtree, and 88 of the 102 CogPO values have a HED 8.4.0 tag.
 [HED vs CogPO](hed_vs_cogpo.md) sets the two out in full: what each describes, where the
 vocabularies meet value by value, and what each has that the other lacks.
 
@@ -147,10 +139,9 @@ vocabularies meet value by value, and what each has that the other lacks.
 For the Catalog, CogPO is a source of vocabulary more than of paradigms. The fifteen
 task-shaped classes the Catalog lacks are candidates for the issue tracker, not
 omissions: most describe imaging-era block designs (film viewing, overt reading,
-recitation) whose event structure is thin. The dimension vocabularies, by contrast, go
-straight into the facets.
+recitation) whose event structure is thin.
 
 For a reader of CogPO, the Catalog supplies what CogPO left out: a process layer,
-variations, inclusion tests and references for the 50 classes the two share, and, for
+variants, inclusion tests and references for the 50 classes the two share, and, for
 the classes CogPO never populated, the paradigm-to-dimension assignments that its design
 called for and its curation never reached.

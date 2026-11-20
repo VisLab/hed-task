@@ -13,6 +13,26 @@ One-shot allocation task in which a proposer unilaterally divides an endowment b
 
 One player (dictator) unilaterally decides how much of an endowment to give to an anonymous recipient, who has no power to reject. Despite having complete power, many dictators give 20-30% of their endowment, reflecting intrinsic fairness concerns. fMRI shows generous allocations activate reward regions (ventral striatum, OFC) and empathy regions (anterior insula, ACC), suggesting altruistic choices engage similar neural systems as personal reward.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-interact-with-agent">interact with agent</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
+- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
+- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
+- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>
+- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>, <a href="vocabulary.html#motivation-real-hypothetical">hypothetical</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>
+- **Material:** An endowment of money, of which the participant gives any share to an anonymous recipient.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -31,69 +51,65 @@ least one of the listed variables, and it records at least one of the listed mea
     - Social distance
     - Framing (give vs. take)
     - Group identity
+    - Role structure (both players give and receive vs. one giver)
+    - Number of recipients (several vs. one)
+    - Exit option (opt out for a fixed payoff vs. none)
 * - **Measurements**
   - - Amount allocated to recipient
     - Proportion of fair (50-50) splits
     - Distribution of allocations across participants
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Dictator Game
-
-    `hedvar_dictator_game__standard_dictator_game`
-  - Unilateral allocation with no recipient power.
-  - Canonical: unilateral allocation from fixed endowment to anonymous recipient
-* - Take Game
-
-    `hedvar_dictator_game__take_game`
-  - Dictator can take from recipient's endowment.
-  - Dictator can take from recipient; different action space
-* - Give-or-Take Game
-
-    `hedvar_dictator_game__give_or_take_game`
-  - Option to give or take; reveals true preferences.
-  - Both giving and taking possible; combined action space
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Double Dictator
 
     `hedvar_dictator_game__double_dictator`
-  - Both players simultaneously dictate allocations to each other.
-  - Both players act as dictators simultaneously; distinct social structure
+  - move order: <a href="vocabulary.html#rule-interact-with-agent-move-order-simultaneous">simultaneous</a>
+  - -
+  - Both players are endowed and each decides at the same time how much to give the other, so every participant is both giver and recipient.
 * - Earned vs. Windfall Endowment
 
     `hedvar_dictator_game__earned_vs_windfall_endowment`
-  - Working for the endowment vs. receiving it freely.
-  - Endowment earned through effort vs. given randomly; changes perceived legitimacy
+  - named form
+  - -
+  - The participant either earns the endowment in a prior task or is simply handed it before making the same allocation.
 * - Audience/Observation Effects
 
     `hedvar_dictator_game__audience_observation_effects`
-  - Dictating while observed vs. in private.
-  - Observer present or aware of allocation; changes social context
+  - social aspect: <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>, <a href="vocabulary.html#facet-social-aspect-being-observed">being observed</a>
+  - -
+  - The allocation is made where the experimenter or another person can see or will learn of it instead of under full anonymity.
 * - N-Person Dictator
 
     `hedvar_dictator_game__n_person_dictator`
-  - Distributing to multiple recipients.
-  - Multiple recipients; changes social structure and distribution decision
+  - partner: <a href="vocabulary.html#rule-interact-with-agent-partner-group">group</a>
+  - -
+  - The money is divided among several recipients rather than one, possibly in different amounts.
 * - Charitable Giving Dictator
 
     `hedvar_dictator_game__charitable_giving_dictator`
-  - Recipient is a charity rather than individual.
-  - Recipient is charity; different social/moral framing
+  - named form
+  - -
+  - The recipient is a named charity rather than an anonymous person, so the other party is an organization.
 * - Exit Option
 
     `hedvar_dictator_game__exit_option`
-  - Participants can opt out of participation entirely.
-  - Option to leave game rather than allocate; adds outside option to choice set
+  - exit option: <a href="vocabulary.html#rule-interact-with-agent-exit-option-available">available</a>
+  - -
+  - Before allocating, the participant may decline to play and keep a slightly smaller sum, and the recipient never learns that a game existed.
 ```
 
 ## Cognitive processes
@@ -109,10 +125,10 @@ This task is designed to engage the following processes:
 
 - Harbaugh, W. T., Mayr, U., & Burghart, D. R. (2007). Neural responses to taxation and voluntary giving reveal motives for charitable donations. *Science*, 316(5831), 1622-1625. ([DOI](https://doi.org/10.1126/science.1140738), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17569866/))
 - Moll, J., Krueger, F., Zahn, R., Pardini, M., de Oliveira-Souza, R., & Grafman, J. (2006). Human fronto-mesolimbic networks guide decisions about charitable donation. *Proceedings of the National Academy of Sciences*, 103(42), 15623-15628. ([DOI](https://doi.org/10.1073/pnas.0604475103), [PubMed](https://pubmed.ncbi.nlm.nih.gov/17030808/))
-- Forsythe, R., Horowitz, J. L., Savin, N. E., & Sefton, M. (1994). Fairness in simple bargaining experiments. *Games and Economic Behavior*, 6(3), 347–369. ([DOI](https://doi.org/10.1006/game.1994.1021))
+- Forsythe, R., Horowitz, J. L., Savin, N. E., & Sefton, M. (1994). Fairness in simple bargaining experiments. *Games and Economic Behavior*, 6(3), 347-369. ([DOI](https://doi.org/10.1006/game.1994.1021))
 
 ## Further references
 
-- Engel, C. (2011). Dictator games: A meta study. *Experimental Economics*, 14(4), 583–610. ([DOI](https://doi.org/10.1007/s10683-011-9283-7))
+- Engel, C. (2011). Dictator games: A meta study. *Experimental Economics*, 14(4), 583-610. ([DOI](https://doi.org/10.1007/s10683-011-9283-7))
 - Rand, D. G., & Epstein, Z. G. (2014). Risking your life without a second thought: Intuitive decision-making and extreme altruism. *PLoS ONE*, 9(10), e109687. ([DOI](https://doi.org/10.1371/journal.pone.0109687), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25333876/))
 

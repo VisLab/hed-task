@@ -32,7 +32,7 @@ finished product. Tasks, processes, categories
 and task families will keep changing as the Catalog is used.
 Suggestions, corrections and ideas are welcome: please open an issue at
 <https://github.com/hed-standard/hed-task/issues/new/choose>, where a form for a new task,
-a new variation, a new process or a correction asks for what the Catalog needs. The
+a new variant, a new process or a correction asks for what the Catalog needs. The
 repository's [contributing guide](https://github.com/hed-standard/hed-task/blob/main/CONTRIBUTING.md) describes the
 process. A proposal for a new task is most useful when it comes with the procedure as
 steps, its manipulations and its measurements in the form the inclusion tests use; a proposal for a
@@ -83,5 +83,4 @@ cogpo/what_is_cogpo
 cogpo/the_catalog_vs_cogpo
 cogpo/hed_vs_cogpo
 Task mapping (CogPO) <cogpo/task_mapping>
-Dimension mapping (CogPO) <cogpo/dimension_mapping>
 ```

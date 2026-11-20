@@ -18,7 +18,7 @@ Learning of co-occurrence relations between stimuli or between stimuli and respo
 
 **Further references**
 
-- Shanks (2010) *Annual Review of Psychology* 61:273–301 ([DOI](https://doi.org/10.1146/annurev.psych.093008.100422))
+- Shanks (2010) *Annual Review of Psychology* 61:273-301 ([DOI](https://doi.org/10.1146/annurev.psych.093008.100422))
 
 (hed-extinction)=
 ## Extinction
@@ -34,11 +34,11 @@ Decrease in a previously reinforced response when reinforcement is withheld; a f
 **Fundamental references**
 
 - Pavlov (1927) *Conditioned reflexes* Oxford University Press
-- Bouton (2004) *Learning & Memory* 11:485–494 ([DOI](https://doi.org/10.1101/lm.78804), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15466298/))
+- Bouton (2004) *Learning & Memory* 11:485-494 ([DOI](https://doi.org/10.1101/lm.78804), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15466298/))
 
 **Further references**
 
-- Dunsmoor, Niv, Daw & Phelps (2015) *Neuron* 88:47–63 ([DOI](https://doi.org/10.1016/j.neuron.2015.09.028), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26447572/))
+- Dunsmoor, Niv, Daw & Phelps (2015) *Neuron* 88:47-63 ([DOI](https://doi.org/10.1016/j.neuron.2015.09.028), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26447572/))
 
 (hed-goal-directed-behavior)=
 ## Goal-directed behavior
@@ -47,17 +47,17 @@ Decrease in a previously reinforced response when reinforcement is withheld; a f
 
 **Also known as:** goal-directed action
 
-Behavior that is sensitive to current outcome value, characteristic of action–outcome learning.
+Behavior that is sensitive to current outcome value, characteristic of action-outcome learning.
 
 **Tasks that engage this process:** [Instrumental Conditioning Task](../tasks/hedtsk_instrumental_conditioning.md)
 
 **Fundamental references**
 
-- Dickinson & Balleine (1994) *Animal Learning & Behavior* 22:1–18 ([DOI](https://doi.org/10.3758/bf03199951))
+- Dickinson & Balleine (1994) *Animal Learning & Behavior* 22:1-18 ([DOI](https://doi.org/10.3758/bf03199951))
 
 **Further references**
 
-- Balleine & O'Doherty (2010) *Neuropsychopharmacology* 35:48–69 ([DOI](https://doi.org/10.1038/npp.2009.131), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19776734/))
+- Balleine & O'Doherty (2010) *Neuropsychopharmacology* 35:48-69 ([DOI](https://doi.org/10.1038/npp.2009.131), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19776734/))
 
 (hed-habit)=
 ## Habit
@@ -66,13 +66,13 @@ Behavior that is sensitive to current outcome value, characteristic of action–
 
 **Also known as:** habit learning
 
-Behavior that is insensitive to the current value of its outcome, characteristic of stimulus–response learning.
+Behavior that is insensitive to the current value of its outcome, characteristic of stimulus-response learning.
 
 **Tasks that engage this process:** [Instrumental Conditioning Task](../tasks/hedtsk_instrumental_conditioning.md)
 
 **Further references**
 
-- Balleine & O'Doherty (2010) *Neuropsychopharmacology* 35:48–69 ([DOI](https://doi.org/10.1038/npp.2009.131), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19776734/))
+- Balleine & O'Doherty (2010) *Neuropsychopharmacology* 35:48-69 ([DOI](https://doi.org/10.1038/npp.2009.131), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19776734/))
 
 (hed-instrumental-conditioning)=
 ## Instrumental conditioning
@@ -81,13 +81,13 @@ Behavior that is insensitive to the current value of its outcome, characteristic
 
 **Also known as:** **Operant conditioning** - Skinnerian terminology; emphasizes the operant response and reinforcement schedules.
 
-Learning that an action produces an outcome; also called operant conditioning. Encompasses both goal-directed (action–outcome) and habitual (stimulus–response) control, studied via reinforcement schedules and outcome-devaluation procedures.
+Learning that an action produces an outcome; also called operant conditioning. Encompasses both goal-directed (action-outcome) and habitual (stimulus-response) control, studied via reinforcement schedules and outcome-devaluation procedures.
 
 **Tasks that engage this process:** [Instrumental Conditioning Task](../tasks/hedtsk_instrumental_conditioning.md)
 
 **Further references**
 
-- Staddon & Cerutti (2003) *Annual Review of Psychology* 54:115–144 ([DOI](https://doi.org/10.1146/annurev.psych.54.101601.145124))
+- Staddon & Cerutti (2003) *Annual Review of Psychology* 54:115-144 ([DOI](https://doi.org/10.1146/annurev.psych.54.101601.145124))
 
 (hed-model-based-learning)=
 ## Model-based learning
@@ -102,8 +102,8 @@ Reinforcement learning that uses an internal model of the environment's transiti
 
 **Fundamental references**
 
-- Daw, Niv & Dayan (2005) *Nature Neuroscience* 8:1704–1711 ([DOI](https://doi.org/10.1038/nn1560), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16286932/))
-- Daw, Gershman, Seymour, Dayan & Dolan (2011) *Neuron* 69:1204–1215 ([DOI](https://doi.org/10.1016/j.neuron.2011.02.027), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21435563/))
+- Daw, Niv & Dayan (2005) *Nature Neuroscience* 8:1704-1711 ([DOI](https://doi.org/10.1038/nn1560), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16286932/))
+- Daw, Gershman, Seymour, Dayan & Dolan (2011) *Neuron* 69:1204-1215 ([DOI](https://doi.org/10.1016/j.neuron.2011.02.027), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21435563/))
 
 (hed-model-free-learning)=
 ## Model-free learning
@@ -118,7 +118,7 @@ Reinforcement learning from cached value estimates updated by prediction errors,
 
 **Fundamental references**
 
-- Daw, Niv & Dayan (2005) *Nature Neuroscience* 8:1704–1711 ([DOI](https://doi.org/10.1038/nn1560), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16286932/))
+- Daw, Niv & Dayan (2005) *Nature Neuroscience* 8:1704-1711 ([DOI](https://doi.org/10.1038/nn1560), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16286932/))
 
 (hed-pavlovian-conditioning)=
 ## Pavlovian conditioning
@@ -137,7 +137,7 @@ Learning that a neutral stimulus predicts a biologically significant outcome, le
 
 **Further references**
 
-- LeDoux (2014) *PNAS* 111:2871–2878 ([DOI](https://doi.org/10.1073/pnas.1400335111))
+- LeDoux (2014) *PNAS* 111:2871-2878 ([DOI](https://doi.org/10.1073/pnas.1400335111))
 
 (hed-policy-learning)=
 ## Policy learning
@@ -159,11 +159,11 @@ Learning to select actions that maximize cumulative reward through experience wi
 
 **Fundamental references**
 
-- Schultz, Dayan & Montague (1997) *Science* 275:1593–1599 ([DOI](https://doi.org/10.1126/science.275.5306.1593))
+- Schultz, Dayan & Montague (1997) *Science* 275:1593-1599 ([DOI](https://doi.org/10.1126/science.275.5306.1593))
 
 **Further references**
 
-- Niv (2009) *Journal of Mathematical Psychology* 53:139–154 ([DOI](https://doi.org/10.1016/j.jmp.2008.12.005))
+- Niv (2009) *Journal of Mathematical Psychology* 53:139-154 ([DOI](https://doi.org/10.1016/j.jmp.2008.12.005))
 
 (hed-reversal-learning)=
 ## Reversal learning
@@ -176,8 +176,8 @@ Relearning after contingencies between stimuli (or responses) and outcomes are s
 
 **Fundamental references**
 
-- Iversen & Mishkin (1970) *Experimental Brain Research* 11:376–386 ([DOI](https://doi.org/10.1007/bf00237911), [PubMed](https://pubmed.ncbi.nlm.nih.gov/4993199/))
-- Izquierdo, Brigman, Radke, Rudebeck & Holmes (2017) *Neuroscience* 345:12–26 ([DOI](https://doi.org/10.1016/j.neuroscience.2016.03.021), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26979052/))
+- Iversen & Mishkin (1970) *Experimental Brain Research* 11:376-386 ([DOI](https://doi.org/10.1007/bf00237911), [PubMed](https://pubmed.ncbi.nlm.nih.gov/4993199/))
+- Izquierdo, Brigman, Radke, Rudebeck & Holmes (2017) *Neuroscience* 345:12-26 ([DOI](https://doi.org/10.1016/j.neuroscience.2016.03.021), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26979052/))
 
 (hed-reward-prediction-error)=
 ## Reward prediction error
@@ -190,11 +190,11 @@ Signed difference between received and expected reward, instantiated by phasic m
 
 **Fundamental references**
 
-- Schultz, Dayan & Montague (1997) *Science* 275:1593–1599 ([DOI](https://doi.org/10.1126/science.275.5306.1593))
+- Schultz, Dayan & Montague (1997) *Science* 275:1593-1599 ([DOI](https://doi.org/10.1126/science.275.5306.1593))
 
 **Further references**
 
-- Glimcher (2011) *PNAS* 108(Suppl 3):15647–15654 ([DOI](https://doi.org/10.1073/pnas.1014269108))
+- Glimcher (2011) *PNAS* 108(Suppl 3):15647-15654 ([DOI](https://doi.org/10.1073/pnas.1014269108))
 
 (hed-value-learning)=
 ## Value learning
@@ -207,5 +207,5 @@ Acquisition of the expected value of stimuli, actions, or states from experience
 
 **Fundamental references**
 
-- Rangel, Camerer & Montague (2008) *Nature Reviews Neuroscience* 9:545–556 ([DOI](https://doi.org/10.1038/nrn2357), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18545266/))
+- Rangel, Camerer & Montague (2008) *Nature Reviews Neuroscience* 9:545-556 ([DOI](https://doi.org/10.1038/nrn2357), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18545266/))
 

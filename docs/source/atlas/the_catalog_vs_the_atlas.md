@@ -29,16 +29,15 @@ The difference in scale follows from the difference in purpose.
 
 |  | The Catalog | Cognitive Atlas |
 |---|---|---|
-| Experimental paradigms | 103 | 857 |
+| Experimental paradigms | 106 | 857 |
 | Cognitive processes or concepts | 172 | 918 |
-| Links between the two | 486 | 1422 |
+| Links between the two | 498 | 1422 |
 | Mean processes or concepts per paradigm | 4.72 | 1.66 |
-| Named variations | {{ n_variations }} | not modelled |
-| Mean named variations per paradigm | 7.5 | not modelled |
+| Variants | {{ n_variants }} | not modelled |
 
 The Catalog links each paradigm to 4.7 processes on average against the
-Atlas's 1.66, and it models named variations at 7.5
-per paradigm, which the Atlas does not model at all: it registers each implementation as
+Atlas's 1.66, and it models the variants of each paradigm, which the Atlas does not
+model at all: it registers each implementation as
 a separate top-level entry instead.
 
 ## How much overlaps
@@ -67,10 +66,10 @@ the Catalog deliberately excludes, and are not paradigms at all:
 ```
 
 The Atlas often registers a specific implementation as an entry of its own, where the
-Catalog records it as a named variation of a task. Such entries are matched at the
-variation level:
+Catalog records it as a variant of a task. Such entries are matched at the
+variant level:
 
-```{include} ../_generated/mapping_variation_line.md
+```{include} ../_generated/mapping_variant_line.md
 ```
 
 ```{include} ../_generated/mapping_level.md
@@ -101,8 +100,8 @@ Against that, every task in the Catalog carries:
 
 - an inclusion test stating procedure, manipulation and measurement, so that membership
   is decidable rather than a matter of name
-- a curated list of named variations, each with a justification for why it is a
-  variation and not a separate task
+- a curated list of variants, each stating how it differs from the task's standard
+  form
 - verified references
 - links to 172 defined processes in 19 categories, at
   4.7 per task
@@ -110,14 +109,14 @@ Against that, every task in the Catalog carries:
 The Atlas carries citations on 470 of its 857 task entries
 (54.8%), so references are not absent, but they are contributed rather than
 curated: the remaining 387 entries have none, and nothing records how any of
-them was checked. Inclusion tests and variations have no Atlas equivalent at all.
+them was checked. Inclusion tests and variants have no Atlas equivalent at all.
 
 ## What the Atlas has that the Catalog does not
 
 The traffic runs both ways, and the Atlas holds several things worth keeping in view.
 
 - **Breadth.** 857 task entries and 918 concepts against
-  103 and 172 here. For a construct the Catalog does not cover, the
+  106 and 172 here. For a construct the Catalog does not cover, the
   Atlas usually has something.
 - **A concept relation graph.** 1398 `KINDOF` and `PARTOF` edges between
   concepts. The Catalog groups processes into categories but asserts no relations

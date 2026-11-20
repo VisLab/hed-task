@@ -18,15 +18,15 @@ This category contains 21 processes.
 
 Memory for personally experienced events across the lifespan, integrating episodic and semantic components.
 
-**Tasks that engage this process:** [Autobiographical Memory Task](../tasks/hedtsk_autobiographical_memory.md)
+**Tasks that engage this process:** [Autobiographical Memory Task](../tasks/hedtsk_autobiographical_memory.md), [Rest Task](../tasks/hedtsk_rest.md), [Take Questionnaire Task](../tasks/hedtsk_take_questionnaire.md)
 
 **Fundamental references**
 
-- Conway & Pleydell-Pearce (2000) *Psychological Review* 107:261–288 ([DOI](https://doi.org/10.1037/0033-295x.107.2.261))
+- Conway & Pleydell-Pearce (2000) *Psychological Review* 107:261-288 ([DOI](https://doi.org/10.1037/0033-295x.107.2.261))
 
 **Further references**
 
-- Conway (2009) *Neuropsychologia* 47:2305–2313 ([DOI](https://doi.org/10.1016/j.neuropsychologia.2009.02.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19524094/))
+- Conway (2009) *Neuropsychologia* 47:2305-2313 ([DOI](https://doi.org/10.1016/j.neuropsychologia.2009.02.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19524094/))
 
 (hed-consolidation)=
 ## Consolidation
@@ -37,15 +37,15 @@ Memory for personally experienced events across the lifespan, integrating episod
 
 Post-encoding stabilization of memory traces, dependent on time and often on sleep; includes synaptic and systems consolidation.
 
-**Tasks that engage this process:** [Motor Sequence Learning Task](../tasks/hedtsk_motor_sequence_learning.md)
+**Tasks that engage this process:** [Motor Sequence Learning Task](../tasks/hedtsk_motor_sequence_learning.md), [Rest Task](../tasks/hedtsk_rest.md)
 
 **Fundamental references**
 
-- McGaugh (2000) *Science* 287:248–251 ([DOI](https://doi.org/10.1126/science.287.5451.248))
+- McGaugh (2000) *Science* 287:248-251 ([DOI](https://doi.org/10.1126/science.287.5451.248))
 
 **Further references**
 
-- Dudai, Karni & Born (2015) *Neuron* 88:20–32 ([DOI](https://doi.org/10.1016/j.neuron.2015.09.004), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26447570/))
+- Dudai, Karni & Born (2015) *Neuron* 88:20-32 ([DOI](https://doi.org/10.1016/j.neuron.2015.09.004), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26447570/))
 
 (hed-declarative-memory)=
 ## Declarative memory
@@ -60,11 +60,11 @@ Consciously accessible memory for facts and events; encompasses semantic and epi
 
 **Fundamental references**
 
-- Squire & Zola-Morgan (1991) *Science* 253:1380–1386 ([DOI](https://doi.org/10.1126/science.1896849))
+- Squire & Zola-Morgan (1991) *Science* 253:1380-1386 ([DOI](https://doi.org/10.1126/science.1896849))
 
 **Further references**
 
-- Squire & Wixted (2011) *Annual Review of Neuroscience* 34:259–288 ([DOI](https://doi.org/10.1146/annurev-neuro-061010-113720))
+- Squire & Wixted (2011) *Annual Review of Neuroscience* 34:259-288 ([DOI](https://doi.org/10.1146/annurev-neuro-061010-113720))
 
 (hed-directed-forgetting)=
 ## Directed forgetting
@@ -77,11 +77,11 @@ Reduced memory for items that have been cued to be forgotten, relative to items 
 
 **Fundamental references**
 
-- Bjork (1970) *Acta Psychologica* 33:288–296
+- Bjork (1970) *Acta Psychologica* 33:288-296
 
 **Further references**
 
-- Anderson & Hanslmayr (2014) *Trends in Cognitive Sciences* 18:279–292 ([DOI](https://doi.org/10.1016/j.tics.2014.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24747000/))
+- Anderson & Hanslmayr (2014) *Trends in Cognitive Sciences* 18:279-292 ([DOI](https://doi.org/10.1016/j.tics.2014.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24747000/))
 
 (hed-encoding)=
 ## Encoding
@@ -96,11 +96,11 @@ Processes by which perceptual input is transformed into a memory representation 
 
 **Fundamental references**
 
-- Craik & Lockhart (1972) *Journal of Verbal Learning and Verbal Behavior* 11:671–684 ([DOI](https://doi.org/10.1016/s0022-5371(72)80001-x))
+- Craik & Lockhart (1972) *Journal of Verbal Learning and Verbal Behavior* 11:671-684 ([DOI](https://doi.org/10.1016/s0022-5371(72)80001-x))
 
 **Further references**
 
-- Paller & Wagner (2002) *Trends in Cognitive Sciences* 6:93–102 ([DOI](https://doi.org/10.1016/s1364-6613(00)01845-3), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15866193/))
+- Paller & Wagner (2002) *Trends in Cognitive Sciences* 6:93-102 ([DOI](https://doi.org/10.1016/s1364-6613(00)01845-3), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15866193/))
 
 (hed-episodic-memory)=
 ## Episodic memory
@@ -114,11 +114,11 @@ Memory for specific events located in a particular place and time and accompanie
 **Fundamental references**
 
 - Tulving (1972) in *Organization of Memory*
-- Tulving (2002) *Annual Review of Psychology* 53:1–25 ([DOI](https://doi.org/10.1146/annurev.psych.53.100901.135114))
+- Tulving (2002) *Annual Review of Psychology* 53:1-25 ([DOI](https://doi.org/10.1146/annurev.psych.53.100901.135114))
 
 **Further references**
 
-- Moscovitch, Cabeza, Winocur & Nadel (2016) *Annual Review of Psychology* 67:105–134 ([DOI](https://doi.org/10.1146/annurev-psych-113011-143733))
+- Moscovitch, Cabeza, Winocur & Nadel (2016) *Annual Review of Psychology* 67:105-134 ([DOI](https://doi.org/10.1146/annurev-psych-113011-143733))
 
 (hed-familiarity)=
 ## Familiarity
@@ -131,7 +131,7 @@ Sense that a stimulus has been encountered before, in the absence of retrieval o
 
 **Fundamental references**
 
-- Mandler (1980) *Psychological Review* 87:252–271 ([DOI](https://doi.org/10.1037/0033-295x.87.3.252))
+- Mandler (1980) *Psychological Review* 87:252-271 ([DOI](https://doi.org/10.1037/0033-295x.87.3.252))
 
 (hed-forgetting)=
 ## Forgetting
@@ -148,7 +148,7 @@ Loss of accessibility of previously encoded information, due to decay, interfere
 
 **Further references**
 
-- Hardt, Nader & Nadel (2013) *Trends in Cognitive Sciences* 17:111–120 ([DOI](https://doi.org/10.1016/j.tics.2013.01.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23369831/))
+- Hardt, Nader & Nadel (2013) *Trends in Cognitive Sciences* 17:111-120 ([DOI](https://doi.org/10.1016/j.tics.2013.01.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23369831/))
 
 (hed-pattern-completion)=
 ## Pattern completion
@@ -161,7 +161,7 @@ Retrieval of a complete memory from a partial or degraded cue; CA3 function.
 
 **Fundamental references**
 
-- Marr (1971) *Philosophical Transactions B* 262:23–81 ([DOI](https://doi.org/10.1098/rstb.1971.0078))
+- Marr (1971) *Philosophical Transactions B* 262:23-81 ([DOI](https://doi.org/10.1098/rstb.1971.0078))
 
 **Further references**
 
@@ -178,7 +178,7 @@ Transformation of similar input patterns into distinct, non-overlapping memory r
 
 **Fundamental references**
 
-- Yassa & Stark (2011) *Trends in Neurosciences* 34:515–525 ([DOI](https://doi.org/10.1016/j.tins.2011.06.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21788086/))
+- Yassa & Stark (2011) *Trends in Neurosciences* 34:515-525 ([DOI](https://doi.org/10.1016/j.tins.2011.06.006), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21788086/))
 
 (hed-proactive-interference)=
 ## Proactive interference
@@ -191,7 +191,7 @@ Disruption of new learning by previously learned material.
 
 **Further references**
 
-- Jonides & Nee (2006) *Neuroscience* 139:181–193 ([DOI](https://doi.org/10.1016/j.neuroscience.2005.06.042), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16337090/))
+- Jonides & Nee (2006) *Neuroscience* 139:181-193 ([DOI](https://doi.org/10.1016/j.neuroscience.2005.06.042), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16337090/))
 
 (hed-prospective-memory)=
 ## Prospective memory
@@ -204,11 +204,11 @@ Memory for intentions to act at a future time or on a future event.
 
 **Fundamental references**
 
-- Einstein & McDaniel (1990) *JEP: Learning, Memory, and Cognition* 16:717–726 ([DOI](https://doi.org/10.1037/0278-7393.16.4.717))
+- Einstein & McDaniel (1990) *JEP: Learning, Memory, and Cognition* 16:717-726 ([DOI](https://doi.org/10.1037/0278-7393.16.4.717))
 
 **Further references**
 
-- McDaniel, Umanath, Einstein & Waldum (2015) *Frontiers in Human Neuroscience* 9:392–279 ([DOI](https://doi.org/10.3389/fnhum.2015.00392))
+- McDaniel, Umanath, Einstein & Waldum (2015) *Frontiers in Human Neuroscience* 9:392-279 ([DOI](https://doi.org/10.3389/fnhum.2015.00392))
 
 (hed-recall)=
 ## Recall
@@ -232,7 +232,7 @@ Judgment that a test item has been previously encountered; supported by familiar
 
 **Fundamental references**
 
-- Mandler (1980) *Psychological Review* 87:252–271 ([DOI](https://doi.org/10.1037/0033-295x.87.3.252))
+- Mandler (1980) *Psychological Review* 87:252-271 ([DOI](https://doi.org/10.1037/0033-295x.87.3.252))
 
 (hed-recollection)=
 ## Recollection
@@ -245,11 +245,11 @@ Retrieval of contextual detail about a prior event, including source information
 
 **Fundamental references**
 
-- Jacoby (1991) *Journal of Memory and Language* 30:513–541 ([DOI](https://doi.org/10.1016/0749-596x(91)90025-f))
+- Jacoby (1991) *Journal of Memory and Language* 30:513-541 ([DOI](https://doi.org/10.1016/0749-596x(91)90025-f))
 
 **Further references**
 
-- Diana, Yonelinas & Ranganath (2007) *Trends in Cognitive Sciences* 11:379–386 ([DOI](https://doi.org/10.1016/j.tics.2007.08.001))
+- Diana, Yonelinas & Ranganath (2007) *Trends in Cognitive Sciences* 11:379-386 ([DOI](https://doi.org/10.1016/j.tics.2007.08.001))
 
 (hed-reconsolidation)=
 ## Reconsolidation
@@ -264,11 +264,11 @@ Destabilization and re-stabilization of a memory upon retrieval, creating a wind
 
 **Fundamental references**
 
-- Nader, Schafe & LeDoux (2000) *Nature* 406:722–726 ([DOI](https://doi.org/10.1038/35021052), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10963596/))
+- Nader, Schafe & LeDoux (2000) *Nature* 406:722-726 ([DOI](https://doi.org/10.1038/35021052), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10963596/))
 
 **Further references**
 
-- Elsey, Van Ast & Kindt (2018) *Psychological Bulletin* 144:797–848 ([DOI](https://doi.org/10.1037/bul0000152))
+- Elsey, Van Ast & Kindt (2018) *Psychological Bulletin* 144:797-848 ([DOI](https://doi.org/10.1037/bul0000152))
 
 (hed-retrieval)=
 ## Retrieval
@@ -279,15 +279,15 @@ Destabilization and re-stabilization of a memory upon retrieval, creating a wind
 
 Reactivation of a stored memory representation; dissociable into cue-driven and strategic retrieval.
 
-**Tasks that engage this process:** [Autobiographical Memory Task](../tasks/hedtsk_autobiographical_memory.md), [Directed Forgetting Task](../tasks/hedtsk_directed_forgetting.md), [Feeling-of-Knowing Task](../tasks/hedtsk_feeling_of_knowing.md), [Free Recall Task](../tasks/hedtsk_free_recall.md), [Old/New Recognition Memory Task](../tasks/hedtsk_old_new_recognition_memory.md), [Paired Associates Learning Task](../tasks/hedtsk_paired_associates_learning.md), [Prospective Memory Task](../tasks/hedtsk_prospective_memory.md), [Rey Auditory Verbal Learning Task](../tasks/hedtsk_rey_auditory_verbal_learning.md), [Self-Referential Encoding Task](../tasks/hedtsk_self_referential_encoding.md), [Source Memory Task](../tasks/hedtsk_source_memory.md), [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md), [Think/No-Think Task](../tasks/hedtsk_think_no_think.md), [Virtual Morris Water Maze Task](../tasks/hedtsk_virtual_morris_water_maze.md), [Virtual Radial Arm Maze Task](../tasks/hedtsk_virtual_radial_arm_maze.md)
+**Tasks that engage this process:** [Autobiographical Memory Task](../tasks/hedtsk_autobiographical_memory.md), [Directed Forgetting Task](../tasks/hedtsk_directed_forgetting.md), [Feeling-of-Knowing Task](../tasks/hedtsk_feeling_of_knowing.md), [Free Recall Task](../tasks/hedtsk_free_recall.md), [Old/New Recognition Memory Task](../tasks/hedtsk_old_new_recognition_memory.md), [Paired Associates Learning Task](../tasks/hedtsk_paired_associates_learning.md), [Prospective Memory Task](../tasks/hedtsk_prospective_memory.md), [Rey Auditory Verbal Learning Task](../tasks/hedtsk_rey_auditory_verbal_learning.md), [Self-Referential Encoding Task](../tasks/hedtsk_self_referential_encoding.md), [Source Memory Task](../tasks/hedtsk_source_memory.md), [Sternberg Item Recognition Task](../tasks/hedtsk_sternberg_item_recognition.md), [Take Questionnaire Task](../tasks/hedtsk_take_questionnaire.md), [Think/No-Think Task](../tasks/hedtsk_think_no_think.md), [Virtual Morris Water Maze Task](../tasks/hedtsk_virtual_morris_water_maze.md), [Virtual Radial Arm Maze Task](../tasks/hedtsk_virtual_radial_arm_maze.md)
 
 **Fundamental references**
 
-- Tulving & Pearlstone (1966) *Journal of Verbal Learning and Verbal Behavior* 5:381–391 ([DOI](https://doi.org/10.1016/s0022-5371(66)80048-8))
+- Tulving & Pearlstone (1966) *Journal of Verbal Learning and Verbal Behavior* 5:381-391 ([DOI](https://doi.org/10.1016/s0022-5371(66)80048-8))
 
 **Further references**
 
-- Rugg & Vilberg (2013) *Current Opinion in Neurobiology* 23:255–260 ([DOI](https://doi.org/10.1016/j.conb.2012.11.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23206590/))
+- Rugg & Vilberg (2013) *Current Opinion in Neurobiology* 23:255-260 ([DOI](https://doi.org/10.1016/j.conb.2012.11.005), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23206590/))
 
 (hed-retroactive-interference)=
 ## Retroactive interference
@@ -300,25 +300,25 @@ Disruption of older memories by newly learned material.
 
 **Further references**
 
-- Wixted (2004) *Annual Review of Psychology* 55:235–269 ([DOI](https://doi.org/10.1146/annurev.psych.55.090902.141555))
+- Wixted (2004) *Annual Review of Psychology* 55:235-269 ([DOI](https://doi.org/10.1146/annurev.psych.55.090902.141555))
 
 (hed-semantic-memory)=
 ## Semantic memory
 
 **Process ID:** `hed_semantic_memory`
 
-Long-term store of general knowledge about the world — facts, concepts, and word meanings — dissociable from episodic memory and supported by distributed cortical representations.
+Long-term store of general knowledge about the world - facts, concepts, and word meanings - dissociable from episodic memory and supported by distributed cortical representations.
 
 **Tasks that engage this process:** none in the current Catalog.
 
 **Fundamental references**
 
 - Tulving (1972) in *Organization of Memory*
-- Collins & Quillian (1969) *Journal of Verbal Learning and Verbal Behavior* 8:240–247 ([DOI](https://doi.org/10.1016/s0022-5371(69)80069-1))
+- Collins & Quillian (1969) *Journal of Verbal Learning and Verbal Behavior* 8:240-247 ([DOI](https://doi.org/10.1016/s0022-5371(69)80069-1))
 
 **Further references**
 
-- Binder & Desai (2011) *Trends in Cognitive Sciences* 15:527–536 ([DOI](https://doi.org/10.1016/j.tics.2011.10.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22001867/))
+- Binder & Desai (2011) *Trends in Cognitive Sciences* 15:527-536 ([DOI](https://doi.org/10.1016/j.tics.2011.10.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22001867/))
 
 (hed-source-memory)=
 ## Source memory
@@ -333,11 +333,11 @@ Memory for the contextual origin of information (e.g., who said it, where it was
 
 **Fundamental references**
 
-- Johnson, Hashtroudi & Lindsay (1993) *Psychological Bulletin* 114:3–28 ([DOI](https://doi.org/10.1037/0033-2909.114.1.3))
+- Johnson, Hashtroudi & Lindsay (1993) *Psychological Bulletin* 114:3-28 ([DOI](https://doi.org/10.1037/0033-2909.114.1.3))
 
 **Further references**
 
-- Mitchell & Johnson (2009) *Psychological Bulletin* 135:638–677 ([DOI](https://doi.org/10.1037/a0015849))
+- Mitchell & Johnson (2009) *Psychological Bulletin* 135:638-677 ([DOI](https://doi.org/10.1037/a0015849))
 
 (hed-verbal-memory)=
 ## Verbal memory

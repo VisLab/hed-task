@@ -13,6 +13,22 @@ View affective images under instructions to reappraise or passively view; self-r
 
 Participants view emotionally evocative stimuli (typically IAPS images) and are instructed to either passively view them ("look" condition) or regulate their emotional response using cognitive reappraisal (e.g., reinterpreting a car accident as a movie scene). After each trial, participants rate their emotional experience. Reappraisal successfully reduces subjective negative affect and modulates neural activity: it increases dorsolateral and ventrolateral PFC activation while decreasing amygdala activation, demonstrating top-down prefrontal regulation of emotion generation systems.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-undergo-stream">undergo stream</a>
+- **What is the player told to do while it runs?** <a href="vocabulary.html#rule-undergo-stream-instruction-regulate">regulate</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
+- **Emotional aspect:** <a href="vocabulary.html#facet-emotional-aspect-regulation-instruction">regulation instruction</a>, <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>, <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Material:** Emotionally evocative photographs, typically from the IAPS, of negative or positive valence.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -25,9 +41,11 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Procedure**
   - Participants view emotionally evocative images and are instructed to regulate their emotional response using a specified strategy (e.g., cognitive reappraisal, suppression, or distraction) or to simply attend.
 * - **Manipulations**
-  - - Regulation strategy (reappraise, suppress, distract, attend)
+  - - Regulation strategy (reappraise, distance, suppress, distract, accept, attend)
     - Image valence (negative, positive)
     - Regulation timing (before vs. during viewing)
+    - Exposure control (choice or early termination vs. assigned exposure)
+    - Regulation instruction (none vs. explicit)
 * - **Measurements**
   - - Self-reported affect (valence, arousal)
     - Physiological responses (SCR, corrugator EMG, startle)
@@ -35,63 +53,50 @@ least one of the listed variables, and it records at least one of the listed mea
     - ERP (LPP reduction)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Reinterpretation/Reappraisal
-
-    `hedvar_emotion_regulation__reinterpretation_reappraisal`
-  - Reinterpret emotional meaning of stimulus (core paradigm).
-  - Participant cognitively reframes stimulus meaning; changes cognitive strategy instructions
-* - Distancing/Detachment
-
-    `hedvar_emotion_regulation__distancing_detachment`
-  - Adopt third-person or distant observer perspective.
-  - Third-person perspective taking; distinct cognitive strategy
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Distraction/Attentional Deployment
 
     `hedvar_emotion_regulation__distraction_attentional_deployment`
-  - Redirect attention to non-emotional aspects.
-  - Attention redirected away from stimulus; different regulatory mechanism
+  - combined with: <a href="vocabulary.html#how-throughout">throughout</a>, <a href="vocabulary.html#game-respond-to-rule">respond to rule</a> (An arithmetic or letter task is done during viewing)
+  - [Divided attention](../processes/selective_and_sustained_attention.md#hed-divided-attention)
+  - A second task (mental arithmetic or letter memory) runs while the picture is on screen, so regulation works through the competing task rather than an instruction about the picture.
 * - Expressive Suppression
 
     `hedvar_emotion_regulation__expressive_suppression`
-  - Inhibit behavioral expression of emotion.
-  - Inhibit visible emotional response; behavioral output regulation
-* - Acceptance/Mindful Awareness
-
-    `hedvar_emotion_regulation__acceptance_mindful_awareness`
-  - Observe emotion without attempting to change it.
-  - Non-judgmental observation; different regulatory stance
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>
+  - -
+  - The instruction is to keep face and body still while viewing a picture or film clip.
 * - Situation Selection/Modification
 
     `hedvar_emotion_regulation__situation_selection_modification`
-  - Choose or alter emotion-eliciting situations (rare in lab).
-  - Choice between stimuli or contexts; different task structure with decision component
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>
+  - -
+  - The participant chooses which picture or clip to be exposed to or ends a clip early, so regulation happens through choice over exposure rather than through a stance toward a stimulus already present.
 * - Up-Regulation
 
     `hedvar_emotion_regulation__up_regulation`
-  - Increase emotional response intensity (contrast with down-regulation).
-  - Amplify rather than down-regulate emotional response; opposite regulatory direction
-* - Regulation of Positive vs. Negative Emotions
-
-    `hedvar_emotion_regulation__regulation_of_positive_vs_negative_emotions`
-  - Separate paradigms for savoring and dampening.
-  - Valence manipulation changes emotional context of regulation
+  - named form
+  - -
+  - The participant is told to make the feeling stronger rather than weaker.
 * - Implicit Emotion Regulation
 
     `hedvar_emotion_regulation__implicit_emotion_regulation`
-  - Habitual/automatic regulation without instruction.
-  - No explicit instruction to regulate; tests implicit regulatory processes
+  - emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>, <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>; instruction: <a href="vocabulary.html#rule-undergo-stream-instruction-none">none</a>
+  - -
+  - No regulation instruction is given; regulation is inferred from responses after a self-control prime or from spontaneous recovery.
 ```
 
 ## Cognitive processes
@@ -112,10 +117,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Buhle, J. T., Silvers, J. A., Wager, T. D., et al. (2014). Cognitive reappraisal of emotion: A meta-analysis of human neuroimaging studies. *Cerebral Cortex*, 24(11), 2981–2990. ([DOI](https://doi.org/10.1093/cercor/bht154))
-- Kohn, N., Eickhoff, S. B., Scheller, M., Laird, A. R., Fox, P. T., & Habel, U. (2014). Neural network of cognitive emotion regulation: An ALE meta-analysis and MACM analysis. *NeuroImage*, 87, 345–355. ([DOI](https://doi.org/10.1016/j.neuroimage.2013.11.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24220041/))
-- Dörfel, D., Lamke, J. P., Hummel, F., Wagner, U., Ott, S., & Sammer, G. (2014). Common and differential neural networks of emotion regulation by detachment, reinterpretation, distraction, and expressive suppression. *NeuroImage*, 101, 298–309. ([DOI](https://doi.org/10.1016/j.neuroimage.2014.06.051), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24993897/))
-- Morawetz, C., Bode, S., Derntl, B., & Heekeren, H. R. (2017). The effect of strategies, goals and stimulus material on the neural mechanisms of emotion regulation: A meta-analysis of fMRI studies. *Neuroscience & Biobehavioral Reviews*, 72, 111–128. ([DOI](https://doi.org/10.1016/j.neubiorev.2016.11.014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27894828/))
+- Buhle, J. T., Silvers, J. A., Wager, T. D., et al. (2014). Cognitive reappraisal of emotion: A meta-analysis of human neuroimaging studies. *Cerebral Cortex*, 24(11), 2981-2990. ([DOI](https://doi.org/10.1093/cercor/bht154))
+- Kohn, N., Eickhoff, S. B., Scheller, M., Laird, A. R., Fox, P. T., & Habel, U. (2014). Neural network of cognitive emotion regulation: An ALE meta-analysis and MACM analysis. *NeuroImage*, 87, 345-355. ([DOI](https://doi.org/10.1016/j.neuroimage.2013.11.001), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24220041/))
+- Dörfel, D., Lamke, J. P., Hummel, F., Wagner, U., Ott, S., & Sammer, G. (2014). Common and differential neural networks of emotion regulation by detachment, reinterpretation, distraction, and expressive suppression. *NeuroImage*, 101, 298-309. ([DOI](https://doi.org/10.1016/j.neuroimage.2014.06.051), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24993897/))
+- Morawetz, C., Bode, S., Derntl, B., & Heekeren, H. R. (2017). The effect of strategies, goals and stimulus material on the neural mechanisms of emotion regulation: A meta-analysis of fMRI studies. *Neuroscience & Biobehavioral Reviews*, 72, 111-128. ([DOI](https://doi.org/10.1016/j.neubiorev.2016.11.014), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27894828/))
 
 ## External links
 

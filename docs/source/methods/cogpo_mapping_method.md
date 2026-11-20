@@ -10,8 +10,7 @@ This page describes how the correspondence between the Catalog and
 follows the [Atlas mapping method](atlas_mapping_method.md), and the match types, the
 two matching levels and the refresh contract are the same; this page records only what
 differs. The row-by-row results are on the [task mapping](../cogpo/task_mapping.md)
-page, the vocabulary on the [dimension mapping](../cogpo/dimension_mapping.md) page,
-and [The Catalog vs CogPO](../cogpo/the_catalog_vs_cogpo.md) says what they add up to.
+page, and [The Catalog vs CogPO](../cogpo/the_catalog_vs_cogpo.md) says what they add up to.
 
 (cogpo-method-1)=
 ## Source data
@@ -58,9 +57,8 @@ With 86 classes, every unmatched class was read against its definition and given
 kind by hand, unlike the rule-derived `scope_class` on the Atlas tables. The kinds are
 `paradigm` (a task-shaped paradigm the Catalog does not list), `broad_class` (a family
 of tasks), `physiological` (stimulation, consumption, breath holding, sleep),
-`motor_act` (grasping, pointing, writing and the like), `imaging_protocol` (the flashing
-checkerboard) and `pseudo_task` (rest and fixation, which match the Catalog's pseudo
-tasks). The Catalog's [task criteria](task_criteria/index.md) exclude the physiological,
+`motor_act` (grasping, pointing, writing and the like) and `imaging_protocol` (the
+flashing checkerboard). The Catalog's [task criteria](task_criteria/index.md) exclude the physiological,
 motor and imaging-protocol groups deliberately; the `paradigm` group is the list of
 candidates for addition.
 
@@ -69,21 +67,10 @@ candidates for addition.
 
 Candidate rows came from the same normalized name and alias matching as the Atlas
 tables, run against the CogPO labels, with a task-name match taking precedence over a
-variation-name match. On this data the automated pass found 26 of the 72 forward
+variant-name match. On this data the automated pass found 26 of the 72 forward
 matches and 30 of the 50 reverse ones, and missed classes as plain as Anti-Saccades
 (plural) and Sternberg Task (no alias hit). Every row of both tables was then decided by
 hand against the CogPO definition, and every row carries a note saying why.
-
-(cogpo-method-5)=
-## The dimension vocabulary
-
-`data/facet_defs.tsv` lists every value of CogPO's six dimension vocabularies with its
-CogPO definition and identifier, and the HED 8.4.0 tag or tags that express it. Tags
-were checked against the HED 8.4.0 schema file: every tag in the table exists. The eight
-Response Modality classes carry no label in the OWL; their labels were checked against
-the Foundational Model of Anatomy through the EBI Ontology Lookup Service. Values added
-from the HED schema or by the Catalog are marked by `source`, so that the vocabulary
-credits CogPO exactly and no further.
 
 (cogpo-method-6)=
 ## Reproducing the tables

@@ -47,7 +47,7 @@ CURATED = {
     "match_level",
     "atlas_id",
     "hedtsk_id",
-    "hed_variation_id",
+    "hed_variant_id",
     "atlas_concept_id",
     "hed_process_id",
     "notes",
@@ -189,6 +189,43 @@ def read_tsv(path: Path) -> dict[str, dict]:
         return {row[key_field]: row for row in reader if row.get(key_field)}
 
 
+# Atlas names whose ASCII form is chosen by hand rather than by the rules in to_ascii().
+ASCII_OVERRIDES = {
+    "Angling Risk Task \u2013 Always Sunny": "Angling Risk Task (Always Sunny)",
+}
+
+
+def to_ascii(value: str) -> str:
+    """Return an Atlas text as ASCII, as every table in data/ must be.
+
+    The Atlas returns some names with an en dash, a curly apostrophe, or the three
+    characters left by a double-encoded apostrophe ("Penn" + U+00E2 U+0080 U+0099 + "s").
+    Exits if a character remains that no rule covers, so a new one is seen, not copied.
+
+    Parameters:
+        value: The text as the Atlas archive holds it.
+
+    Returns:
+        The text with only ASCII characters.
+    """
+    if value in ASCII_OVERRIDES:
+        return ASCII_OVERRIDES[value]
+    if re.search("[\u00c2-\u00f4][\u0080-\u00bf]", value):
+        try:
+            value = value.encode("latin-1").decode("utf-8")  # undo a double encoding
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            pass
+    value = re.sub("[\u2010-\u2015\u2212]", "-", value)
+    value = re.sub("[\u2018\u2019]", "'", value)
+    value = re.sub("[\u201c\u201d]", '"', value)
+    value = re.sub("[\u00a0\u2002-\u200a]", " ", value)
+    leftover = sorted({c for c in value if ord(c) > 127})
+    if leftover:
+        chars = ", ".join(f"U+{ord(c):04X}" for c in leftover)
+        raise SystemExit(f"to_ascii: no rule for {chars} in {value!r}; add one or an ASCII_OVERRIDES entry")
+    return value
+
+
 def write_tsv(path: Path, fieldnames: list[str], rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
@@ -196,7 +233,7 @@ def write_tsv(path: Path, fieldnames: list[str], rows: list[dict]) -> None:
         writer.writeheader()
         for row in rows:
             for field in fieldnames:
-                value = str(row.get(field, "") or "")
+                value = to_ascii(str(row.get(field, "") or ""))
                 if "\t" in value or "\n" in value or "\r" in value:
                     raise SystemExit(f"{path.name}: field {field!r} contains a tab or newline: {value!r}")
                 row[field] = value
@@ -263,8 +300,8 @@ TASK_REVERSE_FIELDS = [
     "match_level",
     "hedtsk_id",
     "hed_task_name",
-    "hed_variation_id",
-    "hed_variation_name",
+    "hed_variant_id",
+    "hed_variant_name",
     "notes",
 ]
 
@@ -326,13 +363,13 @@ def build_task_tables(
         )
 
     # Atlas entries are often a named variant of a paradigm rather than the paradigm
-    # itself, so a variation name is tried before falling back to a task name.
-    variation_index: dict[str, list[dict]] = collections.defaultdict(list)
+    # itself, so a variant name is tried before falling back to a task name.
+    variant_index: dict[str, list[dict]] = collections.defaultdict(list)
     for task in hed_tasks:
-        for variation in task.get("variations") or []:
-            key = normalize(variation.get("name", ""))
+        for variant in task.get("variants") or []:
+            key = normalize(variant.get("name", ""))
             if key:
-                variation_index[key].append({"task": task, "variation": variation})
+                variant_index[key].append({"task": task, "variant": variant})
 
     reverse = []
     for entry in sorted(atlas_tasks, key=lambda e: (e.get("name") or "").lower()):
@@ -340,9 +377,9 @@ def build_task_tables(
         names = [entry.get("name", ""), entry.get("alias", "")]
 
         # Precedence matters. An Atlas entry that names a HED task outright is a
-        # task-level match even when some other task lists a variation by that name:
-        # `2-stage decision task` is the Two-Stage Decision Task, not a variation of
-        # Instrumental Conditioning. Only when no task name matches is a variation
+        # task-level match even when some other task lists a variant by that name:
+        # `2-stage decision task` is the Two-Stage Decision Task, not a variant of
+        # Instrumental Conditioning. Only when no task name matches is a variant
         # name considered.
         keys = sorted(_keys(*names))
         task_hit = next((k for k in keys if k in hed_index), None)
@@ -350,23 +387,23 @@ def build_task_tables(
         hit = None
         if task_hit is None:
             for key in keys:
-                if key in variation_index:
-                    hit = variation_index[key][0]
+                if key in variant_index:
+                    hit = variant_index[key][0]
                     break
 
         if hit:
-            match_type, match_level = "exact", "variation"
+            match_type, match_level = "exact", "variant"
             hedtsk_id = hit["task"]["hedtsk_id"]
             hed_task_name = hit["task"]["canonical_name"]
-            variation_id = hit["variation"].get("variation_id", "")
-            variation_name = hit["variation"].get("name", "")
+            variant_id = hit["variant"].get("variant_id", "")
+            variant_name = hit["variant"].get("name", "")
         else:
             candidate, match_type = best_candidate(names, hed_index)
             hed = candidate["hed"] if candidate else None
             match_level = "task" if hed else ""
             hedtsk_id = hed["hedtsk_id"] if hed else ""
             hed_task_name = hed["canonical_name"] if hed else ""
-            variation_id = variation_name = ""
+            variant_id = variant_name = ""
 
         reverse.append(
             {
@@ -379,8 +416,8 @@ def build_task_tables(
                 "match_level": match_level,
                 "hedtsk_id": hedtsk_id,
                 "hed_task_name": hed_task_name,
-                "hed_variation_id": variation_id,
-                "hed_variation_name": variation_name,
+                "hed_variant_id": variant_id,
+                "hed_variant_name": variant_name,
                 "notes": "",
             }
         )
@@ -487,31 +524,29 @@ def main() -> None:
         row["atlas_def_chars"] = _definition_length(detail) if entry else ""
         row["atlas_concept_count"] = len(detail.get("concepts") or []) if entry else ""
 
-    variation_by_id = {
-        v["variation_id"]: (t, v) for t in hed_tasks for v in (t.get("variations") or []) if v.get("variation_id")
-    }
+    variant_by_id = {v["variant_id"]: (t, v) for t in hed_tasks for v in (t.get("variants") or []) if v.get("variant_id")}
 
     def rederive_task_reverse(row: dict) -> None:
         hed = hed_task_by_id.get(row.get("hedtsk_id") or "")
         row["hed_task_name"] = hed["canonical_name"] if hed else ""
-        vid = row.get("hed_variation_id") or ""
+        vid = row.get("hed_variant_id") or ""
         if vid:
-            found = variation_by_id.get(vid)
+            found = variant_by_id.get(vid)
             if not found:
                 raise SystemExit(
                     f"atlas_task_to_hed.tsv: row {row['atlas_id']} references unknown "
-                    f"variation id {vid!r}. Rerun src/add_variation_ids.py or fix the row."
+                    f"variant id {vid!r}; variant ids are stored in data/task_details.json, so fix the row."
                 )
-            parent, variation = found
+            parent, variant = found
             if parent["hedtsk_id"] != row.get("hedtsk_id"):
                 raise SystemExit(
-                    f"atlas_task_to_hed.tsv: row {row['atlas_id']} maps to variation {vid!r} "
+                    f"atlas_task_to_hed.tsv: row {row['atlas_id']} maps to variant {vid!r} "
                     f"but names task {row.get('hedtsk_id')!r}, whose parent is "
                     f"{parent['hedtsk_id']!r}."
                 )
-            row["hed_variation_name"] = variation.get("name", "")
+            row["hed_variant_name"] = variant.get("name", "")
         else:
-            row["hed_variation_name"] = ""
+            row["hed_variant_name"] = ""
 
     def rederive_process_forward(row: dict) -> None:
         entry = atlas_concept_by_id.get(row.get("atlas_concept_id") or "")

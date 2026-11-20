@@ -13,6 +13,21 @@ Naming of pictured objects; RT and errors index lexical retrieval and are sensit
 
 Participants view photographs or line drawings of common objects, animals, or scenes and name each item aloud as quickly and accurately as possible. Naming latency (RT from stimulus onset to vocal response onset) is the primary measure. The task engages multiple stages of language production: conceptual identification, lemma retrieval, phonological encoding, and articulation. fMRI reveals activation in left inferior frontal regions (Broca's area) and temporal cortex. The task is widely used in aphasia research and studies of language production.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-identify">identify</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Material:** Line drawings or photographs of common objects and animals, varying in object frequency, name agreement and visual complexity.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,70 +44,61 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Object frequency
     - Name agreement
     - Visual complexity
-    - Phonological or semantic context (blocked naming, picture-word interference)
+    - Phonological or semantic context (blocked naming)
+    - Response release (delayed go signal vs. immediate naming)
+    - Naming language (cued per trial; switch vs. repeat)
+    - Retrieval report (know, tip-of-the-tongue, do not know) with partial information
+    - Hint after failed naming (first sound or meaning)
 * - **Measurements**
   - - Naming latency
     - Error type (semantic, phonological)
     - Frequency and agreement effects
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Single-Object Naming
-
-    `hedvar_picture_naming__standard_single_object_naming`
-  - Name isolated objects as quickly as possible.
-  - Canonical overt naming to pictured objects
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Blocked-Cyclic Naming
 
     `hedvar_picture_naming__blocked_cyclic_naming`
-  - Small sets named repeatedly in semantically homogeneous vs. heterogeneous blocks; measures semantic interference.
-  - Same items repeat in blocked cycles; cumulative interference paradigm
-* - Continuous Naming
-
-    `hedvar_picture_naming__continuous_naming`
-  - Large sets with cumulative semantic interference across ordinal position within a category.
-  - Rapid successive naming; tests sustained lexical access
-* - Picture-Word Interference (PWI)
-
-    `hedvar_picture_naming__picture_word_interference_pwi`
-  - Simultaneous distractor word during naming; semantic vs. phonological distractors.
-  - Distractor word accompanies picture; lexical competition paradigm
-* - Delayed Naming
-
-    `hedvar_picture_naming__delayed_naming`
-  - See picture → delay → name; separates conceptual/lexical from articulatory processes.
-  - Delay between picture onset and response signal; isolates planning from execution
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - -
+  - A small picture set is named repeatedly in cycles, in blocks that are all one category or mixed, so that related names compete across trials.
 * - Object + Action Naming
 
     `hedvar_picture_naming__object_action_naming`
-  - Naming objects, actions, and attributes in separate or mixed blocks.
-  - Name actions as well as objects; different grammatical category
+  - named form
+  - -
+  - Pictures of actions are added and the participant names the action with a verb or the object with a noun, in separate or mixed blocks.
 * - Bilingual Picture Naming
 
     `hedvar_picture_naming__bilingual_picture_naming`
-  - Language switching paradigms with mixed-language naming blocks.
-  - Language cue specifies response language; language control demand
+  - population: <a href="vocabulary.html#facet-population-bilinguals">bilinguals</a>; cue: <a href="vocabulary.html#rule-respond-to-rule-cue-rule-cue">rule cue</a>; rule stability: <a href="vocabulary.html#rule-respond-to-rule-rule-stability-switches-on-cue">switches on cue</a>
+  - [Set shifting](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-set-shifting)
+  - A cue on each trial tells a bilingual participant which language to name the picture in, and trials where the language switches are compared with repeats.
 * - Tip-of-the-Tongue (TOT) Paradigm
 
     `hedvar_picture_naming__tip_of_the_tongue_tot_paradigm`
-  - Inducing retrieval failures via low-frequency items.
-  - Naming under word-finding difficulty conditions; different metacognitive state
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>; combined with: <a href="vocabulary.html#how-inserted">inserted</a>, <a href="vocabulary.html#game-report-on-self">report on self</a> (When naming fails, the player reports their retrieval state and what they partly know)
+  - [Feeling of knowing](../processes/awareness_agency_and_metacognition.md#hed-feeling-of-knowing), [Metacognitive monitoring](../processes/awareness_agency_and_metacognition.md#hed-metacognitive-monitoring)
+  - Rarely named items and famous faces provoke states where the name is known but cannot be produced, and the participant reports know / tip-of-the-tongue / do not know plus any partial information, adding a report on their own retrieval state to the naming job.
 * - Naming with Phonological/Semantic Cues
 
     `hedvar_picture_naming__naming_with_phonological_semantic_cues`
-  - Providing partial information to study facilitation.
-  - Partial cues provided after TOT; different cueing structure
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-feature-cue">feature cue</a>
+  - -
+  - When naming fails a hint is given (the first sound, or a description of the meaning), and whether the hint brings out the name is recorded.
 ```
 
 ## Cognitive processes
@@ -115,8 +121,8 @@ This task is designed to engage the following processes:
 ## Further references
 
 - Indefrey, P. (2011). The spatial and temporal signatures of word production components: A critical update. *Frontiers in Psychology*, 2, 255. ([DOI](https://doi.org/10.3389/fpsyg.2011.00255), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22016740/))
-- Nozari, N., & Hepner, C. R. (2019). To select or to wait? The importance of criterion setting in debates of competitive lexical selection. *Cognitive Neuropsychology*, 36(5-6), 193–207. ([DOI](https://doi.org/10.1080/02643294.2019.1632280), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31238793/))
-- Piai, V., & Eikelboom, J. (2023). Brain areas critical for picture naming: A systematic review and meta-analysis of lesion-symptom mapping studies. *Neurobiology of Language*, 4(2), 280–296. ([DOI](https://doi.org/10.1162/nol_a_00097), [PubMed](https://pubmed.ncbi.nlm.nih.gov/37229507/))
+- Nozari, N., & Hepner, C. R. (2019). To select or to wait? The importance of criterion setting in debates of competitive lexical selection. *Cognitive Neuropsychology*, 36(5-6), 193-207. ([DOI](https://doi.org/10.1080/02643294.2019.1632280), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31238793/))
+- Piai, V., & Eikelboom, J. (2023). Brain areas critical for picture naming: A systematic review and meta-analysis of lesion-symptom mapping studies. *Neurobiology of Language*, 4(2), 280-296. ([DOI](https://doi.org/10.1162/nol_a_00097), [PubMed](https://pubmed.ncbi.nlm.nih.gov/37229507/))
 
 ## External links
 

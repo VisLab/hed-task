@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://www.hedtags.org/hed-task/schemas/task_details.schema.json",
   "title": "HED task catalog",
-  "description": "Schema for data/task_details.json, the catalog of experimental tasks published by hed-task. Top level is a bare array of task objects. Shape only; cross-checks (unique ids, hed_process_ids resolve, variation ids derived, families) run in src/generate_docs.py.",
+  "description": "Schema for data/task_details.json, the catalog of experimental tasks published by hed-task. Top level is a bare array of task objects. Shape only; cross-checks (unique ids, hed_process_ids resolve, families, every game, facet, motivation, phase, setting and candidate value in the vocabulary files, variant ids) run in src/generate_docs.py.",
   "type": "array",
   "items": {
     "$ref": "#/definitions/task"
@@ -17,7 +17,10 @@
         "description",
         "inclusion_test",
         "families",
-        "hed_process_ids"
+        "hed_process_ids",
+        "game_type",
+        "motivation",
+        "task_facets"
       ],
       "properties": {
         "hedtsk_id": {
@@ -28,14 +31,6 @@
         "canonical_name": {
           "type": "string",
           "minLength": 1
-        },
-        "task_kind": {
-          "type": "string",
-          "enum": [
-            "task",
-            "pseudo_task"
-          ],
-          "description": "Omitted means 'task'. A pseudo task is a block-level activity that serves the experiment around it rather than eliciting a process through a trial structure: it provides a baseline or a reset (rest), sets up a physical state (fixation), collects a self-report (questionnaire) or delivers feedback on performance (task criteria, section 'Pseudo tasks'). It may have an empty hed_process_ids (no links recorded yet, which is not a claim that no process is engaged) and must be filed under the pseudo_tasks family."
         },
         "aliases": {
           "type": "array",
@@ -56,10 +51,47 @@
         "inclusion_test": {
           "$ref": "#/definitions/inclusion_test"
         },
-        "variations": {
+        "game_type": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "description": "The game the standard form is; a game_type key in data/task_game_defs.json."
+        },
+        "rules": {
+          "$ref": "#/definitions/rules"
+        },
+        "motivation": {
+          "$ref": "#/definitions/motivation"
+        },
+        "task_facets": {
+          "$ref": "#/definitions/task_facets"
+        },
+        "settings": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "description": "Names of the quantities studies vary in this task, no numbers; each a setting in data/task_game_defs.json."
+        },
+        "material": {
+          "type": "string",
+          "minLength": 1,
+          "description": "One sentence saying what the stimuli are inside their delivery type. Free text."
+        },
+        "phases": {
+          "$ref": "#/definitions/phases"
+        },
+        "combined_with": {
+          "$ref": "#/definitions/combined_with"
+        },
+        "candidates": {
+          "$ref": "#/definitions/candidates"
+        },
+        "variants": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/variation"
+            "$ref": "#/definitions/variant"
           }
         },
         "source_task_numbers": {
@@ -78,7 +110,7 @@
           "items": {
             "$ref": "#/definitions/family_membership"
           },
-          "description": "The task families this task belongs to: exactly one primary (where it is filed) and any number of secondary cross-listings. A pseudo task's primary is pseudo_tasks."
+          "description": "The task families this task belongs to: exactly one primary (where it is filed) and any number of secondary cross-listings."
         },
         "hed_process_ids": {
           "type": "array",
@@ -86,7 +118,8 @@
             "type": "string",
             "pattern": "^hed_[a-z][a-z0-9_]*$"
           },
-          "description": "Process IDs implicated by this task; each must resolve to a process in process_details.json. Non-empty except for pseudo tasks (both cross-checks run in src/generate_docs.py)."
+          "description": "Process IDs implicated by this task; each must resolve to a process in process_details.json. Every task has at least one (checked in src/generate_docs.py).",
+          "minItems": 1
         },
         "references": {
           "type": "array",
@@ -134,33 +167,188 @@
         }
       }
     },
-    "variation": {
+    "variant": {
       "type": "object",
       "additionalProperties": false,
       "required": [
-        "variation_id",
+        "variant_id",
         "name",
-        "description",
-        "justification"
+        "note"
       ],
+      "description": "An attested form of the task. States only what differs from the standard form: for a facet, rule or motivation question it names, its answer replaces the standard form's; its hed_process_ids are added to the standard form's.",
       "properties": {
+        "variant_id": {
+          "type": "string",
+          "pattern": "^hedvar_[a-z0-9_]+__[a-z0-9_]+$",
+          "description": "hedvar_<task id without the hedtsk_ prefix>__<slug>. Stored, not derived; unique across the catalog (checked in src/generate_docs.py)."
+        },
         "name": {
           "type": "string",
           "minLength": 1
         },
-        "description": {
+        "note": {
           "type": "string",
-          "minLength": 1
+          "minLength": 1,
+          "description": "One sentence saying what is different."
         },
-        "justification": {
-          "type": "string",
-          "minLength": 1
+        "rules": {
+          "$ref": "#/definitions/rules"
         },
-        "variation_id": {
-          "type": "string",
-          "pattern": "^hedvar_[a-z0-9_]+__[a-z0-9_]+$",
-          "description": "hedvar_<parent task slug>__<variation slug>; derived from the parent id and the name by src/add_variation_ids.py."
+        "motivation": {
+          "$ref": "#/definitions/motivation"
+        },
+        "task_facets": {
+          "$ref": "#/definitions/variant_task_facets"
+        },
+        "phases": {
+          "$ref": "#/definitions/phases"
+        },
+        "combined_with": {
+          "$ref": "#/definitions/combined_with"
+        },
+        "hed_process_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^hed_[a-z][a-z0-9_]*$"
+          },
+          "description": "Processes this variant adds to the standard form's."
+        },
+        "candidates": {
+          "$ref": "#/definitions/candidates"
         }
+      }
+    },
+    "rules": {
+      "type": "object",
+      "description": "Rule answers that differ from the default, rule key -> value; both from the record's game type in data/task_game_defs.json.",
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      }
+    },
+    "motivation": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Why the player tries. drive is required on a task (checked in src/generate_docs.py); a variant states only the questions whose answer differs. Values from the motivation section of data/task_game_defs.json.",
+      "properties": {
+        "drive": {
+          "$ref": "#/definitions/key_list"
+        },
+        "sign": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "earned_by": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "what": {
+          "$ref": "#/definitions/key_list"
+        },
+        "real": {
+          "$ref": "#/definitions/key_list"
+        }
+      }
+    },
+    "task_facets": {
+      "type": "object",
+      "description": "Facet -> values present, from data/task_facet_defs.json. A facet with nothing to say is absent; there are no empty lists.",
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "additionalProperties": {
+        "$ref": "#/definitions/key_list"
+      }
+    },
+    "variant_task_facets": {
+      "type": "object",
+      "description": "A variant's facet -> values, replacing the standard form's values for that facet. An empty list means the facet does not apply to this form; it is valid only for a facet the standard form carries (checked in src/generate_docs.py).",
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "additionalProperties": {
+        "type": "array",
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        }
+      }
+    },
+    "phases": {
+      "type": "array",
+      "description": "Ordered phase names from data/task_game_defs.json, used only for a phase beyond the game type's own structure.",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      }
+    },
+    "combined_with": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "how",
+          "note"
+        ],
+        "description": "A second game played with this one: either a game type or a catalog task (hedtsk_id), never both.",
+        "properties": {
+          "game_type": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "task": {
+            "type": "string",
+            "pattern": "^hedtsk_[a-z][a-z0-9_]*$"
+          },
+          "how": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "oneOf": [
+          {
+            "required": [
+              "game_type"
+            ]
+          },
+          {
+            "required": [
+              "task"
+            ]
+          }
+        ]
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^cand_[a-z0-9_]+$"
+      },
+      "description": "candidate_id entries of data/vocabulary_candidates.json for differences the vocabulary cannot yet say."
+    },
+    "key_list": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
       }
     },
     "reference": {

@@ -61,8 +61,7 @@ experiment, what the participant was asked to do, without saying how any trial u
 CogPO is intermediate: it labels the task and the steps within it, each condition with
 its stimuli, responses and instructions. The Catalog's counterparts at that level are the
 proposed facets, single attributes of a task such as stimulus modality or response kind
-drawn from closed vocabularies that CogPO (or the HED equivalent) supplies, and the pseudo tasks, which name the
-block-level steps such as rest, fixation and feedback. HED annotates what actually
+drawn from closed vocabularies that CogPO (or the HED equivalent) supplies. HED annotates what actually
 happened, event by event, with a time for each.
 
 | Resource | Labels | Example, for a Stroop experiment |
@@ -82,32 +81,35 @@ the N-Back Task, the Iowa Gambling Task. Particular questionnaires, clinical
 screening instruments, generic labels such as "memory task", and one-off designs are
 excluded. The full rules are in the [Task selection criteria](methods/task_criteria/index.md).
 
-The Catalog also has {{ n_pseudo_tasks }} **pseudo tasks**, which are not tasks in the sense
-above: the Rest Task, the Fixate Task, the Take Questionnaire Task and the Receive Feedback Task. A pseudo task is a block that sets up or holds a brain state,
-collects a self-report or delivers feedback, rather than eliciting a process through trials. Such blocks appear in
-most experiments and datasets need to label them. The Catalog includes them for that reason,
-marks them on their pages, and has not yet linked them to processes. The [Pseudo tasks section](methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3) of the task criteria
-explains what qualifies as a pseudo task. The pseudo tasks are closely related to CogPO Paradigms
-and to aspects of tasks that we currently are calling facets. The relationship between Catalog tasks,
-Catalog task facets, and CogPO Paradigms has not been finalized.
+Rest, fixation and answering a questionnaire are tasks too: the Rest Task, the Fixate Task
+and the Take Questionnaire Task. Each gives the participant a job and is linked to the
+processes it engages. Feedback is not a task: it is an event within the task it belongs
+to. [Section 1.3](methods/task_criteria/01_task_selection_criteria.md#task-criteria-1-3)
+of the task criteria explains both. The relationship between Catalog tasks, Catalog task
+facets, and CogPO Paradigms has not been finalized.
 
 The Catalog currently has {{ n_tasks }} tasks. Each task page carries:
 
 - A **canonical name** and its **aliases**, so that a search for "CWIT" or "Stroop" lands
   on the Stroop Color-Word Task.
 - A **short definition** and a longer **description**.
+- An **at a glance** block: the task's standard form in the terms of the
+  [task vocabulary](tasks/vocabulary.md), that is its game type, the rules it states,
+  why the participant tries, its facets, settings and material. Two listings are built
+  on the vocabulary, [tasks by game type](tasks/by_game_type.md) and
+  [tasks by facet](tasks/by_facet.md).
 - An **inclusion test** in three lists: the steps of the *procedure* the participant
   follows, the *manipulations* the experimenter varies, and the *measurements* recorded.
   An experiment is an instance of the task when its procedure matches, it manipulates at
   least one of the listed variables, and it records at least one of the listed measures. The
   procedure is decisive: two experiments with the same procedure are the same task even
   if they target different constructs.
-- A list of **variations**, each with a description and a justification. A variation
-  is a named version that changes what the participant experiences or does, so that the
-  event structure of the recorded data differs. Changing the recording equipment, the
-  analysis, the population or the stimulus set does not make a variation; changing the
-  response modality, the stimulus-response mapping or the required actions does. There
-  are {{ n_variations }} variations across the Catalog.
+- A list of **variants**, the other forms of the task that studies use. Each states
+  only what differs from the standard form and the processes it adds, with a note.
+  Changing the recording equipment, the analysis, the population or the stimulus set
+  does not make a variant; changing the response modality, the stimulus-response
+  mapping or the required actions does. There are {{ n_variants }} variants across the
+  Catalog.
 - The **cognitive processes** the task engages, linked to their definitions;
 - **key references** that established the paradigm and **recent references** that give a
   modern entry point.
@@ -162,8 +164,7 @@ not only by name. The idea and the candidate vocabularies come from
 [CogPO](cogpo/what_is_cogpo.md), the Cognitive Paradigm Ontology, which describes every
 paradigm by exactly those three things, and each value has HED tags that express
 it, so that a facet would sit between a task name and the HED annotation of its events.
-The [dimension mapping](cogpo/dimension_mapping.md) page holds the vocabularies; whether
-and how the Catalog adopts facets is not yet decided, and no task record carries one.
+Whether and how the Catalog adopts facets is not yet decided, and no task record carries one.
 
 ## Identifiers
 
@@ -173,7 +174,7 @@ at sight:
 | Kind | Form | Example |
 | --- | --- | --- |
 | Task | `hedtsk_<slug>` | `hedtsk_stroop_color_word` |
-| Task variation | `hedvar_<task slug>__<variation slug>` | `hedvar_stroop_color_word__counting_stroop` |
+| Task variant | `hedvar_<task slug>__<variant slug>` | `hedvar_stroop_color_word__counting_stroop` |
 | Process | `hed_<slug>` | `hed_response_inhibition` |
 | Process category | `<slug>` | `inhibitory_control_and_conflict_monitoring` |
 | Task family | `<slug>` | `conflict_and_interference` |
@@ -195,11 +196,9 @@ the [Atlas mapping method](methods/atlas_mapping_method.md) page says how each c
 decided.
 
 A second source for the Catalog is [CogPO](http://www.cogpo.org/), the Cognitive Paradigm
-Ontology, whose stimulus, response and instruction vocabularies are the candidate facets;
-see [The Catalog vs CogPO](cogpo/the_catalog_vs_cogpo.md). The first facets to be filled
-are the six CogPO-derived ones (stimulus modality, kind and role; response modality and
-kind; instructions), followed by the Catalog's own (trial structure, feedback, timing and
-primary measure). CogPO and HED share a history: early HED terminology drew partly on
+Ontology, whose stimulus, response and instruction vocabularies were the starting point
+when facets were first planned; the facets are now anchored on HED tags. See
+[The Catalog vs CogPO](cogpo/the_catalog_vs_cogpo.md). CogPO and HED share a history: early HED terminology drew partly on
 CogPO, and HED's plan to adopt CogPO's paradigm list was dropped in its third generation
 for want of a standardized task nomenclature, which is the gap the Catalog now fills. See
 [HED vs CogPO](cogpo/hed_vs_cogpo.md).
@@ -214,7 +213,7 @@ for want of a standardized task nomenclature, which is the gap the Catalog now f
 :link-type: doc
 
 {{ n_tasks }} tasks in {{ n_families }} task families, each with its inclusion test,
-variations, processes and references.
+variants, processes and references.
 :::
 
 :::{grid-item-card} Browse the cognitive processes
@@ -230,7 +229,7 @@ and the tasks that engage it.
 :link-type: doc
 
 The selection criteria, naming rules, inclusion test and the rules that decide what
-counts as a variation.
+counts as a variant.
 :::
 
 :::{grid-item-card} Compare with related ontologies

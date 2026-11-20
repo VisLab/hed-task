@@ -1,0 +1,4209 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "cand_facet__stimulus_type__arithmetic_problems",
+      "kind": "facet_value",
+      "definition": "Arithmetic problems or equations to solve or verify; coded as digits and symbols.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Used by the 2026-11-07 coding; not in the facet vocabulary (decisions 5b, 5c).",
+      "seen_in": [
+        "Operation Span Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_facet__stimulus_type__bodily_signal",
+      "kind": "facet_value",
+      "definition": "A signal from inside the participant's own body, such as the heartbeat; the modality `somatic` records it.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Used by the 2026-11-07 coding; not in the facet vocabulary (decisions 5b, 5c).",
+      "seen_in": [
+        "Heartbeat Detection Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_facet__stimulus_type__phonemes",
+      "kind": "facet_value",
+      "definition": "Single speech sounds, spoken.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Used by the 2026-11-07 coding; not in the facet vocabulary (decisions 5b, 5c).",
+      "seen_in": [
+        "Phonological Awareness Task :: Blending"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_facet__task_io_device__mirror_apparatus",
+      "kind": "facet_value",
+      "definition": "A mirror through which the participant sees their own hand and the figure reversed.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Used by the 2026-11-07 coding; not in the facet vocabulary (decisions 5b, 5c).",
+      "seen_in": [
+        "Mirror Tracing Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_facet__task_io_device__physiological_recording",
+      "kind": "facet_value",
+      "definition": "Equipment that records a bodily signal the task depends on, such as the heartbeat.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Used by the 2026-11-07 coding; not in the facet vocabulary (decisions 5b, 5c).",
+      "seen_in": [
+        "Heartbeat Detection Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_facet__task_io_device__tactile_stimulator",
+      "kind": "facet_value",
+      "definition": "A device that delivers touch or vibration.",
+      "status": "candidate",
+      "issue": "duplicates a facet or setting",
+      "discussion": "Used by the 2026-11-07 coding; not in the facet vocabulary (decisions 5b, 5c). The stimulus facets name the touch.",
+      "seen_in": [
+        "Posner Spatial Cueing Task :: Cross-Modal Cueing",
+        "Contextual Cueing Task :: Cross-Modal Contextual Cueing"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_facet__trial_structure__response_terminated_trials",
+      "kind": "facet_value",
+      "definition": "The trial ends when the participant responds.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Used by the 2026-11-07 coding; not in the facet vocabulary (decisions 5b, 5c).",
+      "seen_in": [
+        "Random Dot Kinematogram Task :: Free Response vs. Interrogation Protocol"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_boundary__body_ownership_illusion",
+      "kind": "game_type_assignment",
+      "definition": "Is any answer scored against a correct one as a main measure? If yes, not Watch or listen.",
+      "status": "candidate",
+      "issue": "unclear boundary",
+      "discussion": "",
+      "seen_in": [
+        "Body Ownership Illusion Task"
+      ],
+      "promote_when": "Kay or the NEMAR review settles which measure is primary."
+    },
+    {
+      "candidate_id": "cand_boundary__self_paced_reading",
+      "kind": "game_type_assignment",
+      "definition": "Is any answer scored against a correct one as a main measure? If yes, not Watch or listen.",
+      "status": "candidate",
+      "issue": "unclear boundary",
+      "discussion": "",
+      "seen_in": [
+        "Self-Paced Reading Task"
+      ],
+      "promote_when": "Kay or the NEMAR review settles which measure is primary."
+    },
+    {
+      "candidate_id": "cand_boundary__sentence_comprehension",
+      "kind": "game_type_assignment",
+      "definition": "Is any answer scored against a correct one as a main measure? If yes, not Watch or listen.",
+      "status": "candidate",
+      "issue": "unclear boundary",
+      "discussion": "",
+      "seen_in": [
+        "Sentence Comprehension Task"
+      ],
+      "promote_when": "Kay or the NEMAR review settles which measure is primary."
+    },
+    {
+      "candidate_id": "cand_drive__competition",
+      "kind": "motivation_value",
+      "definition": "The player competes against others: a leaderboard, a score against other players.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Unused in the catalog on 2026-11-12 (4a).",
+      "seen_in": [],
+      "promote_when": "A task or dataset uses it."
+    },
+    {
+      "candidate_id": "cand_drive__information",
+      "kind": "motivation_value",
+      "definition": "Choices pay off in what the player learns rather than in reward (curiosity).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Unused in the catalog on 2026-11-12 (4a).",
+      "seen_in": [],
+      "promote_when": "A task or dataset uses it."
+    },
+    {
+      "candidate_id": "cand_census__choose_for_a_payoff__adjustment_direction",
+      "kind": "rule",
+      "definition": "Proposed values: ascending / descending adjustment of the offer",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Delay Discounting"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__choose_for_a_payoff__effort_type",
+      "kind": "rule",
+      "definition": "Proposed values: button_pressing / grip_force / n_back",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Effort-Based Decision-Making"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__choose_for_a_payoff__information_asymmetry",
+      "kind": "rule",
+      "definition": "Proposed values: symmetric / asymmetric information about the options",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Multi-Armed Bandit"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__choose_for_a_payoff__payoff_structure",
+      "kind": "rule",
+      "definition": "Proposed values: standard / variant payoff structures",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Iowa Gambling"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__choose_for_a_payoff__reinforcement_schedule",
+      "kind": "rule",
+      "definition": "Proposed values: fixed_ratio / variable_ratio / fixed_interval / variable_interval",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Instrumental Conditioning"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__choose_for_a_payoff__reversal_type",
+      "kind": "rule",
+      "definition": "Proposed values: serial / spatial reversal",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Reversal Learning"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__choose_for_a_payoff__transition_type",
+      "kind": "rule",
+      "definition": "Proposed values: common / rare transitions; the common-transition probability is a parameter",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Two-Stage Decision"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__find_the_way__probe_trials",
+      "kind": "rule",
+      "definition": "Proposed values: absent / present (platform removed)",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Virtual Morris Water Maze"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__make_a_movement__effector",
+      "kind": "rule",
+      "definition": "Proposed values: dominant_hand / non_dominant_hand",
+      "status": "candidate",
+      "issue": "unclear boundary",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Finger Tapping",
+        "Mirror Tracing"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__make_a_movement__instruction_awareness",
+      "kind": "rule",
+      "definition": "Proposed values: explicit / implicit instruction",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Motor Sequence Learning"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__not_a_game__eye_state",
+      "kind": "rule",
+      "definition": "Proposed values: open / closed",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Rest"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__not_a_game__gaze_contingent_feedback",
+      "kind": "rule",
+      "definition": "Proposed values: gaze not monitored / monitored and fed back",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Fixate"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__not_a_game__position_in_session",
+      "kind": "rule",
+      "definition": "Proposed values: before / between / after task blocks",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Rest"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__not_a_game__rest_instruction",
+      "kind": "rule",
+      "definition": "Proposed values: mind_wander / stay_alert",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Rest"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__play_against_another_player__action_framing",
+      "kind": "rule",
+      "definition": "Proposed values: give / take",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Dictator Game"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__play_against_another_player__anonymity",
+      "kind": "rule",
+      "definition": "Proposed values: anonymous / identified",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Dictator Game"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__play_against_another_player__partner_group_membership",
+      "kind": "rule",
+      "definition": "Proposed values: ingroup / outgroup",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Dictator Game"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__play_against_another_player__partner_social_distance",
+      "kind": "rule",
+      "definition": "Proposed values: stranger / acquaintance / friend or kin",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Dictator Game"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__play_against_another_player__reputation_information",
+      "kind": "rule",
+      "definition": "Proposed values: none / partner reputation shown",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Trust Game"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__report_on_yourself__action_type",
+      "kind": "rule",
+      "definition": "Proposed values: voluntary / involuntary (TMS) / passive observation",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Intentional Binding"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__report_on_yourself__agent_of_action",
+      "kind": "rule",
+      "definition": "Proposed values: self_caused / other_caused",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Intentional Binding"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__report_on_yourself__attention_focus",
+      "kind": "rule",
+      "definition": "Proposed values: interoceptive / exteroceptive",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Heartbeat Detection"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__report_on_yourself__causal_belief",
+      "kind": "rule",
+      "definition": "Proposed values: told causes / told does not cause the effect",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Intentional Binding"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__report_on_yourself__position_in_session",
+      "kind": "rule",
+      "definition": "Proposed values: position relative to task blocks",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Take Questionnaire"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__report_on_yourself__response_format",
+      "kind": "rule",
+      "definition": "Proposed values: likert / forced_choice / free_text",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Take Questionnaire"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__report_on_yourself__response_task",
+      "kind": "rule",
+      "definition": "Proposed values: counting / discrimination",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Heartbeat Detection"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__report_on_yourself__retrieval_instruction",
+      "kind": "rule",
+      "definition": "Proposed values: specific_episode / free_retrieval",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Autobiographical Memory"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__report_on_yourself__time_period_constraint",
+      "kind": "rule",
+      "definition": "Proposed values: childhood / recent / specific decade",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Autobiographical Memory"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__category_attribute_pairing",
+      "kind": "rule",
+      "definition": "Proposed values: compatible / incompatible blocks",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Implicit Association"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__feedback_type",
+      "kind": "rule",
+      "definition": "Proposed values: corrective / observational feedback",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Probabilistic Classification Learning"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__fixation_offset_timing",
+      "kind": "rule",
+      "definition": "Proposed values: gap (fixation off before target) / overlap (fixation stays on)",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Anti-Saccade"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__instruction_awareness",
+      "kind": "rule",
+      "definition": "Proposed values: explicit / implicit instruction",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Serial Reaction Time"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__item_novelty",
+      "kind": "rule",
+      "definition": "Proposed values: novel / repeated nouns",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Verb Generation"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__lure_trials",
+      "kind": "rule",
+      "definition": "Proposed values: absent / present (n-1 matches)",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "N-Back"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__masker_timing",
+      "kind": "rule",
+      "definition": "Proposed values: simultaneous / forward / backward masking",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Auditory Masking"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__novel_deviants",
+      "kind": "rule",
+      "definition": "Proposed values: absent / present (novel non-target deviants)",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Oddball"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__probe_location_validity",
+      "kind": "rule",
+      "definition": "Proposed values: probe at threat location / probe at neutral location",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Dot-Probe"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__recall_test_variant",
+      "kind": "rule",
+      "definition": "Proposed values: paired_recall / free_recall of symbols",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Digit Symbol Substitution"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__regularity_awareness",
+      "kind": "rule",
+      "definition": "Proposed values: explicit_aware / implicit_unaware of repetition",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Contextual Cueing"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__response_overtness",
+      "kind": "rule",
+      "definition": "Proposed values: overt / covert generation",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Verb Generation"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__spatial_compatibility_control",
+      "kind": "rule",
+      "definition": "Proposed values: standard / orthogonal spatial arrangement",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Imitation-Inhibition"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__speed_accuracy_emphasis",
+      "kind": "rule",
+      "definition": "Proposed values: speed / accuracy instruction",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Random Dot Kinematogram"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__surprise_memory_test",
+      "kind": "rule",
+      "definition": "Proposed values: none / incidental_symbol_recall after the test",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Digit Symbol Substitution"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__target_definition",
+      "kind": "rule",
+      "definition": "Proposed values: feature / conjunction",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Visual Search"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__target_level",
+      "kind": "rule",
+      "definition": "Proposed values: global / local",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Navon"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__respond_under_a_rule__visual_field",
+      "kind": "rule",
+      "definition": "Proposed values: left / right / central presentation",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Navon"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__solve_a_puzzle__belief_order",
+      "kind": "rule",
+      "definition": "Proposed values: first_order / second_order",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "False Belief"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__solve_a_puzzle__belief_state",
+      "kind": "rule",
+      "definition": "Proposed values: true_belief / false_belief",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "False Belief"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__solve_a_puzzle__execution_required",
+      "kind": "rule",
+      "definition": "Proposed values: planning_only (one-touch) / execute_moves",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Tower of London"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__solve_a_puzzle__generation_strategy",
+      "kind": "rule",
+      "definition": "Proposed values: switching / free_generation instructions",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Verbal Fluency"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__solve_a_puzzle__relation_type",
+      "kind": "rule",
+      "definition": "Proposed values: distribution_of_values / quantitative_progression / figure_addition",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Raven's Progressive Matrices"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__solve_a_puzzle__sequence_alternation",
+      "kind": "rule",
+      "definition": "Proposed values: numbers_only (A) / numbers_and_letters_alternating (B)",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Trail Making"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__study_then_be_tested__cue_focality",
+      "kind": "rule",
+      "definition": "Proposed values: focal / non_focal",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Prospective Memory"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__study_then_be_tested__cue_scope",
+      "kind": "rule",
+      "definition": "Proposed values: item_method / list_method",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Directed Forgetting"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__study_then_be_tested__encoding_attention",
+      "kind": "rule",
+      "definition": "Proposed values: full / divided attention at encoding",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Remember/Know"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__study_then_be_tested__intention_cue_type",
+      "kind": "rule",
+      "definition": "Proposed values: event_based / time_based",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Prospective Memory"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__study_then_be_tested__judgment_cue",
+      "kind": "rule",
+      "definition": "Proposed values: cue_only / cue_and_target at judgment",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Judgment-of-Learning"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__study_then_be_tested__judgment_timing",
+      "kind": "rule",
+      "definition": "Proposed values: immediate / delayed",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Judgment-of-Learning"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__study_then_be_tested__memory_set_constancy",
+      "kind": "rule",
+      "definition": "Proposed values: varied / fixed set across trials",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Sternberg Item Recognition"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__study_then_be_tested__probe_type",
+      "kind": "rule",
+      "definition": "Proposed values: present / absent in memory set",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Sternberg Item Recognition"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__study_then_be_tested__recall_cue_type",
+      "kind": "rule",
+      "definition": "Proposed values: kind of cue given at test",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Paired Associates Learning"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__study_then_be_tested__recall_order",
+      "kind": "rule",
+      "definition": "Proposed values: forward / backward reproduction; forward / backward / sequencing",
+      "status": "candidate",
+      "issue": "unclear boundary",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Corsi Block-Tapping",
+        "Digit Span"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__study_then_be_tested__surface_feature_change",
+      "kind": "rule",
+      "definition": "Proposed values: same_letter_set / changed_letter_set at test",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Artificial Grammar Learning"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__study_then_be_tested__test_stimulus_transformation",
+      "kind": "rule",
+      "definition": "Proposed values: same_image / novel_view / contrast_degraded",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Cambridge Face Memory"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__watch_or_listen__cue_competition_design",
+      "kind": "rule",
+      "definition": "Proposed values: blocking / overshadowing / relative_validity",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Causal Learning"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__watch_or_listen__deviant_dimension",
+      "kind": "rule",
+      "definition": "Proposed values: frequency / duration / intensity / phoneme",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Mismatch Negativity"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__watch_or_listen__presentation_format",
+      "kind": "rule",
+      "definition": "Proposed values: trial_by_trial / summary",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Causal Learning"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__watch_or_listen__regulation_timing",
+      "kind": "rule",
+      "definition": "Proposed values: before_viewing / during_viewing",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Emotion Regulation"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__watch_or_listen__spatial_congruence",
+      "kind": "rule",
+      "definition": "Proposed values: anatomically plausible / rotated position",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Body Ownership Illusion"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__watch_or_listen__stimulation_pairing",
+      "kind": "rule",
+      "definition": "Proposed values: visuotactile / visuomotor / visuoproprioceptive",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Body Ownership Illusion"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__watch_or_listen__stimulation_synchrony",
+      "kind": "rule",
+      "definition": "Proposed values: synchronous / asynchronous",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Body Ownership Illusion"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_census__watch_or_listen__viewing_task",
+      "kind": "rule",
+      "definition": "Proposed values: passive_viewing / one_back",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; a design choice studies vary that no rule records.",
+      "seen_in": [
+        "Face Processing"
+      ],
+      "promote_when": "The same contrast is found in a second task."
+    },
+    {
+      "candidate_id": "cand_choose_for_outcomes__option_set__committed_count",
+      "kind": "rule_value",
+      "definition": "Committed count. For Balloon Analog Risk Task / Automatic BART.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Balloon Analog Risk Task :: Automatic BART"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_choose_for_outcomes__option_set__multi_stage",
+      "kind": "rule_value",
+      "definition": "Multi stage. For Two-Stage Decision Task / Enhanced Model-Based Version.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Two-Stage Decision Task :: Enhanced Model-Based Version"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_choose_for_outcomes__option_set__single_response_schedule",
+      "kind": "rule_value",
+      "definition": "One response, repeated under a reward schedule.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Instrumental Conditioning Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_choose_for_outcomes__option_set__two_stage",
+      "kind": "rule_value",
+      "definition": "A first choice leads to a second choice.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Two-Stage Decision Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_choose_for_outcomes__outcome_knowledge__mixed",
+      "kind": "rule_value",
+      "definition": "The player is told part of the payoff structure and learns the rest by choosing.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Two-Stage Decision Task :: Two-Stage with Instructed Knowledge"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_choose_for_outcomes__phases__acquisition_plus_degradation",
+      "kind": "rule_value",
+      "definition": "Acquisition plus degradation. For Instrumental Conditioning Task / Contingency Degradation.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Instrumental Conditioning Task :: Contingency Degradation"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_choose_for_outcomes__phases__acquisition_plus_devaluation_test",
+      "kind": "rule_value",
+      "definition": "Acquisition plus devaluation test. For Instrumental Conditioning Task / Devaluation Paradigm.",
+      "status": "promoted",
+      "issue": "compound",
+      "discussion": "Stated since 2026-11-12 by the shared `phases` list: acquisition, devaluation, test.",
+      "seen_in": [
+        "Instrumental Conditioning Task :: Devaluation Paradigm",
+        "Two-Stage Decision Task :: Devaluation Manipulation"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_choose_for_outcomes__phases__acquisition_plus_reversal",
+      "kind": "rule_value",
+      "definition": "Learning, then the payoffs reverse.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Reversal Learning Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_choose_for_outcomes__phases__acquisition_plus_transfer",
+      "kind": "rule_value",
+      "definition": "Learning, then a test with new combinations.",
+      "status": "promoted",
+      "issue": "compound",
+      "discussion": "Stated since 2026-11-12 by the shared `phases` list: acquisition, transfer.",
+      "seen_in": [
+        "Instrumental Conditioning Task :: Outcome-Specific Pavlovian-Instrumental Transfer (PIT)",
+        "Probabilistic Selection Task"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_choose_for_outcomes__tradeoff__amount_vs_delay",
+      "kind": "rule_value",
+      "definition": "A bigger reward against a longer wait.",
+      "status": "promoted",
+      "issue": "single use",
+      "discussion": "Promoted by hand on 2026-11-12 as an established concept: Intertemporal choice; Delay Discounting. Now `choose_for_outcomes.tradeoff: amount_vs_delay` in task_game_defs.json.",
+      "seen_in": [
+        "Delay Discounting Task"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_choose_for_outcomes__tradeoff__effort_avoidance",
+      "kind": "rule_value",
+      "definition": "Effort avoidance. For Effort-Based Decision-Making Task / Demand Selection Task.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Effort-Based Decision-Making Task :: Demand Selection Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_interact_with_agent__communication__allowed",
+      "kind": "rule_value",
+      "definition": "Yes.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Prisoner's Dilemma Task :: PD with Communication"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_interact_with_agent__move_granularity__amount",
+      "kind": "rule_value",
+      "definition": "Amount. For Prisoner's Dilemma Task / Multiplayer/Public Goods Version.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Prisoner's Dilemma Task :: Continuous PD",
+        "Prisoner's Dilemma Task :: Multiplayer/Public Goods Version"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_interact_with_agent__move_order__single_move",
+      "kind": "rule_value",
+      "definition": "There is only one move.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Dictator Game Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_interact_with_agent__partner__computer",
+      "kind": "rule_value",
+      "definition": "A computer, known to be one.",
+      "status": "promoted",
+      "issue": "single use",
+      "discussion": "Promoted by hand on 2026-11-12 as an established concept: The human-against-computer partner contrast, common in imaging. Now `interact_with_agent.partner: computer` in task_game_defs.json.",
+      "seen_in": [
+        "Prisoner's Dilemma Task :: PD against Computer Opponents"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_interact_with_agent__partner__organization",
+      "kind": "rule_value",
+      "definition": "Organization. For Dictator Game Task / Charitable Giving Dictator.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Dictator Game Task :: Charitable Giving Dictator"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_interact_with_agent__players_acting__one",
+      "kind": "rule_value",
+      "definition": "Only the participant.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Dictator Game Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_interact_with_agent__punishment_option__player_or_third_party",
+      "kind": "rule_value",
+      "definition": "Player or third party. For Prisoner's Dilemma Task / PD with Punishment Option.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Prisoner's Dilemma Task :: PD with Punishment Option"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_interact_with_agent__punishment_option__third_party",
+      "kind": "rule_value",
+      "definition": "Third party. For Ultimatum Game Task / Third-Party Punishment.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Ultimatum Game Task :: Third-Party Punishment"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_interact_with_agent__second_mover_options__accept_reject",
+      "kind": "rule_value",
+      "definition": "Accept or reject; rejecting leaves both with nothing.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Ultimatum Game Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_interact_with_agent__second_mover_options__cooperate_defect",
+      "kind": "rule_value",
+      "definition": "Cooperate or defect.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Prisoner's Dilemma Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_interact_with_agent__second_mover_options__return_amount",
+      "kind": "rule_value",
+      "definition": "Send back any amount.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Trust Game Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_navigate__cues__both",
+      "kind": "rule_value",
+      "definition": "Both.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Virtual Morris Water Maze Task :: Dual-Solution Design",
+        "Virtual Radial Arm Maze Task :: Maze with Landmarks"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_navigate__cues__boundary_and_landmark",
+      "kind": "rule_value",
+      "definition": "Boundary and landmark. For Virtual Morris Water Maze Task / Boundary-Based vs. Landmark-Based Navigation.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Virtual Morris Water Maze Task :: Boundary-Based vs. Landmark-Based Navigation"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_navigate__cues__distal",
+      "kind": "rule_value",
+      "definition": "Landmarks far away.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Virtual Morris Water Maze Task",
+        "Virtual Radial Arm Maze Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_navigate__goal__hidden_platform",
+      "kind": "rule_value",
+      "definition": "Find a hidden place.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Virtual Morris Water Maze Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_navigate__goal__return_to_start",
+      "kind": "rule_value",
+      "definition": "Return to start. For Virtual Morris Water Maze Task / Path Integration Tasks.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Virtual Morris Water Maze Task :: Path Integration Tasks"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_navigate__goal__rewards_in_arms",
+      "kind": "rule_value",
+      "definition": "Collect rewards from the arms of a maze.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Virtual Morris Water Maze Task :: Virtual Star Maze",
+        "Virtual Radial Arm Maze Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_navigate__goal__visible_platform",
+      "kind": "rule_value",
+      "definition": "Visible platform. For Virtual Morris Water Maze Task / Visible Platform (Cue-Based).",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Virtual Morris Water Maze Task :: Visible Platform (Cue-Based)"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_navigate__memory_demand__across_trials",
+      "kind": "rule_value",
+      "definition": "A place that stays fixed across trials.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Virtual Morris Water Maze Task",
+        "Virtual Radial Arm Maze Task :: Probabilistic Reward Maze"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_navigate__memory_demand__within_and_across_trials",
+      "kind": "rule_value",
+      "definition": "Within and across trials. For Virtual Radial Arm Maze Task / Partially Baited Maze (4 of 8).",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Virtual Radial Arm Maze Task :: Partially Baited Maze (4 of 8)"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_navigate__memory_demand__within_trial",
+      "kind": "rule_value",
+      "definition": "Which arms were already visited this trial.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Virtual Morris Water Maze Task :: Path Integration Tasks",
+        "Virtual Radial Arm Maze Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_navigate__phases__acquisition_plus_reversal",
+      "kind": "rule_value",
+      "definition": "Acquisition plus reversal. For Virtual Morris Water Maze Task / Reversal.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Virtual Morris Water Maze Task :: Reversal"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__guidance__direct_view",
+      "kind": "rule_value",
+      "definition": "Directly.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Finger Tapping Task",
+        "Motor Sequence Learning Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__guidance__mirror_reversed",
+      "kind": "rule_value",
+      "definition": "Only in a mirror.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Mirror Tracing Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__guidance__prism_shifted",
+      "kind": "rule_value",
+      "definition": "Prism shifted. For Mirror Tracing Task / Prism Adaptation Analog.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Mirror Tracing Task :: Prism Adaptation Analog"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__guidance__rotated",
+      "kind": "rule_value",
+      "definition": "Rotated. For Mirror Tracing Task / Rotation (Non-Mirror) Variants.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Mirror Tracing Task :: Rotation (Non-Mirror) Variants"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__guidance__up_down_or_both_axes_reversed",
+      "kind": "rule_value",
+      "definition": "Up down or both axes reversed. For Mirror Tracing Task / Left-Right vs. Up-Down Reversal.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Mirror Tracing Task :: Left-Right vs. Up-Down Reversal"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__learning_phases__across_sessions",
+      "kind": "rule_value",
+      "definition": "Several sessions.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Mirror Tracing Task :: Mirror Tracing with Delay",
+        "Motor Sequence Learning Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__learning_phases__single_session",
+      "kind": "rule_value",
+      "definition": "One session.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Finger Tapping Task",
+        "Mirror Tracing Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__movement__reach_to_target",
+      "kind": "rule_value",
+      "definition": "Reach to target. For Mirror Tracing Task / Prism Adaptation Analog.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Mirror Tracing Task :: Prism Adaptation Analog"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__movement__rhythm_pattern",
+      "kind": "rule_value",
+      "definition": "Rhythm pattern. For Finger Tapping Task / Complex Rhythmic Patterns.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Finger Tapping Task :: Complex Rhythmic Patterns"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__movement__sequence",
+      "kind": "rule_value",
+      "definition": "A sequence of finger presses.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Finger Tapping Task :: Sequential Multi-Finger",
+        "Motor Sequence Learning Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__movement__single_tap",
+      "kind": "rule_value",
+      "definition": "Tap one finger repeatedly.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Finger Tapping Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__movement__trace",
+      "kind": "rule_value",
+      "definition": "Trace a path or shape.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Mirror Tracing Task",
+        "Motor Sequence Learning Task :: Continuous Tracking + Sequence"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__pacing__externally_paced",
+      "kind": "rule_value",
+      "definition": "A metronome or other signal.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Finger Tapping Task :: Auditorily-Paced Tapping",
+        "Finger Tapping Task :: Visually-Paced Tapping",
+        "Motor Sequence Learning Task :: Continuous Tracking + Sequence"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__pacing__fastest_possible",
+      "kind": "rule_value",
+      "definition": "As fast as possible.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Motor Sequence Learning Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__pacing__paced_then_continued",
+      "kind": "rule_value",
+      "definition": "Paced then continued. For Finger Tapping Task / Continuation Paradigm.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Finger Tapping Task :: Continuation Paradigm"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__pacing__self_paced",
+      "kind": "rule_value",
+      "definition": "The player.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Finger Tapping Task",
+        "Mirror Tracing Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_produce_movement__phases__practice_plus_transfer",
+      "kind": "rule_value",
+      "definition": "Practice plus transfer. For Motor Sequence Learning Task / Transfer Tests.",
+      "status": "promoted",
+      "issue": "small game type",
+      "discussion": "Stated since 2026-11-12 by the shared `phases` list: transfer.",
+      "seen_in": [
+        "Motor Sequence Learning Task :: Transfer Tests"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_report_on_self__inserted_judgment__confidence_at_test",
+      "kind": "rule_value",
+      "definition": "Confidence at test. For Heartbeat Detection Task / Confidence-Accuracy Paradigm.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Heartbeat Detection Task :: Confidence-Accuracy Paradigm"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_report_on_self__prompt__clock",
+      "kind": "rule_value",
+      "definition": "A rotating clock hand to read off.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Intentional Binding Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_report_on_self__prompt__cue_word",
+      "kind": "rule_value",
+      "definition": "A cue word.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Autobiographical Memory Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_report_on_self__prompt__heartbeat_locked_tones",
+      "kind": "rule_value",
+      "definition": "Heartbeat locked tones. For Heartbeat Detection Task / Heartbeat Discrimination (Whitehead).",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Heartbeat Detection Task :: Heartbeat Discrimination (Whitehead)"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_report_on_self__prompt__items",
+      "kind": "rule_value",
+      "definition": "Questionnaire items.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Take Questionnaire Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_report_on_self__report_of__action_effect_interval",
+      "kind": "rule_value",
+      "definition": "Action effect interval. For Intentional Binding Task / Interval Estimation Method.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Intentional Binding Task :: Interval Estimation Method"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_report_on_self__report_of__imagined_future_event",
+      "kind": "rule_value",
+      "definition": "Imagined future event. For Autobiographical Memory Task / Future Episodic Simulation.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Autobiographical Memory Task :: Future Episodic Simulation"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_report_on_self__report_of__internal_bodily_event",
+      "kind": "rule_value",
+      "definition": "A bodily event, such as heartbeats.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Heartbeat Detection Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_report_on_self__report_of__personal_memory",
+      "kind": "rule_value",
+      "definition": "A memory from the player's own life.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Autobiographical Memory Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_report_on_self__report_of__questionnaire_item",
+      "kind": "rule_value",
+      "definition": "An answer to a questionnaire item.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Take Questionnaire Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_report_on_self__report_of__time_of_observed_action",
+      "kind": "rule_value",
+      "definition": "Time of observed action. For Intentional Binding Task / Social Intentional Binding.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Intentional Binding Task :: Social Intentional Binding"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_report_on_self__report_of__time_of_own_action",
+      "kind": "rule_value",
+      "definition": "When the player acted, or when its effect came.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Intentional Binding Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__competitor__contrasted",
+      "kind": "rule_value",
+      "definition": "Stimuli that afford one task only are contrasted with stimuli that afford both, so the competitor is present in some conditions and absent in others.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Task Switching Task :: Univalent vs. Bivalent Stimuli"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__competitor__observed_action",
+      "kind": "rule_value",
+      "definition": "A movement the player sees someone else make.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Imitation-Inhibition Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__concurrency__three_jobs_overlapped",
+      "kind": "rule_value",
+      "definition": "Three jobs overlapped. For Psychological Refractory Period Task / Triple-Task PRP.",
+      "status": "candidate",
+      "issue": "duplicates a facet or setting",
+      "discussion": "The concurrency rule was dropped (1c); a second job is a combined game.",
+      "seen_in": [
+        "Psychological Refractory Period Task :: Triple-Task PRP"
+      ],
+      "promote_when": "Never; recorded as a combined game."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__concurrency__two_jobs_divided",
+      "kind": "rule_value",
+      "definition": "Two, done together throughout.",
+      "status": "candidate",
+      "issue": "duplicates a facet or setting",
+      "discussion": "The concurrency rule was dropped (1c); a second job is a combined game.",
+      "seen_in": [
+        "Navon Task :: Divided Attention Navon",
+        "Useful Field of View Task :: Subtest 2: Divided Attention",
+        "Useful Field of View Task :: Subtest 3: Selective Attention"
+      ],
+      "promote_when": "Never; recorded as a combined game."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__concurrency__two_jobs_overlapped",
+      "kind": "rule_value",
+      "definition": "Two, in quick succession so that they overlap.",
+      "status": "candidate",
+      "issue": "duplicates a facet or setting",
+      "discussion": "The concurrency rule was dropped (1c); a second job is a combined game.",
+      "seen_in": [
+        "Mental Rotation Task :: Embodied/Motor-Assisted Rotation",
+        "Psychological Refractory Period Task",
+        "Visual Masking Task :: Backward Masking with Attentional Manipulation"
+      ],
+      "promote_when": "Never; recorded as a combined game."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__phases__acquisition_plus_transfer",
+      "kind": "rule_value",
+      "definition": "Acquisition plus transfer. For Contextual Cueing Task / Transfer of Contextual Cueing.",
+      "status": "promoted",
+      "issue": "compound",
+      "discussion": "Stated since 2026-11-12 by the shared `phases` list: acquisition, transfer.",
+      "seen_in": [
+        "Contextual Cueing Task :: Transfer of Contextual Cueing",
+        "Probabilistic Classification Learning Task :: Transfer Test Variants"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__response_demand__cancel_on_selected_signal",
+      "kind": "rule_value",
+      "definition": "Cancel on selected signal. For Stop-Signal Task / Selective Stop-Signal.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Stop-Signal Task :: Conditional Stop-Signal",
+        "Stop-Signal Task :: Selective Stop-Signal"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__response_demand__cancel_on_signal",
+      "kind": "rule_value",
+      "definition": "Stop a response already under way when a signal comes.",
+      "status": "promoted",
+      "issue": "single use",
+      "discussion": "Promoted by hand on 2026-11-12 as an established concept: The stop signal; Stop-Signal and two of its variations. Now `respond_to_rule.response_demand: cancel_on_signal` in task_game_defs.json.",
+      "seen_in": [
+        "Stop-Signal Task"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__response_demand__change_on_signal",
+      "kind": "rule_value",
+      "definition": "Change on signal. For Stop-Signal Task / Stop-Change Task.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Stop-Signal Task :: Stop-Change Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__response_demand__no_overt_response",
+      "kind": "rule_value",
+      "definition": "No overt response. For Rapid Serial Visual Presentation Task / RSVP Image Triage (BCI).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Rapid Serial Visual Presentation Task :: RSVP Image Triage (BCI)"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__response_demand__respond_on_go_signal",
+      "kind": "rule_value",
+      "definition": "Respond on go signal. For Picture Naming Task / Delayed Naming.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Picture Naming Task :: Delayed Naming"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__response_demand__respond_opposite",
+      "kind": "rule_value",
+      "definition": "Respond away from the stimulus (look away from it).",
+      "status": "promoted",
+      "issue": "single use",
+      "discussion": "Promoted by hand on 2026-11-12 as an established concept: The anti-response; Anti-Saccade. Now `respond_to_rule.response_demand: respond_opposite` in task_game_defs.json.",
+      "seen_in": [
+        "Anti-Saccade Task"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__response_release__go_signal",
+      "kind": "rule_value",
+      "definition": "Go signal. For Anti-Saccade Task / Delayed Anti-Saccade.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Anti-Saccade Task :: Delayed Anti-Saccade",
+        "Anti-Saccade Task :: Memory-Guided Anti-Saccade"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__rule_asks__rate",
+      "kind": "rule_value",
+      "definition": "Rate. For Facial Emotion Recognition Task / Dimensional Ratings.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Facial Emotion Recognition Task :: Dimensional Ratings"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__rule_source__learned_from_observation",
+      "kind": "rule_value",
+      "definition": "Learned from observation. For Probabilistic Classification Learning Task / Feedback vs. Observation Learning.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Probabilistic Classification Learning Task :: Feedback vs. Observation Learning"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__rule_stability__alternates_on_fixed_schedule",
+      "kind": "rule_value",
+      "definition": "The rule alternates between two sequences or rules on every step, as instructed.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Trail Making Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__rule_stability__contrasted",
+      "kind": "rule_value",
+      "definition": "Blocks with one rule are contrasted with blocks in which the rule switches.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Task Switching Task :: Mixing Cost Paradigm"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__rule_stability__switches_by_choice",
+      "kind": "rule_value",
+      "definition": "Switches by choice. For Task Switching Task / Voluntary Task Switching.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Task Switching Task :: Voluntary Task Switching"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__rule_stability__switches_on_schedule",
+      "kind": "rule_value",
+      "definition": "Switches on schedule. For Task Switching Task / Alternating Runs (AABB).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Task Switching Task :: Alternating Runs (AABB)",
+        "Task Switching Task :: Predictable vs. Random Task Sequences"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__stream__random_onsets",
+      "kind": "rule_value",
+      "definition": "At unpredictable moments.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Psychomotor Vigilance Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__stream__rapid_stream",
+      "kind": "rule_value",
+      "definition": "A fast stream at one place.",
+      "status": "promoted",
+      "issue": "single use",
+      "discussion": "Promoted by hand on 2026-11-12 as an established concept: Rapid serial presentation; a standard method, and the NEMAR data has many. Now `respond_to_rule.stream: rapid_stream` in task_game_defs.json.",
+      "seen_in": [
+        "Rapid Serial Visual Presentation Task"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_respond_to_rule__target_rate__frequent_target",
+      "kind": "rule_value",
+      "definition": "Frequent target. For Continuous Performance Task / Gradual-Onset CPT (gradCPT).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Continuous Performance Task :: Gradual-Onset CPT (gradCPT)"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_solve_problem__answer_form__choose_option",
+      "kind": "rule_value",
+      "definition": "Pick from alternatives.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "False Belief Task :: Adult False Belief with Reaction Time",
+        "False Belief Task :: Competitive False Belief (Deception)",
+        "Raven's Progressive Matrices Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__answer_form__connect_sequence",
+      "kind": "rule_value",
+      "definition": "Draw a line through items in order.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Trail Making Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__answer_form__gaze_prediction",
+      "kind": "rule_value",
+      "definition": "Gaze prediction. For False Belief Task / Anticipatory Looking.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "False Belief Task :: Anticipatory Looking"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__answer_form__move_sequence",
+      "kind": "rule_value",
+      "definition": "Plan and make a sequence of moves.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Tower of London Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__answer_form__produce_many",
+      "kind": "rule_value",
+      "definition": "Produce as many answers as possible.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Verbal Fluency Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__answer_form__produce_word",
+      "kind": "rule_value",
+      "definition": "Produce one word.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Remote Associates Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__answer_form__propose_and_test",
+      "kind": "rule_value",
+      "definition": "Propose and test. For Wason Selection Task / Wason 2-4-6 Task (Related).",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Wason Selection Task :: Wason 2-4-6 Task (Related)"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__answer_form__select_cards",
+      "kind": "rule_value",
+      "definition": "Choose which cards to turn over.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Wason Selection Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__answer_form__verbal_answer",
+      "kind": "rule_value",
+      "definition": "Answer aloud.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "False Belief Task",
+        "Trail Making Task :: Oral Trail Making Test"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__constraint__category_rule_and_time_limit",
+      "kind": "rule_value",
+      "definition": "Category rule and time limit.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Verbal Fluency Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__constraint__minimum_moves",
+      "kind": "rule_value",
+      "definition": "Solve in as few moves as possible.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Tower of London Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__constraint__minimum_moves_and_time_limit",
+      "kind": "rule_value",
+      "definition": "Minimum moves and time limit. For Tower of London Task / Tower with Time Pressure.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Tower of London Task :: Tower with Time Pressure"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__constraint__time_limit",
+      "kind": "rule_value",
+      "definition": "A time limit.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Raven's Progressive Matrices Task :: Time-Limited vs. Untimed Administration",
+        "Remote Associates Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__players_acting__both",
+      "kind": "rule_value",
+      "definition": "Two players each make a move (a rule of 'Play against another player' used on a puzzle task).",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "False Belief Task :: Competitive False Belief (Deception)"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__players_acting__move_order",
+      "kind": "rule_value",
+      "definition": "Not a value: a rule name left behind when the 2026-11-07 coding was parsed.",
+      "status": "rejected",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "False Belief Task :: Competitive False Belief (Deception)"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_solve_problem__players_acting__partner",
+      "kind": "rule_value",
+      "definition": "Not a value: a rule name left behind when the 2026-11-07 coding was parsed.",
+      "status": "rejected",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "False Belief Task :: Competitive False Belief (Deception)"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_solve_problem__representation__cards",
+      "kind": "rule_value",
+      "definition": "Cards.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Wason Selection Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__representation__dot_grid",
+      "kind": "rule_value",
+      "definition": "Dot grid. For Verbal Fluency Task / Design Fluency.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Verbal Fluency Task :: Design Fluency"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__representation__figural_matrix",
+      "kind": "rule_value",
+      "definition": "A matrix of figures with one missing.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Raven's Progressive Matrices Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__representation__narrative",
+      "kind": "rule_value",
+      "definition": "A story.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "False Belief Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__representation__numbers_and_letters",
+      "kind": "rule_value",
+      "definition": "Numbers and letters.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Trail Making Task",
+        "Wason Selection Task :: Wason 2-4-6 Task (Related)"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__representation__physical_objects",
+      "kind": "rule_value",
+      "definition": "Objects to move, such as balls on pegs.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Tower of London Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_solve_problem__representation__words",
+      "kind": "rule_value",
+      "definition": "Words.",
+      "status": "candidate",
+      "issue": "small game type",
+      "discussion": "",
+      "seen_in": [
+        "Remote Associates Task",
+        "Verbal Fluency Task"
+      ],
+      "promote_when": "The game type gains enough tasks for its rules to recur."
+    },
+    {
+      "candidate_id": "cand_study_then_test__cycles__repeated_tests",
+      "kind": "rule_value",
+      "definition": "Repeated tests. For Free Recall Task / Repeated Free Recall.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Free Recall Task :: Repeated Free Recall"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__inserted_judgment__after_failed_recall",
+      "kind": "rule_value",
+      "definition": "Rate the chance of recognizing an item not recalled (feeling of knowing).",
+      "status": "promoted",
+      "issue": "single use",
+      "discussion": "Promoted by hand on 2026-11-12 as an established concept: Feeling of knowing. Now `study_then_test.inserted_judgment: after_failed_recall` in task_game_defs.json.",
+      "seen_in": [
+        "Feeling-of-Knowing Task"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_study_then_test__inserted_judgment__at_study",
+      "kind": "rule_value",
+      "definition": "Predict later memory while studying (judgment of learning).",
+      "status": "promoted",
+      "issue": "single use",
+      "discussion": "Promoted by hand on 2026-11-12 as an established concept: Judgment of learning; without it the rule has only `none`. Now `study_then_test.inserted_judgment: at_study` in task_game_defs.json.",
+      "seen_in": [
+        "Judgment-of-Learning Task"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_study_then_test__inserted_judgment__before_study",
+      "kind": "rule_value",
+      "definition": "Before study. For Judgment-of-Learning Task / Pre-Study Judgment (Ease-of-Learning).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Judgment-of-Learning Task :: Pre-Study Judgment (Ease-of-Learning)"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__inserted_judgment__during_interval",
+      "kind": "rule_value",
+      "definition": "During interval. For Think/No-Think Task / TNT with Intrusion Reporting.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Think/No-Think Task :: TNT with Intrusion Reporting"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__interval_filler__active_tracking",
+      "kind": "rule_value",
+      "definition": "Keeping what is held up to date.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Multiple Object Tracking Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__interval_filler__continual_distraction",
+      "kind": "rule_value",
+      "definition": "Continual distraction. For Free Recall Task / Continual Distractor Free Recall (CDFR).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Free Recall Task :: Continual Distractor Free Recall (CDFR)"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__interval_filler__ongoing_task",
+      "kind": "rule_value",
+      "definition": "Another task that runs throughout, during which the intention must be acted on.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Prospective Memory Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__interval_filler__suppression_practice",
+      "kind": "rule_value",
+      "definition": "Practice in not thinking of the item.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Think/No-Think Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__studied_material__faces_across_views",
+      "kind": "rule_value",
+      "definition": "Faces seen from several views.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Cambridge Face Memory Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__studied_material__grammar_strings",
+      "kind": "rule_value",
+      "definition": "Letter strings built by a hidden grammar.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Artificial Grammar Learning Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__studied_material__intention",
+      "kind": "rule_value",
+      "definition": "Something to do later.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Prospective Memory Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__studied_material__moving_targets",
+      "kind": "rule_value",
+      "definition": "Objects to keep track of while they move.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Multiple Object Tracking Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__studied_material__prior_knowledge",
+      "kind": "rule_value",
+      "definition": "Prior knowledge. For Feeling-of-Knowing Task / Semantic / General-Knowledge Feeling-of-Knowing.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Feeling-of-Knowing Task :: Semantic / General-Knowledge Feeling-of-Knowing"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__studied_material__sample_array",
+      "kind": "rule_value",
+      "definition": "A display to compare against a moment later.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Change Detection Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__studied_material__spatial_configuration",
+      "kind": "rule_value",
+      "definition": "Positions or a layout.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Delayed Match-to-Sample Task :: Spatial DMTS"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__study_instruction__keep_last_n",
+      "kind": "rule_value",
+      "definition": "Keep last n. For Digit Span Task / Running Digit Span.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Digit Span Task :: Running Digit Span"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__study_job__enact",
+      "kind": "rule_value",
+      "definition": "Enact. For Directed Forgetting Task / Directed Forgetting of Actions (SPT).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Directed Forgetting Task :: Directed Forgetting of Actions (SPT)"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__study_job__generate",
+      "kind": "rule_value",
+      "definition": "Generate. For Source Memory Task / Internal Source Monitoring.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Source Memory Task :: Internal Source Monitoring"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__study_job__perceive_or_generate",
+      "kind": "rule_value",
+      "definition": "Perceive or generate. For Source Memory Task / Reality Monitoring.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Source Memory Task :: Reality Monitoring"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__study_job__predict_next",
+      "kind": "rule_value",
+      "definition": "Predict next. For Artificial Grammar Learning Task / Sequential AGL.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Artificial Grammar Learning Task :: Sequential AGL"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__study_job__self_reference_judgment",
+      "kind": "rule_value",
+      "definition": "Judge whether each item describes themselves.",
+      "status": "promoted",
+      "issue": "single use",
+      "discussion": "Promoted by hand on 2026-11-12 as an established concept: The self-reference effect. Now `study_then_test.study_job: self_reference_judgment` in task_game_defs.json.",
+      "seen_in": [
+        "Self-Referential Encoding Task"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_study_then_test__test_form__causal_judgment",
+      "kind": "rule_value",
+      "definition": "A rating of the strength of the relation between what was studied, scored against a normative value.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Causal Learning Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__test_form__continuous_reproduction",
+      "kind": "rule_value",
+      "definition": "Continuous reproduction. For Change Detection Task / Continuous Report / Precision Task.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Change Detection Task :: Continuous Report / Precision Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__test_form__externalized_free_recall",
+      "kind": "rule_value",
+      "definition": "Externalized free recall. For Free Recall Task / Externalized Free Recall.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Free Recall Task :: Externalized Free Recall"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__test_form__forced_choice_nonmatch",
+      "kind": "rule_value",
+      "definition": "Forced choice nonmatch. For Delayed Match-to-Sample Task / Delayed Non-Match-to-Sample (DNMS).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Delayed Match-to-Sample Task :: Delayed Non-Match-to-Sample (DNMS)"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__test_form__free_recall_then_old_new",
+      "kind": "rule_value",
+      "definition": "Free recall then old new.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Rey Auditory Verbal Learning Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__test_form__free_then_cued_recall_then_old_new",
+      "kind": "rule_value",
+      "definition": "Free then cued recall then old new. For Rey Auditory Verbal Learning Task / Cued Recall Addition.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Rey Auditory Verbal Learning Task :: Cued Recall Addition"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__test_form__generate_exemplars",
+      "kind": "rule_value",
+      "definition": "Generate exemplars. For Artificial Grammar Learning Task / Production Task.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Artificial Grammar Learning Task :: Production Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__test_form__grammaticality_judgment",
+      "kind": "rule_value",
+      "definition": "Say whether new strings follow the grammar.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Artificial Grammar Learning Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__test_form__lure_discrimination",
+      "kind": "rule_value",
+      "definition": "Tell studied items from similar lures.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Mnemonic Similarity Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__test_form__old_new_remember_know",
+      "kind": "rule_value",
+      "definition": "Old or new, and if old whether it is remembered or just known.",
+      "status": "promoted",
+      "issue": "single use",
+      "discussion": "Promoted by hand on 2026-11-12 as an established concept: The remember/know judgment. Now `study_then_test.test_form: old_new_remember_know` in task_game_defs.json.",
+      "seen_in": [
+        "Remember/Know Task"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_study_then_test__test_form__old_new_remember_know_guess",
+      "kind": "rule_value",
+      "definition": "Old new remember know guess. For Remember/Know Task / Remember/Know/Guess (RKG).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Remember/Know Task :: Remember/Know/Guess (RKG)"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__test_form__remember_know_then_source",
+      "kind": "rule_value",
+      "definition": "Remember know then source. For Remember/Know Task / Remember/Know with Source Memory.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Remember/Know Task :: Remember/Know with Source Memory"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__test_form__respond_to_cue",
+      "kind": "rule_value",
+      "definition": "Act on the intention when its cue appears.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Prospective Memory Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_study_then_test__test_form__same_changed",
+      "kind": "rule_value",
+      "definition": "Say whether the display has changed.",
+      "status": "promoted",
+      "issue": "single use",
+      "discussion": "Promoted by hand on 2026-11-12 as an established concept: Change detection, a standard test of visual working memory. Now `study_then_test.test_form: same_changed` in task_game_defs.json.",
+      "seen_in": [
+        "Change Detection Task"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_undergo_stream__instruction__choose_exposure",
+      "kind": "rule_value",
+      "definition": "the participant selects or terminates what is shown.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Emotion Regulation Task :: Situation Selection/Modification"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__instruction__contingency_told",
+      "kind": "rule_value",
+      "definition": "the participant is told the CS-US relation before the stream.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Pavlovian Fear Conditioning Task :: Instructed vs. Uninstructed"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__instruction__regulate",
+      "kind": "rule_value",
+      "definition": "Change their emotional response.",
+      "status": "promoted",
+      "issue": "single use",
+      "discussion": "Promoted by hand on 2026-11-12 as an established concept: Emotion regulation. Now `undergo_stream.instruction: regulate` in task_game_defs.json.",
+      "seen_in": [
+        "Emotion Regulation Task"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_undergo_stream__phases__acquisition_extinction",
+      "kind": "rule_value",
+      "definition": "Pairings, then the cue alone.",
+      "status": "promoted",
+      "issue": "single use",
+      "discussion": "Stated since 2026-11-12 by the shared `phases` list: acquisition, extinction.",
+      "seen_in": [
+        "Pavlovian Fear Conditioning Task"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_undergo_stream__phases__acquisition_extinction_recall_test",
+      "kind": "rule_value",
+      "definition": "a delayed test of the extinguished CS, same context, no US.",
+      "status": "promoted",
+      "issue": "single use",
+      "discussion": "Stated since 2026-11-12 by the shared `phases` list: acquisition, extinction, test.",
+      "seen_in": [
+        "Pavlovian Fear Conditioning Task :: Extinction Recall"
+      ],
+      "promote_when": ""
+    },
+    {
+      "candidate_id": "cand_undergo_stream__phases__acquisition_extinction_reinstatement",
+      "kind": "rule_value",
+      "definition": "unsignalled US presentations after extinction, then a CS test.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Pavlovian Fear Conditioning Task :: Reinstatement"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__phases__acquisition_extinction_renewal",
+      "kind": "rule_value",
+      "definition": "Pairings, cue alone, then a test in a new setting.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Pavlovian Fear Conditioning Task :: Renewal (Context Change)"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__phases__acquisition_generalization_test",
+      "kind": "rule_value",
+      "definition": "a test phase with graded novel cues replaces extinction.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Pavlovian Fear Conditioning Task :: Generalization Gradient"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__phases__acquisition_reactivation_extinction_test",
+      "kind": "rule_value",
+      "definition": "a one-trial reactivation inserted before extinction, with a later return-of-fear test.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Pavlovian Fear Conditioning Task :: Reconsolidation Paradigm"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__phases__induction_then_threat_probe",
+      "kind": "rule_value",
+      "definition": "a threat event is delivered after the stroking phase and the response to it is recorded.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Body Ownership Illusion Task :: Threat Response Paradigm"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__stream__adaptation_pairs",
+      "kind": "rule_value",
+      "definition": "items in pairs or runs where the next item is the same or a different exemplar, the repetition-related response reduction being the measure.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Face Processing Task :: Identity Adaptation"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__stream__context_us_pairings",
+      "kind": "rule_value",
+      "definition": "the US is unsignalled and the surrounding context, not a discrete cue, is what gets paired.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Pavlovian Fear Conditioning Task :: Contextual Conditioning"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__stream__cs_us_pairings",
+      "kind": "rule_value",
+      "definition": "A cue repeatedly paired with an unpleasant or pleasant event.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Pavlovian Fear Conditioning Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__stream__cue_outcome_pairings",
+      "kind": "rule_value",
+      "definition": "Cues and outcomes shown together, for a causal judgment.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Causal Learning Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__stream__faces_vs_objects_blocks",
+      "kind": "rule_value",
+      "definition": "Blocks of faces alternating with blocks of objects.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Face Processing Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__stream__mirrored_movement",
+      "kind": "rule_value",
+      "definition": "the visible stimulus is the reflection of the participant's own moving hand and the felt signal is limb movement rather than touch.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Body Ownership Illusion Task :: Kinesthetic Mirror Illusion"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__stream__sounds",
+      "kind": "rule_value",
+      "definition": "Sounds.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Mismatch Negativity Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__stream__summary_table",
+      "kind": "rule_value",
+      "definition": "the contingency counts are shown all at once.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Causal Learning Task :: Summary vs. Sequential Presentation"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_undergo_stream__stream__tactile_stroking",
+      "kind": "rule_value",
+      "definition": "A seen fake hand and the hidden real hand stroked together.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "",
+      "seen_in": [
+        "Body Ownership Illusion Task"
+      ],
+      "promote_when": "Used in a second task."
+    },
+    {
+      "candidate_id": "cand_setting__contingency_strength",
+      "kind": "setting",
+      "definition": "Contingency (delta-P value: positive, zero, negative).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; studied in 1 task(s) of the catalog.",
+      "seen_in": [],
+      "promote_when": "Studied in a second task."
+    },
+    {
+      "candidate_id": "cand_setting__criterion_run_length",
+      "kind": "setting",
+      "definition": "Number of consecutive correct before shift.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; studied in 1 task(s) of the catalog.",
+      "seen_in": [],
+      "promote_when": "Studied in a second task."
+    },
+    {
+      "candidate_id": "cand_setting__effort_level",
+      "kind": "setting",
+      "definition": "Force, repetitions or cost required.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; studied in 1 task(s) of the catalog.",
+      "seen_in": [],
+      "promote_when": "Studied in a second task."
+    },
+    {
+      "candidate_id": "cand_setting__intertrial_interval",
+      "kind": "setting",
+      "definition": "Time from one trial's end to the next's start (includes RSI).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; studied in 0 task(s) of the catalog.",
+      "seen_in": [],
+      "promote_when": "Studied in a second task."
+    },
+    {
+      "candidate_id": "cand_setting__minimum_moves",
+      "kind": "setting",
+      "definition": "Problem difficulty (minimum moves: 2-7).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; studied in 1 task(s) of the catalog.",
+      "seen_in": [],
+      "promote_when": "Studied in a second task."
+    },
+    {
+      "candidate_id": "cand_setting__multiplier",
+      "kind": "setting",
+      "definition": "Factor applied to a transfer.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; studied in 1 task(s) of the catalog.",
+      "seen_in": [],
+      "promote_when": "Studied in a second task."
+    },
+    {
+      "candidate_id": "cand_setting__n_level",
+      "kind": "setting",
+      "definition": "How far back, or how many steps, a rule reaches (n-back level, stages).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; studied in 1 task(s) of the catalog.",
+      "seen_in": [],
+      "promote_when": "Studied in a second task."
+    },
+    {
+      "candidate_id": "cand_setting__number_of_changes",
+      "kind": "setting",
+      "definition": "Number of changes.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; studied in 1 task(s) of the catalog.",
+      "seen_in": [],
+      "promote_when": "Studied in a second task."
+    },
+    {
+      "candidate_id": "cand_setting__number_of_reversals",
+      "kind": "setting",
+      "definition": "Number of reversals.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; studied in 1 task(s) of the catalog.",
+      "seen_in": [],
+      "promote_when": "Studied in a second task."
+    },
+    {
+      "candidate_id": "cand_setting__number_of_tasks",
+      "kind": "setting",
+      "definition": "Number of tasks.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; studied in 1 task(s) of the catalog.",
+      "seen_in": [],
+      "promote_when": "Studied in a second task."
+    },
+    {
+      "candidate_id": "cand_setting__reward_drift_rate",
+      "kind": "setting",
+      "definition": "Reward probability drift rate.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; studied in 1 task(s) of the catalog.",
+      "seen_in": [],
+      "promote_when": "Studied in a second task."
+    },
+    {
+      "candidate_id": "cand_setting__stimulus_speed",
+      "kind": "setting",
+      "definition": "Speed of motion.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "From the manipulation census; studied in 1 task(s) of the catalog.",
+      "seen_in": [],
+      "promote_when": "Studied in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__anti_saccade_task__double_step_anti_saccade",
+      "kind": "uncaptured_difference",
+      "definition": "The response must be updated mid-flight when the stimulus changes after onset; response_demand has no value for \"change the response when the target moves\" and respond_opposite still applies to the final target, so the two cannot both be stated.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "A second cue arrives, or the target jumps, while the first saccade is being planned or executed, so the participant must re-program a response already under way.",
+      "seen_in": [
+        "Anti-Saccade Task :: Double-Step Anti-Saccade"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__attention_network_task__ant_r_revised",
+      "kind": "uncaptured_difference",
+      "definition": "Cue validity (invalid spatial cues) and a varied cue-target interval are added; neither is a rule or facet, and neither is in this task's manipulations list, though both are listed manipulations of the Posner Spatial Cueing Task.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Adds spatial cues that point to the wrong location and lengthens and varies the cue-target interval, so cue validity and SOA become factors.",
+      "seen_in": [
+        "Attention Network Task :: ANT-R (Revised)"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__attention_network_task__lateralized_ant_lant",
+      "kind": "uncaptured_difference",
+      "definition": "The spatial placement of the target relative to fixation is recorded by no rule, facet or listed manipulation.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The arrow rows appear left or right of fixation instead of above or below, so each target reaches one hemisphere first; the response is unchanged.",
+      "seen_in": [
+        "Attention Network Task :: Lateralized ANT (LANT)"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__biological_motion_perception_task__comparison_with_mechanical_motion",
+      "kind": "uncaptured_difference",
+      "definition": "A second stimulus class (mechanical point-light motion) is added and the classification dimension becomes biological vs mechanical; rule_asks stays classify, no facet changes, and no listed manipulation names the added class.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Point-light displays of a person are interleaved with point-light displays of rigid or mechanical motion and the participant says which kind each is.",
+      "seen_in": [
+        "Biological Motion Perception Task :: Comparison with Mechanical Motion"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__biological_motion_perception_task__partial_occluded_displays",
+      "kind": "uncaptured_difference",
+      "definition": "The completeness of the stimulus (a subset of joints or occlusion) is stimulus content inside the same stimulus_type that no listed manipulation (display type, noise density, action, viewpoint) names.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Only some joint dots are shown, or parts of the figure pass behind an invisible occluder, and the participant judges the incomplete display.",
+      "seen_in": [
+        "Biological Motion Perception Task :: Partial/Occluded Displays"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__cambridge_face_memory_task__cfmt_inverted",
+      "kind": "uncaptured_difference",
+      "definition": "Stimulus orientation (inverted vs. upright) is what changes; it is stimulus content rather than a rule, but no delivery facet records it and it is not among the listed manipulations.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Every face image is shown upside down at study and test, and the drop in accuracy measures reliance on holistic processing.",
+      "seen_in": [
+        "Cambridge Face Memory Task :: CFMT-Inverted"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__causal_learning_task__causal_direction_manipulation",
+      "kind": "uncaptured_difference",
+      "definition": "The direction of the judgment asked for changes while trials, stream and report form stay the same; report_after records that a rating is given but not what it is a rating of.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The same trials are judged predictively (does the cause produce the effect) or diagnostically (given the effect, which cause).",
+      "seen_in": [
+        "Causal Learning Task :: Causal Direction Manipulation"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__change_detection_task__sequential_presentation",
+      "kind": "uncaptured_difference",
+      "definition": "The array is presented one item at a time instead of simultaneously while the test is unchanged; no rule or facet records whether the studied material arrives serially or all at once (the same gap as the Corsi simultaneous variant).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The items are shown one after another rather than all at once and the test display follows the last item, so the memory is built up serially.",
+      "seen_in": [
+        "Change Detection Task :: Sequential Presentation"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__change_detection_task__single_probe_change_detection",
+      "kind": "uncaptured_difference",
+      "definition": "The test display is a single probed item at an original location instead of the full array; test_form stays same_changed and no rule, facet, or listed manipulation records the scope of the test display.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Only one square reappears at one of the original locations and the same/different judgment is about that item alone rather than the whole array.",
+      "seen_in": [
+        "Change Detection Task :: Single-Probe Change Detection"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__contextual_cueing_task__configuration_based_vs_association_based_cc",
+      "kind": "uncaptured_difference",
+      "definition": "Which part of the display carries the hidden regularity (global configuration versus local target-distractor association) is recorded by no rule, facet or listed manipulation.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Either the whole layout repeats or only the pairing of target position with a few distractor positions, to see which is learned.",
+      "seen_in": [
+        "Contextual Cueing Task :: Configuration-Based vs. Association-Based CC"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__contextual_cueing_task__dynamic_contextual_cueing",
+      "kind": "uncaptured_difference",
+      "definition": "Moving stimuli, and a regularity carried by motion rather than by layout, are recorded by no rule, facet or listed manipulation.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The search items move and what repeats is the motion pattern and the target's final position rather than a static layout.",
+      "seen_in": [
+        "Contextual Cueing Task :: Dynamic Contextual Cueing"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__corsi_block_tapping_task__sequential_vs_simultaneous_presentation",
+      "kind": "uncaptured_difference",
+      "definition": "The order is conveyed by a simultaneous display with numbered markers rather than by temporal succession; studied_material stays sequence_order and no rule or facet records whether a sequence is presented serially or all at once.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "In the simultaneous condition all blocks of a set are highlighted at once with numbers or arrows giving the order, instead of being tapped one after another, and the participant still reproduces them in order.",
+      "seen_in": [
+        "Corsi Block-Tapping Task :: Sequential vs. Simultaneous Presentation"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__corsi_block_tapping_task__walking_corsi_large_scale",
+      "kind": "uncaptured_difference",
+      "definition": "The stimulus and the response are produced by locomotion through a room-sized layout instead of by hand on a board; the earlier facet pass recorded no change, and no rule or facet records response effector or the scale of the space.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The blocks become tiles on the floor of a room, the examiner walks a route over them and the participant walks the same route.",
+      "seen_in": [
+        "Corsi Block-Tapping Task :: Walking Corsi (large-scale)"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__delay_discounting_task__adjusting_delay_method",
+      "kind": "uncaptured_difference",
+      "definition": "Which option attribute is adjusted toward indifference (amount in the standard form, delay here) is recorded by no rule, no facet, and no listed manipulation; the listed \"ascending vs. descending adjustment procedures\" is the direction of adjustment, not the dimension.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The two amounts are fixed and the delay to the larger one is titrated instead of the immediate amount.",
+      "seen_in": [
+        "Delay Discounting Task :: Adjusting-Delay Method"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__dictator_game_task__earned_vs_windfall_endowment",
+      "kind": "uncaptured_difference",
+      "definition": "The source of the stake (earned in a preceding task vs windfall) is changed; no rule, facet or listed manipulation records where the endowment comes from.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The participant either earns the endowment in a prior task or is simply handed it before making the same allocation.",
+      "seen_in": [
+        "Dictator Game Task :: Earned vs. Windfall Endowment"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__digit_span_task__grouped_chunked_presentation",
+      "kind": "uncaptured_difference",
+      "definition": "Temporal grouping of the presentation (pauses after every two or three items) is a presentation-timing structure that no rule, delivery facet, or listed manipulation records.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The digits are read with pauses that group them into twos or threes instead of at an even pace.",
+      "seen_in": [
+        "Digit Span Task :: Grouped/Chunked Presentation"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__directed_forgetting_task__cumulative_directed_forgetting",
+      "kind": "uncaptured_difference",
+      "definition": "The number of separately cued lists that precede the single test (several, not one or two); no rule records how many study lists feed one test, and the item-vs-list manipulation records only the grain of the cue.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Several lists are studied in a row, each followed by its own remember or forget cue, before one final test.",
+      "seen_in": [
+        "Directed Forgetting Task :: Cumulative Directed Forgetting"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__emotion_regulation_task__up_regulation",
+      "kind": "uncaptured_difference",
+      "definition": "The direction of regulation (increase vs decrease) changes; instruction: regulate does not record direction and the listed manipulations cover strategy, valence and timing but not direction.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The participant is told to make the feeling stronger rather than weaker.",
+      "seen_in": [
+        "Emotion Regulation Task :: Up-Regulation"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__face_processing_task__familiar_vs_unfamiliar_faces",
+      "kind": "uncaptured_difference",
+      "definition": "The contrast is the participant's prior familiarity with the stimulus items; both kinds are faces, so stimulus category does not change, and no rule, facet or listed manipulation records item familiarity. If the participant judges familiarity, report_after would also change to judgment, but the description leaves that optional.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Some faces belong to people the participant knows or to famous people, and responses to known and unknown faces are compared.",
+      "seen_in": [
+        "Face Processing Task :: Familiar vs. Unfamiliar Faces"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__false_belief_task__animated_triangles_heider_simmel",
+      "kind": "uncaptured_difference",
+      "definition": "A different task: open-ended narration of an animation, scored for how much it attributes mental states, with no problem to solve; it fits undergo_stream with a report_after better than solve_problem, and shares only the mentalizing process label with the standard form.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The participant watches shapes move as if with intentions and describes what happened, scored for mental-state language; there is no false belief and no correct answer.",
+      "seen_in": [
+        "False Belief Task :: Animated Triangles (Heider-Simmel)"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__false_belief_task__diverse_beliefs_task",
+      "kind": "uncaptured_difference",
+      "definition": "No belief is false, so this is neither the true-belief nor the false-belief level of the listed manipulation; the belief status of the character (true, false, or merely different) is a story-content dimension the manipulation list does not cover.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Two characters hold different beliefs, neither known to be false, and the child predicts how one will act.",
+      "seen_in": [
+        "False Belief Task :: Diverse Beliefs Task"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__false_belief_task__implicit_false_belief_looking_time",
+      "kind": "uncaptured_difference",
+      "definition": "The participant gives no answer, so the form changes from solve_problem to undergo_stream (the recording is the measure); a form change is not a rule change within solve_problem, and the listed verbal-vs-nonverbal manipulation does not cover \"no response\".",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Infants watch an actor search where the actor should believe the object is or where it really is, and looking time is recorded; no question is asked.",
+      "seen_in": [
+        "False Belief Task :: Implicit False Belief (Looking Time)"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__false_belief_task__unexpected_contents_smarties_crayon_box",
+      "kind": "uncaptured_difference",
+      "definition": "The scenario type (unexpected contents versus change of location) and the added question about the participant's own past false belief are recorded by no rule, facet or listed manipulation; story complexity is the nearest manipulation but this is a different story structure, not a harder one.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The story is a container with surprising contents rather than a moved object, and a question about the child's own earlier belief is sometimes added.",
+      "seen_in": [
+        "False Belief Task :: Unexpected Contents (Smarties/Crayon Box)"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__feeling_of_knowing_task__cue_only_vs_cue_target_paradigm",
+      "kind": "uncaptured_difference",
+      "definition": "What is displayed when the judgment is made (cue alone vs cue plus a fragment of the answer); inserted_judgment records when a judgment occurs, not what it is prompted with, and this task's manipulation list has no cue-type entry (the Judgment-of-Learning list does).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "At the moment of the rating the participant sees either the cue alone or the cue with partial information about the target.",
+      "seen_in": [
+        "Feeling-of-Knowing Task :: Cue-Only vs. Cue-Target Paradigm"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__feeling_of_knowing_task__tip_of_the_tongue_variant",
+      "kind": "uncaptured_difference",
+      "definition": "A second report (a state flag plus partial information about the target) is added beside the rating; inserted_judgment has one slot and no value for a partial-information report.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The participant also flags items on which they are in a tip-of-the-tongue state and reports partial information such as the first letter.",
+      "seen_in": [
+        "Feeling-of-Knowing Task :: Tip-of-the-Tongue Variant"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__finger_tapping_task__unimanual_vs_bimanual",
+      "kind": "uncaptured_difference",
+      "definition": "The number of effectors (one hand versus two coordinated hands) is recorded by no rule, facet or listed manipulation; the listed hand manipulation is about which hand, not how many.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Both hands tap at once, in unison or alternating, instead of one hand.",
+      "seen_in": [
+        "Finger Tapping Task :: Unimanual vs. Bimanual"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__go_no_go_task__multi_stimulus_go_no_go",
+      "kind": "uncaptured_difference",
+      "definition": "The size of the mapping (how many distinct stimuli per response class) is recorded by no rule, facet or listed manipulation.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Several stimuli are go and several are no-go, so the participant holds a larger stimulus-to-response mapping with the same rule structure.",
+      "seen_in": [
+        "Go/No-Go Task :: Multi-Stimulus Go/No-Go"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__heartbeat_detection_task__respiratory_interoception_variant",
+      "kind": "uncaptured_difference",
+      "definition": "Beyond the delivery changes, the report becomes a per-breath detection of an externally imposed load at an adaptive threshold, a respond_to_rule detect structure (rule_asks detect, stream discrete_trials) that the report_on_self rules do not register; report_of stays internal_bodily_event, so the rules alone would read this as the same task.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The participant breathes through a mouthpiece and reports on each breath whether an added resistance made it harder, the smallest detectable load being the measure.",
+      "seen_in": [
+        "Heartbeat Detection Task :: Respiratory Interoception Variant"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__imitation_inhibition_task__counter_imitation_training",
+      "kind": "uncaptured_difference",
+      "definition": "Adds a pre-test training phase with a reversed observed-action-to-response mapping; the test trials are unchanged and respond_to_rule has no rule for a phase sequence.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "A training phase before the test pairs an observed index-finger lift with a middle-finger response and vice versa, after which the tendency to copy is reduced or reversed.",
+      "seen_in": [
+        "Imitation-Inhibition Task :: Counter-Imitation Training"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__imitation_inhibition_task__goal_directed_imitation_variant",
+      "kind": "uncaptured_difference",
+      "definition": "The content of the observed action (a goal-directed grasp in which the same movement serves different goals); the competitor is still observed_action, and the movement-versus-goal dissociation is not a listed manipulation level or a facet.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The observed hand grasps an object and the design dissociates the movement from its goal to test which is copied.",
+      "seen_in": [
+        "Imitation-Inhibition Task :: Goal-Directed Imitation Variant"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__implicit_association_task__single_category_iat_sc_iat",
+      "kind": "uncaptured_difference",
+      "definition": "The number of categories sorted (three instead of four) and the removal of the contrasting target category; no rule or facet records how many categories share the response keys.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "One of the two target categories is dropped, so three categories are sorted on two keys and the association is absolute rather than relative.",
+      "seen_in": [
+        "Implicit Association Task :: Single-Category IAT (SC-IAT)"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__judgment_of_learning_task__aggregate_vs_item_by_item_judgments",
+      "kind": "uncaptured_difference",
+      "definition": "The grain of the judgment (one estimate for the whole list, made after study, vs one rating per item); inserted_judgment records that a judgment is made at study, not whether it is per item or global.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Instead of, or as well as, rating each pair, the participant estimates how many items of the whole list they will recall.",
+      "seen_in": [
+        "Judgment-of-Learning Task :: Aggregate vs. Item-by-Item Judgments"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__judgment_of_learning_task__self_regulated_study_paradigm",
+      "kind": "uncaptured_difference",
+      "definition": "An added phase in which the participant selects items for restudy and the selection itself is the measure; cycles has no value for a restudy round whose membership the participant chooses, and the self-paced facet covers only study time.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "After rating the items the participant chooses which to study again or how long to spend on each, adding a participant-controlled restudy phase.",
+      "seen_in": [
+        "Judgment-of-Learning Task :: Self-Regulated Study Paradigm"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__lexical_decision_task__ldt_megastudies",
+      "kind": "uncaptured_difference",
+      "definition": "The size of the item set (thousands of items) and the number of sessions, with item-level regression replacing a factorial design; no rule, facet or listed manipulation records the scale of the item set.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Each participant responds to thousands of words over many sessions so that every word gets its own response time.",
+      "seen_in": [
+        "Lexical Decision Task :: LDT Megastudies"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__mental_rotation_task__egocentric_vs_allocentric_rotation",
+      "kind": "uncaptured_difference",
+      "definition": "The imagined reference frame (self rotates vs object rotates) is set by instruction, and the egocentric form asks for the appearance from a new viewpoint rather than a same-or-mirror judgment; no rule, facet or listed manipulation records the frame of the imagined transformation.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "In one condition the participant imagines turning themselves to a new viewpoint and reports what they would see; in the other they imagine the object turning while staying still.",
+      "seen_in": [
+        "Mental Rotation Task :: Egocentric vs. Allocentric Rotation"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__mirror_tracing_task__dual_hand_mirror_tracing",
+      "kind": "uncaptured_difference",
+      "definition": "The number of effectors (two hands tracing together versus one) is recorded by no rule, facet or listed manipulation.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Both hands trace at once, each with mirror-reversed feedback.",
+      "seen_in": [
+        "Mirror Tracing Task :: Dual-Hand Mirror Tracing"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__mismatch_negativity_task__complex_pattern_mmn",
+      "kind": "uncaptured_difference",
+      "definition": "What repeats is an abstract pattern rather than a single tone, so the deviant violates a sequential rule rather than a tone feature; no rule, facet or listed manipulation records what kind of regularity the stream carries.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The regularity is a multi-tone pattern (alternation, rising pair) and the deviant breaks the pattern although every individual tone is familiar.",
+      "seen_in": [
+        "Mismatch Negativity Task :: Complex Pattern MMN"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__mismatch_negativity_task__roving_standard_mmn",
+      "kind": "uncaptured_difference",
+      "definition": "The regularity is re-established after every change instead of being fixed for the run; the variable is how many repetitions preceded the change, which is not deviant probability, magnitude, ISI or deviant type, and no rule records how the standard is defined.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The standard tone changes every few repetitions so that each new tone is first a deviant and then becomes the standard, and the response is tracked against the number of preceding repetitions.",
+      "seen_in": [
+        "Mismatch Negativity Task :: Roving Standard MMN"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__monetary_incentive_delay_task__mid_with_effort_component",
+      "kind": "uncaptured_difference",
+      "definition": "The response demanded becomes effortful (sustained force or many presses) rather than a single speeded press; no respond_to_rule rule records response effort, and there is no choice, so the amount_vs_effort tradeoff of choose_for_outcomes does not apply.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Instead of one quick press the participant must squeeze a hand grip hard enough or press a key many times to earn the cued reward.",
+      "seen_in": [
+        "Monetary Incentive Delay Task :: MID with Effort Component"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__monetary_incentive_delay_task__passive_mid",
+      "kind": "uncaptured_difference",
+      "definition": "With no response the task leaves respond_to_rule altogether and becomes undergo_stream (stream cue_outcome_pairings, instruction none, phases single, report_after none); a form change is not a rule setting.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The cue and outcome are shown but the participant presses nothing, with wins and losses following a preset schedule.",
+      "seen_in": [
+        "Monetary Incentive Delay Task :: Passive MID"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__motor_sequence_learning_task__bimanual_coordination",
+      "kind": "uncaptured_difference",
+      "definition": "The number of effectors (two coordinated hands versus one) is recorded by no rule, facet or listed manipulation.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Both hands perform sequences at once, mirrored or different, so coordination is part of what is learned.",
+      "seen_in": [
+        "Motor Sequence Learning Task :: Bimanual Coordination"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__multiple_object_tracking_task__hierarchical_mot",
+      "kind": "uncaptured_difference",
+      "definition": "Targets are defined at two nested levels (groups and members) and the objects move in coordinated clusters; no rule records a target hierarchy and the listed manipulations only count targets and distractors.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Objects move in clusters that travel together and the targets may be whole groups or members within groups, testing tracking at two levels at once.",
+      "seen_in": [
+        "Multiple Object Tracking Task :: Hierarchical MOT"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__multiple_object_tracking_task__mot_with_occlusion",
+      "kind": "uncaptured_difference",
+      "definition": "Targets become intermittently invisible during the tracking interval; no rule, facet, or listed manipulation (targets, distractors, speed, duration) records the visibility of the tracked items.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Objects briefly pass behind visible barriers or vanish and reappear during movement, so tracking must bridge intervals in which a target cannot be seen.",
+      "seen_in": [
+        "Multiple Object Tracking Task :: MOT with Occlusion"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__navon_task__navon_with_priming",
+      "kind": "uncaptured_difference",
+      "definition": "The Navon task becomes a preceding phase whose effect on an unspecified later task is the measure; a multi-phase protocol structure that no rule of this form records.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "A level-attending Navon task is done first and its carry-over onto a different following task is measured.",
+      "seen_in": [
+        "Navon Task :: Navon with Priming"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__navon_task__sparse_vs_dense_local_elements",
+      "kind": "uncaptured_difference",
+      "definition": "The density and spacing of the local elements, a stimulus-construction parameter that is not in the task's manipulation list and is recorded by no rule or facet.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The number and spacing of the small letters is varied, which weakens the global advantage when elements are sparse.",
+      "seen_in": [
+        "Navon Task :: Sparse vs. Dense Local Elements"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__oddball_task__duration_deviance_oddball",
+      "kind": "uncaptured_difference",
+      "definition": "The dimension on which the deviant differs (duration vs pitch) is stimulus content inside the same stimulus_type; the task's manipulation list has no deviant-dimension item, so nothing records it.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The rare tone differs from the common one in duration rather than pitch.",
+      "seen_in": [
+        "Oddball Task :: Duration Deviance Oddball"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__oddball_task__passive_oddball",
+      "kind": "uncaptured_difference",
+      "definition": "The form changes from respond_to_rule to undergo_stream (stream: sounds; instruction: none; report_after: none); no value of response_demand expresses \"never respond\", and this profile is the Mismatch Negativity Task's standard form.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "No response or count is required and the participant may do something else while the sounds play, so there is no job at all.",
+      "seen_in": [
+        "Oddball Task :: Passive Oddball"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__old_new_recognition_memory_task__drm_deese_roediger_mcdermott_false_memory_variant",
+      "kind": "uncaptured_difference",
+      "definition": "The composition of the study list (all associates of a critical lure) and of the test list (the critical lure included) is what changes; no rule, no facet, and no listed manipulation records list or test-list composition.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Each study list is built from associates of one unpresented word, and that word is placed among the test items so its false-alarm rate can be measured.",
+      "seen_in": [
+        "Old/New Recognition Memory Task :: DRM (Deese-Roediger-McDermott) False Memory Variant"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__operation_span_task__counting_span",
+      "kind": "uncaptured_difference",
+      "definition": "The item to be remembered is generated by the participant's own response to the processing task (the count) instead of being presented; no study_job value or composition wording records memoranda that are the products of the interleaved task.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The participant counts target shapes in each display and says the total, then recalls the totals in order, so the memoranda are the answers produced by the processing task rather than items presented separately.",
+      "seen_in": [
+        "Operation Span Task :: Counting Span"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__pavlovian_fear_conditioning_task__compound_cs_conditioning",
+      "kind": "uncaptured_difference",
+      "definition": "Beyond the facet changes, the CS is a compound of two cues and an element test phase follows training; neither the stream rule nor a listed manipulation records CS composition or the element-vs-compound test.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Two cues (a light and a tone) are presented together before the US and later tested as elements and as a compound.",
+      "seen_in": [
+        "Pavlovian Fear Conditioning Task :: Compound CS Conditioning"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__pavlovian_fear_conditioning_task__trace_conditioning",
+      "kind": "uncaptured_difference",
+      "definition": "The temporal relation between CS offset and US onset (overlap vs gap) is what changes; no rule records the within-pairing timing, and the listed manipulations (discrimination, schedule, extinction timing, renewal context) do not include it.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The CS ends and a silent gap of a few seconds precedes the US, so the association must bridge the gap.",
+      "seen_in": [
+        "Pavlovian Fear Conditioning Task :: Trace Conditioning"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__picture_naming_task__object_action_naming",
+      "kind": "uncaptured_difference",
+      "definition": "The grammatical class of the required name (noun vs verb) and the depicted content (action vs object) are varied; stimulus_type stays pictures, the rule stays identify, and grammatical class is not in the task's manipulation list.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Pictures of actions are added and the participant names the action with a verb or the object with a noun, in separate or mixed blocks.",
+      "seen_in": [
+        "Picture Naming Task :: Object + Action Naming"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__posner_spatial_cueing_task__gap_vs_overlap_conditions",
+      "kind": "uncaptured_difference",
+      "definition": "Fixation-point offset before the cue is recorded nowhere for this task (it is a listed manipulation of the Anti-Saccade Task but not of this one).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The fixation point disappears shortly before the cue or stays on; nothing in the rules, facets or this task's manipulations records fixation offset.",
+      "seen_in": [
+        "Posner Spatial Cueing Task :: Gap vs. Overlap Conditions"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__posner_spatial_cueing_task__object_based_cueing",
+      "kind": "uncaptured_difference",
+      "definition": "The organization of the display into objects, and the within-object versus between-object comparison, are recorded by no rule, facet or listed manipulation.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Two elongated objects replace the boxes and the cue sits at one end of one object, so the comparison is within versus between objects; the cue and response are unchanged.",
+      "seen_in": [
+        "Posner Spatial Cueing Task :: Object-Based Cueing"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__prisoner_s_dilemma_task__pd_with_reputation_information",
+      "kind": "uncaptured_difference",
+      "definition": "Information about the partner's past behaviour is shown before the move; no rule or facet records it, and unlike the Trust Game this task does not list reputation information as a manipulation.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Before choosing, the participant is shown how often the current partner cooperated in earlier games with other people.",
+      "seen_in": [
+        "Prisoner's Dilemma Task :: PD with Reputation Information"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__probabilistic_classification_learning_task__information_integration_category_learning",
+      "kind": "uncaptured_difference",
+      "definition": "Beyond the stimulus facet, the structure of the category boundary changes from discrete cue combinations to an integration of continuous dimensions; no rule records the form of the learned mapping, and the probability-structure manipulation does not cover it.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The stimuli become shapes varying continuously on two or more dimensions and the category depends on combining the dimensions in a way that cannot be stated as a rule.",
+      "seen_in": [
+        "Probabilistic Classification Learning Task :: Information-Integration Category Learning"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__probabilistic_classification_learning_task__rule_based_category_learning_comparison",
+      "kind": "uncaptured_difference",
+      "definition": "The stimulus facet changes and, at the same time, the mapping becomes a deterministic single-dimension rule over continuous stimuli; the combination of a delivery change with a change in the structure of the learned mapping has no Kind and no rule.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The stimuli become shapes varying on several continuous dimensions, with the category fixed by one dimension alone so the rule can be found by hypothesis testing.",
+      "seen_in": [
+        "Probabilistic Classification Learning Task :: Rule-Based Category Learning (comparison)"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__probabilistic_selection_task__extended_training_versions",
+      "kind": "uncaptured_difference",
+      "definition": "Training length and a criterion-based end to training are recorded by no rule of this form (form 2 has cycles: learn_to_criterion, form 3 has nothing), no facet, and no listed manipulation.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "More training trials are given, or training continues until a set accuracy is reached on each pair.",
+      "seen_in": [
+        "Probabilistic Selection Task :: Extended Training Versions"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__psychological_refractory_period_task__prp_with_ideomotor_compatible_tasks",
+      "kind": "uncaptured_difference",
+      "definition": "The defining change is the compatibility of the stimulus-response mapping, which no rule records; the facet changes only follow the description's example stimuli.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The two tasks are chosen so that the response naturally matches the stimulus, for example saying \"A\" on hearing \"A\" or pressing the key under a touched finger.",
+      "seen_in": [
+        "Psychological Refractory Period Task :: PRP with Ideomotor-Compatible Tasks"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__psychological_refractory_period_task__prp_with_practice",
+      "kind": "uncaptured_difference",
+      "definition": "The amount of practice and the number of sessions are added as a factor; no rule, delivery facet, or listed manipulation records practice extent.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Thousands of trials are run across several sessions to see whether the second-response slowing shrinks with practice.",
+      "seen_in": [
+        "Psychological Refractory Period Task :: PRP with Practice"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__random_dot_kinematogram_task__pulse_paradigm",
+      "kind": "uncaptured_difference",
+      "definition": "What changes is the within-trial time course of the evidence (a brief pulse at a chosen moment); the coherence-level manipulation names a constant level, not a profile over time, and no rule records it.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The display stays at zero or low coherence and a brief 100 ms burst of coherent motion is inserted at a chosen moment.",
+      "seen_in": [
+        "Random Dot Kinematogram Task :: Pulse Paradigm"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__rapid_serial_visual_presentation_task__spatial_two_stream_rsvp",
+      "kind": "uncaptured_difference",
+      "definition": "The number of simultaneous stream locations (two instead of one) and whether the targets share a location are recorded by no rule or manipulation.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Two streams run at different positions and the two targets may fall in the same or different streams.",
+      "seen_in": [
+        "Rapid Serial Visual Presentation Task :: Spatial Two-Stream RSVP"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__rapid_serial_visual_presentation_task__triple_rsvp_multiple_streams",
+      "kind": "uncaptured_difference",
+      "definition": "The number of simultaneous streams or locations to monitor (three instead of one) is recorded by no rule; concurrency is about jobs, not locations, and the manipulation list has no stream-count item.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Three streams run at once at different screen positions and the target may be in any of them, so the participant monitors all three.",
+      "seen_in": [
+        "Rapid Serial Visual Presentation Task :: Triple-RSVP (Multiple Streams)"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__rapid_serial_visual_presentation_task__whole_report_rsvp",
+      "kind": "uncaptured_difference",
+      "definition": "The job becomes report of everything held from a brief sequence, which is study_then_test (studied_material: items; retention_interval: seconds; test_form: free_recall) rather than respond_to_rule; the nearest rule setting, target_rate every_trial, misstates it.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "A short stream of four to eight items is shown and the participant reports all of them, so there are no designated targets.",
+      "seen_in": [
+        "Rapid Serial Visual Presentation Task :: Whole-Report RSVP"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__reading_the_mind_in_the_eyes_task__full_face_vs_eyes_only",
+      "kind": "uncaptured_difference",
+      "definition": "How much of the face is shown (whole face vs eye region) is varied as a within-task factor; the stimulus_type facet stays faces, no rule records it, and it is not in the task's manipulation list.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The same choices are made for whole faces in one condition and the eye region alone in another, to measure what is lost when only the eyes are visible.",
+      "seen_in": [
+        "Reading the Mind in the Eyes Task :: Full-Face vs. Eyes-Only"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__remote_associates_task__compound_rat_crat",
+      "kind": "uncaptured_difference",
+      "definition": "The type of link between answer and cues (compound word versus semantic association) is a property of the item set that no rule, facet or listed manipulation records; the listed item-difficulty manipulation is about associative strength, not link type.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Items are restricted to those whose answer forms a compound word or phrase with each cue, rather than being related by meaning alone.",
+      "seen_in": [
+        "Remote Associates Task :: Compound RAT (CRAT)"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__remote_associates_task__rat_with_hint_priming",
+      "kind": "uncaptured_difference",
+      "definition": "A prime or hint presented alongside the problem is recorded by no solve_problem rule; respond_to_rule has cue and competitor: preceding_prime for this, but solve_problem has no equivalent, and I did not invent one for a single task.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The answer or a related word is shown before or during the item, masked or as an open hint, and its effect on solving is measured.",
+      "seen_in": [
+        "Remote Associates Task :: RAT with Hint/Priming"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__reversal_learning_task__multi_dimensional_reversal",
+      "kind": "uncaptured_difference",
+      "definition": "The options are compound stimuli with one relevant dimension, and the reversal can be intra-dimensional or extra-dimensional (a set shift); no rule of this form records a relevant dimension among several or a shift between dimensions, and \"stimulus discriminability\" is not it.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Stimuli differ on several features of which only one predicts reward, and a reversal can switch the rewarded value within that feature or move to a different feature altogether.",
+      "seen_in": [
+        "Reversal Learning Task :: Multi-Dimensional Reversal"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__rey_auditory_verbal_learning_task__proactive_interference_paradigm",
+      "kind": "uncaptured_difference",
+      "definition": "Moving the interference list before the main list removes it from the study-test interval, which the rule change records, but no rule records a list learned before the target list; the order of lists within a session is what changes.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The interference list is learned before the main list instead of after it, so earlier learning's effect on later recall is measured.",
+      "seen_in": [
+        "Rey Auditory Verbal Learning Task :: Proactive Interference Paradigm"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__rey_auditory_verbal_learning_task__recognition_trial",
+      "kind": "uncaptured_difference",
+      "definition": "The recognition test is already the third step of the standard procedure, so as coded this variation changes nothing; it names one phase of the standard protocol rather than altering it, and the stimulus modality may be visual for this phase (the description allows either), which the earlier facet pass left uncoded.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "A yes/no recognition list mixing List A, List B and new words is given after delayed recall.",
+      "seen_in": [
+        "Rey Auditory Verbal Learning Task :: Recognition Trial"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__self_paced_reading_task__cumulative_self_paced_reading",
+      "kind": "uncaptured_difference",
+      "definition": "Whether the revealed text accumulates or is masked is a display-persistence property of the stream that no rule, facet or listed manipulation records.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Earlier words stay on screen after each press so the reader can look back.",
+      "seen_in": [
+        "Self-Paced Reading Task :: Cumulative Self-Paced Reading"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__self_paced_reading_task__phrase_by_phrase_presentation",
+      "kind": "uncaptured_difference",
+      "definition": "The size of the unit revealed per press (word vs phrase) changes; nothing records the grain of the stream.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Each press reveals a phrase or clause rather than a single word.",
+      "seen_in": [
+        "Self-Paced Reading Task :: Phrase-by-Phrase Presentation"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__self_referential_encoding_task__endorsement_only_no_memory_test",
+      "kind": "uncaptured_difference",
+      "definition": "The test phase is removed, so the task is no longer study_then_test; what remains is a series of self-descriptiveness judgments (respond_to_rule with rule_asks: classify, or report_on_self with report_of: questionnaire_item). This is a change of form, which no rule of study_then_test can record.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Only the judgment phase is run and the yes/no endorsement pattern is the measure; there is no test.",
+      "seen_in": [
+        "Self-Referential Encoding Task :: Endorsement-Only (No Memory Test)"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__semantic_priming_task__relatedness_proportion_manipulation",
+      "kind": "uncaptured_difference",
+      "definition": "List composition (the proportion of related prime-target pairs) is varied between conditions; this is a classic manipulation of the task that the record's manipulation list does not include, and no rule or facet records it.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The share of related trials is set high (75 percent) in one condition and low (25 percent) in another, changing how predictive the prime is.",
+      "seen_in": [
+        "Semantic Priming Task :: Relatedness Proportion Manipulation"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__serial_reaction_time_task__alternating_serial_reaction_time_asrt",
+      "kind": "uncaptured_difference",
+      "definition": "The earlier pass recorded the pattern/random interleaving as a trial_structure facet change and the second-order regularity falls under sequence complexity; the combination of a delivery change with a manipulation level has no Kind.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Fixed-sequence positions alternate item by item with random positions, so the regularity spans every other element.",
+      "seen_in": [
+        "Serial Reaction Time Task :: Alternating Serial Reaction Time (ASRT)"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__serial_reaction_time_task__probabilistic_srtt",
+      "kind": "uncaptured_difference",
+      "definition": "The hidden regularity becomes probabilistic; hidden_regularity does not record whether the regularity is deterministic or statistical, and the listed sequence-complexity manipulation is about length and order, not determinism.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Each position is followed by a particular next position most of the time but not always, so the hidden regularity is statistical rather than a fixed sequence.",
+      "seen_in": [
+        "Serial Reaction Time Task :: Probabilistic SRTT"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__simon_task__reversed_simon_task",
+      "kind": "uncaptured_difference",
+      "definition": "Adds a pre-training phase with a location-based, spatially reversed mapping (in that phase rule_asks would be localize and response_demand respond_opposite) before the unchanged standard task; a phase sequence that respond_to_rule has no rule for.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Before the standard task the participant is instructed or trained to press the key opposite to the stimulus side, which can reverse the usual effect.",
+      "seen_in": [
+        "Simon Task :: Reversed Simon Task"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__simon_task__vertical_simon_task",
+      "kind": "uncaptured_difference",
+      "definition": "The axis of the stimulus and response layout (vertical instead of horizontal); not a listed manipulation, and no rule or facet records the spatial arrangement of responses.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Stimulus positions and response keys are arranged above and below instead of left and right.",
+      "seen_in": [
+        "Simon Task :: Vertical Simon Task"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__social_incentive_delay_task__sid_with_personalized_social_stimuli",
+      "kind": "uncaptured_difference",
+      "definition": "The familiarity of the person shown as the reward changes; no delivery facet, rule, or listed manipulation records whether a social stimulus is a known person or a stranger.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The reward faces are photographs of people the participant knows rather than strangers.",
+      "seen_in": [
+        "Social Incentive Delay Task :: SID with Personalized Social Stimuli"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__stroop_color_word_task__negative_priming_stroop",
+      "kind": "uncaptured_difference",
+      "definition": "A constraint on the trial sequence (the ignored dimension of trial n becomes the target of trial n+1); the per-trial rules are unchanged and no rule records cross-trial contingencies of this kind.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Trials are sequenced so the ignored word on one trial names the ink color to be reported on the next, and slowing on that next trial measures suppression.",
+      "seen_in": [
+        "Stroop Color-Word Task :: Negative Priming Stroop"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__stroop_color_word_task__reverse_stroop",
+      "kind": "uncaptured_difference",
+      "definition": "Which of the two dimensions is judged and which is ignored is swapped; the rule values (classify, irrelevant_dimension) are unchanged because no rule records the assignment of relevant and irrelevant dimensions.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The participant reads the word and ignores the ink color, swapping which dimension is relevant.",
+      "seen_in": [
+        "Stroop Color-Word Task :: Reverse Stroop"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__sustained_attention_to_response_task__sart_with_multiple_targets",
+      "kind": "uncaptured_difference",
+      "definition": "The number of withhold items in the mapping is recorded by no rule, facet or listed manipulation (the same gap as Multi-Stimulus Go/No-Go).",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Two or more digits are withhold items instead of only 3, enlarging the withhold set without changing the rule structure.",
+      "seen_in": [
+        "Sustained Attention to Response Task :: SART with Multiple Targets"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__task_switching_task__response_stimulus_interval_rsi_manipulation",
+      "kind": "uncaptured_difference",
+      "definition": "The inter-trial interval is varied; the task's manipulation list has the cue-stimulus interval but not the response-stimulus interval, and no rule or delivery facet records trial pacing at this grain.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The time between one trial's response and the next stimulus is varied while the cue-stimulus interval is held constant.",
+      "seen_in": [
+        "Task Switching Task :: Response-Stimulus Interval (RSI) Manipulation"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__think_no_think_task__tnt_with_thought_substitution",
+      "kind": "uncaptured_difference",
+      "definition": "The strategy instructed for the suppression trials (direct suppression vs thought substitution); interval_filler: suppression_practice does not distinguish how the suppression is done, and no manipulation lists strategy.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "On no-think trials the participant is given a substitute word to think about instead of blocking the partner directly.",
+      "seen_in": [
+        "Think/No-Think Task :: TNT with Thought Substitution"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__trust_game_task__partner_selection_trust_game",
+      "kind": "uncaptured_difference",
+      "definition": "A pre-game stage in which the participant selects the partner from a set is added; no rule records whether the partner is assigned or chosen, and no facet or listed manipulation covers it.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The investor first chooses which of several possible trustees to play with, from information about them, and then plays the usual game.",
+      "seen_in": [
+        "Trust Game Task :: Partner Selection Trust Game"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__ultimatum_game_task__asymmetric_information",
+      "kind": "uncaptured_difference",
+      "definition": "What each player knows about the endowment (complete vs incomplete information) is changed; no rule records information structure, and no facet or listed manipulation covers it.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The responder does not know the size of the sum, or the proposer does not know what the responder knows, so offers are judged on absolute size.",
+      "seen_in": [
+        "Ultimatum Game Task :: Asymmetric Information"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__ultimatum_game_task__ultimatum_with_earned_vs_windfall_endowment",
+      "kind": "uncaptured_difference",
+      "definition": "The source of the stake (earned vs windfall) is changed; no rule, facet or listed manipulation records where the endowment comes from.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The proposer either earns the sum in a prior task or is simply given it before the same game is played.",
+      "seen_in": [
+        "Ultimatum Game Task :: Ultimatum with Earned vs. Windfall Endowment"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__verb_generation_task__noun_generation_reverse",
+      "kind": "uncaptured_difference",
+      "definition": "The direction of the required association (verb cue -> noun response instead of noun cue -> verb response) is reversed; stimulus_type stays words, the rule stays generate, and the required relation is not a listed manipulation.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "A verb is given and the participant produces a noun that goes with it, a reversed-direction control for the standard task.",
+      "seen_in": [
+        "Verb Generation Task :: Noun Generation (Reverse)"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__virtual_morris_water_maze_task__large_scale_virtual_cities",
+      "kind": "uncaptured_difference",
+      "definition": "The change is the scale and complexity of the environment and the number of destinations; no navigate rule, delivery facet or listed manipulation records environment scale, and the description does not say whether the goals are hidden or signposted.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The arena becomes a virtual town or game world with streets, buildings and several destinations navigated over longer distances.",
+      "seen_in": [
+        "Virtual Morris Water Maze Task :: Large-Scale Virtual Cities"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__visual_search_task__adaptive_choice_visual_search",
+      "kind": "uncaptured_difference",
+      "definition": "The participant's free choice of which of two present targets to search for, under drifting difficulty, is the measure; no rule of respond_to_rule records a choice among targets, and a choose_for_outcomes composition would be a stretch since no outcome is delivered.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Two targets are always present, one per color, and the participant chooses which to look for while the color proportions drift; whether they switch to the easier target is the measure.",
+      "seen_in": [
+        "Visual Search Task :: Adaptive Choice Visual Search"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__visual_search_task__preview_search",
+      "kind": "uncaptured_difference",
+      "definition": "Staggered onset of the display within a trial (old items then new items) is recorded by no rule, facet or listed manipulation.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "Half the distractors appear first and the rest, including the target, are added about a second later, so the display arrives in two stages within a trial.",
+      "seen_in": [
+        "Visual Search Task :: Preview Search"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    },
+    {
+      "candidate_id": "cand_uncaptured__wisconsin_card_sorting_task__probabilistic_wcst",
+      "kind": "uncaptured_difference",
+      "definition": "The reliability of the trial feedback is reduced; the feedback facet records only that feedback is given per trial, and no rule records whether the feedback the rule is learned from is deterministic or noisy.",
+      "status": "candidate",
+      "issue": "single use",
+      "discussion": "The feedback is wrong on a proportion of trials, so a \"wrong\" may be noise rather than a rule change.",
+      "seen_in": [
+        "Wisconsin Card Sorting Task :: Probabilistic WCST"
+      ],
+      "promote_when": "The same difference is found in a second task."
+    }
+  ]
+}

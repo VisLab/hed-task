@@ -3,7 +3,7 @@
 
 **HED task ID:** `hedtsk_autobiographical_memory`
 
-**Family:** [Recall and recognition memory tests](families/recall_and_recognition.md)
+**Family:** [Recall and recognition memory tests](families/recall_and_recognition.md) (also [Self-report tasks](families/self_report.md))
 
 **Also known as:** Autobiographical Memory Interview, AMI, Cue-Word Autobiographical Memory Task, Galton-Crovitz Task, Autobiographical Memory Test
 
@@ -11,7 +11,22 @@ Participants retrieve specific personal memories in response to cue words or str
 
 ## Description
 
-Autobiographical memory tasks assess the ability to retrieve specific personal episodes from one's past. The Galton-Crovitz cue-word task presents generic words (e.g., 'garden,' 'river,' 'knife') and asks participants to retrieve a specific personal memory associated with each and date it. The Autobiographical Memory Interview (Kopelman, Wilson, & Baddeley, 1989) uses a structured interview format probing both personal semantic knowledge (names, addresses) and autobiographical incidents across life periods (childhood, early adulthood, recent). The Autobiographical Memory Test (Williams & Broadbent, 1986) presents positive and negative cue words and measures whether participants retrieve specific episodes (bounded in time and place) vs. overgeneral memories (categories or extended periods). Overgeneral autobiographical memory — the tendency to retrieve categorical summaries rather than specific episodes — is a robust marker of depression, PTSD, and suicidality. The temporal distribution of memories typically shows a reminiscence bump (disproportionate recall of events from ages 10-30), recency effect, and childhood amnesia gradient. The paradigm engages a distributed network including hippocampus, medial prefrontal cortex, posterior cingulate, and lateral temporal cortex.
+Autobiographical memory tasks assess the ability to retrieve specific personal episodes from one's past. The Galton-Crovitz cue-word task presents generic words (e.g., 'garden,' 'river,' 'knife') and asks participants to retrieve a specific personal memory associated with each and date it. The Autobiographical Memory Interview (Kopelman, Wilson, & Baddeley, 1989) uses a structured interview format probing both personal semantic knowledge (names, addresses) and autobiographical incidents across life periods (childhood, early adulthood, recent). The Autobiographical Memory Test (Williams & Broadbent, 1986) presents positive and negative cue words and measures whether participants retrieve specific episodes (bounded in time and place) vs. overgeneral memories (categories or extended periods). Overgeneral autobiographical memory - the tendency to retrieve categorical summaries rather than specific episodes - is a robust marker of depression, PTSD, and suicidality. The temporal distribution of memories typically shows a reminiscence bump (disproportionate recall of events from ages 10-30), recency effect, and childhood amnesia gradient. The paradigm engages a distributed network including hippocampus, medial prefrontal cortex, posterior cingulate, and lateral temporal cortex.
+
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-report-on-self">report on self</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-response-deadline">response deadline</a>
+- **Material:** Cue words (such as garden, river, knife) of positive, negative or neutral valence, or structured interview questions.
 
 ## Inclusion test
 
@@ -39,48 +54,50 @@ least one of the listed variables, and it records at least one of the listed mea
     - Autobiographical Memory Interview scores (personal semantic + autobiographical incident)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Cue-Word Task (Galton-Crovitz)
-
-    `hedvar_autobiographical_memory__cue_word_task_galton_crovitz`
-  - Single words as retrieval cues; participants generate a specific memory and date it. Simple, flexible, widely used. Measures specificity and retrieval latency.
-  - Single word cues; participant freely generates memories in response
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Autobiographical Memory Test (Williams & Broadbent)
 
     `hedvar_autobiographical_memory__autobiographical_memory_test_williams_broadbent`
-  - Positive and negative cue words with instructions to retrieve specific episodes. Coded for specificity (specific, categoric, extended, semantic associate). The standard clinical measure of overgeneral memory.
-  - Cued recall with specificity scoring and suicidal ideation variant; named standardized instrument
+  - emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+  - -
+  - A named clinical instrument: positive and negative cue words, an instruction to describe an event from one particular day, and specific/general/non-memory scoring.
 * - Autobiographical Memory Interview (Kopelman)
 
     `hedvar_autobiographical_memory__autobiographical_memory_interview_kopelman`
-  - Structured interview across life periods (childhood, early adult, recent). Separate scores for personal semantic and autobiographical incidents. Used in amnesia and dementia assessment.
-  - Structured interview with childhood, early adult, and recent life sections; different retrieval protocol
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-text">text</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
+  - [Speech perception](../processes/language_comprehension_and_production.md#hed-speech-perception)
+  - A named clinical instrument: a structured spoken interview over three life periods, scored separately for personal facts and incidents.
 * - Sentence-Cue Variant
 
     `hedvar_autobiographical_memory__sentence_cue_variant`
-  - Sentence stems as cues (e.g., 'A time when I felt proud was...'). More constrained than single words; can target specific emotional themes.
-  - Sentence-length cues instead of single words; richer cueing structure
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-text">text</a>
+  - -
+  - A sentence stem such as "A time when I felt proud was..." replaces the single cue word, steering retrieval toward a kind of event.
 * - Odor-Cued Autobiographical Memory
 
     `hedvar_autobiographical_memory__odor_cued_autobiographical_memory`
-  - Odors as retrieval cues (Proust phenomenon). Odor-cued memories tend to be older, more emotional, and more vivid than word-cued memories.
-  - Olfactory cues evoke memories; different sensory modality and involuntary retrieval characteristics
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-olfactory">olfactory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-odor">odor</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+  - [Olfactory perception](../processes/face_and_object_perception.md#hed-olfactory-perception)
+  - The cue is a smell in a jar or on a strip rather than a word; the cue-then-retrieve structure is unchanged.
 * - Future Episodic Simulation
 
     `hedvar_autobiographical_memory__future_episodic_simulation`
-  - Imagine specific future events in response to cues (Schacter & Addis, 2007). Tests the constructive episodic simulation hypothesis — that autobiographical memory supports future thinking.
-  - Participant imagines future events instead of recalling past; different cognitive operation (projection vs. retrieval)
+  - named form
+  - -
+  - Given the cue word, the participant imagines and describes a specific, plausible future event instead of recalling a past one.
 ```
 
 ## Cognitive processes

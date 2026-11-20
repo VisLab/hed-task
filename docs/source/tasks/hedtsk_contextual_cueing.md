@@ -13,6 +13,23 @@ Visual search in which some distractor configurations repeat across blocks; fast
 
 Participants perform visual search for a T-shaped target among L-shaped distractors. Critically, half the search displays repeat across blocks (with the target always in the same location within a given repeated display), while the other half are newly generated on each block. Search becomes faster for repeated displays over blocks, even though participants cannot consciously recognize which displays have been repeated. Chun and Jiang (1998) demonstrated that this contextual cueing effect reflects implicit learning and memory for spatial configurations that guide spatial attention to the likely target location. The paradigm has become a standard tool for studying the interface between attention, implicit learning, and long-term memory.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-neighbouring-items">neighbouring items</a>
+- **Where does the rule come from?** <a href="vocabulary.html#rule-respond-to-rule-rule-source-hidden-regularity">hidden regularity</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-repetitions">number of repetitions</a>
+- **Material:** A T-shaped target among L-shaped distractors, in spatial configurations that either repeat across blocks or are new.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -26,58 +43,62 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. Visual search through letter arrays.
     2. Some spatial configurations repeat across blocks while others are novel.
     3. Participants find and respond to a target embedded in the display.
+    4. Optional: After the learning blocks a test phase alters the repeated displays to see whether the speed-up survives.
 * - **Manipulations**
   - - Repeated vs. novel display configurations
     - Number of repetitions across blocks
     - Explicit awareness of repetition
+    - Display type (real-world scenes vs. letter arrays)
 * - **Measurements**
   - - RT advantage for repeated over novel configurations (contextual cueing effect)
     - Learning curve across blocks
     - Recognition test for repeated displays
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard Visual Search CC
-
-    `hedvar_contextual_cueing__standard_visual_search_cc`
-  - T among L's with repeated vs. novel configurations; the Chun & Jiang (1998) version.
-  - Canonical: repeated spatial configurations implicitly facilitate target detection
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Configuration-Based vs. Association-Based CC
 
     `hedvar_contextual_cueing__configuration_based_vs_association_based_cc`
-  - Manipulating whether the entire configuration or just target-distractor associations drive the effect.
-  - Separates global configuration from local target-distractor association; different learning conditions
+  - named form
+  - -
+  - Either the whole layout repeats or only the pairing of target position with a few distractor positions, to see which is learned.
 * - Semantic Contextual Cueing
 
     `hedvar_contextual_cueing__semantic_contextual_cueing`
-  - Meaningful scenes rather than letter arrays; contextual regularities in naturalistic visual environments.
-  - Semantic scene content instead of arbitrary array; different memory system engaged
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-scenes">scenes</a>
+  - -
+  - The displays are photographs of real scenes with a target object placed in each, and the scenes repeat across blocks.
 * - Cross-Modal Contextual Cueing
 
     `hedvar_contextual_cueing__cross_modal_contextual_cueing`
-  - Auditory or tactile context associated with visual target locations.
-  - Auditory context cues visual search; cross-modal learning paradigm
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>, <a href="vocabulary.html#facet-stimulus-modality-tactile">tactile</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>, <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>, <a href="vocabulary.html#facet-stimulus-type-vibration">vibration</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>; cue: <a href="vocabulary.html#rule-respond-to-rule-cue-location-cue">location cue</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception), [Somatosensory perception](../processes/face_and_object_perception.md#hed-somatosensory-perception)
+  - A sound or touch pattern, rather than the visual layout, is paired with the target location and search speeds up when it plays; the learned sound works as a location cue whose validity is discovered rather than instructed.
 * - Dynamic Contextual Cueing
 
     `hedvar_contextual_cueing__dynamic_contextual_cueing`
-  - Displays with moving elements; tests whether temporal-spatial regularities can be learned.
-  - Moving-element arrays instead of static; different perceptual and memory demands
+  - named form
+  - -
+  - The search items move and what repeats is the motion pattern and the target's final position rather than a static layout.
 * - Transfer of Contextual Cueing
 
     `hedvar_contextual_cueing__transfer_of_contextual_cueing`
-  - Changing distractor identities or adding/removing distractors to test what aspects of context are learned.
-  - Tests whether learned context transfers to new target locations; different probe phase
+  - phases: <a href="vocabulary.html#phase-acquisition">acquisition</a>, <a href="vocabulary.html#phase-transfer">transfer</a>
+  - -
+  - After the learning blocks a test phase alters the repeated displays (the distractor identities, their number, or the target position) to see whether the speed-up survives.
 ```
 
 ## Cognitive processes
@@ -91,16 +112,16 @@ This task is designed to engage the following processes:
 
 ## Key references
 
-- Chun, M. M., & Jiang, Y. (1998). Contextual cueing: Implicit learning and memory of visual context guides spatial attention. *Cognitive Psychology*, 36(1), 28–71. ([DOI](https://doi.org/10.1006/cogp.1998.0681), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9679076/))
-- Chun, M. M., & Jiang, Y. (2003). Implicit, long-term spatial contextual memory. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 29(2), 224–234. ([DOI](https://doi.org/10.1037/0278-7393.29.2.224), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12696811/))
-- Goujon, A., Didierjean, A., & Thorpe, S. (2015). Investigating implicit statistical learning mechanisms through contextual cueing. *Trends in Cognitive Sciences*, 19(9), 524–533. ([DOI](https://doi.org/10.1016/j.tics.2015.07.009), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26255970/))
+- Chun, M. M., & Jiang, Y. (1998). Contextual cueing: Implicit learning and memory of visual context guides spatial attention. *Cognitive Psychology*, 36(1), 28-71. ([DOI](https://doi.org/10.1006/cogp.1998.0681), [PubMed](https://pubmed.ncbi.nlm.nih.gov/9679076/))
+- Chun, M. M., & Jiang, Y. (2003). Implicit, long-term spatial contextual memory. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 29(2), 224-234. ([DOI](https://doi.org/10.1037/0278-7393.29.2.224), [PubMed](https://pubmed.ncbi.nlm.nih.gov/12696811/))
+- Goujon, A., Didierjean, A., & Thorpe, S. (2015). Investigating implicit statistical learning mechanisms through contextual cueing. *Trends in Cognitive Sciences*, 19(9), 524-533. ([DOI](https://doi.org/10.1016/j.tics.2015.07.009), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26255970/))
 
 ## Further references
 
-- Vadillo, M. A., Konstantinidis, E., & Shanks, D. R. (2022). Underpowered samples, false negatives, and unconscious learning. *Psychonomic Bulletin & Review*, 29, 307–337.
-- Zinchenko, A., Conci, M., Müller, H. J., & Geyer, T. (2018). Predictive visual search: Role of environmental regularities in the learning of context cues. *Attention, Perception, & Psychophysics*, 80, 1096–1109. ([DOI](https://doi.org/10.3758/s13414-018-1500-4), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29600489/))
-- Sisk, C. A., Remington, R. W., & Jiang, Y. V. (2019). Mechanisms of contextual cueing: A tutorial review. *Attention, Perception, & Psychophysics*, 81, 2571–2589. ([DOI](https://doi.org/10.3758/s13414-019-01832-2), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31410759/))
-- Annac, E., Conci, M., Müller, H. J., & Geyer, T. (2017). Local item density modulates adaptation of learned contextual cues. *Visual Cognition*, 25(1–3), 262–277. ([DOI](https://doi.org/10.1080/13506285.2017.1339158))
+- Vadillo, M. A., Konstantinidis, E., & Shanks, D. R. (2022). Underpowered samples, false negatives, and unconscious learning. *Psychonomic Bulletin & Review*, 29, 307-337.
+- Zinchenko, A., Conci, M., Müller, H. J., & Geyer, T. (2018). Predictive visual search: Role of environmental regularities in the learning of context cues. *Attention, Perception, & Psychophysics*, 80, 1096-1109. ([DOI](https://doi.org/10.3758/s13414-018-1500-4), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29600489/))
+- Sisk, C. A., Remington, R. W., & Jiang, Y. V. (2019). Mechanisms of contextual cueing: A tutorial review. *Attention, Perception, & Psychophysics*, 81, 2571-2589. ([DOI](https://doi.org/10.3758/s13414-019-01832-2), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31410759/))
+- Annac, E., Conci, M., Müller, H. J., & Geyer, T. (2017). Local item density modulates adaptation of learned contextual cues. *Visual Cognition*, 25(1-3), 262-277. ([DOI](https://doi.org/10.1080/13506285.2017.1339158))
 
 ## External links
 

@@ -28,31 +28,34 @@ A **task** is a structured experimental paradigm that:
 
 The Catalog does not include activities that produce no time-stamped record of their events. The timing itself may vary from trial to trial or be reported as a range; what matters is that each event is recorded when it happens. Activities without such a record typically include:
 
-- **Self-report instruments**: Personality inventories, mood questionnaires, symptom checklists (e.g., BDI, STAI). These do not produce event-structured data. Administering one is a pseudo task, the Take Questionnaire Task; see [Pseudo tasks](#task-criteria-1-3) below.
+- **Self-report instruments**: Personality inventories, mood questionnaires, symptom checklists (e.g., BDI, STAI) are not tasks. Answering one is: the Take Questionnaire Task covers reading and answering the items, which a computerized administration time-stamps item by item. The instrument is a parameter of that task.
 - **Clinical screening tools**: Instruments designed for diagnostic classification rather than experimental measurement (e.g., MMSE as a screening tool, though components like digit span are included as standalone tasks).
 - **Broad task categories**: "Working memory task" as a generic label. The Catalog includes more specific instantiations (N-Back, Operation Span, Change Detection, etc.).
 - **One-off experimental designs**: Paradigms used in a single study with to date no reported broader adoption.
 - **Neurological examinations**: Reflex testing, cranial nerve exams, etc.
 
 (task-criteria-1-3)=
-## 1.3 Pseudo tasks
+## 1.3 Rest, fixation, questionnaires and feedback
 
-A **pseudo task** is a block-level activity that appears in experiments not to elicit a cognitive process through a trial structure but to serve the experiment around it. Pseudo tasks have four purposes:
+Rest, fixation and answering a questionnaire are tasks like any other. Each gives the
+participant a job: stay awake and still with nothing else to do; keep the eyes on a
+target; read each item and answer it. Each has a reproducible procedure, is used by
+many labs, and is linked to the processes it engages.
 
-- **A baseline.** A resting block, eyes open or eyes closed, recorded before or after the task blocks gives the activity against which task-related activity is measured. In resting-state studies the rest block is the whole recording.
-- **A reset.** A rest period between blocks lets the participant's physical and mental state settle, recovering from fatigue, arousal or the after-effects of a manipulation, so that the next block starts from a comparable state.
-- **A set-up.** A fixation block puts the participant in a defined physical state, gaze held on a target and eyes still, before or between trials; it is the implicit baseline in many imaging designs and the control condition for localizers.
-- **An exchange of information.** A questionnaire collects a self-report from the participant; feedback tells the participant how they are performing or what they have earned.
+Fixation is used in two ways: as a block of its own, usually a baseline, and as a job
+held throughout another task, as in spatial cueing, where attention moves while the
+eyes stay on the cross. The Fixate Task covers both.
 
-A pseudo task passes two of the four task tests (a reproducible procedure; wide use) and fails the other two by design: it produces little internal event structure beyond its own onset and offset, and whatever processes it engages are not what it is run for. It is included because datasets need to label these blocks with the same vocabulary as the tasks they sit between, and because a task block is often interpreted against the state a pseudo task sets up.
+The exclusion of self-report instruments stands. What the Catalog admits is the act of
+answering the questionnaire; the instrument is a parameter of that task, as a stimulus
+set is a parameter of any task, and is not a variant.
 
-The Catalog currently has {{ n_pseudo_tasks }} pseudo tasks: the Rest Task (with eyes-open and eyes-closed variations), the Fixate Task, the Take Questionnaire Task and the Receive Feedback Task. They are marked as such on their pages and are filed under one task family. Their inclusion tests take the same three-part form. For rest, fixation and questionnaires the manipulation is block duration, content and instruction; for feedback it also includes the schedule (after each response, after a block, at the end of a session), the valence and the modality, since those change what the participant experiences. They carry no process links at this time.
-
-The exclusion of self-report instruments stands. What the Catalog admits is the act of taking the questionnaire; the instrument used is recorded as a parameter of that block, as a stimulus set is a parameter of a task, and is not a variation.
-
-Feedback needs a rule of its own, because it accompanies nearly every task. Feedback informs the participant about their own performance and its outcome, and it does several things at once: it lets them detect errors and adjust strategy, it carries valence that engages reward processing and motivation, it lets them calibrate confidence against accuracy, and, when negative or corrective, it recruits performance monitoring and cognitive control. Its schedule matters as much as its content. Feedback after every response speeds acquisition but can leave the participant dependent on the signal, so that performance drops when it is withdrawn; feedback summarized over a block shows systematic bias rather than trial noise and demands self-assessment in the meantime, which favours retention and transfer; which is better depends on how hard the task is.
-
-The Catalog's rule is whether the feedback is essential to the task. Where the task is built on it, as in reinforcement learning, reversal learning, gambling and conditioning paradigms, where the outcome of each choice is what the participant learns from, the feedback is part of that task's procedure and is described there, and adding it to a task that lacks it is a genuine [variation](04_variation_criteria.md#task-criteria-4-2). Where feedback merely accompanies a task that would be the same task without it, telling the participant how they are doing, it is the Receive Feedback Task, whatever its schedule. Schedule, content and valence are parameters of the feedback, recorded as manipulations. The processes feedback engages, among them reward prediction error, error detection and metacognitive monitoring, are in the Catalog; linking them to pseudo tasks has not been done yet.
+Feedback is not a task. Where a task is built on feedback, as in reinforcement
+learning, reversal learning, gambling and conditioning, the feedback is part of that
+task's procedure, and adding it to a task that lacks it is a
+[variant](04_task_facets_and_variants.md#task-criteria-4-2). Where feedback
+merely accompanies a task that would be the same task without it, it is an event of
+that task, tagged `Task-event-role/Feedback`, not a task of its own.
 
 (task-criteria-1-4)=
 ## 1.4 Why only {{ n_tasks }} tasks?

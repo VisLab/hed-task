@@ -11,7 +11,24 @@ Detect, discriminate, or identify a target sound in the presence of a masking so
 
 ## Description
 
-A target sound (tone, speech token, or noise burst) is presented alongside, before, or after a masking sound, and participants detect, discriminate, or identify the target. By varying the temporal and spectral relationship between target and masker, the paradigm dissociates peripheral (energetic) masking — where masker and target excite overlapping auditory filters — from central (informational) masking — where the masker is spectrally remote but introduces perceptual uncertainty. Threshold shifts, psychometric functions, and comodulation masking release are the core dependent measures. The paradigm is foundational to auditory psychophysics and clinical audiology, and maps onto distinct subcortical and cortical processing stages.
+A target sound (tone, speech token, or noise burst) is presented alongside, before, or after a masking sound, and participants detect, discriminate, or identify the target. By varying the temporal and spectral relationship between target and masker, the paradigm dissociates peripheral (energetic) masking - where masker and target excite overlapping auditory filters - from central (informational) masking - where the masker is spectrally remote but introduces perceptual uncertainty. Threshold shifts, psychometric functions, and comodulation masking release are the core dependent measures. The paradigm is foundational to auditory psychophysics and clinical audiology, and maps onto distinct subcortical and cortical processing stages.
+
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-noise-or-mask">noise or mask</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-noise">noise</a>, <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-spatial-separation">spatial separation</a>, <a href="vocabulary.html#setting-stimulus-similarity">stimulus similarity</a>
+- **Material:** A target sound (a tone, a speech token or a noise burst) presented with, before or after a masker of noise, tones, speech or modulated sound.
 
 ## Inclusion test
 
@@ -37,68 +54,32 @@ least one of the listed variables, and it records at least one of the listed mea
     - Speech reception threshold in noise
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Simultaneous masking
-
-    `hedvar_auditory_masking__simultaneous_masking`
-  - Target and masker overlap in time; measures frequency selectivity via notched-noise or band-reject paradigms.
-  - Masker and target overlap in time; fundamental temporal configuration of masking
-* - Forward masking
-
-    `hedvar_auditory_masking__forward_masking`
-  - Masker precedes target by a brief interval; probes temporal resolution and adaptation recovery.
-  - Masker precedes target; different temporal relationship produces distinct masking mechanism
-* - Backward masking
-
-    `hedvar_auditory_masking__backward_masking`
-  - Masker follows target; demonstrates retroactive interference in early auditory processing.
-  - Masker follows target; different temporal order from forward masking
-* - Energetic masking (peripheral)
-
-    `hedvar_auditory_masking__energetic_masking_peripheral`
-  - Target and masker excite overlapping auditory filters; threshold shift predicted by excitation-pattern models.
-  - Peripheral auditory overlap; mechanistically distinct from informational masking
-* - Informational masking (central)
-
-    `hedvar_auditory_masking__informational_masking_central`
-  - Masker is spectrally remote but perceptually confusable; threshold shift exceeds energetic predictions.
-  - Central/cognitive masking mechanism; different stimulus and processing demands
-* - Comodulation masking release (CMR)
-
-    `hedvar_auditory_masking__comodulation_masking_release_cmr`
-  - Coherent amplitude modulation across frequency bands releases target from masking; indexes across-channel grouping.
-  - Comodulated flanking bands release target from masking; unique stimulus configuration
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Speech-in-noise
 
     `hedvar_auditory_masking__speech_in_noise`
-  - Speech target masked by competing talkers, babble, or steady-state noise; measures speech reception threshold.
-  - Speech target in noise background; distinct task with different linguistic processing demands
-* - Tone-in-noise detection
-
-    `hedvar_auditory_masking__tone_in_noise_detection`
-  - Pure-tone target in broadband or narrowband noise; foundational psychoacoustic paradigm for measuring auditory filter shape.
-  - Pure tone detection in wideband noise; different target type from speech or complex stimuli
-* - Modulation masking
-
-    `hedvar_auditory_masking__modulation_masking`
-  - Amplitude-modulated masker reduces detection of amplitude modulation on a carrier; probes modulation filter bank.
-  - Masking of temporal amplitude modulation; different perceptual dimension
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-text">text</a>, <a href="vocabulary.html#facet-stimulus-type-noise">noise</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-identify">identify</a>
+  - [Speech perception](../processes/language_comprehension_and_production.md#hed-speech-perception)
+  - The target is spoken words or sentences and the participant repeats or identifies what was said rather than reporting presence.
 * - Spatial release from masking
 
     `hedvar_auditory_masking__spatial_release_from_masking`
-  - Separating masker and target in space reduces masking; measures binaural and spatial processing.
-  - Spatial separation of target and masker; binaural processing distinguishes it from monaural variants
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-loudspeaker">loudspeaker</a>
+  - -
+  - Target and masker are played from different directions and the threshold is compared with the co-located case.
 ```
 
 ## Cognitive processes
@@ -116,7 +97,7 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Shinn-Cunningham, B. G. (2008). Object-based auditory and visual attention. Trends in Cognitive Sciences, 12(5), 182–186. ([DOI](https://doi.org/10.1016/j.tics.2008.02.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18396091/))
+- Shinn-Cunningham, B. G. (2008). Object-based auditory and visual attention. Trends in Cognitive Sciences, 12(5), 182-186. ([DOI](https://doi.org/10.1016/j.tics.2008.02.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/18396091/))
 
 ## External links
 

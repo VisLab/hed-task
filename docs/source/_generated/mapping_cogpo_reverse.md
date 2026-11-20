@@ -1,6 +1,6 @@
 | Match type | CogPO classes | Share |
 |---|---|---|
-| exact | 27 | 31% |
-| close | 15 | 17% |
+| exact | 26 | 30% |
+| close | 16 | 19% |
 | related | 8 | 9% |
 | none | 36 | 42% |

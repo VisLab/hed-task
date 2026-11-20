@@ -12,7 +12,7 @@ in an experiment, tag a dataset, look up a process, or propose a change.
 Three routes lead to a task page.
 
 - **By name or alias.** The search box in the sidebar indexes canonical names, aliases,
- definitions and variation names, so "CWIT", "Stroop" and "color-word interference"
+ definitions and variant names, so "CWIT", "Stroop" and "color-word interference"
  all reach the Stroop Color-Word Task.
 - **By what the participant does.** The [task index](tasks/index.md) groups the
  {{ n_tasks }} tasks into task families such as conflict and interference tasks, span
@@ -32,6 +32,12 @@ Take the [Stroop Color-Word Task](tasks/hedtsk_stroop_color_word.md) as the exam
 record when tagging. The aliases are the other names the literature uses for the same
 procedure.
 
+**At a glance.** The standard form of the task in the terms of the
+[task vocabulary](tasks/vocabulary.md): its game type, the rules it states, why the
+participant tries, its facets, settings and material. Two listings are built on the
+vocabulary: [tasks by game type](tasks/by_game_type.md) and
+[tasks by facet](tasks/by_facet.md).
+
 **Inclusion test.** The three lists decide whether a particular experiment is an
 instance of this task:
 
@@ -47,15 +53,15 @@ instance of this task:
 An experiment is an instance when its procedure matches, it manipulates at least one of
 the listed variables, and it records at least one of the listed measures. If the
 procedure does not match, it is a different task even if the construct is the same. If
-the procedure matches but the experiment differs in a way listed under *Variations*, it
-is an instance of that variation.
+the procedure matches but the experiment differs in a way listed under *Variants*, it
+is an instance of that variant.
 
-**Variations.** Each row names a version that changes what the participant experiences
-or does, describes it, and says why it counts. Variations have identifiers of the form
-`hedvar_<task>__<variation>`, so a dataset can be tagged with a variation when the
-distinction matters. Things that are deliberately *not* variations, such as adding a
-recording modality or testing a different population, are listed in the
-[task criteria](methods/task_criteria/index.md).
+**Variants.** Each row names another form of the task that studies use, says what
+differs from the standard form and which processes it adds, and describes it in a note.
+Variants have identifiers of the form `hedvar_<task>__<variant>`, so a dataset can be
+tagged with a variant when the distinction matters. Things that are deliberately *not*
+variants, such as adding a recording modality or testing a different population, are
+listed in the [task criteria](methods/task_criteria/04_task_facets_and_variants.md).
 
 **Cognitive processes.** The processes the task is designed to engage, each linked to
 its definition. These are the process tags a dataset using this task would carry.
@@ -80,19 +86,20 @@ linked tasks says so; it is kept because the Catalog may grow a task for it.
 The Catalog's identifiers are stable enough to record now, even though how they will be
 expressed in HED annotations and dataset metadata is still being decided. For a dataset:
 
-1. Identify the task with the inclusion test, and the variation if one applies.
-2. Record the task identifier (`hedtsk_...`) and, if applicable, the variation
+1. Identify the task with the inclusion test, and the variant if one applies.
+2. Record the task identifier (`hedtsk_...`) and, if applicable, the variant
  identifier (`hedvar_...`).
 3. Record the process identifiers (`hed_...`) listed on the task page. Add processes
  the task page does not list only if the experiment's own design targets them; the
  task page lists what the paradigm is designed to probe, not everything it touches.
-4. If the experiment is a task the Catalog does not have, or a variation a task page
+4. If the experiment is a task the Catalog does not have, or a variant a task page
  does not list, propose it (next section) rather than forcing a fit.
 
-Resting runs, fixation blocks and questionnaire blocks are tagged the same way, with the
-identifier of the matching [pseudo task](tasks/families/pseudo_tasks.md): `hedtsk_rest` with the
-eyes-open or eyes-closed variation, `hedtsk_fixate`, or `hedtsk_take_questionnaire`. A pseudo task
-carries no process identifiers, so there is nothing to record for step 3.
+Resting runs, fixation blocks and questionnaire blocks are tagged the same way:
+`hedtsk_rest` (eyes open or closed is one of its manipulations), `hedtsk_fixate`, or
+`hedtsk_take_questionnaire`, with the processes their pages list. Feedback has no task
+identifier of its own; it is an event of the task it belongs to, tagged
+`Task-event-role/Feedback`.
 
 ## Proposing a change
 
@@ -104,9 +111,9 @@ needs; anything else goes in a blank issue.
 
 - **A new task.** Give the canonical name and aliases, the procedure as ordered steps,
  the manipulations and the measurements in the form the inclusion tests use, the
- processes it engages, and one or two references. Say why it is not a variation of an existing task.
-- **A new variation.** Name the parent task, describe what changes in what the
- participant experiences or does, and say why that is not one of the excluded kinds of
+ processes it engages, and one or two references. Say why it is not a variant of an existing task.
+- **A new variant.** Name the parent task, say how it differs from the standard form
+ (which facet, rule or motivation), and say why that is not one of the excluded kinds of
  change (measurement modality, analysis, population, stimulus swap, and so on).
 - **A new process.** Say when in a trial it happens, what elicits it, how it is
  measured, and which category it belongs in. Say why it is not an alias of an existing

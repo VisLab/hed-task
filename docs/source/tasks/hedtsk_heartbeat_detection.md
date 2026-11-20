@@ -11,7 +11,21 @@ Participants count or discriminate their own heartbeats without external feedbac
 
 ## Description
 
-The Heartbeat Detection Task is the standard paradigm for measuring interoceptive accuracy — the ability to perceive internal physiological signals. In the Schandry (1981) heartbeat counting variant, participants silently count their heartbeats during timed intervals (e.g., 25, 35, 45 seconds) without taking their pulse; an interoceptive accuracy score is computed from the discrepancy between counted and actual heartbeats (recorded via ECG or pulse oximetry). In the Whitehead heartbeat discrimination variant, participants judge whether an external stimulus (tone or light) is presented synchronously or asynchronously with their heartbeat; d-prime indexes perceptual sensitivity. Interoceptive accuracy is central to theories of emotion (the somatic marker hypothesis; Damasio, 1994), anxiety (interoceptive hypersensitivity models), and embodied cognition (predictive interoception). Individual differences in heartbeat detection correlate with emotional intensity, anxiety sensitivity, and decision-making quality. The paradigm has generated substantial methodological debate: the counting variant may partially reflect beliefs about heart rate rather than true perception, motivating the discrimination variant and newer alternatives.
+The Heartbeat Detection Task is the standard paradigm for measuring interoceptive accuracy - the ability to perceive internal physiological signals. In the Schandry (1981) heartbeat counting variant, participants silently count their heartbeats during timed intervals (e.g., 25, 35, 45 seconds) without taking their pulse; an interoceptive accuracy score is computed from the discrepancy between counted and actual heartbeats (recorded via ECG or pulse oximetry). In the Whitehead heartbeat discrimination variant, participants judge whether an external stimulus (tone or light) is presented synchronously or asynchronously with their heartbeat; d-prime indexes perceptual sensitivity. Interoceptive accuracy is central to theories of emotion (the somatic marker hypothesis; Damasio, 1994), anxiety (interoceptive hypersensitivity models), and embodied cognition (predictive interoception). Individual differences in heartbeat detection correlate with emotional intensity, anxiety sensitivity, and decision-making quality. The paradigm has generated substantial methodological debate: the counting variant may partially reflect beliefs about heart rate rather than true perception, motivating the discrimination variant and newer alternatives.
+
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-report-on-self">report on self</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-somatic">somatic</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>, <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
+- **Material:** The participant's own heartbeat and, in the discrimination form, a tone or light presented in or out of time with it.
 
 ## Inclusion test
 
@@ -23,13 +37,14 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - Participants perceive their own heartbeats — either counting them during timed intervals (counting variant) or judging synchrony between external stimuli and cardiac events (discrimination variant) — while actual heartbeats are recorded physiologically.
+  - Participants perceive their own heartbeats - either counting them during timed intervals (counting variant) or judging synchrony between external stimuli and cardiac events (discrimination variant) - while actual heartbeats are recorded physiologically.
 * - **Manipulations**
   - - Task variant (counting vs. discrimination)
     - Interval duration
     - Stimulus timing relative to R-wave (synchronous vs. delayed)
     - Attention condition (interoceptive focus vs. exteroceptive distraction)
     - Pharmacological manipulation (beta-blockers, isoproterenol)
+    - Interoceptive signal (breathing resistance vs. heartbeat)
 * - **Measurements**
   - - Interoceptive accuracy score (1 - |counted - actual| / actual)
     - Heartbeat discrimination d-prime
@@ -38,43 +53,44 @@ least one of the listed variables, and it records at least one of the listed mea
     - Heartbeat-evoked potential (HEP) amplitude as a neural index
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Heartbeat Counting (Schandry)
-
-    `hedvar_heartbeat_detection__heartbeat_counting_schandry`
-  - Count heartbeats silently during timed intervals. The most widely used variant. Criticized for confounding true perception with beliefs about heart rate.
-  - Count heartbeats over interval; canonical interoception measure
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Heartbeat Discrimination (Whitehead)
 
     `hedvar_heartbeat_detection__heartbeat_discrimination_whitehead`
-  - Judge whether a tone is synchronous or asynchronous with the heartbeat. Signal-detection measure (d-prime). Less susceptible to belief confounds than counting.
-  - Judge whether tone is synchronous with heartbeat; different detection task
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-somatic">somatic</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - A train of tones locked to each heartbeat, either immediate or delayed, is played and the participant judges whether it was in time with their heart, instead of counting heartbeats.
 * - Confidence-Accuracy Paradigm
 
     `hedvar_heartbeat_detection__confidence_accuracy_paradigm`
-  - Garfinkel et al. (2015) three-dimensional model: accuracy (objective performance), sensibility (self-report belief about interoceptive ability), and awareness (metacognitive correspondence between accuracy and sensibility).
-  - Sole confidence-rating exception per §5.5; Garfinkel et al. (2015) interoception model
+  - named form
+  - -
+  - After each trial the participant also rates confidence in the answer.
 * - Interoceptive Attention Manipulation
 
     `hedvar_heartbeat_detection__interoceptive_attention_manipulation`
-  - Alternate between interoceptive focus (attend to heartbeat) and exteroceptive focus (attend to external stimuli). Compares directed vs. incidental cardiac processing.
-  - Instructions to attend to vs. distract from heartbeat; changes attentional focus
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-somatic">somatic</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>, <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception), [Visual perception](../processes/face_and_object_perception.md#hed-visual-perception)
+  - In alternating blocks the participant attends to the heartbeat or to an external tone or display while heart and brain responses are recorded, the listed attention-condition manipulation delivered with added stimuli and blocked trials.
 * - Respiratory Interoception Variant
 
     `hedvar_heartbeat_detection__respiratory_interoception_variant`
-  - Breathing resistance detection (inspiratory loading) as a complementary interoceptive channel. Tests whether interoceptive accuracy is domain-general or modality-specific.
-  - Respiratory signals instead of cardiac; different physiological channel
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+  - -
+  - The participant breathes through a mouthpiece and reports on each breath whether an added resistance made it harder, the smallest detectable load being the measure.
 ```
 
 ## Cognitive processes

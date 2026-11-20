@@ -207,3 +207,45 @@ def pop_card(label: str, items: list[str]) -> str:
 def count_phrase(n: int, singular: str, plural: str | None = None) -> str:
     """Return "N singular" or "N plural" (default plural: singular + "s")."""
     return f"{n} {singular if n == 1 else (plural or singular + 's')}"
+
+
+# ---------------------------------------------------------------------------
+# The task vocabulary page (docs/source/tasks/vocabulary.md)
+#
+# Every vocabulary value has one stable anchor on that page, written as an HTML id in
+# the value's table cell. Links to it are inline HTML, as in the pop-up cards: a Markdown
+# link to an id that is not a heading or a label does not resolve in MyST.
+
+
+def vocab_anchor(kind: str, *parts: str) -> str:
+    """Return the anchor of a vocabulary entry on tasks/vocabulary.md.
+
+    Parameters:
+        kind: "game", "rule", "motivation", "phase", "setting", "how" or "facet".
+        parts: The entry's keys, outermost first: a game type; a game type, rule and
+            value; a motivation question and value; a facet and value; and so on.
+    """
+    return "-".join([kind, *parts]).replace("_", "-")
+
+
+def vocab_label(value: str) -> str:
+    """Return a vocabulary value for display: underscores become spaces."""
+    return value.replace("_", " ")
+
+
+def vocab_link(value: str, anchor: str, prefix: str = "") -> str:
+    """Return an inline-HTML link from a page to a value on tasks/vocabulary.md.
+
+    Parameters:
+        value: The vocabulary value, shown with underscores as spaces.
+        anchor: The anchor from `vocab_anchor`.
+        prefix: Path from the linking page's directory to tasks/ ("" from tasks/).
+    """
+    return f'<a href="{prefix}vocabulary.html#{anchor}">{vocab_label(value)}</a>'
+
+
+def facet_label(facet: str) -> str:
+    """Return a facet name for display in sentence case: `task_io_device` -> "Task I/O device"."""
+    words = ["I/O" if w == "io" else w for w in facet.split("_")]
+    text = " ".join(words)
+    return text[0].upper() + text[1:]

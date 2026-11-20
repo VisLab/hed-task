@@ -17,8 +17,8 @@ What it does, in order:
    ``atlas_id`` on every task. The Atlas correspondence lives in the curated tables under
    ``data/mappings/``; the field on the record produced dead and wrong links and was
    removed from this repository deliberately.
-4. Assigns ``variation_id`` to every variation with the same rule as
-   ``add_variation_ids.py``, and refuses if a variation already carries a different id.
+4. Assigns ``variation_id`` to every variation with the rule of the retired
+   ``add_variation_ids.py`` (kept in this file), and refuses if a variation already carries a different id.
 5. Writes the two files to ``data/`` with LF line endings, and removes, if present, the
    derived files this repository never read (``task_names.json``, ``process_task_index.json``,
    ``process_task_crossref.md``, ``tasks_criteria.md``, ``process_criteria.md``).
@@ -36,6 +36,7 @@ from __future__ import annotations
 import argparse
 import collections
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -43,7 +44,8 @@ _HERE = Path(__file__).parent
 if str(_HERE) not in sys.path:
     sys.path.insert(0, str(_HERE))
 
-from add_variation_ids import variation_id  # noqa: E402
+# add_variation_ids was retired on 2026-11-17; variant ids are now stored in data/task_details.json.
+# Its id derivation is kept below, as it was, because this record of the 2026-09-18 import used it.
 
 REPO_ROOT = _HERE.parent
 DATA = REPO_ROOT / "data"
@@ -75,6 +77,24 @@ def _validate(instance, schema_path: Path, label: str) -> None:
             print(f"  schema error in {label} at {'/'.join(str(p) for p in err.path)}: {err.message[:160]}")
         sys.exit(f"{label} fails {schema_path.name} ({len(errors)} errors); nothing written.")
     print(f"  {label}: valid against {schema_path.name}")
+
+
+def _slugify(text: str) -> str:
+    """Derive a slug by the rules of the hedtsk_ task slugs (from the retired add_variation_ids.py)."""
+    value = (text or "").strip()
+    value = re.sub(r"\s+(Task|Test)$", "", value, flags=re.IGNORECASE)
+    value = value.lower()
+    # Both apostrophe forms are deleted, not turned into a separator; chr(0x2019) is the curly one.
+    value = value.replace("'", "").replace(chr(0x2019), "")
+    value = re.sub(r"[^a-z0-9]+", "_", value)
+    value = re.sub(r"_+", "_", value)
+    return value.strip("_")
+
+
+def variation_id(hedtsk_id: str, variation_name: str) -> str:
+    """Return the legacy ``hedvar_<task>__<slug>`` id of a variation (from the retired add_variation_ids.py)."""
+    parent = hedtsk_id[len("hedtsk_") :] if hedtsk_id.startswith("hedtsk_") else hedtsk_id
+    return f"hedvar_{parent}__{_slugify(variation_name)}"
 
 
 def _project_reference(ref: dict) -> dict:

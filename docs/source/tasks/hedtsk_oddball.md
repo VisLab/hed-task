@@ -13,6 +13,24 @@ Sequence of standards with rare deviants or targets; deviants elicit a large pos
 
 Participants are presented with a stimulus stream containing frequent standard stimuli (80% of trials) and infrequent target (oddball) stimuli (20%) that differ in some dimension (pitch, color, shape). Participants respond (button press) to targets. Target detection elicits the P3b ERP component (300-600 ms, parietal maximum), reflecting stimulus evaluation and working memory updating. Novel or unexpected stimuli also elicit the P3a component (frontocentral), reflecting automatic attention capture. The paradigm is widely used as a biomarker of cognitive function and has clinical applications in ADHD, schizophrenia, and traumatic brain injury.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+- **Must the player ever hold back?** <a href="vocabulary.html#rule-respond-to-rule-response-demand-withhold-on-some">withhold on some</a>
+- **How often is there a target?** <a href="vocabulary.html#rule-respond-to-rule-target-rate-rare-target">rare target</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-interstimulus-interval">interstimulus interval</a>, <a href="vocabulary.html#setting-target-probability">target probability</a>
+- **Material:** A stream of frequent standard tones and rare target tones that differ in pitch, sometimes with novel non-target sounds.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -26,10 +44,12 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. A sequence of frequent standard stimuli is occasionally interrupted by rare target (and sometimes novel) stimuli.
     2. Participants count or respond to targets.
 * - **Manipulations**
-  - - Target probability (typically 10–20%)
+  - - Target probability (typically 10-20%)
     - Stimulus modality (auditory, visual)
     - Inclusion of novel non-target deviants
     - ISI
+    - Response requirement (none vs. count or respond)
+    - Standard tone (roving vs. fixed)
 * - **Measurements**
   - - P3b amplitude and latency to targets
     - P3a to novels
@@ -37,63 +57,68 @@ least one of the listed variables, and it records at least one of the listed mea
     - N2 component
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Two-Stimulus Auditory Oddball
-
-    `hedvar_oddball__two_stimulus_auditory_oddball`
-  - Standard (80%) + target (20%) tones; classic P3b paradigm.
-  - Canonical: standard + deviant tones; P300 or MMN elicitation
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Three-Stimulus Novelty Oddball
 
     `hedvar_oddball__three_stimulus_novelty_oddball`
-  - Standard + target + novel environmental sounds; elicits P3a and P3b.
-  - Novel distractors added to standard+deviant; different stimulus structure
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>, <a href="vocabulary.html#facet-stimulus-type-nonvocal-sounds">nonvocal sounds</a>
+  - -
+  - Rare, varied novel sounds are added as a third event type that the participant ignores while still responding to the rare target.
 * - Visual Oddball
 
     `hedvar_oddball__visual_oddball`
-  - Geometric shapes or letter stimuli in oddball format.
-  - Visual stimuli; different sensory modality
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>
+  - [Visual perception](../processes/face_and_object_perception.md#hed-visual-perception)
+  - The common and rare events are shapes or letters on a screen instead of tones.
 * - Passive Oddball
 
     `hedvar_oddball__passive_oddball`
-  - No overt response; still elicits P300 (smaller amplitude).
-  - No response required; isolates automatic change detection
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - -
+  - No response or count is required and the participant may do something else while the sounds play, so there is no job at all.
 * - Active Counting vs. Button-Press Response
 
     `hedvar_oddball__active_counting_vs_button_press_response`
-  - Count targets silently vs. press button.
-  - Silent count vs. button press; different response modality
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-count">count</a>
+  - -
+  - The participant keeps a silent count of the rare events and reports the total at the end instead of pressing to each one; the standard procedure already allows either.
 * - Duration Deviance Oddball
 
     `hedvar_oddball__duration_deviance_oddball`
-  - Deviants differ in duration rather than frequency.
-  - Duration-based deviant; different acoustic dimension from frequency
+  - named form
+  - -
+  - The rare tone differs from the common one in duration rather than pitch.
 * - Cross-Modal Oddball
 
     `hedvar_oddball__cross_modal_oddball`
-  - Combined auditory-visual deviants.
-  - Deviant crosses sensory modality; different cross-modal attention
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>, <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>
+  - [Visual perception](../processes/face_and_object_perception.md#hed-visual-perception)
+  - Common and rare events come in different senses, or the stream mixes senses and the participant responds to rare events in either.
 * - Emotional Oddball
 
     `hedvar_oddball__emotional_oddball`
-  - Emotional stimuli as deviants; tests emotion-attention interaction.
-  - Emotional stimuli as deviants; retained per §5.1 (EMOT retired)
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>; emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>
+  - [Visual perception](../processes/face_and_object_perception.md#hed-visual-perception)
+  - The rare events are emotional pictures or faces in a stream of neutral ones, shown on a screen.
 * - Roving Paradigm
 
     `hedvar_oddball__roving_paradigm`
-  - Dynamic standard updating; tests predictive coding models.
-  - Standard changes after each presentation; different stimulus history structure
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-compare">compare</a>; reference: <a href="vocabulary.html#rule-respond-to-rule-reference-held-in-mind">held in mind</a>
+  - -
+  - A tone repeats and is then replaced by a new tone that becomes the new standard, so any response is to a change from the preceding tone rather than to a fixed rare stimulus; the description does not say whether a response is required.
 ```
 
 ## Cognitive processes
@@ -114,9 +139,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Linden, D. E. J. (2005). The P300: Where in the brain is it produced and what does it tell us? *Neuroscientist*, 11(6), 563–576. [Updated: Bledowski, C., et al. (2004). Localizing P300 generators in visual target and distractor processing: A combined event-related potential and functional magnetic resonance imaging study. *Journal of Neuroscience*, 24(42), 9353–9360.] ([DOI](https://doi.org/10.1177/1073858405280524), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16282597/))
-- Twomey, D. M., Murphy, P. R., Kelly, S. P., & O'Connell, R. G. (2015). The classic P300 encodes a build-to-threshold decision variable. *European Journal of Neuroscience*, 42(1), 1636–1643. ([DOI](https://doi.org/10.1111/ejn.12936), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25925534/))
-- Kelly, S. P., & O'Connell, R. G. (2013). Internal and external influences on the rate of sensory evidence accumulation in the human brain. *Journal of Neuroscience*, 33(50), 19434–19441. ([DOI](https://doi.org/10.1523/jneurosci.3355-13.2013), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24336710/))
+- Linden, D. E. J. (2005). The P300: Where in the brain is it produced and what does it tell us? *Neuroscientist*, 11(6), 563-576. [Updated: Bledowski, C., et al. (2004). Localizing P300 generators in visual target and distractor processing: A combined event-related potential and functional magnetic resonance imaging study. *Journal of Neuroscience*, 24(42), 9353-9360.] ([DOI](https://doi.org/10.1177/1073858405280524), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16282597/))
+- Twomey, D. M., Murphy, P. R., Kelly, S. P., & O'Connell, R. G. (2015). The classic P300 encodes a build-to-threshold decision variable. *European Journal of Neuroscience*, 42(1), 1636-1643. ([DOI](https://doi.org/10.1111/ejn.12936), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25925534/))
+- Kelly, S. P., & O'Connell, R. G. (2013). Internal and external influences on the rate of sensory evidence accumulation in the human brain. *Journal of Neuroscience*, 33(50), 19434-19441. ([DOI](https://doi.org/10.1523/jneurosci.3355-13.2013), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24336710/))
 
 ## External links
 

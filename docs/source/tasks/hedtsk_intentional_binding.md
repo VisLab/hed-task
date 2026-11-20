@@ -11,7 +11,22 @@ Participants judge the perceived time of a voluntary action and/or its sensory e
 
 ## Description
 
-The Intentional Binding Task (Haggard, Clark, & Kalogeras, 2002) measures the implicit sense of agency through perceived temporal shifts between voluntary actions and their sensory consequences. Participants watch a rotating clock hand (Libet clock) and make voluntary key presses that produce a tone after a fixed delay (typically 250 ms). In separate blocks, they report either the perceived time of their action (action binding: judged time shifts toward the tone) or the perceived time of the tone (effect binding: judged time shifts toward the action). The net temporal compression between action and effect — intentional binding — is taken as an implicit, pre-reflective marker of the sense of agency. Involuntary actions (e.g., TMS-induced movements) or externally triggered tones produce temporal repulsion rather than binding, establishing the specificity of the effect to voluntary agency. The paradigm has become the standard implicit measure of sense of agency, complementing explicit agency judgments. It is sensitive to disorders of agency including schizophrenia (reduced binding, especially in patients with passivity experiences), functional neurological disorder, and anarchic hand syndrome. Computational accounts link binding to motor prediction: the forward model predicts sensory consequences of voluntary actions, and the match between prediction and outcome generates the binding effect.
+The Intentional Binding Task (Haggard, Clark, & Kalogeras, 2002) measures the implicit sense of agency through perceived temporal shifts between voluntary actions and their sensory consequences. Participants watch a rotating clock hand (Libet clock) and make voluntary key presses that produce a tone after a fixed delay (typically 250 ms). In separate blocks, they report either the perceived time of their action (action binding: judged time shifts toward the tone) or the perceived time of the tone (effect binding: judged time shifts toward the action). The net temporal compression between action and effect - intentional binding - is taken as an implicit, pre-reflective marker of the sense of agency. Involuntary actions (e.g., TMS-induced movements) or externally triggered tones produce temporal repulsion rather than binding, establishing the specificity of the effect to voluntary agency. The paradigm has become the standard implicit measure of sense of agency, complementing explicit agency judgments. It is sensitive to disorders of agency including schizophrenia (reduced binding, especially in patients with passivity experiences), functional neurological disorder, and anarchic hand syndrome. Computational accounts link binding to motor prediction: the forward model predicts sensory consequences of voluntary actions, and the match between prediction and outcome generates the binding effect.
+
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-report-on-self">report on self</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-delay-to-outcome">delay to outcome</a>, <a href="vocabulary.html#setting-reward-probability">reward probability</a>
+- **Material:** A rotating clock hand (Libet clock) and a tone that follows the key press after a fixed delay.
 
 ## Inclusion test
 
@@ -40,53 +55,44 @@ least one of the listed variables, and it records at least one of the listed mea
     - Binding magnitude as individual-difference variable
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Libet Clock Method (Standard)
-
-    `hedvar_intentional_binding__libet_clock_method_standard`
-  - Haggard et al. (2002): report perceived position of a rotating clock hand at the moment of action or effect onset. The foundational paradigm. Separate action-binding and effect-binding blocks.
-  - Canonical: estimate action or tone time on rotating clock
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Interval Estimation Method
 
     `hedvar_intentional_binding__interval_estimation_method`
-  - Participants estimate the duration of the action-effect interval directly (e.g., in milliseconds or by reproducing the interval). Simpler than the Libet clock; avoids clock-reading demands.
-  - Estimate delay between action and outcome; different timing judgment task
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - -
+  - No clock is shown; after each key press and tone the participant estimates or reproduces the interval between them, instead of reporting a time point.
 * - Involuntary Action Control (TMS)
 
     `hedvar_intentional_binding__involuntary_action_control_tms`
-  - Transcranial magnetic stimulation over motor cortex produces involuntary finger movements. Involuntary actions produce temporal repulsion rather than binding, confirming agency specificity.
-  - TMS-induced involuntary movement instead of voluntary action; different action type
-* - Outcome Probability Manipulation
-
-    `hedvar_intentional_binding__outcome_probability_manipulation`
-  - Vary the probability that the action produces an effect (100%, 75%, 50%). Lower probability reduces binding, consistent with predictive (forward model) accounts.
-  - Vary probability that action produces tone; tests contingency on binding
-* - Causal Belief Manipulation
-
-    `hedvar_intentional_binding__causal_belief_manipulation`
-  - Participants are told their action does or does not cause the tone (while physical contingency is held constant). Tests top-down causal belief contributions to binding.
-  - Instructions manipulate whether action causes outcome; tests belief on binding
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-brain-stimulator">brain stimulator</a>
+  - -
+  - The finger movement is produced by a magnetic pulse to motor cortex rather than by the participant's decision, the action-type manipulation at its involuntary level, delivered with a brain stimulator.
 * - Social Intentional Binding
 
     `hedvar_intentional_binding__social_intentional_binding`
-  - One participant's action causes an effect experienced by another (joint action), or participants observe another person's action-effect pair. Tests vicarious and shared agency.
-  - Another person performs action; tests social extension of binding
+  - social aspect: <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>
+  - [Self-other distinction](../processes/social_cognition_and_strategic_social_choice.md#hed-self-other-distinction)
+  - Another person presses the key and the participant judges the timing of that person's action and its tone, or two people act together, so the reported event is someone else's action rather than one's own.
 * - Outcome Valence Manipulation
 
     `hedvar_intentional_binding__outcome_valence_manipulation`
-  - Action produces positive (reward tone), negative (aversive tone), or neutral effects. Tests whether emotional significance of outcomes modulates binding. Relevant to moral agency research.
-  - Aversive vs. pleasant outcomes; tests valence effect on temporal binding
+  - emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-nonvocal-sounds">nonvocal sounds</a>, <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>; drive: <a href="vocabulary.html#motivation-drive-unearned-outcome">unearned outcome</a>; sign: <a href="vocabulary.html#motivation-sign-both">both</a>; earned by: <a href="vocabulary.html#motivation-earned-by-nothing">nothing</a>; what: <a href="vocabulary.html#motivation-what-money">money</a>
+  - -
+  - The press produces a pleasant, unpleasant or neutral sound, or wins or loses money, and binding is compared across outcomes.
 ```
 
 ## Cognitive processes

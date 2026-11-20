@@ -8,7 +8,7 @@ Two TSV files, each keyed by a unique id:
 CogPO, the Cognitive Paradigm Ontology, has one paradigm layer and no process layer, so
 there is one pair of tables rather than the Atlas's two. The forward table records each
 task's primary CogPO class; the reverse table records every CogPO paradigm class and the
-task or variation it maps to. Several tasks may point at one CogPO class (Stroop and
+task or variant it maps to. Several tasks may point at one CogPO class (Stroop and
 Emotional Stroop both at `Stroop Task Paradigm`) and the reverse table says which one is
 primary in its notes.
 
@@ -46,7 +46,7 @@ DEFAULT_DATA = REPO / "data"
 MAP_DIR_NAME = "mappings"
 
 # Columns the curator owns. A refresh never overwrites these.
-CURATED = {"match_type", "match_level", "scope_class", "cogpo_id", "hedtsk_id", "hed_variation_id", "notes"}
+CURATED = {"match_type", "match_level", "scope_class", "cogpo_id", "hedtsk_id", "hed_variant_id", "notes"}
 
 MATCH_TYPES = ("exact", "close", "related", "none", "")
 
@@ -81,8 +81,8 @@ REVERSE_FIELDS = [
     "match_level",
     "hedtsk_id",
     "hed_task_name",
-    "hed_variation_id",
-    "hed_variation_name",
+    "hed_variant_id",
+    "hed_variant_name",
     "notes",
 ]
 
@@ -169,12 +169,12 @@ def build_tables(hed_tasks: list[dict], paradigms: list[dict]) -> tuple[list[dic
             }
         )
 
-    variation_index: dict[str, list[dict]] = collections.defaultdict(list)
+    variant_index: dict[str, list[dict]] = collections.defaultdict(list)
     for task in hed_tasks:
-        for variation in task.get("variations") or []:
-            key = normalize(variation.get("name", ""))
+        for variant in task.get("variants") or []:
+            key = normalize(variant.get("name", ""))
             if key:
-                variation_index[key].append({"task": task, "variation": variation})
+                variant_index[key].append({"task": task, "variant": variant})
 
     reverse = []
     for paradigm in paradigms:
@@ -184,22 +184,22 @@ def build_tables(hed_tasks: list[dict], paradigms: list[dict]) -> tuple[list[dic
         hit = None
         if task_hit is None:
             for key in keys:
-                if key in variation_index:
-                    hit = variation_index[key][0]
+                if key in variant_index:
+                    hit = variant_index[key][0]
                     break
         if hit:
-            match_type, match_level = "exact", "variation"
+            match_type, match_level = "exact", "variant"
             hedtsk_id = hit["task"]["hedtsk_id"]
             hed_task_name = hit["task"]["canonical_name"]
-            variation_id = hit["variation"].get("variation_id", "")
-            variation_name = hit["variation"].get("name", "")
+            variant_id = hit["variant"].get("variant_id", "")
+            variant_name = hit["variant"].get("name", "")
         else:
             candidate, match_type = best_candidate(names, hed_index)
             hed = candidate["hed"] if candidate else None
             match_level = "task" if hed else ""
             hedtsk_id = hed["hedtsk_id"] if hed else ""
             hed_task_name = hed["canonical_name"] if hed else ""
-            variation_id = variation_name = ""
+            variant_id = variant_name = ""
         reverse.append(
             {
                 "cogpo_id": paradigm["id"],
@@ -212,8 +212,8 @@ def build_tables(hed_tasks: list[dict], paradigms: list[dict]) -> tuple[list[dic
                 "match_level": match_level,
                 "hedtsk_id": hedtsk_id,
                 "hed_task_name": hed_task_name,
-                "hed_variation_id": variation_id,
-                "hed_variation_name": variation_name,
+                "hed_variant_id": variant_id,
+                "hed_variant_name": variant_name,
                 "notes": "",
             }
         )
@@ -237,9 +237,7 @@ def main() -> None:
 
     paradigm_by_id = {p["id"]: p for p in paradigms}
     task_by_id = {t["hedtsk_id"]: t for t in hed_tasks}
-    variation_by_id = {
-        v["variation_id"]: (t, v) for t in hed_tasks for v in (t.get("variations") or []) if v.get("variation_id")
-    }
+    variant_by_id = {v["variant_id"]: (t, v) for t in hed_tasks for v in (t.get("variants") or []) if v.get("variant_id")}
 
     def rederive_forward(row: dict) -> None:
         paradigm = paradigm_by_id.get(row.get("cogpo_id") or "")
@@ -254,20 +252,20 @@ def main() -> None:
         if row.get("hedtsk_id") and not hed:
             raise SystemExit(f"cogpo_paradigm_to_hed.tsv: row {row['cogpo_id']} names unknown task {row['hedtsk_id']!r}.")
         row["hed_task_name"] = hed["canonical_name"] if hed else ""
-        vid = row.get("hed_variation_id") or ""
+        vid = row.get("hed_variant_id") or ""
         if vid:
-            found = variation_by_id.get(vid)
+            found = variant_by_id.get(vid)
             if not found:
-                raise SystemExit(f"cogpo_paradigm_to_hed.tsv: row {row['cogpo_id']} references unknown variation id {vid!r}.")
-            parent, variation = found
+                raise SystemExit(f"cogpo_paradigm_to_hed.tsv: row {row['cogpo_id']} references unknown variant id {vid!r}.")
+            parent, variant = found
             if parent["hedtsk_id"] != row.get("hedtsk_id"):
                 raise SystemExit(
-                    f"cogpo_paradigm_to_hed.tsv: row {row['cogpo_id']} maps to variation {vid!r} "
+                    f"cogpo_paradigm_to_hed.tsv: row {row['cogpo_id']} maps to variant {vid!r} "
                     f"but names task {row.get('hedtsk_id')!r}, whose parent is {parent['hedtsk_id']!r}."
                 )
-            row["hed_variation_name"] = variation.get("name", "")
+            row["hed_variant_name"] = variant.get("name", "")
         else:
-            row["hed_variation_name"] = ""
+            row["hed_variant_name"] = ""
         if row.get("match_type") not in MATCH_TYPES:
             raise SystemExit(f"cogpo_paradigm_to_hed.tsv: row {row['cogpo_id']} has match_type {row['match_type']!r}.")
 

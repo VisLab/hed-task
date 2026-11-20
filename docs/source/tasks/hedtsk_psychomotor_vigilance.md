@@ -7,11 +7,28 @@
 
 **Also known as:** PVT, Psychomotor Vigilance
 
-Simple reaction to visual or auditory stimuli appearing at random intervals over 5–10 minutes; mean RT, lapses, and false starts index sustained attention.
+Simple reaction to visual or auditory stimuli appearing at random intervals over 5-10 minutes; mean RT, lapses, and false starts index sustained attention.
 
 ## Description
 
-The Psychomotor Vigilance Task is a sustained-attention reaction time task widely used in sleep research and fatigue monitoring. Participants monitor a display and respond as quickly as possible to a visual stimulus (typically a millisecond counter) that appears at random inter-stimulus intervals (2–10 seconds) over a 5–10 minute period. The primary measure is the number of lapses (responses >500 ms), reflecting momentary failures of sustained attention. The PVT is considered the gold-standard behavioral measure of vigilance and sleepiness because it is simple, has minimal learning effects, and is highly sensitive to sleep deprivation, circadian misalignment, and time-on-task.
+The Psychomotor Vigilance Task is a sustained-attention reaction time task widely used in sleep research and fatigue monitoring. Participants monitor a display and respond as quickly as possible to a visual stimulus (typically a millisecond counter) that appears at random inter-stimulus intervals (2-10 seconds) over a 5-10 minute period. The primary measure is the number of lapses (responses >500 ms), reflecting momentary failures of sustained attention. The PVT is considered the gold-standard behavioral measure of vigilance and sleepiness because it is simple, has minimal learning effects, and is highly sensitive to sleep deprivation, circadian misalignment, and time-on-task.
+
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructed-emphasis">instructed emphasis</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>, <a href="vocabulary.html#setting-interstimulus-interval">interstimulus interval</a>
+- **Material:** A millisecond counter (or a light) that appears at random intervals of 2-10 seconds.
 
 ## Inclusion test
 
@@ -23,7 +40,7 @@ least one of the listed variables, and it records at least one of the listed mea
 :header-rows: 0
 
 * - **Procedure**
-  - 1. A visual stimulus (counter or light) appears at random intervals (2–10 s).
+  - 1. A visual stimulus (counter or light) appears at random intervals (2-10 s).
     2. Participants press a button as quickly as possible upon detection.
     3. The task runs for 10 minutes.
 * - **Manipulations**
@@ -38,38 +55,38 @@ least one of the listed variables, and it records at least one of the listed mea
     - Reciprocal RT transformation
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Standard 10-Minute PVT
-
-    `hedvar_psychomotor_vigilance__standard_10_minute_pvt`
-  - 10 minutes with 2–10 second random ISI; gold-standard protocol.
-  - Canonical 10-min RT task with variable ISI
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Brief PVT (PVT-B)
 
     `hedvar_psychomotor_vigilance__brief_pvt_pvt_b`
-  - 3-minute version; validated against standard for most outcome metrics.
-  - 3-min version; recognized published abbreviated instrument
+  - named form
+  - -
+  - A named three-minute instrument with shorter intervals and a lower lapse threshold; settings of the duration and interval-range manipulations.
 * - Palm PVT / Mobile PVT
 
     `hedvar_psychomotor_vigilance__palm_pvt_mobile_pvt`
-  - Handheld or smartphone implementations for field use.
-  - Handheld or mobile device; different motor and environmental context
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-touchscreen">touchscreen</a>; experimental environment: <a href="vocabulary.html#facet-experimental-environment-real-world">real world</a>
+  - -
+  - The same task on a handheld device with a screen tap as the response, usable outside the laboratory.
 * - Auditory PVT
 
     `hedvar_psychomotor_vigilance__auditory_pvt`
-  - Respond to auditory tones instead of visual stimuli.
-  - Auditory tone instead of visual stimulus; different sensory modality
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>
+  - [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception)
+  - A tone through headphones replaces the visual signal; the participant presses as soon as it is heard.
 ```
 
 ## Cognitive processes
@@ -79,19 +96,19 @@ This task is designed to engage the following processes:
 - [Sustained attention](../processes/selective_and_sustained_attention.md#hed-sustained-attention)
 - [Alerting](../processes/selective_and_sustained_attention.md#hed-alerting)
 - [Response execution](../processes/motor_preparation_timing_and_execution.md#hed-response-execution)
-- [Mind wandering](../processes/awareness_agency_and_metacognition.md#hed-mind-wandering)
+- [Spontaneous thought](../processes/awareness_agency_and_metacognition.md#hed-mind-wandering)
 
 ## Key references
 
-- Dinges, D. F., & Powell, J. W. (1985). Microcomputer analyses of performance on a portable, simple visual RT task during sustained operations. *Behavior Research Methods, Instruments, & Computers*, 17(6), 652–655. ([DOI](https://doi.org/10.3758/bf03200977))
-- Basner, M., & Dinges, D. F. (2011). Maximizing sensitivity of the Psychomotor Vigilance Test (PVT) to sleep loss. *Sleep*, 34(5), 581–591. ([DOI](https://doi.org/10.1093/sleep/34.5.581), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21532951/))
+- Dinges, D. F., & Powell, J. W. (1985). Microcomputer analyses of performance on a portable, simple visual RT task during sustained operations. *Behavior Research Methods, Instruments, & Computers*, 17(6), 652-655. ([DOI](https://doi.org/10.3758/bf03200977))
+- Basner, M., & Dinges, D. F. (2011). Maximizing sensitivity of the Psychomotor Vigilance Test (PVT) to sleep loss. *Sleep*, 34(5), 581-591. ([DOI](https://doi.org/10.1093/sleep/34.5.581), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21532951/))
 
 ## Further references
 
-- Basner, M., Mollicone, D., & Dinges, D. F. (2011). Validity and sensitivity of a brief Psychomotor Vigilance Test (PVT-B) to total and partial sleep deprivation. *Acta Astronautica*, 69(11-12), 949–959. ([DOI](https://doi.org/10.1016/j.actaastro.2011.07.015), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22025811/))
-- Lim, J., & Dinges, D. F. (2010). A meta-analysis of the impact of short-term sleep deprivation on cognitive variables. *Psychological Bulletin*, 136(3), 375–389. ([DOI](https://doi.org/10.1037/a0018883), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20438143/))
-- Jewett, M. E., Dijk, D.-J., Kronauer, R. E., & Dinges, D. F. (1999). Dose-response relationship between sleep duration and human psychomotor vigilance and subjective alertness. *Sleep*, 22(2), 171–179. ([DOI](https://doi.org/10.1093/sleep/22.2.171), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10201061/))
-- Drummond, S. P. A., Bischoff-Grethe, A., Dinges, D. F., Ayalon, L., Mednick, S. C., & Meloy, M. J. (2005). The neural basis of the Psychomotor Vigilance Task. *Sleep*, 28(9), 1059–1068. ([DOI](https://doi.org/10.1093/sleep/28.9.1059), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16268374/))
+- Basner, M., Mollicone, D., & Dinges, D. F. (2011). Validity and sensitivity of a brief Psychomotor Vigilance Test (PVT-B) to total and partial sleep deprivation. *Acta Astronautica*, 69(11-12), 949-959. ([DOI](https://doi.org/10.1016/j.actaastro.2011.07.015), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22025811/))
+- Lim, J., & Dinges, D. F. (2010). A meta-analysis of the impact of short-term sleep deprivation on cognitive variables. *Psychological Bulletin*, 136(3), 375-389. ([DOI](https://doi.org/10.1037/a0018883), [PubMed](https://pubmed.ncbi.nlm.nih.gov/20438143/))
+- Jewett, M. E., Dijk, D.-J., Kronauer, R. E., & Dinges, D. F. (1999). Dose-response relationship between sleep duration and human psychomotor vigilance and subjective alertness. *Sleep*, 22(2), 171-179. ([DOI](https://doi.org/10.1093/sleep/22.2.171), [PubMed](https://pubmed.ncbi.nlm.nih.gov/10201061/))
+- Drummond, S. P. A., Bischoff-Grethe, A., Dinges, D. F., Ayalon, L., Mednick, S. C., & Meloy, M. J. (2005). The neural basis of the Psychomotor Vigilance Task. *Sleep*, 28(9), 1059-1068. ([DOI](https://doi.org/10.1093/sleep/28.9.1059), [PubMed](https://pubmed.ncbi.nlm.nih.gov/16268374/))
 
 ## External links
 

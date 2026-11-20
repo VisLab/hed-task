@@ -13,6 +13,23 @@ Target evaluation (good/bad) preceded by a briefly presented affective prime; re
 
 Participants categorize target stimuli (e.g., judge words as "good" or "bad") that are immediately preceded by briefly presented prime stimuli (words, faces, or images) of matching or mismatching emotional valence. The affective priming effect (faster RT for congruent vs. incongruent prime-target pairs) reflects automatic activation of evaluative representations. Subliminal variants (very brief prime exposure) provide evidence for unconscious emotional processing.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-preceding-prime">preceding prime</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Emotional aspect:** <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>, <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
+- **Material:** A briefly shown prime (a word, face or image of positive or negative valence) followed by a target word to be judged good or bad.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -27,58 +44,50 @@ least one of the listed variables, and it records at least one of the listed mea
 * - **Manipulations**
   - - Congruence between prime valence and target valence
     - Prime duration and SOA
+    - Prime and target type (words, emotional pictures, emotional faces)
 * - **Measurements**
   - - RT and accuracy for target evaluation
     - Congruency effect (faster on congruent trials) indexes automatic affective evaluation
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Evaluative Decision (Good/Bad)
-
-    `hedvar_affective_priming__evaluative_decision_good_bad`
-  - Classify target as positive/negative after affective prime.
-  - Participant makes explicit valence judgment; changes response task from standard LDT
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Pronunciation/Naming
 
     `hedvar_affective_priming__pronunciation_naming`
-  - Name target word after prime; RT indexes priming without explicit evaluation.
-  - Vocal naming response instead of evaluative judgment; different output modality and response event
-* - Subliminal Priming
-
-    `hedvar_affective_priming__subliminal_priming`
-  - Prime presented below awareness threshold.
-  - Prime below conscious threshold; changes stimulus timing structure and awareness conditions
+  - emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-identify">identify</a>
+  - [Speech production](../processes/language_comprehension_and_production.md#hed-speech-production)
+  - The participant reads the target word aloud instead of judging its valence, so the response names the word itself rather than its category.
 * - Picture-Word Priming
 
     `hedvar_affective_priming__picture_word_priming`
-  - Emotional images prime word targets.
-  - Visual picture prime instead of word; different stimulus type with distinct semantic processing
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - -
+  - The prime is an emotional photograph instead of a word; the target word is still judged good or bad.
 * - Face-Face Priming
 
     `hedvar_affective_priming__face_face_priming`
-  - Emotional face primes emotional face targets.
-  - Social/facial stimuli as both prime and target; structurally distinct from word-prime paradigm
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - [Face perception](../processes/face_and_object_perception.md#hed-face-perception)
+  - Both prime and target are emotional faces and the target's expression is classified (happy or angry) instead of a word being judged good or bad.
 * - Cross-Modal Affective Priming
 
     `hedvar_affective_priming__cross_modal_affective_priming`
-  - Auditory affective primes with visual targets.
-  - Auditory prime + visual target; cross-modal structure creates distinct event types
-* - Masked vs. Unmasked Priming
-
-    `hedvar_affective_priming__masked_vs_unmasked_priming`
-  - Comparing automatic and strategic components.
-  - Systematic masking manipulation changes prime visibility and conscious access to prime
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>, <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - [Speech perception](../processes/language_comprehension_and_production.md#hed-speech-perception)
+  - The prime is heard through headphones while the target is a written word; the judgment is unchanged.
 ```
 
 ## Cognitive processes
@@ -99,7 +108,7 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Herring, D. R., White, K. R., Jabeen, L. N., Hinojos, M., Terrazas, G., Reyes, S. M., Taylor, J. H., & Crites, S. L. (2013). On the automatic activation of attitudes: A quarter century of evaluative priming research. *Psychological Bulletin*, 139(5), 1062–1089. ([DOI](https://doi.org/10.1037/a0031309), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23339522/))
-- De Houwer, J., Teige-Mocigemba, S., Spruyt, A., & Moors, A. (2009). Implicit measures: A normative analysis and review. *Psychological Bulletin*, 135(3), 347–368. ([DOI](https://doi.org/10.1037/a0014211), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19379018/))
-- Fazio, R. H. (2001). On the automatic activation of associated evaluations: An overview. *Cognition and Emotion*, 15(2), 115–141. ([DOI](https://doi.org/10.1080/02699930125908))
+- Herring, D. R., White, K. R., Jabeen, L. N., Hinojos, M., Terrazas, G., Reyes, S. M., Taylor, J. H., & Crites, S. L. (2013). On the automatic activation of attitudes: A quarter century of evaluative priming research. *Psychological Bulletin*, 139(5), 1062-1089. ([DOI](https://doi.org/10.1037/a0031309), [PubMed](https://pubmed.ncbi.nlm.nih.gov/23339522/))
+- De Houwer, J., Teige-Mocigemba, S., Spruyt, A., & Moors, A. (2009). Implicit measures: A normative analysis and review. *Psychological Bulletin*, 135(3), 347-368. ([DOI](https://doi.org/10.1037/a0014211), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19379018/))
+- Fazio, R. H. (2001). On the automatic activation of associated evaluations: An overview. *Cognition and Emotion*, 15(2), 115-141. ([DOI](https://doi.org/10.1080/02699930125908))
 

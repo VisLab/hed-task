@@ -13,6 +13,25 @@ A rapid stream of visual items is presented at a single location (typically 6-20
 
 Rapid Serial Visual Presentation (RSVP) is a paradigm for studying the temporal dynamics of visual attention. A stream of visual items (letters, digits, words, images, or complex scenes) is presented sequentially at a single spatial location at rates of 6-20 items per second. Participants must detect, identify, or categorize one or more targets embedded among distractors. The signature finding is the attentional blink (Raymond, Shapiro, & Arnell, 1992): when two targets appear in the stream, detection of the second target (T2) is severely impaired when it follows the first target (T1) by approximately 200-500 ms (lag 2-5), recovering at longer lags. Lag-1 sparing (intact T2 detection when T2 immediately follows T1) is a robust exception. The attentional blink reveals fundamental bottlenecks in temporal attention and has generated competing theoretical accounts: the two-stage model (Chun & Potter, 1995), the episodic simultaneous type/serial token model (Bowman & Wyble, 2007), and the boost-and-bounce model (Olivers & Meeter, 2008). Beyond the attentional blink, RSVP is used to study categorical perception (rapid scene gist extraction), emotion-attention interactions (emotion-induced blindness), and rapid image triage. Applications include brain-computer interfaces (RSVP-based P300 spellers and image triage systems, including satellite imagery analysis), clinical assessment of temporal attention in ADHD and dyslexia, and speed-reading technologies.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-identify">identify</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-neighbouring-items">neighbouring items</a>
+- **How often is there a target?** <a href="vocabulary.html#rule-respond-to-rule-target-rate-rare-target">rare target</a>
+- **How do the stimuli arrive?** <a href="vocabulary.html#rule-respond-to-rule-stream-rapid-stream">rapid stream</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-number-of-targets">number of targets</a>, <a href="vocabulary.html#setting-presentation-rate">presentation rate</a>, <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>, <a href="vocabulary.html#setting-stimulus-similarity">stimulus similarity</a>
+- **Material:** A stream of letters, digits, words or images at one location at 6-20 items per second, with one or two targets among distractors.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -27,13 +46,15 @@ least one of the listed variables, and it records at least one of the listed mea
     2. Participants detect, identify, or categorize one or more targets embedded among distractors.
     3. Presentation rate is typically 6-20 items per second.
 * - **Manipulations**
-  - - Number of targets (single vs. dual)
+  - - Number of targets (single, dual, three)
     - T1-T2 lag (temporal separation between targets)
     - Target-distractor similarity
     - Stream rate (items per second)
     - Target category (letter among digits, face among objects, scene category)
     - Distractor set composition
     - Emotional content of targets or distractors
+    - Overt response (none, EEG-flagged targets vs. button press)
+    - Number of streams (one, two, three)
 * - **Measurements**
   - - Target detection accuracy (T1 and T2)
     - Attentional blink magnitude (T2 accuracy deficit at short lags, conditional on correct T1 detection)
@@ -43,83 +64,68 @@ least one of the listed variables, and it records at least one of the listed mea
     - d-prime for target discrimination
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Dual-Target Attentional Blink
-
-    `hedvar_rapid_serial_visual_presentation__dual_target_attentional_blink`
-  - Two targets in a single stream; T2 accuracy at varying lags from T1. The canonical paradigm for studying the attentional blink. Raymond et al. (1992).
-  - Canonical AB: T2 missed when presented shortly after T1
-* - Single-Target RSVP
-
-    `hedvar_rapid_serial_visual_presentation__single_target_rsvp`
-  - One target in the stream; measures basic temporal attention and target detection at rapid rates. Baseline for attentional blink studies.
-  - Detect or identify one target in stream; no AB protocol
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Emotion-Induced Blindness
 
     `hedvar_rapid_serial_visual_presentation__emotion_induced_blindness`
-  - Emotionally arousing distractor (e.g., threat image) impairs detection of a subsequent neutral target. Emotional analogue of the attentional blink. Most et al. (2005).
-  - Emotional T1 causes blindness to T2; retained per §5.1 (EMOT retired)
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-scenes">scenes</a>; emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+  - [Attentional capture](../processes/selective_and_sustained_attention.md#hed-attentional-capture)
+  - The stream is pictures and an emotionally arousing picture appears shortly before the target as a distractor.
 * - Rapid Scene Categorization
 
     `hedvar_rapid_serial_visual_presentation__rapid_scene_categorization`
-  - Natural scene images presented at high rates (20 ms per image); participants detect a target category (animal, vehicle). Demonstrates rapid perceptual gist extraction. Potter (1976).
-  - Categorize natural scenes at rapid presentation rates; different stimulus class
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-scenes">scenes</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+  - -
+  - Natural scenes are shown at very high rates and the participant reports only whether a picture from a target category appeared, a presence judgment rather than a report of which item.
 * - RSVP Image Triage (BCI)
 
     `hedvar_rapid_serial_visual_presentation__rsvp_image_triage_bci`
-  - Participants view rapid streams of images (e.g., satellite imagery, surveillance footage) while EEG detects P300 responses to target-category images. Used in brain-computer interface applications for rapid image screening.
-  - Brain-computer interface using RSVP for rapid image tagging; different application and response structure
-* - Triple-RSVP (Multiple Streams)
-
-    `hedvar_rapid_serial_visual_presentation__triple_rsvp_multiple_streams`
-  - Three concurrent RSVP streams; target can appear in any stream. Increases target detection rate for BCI applications; adds spatial competition to temporal attention demands.
-  - Three simultaneous streams; different attentional load structure
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-scenes">scenes</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+  - -
+  - The participant looks for target images but never presses anything; their EEG response marks which images were targets.
 * - Whole-Report RSVP
 
     `hedvar_rapid_serial_visual_presentation__whole_report_rsvp`
-  - Report all items from a short RSVP stream (4-8 items). Measures visual short-term memory capacity under rapid presentation conditions.
-  - Report all items seen; different response requirement
+  - named form
+  - -
+  - A short stream of four to eight items is shown and the participant reports all of them, so there are no designated targets.
 * - RSVP with Task Switch
 
     `hedvar_rapid_serial_visual_presentation__rsvp_with_task_switch`
-  - T1 and T2 require different judgments (e.g., identify T1 letter, detect T2 presence). Task switch between targets amplifies the attentional blink.
-  - Task changes within or between streams; adds switching demand
+  - rule stability: <a href="vocabulary.html#rule-respond-to-rule-rule-stability-switches-on-cue">switches on cue</a>
+  - [Set shifting](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-set-shifting)
+  - The two targets call for different judgments (name the first, say whether the second was present), so the rule changes between targets within the stream.
 * - Detection vs. Identification
 
     `hedvar_rapid_serial_visual_presentation__detection_vs_identification`
-  - T2 requiring simple presence detection vs. full identity report; manipulates the depth of processing needed to reveal the blink.
-  - Detect presence vs. identify identity; different judgment type
-* - Three-Target Variant
-
-    `hedvar_rapid_serial_visual_presentation__three_target_variant`
-  - Third target added to probe extended temporal limits of attention beyond the standard T1-T2 paradigm.
-  - Three targets in stream; extends AB to three-target scenario
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+  - -
+  - For the second target the participant either reports only whether it was there or must say which item it was.
 * - Cross-Modal Attentional Blink
 
     `hedvar_rapid_serial_visual_presentation__cross_modal_attentional_blink`
-  - Targets in different modalities (e.g., auditory T1, visual T2); tests whether the attentional bottleneck is supramodal.
-  - T1 and T2 in different modalities; tests cross-modal attentional resources
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - [Speech perception](../processes/language_comprehension_and_production.md#hed-speech-perception)
+  - The first target is in one sense and the second in another, for example spoken then visual.
 * - Emotional Attentional Blink
 
     `hedvar_rapid_serial_visual_presentation__emotional_attentional_blink`
-  - Emotional stimuli (faces, words) as T1 or T2; emotional targets modulate blink magnitude. Distinct from emotion-induced blindness (which uses emotional distractors).
-  - Emotional T2; retained per §5.1 (EMOT retired)
-* - Spatial Two-Stream RSVP
-
-    `hedvar_rapid_serial_visual_presentation__spatial_two_stream_rsvp`
-  - Two concurrent RSVP streams at different locations; targets may appear in either stream, separating spatial and temporal attention limits.
-  - Two streams at different spatial locations; tests spatial attention in RSVP
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>; emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - -
+  - The targets themselves are emotional words or faces to be reported.
 ```
 
 ## Cognitive processes

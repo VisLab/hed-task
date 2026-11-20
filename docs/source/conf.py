@@ -124,16 +124,12 @@ def _catalog_counts() -> dict[str, int]:
     with (root / "data" / "task_family_defs.tsv").open(encoding="utf-8", newline="") as handle:
         families = list(csv.DictReader(handle, delimiter="\t"))
     linked = {pid for t in tasks for pid in t.get("hed_process_ids", [])}
-    pseudo = [t for t in tasks if t.get("task_kind") == "pseudo_task"]
     return {
-        # n_tasks counts ordinary tasks; pseudo tasks (rest, fixation, questionnaire
-        # blocks) are counted separately so that the headline figure stays honest.
-        "n_tasks": len(tasks) - len(pseudo),
-        "n_pseudo_tasks": len(pseudo),
+        "n_tasks": len(tasks),
         "n_processes": len(processes),
         "n_categories": len(proc_data["categories"]),
         "n_families": len(families),
-        "n_variations": sum(len(t.get("variations", [])) for t in tasks),
+        "n_variants": sum(len(t.get("variants", [])) for t in tasks),
         "n_links": sum(len(t.get("hed_process_ids", [])) for t in tasks),
         "n_linked": sum(1 for p in processes if p["process_id"] in linked),
     }

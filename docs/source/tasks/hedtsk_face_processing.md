@@ -13,6 +13,24 @@ Blocked or event-related presentation of faces vs. objects (or scrambled faces) 
 
 The FFA Localizer presents alternating blocks of faces and non-face objects (houses, cars, scrambled images) while participants perform passive viewing or a simple task (one-back matching, gender judgment). The contrast of faces > objects identifies face-selective regions, particularly the fusiform face area (FFA) in ventral temporal cortex. The task provides an individually-defined localizer for face-selective cortex and has been fundamental to understanding the neural basis of face perception and the question of domain-specific processing modules.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-undergo-stream">undergo stream</a>
+- **What is the player told to do while it runs?** <a href="vocabulary.html#rule-undergo-stream-instruction-incidental-judgment">incidental judgment</a>
+- **Is anything asked afterwards?** <a href="vocabulary.html#rule-undergo-stream-report-after-none">none</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>
+- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>
+- **Material:** Blocks of face photographs alternating with blocks of non-face objects such as houses, cars or scrambled images.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -26,67 +44,50 @@ least one of the listed variables, and it records at least one of the listed mea
   - 1. Blocks of faces alternate with blocks of non-face objects (houses, scrambled images) while participants perform a simple repetition-detection task.
     2. The contrast localizes face-selective cortex.
 * - **Manipulations**
-  - - Stimulus category (faces vs. objects vs. scrambled vs. scenes)
+  - - Stimulus category (faces, objects, scrambled, scenes, inverted faces, face parts)
     - Block duration
     - Task (1-back, passive viewing)
+    - Stimulus format (dynamic video vs. still photograph)
+    - Identity repetition between faces (adaptation)
+    - Face familiarity (known or famous vs. unknown)
 * - **Measurements**
   - - fMRI contrast (faces > objects) identifying FFA, OFA, STS
     - Extent and magnitude of face-selective activation
     - Lateralization index
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Faces vs. Objects Block Design
-
-    `hedvar_face_processing__faces_vs_objects_block_design`
-  - Alternating blocks; canonical localizer contrast.
-  - Localizer with objects as contrast; category-selective activation paradigm
-* - Faces vs. Scrambled Faces
-
-    `hedvar_face_processing__faces_vs_scrambled_faces`
-  - Controls for low-level visual features.
-  - Scrambled faces as control; tests configural vs. feature processing
-* - Faces vs. Houses
-
-    `hedvar_face_processing__faces_vs_houses`
-  - Reliable contrast producing focused FFA activation.
-  - Houses as non-face object category; standard FFA localizer contrast
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Dynamic Face Localizer
 
     `hedvar_face_processing__dynamic_face_localizer`
-  - Video clips of faces; higher sensitivity.
-  - Moving/dynamic faces; different temporal and motion processing demands
-* - Upright vs. Inverted Faces
-
-    `hedvar_face_processing__upright_vs_inverted_faces`
-  - Probes holistic/configural processing.
-  - Face inversion disrupts configural processing; different perceptual experience
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>
+  - -
+  - Short video clips of moving faces and moving objects replace still photographs.
 * - Identity Adaptation
 
     `hedvar_face_processing__identity_adaptation`
-  - Repeated same-identity presentations to measure identity-specific responses.
-  - Adaptation paradigm with identity pairs; different temporal structure
-* - Face Parts (Eyes, Mouth)
-
-    `hedvar_face_processing__face_parts_eyes_mouth`
-  - Isolated features vs. whole face.
-  - Isolated face regions; participant views different spatial configuration
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+  - [Face identity recognition](../processes/face_and_object_perception.md#hed-face-identity-recognition)
+  - Faces are shown in pairs or short runs in which identity repeats or changes trial by trial, and the response reduction to a repeat is the measure instead of a block contrast.
 * - Familiar vs. Unfamiliar Faces
 
     `hedvar_face_processing__familiar_vs_unfamiliar_faces`
-  - Personal familiarity effects on face-selective regions.
-  - Familiarity manipulation changes recognition demand
+  - named form
+  - [Face identity recognition](../processes/face_and_object_perception.md#hed-face-identity-recognition)
+  - Some faces belong to people the participant knows or to famous people, and responses to known and unknown faces are compared.
 ```
 
 ## Cognitive processes
@@ -105,9 +106,9 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Weiner, K. S., & Grill-Spector, K. (2012). The improbable simplicity of the fusiform face area. *Trends in Cognitive Sciences*, 16(5), 251–254. ([DOI](https://doi.org/10.1016/j.tics.2012.03.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22481071/))
-- Pitcher, D., Walsh, V., & Duchaine, B. (2011). The role of the occipital face area in the cortical face perception network. *Experimental Brain Research*, 209(4), 481–493. ([DOI](https://doi.org/10.1007/s00221-011-2579-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21318346/))
-- Grill-Spector, K., Weiner, K. S., Kay, K., & Gomez, J. (2017). The functional neuroanatomy of human face perception. *Annual Review of Vision Science*, 3, 167–196. ([DOI](https://doi.org/10.1146/annurev-vision-102016-061214), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28715955/))
+- Weiner, K. S., & Grill-Spector, K. (2012). The improbable simplicity of the fusiform face area. *Trends in Cognitive Sciences*, 16(5), 251-254. ([DOI](https://doi.org/10.1016/j.tics.2012.03.003), [PubMed](https://pubmed.ncbi.nlm.nih.gov/22481071/))
+- Pitcher, D., Walsh, V., & Duchaine, B. (2011). The role of the occipital face area in the cortical face perception network. *Experimental Brain Research*, 209(4), 481-493. ([DOI](https://doi.org/10.1007/s00221-011-2579-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21318346/))
+- Grill-Spector, K., Weiner, K. S., Kay, K., & Gomez, J. (2017). The functional neuroanatomy of human face perception. *Annual Review of Vision Science*, 3, 167-196. ([DOI](https://doi.org/10.1146/annurev-vision-102016-061214), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28715955/))
 
 ## External links
 

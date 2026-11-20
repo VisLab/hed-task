@@ -41,8 +41,8 @@ CogPO paradigm classes by match type:
 ```{include} ../_generated/mapping_cogpo_reverse.md
 ```
 
-One row per CogPO class with a counterpart in the Catalog. A `variation` row resolves
-to a named variation of a Catalog task rather than to the task itself.
+One row per CogPO class with a counterpart in the Catalog. A `variant` row resolves
+to a variant of a Catalog task rather than to the task itself.
 
 ```{include} ../_generated/cogpo_paradigm_matched.md
 ```

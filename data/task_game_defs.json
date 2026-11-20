@@ -1,0 +1,1000 @@
+{
+  "game_types": [
+    {
+      "game_type": "respond_to_rule",
+      "name": "Respond under a rule",
+      "what_the_player_does": "A stimulus appears; the player applies a rule they were given and responds.",
+      "boundary": "The answer depends only on the stimulus in front of the player and the rule, not on material studied earlier.",
+      "rules": [
+        {
+          "rule": "competitor",
+          "question": "What competes with the correct response?",
+          "default": "none",
+          "values": [
+            {
+              "value": "none",
+              "definition": "Nothing competes with the correct response."
+            },
+            {
+              "value": "neighbouring_items",
+              "definition": "Items next to the target call for a different response (the flankers of a flanker display)."
+            },
+            {
+              "value": "irrelevant_dimension",
+              "definition": "Another feature of the same item, which the player must ignore, calls for a different response (the word in Stroop)."
+            },
+            {
+              "value": "noise_or_mask",
+              "definition": "Noise or a mask degrades the target."
+            },
+            {
+              "value": "preceding_prime",
+              "definition": "An item shown just before the target favours one response."
+            },
+            {
+              "value": "previous_rule",
+              "definition": "The rule that was in force a moment ago still favours its own response."
+            }
+          ]
+        },
+        {
+          "rule": "cue",
+          "question": "Does a cue come before the target?",
+          "default": "none",
+          "values": [
+            {
+              "value": "none",
+              "definition": "No cue comes before the target."
+            },
+            {
+              "value": "location_cue",
+              "definition": "A cue says where the target will appear."
+            },
+            {
+              "value": "incentive_cue",
+              "definition": "A cue says what can be won or lost on the trial."
+            },
+            {
+              "value": "rule_cue",
+              "definition": "A cue says which rule to apply."
+            },
+            {
+              "value": "alerting_cue",
+              "definition": "A cue says only that the target is about to appear."
+            },
+            {
+              "value": "demand_probability_cue",
+              "definition": "A cue says how likely it is that the player will have to respond or to hold back."
+            },
+            {
+              "value": "feature_cue",
+              "definition": "A cue gives a feature of the coming target, such as its color or shape."
+            }
+          ]
+        },
+        {
+          "rule": "reference",
+          "question": "Is something held in mind to compare against?",
+          "default": "none",
+          "values": [
+            {
+              "value": "none",
+              "definition": "The response depends on the present stimulus alone."
+            },
+            {
+              "value": "held_in_mind",
+              "definition": "The stimulus is compared with something the player keeps in memory, such as the item n steps back."
+            }
+          ]
+        },
+        {
+          "rule": "response_demand",
+          "question": "Must the player ever hold back?",
+          "default": "always_respond",
+          "values": [
+            {
+              "value": "always_respond",
+              "definition": "The player responds on every trial."
+            },
+            {
+              "value": "withhold_on_some",
+              "definition": "The player makes no response on some trials (no-go trials)."
+            },
+            {
+              "value": "cancel_on_signal",
+              "definition": "The player stops a response already under way when a signal comes."
+            },
+            {
+              "value": "respond_opposite",
+              "definition": "The player responds away from the stimulus, such as looking to the side opposite it."
+            }
+          ]
+        },
+        {
+          "rule": "rule_asks",
+          "question": "What does the rule ask about each stimulus?",
+          "default": "classify",
+          "values": [
+            {
+              "value": "classify",
+              "definition": "Say which category or feature the stimulus has."
+            },
+            {
+              "value": "detect",
+              "definition": "Say whether a target is there."
+            },
+            {
+              "value": "compare",
+              "definition": "Say whether the stimulus matches a reference or an earlier item."
+            },
+            {
+              "value": "localize",
+              "definition": "Say where the stimulus is."
+            },
+            {
+              "value": "generate",
+              "definition": "Produce an associated item, such as a verb for a noun."
+            },
+            {
+              "value": "identify",
+              "definition": "Say which one the stimulus is, by name."
+            },
+            {
+              "value": "count",
+              "definition": "Say how many there are."
+            }
+          ]
+        },
+        {
+          "rule": "rule_source",
+          "question": "Where does the rule come from?",
+          "default": "instructed",
+          "values": [
+            {
+              "value": "instructed",
+              "definition": "The player is told the rule."
+            },
+            {
+              "value": "hidden_regularity",
+              "definition": "A sequence or layout repeats and the player is not told."
+            },
+            {
+              "value": "learned_from_feedback",
+              "definition": "The player works the rule out from right-or-wrong feedback."
+            }
+          ]
+        },
+        {
+          "rule": "rule_stability",
+          "question": "Does the rule change during play?",
+          "default": "fixed",
+          "values": [
+            {
+              "value": "fixed",
+              "definition": "The rule stays the same throughout."
+            },
+            {
+              "value": "shifts_unsignalled",
+              "definition": "The rule changes without warning and the player finds out from feedback."
+            },
+            {
+              "value": "switches_on_cue",
+              "definition": "The rule changes and a cue says which rule applies."
+            }
+          ]
+        },
+        {
+          "rule": "stream",
+          "question": "How do the stimuli arrive?",
+          "default": "discrete_trials",
+          "note": "`continuous` means there are no trial boundaries (tracking, drawing through a display). A run of trials with no pause between them, as in N-Back, is `discrete_trials`.",
+          "values": [
+            {
+              "value": "discrete_trials",
+              "definition": "One trial at a time, each with its own start and end, whether or not there is a pause between them."
+            },
+            {
+              "value": "continuous",
+              "definition": "The stimulus runs continuously with no trial boundaries (tracking, drawing through a display)."
+            },
+            {
+              "value": "rapid_stream",
+              "definition": "Items follow one another rapidly at one place, faster than one response per item."
+            }
+          ]
+        },
+        {
+          "rule": "target_rate",
+          "question": "How often is there a target?",
+          "default": "every_trial",
+          "note": "`every_trial` means the main response is called for on most or all trials; `rare_target` means the stimulus that calls for it is rare (Oddball, Continuous Performance). Go/No-Go is `every_trial` with `response_demand: withhold_on_some`.",
+          "values": [
+            {
+              "value": "every_trial",
+              "definition": "The main response is called for on most or all trials."
+            },
+            {
+              "value": "rare_target",
+              "definition": "The stimulus that calls for the main response appears on a minority of trials."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game_type": "study_then_test",
+      "name": "Study, then be tested",
+      "what_the_player_does": "The player takes material in, holds it over an interval, then shows what they kept.",
+      "boundary": "There is material to keep and a later test of it, even when the interval is a second.",
+      "rules": [
+        {
+          "rule": "cycles",
+          "question": "How many study-test rounds?",
+          "default": "one",
+          "note": "`one` means each set of material is studied once, however many trials there are. `repeated_lists` means the same material is studied again. Sternberg is `one`.",
+          "values": [
+            {
+              "value": "one",
+              "definition": "Each set of material is studied once and tested once, however many sets there are."
+            },
+            {
+              "value": "learn_to_criterion",
+              "definition": "Study and test repeat until the player reaches a set level of performance."
+            },
+            {
+              "value": "repeated_lists",
+              "definition": "The same material is studied and tested again over several rounds."
+            }
+          ]
+        },
+        {
+          "rule": "inserted_judgment",
+          "question": "Is a judgment about one's own memory added?",
+          "default": "none",
+          "values": [
+            {
+              "value": "none",
+              "definition": "No judgment about the player's own memory is asked for."
+            },
+            {
+              "value": "after_failed_recall",
+              "definition": "After failing to recall an item, the player rates the chance of recognizing it later (feeling of knowing)."
+            },
+            {
+              "value": "at_study",
+              "definition": "While studying, the player predicts how well each item will be remembered (judgment of learning)."
+            }
+          ]
+        },
+        {
+          "rule": "interval_filler",
+          "question": "What fills the interval?",
+          "default": "nothing",
+          "values": [
+            {
+              "value": "nothing",
+              "definition": "The interval between study and test is unfilled."
+            },
+            {
+              "value": "distraction",
+              "definition": "An unrelated job fills the interval."
+            },
+            {
+              "value": "interference_list",
+              "definition": "Another list to learn fills the interval."
+            }
+          ]
+        },
+        {
+          "rule": "study_and_test",
+          "question": "Are study and test separate?",
+          "default": "separate",
+          "values": [
+            {
+              "value": "separate",
+              "definition": "Study comes first and the test follows."
+            },
+            {
+              "value": "merged",
+              "definition": "Each item is both a test of earlier items and new material to keep (continuous recognition)."
+            }
+          ]
+        },
+        {
+          "rule": "retention_interval",
+          "question": "How long is it held?",
+          "default": "minutes",
+          "values": [
+            {
+              "value": "minutes",
+              "definition": "The material is held for minutes."
+            },
+            {
+              "value": "seconds",
+              "definition": "The material is held for seconds."
+            },
+            {
+              "value": "surprise",
+              "definition": "The test comes unannounced; the player did not know the material would be tested."
+            },
+            {
+              "value": "hours_or_days",
+              "definition": "The material is held for hours or days."
+            }
+          ]
+        },
+        {
+          "rule": "studied_material",
+          "question": "What is studied?",
+          "default": "items",
+          "values": [
+            {
+              "value": "items",
+              "definition": "Single items, such as words or pictures."
+            },
+            {
+              "value": "pairs",
+              "definition": "Pairs of items to be linked."
+            },
+            {
+              "value": "sequence_order",
+              "definition": "A sequence whose order must be kept."
+            },
+            {
+              "value": "items_with_context",
+              "definition": "Items together with where or how each was presented."
+            }
+          ]
+        },
+        {
+          "rule": "study_instruction",
+          "question": "What is the player told to remember?",
+          "default": "remember_all",
+          "values": [
+            {
+              "value": "remember_all",
+              "definition": "The player is told to remember everything presented."
+            },
+            {
+              "value": "remember_or_forget_by_cue",
+              "definition": "A cue after each item or list says whether to remember it or forget it."
+            }
+          ]
+        },
+        {
+          "rule": "study_job",
+          "question": "What does the player do while studying?",
+          "default": "view",
+          "values": [
+            {
+              "value": "view",
+              "definition": "The player studies the material with no other job."
+            },
+            {
+              "value": "incidental_judgment",
+              "definition": "The player makes a judgment about each item, not knowing a test is coming."
+            },
+            {
+              "value": "self_reference_judgment",
+              "definition": "The player judges whether each item describes themselves."
+            }
+          ]
+        },
+        {
+          "rule": "test_form",
+          "question": "What form does the test take?",
+          "default": "cued_recall",
+          "values": [
+            {
+              "value": "cued_recall",
+              "definition": "Recall given a cue, such as one member of a studied pair."
+            },
+            {
+              "value": "forced_choice",
+              "definition": "Pick the studied item from a set of alternatives."
+            },
+            {
+              "value": "free_recall",
+              "definition": "Recall as much as possible, in any order."
+            },
+            {
+              "value": "serial_recall",
+              "definition": "Recall in the order of presentation."
+            },
+            {
+              "value": "old_new",
+              "definition": "Say whether each item was studied."
+            },
+            {
+              "value": "old_new_remember_know",
+              "definition": "Say whether each item was studied and, if so, whether it is remembered or only known."
+            },
+            {
+              "value": "same_changed",
+              "definition": "Say whether a display is the same as the one studied or has changed."
+            },
+            {
+              "value": "source_attribution",
+              "definition": "Say where or how each item was studied."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game_type": "choose_for_outcomes",
+      "name": "Choose for a payoff",
+      "what_the_player_does": "The player picks an option, sees what it pays, and picks again.",
+      "boundary": "No option is correct by instruction; the options differ in what they pay.",
+      "rules": [
+        {
+          "rule": "contingency_cue",
+          "question": "Does a cue say which payoffs are in force?",
+          "default": "none",
+          "values": [
+            {
+              "value": "none",
+              "definition": "No cue says which payoffs are in force."
+            },
+            {
+              "value": "per_trial_cue",
+              "definition": "A cue on each trial says which payoffs are in force."
+            }
+          ]
+        },
+        {
+          "rule": "contingency_stability",
+          "question": "Does what pays change?",
+          "default": "fixed",
+          "values": [
+            {
+              "value": "fixed",
+              "definition": "What each option pays stays the same throughout."
+            },
+            {
+              "value": "drifting",
+              "definition": "What each option pays changes gradually."
+            },
+            {
+              "value": "reversal",
+              "definition": "What the options pay is swapped at some point, without warning."
+            }
+          ]
+        },
+        {
+          "rule": "option_set",
+          "question": "What are the options?",
+          "default": "k_hidden_outcome",
+          "values": [
+            {
+              "value": "k_hidden_outcome",
+              "definition": "Several options whose payoffs are learned by trying them (decks, arms)."
+            },
+            {
+              "value": "stimulus_pairs",
+              "definition": "Pairs of symbols whose values are learned."
+            },
+            {
+              "value": "two_described",
+              "definition": "Two options whose payoffs are stated."
+            },
+            {
+              "value": "one_option_with_stop",
+              "definition": "One option to keep taking until the player chooses to stop (pumping a balloon)."
+            }
+          ]
+        },
+        {
+          "rule": "outcome_knowledge",
+          "question": "How does the player learn what pays?",
+          "default": "experienced",
+          "values": [
+            {
+              "value": "experienced",
+              "definition": "The player learns what an option pays by choosing it and seeing the outcome."
+            },
+            {
+              "value": "described",
+              "definition": "The player is told what each option pays before choosing."
+            }
+          ]
+        },
+        {
+          "rule": "tradeoff",
+          "question": "What is traded against what?",
+          "default": "amount_vs_risk",
+          "note": "`explore_vs_exploit` is for options whose values the player must keep tracking (bandits). Iowa Gambling is `amount_vs_risk`: the decks differ in the size of the payoff and the risk of loss.",
+          "values": [
+            {
+              "value": "amount_vs_risk",
+              "definition": "A bigger reward against a bigger risk of loss."
+            },
+            {
+              "value": "amount_vs_effort",
+              "definition": "A bigger reward against more effort."
+            },
+            {
+              "value": "explore_vs_exploit",
+              "definition": "Trying other options against staying with the best known one, where values must be tracked."
+            },
+            {
+              "value": "probability_learning",
+              "definition": "Learning which option pays most often."
+            },
+            {
+              "value": "amount_vs_delay",
+              "definition": "A bigger reward against a longer wait."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game_type": "interact_with_agent",
+      "name": "Play against another player",
+      "what_the_player_does": "The player makes a move whose payoff depends on what another player does.",
+      "boundary": "Another player, real or said to be real, has a stake in the outcome.",
+      "rules": [
+        {
+          "rule": "exit_option",
+          "question": "Can a player opt out?",
+          "default": "none",
+          "values": [
+            {
+              "value": "none",
+              "definition": "The player cannot leave the game."
+            },
+            {
+              "value": "available",
+              "definition": "The player can leave the game, usually at a cost, without the other player learning of it."
+            }
+          ]
+        },
+        {
+          "rule": "move_order",
+          "question": "In what order?",
+          "default": "sequential",
+          "values": [
+            {
+              "value": "sequential",
+              "definition": "The players move in turn and the second sees the first move."
+            },
+            {
+              "value": "simultaneous",
+              "definition": "The players move at the same time, without seeing the other's move."
+            }
+          ]
+        },
+        {
+          "rule": "partner",
+          "question": "Who is the other player?",
+          "default": "human",
+          "values": [
+            {
+              "value": "human",
+              "definition": "A person, real or said to be real."
+            },
+            {
+              "value": "computer",
+              "definition": "A computer, known by the player to be one."
+            },
+            {
+              "value": "group",
+              "definition": "A group of people."
+            }
+          ]
+        },
+        {
+          "rule": "players_acting",
+          "question": "Who makes a move?",
+          "default": "both",
+          "values": [
+            {
+              "value": "both",
+              "definition": "Two players, each of whom makes a move."
+            },
+            {
+              "value": "several",
+              "definition": "More than two players make a move."
+            }
+          ]
+        },
+        {
+          "rule": "repetition",
+          "question": "Is the game played once or repeatedly?",
+          "default": "one_shot",
+          "values": [
+            {
+              "value": "one_shot",
+              "definition": "The game is played once with a given partner."
+            },
+            {
+              "value": "iterated",
+              "definition": "The game is played repeatedly with the same partner."
+            }
+          ]
+        },
+        {
+          "rule": "transfer_transformation",
+          "question": "Is what is sent changed on the way?",
+          "default": "none",
+          "values": [
+            {
+              "value": "none",
+              "definition": "What one player sends is what the other receives."
+            },
+            {
+              "value": "multiplied",
+              "definition": "What one player sends is multiplied before the other receives it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game_type": "solve_problem",
+      "name": "Solve a puzzle",
+      "what_the_player_does": "The player works out an answer or a sequence of moves.",
+      "boundary": "The answer has to be worked out; it cannot be read off the stimulus by a rule.",
+      "rules": []
+    },
+    {
+      "game_type": "produce_movement",
+      "name": "Make a movement",
+      "what_the_player_does": "The player carries out or learns a movement pattern.",
+      "boundary": "The movement itself is measured, not a choice it expresses.",
+      "rules": []
+    },
+    {
+      "game_type": "undergo_stream",
+      "name": "Watch or listen",
+      "what_the_player_does": "The player takes in a stream; the measure is the response to the stream itself.",
+      "boundary": "No answer is scored against a correct one as a main measure.",
+      "rules": [
+        {
+          "rule": "instruction",
+          "question": "What is the player told to do while it runs?",
+          "default": "attend",
+          "note": "`attend` covers 'simply view' and 'listen'. `none` is for a stream the player is told to ignore or is given no instruction about (Mismatch Negativity).",
+          "values": [
+            {
+              "value": "attend",
+              "definition": "The player is told to attend to the stream; covers 'simply view' and 'listen'."
+            },
+            {
+              "value": "none",
+              "definition": "The player is told to ignore the stream or is given no instruction about it."
+            },
+            {
+              "value": "regulate",
+              "definition": "The player is told to change their emotional response to the stream."
+            },
+            {
+              "value": "incidental_judgment",
+              "definition": "The player is given a job that does not ask about the property being studied."
+            }
+          ]
+        },
+        {
+          "rule": "report_after",
+          "question": "Is anything asked afterwards?",
+          "default": "rating",
+          "values": [
+            {
+              "value": "rating",
+              "definition": "A rating, such as of fear, expectancy or pleasantness."
+            },
+            {
+              "value": "comprehension_question",
+              "definition": "A question about what was read or heard."
+            },
+            {
+              "value": "none",
+              "definition": "Nothing is asked afterwards."
+            },
+            {
+              "value": "judgment",
+              "definition": "A judgment about the content, such as how strongly one thing causes another."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game_type": "navigate",
+      "name": "Find the way",
+      "what_the_player_does": "The player moves through a space to reach a goal.",
+      "boundary": "The path through the space is the measure.",
+      "rules": []
+    },
+    {
+      "game_type": "report_on_self",
+      "name": "Report on yourself",
+      "what_the_player_does": "The player reports an internal state, a timing, or a memory of their own.",
+      "boundary": "No answer can be checked against a correct one.",
+      "rules": []
+    },
+    {
+      "game_type": "hold_state",
+      "name": "Hold a state",
+      "what_the_player_does": "The player keeps a bodily or mental state as instructed while the recording runs.",
+      "boundary": "Nothing is presented that calls for a response and nothing is reported; holding the state is the whole job (rest, fixation).",
+      "rules": []
+    }
+  ],
+  "motivation": [
+    {
+      "key": "drive",
+      "question": "Why does the player try?",
+      "required": true,
+      "values": [
+        {
+          "value": "instructions_only",
+          "definition": "The player tries because they were asked to; nothing is won or lost."
+        },
+        {
+          "value": "reward_goal",
+          "definition": "Obtaining a reward or avoiding a loss is what the game is about."
+        },
+        {
+          "value": "reward_stake",
+          "definition": "A reward or loss is attached to performing well at a game that is about something else."
+        },
+        {
+          "value": "unearned_outcome",
+          "definition": "Something pleasant or unpleasant is delivered whatever the player does."
+        },
+        {
+          "value": "instructed_emphasis",
+          "definition": "The instruction puts one of speed or accuracy first. The ordinary 'as fast and as accurately as you can' is `instructions_only`."
+        }
+      ]
+    },
+    {
+      "key": "sign",
+      "question": "Can the player gain, lose, or both?",
+      "required": false,
+      "values": [
+        {
+          "value": "gain",
+          "definition": "The player can only gain."
+        },
+        {
+          "value": "loss",
+          "definition": "The player can only lose or receive something unpleasant."
+        },
+        {
+          "value": "both",
+          "definition": "The player can gain and can lose."
+        }
+      ]
+    },
+    {
+      "key": "earned_by",
+      "question": "What earns the outcome?",
+      "required": false,
+      "values": [
+        {
+          "value": "choice",
+          "definition": "The option the player chooses."
+        },
+        {
+          "value": "performance",
+          "definition": "How fast or how accurately the player responds."
+        },
+        {
+          "value": "joint_moves",
+          "definition": "The player's move together with another player's move."
+        },
+        {
+          "value": "nothing",
+          "definition": "Nothing the player does; the outcome is delivered regardless."
+        }
+      ]
+    },
+    {
+      "key": "what",
+      "question": "What is the outcome?",
+      "required": false,
+      "values": [
+        {
+          "value": "money",
+          "definition": "Money."
+        },
+        {
+          "value": "points",
+          "definition": "Points with no stated money value."
+        },
+        {
+          "value": "food",
+          "definition": "Food or drink."
+        },
+        {
+          "value": "social",
+          "definition": "Approval, disapproval or another social outcome."
+        },
+        {
+          "value": "aversive",
+          "definition": "An unpleasant stimulus, such as a shock or a loud noise."
+        },
+        {
+          "value": "effort_cost",
+          "definition": "Effort the player must spend."
+        },
+        {
+          "value": "signal_only",
+          "definition": "A signal of right or wrong, or of win or loss, with nothing behind it."
+        }
+      ]
+    },
+    {
+      "key": "real",
+      "question": "Is the outcome real?",
+      "required": false,
+      "values": [
+        {
+          "value": "paid",
+          "definition": "The outcome is delivered or paid."
+        },
+        {
+          "value": "hypothetical",
+          "definition": "The player is asked to choose as if the outcome were real."
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "phase": "acquisition",
+      "definition": "The phase in which a relation is first learned."
+    },
+    {
+      "phase": "extinction",
+      "definition": "The learned relation is no longer in force: the cue comes without its outcome."
+    },
+    {
+      "phase": "transfer",
+      "definition": "What was learned is tested on new material or under new conditions."
+    },
+    {
+      "phase": "devaluation",
+      "definition": "An outcome is made less valuable before responding is tested."
+    },
+    {
+      "phase": "test",
+      "definition": "A later phase that measures what was learned, with no further learning intended."
+    }
+  ],
+  "combinations": [
+    {
+      "how": "in_quick_succession",
+      "definition": "The second game's stimulus follows the first's so closely that the two responses overlap."
+    },
+    {
+      "how": "throughout",
+      "definition": "The second game runs for the whole of the main game (holding fixation, a concurrent load)."
+    },
+    {
+      "how": "interleaved",
+      "definition": "Trials of the two games alternate or are mixed."
+    },
+    {
+      "how": "inserted",
+      "definition": "The second game is placed inside each trial or between the phases of the main game."
+    },
+    {
+      "how": "chained",
+      "definition": "The outcome of one game is the starting point of the next."
+    }
+  ],
+  "settings": [
+    {
+      "setting": "retention_interval",
+      "definition": "Time between study and test, or sample and probe."
+    },
+    {
+      "setting": "stimulus_onset_asynchrony",
+      "definition": "Time from one stimulus onset to the next (prime to target, cue to target, task 1 to task 2)."
+    },
+    {
+      "setting": "presentation_duration",
+      "definition": "How long a stimulus is shown."
+    },
+    {
+      "setting": "reward_magnitude",
+      "definition": "Size of a reward, loss, endowment or stake."
+    },
+    {
+      "setting": "block_duration",
+      "definition": "Length of a block or run."
+    },
+    {
+      "setting": "set_size",
+      "definition": "Number of items in a display, memory set or option set."
+    },
+    {
+      "setting": "number_of_alternatives",
+      "definition": "Response options or choice alternatives."
+    },
+    {
+      "setting": "list_length",
+      "definition": "Number of items in a studied list or sequence."
+    },
+    {
+      "setting": "number_of_trials",
+      "definition": "Trials per block or in total."
+    },
+    {
+      "setting": "target_probability",
+      "definition": "How often the target or rare item appears."
+    },
+    {
+      "setting": "stimulus_similarity",
+      "definition": "Target-distractor or lure-target similarity."
+    },
+    {
+      "setting": "response_deadline",
+      "definition": "Time allowed to respond."
+    },
+    {
+      "setting": "number_of_repetitions",
+      "definition": "How many times a list or sequence is presented."
+    },
+    {
+      "setting": "interstimulus_interval",
+      "definition": "Blank time between two stimuli."
+    },
+    {
+      "setting": "number_of_targets",
+      "definition": "Targets per display or stream."
+    },
+    {
+      "setting": "reward_probability",
+      "definition": "Chance an option pays off."
+    },
+    {
+      "setting": "stimulus_intensity",
+      "definition": "Contrast, loudness, coherence, signal-to-noise, noise density."
+    },
+    {
+      "setting": "presentation_rate",
+      "definition": "Items per second in a stream."
+    },
+    {
+      "setting": "proportion_congruent",
+      "definition": "Share of congruent or valid or related trials (cue validity, relatedness proportion)."
+    },
+    {
+      "setting": "feedback_reliability",
+      "definition": "Share of feedback that is correct."
+    },
+    {
+      "setting": "delay_to_outcome",
+      "definition": "Time until a reward or outcome is delivered."
+    },
+    {
+      "setting": "eccentricity",
+      "definition": "Distance from fixation."
+    },
+    {
+      "setting": "spatial_separation",
+      "definition": "Distance between items or sources."
+    },
+    {
+      "setting": "session_duration",
+      "definition": "Length of the whole session, or number of sessions."
+    },
+    {
+      "setting": "number_of_distractors",
+      "definition": "Distractors per display."
+    },
+    {
+      "setting": "viewpoint_angle",
+      "definition": "Rotation or viewing angle."
+    },
+    {
+      "setting": "number_of_rules",
+      "definition": "Number of relational rules to integrate."
+    }
+  ]
+}

@@ -1,18 +1,16 @@
 # Tasks
 
-The Catalog defines 103 standard cognitive and behavioral neuroscience tasks, and
-4 pseudo tasks (rest, fixation, questionnaire and feedback blocks) that serve the experiment
-around them, as a baseline, a reset, a set-up or an exchange of information, rather than eliciting a
-process.
+The Catalog defines 110 standard cognitive and behavioral neuroscience tasks.
 Each task page gives the canonical name and aliases, a description, the inclusion
-test that decides whether an experiment is an instance of the task, its named
-variations, the cognitive processes it engages, and references.
+test that decides whether an experiment is an instance of the task, an at-a-glance
+summary of its standard form in the terms of the [task vocabulary](vocabulary.md), its
+variants, the cognitive processes it engages, and references.
 
-Tasks are filed under 19 **task families** by what the participant does,
+Tasks are filed under 20 **task families** by what the participant does,
 not by which process the task is thought to measure. The Catalog's process list covers that
 other axis, and the two cross-link. Families are organizational, not a hierarchy. Every
 task has one **primary** family, where its page is filed, and may be cross-listed under
-others as a **secondary** member; 12 tasks are cross-listed at present. The
+others as a **secondary** member; 15 tasks are cross-listed at present. The
 assignments are curation decisions and are expected to change as the Catalog grows;
 15 memberships are marked `review`. The
 [task family assignment rules](../methods/task_criteria/06_task_family_assignment.md)
@@ -24,36 +22,41 @@ home"; on a cross-listing it means "not sure this belongs here at all". The note
 the alternative or the doubt. Comments go to the
 [issue tracker](https://github.com/hed-standard/hed-task/issues).
 
-Two ways in:
+Ways in:
 
 - [Tasks by family](tasks_by_family.md) lists every task under its family, with the
   family's scope statement.
 - [Tasks alphabetically](tasks_alphabetically.md) lists every task in name order, for when you
   know the name and not the family.
+- [Tasks by game type](by_game_type.md) lists the tasks under the game their standard form is.
+- [Tasks by facet](by_facet.md) lists, for each facet value, the tasks and variants that carry it.
+- The [task vocabulary](vocabulary.md) defines every game type, rule, motivation answer, phase,
+  setting, way of combining and facet value used on the task pages.
 
 ## Families at a glance
 
 | Family | Tasks filed | Cross-listed |
 |---|---|---|
 | [Conflict and interference tasks](families/conflict_and_interference.md) | 8 | 2 |
-| [Response inhibition and stopping tasks](families/response_inhibition.md) | 4 | - |
-| [Attentional cueing and orienting tasks](families/attentional_cueing.md) | 3 | - |
-| [Visual search and tracking tasks](families/visual_search_and_tracking.md) | 4 | 1 |
-| [Oddball, vigilance and continuous performance tasks](families/oddball_and_vigilance.md) | 5 | 1 |
+| [Response inhibition and stopping tasks](families/response_inhibition.md) | 5 | - |
+| [Attentional cueing and orienting tasks](families/attentional_cueing.md) | 3 | 1 |
+| [Visual search and tracking tasks](families/visual_search_and_tracking.md) | 4 | 2 |
+| [Oddball, vigilance and continuous performance tasks](families/oddball_and_vigilance.md) | 6 | 1 |
 | [Perceptual judgment and psychophysics tasks](families/perceptual_judgment.md) | 5 | 3 |
-| [Short-term and working memory tasks](families/working_memory_span.md) | 7 | - |
+| [Short-term and working memory tasks](families/working_memory_span.md) | 8 | - |
 | [Recall and recognition memory tests](families/recall_and_recognition.md) | 9 | - |
 | [Memory control and prospective memory tasks](families/memory_control.md) | 4 | - |
 | [Metacognition, agency and interoception tasks](families/metacognition_and_interoception.md) | 5 | - |
 | [Conditioning, reinforcement and implicit learning tasks](families/conditioning_and_reinforcement.md) | 10 | 1 |
 | [Motor performance and speeded response tasks](families/motor_performance.md) | 5 | 2 |
-| [Rule use, planning and reasoning tasks](families/executive_and_reasoning.md) | 7 | - |
+| [Rule use, planning and reasoning tasks](families/executive_and_reasoning.md) | 8 | - |
 | [Reward, risk and value-based choice tasks](families/reward_and_value_choice.md) | 6 | - |
 | [Social cognition and social choice tasks](families/social_cognition_and_games.md) | 6 | 1 |
 | [Emotion elicitation and regulation tasks](families/emotion.md) | 4 | - |
-| [Language comprehension and production tasks](families/language.md) | 8 | 1 |
+| [Language comprehension and production tasks](families/language.md) | 9 | 1 |
 | [Spatial cognition and navigation tasks](families/spatial_navigation.md) | 3 | - |
-| [Pseudo tasks: rest, fixation, self-report and feedback blocks](families/pseudo_tasks.md) | 4 | - |
+| [Spontaneous thought tasks](families/spontaneous_thought.md) | 1 | 1 |
+| [Self-report tasks](families/self_report.md) | 1 | 2 |
 
 ```{toctree}
 :hidden:
@@ -61,4 +64,7 @@ Two ways in:
 
 Tasks by family <tasks_by_family>
 Tasks alphabetically <tasks_alphabetically>
+Tasks by game type <by_game_type>
+Tasks by facet <by_facet>
+Task vocabulary <vocabulary>
 ```

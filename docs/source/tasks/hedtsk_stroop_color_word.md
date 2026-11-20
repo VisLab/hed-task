@@ -13,6 +13,22 @@ Naming the ink color of color words while ignoring word meaning; RT and error co
 
 The Stroop Color-Word Task is a classic measure of selective attention and cognitive control that requires participants to identify the ink color of printed words while ignoring the semantic content. In the standard version, participants view color names (e.g., "RED," "BLUE") printed in incongruent ink colors and must respond with the ink color rather than reading the word. The task measures reaction time and accuracy across congruent trials (word and color match), incongruent trials (word and color conflict), and neutral trials. Performance reflects the ability to overcome automatic word-reading processes and requires engagement of executive control mechanisms. The Stroop interference effect (slowed RT on incongruent trials) is one of the most robust findings in cognitive psychology.
 
+## At a glance
+
+The standard form of the task, the one the inclusion test defines, in the terms of the
+[task vocabulary](vocabulary.md). A variant states only what it changes.
+
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
+- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-irrelevant-dimension">irrelevant dimension</a>
+- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Settings:** <a href="vocabulary.html#setting-proportion-congruent">proportion congruent</a>
+- **Material:** Color words (RED, BLUE) printed in ink of a matching or a different color.
+
 ## Inclusion test
 
 An experiment is an instance of this task when its procedure matches, it manipulates at
@@ -29,86 +45,76 @@ least one of the listed variables, and it records at least one of the listed mea
   - - Congruency (congruent, incongruent, neutral)
     - Proportion congruent
     - Response modality (vocal, manual)
-    - Stimulus type (classic, spatial, numerical)
+    - Stimulus type (classic, spatial, numerical, face-word)
+    - Task rule (name the ink color, read the word, count the words)
+    - Object color (typical vs. atypical)
+    - Prime type (neutral, matching, conflicting)
+    - Trial sequence (ignored word becomes next trial's ink color)
 * - **Measurements**
-  - - Stroop interference effect (incongruent − congruent RT)
-    - Facilitation (neutral − congruent)
+  - - Stroop interference effect (incongruent - congruent RT)
+    - Facilitation (neutral - congruent)
     - Error rate
     - Conflict adaptation (Gratton effect)
 ```
 
-## Variations
+## Variants
 
-Named versions that change what the participant experiences or does. The identifier
-of a variation is `hedvar_<task>__<variation>`.
+Attested forms of the task. Each states only what differs from the standard form
+above and inherits the rest; a named form differs in name only. The identifier of a
+variant is `hedvar_<task>__<variant>`.
 
 ```{list-table}
-:widths: 25 40 35
+:widths: 22 33 15 30
 :header-rows: 1
 
-* - Variation
-  - Description
-  - Justification
-* - Classic Color-Word Stroop
-
-    `hedvar_stroop_color_word__classic_color_word_stroop`
-  - Name ink color of incongruent color words; the canonical interference paradigm.
-  - Canonical color naming of congruent/incongruent color words
+* - Variant
+  - What differs
+  - Processes added
+  - Note
 * - Manual (Button-Press) Stroop
 
     `hedvar_stroop_color_word__manual_button_press_stroop`
-  - Responses via key press rather than vocal naming; preferred in neuroimaging to reduce motion artifacts.
-  - Button press instead of vocal response; different response modality
-* - Vocal Response Stroop
-
-    `hedvar_stroop_color_word__vocal_response_stroop`
-  - Original format with spoken color-naming responses; produces larger interference due to response-channel overlap with word reading.
-  - Vocal naming; distinct from manual version
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - -
+  - The ink color is reported by key press, one key per color, instead of aloud.
 * - Counting Stroop
 
     `hedvar_stroop_color_word__counting_stroop`
-  - Count the number of items displayed while ignoring the number word printed; used extensively in fMRI.
-  - Count number of words instead of naming color; different task dimension
+
+    Cognitive Atlas: [counting Stroop task](https://www.cognitiveatlas.org/task/id/trm_4da631be60291)
+  - rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-count">count</a>
+  - -
+  - A number word is printed one to four times and the participant reports how many words there are while ignoring the number named.
 * - Spatial Stroop
 
     `hedvar_stroop_color_word__spatial_stroop`
-  - Conflict between stimulus location and directional word content (e.g., "LEFT" on right side).
-  - Spatial word/location conflict; different conflict dimension
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>
+  - [Spatial attention](../processes/selective_and_sustained_attention.md#hed-spatial-attention)
+  - A direction word or arrow appears at a screen position and the participant reports its position while ignoring its meaning; some versions instead report the meaning while ignoring the position.
 * - Numerical Stroop
 
     `hedvar_stroop_color_word__numerical_stroop`
-  - Conflict between numerical magnitude and physical size of digits.
-  - Number magnitude vs. physical size conflict; different domain
-* - Reverse Stroop
-
-    `hedvar_stroop_color_word__reverse_stroop`
-  - Read the word while ignoring ink color; reverses the typical control demand.
-  - Name the word rather than the color; reversed task demand
-* - Proportion-Congruent Manipulation
-
-    `hedvar_stroop_color_word__proportion_congruent_manipulation`
-  - Varying the ratio of congruent-to-incongruent trials to study context-driven control adjustments.
-  - Conflict frequency variation; adaptation context per §5.2
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-compare">compare</a>
+  - -
+  - Two digits of different physical sizes are shown and the participant picks the numerically larger (ignoring size) or physically larger (ignoring value), a comparison between two simultaneous items.
 * - Face-Word Stroop
 
     `hedvar_stroop_color_word__face_word_stroop`
-  - Emotional face images paired with congruent/incongruent emotion labels.
-  - Face emotion vs. color word conflict; different stimulus domain
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>; emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>, <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - [Emotion recognition](../processes/emotion_perception_and_regulation.md#hed-emotion-recognition), [Face perception](../processes/face_and_object_perception.md#hed-face-perception)
+  - An emotion word is written across an expressive face and the participant names the expression while ignoring the word.
 * - Color-Shape Stroop
 
     `hedvar_stroop_color_word__color_shape_stroop`
-  - Shapes printed in colors that conflict with shape-color associations (e.g., a blue banana).
-  - Color word/shape conflict instead of ink color; different conflict structure
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
+  - -
+  - Objects with a strongly associated color are shown in the wrong color and the participant names the displayed color while the known color interferes.
 * - Priming Stroop
 
     `hedvar_stroop_color_word__priming_stroop`
-  - Preceded by neutral, congruent, or incongruent primes to study anticipatory control.
-  - Prime precedes Stroop item; temporal context manipulation
-* - Negative Priming Stroop
-
-    `hedvar_stroop_color_word__negative_priming_stroop`
-  - Measures inhibitory aftereffects when a previously ignored color word becomes the target on the next trial.
-  - Previously ignored item becomes target; tests ignored repetition effect
+  - cue: <a href="vocabulary.html#rule-respond-to-rule-cue-feature-cue">feature cue</a>
+  - -
+  - Each item is preceded by a prime that is neutral, matches or conflicts with it, giving advance feature information that may be valid or invalid.
 ```
 
 ## Cognitive processes
@@ -130,10 +136,10 @@ This task is designed to engage the following processes:
 
 ## Further references
 
-- Egetemeyer, J., Rehme, A. K., Liebhaber, N., Eickhoff, S. B., & Grefkes, C. (2024). Not all Stroop-type tasks are alike: Assessing the impact of stimulus material, task design, and cognitive demand via meta-analyses across neuroimaging studies. *Neuropsychology Review*, 34, 687–714. ([DOI](https://doi.org/10.1007/s11065-024-09647-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/39264479/))
-- Servant, M., Montagnini, A., & Burle, B. (2014). Conflict tasks and the diffusion framework: Insight in model constraints based on psychological laws. *Cognitive Psychology*, 72, 162–195. ([DOI](https://doi.org/10.1016/j.cogpsych.2014.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24762975/))
+- Egetemeyer, J., Rehme, A. K., Liebhaber, N., Eickhoff, S. B., & Grefkes, C. (2024). Not all Stroop-type tasks are alike: Assessing the impact of stimulus material, task design, and cognitive demand via meta-analyses across neuroimaging studies. *Neuropsychology Review*, 34, 687-714. ([DOI](https://doi.org/10.1007/s11065-024-09647-1), [PubMed](https://pubmed.ncbi.nlm.nih.gov/39264479/))
+- Servant, M., Montagnini, A., & Burle, B. (2014). Conflict tasks and the diffusion framework: Insight in model constraints based on psychological laws. *Cognitive Psychology*, 72, 162-195. ([DOI](https://doi.org/10.1016/j.cogpsych.2014.03.002), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24762975/))
 - Algom, D., & Chajut, E. (2019). Reclaiming the Stroop effect back from control to input-driven attention and perception. *Frontiers in Psychology*, 10, 1683. ([DOI](https://doi.org/10.3389/fpsyg.2019.01683), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31428008/))
-- Neumann, J., Lohmann, G., Derrfuss, J., & von Cramon, D. Y. (2005). Meta-analysis of functional imaging data using replicator dynamics. *Human Brain Mapping*, 25(1), 165–173. [Stroop neuroimaging meta-analysis] ([DOI](https://doi.org/10.1002/hbm.20133), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15846812/))
+- Neumann, J., Lohmann, G., Derrfuss, J., & von Cramon, D. Y. (2005). Meta-analysis of functional imaging data using replicator dynamics. *Human Brain Mapping*, 25(1), 165-173. [Stroop neuroimaging meta-analysis] ([DOI](https://doi.org/10.1002/hbm.20133), [PubMed](https://pubmed.ncbi.nlm.nih.gov/15846812/))
 
 ## External links
 
