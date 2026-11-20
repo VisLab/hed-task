@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://www.hedtags.org/hed-task/schemas/task_facet_defs.schema.json",
   "title": "HED task catalog facet definitions",
-  "description": "Schema for data/task_facet_defs.json, the vocabulary of task facets: one question per facet with a fixed list of values, each mapped to HED tags. Shape only; cross-checks (every hed_tags entry exists in the local HED schema, values used in task records are defined) run in src/generate_docs.py.",
+  "description": "Schema for data/task_facet_defs.json, the vocabulary of task facets: one question per facet with a fixed list of values, each mapped to HED tags. Shape only; src/generate_docs.py checks that the values used in task records are defined here. Whether each hed_tags entry exists in the HED schema is not checked automatically.",
   "type": "object",
   "required": [
     "facets"

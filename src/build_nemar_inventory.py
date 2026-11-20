@@ -124,7 +124,13 @@ def build_rows(root):
         list[dict]: One row per (dataset, label); one row with an empty label
         for a dataset that has none.
     """
-    contents = read_json(root / "dataset_summaries" / "repo_contents.json")
+    index = root / "dataset_summaries" / "repo_contents.json"
+    try:
+        contents = json.loads(index.read_text(encoding="utf8"))
+    except (OSError, ValueError) as err:
+        sys.exit(f"Cannot read the mirror index {index}: {err}")
+    if not isinstance(contents, dict) or not contents:
+        sys.exit(f"The mirror index {index} is not a non-empty object keyed by dataset id; nothing written.")
     rows = []
     for dataset_id in sorted(contents):
         repo_dir = root / "dataset_repos" / dataset_id
