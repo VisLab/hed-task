@@ -69,3 +69,17 @@ Both tables were hand-checked on 2026-09-22 against the CogPO definitions. Every
 | `cogpo_paradigm_to_hed.tsv` | 86   | 26    | 16    | 8       | 36   |
 
 Of the 36 unmatched CogPO classes, 15 are task-shaped paradigms the Catalog lacks (Braille reading, deception, counting or calculation, film viewing, motor and visual imagery, music, olfactory discrimination, overt reading, recitation, video games, word-stem completion, divided auditory attention), 11 are physiological procedures, 6 are motor acts, 3 are broad perceptual classes and 1 is an imaging protocol. Three reverse rows resolve to a Catalog variant rather than a task (Visual Oddball, Saccades, Word Generation (Covert)); Auditory Oddball and Delayed Non Match To Sample are task rows, because their forms are now the Oddball Task's standard form and a manipulation of Delayed Match-to-Sample.
+
+## NEMAR task labels to HED tasks (preliminary)
+
+`nemar_task_to_hed.tsv` is **preliminary and unchecked**. Do not rely on it. It is the output of an automatic first pass, written by `src/match_nemar_tasks.py` from an inventory of the NEMAR dataset repositories (`src/build_nemar_inventory.py`), and is kept here as a starting point for curation. Nothing on the site is generated from it and `src/generate_docs.py` does not validate it.
+
+It has one row per dataset and BIDS task label (2946 rows over 900 datasets, mirror of 2026-10-13). A row is matched when the label, the dataset title or a keyword coincides with a task name, an alias or a variant name in the Catalog; no match has been read by a person.
+
+| `match_type` | Rows | Meaning at this stage                                      |
+| ------------ | ---- | ---------------------------------------------------------- |
+| `task`       | 383  | A name coincidence with a HED task, `confidence` `review`  |
+| `variant`    | 1    | A name coincidence with a variant, `confidence` `review`   |
+| `unresolved` | 2562 | No automatic match; says nothing about whether a task fits |
+
+The columns `differs` and `proposal` are empty; they are reserved for curation. How the table will be curated, and whether task labels and short descriptions are enough evidence for it, is not yet decided.

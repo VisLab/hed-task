@@ -61,3 +61,7 @@ This task is designed to engage the following processes:
 - [Response selection](../processes/motor_preparation_timing_and_execution.md#hed-response-selection)
 - [Divided attention](../processes/selective_and_sustained_attention.md#hed-divided-attention)
 
+## Key references
+
+- Jaeggi, S. M., Buschkuehl, M., Jonides, J., & Perrig, W. J. (2008). Improving fluid intelligence with training on working memory. *Proceedings of the National Academy of Sciences*, 105(19), 6829-6833. ([DOI](https://doi.org/10.1073/pnas.0801268105))
+

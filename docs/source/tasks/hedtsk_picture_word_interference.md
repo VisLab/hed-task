@@ -61,6 +61,10 @@ This task is designed to engage the following processes:
 - [Speech production](../processes/language_comprehension_and_production.md#hed-speech-production)
 - [Interference control](../processes/inhibitory_control_and_conflict_monitoring.md#hed-interference-control)
 
+## Key references
+
+- Schriefers, H., Meyer, A. S., & Levelt, W. J. M. (1990). Exploring the time course of lexical access in language production: Picture-word interference studies. *Journal of Memory and Language*, 29(1), 86-102. ([DOI](https://doi.org/10.1016/0749-596x(90)90011-n))
+
 ## External links
 
 - Cognitive Atlas: [picture-word Stroop test](https://www.cognitiveatlas.org/task/id/trm_4dadbfd771a54) (close match)

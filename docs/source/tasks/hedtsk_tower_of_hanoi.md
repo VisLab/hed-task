@@ -56,6 +56,10 @@ This task is designed to engage the following processes:
 - [Working memory](../processes/short_term_and_working_memory.md#hed-working-memory)
 - [Strategy use](../processes/cognitive_flexibility_and_higher_order_executive_function.md#hed-strategy-use)
 
+## Key references
+
+- Simon, H. A. (1975). The functional equivalence of problem solving skills. *Cognitive Psychology*, 7(2), 268-288. ([DOI](https://doi.org/10.1016/0010-0285(75)90012-2))
+
 ## External links
 
 - Cognitive Atlas: [Tower of Hanoi](https://www.cognitiveatlas.org/task/id/trm_4da87e7282f92)
