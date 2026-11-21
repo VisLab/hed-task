@@ -13,20 +13,25 @@ Learn target faces across viewpoints, then identify them among distractors under
 
 The Cambridge Face Memory Test is the standard measure of face recognition ability for both clinical and individual-difference research. Participants study six target faces shown in three different viewpoints. Testing occurs in three phases of increasing difficulty: in Phase 1, targets are tested in studied viewpoints; in Phase 2, targets appear in novel viewpoints and lighting conditions; in Phase 3, Gaussian visual noise is added to the images. Each phase has 12 trials (one target face among five distractor faces), yielding a total score of 72. The CFMT specifically indexes holistic and configural face processing, is relatively culture-fair, and has become the benchmark for diagnosing prosopagnosia and studying "super-recognizers."
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
-- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-forced-choice">forced choice</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>
-- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-study-then-test">Study, then be tested</a> (`study_then_test`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What form does the test take?* <a href="vocabulary.html#rule-study-then-test-test-form-forced-choice">forced choice</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>
+  - Social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-set-size">set size</a>
 - **Material:** Six target faces in three viewpoints, tested among distractor faces in the studied views, in novel views and lighting, and with added visual noise.
 

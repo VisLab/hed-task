@@ -13,18 +13,23 @@ Matrix completion items requiring induction of a rule from a 3x3 array of figure
 
 Participants view a matrix pattern with a missing element and select the correct completion from a set of alternatives. The patterns involve systematic variations in features such as shape, size, color, orientation, and number, governed by rules that increase in complexity across test items. Solving each item requires extracting the governing rules and applying them to predict the missing element. Raven's Progressive Matrices is the most widely used culture-reduced measure of fluid intelligence (Gf) and abstract relational reasoning, and is among the most extensively studied psychometric instruments in all of psychology. It has been central to debates about the neural basis of general intelligence, g-loading, and the structure of reasoning.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-solve-problem">solve problem</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-abstract-patterns">abstract patterns</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-solve-problem">Solve a puzzle</a> (`solve_problem`)
+- **Game rules:** none are defined for this game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-abstract-patterns">abstract patterns</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>, <a href="vocabulary.html#setting-number-of-rules">number of rules</a>, <a href="vocabulary.html#setting-response-deadline">response deadline</a>
 - **Material:** 3x3 matrices of geometric patterns that vary in shape, size, color, orientation and number, with one cell missing and a set of candidate completions.
 

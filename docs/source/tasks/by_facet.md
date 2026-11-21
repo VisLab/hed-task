@@ -2,7 +2,7 @@
 
 For each facet value, the tasks whose standard form carries it and, after them, the
 variants that state it (a variant inherits the standard form's values for every facet
-it does not state). The values are defined on the [task vocabulary](vocabulary.md)
+it does not state). The values are defined on the [game vocabulary](vocabulary.md)
 page.
 
 ## Stimulus modality

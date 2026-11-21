@@ -13,20 +13,25 @@ Sequential key-press responses to cued locations; RT speedup on repeating vs ran
 
 The SRTT measures implicit motor sequence learning. Visual stimuli appear sequentially at different spatial locations, each corresponding to a response button. Participants respond as quickly as possible, unaware that stimuli follow a repeating sequence interspersed with random blocks. Learning is inferred from decreasing RT for the repeating sequence relative to random sequences. The dissociation between improved performance and lack of conscious awareness of the sequence structure is a hallmark of implicit learning and provides evidence for procedural memory systems.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>
-- **Where does the rule come from?** <a href="vocabulary.html#rule-respond-to-rule-rule-source-hidden-regularity">hidden regularity</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What does the rule ask about each stimulus?* <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>
+  - *Where does the rule come from?* <a href="vocabulary.html#rule-respond-to-rule-rule-source-hidden-regularity">hidden regularity</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-list-length">list length</a>
 - **Material:** A stimulus at one of several screen locations, each mapped to a key, following a repeating sequence or a random order.
 

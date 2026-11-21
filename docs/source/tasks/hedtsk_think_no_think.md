@@ -13,20 +13,25 @@ Cue words are presented with instructions to either retrieve or suppress their l
 
 Participants first learn cue-target word pairs (e.g., "ordeal-roach"). In the critical phase, cues are presented and participants are instructed either to recall the target (Think) or to prevent the target from coming to mind (No-Think). On a final test, suppressed (No-Think) items show reduced recall relative to baseline items that were learned but not presented during the critical phase. Anderson and Green (2001) introduced this paradigm as a memory analog of the Go/No-Go motor inhibition task, arguing that just as people can stop a motor action, they can suppress retrieval of unwanted memories. The paradigm has become central to research on memory suppression, PTSD, and the role of prefrontal control over hippocampal memory retrieval.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
-- **What is studied?** <a href="vocabulary.html#rule-study-then-test-studied-material-pairs">pairs</a>
-- **How many study-test rounds?** <a href="vocabulary.html#rule-study-then-test-cycles-learn-to-criterion">learn to criterion</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-study-then-test">Study, then be tested</a> (`study_then_test`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What is studied?* <a href="vocabulary.html#rule-study-then-test-studied-material-pairs">pairs</a>
+  - *How many study-test rounds?* <a href="vocabulary.html#rule-study-then-test-cycles-learn-to-criterion">learn to criterion</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-number-of-repetitions">number of repetitions</a>
 - **Material:** Cue-target word pairs (such as ordeal-roach) whose cues are later shown alone with an instruction to recall the target or keep it from mind.
 

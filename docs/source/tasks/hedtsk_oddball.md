@@ -13,21 +13,26 @@ Sequence of standards with rare deviants or targets; deviants elicit a large pos
 
 Participants are presented with a stimulus stream containing frequent standard stimuli (80% of trials) and infrequent target (oddball) stimuli (20%) that differ in some dimension (pitch, color, shape). Participants respond (button press) to targets. Target detection elicits the P3b ERP component (300-600 ms, parietal maximum), reflecting stimulus evaluation and working memory updating. Novel or unexpected stimuli also elicit the P3a component (frontocentral), reflecting automatic attention capture. The paradigm is widely used as a biomarker of cognitive function and has clinical applications in ADHD, schizophrenia, and traumatic brain injury.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
-- **Must the player ever hold back?** <a href="vocabulary.html#rule-respond-to-rule-response-demand-withhold-on-some">withhold on some</a>
-- **How often is there a target?** <a href="vocabulary.html#rule-respond-to-rule-target-rate-rare-target">rare target</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What does the rule ask about each stimulus?* <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+  - *Must the player ever hold back?* <a href="vocabulary.html#rule-respond-to-rule-response-demand-withhold-on-some">withhold on some</a>
+  - *How often is there a target?* <a href="vocabulary.html#rule-respond-to-rule-target-rate-rare-target">rare target</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-interstimulus-interval">interstimulus interval</a>, <a href="vocabulary.html#setting-target-probability">target probability</a>
 - **Material:** A stream of frequent standard tones and rare target tones that differ in pitch, sometimes with novel non-target sounds.
 

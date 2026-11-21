@@ -13,19 +13,24 @@ Participants press a key to reveal each word or phrase of a sentence/passage; re
 
 Self-Paced Reading is the primary behavioral paradigm for studying online language comprehension at the sentence and discourse level. Participants read text presented one word or phrase at a time by pressing a button to advance; the time between button presses at each region is the dependent measure. In the non-cumulative (moving-window) variant, each new word replaces the previous one; in the cumulative variant, words accumulate on screen. Reading time elevations at critical regions reveal processing difficulty caused by syntactic ambiguity (garden-path effects), semantic anomaly, coherence breaks, anaphor resolution, predictability violations, and discourse-level inference demands. The paradigm was developed as an accessible alternative to eye-tracking that preserves the temporal dynamics of incremental comprehension while requiring minimal equipment. Spillover effects (elevated reading times on words following the critical region) are routinely analyzed. Comprehension questions after each trial ensure participants are reading for meaning. Self-paced reading has been central to testing models of sentence processing (surprisal theory, expectation-based parsing), discourse representation theory (situation models), and cross-linguistic processing differences.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-undergo-stream">undergo stream</a>
-- **Is anything asked afterwards?** <a href="vocabulary.html#rule-undergo-stream-report-after-comprehension-question">comprehension question</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-text">text</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-undergo-stream">Watch or listen</a> (`undergo_stream`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *Is anything asked afterwards?* <a href="vocabulary.html#rule-undergo-stream-report-after-comprehension-question">comprehension question</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-text">text</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Material:** Sentences or passages revealed one word or phrase at a time, with a comprehension question after each.
 
 ## Inclusion test

@@ -13,21 +13,26 @@ Experimenter taps a sequence on spatially arranged blocks; participant reproduce
 
 The Corsi Block-Tapping Task measures visuospatial short-term and working memory. Nine blocks are arranged irregularly on a board (or screen). The examiner taps a sequence of blocks, and the participant reproduces the sequence. Sequence length increases from 2 blocks upward until the participant fails two consecutive sequences at a given length. The maximum reliably reproduced length defines the Corsi span, typically around 5-6 for healthy adults. The backward version requires reproducing sequences in reverse order, adding executive demands. The task is the spatial counterpart of Digit Span and is critical for understanding the visuospatial sketchpad component of working memory.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
-- **What is studied?** <a href="vocabulary.html#rule-study-then-test-studied-material-sequence-order">sequence order</a>
-- **How long is it held?** <a href="vocabulary.html#rule-study-then-test-retention-interval-seconds">seconds</a>
-- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-serial-recall">serial recall</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-study-then-test">Study, then be tested</a> (`study_then_test`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What is studied?* <a href="vocabulary.html#rule-study-then-test-studied-material-sequence-order">sequence order</a>
+  - *How long is it held?* <a href="vocabulary.html#rule-study-then-test-retention-interval-seconds">seconds</a>
+  - *What form does the test take?* <a href="vocabulary.html#rule-study-then-test-test-form-serial-recall">serial recall</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-list-length">list length</a>
 - **Material:** Nine blocks arranged irregularly on a board or screen, tapped in sequences of increasing length.
 

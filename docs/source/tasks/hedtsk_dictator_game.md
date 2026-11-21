@@ -13,23 +13,28 @@ One-shot allocation task in which a proposer unilaterally divides an endowment b
 
 One player (dictator) unilaterally decides how much of an endowment to give to an anonymous recipient, who has no power to reject. Despite having complete power, many dictators give 20-30% of their endowment, reflecting intrinsic fairness concerns. fMRI shows generous allocations activate reward regions (ventral striatum, OFC) and empathy regions (anterior insula, ACC), suggesting altruistic choices engage similar neural systems as personal reward.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-interact-with-agent">interact with agent</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
-- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
-- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
-- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>
-- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>, <a href="vocabulary.html#motivation-real-hypothetical">hypothetical</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>
-- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-interact-with-agent">Play against another player</a> (`interact_with_agent`)
+- **Game rules:** every rule takes the default of the game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
+  - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-gain">gain</a>
+  - *What earns the outcome?* <a href="vocabulary.html#motivator-earned-by-choice">choice</a>
+  - *What is the outcome?* <a href="vocabulary.html#motivator-what-money">money</a>
+  - *Is the outcome real?* <a href="vocabulary.html#motivator-real-paid">paid</a>, <a href="vocabulary.html#motivator-real-hypothetical">hypothetical</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>
+  - Social aspect: <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>
 - **Material:** An endowment of money, of which the participant gives any share to an anonymous recipient.
 

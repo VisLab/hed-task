@@ -13,21 +13,26 @@ Alternation between two or more simple tasks on cue; switch-cost RT and errors i
 
 Task Switching paradigms measure cognitive flexibility by requiring participants to alternate between two or more classification tasks. Participants view stimuli (e.g., bivalent alphanumeric characters like "G3") and perform different classifications depending on a task cue (letter: vowel/consonant; digit: odd/even). Tasks alternate in predictable sequences (e.g., AABB) or are cued on each trial. The primary measures are switch costs (increased RT and errors when switching tasks vs. repeating the same task) and mixing costs (increased RT in mixed-task blocks vs. single-task blocks). Switch costs reflect the time for task-set reconfiguration.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-previous-rule">previous rule</a>
-- **Does a cue come before the target?** <a href="vocabulary.html#rule-respond-to-rule-cue-rule-cue">rule cue</a>
-- **Does the rule change during play?** <a href="vocabulary.html#rule-respond-to-rule-rule-stability-switches-on-cue">switches on cue</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What competes with the correct response?* <a href="vocabulary.html#rule-respond-to-rule-competitor-previous-rule">previous rule</a>
+  - *Does a cue come before the target?* <a href="vocabulary.html#rule-respond-to-rule-cue-rule-cue">rule cue</a>
+  - *Does the rule change during play?* <a href="vocabulary.html#rule-respond-to-rule-rule-stability-switches-on-cue">switches on cue</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
 - **Material:** Bivalent characters such as a letter-digit pair (G3), classified by the letter (vowel or consonant) or the digit (odd or even) as the cue directs.
 

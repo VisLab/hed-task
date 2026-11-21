@@ -13,17 +13,22 @@ Participants count or discriminate their own heartbeats without external feedbac
 
 The Heartbeat Detection Task is the standard paradigm for measuring interoceptive accuracy - the ability to perceive internal physiological signals. In the Schandry (1981) heartbeat counting variant, participants silently count their heartbeats during timed intervals (e.g., 25, 35, 45 seconds) without taking their pulse; an interoceptive accuracy score is computed from the discrepancy between counted and actual heartbeats (recorded via ECG or pulse oximetry). In the Whitehead heartbeat discrimination variant, participants judge whether an external stimulus (tone or light) is presented synchronously or asynchronously with their heartbeat; d-prime indexes perceptual sensitivity. Interoceptive accuracy is central to theories of emotion (the somatic marker hypothesis; Damasio, 1994), anxiety (interoceptive hypersensitivity models), and embodied cognition (predictive interoception). Individual differences in heartbeat detection correlate with emotional intensity, anxiety sensitivity, and decision-making quality. The paradigm has generated substantial methodological debate: the counting variant may partially reflect beliefs about heart rate rather than true perception, motivating the discrimination variant and newer alternatives.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-report-on-self">report on self</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-somatic">somatic</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-report-on-self">Report on yourself</a> (`report_on_self`)
+- **Game rules:** none are defined for this game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-somatic">somatic</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>, <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
 - **Material:** The participant's own heartbeat and, in the discrimination form, a tone or light presented in or out of time with it.
 

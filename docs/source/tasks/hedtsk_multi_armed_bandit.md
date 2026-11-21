@@ -13,24 +13,29 @@ Repeated choice among options with unknown or changing reward distributions; cho
 
 Participants choose among multiple options (the "arms" of a slot machine), each yielding rewards with unknown and often changing probabilities. The central challenge is the explore-exploit dilemma: whether to exploit the currently best-known option or explore alternatives that might yield higher returns. Reward probabilities may be stationary or volatile (drifting over time), with the volatile version (restless bandit) requiring continuous updating of value estimates. This paradigm is the dominant tool in computational psychiatry for studying reinforcement learning, and its computational tractability - fitting with Bayesian, Kalman-filter, or upper-confidence-bound models - has made it central to understanding decision-making deficits in addiction, schizophrenia, depression, and anxiety.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
-- **What is traded against what?** <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-explore-vs-exploit">explore vs exploit</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
-- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
-- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
-- **What is the outcome?** <a href="vocabulary.html#motivation-what-points">points</a>, <a href="vocabulary.html#motivation-what-money">money</a>
-- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> (`choose_for_outcomes`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-explore-vs-exploit">explore vs exploit</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
+  - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-gain">gain</a>
+  - *What earns the outcome?* <a href="vocabulary.html#motivator-earned-by-choice">choice</a>
+  - *What is the outcome?* <a href="vocabulary.html#motivator-what-points">points</a>, <a href="vocabulary.html#motivator-what-money">money</a>
+  - *Is the outcome real?* <a href="vocabulary.html#motivator-real-paid">paid</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>, <a href="vocabulary.html#setting-number-of-trials">number of trials</a>
 - **Material:** Several options, the arms of a slot machine, each paying out rewards with unknown probabilities that are stationary or drifting.
 
@@ -103,7 +108,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Bandit with Effort Cost
 
     `hedvar_multi_armed_bandit__bandit_with_effort_cost`
-  - sign: <a href="vocabulary.html#motivation-sign-both">both</a>; what: <a href="vocabulary.html#motivation-what-points">points</a>, <a href="vocabulary.html#motivation-what-money">money</a>, <a href="vocabulary.html#motivation-what-effort-cost">effort cost</a>
+  - sign: <a href="vocabulary.html#motivator-sign-both">both</a>; what: <a href="vocabulary.html#motivator-what-points">points</a>, <a href="vocabulary.html#motivator-what-money">money</a>, <a href="vocabulary.html#motivator-what-effort-cost">effort cost</a>
   - [Effort allocation](../processes/reward_anticipation_and_motivation.md#hed-effort-allocation)
   - Choosing or sampling an option costs key presses or a hard task, so exploration carries an effort cost on top of the usual tradeoff.
 ```

@@ -13,18 +13,23 @@ Four cards with letters and numbers under a conditional rule; participants choos
 
 The Wason Selection Task is the classic test of conditional reasoning. Participants see four cards, each showing information on both sides. A conditional rule is stated (e.g., "If a card has an A on one side, then it has a 2 on the other"). Cards show one side each (e.g., A, B, 2, 7), and participants must select which cards need to be turned over to test the rule. The correct answer is the card showing A (potentially confirming) and the card showing 7 (potentially falsifying), but most participants incorrectly select A and 2 (confirmation bias). When the rule is reframed in terms of social contracts (e.g., "If you drink alcohol, you must be over 21"), performance dramatically improves, supporting evolutionary theories of cheater-detection modules.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-solve-problem">solve problem</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>, <a href="vocabulary.html#facet-stimulus-type-text">text</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-solve-problem">Solve a puzzle</a> (`solve_problem`)
+- **Game rules:** none are defined for this game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>, <a href="vocabulary.html#facet-stimulus-type-text">text</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-number-of-rules">number of rules</a>
 - **Material:** Four cards showing one side each (such as A, B, 2, 7) and a conditional rule, abstract or framed as a social contract.
 

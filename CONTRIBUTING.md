@@ -1,13 +1,13 @@
 # Guide to contributing to the hed-task project
 
-The HED Task Catalog is curated continuously and depends on its users to grow. This guide says how to propose a change, how the site is regenerated, and which checks a pull request must pass.
+HED task models are developed continuously and depend on their users to grow. This guide says how to propose a change, how the site is regenerated, and which checks a pull request must pass.
 
 ## Proposing a change
 
-Open an issue at <https://github.com/hed-standard/hed-task/issues/new/choose>. Four issue forms ask for what each kind of proposal needs, field by field: a new task, a new variation, a new process, and a correction to an entry. The forms live in `.github/ISSUE_TEMPLATE/`; their family and category dropdowns mirror `data/task_family_defs.tsv` and the `categories` array, so a change there is also a change to the form. Anything else, including the last two kinds below, goes in a blank issue. In brief:
+Open an issue at <https://github.com/hed-standard/hed-task/issues/new/choose>. Four issue forms ask for what each kind of proposal needs, field by field: a new task, a new variant, a new process, and a correction to an entry. The forms live in `.github/ISSUE_TEMPLATE/`; their family and category dropdowns mirror `data/task_family_defs.tsv` and the `categories` array, so a change there is also a change to the form. Anything else, including the last two kinds below, goes in a blank issue. In brief:
 
-- **A new task.** Canonical name and aliases; the procedure as ordered steps, the manipulations and the measurements in the form the inclusion tests use; the processes it engages; one or two references; and why it is not a variation of an existing task.
-- **A new variation.** The parent task, what changes in what the participant experiences or does, and why that change is not one of the excluded kinds (measurement modality, analysis method, population, stimulus swap, and so on).
+- **A new task.** Canonical name and aliases; the procedure as ordered steps, the manipulations and the measurements in the form the inclusion tests use; the processes it engages; one or two references; and why it is not a variant of an existing task.
+- **A new variant.** The parent task, how it differs from the standard form (which game rule, motivator, phase or facet), and why that change is not one of the excluded kinds (measurement modality, analysis method, population, stimulus swap, and so on).
 - **A new process.** When in a trial it happens, what elicits it, how it is measured, which category it belongs in, and why it is not an alias of an existing process.
 - **A different family for a task, or a second one.** Name the task, the family you would move it to or cross-list it under, and the procedural reason. The current memberships and their rationales are the `families` list on each task record in `data/task_details.json`.
 - **A correction.** Quote the page and the text that is wrong.
@@ -61,7 +61,7 @@ Any of these can be a pull request directly. An issue first is welcome when the 
 
 - ASCII only in prose, code, comments and filenames: `-` rather than an em or en dash, `->` rather than an arrow glyph, `...` rather than an ellipsis character, straight quotes. Genuine data such as author names and recorded Atlas entry names keep whatever characters they contain.
 - Sentence case for every Markdown heading, including generated ones.
-- Identifiers: `hedtsk_<slug>` for tasks, `hedvar_<task>__<variation>` for variations, `hed_<slug>` for processes. They are provisional while the Catalog is being curated.
+- Identifiers: `hedtsk_<slug>` for tasks, `hedvar_<task>__<variant>` for variants, `hed_<slug>` for processes. They are provisional while the task models are being developed.
 - Published pages state what is true now. Dates, change logs and resolved-issue notes belong in issues and commit messages, not on the site.
 
 ## Where to ask

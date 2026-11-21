@@ -1,0 +1,12 @@
+| Game type | What the player does | How to tell | Rules | Tasks |
+|---|---|---|---|---|
+| <a href="tasks/vocabulary.html#game-respond-to-rule">Respond under a rule</a> | A stimulus appears; the player applies a rule they were given and responds. | The answer depends only on the stimulus in front of the player and the rule, not on material studied earlier. | 9 | 48 |
+| <a href="tasks/vocabulary.html#game-study-then-test">Study, then be tested</a> | The player takes material in, holds it over an interval, then shows what they kept. | There is material to keep and a later test of it, even when the interval is a second. | 9 | 23 |
+| <a href="tasks/vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> | The player picks an option, sees what it pays, and picks again. | No option is correct by instruction; the options differ in what they pay. | 5 | 9 |
+| <a href="tasks/vocabulary.html#game-interact-with-agent">Play against another player</a> | The player makes a move whose payoff depends on what another player does. | Another player, real or said to be real, has a stake in the outcome. | 6 | 4 |
+| <a href="tasks/vocabulary.html#game-solve-problem">Solve a puzzle</a> | The player works out an answer or a sequence of moves. | The answer has to be worked out; it cannot be read off the stimulus by a rule. | - | 7 |
+| <a href="tasks/vocabulary.html#game-produce-movement">Make a movement</a> | The player carries out or learns a movement pattern. | The movement itself is measured, not a choice it expresses. | - | 3 |
+| <a href="tasks/vocabulary.html#game-undergo-stream">Watch or listen</a> | The player takes in a stream; the measure is the response to the stream itself. | No answer is scored against a correct one as a main measure. | 2 | 8 |
+| <a href="tasks/vocabulary.html#game-navigate">Find the way</a> | The player moves through a space to reach a goal. | The path through the space is the measure. | - | 2 |
+| <a href="tasks/vocabulary.html#game-report-on-self">Report on yourself</a> | The player reports an internal state, a timing, or a memory of their own. | No answer can be checked against a correct one. | - | 4 |
+| <a href="tasks/vocabulary.html#game-hold-state">Hold a state</a> | The player keeps a bodily or mental state as instructed while the recording runs. | Nothing is presented that calls for a response and nothing is reported; holding the state is the whole job (rest, fixation). | - | 2 |

@@ -13,18 +13,23 @@ Speeded word/nonword judgment; RT and accuracy index lexical access and are sens
 
 Participants view letter strings and must rapidly determine whether each string is a valid word or a nonword by pressing designated response buttons. Stimuli include high- and low-frequency words and pronounceable nonwords. RT and accuracy to words versus nonwords indexes lexical access efficiency. The task is often combined with priming manipulations to examine semantic, phonological, or morphological processing. It is one of the most fundamental paradigms in psycholinguistics.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pseudowords">pseudowords</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** every rule takes the default of the game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-pseudowords">pseudowords</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Material:** Letter strings that are real words, varying in frequency, length and orthographic neighborhood, or nonwords that are pronounceable or random.
 
 ## Inclusion test

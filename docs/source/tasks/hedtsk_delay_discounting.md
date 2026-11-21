@@ -13,25 +13,30 @@ Repeated choices between smaller-sooner and larger-later rewards at varying dela
 
 Participants make repeated choices between a smaller immediate reward and a larger delayed reward (e.g., "$10 now or $25 in 1 week"). The immediate amount or delay is systematically varied to estimate indifference points, yielding a discount rate reflecting how steeply the subjective value of rewards declines with delay. Steeper discounting reflects greater impulsivity. fMRI reveals differential activation of ventromedial PFC and nucleus accumbens (immediate preference) versus dorsolateral PFC and posterior parietal cortex (delayed preference), supporting dual-system valuation models.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
-- **What are the options?** <a href="vocabulary.html#rule-choose-for-outcomes-option-set-two-described">two described</a>
-- **How does the player learn what pays?** <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-described">described</a>
-- **What is traded against what?** <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-amount-vs-delay">amount vs delay</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
-- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
-- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
-- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>
-- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>, <a href="vocabulary.html#motivation-real-hypothetical">hypothetical</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>, <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> (`choose_for_outcomes`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What are the options?* <a href="vocabulary.html#rule-choose-for-outcomes-option-set-two-described">two described</a>
+  - *How does the player learn what pays?* <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-described">described</a>
+  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-amount-vs-delay">amount vs delay</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
+  - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-gain">gain</a>
+  - *What earns the outcome?* <a href="vocabulary.html#motivator-earned-by-choice">choice</a>
+  - *What is the outcome?* <a href="vocabulary.html#motivator-what-money">money</a>
+  - *Is the outcome real?* <a href="vocabulary.html#motivator-real-paid">paid</a>, <a href="vocabulary.html#motivator-real-hypothetical">hypothetical</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>, <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-delay-to-outcome">delay to outcome</a>, <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>
 - **Material:** Pairs of money offers, a smaller amount now against a larger amount after a delay (such as $10 now or $25 in 1 week).
 
@@ -105,7 +110,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Gain vs. Loss Framing
 
     `hedvar_delay_discounting__gain_vs_loss_framing`
-  - sign: <a href="vocabulary.html#motivation-sign-both">both</a>
+  - sign: <a href="vocabulary.html#motivator-sign-both">both</a>
   - -
   - Choices between paying a smaller amount now or a larger amount later are added alongside the usual gain choices.
 * - Probabilistic Discounting

@@ -13,20 +13,25 @@ Brief sample array followed after a blank delay by a probe array; participant re
 
 The Change Detection Task, developed by Luck and Vogel (1997), is the standard paradigm for measuring visual working memory capacity. Participants briefly view a memory array of colored squares (typically 100-500 ms), followed by a blank retention interval (~900 ms), then a test array. On half the trials, one item changes color; participants report whether a change occurred. Performance is converted to a capacity estimate (K) using Cowan's formula: K = set size x (hit rate - false alarm rate). The task established that visual WM capacity is approximately 3-4 items in healthy adults and has been instrumental in research linking WM capacity to attention, intelligence, and neural oscillations.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
-- **How long is it held?** <a href="vocabulary.html#rule-study-then-test-retention-interval-seconds">seconds</a>
-- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-same-changed">same changed</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-study-then-test">Study, then be tested</a> (`study_then_test`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *How long is it held?* <a href="vocabulary.html#rule-study-then-test-retention-interval-seconds">seconds</a>
+  - *What form does the test take?* <a href="vocabulary.html#rule-study-then-test-test-form-same-changed">same changed</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-retention-interval">retention interval</a>, <a href="vocabulary.html#setting-set-size">set size</a>
 - **Material:** Arrays of colored squares (or oriented bars) in which one item may change color between the memory array and the test array.
 

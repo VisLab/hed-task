@@ -13,19 +13,24 @@ Brief central identification combined with peripheral localization under increas
 
 The Useful Field of View test measures the visual field area over which information can be rapidly extracted without eye or head movements. It consists of three subtests of increasing complexity: (1) central target identification (processing speed), (2) central identification with simultaneous peripheral target localization (divided attention), and (3) the same dual-task with embedded distractors (selective attention). Each subtest uses a staircase procedure to determine the shortest display duration achieving 75% accuracy. The UFOV was originally developed for assessing driving fitness in older adults and has become the standard measure of functional visual attention, with strong predictive validity for crash risk, instrumental activities of daily living, and cognitive decline.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-noise-or-mask">noise or mask</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-older-adults">older adults</a>, <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What competes with the correct response?* <a href="vocabulary.html#rule-respond-to-rule-competitor-noise-or-mask">noise or mask</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - Population: <a href="vocabulary.html#facet-population-older-adults">older adults</a>, <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-eccentricity">eccentricity</a>, <a href="vocabulary.html#setting-number-of-distractors">number of distractors</a>, <a href="vocabulary.html#setting-presentation-duration">presentation duration</a>
 - **Material:** Brief displays with a central target, a peripheral target at varying eccentricity, and in the third subtest surrounding distractors.
 - **Combined with:** <a href="vocabulary.html#how-throughout">throughout</a>, [Fixate Task](hedtsk_fixate.md) (Gaze is held on the fixation target while the main game is played)

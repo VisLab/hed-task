@@ -1,11 +1,12 @@
-"""Generate the task vocabulary page and the two listings built on it.
+"""Generate the game vocabulary page and the two listings built on it.
 
 Files written, all under docs/source/tasks/ (a generated path):
 
-- vocabulary.md     every term a task page uses to describe a task: the game types, the
-                    rules of each game type with their defaults and values, the
-                    motivation questions, the phases, the settings, the ways of combining
-                    games, and the nine facets with their values, definitions and HED tags
+- vocabulary.md     every term a task page uses to model a task as a game, in the order
+                    of the five parts of the model: the game types, the rules of each
+                    game type with their defaults and values, the motivator questions,
+                    the phases, and the nine facets with their values, definitions and
+                    HED tags; then the settings and the ways of combining games
 - by_game_type.md   one section per game type, listing the tasks whose standard form is
                     that game
 - by_facet.md       one section per facet, one line per value: the tasks whose standard
@@ -62,14 +63,16 @@ def _target(anchor: str, value: str) -> str:
 def _vocabulary(games: dict, facets: list[dict]) -> str:
     """Return the Markdown of vocabulary.md."""
     parts = [
-        "# Task vocabulary\n\n",
-        "The terms the task pages use to describe a task. A task's standard form is one\n"
-        "**game type**; it states the **rules** of that game on which it departs from the\n"
-        "default, why the player tries (**motivation**), and one or more values of each\n"
-        "**facet** that applies. It may also name its **phases**, the **settings** a study\n"
-        "chooses, and other games it is **combined** with. A variant states only what it\n"
-        "changes. Each value below has its own anchor, which the task pages link to. The source\n"
-        "files are `data/task_game_defs.json` and `data/task_facet_defs.json`.\n\n",
+        "# Game vocabulary\n\n",
+        "The terms in which a task is modeled as a game; [the task model](../task_model.md)\n"
+        "explains them. A model has five parts. The standard form of a task is one\n"
+        "**game type**; it states the **game rules** on which it departs from the default,\n"
+        "the **game motivators** (why the player tries), any **game phases** beyond the\n"
+        "game's own structure, and one or more values of each **game facet** that applies.\n"
+        "A model may also name the **settings** a study chooses and other games it is\n"
+        "**combined** with. A variant states only what it changes. Each value below has its\n"
+        "own anchor, which the task pages link to. The source files are\n"
+        "`data/task_game_defs.json` and `data/task_facet_defs.json`.\n\n",
         "## Game types\n\n",
     ]
     rows = [
@@ -83,7 +86,7 @@ def _vocabulary(games: dict, facets: list[dict]) -> str:
     ]
     parts.append(table(["Game type", "Name", "What the player does", "Boundary"], rows) + "\n\n")
 
-    parts.append("## Rules\n\n")
+    parts.append("## Game rules\n\n")
     no_rules = [g["name"] for g in games["game_types"] if not g.get("rules")]
     parts.append(
         "Each game type has its own rules. A rule a task does not state takes its default; a\n"
@@ -106,32 +109,34 @@ def _vocabulary(games: dict, facets: list[dict]) -> str:
             ]
             parts.append(table(["Value", "Definition"], rows) + "\n\n")
 
-    parts.append("## Motivation\n\n")
+    parts.append("## Game motivators\n\n")
     parts.append("Why the player tries. Every task answers the first question; the others are answered where they apply.\n\n")
-    for m in games["motivation"]:
+    for m in games["motivators"]:
         required = " Every task answers it." if m.get("required") else ""
         parts.append(
-            f'<span id="{vocab_anchor("motivation", m["key"])}"></span>**{m["question"]}** Key `{m["key"]}`.{required}\n\n'
+            f'<span id="{vocab_anchor("motivator", m["key"])}"></span>**{m["question"]}** Key `{m["key"]}`.{required}\n\n'
         )
         rows = [
-            [_target(vocab_anchor("motivation", m["key"], v["value"]), v["value"]), cell(v["definition"])] for v in m["values"]
+            [_target(vocab_anchor("motivator", m["key"], v["value"]), v["value"]), cell(v["definition"])] for v in m["values"]
         ]
         parts.append(table(["Value", "Definition"], rows) + "\n\n")
 
-    for heading, intro, items, key, column in (
-        ("Phases", "Named parts of a task that a study reports separately.", games["phases"], "phase", "Phase"),
-        ("Settings", "Quantities a study chooses when it runs the task.", games["settings"], "setting", "Setting"),
-        ("Ways of combining", "How a second game is played alongside the task's own.", games["combinations"], "how", "Way"),
-    ):
-        parts.append(f"## {heading}\n\n{intro}\n\n")
-        rows = [[_target(vocab_anchor(key, i[key]), i[key]), cell(i["definition"])] for i in items]
-        parts.append(table([column, "Definition"], rows) + "\n\n")
-
-    parts.append("## Facets\n\n")
     parts.append(
-        "What the participant sees, uses and is, recorded as values that are present (there are\n"
-        f"no 'none' values). There are {len(facets)} facets. The HED tags column gives the tags a\n"
-        "value corresponds to.\n\n"
+        _simple_section(
+            "Game phases",
+            "Named parts of a game beyond the structure its game type already has, which a study\n"
+            "reports separately. A task with no such part names no phase.",
+            games["phases"],
+            "phase",
+            "Phase",
+        )
+    )
+
+    parts.append("## Game facets\n\n")
+    parts.append(
+        "How the game is delivered: what the participant sees, uses and is, recorded as values\n"
+        f"that are present (there are no 'none' values). There are {len(facets)} facets. The HED\n"
+        "tags column gives the tags a value corresponds to.\n\n"
     )
     for f in facets:
         parts.append(f"### {facet_label(f['facet'])}\n\n")
@@ -149,7 +154,41 @@ def _vocabulary(games: dict, facets: list[dict]) -> str:
                 ]
             )
         parts.append(table(["Value", "Definition", "HED tags"], rows) + "\n\n")
+
+    parts.append(
+        _simple_section(
+            "Settings",
+            "Quantities a study chooses when it runs the game. A task model names them; a model of\n"
+            "the task in one paper gives their values.",
+            games["settings"],
+            "setting",
+            "Setting",
+        )
+    )
+    parts.append(
+        _simple_section(
+            "Ways of combining games",
+            "How a second game is played alongside the main one.",
+            games["combinations"],
+            "how",
+            "Way",
+        )
+    )
     return "".join(parts).rstrip("\n") + "\n"
+
+
+def _simple_section(heading: str, intro: str, items: list[dict], key: str, column: str) -> str:
+    """Return one section of vocabulary.md that is a single table of name and definition.
+
+    Parameters:
+        heading: The section heading.
+        intro: The sentence under the heading.
+        items: The vocabulary entries.
+        key: The key of an entry that holds its name; also the anchor kind.
+        column: The header of the name column.
+    """
+    rows = [[_target(vocab_anchor(key, i[key]), i[key]), cell(i["definition"])] for i in items]
+    return f"## {heading}\n\n{intro}\n\n" + table([column, "Definition"], rows) + "\n\n"
 
 
 def _task_md(t: dict) -> str:
@@ -161,8 +200,8 @@ def _by_game_type(games: dict, tasks: list[dict]) -> str:
     parts = [
         "# Tasks by game type\n\n",
         "Every task under the game its standard form is. The game types are defined on the\n"
-        "[task vocabulary](vocabulary.md) page; a task's own rules are on its page, under\n"
-        '"At a glance".\n\n',
+        "[game vocabulary](vocabulary.md) page; a task's own rules are on its page, under\n"
+        '"Game model".\n\n',
     ]
     for g in games["game_types"]:
         members = [t for t in tasks if t["game_type"] == g["game_type"]]
@@ -181,7 +220,7 @@ def _by_facet(facets: list[dict], tasks: list[dict]) -> str:
         "# Tasks by facet\n\n",
         "For each facet value, the tasks whose standard form carries it and, after them, the\n"
         "variants that state it (a variant inherits the standard form's values for every facet\n"
-        "it does not state). The values are defined on the [task vocabulary](vocabulary.md)\n"
+        "it does not state). The values are defined on the [game vocabulary](vocabulary.md)\n"
         "page.\n\n",
     ]
     for f in facets:

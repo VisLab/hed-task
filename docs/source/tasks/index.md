@@ -1,17 +1,20 @@
 # Tasks
 
-The Catalog defines 110 standard cognitive and behavioral neuroscience tasks.
-Each task page gives the canonical name and aliases, a description, the inclusion
-test that decides whether an experiment is an instance of the task, an at-a-glance
-summary of its standard form in the terms of the [task vocabulary](vocabulary.md), its
-variants, the cognitive processes it engages, and references.
+The task catalog holds 110 traditional cognitive and behavioral neuroscience tasks, the
+starting point of the HED task models. They were drawn from the Cognitive Atlas, with gaps
+filled from the literature, and each is modeled as a game. Each task page gives the canonical
+name and aliases, a description, the game model of the standard form of the task (its game
+type, rules, motivators, phases and facets, in the terms of the
+[game vocabulary](vocabulary.md)), the inclusion test that decides whether an experiment is
+an instance of the task, its variants, the cognitive processes it engages, and references.
+[The task model](../task_model.md) explains the parts.
 
 Tasks are filed under 20 **task families** by what the participant does,
-not by which process the task is thought to measure. The Catalog's process list covers that
+not by which process the task is thought to measure. The list of cognitive processes covers that
 other axis, and the two cross-link. Families are organizational, not a hierarchy. Every
 task has one **primary** family, where its page is filed, and may be cross-listed under
 others as a **secondary** member; 15 tasks are cross-listed at present. The
-assignments are curation decisions and are expected to change as the Catalog grows;
+assignments are curation decisions and are expected to change as the task catalog grows;
 15 memberships are marked `review`. The
 [task family assignment rules](../methods/task_criteria/06_task_family_assignment.md)
 say how families are assigned.
@@ -30,8 +33,8 @@ Ways in:
   know the name and not the family.
 - [Tasks by game type](by_game_type.md) lists the tasks under the game their standard form is.
 - [Tasks by facet](by_facet.md) lists, for each facet value, the tasks and variants that carry it.
-- The [task vocabulary](vocabulary.md) defines every game type, rule, motivation answer, phase,
-  setting, way of combining and facet value used on the task pages.
+- The [game vocabulary](vocabulary.md) defines every game type, rule, motivator, phase and facet
+  value used on the task pages, with the settings and the ways of combining games.
 
 ## Families at a glance
 
@@ -66,5 +69,5 @@ Tasks by family <tasks_by_family>
 Tasks alphabetically <tasks_alphabetically>
 Tasks by game type <by_game_type>
 Tasks by facet <by_facet>
-Task vocabulary <vocabulary>
+Game vocabulary <vocabulary>
 ```

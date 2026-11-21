@@ -13,23 +13,28 @@ Actions are reinforced by contingent outcomes under defined schedules; response 
 
 In instrumental conditioning, voluntary actions are associated with rewarding or punishing consequences through repeated experience. Laboratory implementations present discrete choice options where specific responses are followed by desirable outcomes (food, money, points) or undesirable outcomes (loss, punishment). Common schedules include fixed-ratio, variable-ratio, fixed-interval, and variable-interval. Performance measures include response rates, choice patterns, and reaction times. The ventral striatum, dopamine system, and orbitofrontal cortex are critical for representing value predictions and learning from outcomes.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
-- **What is traded against what?** <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-amount-vs-effort">amount vs effort</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
-- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
-- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
-- **What is the outcome?** <a href="vocabulary.html#motivation-what-food">food</a>, <a href="vocabulary.html#motivation-what-money">money</a>, <a href="vocabulary.html#motivation-what-points">points</a>
-- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-food">food</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> (`choose_for_outcomes`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-amount-vs-effort">amount vs effort</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
+  - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-gain">gain</a>
+  - *What earns the outcome?* <a href="vocabulary.html#motivator-earned-by-choice">choice</a>
+  - *What is the outcome?* <a href="vocabulary.html#motivator-what-food">food</a>, <a href="vocabulary.html#motivator-what-money">money</a>, <a href="vocabulary.html#motivator-what-points">points</a>
+  - *Is the outcome real?* <a href="vocabulary.html#motivator-real-paid">paid</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-food">food</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Material:** Choice options whose responses are followed, on a reinforcement schedule, by rewards (food, money, points) or losses.
 
 ## Inclusion test
@@ -104,7 +109,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Avoidance Learning
 
     `hedvar_instrumental_conditioning__avoidance_learning`
-  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>, <a href="vocabulary.html#facet-stimulus-modality-somatic">somatic</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-noise">noise</a>, <a href="vocabulary.html#facet-stimulus-type-electrical">electrical</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>; sign: <a href="vocabulary.html#motivation-sign-loss">loss</a>; what: <a href="vocabulary.html#motivation-what-aversive">aversive</a>
+  - stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>, <a href="vocabulary.html#facet-stimulus-modality-somatic">somatic</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-noise">noise</a>, <a href="vocabulary.html#facet-stimulus-type-electrical">electrical</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>; sign: <a href="vocabulary.html#motivator-sign-loss">loss</a>; what: <a href="vocabulary.html#motivator-what-aversive">aversive</a>
   - [Avoidance motivation](../processes/reward_anticipation_and_motivation.md#hed-avoidance-motivation), [Auditory perception](../processes/auditory_and_pre_attentive_deviance_processing.md#hed-auditory-perception), [Somatosensory perception](../processes/face_and_object_perception.md#hed-somatosensory-perception)
   - The response prevents an unpleasant outcome (shock, noise, loss of money) instead of earning a reward.
 ```

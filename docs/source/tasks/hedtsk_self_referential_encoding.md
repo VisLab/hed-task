@@ -13,22 +13,27 @@ Participants judge whether trait adjectives describe themselves vs. another pers
 
 The Self-Referential Encoding Task exploits the robust finding that information encoded in relation to the self is remembered better than information encoded in other ways (the self-reference effect; Rogers, Kuiper, & Kirker, 1977). In the standard paradigm, participants view trait adjectives and make judgments under different encoding conditions: 'Does this word describe you?' (self-reference), 'Does this word describe [other person]?' (other-reference), 'Is this a positive word?' (semantic), or 'Is this word in uppercase?' (structural). A surprise recall or recognition test follows. The self-reference effect is the recall advantage for self-encoded items over semantic or other-reference conditions. Beyond the memory effect, the pattern of adjective endorsement (which traits are endorsed as self-descriptive) provides a direct window into self-concept content. This has made the task central to depression research: depressed individuals endorse more negative and fewer positive adjectives as self-descriptive, and show reduced or reversed self-reference memory effects for positive material. The paradigm engages cortical midline structures (medial prefrontal cortex, posterior cingulate) associated with self-referential processing, making it a standard fMRI probe of the default mode network.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
-- **How long is it held?** <a href="vocabulary.html#rule-study-then-test-retention-interval-surprise">surprise</a>
-- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-free-recall">free recall</a>
-- **What does the player do while studying?** <a href="vocabulary.html#rule-study-then-test-study-job-self-reference-judgment">self reference judgment</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
-- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-explicit-social-task">explicit social task</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-study-then-test">Study, then be tested</a> (`study_then_test`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *How long is it held?* <a href="vocabulary.html#rule-study-then-test-retention-interval-surprise">surprise</a>
+  - *What form does the test take?* <a href="vocabulary.html#rule-study-then-test-test-form-free-recall">free recall</a>
+  - *What does the player do while studying?* <a href="vocabulary.html#rule-study-then-test-study-job-self-reference-judgment">self reference judgment</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - Social aspect: <a href="vocabulary.html#facet-social-aspect-explicit-social-task">explicit social task</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Material:** Trait adjectives (positive, negative or neutral) with a question asking whether each describes oneself or another person, is positive, or is in uppercase.
 
 ## Inclusion test

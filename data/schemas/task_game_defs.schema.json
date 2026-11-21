@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Task game definitions",
-  "description": "The vocabulary of the game model of tasks: game types with their rules, defaults and values, the motivation questions, phase names, the ways two games combine, and the settings studies vary.",
+  "description": "The vocabulary of the game model of tasks: game types with their rules, defaults and values, the motivator questions, phase names, the ways two games combine, and the settings studies vary.",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "game_types",
-    "motivation",
+    "motivators",
     "phases",
     "combinations",
     "settings"
@@ -101,7 +101,7 @@
         }
       }
     },
-    "motivation": {
+    "motivators": {
       "type": "array",
       "minItems": 1,
       "items": {

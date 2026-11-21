@@ -13,20 +13,25 @@ Timed paper-and-pencil or computerized task: substitute digits for symbols (or v
 
 The Digit Symbol Substitution Test (also known as Symbol Digit Modalities Test, SDMT, in its symbol-to-digit variant) is one of the most sensitive neuropsychological measures of processing speed and cognitive efficiency. Participants view a key pairing digits 1-9 with unique abstract symbols. They then fill in the corresponding symbol for each digit in a series (DSST) or write the digit for each symbol (SDMT), working as quickly and accurately as possible for 90-120 seconds. The number of correct substitutions is the primary score. The DSST/SDMT is included in the WAIS and is among the most sensitive tests for detecting cognitive impairment from neurological conditions, medication side effects, and normal aging.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-generate">generate</a>
-- **How do the stimuli arrive?** <a href="vocabulary.html#rule-respond-to-rule-stream-continuous">continuous</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructed-emphasis">instructed emphasis</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What does the rule ask about each stimulus?* <a href="vocabulary.html#rule-respond-to-rule-rule-asks-generate">generate</a>
+  - *How do the stimuli arrive?* <a href="vocabulary.html#rule-respond-to-rule-stream-continuous">continuous</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructed-emphasis">instructed emphasis</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>
 - **Material:** A key pairing the digits 1-9 with abstract symbols, and a long series of digits (or symbols) to fill in.
 

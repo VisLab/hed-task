@@ -13,20 +13,25 @@ Participants must suppress a prepotent saccade toward a peripheral cue and gener
 
 The Anti-Saccade Task measures voluntary control over reflexive eye movements. Participants fixate centrally while a peripheral stimulus suddenly appears in the left or right visual field. Instead of looking toward the stimulus (the reflexive prosaccade), participants must look in the opposite direction (antisaccade). This requires inhibiting the automatic orienting response and generating a volitional saccade. Performance is measured by antisaccade accuracy, latency, and the rate of prosaccadic intrusions (errors). The task indexes voluntary oculomotor control and prefrontal inhibitory function.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>
-- **Must the player ever hold back?** <a href="vocabulary.html#rule-respond-to-rule-response-demand-respond-opposite">respond opposite</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-eye-tracker">eye tracker</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What does the rule ask about each stimulus?* <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>
+  - *Must the player ever hold back?* <a href="vocabulary.html#rule-respond-to-rule-response-demand-respond-opposite">respond opposite</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-eye-tracker">eye tracker</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-eccentricity">eccentricity</a>, <a href="vocabulary.html#setting-retention-interval">retention interval</a>
 - **Material:** A central fixation point and a stimulus that appears suddenly in the left or right periphery.
 - **Combined with:** <a href="vocabulary.html#how-chained">chained</a>, [Fixate Task](hedtsk_fixate.md) (Gaze is held on the fixation target until the peripheral target appears)

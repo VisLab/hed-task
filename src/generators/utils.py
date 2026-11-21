@@ -210,7 +210,7 @@ def count_phrase(n: int, singular: str, plural: str | None = None) -> str:
 
 
 # ---------------------------------------------------------------------------
-# The task vocabulary page (docs/source/tasks/vocabulary.md)
+# The game vocabulary page (docs/source/tasks/vocabulary.md)
 #
 # Every vocabulary value has one stable anchor on that page, written as an HTML id in
 # the value's table cell. Links to it are inline HTML, as in the pop-up cards: a Markdown
@@ -221,9 +221,9 @@ def vocab_anchor(kind: str, *parts: str) -> str:
     """Return the anchor of a vocabulary entry on tasks/vocabulary.md.
 
     Parameters:
-        kind: "game", "rule", "motivation", "phase", "setting", "how" or "facet".
+        kind: "game", "rule", "motivator", "phase", "setting", "how" or "facet".
         parts: The entry's keys, outermost first: a game type; a game type, rule and
-            value; a motivation question and value; a facet and value; and so on.
+            value; a motivator question and value; a facet and value; and so on.
     """
     return "-".join([kind, *parts]).replace("_", "-")
 

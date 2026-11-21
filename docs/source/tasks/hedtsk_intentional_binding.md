@@ -13,18 +13,23 @@ Participants judge the perceived time of a voluntary action and/or its sensory e
 
 The Intentional Binding Task (Haggard, Clark, & Kalogeras, 2002) measures the implicit sense of agency through perceived temporal shifts between voluntary actions and their sensory consequences. Participants watch a rotating clock hand (Libet clock) and make voluntary key presses that produce a tone after a fixed delay (typically 250 ms). In separate blocks, they report either the perceived time of their action (action binding: judged time shifts toward the tone) or the perceived time of the tone (effect binding: judged time shifts toward the action). The net temporal compression between action and effect - intentional binding - is taken as an implicit, pre-reflective marker of the sense of agency. Involuntary actions (e.g., TMS-induced movements) or externally triggered tones produce temporal repulsion rather than binding, establishing the specificity of the effect to voluntary agency. The paradigm has become the standard implicit measure of sense of agency, complementing explicit agency judgments. It is sensitive to disorders of agency including schizophrenia (reduced binding, especially in patients with passivity experiences), functional neurological disorder, and anarchic hand syndrome. Computational accounts link binding to motor prediction: the forward model predicts sensory consequences of voluntary actions, and the match between prediction and outcome generates the binding effect.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-report-on-self">report on self</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-report-on-self">Report on yourself</a> (`report_on_self`)
+- **Game rules:** none are defined for this game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-delay-to-outcome">delay to outcome</a>, <a href="vocabulary.html#setting-reward-probability">reward probability</a>
 - **Material:** A rotating clock hand (Libet clock) and a tone that follows the key press after a fixed delay.
 
@@ -90,7 +95,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Outcome Valence Manipulation
 
     `hedvar_intentional_binding__outcome_valence_manipulation`
-  - emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-nonvocal-sounds">nonvocal sounds</a>, <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>; drive: <a href="vocabulary.html#motivation-drive-unearned-outcome">unearned outcome</a>; sign: <a href="vocabulary.html#motivation-sign-both">both</a>; earned by: <a href="vocabulary.html#motivation-earned-by-nothing">nothing</a>; what: <a href="vocabulary.html#motivation-what-money">money</a>
+  - emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>; stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-nonvocal-sounds">nonvocal sounds</a>, <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>; drive: <a href="vocabulary.html#motivator-drive-unearned-outcome">unearned outcome</a>; sign: <a href="vocabulary.html#motivator-sign-both">both</a>; earned by: <a href="vocabulary.html#motivator-earned-by-nothing">nothing</a>; what: <a href="vocabulary.html#motivator-what-money">money</a>
   - -
   - The press produces a pleasant, unpleasant or neutral sound, or wins or loses money, and binding is compared across outcomes.
 ```

@@ -13,19 +13,24 @@ Reading or listening to locally ambiguous sentences; reading-time disruptions an
 
 Participants read sentences containing temporary syntactic ambiguities (garden-path sentences) that initially lead to an incorrect parse before disambiguating information forces reanalysis. Classic example: "The horse raced past the barn fell." Sentences may be presented word-by-word (self-paced reading) or while eye movements are tracked. Comprehension is assessed via subsequent questions. Neuroimaging reveals left inferior frontal and temporal activation during syntactic reanalysis. The task probes how the parser uses syntactic, semantic, and probabilistic cues in real-time language processing.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-undergo-stream">undergo stream</a>
-- **Is anything asked afterwards?** <a href="vocabulary.html#rule-undergo-stream-report-after-comprehension-question">comprehension question</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-text">text</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-undergo-stream">Watch or listen</a> (`undergo_stream`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *Is anything asked afterwards?* <a href="vocabulary.html#rule-undergo-stream-report-after-comprehension-question">comprehension question</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-text">text</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Material:** Written sentences with a temporary syntactic ambiguity (garden-path sentences such as The horse raced past the barn fell), varying in ambiguity type, disambiguation point, plausibility and preceding context.
 
 ## Inclusion test

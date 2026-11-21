@@ -13,25 +13,30 @@ Sequential two-choice task with probabilistic transitions to second-stage states
 
 Participants make two sequential choices per trial. The first-stage choice leads (with fixed transition probabilities - 70% common, 30% rare) to one of two second-stage states, each containing its own pair of options. Second-stage options yield rewards with slowly drifting probabilities. Daw et al. (2011) designed this task to dissociate model-based reinforcement learning (using knowledge of the transition structure to plan) from model-free reinforcement learning (repeating previously rewarded actions regardless of transition type). The diagnostic signature is the interaction between reward and transition type on subsequent first-stage choices: model-based agents show opposite stay/switch patterns after common vs. rare transitions, while model-free agents show the same pattern regardless of transition type.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
-- **What is traded against what?** <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-explore-vs-exploit">explore vs exploit</a>
-- **Does what pays change?** <a href="vocabulary.html#rule-choose-for-outcomes-contingency-stability-drifting">drifting</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
-- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
-- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
-- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>
-- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> (`choose_for_outcomes`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-explore-vs-exploit">explore vs exploit</a>
+  - *Does what pays change?* <a href="vocabulary.html#rule-choose-for-outcomes-contingency-stability-drifting">drifting</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
+  - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-gain">gain</a>
+  - *What earns the outcome?* <a href="vocabulary.html#motivator-earned-by-choice">choice</a>
+  - *What is the outcome?* <a href="vocabulary.html#motivator-what-money">money</a>
+  - *Is the outcome real?* <a href="vocabulary.html#motivator-real-paid">paid</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>
 - **Material:** A pair of first-stage options leading by common (70%) or rare (30%) transitions to one of two second-stage pairs whose reward probabilities drift slowly.
 

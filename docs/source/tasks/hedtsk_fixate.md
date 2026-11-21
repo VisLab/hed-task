@@ -13,18 +13,23 @@ Participant holds gaze on a fixation target. It is used in two ways: as a block 
 
 A fixation target, usually a cross or dot at the centre of the screen, is shown and the participant is instructed to keep looking at it for the duration of the block. Nothing else is presented and no response is made. Fixation blocks serve as the implicit baseline in block-design fMRI, as the inter-block interval in many EEG designs, and as the control condition for localizers. Gaze may be monitored with an eye tracker, but that is a matter of measurement and does not make a different task. The distinction from an eyes-open Rest Task is the instruction: here fixation is the required activity, not a convenience. Fixation is also held throughout other tasks, as in spatial cueing, where attention moves to the cued location while the eyes stay on the cross; there it is a second job done alongside the main one. In both uses the participant keeps attention on the target and holds back the urge to look away.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-hold-state">hold state</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-hold-state">Hold a state</a> (`hold_state`)
+- **Game rules:** none are defined for this game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>
 - **Material:** A fixation cross or dot at the center of the screen, on a blank or static background.
 

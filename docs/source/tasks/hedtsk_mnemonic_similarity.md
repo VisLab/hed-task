@@ -13,19 +13,24 @@ Incidental encoding of images followed by a test with old, new, and lure items; 
 
 The Mnemonic Similarity Task measures hippocampal pattern separation - the ability to distinguish similar but not identical memory representations. During encoding, participants view a series of everyday object images. At test, they classify each image as "old" (previously seen), "similar" (a different exemplar of a studied object with slight visual changes), or "new" (novel). The critical measure is the ability to correctly identify "similar" lures as similar rather than incorrectly endorsing them as old. This discrimination (lure discrimination index) is thought to rely on dentate gyrus/CA3 pattern separation processes and is impaired in early-stage Alzheimer's disease and normal aging.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
-- **What does the player do while studying?** <a href="vocabulary.html#rule-study-then-test-study-job-incidental-judgment">incidental judgment</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-study-then-test">Study, then be tested</a> (`study_then_test`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What does the player do while studying?* <a href="vocabulary.html#rule-study-then-test-study-job-incidental-judgment">incidental judgment</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-list-length">list length</a>, <a href="vocabulary.html#setting-retention-interval">retention interval</a>, <a href="vocabulary.html#setting-stimulus-similarity">stimulus similarity</a>
 - **Material:** Pictures of everyday objects, and at test the same objects, new objects and similar lures that differ slightly.
 

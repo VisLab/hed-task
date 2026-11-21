@@ -13,20 +13,25 @@ A brief target is rendered invisible or reduced in visibility by a preceding or 
 
 Participants attempt to detect or discriminate brief, near-threshold visual stimuli that are rendered difficult to see through low contrast, brief duration, or metacontrast masking (a spatially adjacent, temporally trailing mask that suppresses visibility of the target without overlapping it spatially). The key dependent variable is not only accuracy but the relationship between trial-by-trial detection success and prestimulus brain states - particularly the phase and power of ongoing alpha (~10 Hz) and theta (~7 Hz) oscillations recorded via EEG. This paradigm demonstrates that conscious visual perception is not a passive, deterministic process but is gated by rhythmic fluctuations in cortical excitability, supporting pulsed-inhibition and perceptual-sampling theories.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
-- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-noise-or-mask">noise or mask</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What does the rule ask about each stimulus?* <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+  - *What competes with the correct response?* <a href="vocabulary.html#rule-respond-to-rule-competitor-noise-or-mask">noise or mask</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-spatial-separation">spatial separation</a>, <a href="vocabulary.html#setting-stimulus-intensity">stimulus intensity</a>, <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
 - **Material:** A brief, near-threshold target with a mask before or after it (metacontrast, pattern and other mask types).
 

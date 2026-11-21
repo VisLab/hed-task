@@ -13,22 +13,27 @@ A rapid stream of visual items is presented at a single location (typically 6-20
 
 Rapid Serial Visual Presentation (RSVP) is a paradigm for studying the temporal dynamics of visual attention. A stream of visual items (letters, digits, words, images, or complex scenes) is presented sequentially at a single spatial location at rates of 6-20 items per second. Participants must detect, identify, or categorize one or more targets embedded among distractors. The signature finding is the attentional blink (Raymond, Shapiro, & Arnell, 1992): when two targets appear in the stream, detection of the second target (T2) is severely impaired when it follows the first target (T1) by approximately 200-500 ms (lag 2-5), recovering at longer lags. Lag-1 sparing (intact T2 detection when T2 immediately follows T1) is a robust exception. The attentional blink reveals fundamental bottlenecks in temporal attention and has generated competing theoretical accounts: the two-stage model (Chun & Potter, 1995), the episodic simultaneous type/serial token model (Bowman & Wyble, 2007), and the boost-and-bounce model (Olivers & Meeter, 2008). Beyond the attentional blink, RSVP is used to study categorical perception (rapid scene gist extraction), emotion-attention interactions (emotion-induced blindness), and rapid image triage. Applications include brain-computer interfaces (RSVP-based P300 spellers and image triage systems, including satellite imagery analysis), clinical assessment of temporal attention in ADHD and dyslexia, and speed-reading technologies.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-identify">identify</a>
-- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-neighbouring-items">neighbouring items</a>
-- **How often is there a target?** <a href="vocabulary.html#rule-respond-to-rule-target-rate-rare-target">rare target</a>
-- **How do the stimuli arrive?** <a href="vocabulary.html#rule-respond-to-rule-stream-rapid-stream">rapid stream</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What does the rule ask about each stimulus?* <a href="vocabulary.html#rule-respond-to-rule-rule-asks-identify">identify</a>
+  - *What competes with the correct response?* <a href="vocabulary.html#rule-respond-to-rule-competitor-neighbouring-items">neighbouring items</a>
+  - *How often is there a target?* <a href="vocabulary.html#rule-respond-to-rule-target-rate-rare-target">rare target</a>
+  - *How do the stimuli arrive?* <a href="vocabulary.html#rule-respond-to-rule-stream-rapid-stream">rapid stream</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-number-of-targets">number of targets</a>, <a href="vocabulary.html#setting-presentation-rate">presentation rate</a>, <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>, <a href="vocabulary.html#setting-stimulus-similarity">stimulus similarity</a>
 - **Material:** A stream of letters, digits, words or images at one location at 6-20 items per second, with one or two targets among distractors.
 

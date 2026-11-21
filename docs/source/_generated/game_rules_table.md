@@ -1,0 +1,33 @@
+| Game type | Rule question | Default answer | Other answers |
+|---|---|---|---|
+| Respond under a rule | <a href="tasks/vocabulary.html#rule-respond-to-rule-competitor">What competes with the correct response?</a> | `none` | `neighbouring_items`, `irrelevant_dimension`, `noise_or_mask`, `preceding_prime`, `previous_rule` |
+| Respond under a rule | <a href="tasks/vocabulary.html#rule-respond-to-rule-cue">Does a cue come before the target?</a> | `none` | `location_cue`, `incentive_cue`, `rule_cue`, `alerting_cue`, `demand_probability_cue`, `feature_cue` |
+| Respond under a rule | <a href="tasks/vocabulary.html#rule-respond-to-rule-reference">Is something held in mind to compare against?</a> | `none` | `held_in_mind` |
+| Respond under a rule | <a href="tasks/vocabulary.html#rule-respond-to-rule-response-demand">Must the player ever hold back?</a> | `always_respond` | `withhold_on_some`, `cancel_on_signal`, `respond_opposite` |
+| Respond under a rule | <a href="tasks/vocabulary.html#rule-respond-to-rule-rule-asks">What does the rule ask about each stimulus?</a> | `classify` | `detect`, `compare`, `localize`, `generate`, `identify`, `count` |
+| Respond under a rule | <a href="tasks/vocabulary.html#rule-respond-to-rule-rule-source">Where does the rule come from?</a> | `instructed` | `hidden_regularity`, `learned_from_feedback` |
+| Respond under a rule | <a href="tasks/vocabulary.html#rule-respond-to-rule-rule-stability">Does the rule change during play?</a> | `fixed` | `shifts_unsignalled`, `switches_on_cue` |
+| Respond under a rule | <a href="tasks/vocabulary.html#rule-respond-to-rule-stream">How do the stimuli arrive?</a> | `discrete_trials` | `continuous`, `rapid_stream` |
+| Respond under a rule | <a href="tasks/vocabulary.html#rule-respond-to-rule-target-rate">How often is there a target?</a> | `every_trial` | `rare_target` |
+| Study, then be tested | <a href="tasks/vocabulary.html#rule-study-then-test-cycles">How many study-test rounds?</a> | `one` | `learn_to_criterion`, `repeated_lists` |
+| Study, then be tested | <a href="tasks/vocabulary.html#rule-study-then-test-inserted-judgment">Is a judgment about one's own memory added?</a> | `none` | `after_failed_recall`, `at_study` |
+| Study, then be tested | <a href="tasks/vocabulary.html#rule-study-then-test-interval-filler">What fills the interval?</a> | `nothing` | `distraction`, `interference_list` |
+| Study, then be tested | <a href="tasks/vocabulary.html#rule-study-then-test-study-and-test">Are study and test separate?</a> | `separate` | `merged` |
+| Study, then be tested | <a href="tasks/vocabulary.html#rule-study-then-test-retention-interval">How long is it held?</a> | `minutes` | `seconds`, `surprise`, `hours_or_days` |
+| Study, then be tested | <a href="tasks/vocabulary.html#rule-study-then-test-studied-material">What is studied?</a> | `items` | `pairs`, `sequence_order`, `items_with_context` |
+| Study, then be tested | <a href="tasks/vocabulary.html#rule-study-then-test-study-instruction">What is the player told to remember?</a> | `remember_all` | `remember_or_forget_by_cue` |
+| Study, then be tested | <a href="tasks/vocabulary.html#rule-study-then-test-study-job">What does the player do while studying?</a> | `view` | `incidental_judgment`, `self_reference_judgment` |
+| Study, then be tested | <a href="tasks/vocabulary.html#rule-study-then-test-test-form">What form does the test take?</a> | `cued_recall` | `forced_choice`, `free_recall`, `serial_recall`, `old_new`, `old_new_remember_know`, `same_changed`, `source_attribution` |
+| Choose for a payoff | <a href="tasks/vocabulary.html#rule-choose-for-outcomes-contingency-cue">Does a cue say which payoffs are in force?</a> | `none` | `per_trial_cue` |
+| Choose for a payoff | <a href="tasks/vocabulary.html#rule-choose-for-outcomes-contingency-stability">Does what pays change?</a> | `fixed` | `drifting`, `reversal` |
+| Choose for a payoff | <a href="tasks/vocabulary.html#rule-choose-for-outcomes-option-set">What are the options?</a> | `k_hidden_outcome` | `stimulus_pairs`, `two_described`, `one_option_with_stop` |
+| Choose for a payoff | <a href="tasks/vocabulary.html#rule-choose-for-outcomes-outcome-knowledge">How does the player learn what pays?</a> | `experienced` | `described` |
+| Choose for a payoff | <a href="tasks/vocabulary.html#rule-choose-for-outcomes-tradeoff">What is traded against what?</a> | `amount_vs_risk` | `amount_vs_effort`, `explore_vs_exploit`, `probability_learning`, `amount_vs_delay` |
+| Play against another player | <a href="tasks/vocabulary.html#rule-interact-with-agent-exit-option">Can a player opt out?</a> | `none` | `available` |
+| Play against another player | <a href="tasks/vocabulary.html#rule-interact-with-agent-move-order">In what order?</a> | `sequential` | `simultaneous` |
+| Play against another player | <a href="tasks/vocabulary.html#rule-interact-with-agent-partner">Who is the other player?</a> | `human` | `computer`, `group` |
+| Play against another player | <a href="tasks/vocabulary.html#rule-interact-with-agent-players-acting">Who makes a move?</a> | `both` | `several` |
+| Play against another player | <a href="tasks/vocabulary.html#rule-interact-with-agent-repetition">Is the game played once or repeatedly?</a> | `one_shot` | `iterated` |
+| Play against another player | <a href="tasks/vocabulary.html#rule-interact-with-agent-transfer-transformation">Is what is sent changed on the way?</a> | `none` | `multiplied` |
+| Watch or listen | <a href="tasks/vocabulary.html#rule-undergo-stream-instruction">What is the player told to do while it runs?</a> | `attend` | `none`, `regulate`, `incidental_judgment` |
+| Watch or listen | <a href="tasks/vocabulary.html#rule-undergo-stream-report-after">Is anything asked afterwards?</a> | `rating` | `comprehension_question`, `none`, `judgment` |

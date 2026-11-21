@@ -16,7 +16,7 @@ from pathlib import Path
 
 # -- Project information -----------------------------------------------------
 
-project = "HED Task Catalog"
+project = "HED task models"
 copyright = f"2026-{date.today().year}, HED Working Group"
 author = "HED Working Group"
 release = "1.0.0"
@@ -39,7 +39,7 @@ master_doc = "index"
 # -- Options for HTML output -------------------------------------------------
 
 html_theme = "furo"
-html_title = "HED Task Catalog"
+html_title = "HED task models"
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
 html_js_files = ["gh_icon_fix.js", "pop_cards.js"]
@@ -69,7 +69,7 @@ html_theme_options = {
 # template in _templates/page.html. Edit the text here; delete the key to remove the banner.
 html_context = {
     "dev_banner": (
-        "The HED Task Catalog is under development. IDs are not stable until formal release. "
+        "HED task models are under development. IDs are not stable until formal release. "
         'Comments are welcome at <a href="https://github.com/hed-standard/hed-task/issues">'
         "github.com/hed-standard/hed-task/issues</a>."
     ),

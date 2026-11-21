@@ -13,21 +13,26 @@ Paper-and-pencil sequencing: connect numbered circles (Part A) or alternate numb
 
 The Trail Making Test is a widely used neuropsychological assessment consisting of two parts. In Part A, participants draw lines connecting consecutively numbered circles (1->2->3->...) as quickly as possible, measuring visual scanning and psychomotor speed. In Part B, participants alternate between numbers and letters (1->A->2->B->3->C->...), adding demands for cognitive flexibility and task-switching. The derived score (B-A) isolates the switching cost from baseline motor and visual search speed. The TMT is among the most sensitive measures of general brain dysfunction and is included in virtually every neuropsychological test battery. Digital tablet versions now capture rich kinematic data (velocity, pressure, pauses).
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>
-- **How do the stimuli arrive?** <a href="vocabulary.html#rule-respond-to-rule-stream-continuous">continuous</a>
-- **Is something held in mind to compare against?** <a href="vocabulary.html#rule-respond-to-rule-reference-held-in-mind">held in mind</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructed-emphasis">instructed emphasis</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What does the rule ask about each stimulus?* <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>
+  - *How do the stimuli arrive?* <a href="vocabulary.html#rule-respond-to-rule-stream-continuous">continuous</a>
+  - *Is something held in mind to compare against?* <a href="vocabulary.html#rule-respond-to-rule-reference-held-in-mind">held in mind</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructed-emphasis">instructed emphasis</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-number-of-targets">number of targets</a>
 - **Material:** Circles numbered from 1 (Part A), or numbered and lettered circles to connect alternately (Part B), on paper or a tablet.
 

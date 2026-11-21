@@ -13,20 +13,25 @@ After studying items presented in distinct contexts (speaker, location, modality
 
 Source memory tests assess the ability to remember the contextual details of an encoding episode - not just whether an item was encountered (item memory) but where, when, how, or from whom it was learned. In the standard paradigm, items are presented under two or more source conditions (e.g., spoken by a male vs. female voice; shown on the left vs. right of the screen; read vs. imagined). At test, participants first make an old/new recognition judgment, then indicate the source of each recognized item. Source accuracy (correct source attributions conditional on item recognition) is the primary measure, dissociating recollection-based contextual retrieval from familiarity-based item recognition. Johnson's source monitoring framework (Johnson, Hashtroudi, & Lindsay, 1993) distinguishes external source monitoring (which person said it), internal source monitoring (did I do it or imagine it), and reality monitoring (internal vs. external origin). Source memory failures underlie false memories, eyewitness misattributions, and confabulation. The paradigm recruits prefrontal cortex (especially right and medial PFC for monitoring) and hippocampus (binding items to contexts), with a characteristic dissociation from item memory in aging and frontal lesion patients.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
-- **What is studied?** <a href="vocabulary.html#rule-study-then-test-studied-material-items-with-context">items with context</a>
-- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-source-attribution">source attribution</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-study-then-test">Study, then be tested</a> (`study_then_test`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What is studied?* <a href="vocabulary.html#rule-study-then-test-studied-material-items-with-context">items with context</a>
+  - *What form does the test take?* <a href="vocabulary.html#rule-study-then-test-test-form-source-attribution">source attribution</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>, <a href="vocabulary.html#setting-stimulus-similarity">stimulus similarity</a>
 - **Material:** Studied items presented under two or more sources, such as a male or a female voice or the left or the right of the screen.
 

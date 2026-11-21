@@ -5,7 +5,7 @@
 (task-criteria)=
 # Task criteria
 
-**Purpose:** Reference document specifying how the HED Task Catalog's {{ n_tasks }} tasks were scoped, how tasks were selected, and the rules for classifying variants vs. aliases vs. manipulations.
+**Purpose:** Reference document for the task catalog of the HED task models: how its {{ n_tasks }} traditional tasks were scoped and selected, and the rules for classifying variants vs. aliases vs. manipulations. The model in which each task is described is on the [task model](../../task_model.md) page, and how a task is modeled is on the [modeling process](../../modeling_process.md) page; the criteria here are the rules for what is in the catalog. On these pages "the Catalog" means the task catalog and its list of processes.
 
 Companion to the [process criteria](../process_criteria/index.md).
 

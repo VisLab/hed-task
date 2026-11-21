@@ -62,7 +62,7 @@ body:
     id: variants
     attributes:
       label: Variants
-      description: Other forms of the task that whole studies use, one per line. For each give a name and how it differs from the standard form (which facet, rule or motivation), any processes it adds, and a published source. Leave empty if none.
+      description: Other forms of the task that whole studies use, one per line. For each give a name and how it differs from the standard form (which game rule, motivator, phase or facet), any processes it adds, and a published source. Leave empty if none.
       placeholder: |
         Auditory version - stimulus modality auditory instead of visual (spoken items); Author (2001) doi:10.1000/example
   - type: dropdown

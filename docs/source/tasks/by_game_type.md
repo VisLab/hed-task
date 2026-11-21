@@ -1,8 +1,8 @@
 # Tasks by game type
 
 Every task under the game its standard form is. The game types are defined on the
-[task vocabulary](vocabulary.md) page; a task's own rules are on its page, under
-"At a glance".
+[game vocabulary](vocabulary.md) page; a task's own rules are on its page, under
+"Game model".
 
 ## Respond under a rule
 

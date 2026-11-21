@@ -13,27 +13,31 @@ Learn to choose between stimulus pairs through probabilistic feedback, then sele
 
 The Probabilistic Selection Task, developed by Frank and colleagues, assesses the separable contributions of positive and negative reinforcement learning, linked to striatal Go and NoGo pathway function respectively. During training, participants learn to choose between pairs of stimuli (AB, CD, EF) where each stimulus has a fixed probability of reward (e.g., A=80%, B=20%). At test, stimuli are recombined into novel pairs (e.g., A vs. C, B vs. D). Choosing A in novel contexts indexes Go learning (approach from positive feedback), while avoiding B indexes NoGo learning (avoidance from negative feedback). The task was specifically designed to probe basal ganglia dopaminergic mechanisms and is sensitive to dopaminergic medication effects in Parkinson's disease.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
-- **What are the options?** <a href="vocabulary.html#rule-choose-for-outcomes-option-set-stimulus-pairs">stimulus pairs</a>
-- **What is traded against what?** <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-probability-learning">probability learning</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
-- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-both">both</a>
-- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
-- **What is the outcome?** <a href="vocabulary.html#motivation-what-signal-only">signal only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> (`choose_for_outcomes`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What are the options?* <a href="vocabulary.html#rule-choose-for-outcomes-option-set-stimulus-pairs">stimulus pairs</a>
+  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-probability-learning">probability learning</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
+  - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-both">both</a>
+  - *What earns the outcome?* <a href="vocabulary.html#motivator-earned-by-choice">choice</a>
+  - *What is the outcome?* <a href="vocabulary.html#motivator-what-signal-only">signal only</a>
+- **Game phases:** <a href="vocabulary.html#phase-acquisition">acquisition</a>, <a href="vocabulary.html#phase-transfer">transfer</a>
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-feedback-reliability">feedback reliability</a>, <a href="vocabulary.html#setting-number-of-trials">number of trials</a>, <a href="vocabulary.html#setting-set-size">set size</a>
 - **Material:** Pairs of stimuli (AB, CD, EF), each stimulus rewarded with a fixed probability such as 80 or 20 percent.
-- **Phases:** <a href="vocabulary.html#phase-acquisition">acquisition</a>, <a href="vocabulary.html#phase-transfer">transfer</a>
 
 ## Inclusion test
 
@@ -77,7 +81,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Gain-Only and Loss-Only Variants
 
     `hedvar_probabilistic_selection__gain_only_and_loss_only_variants`
-  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>, <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>; what: <a href="vocabulary.html#motivation-what-money">money</a>; real: <a href="vocabulary.html#motivation-real-paid">paid</a>
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>, <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>; what: <a href="vocabulary.html#motivator-what-money">money</a>; real: <a href="vocabulary.html#motivator-real-paid">paid</a>
   - -
   - Feedback is win-or-nothing in some blocks and lose-or-nothing in others instead of "correct" and "incorrect".
 * - PST with Volatility

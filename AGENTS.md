@@ -1,6 +1,6 @@
 # hed-task
 
-Purpose: a catalog of standard cognitive and behavioral neuroscience tasks and the cognitive processes they engage, published as a Sphinx website. Not in scope: HED tooling, schema definitions, and the validation test suite - those live in `hed-python`, `hed-schemas`, and `hed-tests`.
+Purpose: HED task models - every behavioral and neuroimaging task modeled as a game (game type, rules, motivators, phases, facets) and linked to the cognitive processes it is hypothesized to engage, so that tasks can be compared; published as a Sphinx website. The task catalog of traditional tasks from the Cognitive Atlas is the starting point; the tasks of papers are modeled with the template in `data/paper_models/`. Not in scope: HED tooling, schema definitions, and the validation test suite - those live in `hed-python`, `hed-schemas`, and `hed-tests`.
 
 ## Commands
 
@@ -20,8 +20,8 @@ Local development uses `pip`; GitHub Actions uses `uv`. Do not use `uv` locally 
 ## Layout
 
 - `src/` - the generators. `generate_docs.py` is the entry point; `src/generators/` holds one module per page family.
-- `docs/source/` - Sphinx sources, built into `docs/_build/`. Two kinds of page: **narrative pages** (`index.md`, `introduction.md`, `how_to_use_the_catalog.md`, `atlas/what_is_the_cognitive_atlas.md`, `atlas/the_catalog_vs_the_atlas.md`, `atlas/task_mapping.md`, `atlas/process_mapping.md`, everything under `cogpo/` and `methods/`) are hand-written Markdown, edited directly, each marked by a comment at the top; **catalog pages** (`tasks/`, `processes/`, `task_process_links.md`, `_generated/`) are generated - edit the generator or the data, not these files. `generate_docs.py` lists the generated paths in `GENERATED_PATHS` and touches nothing else.
-- `data/` - the Catalog: `task_details.json`, `process_details.json`, `schemas/`, `mappings/`, `atlas_summary.json`, `cogpo_summary.json`, and the task-family definitions. Edited here by pull request; `generate_docs.py` validates all of it before writing. See `data/README.md`.
+- `docs/source/` - Sphinx sources, built into `docs/_build/`. Two kinds of page: **narrative pages** (`index.md`, `introduction.md`, `task_model.md`, `process_model.md`, `modeling_process.md`, `how_to_use_the_catalog.md`, `atlas/what_is_the_cognitive_atlas.md`, `atlas/the_catalog_vs_the_atlas.md`, `atlas/task_mapping.md`, `atlas/process_mapping.md`, everything under `cogpo/` and `methods/`) are hand-written Markdown, edited directly, each marked by a comment at the top; **catalog pages** (`tasks/`, `processes/`, `task_process_links.md`, `_generated/`) are generated - edit the generator or the data, not these files. `generate_docs.py` lists the generated paths in `GENERATED_PATHS` and touches nothing else.
+- `data/` - the Catalog: `task_details.json`, `process_details.json`, `schemas/`, `mappings/`, `atlas_summary.json`, `cogpo_summary.json`, the game vocabulary (`task_game_defs.json`, `task_facet_defs.json`), the task-family definitions, and `paper_models/` (the template and the task models of papers; checked by `python src/paper_models.py check data/paper_models/`, not by `generate_docs.py`). Edited here by pull request; `generate_docs.py` validates all of it except `paper_models/` before writing. See `data/README.md`.
 - `tests/` - unit tests.
 - `.status/` - working notes. Gitignored; local to each machine.
 

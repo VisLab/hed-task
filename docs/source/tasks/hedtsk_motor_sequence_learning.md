@@ -13,18 +13,23 @@ Repeated execution of a fixed finger sequence; within- and across-session speed 
 
 Participants are trained to execute finger sequences (e.g., pressing buttons in a specific order: 4-1-3-2-4) either continuously or in discrete blocks. Learning is indexed by decreasing RT, reduced movement duration, and decreased errors. Neuroimaging shows early learning engages cerebellum and prefrontal cortex, while consolidated sequences show greater striatal and reduced cerebellar engagement, reflecting a shift from explicit, attention-demanding processes to implicit, automatic execution. Sleep promotes offline consolidation of motor sequences.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-produce-movement">produce movement</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-produce-movement">Make a movement</a> (`produce_movement`)
+- **Game rules:** none are defined for this game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-symbols">symbols</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-list-length">list length</a>, <a href="vocabulary.html#setting-number-of-repetitions">number of repetitions</a>, <a href="vocabulary.html#setting-retention-interval">retention interval</a>
 - **Material:** Spatial cues or a digit sequence (such as 4-1-3-2-4) naming the fingers to press in order.
 

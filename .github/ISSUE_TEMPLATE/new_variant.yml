@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        A variant is another form of a task that whole studies use. It states only how it differs from the task's standard form (the form shown under "At a glance" on the task page): a facet value, a rule, the motivation, a phase, a combined game or an added process; or it is a named published instrument. A factor that studies compare within one experiment is a manipulation, and changing the recording equipment, the analysis, the population alone or the stimulus set for an equivalent one does not make a variant. See [task facets and variants](https://www.hedtags.org/hed-task/methods/task_criteria/04_task_facets_and_variants.html) and the [task vocabulary](https://www.hedtags.org/hed-task/tasks/vocabulary.html).
+        A variant is another form of a task that whole studies use. It states only how it differs from the task's standard form (the form shown under "Game model" on the task page): a facet value, a rule, the motivation, a phase, a combined game or an added process; or it is a named published instrument. A factor that studies compare within one experiment is a manipulation, and changing the recording equipment, the analysis, the population alone or the stimulus set for an equivalent one does not make a variant. See [task facets and variants](https://www.hedtags.org/hed-task/methods/task_criteria/04_task_facets_and_variants.html) and the [task vocabulary](https://www.hedtags.org/hed-task/tasks/vocabulary.html).
   - type: input
     id: variant_name
     attributes:
@@ -26,7 +26,7 @@ body:
     id: differs
     attributes:
       label: How it differs from the standard form
-      description: Which facet, rule or motivation changes, and to what. Use the terms of the task vocabulary where you can; plain words are fine where you cannot. State only what differs.
+      description: Which game rule, motivator, phase or facet changes, and to what. Use the terms of the game vocabulary where you can; plain words are fine where you cannot. State only what differs.
       placeholder: |
         Stimulus modality: auditory instead of visual (spoken letters through headphones)
     validations:

@@ -13,18 +13,23 @@ Participants retrieve specific personal memories in response to cue words or str
 
 Autobiographical memory tasks assess the ability to retrieve specific personal episodes from one's past. The Galton-Crovitz cue-word task presents generic words (e.g., 'garden,' 'river,' 'knife') and asks participants to retrieve a specific personal memory associated with each and date it. The Autobiographical Memory Interview (Kopelman, Wilson, & Baddeley, 1989) uses a structured interview format probing both personal semantic knowledge (names, addresses) and autobiographical incidents across life periods (childhood, early adulthood, recent). The Autobiographical Memory Test (Williams & Broadbent, 1986) presents positive and negative cue words and measures whether participants retrieve specific episodes (bounded in time and place) vs. overgeneral memories (categories or extended periods). Overgeneral autobiographical memory - the tendency to retrieve categorical summaries rather than specific episodes - is a robust marker of depression, PTSD, and suicidality. The temporal distribution of memories typically shows a reminiscence bump (disproportionate recall of events from ages 10-30), recency effect, and childhood amnesia gradient. The paradigm engages a distributed network including hippocampus, medial prefrontal cortex, posterior cingulate, and lateral temporal cortex.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-report-on-self">report on self</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-report-on-self">Report on yourself</a> (`report_on_self`)
+- **Game rules:** none are defined for this game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-microphone">microphone</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-response-deadline">response deadline</a>
 - **Material:** Cue words (such as garden, river, knife) of positive, negative or neutral valence, or structured interview questions.
 

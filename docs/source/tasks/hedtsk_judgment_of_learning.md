@@ -13,20 +13,25 @@ After studying each item, participants predict the likelihood they will recall i
 
 The Judgment-of-Learning task measures the accuracy of metacognitive predictions made during or shortly after encoding. In the standard Nelson and Dunlosky (1991) paradigm, participants study word pairs and, after each pair (immediate) or after a delay (delayed), rate the likelihood (0-100%) that they will recall the target when given the cue on a later test. A cued recall test follows, and prediction accuracy is assessed through resolution (gamma correlation between judgments and recall) and calibration (mean judgment vs. mean recall). A landmark finding is the delayed-judgment-of-learning effect: predictions made after a brief delay are far more accurate than immediate ones, because delayed judgments rely on retrieval fluency (a valid cue) rather than short-term memory availability (a poor cue). Judgment-of-Learning research connects to self-regulated learning: learners use these judgments to allocate study time, select items for restudy, and decide when to terminate study. The paradigm is foundational in metamemory research and dissociates from Feeling-of-Knowing tasks in timing (post-encoding vs. post-retrieval-failure), prediction target (recall vs. recognition), and underlying basis (encoding fluency vs. partial retrieval).
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
-- **What is studied?** <a href="vocabulary.html#rule-study-then-test-studied-material-pairs">pairs</a>
-- **Is a judgment about one's own memory added?** <a href="vocabulary.html#rule-study-then-test-inserted-judgment-at-study">at study</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-study-then-test">Study, then be tested</a> (`study_then_test`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What is studied?* <a href="vocabulary.html#rule-study-then-test-studied-material-pairs">pairs</a>
+  - *Is a judgment about one's own memory added?* <a href="vocabulary.html#rule-study-then-test-inserted-judgment-at-study">at study</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-number-of-repetitions">number of repetitions</a>
 - **Material:** Cue-target word pairs, related or unrelated, each followed by a prompt to rate the chance of later recall.
 

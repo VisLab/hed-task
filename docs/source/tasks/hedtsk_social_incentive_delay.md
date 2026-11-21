@@ -13,27 +13,32 @@ MID variant in which cues predict potential social (smiling/frowning face) rathe
 
 The Social Incentive Delay Task is a variant of the Monetary Incentive Delay Task (Task 63) that replaces monetary outcomes with social rewards and punishments. Cues signal the potential for positive social feedback (e.g., a smiling face with a thumbs-up), negative social feedback (e.g., a frowning face with a thumbs-down), or neutral outcomes. Participants then respond to a target stimulus, and outcome delivery depends on response speed. The SID was developed to compare the neural substrates of social versus non-social reward anticipation and consumption, testing whether social rewards engage the same striatal dopaminergic circuitry as monetary rewards. The task has been particularly impactful in autism spectrum disorder research, where reduced social reward sensitivity is hypothesized.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
-- **Does a cue come before the target?** <a href="vocabulary.html#rule-respond-to-rule-cue-incentive-cue">incentive cue</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-stake">reward stake</a>
-- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-both">both</a>
-- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-performance">performance</a>
-- **What is the outcome?** <a href="vocabulary.html#motivation-what-social">social</a>
-- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>
-- **Emotional aspect:** <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
-- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
-- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What does the rule ask about each stimulus?* <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+  - *Does a cue come before the target?* <a href="vocabulary.html#rule-respond-to-rule-cue-incentive-cue">incentive cue</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-stake">reward stake</a>
+  - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-both">both</a>
+  - *What earns the outcome?* <a href="vocabulary.html#motivator-earned-by-performance">performance</a>
+  - *What is the outcome?* <a href="vocabulary.html#motivator-what-social">social</a>
+  - *Is the outcome real?* <a href="vocabulary.html#motivator-real-paid">paid</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-words">words</a>, <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>
+  - Emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>
+  - Social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+  - Feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-presentation-duration">presentation duration</a>, <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>
 - **Material:** A cue (a smiling face, a neutral face or a geometric shape), a target, and feedback faces such as a smiling face with a thumbs-up or a frowning face with a thumbs-down.
 

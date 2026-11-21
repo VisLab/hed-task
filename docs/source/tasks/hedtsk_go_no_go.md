@@ -13,19 +13,24 @@ Responses required to frequent "go" stimuli must be withheld on rare "no-go" sti
 
 The Go/No-Go Task measures response inhibition by requiring participants to respond quickly to frequent "go" stimuli while withholding responses to infrequent "no-go" stimuli. The typical ratio is 70-80% go and 20-30% no-go trials, creating a strong prepotent tendency to respond. Performance is measured by go-trial RT (engagement), go-trial accuracy (compliance), and no-go accuracy / false alarm rate (inhibitory control). The task is simpler than the Stop-Signal task as it measures the ability to withhold (rather than cancel) a response.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **Must the player ever hold back?** <a href="vocabulary.html#rule-respond-to-rule-response-demand-withhold-on-some">withhold on some</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *Must the player ever hold back?* <a href="vocabulary.html#rule-respond-to-rule-response-demand-withhold-on-some">withhold on some</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-interstimulus-interval">interstimulus interval</a>, <a href="vocabulary.html#setting-response-deadline">response deadline</a>, <a href="vocabulary.html#setting-target-probability">target probability</a>
 - **Material:** A series of single stimuli, typically letters, of which 70-80% are go items and the rest no-go items.
 
@@ -81,7 +86,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Reward/Punishment Go/No-Go
 
     `hedvar_go_no_go__reward_punishment_go_no_go`
-  - feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>; cue: <a href="vocabulary.html#rule-respond-to-rule-cue-incentive-cue">incentive cue</a>; drive: <a href="vocabulary.html#motivation-drive-reward-stake">reward stake</a>; sign: <a href="vocabulary.html#motivation-sign-both">both</a>; earned by: <a href="vocabulary.html#motivation-earned-by-performance">performance</a>; what: <a href="vocabulary.html#motivation-what-money">money</a>; real: <a href="vocabulary.html#motivation-real-paid">paid</a>
+  - feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>; cue: <a href="vocabulary.html#rule-respond-to-rule-cue-incentive-cue">incentive cue</a>; drive: <a href="vocabulary.html#motivator-drive-reward-stake">reward stake</a>; sign: <a href="vocabulary.html#motivator-sign-both">both</a>; earned by: <a href="vocabulary.html#motivator-earned-by-performance">performance</a>; what: <a href="vocabulary.html#motivator-what-money">money</a>; real: <a href="vocabulary.html#motivator-real-paid">paid</a>
   - [Reward anticipation](../processes/reward_anticipation_and_motivation.md#hed-reward-anticipation), [Avoidance motivation](../processes/reward_anticipation_and_motivation.md#hed-avoidance-motivation)
   - Each stimulus signals which of four action-by-outcome cells applies (go or no-go, to win or to avoid loss), so the stimulus carries an incentive cue and outcomes are paid per trial.
 * - Probabilistic Go/No-Go

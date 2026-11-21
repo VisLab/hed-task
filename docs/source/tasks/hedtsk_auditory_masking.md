@@ -13,20 +13,25 @@ Detect, discriminate, or identify a target sound in the presence of a masking so
 
 A target sound (tone, speech token, or noise burst) is presented alongside, before, or after a masking sound, and participants detect, discriminate, or identify the target. By varying the temporal and spectral relationship between target and masker, the paradigm dissociates peripheral (energetic) masking - where masker and target excite overlapping auditory filters - from central (informational) masking - where the masker is spectrally remote but introduces perceptual uncertainty. Threshold shifts, psychometric functions, and comodulation masking release are the core dependent measures. The paradigm is foundational to auditory psychophysics and clinical audiology, and maps onto distinct subcortical and cortical processing stages.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
-- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-noise-or-mask">noise or mask</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-noise">noise</a>, <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What does the rule ask about each stimulus?* <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+  - *What competes with the correct response?* <a href="vocabulary.html#rule-respond-to-rule-competitor-noise-or-mask">noise or mask</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-noise">noise</a>, <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-spatial-separation">spatial separation</a>, <a href="vocabulary.html#setting-stimulus-similarity">stimulus similarity</a>
 - **Material:** A target sound (a tone, a speech token or a noise burst) presented with, before or after a masker of noise, tones, speech or modulated sound.
 

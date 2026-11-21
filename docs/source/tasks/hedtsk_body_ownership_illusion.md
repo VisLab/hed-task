@@ -13,19 +13,24 @@ Synchronous multisensory stimulation of a participant's hidden body part and a v
 
 Body ownership illusion tasks exploit multisensory integration to induce the experience that an artificial body part (or whole body) belongs to the participant. In the classic Rubber Hand Illusion (Botvinick & Cohen, 1998), a participant's real hand is hidden behind a screen while a realistic rubber hand is placed in an anatomically plausible position. Synchronous stroking of both hands with paintbrushes for 1-2 minutes typically produces a vivid sense of ownership over the rubber hand, accompanied by a proprioceptive shift (pointing error toward the rubber hand) and autonomic responses to threats directed at the rubber hand (elevated skin conductance). Asynchronous stroking serves as the critical control condition. The paradigm demonstrates that body ownership is a dynamic, multisensory construction rather than a fixed perceptual given. The illusion depends on spatial, temporal, and anatomical congruence of visual, tactile, and proprioceptive signals, and is modulated by top-down factors (body schema, visual realism, postural plausibility). Computational accounts frame the illusion as Bayesian causal inference over multisensory signals (Samad, Chung, & Shams, 2015). The paradigm has been extended to the whole body (Petkova & Ehrsson, 2008), to faces (enfacement illusion; Tsakiris, 2008), and to virtual reality environments (Slater et al., 2008). Clinical applications include phantom limb pain treatment, eating disorder body image interventions, and assessment of body representation disturbances in schizophrenia and depersonalization.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-undergo-stream">undergo stream</a>
-- **What is the player told to do while it runs?** <a href="vocabulary.html#rule-undergo-stream-instruction-none">none</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-tactile">tactile</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pressure">pressure</a>, <a href="vocabulary.html#facet-stimulus-type-real-objects">real objects</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-undergo-stream">Watch or listen</a> (`undergo_stream`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What is the player told to do while it runs?* <a href="vocabulary.html#rule-undergo-stream-instruction-none">none</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-tactile">tactile</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-pressure">pressure</a>, <a href="vocabulary.html#facet-stimulus-type-real-objects">real objects</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
 - **Material:** An artificial hand (rubber, wooden or virtual) in view while the participant's hidden hand is stroked with a paintbrush in or out of time with it.
 

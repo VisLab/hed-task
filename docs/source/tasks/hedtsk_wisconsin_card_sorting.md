@@ -13,21 +13,26 @@ Sort cards by a hidden rule (color, form, or number) using only correct/incorrec
 
 The WCST tests cognitive flexibility, set-shifting, and learning from feedback. Participants match cards displaying varying numbers of colored symbols to four reference cards according to an unannounced sorting rule (color, shape, or number). After 10 consecutive correct sorts, the rule changes without warning. Feedback ("correct"/"incorrect") is provided after each sort. The test measures categories completed, perseverative errors (continued use of the previous rule), non-perseverative errors, and the ability to maintain set. It is the gold-standard clinical test of prefrontal executive function.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **What competes with the correct response?** <a href="vocabulary.html#rule-respond-to-rule-competitor-previous-rule">previous rule</a>
-- **Where does the rule come from?** <a href="vocabulary.html#rule-respond-to-rule-rule-source-learned-from-feedback">learned from feedback</a>
-- **Does the rule change during play?** <a href="vocabulary.html#rule-respond-to-rule-rule-stability-shifts-unsignalled">shifts unsignalled</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What competes with the correct response?* <a href="vocabulary.html#rule-respond-to-rule-competitor-previous-rule">previous rule</a>
+  - *Where does the rule come from?* <a href="vocabulary.html#rule-respond-to-rule-rule-source-learned-from-feedback">learned from feedback</a>
+  - *Does the rule change during play?* <a href="vocabulary.html#rule-respond-to-rule-rule-stability-shifts-unsignalled">shifts unsignalled</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>
 - **Material:** Cards that vary in the color, shape and number of their symbols, some ambiguous, sorted against four reference cards.
 

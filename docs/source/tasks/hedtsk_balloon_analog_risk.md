@@ -13,24 +13,29 @@ Sequential pumping of a virtual balloon for monetary reward with stochastic popp
 
 Participants inflate a virtual balloon by clicking a pump button, earning money with each pump. The balloon may explode at any point, causing loss of all accumulated earnings for that trial. Participants can cash out at any time to save their earnings. The average number of pumps before cashing out indexes risk-taking propensity. BART risk-taking correlates with real-world risky behaviors. fMRI reveals activation in ventromedial PFC, anterior insula, and striatal regions during risk assessment.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
-- **What are the options?** <a href="vocabulary.html#rule-choose-for-outcomes-option-set-one-option-with-stop">one option with stop</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
-- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-both">both</a>
-- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
-- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>
-- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>, <a href="vocabulary.html#motivation-real-hypothetical">hypothetical</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> (`choose_for_outcomes`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What are the options?* <a href="vocabulary.html#rule-choose-for-outcomes-option-set-one-option-with-stop">one option with stop</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
+  - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-both">both</a>
+  - *What earns the outcome?* <a href="vocabulary.html#motivator-earned-by-choice">choice</a>
+  - *What is the outcome?* <a href="vocabulary.html#motivator-what-money">money</a>
+  - *Is the outcome real?* <a href="vocabulary.html#motivator-real-paid">paid</a>, <a href="vocabulary.html#motivator-real-hypothetical">hypothetical</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-number-of-trials">number of trials</a>, <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>, <a href="vocabulary.html#setting-reward-probability">reward probability</a>
 - **Material:** A virtual balloon that grows with each pump and may pop, with the money earned on the trial shown.
 
@@ -95,7 +100,7 @@ variant is `hedvar_<task>__<variant>`.
 * - BART with Loss Domain
 
     `hedvar_balloon_analog_risk__bart_with_loss_domain`
-  - sign: <a href="vocabulary.html#motivation-sign-loss">loss</a>
+  - sign: <a href="vocabulary.html#motivator-sign-loss">loss</a>
   - [Avoidance motivation](../processes/reward_anticipation_and_motivation.md#hed-avoidance-motivation)
   - Each balloon starts full of money and every pump removes some while raising the chance of a larger loss, so the same pump-or-stop structure is framed as accepting loss rather than chasing gain.
 ```

@@ -13,26 +13,31 @@ Participants choose between a low-effort/low-reward option and a high-effort/hig
 
 Effort-based decision-making tasks measure the willingness to exert physical or cognitive effort in exchange for reward. In the Effort Expenditure for Rewards Task (EEfRT; Treadway et al., 2009), participants on each trial choose between an easy task (e.g., pressing a button with the dominant index finger 30 times in 7 seconds for a small reward) and a hard task (pressing with the non-dominant pinky finger 100 times in 21 seconds for a larger, variable reward). Reward magnitude and probability are manipulated across trials to map the effort-reward tradeoff. The proportion of hard-task choices is the primary measure, indexing motivational drive. Effort discounting variants (Botvinick, Huffstetler, & McGuire, 2009) use a titration procedure to find the reward value at which effortful and easy options are equally preferred (the indifference point). The paradigm has become central to research on motivational anhedonia - the reduced willingness to exert effort for reward that characterizes depression, schizophrenia, and Parkinson's disease. Computational models decompose behavior into effort sensitivity, reward sensitivity, and probability weighting parameters. The framework connects to dopaminergic theories of motivation: effort willingness is modulated by dopamine function in the ventral striatum and anterior cingulate cortex.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
-- **What are the options?** <a href="vocabulary.html#rule-choose-for-outcomes-option-set-two-described">two described</a>
-- **How does the player learn what pays?** <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-described">described</a>
-- **What is traded against what?** <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-amount-vs-effort">amount vs effort</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
-- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
-- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
-- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>, <a href="vocabulary.html#motivation-what-effort-cost">effort cost</a>
-- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> (`choose_for_outcomes`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What are the options?* <a href="vocabulary.html#rule-choose-for-outcomes-option-set-two-described">two described</a>
+  - *How does the player learn what pays?* <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-described">described</a>
+  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-amount-vs-effort">amount vs effort</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
+  - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-gain">gain</a>
+  - *What earns the outcome?* <a href="vocabulary.html#motivator-earned-by-choice">choice</a>
+  - *What is the outcome?* <a href="vocabulary.html#motivator-what-money">money</a>, <a href="vocabulary.html#motivator-what-effort-cost">effort cost</a>
+  - *Is the outcome real?* <a href="vocabulary.html#motivator-real-paid">paid</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-reward-magnitude">reward magnitude</a>, <a href="vocabulary.html#setting-reward-probability">reward probability</a>
 - **Material:** Pairs of offers, an easy task for a small reward against a hard task (such as 100 button presses) for a larger reward of stated probability.
 - **Combined with:** <a href="vocabulary.html#how-chained">chained</a>, <a href="vocabulary.html#game-produce-movement">produce movement</a> (The effort task chosen is carried out after each choice)
@@ -107,7 +112,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Demand Selection Task
 
     `hedvar_effort_based_decision_making__demand_selection`
-  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>; option set: <a href="vocabulary.html#rule-choose-for-outcomes-option-set-k-hidden-outcome">k hidden outcome</a>; outcome knowledge: <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-experienced">experienced</a>; sign: <a href="vocabulary.html#motivation-sign-loss">loss</a>; what: <a href="vocabulary.html#motivation-what-effort-cost">effort cost</a>; drive: <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>; option set: <a href="vocabulary.html#rule-choose-for-outcomes-option-set-k-hidden-outcome">k hidden outcome</a>; outcome knowledge: <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-experienced">experienced</a>; sign: <a href="vocabulary.html#motivator-sign-loss">loss</a>; what: <a href="vocabulary.html#motivator-what-effort-cost">effort cost</a>; drive: <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
   - -
   - Two unlabeled options lead to the same kind of task, differing only in how often the task switches; nothing is paid and the difference is learned by experience, so the choice weighs effort alone.
 * - Apple-Gathering Task

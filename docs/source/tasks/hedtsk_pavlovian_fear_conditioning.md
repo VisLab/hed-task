@@ -13,27 +13,31 @@ A neutral CS is paired with an aversive US (shock, loud sound); conditioned resp
 
 A neutral conditioned stimulus (CS; auditory tone or visual cue) is paired with an aversive unconditioned stimulus (US; mild shock, loud noise). After conditioning, the CS alone elicits conditioned fear responses including skin conductance increases, heart rate changes, freezing (in animals), and subjective fear ratings (in humans). Extinction is measured in a subsequent phase where the CS is presented without the US. The task is fundamental to understanding emotional learning and has been used extensively to study the amygdala's role in fear acquisition and the prefrontal cortex's role in extinction.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-undergo-stream">undergo stream</a>
-- **What is the player told to do while it runs?** <a href="vocabulary.html#rule-undergo-stream-instruction-none">none</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-unearned-outcome">unearned outcome</a>
-- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-loss">loss</a>
-- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-nothing">nothing</a>
-- **What is the outcome?** <a href="vocabulary.html#motivation-what-aversive">aversive</a>
-- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-somatic">somatic</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-electrical">electrical</a>, <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
-- **Emotional aspect:** <a href="vocabulary.html#facet-emotional-aspect-emotion-induction">emotion induction</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-undergo-stream">Watch or listen</a> (`undergo_stream`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What is the player told to do while it runs?* <a href="vocabulary.html#rule-undergo-stream-instruction-none">none</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-unearned-outcome">unearned outcome</a>
+  - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-loss">loss</a>
+  - *What earns the outcome?* <a href="vocabulary.html#motivator-earned-by-nothing">nothing</a>
+  - *What is the outcome?* <a href="vocabulary.html#motivator-what-aversive">aversive</a>
+  - *Is the outcome real?* <a href="vocabulary.html#motivator-real-paid">paid</a>
+- **Game phases:** <a href="vocabulary.html#phase-acquisition">acquisition</a>, <a href="vocabulary.html#phase-extinction">extinction</a>
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-somatic">somatic</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-electrical">electrical</a>, <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+  - Emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotion-induction">emotion induction</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-reward-probability">reward probability</a>, <a href="vocabulary.html#setting-stimulus-onset-asynchrony">stimulus onset asynchrony</a>
 - **Material:** A neutral visual cue or tone (CS+) paired with a mild shock or loud noise, and a second cue (CS-) that is never paired.
-- **Phases:** <a href="vocabulary.html#phase-acquisition">acquisition</a>, <a href="vocabulary.html#phase-extinction">extinction</a>
 
 ## Inclusion test
 

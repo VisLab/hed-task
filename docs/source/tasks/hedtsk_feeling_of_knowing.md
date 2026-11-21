@@ -13,20 +13,25 @@ After failing to recall a studied item, participants rate the likelihood they co
 
 The Feeling-of-Knowing task measures the accuracy of metacognitive judgments about information that cannot currently be recalled. In the standard Hart (1965) paradigm, participants study cue-target pairs, attempt cued recall, and then - for items they failed to recall - rate their confidence that they would recognize the correct answer among alternatives. A subsequent recognition test determines the accuracy of these predictions. The key dependent measure is resolution - the correspondence between feeling-of-knowing magnitude and recognition performance, typically quantified by the Goodman-Kruskal gamma correlation. Feeling-of-knowing judgments are thought to rely on partial retrieval of target attributes, cue familiarity, and accessibility of related information, rather than direct access to trace strength. The paradigm dissociates from Judgment-of-Learning tasks in timing (post-retrieval-failure vs. post-encoding), prediction target (recognition vs. recall), and cognitive basis (partial retrieval and cue familiarity vs. encoding fluency). Feeling-of-knowing accuracy is sensitive to frontal lobe damage, aging, Alzheimer's disease, and schizophrenia, and is more closely tied to executive functioning than Judgment-of-Learning accuracy.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
-- **What is studied?** <a href="vocabulary.html#rule-study-then-test-studied-material-pairs">pairs</a>
-- **Is a judgment about one's own memory added?** <a href="vocabulary.html#rule-study-then-test-inserted-judgment-after-failed-recall">after failed recall</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-study-then-test">Study, then be tested</a> (`study_then_test`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What is studied?* <a href="vocabulary.html#rule-study-then-test-studied-material-pairs">pairs</a>
+  - *Is a judgment about one's own memory added?* <a href="vocabulary.html#rule-study-then-test-inserted-judgment-after-failed-recall">after failed recall</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-number-of-alternatives">number of alternatives</a>, <a href="vocabulary.html#setting-retention-interval">retention interval</a>
 - **Material:** Cue-target word pairs or general-knowledge questions, and a recognition test with several alternatives.
 

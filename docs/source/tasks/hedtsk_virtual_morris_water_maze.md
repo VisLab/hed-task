@@ -13,19 +13,24 @@ Navigate a virtual circular arena to find a hidden platform using distal spatial
 
 In the Virtual Morris Water Maze, participants navigate a virtual environment to find a hidden goal location using environmental landmarks. During acquisition, participants start from different positions and learn the goal location across trials; performance is indexed by path length, latency, and heading error. Probe trials (goal removed) assess retention by measuring search distribution. The task engages hippocampal spatial mapping and is highly sensitive to hippocampal dysfunction. It dissociates place-based (allocentric) from response-based (egocentric) navigation strategies.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-navigate">navigate</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-scenes">scenes</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-joystick">joystick</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Experimental environment:** <a href="vocabulary.html#facet-experimental-environment-virtual-world">virtual world</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-navigate">Find the way</a> (`navigate`)
+- **Game rules:** none are defined for this game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-scenes">scenes</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-joystick">joystick</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Experimental environment: <a href="vocabulary.html#facet-experimental-environment-virtual-world">virtual world</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Material:** A virtual circular arena with distal landmarks and a hidden (or visible) goal platform.
 
 ## Inclusion test

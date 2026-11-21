@@ -13,18 +13,23 @@ Participants perform an ongoing task while remembering to execute a deferred int
 
 Prospective memory (PM) is the ability to remember to carry out an intended action in the future. In the standard Einstein-McDaniel paradigm, participants perform a continuous ongoing task (e.g., pleasantness rating, lexical decision) while simultaneously holding the intention to execute a secondary action when a specific cue appears (event-based PM: e.g., press a key when an animal word appears) or after a fixed time interval (time-based PM: e.g., press a key every 2 minutes). The critical measure is whether the participant detects the PM cue and executes the intended action. PM is theoretically distinct from retrospective memory: the challenge is not remembering the content of the intention but spontaneously retrieving it at the right moment without an external prompt. The multiprocess framework (McDaniel & Einstein, 2000) proposes that PM retrieval can be supported by automatic, reflexive-associative processes or by resource-demanding strategic monitoring, depending on cue focality, ongoing-task absorption, and individual differences. PM failures are a leading cause of real-world memory complaints and are sensitive to aging, traumatic brain injury, ADHD, and schizophrenia.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-study-then-test">Study, then be tested</a> (`study_then_test`)
+- **Game rules:** every rule takes the default of the game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-number-of-targets">number of targets</a>, <a href="vocabulary.html#setting-retention-interval">retention interval</a>, <a href="vocabulary.html#setting-target-probability">target probability</a>
 - **Material:** The items of an ongoing task (such as words to rate or to classify), among which a designated cue (such as an animal word) occasionally appears.
 - **Combined with:** <a href="vocabulary.html#how-throughout">throughout</a>, <a href="vocabulary.html#game-respond-to-rule">respond to rule</a> (The ongoing task (lexical decision, pleasantness rating) in which the cues for the intended action are embedded)

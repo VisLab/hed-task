@@ -2,24 +2,27 @@
 
 [![Deploy documentation](https://github.com/hed-standard/hed-task/actions/workflows/docs.yaml/badge.svg)](https://github.com/hed-standard/hed-task/actions/workflows/docs.yaml) [![Ruff](https://github.com/hed-standard/hed-task/actions/workflows/ruff.yaml/badge.svg)](https://github.com/hed-standard/hed-task/actions/workflows/ruff.yaml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A curated catalog of standard cognitive and behavioral neuroscience tasks and the cognitive processes they engage, developed as part of the [HED (Hierarchical Event Descriptors)](https://www.hedtags.org/) standardization effort. Its purpose is to provide a controlled vocabulary for tagging datasets with what their participants were asked to do, so that repositories can be searched by task or by process and datasets can be compared across laboratories.
+HED task models: models of behavioral and neuroimaging tasks, backed by [HED (Hierarchical Event Descriptors)](https://www.hedtags.org/), that place tasks in a common framework so that they can be compared. Every task is modeled as a game, described by its game type, game rules, game motivators, game phases and game facets, and is linked to the cognitive processes it is hypothesized to engage.
 
-The Catalog covers standard tasks grouped into task families, the cognitive processes they engage grouped into categories, and the links between them; the current counts are on the site's [Introduction](https://www.hedtags.org/hed-task/introduction.html). Each task has a canonical definition, an inclusion test, named variations, verified references and a mapping to the Cognitive Atlas. The Catalog is a work in progress; suggestions, corrections and proposals are welcome as [GitHub issues](https://github.com/hed-standard/hed-task/issues).
+The starting point is a task catalog of traditional tasks drawn from the Cognitive Atlas, grouped into task families, with the cognitive processes they engage grouped into categories and the links between them; the current counts are on the site's [Introduction](https://www.hedtags.org/hed-task/introduction.html). Each task has a canonical definition, a game model of its standard form, an inclusion test, variants, verified references and a mapping to the Cognitive Atlas. The next step is modeling the tasks of individual papers with the template in `data/paper_models/`. The work is in progress; suggestions, corrections and proposals are welcome as [GitHub issues](https://github.com/hed-standard/hed-task/issues).
 
-The Catalog is published as a searchable website at **<https://www.hedtags.org/hed-task/>**.
+The site is published at **<https://www.hedtags.org/hed-task/>**.
 
 ## Contents
 
-| Section                                                                                    | Description                                                                               |
-| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
-| [Introduction](https://www.hedtags.org/hed-task/introduction.html)                         | What the Catalog is made of, its identifiers, and where it came from                      |
-| [How to use the Catalog](https://www.hedtags.org/hed-task/how_to_use_the_catalog.html)     | Reading a task page, tagging a dataset, proposing a change                                |
-| [Tasks](https://www.hedtags.org/hed-task/tasks/index.html)                                 | Tasks grouped by task family, each with inclusion test, variations and process links      |
-| [Cognitive processes](https://www.hedtags.org/hed-task/processes/index.html)               | Processes grouped by category, each with definition, references and linked tasks          |
-| [Task-process links](https://www.hedtags.org/hed-task/task_process_links.html)             | The whole task-to-process matrix in both directions                                       |
-| [Methods](https://www.hedtags.org/hed-task/methods/task_criteria.html)                     | Task and process selection criteria; how the Cognitive Atlas mapping was built            |
-| [Cognitive Atlas](https://www.hedtags.org/hed-task/atlas/what_is_the_cognitive_atlas.html) | What the Atlas contains, how the Catalog relates to it, and the row-by-row mapping tables |
-| [CogPO](https://www.hedtags.org/hed-task/cogpo/what_is_cogpo.html)                         | What CogPO contains, how the Catalog and HED relate to it                                 |
+| Section                                                                                     | Description                                                                                 |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| [Introduction](https://www.hedtags.org/hed-task/introduction.html)                          | Why tasks are modeled, the two models in brief, the task catalog, identifiers               |
+| [The task model](https://www.hedtags.org/hed-task/task_model.html)                          | A task as a game: game type, rules, motivators, phases and facets, with worked examples     |
+| [The cognitive process model](https://www.hedtags.org/hed-task/process_model.html)          | What a process is, categories, and what a task-process link claims                          |
+| [The modeling process](https://www.hedtags.org/hed-task/modeling_process.html)              | How a task is modeled step by step, and the template for a paper                            |
+| [How to use the task catalog](https://www.hedtags.org/hed-task/how_to_use_the_catalog.html) | Finding and reading a task page, comparing tasks, tagging a dataset, proposing a change     |
+| [Tasks](https://www.hedtags.org/hed-task/tasks/index.html)                                  | The traditional tasks, each with its game model, inclusion test, variants and process links |
+| [Cognitive processes](https://www.hedtags.org/hed-task/processes/index.html)                | Processes grouped by category, each with definition, references and linked tasks            |
+| [Task-process links](https://www.hedtags.org/hed-task/task_process_links.html)              | The whole task-to-process matrix in both directions                                         |
+| [Methods](https://www.hedtags.org/hed-task/methods/task_criteria/index.html)                | Task and process selection criteria; how the Cognitive Atlas mapping was built              |
+| [Cognitive Atlas](https://www.hedtags.org/hed-task/atlas/what_is_the_cognitive_atlas.html)  | What the Atlas contains, how the Catalog relates to it, and the row-by-row mapping tables   |
+| [CogPO](https://www.hedtags.org/hed-task/cogpo/what_is_cogpo.html)                          | What CogPO contains, how the Catalog and HED relate to it                                   |
 
 ## Repository structure
 
@@ -32,8 +35,9 @@ hed-task/
 |   |-- fetch_cog_data.py   # Rebuilds the Atlas API archive in .cog_data/
 |   |-- build_cogpo_data.py # Recomputes data/cogpo_summary.json from the CogPO archive
 |   |-- fetch_cogpo_data.py # Rebuilds the CogPO OWL and wiki archive in .cog_data/cogpo/
+|   |-- paper_models.py     # Starts and checks the task models of papers in data/paper_models/
 |   |-- generators/         # One module per page family
-|-- data/                   # The Catalog: task/process JSON, schemas, Atlas and CogPO summaries and mappings, task families
+|-- data/                   # Task and process JSON, the game vocabulary, schemas, mappings, task families, paper models
 |-- docs/
 |   |-- source/             # Sphinx source: hand-written narrative pages plus generated catalog pages
 |   |-- _build/             # Build output (gitignored)
@@ -41,9 +45,9 @@ hed-task/
 |-- pyproject.toml
 ```
 
-Two kinds of page live in `docs/source/`. The narrative pages (landing page, introduction, how to use, the four Cognitive Atlas pages, and the three Methods documents) are hand-written Markdown: edit them directly. The catalog pages (`tasks/`, `processes/`, `task_process_links.md`, and the table fragments in `_generated/`) are generated from the JSON and TSV data in `data/` by the scripts in `src/`, and are never edited by hand. Each hand-written page says so in a comment at its top. See [Regenerating the site](#regenerating-the-site) below.
+Two kinds of page live in `docs/source/`. The narrative pages (landing page, introduction, the task model, the cognitive process model, the modeling process, how to use, the Cognitive Atlas and CogPO pages, and the Methods documents) are hand-written Markdown: edit them directly. The catalog pages (`tasks/`, `processes/`, `task_process_links.md`, and the table fragments in `_generated/`) are generated from the JSON and TSV data in `data/` by the scripts in `src/`, and are never edited by hand. Each hand-written page says so in a comment at its top. See [Regenerating the site](#regenerating-the-site) below.
 
-The Catalog itself lives in `data/`: `task_details.json`, `process_details.json`, their JSON Schemas, the Cognitive Atlas mapping tables and the task-family definitions. It is edited here by pull request; `data/README.md` says how, and `python src/generate_docs.py` validates every edit before writing a page. The two JSON files began as a one-time import from the research workspace that found the citations (`src/import_catalog.py` records that migration).
+The data lives in `data/`: `task_details.json`, `process_details.json`, the game vocabulary (`task_game_defs.json`, `task_facet_defs.json`), their JSON Schemas, the Cognitive Atlas mapping tables, the task-family definitions, and the task models of papers (`paper_models/`). It is edited here by pull request; `data/README.md` says how, and `python src/generate_docs.py` validates every edit before writing a page. The two JSON files began as a one-time import from the research workspace that found the citations (`src/import_catalog.py` records that migration).
 
 ## Local development
 
@@ -74,7 +78,7 @@ Whenever `data/` changes, run both steps. Editing a narrative page needs only st
 python src/generate_docs.py
 ```
 
-This validates `data/task_details.json` and `data/process_details.json` against their schemas and against each other, then deletes the generated paths under `docs/source/` (`tasks/`, `processes/`, `task_process_links.md`, `_generated/`), and rewrites them. It never touches a narrative page. It refuses to run, naming the record, if any check fails: unknown process or category ids, a process whose `tasks` list disagrees with the tasks that name it, a reference role outside the vocabulary, a variation without its derived id, or a task without a family. CI runs the same generation and fails a pull request whose pages are out of date.
+This validates `data/task_details.json` and `data/process_details.json` against their schemas and against each other, then deletes the generated paths under `docs/source/` (`tasks/`, `processes/`, `task_process_links.md`, `_generated/`), and rewrites them. It never touches a narrative page. It refuses to run, naming the record, if any check fails: unknown process or category ids, a process whose `tasks` list disagrees with the tasks that name it, a reference role outside the vocabulary, a game value outside the game vocabulary, a variant without its id, or a task without a family. CI runs the same generation and fails a pull request whose pages are out of date.
 
 `atlas_summary.json` and `mappings/*.tsv` are derived from a byte-exact archive of the [Cognitive Atlas](https://www.cognitiveatlas.org/) REST API kept in `.cog_data/`, which is untracked. Only the derived files are committed, so the docs build never needs the archive. To refresh, run:
 

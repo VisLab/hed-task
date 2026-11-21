@@ -13,18 +13,23 @@ Tracing of a figure viewed only in a mirror; error and completion time across tr
 
 The Mirror Tracing Task measures procedural motor learning and sensorimotor adaptation. Participants trace a shape (typically a star outline) while viewing their hand only through a mirror, which reverses the visual feedback left-right. This creates a conflict between visual and proprioceptive information that must be resolved through practice. Performance improves across trials as participants learn to adapt their motor commands to the reversed visual input. Measures include tracing time, number of errors (deviations from the path), and the rate of improvement across trials. The task is a classic demonstration that procedural/implicit memory is preserved in amnesia (H.M. could learn this task despite profound declarative memory loss).
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-produce-movement">produce movement</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-produce-movement">Make a movement</a> (`produce_movement`)
+- **Game rules:** none are defined for this game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-writing-device">writing device</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-number-of-trials">number of trials</a>
 - **Material:** A path to trace, such as a star outline or a maze, with the hand seen only in a mirror.
 

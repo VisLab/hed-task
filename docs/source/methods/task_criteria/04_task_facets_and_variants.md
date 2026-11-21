@@ -5,58 +5,32 @@
 (task-criteria-4)=
 # 4. Task facets and variants
 
-A task record describes one **standard form** of the task, the one the
-[inclusion test](03_the_task_inclusion_test.md) defines, and then lists its
+The model of a task in the catalog describes one **standard form** of the task, the one
+the [inclusion test](03_the_task_inclusion_test.md) defines, and then lists its
 **variants**: the other forms that whole studies run. A variant states only how it
 differs from the standard form. Everything else about how studies vary a task goes
 into the inclusion test as a manipulation or as an optional procedure step. This page
 gives the rules for each, the rule for when a form becomes a task of its own, and the
-policies for the borderline cases. The Catalog has {{ n_variants }} variants over
+policies for the borderline cases. The task catalog has {{ n_variants }} variants over
 {{ n_tasks }} tasks. Every value named below is defined on the generated
-[task vocabulary](../../tasks/vocabulary.md) page, and each task page shows its
-standard form under "At a glance".
+[game vocabulary](../../tasks/vocabulary.md) page, and each task page shows its
+standard form under "Game model".
 
 (task-criteria-4-1)=
 ## 4.1 What a task record says about how the task is run
 
-Six things describe the standard form, besides the inclusion test.
-
-- **Game type.** What the participant is doing, in one of ten kinds: respond under a
-  rule, study then be tested, choose for a payoff, play against another player, solve
-  a puzzle, make a movement, watch or listen, report on yourself, find the way, and
-  hold a state.
-- **Rules.** Each game type asks a few questions about how the game is played, such as
-  "What competes with the correct response?" or "Who is the other player?". Each
-  question has a default answer. A task states a rule only when its answer differs
-  from the default, so a task that states no rules plays its game in the default way.
-- **Motivation.** Why the participant tries. Every task answers "Why does the player
-  try?"; where there is an outcome, the record also says whether the participant can
-  gain, lose or both, what earns it, what it is, and whether it is real.
-- **Facets.** What the participant sees, uses and is, in nine facets. Each facet lists
-  the values that are present; a facet with nothing to say is left out.
-  - Stimulus modality: which sense does the stimulus reach?
-  - Stimulus type: what is the stimulus made of?
-  - Emotional aspect: how is emotion built into the experiment?
-  - Social aspect: how are other people built into the experiment?
-  - Task I/O device: what equipment delivers the task and collects the response?
-  - Trial structure: how is the run of trials delivered?
-  - Feedback: does the participant learn how they did, and when?
-  - Experimental environment: where is the participant while doing the task?
-  - Population: who is there a version for?
-- **Settings and material.** Settings name the quantities studies choose when they run
-  the task (a retention interval, a set size, the proportion of congruent trials), with
-  no numbers. Material is one sentence saying what the stimuli are.
-- **Phases and combined games**, when the task has them. Phases name parts beyond the
-  game's own structure (acquisition, extinction, transfer, devaluation, test). A
-  combined game is a second game played with the first, and the record says how:
-  in quick succession, throughout, interleaved, inserted, or chained.
+The standard form is described as a game, in five parts: the game type, the game rules,
+the game motivators, the game phases and the game facets. The record also names the
+settings studies choose, describes the material in a sentence, and lists any game the
+task is combined with. [The task model](../../task_model.md) defines each part and
+works through examples; this section used to hold that account.
 
 The [Stroop Color-Word Task](../../tasks/hedtsk_stroop_color_word.md) is a game of
 responding under a rule. It states one rule, that an irrelevant dimension competes with
-the correct response; its motivation is instructions only; its facets are a visual
-stimulus made of words, on a computer screen with a microphone, in fixed-time trials,
-for young adults; its setting is the proportion congruent; and its material is "Color
-words (RED, BLUE) printed in ink of a matching or a different color."
+the correct response; its motivator is instructions only; it names no phase; its facets
+are a visual stimulus made of words, on a computer screen with a microphone, in
+fixed-time trials, for young adults; its setting is the proportion congruent; and its
+material is "Color words (RED, BLUE) printed in ink of a matching or a different color."
 
 (task-criteria-4-2)=
 ## 4.2 What a variant is
@@ -64,13 +38,13 @@ words (RED, BLUE) printed in ink of a matching or a different color."
 A **variant** is an attested form of a task that a whole study uses, and that either
 differs from the standard form in something the record can state or is a named
 published instrument. The record can state a different facet value, a different rule
-answer, a different motivation, a phase, a combined game, or a cognitive process the
+answer, a different motivator, a phase, a combined game, or a cognitive process the
 form engages in addition to the standard form's.
 
 A variant states only what differs and inherits the rest. A facet it names replaces the
 standard form's values for that facet; an empty facet means the facet does not apply to
 that form. A variant never restates the standard form: a value, a rule answer or a
-motivation equal to the standard form's is left out. A variant may state a rule's
+motivator equal to the standard form's is left out. A variant may state a rule's
 default to undo a rule the standard form states. Each variant has a name, a stored
 identifier of the form `hedvar_<task>__<variant>`, and a one-paragraph note in plain
 language.

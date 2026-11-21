@@ -13,18 +13,23 @@ Generate as many words as possible within a time limit matching a phonemic (lett
 
 Participants produce as many unique words as possible in a fixed interval (typically 60 seconds) that satisfy a constraint: a starting letter (phonemic/letter fluency, e.g., F, A, S) or a semantic category (e.g., animals, fruits). Phonemic fluency loads heavily on left frontal executive systems involved in strategic search and self-monitoring, while semantic fluency additionally engages temporal-lobe semantic stores. Beyond raw word count, temporal analyses of clustering (runs of semantically or phonemically similar words) and switching (transitions between clusters) dissociate automatic retrieval from effortful executive search. Verbal fluency is one of the most widely administered neuropsychological tasks, sensitive to frontal-lobe lesions, neurodegenerative disease (especially Alzheimer's vs. frontotemporal dementia), schizophrenia, and normal aging. Its brevity, minimal equipment needs, and robust normative data make it a cornerstone of clinical assessment batteries.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-solve-problem">solve problem</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructed-emphasis">instructed emphasis</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-solve-problem">Solve a puzzle</a> (`solve_problem`)
+- **Game rules:** none are defined for this game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructed-emphasis">instructed emphasis</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-letters">letters</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>
 - **Material:** A starting letter (such as F, A or S) or a semantic category (such as animals) given by the examiner.
 

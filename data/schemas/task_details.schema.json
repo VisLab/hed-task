@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://www.hedtags.org/hed-task/schemas/task_details.schema.json",
   "title": "HED task catalog",
-  "description": "Schema for data/task_details.json, the catalog of experimental tasks published by hed-task. Top level is a bare array of task objects. Shape only; cross-checks (unique ids, hed_process_ids resolve, families, every game, facet, motivation, phase, setting and candidate value in the vocabulary files, variant ids) run in src/generate_docs.py.",
+  "description": "Schema for data/task_details.json, the catalog of experimental tasks published by hed-task. Top level is a bare array of task objects. Shape only; cross-checks (unique ids, hed_process_ids resolve, families, every game, facet, motivator, phase, setting and candidate value in the vocabulary files, variant ids) run in src/generate_docs.py.",
   "type": "array",
   "items": {
     "$ref": "#/definitions/task"
@@ -19,7 +19,7 @@
         "families",
         "hed_process_ids",
         "game_type",
-        "motivation",
+        "motivators",
         "task_facets"
       ],
       "properties": {
@@ -59,8 +59,8 @@
         "rules": {
           "$ref": "#/definitions/rules"
         },
-        "motivation": {
-          "$ref": "#/definitions/motivation"
+        "motivators": {
+          "$ref": "#/definitions/motivators"
         },
         "task_facets": {
           "$ref": "#/definitions/task_facets"
@@ -175,7 +175,7 @@
         "name",
         "note"
       ],
-      "description": "An attested form of the task. States only what differs from the standard form: for a facet, rule or motivation question it names, its answer replaces the standard form's; its hed_process_ids are added to the standard form's.",
+      "description": "An attested form of the task. States only what differs from the standard form: for a facet, rule or motivator question it names, its answer replaces the standard form's; its hed_process_ids are added to the standard form's.",
       "properties": {
         "variant_id": {
           "type": "string",
@@ -194,8 +194,8 @@
         "rules": {
           "$ref": "#/definitions/rules"
         },
-        "motivation": {
-          "$ref": "#/definitions/motivation"
+        "motivators": {
+          "$ref": "#/definitions/motivators"
         },
         "task_facets": {
           "$ref": "#/definitions/variant_task_facets"
@@ -231,10 +231,10 @@
         "pattern": "^[a-z][a-z0-9_]*$"
       }
     },
-    "motivation": {
+    "motivators": {
       "type": "object",
       "additionalProperties": false,
-      "description": "Why the player tries. drive is required on a task (checked in src/generate_docs.py); a variant states only the questions whose answer differs. Values from the motivation section of data/task_game_defs.json.",
+      "description": "Why the player tries. drive is required on a task (checked in src/generate_docs.py); a variant states only the questions whose answer differs. Values from the motivators section of data/task_game_defs.json.",
       "properties": {
         "drive": {
           "$ref": "#/definitions/key_list"

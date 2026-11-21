@@ -13,25 +13,30 @@ Cue predicts potential monetary gain or loss; speeded target response determines
 
 The Monetary Incentive Delay Task is the dominant paradigm for neuroimaging studies of reward anticipation and consumption. On each trial, a cue signals the potential outcome: reward (gain), loss avoidance, or neutral. After a variable delay period, participants respond to a briefly presented target; successful responses earn the reward (or avoid the loss). The critical contrast is neural activity during the anticipation period (cue-to-target), which robustly activates the ventral striatum/nucleus accumbens, versus the outcome period (after response), which more strongly engages ventromedial prefrontal cortex. The MID has been widely adopted in clinical neuroimaging of addiction, depression, and schizophrenia.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **What does the rule ask about each stimulus?** <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
-- **Does a cue come before the target?** <a href="vocabulary.html#rule-respond-to-rule-cue-incentive-cue">incentive cue</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-stake">reward stake</a>
-- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-both">both</a>
-- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-performance">performance</a>
-- **What is the outcome?** <a href="vocabulary.html#motivation-what-money">money</a>
-- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
-- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What does the rule ask about each stimulus?* <a href="vocabulary.html#rule-respond-to-rule-rule-asks-detect">detect</a>
+  - *Does a cue come before the target?* <a href="vocabulary.html#rule-respond-to-rule-cue-incentive-cue">incentive cue</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-stake">reward stake</a>
+  - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-both">both</a>
+  - *What earns the outcome?* <a href="vocabulary.html#motivator-earned-by-performance">performance</a>
+  - *What is the outcome?* <a href="vocabulary.html#motivator-what-money">money</a>
+  - *Is the outcome real?* <a href="vocabulary.html#motivator-real-paid">paid</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>, <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-adaptive-trials">adaptive trials</a>
+  - Feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-presentation-duration">presentation duration</a>
 - **Material:** A cue signalling a possible money gain, a possible loss or nothing, a briefly shown target, and the outcome of the trial.
 

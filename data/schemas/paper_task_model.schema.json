@@ -1,0 +1,467 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Task model of a paper",
+  "description": "Schema for a file in data/paper_models/: the tasks of one paper, each modeled as a game. Shape only; the values are checked against data/task_game_defs.json, data/task_facet_defs.json and the catalog by src/paper_models.py. An empty string or list means the question is not answered or does not apply.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "template_version",
+    "paper",
+    "coding",
+    "tasks"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "template_version": {
+      "type": "string"
+    },
+    "paper": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "citation",
+        "doi",
+        "pmid",
+        "url",
+        "datasets"
+      ],
+      "properties": {
+        "citation": {
+          "type": "string",
+          "description": "The full citation, as the paper gives it."
+        },
+        "doi": {
+          "type": "string"
+        },
+        "pmid": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "datasets": {
+          "type": "array",
+          "description": "Public datasets of the study, if any.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "repository",
+              "id",
+              "url"
+            ],
+            "properties": {
+              "repository": {
+                "type": "string",
+                "description": "Such as OpenNeuro or NEMAR."
+              },
+              "id": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "coding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "coded_by",
+        "coded_on",
+        "sources_read",
+        "status"
+      ],
+      "properties": {
+        "coded_by": {
+          "type": "string",
+          "description": "Who filled the file in; name a model as well as a person when one was used."
+        },
+        "coded_on": {
+          "type": "string",
+          "description": "Date, YYYY-MM-DD."
+        },
+        "sources_read": {
+          "type": "array",
+          "description": "What was read: the paper, its supplement, a dataset README, the task code.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "reviewed"
+          ]
+        }
+      }
+    },
+    "tasks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/task"
+      }
+    }
+  },
+  "definitions": {
+    "basis": {
+      "description": "stated: the paper says it. inferred: it follows from what the paper says. assumed: the paper is silent and the default or the usual form was taken. Empty when the question is not answered.",
+      "enum": [
+        "",
+        "stated",
+        "inferred",
+        "assumed"
+      ]
+    },
+    "answer_one": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "basis",
+        "evidence"
+      ],
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "basis": {
+          "$ref": "#/definitions/basis"
+        },
+        "evidence": {
+          "type": "string",
+          "description": "A quotation from the paper, or where the passage is (section, page)."
+        }
+      }
+    },
+    "answer_many": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "basis",
+        "evidence"
+      ],
+      "properties": {
+        "value": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "basis": {
+          "$ref": "#/definitions/basis"
+        },
+        "evidence": {
+          "type": "string"
+        }
+      }
+    },
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "task_label",
+        "experiment",
+        "summary",
+        "game_type",
+        "rules",
+        "motivators",
+        "phases",
+        "task_facets",
+        "settings",
+        "material",
+        "combined_with",
+        "procedure",
+        "manipulations",
+        "measurements",
+        "catalog_match",
+        "processes",
+        "participants",
+        "recording",
+        "not_in_vocabulary",
+        "notes"
+      ],
+      "properties": {
+        "task_label": {
+          "type": "string",
+          "description": "The name the paper gives the task."
+        },
+        "experiment": {
+          "type": "string",
+          "description": "Which experiment or session of the paper, when it has several."
+        },
+        "summary": {
+          "type": "string",
+          "description": "One or two sentences in plain language: what the participant did."
+        },
+        "game_type": {
+          "$ref": "#/definitions/answer_one"
+        },
+        "rules": {
+          "type": "object",
+          "description": "One answer for every rule question of the game type, defaults included.",
+          "propertyNames": {
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "additionalProperties": {
+            "$ref": "#/definitions/answer_one"
+          }
+        },
+        "motivators": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "drive",
+            "sign",
+            "earned_by",
+            "what",
+            "real"
+          ],
+          "properties": {
+            "drive": {
+              "$ref": "#/definitions/answer_many"
+            },
+            "sign": {
+              "$ref": "#/definitions/answer_one"
+            },
+            "earned_by": {
+              "$ref": "#/definitions/answer_one"
+            },
+            "what": {
+              "$ref": "#/definitions/answer_many"
+            },
+            "real": {
+              "$ref": "#/definitions/answer_many"
+            }
+          }
+        },
+        "phases": {
+          "$ref": "#/definitions/answer_many"
+        },
+        "task_facets": {
+          "type": "object",
+          "description": "Facet -> the values present. An empty list means the facet has nothing to say for this task.",
+          "propertyNames": {
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "additionalProperties": {
+            "$ref": "#/definitions/answer_many"
+          }
+        },
+        "settings": {
+          "type": "array",
+          "description": "The quantities the study chose, with their values.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "setting",
+              "value",
+              "unit",
+              "evidence"
+            ],
+            "properties": {
+              "setting": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string",
+                "description": "As the paper gives it: a number, a range, or a list of levels."
+              },
+              "unit": {
+                "type": "string"
+              },
+              "evidence": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "material": {
+          "type": "string",
+          "description": "One sentence saying what the stimuli are."
+        },
+        "combined_with": {
+          "type": "array",
+          "description": "A second game played with the main one: a game type or a catalog task, and how the two combine.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "how",
+              "note"
+            ],
+            "properties": {
+              "game_type": {
+                "type": "string"
+              },
+              "task": {
+                "type": "string"
+              },
+              "how": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "procedure": {
+          "type": "array",
+          "description": "What the participant does, as ordered steps.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "manipulations": {
+          "type": "array",
+          "description": "What the experimenter varies: one variable per item, with its levels.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "measurements": {
+          "type": "array",
+          "description": "What is recorded: one measure per item.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "catalog_match": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "relation",
+            "hedtsk_id",
+            "hedvar_id",
+            "note"
+          ],
+          "properties": {
+            "relation": {
+              "description": "standard_form: the standard form of the catalog task. variant: a variant the catalog lists (give hedvar_id). new_variant: the catalog task's procedure, differing in a way no listed variant records. new_task: no catalog task has this procedure. unclear: not decided.",
+              "enum": [
+                "",
+                "standard_form",
+                "variant",
+                "new_variant",
+                "new_task",
+                "unclear"
+              ]
+            },
+            "hedtsk_id": {
+              "type": "string",
+              "pattern": "^(hedtsk_[a-z][a-z0-9_]*)?$"
+            },
+            "hedvar_id": {
+              "type": "string",
+              "pattern": "^(hedvar_[a-z][a-z0-9_]*)?$"
+            },
+            "note": {
+              "type": "string"
+            }
+          }
+        },
+        "processes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "process_id",
+              "source",
+              "evidence"
+            ],
+            "properties": {
+              "process_id": {
+                "type": "string",
+                "pattern": "^(hed_[a-z][a-z0-9_]*)?$"
+              },
+              "source": {
+                "description": "authors: the paper says the task engages or measures it. catalog: the catalog links it to the matched task. coder: the coder's inference.",
+                "enum": [
+                  "",
+                  "authors",
+                  "catalog",
+                  "coder"
+                ]
+              },
+              "evidence": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "participants": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "n",
+            "description"
+          ],
+          "properties": {
+            "n": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "description": {
+              "type": "string",
+              "description": "Who took part, as the paper says: ages, groups, exclusions that matter."
+            }
+          }
+        },
+        "recording": {
+          "type": "array",
+          "description": "What was recorded besides behavior, in the paper's terms: EEG, fMRI, MEG, eye tracking, skin conductance.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "not_in_vocabulary": {
+          "type": "array",
+          "description": "What the vocabulary could not say. Each entry is a candidate for data/vocabulary_candidates.json.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "part",
+              "proposed",
+              "description",
+              "evidence"
+            ],
+            "properties": {
+              "part": {
+                "type": "string",
+                "description": "Where the value would go: game_type, a rule, a motivator question, phases, a facet, settings, combined_with."
+              },
+              "proposed": {
+                "type": "string",
+                "description": "A proposed name for the value, snake_case."
+              },
+              "description": {
+                "type": "string"
+              },
+              "evidence": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

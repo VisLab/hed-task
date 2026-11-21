@@ -13,26 +13,31 @@ After initial stimulus-reward learning, the contingencies switch; perseveration 
 
 Participants learn a stimulus-outcome association (e.g., stimulus A is rewarded, B is not), then contingencies are reversed. Participants must flexibly adapt their behavior to the new associations. Performance measures include trials to criterion and perseverative errors (continued selection of the previously rewarded stimulus). The task can use deterministic or probabilistic contingencies. Neuroimaging consistently implicates the orbitofrontal cortex and ventrolateral prefrontal cortex in reversal learning, particularly for updating stimulus-outcome associations based on feedback. Some forms take points away for a wrong choice rather than merely withholding a win.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>
-- **What are the options?** <a href="vocabulary.html#rule-choose-for-outcomes-option-set-stimulus-pairs">stimulus pairs</a>
-- **What is traded against what?** <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-probability-learning">probability learning</a>
-- **Does what pays change?** <a href="vocabulary.html#rule-choose-for-outcomes-contingency-stability-reversal">reversal</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>
-- **Can the player gain, lose, or both?** <a href="vocabulary.html#motivation-sign-gain">gain</a>
-- **What earns the outcome?** <a href="vocabulary.html#motivation-earned-by-choice">choice</a>
-- **What is the outcome?** <a href="vocabulary.html#motivation-what-points">points</a>, <a href="vocabulary.html#motivation-what-money">money</a>, <a href="vocabulary.html#motivation-what-signal-only">signal only</a>
-- **Is the outcome real?** <a href="vocabulary.html#motivation-real-paid">paid</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Feedback:** <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> (`choose_for_outcomes`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What are the options?* <a href="vocabulary.html#rule-choose-for-outcomes-option-set-stimulus-pairs">stimulus pairs</a>
+  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-probability-learning">probability learning</a>
+  - *Does what pays change?* <a href="vocabulary.html#rule-choose-for-outcomes-contingency-stability-reversal">reversal</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
+  - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-gain">gain</a>
+  - *What earns the outcome?* <a href="vocabulary.html#motivator-earned-by-choice">choice</a>
+  - *What is the outcome?* <a href="vocabulary.html#motivator-what-points">points</a>, <a href="vocabulary.html#motivator-what-money">money</a>, <a href="vocabulary.html#motivator-what-signal-only">signal only</a>
+  - *Is the outcome real?* <a href="vocabulary.html#motivator-real-paid">paid</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-feedback-reliability">feedback reliability</a>, <a href="vocabulary.html#setting-stimulus-similarity">stimulus similarity</a>
 - **Material:** Two stimuli, one rewarded and one not, whose assignment reverses once the participant reaches criterion.
 
@@ -83,7 +88,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Reward vs. Punishment Reversal
 
     `hedvar_reversal_learning__reward_vs_punishment_reversal`
-  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>; sign: <a href="vocabulary.html#motivation-sign-both">both</a>
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-shapes">shapes</a>, <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>; sign: <a href="vocabulary.html#motivator-sign-both">both</a>
   - -
   - Feedback is win-versus-no-win in some blocks and lose-versus-no-lose in others.
 ```

@@ -13,20 +13,25 @@ Study-phase cues instruct participants to remember or forget specific items or l
 
 Participants study items (typically words) under instructions that each item should either be remembered or forgotten. In the item method, a remember or forget cue follows each individual item. In the list method, a single cue midway through the study phase instructs participants to forget everything studied so far. On a subsequent memory test, recall and recognition of forget-cued items is impaired relative to remember-cued items. The paradigm provides the primary laboratory tool for studying intentional forgetting and memory control, with theoretical implications for understanding inhibitory control over memory, context change, and selective rehearsal.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
-- **What is the player told to remember?** <a href="vocabulary.html#rule-study-then-test-study-instruction-remember-or-forget-by-cue">remember or forget by cue</a>
-- **What form does the test take?** <a href="vocabulary.html#rule-study-then-test-test-form-free-recall">free recall</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-study-then-test">Study, then be tested</a> (`study_then_test`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What is the player told to remember?* <a href="vocabulary.html#rule-study-then-test-study-instruction-remember-or-forget-by-cue">remember or forget by cue</a>
+  - *What form does the test take?* <a href="vocabulary.html#rule-study-then-test-test-form-free-recall">free recall</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>, <a href="vocabulary.html#facet-trial-structure-interleaved-trials">interleaved trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-retention-interval">retention interval</a>
 - **Material:** Lists of words, each word (or the list) followed by a cue to remember or to forget it.
 

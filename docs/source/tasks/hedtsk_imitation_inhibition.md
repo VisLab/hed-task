@@ -13,19 +13,24 @@ Execute an instructed finger movement while observing a congruent or incongruent
 
 The Imitation-Inhibition Task (Brass, Bekkering, Wohlschlager, & Prinz, 2000) measures the involuntary tendency to copy observed actions and the executive cost of suppressing that tendency. Participants are cued to perform a simple action (e.g., lift the index finger when a number '1' appears) while simultaneously viewing a task-irrelevant video of another person's hand performing either the same action (congruent), a different action (incongruent, e.g., lifting the middle finger), or no action (neutral/static hand). The congruency effect -- faster and more accurate responses on congruent than incongruent trials -- indexes automatic imitation, while the interference effect (incongruent minus neutral) specifically indexes the inhibitory cost of suppressing the observed action. The paradigm is grounded in common-coding / ideomotor theory (Prinz, 1997): perceiving an action activates the same motor representations as executing it, creating response conflict when the observed and instructed actions differ. The task has become a standard probe of the human mirror system and self-other distinction. The automatic imitation effect is modulated by animacy (stronger for human than robotic agents), social context (in-group vs. out-group models), empathy, and developmental stage (weaker in young children, inverted-U trajectory). Clinical applications include autism spectrum conditions (mixed findings on reduced automatic imitation) and schizophrenia (impaired self-other distinction).
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-respond-to-rule">respond to rule</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>
-- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-respond-to-rule">Respond under a rule</a> (`respond_to_rule`)
+- **Game rules:** every rule takes the default of the game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-digits">digits</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>
+  - Social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Material:** A digit cue (such as 1) naming the finger to lift, shown over a video of another person's hand lifting the same or a different finger or staying still.
 
 ## Inclusion test

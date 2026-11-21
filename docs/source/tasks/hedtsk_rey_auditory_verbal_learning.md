@@ -13,20 +13,25 @@ Repeated presentation of a 15-word list with immediate free recall over five tri
 
 The RAVLT is a comprehensive measure of verbal episodic memory. A list of 15 unrelated words (List A) is read aloud five times, with free recall tested after each presentation, yielding a learning curve. After the fifth trial, an interference list (List B) is presented once and recalled, followed by immediate recall of List A without re-presentation (retroactive interference). After a 20-30 minute delay, delayed recall and recognition of List A are tested. The RAVLT provides a rich profile of memory processes including acquisition rate, learning plateau, susceptibility to interference, retention over delay, and recognition discrimination.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-study-then-test">study then test</a>
-- **What fills the interval?** <a href="vocabulary.html#rule-study-then-test-interval-filler-interference-list">interference list</a>
-- **How many study-test rounds?** <a href="vocabulary.html#rule-study-then-test-cycles-repeated-lists">repeated lists</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-words">words</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-study-then-test">Study, then be tested</a> (`study_then_test`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What fills the interval?* <a href="vocabulary.html#rule-study-then-test-interval-filler-interference-list">interference list</a>
+  - *How many study-test rounds?* <a href="vocabulary.html#rule-study-then-test-cycles-repeated-lists">repeated lists</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-words">words</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-number-of-repetitions">number of repetitions</a>, <a href="vocabulary.html#setting-retention-interval">retention interval</a>
 - **Material:** A list of 15 unrelated words read aloud (List A), a second interference list (List B), and a recognition list mixing List A words with others.
 

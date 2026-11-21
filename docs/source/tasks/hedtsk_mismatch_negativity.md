@@ -13,20 +13,25 @@ Passive auditory oddball in which rare deviant sounds elicit a negative ERP arou
 
 Participants are passively exposed to repetitive acoustic stimuli (standard tones, 80%) occasionally interrupted by deviant tones (20%) differing in pitch, duration, or location. The MMN can be elicited without active attention. Recorded via EEG, the MMN appears as a negative deflection peaking at 100-250 ms after deviance onset at frontocentral sites. It reflects automatic, pre-attentive comparison between incoming input and a neural representation of the standard stimulus stored in sensory (echoic) memory. MMN is used as a biomarker of auditory processing capacity and has clinical applications in schizophrenia, coma prognosis, and language development research.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-undergo-stream">undergo stream</a>
-- **What is the player told to do while it runs?** <a href="vocabulary.html#rule-undergo-stream-instruction-none">none</a>
-- **Is anything asked afterwards?** <a href="vocabulary.html#rule-undergo-stream-report-after-none">none</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-undergo-stream">Watch or listen</a> (`undergo_stream`)
+- **Game rules:** the answers that differ from the defaults of the game type
+  - *What is the player told to do while it runs?* <a href="vocabulary.html#rule-undergo-stream-instruction-none">none</a>
+  - *Is anything asked afterwards?* <a href="vocabulary.html#rule-undergo-stream-report-after-none">none</a>
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-tones">tones</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-headphones">headphones</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-interstimulus-interval">interstimulus interval</a>, <a href="vocabulary.html#setting-stimulus-similarity">stimulus similarity</a>, <a href="vocabulary.html#setting-target-probability">target probability</a>
 - **Material:** A repeated standard tone occasionally replaced by a deviant tone differing in pitch, duration, intensity or location.
 

@@ -13,16 +13,21 @@ Repetitive single-finger or sequence tapping at fastest or paced rates; taps-per
 
 Participants tap their fingers (typically index finger) in a repetitive manner at a self-paced or externally paced rate. Self-paced tapping is typically at 2-3 Hz; externally paced versions use an auditory or visual metronome. The task consists of tapping blocks (20-40 seconds) alternating with rest periods. Performance metrics include tapping frequency, inter-tap interval variability, and accuracy. It is the most commonly used simple motor paradigm for motor cortex mapping, clinical motor assessment, and studying motor control. Contralateral primary motor cortex and supplementary motor area are consistently activated.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-produce-movement">produce movement</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructed-emphasis">instructed emphasis</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-young-adults">young adults</a>
+- **Game type:** <a href="vocabulary.html#game-produce-movement">Make a movement</a> (`produce_movement`)
+- **Game rules:** none are defined for this game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructed-emphasis">instructed emphasis</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-button-box">button box</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-continuous-recording">continuous recording</a>, <a href="vocabulary.html#facet-trial-structure-blocked-trials">blocked trials</a>
+  - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>, <a href="vocabulary.html#setting-presentation-rate">presentation rate</a>
 - **Material:** A metronome beat (a tone or a light) to tap in time with, in the paced form; the self-paced form presents nothing.
 

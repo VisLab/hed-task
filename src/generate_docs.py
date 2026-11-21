@@ -7,7 +7,7 @@ Inputs, all under data/ and all edited in this repository by pull request:
     mappings/*.tsv           the curated correspondence with the Cognitive Atlas
     task_family_defs.tsv     the task families (membership is on each task record)
     task_facet_defs.json     the facet vocabulary
-    task_game_defs.json      game types, rules, motivation, phases, settings, combinations
+    task_game_defs.json      game types, rules, motivators, phases, settings, combinations
     vocabulary_candidates.json  the register of candidate vocabulary
     schemas/*.schema.json    JSON Schemas for the catalog and vocabulary files
 
@@ -181,8 +181,8 @@ def load_vocabularies(data_dir: Path, problems: list[str]) -> dict:
 
     Returns:
         A dict of lookup tables: `facets` (facet -> set of values), `game_types` (game type
-        -> {rule -> (default, set of values)}), `motivation` (question -> set of values),
-        `required_motivation` (questions a task must answer), `phases`, `settings`, `how`
+        -> {rule -> (default, set of values)}), `motivators` (question -> set of values),
+        `required_motivators` (questions a task must answer), `phases`, `settings`, `how`
         and `candidates` (sets of names).
     """
     raw = {}
@@ -207,8 +207,8 @@ def load_vocabularies(data_dir: Path, problems: list[str]) -> dict:
     vocab = {
         "facets": facets,
         "game_types": game_types,
-        "motivation": {m["key"]: {v["value"] for v in m["values"]} for m in games["motivation"]},
-        "required_motivation": {m["key"] for m in games["motivation"] if m.get("required")},
+        "motivators": {m["key"]: {v["value"] for v in m["values"]} for m in games["motivators"]},
+        "required_motivators": {m["key"] for m in games["motivators"] if m.get("required")},
         "phases": {p["phase"] for p in games["phases"]},
         "settings": {s["setting"] for s in games["settings"]},
         "how": {c["how"] for c in games["combinations"]},
@@ -241,12 +241,12 @@ def _check_game_layer(
         standard: For a variant, the standard form (the task record). A task may not state a
             rule with its default; a variant may (to undo a standard-form answer), but may
             not repeat the standard form's answer. A variant may not repeat the standard
-            form's list for a facet or its answer to a motivation question, and may give an
+            form's list for a facet or its answer to a motivator question, and may give an
             empty facet list only for a facet the standard form carries (the facet does not
             apply to this form).
     """
     std_facets = (standard or {}).get("task_facets") or {}
-    std_motivation = (standard or {}).get("motivation") or {}
+    std_motivators = (standard or {}).get("motivators") or {}
     for facet, values in (rec.get("task_facets") or {}).items():
         if facet not in vocab["facets"]:
             problems.append(f"{label}: task_facets names unknown facet {facet!r}")
@@ -281,17 +281,17 @@ def _check_game_layer(
                 elif standard is not None and value == std_rules.get(rule, default):
                     problems.append(f"{label}: rule {rule} repeats the standard form's answer {value!r}; leave it out")
 
-    for question, answer in (rec.get("motivation") or {}).items():
-        if question not in vocab["motivation"]:
-            problems.append(f"{label}: motivation names unknown question {question!r}")
+    for question, answer in (rec.get("motivators") or {}).items():
+        if question not in vocab["motivators"]:
+            problems.append(f"{label}: motivators names unknown question {question!r}")
             continue
         for v in answer if isinstance(answer, list) else [answer]:
-            if v not in vocab["motivation"][question]:
-                problems.append(f"{label}: motivation {question} has unknown value {v!r}")
-        if question in std_motivation and set(answer if isinstance(answer, list) else [answer]) == set(
-            std_motivation[question] if isinstance(std_motivation[question], list) else [std_motivation[question]]
+            if v not in vocab["motivators"][question]:
+                problems.append(f"{label}: motivators {question} has unknown value {v!r}")
+        if question in std_motivators and set(answer if isinstance(answer, list) else [answer]) == set(
+            std_motivators[question] if isinstance(std_motivators[question], list) else [std_motivators[question]]
         ):
-            problems.append(f"{label}: motivation {question} repeats the standard form's answer {answer!r}; leave it out")
+            problems.append(f"{label}: motivators {question} repeats the standard form's answer {answer!r}; leave it out")
 
     for phase in rec.get("phases") or []:
         if phase not in vocab["phases"]:
@@ -314,7 +314,7 @@ def _check_game_layer(
 def check_game_records(tasks: list[dict], vocab: dict, process_ids: set[str], problems: list[str]) -> dict[str, list[str]]:
     """Check the game-model keys of every task and of its variants.
 
-    Every task must state `game_type`, `motivation` (with every required question) and
+    Every task must state `game_type`, `motivators` (with every required question) and
     `task_facets`. The JSON Schema requires the three keys too; the checks here give a
     message per task.
 
@@ -339,12 +339,12 @@ def check_game_records(tasks: list[dict], vocab: dict, process_ids: set[str], pr
         elif game_type not in vocab["game_types"]:
             problems.append(f"{tid}: unknown game type {game_type!r}")
             game_type = None
-        motivation = t.get("motivation")
-        if motivation is None:
-            problems.append(f"{tid}: motivation is missing")
+        motivators = t.get("motivators")
+        if motivators is None:
+            problems.append(f"{tid}: motivators is missing")
         else:
-            for question in sorted(vocab["required_motivation"] - set(motivation)):
-                problems.append(f"{tid}: motivation {question} is missing")
+            for question in sorted(vocab["required_motivators"] - set(motivators)):
+                problems.append(f"{tid}: motivators {question} is missing")
         if "task_facets" not in t:
             problems.append(f"{tid}: task_facets is missing")
         _check_game_layer(tid, t, game_type, vocab, ctx, problems)
@@ -477,7 +477,7 @@ def validate_catalog(data_dir: Path, tasks: list[dict], proc_data: dict) -> None
                 if bad:
                     problems.append(f"{r[idf]}: reference {i} has roles {bad} not in {sorted(roles)}")
 
-    # The game model: game type, rules, motivation, facets, phases, settings, combined
+    # The game model: game type, rules, motivators, facets, phases, settings, combined
     # games, candidates and variants, against the three vocabulary files. Variant ids are
     # stored; check_game_records checks their form and that they are unique.
     vocab = load_vocabularies(data_dir, problems)

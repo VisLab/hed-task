@@ -9,7 +9,7 @@ Files written:
 - docs/tasks/families/<id>.md    one page per family, whose toctree nests its tasks
 - docs/tasks/tasks_alphabetically.md   every task in name order; its toctree lists every
                                  task
-- docs/tasks/hedtsk_*.md         one page per task: an "At a glance" block for the
+- docs/tasks/hedtsk_*.md         one page per task: a "Game model" block for the
                                  standard form, the inclusion test, and the variants
 
 The vocabulary page and the by-game-type and by-facet listings under docs/tasks/ are
@@ -84,7 +84,7 @@ def generate(
             with a `cogpo_wiki_title` added for the link target.
         atlas_variant_map: Rows of data/mappings/atlas_task_to_hed.tsv matched exact or
             close at the variant level, keyed by hed_variant_id.
-        game_defs: data/task_game_defs.json, for the questions the "At a glance" block
+        game_defs: data/task_game_defs.json, for the questions the "Game model" block
             and the Variants table ask.
 
     Returns the number of files written.
@@ -265,17 +265,20 @@ def _write_task_index(
 
     parts: list[str] = [
         "# Tasks\n\n",
-        f"The Catalog defines {n_tasks} standard cognitive and behavioral neuroscience tasks.\n"
-        "Each task page gives the canonical name and aliases, a description, the inclusion\n"
-        "test that decides whether an experiment is an instance of the task, an at-a-glance\n"
-        "summary of its standard form in the terms of the [task vocabulary](vocabulary.md), its\n"
-        "variants, the cognitive processes it engages, and references.\n\n",
+        f"The task catalog holds {n_tasks} traditional cognitive and behavioral neuroscience tasks, the\n"
+        "starting point of the HED task models. They were drawn from the Cognitive Atlas, with gaps\n"
+        "filled from the literature, and each is modeled as a game. Each task page gives the canonical\n"
+        "name and aliases, a description, the game model of the standard form of the task (its game\n"
+        "type, rules, motivators, phases and facets, in the terms of the\n"
+        "[game vocabulary](vocabulary.md)), the inclusion test that decides whether an experiment is\n"
+        "an instance of the task, its variants, the cognitive processes it engages, and references.\n"
+        "[The task model](../task_model.md) explains the parts.\n\n",
         f"Tasks are filed under {len(families)} **task families** by what the participant does,\n"
-        "not by which process the task is thought to measure. The Catalog's process list covers that\n"
+        "not by which process the task is thought to measure. The list of cognitive processes covers that\n"
         "other axis, and the two cross-link. Families are organizational, not a hierarchy. Every\n"
         "task has one **primary** family, where its page is filed, and may be cross-listed under\n"
         f"others as a **secondary** member; {n_also} tasks are cross-listed at present. The\n"
-        "assignments are curation decisions and are expected to change as the Catalog grows;\n"
+        "assignments are curation decisions and are expected to change as the task catalog grows;\n"
         f"{n_review} memberships are marked `review`. The\n"
         "[task family assignment rules](../methods/task_criteria/06_task_family_assignment.md)\n"
         "say how families are assigned.\n\n",
@@ -286,8 +289,8 @@ def _write_task_index(
         "  know the name and not the family.\n",
         "- [Tasks by game type](by_game_type.md) lists the tasks under the game their standard form is.\n",
         "- [Tasks by facet](by_facet.md) lists, for each facet value, the tasks and variants that carry it.\n",
-        "- The [task vocabulary](vocabulary.md) defines every game type, rule, motivation answer, phase,\n"
-        "  setting, way of combining and facet value used on the task pages.\n\n",
+        "- The [game vocabulary](vocabulary.md) defines every game type, rule, motivator, phase and facet\n"
+        "  value used on the task pages, with the settings and the ways of combining games.\n\n",
         "## Families at a glance\n\n",
     ]
 
@@ -308,7 +311,7 @@ def _write_task_index(
                 ("Tasks alphabetically", "tasks_alphabetically"),
                 ("Tasks by game type", "by_game_type"),
                 ("Tasks by facet", "by_facet"),
-                ("Task vocabulary", "vocabulary"),
+                ("Game vocabulary", "vocabulary"),
             ],
             3,
         )
@@ -497,7 +500,9 @@ class _Questions:
         self.rules = {
             (g["game_type"], r["rule"]): r["question"] for g in game_defs.get("game_types", []) for r in g.get("rules", [])
         }
-        self.motivation = {m["key"]: m["question"] for m in game_defs.get("motivation", [])}
+        self.motivators = {m["key"]: m["question"] for m in game_defs.get("motivators", [])}
+        self.game_names = {g["game_type"]: g["name"] for g in game_defs.get("game_types", [])}
+        self.games_with_rules = {g["game_type"] for g in game_defs.get("game_types", []) if g.get("rules")}
 
 
 def _values(values, anchor_of) -> str:
@@ -527,48 +532,62 @@ def _combined_line(c: dict, task_names: dict[str, str]) -> str:
     return f"{how}, {other}{note}"
 
 
-def _at_a_glance(task: dict, questions: _Questions, task_names: dict[str, str]) -> str:
-    """Return the "At a glance" block: the standard form in the terms of the vocabulary.
+def _game_model(task: dict, questions: _Questions, task_names: dict[str, str]) -> str:
+    """Return the "Game model" block: the standard form in the terms of the vocabulary.
 
-    One line for each thing the record states, in a fixed order: game type, the rules it
-    states (question and answer), motivation, one line per facet, settings, material,
-    phases, combined games. A line the record has nothing for is left out. `candidates`
-    are a working register and are never shown.
+    The five parts of the model come first and are always shown, in a fixed order: game
+    type, game rules (the ones the record states, question and answer), game motivators,
+    game phases, game facets (one line per facet). Settings, material and combined games
+    follow, each only when the record has it. `candidates` are a working register and
+    are never shown.
 
     Parameters:
         task: The task record.
-        questions: The rule and motivation questions.
+        questions: The rule and motivator questions, and the game type names.
         task_names: Task id -> canonical name, for combined games that name a task.
     """
     gt = task["game_type"]
-    lines = [f"- **Game type:** {vocab_link(gt, vocab_anchor('game', gt))}"]
-    for rule, value in (task.get("rules") or {}).items():
-        question = questions.rules.get((gt, rule), vocab_label(rule))
-        lines.append(f"- **{question}** {_values(value, lambda v, r=rule: vocab_anchor('rule', gt, r, v))}")
-    for key, answer in (task.get("motivation") or {}).items():
-        question = questions.motivation.get(key, vocab_label(key))
-        lines.append(f"- **{question}** {_values(answer, lambda v, k=key: vocab_anchor('motivation', k, v))}")
+    name = questions.game_names.get(gt, vocab_label(gt))
+    lines = [f'- **Game type:** <a href="vocabulary.html#{vocab_anchor("game", gt)}">{name}</a> (`{gt}`)']
+    rules = task.get("rules") or {}
+    if rules:
+        lines.append("- **Game rules:** the answers that differ from the defaults of the game type")
+        for rule, value in rules.items():
+            question = questions.rules.get((gt, rule), vocab_label(rule))
+            lines.append(f"  - *{question}* {_values(value, lambda v, r=rule: vocab_anchor('rule', gt, r, v))}")
+    elif gt in questions.games_with_rules:
+        lines.append("- **Game rules:** every rule takes the default of the game type")
+    else:
+        lines.append("- **Game rules:** none are defined for this game type")
+    lines.append("- **Game motivators:**")
+    for key, answer in (task.get("motivators") or {}).items():
+        question = questions.motivators.get(key, vocab_label(key))
+        lines.append(f"  - *{question}* {_values(answer, lambda v, k=key: vocab_anchor('motivator', k, v))}")
+    if task.get("phases"):
+        lines.append(f"- **Game phases:** {_values(task['phases'], lambda v: vocab_anchor('phase', v))}")
+    else:
+        lines.append("- **Game phases:** none beyond the game's own structure")
+    lines.append("- **Game facets:**")
     for facet, values in (task.get("task_facets") or {}).items():
-        lines.append(f"- **{facet_label(facet)}:** {_values(values, lambda v, f=facet: vocab_anchor('facet', f, v))}")
+        lines.append(f"  - {facet_label(facet)}: {_values(values, lambda v, f=facet: vocab_anchor('facet', f, v))}")
     if task.get("settings"):
         lines.append(f"- **Settings:** {_values(task['settings'], lambda v: vocab_anchor('setting', v))}")
     if task.get("material"):
         lines.append(f"- **Material:** {task['material']}")
-    if task.get("phases"):
-        lines.append(f"- **Phases:** {_values(task['phases'], lambda v: vocab_anchor('phase', v))}")
     for c in task.get("combined_with") or []:
         lines.append(f"- **Combined with:** {_combined_line(c, task_names)}")
     return (
-        "## At a glance\n\n"
-        "The standard form of the task, the one the inclusion test defines, in the terms of the\n"
-        "[task vocabulary](vocabulary.md). A variant states only what it changes.\n\n" + "\n".join(lines) + "\n\n"
+        "## Game model\n\n"
+        "The standard form of the task, the one the inclusion test defines, as a game, in the terms\n"
+        "of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the\n"
+        "parts. A variant states only what it changes.\n\n" + "\n".join(lines) + "\n\n"
     )
 
 
 def _what_differs(variant: dict, game_type: str, task_names: dict[str, str]) -> str:
     """Return the "What differs" cell of a variant: one short phrase per key it states.
 
-    Built from the variant's own `task_facets`, `rules`, `motivation`, `phases` and
+    Built from the variant's own `task_facets`, `rules`, `motivators`, `phases` and
     `combined_with`; an empty facet list reads "<facet>: none" (the facet does not apply
     to this form). A variant that states none of them is a named form.
 
@@ -584,8 +603,8 @@ def _what_differs(variant: dict, game_type: str, task_names: dict[str, str]) -> 
         phrases.append(f"{label}: {shown}")
     for rule, value in (variant.get("rules") or {}).items():
         phrases.append(f"{vocab_label(rule)}: {_values(value, lambda v, r=rule: vocab_anchor('rule', game_type, r, v))}")
-    for key, answer in (variant.get("motivation") or {}).items():
-        phrases.append(f"{vocab_label(key)}: {_values(answer, lambda v, k=key: vocab_anchor('motivation', k, v))}")
+    for key, answer in (variant.get("motivators") or {}).items():
+        phrases.append(f"{vocab_label(key)}: {_values(answer, lambda v, k=key: vocab_anchor('motivator', k, v))}")
     if variant.get("phases"):
         phrases.append(f"phases: {_values(variant['phases'], lambda v: vocab_anchor('phase', v))}")
     for c in variant.get("combined_with") or []:
@@ -638,7 +657,7 @@ def _write_task_page(
     parts.append("## Description\n\n")
     parts.append(f"{task.get('description', '')}\n\n")
 
-    parts.append(_at_a_glance(task, questions, task_names or {}))
+    parts.append(_game_model(task, questions, task_names or {}))
 
     parts.append("## Inclusion test\n\n")
     parts.append(

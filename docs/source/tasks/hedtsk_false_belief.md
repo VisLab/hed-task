@@ -13,19 +13,24 @@ Wimmer & Perner-style narrative in which a protagonist holds a belief the partic
 
 The False Belief Task assesses the ability to attribute mental states to others that differ from reality. In the classic Sally-Anne version, Sally places an object in location A and leaves; Anne moves the object to location B. Participants are asked where Sally will look for the object. Correct performance (location A) requires representing Sally's false belief rather than the true state of the world. Adult neuroimaging versions use animated vignettes requiring belief reasoning. fMRI consistently activates medial prefrontal cortex, precuneus, and right temporoparietal junction.
 
-## At a glance
+## Game model
 
-The standard form of the task, the one the inclusion test defines, in the terms of the
-[task vocabulary](vocabulary.md). A variant states only what it changes.
+The standard form of the task, the one the inclusion test defines, as a game, in the terms
+of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
+parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-solve-problem">solve problem</a>
-- **Why does the player try?** <a href="vocabulary.html#motivation-drive-instructions-only">instructions only</a>
-- **Stimulus modality:** <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
-- **Stimulus type:** <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-text">text</a>, <a href="vocabulary.html#facet-stimulus-type-real-objects">real objects</a>
-- **Social aspect:** <a href="vocabulary.html#facet-social-aspect-explicit-social-task">explicit social task</a>, <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
-- **Task I/O device:** <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
-- **Trial structure:** <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
-- **Population:** <a href="vocabulary.html#facet-population-children">children</a>
+- **Game type:** <a href="vocabulary.html#game-solve-problem">Solve a puzzle</a> (`solve_problem`)
+- **Game rules:** none are defined for this game type
+- **Game motivators:**
+  - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+- **Game phases:** none beyond the game's own structure
+- **Game facets:**
+  - Stimulus modality: <a href="vocabulary.html#facet-stimulus-modality-visual">visual</a>, <a href="vocabulary.html#facet-stimulus-modality-auditory">auditory</a>
+  - Stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-text">text</a>, <a href="vocabulary.html#facet-stimulus-type-real-objects">real objects</a>
+  - Social aspect: <a href="vocabulary.html#facet-social-aspect-explicit-social-task">explicit social task</a>, <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>
+  - Task I/O device: <a href="vocabulary.html#facet-task-io-device-examiner">examiner</a>
+  - Trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>
+  - Population: <a href="vocabulary.html#facet-population-children">children</a>
 - **Material:** Short stories, told, read or acted out with pictures or objects, in which a character believes an object is where it no longer is (the Sally-Anne scenario).
 
 ## Inclusion test
@@ -102,7 +107,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Competitive False Belief (Deception)
 
     `hedvar_false_belief__competitive_false_belief_deception`
-  - social aspect: <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>, <a href="vocabulary.html#facet-social-aspect-explicit-social-task">explicit social task</a>; drive: <a href="vocabulary.html#motivation-drive-reward-goal">reward goal</a>; sign: <a href="vocabulary.html#motivation-sign-gain">gain</a>; earned by: <a href="vocabulary.html#motivation-earned-by-joint-moves">joint moves</a>; combined with: <a href="vocabulary.html#how-chained">chained</a>, <a href="vocabulary.html#game-interact-with-agent">interact with agent</a> (The belief worked out decides the move against an opponent)
+  - social aspect: <a href="vocabulary.html#facet-social-aspect-social-interaction">social interaction</a>, <a href="vocabulary.html#facet-social-aspect-explicit-social-task">explicit social task</a>; drive: <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>; sign: <a href="vocabulary.html#motivator-sign-gain">gain</a>; earned by: <a href="vocabulary.html#motivator-earned-by-joint-moves">joint moves</a>; combined with: <a href="vocabulary.html#how-chained">chained</a>, <a href="vocabulary.html#game-interact-with-agent">interact with agent</a> (The belief worked out decides the move against an opponent)
   - [Competition](../processes/social_cognition_and_strategic_social_choice.md#hed-competition)
   - The participant plays against a real opponent and wins by planting a false belief, for example by pointing to the wrong hiding place, so the answer becomes a move in a game rather than a report.
 ```

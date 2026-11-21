@@ -1,0 +1,161 @@
+{
+  "template_version": "0.1",
+  "paper": {
+    "citation": "",
+    "doi": "",
+    "pmid": "",
+    "url": "",
+    "datasets": [
+      {
+        "repository": "",
+        "id": "",
+        "url": ""
+      }
+    ]
+  },
+  "coding": {
+    "coded_by": "",
+    "coded_on": "",
+    "sources_read": [],
+    "status": "draft"
+  },
+  "tasks": [
+    {
+      "task_label": "",
+      "experiment": "",
+      "summary": "",
+      "game_type": {
+        "value": "",
+        "basis": "",
+        "evidence": ""
+      },
+      "rules": {},
+      "motivators": {
+        "drive": {
+          "value": [],
+          "basis": "",
+          "evidence": ""
+        },
+        "sign": {
+          "value": "",
+          "basis": "",
+          "evidence": ""
+        },
+        "earned_by": {
+          "value": "",
+          "basis": "",
+          "evidence": ""
+        },
+        "what": {
+          "value": [],
+          "basis": "",
+          "evidence": ""
+        },
+        "real": {
+          "value": [],
+          "basis": "",
+          "evidence": ""
+        }
+      },
+      "phases": {
+        "value": [],
+        "basis": "",
+        "evidence": ""
+      },
+      "task_facets": {
+        "stimulus_modality": {
+          "value": [],
+          "basis": "",
+          "evidence": ""
+        },
+        "stimulus_type": {
+          "value": [],
+          "basis": "",
+          "evidence": ""
+        },
+        "emotional_aspect": {
+          "value": [],
+          "basis": "",
+          "evidence": ""
+        },
+        "social_aspect": {
+          "value": [],
+          "basis": "",
+          "evidence": ""
+        },
+        "task_io_device": {
+          "value": [],
+          "basis": "",
+          "evidence": ""
+        },
+        "trial_structure": {
+          "value": [],
+          "basis": "",
+          "evidence": ""
+        },
+        "feedback": {
+          "value": [],
+          "basis": "",
+          "evidence": ""
+        },
+        "experimental_environment": {
+          "value": [],
+          "basis": "",
+          "evidence": ""
+        },
+        "population": {
+          "value": [],
+          "basis": "",
+          "evidence": ""
+        }
+      },
+      "settings": [
+        {
+          "setting": "",
+          "value": "",
+          "unit": "",
+          "evidence": ""
+        }
+      ],
+      "material": "",
+      "combined_with": [
+        {
+          "game_type": "",
+          "task": "",
+          "how": "",
+          "note": ""
+        }
+      ],
+      "procedure": [],
+      "manipulations": [],
+      "measurements": [],
+      "catalog_match": {
+        "relation": "",
+        "hedtsk_id": "",
+        "hedvar_id": "",
+        "note": ""
+      },
+      "processes": [
+        {
+          "process_id": "",
+          "source": "",
+          "evidence": ""
+        }
+      ],
+      "participants": {
+        "n": null,
+        "description": ""
+      },
+      "recording": [],
+      "not_in_vocabulary": [
+        {
+          "part": "",
+          "proposed": "",
+          "description": "",
+          "evidence": ""
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

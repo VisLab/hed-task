@@ -1,12 +1,14 @@
-# Task vocabulary
+# Game vocabulary
 
-The terms the task pages use to describe a task. A task's standard form is one
-**game type**; it states the **rules** of that game on which it departs from the
-default, why the player tries (**motivation**), and one or more values of each
-**facet** that applies. It may also name its **phases**, the **settings** a study
-chooses, and other games it is **combined** with. A variant states only what it
-changes. Each value below has its own anchor, which the task pages link to. The source
-files are `data/task_game_defs.json` and `data/task_facet_defs.json`.
+The terms in which a task is modeled as a game; [the task model](../task_model.md)
+explains them. A model has five parts. The standard form of a task is one
+**game type**; it states the **game rules** on which it departs from the default,
+the **game motivators** (why the player tries), any **game phases** beyond the
+game's own structure, and one or more values of each **game facet** that applies.
+A model may also name the **settings** a study chooses and other games it is
+**combined** with. A variant states only what it changes. Each value below has its
+own anchor, which the task pages link to. The source files are
+`data/task_game_defs.json` and `data/task_facet_defs.json`.
 
 ## Game types
 
@@ -23,7 +25,7 @@ files are `data/task_game_defs.json` and `data/task_facet_defs.json`.
 | <span id="game-report-on-self"></span>`report_on_self` | Report on yourself | The player reports an internal state, a timing, or a memory of their own. | No answer can be checked against a correct one. |
 | <span id="game-hold-state"></span>`hold_state` | Hold a state | The player keeps a bodily or mental state as instructed while the recording runs. | Nothing is presented that calls for a response and nothing is reported; holding the state is the whole job (rest, fixation). |
 
-## Rules
+## Game rules
 
 Each game type has its own rules. A rule a task does not state takes its default; a
 task states a rule only to give another answer. 5 game types have no rules: Solve a puzzle, Make a movement, Find the way, Report on yourself, Hold a state.
@@ -309,59 +311,60 @@ Rules of the game type `undergo_stream`.
 | <span id="rule-undergo-stream-report-after-none"></span>`none` | Nothing is asked afterwards. |
 | <span id="rule-undergo-stream-report-after-judgment"></span>`judgment` | A judgment about the content, such as how strongly one thing causes another. |
 
-## Motivation
+## Game motivators
 
 Why the player tries. Every task answers the first question; the others are answered where they apply.
 
-<span id="motivation-drive"></span>**Why does the player try?** Key `drive`. Every task answers it.
+<span id="motivator-drive"></span>**Why does the player try?** Key `drive`. Every task answers it.
 
 | Value | Definition |
 |---|---|
-| <span id="motivation-drive-instructions-only"></span>`instructions_only` | The player tries because they were asked to; nothing is won or lost. |
-| <span id="motivation-drive-reward-goal"></span>`reward_goal` | Obtaining a reward or avoiding a loss is what the game is about. |
-| <span id="motivation-drive-reward-stake"></span>`reward_stake` | A reward or loss is attached to performing well at a game that is about something else. |
-| <span id="motivation-drive-unearned-outcome"></span>`unearned_outcome` | Something pleasant or unpleasant is delivered whatever the player does. |
-| <span id="motivation-drive-instructed-emphasis"></span>`instructed_emphasis` | The instruction puts one of speed or accuracy first. The ordinary 'as fast and as accurately as you can' is `instructions_only`. |
+| <span id="motivator-drive-instructions-only"></span>`instructions_only` | The player tries because they were asked to; nothing is won or lost. |
+| <span id="motivator-drive-reward-goal"></span>`reward_goal` | Obtaining a reward or avoiding a loss is what the game is about. |
+| <span id="motivator-drive-reward-stake"></span>`reward_stake` | A reward or loss is attached to performing well at a game that is about something else. |
+| <span id="motivator-drive-unearned-outcome"></span>`unearned_outcome` | Something pleasant or unpleasant is delivered whatever the player does. |
+| <span id="motivator-drive-instructed-emphasis"></span>`instructed_emphasis` | The instruction puts one of speed or accuracy first. The ordinary 'as fast and as accurately as you can' is `instructions_only`. |
 
-<span id="motivation-sign"></span>**Can the player gain, lose, or both?** Key `sign`.
-
-| Value | Definition |
-|---|---|
-| <span id="motivation-sign-gain"></span>`gain` | The player can only gain. |
-| <span id="motivation-sign-loss"></span>`loss` | The player can only lose or receive something unpleasant. |
-| <span id="motivation-sign-both"></span>`both` | The player can gain and can lose. |
-
-<span id="motivation-earned-by"></span>**What earns the outcome?** Key `earned_by`.
+<span id="motivator-sign"></span>**Can the player gain, lose, or both?** Key `sign`.
 
 | Value | Definition |
 |---|---|
-| <span id="motivation-earned-by-choice"></span>`choice` | The option the player chooses. |
-| <span id="motivation-earned-by-performance"></span>`performance` | How fast or how accurately the player responds. |
-| <span id="motivation-earned-by-joint-moves"></span>`joint_moves` | The player's move together with another player's move. |
-| <span id="motivation-earned-by-nothing"></span>`nothing` | Nothing the player does; the outcome is delivered regardless. |
+| <span id="motivator-sign-gain"></span>`gain` | The player can only gain. |
+| <span id="motivator-sign-loss"></span>`loss` | The player can only lose or receive something unpleasant. |
+| <span id="motivator-sign-both"></span>`both` | The player can gain and can lose. |
 
-<span id="motivation-what"></span>**What is the outcome?** Key `what`.
-
-| Value | Definition |
-|---|---|
-| <span id="motivation-what-money"></span>`money` | Money. |
-| <span id="motivation-what-points"></span>`points` | Points with no stated money value. |
-| <span id="motivation-what-food"></span>`food` | Food or drink. |
-| <span id="motivation-what-social"></span>`social` | Approval, disapproval or another social outcome. |
-| <span id="motivation-what-aversive"></span>`aversive` | An unpleasant stimulus, such as a shock or a loud noise. |
-| <span id="motivation-what-effort-cost"></span>`effort_cost` | Effort the player must spend. |
-| <span id="motivation-what-signal-only"></span>`signal_only` | A signal of right or wrong, or of win or loss, with nothing behind it. |
-
-<span id="motivation-real"></span>**Is the outcome real?** Key `real`.
+<span id="motivator-earned-by"></span>**What earns the outcome?** Key `earned_by`.
 
 | Value | Definition |
 |---|---|
-| <span id="motivation-real-paid"></span>`paid` | The outcome is delivered or paid. |
-| <span id="motivation-real-hypothetical"></span>`hypothetical` | The player is asked to choose as if the outcome were real. |
+| <span id="motivator-earned-by-choice"></span>`choice` | The option the player chooses. |
+| <span id="motivator-earned-by-performance"></span>`performance` | How fast or how accurately the player responds. |
+| <span id="motivator-earned-by-joint-moves"></span>`joint_moves` | The player's move together with another player's move. |
+| <span id="motivator-earned-by-nothing"></span>`nothing` | Nothing the player does; the outcome is delivered regardless. |
 
-## Phases
+<span id="motivator-what"></span>**What is the outcome?** Key `what`.
 
-Named parts of a task that a study reports separately.
+| Value | Definition |
+|---|---|
+| <span id="motivator-what-money"></span>`money` | Money. |
+| <span id="motivator-what-points"></span>`points` | Points with no stated money value. |
+| <span id="motivator-what-food"></span>`food` | Food or drink. |
+| <span id="motivator-what-social"></span>`social` | Approval, disapproval or another social outcome. |
+| <span id="motivator-what-aversive"></span>`aversive` | An unpleasant stimulus, such as a shock or a loud noise. |
+| <span id="motivator-what-effort-cost"></span>`effort_cost` | Effort the player must spend. |
+| <span id="motivator-what-signal-only"></span>`signal_only` | A signal of right or wrong, or of win or loss, with nothing behind it. |
+
+<span id="motivator-real"></span>**Is the outcome real?** Key `real`.
+
+| Value | Definition |
+|---|---|
+| <span id="motivator-real-paid"></span>`paid` | The outcome is delivered or paid. |
+| <span id="motivator-real-hypothetical"></span>`hypothetical` | The player is asked to choose as if the outcome were real. |
+
+## Game phases
+
+Named parts of a game beyond the structure its game type already has, which a study
+reports separately. A task with no such part names no phase.
 
 | Phase | Definition |
 |---|---|
@@ -371,57 +374,11 @@ Named parts of a task that a study reports separately.
 | <span id="phase-devaluation"></span>`devaluation` | An outcome is made less valuable before responding is tested. |
 | <span id="phase-test"></span>`test` | A later phase that measures what was learned, with no further learning intended. |
 
-## Settings
+## Game facets
 
-Quantities a study chooses when it runs the task.
-
-| Setting | Definition |
-|---|---|
-| <span id="setting-retention-interval"></span>`retention_interval` | Time between study and test, or sample and probe. |
-| <span id="setting-stimulus-onset-asynchrony"></span>`stimulus_onset_asynchrony` | Time from one stimulus onset to the next (prime to target, cue to target, task 1 to task 2). |
-| <span id="setting-presentation-duration"></span>`presentation_duration` | How long a stimulus is shown. |
-| <span id="setting-reward-magnitude"></span>`reward_magnitude` | Size of a reward, loss, endowment or stake. |
-| <span id="setting-block-duration"></span>`block_duration` | Length of a block or run. |
-| <span id="setting-set-size"></span>`set_size` | Number of items in a display, memory set or option set. |
-| <span id="setting-number-of-alternatives"></span>`number_of_alternatives` | Response options or choice alternatives. |
-| <span id="setting-list-length"></span>`list_length` | Number of items in a studied list or sequence. |
-| <span id="setting-number-of-trials"></span>`number_of_trials` | Trials per block or in total. |
-| <span id="setting-target-probability"></span>`target_probability` | How often the target or rare item appears. |
-| <span id="setting-stimulus-similarity"></span>`stimulus_similarity` | Target-distractor or lure-target similarity. |
-| <span id="setting-response-deadline"></span>`response_deadline` | Time allowed to respond. |
-| <span id="setting-number-of-repetitions"></span>`number_of_repetitions` | How many times a list or sequence is presented. |
-| <span id="setting-interstimulus-interval"></span>`interstimulus_interval` | Blank time between two stimuli. |
-| <span id="setting-number-of-targets"></span>`number_of_targets` | Targets per display or stream. |
-| <span id="setting-reward-probability"></span>`reward_probability` | Chance an option pays off. |
-| <span id="setting-stimulus-intensity"></span>`stimulus_intensity` | Contrast, loudness, coherence, signal-to-noise, noise density. |
-| <span id="setting-presentation-rate"></span>`presentation_rate` | Items per second in a stream. |
-| <span id="setting-proportion-congruent"></span>`proportion_congruent` | Share of congruent or valid or related trials (cue validity, relatedness proportion). |
-| <span id="setting-feedback-reliability"></span>`feedback_reliability` | Share of feedback that is correct. |
-| <span id="setting-delay-to-outcome"></span>`delay_to_outcome` | Time until a reward or outcome is delivered. |
-| <span id="setting-eccentricity"></span>`eccentricity` | Distance from fixation. |
-| <span id="setting-spatial-separation"></span>`spatial_separation` | Distance between items or sources. |
-| <span id="setting-session-duration"></span>`session_duration` | Length of the whole session, or number of sessions. |
-| <span id="setting-number-of-distractors"></span>`number_of_distractors` | Distractors per display. |
-| <span id="setting-viewpoint-angle"></span>`viewpoint_angle` | Rotation or viewing angle. |
-| <span id="setting-number-of-rules"></span>`number_of_rules` | Number of relational rules to integrate. |
-
-## Ways of combining
-
-How a second game is played alongside the task's own.
-
-| Way | Definition |
-|---|---|
-| <span id="how-in-quick-succession"></span>`in_quick_succession` | The second game's stimulus follows the first's so closely that the two responses overlap. |
-| <span id="how-throughout"></span>`throughout` | The second game runs for the whole of the main game (holding fixation, a concurrent load). |
-| <span id="how-interleaved"></span>`interleaved` | Trials of the two games alternate or are mixed. |
-| <span id="how-inserted"></span>`inserted` | The second game is placed inside each trial or between the phases of the main game. |
-| <span id="how-chained"></span>`chained` | The outcome of one game is the starting point of the next. |
-
-## Facets
-
-What the participant sees, uses and is, recorded as values that are present (there are
-no 'none' values). There are 9 facets. The HED tags column gives the tags a
-value corresponds to.
+How the game is delivered: what the participant sees, uses and is, recorded as values
+that are present (there are no 'none' values). There are 9 facets. The HED
+tags column gives the tags a value corresponds to.
 
 ### Stimulus modality
 
@@ -598,3 +555,50 @@ Who the task has a version for. This facet records that such a version exists, n
 | <span id="facet-population-older-adults"></span>`older_adults` | A version for older adults, about 60 years and over. | No standard tag; catalog only. |
 | <span id="facet-population-patients"></span>`patients` | A version adapted for a clinical group of any age, such as shortened or simplified for patients. | No standard tag; catalog only (Sick is a state, not an adaptation). |
 | <span id="facet-population-bilinguals"></span>`bilinguals` | A version for people who use two languages. | No standard tag; catalog only. |
+
+## Settings
+
+Quantities a study chooses when it runs the game. A task model names them; a model of
+the task in one paper gives their values.
+
+| Setting | Definition |
+|---|---|
+| <span id="setting-retention-interval"></span>`retention_interval` | Time between study and test, or sample and probe. |
+| <span id="setting-stimulus-onset-asynchrony"></span>`stimulus_onset_asynchrony` | Time from one stimulus onset to the next (prime to target, cue to target, task 1 to task 2). |
+| <span id="setting-presentation-duration"></span>`presentation_duration` | How long a stimulus is shown. |
+| <span id="setting-reward-magnitude"></span>`reward_magnitude` | Size of a reward, loss, endowment or stake. |
+| <span id="setting-block-duration"></span>`block_duration` | Length of a block or run. |
+| <span id="setting-set-size"></span>`set_size` | Number of items in a display, memory set or option set. |
+| <span id="setting-number-of-alternatives"></span>`number_of_alternatives` | Response options or choice alternatives. |
+| <span id="setting-list-length"></span>`list_length` | Number of items in a studied list or sequence. |
+| <span id="setting-number-of-trials"></span>`number_of_trials` | Trials per block or in total. |
+| <span id="setting-target-probability"></span>`target_probability` | How often the target or rare item appears. |
+| <span id="setting-stimulus-similarity"></span>`stimulus_similarity` | Target-distractor or lure-target similarity. |
+| <span id="setting-response-deadline"></span>`response_deadline` | Time allowed to respond. |
+| <span id="setting-number-of-repetitions"></span>`number_of_repetitions` | How many times a list or sequence is presented. |
+| <span id="setting-interstimulus-interval"></span>`interstimulus_interval` | Blank time between two stimuli. |
+| <span id="setting-number-of-targets"></span>`number_of_targets` | Targets per display or stream. |
+| <span id="setting-reward-probability"></span>`reward_probability` | Chance an option pays off. |
+| <span id="setting-stimulus-intensity"></span>`stimulus_intensity` | Contrast, loudness, coherence, signal-to-noise, noise density. |
+| <span id="setting-presentation-rate"></span>`presentation_rate` | Items per second in a stream. |
+| <span id="setting-proportion-congruent"></span>`proportion_congruent` | Share of congruent or valid or related trials (cue validity, relatedness proportion). |
+| <span id="setting-feedback-reliability"></span>`feedback_reliability` | Share of feedback that is correct. |
+| <span id="setting-delay-to-outcome"></span>`delay_to_outcome` | Time until a reward or outcome is delivered. |
+| <span id="setting-eccentricity"></span>`eccentricity` | Distance from fixation. |
+| <span id="setting-spatial-separation"></span>`spatial_separation` | Distance between items or sources. |
+| <span id="setting-session-duration"></span>`session_duration` | Length of the whole session, or number of sessions. |
+| <span id="setting-number-of-distractors"></span>`number_of_distractors` | Distractors per display. |
+| <span id="setting-viewpoint-angle"></span>`viewpoint_angle` | Rotation or viewing angle. |
+| <span id="setting-number-of-rules"></span>`number_of_rules` | Number of relational rules to integrate. |
+
+## Ways of combining games
+
+How a second game is played alongside the main one.
+
+| Way | Definition |
+|---|---|
+| <span id="how-in-quick-succession"></span>`in_quick_succession` | The second game's stimulus follows the first's so closely that the two responses overlap. |
+| <span id="how-throughout"></span>`throughout` | The second game runs for the whole of the main game (holding fixation, a concurrent load). |
+| <span id="how-interleaved"></span>`interleaved` | Trials of the two games alternate or are mixed. |
+| <span id="how-inserted"></span>`inserted` | The second game is placed inside each trial or between the phases of the main game. |
+| <span id="how-chained"></span>`chained` | The outcome of one game is the starting point of the next. |

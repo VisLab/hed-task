@@ -28,7 +28,7 @@
       ]
     },
     "game_type": "undergo_stream",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -230,7 +230,7 @@
     "rules": {
       "competitor": "preceding_prime"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -560,7 +560,7 @@
       "rule_asks": "localize",
       "response_demand": "respond_opposite"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -921,7 +921,7 @@
       ]
     },
     "game_type": "study_then_test",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -1232,7 +1232,7 @@
       "competitor": "neighbouring_items",
       "cue": "location_cue"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -1558,7 +1558,7 @@
       "rule_asks": "detect",
       "competitor": "noise_or_mask"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -1737,7 +1737,7 @@
     "rules": {
       "option_set": "one_option_with_stop"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_goal"
       ],
@@ -1816,7 +1816,7 @@
         "variant_id": "hedvar_balloon_analog_risk__bart_with_loss_domain",
         "name": "BART with Loss Domain",
         "note": "Each balloon starts full of money and every pump removes some while raising the chance of a larger loss, so the same pump-or-stop structure is framed as accepting loss rather than chasing gain.",
-        "motivation": {
+        "motivators": {
           "sign": "loss"
         },
         "hed_process_ids": [
@@ -2041,7 +2041,7 @@
       ]
     },
     "game_type": "respond_to_rule",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -2467,7 +2467,7 @@
     "rules": {
       "test_form": "forced_choice"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -2780,7 +2780,7 @@
       "retention_interval": "seconds",
       "test_form": "same_changed"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -3093,7 +3093,7 @@
       "competitor": "neighbouring_items",
       "rule_source": "hidden_regularity"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -3448,7 +3448,7 @@
       "response_demand": "withhold_on_some",
       "target_rate": "rare_target"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -3837,7 +3837,7 @@
       "rule_asks": "detect",
       "reference": "held_in_mind"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -3947,7 +3947,7 @@
       "retention_interval": "seconds",
       "test_form": "serial_recall"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -4180,7 +4180,7 @@
       "outcome_knowledge": "described",
       "tradeoff": "amount_vs_delay"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_goal"
       ],
@@ -4263,7 +4263,7 @@
         "variant_id": "hedvar_delay_discounting__gain_vs_loss_framing",
         "name": "Gain vs. Loss Framing",
         "note": "Choices between paying a smaller amount now or a larger amount later are added alongside the usual gain choices.",
-        "motivation": {
+        "motivators": {
           "sign": "both"
         }
       },
@@ -4486,7 +4486,7 @@
       "retention_interval": "seconds",
       "test_form": "forced_choice"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -4795,7 +4795,7 @@
       ]
     },
     "game_type": "interact_with_agent",
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_goal"
       ],
@@ -5088,7 +5088,7 @@
       "retention_interval": "seconds",
       "test_form": "serial_recall"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -5356,7 +5356,7 @@
       "rule_asks": "generate",
       "stream": "continuous"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructed_emphasis"
       ]
@@ -5599,7 +5599,7 @@
       "study_instruction": "remember_or_forget_by_cue",
       "test_form": "free_recall"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -5896,7 +5896,7 @@
       "rule_asks": "localize",
       "cue": "location_cue"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -6221,7 +6221,7 @@
     "rules": {
       "instruction": "regulate"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -6560,7 +6560,7 @@
     "rules": {
       "competitor": "irrelevant_dimension"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -6861,7 +6861,7 @@
     "rules": {
       "competitor": "neighbouring_items"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -7205,7 +7205,7 @@
       "instruction": "incidental_judgment",
       "report_after": "none"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -7492,7 +7492,7 @@
       ]
     },
     "game_type": "respond_to_rule",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -7795,7 +7795,7 @@
       ]
     },
     "game_type": "solve_problem",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -7932,7 +7932,7 @@
             "explicit_social_task"
           ]
         },
-        "motivation": {
+        "motivators": {
           "drive": [
             "reward_goal"
           ],
@@ -8258,7 +8258,7 @@
       ]
     },
     "game_type": "produce_movement",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructed_emphasis"
       ]
@@ -8570,7 +8570,7 @@
       "retention_interval": "seconds",
       "test_form": "free_recall"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -8855,7 +8855,7 @@
     "rules": {
       "response_demand": "withhold_on_some"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -8911,7 +8911,7 @@
         "rules": {
           "cue": "incentive_cue"
         },
-        "motivation": {
+        "motivators": {
           "drive": [
             "reward_stake"
           ],
@@ -9236,7 +9236,7 @@
       ]
     },
     "game_type": "respond_to_rule",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -9594,7 +9594,7 @@
     "rules": {
       "tradeoff": "amount_vs_effort"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_goal"
       ],
@@ -9706,7 +9706,7 @@
             "headphones"
           ]
         },
-        "motivation": {
+        "motivators": {
           "sign": "loss",
           "what": [
             "aversive"
@@ -9939,7 +9939,7 @@
       ]
     },
     "game_type": "choose_for_outcomes",
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_goal"
       ],
@@ -10289,7 +10289,7 @@
       ]
     },
     "game_type": "respond_to_rule",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -10680,7 +10680,7 @@
     "rules": {
       "rule_asks": "compare"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -10924,7 +10924,7 @@
       ]
     },
     "game_type": "produce_movement",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -11230,7 +11230,7 @@
       "instruction": "none",
       "report_after": "none"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -11551,7 +11551,7 @@
     "rules": {
       "study_job": "incidental_judgment"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -11890,7 +11890,7 @@
       "rule_asks": "detect",
       "cue": "incentive_cue"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_stake"
       ],
@@ -12200,7 +12200,7 @@
       ]
     },
     "game_type": "produce_movement",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -12502,7 +12502,7 @@
     "rules": {
       "tradeoff": "explore_vs_exploit"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_goal"
       ],
@@ -12591,7 +12591,7 @@
         "variant_id": "hedvar_multi_armed_bandit__bandit_with_effort_cost",
         "name": "Bandit with Effort Cost",
         "note": "Choosing or sampling an option costs key presses or a hard task, so exploration carries an effort cost on top of the usual tradeoff.",
-        "motivation": {
+        "motivators": {
           "sign": "both",
           "what": [
             "points",
@@ -12802,7 +12802,7 @@
       "retention_interval": "seconds",
       "test_form": "forced_choice"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -13135,7 +13135,7 @@
       "target_rate": "rare_target",
       "reference": "held_in_mind"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -13489,7 +13489,7 @@
       "target_rate": "rare_target",
       "reference": "held_in_mind"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -13602,7 +13602,7 @@
     "rules": {
       "competitor": "irrelevant_dimension"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -14044,7 +14044,7 @@
       "response_demand": "withhold_on_some",
       "target_rate": "rare_target"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -14422,7 +14422,7 @@
     "rules": {
       "test_form": "old_new"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -14710,7 +14710,7 @@
       "interval_filler": "distraction",
       "test_form": "serial_recall"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -15037,7 +15037,7 @@
     "rules": {
       "studied_material": "pairs"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -15366,7 +15366,7 @@
     "rules": {
       "instruction": "none"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "unearned_outcome"
       ],
@@ -15797,7 +15797,7 @@
     "rules": {
       "rule_asks": "compare"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -16145,7 +16145,7 @@
     "rules": {
       "rule_asks": "identify"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -16456,7 +16456,7 @@
       "rule_asks": "identify",
       "competitor": "neighbouring_items"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -16565,7 +16565,7 @@
       "rule_asks": "detect",
       "cue": "location_cue"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -16926,7 +16926,7 @@
     "rules": {
       "move_order": "simultaneous"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_goal"
       ],
@@ -17007,7 +17007,7 @@
         "variant_id": "hedvar_prisoners_dilemma__pd_with_punishment_option",
         "name": "PD with Punishment Option",
         "note": "After the choices are revealed, a player or an observing third party can pay from their own money to reduce a defector's earnings.",
-        "motivation": {
+        "motivators": {
           "sign": "both"
         },
         "candidates": [
@@ -17273,7 +17273,7 @@
     "rules": {
       "rule_source": "learned_from_feedback"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -17609,7 +17609,7 @@
       "option_set": "stimulus_pairs",
       "tradeoff": "probability_learning"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_goal"
       ],
@@ -17665,7 +17665,7 @@
             "blocked_trials"
           ]
         },
-        "motivation": {
+        "motivators": {
           "what": [
             "money"
           ],
@@ -17933,7 +17933,7 @@
       ]
     },
     "game_type": "respond_to_rule",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -18260,7 +18260,7 @@
     "rules": {
       "rule_asks": "detect"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructed_emphasis"
       ]
@@ -18553,7 +18553,7 @@
       ]
     },
     "game_type": "navigate",
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_stake"
       ],
@@ -18890,7 +18890,7 @@
     "rules": {
       "competitor": "noise_or_mask"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -19196,7 +19196,7 @@
       ]
     },
     "game_type": "solve_problem",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -19496,7 +19496,7 @@
       ]
     },
     "game_type": "respond_to_rule",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -19790,7 +19790,7 @@
     "rules": {
       "test_form": "old_new_remember_know"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -20053,7 +20053,7 @@
       ]
     },
     "game_type": "solve_problem",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -20361,7 +20361,7 @@
       "tradeoff": "probability_learning",
       "contingency_stability": "reversal"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_goal"
       ],
@@ -20428,7 +20428,7 @@
             "blocked_trials"
           ]
         },
-        "motivation": {
+        "motivators": {
           "sign": "both"
         }
       }
@@ -20658,7 +20658,7 @@
       "interval_filler": "interference_list",
       "cycles": "repeated_lists"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -20888,7 +20888,7 @@
     "rules": {
       "competitor": "preceding_prime"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -21242,7 +21242,7 @@
     "rules": {
       "report_after": "comprehension_question"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -21519,7 +21519,7 @@
       "rule_asks": "localize",
       "rule_source": "hidden_regularity"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -21826,7 +21826,7 @@
     "rules": {
       "competitor": "irrelevant_dimension"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -22211,7 +22211,7 @@
       "rule_asks": "detect",
       "cue": "incentive_cue"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_stake"
       ],
@@ -22529,7 +22529,7 @@
       "retention_interval": "seconds",
       "test_form": "old_new"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -22812,7 +22812,7 @@
     "rules": {
       "response_demand": "cancel_on_signal"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -23156,7 +23156,7 @@
     "rules": {
       "competitor": "irrelevant_dimension"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -23534,7 +23534,7 @@
       "response_demand": "withhold_on_some",
       "target_rate": "rare_target"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -23979,7 +23979,7 @@
       "cue": "rule_cue",
       "rule_stability": "switches_on_cue"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -24337,7 +24337,7 @@
       "studied_material": "pairs",
       "cycles": "learn_to_criterion"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -24649,7 +24649,7 @@
       ]
     },
     "game_type": "solve_problem",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -24961,7 +24961,7 @@
       ]
     },
     "game_type": "solve_problem",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -25067,7 +25067,7 @@
       "stream": "continuous",
       "reference": "held_in_mind"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructed_emphasis"
       ]
@@ -25347,7 +25347,7 @@
     "rules": {
       "transfer_transformation": "multiplied"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_goal"
       ],
@@ -25684,7 +25684,7 @@
       "tradeoff": "explore_vs_exploit",
       "contingency_stability": "drifting"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_goal"
       ],
@@ -26016,7 +26016,7 @@
       ]
     },
     "game_type": "interact_with_agent",
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_goal"
       ],
@@ -26088,7 +26088,7 @@
         "rules": {
           "players_acting": "several"
         },
-        "motivation": {
+        "motivators": {
           "sign": "both"
         },
         "candidates": [
@@ -26313,7 +26313,7 @@
     "rules": {
       "competitor": "noise_or_mask"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -26577,7 +26577,7 @@
     "rules": {
       "rule_asks": "generate"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -26876,7 +26876,7 @@
       ]
     },
     "game_type": "navigate",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -27182,7 +27182,7 @@
       "rule_asks": "detect",
       "competitor": "noise_or_mask"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -27785,7 +27785,7 @@
       "rule_asks": "detect",
       "competitor": "neighbouring_items"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -28129,7 +28129,7 @@
       ]
     },
     "game_type": "solve_problem",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -28413,7 +28413,7 @@
     "rules": {
       "competitor": "preceding_prime"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -28734,7 +28734,7 @@
       "rule_source": "learned_from_feedback",
       "rule_stability": "shifts_unsignalled"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -29018,7 +29018,7 @@
       ]
     },
     "game_type": "solve_problem",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructed_emphasis"
       ]
@@ -29326,7 +29326,7 @@
       ]
     },
     "game_type": "study_then_test",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -29608,7 +29608,7 @@
       "studied_material": "items_with_context",
       "test_form": "source_attribution"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -29946,7 +29946,7 @@
       "outcome_knowledge": "described",
       "tradeoff": "amount_vs_effort"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "reward_goal"
       ],
@@ -30054,7 +30054,7 @@
           "option_set": "k_hidden_outcome",
           "outcome_knowledge": "experienced"
         },
-        "motivation": {
+        "motivators": {
           "sign": "loss",
           "what": [
             "effort_cost"
@@ -30335,7 +30335,7 @@
       "studied_material": "pairs",
       "inserted_judgment": "after_failed_recall"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -30648,7 +30648,7 @@
       "studied_material": "pairs",
       "inserted_judgment": "at_study"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -30947,7 +30947,7 @@
       ]
     },
     "game_type": "report_on_self",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -31284,7 +31284,7 @@
       "test_form": "free_recall",
       "study_job": "self_reference_judgment"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -31597,7 +31597,7 @@
       ]
     },
     "game_type": "report_on_self",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -31957,7 +31957,7 @@
       "studied_material": "pairs",
       "retention_interval": "seconds"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -32288,7 +32288,7 @@
     "rules": {
       "instruction": "none"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -32632,7 +32632,7 @@
       ]
     },
     "game_type": "respond_to_rule",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -32942,7 +32942,7 @@
       ]
     },
     "game_type": "report_on_self",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -33041,7 +33041,7 @@
             "value_amounts"
           ]
         },
-        "motivation": {
+        "motivators": {
           "drive": [
             "unearned_outcome"
           ],
@@ -33279,7 +33279,7 @@
     "rules": {
       "report_after": "comprehension_question"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -33576,7 +33576,7 @@
       "target_rate": "rare_target",
       "stream": "rapid_stream"
     },
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -34004,7 +34004,7 @@
       ]
     },
     "game_type": "hold_state",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -34263,7 +34263,7 @@
       ]
     },
     "game_type": "hold_state",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
@@ -34375,7 +34375,7 @@
       ]
     },
     "game_type": "report_on_self",
-    "motivation": {
+    "motivators": {
       "drive": [
         "instructions_only"
       ]
