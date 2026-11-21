@@ -19,10 +19,10 @@ The standard form of the task, the one the inclusion test defines, as a game, in
 of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
 parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> (`choose_for_outcomes`)
+- **Game type:** <a href="vocabulary.html#game-choose-for-payoff">Choose for a payoff</a> (`choose_for_payoff`)
 - **Game rules:** the answers that differ from the defaults of the game type
-  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-explore-vs-exploit">explore vs exploit</a>
-  - *Does what pays change?* <a href="vocabulary.html#rule-choose-for-outcomes-contingency-stability-drifting">drifting</a>
+  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-payoff-tradeoff-explore-vs-exploit">explore vs exploit</a>
+  - *Does what pays change?* <a href="vocabulary.html#rule-choose-for-payoff-contingency-stability-drifting">drifting</a>
 - **Game motivators:**
   - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
   - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-gain">gain</a>

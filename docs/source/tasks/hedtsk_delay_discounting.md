@@ -19,11 +19,11 @@ The standard form of the task, the one the inclusion test defines, as a game, in
 of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
 parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> (`choose_for_outcomes`)
+- **Game type:** <a href="vocabulary.html#game-choose-for-payoff">Choose for a payoff</a> (`choose_for_payoff`)
 - **Game rules:** the answers that differ from the defaults of the game type
-  - *What are the options?* <a href="vocabulary.html#rule-choose-for-outcomes-option-set-two-described">two described</a>
-  - *How does the player learn what pays?* <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-described">described</a>
-  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-amount-vs-delay">amount vs delay</a>
+  - *What are the options?* <a href="vocabulary.html#rule-choose-for-payoff-option-set-two-described">two described</a>
+  - *How does the player learn what pays?* <a href="vocabulary.html#rule-choose-for-payoff-outcome-knowledge-described">described</a>
+  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-payoff-tradeoff-amount-vs-delay">amount vs delay</a>
 - **Game motivators:**
   - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
   - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-gain">gain</a>
@@ -104,7 +104,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Experiential Discounting Task
 
     `hedvar_delay_discounting__experiential_discounting`
-  - feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>; outcome knowledge: <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-experienced">experienced</a>
+  - feedback: <a href="vocabulary.html#facet-feedback-trial-feedback">trial feedback</a>; outcome knowledge: <a href="vocabulary.html#rule-choose-for-payoff-outcome-knowledge-experienced">experienced</a>
   - -
   - Delays are seconds to a minute and are actually waited out, with the reward delivered after each wait, so outcomes are experienced rather than only described.
 * - Gain vs. Loss Framing
@@ -116,7 +116,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Probabilistic Discounting
 
     `hedvar_delay_discounting__probabilistic_discounting`
-  - tradeoff: <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-amount-vs-risk">amount vs risk</a>
+  - tradeoff: <a href="vocabulary.html#rule-choose-for-payoff-tradeoff-amount-vs-risk">amount vs risk</a>
   - [Risk processing](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-risk-processing)
   - The larger reward is uncertain rather than delayed, so the choice trades amount against probability instead of against delay.
 * - Cross-Commodity Discounting

@@ -19,9 +19,9 @@ The standard form of the task, the one the inclusion test defines, as a game, in
 of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
 parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> (`choose_for_outcomes`)
+- **Game type:** <a href="vocabulary.html#game-choose-for-payoff">Choose for a payoff</a> (`choose_for_payoff`)
 - **Game rules:** the answers that differ from the defaults of the game type
-  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-explore-vs-exploit">explore vs exploit</a>
+  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-payoff-tradeoff-explore-vs-exploit">explore vs exploit</a>
 - **Game motivators:**
   - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
   - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-gain">gain</a>
@@ -82,7 +82,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Restless (Volatile) Bandit
 
     `hedvar_multi_armed_bandit__restless_volatile_bandit`
-  - contingency stability: <a href="vocabulary.html#rule-choose-for-outcomes-contingency-stability-drifting">drifting</a>
+  - contingency stability: <a href="vocabulary.html#rule-choose-for-payoff-contingency-stability-drifting">drifting</a>
   - -
   - Each option's reward probability or amount drifts slowly and randomly over the session, so the best option changes.
 * - Contextual Bandit
@@ -90,13 +90,13 @@ variant is `hedvar_<task>__<variant>`.
     `hedvar_multi_armed_bandit__contextual_bandit`
 
     Cognitive Atlas: [contextual bandit](https://www.cognitiveatlas.org/task/id/tsk_3ICXMd8R3ekcb)
-  - contingency cue: <a href="vocabulary.html#rule-choose-for-outcomes-contingency-cue-per-trial-cue">per trial cue</a>
+  - contingency cue: <a href="vocabulary.html#rule-choose-for-payoff-contingency-cue-per-trial-cue">per trial cue</a>
   - [Associative learning](../processes/associative_learning_and_reinforcement.md#hed-associative-learning)
   - A cue shown on each trial predicts which option is better, so the participant learns which choice goes with which cue.
 * - Four-Armed Bandit with Reversal
 
     `hedvar_multi_armed_bandit__four_armed_bandit_with_reversal`
-  - contingency stability: <a href="vocabulary.html#rule-choose-for-outcomes-contingency-stability-reversal">reversal</a>
+  - contingency stability: <a href="vocabulary.html#rule-choose-for-payoff-contingency-stability-reversal">reversal</a>
   - [Reversal learning](../processes/associative_learning_and_reinforcement.md#hed-reversal-learning)
   - Four options whose reward probabilities swap at unannounced points.
 * - Social Bandit

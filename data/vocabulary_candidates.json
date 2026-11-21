@@ -88,7 +88,7 @@
     {
       "candidate_id": "cand_boundary__body_ownership_illusion",
       "kind": "game_type_assignment",
-      "definition": "Is any answer scored against a correct one as a main measure? If yes, not Watch or listen.",
+      "definition": "Is any answer scored against a correct one as a main measure? If yes, not Experience passively.",
       "status": "candidate",
       "issue": "unclear boundary",
       "discussion": "",
@@ -100,7 +100,7 @@
     {
       "candidate_id": "cand_boundary__self_paced_reading",
       "kind": "game_type_assignment",
-      "definition": "Is any answer scored against a correct one as a main measure? If yes, not Watch or listen.",
+      "definition": "Is any answer scored against a correct one as a main measure? If yes, not Experience passively.",
       "status": "candidate",
       "issue": "unclear boundary",
       "discussion": "",
@@ -112,7 +112,7 @@
     {
       "candidate_id": "cand_boundary__sentence_comprehension",
       "kind": "game_type_assignment",
-      "definition": "Is any answer scored against a correct one as a main measure? If yes, not Watch or listen.",
+      "definition": "Is any answer scored against a correct one as a main measure? If yes, not Experience passively.",
       "status": "candidate",
       "issue": "unclear boundary",
       "discussion": "",
@@ -1008,7 +1008,7 @@
       "promote_when": "The same contrast is found in a second task."
     },
     {
-      "candidate_id": "cand_choose_for_outcomes__option_set__committed_count",
+      "candidate_id": "cand_choose_for_payoff__option_set__committed_count",
       "kind": "rule_value",
       "definition": "Committed count. For Balloon Analog Risk Task / Automatic BART.",
       "status": "candidate",
@@ -1020,7 +1020,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_choose_for_outcomes__option_set__multi_stage",
+      "candidate_id": "cand_choose_for_payoff__option_set__multi_stage",
       "kind": "rule_value",
       "definition": "Multi stage. For Two-Stage Decision Task / Enhanced Model-Based Version.",
       "status": "candidate",
@@ -1032,7 +1032,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_choose_for_outcomes__option_set__single_response_schedule",
+      "candidate_id": "cand_choose_for_payoff__option_set__single_response_schedule",
       "kind": "rule_value",
       "definition": "One response, repeated under a reward schedule.",
       "status": "candidate",
@@ -1044,7 +1044,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_choose_for_outcomes__option_set__two_stage",
+      "candidate_id": "cand_choose_for_payoff__option_set__two_stage",
       "kind": "rule_value",
       "definition": "A first choice leads to a second choice.",
       "status": "candidate",
@@ -1056,7 +1056,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_choose_for_outcomes__outcome_knowledge__mixed",
+      "candidate_id": "cand_choose_for_payoff__outcome_knowledge__mixed",
       "kind": "rule_value",
       "definition": "The player is told part of the payoff structure and learns the rest by choosing.",
       "status": "candidate",
@@ -1068,7 +1068,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_choose_for_outcomes__phases__acquisition_plus_degradation",
+      "candidate_id": "cand_choose_for_payoff__phases__acquisition_plus_degradation",
       "kind": "rule_value",
       "definition": "Acquisition plus degradation. For Instrumental Conditioning Task / Contingency Degradation.",
       "status": "candidate",
@@ -1080,7 +1080,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_choose_for_outcomes__phases__acquisition_plus_devaluation_test",
+      "candidate_id": "cand_choose_for_payoff__phases__acquisition_plus_devaluation_test",
       "kind": "rule_value",
       "definition": "Acquisition plus devaluation test. For Instrumental Conditioning Task / Devaluation Paradigm.",
       "status": "promoted",
@@ -1093,7 +1093,7 @@
       "promote_when": ""
     },
     {
-      "candidate_id": "cand_choose_for_outcomes__phases__acquisition_plus_reversal",
+      "candidate_id": "cand_choose_for_payoff__phases__acquisition_plus_reversal",
       "kind": "rule_value",
       "definition": "Learning, then the payoffs reverse.",
       "status": "candidate",
@@ -1105,7 +1105,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_choose_for_outcomes__phases__acquisition_plus_transfer",
+      "candidate_id": "cand_choose_for_payoff__phases__acquisition_plus_transfer",
       "kind": "rule_value",
       "definition": "Learning, then a test with new combinations.",
       "status": "promoted",
@@ -1118,19 +1118,19 @@
       "promote_when": ""
     },
     {
-      "candidate_id": "cand_choose_for_outcomes__tradeoff__amount_vs_delay",
+      "candidate_id": "cand_choose_for_payoff__tradeoff__amount_vs_delay",
       "kind": "rule_value",
       "definition": "A bigger reward against a longer wait.",
       "status": "promoted",
       "issue": "single use",
-      "discussion": "Promoted by hand on 2026-11-12 as an established concept: Intertemporal choice; Delay Discounting. Now `choose_for_outcomes.tradeoff: amount_vs_delay` in task_game_defs.json.",
+      "discussion": "Promoted by hand on 2026-11-12 as an established concept: Intertemporal choice; Delay Discounting. Now `choose_for_payoff.tradeoff: amount_vs_delay` in task_game_defs.json.",
       "seen_in": [
         "Delay Discounting Task"
       ],
       "promote_when": ""
     },
     {
-      "candidate_id": "cand_choose_for_outcomes__tradeoff__effort_avoidance",
+      "candidate_id": "cand_choose_for_payoff__tradeoff__effort_avoidance",
       "kind": "rule_value",
       "definition": "Effort avoidance. For Effort-Based Decision-Making Task / Demand Selection Task.",
       "status": "candidate",
@@ -2754,7 +2754,7 @@
       "promote_when": ""
     },
     {
-      "candidate_id": "cand_undergo_stream__instruction__choose_exposure",
+      "candidate_id": "cand_experience_passively__instruction__choose_exposure",
       "kind": "rule_value",
       "definition": "the participant selects or terminates what is shown.",
       "status": "candidate",
@@ -2766,7 +2766,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__instruction__contingency_told",
+      "candidate_id": "cand_experience_passively__instruction__contingency_told",
       "kind": "rule_value",
       "definition": "the participant is told the CS-US relation before the stream.",
       "status": "candidate",
@@ -2778,19 +2778,19 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__instruction__regulate",
+      "candidate_id": "cand_experience_passively__instruction__regulate",
       "kind": "rule_value",
       "definition": "Change their emotional response.",
       "status": "promoted",
       "issue": "single use",
-      "discussion": "Promoted by hand on 2026-11-12 as an established concept: Emotion regulation. Now `undergo_stream.instruction: regulate` in task_game_defs.json.",
+      "discussion": "Promoted by hand on 2026-11-12 as an established concept: Emotion regulation. Now `experience_passively.instruction: regulate` in task_game_defs.json.",
       "seen_in": [
         "Emotion Regulation Task"
       ],
       "promote_when": ""
     },
     {
-      "candidate_id": "cand_undergo_stream__phases__acquisition_extinction",
+      "candidate_id": "cand_experience_passively__phases__acquisition_extinction",
       "kind": "rule_value",
       "definition": "Pairings, then the cue alone.",
       "status": "promoted",
@@ -2802,7 +2802,7 @@
       "promote_when": ""
     },
     {
-      "candidate_id": "cand_undergo_stream__phases__acquisition_extinction_recall_test",
+      "candidate_id": "cand_experience_passively__phases__acquisition_extinction_recall_test",
       "kind": "rule_value",
       "definition": "a delayed test of the extinguished CS, same context, no US.",
       "status": "promoted",
@@ -2814,7 +2814,7 @@
       "promote_when": ""
     },
     {
-      "candidate_id": "cand_undergo_stream__phases__acquisition_extinction_reinstatement",
+      "candidate_id": "cand_experience_passively__phases__acquisition_extinction_reinstatement",
       "kind": "rule_value",
       "definition": "unsignalled US presentations after extinction, then a CS test.",
       "status": "candidate",
@@ -2826,7 +2826,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__phases__acquisition_extinction_renewal",
+      "candidate_id": "cand_experience_passively__phases__acquisition_extinction_renewal",
       "kind": "rule_value",
       "definition": "Pairings, cue alone, then a test in a new setting.",
       "status": "candidate",
@@ -2838,7 +2838,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__phases__acquisition_generalization_test",
+      "candidate_id": "cand_experience_passively__phases__acquisition_generalization_test",
       "kind": "rule_value",
       "definition": "a test phase with graded novel cues replaces extinction.",
       "status": "candidate",
@@ -2850,7 +2850,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__phases__acquisition_reactivation_extinction_test",
+      "candidate_id": "cand_experience_passively__phases__acquisition_reactivation_extinction_test",
       "kind": "rule_value",
       "definition": "a one-trial reactivation inserted before extinction, with a later return-of-fear test.",
       "status": "candidate",
@@ -2862,7 +2862,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__phases__induction_then_threat_probe",
+      "candidate_id": "cand_experience_passively__phases__induction_then_threat_probe",
       "kind": "rule_value",
       "definition": "a threat event is delivered after the stroking phase and the response to it is recorded.",
       "status": "candidate",
@@ -2874,7 +2874,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__stream__adaptation_pairs",
+      "candidate_id": "cand_experience_passively__stream__adaptation_pairs",
       "kind": "rule_value",
       "definition": "items in pairs or runs where the next item is the same or a different exemplar, the repetition-related response reduction being the measure.",
       "status": "candidate",
@@ -2886,7 +2886,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__stream__context_us_pairings",
+      "candidate_id": "cand_experience_passively__stream__context_us_pairings",
       "kind": "rule_value",
       "definition": "the US is unsignalled and the surrounding context, not a discrete cue, is what gets paired.",
       "status": "candidate",
@@ -2898,7 +2898,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__stream__cs_us_pairings",
+      "candidate_id": "cand_experience_passively__stream__cs_us_pairings",
       "kind": "rule_value",
       "definition": "A cue repeatedly paired with an unpleasant or pleasant event.",
       "status": "candidate",
@@ -2910,7 +2910,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__stream__cue_outcome_pairings",
+      "candidate_id": "cand_experience_passively__stream__cue_outcome_pairings",
       "kind": "rule_value",
       "definition": "Cues and outcomes shown together, for a causal judgment.",
       "status": "candidate",
@@ -2922,7 +2922,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__stream__faces_vs_objects_blocks",
+      "candidate_id": "cand_experience_passively__stream__faces_vs_objects_blocks",
       "kind": "rule_value",
       "definition": "Blocks of faces alternating with blocks of objects.",
       "status": "candidate",
@@ -2934,7 +2934,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__stream__mirrored_movement",
+      "candidate_id": "cand_experience_passively__stream__mirrored_movement",
       "kind": "rule_value",
       "definition": "the visible stimulus is the reflection of the participant's own moving hand and the felt signal is limb movement rather than touch.",
       "status": "candidate",
@@ -2946,7 +2946,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__stream__sounds",
+      "candidate_id": "cand_experience_passively__stream__sounds",
       "kind": "rule_value",
       "definition": "Sounds.",
       "status": "candidate",
@@ -2958,7 +2958,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__stream__summary_table",
+      "candidate_id": "cand_experience_passively__stream__summary_table",
       "kind": "rule_value",
       "definition": "the contingency counts are shown all at once.",
       "status": "candidate",
@@ -2970,7 +2970,7 @@
       "promote_when": "Used in a second task."
     },
     {
-      "candidate_id": "cand_undergo_stream__stream__tactile_stroking",
+      "candidate_id": "cand_experience_passively__stream__tactile_stroking",
       "kind": "rule_value",
       "definition": "A seen fake hand and the hidden real hand stroked together.",
       "status": "candidate",
@@ -3332,7 +3332,7 @@
     {
       "candidate_id": "cand_uncaptured__false_belief_task__animated_triangles_heider_simmel",
       "kind": "uncaptured_difference",
-      "definition": "A different task: open-ended narration of an animation, scored for how much it attributes mental states, with no problem to solve; it fits undergo_stream with a report_after better than solve_problem, and shares only the mentalizing process label with the standard form.",
+      "definition": "A different task: open-ended narration of an animation, scored for how much it attributes mental states, with no problem to solve; it fits experience_passively with a report_after better than solve_problem, and shares only the mentalizing process label with the standard form.",
       "status": "candidate",
       "issue": "single use",
       "discussion": "The participant watches shapes move as if with intentions and describes what happened, scored for mental-state language; there is no false belief and no correct answer.",
@@ -3356,7 +3356,7 @@
     {
       "candidate_id": "cand_uncaptured__false_belief_task__implicit_false_belief_looking_time",
       "kind": "uncaptured_difference",
-      "definition": "The participant gives no answer, so the form changes from solve_problem to undergo_stream (the recording is the measure); a form change is not a rule change within solve_problem, and the listed verbal-vs-nonverbal manipulation does not cover \"no response\".",
+      "definition": "The participant gives no answer, so the form changes from solve_problem to experience_passively (the recording is the measure); a form change is not a rule change within solve_problem, and the listed verbal-vs-nonverbal manipulation does not cover \"no response\".",
       "status": "candidate",
       "issue": "single use",
       "discussion": "Infants watch an actor search where the actor should believe the object is or where it really is, and looking time is recorded; no question is asked.",
@@ -3560,7 +3560,7 @@
     {
       "candidate_id": "cand_uncaptured__monetary_incentive_delay_task__mid_with_effort_component",
       "kind": "uncaptured_difference",
-      "definition": "The response demanded becomes effortful (sustained force or many presses) rather than a single speeded press; no respond_to_rule rule records response effort, and there is no choice, so the amount_vs_effort tradeoff of choose_for_outcomes does not apply.",
+      "definition": "The response demanded becomes effortful (sustained force or many presses) rather than a single speeded press; no respond_to_rule rule records response effort, and there is no choice, so the amount_vs_effort tradeoff of choose_for_payoff does not apply.",
       "status": "candidate",
       "issue": "single use",
       "discussion": "Instead of one quick press the participant must squeeze a hand grip hard enough or press a key many times to earn the cued reward.",
@@ -3572,7 +3572,7 @@
     {
       "candidate_id": "cand_uncaptured__monetary_incentive_delay_task__passive_mid",
       "kind": "uncaptured_difference",
-      "definition": "With no response the task leaves respond_to_rule altogether and becomes undergo_stream (stream cue_outcome_pairings, instruction none, phases single, report_after none); a form change is not a rule setting.",
+      "definition": "With no response the task leaves respond_to_rule altogether and becomes experience_passively (stream cue_outcome_pairings, instruction none, phases single, report_after none); a form change is not a rule setting.",
       "status": "candidate",
       "issue": "single use",
       "discussion": "The cue and outcome are shown but the participant presses nothing, with wins and losses following a preset schedule.",
@@ -3656,7 +3656,7 @@
     {
       "candidate_id": "cand_uncaptured__oddball_task__passive_oddball",
       "kind": "uncaptured_difference",
-      "definition": "The form changes from respond_to_rule to undergo_stream (stream: sounds; instruction: none; report_after: none); no value of response_demand expresses \"never respond\", and this profile is the Mismatch Negativity Task's standard form.",
+      "definition": "The form changes from respond_to_rule to experience_passively (stream: sounds; instruction: none; report_after: none); no value of response_demand expresses \"never respond\", and this profile is the Mismatch Negativity Task's standard form.",
       "status": "candidate",
       "issue": "single use",
       "discussion": "No response or count is required and the participant may do something else while the sounds play, so there is no job at all.",
@@ -4172,7 +4172,7 @@
     {
       "candidate_id": "cand_uncaptured__visual_search_task__adaptive_choice_visual_search",
       "kind": "uncaptured_difference",
-      "definition": "The participant's free choice of which of two present targets to search for, under drifting difficulty, is the measure; no rule of respond_to_rule records a choice among targets, and a choose_for_outcomes composition would be a stretch since no outcome is delivered.",
+      "definition": "The participant's free choice of which of two present targets to search for, under drifting difficulty, is the measure; no rule of respond_to_rule records a choice among targets, and a choose_for_payoff composition would be a stretch since no outcome is delivered.",
       "status": "candidate",
       "issue": "single use",
       "discussion": "Two targets are always present, one per color, and the participant chooses which to look for while the color proportions drift; whether they switch to the easier target is the measure.",

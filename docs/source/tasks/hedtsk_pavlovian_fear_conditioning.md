@@ -19,9 +19,9 @@ The standard form of the task, the one the inclusion test defines, as a game, in
 of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
 parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-undergo-stream">Watch or listen</a> (`undergo_stream`)
+- **Game type:** <a href="vocabulary.html#game-experience-passively">Experience passively</a> (`experience_passively`)
 - **Game rules:** the answers that differ from the defaults of the game type
-  - *What is the player told to do while it runs?* <a href="vocabulary.html#rule-undergo-stream-instruction-none">none</a>
+  - *What is the player told to do while it runs?* <a href="vocabulary.html#rule-experience-passively-instruction-none">none</a>
 - **Game motivators:**
   - *Why does the player try?* <a href="vocabulary.html#motivator-drive-unearned-outcome">unearned outcome</a>
   - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-loss">loss</a>

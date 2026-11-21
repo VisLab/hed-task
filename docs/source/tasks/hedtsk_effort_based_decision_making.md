@@ -19,11 +19,11 @@ The standard form of the task, the one the inclusion test defines, as a game, in
 of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
 parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> (`choose_for_outcomes`)
+- **Game type:** <a href="vocabulary.html#game-choose-for-payoff">Choose for a payoff</a> (`choose_for_payoff`)
 - **Game rules:** the answers that differ from the defaults of the game type
-  - *What are the options?* <a href="vocabulary.html#rule-choose-for-outcomes-option-set-two-described">two described</a>
-  - *How does the player learn what pays?* <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-described">described</a>
-  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-outcomes-tradeoff-amount-vs-effort">amount vs effort</a>
+  - *What are the options?* <a href="vocabulary.html#rule-choose-for-payoff-option-set-two-described">two described</a>
+  - *How does the player learn what pays?* <a href="vocabulary.html#rule-choose-for-payoff-outcome-knowledge-described">described</a>
+  - *What is traded against what?* <a href="vocabulary.html#rule-choose-for-payoff-tradeoff-amount-vs-effort">amount vs effort</a>
 - **Game motivators:**
   - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
   - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-gain">gain</a>
@@ -106,19 +106,19 @@ variant is `hedvar_<task>__<variant>`.
 * - Progressive Ratio Task
 
     `hedvar_effort_based_decision_making__progressive_ratio`
-  - option set: <a href="vocabulary.html#rule-choose-for-outcomes-option-set-one-option-with-stop">one option with stop</a>
+  - option set: <a href="vocabulary.html#rule-choose-for-payoff-option-set-one-option-with-stop">one option with stop</a>
   - -
   - The two-offer choice is replaced by a single escalating response requirement that the participant may abandon at any time; the breakpoint is the measure.
 * - Demand Selection Task
 
     `hedvar_effort_based_decision_making__demand_selection`
-  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>; option set: <a href="vocabulary.html#rule-choose-for-outcomes-option-set-k-hidden-outcome">k hidden outcome</a>; outcome knowledge: <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-experienced">experienced</a>; sign: <a href="vocabulary.html#motivator-sign-loss">loss</a>; what: <a href="vocabulary.html#motivator-what-effort-cost">effort cost</a>; drive: <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-game-objects">game objects</a>; option set: <a href="vocabulary.html#rule-choose-for-payoff-option-set-k-hidden-outcome">k hidden outcome</a>; outcome knowledge: <a href="vocabulary.html#rule-choose-for-payoff-outcome-knowledge-experienced">experienced</a>; sign: <a href="vocabulary.html#motivator-sign-loss">loss</a>; what: <a href="vocabulary.html#motivator-what-effort-cost">effort cost</a>; drive: <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
   - -
   - Two unlabeled options lead to the same kind of task, differing only in how often the task switches; nothing is paid and the difference is learned by experience, so the choice weighs effort alone.
 * - Apple-Gathering Task
 
     `hedvar_effort_based_decision_making__apple_gathering`
-  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>; option set: <a href="vocabulary.html#rule-choose-for-outcomes-option-set-one-option-with-stop">one option with stop</a>; outcome knowledge: <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-experienced">experienced</a>
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-pictures">pictures</a>, <a href="vocabulary.html#facet-stimulus-type-value-amounts">value amounts</a>; option set: <a href="vocabulary.html#rule-choose-for-payoff-option-set-one-option-with-stop">one option with stop</a>; outcome knowledge: <a href="vocabulary.html#rule-choose-for-payoff-outcome-knowledge-experienced">experienced</a>
   - -
   - A foraging structure in which each press on a tree yields fewer apples than the last and the participant decides when to leave for the next tree at a travel-time cost, so the choice is stay-or-leave with experienced diminishing returns.
 ```

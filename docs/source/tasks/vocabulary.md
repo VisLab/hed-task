@@ -16,11 +16,11 @@ own anchor, which the task pages link to. The source files are
 |---|---|---|---|
 | <span id="game-respond-to-rule"></span>`respond_to_rule` | Respond under a rule | A stimulus appears; the player applies a rule they were given and responds. | The answer depends only on the stimulus in front of the player and the rule, not on material studied earlier. |
 | <span id="game-study-then-test"></span>`study_then_test` | Study, then be tested | The player takes material in, holds it over an interval, then shows what they kept. | There is material to keep and a later test of it, even when the interval is a second. |
-| <span id="game-choose-for-outcomes"></span>`choose_for_outcomes` | Choose for a payoff | The player picks an option, sees what it pays, and picks again. | No option is correct by instruction; the options differ in what they pay. |
+| <span id="game-choose-for-payoff"></span>`choose_for_payoff` | Choose for a payoff | The player picks an option, sees what it pays, and picks again. | No option is correct by instruction; the options differ in what they pay. |
 | <span id="game-interact-with-agent"></span>`interact_with_agent` | Play against another player | The player makes a move whose payoff depends on what another player does. | Another player, real or said to be real, has a stake in the outcome. |
 | <span id="game-solve-problem"></span>`solve_problem` | Solve a puzzle | The player works out an answer or a sequence of moves. | The answer has to be worked out; it cannot be read off the stimulus by a rule. |
 | <span id="game-produce-movement"></span>`produce_movement` | Make a movement | The player carries out or learns a movement pattern. | The movement itself is measured, not a choice it expresses. |
-| <span id="game-undergo-stream"></span>`undergo_stream` | Watch or listen | The player takes in a stream; the measure is the response to the stream itself. | No answer is scored against a correct one as a main measure. |
+| <span id="game-experience-passively"></span>`experience_passively` | Experience passively | The player takes in what is presented without making a judgment or a choice about it; the measure is the reaction to it. | No judgment or choice about what is presented is asked while it runs, and no answer is scored against a correct one as a main measure. A report may follow; a second job done meanwhile is a combined game. |
 | <span id="game-navigate"></span>`navigate` | Find the way | The player moves through a space to reach a goal. | The path through the space is the measure. |
 | <span id="game-report-on-self"></span>`report_on_self` | Report on yourself | The player reports an internal state, a timing, or a memory of their own. | No answer can be checked against a correct one. |
 | <span id="game-hold-state"></span>`hold_state` | Hold a state | The player keeps a bodily or mental state as instructed while the recording runs. | Nothing is presented that calls for a response and nothing is reported; holding the state is the whole job (rest, fixation). |
@@ -199,48 +199,48 @@ Rules of the game type `study_then_test`.
 
 ### Choose for a payoff
 
-Rules of the game type `choose_for_outcomes`.
+Rules of the game type `choose_for_payoff`.
 
-<span id="rule-choose-for-outcomes-contingency-cue"></span>**Does a cue say which payoffs are in force?** Rule `contingency_cue`, default `none`.
-
-| Value | Definition |
-|---|---|
-| <span id="rule-choose-for-outcomes-contingency-cue-none"></span>`none` | No cue says which payoffs are in force. |
-| <span id="rule-choose-for-outcomes-contingency-cue-per-trial-cue"></span>`per_trial_cue` | A cue on each trial says which payoffs are in force. |
-
-<span id="rule-choose-for-outcomes-contingency-stability"></span>**Does what pays change?** Rule `contingency_stability`, default `fixed`.
+<span id="rule-choose-for-payoff-contingency-cue"></span>**Does a cue say which payoffs are in force?** Rule `contingency_cue`, default `none`.
 
 | Value | Definition |
 |---|---|
-| <span id="rule-choose-for-outcomes-contingency-stability-fixed"></span>`fixed` | What each option pays stays the same throughout. |
-| <span id="rule-choose-for-outcomes-contingency-stability-drifting"></span>`drifting` | What each option pays changes gradually. |
-| <span id="rule-choose-for-outcomes-contingency-stability-reversal"></span>`reversal` | What the options pay is swapped at some point, without warning. |
+| <span id="rule-choose-for-payoff-contingency-cue-none"></span>`none` | No cue says which payoffs are in force. |
+| <span id="rule-choose-for-payoff-contingency-cue-per-trial-cue"></span>`per_trial_cue` | A cue on each trial says which payoffs are in force. |
 
-<span id="rule-choose-for-outcomes-option-set"></span>**What are the options?** Rule `option_set`, default `k_hidden_outcome`.
-
-| Value | Definition |
-|---|---|
-| <span id="rule-choose-for-outcomes-option-set-k-hidden-outcome"></span>`k_hidden_outcome` | Several options whose payoffs are learned by trying them (decks, arms). |
-| <span id="rule-choose-for-outcomes-option-set-stimulus-pairs"></span>`stimulus_pairs` | Pairs of symbols whose values are learned. |
-| <span id="rule-choose-for-outcomes-option-set-two-described"></span>`two_described` | Two options whose payoffs are stated. |
-| <span id="rule-choose-for-outcomes-option-set-one-option-with-stop"></span>`one_option_with_stop` | One option to keep taking until the player chooses to stop (pumping a balloon). |
-
-<span id="rule-choose-for-outcomes-outcome-knowledge"></span>**How does the player learn what pays?** Rule `outcome_knowledge`, default `experienced`.
+<span id="rule-choose-for-payoff-contingency-stability"></span>**Does what pays change?** Rule `contingency_stability`, default `fixed`.
 
 | Value | Definition |
 |---|---|
-| <span id="rule-choose-for-outcomes-outcome-knowledge-experienced"></span>`experienced` | The player learns what an option pays by choosing it and seeing the outcome. |
-| <span id="rule-choose-for-outcomes-outcome-knowledge-described"></span>`described` | The player is told what each option pays before choosing. |
+| <span id="rule-choose-for-payoff-contingency-stability-fixed"></span>`fixed` | What each option pays stays the same throughout. |
+| <span id="rule-choose-for-payoff-contingency-stability-drifting"></span>`drifting` | What each option pays changes gradually. |
+| <span id="rule-choose-for-payoff-contingency-stability-reversal"></span>`reversal` | What the options pay is swapped at some point, without warning. |
 
-<span id="rule-choose-for-outcomes-tradeoff"></span>**What is traded against what?** Rule `tradeoff`, default `amount_vs_risk`.
+<span id="rule-choose-for-payoff-option-set"></span>**What are the options?** Rule `option_set`, default `k_hidden_outcome`.
 
 | Value | Definition |
 |---|---|
-| <span id="rule-choose-for-outcomes-tradeoff-amount-vs-risk"></span>`amount_vs_risk` | A bigger reward against a bigger risk of loss. |
-| <span id="rule-choose-for-outcomes-tradeoff-amount-vs-effort"></span>`amount_vs_effort` | A bigger reward against more effort. |
-| <span id="rule-choose-for-outcomes-tradeoff-explore-vs-exploit"></span>`explore_vs_exploit` | Trying other options against staying with the best known one, where values must be tracked. |
-| <span id="rule-choose-for-outcomes-tradeoff-probability-learning"></span>`probability_learning` | Learning which option pays most often. |
-| <span id="rule-choose-for-outcomes-tradeoff-amount-vs-delay"></span>`amount_vs_delay` | A bigger reward against a longer wait. |
+| <span id="rule-choose-for-payoff-option-set-k-hidden-outcome"></span>`k_hidden_outcome` | Several options whose payoffs are learned by trying them (decks, arms). |
+| <span id="rule-choose-for-payoff-option-set-stimulus-pairs"></span>`stimulus_pairs` | Pairs of symbols whose values are learned. |
+| <span id="rule-choose-for-payoff-option-set-two-described"></span>`two_described` | Two options whose payoffs are stated. |
+| <span id="rule-choose-for-payoff-option-set-one-option-with-stop"></span>`one_option_with_stop` | One option to keep taking until the player chooses to stop (pumping a balloon). |
+
+<span id="rule-choose-for-payoff-outcome-knowledge"></span>**How does the player learn what pays?** Rule `outcome_knowledge`, default `experienced`.
+
+| Value | Definition |
+|---|---|
+| <span id="rule-choose-for-payoff-outcome-knowledge-experienced"></span>`experienced` | The player learns what an option pays by choosing it and seeing the outcome. |
+| <span id="rule-choose-for-payoff-outcome-knowledge-described"></span>`described` | The player is told what each option pays before choosing. |
+
+<span id="rule-choose-for-payoff-tradeoff"></span>**What is traded against what?** Rule `tradeoff`, default `amount_vs_risk`.
+
+| Value | Definition |
+|---|---|
+| <span id="rule-choose-for-payoff-tradeoff-amount-vs-risk"></span>`amount_vs_risk` | A bigger reward against a bigger risk of loss. |
+| <span id="rule-choose-for-payoff-tradeoff-amount-vs-effort"></span>`amount_vs_effort` | A bigger reward against more effort. |
+| <span id="rule-choose-for-payoff-tradeoff-explore-vs-exploit"></span>`explore_vs_exploit` | Trying other options against staying with the best known one, where values must be tracked. |
+| <span id="rule-choose-for-payoff-tradeoff-probability-learning"></span>`probability_learning` | Learning which option pays most often. |
+| <span id="rule-choose-for-payoff-tradeoff-amount-vs-delay"></span>`amount_vs_delay` | A bigger reward against a longer wait. |
 
 ### Play against another player
 
@@ -289,27 +289,26 @@ Rules of the game type `interact_with_agent`.
 | <span id="rule-interact-with-agent-transfer-transformation-none"></span>`none` | What one player sends is what the other receives. |
 | <span id="rule-interact-with-agent-transfer-transformation-multiplied"></span>`multiplied` | What one player sends is multiplied before the other receives it. |
 
-### Watch or listen
+### Experience passively
 
-Rules of the game type `undergo_stream`.
+Rules of the game type `experience_passively`.
 
-<span id="rule-undergo-stream-instruction"></span>**What is the player told to do while it runs?** Rule `instruction`, default `attend`.
-
-| Value | Definition |
-|---|---|
-| <span id="rule-undergo-stream-instruction-attend"></span>`attend` | The player is told to attend to the stream; covers 'simply view' and 'listen'. |
-| <span id="rule-undergo-stream-instruction-none"></span>`none` | The player is told to ignore the stream or is given no instruction about it. |
-| <span id="rule-undergo-stream-instruction-regulate"></span>`regulate` | The player is told to change their emotional response to the stream. |
-| <span id="rule-undergo-stream-instruction-incidental-judgment"></span>`incidental_judgment` | The player is given a job that does not ask about the property being studied. |
-
-<span id="rule-undergo-stream-report-after"></span>**Is anything asked afterwards?** Rule `report_after`, default `rating`.
+<span id="rule-experience-passively-instruction"></span>**What is the player told to do while it runs?** Rule `instruction`, default `attend`.
 
 | Value | Definition |
 |---|---|
-| <span id="rule-undergo-stream-report-after-rating"></span>`rating` | A rating, such as of fear, expectancy or pleasantness. |
-| <span id="rule-undergo-stream-report-after-comprehension-question"></span>`comprehension_question` | A question about what was read or heard. |
-| <span id="rule-undergo-stream-report-after-none"></span>`none` | Nothing is asked afterwards. |
-| <span id="rule-undergo-stream-report-after-judgment"></span>`judgment` | A judgment about the content, such as how strongly one thing causes another. |
+| <span id="rule-experience-passively-instruction-attend"></span>`attend` | The player is told to attend to what is presented; covers 'simply view' and 'listen'. |
+| <span id="rule-experience-passively-instruction-none"></span>`none` | The player is told to ignore what is presented or is given no instruction about it. |
+| <span id="rule-experience-passively-instruction-regulate"></span>`regulate` | The player is told to change their emotional response to what is presented. |
+
+<span id="rule-experience-passively-report-after"></span>**Is anything asked afterwards?** Rule `report_after`, default `rating`.
+
+| Value | Definition |
+|---|---|
+| <span id="rule-experience-passively-report-after-rating"></span>`rating` | A rating, such as of fear, expectancy or pleasantness. |
+| <span id="rule-experience-passively-report-after-comprehension-question"></span>`comprehension_question` | A question about what was read or heard. |
+| <span id="rule-experience-passively-report-after-none"></span>`none` | Nothing is asked afterwards. |
+| <span id="rule-experience-passively-report-after-judgment"></span>`judgment` | A judgment about the content, such as how strongly one thing causes another. |
 
 ## Game motivators
 

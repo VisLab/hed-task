@@ -19,9 +19,9 @@ The standard form of the task, the one the inclusion test defines, as a game, in
 of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
 parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> (`choose_for_outcomes`)
+- **Game type:** <a href="vocabulary.html#game-choose-for-payoff">Choose for a payoff</a> (`choose_for_payoff`)
 - **Game rules:** the answers that differ from the defaults of the game type
-  - *What are the options?* <a href="vocabulary.html#rule-choose-for-outcomes-option-set-one-option-with-stop">one option with stop</a>
+  - *What are the options?* <a href="vocabulary.html#rule-choose-for-payoff-option-set-one-option-with-stop">one option with stop</a>
 - **Game motivators:**
   - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
   - *Can the player gain, lose, or both?* <a href="vocabulary.html#motivator-sign-both">both</a>
@@ -88,7 +88,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Variable Explosion Probability
 
     `hedvar_balloon_analog_risk__variable_explosion_probability`
-  - contingency cue: <a href="vocabulary.html#rule-choose-for-outcomes-contingency-cue-per-trial-cue">per trial cue</a>
+  - contingency cue: <a href="vocabulary.html#rule-choose-for-payoff-contingency-cue-per-trial-cue">per trial cue</a>
   - [Associative learning](../processes/associative_learning_and_reinforcement.md#hed-associative-learning)
   - Balloon color signals which hidden pop schedule applies, so the participant learns within the session which colors are risky.
 * - Social Context BART

@@ -89,7 +89,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Multiple-Target Search (Foraging)
 
     `hedvar_visual_search__multiple_target_search_foraging`
-  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>; combined with: <a href="vocabulary.html#how-throughout">throughout</a>, <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a> (The player decides when to leave the display)
+  - task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-mouse">mouse</a>; trial structure: <a href="vocabulary.html#facet-trial-structure-self-paced-trials">self paced trials</a>; rule asks: <a href="vocabulary.html#rule-respond-to-rule-rule-asks-localize">localize</a>; combined with: <a href="vocabulary.html#how-throughout">throughout</a>, <a href="vocabulary.html#game-choose-for-payoff">choose for payoff</a> (The player decides when to leave the display)
   - [Value-based decision making](../processes/value_based_decision_making_under_risk_and_uncertainty.md#hed-value-based-decision-making)
   - Each display holds several targets that the participant collects by clicking, deciding when to quit the display for a new one, so the job becomes localizing targets with a patch-leaving choice layered on top.
 * - Real-World/Naturalistic Search

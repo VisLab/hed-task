@@ -19,10 +19,9 @@ The standard form of the task, the one the inclusion test defines, as a game, in
 of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
 parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-undergo-stream">Watch or listen</a> (`undergo_stream`)
+- **Game type:** <a href="vocabulary.html#game-experience-passively">Experience passively</a> (`experience_passively`)
 - **Game rules:** the answers that differ from the defaults of the game type
-  - *What is the player told to do while it runs?* <a href="vocabulary.html#rule-undergo-stream-instruction-incidental-judgment">incidental judgment</a>
-  - *Is anything asked afterwards?* <a href="vocabulary.html#rule-undergo-stream-report-after-none">none</a>
+  - *Is anything asked afterwards?* <a href="vocabulary.html#rule-experience-passively-report-after-none">none</a>
 - **Game motivators:**
   - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
 - **Game phases:** none beyond the game's own structure
@@ -35,6 +34,7 @@ parts. A variant states only what it changes.
   - Population: <a href="vocabulary.html#facet-population-young-adults">young adults</a>
 - **Settings:** <a href="vocabulary.html#setting-block-duration">block duration</a>
 - **Material:** Blocks of face photographs alternating with blocks of non-face objects such as houses, cars or scrambled images.
+- **Combined with:** <a href="vocabulary.html#how-throughout">throughout</a>, <a href="vocabulary.html#game-respond-to-rule">respond to rule</a> (A repetition-detection job is done on the items while they are viewed)
 
 ## Inclusion test
 

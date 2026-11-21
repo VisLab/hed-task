@@ -19,9 +19,9 @@ The standard form of the task, the one the inclusion test defines, as a game, in
 of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
 parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-undergo-stream">Watch or listen</a> (`undergo_stream`)
+- **Game type:** <a href="vocabulary.html#game-experience-passively">Experience passively</a> (`experience_passively`)
 - **Game rules:** the answers that differ from the defaults of the game type
-  - *Is anything asked afterwards?* <a href="vocabulary.html#rule-undergo-stream-report-after-comprehension-question">comprehension question</a>
+  - *Is anything asked afterwards?* <a href="vocabulary.html#rule-experience-passively-report-after-comprehension-question">comprehension question</a>
 - **Game motivators:**
   - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
 - **Game phases:** none beyond the game's own structure
@@ -81,7 +81,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Speed-Accuracy Tradeoff (SAT) Studies
 
     `hedvar_sentence_comprehension__speed_accuracy_tradeoff_sat_studies`
-  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>; report after: <a href="vocabulary.html#rule-undergo-stream-report-after-judgment">judgment</a>
+  - trial structure: <a href="vocabulary.html#facet-trial-structure-fixed-time-trials">fixed time trials</a>; report after: <a href="vocabulary.html#rule-experience-passively-report-after-judgment">judgment</a>
   - -
   - The participant judges each sentence's acceptability at a response signal that comes at one of several delays after the sentence ends.
 ```

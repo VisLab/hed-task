@@ -46,7 +46,7 @@ Read the "How to tell" sentence of each of the ten
 The type follows from what the player does and what is scored, not from the construct
 the authors study. The questions that separate the types most often are these:
 
-- Is any answer scored against a correct one? If not, the game is Watch or listen,
+- Is any answer scored against a correct one? If not, the game is Experience passively,
   Report on yourself, or Hold a state.
 - Is the correct answer fixed by a rule and the stimulus in front of the player
   (Respond under a rule), by material the player studied earlier (Study, then be

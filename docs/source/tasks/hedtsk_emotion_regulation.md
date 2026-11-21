@@ -19,9 +19,9 @@ The standard form of the task, the one the inclusion test defines, as a game, in
 of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
 parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-undergo-stream">Watch or listen</a> (`undergo_stream`)
+- **Game type:** <a href="vocabulary.html#game-experience-passively">Experience passively</a> (`experience_passively`)
 - **Game rules:** the answers that differ from the defaults of the game type
-  - *What is the player told to do while it runs?* <a href="vocabulary.html#rule-undergo-stream-instruction-regulate">regulate</a>
+  - *What is the player told to do while it runs?* <a href="vocabulary.html#rule-experience-passively-instruction-regulate">regulate</a>
 - **Game motivators:**
   - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
 - **Game phases:** none beyond the game's own structure
@@ -99,7 +99,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Implicit Emotion Regulation
 
     `hedvar_emotion_regulation__implicit_emotion_regulation`
-  - emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>, <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>; instruction: <a href="vocabulary.html#rule-undergo-stream-instruction-none">none</a>
+  - emotional aspect: <a href="vocabulary.html#facet-emotional-aspect-emotional-stimuli">emotional stimuli</a>, <a href="vocabulary.html#facet-emotional-aspect-explicit-emotion-task">explicit emotion task</a>; instruction: <a href="vocabulary.html#rule-experience-passively-instruction-none">none</a>
   - -
   - No regulation instruction is given; regulation is inferred from responses after a self-control prime or from spontaneous recovery.
 ```

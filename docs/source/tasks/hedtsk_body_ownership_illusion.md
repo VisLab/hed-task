@@ -19,9 +19,9 @@ The standard form of the task, the one the inclusion test defines, as a game, in
 of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
 parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-undergo-stream">Watch or listen</a> (`undergo_stream`)
+- **Game type:** <a href="vocabulary.html#game-experience-passively">Experience passively</a> (`experience_passively`)
 - **Game rules:** the answers that differ from the defaults of the game type
-  - *What is the player told to do while it runs?* <a href="vocabulary.html#rule-undergo-stream-instruction-none">none</a>
+  - *What is the player told to do while it runs?* <a href="vocabulary.html#rule-experience-passively-instruction-none">none</a>
 - **Game motivators:**
   - *Why does the player try?* <a href="vocabulary.html#motivator-drive-instructions-only">instructions only</a>
 - **Game phases:** none beyond the game's own structure
@@ -92,7 +92,7 @@ variant is `hedvar_<task>__<variant>`.
 * - Enfacement Illusion
 
     `hedvar_body_ownership_illusion__enfacement_illusion`
-  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>, <a href="vocabulary.html#facet-stimulus-type-pressure">pressure</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>; report after: <a href="vocabulary.html#rule-undergo-stream-report-after-judgment">judgment</a>
+  - stimulus type: <a href="vocabulary.html#facet-stimulus-type-faces">faces</a>, <a href="vocabulary.html#facet-stimulus-type-film-clips">film clips</a>, <a href="vocabulary.html#facet-stimulus-type-pressure">pressure</a>; task I/O device: <a href="vocabulary.html#facet-task-io-device-computer-screen">computer screen</a>, <a href="vocabulary.html#facet-task-io-device-keyboard">keyboard</a>; social aspect: <a href="vocabulary.html#facet-social-aspect-social-stimuli">social stimuli</a>; report after: <a href="vocabulary.html#rule-experience-passively-report-after-judgment">judgment</a>
   - [Face perception](../processes/face_and_object_perception.md#hed-face-perception), [Self-other distinction](../processes/social_cognition_and_strategic_social_choice.md#hed-self-other-distinction)
   - The participant's face is stroked in time with a video of another person's face being stroked, and afterwards they judge morphed faces as self or other, a judgment replacing the questionnaire rating.
 * - Somatosensory Rubber Hand Illusion

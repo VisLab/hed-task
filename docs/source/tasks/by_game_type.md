@@ -87,7 +87,7 @@ The player takes material in, holds it over an interval, then shows what they ke
 
 ## Choose for a payoff
 
-The player picks an option, sees what it pays, and picks again. Game type <a href="vocabulary.html#game-choose-for-outcomes">choose for outcomes</a>; 9 tasks.
+The player picks an option, sees what it pays, and picks again. Game type <a href="vocabulary.html#game-choose-for-payoff">choose for payoff</a>; 9 tasks.
 
 - [Balloon Analog Risk Task](hedtsk_balloon_analog_risk.md)
 - [Delay Discounting Task](hedtsk_delay_discounting.md)
@@ -128,9 +128,9 @@ The player carries out or learns a movement pattern. Game type <a href="vocabula
 - [Mirror Tracing Task](hedtsk_mirror_tracing.md)
 - [Motor Sequence Learning Task](hedtsk_motor_sequence_learning.md)
 
-## Watch or listen
+## Experience passively
 
-The player takes in a stream; the measure is the response to the stream itself. Game type <a href="vocabulary.html#game-undergo-stream">undergo stream</a>; 8 tasks.
+The player takes in what is presented without making a judgment or a choice about it; the measure is the reaction to it. Game type <a href="vocabulary.html#game-experience-passively">experience passively</a>; 8 tasks.
 
 - [Affective Picture Viewing Task](hedtsk_affective_picture_viewing.md)
 - [Body Ownership Illusion Task](hedtsk_body_ownership_illusion.md)

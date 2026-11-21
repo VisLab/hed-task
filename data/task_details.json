@@ -27,7 +27,7 @@
         "fMRI amygdala/PFC activation"
       ]
     },
-    "game_type": "undergo_stream",
+    "game_type": "experience_passively",
     "motivators": {
       "drive": [
         "instructions_only"
@@ -1733,7 +1733,7 @@
         "Response rate across trial segments"
       ]
     },
-    "game_type": "choose_for_outcomes",
+    "game_type": "choose_for_payoff",
     "rules": {
       "option_set": "one_option_with_stop"
     },
@@ -4174,7 +4174,7 @@
         "Area under the discount curve (AUC)"
       ]
     },
-    "game_type": "choose_for_outcomes",
+    "game_type": "choose_for_payoff",
     "rules": {
       "option_set": "two_described",
       "outcome_knowledge": "described",
@@ -6217,7 +6217,7 @@
         "ERP (LPP reduction)"
       ]
     },
-    "game_type": "undergo_stream",
+    "game_type": "experience_passively",
     "rules": {
       "instruction": "regulate"
     },
@@ -6288,7 +6288,7 @@
           ]
         },
         "candidates": [
-          "cand_undergo_stream__instruction__choose_exposure"
+          "cand_experience_passively__instruction__choose_exposure"
         ]
       },
       {
@@ -7200,9 +7200,8 @@
         "Lateralization index"
       ]
     },
-    "game_type": "undergo_stream",
+    "game_type": "experience_passively",
     "rules": {
-      "instruction": "incidental_judgment",
       "report_after": "none"
     },
     "motivators": {
@@ -7237,6 +7236,13 @@
       "block_duration"
     ],
     "material": "Blocks of face photographs alternating with blocks of non-face objects such as houses, cars or scrambled images.",
+    "combined_with": [
+      {
+        "game_type": "respond_to_rule",
+        "how": "throughout",
+        "note": "A repetition-detection job is done on the items while they are viewed."
+      }
+    ],
     "variants": [
       {
         "variant_id": "hedvar_face_processing__dynamic_face_localizer",
@@ -9590,7 +9596,7 @@
         "Transfer effects between Pavlovian cues and instrumental actions"
       ]
     },
-    "game_type": "choose_for_outcomes",
+    "game_type": "choose_for_payoff",
     "rules": {
       "tradeoff": "amount_vs_effort"
     },
@@ -9630,7 +9636,7 @@
     },
     "material": "Choice options whose responses are followed, on a reinforcement schedule, by rewards (food, money, points) or losses.",
     "candidates": [
-      "cand_choose_for_outcomes__option_set__single_response_schedule"
+      "cand_choose_for_payoff__option_set__single_response_schedule"
     ],
     "variants": [
       {
@@ -9670,7 +9676,7 @@
           "acquisition"
         ],
         "candidates": [
-          "cand_choose_for_outcomes__phases__acquisition_plus_degradation"
+          "cand_choose_for_payoff__phases__acquisition_plus_degradation"
         ]
       },
       {
@@ -9938,7 +9944,7 @@
         "Anticipatory SCR before deck selection"
       ]
     },
-    "game_type": "choose_for_outcomes",
+    "game_type": "choose_for_payoff",
     "motivators": {
       "drive": [
         "reward_goal"
@@ -11225,7 +11231,7 @@
         "Scalp topography"
       ]
     },
-    "game_type": "undergo_stream",
+    "game_type": "experience_passively",
     "rules": {
       "instruction": "none",
       "report_after": "none"
@@ -12498,7 +12504,7 @@
         "Regret"
       ]
     },
-    "game_type": "choose_for_outcomes",
+    "game_type": "choose_for_payoff",
     "rules": {
       "tradeoff": "explore_vs_exploit"
     },
@@ -15362,7 +15368,7 @@
         "Extinction learning curve"
       ]
     },
-    "game_type": "undergo_stream",
+    "game_type": "experience_passively",
     "rules": {
       "instruction": "none"
     },
@@ -15444,7 +15450,7 @@
           "extinction"
         ],
         "candidates": [
-          "cand_undergo_stream__phases__acquisition_extinction_renewal"
+          "cand_experience_passively__phases__acquisition_extinction_renewal"
         ]
       },
       {
@@ -15456,7 +15462,7 @@
           "extinction"
         ],
         "candidates": [
-          "cand_undergo_stream__phases__acquisition_extinction_reinstatement"
+          "cand_experience_passively__phases__acquisition_extinction_reinstatement"
         ]
       },
       {
@@ -15469,7 +15475,7 @@
           "test"
         ],
         "candidates": [
-          "cand_undergo_stream__phases__acquisition_reactivation_extinction_test"
+          "cand_experience_passively__phases__acquisition_reactivation_extinction_test"
         ],
         "hed_process_ids": [
           "hed_reconsolidation"
@@ -15484,7 +15490,7 @@
           "test"
         ],
         "candidates": [
-          "cand_undergo_stream__phases__acquisition_generalization_test"
+          "cand_experience_passively__phases__acquisition_generalization_test"
         ]
       },
       {
@@ -15492,7 +15498,7 @@
         "name": "Instructed vs. Uninstructed",
         "note": "Some participants are told in advance which cue predicts the US, so the contingency is given verbally rather than learned by exposure.",
         "candidates": [
-          "cand_undergo_stream__instruction__contingency_told"
+          "cand_experience_passively__instruction__contingency_told"
         ]
       },
       {
@@ -17604,7 +17610,7 @@
         "Fit to actor-critic or opponent-actor learning models"
       ]
     },
-    "game_type": "choose_for_outcomes",
+    "game_type": "choose_for_payoff",
     "rules": {
       "option_set": "stimulus_pairs",
       "tradeoff": "probability_learning"
@@ -20355,7 +20361,7 @@
         "Reversal cost"
       ]
     },
-    "game_type": "choose_for_outcomes",
+    "game_type": "choose_for_payoff",
     "rules": {
       "option_set": "stimulus_pairs",
       "tradeoff": "probability_learning",
@@ -21238,7 +21244,7 @@
         "Comprehension question accuracy"
       ]
     },
-    "game_type": "undergo_stream",
+    "game_type": "experience_passively",
     "rules": {
       "report_after": "comprehension_question"
     },
@@ -25679,7 +25685,7 @@
         "Computational model fits (hybrid MB/MF learning rates, mixing weight)"
       ]
     },
-    "game_type": "choose_for_outcomes",
+    "game_type": "choose_for_payoff",
     "rules": {
       "tradeoff": "explore_vs_exploit",
       "contingency_stability": "drifting"
@@ -25724,7 +25730,7 @@
     ],
     "material": "A pair of first-stage options leading by common (70%) or rare (30%) transitions to one of two second-stage pairs whose reward probabilities drift slowly.",
     "candidates": [
-      "cand_choose_for_outcomes__option_set__two_stage",
+      "cand_choose_for_payoff__option_set__two_stage",
       "cand_setting__reward_drift_rate"
     ],
     "variants": [
@@ -25761,7 +25767,7 @@
         "name": "Two-Stage with Instructed Knowledge",
         "note": "The transition probabilities are taught before the task, while the second-stage reward probabilities are still learned by experience.",
         "candidates": [
-          "cand_choose_for_outcomes__outcome_knowledge__mixed"
+          "cand_choose_for_payoff__outcome_knowledge__mixed"
         ]
       }
     ],
@@ -27849,7 +27855,7 @@
         },
         "combined_with": [
           {
-            "game_type": "choose_for_outcomes",
+            "game_type": "choose_for_payoff",
             "how": "throughout",
             "note": "The player decides when to leave the display."
           }
@@ -29940,7 +29946,7 @@
         "Computational model parameters (effort sensitivity, reward sensitivity, probability weighting)"
       ]
     },
-    "game_type": "choose_for_outcomes",
+    "game_type": "choose_for_payoff",
     "rules": {
       "option_set": "two_described",
       "outcome_knowledge": "described",
@@ -30064,7 +30070,7 @@
           ]
         },
         "candidates": [
-          "cand_choose_for_outcomes__tradeoff__effort_avoidance"
+          "cand_choose_for_payoff__tradeoff__effort_avoidance"
         ]
       },
       {
@@ -32020,7 +32026,7 @@
           ]
         },
         "candidates": [
-          "cand_undergo_stream__stream__summary_table"
+          "cand_experience_passively__stream__summary_table"
         ]
       },
       {
@@ -32284,7 +32290,7 @@
         "Grip force or other motor measures"
       ]
     },
-    "game_type": "undergo_stream",
+    "game_type": "experience_passively",
     "rules": {
       "instruction": "none"
     },
@@ -32407,7 +32413,7 @@
         },
         "candidates": [
           "cand_facet__task_io_device__physiological_recording",
-          "cand_undergo_stream__phases__induction_then_threat_probe"
+          "cand_experience_passively__phases__induction_then_threat_probe"
         ]
       }
     ],
@@ -33275,7 +33281,7 @@
         "Reading time differences between conditions at the critical region"
       ]
     },
-    "game_type": "undergo_stream",
+    "game_type": "experience_passively",
     "rules": {
       "report_after": "comprehension_question"
     },

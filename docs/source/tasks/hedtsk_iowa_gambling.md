@@ -19,7 +19,7 @@ The standard form of the task, the one the inclusion test defines, as a game, in
 of the [game vocabulary](vocabulary.md). [The task model](../task_model.md) explains the
 parts. A variant states only what it changes.
 
-- **Game type:** <a href="vocabulary.html#game-choose-for-outcomes">Choose for a payoff</a> (`choose_for_outcomes`)
+- **Game type:** <a href="vocabulary.html#game-choose-for-payoff">Choose for a payoff</a> (`choose_for_payoff`)
 - **Game rules:** every rule takes the default of the game type
 - **Game motivators:**
   - *Why does the player try?* <a href="vocabulary.html#motivator-drive-reward-goal">reward goal</a>
@@ -93,7 +93,7 @@ variant is `hedvar_<task>__<variant>`.
 * - IGT with Explicit Probabilities
 
     `hedvar_iowa_gambling__igt_with_explicit_probabilities`
-  - outcome knowledge: <a href="vocabulary.html#rule-choose-for-outcomes-outcome-knowledge-described">described</a>
+  - outcome knowledge: <a href="vocabulary.html#rule-choose-for-payoff-outcome-knowledge-described">described</a>
   - -
   - The win and loss amounts and probabilities of each deck are stated before play, so the options are described rather than discovered.
 ```

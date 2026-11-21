@@ -159,8 +159,9 @@ but they are needed to compare two tasks or to rebuild one.
   values.
 - **Material** is one sentence saying what the stimuli are: "Color words (RED, BLUE)
   printed in ink of a matching or a different color."
-- **Combined games.** Some tasks give the player a second job. It is recorded as a
-  second game, with its own game type, and the way the two are combined: in quick
+- **Combined games.** Some tasks give the player a second job, so a task can have more
+  than one game type. The second job is recorded as a second game, with its own game
+  type, and the way the two are combined: in quick
   succession, throughout, interleaved, inserted or chained. The main game is the one the
   task's measure comes from. Holding the eyes on a fixation point while a cueing task
   is played is the Fixate Task combined `throughout`; verifying an equation between the
@@ -210,8 +211,9 @@ test. The rules are in
 
 ### Motivators and phases: the Pavlovian Fear Conditioning Task
 
-- **Game type:** Watch or listen. No answer is scored against a correct one; the
-  measure is the response to the stream itself.
+- **Game type:** Experience passively. No judgment or choice about what is presented
+  is asked and no answer is scored against a correct one; the measure is the reaction
+  to what is presented.
 - **Game rules:** one stated. *What is the player told to do while it runs?* `none`.
 - **Game motivators:** `drive` is `unearned_outcome`; `sign` is `loss`; `earned_by` is
   `nothing`; `what` is `aversive`; `real` is `paid`. The shock comes whatever the player
